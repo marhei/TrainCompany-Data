@@ -1,0 +1,623 @@
+{
+	"data": [
+		{
+			"group": 1,
+			"name": "ICE von %s nach %s",
+			"descriptions": [
+				"Der ICE muss über die Schnellfahrstrecke nach %2$s.",
+				"Der ICE muss von %s über die SFS nach %s gebracht werden.",
+				"Bringe den ICE über die SFS pünktlich von %s nach %s."
+			],
+			"plops": 500000,
+			"plopDifference": 8,
+			"objects":
+			[
+				{"stations": ["RM", "FFLF", "FLIS", "FMT", "KSIB", "KKDZ", "KD", "EDG", "EE", "EBO", "EDO", "EHM"]},
+				{"stations": ["NN", "NWH", "NAH", "FH", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KKDZ", "KD", "EDG", "EE", "EBO", "EDO", "EHM"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "ICE von %s nach %s",
+			"descriptions": [
+				"Der ICE muss über das Ruhrgebiet nach %2$s.",
+				"Der ICE muss von %s über NRW nach %s gebracht werden.",
+				"Bringe den ICE über das Ruhrgebiet pünktlich von %s nach %s."
+			],
+			"plops": 560000,
+			"plopDifference": 8,
+			"stations": ["FD", "FFLF", "FLIS", "FMT", "KSIB", "KKDZ", "KD", "EDG", "EE", "EBO", "EDO", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FFU", "NWH", "NN"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "ICE von %s nach %s",
+			"descriptions": [
+				"Der ICE muss nach %2$s gebracht. Er startet in %1$s.",
+				"Der ICE muss von %s nach %s gebracht werden. Verwende die schnellste Strecke.",
+				"Bringe den ICE pünktlich und schnell von %s nach %s."
+			],
+			"plops": 480000,
+			"plopDifference": 8,
+			"objects":
+			[
+				{"stations": ["RH", "RM", "FF", "FH", "FFU", "FKW", "HG"]},
+				{"stations": ["NN", "NWH", "FFU", "FKW", "HG"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "ICE von %s nach %s",
+			"descriptions": [
+				"Dieser ICE stellt eine Ost-West-Verbindung sicher.",
+				"Bring die Fahrgäste Abseits der SFS von %s nach %s."
+			],
+			"plops": 480000,
+			"plopDifference": 8,
+			"stations": ["FW", "FMZ", "FFLF", "FF", "FH", "FFU", "FBHF", "UEI", "UGO", "UE P"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+
+		{
+			"group": 1,
+			"name": "Alleo-ICE von %s nach %s",
+			"descriptions": [
+				"Auf dem französischen Abschnitt ist ein Umstieg in einen Zug der SNCF nötig."
+			],
+			"plops": 480000,
+			"plopDifference": 8,
+			"stations": ["FF", "RM", "SKL", "SSH", "XFFB"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Eröffnungs-ICE nach %2$s",
+			"descriptions": [
+				"Zur Eröffnung der VDE8 wird ein ICE von %s nach %s gefahren.",
+				"Die VDE8 wird heute feierlich eröffnet, viele Politiker sind geladen.",
+				"Bringe die Eröffnungsgäste störungsfrei über die neue VDE8."
+			],
+			"plops": 500000,
+			"stations": ["NN", "UE P"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "ICE-Zubringer nach %2$s",
+			"descriptions": [
+				"Wegen eines Haltausfalls eines ICE in %s müssen die Fahrgäste schnell nach %s.",
+				"Der ICE International fängt heute erst in %2$s an, bringe die Fahrgäste dort schnell hin."
+			],
+			"plops": 150000,
+			"plopDifference": 8,
+			"objects":
+			[
+				{"stations": ["KK", "KKDZ"]},
+				{"stations": ["FF", "FFLF"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity von %s nach %s, über die Rheinstrecke.",
+				"Der IC muss von %s über die Rheinstrecke nach %s gebracht werden.",
+				"Bringe den IC über die Rheinstrecke pünktlich von %s nach %s."
+			],
+			"plops": 450000,
+			"plopDifference": 8,
+			"objects":
+			[
+				{"stations": ["SSH", "STR", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO"]},
+				{"stations": ["RH", "RM", "FWOR", "FMZ", "FBGK", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO"]},
+				{"stations": ["NN", "NWH", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "IC der Mitte-Deutschland-Verbindung nach %2$s",
+			"descriptions": [
+				"Ein IC muss auf der mäßig ausgelasteten Verbindung von %s nach %s gefahren werden.",
+				"Bring den Zug von %s nach %s um eine Ost-West-Verbindung sicherzustellen."
+			],
+			"plops": 400000,
+			"stations": ["KK", "KKDZ", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Eifel-Mosel-Express von %s nach %s",
+			"descriptions": [
+				"Bringe den RE12 von %s nach %s. Der Zug ist nur schwach ausgelastet.",
+				"Der RE12 muss von %s nach %s gebracht werden. Die Strecke ist nicht stark ausgelastet.",
+				"Bringe den Regional-Express der Linie 12 pünktlich von %s nach %s."
+			],
+			"plops": 380000,
+			"stations": ["KK", "KKAS", "KEST", "KEU", "SGR", "SED", "STR"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Moselbahn von %s nach %s",
+			"descriptions": [
+				"Der Zug muss durchs mahlerische Moseltal von %s nach %s gebracht werden.",
+				"Die kurvige Strecke führt von %s nach %s."
+			],
+			"plops": 380000,
+			"stations": ["KKO", "SKG", "SMD", "SCOC", "SBY", "SWIH", "STR"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Sauerland-Express von %s nach %s",
+			"descriptions": [
+				"Bringe den RE17 von %s nach %s. Der Zug ist nur mittelmäßig ausgelastet.",
+				"Der RE17 muss von %s nach %s gebracht werden. Die Strecke ist nicht sehr stark ausgelastet.",
+				"Bringe den Regional-Express der Linie 17 pünktlich von %s nach %s."
+			],
+			"plops": 380000,
+			"stations": ["EHG", "EARB", "EOLS", "EMAR", "HWAR", "FKW"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE7 von %s nach %s",
+			"descriptions": [
+				"Bringe den RE7 von %s nach %s. Der Zug ist nur mittelmäßig ausgelastet.",
+				"Der RE7 muss von %s nach %s gebracht werden. Die Strecke ist nicht sehr stark ausgelastet.",
+				"Bringe den Regional-Express der Linie 7 pünktlich von %s nach %s."
+			],
+			"plops": 390000,
+			"stations": ["RM", "RSD", "RN", "SKL", "SHO", "SRO", "SSH"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE30 von %s nach %s",
+			"descriptions": [
+				"Bringe den RE30 von %s nach %s. Der Zug ist stark ausgelastet.",
+				"Der RE30 muss von %s nach %s gebracht werden. Die Strecke ist stark ausgelastet.",
+				"Bringe den Regional-Express der Linie 30 pünktlich von %s nach %s."
+			],
+			"plops": 400000,
+			"stations": ["FF", "FVL", "FFG", "FBNA", "FG", "FMBG", "FKIH", "FTS", "FWAB", "FGTH", "FKW"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Nahe-Express von %s nach %s",
+			"descriptions": [
+				"Bringe den RE3 von %s nach %s. Der Zug ist zeitweise stark ausgelastet.",
+				"Der RE3 muss von %s nach %s gebracht werden. Die Strecke ist stark ausgelastet.",
+				"Bringe den Regional-Express der Linie 3 pünktlich von %s nach %s."
+			],
+			"plops": 400000,
+			"stations": ["FF", "FFLF", "FRUE", "FMZ", "FBGK", "SBKN", "SBMS", "SIDO", "SNK", "SSH"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regional-Express von %s nach %s",
+			"descriptions": [
+				"Bringe den RE von %s nach %s. Die Strecke ist sehr kurvig.",
+				"Der RE muss von %s nach %s gebracht werden. Die Strecke ist sehr kurvig.",
+				"Bringe den Regional-Express pünktlich von %s nach %s."
+			],
+			"plops": 380000,
+			"stations": ["KKO", "KNL", "FNAS", "FL", "FWG", "FWR", "FG"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "S1 von %s nach %s",
+			"descriptions": [
+				"Die Linie S1 der S-Bahn Rhein-Neckar muss von %s nach %s gebracht werden.",
+				"Dieser S-Bahn-Langläufer muss von %s nach %s gebracht werden."
+			],
+			"plops": 300000,
+			"stations": ["SHO", "SHPT", "SLD", "SKL", "SHY", "RLBP", "RN", "RSD", "RM", "RH", "RNM", "REA", "RNZ", "RSE", "TO"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "SÜWEX von %s nach %s",
+			"descriptions": [
+				"Die RE-Linie 1 fährt quer durch RLP und Saarland.",
+				"Die Linie ist bei Pendlern sehr für ihr WIFI gefragt."
+			],
+			"plops": 350000,
+			"stations": ["RM", "RN", "SKL", "SHO", "SSH", "SSLS", "STR", "SWIH", "SBY", "KKO"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE50 von %s nach %s",
+			"descriptions": [
+				"Der Hessen-Express muss mit ausreichend Kapazität bis %2$s gefahren werden.",
+				"Diese stark ausgelastete Strecke sollte mit spurstarken Fahrzeugen befahren werden."
+			],
+			"plops": 300000,
+			"stations": ["FF", "FO", "FH", "FGEL", "FWAE", "FSUE", "FFD", "FFU", "FB"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE99 von %s nach %s",
+			"descriptions": [
+				"Die Strecke ist bei Nutzern des Schönes-Wochenende-Ticket sehr beliebt.",
+				"Bringe die Fahrgäste von %s in Richtung %s."
+			],
+			"plops": 300000,
+			"stations": ["FF", "FVL", "FFG", "FBNA", "FG", "FWR", "FHRB", "FHG", "ESIE"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE54 von %s nach %s",
+			"descriptions": [
+				"Der Langläufer muss von %s nach %s gebracht werden.",
+				"Bringe die Fahrgäste sicher von %s in Richtung %s."
+			],
+			"plops": 300000,
+			"stations": ["NBA", "NS", "NWH", "NGM", "NLO", "NWI", "NLA", "NAH", "FH", "FO", "FF"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regioswinger von %s nach %s",
+			"descriptions": [
+				"Die kurvenreiche Strecke von %s nach %s ist ideal für ein NT-Fahrzeug.",
+				"Wegen Bauarbeiten an der VDE8 müssen zusätzliche Züge nach %2$s gefahren werden."
+			],
+			"plops": 300000,
+			"stations": ["NWH", "NS", "NBKI", "UM", "USL", "UPL", "UE P"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 20 von %s nach %s",
+			"descriptions": [
+				"Fahr den Zug einmal durch Franken von %s nach %s.",
+				"Der RE 20 fährt von %s nach %s quer durch's Frankenland."
+			],
+			"plops": 300000,
+			"stations": ["NWH", "NS", "NBA", "NER", "NF", "NN"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "MRB von %s nach %s",
+			"descriptions": [
+				"Die Mittelrheinbahn fährt von %s nach %s und wird unterwegs häufig überholt.",
+				"Fahr als MRB im Blockabstand vor dem nächsten Fernverkehrszug durch das Mittelrheintal.",
+				"Bring die MRB nach %2$s und sammel dabei so wenig Verspätung wie möglich."
+			],
+			"plops": 300000,
+			"stations": ["FMZ", "FIL", "FBGK", "KBOP", "KKO", "KAND", "KRE", "KROL", "KB", "KBR", "KKAS", "KK"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Vias von %s nach %s",
+			"descriptions": [
+				"Diese Regionalbahnlinie führt von %s nach %s durch das wunderschöne Mittelrheintal.",
+				"Die Strecke ist oft durch Güterzüge blockiert."
+			],
+			"plops": 300000,
+			"stations": ["FF", "FHOE", "FW", "FELT", "FRDH", "FSGH", "KNL", "KKO", "KNE"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "S8 von %s nach %s",
+			"descriptions": [
+				"Bring die Flughafen-Pendler von %s nach %s.",
+				"Die S-Bahn der Linie 8 im RMV muss von %s nach %s gebracht werden."
+			],
+			"plops": 300000,
+			"stations": ["FH", "FO", "FF", "FFLF", "FRUE", "FMZ", "FW"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 1 von %s nach %s",
+			"descriptions": [
+				"Die kurvenreiche Strecke von %s nach %s ist ideal für ein NT-Fahrzeug.",
+				"Die Strecke ist ideal um von Thüringen nach Norddeutschland oder zurück zu fahren."
+			],
+			"plops": 300000,
+			"stations": ["HG", "HEBG", "UL", "ULS", "UGO", "UE P"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Die Strecke führt quer durch Rheinhessen."
+			],
+			"plops": 300000,
+			"stations": ["FWOR", "FMSH", "FALZ", "FARM", "FBGK"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB 91 von %s nach %s",
+			"descriptions": [
+				"Die Strecke führt von der Sieg an die Ruhr."
+			],
+			"plops": 300000,
+			"stations": ["ESIE", "EKT", "EA", "EFP", "EWHL", "ELE", "EHG", "EBO", "EE"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Cantus von %s nach %s",
+			"descriptions": [
+				"Bring die Fahrgäste sicher und pünktlich durch Nordhessen.",
+				"Mit dem richtigen Fahrzeug kannst du die Fahrgäste schnell von %s nach %s bringen."
+			],
+			"plops": 300000,
+			"objects":
+			[
+				{"stations": ["FFU", "FHUE", "FBHF", "FB", "FROF", "FMLS", "FGTH", "FKW", "FHMD", "HEBG", "HG"]},
+				{"stations": ["FFU", "FHUE", "FBHF", "FB", "FEGW", "HEBG", "HG"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Westfrankenbahn von %s nach %s",
+			"descriptions": [
+				"Bring die Fahrgäste sicher und pünktlich durch das fränkische Randgebiet."
+			],
+			"plops": 300000,
+			"objects":
+			[
+				{"stations": ["NAH", "NM", "TWT", "TTB", "TL", "NWH"]},
+				{"stations": ["NAH", "NM", "NAMB", "RWDN", "RSE"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Sonderzug des Altenheims %s",
+			"descriptions": [
+				"Die aktiven Rentner wollen heute %2$s besichtigen, bring sie dorthin!",
+				"Das Altenheim %s plant einen gemeinsamen Ausflug nach %s."
+			],
+			"plops": 350000,
+			"stations": ["EA"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Fußball-Sonderzug von %s nach %s",
+			"descriptions": [
+				"Nach einem verlorenen Spiel gegen den FC %s wollen die Fans schnell nach %s.",
+				"Das Spiel gegen den FC %s wurde gewonnen, die Fans wollen gut gelaunt nach %s.",
+				"Es ist unentschieden zwischen %s und %s ausgegangen. Bring die Fans nach Hause!"
+			],
+			"plops": 400000,
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Straßen-Ersatzverkehr B278",
+			"descriptions": [
+				"Die B278 ist zwischen %s und %s gesperrt, fahre die Schüler mit dem Zug zur Schule.",
+				"Wegen eines Brückenschadens zwischen %s und %s muss der Verkehr über die Bahn abgewickelt werden.",
+				"Die B278 wurde zwischen %s und %s unterspült, die Schüler müssen aber trotzdem in den Unterricht."
+			],
+			"plops": 150000,
+			"stations": ["NS", "NBKI", "NGM", "NLO"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Ersatzverkehre von %s nach %s",
+			"descriptions": [
+				"Ein nicht weiter zu benenndes EVU ist leider pleite gegangen. Das Land braucht Ersatz!",
+				"Die Fahrzeuge eines namhaften Herstellers wurden nicht rechtzeitig geliefert.",
+				"Aufgrund einer verspäteten Fz-Abnahme durch das EBA muss schnell Ersatz her."
+			],
+			"plops": 300000,
+			"stations": ["KK", "KKDZ", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Holzverkehre von %s nach %s",
+			"descriptions": [
+				"Nach einem Sturm in %s soll das Holz schnell weggeschafft werden.",
+				"Aufgrund eines starken Borkenkäferbefalls in %s muss Holz transportiert werden."
+			],
+			"plops": 550000,
+			"neededCapacity": [
+				{"name": "wood", "value": 700}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Gemischter Güterzug nach %2$s",
+			"descriptions": [
+				"Wegen der Sauerland-Wochen müssen einige Güter von %s nach %s.",
+				"Das Dampflok-AW in %s versendet Güter nach %s."
+			],
+			"plops": 600000,
+			"neededCapacity": [
+				{"name": "oil", "value": 400},
+				{"name": "wood", "value": 400}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Holzzug nach %2$s",
+			"descriptions": [
+				"Für ein neuen Bahnsteigdach in %2$s wird Holz aus %1$s benötigt.",
+				"Es wird Holz aus %s für neue Schwellen in %s benötigt."
+			],
+			"plops": 600000,
+			"neededCapacity": [
+				{"name": "wood", "value": 800}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Dringender Heizmittel-Transport",
+			"descriptions": [
+				"In der Dienstelle in %2$s ist das Heizöl ausgegangen, bring neues aus %1$s.",
+				"Zum Tanken der Diesel-Fahrzeuge in %2$s wird dringend neuer Diesel aus %1$s benötigt.",
+				"In der Kantine in %2$s haben die Friteusen ausgerechnet am Schnitzeltag kein Öl mehr. Hilf schnell!"
+			],
+			"plops": 600000,
+			"neededCapacity": [
+				{"name": "oil", "value": 1000}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Gemischter Güterzug nach %2$s",
+			"descriptions": [
+				"Aufgrund einer Firmenauflösung müssen die Waren schnell von %s nach %s.",
+				"Es gab einen starken Schimmelbefall im Firmensitz in %s, bring die Waren schnell in die Zentrale."
+			],
+			"plops": 600000,
+			"neededCapacity": [
+				{"name": "oil", "value": 300},
+				{"name": "wood", "value": 300},
+				{"name": "cars", "value": 50}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Autotransport nach %2$s",
+			"descriptions": [
+				"Bringe die Autos von %s nach %s.",
+				"Die Autos müssen schnell nach %2$s. Der Zug startet in %1$s."
+			],
+			"plops": 550000,
+			"plopDifference": 8,
+			"neededCapacity": [
+				{"name": "cars", "value": 120}
+			],
+			"neededCapacityDifference": 3
+		},
+		{
+			"group": 0,
+			"name": "KV-Zug nach %2$s",
+			"descriptions": [
+				"Bringe die Container von %s nach %s.",
+				"Die Container müssen vom Umschlagbahnhof %s an den Hafen von %s gebracht werden."
+			],
+			"plops": 550000,
+			"plopDifference": 8,
+			"neededCapacity": [
+				{"name": "containers", "value": 25}
+			],
+			"neededCapacityDifference": 3
+		},
+		{
+			"group": 0,
+			"name": "Gemischter GV von %s nach %s",
+			"descriptions": [
+				"Die Waren müssen von %s zum Rangierbahnhof nach %s gebracht werden."
+			],
+			"plops": 550000,
+			"plopDifference": 8,
+			"neededCapacity": [
+				{"name": "containers", "value": 10},
+				{"name": "cars", "value": 50},
+				{"name": "wood", "value": 100},
+				{"name": "oil", "value": 100}
+			],
+			"neededCapacityDifference": 3
+		},
+		{
+			"group": 0,
+			"name": "Castor-Transport von %s nach %s",
+			"descriptions": [
+				"Die Brennstäbe müssen vom AKW %s zur Aufbereitungsanlage %s gebracht werden."
+			],
+			"plops": 1000000,
+			"plopDifference": 8,
+			"neededCapacity": [
+				{"name": "castor", "value": 10}
+			],
+			"neededCapacityDifference": 3
+		}
+	]
+}

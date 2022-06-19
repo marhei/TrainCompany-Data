@@ -1,0 +1,90 @@
+{
+	"data": [
+		{
+			"type": 0,
+			"objects" : [
+				{
+					"name": "Der Zug ist aufgrund eines Antriebsschaden stehen geblieben.",
+					"delay": 1000
+				},
+				{
+					"name": "Es fand eine Zugtrennung auf freier Strecke statt.",
+					"delay": 1200
+				},
+				{
+					"name": "Die Vmax ist auf Grund einer technischen Störung reduziert.",
+					"delay": 400
+				},
+				{
+					"name": "Die Klimaanlage im Führerstand ist ausgefallen, der Lokführer hat eine Drehfahrt beantragt.",
+					"delay": 1200
+				}
+			]
+		},
+		{
+			"type": 1,
+			"objects" : [
+				{
+					"name": "Der Lokführer hat einen Magendarminfekt und musste einen Toilettenaufenthalt einlegen.",
+					"delay": 300
+				},
+				{
+					"name": "Das EBA hat bei einer Stichprobenkontrolle fehlende Streckenkunde beim Lokführer festgestellt.",
+					"delay": 1000
+				},
+				{
+					"name": "Der Zugbegleiter ist beim Abfertigen am Bahnsteig stehen geblieben und musste mit dem Taxi nachgeschickt werden.",
+					"delay": 1000
+				},
+				{
+					"name": "Der Lokführer ist über seine Arbeitszeit gekommen und musste abgelöst werden.",
+					"delay": 1000
+				}
+
+			]
+		},
+		{
+			"type": 2,
+			"capacity": "passengers",
+			"objects" : [
+				{
+					"name": "Ein Fahrgast hat auf der Toilette geraucht.",
+					"delay": 300
+				},
+				{
+					"name": "Die Kaffeemaschine im Speisewagen ist ausgefallen.",
+					"delay": 300
+				},
+				{
+					"name": "Ein Fahrgast hat sich mit seinem 9 €-Ticket geweigert die 1. Klasse zu räumen.",
+					"delay": 900
+				}
+			]
+		},
+		{
+			"type": 2,
+			"objects" : [
+				{
+					"name": "Es ist Holz vom Wagen gerutscht.",
+					"delay": 1000,
+					"capacity": "wood"
+				},
+				{
+					"name": "Während eines kurzen Betriebshalt wurden einige Autos aufgebrochen.",
+					"delay": 1000,
+					"capacity": "cars"
+				},
+				{
+					"name": "Während eines kurzen Betriebshalt wurden einige Container aufgebrochen und DHL-Packet entnommen.",
+					"delay": 1000,
+					"capacity": "containers"
+				},
+				{
+					"name": "Demonstranten haben sich vor dem Zug an die Gleise gekettet.",
+					"delay": 1000,
+					"capacity": "castor"
+				}
+			]
+		}
+	]
+}
