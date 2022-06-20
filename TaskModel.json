@@ -445,6 +445,20 @@
 			]
 		},
 		{
+			"group": 1,
+			"name" : "S23 von %s nach %s",
+			"descriptions": [
+				"Bring die Fahrgäste pünklich und sicher durch die malerischen Felder der Voreifel."
+			],
+			"plops": 300000,
+			"objects": [
+				{"stations": ["KB", "KRBA", "KEU"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Sonderzug des Altenheims %s",
 			"descriptions": [
