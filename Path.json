@@ -646,6 +646,27 @@
 		},
 		{
 			"group": 1,
+			"name": "Voreifelbahn",
+			"twistingFactor": 0.5,
+			"electrified": "false",
+			"objects": 
+			[
+				{
+					"start": "KB",
+					"end": "KRBA",
+					"length": 22,
+					"maxSpeed": 100
+				},
+				{
+					"start": "KRBA",
+					"end": "KEU",
+					"length": 12,
+					"maxSpeed": 110
+				}
+			]
+		},
+		{
+			"group": 1,
 			"name": "Lahntalbahn",
 			"twistingFactor": 0.5,
 			"electrified": false,
