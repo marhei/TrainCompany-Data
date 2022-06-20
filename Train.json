@@ -81,6 +81,27 @@
 			]
 		},
 		{
+			"id": 31,
+			"group": 2,
+			"name": "Twindexx Vario",
+			"shortcut": "IC 2",
+			"speed": 160,
+			"weight": 256,
+			"force": 0,
+			"length": 134.50,
+			"drive": 0,
+			"reliability": 0.8,
+			"cost": 850000,
+			"maxConnectedUnits": 1,
+			"operationCosts": 110,
+			"equipments": ["ETCS"],
+			"compatibleWith": ["29"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 625}
+			]
+		},
+		{
 			"id": 9,
 			"group": 2,
 			"name": "BR 425",
@@ -228,7 +249,7 @@
 		{
 			"id": 6,
 			"group": 0,
-			"name": "Bombardier Traxx P160",
+			"name": "Bombardier Traxx P160 AC2",
 			"shortcut": "BR 146.2",
 			"speed": 160,
 			"weight": 84,
@@ -256,6 +277,22 @@
 			"operationCosts": 90,
 			"equipments": ["ETCS"],
 			"maxConnectedUnits": 0,
+			"capacity": []
+		},
+		{
+			"id": 30,
+			"group": 0,
+			"name": "Bombardier Traxx F140 AC3",
+			"shortcut": "BR 187",
+			"speed": 140,
+			"weight": 84,
+			"force": 300,
+			"length": 19,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 250000,
+			"operationCosts": 95,
+			"maxConnectedUnits": 2,
 			"capacity": []
 		},
 		{
