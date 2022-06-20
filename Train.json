@@ -100,7 +100,7 @@
 		{
 			"id": 10,
 			"group": 2,
-			"name": "Bombadier Talent 2",
+			"name": "Bombardier Talent 2",
 			"shortcut": "BR 442",
 			"speed": 160,
 			"weight": 137,
@@ -228,7 +228,7 @@
 		{
 			"id": 6,
 			"group": 0,
-			"name": "Bombadier Traxx P160",
+			"name": "Bombardier Traxx P160",
 			"shortcut": "BR 146.2",
 			"speed": 160,
 			"weight": 84,
@@ -238,6 +238,23 @@
 			"reliability": 1,
 			"cost": 300000,
 			"operationCosts": 80,
+			"maxConnectedUnits": 0,
+			"capacity": []
+		},
+		{
+			"id": 47,
+			"group": 0,
+			"name": "Bombardier Traxx P160 AC3",
+			"shortcut": "BR 147.5",
+			"speed": 160,
+			"weight": 84,
+			"force": 230,
+			"length": 19,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 250000,
+			"operationCosts": 90,
+			"equipments": ["ETCS"],
 			"maxConnectedUnits": 0,
 			"capacity": []
 		},
@@ -276,7 +293,7 @@
 		{
 			"id": 28,
 			"group": 0,
-			"name": "Bombadier Traxx F140 AC2",
+			"name": "Bombardier Traxx F140 AC2",
 			"shortcut": "BR 185.2",
 			"speed": 140,
 			"weight": 85,
