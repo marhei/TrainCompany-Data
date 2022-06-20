@@ -12,4 +12,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Editorconfig linting
-      uses: greut/eclint-action@v0
+      uses: zbeekman/EditorConfig-Action@v1.1.1
