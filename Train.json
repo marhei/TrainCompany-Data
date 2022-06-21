@@ -255,7 +255,7 @@
 			"id": 3,
 			"group": 0,
 			"name": "BR 101",
-			"speed": 200,
+			"speed": 220,
 			"weight": 84,
 			"force": 300,
 			"length": 20,
@@ -584,6 +584,26 @@
 			"equivalentTo": 5,
 			"capacity": [
 				{"name": "passengers", "value": 625}
+			]
+		},
+		{
+			"id": 1051,
+			"group": 3,
+			"name": "Metropolitan Express Train",
+			"shortcut": "MET",
+			"speed": 220,
+			"weight": 397,
+			"force": 0,
+			"length": 185,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 2000000,
+			"maxConnectedUnits": 1,
+			"compatibleWith": ["3"],
+			"exchangeTime": 120,
+			"equivalentTo": 7,
+			"capacity": [
+				{"name": "passengers", "value": 382}
 			]
 		}
 	]
