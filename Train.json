@@ -80,7 +80,7 @@
 				{"name": "passengers", "value": 918}
 			]
 		},
-    {
+	{
 			"id": 605,
 			"group": 2,
 			"name": "ICE TD",
@@ -385,6 +385,7 @@
 			"cost": 400000,
 			"operationCosts": 90,
 			"equipments": ["ETCS"],
+			"compatibleWith": [1116],
 			"maxConnectedUnits": 0,
 			"capacity": []
 		},
@@ -625,6 +626,26 @@
 			"equivalentTo": 5,
 			"capacity": [
 				{"name": "passengers", "value": 625}
+			]
+		},
+		{
+			"id": 1116,
+			"group": 3,
+			"name": "Railjet",
+			"speed": 230,
+			"weight": 356,
+			"force": 0,
+			"length": 185,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 1250000,
+			"maxConnectedUnits": 1,
+			"equipments": ["ETCS"],
+			"compatibleWith": [15],
+			"exchangeTime": 120,
+			"equivalentTo": 7,
+			"capacity": [
+				{"name": "passengers", "value": 450}
 			]
 		},
 		{
