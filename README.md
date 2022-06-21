@@ -9,6 +9,7 @@ Fahrzeuge, die in TC zur Verfügung stehen
 	* **0** Lokomotive
 	* **1** Wagen
 	* **2** Triebzug
+	* **3** fixer Wagenverband
 * **name** *(string)* Name des Fahrzeuges
 * **shortcut** *(string)* Baureihen/-art-Bezeichnung des Fahrzeuges *(optional)*
 * **speed** *(int)* Höchstgeschwindigkeit in km/h
@@ -24,7 +25,9 @@ Fahrzeuge, die in TC zur Verfügung stehen
 * **maxConnectedUnits** *(int)* Maximale Anzahl der kuppelbaren Einheiten (bei Triebzügen, 0 = Unbegrenzt)
 * **operationCosts** *(int)* Betriebskosten pro km in Plops
 * **equipments** *(array)* Fahrzeugausstattung (siehe TrainEquipments.json)
-* **exchangeTime** *(int)* Aufenthaltsdauer bei Planhalten in Sekunden
+* **exchangeTime** *(int)* Aufenthaltsdauer bei Planhalten in Sekunden (Optional, Standard = 40)
+* **compatibleWith** *(array)* Für Triebzüge und Wagenverbände: Lässt sich zusätzlich mit den angegeben Fz kuppeln
+* **equivalentTo** *(int)* Nur für fixe Wagenverbände: Entspricht wie vielen Wagen?
 * **capacity** *(array)* Art der Beladung und Menge (siehe Capacity.json)
 
 ## Capacity.json
