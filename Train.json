@@ -130,7 +130,7 @@
 			"operationCosts": 40,
 			"equipments": ["ETCS"],
 			"maxConnectedUnits": 3,
-			"compatibleWith": [21],
+			"compatibleWith": [21, 211],
 			"capacity": [
 				{"name": "passengers", "value": 200}
 			]
@@ -156,7 +156,7 @@
 		{
 			"id": 21,
 			"group": 2,
-			"name": "Siemens Desiro HC",
+			"name": "Siemens Desiro HC Franken/Südthüringen",
 			"shortcut": "BR 462",
 			"speed": 190,
 			"weight": 287,
@@ -168,9 +168,31 @@
 			"operationCosts": 55,
 			"equipments": ["ETCS"],
 			"maxConnectedUnits": 2,
-			"compatibleWith": [23],
+			"compatibleWith": [23, 211],
+			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 655}
+			]
+		},
+		{
+			"id": 211,
+			"group": 2,
+			"name": "Siemens Desiro HC RRX",
+			"shortcut": "BR 0462",
+			"speed": 160,
+			"weight": 200,
+			"force": 300,
+			"length": 105,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 1100000,
+			"operationCosts": 40,
+			"equipments": [],
+			"maxConnectedUnits": 3,
+			"compatibleWith": [23, 21],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 400}
 			]
 		},
 		{
