@@ -80,7 +80,7 @@
 				{"name": "passengers", "value": 918}
 			]
 		},
-    {
+    	{
 			"id": 605,
 			"group": 2,
 			"name": "ICE TD",
@@ -251,6 +251,43 @@
 			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 146}
+			]
+		},
+		{
+			"id": 628,
+			"group": 2,
+			"name": "BR 628",
+			"speed": 120,
+			"weight": 63,
+			"force": 90,
+			"length": 44,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 2500000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 95,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 180}
+			]
+		},
+		{
+			"id": 6284,
+			"group": 2,
+			"name": "Sylt Shuttle Plus",
+			"shortcut": "Br 628.4",
+			"speed": 140,
+			"weight": 64,
+			"force": 110,
+			"length": 45,
+			"drive": 2,
+			"reliability": 0.75,
+			"cost": 550000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 220,
+			"exchangeTime": 210,
+			"capacity": [
+				{"name": "passengers", "value": 200}
 			]
 		},
 		{
