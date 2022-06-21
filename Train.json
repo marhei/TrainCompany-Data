@@ -335,7 +335,7 @@
 		{
 			"id": 15,
 			"group": 0,
-			"name": "Siemens Taurus",
+			"name": "Siemens Taurus ES64U2",
 			"shortcut": "BR 182",
 			"speed": 230,
 			"weight": 86,
@@ -346,6 +346,7 @@
 			"cost": 400000,
 			"operationCosts": 90,
 			"equipments": ["ETCS"],
+			"compatibleWith": [1116],
 			"maxConnectedUnits": 0,
 			"capacity": []
 		},
@@ -589,6 +590,26 @@
 			]
 		},
 		{
+			"id": 1116,
+			"group": 3,
+			"name": "Railjet",
+			"speed": 230,
+			"weight": 356,
+			"force": 0,
+			"length": 185,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 1250000,
+			"maxConnectedUnits": 1,
+			"equipments": ["ETCS"],
+			"compatibleWith": [15],
+			"exchangeTime": 120,
+			"equivalentTo": 7,
+			"capacity": [
+				{"name": "passengers", "value": 450}
+			]
+		},
+		{
 			"id": 1051,
 			"group": 3,
 			"name": "Metropolitan Express Train",
@@ -598,7 +619,7 @@
 			"force": 0,
 			"length": 185,
 			"drive": 0,
-			"reliability": 1,
+			"reliability": 0.9,
 			"cost": 2000000,
 			"maxConnectedUnits": 1,
 			"compatibleWith": [3],
