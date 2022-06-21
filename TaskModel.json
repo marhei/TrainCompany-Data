@@ -203,6 +203,20 @@
 		},
 		{
 			"group": 1,
+			"name": "RE11 von %s nach %s",
+			"descriptions": [
+				"Bringe den Rhein-Hellweg-Express von %s nach %s. Der Zug ist teilweise stark ausgelastet.",
+				"Bringe den RE11 pünktlich und störungsfrei von %s nach %s.",
+				"Der RE11 muss quer durch NRW von %s nach %s."
+			],
+			"plops": 400000,
+			"stations": ["FKW", "HWAR", "HA", "EPD", "ESOT", "EHM", "EDO", "EBO", "EE", "EDG", "KD"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "RE30 von %s nach %s",
 			"descriptions": [
 				"Bringe den RE30 von %s nach %s. Der Zug ist stark ausgelastet.",
@@ -448,10 +462,10 @@
 			"group": 1,
 			"name" : "S23 von %s nach %s",
 			"descriptions": [
-				"Bring die Fahrgäste pünklich und sicher durch die malerischen Felder der Voreifel."
+				"Bring die Fahrgäste pünktlich und sicher durch die malerischen Felder der Voreifel."
 			],
 			"plops": 80000,
-			"stations": ["KB", "KRBA", "KEU"]
+			"stations": ["KB", "KRBA", "KEU"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
