@@ -256,24 +256,6 @@
 			]
 		},
 		{
-			"id": 628,
-			"group": 2,
-			"name": "BR 628",
-			"speed": 120,
-			"weight": 63,
-			"force": 90,
-			"length": 44,
-			"drive": 2,
-			"reliability": 0.9,
-			"cost": 2500000,
-			"maxConnectedUnits": 3,
-			"operationCosts": 95,
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 180}
-			]
-		},
-		{
 			"id": 32,
 			"group": 2,
 			"name": "Alstom Coradia LINT 81",
@@ -290,6 +272,24 @@
 			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 300}
+			]
+		},
+		{
+			"id": 628,
+			"group": 2,
+			"name": "BR 628",
+			"speed": 120,
+			"weight": 63,
+			"force": 40,
+			"length": 44,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 250000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 95,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 180}
 			]
 		},
 		{
@@ -658,7 +658,7 @@
 			"length": 185,
 			"drive": 0,
 			"reliability": 1,
-			"cost": 1250000,
+			"cost": 1500000,
 			"maxConnectedUnits": 1,
 			"equipments": ["ETCS"],
 			"compatibleWith": [15],
@@ -679,7 +679,7 @@
 			"length": 185,
 			"drive": 0,
 			"reliability": 1,
-			"cost": 2000000,
+			"cost": 1800000,
 			"maxConnectedUnits": 1,
 			"compatibleWith": [3],
 			"exchangeTime": 120,
