@@ -13,7 +13,7 @@
 					"id": {
 						"description": "Eindeutige ID des Fz",
 						"type": "integer",
-						"minimum": 1
+						"minimum": 0
 					},
 					"group": {
 						"description": "Art des Fahrzeugs",
@@ -157,7 +157,8 @@
 									"description": "Lässt sich zusätzlich mit den angegebenen Fz kuppeln",
 									"type": "array",
 									"items": {
-										"type": "string"
+										"type": "integer",
+										"minimum": 0
 									}
 								}
 							}
@@ -192,8 +193,7 @@
 					"length",
 					"drive",
 					"reliability",
-					"cost",
-					"operationCosts"
+					"cost"
 				]
 			},
 			"uniqueItems": true
