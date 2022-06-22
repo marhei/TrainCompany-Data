@@ -98,6 +98,13 @@
 								}
 							}
 						}
+					},
+					"objects": {
+						"description": "Sub-Aufgaben, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
+						"type": "array",
+						"items": {
+							"$ref": "#/properties/data/items"
+						}
 					}
 				},
 				"required": [

@@ -34,6 +34,13 @@
 					"emoji": {
 						"description": "Emoji der Einheit",
 						"type": "string"
+					},
+					"objects": {
+						"description": "Sub-Ladungsarten, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
+						"type": "array",
+						"items": {
+							"$ref": "#/properties/data/items"
+						}
 					}
 				}
 			},
