@@ -9,7 +9,7 @@ def shift(x: int, y: int):
 		for station in stations_list:
 			station['x'] += x
 			station['y'] += y
-	with open("Station_shifted.json", "w", encoding="utf-8") as output:
+	with open("Station_shifted.json", "w", encoding="utf-8", newline='\n') as output:
 		# Preserve Unicode and formatting
 		json.dump(data, output, ensure_ascii=False,indent="\t")
 
