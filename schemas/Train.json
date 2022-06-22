@@ -1,0 +1,202 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"$id": "https://raw.githubusercontent.com/C1710/TrainCompany-Data/main/Train.json",
+	"title": "Liste der Zug-Baureihen",
+	"type": "object",
+	"properties": {
+		"data" : {
+			"description": "Die Züge, die in TrainCompany zur Verfügung stehen",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"description": "Eindeutige ID des Fz",
+						"type": "integer",
+						"minimum": 1
+					},
+					"group": {
+						"description": "Art des Fahrzeugs",
+						"type": "integer",
+						"minimum": 0,
+						"maximum": 3,
+						"examples": [
+							"0 - Lokomotive",
+							"1 - Wagen",
+							"2 - Triebzug",
+							"3 - fixer Wagenverband"
+						]
+					},
+					"name": {
+						"description": "Name des Fahrzeugs",
+						"type": "string"
+					},
+					"shortcut": {
+						"description": "Baureihen/-art-Bezeichnung des Fahrzeugs",
+						"type": "string"
+					},
+					"speed": {
+						"description": "Höchstgeschwindigkeit in km/h",
+						"type": "integer",
+						"minimum": 0
+					},
+					"weight": {
+						"description": "Gewicht in t",
+						"type": "integer",
+						"minimum": 0
+					},
+					"force": {
+						"description": "Anfahrzugkraft in kN",
+						"type": "integer",
+						"minimum": 0
+					},
+					"length": {
+						"description": "Länge in m",
+						"type": "integer",
+						"minimum": 0
+					},
+					"drive": {
+						"description": "Traktionsart",
+						"type": "integer",
+						"minimum": 0,
+						"maximum": 2,
+						"examples": [
+							"0 - Keine Traktion",
+							"1 - E-Traktion",
+							"2 - Diesel-Traktion"
+						]
+					},
+					"reliability": {
+						"description": "Zuverlässigkeit in Prozent",
+						"type": "number",
+						"minimum": 0,
+						"maximum": 1
+					},
+					"cost": {
+						"description": "Kosten in Plops",
+						"type": "integer",
+						"minimum": 0
+					},
+					"operationCosts": {
+						"description": "Betriebskosten pro km in Plops",
+						"type": "integer",
+						"minimum": 0
+					},
+					"equipments": {
+						"description": "Fahrzeugausstattung",
+						"type": "array",
+						"items": {
+							"type": "string",
+							"examples": [
+								"ETCS",
+								"KRM",
+								"FR"
+							]
+						},
+						"uniqueItems": true
+					},
+					"exchangeTime": {
+						"description": "Aufenthaltsdauer bei Planhalten in Sekunden",
+						"type": "integer",
+						"minimum": 0,
+						"default": 40
+					},
+					"capacity": {
+						"description": "Art der Beladung und Menge",
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"name": {
+									"description": "Art der Beladung",
+									"type": "string",
+									"examples": [
+										"passengers",
+										"wood",
+										"oil",
+										"cars",
+										"containers",
+										"castor"
+									]
+								},
+								"value": {
+									"description": "Menge der Beladung",
+									"type": "integer",
+									"minimum": 1
+								}
+							},
+							"required": [
+								"name",
+								"value"
+							],
+							"uniqueItems": true
+						}
+					}
+				},
+				"allOf": [
+					{
+						"if": {
+							"properties": { 
+								"group": { 
+									"minimum": 2,
+									"maximum": 3
+								}
+							}
+						},
+						"then": {
+							"properties": {
+								"maxConnectedUnits": {
+									"description": "Maximale Anzahl der kuppelbaren Einheiten",
+									"type": "integer",
+									"minimum": 0,
+									"examples": [
+										"0 - unbegrenzt"
+									]
+								},
+								"compatibleWith": {
+									"description": "Lässt sich zusätzlich mit den angegebenen Fz kuppeln",
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					{
+						"if": {
+							"properties": {
+								"group": {
+									"const": 3
+								}
+							}
+						},
+						"then": {
+							"properties": {
+								"equivalentTo": {
+									"description": "Entspricht wie vielen Wagen?",
+									"type": "integer",
+									"minimum": 1
+								}
+							}
+						}
+					}
+				],
+				"required": [
+					"id",
+					"group",
+					"name",
+					"speed",
+					"weight",
+					"force",
+					"length",
+					"drive",
+					"reliability",
+					"cost",
+					"operationCosts"
+				]
+			},
+			"uniqueItems": true
+		}
+	}
+}
