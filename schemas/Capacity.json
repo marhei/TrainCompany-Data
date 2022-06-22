@@ -1,0 +1,51 @@
+{
+	"$schema": "https://json-schema.org/draft-07/schema",
+	"$id": "https://raw.githubusercontent.com/C1710/TrainCompany-Data/main/Capacity.json",
+	"title": "Art der Beladungen eines Fahrzeugs",
+	"type": "object",
+	"properties": {
+		"data": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"idString": {
+						"description": "Eindeutige ID einer Capacity",
+						"type": "integer",
+						"minimum": 0
+					},
+					"name": {
+						"description": "Name der Capacity",
+						"type": "string"
+					},
+					"needsPlatform": {
+						"description": "Benötigt einen bahnsteig?",
+						"type": "boolean"
+					},
+					"unit": {
+						"description": "Einheit der Capacity",
+						"type": "string"
+					},
+					"unitMass": {
+						"description": "Masse einer Einheit in t",
+						"type": "number",
+						"minimum": 0
+					},
+					"emoji": {
+						"description": "Emoji der Einheit",
+						"type": "string"
+					}
+				}
+			},
+			"required": [
+				"idString",
+				"name",
+				"needsPlatform",
+				"unit",
+				"unitMass",
+				"emoji"
+			],
+			"uniqueItems": true
+		}
+	}
+}
