@@ -18,13 +18,11 @@
 					"group": {
 						"description": "Art des Fahrzeugs",
 						"type": "integer",
-						"minimum": 0,
-						"maximum": 3,
-						"examples": [
-							"0 - Lokomotive",
-							"1 - Wagen",
-							"2 - Triebzug",
-							"3 - fixer Wagenverband"
+						"oneOf": [
+							{"const": 0, "description": "Lokomotive"},
+							{"const": 1, "description": "Wagen"},
+							{"const": 2, "description": "Triebzug"},
+							{"const": 3, "description": "fixer Wagenverband"}
 						]
 					},
 					"name": {
@@ -58,12 +56,10 @@
 					"drive": {
 						"description": "Traktionsart",
 						"type": "integer",
-						"minimum": 0,
-						"maximum": 2,
-						"examples": [
-							"0 - Keine Traktion",
-							"1 - E-Traktion",
-							"2 - Diesel-Traktion"
+						"oneOf": [
+							{"const": 0, "description": "Keine Traktion"},
+							{"const": 1, "description": "E-Traktion"},
+							{"const": 2, "description": "Diesel-Traktion"}
 						]
 					},
 					"reliability": {
@@ -148,10 +144,11 @@
 								"maxConnectedUnits": {
 									"description": "Maximale Anzahl der kuppelbaren Einheiten",
 									"type": "integer",
-									"minimum": 0,
-									"examples": [
-										"0 - unbegrenzt"
-									]
+									"oneOf": [
+										{"const": 0, "description": "unbegrenzt"},
+										{"minimum": 1}
+									],
+									"default": 0
 								},
 								"compatibleWith": {
 									"description": "Lässt sich zusätzlich mit den angegebenen Fz kuppeln",
