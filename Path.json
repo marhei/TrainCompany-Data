@@ -2103,9 +2103,16 @@
 			[
 				{
 					"start": "EDG",
-					"end": "KKR",
+					"end": "KKRO",
 					"twistingFactor": 0.2,
 					"length": 17,
+					"maxSpeed": 120
+				},
+				{
+					"start": "KKRO",
+					"end": "KKR",
+					"twistingFactor": 0.2,
+					"length": 1,
 					"maxSpeed": 120
 				},
 				{
@@ -2152,6 +2159,35 @@
 					"twistingFactor": 0.25,
 					"length": 34,
 					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"name": "Eisener Rhein",
+			"group": 1,
+			"electrified": false,
+			"objects":
+			[
+				{
+					"start": "KM",
+					"end": "KWEG",
+					"twistingFactor": 0.3,
+					"length": 12,
+					"maxSpeed": 100
+				},
+				{
+					"start": "KWEG",
+					"end": "KDAL",
+					"twistingFactor": 0.3,
+					"length": 12,
+					"maxSpeed": 100
+				},
+				{
+					"start": "KWEG",
+					"end": "KWEK",
+					"twistingFactor": 0.8,
+					"length": 5,
+					"maxSpeed": 20
 				}
 			]
 		}
