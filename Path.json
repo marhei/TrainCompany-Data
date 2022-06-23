@@ -2190,6 +2190,75 @@
 					"maxSpeed": 20
 				}
 			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "HA",
+					"end": "HLUE",
+					"twistingFactor": 0.4,
+					"length": 37,
+					"maxSpeed": 100
+				},
+				{
+					"start": "HLUE",
+					"end": "HHM",
+					"length": 21,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HHM",
+					"end": "HSPR",
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HSPR",
+					"end": "HH",
+					"length": 36,
+					"maxSpeed": 120,
+					"twistingFactor": 0.45
+				}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Weserbahn",
+			"electrified": false,
+			"objects": [
+				{
+					"start": "HELZ",
+					"end": "HHM",
+					"length": 29,
+					"maxSpeed": 120,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "HHM",
+					"end": "HHSO",
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HHSO",
+					"end": "HRIN",
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "HRIN",
+					"end": "HL",
+					"length": 29,
+					"maxSpeed": 120,
+					"twistingFactor": 0.5
+				}
+			]
 		}
 	]
 }
