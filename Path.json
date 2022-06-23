@@ -1929,6 +1929,89 @@
 					"length": 33
 				}
 			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"maxSpeed": 200,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "EHM",
+					"end": "ERDW",
+					"length": 41
+				},
+				{
+					"start": "ERDW",
+					"end": "EGLO",
+					"length": 9
+				},
+				{
+					"start": "EGLO",
+					"end": "EBILP",
+					"length": 17
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"maxSpeed": 160,
+			"twistingFactor": 0.25,
+			"objects": [
+				{
+					"start": "EBILP",
+					"end": "EHFD",
+					"length": 14
+				},
+				{
+					"start": "EHFD",
+					"end": "HL",
+					"length": 10
+				},
+				{
+					"start": "HL",
+					"end": "HM",
+					"length": 21
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"maxSpeed": 200,
+			"twistingFactor": 0.25,
+			"objects": [
+				{
+					"start": "HM",
+					"end": "HWUN",
+					"length": 43
+				},
+				{
+					"start": "HWUN",
+					"end": "HH",
+					"length": 21
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": false,
+			"name": "Sennebahn",
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "EPD",
+					"end": "ESHO",
+					"length": 27
+				},
+				{
+					"start": "ESHO",
+					"end": "EBILP",
+					"length": 18
+				}
+			]
 		}
 	]
 }
