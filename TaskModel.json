@@ -618,6 +618,32 @@
 		},
 		{
 			"group": 0,
+			"name": "LKW-Ersatzzug von %s nach %s.",
+			"descriptions": [
+				"Wegen einer Rückrufaktion eines namhaften LKW-Herstellers müssen Ersatzgüterzüge von %s nach %s gefahren werden.",
+				"Aufgrund von Straßensperrungen wegen des lokalen CSD müssen die Container schnell von %s nach %s.",
+				"Aufgrund von schlechtem Essen in der Kantine eines Logistikdienstleisters in %s muss schnell ein Ersatzzug nach %s."
+			],
+			"plops": 300000,
+			"plopDifference": 6,
+			"neededCapacity": [
+				{"name": "containers", "value": 15}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Schwerer Containerzug von %s nach %s.",
+			"descriptions": [
+				"In %s hat ein neues Einkaufszentrum eröffnet! Bringe schnell die benötigten Waren dorthin.",
+				"Die Autobahn bei %s ist wegen Unwetterschäden nicht benutzbar. Fahre die Gütertransporte als Ersatz nach %s."
+			],
+			"plops": 700000,
+			"neededCapacity": [
+				{"name": "containers", "value": 35}
+			]
+		},
+		{
+			"group": 0,
 			"name": "Gemischter GV von %s nach %s",
 			"descriptions": [
 				"Die Waren müssen von %s zum Rangierbahnhof nach %s gebracht werden."
