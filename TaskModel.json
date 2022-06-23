@@ -23,20 +23,6 @@
 		},
 		{
 			"group": 1,
-			"name": "IC von %s nach %s",
-			"descriptions": [
-				"Der Intercity muss pünktlich von %s nach %s gebracht werden.",
-				"Schicke den IC pünktlich und sicher nach $2%s."
-			],
-			"objects": [
-				{"stations": ["HH", "HELZ", "HK", "HG", "FKW", "FFU", "NWH"]}
-			],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 1,
 			"name": "ICE Sprinter von %s nach %s",
 			"descriptions": [
 				"Der ICE Sprinter muss mit wenigen Halten schnell nach %2$s.",
@@ -180,6 +166,21 @@
 			],
 			"plops": 400000,
 			"stations": ["KK", "KKDZ", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "IC von %s nach %s",
+			"descriptions": [
+				"Der Intercity muss pünktlich von %s nach %s gebracht werden.",
+				"Schicke den IC pünktlich und sicher nach $2%s."
+			],
+			"plops": 400000,
+			"objects": [
+				{"stations": ["HH", "HELZ", "HK", "HG", "FKW", "FFU", "NWH"]}
+			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
