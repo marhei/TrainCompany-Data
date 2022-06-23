@@ -748,6 +748,30 @@
 				{"name": "castor", "value": 10}
 			],
 			"neededCapacityDifference": 3
+		},
+		{
+			"group": 1,
+			"name": "RRX von %s nach %s",
+			"descriptions": [
+				"Bringe den RRX von %s nach %s."
+			],
+			"plops": 300000,
+			"stations": ["KK", "KA", "KM", "KN", "KD", "KW", "EHG"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die RB von %s nach %s."
+			],
+			"plops": 180000,
+			"stations": ["KA", "KM", "KKR", "EDG"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
 		}
 	]
 }

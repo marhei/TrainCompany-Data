@@ -2072,6 +2072,80 @@
 						"length": 20
 					}
 				]
+		},
+		{
+			"name": "Mönchengladbach - Düsseldorf",
+			"group": 1,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "KD",
+					"end": "KN",
+					"twistingFactor": 0.2,
+					"length": 8,
+					"maxSpeed": 120
+				},
+				{
+					"start": "KN",
+					"end": "KM",
+					"twistingFactor": 0.2,
+					"length": 18,
+					"maxSpeed": 140
+				}
+			]
+		},
+		{
+			"name": "Duisburg - Mönchengladbach",
+			"group": 1,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "EDG",
+					"end": "KKR",
+					"twistingFactor": 0.2,
+					"length": 17,
+					"maxSpeed": 120
+				},
+				{
+					"start": "KKR",
+					"end": "KM",
+					"twistingFactor": 0.2,
+					"length": 24,
+					"maxSpeed": 140
+				}
+			]
+		},
+		{
+			"name": "Aachen - Mönchengladbach",
+			"group": 1,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "KM",
+					"end": "KA",
+					"twistingFactor": 0.2,
+					"length": 62,
+					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"name": "Aachen - Köln",
+			"group": 1,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "KK",
+					"end": "KA",
+					"twistingFactor": 0.1,
+					"length": 70,
+					"maxSpeed": 250
+				}
+			]
 		}
 	]
 }
