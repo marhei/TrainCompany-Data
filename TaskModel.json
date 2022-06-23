@@ -14,7 +14,44 @@
 			"objects":
 			[
 				{"stations": ["RM", "FFLF", "FLIS", "FMT", "KSIB", "KKDZ", "KD", "EDG", "EE", "EBO", "EDO", "EHM"]},
-				{"stations": ["NN", "NWH", "NAH", "FH", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KKDZ", "KD", "EDG", "EE", "EBO", "EDO", "EHM"]}
+				{"stations": ["NN", "NWH", "NAH", "FH", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KKDZ", "KD", "EDG", "EE", "EBO", "EDO", "EHM"]},
+				{"stations": ["UE P", "NBA", "NER", "NN"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "IC von %s nach %s",
+			"descriptions": [
+				"Der Intercity muss pünktlich von %s nach %s gebracht werden.",
+				"Schicke den IC pünktlich und sicher nach $2%s."
+			],
+			"objects": [
+				{"stations": ["HH", "HELZ", "HK", "HG", "FKW", "FFU", "NWH"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "ICE Sprinter von %s nach %s",
+			"descriptions": [
+				"Der ICE Sprinter muss mit wenigen Halten schnell nach %2$s.",
+				"Der ICE Sprinter muss von %s über die SFS nach %s gebracht werden.",
+				"Bringe den ICE Sprinter schnell und pünktlich von %s nach %s."
+			],
+			"plops": 500000,
+			"plopDifference": 8,
+			"objects": [
+				{"stations": ["HH", "FKW", "FF", "FD"]},
+				{
+					"stations": ["NN", "UE P"],
+					"plops": 400000
+				},
+				{"stations": ["FD", "FF", "UE P"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -48,7 +85,7 @@
 			"objects":
 			[
 				{"stations": ["RH", "RM", "FF", "FH", "FFU", "FKW", "HG"]},
-				{"stations": ["NN", "NWH", "FFU", "FKW", "HG"]}
+				{"stations": ["NN", "NWH", "FFU", "FKW", "HG", "HH"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
