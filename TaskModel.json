@@ -23,6 +23,20 @@
 		},
 		{
 			"group": 1,
+			"name": "IC von %s nach %s",
+			"descriptions": [
+				"Der Intercity muss pünktlich von %s nach %s gebracht werden.",
+				"Schicke den IC pünktlich und sicher nach $2%s."
+			],
+			"objects": [
+				{"stations": ["HH", "HELZ", "HK", "HG", "FKW", "FFU", "NWH"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "ICE Sprinter von %s nach %s",
 			"descriptions": [
 				"Der ICE Sprinter muss mit wenigen Halten schnell nach %2$s.",
@@ -42,7 +56,7 @@
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
-		}
+		},
 		{
 			"group": 1,
 			"name": "ICE von %s nach %s",
@@ -71,7 +85,7 @@
 			"objects":
 			[
 				{"stations": ["RH", "RM", "FF", "FH", "FFU", "FKW", "HG"]},
-				{"stations": ["NN", "NWH", "FFU", "FKW", "HG"]}
+				{"stations": ["NN", "NWH", "FFU", "FKW", "HG", "HH"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
