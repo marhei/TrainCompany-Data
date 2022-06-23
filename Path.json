@@ -1257,6 +1257,13 @@
 					"twistingFactor": 0.15,
 					"length": 28,
 					"maxSpeed": 200
+				},
+				{
+					"start": "UE P",
+					"end": "UWM",
+					"length": 25,
+					"twistingFactor": 0.15,
+					"maxSpeed": 120
 				}
 			]
 		},
@@ -2019,6 +2026,52 @@
 					"length": 18
 				}
 			]
+		},
+		{
+				"name": "Holzlandbahn",
+				"twistingFactor": 0.3,
+				"electrified": false,
+				"objects":
+				[
+					{
+						"start": "UWM",
+						"end": "UOB",
+						"maxSpeed": 100,
+						"length": 4
+					},
+					{
+						"start": "UOB",
+						"end": "UJW",
+						"maxSpeed": 130,
+						"length": 20
+					},
+					{
+						"start": "UJW",
+						"end": "UGW",
+						"maxSpeed": 100,
+						"length": 5
+					},
+					{
+						"start": "UGW",
+						"end": "USK",
+						"maxSpeed": 120,
+						"length": 9
+					},
+					{
+						"start": "USK",
+						"end": "UHK",
+						"maxSpeed": 100,
+						"twistingFactor": 0.35,
+						"length": 11
+					},
+					{
+						"start": "UHK",
+						"end": "UG",
+						"maxSpeed": 100,
+						"twistingFactor": 0.4,
+						"length": 20
+					}
+				]
 		}
 	]
 }
