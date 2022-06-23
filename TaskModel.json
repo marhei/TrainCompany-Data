@@ -107,6 +107,29 @@
 		},
 		{
 			"group": 0,
+			"name": "ICE-Überführung von %s nach %s",
+			"plops": 250000,
+			"objects":
+			[
+				{
+					"descriptions": [
+						"Bringe den ICE zur Hauptuntersuchung von %s nach %s."
+					],
+					"stations": ["KKRO", "KK", "FF"]
+				},
+				{
+					"descriptions": [
+						"Überführe für Siemens einen neuen ICE der BR 408 von %s nach %s."
+					],
+					"stations": ["KWEK", "KKRO", "KK", "FF"]
+				}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
 			"name": "Eröffnungs-ICE nach %2$s",
 			"descriptions": [
 				"Zur Eröffnung der VDE8 wird ein ICE von %s nach %s gefahren.",
@@ -549,6 +572,30 @@
 			]
 		},
 		{
+			"group": 1,
+			"name": "RRX von %s nach %s",
+			"descriptions": [
+				"Bringe den RRX von %s nach %s."
+			],
+			"plops": 300000,
+			"stations": ["KK", "KDN", "KA", "KM", "KN", "KD", "KW", "EHG"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die RB von %s nach %s."
+			],
+			"plops": 180000,
+			"stations": ["KA", "KM", "KKR", "EDG"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Sonderzug des Altenheims %s",
 			"descriptions": [
@@ -748,54 +795,6 @@
 				{"name": "castor", "value": 10}
 			],
 			"neededCapacityDifference": 3
-		},
-		{
-			"group": 1,
-			"name": "RRX von %s nach %s",
-			"descriptions": [
-				"Bringe den RRX von %s nach %s."
-			],
-			"plops": 300000,
-			"stations": ["KK", "KA", "KM", "KN", "KD", "KW", "EHG"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 1,
-			"name": "RB von %s nach %s",
-			"descriptions": [
-				"Bringe die RB von %s nach %s."
-			],
-			"plops": 180000,
-			"stations": ["KA", "KM", "KKR", "EDG"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 0,
-			"name": "ICE-Überführung von %s nach %s",
-
-			"plops": 250000,
-			"objects":
-			[
-				{
-					"descriptions": [
-						"Bringe den ICE zur Hauptuntersuchung von %s nach %s."
-					],
-					"stations": ["KKRO", "KK", "FF"]
-				},
-				{
-					"descriptions": [
-						"Überführe für Siemens einen neuen ICE der BR 408 von %s nach %s."
-					],
-					"stations": ["KWEK", "KKRO", "KK", "FF"]
-				}
-			],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
 		}
 	]
 }
