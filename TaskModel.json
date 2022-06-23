@@ -775,24 +775,24 @@
 		},
 		{
 			"group": 0,
-			"name": "ICE Überführung von %s nach %s",
-			"descriptions": [
-				"Bringe den reparierten ICE %s nach %s."
-			],
+			"name": "ICE-Überführung von %s nach %s",
+
 			"plops": 250000,
-			"stations": ["KKRO", "KK", "FF"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 0,
-			"name": "ICE Überführung von %s nach %s",
-			"descriptions": [
-				"Bringe den neuen ICE %s nach %s."
+			"objects":
+			[
+				{
+					"descriptions": [
+						"Bringe den ICE zur Hauptuntersuchung von %s nach %s."
+					],
+					"stations": ["KKRO", "KK", "FF"]
+				},
+				{
+					"descriptions": [
+						"Überführe für Siemens einen neuen ICE der BR 408 von %s nach %s."
+					],
+					"stations": ["KWEK", "KKRO", "KK", "FF"]
+				}
 			],
-			"plops": 250000,
-			"stations": ["KWEK", "KKRO", "KK", "FF"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
