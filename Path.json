@@ -2259,6 +2259,180 @@
 					"twistingFactor": 0.5
 				}
 			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"maxSpeed": 200,
+			"objects": [
+				{
+					"start": "HH",
+					"end": "HC",
+					"length": 41,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HC",
+					"end": "HESD",
+					"length": 18,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HESD",
+					"end": "HU",
+					"length": 35,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HU",
+					"end": "ALBG",
+					"length": 35,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "ALBG",
+					"end": "AHAR",
+					"length": 38,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"maxSpeed": 160,
+			"start": "AHAR",
+			"end": "AH",
+			"length": 12,
+			"twistingFactor": 0.3
+		},
+		{
+			"group": 0,
+			"name": "Hamburg-Altonaer Verbindungsbahn",
+			"electrified": true,
+			"maxSpeed": 60,
+			"start": "AH",
+			"end": "AA",
+			"twistingFactor": 0.5
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "AHAR",
+					"end": "ABLZ",
+					"length": 20,
+					"maxSpeed": 160,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "ABLZ",
+					"end": "AROG",
+					"length": 41,
+					"maxSpeed": 200,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "AROG",
+					"end": "HV",
+					"length": 27,
+					"maxSpeed": 160,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "HV",
+					"end": "HDVD",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HDVD",
+					"end": "HNBG",
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "HNBG",
+					"end": "HNRU",
+					"length": 24,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HNRU",
+					"end": "HWUN",
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "AROG",
+					"end": "HB",
+					"length": 43,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HV",
+					"end": "HB",
+					"length": 36,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Heidebahn",
+			"electrified": false,
+			"objects": [
+				{
+					"start": "ABLZ",
+					"end": "ASDN",
+					"length": 28,
+					"maxSpeed": 120,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "ASDN",
+					"end": "HSO",
+					"length": 18,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HSO",
+					"end": "HWSR",
+					"length": 26,
+					"maxSpeed": 120,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "HWSR",
+					"end": "HSWS",
+					"length": 22,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HSWS",
+					"end": "HH",
+					"length": 40,
+					"maxSpeed": 100,
+					"twistingFactor": 0.28
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"maxSpeed": 140,
+			"start": "HELZ",
+			"end": "HHI",
+			"twistingFactor": 0.25
 		}
 	]
 }
