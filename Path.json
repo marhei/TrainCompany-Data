@@ -2190,6 +2190,43 @@
 					"maxSpeed": 20
 				}
 			]
+		},
+		{
+			"name": "Bördebahn",
+			"group": 1,
+			"electrified": false,
+			"objects":
+			[
+				{
+					"start": "KDN",
+					"end": "KEU",
+					"twistingFactor": 0.3,
+					"length": 30,
+					"maxSpeed": 60
+				}
+			]
+		},
+		{
+			"name": "Rurtalstrecke",
+			"group": 1,
+			"electrified": false,
+			"objects":
+			[
+				{
+					"start": "KHE",
+					"end": "KDN",
+					"twistingFactor": 0.9,
+					"length": 30,
+					"maxSpeed": 60
+				},
+				{
+					"start": "KDN",
+					"end": "KJ",
+					"twistingFactor": 0.3,
+					"length": 15,
+					"maxSpeed": 80
+				}
+			]
 		}
 	]
 }
