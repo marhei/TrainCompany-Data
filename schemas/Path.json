@@ -1,0 +1,90 @@
+{
+	"$schema": "https://json-schema.org/draft-07/schema",
+	"$id": "https://raw.githubusercontent.com/marhei/TrainCompany-Data/main/schemas/Path.json",
+	"title": "Verbindungen zwischen zwei Bahnhöfen",
+	"type": "object",
+	"properties": {
+		"data": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"description": "Streckenname",
+						"type": "string"
+					},
+					"group": {
+						"description": "Art der Strecke",
+						"type": "integer",
+						"oneOf": [
+							{"const": 0, "description": "Hauptbahn"},
+							{"const": 1, "description": "Nebenbahn"},
+							{"const": 2, "description": "SFS"}
+						],
+						"default": 0
+					},
+					"start": {
+						"description": "Ril100 des Startbahnhofs",
+						"type": "string",
+						"minLength": 2,
+						"maxLength": 5
+					},
+					"end": {
+						"description": "Ril100 des Endbahnhofs",
+						"type": "string",
+						"minLength": 2,
+						"maxLength": 5
+					},
+					"twistingFactor": {
+						"description": "Kurvigkeit. 1 ist am kurvigsten",
+						"type": "number",
+						"minimum": 0,
+						"maximum": 1
+					},
+					"length": {
+						"description": "Länge der Strecke",
+						"type": "integer",
+						"minimum": 0
+					},
+					"maxSpeed": {
+						"description": "Höchstgeschwindigkeit des Streckenabschnitts",
+						"type": "integer",
+						"minimum": 1
+					},
+					"electrified": {
+						"description": "Elektrifiziert",
+						"type": "boolean",
+						"default": true
+					},
+					"neededEquipments": {
+						"description": "Benötigte Fahrzeugausstattung",
+						"type": "array",
+						"items": {
+							"type": "string",
+							"examples": [
+								"ETCS",
+								"KRM",
+								"FR"
+							]
+						}
+					},
+					"objects": {
+						"description": "Sub-Routen, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
+						"type": "array",
+						"items": {
+							"$ref": "#/properties/data/items"
+						}
+					}
+				},
+				"required": [
+					"start",
+					"end",
+					"twistingFactor",
+					"length",
+					"maxSpeed"
+				],
+				"uniqueItems": true
+			}
+		}
+	}
+}
