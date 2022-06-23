@@ -472,6 +472,44 @@
 			]
 		},
 		{
+			"group": 1,
+			"name": "Metronom von %s nach %s",
+			"descriptions": [
+				"Bring die Fahrgäste mit oder ohne Fahrräder pünktlich durch das Leinetal.",
+				"Bring den RE2 von %s nach %s. Die Strecke ist stark ausgelastet."
+			],
+			"plops": 150000,
+			"stations": ["HG", "HK", "HELZ", "HH"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB89 von %s nach %s",
+			"descriptions": [
+				"Bring die Ems-Börde-Bahn pünktlich von %s nach %s."
+			],
+			"plops": 220000,
+			"stations": ["FKW", "HWAR", "HA", "EPD", "ESOT", "EHM", "EMST"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB84 von %s nach %s",
+			"descriptions": [
+				"Bring die Fahrgäste pünktlich und sicher durch die Egge bis ins Weserbergland",
+				"Bring die Eggebahn quer durch das Hochstift von %s nach %s. Die Strecke ist nicht stark ausgelastet."
+			],
+			"plops": 120000,
+			"stations": ["EPD", "HA", "HOTT", "HK"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Sonderzug des Altenheims %s",
 			"descriptions": [

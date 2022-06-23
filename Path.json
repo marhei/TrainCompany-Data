@@ -742,6 +742,12 @@
 					"end": "NRB",
 					"length": 14,
 					"maxSpeed": 200
+				},
+				{
+					"start": "HG",
+					"end": "HH",
+					"length": 100,
+					"maxSpeed": 250
 				}
 			]
 		},
@@ -1859,6 +1865,70 @@
 			"twistingFactor": 0.1,
 			"length": 10,
 			"neededEquipments": ["FR"]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 160,
+			"electrified": true,
+			"start": "EHM",
+			"end": "EMST",
+			"twistingFactor": 0.1,
+			"length": 36
+		},
+		{
+			"group": 0,
+			"electrified": false,
+			"twistingFactor": 0.4,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "HA",
+					"end": "HOTT",
+					"length": 31,
+					"name": "Eggebahn"
+				},
+				{
+					"start": "HOTT",
+					"end": "HBOF",
+					"length": 27,
+					"name": "Sollingbahn"
+				},
+				{
+					"start": "HBOF",
+					"end": "HG",
+					"length": 37,
+					"name": "Oberweserbahn"
+				},
+				{
+					"start": "HOTT",
+					"end": "HK",
+					"length": 62
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"maxSpeed": 160,
+			"name": "Hannöversche Südbahn",
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "HG",
+					"end": "HK",
+					"length": 39
+				},
+				{
+					"start": "HK",
+					"end": "HELZ",
+					"length": 36
+				},
+				{
+					"start": "HELZ",
+					"end": "HH",
+					"length": 33
+				}
+			]
 		}
 	]
 }
