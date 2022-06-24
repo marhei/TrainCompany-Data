@@ -2754,6 +2754,100 @@
 			]
 		},
 		{
+			"group": 0,
+			"maxSpeed": 140,
+			"start": "EMST",
+			"end": "HR",
+			"length": 39,
+			"twistingFactor": 0.1
+		},
+		{
+			"group": 0,
+			"maxSpeed": 90,
+			"objects": [
+				{
+					"start": "HE",
+					"end": "HNN",
+					"length": 28,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HNN",
+					"end": "HNDM",
+					"length": 6,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 140,
+			"name": "Emslandstrecke",
+			"objects": [
+				{
+					"start": "HR",
+					"end": "HLIG",
+					"length": 30,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "HLIG",
+					"end": "HMEP",
+					"length": 20,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HMEP",
+					"end": "HPAP",
+					"length": 46,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HPAP",
+					"end": "HLEE",
+					"length": 16,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HLEE",
+					"end": "HE",
+					"length": 27,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 160,
+			"objects": [
+				{
+					"start": "HBH",
+					"end": "HB",
+					"length": 62,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HB",
+					"end": "HHUD",
+					"length": 27,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HHUD",
+					"end": "HOLD",
+					"length": 16,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HOLD",
+					"end": "HLEE",
+					"length": 55,
+					"maxSpeed": 120,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
 			"name": "Bahnstrecke Leipzig-Probstzella",
 			"twistingFactor": 0.3,
 			"electrified": false,
