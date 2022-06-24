@@ -2752,6 +2752,157 @@
 					"length": 15
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"objects":
+			[
+				{
+					"start": "BCS",
+					"end": "BFP",
+					"maxSpeed": 120,
+					"twistingFactor": 0.4,
+					"length": 90
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"objects":
+			[
+				{
+					"start": "BFP",
+					"end": "BHF",
+					"maxSpeed": 160,
+					"twistingFactor": 0.3,
+					"length": 81
+				}
+			]
+		},
+		{
+			"name": "Berliner Stadtbahn",
+			"electrified": true,
+			"group": 0,
+			"objects":
+			[
+				{
+					"start": "BHF",
+					"end": "BL",
+					"maxSpeed": 80,
+					"twistingFactor": 0.5,
+					"length": 5
+				},
+				{
+					"start": "BL",
+					"end": "BSPD",
+					"maxSpeed": 80,
+					"twistingFactor": 0.5,
+					"length": 15
+				}
+			]
+		},
+		{
+			"name": "SFS Hannover–Berlin",
+			"group": 2,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "BSPD",
+					"end": "LS",
+					"maxSpeed": 250,
+					"twistingFactor": 0.1,
+					"length": 86
+				},
+				{
+					"start": "LS",
+					"end": "HWOB",
+					"maxSpeed": 250,
+					"twistingFactor": 0.1,
+					"length": 82
+				},
+				{
+					"start": "HWOB",
+					"end": "HH",
+					"maxSpeed": 200,
+					"twistingFactor": 0.3,
+					"length": 75,
+					"group": 0
+				}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Weddeler Schleife",
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "HWOB",
+					"end": "HBS",
+					"maxSpeed": 160,
+					"twistingFactor": 0.4,
+					"length": 21
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "HHI",
+					"end": "HBS",
+					"maxSpeed": 160,
+					"twistingFactor": 0.2,
+					"length": 34
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "BPD",
+					"end": "LM",
+					"maxSpeed": 160,
+					"twistingFactor": 0.2,
+					"length": 115
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "LM",
+					"end": "HBS",
+					"maxSpeed": 120,
+					"twistingFactor": 0.5,
+					"length": 83
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "BPD",
+					"end": "BL",
+					"maxSpeed": 120,
+					"twistingFactor": 0.2,
+					"length": 26
+				}
+			]
 		}
 	]
 }
