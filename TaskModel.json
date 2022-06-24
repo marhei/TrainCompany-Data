@@ -71,8 +71,9 @@
 			"objects":
 			[
 				{"stations": ["RH", "RM", "FF", "FH", "FFU", "FKW", "HG"]},
-				{"stations": ["NN", "NWH", "FFU", "FKW", "HG", "HH", "AH"]}
-			],
+				{"stations": ["NN", "NWH", "FFU", "FKW", "HG", "HH", "AH"]},
+				{"stations": ["UGW", "US", "NK", "NFL", "NBA", "NER", "NN"]}
+	],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -203,7 +204,8 @@
 			"plops": 400000,
 			"objects": [
 				{"stations": ["HH", "HELZ", "HK", "HG", "FKW", "FFU", "NWH"]},
-				{"stations": ["HH", "EHFD", "EBILP", "EGLO", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK"]}
+				{"stations": ["HH", "EHFD", "EBILP", "EGLO", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK"]},
+				{"stations": ["UGW", "US", "NK", "NFL", "NBA", "NER", "NN"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -659,6 +661,18 @@
 			],
 			"plops": 230000,
 			"stations": ["KDN", "KEU"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 42 von %s nach %s",
+			"descriptions": [
+				"Bring die Frankenwaldbahn pünktlich von von %s nach %s."
+			],
+			"plops": 320000,
+			"stations": ["UGW", "UKA", "UR", "US", "UPR", "NFDF", "NK", "NHM", "NFL", "NED", "NBA", "NER", "NF", "NN" ],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
