@@ -763,6 +763,21 @@
 			]
 		},
 		{
+			"group": 1,
+			"name": "RE 1 von %s nach %s",
+			"descriptions": [
+				"Bringe den RE 1 von %s nach %s."
+			],
+			"plops": 350000,
+			"objects":
+			[
+				{"stations": ["LM", "LBU", "LB", "BPD", "BL", "BHF", "BFUW", "BFP", "BCS"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Sonderzug zur Kieler Woche nach %s",
 			"descriptions": [
