@@ -2539,5 +2539,70 @@
 				}
 			]
 		}
+		{
+			"name": "Frankenwaldbahn",
+			"twistingFactor": 0.3,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "UGW",
+					"end": "UKA",
+					"maxSpeed": 100,
+					"twistingFactor": 0.4,
+					"length": 10
+				},
+				{
+					"start": "UKA",
+					"end": "UR",
+					"maxSpeed": 120,
+					"length": 22
+				},
+				{
+					"start": "UR",
+					"end": "US",
+					"maxSpeed": 110,
+					"length": 10
+				},
+				{
+					"start": "US",
+					"end": "UPR",
+					"maxSpeed": 80,
+					"twistingFactor": 0.7,
+					"length": 25
+				},
+				{
+					"start": "UPR",
+					"end": "NFDF",
+					"maxSpeed": 70,
+					"twistingFactor": 0.55,
+					"length": 20
+				},
+				{
+					"start": "NFDF",
+					"end": "NK",
+					"maxSpeed": 140,
+					"length": 20
+				},
+				{
+					"start": "NK",
+					"end": "NHM",
+					"maxSpeed": 150,
+					"length": 15
+				},
+				{
+					"start": "NHM",
+					"end": "NFL",
+					"maxSpeed": 150,
+					"length": 9
+				},
+				{
+					"start": "NFL",
+					"end": "NED",
+					"maxSpeed": 160,
+					"length": 15
+				}
+			]
+	}
 	]
 }
