@@ -2785,32 +2785,35 @@
 		},
 		{
 			"name": "Vogelfluglinie",
-			"group": 1,
+			"group": 0,
 			"electrified": false,
 			"objects": [
 				{
 					"start": "AL",
 					"end": "ASID",
 					"length": 26,
-					"twistingFactor": 0.3
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
 				},
 				{
 					"start": "ASID",
 					"end": "AOL",
 					"length": 26,
-					"twistingFactor": 0.3
+					"twistingFactor": 0.3,
+					"maxSpeed": 100
 				},
 				{
 					"start": "AOL",
 					"end": "APU",
 					"length": 36,
-					"twistingFactor": 0.3
+					"twistingFactor": 0.3,
+					"maxSpeed": 160
 				}
 			]
 		},
 		{
 			"name": "Marschbahn",
-			"group": 1,
+			"group": 0,
 			"electrified": false,
 			"objects": [
 				{
@@ -2818,14 +2821,16 @@
 					"end": "AGST",
 					"length": 17,
 					"twistingFactor": 0.3,
-					"maxSpeed": 120
+					"maxSpeed": 120,
+					"electrified": true
 				},
 				{
 					"start": "AGST",
 					"end": "AIZ",
 					"length": 17,
 					"twistingFactor": 0.3,
-					"maxSpeed": 120
+					"maxSpeed": 120,
+					"electrified": true
 				},
 				{
 					"start": "AIZ",
