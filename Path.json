@@ -2890,10 +2890,31 @@
 			[
 				{
 					"start": "BPD",
+					"end": "LB",
+					"maxSpeed": 160,
+					"twistingFactor": 0.2,
+					"length": 35
+				},
+				{
+					"start": "LB",
+					"end": "LGN",
+					"maxSpeed": 160,
+					"twistingFactor": 0.2,
+					"length": 30
+				},
+				{
+					"start": "LGN",
+					"end": "LBU",
+					"maxSpeed": 160,
+					"twistingFactor": 0.2,
+					"length": 26
+				},
+				{
+					"start": "LGN",
 					"end": "LM",
 					"maxSpeed": 160,
 					"twistingFactor": 0.2,
-					"length": 115
+					"length": 24
 				}
 			]
 		},
