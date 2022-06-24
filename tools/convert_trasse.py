@@ -1,7 +1,7 @@
 import csv
 import json
 import sys
-from tokenize import group
+import os
 
 def convert(trasse: str):
 	with open(trasse, encoding="cp1252") as trasse_f:
@@ -91,4 +91,9 @@ def import_platform_data() -> dict[str, tuple[int, int]]:
 	return platform_data_ril100
 
 if __name__ == '__main__':
-	convert(sys.argv[1])
+	if not os.path.exists("Path.json") and os.path.exists("../Path.json"):
+		os.chdir('..')
+	try:
+		convert(sys.argv[1])
+	except KeyError:
+		print("Usage: python convert_trasse.py trassenfinder.csv")

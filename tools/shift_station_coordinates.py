@@ -1,5 +1,6 @@
 import json
 from sys import argv
+import os
 
 def shift(x: int, y: int):
 	"""Takes all stations and shifts their x and y-coordinates by the specified amount."""
@@ -14,6 +15,8 @@ def shift(x: int, y: int):
 		json.dump(data, output, ensure_ascii=False,indent="\t")
 
 if __name__ == '__main__':
+	if not os.path.exists("Path.json") and os.path.exists("../Path.json"):
+		os.chdir('..')
 	try:
 		x = int(argv[1])
 		y = int(argv[2])
