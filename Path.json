@@ -2199,6 +2199,43 @@
 			]
 		},
 		{
+			"name": "Bördebahn",
+			"group": 1,
+			"electrified": false,
+			"objects":
+			[
+				{
+					"start": "KDN",
+					"end": "KEU",
+					"twistingFactor": 0.3,
+					"length": 30,
+					"maxSpeed": 60
+				}
+			]
+		},
+		{
+			"name": "Rurtalstrecke",
+			"group": 1,
+			"electrified": false,
+			"objects":
+			[
+				{
+					"start": "KHE",
+					"end": "KDN",
+					"twistingFactor": 0.9,
+					"length": 30,
+					"maxSpeed": 60
+				},
+				{
+					"start": "KDN",
+					"end": "KJ",
+					"twistingFactor": 0.3,
+					"length": 15,
+					"maxSpeed": 80
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"objects": [
@@ -2454,6 +2491,72 @@
 					"twistingFactor": 0.2,
 					"length": 23,
 					"maxSpeed": 120
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "HB",
+					"end": "HDIP",
+					"length": 69,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HDIP",
+					"end": "HBOM",
+					"length": 28,
+					"maxSpeed": 200,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "HBOM",
+					"end": "HO",
+					"length": 24,
+					"maxSpeed": 150,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "HO",
+					"end": "ELEN",
+					"length": 19,
+					"maxSpeed": 160,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "ELEN",
+					"end": "EMST",
+					"length": 31,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"maxSpeed": 140,
+			"objects": [
+				{
+					"start": "HO",
+					"end": "HMEL",
+					"length": 21,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HMEL",
+					"end": "HBDE",
+					"length": 16,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "HBDE",
+					"end": "HL",
+					"length": 10,
+					"twistingFactor": 0.2
 				}
 			]
 		}
