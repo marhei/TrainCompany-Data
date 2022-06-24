@@ -32,7 +32,7 @@
 			"plops": 500000,
 			"plopDifference": 8,
 			"objects": [
-				{"stations": ["HH", "FKW", "FF", "FD"]},
+				{"stations": ["AH", "HH", "FKW", "FF", "FD"]},
 				{
 					"stations": ["NN", "UE P"],
 					"plops": 400000
@@ -71,7 +71,7 @@
 			"objects":
 			[
 				{"stations": ["RH", "RM", "FF", "FH", "FFU", "FKW", "HG"]},
-				{"stations": ["NN", "NWH", "FFU", "FKW", "HG", "HH"]}
+				{"stations": ["NN", "NWH", "FFU", "FKW", "HG", "HH", "AH"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -453,6 +453,20 @@
 		},
 		{
 			"group": 1,
+			"name": "S5 Hannover von %s nach %s",
+			"descriptions": [
+				"Bring die Fahrgäste einigermaßen bequem von %s nach %s.",
+				"Fahre den Langläufer von %s nach %s.",
+				"Bring die Fahrgäste pünktlich nach %2$s."
+			],
+			"stations": ["EPD", "HA", "HLUE", "HHM", "HSPR", "HH"],
+			"plops": 200000,
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "RE 1 von %s nach %s",
 			"descriptions": [
 				"Die kurvenreiche Strecke von %s nach %s ist ideal für ein NT-Fahrzeug.",
@@ -472,6 +486,19 @@
 			],
 			"plops": 300000,
 			"stations": ["FWOR", "FMSH", "FALZ", "FARM", "FBGK"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB77 von %s nach %s",
+			"descriptions": [
+				"Bring die Fahrgäste pünktlich von %s nach %s.",
+				"Fahr mit der Weser-Bahn von %s nach %s."
+			],
+			"stations": ["HHI", "HELZ", "HHM", "HHSO", "HRIN", "HL", "EHFD"],
+			"plops": 200000,
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -537,11 +564,28 @@
 			"group": 1,
 			"name": "Metronom von %s nach %s",
 			"descriptions": [
-				"Bring die Fahrgäste mit oder ohne Fahrräder pünktlich durch das Leinetal.",
+				"Bring die Fahrgäste mit oder ohne Fahrräder pünktlich durch das Leinetal und an die Aller.",
 				"Bring den RE2 von %s nach %s. Die Strecke ist stark ausgelastet."
 			],
-			"plops": 150000,
-			"stations": ["HG", "HK", "HELZ", "HH"],
+			"plops": 200000,
+			"stations": ["HG", "HK", "HELZ", "HH", "HC", "HU"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Metronom von %s nach %s",
+			"descriptions": [
+				"Bring die Fahrgäste mit oder ohne Fahrräder pünktlich nach %2$s.",
+				"Bring den RE von %s nach %s."
+			],
+			"plops": 200000,
+			"objects": [
+				{"stations": ["AH", "AHAR", "ALBG", "HU"]},
+				{"stations": ["AH", "AHAR", "ABLZ", "AROG", "HB"]}
+
+			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -615,6 +659,18 @@
 			],
 			"plops": 230000,
 			"stations": ["KDN", "KEU"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Maas-Schwalm-Nette Bahn von %s nach %s",
+			"descriptions": [
+				"Bringe die Maas-Schwalm-Nette Bahn von %s nach %s."
+			],
+			"plops": 150000,
+			"stations": ["KDAL", "KWEG", "KM"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
