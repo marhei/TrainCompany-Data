@@ -652,6 +652,18 @@
 			]
 		},
 		{
+			"group": 1,
+			"name": "Eurobahn von %s nach %s",
+			"descriptions": [
+				"Bringe die Eurobahn Bahn von %s nach %s."
+			],
+			"plops": 250000,
+			"stations": ["XNVL", "KV", "KM", "KN", "KD", "KW", "EHG", "EHM"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Sonderzug des Altenheims %s",
 			"descriptions": [
