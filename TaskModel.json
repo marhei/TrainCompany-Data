@@ -676,6 +676,39 @@
 			]
 		},
 		{
+			"group": 1,
+			"name": "Schleswig Holstein Express von %s nach %s",
+			"descriptions": [
+				"Bringe den Schleswig Holstein Express von %s nach %s."
+			],
+			"plops": 380000,
+			"objects":
+			[
+				{"stations": ["AA", "AN", "AK"]},
+				{"stations": ["AA", "AN", "AR", "AF"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die RB von %s nach %s."
+			],
+			"plops": 280000,
+			"objects":
+			[
+				{"stations": ["AK", "AR"]},
+				{"stations": ["AK", "AL"]},
+				{"stations": ["AK", "AF"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Sonderzug des Altenheims %s",
 			"descriptions": [
