@@ -936,6 +936,38 @@
 				{"name": "castor", "value": 10}
 			],
 			"neededCapacityDifference": 3
+		},
+		{
+			"group": 0,
+			"name": "Urlaubs-Express von %s nach %s",
+			"descriptions": [
+				"Bringe die Urlauber sicher nach Hause",
+				"Bringe die Fahrgäste in den Urlaub."
+			],
+			"plops": 450000,
+			"objects":
+			[
+				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "NWH", "NN"]},
+				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM"]},
+				{"stations": ["KD", "KK", "FF", "NWH", "NN"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0},
+				{"name": "cars", "value": 60}
+			]
+		},
+		{
+			"group": 1,
+			"name": "NightJet von %s nach %s",
+			"descriptions": [
+				"Bringe die Urlauber sicher nach Hause",
+				"Bringe die Fahrgäste in den Urlaub."
+			],
+			"plops": 450000,
+			"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
 		}
 	]
 }
