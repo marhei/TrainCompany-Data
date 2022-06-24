@@ -2925,10 +2925,24 @@
 			[
 				{
 					"start": "LM",
+					"end": "HHLM",
+					"maxSpeed": 120,
+					"twistingFactor": 0.5,
+					"length": 30
+				},
+				{
+					"start": "HHLM",
+					"end": "LEI",
+					"maxSpeed": 120,
+					"twistingFactor": 0.5,
+					"length": 17
+				},
+				{
+					"start": "LEI",
 					"end": "HBS",
 					"maxSpeed": 120,
 					"twistingFactor": 0.5,
-					"length": 83
+					"length": 34
 				}
 			]
 		},
