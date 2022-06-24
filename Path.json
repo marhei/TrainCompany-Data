@@ -2618,8 +2618,14 @@
 			"objects": [
 				{
 					"start": "AN",
+					"end": "AR",
+					"length": 39,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "AR",
 					"end": "AF",
-					"length": 101,
+					"length": 63,
 					"twistingFactor": 0.2
 				}
 			]
@@ -2633,7 +2639,7 @@
 					"start": "AK",
 					"end": "AF",
 					"length": 80,
-					"twistingFactor": 0.6
+					"twistingFactor": 0.4
 				}
 			]
 		},
@@ -2832,6 +2838,57 @@
 					"start": "TPH",
 					"end": "TV",
 					"length": 25
+				}
+			]
+		},
+		{
+			"name": "Bahnstrecke Leipzig-Probstzella",
+			"twistingFactor": 0.3,
+			"electrified": false,
+			"objects":
+			[
+				{
+					"start": "UGZ",
+					"end": "UWE",
+					"maxSpeed": 100,
+					"twistingFactor": 0.4,
+					"length": 8
+				},
+				{
+					"start": "UWE",
+					"end": "UNP",
+					"maxSpeed": 100,
+					"length": 8
+				},
+				{
+					"start": "UNP",
+					"end": "UTR",
+					"maxSpeed": 100,
+					"length": 7
+				},
+				{
+					"start": "UTR",
+					"end": "UNH",
+					"maxSpeed": 100,
+					"length": 12
+				},
+				{
+					"start": "UNH",
+					"end": "UPS",
+					"maxSpeed": 100,
+					"length": 10
+				},
+				{
+					"start": "UPS",
+					"end": "US",
+					"maxSpeed": 100,
+					"length": 17
+				},
+				{
+					"start": "UG",
+					"end": "UGZ",
+					"maxSpeed": 80,
+					"length": 4
 				}
 			]
 		}

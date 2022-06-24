@@ -679,6 +679,18 @@
 		},
 		{
 			"group": 1,
+			"name": "RE 12 von %s nach %s",
+			"descriptions": [
+				"Bringe den RE 12 pünktlich von von %s nach %s."
+			],
+			"plops": 220000,
+			"stations": ["UG", "UGZ", "UWE", "UNP", "UTR", "UNH", "UPS", "US" ],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "Maas-Schwalm-Nette Bahn von %s nach %s",
 			"descriptions": [
 				"Bringe die Maas-Schwalm-Nette Bahn von %s nach %s."
