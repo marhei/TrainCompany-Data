@@ -709,6 +709,22 @@
 			]
 		},
 		{
+			"group": 1,
+			"name": "AKN von %s nach %s",
+			"descriptions": [
+				"Bringe die AKN von %s nach %s."
+			],
+			"plops": 200000,
+			"objects":
+			[
+				{"stations": ["AH", "AUBS", "AN"]},
+				{"stations": ["AUBS", "AEL"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Sonderzug zur Kieler Woche nach %s",
 			"descriptions": [
