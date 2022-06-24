@@ -710,6 +710,18 @@
 		},
 		{
 			"group": 0,
+			"name": "Sonderzug zur Kieler Woche nach %s",
+			"descriptions": [
+				"Bringe den Sonderzug nach %s."
+			],
+			"plops": 150000,
+			"stations": ["ASCS", "AK"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
 			"name": "Sonderzug des Altenheims %s",
 			"descriptions": [
 				"Die aktiven Rentner wollen heute %2$s besichtigen, bring sie dorthin!",
