@@ -2760,10 +2760,24 @@
 			[
 				{
 					"start": "BCS",
+					"end": "BGU",
+					"maxSpeed": 120,
+					"twistingFactor": 0.4,
+					"length": 37
+				},
+				{
+					"start": "BGU",
+					"end": "BEHS",
+					"maxSpeed": 120,
+					"twistingFactor": 0.3,
+					"length": 25
+				},
+				{
+					"start": "BEHS",
 					"end": "BFP",
 					"maxSpeed": 120,
 					"twistingFactor": 0.4,
-					"length": 90
+					"length": 23
 				}
 			]
 		},
@@ -2774,10 +2788,17 @@
 			[
 				{
 					"start": "BFP",
+					"end": "BFUW",
+					"maxSpeed": 160,
+					"twistingFactor": 0.3,
+					"length": 34
+				},
+				{
+					"start": "BFUW",
 					"end": "BHF",
 					"maxSpeed": 160,
 					"twistingFactor": 0.3,
-					"length": 81
+					"length": 47.3
 				}
 			]
 		},
