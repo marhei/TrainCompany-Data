@@ -2753,8 +2753,24 @@
 			"objects": [
 				{
 					"start": "RF",
+					"end": "RDZ",
+					"length": 10,
+					"twistingFactor": 0.3,
+					"maxSpeed": 160,
+					"group": 0
+				},
+				{
+					"start": "RDZ",
+					"end": "RRL",
+					"length": 10,
+					"twistingFactor": 0.3,
+					"maxSpeed": 160,
+					"group": 0
+				},
+				{
+					"start": "RRL",
 					"end": "RO",
-					"length": 60,
+					"length": 40,
 					"twistingFactor": 0.3,
 					"maxSpeed": 160,
 					"group": 0
@@ -2809,8 +2825,13 @@
 			"objects": [
 				{
 					"start": "RK",
+					"end": "TPH",
+					"length": 43
+				},
+				{
+					"start": "TPH",
 					"end": "TV",
-					"length": 51
+					"length": 25
 				}
 			]
 		}
