@@ -2744,6 +2744,55 @@
 			]
 		},
 		{
+			"name": "Marschbahn",
+			"group": 1,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "AEL",
+					"end": "AGST",
+					"length": 17,
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "AGST",
+					"end": "AIZ",
+					"length": 17,
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "AIZ",
+					"end": "AHI",
+					"length": 60,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "AHI",
+					"end": "AHM",
+					"length": 34,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "AHM",
+					"end": "ANB",
+					"length": 40,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "ANB",
+					"end": "AWLA",
+					"length": 39,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				}
+			]
+		},
+		{
 			"name": "Frankenwaldbahn",
 			"twistingFactor": 0.3,
 			"electrified": true,
