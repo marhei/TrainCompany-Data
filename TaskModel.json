@@ -621,7 +621,7 @@
 			"group": 1,
 			"name": "RRX von %s nach %s",
 			"descriptions": [
-				"Bringe den RRX von %s nach %s."
+				"Bringe den Rhein-Ruhr-Express von %s nach %s."
 			],
 			"plops": 300000,
 			"stations": ["KK", "KDN", "KA", "KM", "KN", "KD", "KW", "EHG"],
@@ -647,19 +647,12 @@
 			"descriptions": [
 				"Bringe die Rurtalbahn von %s nach %s."
 			],
-			"plops": 230000,
-			"stations": ["KHE", "KJ"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 1,
-			"name": "Rurtalbahn von %s nach %s",
-			"descriptions": [
-				"Bringe die Rurtalbahn von %s nach %s."
+			"plops": 150000,
+			"objects": [
+				{"stations": ["KDN", "KEU"]},
+				{"stations": ["KHE", "KDN", "KJ"]}
+
 			],
-			"plops": 230000,
 			"stations": ["KDN", "KEU"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -669,7 +662,7 @@
 			"group": 1,
 			"name": "RE 42 von %s nach %s",
 			"descriptions": [
-				"Bring die Frankenwaldbahn pünktlich von von %s nach %s."
+				"Bring die Frankenwaldbahn pünktlich von %s nach %s."
 			],
 			"plops": 320000,
 			"stations": ["UGW", "UKA", "UR", "US", "UPR", "NFDF", "NK", "NHM", "NFL", "NED", "NBA", "NER", "NF", "NN" ],
@@ -691,9 +684,9 @@
 		},
 		{
 			"group": 1,
-			"name": "Maas-Schwalm-Nette Bahn von %s nach %s",
+			"name": "Maas-Schwalm-Nette-Bahn von %s nach %s",
 			"descriptions": [
-				"Bringe die Maas-Schwalm-Nette Bahn von %s nach %s."
+				"Bringe die Maas-Schwalm-Nette-Bahn von %s nach %s."
 			],
 			"plops": 150000,
 			"stations": ["KDAL", "KWEG", "KM"],
@@ -705,7 +698,7 @@
 			"group": 1,
 			"name": "Eurobahn von %s nach %s",
 			"descriptions": [
-				"Bringe die Eurobahn Bahn von %s nach %s."
+				"Bringe die Eurobahn durch den Niederrhein von %s nach %s."
 			],
 			"plops": 250000,
 			"stations": ["XNVL", "KV", "KM", "KN", "KD", "KW", "EHG", "EHM"],
@@ -715,9 +708,9 @@
 		},
 		{
 			"group": 1,
-			"name": "Schleswig Holstein Express von %s nach %s",
+			"name": "Schleswig-Holstein-Express von %s nach %s",
 			"descriptions": [
-				"Bringe den Schleswig Holstein Express von %s nach %s."
+				"Bringe den Schleswig-Holstein-Express durch den echten Norden von %s nach %s."
 			],
 			"plops": 380000,
 			"objects":
@@ -733,12 +726,12 @@
 			"group": 1,
 			"name": "RB von %s nach %s",
 			"descriptions": [
-				"Bringe die RB von %s nach %s."
+				"Bringe die RB durch den echten Norden von %s nach %s."
 			],
 			"plops": 280000,
 			"objects":
 			[
-				{"stations": ["AK", "AR"]},
+				{"stations": ["AK", "AR", "AJ", "AHM"]},
 				{"stations": ["AK", "AL"]},
 				{"stations": ["AK", "AF"]}
 			],
@@ -750,7 +743,7 @@
 			"group": 1,
 			"name": "AKN von %s nach %s",
 			"descriptions": [
-				"Bringe die AKN von %s nach %s."
+				"Bringe die Fahrgäste von %s nach %s."
 			],
 			"plops": 200000,
 			"objects":
@@ -763,10 +756,34 @@
 			]
 		},
 		{
-			"group": 0,
-			"name": "Sonderzug zur Kieler Woche nach %s",
+			"group": 1,
+			"name": "RE nach %s",
 			"descriptions": [
-				"Bringe den Sonderzug nach %s."
+				"Bringe den RE von %s nach %s."
+			],
+			"plops": 200000,
+			"stations": ["AL", "ASID", "AOL", "APU"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Marschbahn nach %s",
+			"descriptions": [
+				"Feierlustige 9 Euro Ticket Touristen wollen von %s nach %s."
+			],
+			"plops": 250000,
+			"stations": ["AWLA", "ANB", "AHM", "AHI", "AIZ", "AGST", "AEL", "AA"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Sonderzug zur Kieler Woche nach %2$s",
+			"descriptions": [
+				"Bringe den Sonderzug von %s nach %s."
 			],
 			"plops": 150000,
 			"stations": ["ASCS", "AK"],
