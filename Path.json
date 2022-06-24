@@ -2117,9 +2117,16 @@
 				},
 				{
 					"start": "KKR",
+					"end": "KV",
+					"twistingFactor": 0.2,
+					"length": 14,
+					"maxSpeed": 140
+				},
+				{
+					"start": "KV",
 					"end": "KM",
 					"twistingFactor": 0.2,
-					"length": 24,
+					"length": 10,
 					"maxSpeed": 140
 				}
 			]
@@ -2472,6 +2479,20 @@
 			"start": "HELZ",
 			"end": "HHI",
 			"twistingFactor": 0.25
+		},
+		{
+			"group": 1,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "KV",
+					"end": "XNVL",
+					"twistingFactor": 0.2,
+					"length": 23,
+					"maxSpeed": 120
+				}
+			]
 		},
 		{
 			"group": 0,
