@@ -2549,6 +2549,37 @@
 					"twistingFactor": 0.3
 				}
 			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 160,
+			"objects": [
+				{
+					"start": "HBH",
+					"end": "HB",
+					"length": 62,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HB",
+					"end": "HHUD",
+					"length": 27,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HHUD",
+					"end": "HOLD",
+					"length": 16,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HOLD",
+					"end": "HLEE",
+					"length": 55,
+					"maxSpeed": 120,
+					"twistingFactor": 0.25
+				}
+			]
 		}
 	]
 }
