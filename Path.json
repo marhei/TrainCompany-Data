@@ -3151,43 +3151,6 @@
 			]
 		},
 		{
-			"group": 0,
-			"maxSpeed": 140,
-			"name": "Emslandstrecke",
-			"objects": [
-				{
-					"start": "HR",
-					"end": "HLIG",
-					"length": 30,
-					"twistingFactor": 0.23
-				},
-				{
-					"start": "HLIG",
-					"end": "HMEP",
-					"length": 20,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "HMEP",
-					"end": "HPAP",
-					"length": 46,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "HPAP",
-					"end": "HLEE",
-					"length": 16,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "HLEE",
-					"end": "HE",
-					"length": 27,
-					"twistingFactor": 0.3
-				}
-			]
-		},
-		{
 			"name": "Bahnstrecke Leipzig-Probstzella",
 			"twistingFactor": 0.3,
 			"electrified": false,
@@ -3612,6 +3575,80 @@
 					"end": "HK",
 					"length": 30,
 					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"maxSpeed": 140,
+			"name": "Emslandstrecke",
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "HR",
+					"end": "HSAL",
+					"length": 7,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HSAL",
+					"end": "HLED",
+					"length": 8,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HLED",
+					"end": "HLIG",
+					"length": 14,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HLIG",
+					"end": "HGEE",
+					"length": 9,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HGEE",
+					"end": "HMEP",
+					"length": 11,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HMEP",
+					"end": "HHAR",
+					"length": 10,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "HHAR",
+					"end": "HLAT",
+					"length": 8,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "HLAT",
+					"end": "HASD",
+					"length": 21,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "HASD",
+					"end": "HPAP",
+					"length": 5,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HPAP",
+					"end": "HLEE",
+					"length": 16,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "HLEE",
+					"end": "HE",
+					"length": 27,
+					"twistingFactor": 0.28
 				}
 			]
 		}
