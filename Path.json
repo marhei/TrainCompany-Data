@@ -4,8 +4,7 @@
 		{
 			"name": "Linke Rheinstrecke",
 			"maxSpeed": 160,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "KK",
 					"end": "KKAS",
@@ -80,8 +79,7 @@
 		},
 		{
 			"name": "Rechte Rheinstrecke",
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "KKDZ",
 					"end": "KT",
@@ -159,9 +157,10 @@
 			"name": "Köln-Rhein/Main",
 			"group": 2,
 			"maxSpeed": 300,
-			"neededEquipments": ["KRM"],
-			"objects":
-			[
+			"neededEquipments": [
+				"KRM"
+			],
+			"objects": [
 				{
 					"start": "FFLF",
 					"end": "FLIS",
@@ -193,8 +192,7 @@
 		{
 			"maxSpeed": 200,
 			"name": "Bahnstrecke Köln–Duisburg",
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "KK",
 					"end": "KKDZ",
@@ -225,8 +223,7 @@
 		},
 		{
 			"name": "Mainbahn",
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "FMZ",
 					"end": "FMB",
@@ -260,8 +257,7 @@
 		{
 			"name": "Riedbahn",
 			"maxSpeed": 200,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "RM",
 					"end": "FBL",
@@ -306,8 +302,7 @@
 		{
 			"maxSpeed": 160,
 			"name": "Hessische Ludwigsbahn",
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "RM",
 					"end": "RFT",
@@ -356,8 +351,7 @@
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 100,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "RN",
 					"end": "RBDH",
@@ -390,8 +384,7 @@
 			"name": "Nahetalbahn",
 			"group": 1,
 			"electrified": false,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "FBGK",
 					"end": "SBKN",
@@ -449,8 +442,7 @@
 			"name": "Pfälzische Ludwigsbahn",
 			"twistingFactor": 0.2,
 			"maxSpeed": 160,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "RM",
 					"end": "RSD",
@@ -529,8 +521,7 @@
 		{
 			"name": "Saarstrecke",
 			"twistingFactor": 0.45,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "SSH",
 					"end": "SVL",
@@ -567,8 +558,7 @@
 			"name": "Moselstrecke",
 			"twistingFactor": 0.6,
 			"maxSpeed": 120,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "KKO",
 					"end": "SKG",
@@ -610,8 +600,7 @@
 			"name": "Eifelstrecke",
 			"twistingFactor": 0.6,
 			"electrified": false,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "KKAS",
 					"end": "KEST",
@@ -650,8 +639,7 @@
 			"name": "Voreifelbahn",
 			"twistingFactor": 0.5,
 			"electrified": false,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "KB",
 					"end": "KRBA",
@@ -672,8 +660,7 @@
 			"twistingFactor": 0.5,
 			"electrified": false,
 			"maxSpeed": 80,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "KKO",
 					"end": "KNL",
@@ -709,8 +696,7 @@
 			"name": "Hannover-Würzburg",
 			"twistingFactor": 0.05,
 			"maxSpeed": 280,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "HG",
 					"end": "FKW",
@@ -756,8 +742,7 @@
 			"name": "Dill-Strecke",
 			"twistingFactor": 0.6,
 			"maxSpeed": 140,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "ESIE",
 					"end": "FHG",
@@ -785,8 +770,7 @@
 		{
 			"name": "Main-Weser-Bahn",
 			"maxSpeed": 160,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "FKW",
 					"end": "FGTH",
@@ -865,8 +849,7 @@
 		},
 		{
 			"name": "Südmainische Strecke",
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "FF",
 					"end": "FO",
@@ -887,8 +870,7 @@
 			"name": "Kinzigtalbahn",
 			"twistingFactor": 0.2,
 			"maxSpeed": 130,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "FFU",
 					"end": "FFD",
@@ -923,8 +905,7 @@
 			"name": "Siegstrecke",
 			"twistingFactor": 0.4,
 			"maxSpeed": 120,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "KSIB",
 					"end": "KEIT",
@@ -946,8 +927,7 @@
 			"name": "Main-Spessart-Bahn",
 			"twistingFactor": 0.4,
 			"maxSpeed": 160,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "FH",
 					"end": "NAH",
@@ -987,8 +967,7 @@
 			"name": "Ludwig-Süd-Nord-Bahn",
 			"twistingFactor": 0.4,
 			"maxSpeed": 160,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "NN",
 					"end": "NF",
@@ -1010,8 +989,7 @@
 		{
 			"maxSpeed": 160,
 			"name": "Bahnstrecke Fürth–Würzburg",
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "NF",
 					"end": "NSDF",
@@ -1058,8 +1036,7 @@
 		{
 			"maxSpeed": 160,
 			"twistingFactor": 0.2,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "EDG",
 					"end": "EE",
@@ -1086,8 +1063,7 @@
 		{
 			"name": "Wupperstrecke",
 			"maxSpeed": 160,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "EDO",
 					"end": "EHG",
@@ -1135,8 +1111,7 @@
 			"name": "Obere Ruhrtalbahn",
 			"electrified": false,
 			"twistingFactor": 0.4,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "EHG",
 					"end": "EARB",
@@ -1167,8 +1142,7 @@
 			"name": "Mitte-Deutschland-Verbindung",
 			"twistingFactor": 0.25,
 			"maxSpeed": 120,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "EHM",
 					"end": "ESOT",
@@ -1214,8 +1188,7 @@
 			"twistingFactor": 0.35,
 			"maxSpeed": 160,
 			"name": "Ludwigs-Westbahn",
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "NBA",
 					"end": "NHT",
@@ -1235,8 +1208,7 @@
 		},
 		{
 			"name": "Thüringer Stammbahn",
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "FB",
 					"end": "UEI",
@@ -1272,12 +1244,13 @@
 			"name": "VDE 8",
 			"twistingFactor": 0.05,
 			"maxSpeed": 300,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "UE P",
 					"end": "NED",
-					"neededEquipments": ["ETCS"],
+					"neededEquipments": [
+						"ETCS"
+					],
 					"length": 110
 				},
 				{
@@ -1294,8 +1267,7 @@
 			"name": "Hauptverbindung Schweinfurt–Erfurt",
 			"twistingFactor": 0.45,
 			"electrified": false,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "NS",
 					"end": "NBKI",
@@ -1332,8 +1304,7 @@
 			"name": "Main-Neckar-Bahn",
 			"twistingFactor": 0.1,
 			"maxSpeed": 160,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "RM",
 					"end": "RH",
@@ -1359,8 +1330,7 @@
 		{
 			"group": 1,
 			"name": "Neckartalbahn",
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "RH",
 					"end": "RNM",
@@ -1386,8 +1356,7 @@
 		},
 		{
 			"group": 1,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "RNZ",
 					"end": "RSE",
@@ -1408,8 +1377,7 @@
 			"group": 0,
 			"name": "Frankenbahn",
 			"maxSpeed": 110,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "TO",
 					"end": "TL",
@@ -1427,8 +1395,7 @@
 		{
 			"name": "Fuldatalbahn",
 			"twistingFactor": 0.3,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "FB",
 					"end": "FROF",
@@ -1454,8 +1421,7 @@
 			"name": "Ruhr-Sieg-Strecke",
 			"twistingFactor": 0.5,
 			"maxSpeed": 110,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "ESIE",
 					"end": "EKT",
@@ -1504,8 +1470,7 @@
 			"name": "Vogelsbergbahn",
 			"electrified": false,
 			"twistingFactor": 0.2,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "FG",
 					"end": "FMCK",
@@ -1536,8 +1501,7 @@
 			"group": 1,
 			"name": "Taubertalbahn",
 			"electrified": false,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "NAH",
 					"end": "NM",
@@ -1574,8 +1538,7 @@
 			"electrified": false,
 			"twistingFactor": 0.4,
 			"maxSpeed": 80,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "NM",
 					"end": "NAMB",
@@ -1598,8 +1561,7 @@
 			"name": "Rhein-Main-Bahn",
 			"twistingFactor": 0.2,
 			"maxSpeed": 120,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "NAH",
 					"end": "FBA",
@@ -1622,8 +1584,7 @@
 			"name": "Werrabahn",
 			"maxSpeed": 100,
 			"electrified": false,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "UM",
 					"end": "UWH",
@@ -1646,8 +1607,7 @@
 		},
 		{
 			"name": "Halle-Kasseler Bahn",
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "FKW",
 					"end": "FHMD",
@@ -1680,8 +1640,7 @@
 		},
 		{
 			"name": "Nord-Süd-Strecke",
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "HG",
 					"end": "HEBG",
@@ -1730,8 +1689,7 @@
 			"name": "Bahnstrecke Gotha–Leinefelde",
 			"group": 1,
 			"electrified": false,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "UL",
 					"end": "ULS",
@@ -1752,8 +1710,7 @@
 			"name": "Nordhausen-Erfurter Eisenbahn",
 			"group": 1,
 			"electrified": false,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "UN",
 					"end": "USF",
@@ -1775,8 +1732,7 @@
 			"name": "Alsenztalbahn",
 			"electrified": false,
 			"maxSpeed": 100,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "SKL",
 					"end": "SENK",
@@ -1802,8 +1758,7 @@
 			"group": 0,
 			"name": "Taunus-Eisenbahn",
 			"maxSpeed": 160,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "FF",
 					"end": "FHOE",
@@ -1829,8 +1784,7 @@
 			"group": 1,
 			"name": "Rheinhessenbahn",
 			"electrified": false,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "FWOR",
 					"end": "FMSH",
@@ -1878,7 +1832,9 @@
 			"end": "XFFB",
 			"twistingFactor": 0.1,
 			"length": 10,
-			"neededEquipments": ["FR"]
+			"neededEquipments": [
+				"FR"
+			]
 		},
 		{
 			"group": 0,
@@ -2028,57 +1984,55 @@
 			]
 		},
 		{
-				"name": "Holzlandbahn",
-				"twistingFactor": 0.3,
-				"electrified": false,
-				"objects":
-				[
-					{
-						"start": "UWM",
-						"end": "UOB",
-						"maxSpeed": 100,
-						"length": 4
-					},
-					{
-						"start": "UOB",
-						"end": "UJW",
-						"maxSpeed": 130,
-						"length": 20
-					},
-					{
-						"start": "UJW",
-						"end": "UGW",
-						"maxSpeed": 100,
-						"length": 5
-					},
-					{
-						"start": "UGW",
-						"end": "USK",
-						"maxSpeed": 120,
-						"length": 9
-					},
-					{
-						"start": "USK",
-						"end": "UHK",
-						"maxSpeed": 100,
-						"twistingFactor": 0.35,
-						"length": 11
-					},
-					{
-						"start": "UHK",
-						"end": "UG",
-						"maxSpeed": 100,
-						"twistingFactor": 0.4,
-						"length": 20
-					}
-				]
+			"name": "Holzlandbahn",
+			"twistingFactor": 0.3,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "UWM",
+					"end": "UOB",
+					"maxSpeed": 100,
+					"length": 4
+				},
+				{
+					"start": "UOB",
+					"end": "UJW",
+					"maxSpeed": 130,
+					"length": 20
+				},
+				{
+					"start": "UJW",
+					"end": "UGW",
+					"maxSpeed": 100,
+					"length": 5
+				},
+				{
+					"start": "UGW",
+					"end": "USK",
+					"maxSpeed": 120,
+					"length": 9
+				},
+				{
+					"start": "USK",
+					"end": "UHK",
+					"maxSpeed": 100,
+					"twistingFactor": 0.35,
+					"length": 11
+				},
+				{
+					"start": "UHK",
+					"end": "UG",
+					"maxSpeed": 100,
+					"twistingFactor": 0.4,
+					"length": 20
+				}
+			]
 		},
 		{
 			"name": "Mönchengladbach - Düsseldorf",
 			"group": 1,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "KD",
 					"end": "KN",
@@ -2099,8 +2053,7 @@
 			"name": "Duisburg - Mönchengladbach",
 			"group": 1,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "EDG",
 					"end": "KKRO",
@@ -2128,8 +2081,7 @@
 			"name": "Grenzlandbahn",
 			"group": 1,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "KM",
 					"end": "KA",
@@ -2143,8 +2095,7 @@
 			"name": "Aachen - Köln",
 			"group": 1,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "KK",
 					"end": "KDN",
@@ -2166,8 +2117,7 @@
 			"name": "Eisener Rhein",
 			"group": 1,
 			"electrified": false,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "KM",
 					"end": "KWEG",
@@ -2435,6 +2385,81 @@
 			"start": "HELZ",
 			"end": "HHI",
 			"twistingFactor": 0.25
+		},
+		{
+			"maxSpeed": 300,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "NN",
+					"end": "NALB",
+					"length": 25,
+					"twistingFactor": 0.2,
+					"maxSpeed": 280
+				},
+				{
+					"start": "NALB",
+					"end": "MKIG",
+					"length": 33,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "MKIG",
+					"end": "MIH",
+					"length": 31,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "MIH",
+					"end": "MRBI",
+					"length": 20,
+					"maxSpeed": 160,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "MRBI",
+					"end": "MPF",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0
+				},
+				{
+					"start": "MPF",
+					"end": "MPE",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MPE",
+					"end": "MDA",
+					"length": 18,
+					"maxSpeed": 200,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "MDA",
+					"end": "MMAL",
+					"length": 7,
+					"maxSpeed": 200,
+					"twistingFactor": 0
+				},
+				{
+					"start": "MMAL",
+					"end": "MOZ",
+					"length": 2,
+					"maxSpeed": 200,
+					"twistingFactor": 0
+				},
+				{
+					"start": "MOZ",
+					"end": "MH",
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.27
+				}
+			]
 		}
 	]
 }
