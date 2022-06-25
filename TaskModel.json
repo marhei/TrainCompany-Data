@@ -822,6 +822,31 @@
 			]
 		},
 		{
+			"group": 1,
+			"name": "Sylt Shuttle nach %2$s",
+			"descriptions": [
+				"Bring die Fahrgäste und ihre Autos von %s nach %s.",
+				"Fahre über den Hindenburgdamm nach %2$s."
+			],
+			"plops": 80000,
+			"stations": ["AWLA", "ANB"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0},
+				{"name": "cars", "value": 60}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Sylt Shuttle Plus",
+			"descriptions": [
+				"Bring die 9€-Ticket-Besitzer von %s nach %s.",
+				"Bring den SSP von %s nach %s. Der Zug ist so gut wie gar nicht ausgelastet.",
+				"Fahre mit dem ikonischen D-Zug nach %2$s."
+			],
+			"plops": 230000,
+			"stations": ["AWLA", "ANB", "AHM", "AHI", "AIZ", "AEL", "AA"]
+		},
+		{
 			"group": 0,
 			"name": "Sonderzug zur Kieler Woche nach %2$s",
 			"descriptions": [
