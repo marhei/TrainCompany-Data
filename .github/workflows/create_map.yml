@@ -2,9 +2,9 @@ name: Render Map
 
 on:
   push:
-    #paths:
-    #  - "Station.json"
-    #  - "Path.json"
+    paths:
+      - "Station.json"
+      - "Path.json"
   pull_request:
     paths:
       - "Station.json"
@@ -30,3 +30,21 @@ jobs:
         with:
           name: map
           path: map_plot.svg
+          retention-days: 2
+  # comment:
+  #   if: github.event_name == 'pull_request'
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/download-artifact@v3
+  #       with:
+  #         name: map
+  #         path: map.svg
+  #     - uses: actions/github-script@v6
+  #       with:
+  #         script: |
+  #           github.rest.issues.createComment({
+  #             issue_number: context.issue.number,
+  #             owner: context.repo.owner,
+  #             repo: context.repo.repo,
+  #             body: 'Map: ![Map]()'
+  #           })
