@@ -26,4 +26,6 @@ jobs:
         uses: github/super-linter@v4
         env:
           VALIDATE_ALL_CODEBASE: false
+          # It sants tabs as indentation, which YAML does not allow
+          VALIDATE_YAML: false
           DEFAULT_BRANCH: main
