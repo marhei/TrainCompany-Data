@@ -3942,6 +3942,121 @@
 					"length": 8
 				}
 			]
+		},
+		{
+			"name": "Wörth-Schifferstadt",
+			"group": 1,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "RWRT",
+					"end": "RGE",
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"length": 27
+				},
+				{
+					"start": "RGE",
+					"end": "RSD",
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"length": 22
+				},
+				{
+					"start": "RSD",
+					"end": "RM",
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"length": 13
+				},
+				{
+					"start": "RSD",
+					"end": "RN",
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"length": 17
+				},
+				{
+					"start": "RM",
+					"end": "RN",
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"length": 30
+				}
+			]
+		},
+		{
+			"name": "Neustadt-Wörth",
+			"group": 1,
+			"electrified": false,
+			"objects":
+			[
+				{
+					"start": "RN",
+					"end": "RLA",
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"length": 19
+				},
+				{
+					"start": "RLA",
+					"end": "RWRT",
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"length": 26
+				},
+				{
+					"start": "RLA",
+					"end": "XFWBG",
+					"maxSpeed": 100,
+					"twistingFactor": 0.1,
+					"length": 29
+				}
+			]
+		},
+		{
+			"name": "Netz Karlsruhe",
+			"group": 0,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "RK",
+					"end": "RWRT",
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"length": 13
+				},
+				{
+					"start": "RK",
+					"end": "RM",
+					"maxSpeed": 200,
+					"twistingFactor": 0.1,
+					"length": 60
+				},
+				{
+					"start": "RGE",
+					"end": "RBR",
+					"maxSpeed": 160,
+					"twistingFactor": 0.2,
+					"length": 27
+				},
+				{
+					"start": "RGE",
+					"end": "RBR",
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"length": 21
+				},
+				{
+					"start": "RBR",
+					"end": "RH",
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"length": 32
+				}
+			]
 		}
 	]
 }
