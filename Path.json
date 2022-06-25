@@ -3126,14 +3126,6 @@
 		},
 		{
 			"group": 0,
-			"maxSpeed": 140,
-			"start": "EMST",
-			"end": "HR",
-			"length": 39,
-			"twistingFactor": 0.1
-		},
-		{
-			"group": 0,
 			"maxSpeed": 90,
 			"objects": [
 				{
@@ -3649,6 +3641,37 @@
 					"end": "HE",
 					"length": 27,
 					"twistingFactor": 0.28
+				}
+			]
+		},
+		{
+			"maxSpeed": 140,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "HR",
+					"end": "EEDT",
+					"length": 12,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "EEDT",
+					"end": "EGRV",
+					"length": 10,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "EGRV",
+					"end": "ESPR",
+					"length": 5,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "ESPR",
+					"end": "EMST",
+					"length": 9,
+					"twistingFactor": 0.13
 				}
 			]
 		}
