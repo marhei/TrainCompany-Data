@@ -461,13 +461,20 @@
 		},
 		{
 			"group": 1,
-			"name": "S5 Hannover von %s nach %s",
+			"name": "S Hannover von %s nach %s",
 			"descriptions": [
 				"Bring die Fahrgäste einigermaßen bequem von %s nach %s.",
 				"Fahre den Langläufer von %s nach %s.",
 				"Bring die Fahrgäste pünktlich nach %2$s."
 			],
-			"stations": ["EPD", "HA", "HLUE", "HHM", "HSPR", "HH"],
+			"objects":
+			[
+				{"stations": ["EPD", "HA", "HLUE", "HHM", "HSPR", "HH"]},
+				{"stations": ["HNBG", "HNRU", "HWUN", "HH"]},
+				{"stations": ["HM", "HWUN", "HH"]},
+				{"stations": ["HC", "HH"]},
+				{"stations": ["HHI", "HH"]}
+			],
 			"plops": 200000,
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
