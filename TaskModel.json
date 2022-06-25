@@ -15,7 +15,7 @@
 			[
 				{"stations": ["RM", "FFLF", "FLIS", "FMT", "KSIB", "KKDZ", "KD", "EDG", "EE", "EBO", "EDO", "EHM"]},
 				{"stations": ["NN", "NWH", "NAH", "FH", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KKDZ", "KD", "EDG", "EE", "EBO", "EDO", "EHM"]},
-				{"stations": ["UE P", "NBA", "NER", "NN"]}
+				{"stations": ["LL", "UE P", "NBA", "NER", "NN"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -34,10 +34,10 @@
 			"objects": [
 				{"stations": ["AH", "HH", "FKW", "FF", "FD"]},
 				{
-					"stations": ["NN", "UE P"],
-					"plops": 400000
+					"stations": ["LL", "NN", "UE P"],
+					"plops": 450000
 				},
-				{"stations": ["FD", "FF", "UE P"]}
+				{"stations": ["FD", "FF", "UE P", "LL"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -87,7 +87,7 @@
 			],
 			"plops": 480000,
 			"plopDifference": 8,
-			"stations": ["FW", "FMZ", "FFLF", "FF", "FH", "FFU", "FBHF", "UEI", "UGO", "UE P"],
+			"stations": ["FW", "FMZ", "FFLF", "FF", "FH", "FFU", "FBHF", "UEI", "UGO", "UE P", "LL"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -138,7 +138,7 @@
 				"Bringe die Eröffnungsgäste störungsfrei über die neue VDE8."
 			],
 			"plops": 500000,
-			"stations": ["NN", "UE P"],
+			"stations": ["NN", "UE P", "LL"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -189,7 +189,11 @@
 				"Bring den Zug von %s nach %s um eine Ost-West-Verbindung sicherzustellen."
 			],
 			"plops": 400000,
-			"stations": ["KK", "KKDZ", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG"],
+			"objects":
+			[
+				{"stations": ["KK", "KKDZ", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG"]},
+				{"stations": ["KK", "KKDZ", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P"]}
+			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -205,7 +209,9 @@
 			"objects": [
 				{"stations": ["HH", "HELZ", "HK", "HG", "FKW", "FFU", "NWH"]},
 				{"stations": ["HH", "EHFD", "EBILP", "EGLO", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK"]},
-				{"stations": ["UGW", "US", "NK", "NFL", "NBA", "NER", "NN"]}
+				{"stations": ["UGW", "US", "NK", "NFL", "NBA", "NER", "NN"]},
+				{"stations": ["HH", "HNBG", "HV", "HB", "HHUD", "HOLD", "HLEE", "HE", "HNN", "HNDM"]},
+				{"stations": ["HNDM", "HNN", "HE", "HLEE", "HPAP", "HMEP", "HLIG", "HR", "EMST", "EDG", "KD", "KK", "KB"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -455,13 +461,20 @@
 		},
 		{
 			"group": 1,
-			"name": "S5 Hannover von %s nach %s",
+			"name": "S Hannover von %s nach %s",
 			"descriptions": [
 				"Bring die Fahrgäste einigermaßen bequem von %s nach %s.",
 				"Fahre den Langläufer von %s nach %s.",
 				"Bring die Fahrgäste pünktlich nach %2$s."
 			],
-			"stations": ["EPD", "HA", "HLUE", "HHM", "HSPR", "HH"],
+			"objects":
+			[
+				{"stations": ["EPD", "HA", "HLUE", "HHM", "HSPR", "HH"]},
+				{"stations": ["HNBG", "HNRU", "HWUN", "HH"]},
+				{"stations": ["HM", "HWUN", "HH"]},
+				{"stations": ["HC", "HH"]},
+				{"stations": ["HHI", "HH"]}
+			],
 			"plops": 200000,
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -691,7 +704,7 @@
 				"Bringe den RE 12 pünktlich von von %s nach %s."
 			],
 			"plops": 220000,
-			"stations": ["UG", "UGZ", "UWE", "UNP", "UTR", "UNH", "UPS", "US" ],
+			"stations": ["LL", "LLP", "LLK", "LPG", "LPR", "LZ", "LWZE", "UKS", "UBKS", "UG", "UGZ", "UWE", "UNP", "UTR", "UNH", "UPS", "US" ],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
