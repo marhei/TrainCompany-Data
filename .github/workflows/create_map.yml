@@ -2,9 +2,9 @@ name: Render Map
 
 on:
   push:
-    paths:
-      - "Station.json"
-      - "Path.json"
+    #paths:
+    #  - "Station.json"
+    #  - "Path.json"
   pull_request:
     paths:
       - "Station.json"
