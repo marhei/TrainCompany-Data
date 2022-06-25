@@ -3428,5 +3428,83 @@
 				}
 			]
 		}
+		{
+			"name": "SFS Erfurt-Leipzig/Halle",
+			"group": 2,
+			"electrified": true,
+			"objects":
+			[
+				{
+					"start": "UE P",
+					"end": "UVI",
+					"maxSpeed": 200,
+					"twistingFactor": 0.1,
+					"length": 7
+				},
+				{
+					"start": "UVI",
+					"end": "UGBB",
+					"maxSpeed": 300,
+					"twistingFactor": 0.1,
+					"length": 20
+				}
+				{
+					"start": "UGBB",
+					"end": "LSBT",
+					"maxSpeed": 300,
+					"twistingFactor": 0.1,
+					"length": 15
+				},
+				{
+					"start": "LSBT",
+					"end": "LJD",
+					"maxSpeed": 300,
+					"twistingFactor": 0.1,
+					"length": 15
+				},
+				{
+					"start": "LJD",
+					"end": "LDST",
+					"maxSpeed": 300,
+					"twistingFactor": 0.1,
+					"length": 17
+				},
+				{
+					"start": "LDST",
+					"end": "LPLN",
+					"maxSpeed": 300,
+					"twistingFactor": 0.1,
+					"length": 5
+				},
+				{
+					"start": "LPLN",
+					"end": "LGOS",
+					"maxSpeed": 300,
+					"twistingFactor": 0.1,
+					"length": 13
+				},
+				{
+					"start": "LGOS",
+					"end": "LFLU",
+					"maxSpeed": 250,
+					"twistingFactor": 0.1,
+					"length": 8
+				},
+				{
+					"start": "LFLU",
+					"end": "LNW",
+					"maxSpeed": 250,
+					"twistingFactor": 0.1,
+					"length": 14
+				}
+				{
+					"start": "LNW",
+					"end": "LL",
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"length": 8
+				}
+			]
+		},
 	]
 }

@@ -15,7 +15,7 @@
 			[
 				{"stations": ["RM", "FFLF", "FLIS", "FMT", "KSIB", "KKDZ", "KD", "EDG", "EE", "EBO", "EDO", "EHM"]},
 				{"stations": ["NN", "NWH", "NAH", "FH", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KKDZ", "KD", "EDG", "EE", "EBO", "EDO", "EHM"]},
-				{"stations": ["UE P", "NBA", "NER", "NN"]}
+				{"stations": ["LL", "UE P", "NBA", "NER", "NN"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -34,10 +34,10 @@
 			"objects": [
 				{"stations": ["AH", "HH", "FKW", "FF", "FD"]},
 				{
-					"stations": ["NN", "UE P"],
-					"plops": 400000
+					"stations": ["LL", "NN", "UE P"],
+					"plops": 450000
 				},
-				{"stations": ["FD", "FF", "UE P"]}
+				{"stations": ["FD", "FF", "UE P", "LL"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -87,7 +87,7 @@
 			],
 			"plops": 480000,
 			"plopDifference": 8,
-			"stations": ["FW", "FMZ", "FFLF", "FF", "FH", "FFU", "FBHF", "UEI", "UGO", "UE P"],
+			"stations": ["FW", "FMZ", "FFLF", "FF", "FH", "FFU", "FBHF", "UEI", "UGO", "UE P", "LL"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -138,7 +138,7 @@
 				"Bringe die Eröffnungsgäste störungsfrei über die neue VDE8."
 			],
 			"plops": 500000,
-			"stations": ["NN", "UE P"],
+			"stations": ["NN", "UE P", "LL"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -189,7 +189,11 @@
 				"Bring den Zug von %s nach %s um eine Ost-West-Verbindung sicherzustellen."
 			],
 			"plops": 400000,
-			"stations": ["KK", "KKDZ", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG"],
+			"objects":
+			[
+				{"stations": ["KK", "KKDZ", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG"]},
+				{"stations": ["KK", "KKDZ", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P"]}
+			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
