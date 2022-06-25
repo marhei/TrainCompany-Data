@@ -3129,25 +3129,6 @@
 					"end": "HB",
 					"length": 62,
 					"twistingFactor": 0.3
-				},
-				{
-					"start": "HB",
-					"end": "HHUD",
-					"length": 27,
-					"twistingFactor": 0.3
-				},
-				{
-					"start": "HHUD",
-					"end": "HOLD",
-					"length": 16,
-					"twistingFactor": 0.1
-				},
-				{
-					"start": "HOLD",
-					"end": "HLEE",
-					"length": 55,
-					"maxSpeed": 120,
-					"twistingFactor": 0.25
 				}
 			]
 		},
@@ -3389,6 +3370,79 @@
 					"length": 6,
 					"maxSpeed": 150,
 					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"objects": [
+				{
+					"start": "HB",
+					"end": "HBN",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HBN",
+					"end": "HD",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HD",
+					"end": "HSCB",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "HSCB",
+					"end": "HHUD",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HHUD",
+					"end": "HWUE",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HWUE",
+					"end": "HOLD",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HOLD",
+					"end": "HZWI",
+					"length": 15,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HZWI",
+					"end": "HOCH",
+					"length": 8,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HOCH",
+					"end": "HAUG",
+					"length": 8,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HAUG",
+					"end": "HLEE",
+					"length": 23,
+					"twistingFactor": 0.28
 				}
 			]
 		}
