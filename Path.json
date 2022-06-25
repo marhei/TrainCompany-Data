@@ -2874,6 +2874,116 @@
 			]
 		},
 		{
+			"name": "Oberrheinbahn",
+			"electrified": true,
+			"objects": [
+				{
+					"start": "RF",
+					"end": "RDZ",
+					"length": 10,
+					"twistingFactor": 0.3,
+					"maxSpeed": 160,
+					"group": 0
+				},
+				{
+					"start": "RDZ",
+					"end": "RRL",
+					"length": 10,
+					"twistingFactor": 0.3,
+					"maxSpeed": 160,
+					"group": 0
+				},
+				{
+					"start": "RRL",
+					"end": "RO",
+					"length": 40,
+					"twistingFactor": 0.3,
+					"maxSpeed": 160,
+					"group": 0
+				},
+				{
+					"start": "RO",
+					"end": "RAP",
+					"length": 9,
+					"twistingFactor": 0.1,
+					"group": 2,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RAP",
+					"end": "RAH",
+					"length": 12,
+					"twistingFactor": 0.1,
+					"group": 2,
+					"maxSpeed": 250
+				},
+				{
+					"start": "RAH",
+					"end": "RBUE",
+					"length": 9,
+					"twistingFactor": 0.1,
+					"group": 2,
+					"maxSpeed": 250
+				},
+				{
+					"start": "RBUE",
+					"end": "RBB",
+					"length": 11,
+					"twistingFactor": 0.1,
+					"group": 2,
+					"maxSpeed": 250
+				},
+				{
+					"start": "RBB",
+					"end": "RF",
+					"length": 9,
+					"twistingFactor": 0.1,
+					"group": 2,
+					"maxSpeed": 250
+				},
+				{
+					"start": "RF",
+					"end": "RK",
+					"length": 24,
+					"twistingFactor": 0.1,
+					"group": 2,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RK",
+					"end": "RHK",
+					"length": 26,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 200
+				}
+			]
+		},
+		{
+			"name": "SFS Mannheim–Stuttgart",
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 280,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "RHK",
+					"end": "RM",
+					"length": 46
+				},
+				{
+					"start": "RHK",
+					"end": "TV",
+					"length": 58
+				},
+				{
+					"start": "TV",
+					"end": "TS",
+					"length": 23
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"objects":
@@ -2898,6 +3008,24 @@
 					"maxSpeed": 120,
 					"twistingFactor": 0.4,
 					"length": 23
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"maxSpeed": 140,
+			"twistingFactor": 0.5,
+			"objects": [
+				{
+					"start": "RK",
+					"end": "TPH",
+					"length": 43
+				},
+				{
+					"start": "TPH",
+					"end": "TV",
+					"length": 25
 				}
 			]
 		},
