@@ -1852,12 +1852,6 @@
 			"maxSpeed": 100,
 			"objects": [
 				{
-					"start": "HA",
-					"end": "HOTT",
-					"length": 31,
-					"name": "Eggebahn"
-				},
-				{
 					"start": "HOTT",
 					"end": "HBOF",
 					"length": 27,
@@ -1868,11 +1862,6 @@
 					"end": "HG",
 					"length": 37,
 					"name": "Oberweserbahn"
-				},
-				{
-					"start": "HOTT",
-					"end": "HK",
-					"length": 62
 				}
 			]
 		},
@@ -2429,6 +2418,84 @@
 			"twistingFactor": 0.25
 		},
 		{
+			"maxSpeed": 300,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "NN",
+					"end": "NALB",
+					"length": 25,
+					"twistingFactor": 0.2,
+					"maxSpeed": 280,
+					"group": 2
+				},
+				{
+					"start": "NALB",
+					"end": "MKIG",
+					"length": 33,
+					"twistingFactor": 0.1,
+					"group": 2
+				},
+				{
+					"start": "MKIG",
+					"end": "MIH",
+					"length": 31,
+					"twistingFactor": 0.2,
+					"group": 2
+				},
+				{
+					"start": "MIH",
+					"end": "MRBI",
+					"length": 20,
+					"maxSpeed": 160,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "MRBI",
+					"end": "MPF",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0
+				},
+				{
+					"start": "MPF",
+					"end": "MPE",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MPE",
+					"end": "MDA",
+					"length": 18,
+					"maxSpeed": 200,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "MDA",
+					"end": "MMAL",
+					"length": 7,
+					"maxSpeed": 200,
+					"twistingFactor": 0
+				},
+				{
+					"start": "MMAL",
+					"end": "MOZ",
+					"length": 2,
+					"maxSpeed": 200,
+					"twistingFactor": 0
+				},
+				{
+					"start": "MOZ",
+					"end": "MH",
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.27
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": true,
 			"objects": [
@@ -2445,20 +2512,6 @@
 			"group": 0,
 			"electrified": true,
 			"objects": [
-				{
-					"start": "HB",
-					"end": "HDIP",
-					"length": 69,
-					"maxSpeed": 200,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "HDIP",
-					"end": "HBOM",
-					"length": 28,
-					"maxSpeed": 200,
-					"twistingFactor": 0.24
-				},
 				{
 					"start": "HBOM",
 					"end": "HO",
@@ -2986,8 +3039,7 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "BCS",
 					"end": "BGU",
@@ -3032,8 +3084,7 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "BFP",
 					"end": "BFUW",
@@ -3054,8 +3105,7 @@
 			"name": "Berliner Stadtbahn",
 			"electrified": true,
 			"group": 0,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "BHF",
 					"end": "BL",
@@ -3076,8 +3126,7 @@
 			"name": "SFS Hannover–Berlin",
 			"group": 2,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "BSPD",
 					"end": "LS",
@@ -3106,8 +3155,7 @@
 			"group": 0,
 			"name": "Weddeler Schleife",
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "HWOB",
 					"end": "HBS",
@@ -3120,8 +3168,7 @@
 		{
 			"group": 0,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "HHI",
 					"end": "HBS",
@@ -3134,8 +3181,7 @@
 		{
 			"group": 0,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "BPD",
 					"end": "LB",
@@ -3169,8 +3215,7 @@
 		{
 			"group": 0,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "LM",
 					"end": "HHLM",
@@ -3197,8 +3242,7 @@
 		{
 			"group": 0,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "BPD",
 					"end": "BL",
@@ -3207,14 +3251,6 @@
 					"length": 26
 				}
 			]
-		},
-		{
-			"group": 0,
-			"maxSpeed": 140,
-			"start": "EMST",
-			"end": "HR",
-			"length": 39,
-			"twistingFactor": 0.1
 		},
 		{
 			"group": 0,
@@ -3231,74 +3267,6 @@
 					"end": "HNDM",
 					"length": 6,
 					"twistingFactor": 0.3
-				}
-			]
-		},
-		{
-			"group": 0,
-			"maxSpeed": 140,
-			"name": "Emslandstrecke",
-			"objects": [
-				{
-					"start": "HR",
-					"end": "HLIG",
-					"length": 30,
-					"twistingFactor": 0.23
-				},
-				{
-					"start": "HLIG",
-					"end": "HMEP",
-					"length": 20,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "HMEP",
-					"end": "HPAP",
-					"length": 46,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "HPAP",
-					"end": "HLEE",
-					"length": 16,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "HLEE",
-					"end": "HE",
-					"length": 27,
-					"twistingFactor": 0.3
-				}
-			]
-		},
-		{
-			"group": 0,
-			"maxSpeed": 160,
-			"objects": [
-				{
-					"start": "HBH",
-					"end": "HB",
-					"length": 62,
-					"twistingFactor": 0.3
-				},
-				{
-					"start": "HB",
-					"end": "HHUD",
-					"length": 27,
-					"twistingFactor": 0.3
-				},
-				{
-					"start": "HHUD",
-					"end": "HOLD",
-					"length": 16,
-					"twistingFactor": 0.1
-				},
-				{
-					"start": "HOLD",
-					"end": "HLEE",
-					"length": 55,
-					"maxSpeed": 120,
-					"twistingFactor": 0.25
 				}
 			]
 		},
@@ -3557,11 +3525,352 @@
 			]
 		},
 		{
+			"maxSpeed": 200,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "HBOM",
+					"end": "HLMF",
+					"length": 11,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "HLMF",
+					"end": "HDIP",
+					"length": 16,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "HDIP",
+					"end": "HBNF",
+					"length": 14,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HBNF",
+					"end": "HT",
+					"length": 13,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HT",
+					"end": "HSYK",
+					"length": 18,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HSYK",
+					"end": "HBHM",
+					"length": 16,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HBHM",
+					"end": "HB",
+					"length": 6,
+					"maxSpeed": 150,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"objects": [
+				{
+					"start": "HB",
+					"end": "HBN",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HBN",
+					"end": "HD",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HD",
+					"end": "HSCB",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "HSCB",
+					"end": "HHUD",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HHUD",
+					"end": "HWUE",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HWUE",
+					"end": "HOLD",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HOLD",
+					"end": "HZWI",
+					"length": 15,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HZWI",
+					"end": "HOCH",
+					"length": 8,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HOCH",
+					"end": "HAUG",
+					"length": 8,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HAUG",
+					"end": "HLEE",
+					"length": 23,
+					"twistingFactor": 0.28
+				}
+			]
+		},
+		{
+			"maxSpeed": 160,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "HB",
+					"end": "HBB",
+					"length": 11,
+					"maxSpeed": 140,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "HBB",
+					"end": "HRTH",
+					"length": 4,
+					"maxSpeed": 150,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HRTH",
+					"end": "HOSS",
+					"length": 5,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "HOSS",
+					"end": "HLBR",
+					"length": 13,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "HLBR",
+					"end": "HLUN",
+					"length": 12,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HLUN",
+					"end": "HLOX",
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HLOX",
+					"end": "HBH",
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HBH",
+					"end": "HBHL",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"maxSpeed": 100,
+			"electrified": false,
+			"group": 0,
+			"objects": [
+				{
+					"start": "HA",
+					"end": "HBDG",
+					"length": 9,
+					"name": "Eggebahn",
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HBDG",
+					"end": "HBKL",
+					"length": 11,
+					"name": "Eggebahn",
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HBKL",
+					"end": "HOTT",
+					"length": 9,
+					"name": "Eggebahn",
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "HOTT",
+					"end": "HHXR",
+					"length": 9,
+					"name": "Eggebahn",
+					"maxSpeed": 110,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HHXR",
+					"end": "HHZM",
+					"length": 8,
+					"name": "Eggebahn",
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "HHZM",
+					"end": "HSDF",
+					"length": 14,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HSDF",
+					"end": "HK",
+					"length": 30,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"maxSpeed": 140,
+			"name": "Emslandstrecke",
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "HR",
+					"end": "HSAL",
+					"length": 7,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HSAL",
+					"end": "HLED",
+					"length": 8,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HLED",
+					"end": "HLIG",
+					"length": 14,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HLIG",
+					"end": "HGEE",
+					"length": 9,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HGEE",
+					"end": "HMEP",
+					"length": 11,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HMEP",
+					"end": "HHAR",
+					"length": 10,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "HHAR",
+					"end": "HLAT",
+					"length": 8,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "HLAT",
+					"end": "HASD",
+					"length": 21,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "HASD",
+					"end": "HPAP",
+					"length": 5,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HPAP",
+					"end": "HLEE",
+					"length": 16,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "HLEE",
+					"end": "HE",
+					"length": 27,
+					"twistingFactor": 0.28
+				}
+			]
+		},
+		{
+			"maxSpeed": 140,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "HR",
+					"end": "EEDT",
+					"length": 12,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "EEDT",
+					"end": "EGRV",
+					"length": 10,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "EGRV",
+					"end": "ESPR",
+					"length": 5,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "ESPR",
+					"end": "EMST",
+					"length": 9,
+					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
 			"name": "SFS Erfurt-Leipzig/Halle",
 			"group": 2,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "UE P",
 					"end": "UVI",

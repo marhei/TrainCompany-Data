@@ -157,6 +157,44 @@
 			]
 		},
 		{
+			"id": 440,
+			"group": 2,
+			"name": "Alstom Coradia Continental",
+			"shortcut": "BR 440",
+			"speed": 160,
+			"weight": 112,
+			"force": 140,
+			"length": 58,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 450000,
+			"operationCosts": 35,
+			"maxConnectedUnits": 4,
+			"capacity": [
+				{"name": "passengers", "value": 200}
+			]
+		},
+		{
+			"id": 4744,
+			"group": 2,
+			"name": "Siemens Desiro ML",
+			"shortcut": "ÖBB 4744",
+			"speed": 160,
+			"weight": 145,
+			"force": 170,
+			"length": 75,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 500000,
+			"operationCosts": 40,
+			"equipments": ["ETCS"],
+			"maxConnectedUnits": 3,
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 259}
+			]
+		},
+		{
 			"id": 23,
 			"group": 2,
 			"name": "Siemens Mireo",
@@ -174,6 +212,42 @@
 			"compatibleWith": [21, 211],
 			"capacity": [
 				{"name": "passengers", "value": 200}
+			]
+		},
+		{
+			"id": 428,
+			"group": 2,
+			"name": "Stadler FLIRT 1",
+			"shortcut": "BR 0428",
+			"speed": 160,
+			"weight": 120,
+			"force": 135,
+			"length": 74,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 480000,
+			"operationCosts": 42,
+			"maxConnectedUnits": 2,
+			"capacity": [
+				{"name": "passengers", "value": 219}
+			]
+		},
+		{
+			"id": 3427,
+			"group": 2,
+			"name": "Stadler FLIRT 3XL",
+			"shortcut": "BR 3427",
+			"speed": 160,
+			"weight": 100,
+			"force": 135,
+			"length": 68,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 450000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 3,
+			"capacity": [
+				{"name": "passengers", "value": 190}
 			]
 		},
 		{
@@ -311,6 +385,25 @@
 			]
 		},
 		{
+			"id": 643,
+			"group": 2,
+			"name": "Bombardier TALENT",
+			"shortcut": "BR 643",
+			"speed": 120,
+			"weight": 84,
+			"force": 66,
+			"length": 50,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 280000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 3,
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 149}
+			]
+		},
+		{
 			"id": 33,
 			"group": 2,
 			"name": "CargoSprinter",
@@ -342,6 +435,20 @@
 			"operationCosts": 100,
 			"compatibleWith": [1051],
 			"maxConnectedUnits": 0,
+			"capacity": []
+		},
+		{
+			"id": 102,
+			"group": 0,
+			"name": "BR 102",
+			"speed": 200,
+			"weight": 88,
+			"force": 275,
+			"length": 18,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 330000,
+			"operationCosts": 100,
 			"capacity": []
 		},
 		{
@@ -555,6 +662,23 @@
 			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 96}
+			]
+		},
+		{
+			"id": 951,
+			"group": 1,
+			"name": "Škoda-Doppelstock-Wagen",
+			"shortcut": "Škoda-Dosto",
+			"speed": 190,
+			"weight": 52,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 0.8,
+			"cost": 210000,
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 113}
 			]
 		},
 		{

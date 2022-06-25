@@ -495,6 +495,20 @@
 		},
 		{
 			"group": 1,
+			"name": "MNX von %s nach %s",
+			"descriptions": [
+				"Bringe den München-Nürnberg-Express über die SFS von %s nach %s",
+				"Bringe den RE1 pünktlich von %s nach %s.",
+				"Fahre einen der schnellsten Nahverkehrszüge Deutschlands über die NIM nach %2$s."
+			],
+			"plops": 280000,
+			"stations": ["MH", "MPf", "MRBI", "MIH", "MKIG", "NALB", "NN"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB von %s nach %s",
 			"descriptions": [
 				"Die Strecke führt quer durch Rheinhessen."
