@@ -1852,12 +1852,6 @@
 			"maxSpeed": 100,
 			"objects": [
 				{
-					"start": "HA",
-					"end": "HOTT",
-					"length": 31,
-					"name": "Eggebahn"
-				},
-				{
 					"start": "HOTT",
 					"end": "HBOF",
 					"length": 27,
@@ -1868,11 +1862,6 @@
 					"end": "HG",
 					"length": 37,
 					"name": "Oberweserbahn"
-				},
-				{
-					"start": "HOTT",
-					"end": "HK",
-					"length": 62
 				}
 			]
 		},
@@ -3490,6 +3479,61 @@
 					"length": 3,
 					"maxSpeed": 100,
 					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"maxSpeed": 100,
+			"electrified": false,
+			"group": 0,
+			"objects": [
+				{
+					"start": "HA",
+					"end": "HBDG",
+					"length": 9,
+					"name": "Eggebahn",
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HBDG",
+					"end": "HBKL",
+					"length": 11,
+					"name": "Eggebahn",
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HBKL",
+					"end": "HOTT",
+					"length": 9,
+					"name": "Eggebahn",
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "HOTT",
+					"end": "HHXR",
+					"length": 9,
+					"name": "Eggebahn",
+					"maxSpeed": 110,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HHXR",
+					"end": "HHZM",
+					"length": 8,
+					"name": "Eggebahn",
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "HHZM",
+					"end": "HSDF",
+					"length": 14,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HSDF",
+					"end": "HK",
+					"length": 30,
+					"twistingFactor": 0.3
 				}
 			]
 		}
