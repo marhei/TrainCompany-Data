@@ -3180,6 +3180,69 @@
 			"electrified": false,
 			"objects": [
 				{
+					"start": "LLK",
+					"end": "LL",
+					"maxSpeed": 100,
+					"twistingFactor": 0.2,
+					"length": 11
+				},
+				{
+					"start": "LLK",
+					"end": "LLP",
+					"maxSpeed": 100,
+					"twistingFactor": 0.1,
+					"length": 6
+				},
+				{
+					"start": "LPG",
+					"end": "LLK",
+					"maxSpeed": 100,
+					"twistingFactor": 0.2,
+					"length": 13
+				},
+				{
+					"start": "LPR",
+					"end": "LPG",
+					"maxSpeed": 100,
+					"twistingFactor": 0.1,
+					"length": 6
+				},
+				{
+					"start": "LZ",
+					"end": "LPR",
+					"maxSpeed": 100,
+					"twistingFactor": 0.1,
+					"length": 10
+				},
+				{
+					"start": "LWZE",
+					"end": "LZ",
+					"maxSpeed": 100,
+					"twistingFactor": 0.2,
+					"length": 10
+				},
+				{
+					"start": "UKS",
+					"end": "LWZE",
+					"maxSpeed": 100,
+					"twistingFactor": 0.1,
+					"length": 5
+				},
+				{
+					"start": "UBKZ",
+					"end": "UKS",
+					"maxSpeed": 100,
+					"twistingFactor": 0.1,
+					"length": 8
+				},
+				{
+					"start": "UG",
+					"end": "UBKZ",
+					"maxSpeed": 100,
+					"twistingFactor": 0.1,
+					"length": 8
+				},
+				{
 					"start": "UGZ",
 					"end": "UWE",
 					"maxSpeed": 100,
