@@ -71,8 +71,9 @@
 			"objects":
 			[
 				{"stations": ["RH", "RM", "FF", "FH", "FFU", "FKW", "HG"]},
-				{"stations": ["NN", "NWH", "FFU", "FKW", "HG", "HH", "AH"]}
-			],
+				{"stations": ["NN", "NWH", "FFU", "FKW", "HG", "HH", "AH"]},
+				{"stations": ["UGW", "US", "NK", "NFL", "NBA", "NER", "NN"]}
+	],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -203,7 +204,8 @@
 			"plops": 400000,
 			"objects": [
 				{"stations": ["HH", "HELZ", "HK", "HG", "FKW", "FFU", "NWH"]},
-				{"stations": ["HH", "EHFD", "EBILP", "EGLO", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK"]}
+				{"stations": ["HH", "EHFD", "EBILP", "EGLO", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK"]},
+				{"stations": ["UGW", "US", "NK", "NFL", "NBA", "NER", "NN"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -633,7 +635,7 @@
 			"group": 1,
 			"name": "RRX von %s nach %s",
 			"descriptions": [
-				"Bringe den RRX von %s nach %s."
+				"Bringe den Rhein-Ruhr-Express von %s nach %s."
 			],
 			"plops": 300000,
 			"stations": ["KK", "KDN", "KA", "KM", "KN", "KD", "KW", "EHG"],
@@ -655,12 +657,165 @@
 		},
 		{
 			"group": 1,
-			"name": "Maas-Schwalm-Nette Bahn von %s nach %s",
+			"name": "Rurtalbahn von %s nach %s",
 			"descriptions": [
-				"Bringe die Maas-Schwalm-Nette Bahn von %s nach %s."
+				"Bringe die Rurtalbahn von %s nach %s."
+			],
+			"plops": 150000,
+			"objects": [
+				{"stations": ["KDN", "KEU"]},
+				{"stations": ["KHE", "KDN", "KJ"]}
+
+			],
+			"stations": ["KDN", "KEU"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 42 von %s nach %s",
+			"descriptions": [
+				"Bring die Frankenwaldbahn pünktlich von %s nach %s."
+			],
+			"plops": 320000,
+			"stations": ["UGW", "UKA", "UR", "US", "UPR", "NFDF", "NK", "NHM", "NFL", "NED", "NBA", "NER", "NF", "NN" ],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 12 von %s nach %s",
+			"descriptions": [
+				"Bringe den RE 12 pünktlich von von %s nach %s."
+			],
+			"plops": 220000,
+			"stations": ["UG", "UGZ", "UWE", "UNP", "UTR", "UNH", "UPS", "US" ],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Maas-Schwalm-Nette-Bahn von %s nach %s",
+			"descriptions": [
+				"Bringe die Maas-Schwalm-Nette-Bahn von %s nach %s."
 			],
 			"plops": 150000,
 			"stations": ["KDAL", "KWEG", "KM"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Eurobahn von %s nach %s",
+			"descriptions": [
+				"Bringe die Eurobahn durch den Niederrhein von %s nach %s."
+			],
+			"plops": 250000,
+			"stations": ["XNVL", "KV", "KM", "KN", "KD", "KW", "EHG", "EHM"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schleswig-Holstein-Express von %s nach %s",
+			"descriptions": [
+				"Bringe den Schleswig-Holstein-Express durch den echten Norden von %s nach %s."
+			],
+			"plops": 380000,
+			"objects":
+			[
+				{"stations": ["AA", "AN", "AK"]},
+				{"stations": ["AA", "AN", "AR", "AF"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die RB durch den echten Norden von %s nach %s."
+			],
+			"plops": 280000,
+			"objects":
+			[
+				{"stations": ["AK", "AR", "AJ", "AHM"]},
+				{"stations": ["AK", "AL"]},
+				{"stations": ["AK", "AF"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "AKN von %s nach %s",
+			"descriptions": [
+				"Bringe die Fahrgäste von %s nach %s."
+			],
+			"plops": 200000,
+			"objects":
+			[
+				{"stations": ["AH", "AUBS", "AN"]},
+				{"stations": ["AUBS", "AEL"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 1 von %s nach %s",
+			"descriptions": [
+				"Bringe den RE 1 von %s nach %s."
+			],
+			"plops": 350000,
+			"objects":
+			[
+				{"stations": ["LM", "LBU", "LB", "BPD", "BL", "BHF", "BFUW", "BFP", "BCS"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "RE nach %s",
+			"descriptions": [
+				"Bringe den RE von %s nach %s."
+			],
+			"plops": 200000,
+			"stations": ["AL", "ASID", "AOL", "APU"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Marschbahn nach %s",
+			"descriptions": [
+				"Feierlustige 9 Euro Ticket Touristen wollen von %s nach %s."
+			],
+			"plops": 250000,
+			"stations": ["AWLA", "ANB", "AHM", "AHI", "AIZ", "AGST", "AEL", "AA"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Sonderzug zur Kieler Woche nach %2$s",
+			"descriptions": [
+				"Bringe den Sonderzug von %s nach %s."
+			],
+			"plops": 150000,
+			"stations": ["ASCS", "AK"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -865,6 +1020,38 @@
 				{"name": "castor", "value": 10}
 			],
 			"neededCapacityDifference": 3
+		},
+		{
+			"group": 0,
+			"name": "Urlaubs-Express von %s nach %s",
+			"descriptions": [
+				"Bringe die Urlauber sicher nach Hause",
+				"Bringe die Fahrgäste in den Urlaub."
+			],
+			"plops": 450000,
+			"objects":
+			[
+				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "NWH", "NN"]},
+				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM"]},
+				{"stations": ["KD", "KK", "FF", "NWH", "NN"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0},
+				{"name": "cars", "value": 60}
+			]
+		},
+		{
+			"group": 1,
+			"name": "NightJet von %s nach %s",
+			"descriptions": [
+				"Bringe die Urlauber sicher nach Hause",
+				"Bringe die Fahrgäste in den Urlaub."
+			],
+			"plops": 450000,
+			"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
 		}
 	]
 }
