@@ -469,6 +469,20 @@
 		},
 		{
 			"group": 1,
+			"name": "S2 Hannover von %s nach %s",
+			"descriptions": [
+				"Bring die Fahrgäste einigermaßen bequem von %s nach %s.",
+				"Fahre den Langläufer von %s nach %s.",
+				"Bring die Fahrgäste pünktlich nach %2$s."
+			],
+			"stations": ["HNBG", "HNRU", "HWUN", "HH"],
+			"plops": 200000,
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "RE 1 von %s nach %s",
 			"descriptions": [
 				"Die kurvenreiche Strecke von %s nach %s ist ideal für ein NT-Fahrzeug.",
