@@ -2446,20 +2446,6 @@
 			"electrified": true,
 			"objects": [
 				{
-					"start": "HB",
-					"end": "HDIP",
-					"length": 69,
-					"maxSpeed": 200,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "HDIP",
-					"end": "HBOM",
-					"length": 28,
-					"maxSpeed": 200,
-					"twistingFactor": 0.24
-				},
-				{
 					"start": "HBOM",
 					"end": "HO",
 					"length": 24,
@@ -2876,8 +2862,7 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "BCS",
 					"end": "BGU",
@@ -2904,8 +2889,7 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "BFP",
 					"end": "BFUW",
@@ -2926,8 +2910,7 @@
 			"name": "Berliner Stadtbahn",
 			"electrified": true,
 			"group": 0,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "BHF",
 					"end": "BL",
@@ -2948,8 +2931,7 @@
 			"name": "SFS Hannover–Berlin",
 			"group": 2,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "BSPD",
 					"end": "LS",
@@ -2978,8 +2960,7 @@
 			"group": 0,
 			"name": "Weddeler Schleife",
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "HWOB",
 					"end": "HBS",
@@ -2992,8 +2973,7 @@
 		{
 			"group": 0,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "HHI",
 					"end": "HBS",
@@ -3006,8 +2986,7 @@
 		{
 			"group": 0,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "BPD",
 					"end": "LB",
@@ -3041,8 +3020,7 @@
 		{
 			"group": 0,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "LM",
 					"end": "HHLM",
@@ -3069,8 +3047,7 @@
 		{
 			"group": 0,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "BPD",
 					"end": "BL",
@@ -3362,6 +3339,56 @@
 					"length": 3,
 					"maxSpeed": 120,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"maxSpeed": 200,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "HBOM",
+					"end": "HLMF",
+					"length": 11,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "HLMF",
+					"end": "HDIP",
+					"length": 16,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "HDIP",
+					"end": "HBNF",
+					"length": 14,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HBNF",
+					"end": "HT",
+					"length": 13,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HT",
+					"end": "HSYK",
+					"length": 18,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HSYK",
+					"end": "HBHM",
+					"length": 16,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "HBHM",
+					"end": "HB",
+					"length": 6,
+					"maxSpeed": 150,
+					"twistingFactor": 0.25
 				}
 			]
 		}
