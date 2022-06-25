@@ -2592,8 +2592,20 @@
 			"objects": [
 				{
 					"start": "AK",
+					"end": "APLN",
+					"length": 33,
+					"twistingFactor": 0.6
+				},
+				{
+					"start": "APLN",
+					"end": "AEU",
+					"length": 14,
+					"twistingFactor": 0.6
+				},
+				{
+					"start": "AEU",
 					"end": "AL",
-					"length": 80,
+					"length": 33,
 					"twistingFactor": 0.6
 				}
 			]
@@ -2605,8 +2617,14 @@
 			"objects": [
 				{
 					"start": "AK",
+					"end": "AFEB",
+					"length": 23,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "AFEB",
 					"end": "AR",
-					"length": 36,
+					"length": 14,
 					"twistingFactor": 0.3
 				}
 			]
@@ -2624,8 +2642,14 @@
 				},
 				{
 					"start": "AR",
+					"end": "AJ",
+					"length": 36,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "AJ",
 					"end": "AF",
-					"length": 63,
+					"length": 27,
 					"twistingFactor": 0.2
 				}
 			]
@@ -2637,8 +2661,14 @@
 			"objects": [
 				{
 					"start": "AK",
+					"end": "AEC",
+					"length": 31,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "AEC",
 					"end": "AF",
-					"length": 80,
+					"length": 49,
 					"twistingFactor": 0.4
 				}
 			]
@@ -2685,6 +2715,150 @@
 					"end": "AH",
 					"length": 27,
 					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "AJ",
+					"end": "AHM",
+					"length": 26,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "AHI",
+					"end": "AN",
+					"length": 63,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 50,
+			"objects": [
+				{
+					"start": "ADM",
+					"end": "ANB",
+					"length": 13,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "ABSM",
+					"end": "AHI",
+					"length": 23,
+					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "APO",
+					"end": "AHM",
+					"length": 39,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"name": "Vogelfluglinie",
+			"group": 0,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "AL",
+					"end": "ASID",
+					"length": 26,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "ASID",
+					"end": "AOL",
+					"length": 26,
+					"twistingFactor": 0.3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "AOL",
+					"end": "APU",
+					"length": 36,
+					"twistingFactor": 0.3,
+					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"name": "Marschbahn",
+			"group": 0,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "AEL",
+					"end": "AGST",
+					"length": 17,
+					"twistingFactor": 0.3,
+					"maxSpeed": 120,
+					"electrified": true
+				},
+				{
+					"start": "AGST",
+					"end": "AIZ",
+					"length": 17,
+					"twistingFactor": 0.3,
+					"maxSpeed": 120,
+					"electrified": true
+				},
+				{
+					"start": "AIZ",
+					"end": "AHI",
+					"length": 60,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "AHI",
+					"end": "AHM",
+					"length": 34,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "AHM",
+					"end": "ANB",
+					"length": 40,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "ANB",
+					"end": "AWLA",
+					"length": 39,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
 				}
 			]
 		},
