@@ -670,6 +670,18 @@
 		},
 		{
 			"group": 1,
+			"name": "Rhein-Erft-Express von %s nach %s",
+			"descriptions": [
+				"Bringe den Rhein-Erft-Express von %s nach %s."
+			],
+			"plops": 230000,
+			"stations": ["KM", "KGRB", "KK", "KT", "KLI", "KNE", "KKO"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "Rurtalbahn von %s nach %s",
 			"descriptions": [
 				"Bringe die Rurtalbahn von %s nach %s."

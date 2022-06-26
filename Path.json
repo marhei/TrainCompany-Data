@@ -2039,6 +2039,41 @@
 			]
 		},
 		{
+			"name": "Mönchengladbach - Köln",
+			"group": 0,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "KM",
+					"end": "KGRB",
+					"twistingFactor": 0.2,
+					"length": 20,
+					"maxSpeed": 120
+				},
+				{
+					"start": "KGRB",
+					"end": "KK",
+					"twistingFactor": 0.2,
+					"length": 31,
+					"maxSpeed": 120
+				}
+			]
+		},
+		{
+			"name": "Düren - Grevenbroich",
+			"group": 1,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "KN",
+					"end": "KGRB",
+					"twistingFactor": 0.2,
+					"length": 15,
+					"maxSpeed": 100
+				}
+			]
+		},
+		{
 			"name": "Duisburg - Mönchengladbach",
 			"group": 1,
 			"electrified": true,
