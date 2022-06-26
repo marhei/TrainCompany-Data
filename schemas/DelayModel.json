@@ -7,19 +7,56 @@
 		"data": {
 			"type": "array",
 			"items": {
-				"allOf": [{"$ref": "#/$defs/delay"}],
-				"anyOf": [
+				"allOf": [
+					{"$ref": "#/$defs/delay"},
 					{
-						"required": [
-							"type",
-							"name",
-							"delay"
+						"anyOf": [
+							{
+								"required": ["type"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["type"]
+										}
+									}
+								}
+							}
 						]
 					},
 					{
-						"required": ["objects"]
+						"anyOf": [
+							{
+								"required": ["name"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["name"]
+										}
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{
+								"required": ["delay"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["delay"]
+										}
+									}
+								}
+							}
+						]
 					}
-					
 				]
 			},
 			"uniqueItems": true

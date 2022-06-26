@@ -7,19 +7,87 @@
 		"data": {
 			"type": "array",
 			"items": {
-				"allOf": [{"$ref": "#/$defs/path"}],
-				"anyOf": [
+				"allOf": [
+					{"$ref": "#/$defs/path"},
 					{
-						"required": [
-							"start",
-							"end",
-							"twistingFactor",
-							"length",
-							"maxSpeed"
+						"anyOf": [
+							{
+								"required": ["start"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["start"]
+										}
+									}
+								}
+							}
 						]
 					},
 					{
-						"required": ["objects"]
+						"anyOf": [
+							{
+								"required": ["end"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["end"]
+										}
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{
+								"required": ["twistingFactor"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["twistingFactor"]
+										}
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{
+								"required": ["length"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["length"]
+										}
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{
+								"required": ["maxSpeed"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["maxSpeed"]
+										}
+									}
+								}
+							}
+						]
 					}
 				]
 			},

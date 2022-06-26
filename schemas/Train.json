@@ -8,23 +8,126 @@
 			"description": "Die Züge, die in TrainCompany zur Verfügung stehen",
 			"type": "array",
 			"items": {
-				"allOf": [{"$ref": "#/$defs/train"}],
-				"anyOf": [
+				"allOf": [
+					{"$ref": "#/$defs/train"},
 					{
-						"required": ["objects"]
+						"anyOf": [
+							{ "required": ["id"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["id"] }
+									}
+								}
+							}
+						]
 					},
 					{
-						"required": [
-							"id",
-							"group",
-							"name",
-							"speed",
-							"weight",
-							"force",
-							"length",
-							"drive",
-							"reliability",
-							"cost"
+						"anyOf": [
+							{ "required": ["group"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["group"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["name"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["name"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["speed"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["speed"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["weight"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["weight"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["force"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["force"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["length"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["length"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["drive"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["drive"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["reliability"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["reliability"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["cost"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["cost"] }
+									}
+								}
+							}
 						]
 					}
 				]

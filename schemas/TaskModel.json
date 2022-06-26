@@ -7,19 +7,67 @@
 		"data": {
 			"type": "array",
 			"items": {
-				"allOf": [{"$ref": "#/$defs/task"}],
-				"anyOf": [
+				"allOf": [
+					{"$ref": "#/$defs/task"},
 					{
-						"required": [
-							"group",
-							"name",
-							"descriptions",
-							"plops",
-							"neededCapacity"
+						"anyOf": [
+							{ "required": ["group"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["group"] }
+									}
+								}
+							}
 						]
 					},
 					{
-						"required": ["objects"]
+						"anyOf": [
+							{ "required": ["name"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["name"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["descriptions"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["descriptions"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["plops"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["plops"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["neededCapacity"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["neededCapacity"] }
+									}
+								}
+							}
+						]
 					}
 				]
 			},

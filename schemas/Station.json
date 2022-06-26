@@ -7,19 +7,67 @@
 		"data": {
 			"type": "array",
 			"items": {
-				"allOf": [{"$ref": "#/$defs/station"}],
-				"anyOf": [
+				"allOf": [
+					{ "$ref": "#/$defs/station" },
 					{
-						"required": [
-							"name",
-							"ril100",
-							"group",
-							"x",
-							"y"
+						"anyOf": [
+							{ "required": ["name"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["name"] }
+									}
+								}
+							}
 						]
 					},
 					{
-						"required": ["objects"]
+						"anyOf": [
+							{ "required": ["ril100"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["ril100"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["group"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["group"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["x"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["x"] }
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["y"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["y"] }
+									}
+								}
+							}
+						]
 					}
 				]
 			},

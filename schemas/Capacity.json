@@ -7,20 +7,103 @@
 		"data": {
 			"type": "array",
 			"items": {
-				"allOf": [{"$ref": "#/$defs/capacity"}],
-				"anyOf": [
+				"allOf": [
+					{"$ref": "#/$defs/capacity"},
 					{
-						"required": [
-							"idString",
-							"name",
-							"needsPlatform",
-							"unit",
-							"unitMass",
-							"emoji"
+						"anyOf": [
+							{
+								"required": ["idString"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["idString"]
+										}
+									}
+								}
+							}
 						]
 					},
 					{
-						"required": ["objects"]
+						"anyOf": [
+							{
+								"required": ["name"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["name"]
+										}
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{
+								"required": ["needsPlatform"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["needsPlatform"]
+										}
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{
+								"required": ["unit"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["unit"]
+										}
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{
+								"required": ["unitMass"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["unitMass"]
+										}
+									}
+								}
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{
+								"required": ["emoji"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["emoji"]
+										}
+									}
+								}
+							}
+						]
 					}
 				]
 			},
