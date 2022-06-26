@@ -4,11 +4,11 @@ on:
   push:
     branches-ignore: [main]
     paths:
-      - "**/*.json"
+      - "**.json"
   pull_request:
     branches: [main]
     paths:
-      - "**/*.json"
+      - "**.json"
 
 jobs:
   build:
@@ -23,9 +23,10 @@ jobs:
           fetch-depth: 0
 
       - name: Lint Code Base
-        uses: github/super-linter@v4
+        uses: github/super-linter/slim@v4
         env:
           VALIDATE_ALL_CODEBASE: false
           # It sants tabs as indentation, which YAML does not allow
-          VALIDATE_YAML: false
+          VALIDATE_JSON: true
           DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
