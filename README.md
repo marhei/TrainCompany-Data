@@ -22,13 +22,13 @@ Fahrzeuge, die in TC zur Verfügung stehen
 	* **2** Diesel-Traktion
 * **reliability** *(float)* Zuverlässigkeit in Prozent (0.0-1.0)
 * **cost** *(int)* Kosten in Plops
-* **maxConnectedUnits** *(int)* Maximale Anzahl der kuppelbaren Einheiten (bei Triebzügen, 0 = Unbegrenzt)
-* **operationCosts** *(int)* Betriebskosten pro km in Plops
+* **maxConnectedUnits** *(int)* Maximale Anzahl der kuppelbaren Einheiten (bei Triebzügen, Nicht gesetzt = Unbegrenzt)
+* **operationCosts** *(int)* Betriebskosten pro km in Plops (Nur bei Fz mit Antrieb benutzen!)
 * **equipments** *(array)* Fahrzeugausstattung (siehe TrainEquipments.json)
 * **exchangeTime** *(int)* Aufenthaltsdauer bei Planhalten in Sekunden (Optional, Standard = 40)
 * **compatibleWith** *(array)* Für Triebzüge und Wagenverbände: Lässt sich zusätzlich mit den angegeben Fz kuppeln
 * **equivalentTo** *(int)* Nur für fixe Wagenverbände: Entspricht wie vielen Wagen?
-* **capacity** *(array)* Art der Beladung und Menge (siehe Capacity.json)
+* **capacity** *(array)* Art der Beladung und Menge (optional, siehe Capacity.json)
 
 ## Capacity.json
 Art der Beladungen eines Fahrzeuges

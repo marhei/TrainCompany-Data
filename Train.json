@@ -451,9 +451,7 @@
 			"reliability": 0.9,
 			"cost": 350000,
 			"operationCosts": 100,
-			"compatibleWith": [1051],
-			"maxConnectedUnits": 0,
-			"capacity": []
+			"compatibleWith": [1051]
 		},
 		{
 			"id": 102,
@@ -466,8 +464,20 @@
 			"drive": 1,
 			"reliability": 0.9,
 			"cost": 330000,
-			"operationCosts": 100,
-			"capacity": []
+			"operationCosts": 100
+		},
+		{
+			"id": 103,
+			"group": 0,
+			"name": "BR 103",
+			"speed": 200,
+			"weight": 114,
+			"force": 312,
+			"length": 20,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 380000,
+			"operationCosts": 120
 		},
 		{
 			"id": 6,
@@ -481,9 +491,7 @@
 			"drive": 1,
 			"reliability": 1,
 			"cost": 300000,
-			"operationCosts": 80,
-			"maxConnectedUnits": 0,
-			"capacity": []
+			"operationCosts": 80
 		},
 		{
 			"id": 29,
@@ -499,9 +507,7 @@
 			"cost": 250000,
 			"operationCosts": 90,
 			"equipments": ["ETCS"],
-			"compatibleWith": [31],
-			"maxConnectedUnits": 0,
-			"capacity": []
+			"compatibleWith": [31]
 		},
 		{
 			"id": 30,
@@ -515,9 +521,7 @@
 			"drive": 1,
 			"reliability": 0.95,
 			"cost": 250000,
-			"operationCosts": 95,
-			"maxConnectedUnits": 2,
-			"capacity": []
+			"operationCosts": 95
 		},
 		{
 			"id": 12,
@@ -530,9 +534,7 @@
 			"drive": 1,
 			"reliability": 0.9,
 			"cost": 200000,
-			"operationCosts": 110,
-			"maxConnectedUnits": 0,
-			"capacity": []
+			"operationCosts": 110
 		},
 		{
 			"id": 15,
@@ -548,9 +550,7 @@
 			"cost": 400000,
 			"operationCosts": 90,
 			"equipments": ["ETCS"],
-			"compatibleWith": [1116],
-			"maxConnectedUnits": 0,
-			"capacity": []
+			"compatibleWith": [1116]
 		},
 		{
 			"id": 28,
@@ -565,9 +565,7 @@
 			"reliability": 1,
 			"cost": 400000,
 			"operationCosts": 80,
-			"equipments": ["ETCS", "FR"],
-			"maxConnectedUnits": 0,
-			"capacity": []
+			"equipments": ["ETCS", "FR"]
 		},
 		{
 			"id": 5,
@@ -580,24 +578,7 @@
 			"drive": 2,
 			"reliability": 0.9,
 			"cost": 200000,
-			"operationCosts": 120,
-			"maxConnectedUnits": 0,
-			"capacity": []
-		},
-		{
-			"id": 103,
-			"group": 0,
-			"name": "BR 103",
-			"speed": 200,
-			"weight": 114,
-			"force": 312,
-			"length": 20,
-			"drive": 1,
-			"reliability": 0.8,
-			"cost": 380000,
-			"operationCosts": 120,
-			"maxConnectedUnits": 0,
-			"capacity": []
+			"operationCosts": 120
 		},
 		{
 			"id": 20,
@@ -610,9 +591,7 @@
 			"drive": 2,
 			"reliability": 0.9,
 			"cost": 220000,
-			"operationCosts": 140,
-			"maxConnectedUnits": 0,
-			"capacity": []
+			"operationCosts": 140
 		},
 		{
 			"id": 26,
@@ -627,9 +606,7 @@
 			"reliability": 1,
 			"cost": 450000,
 			"operationCosts": 110,
-			"equipments": ["ETCS"],
-			"maxConnectedUnits": 0,
-			"capacity": []
+			"equipments": ["ETCS"]
 		},
 		{
 			"id": 17,
@@ -642,9 +619,7 @@
 			"drive": 2,
 			"reliability": 0.5,
 			"cost": 100000,
-			"operationCosts": 100,
-			"maxConnectedUnits": 0,
-			"capacity": []
+			"operationCosts": 100
 		},
 		{
 			"id": 100,
@@ -657,9 +632,7 @@
 			"drive": 2,
 			"reliability": 0.6,
 			"cost": 150000,
-			"operationCosts": 140,
-			"maxConnectedUnits": 0,
-			"capacity": []
+			"operationCosts": 140
 		},
 		{
 			"id": 4,
@@ -673,7 +646,6 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 180000,
-			"maxConnectedUnits": 0,
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 80}
@@ -691,7 +663,6 @@
 			"drive": 0,
 			"reliability": 0.9,
 			"cost": 75000,
-			"maxConnectedUnits": 0,
 			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 96}
@@ -726,7 +697,6 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 180000,
-			"maxConnectedUnits": 0,
 			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 121}
@@ -744,8 +714,6 @@
 			"drive": 0,
 			"reliability": 0.7,
 			"cost": 100000,
-			"maxConnectedUnits": 0,
-			"operationCosts": 10,
 			"exchangeTime": 100,
 			"capacity": [
 				{"name": "passengers", "value": 62}
@@ -763,7 +731,6 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 200000,
-			"maxConnectedUnits": 0,
 			"capacity": [
 				{"name": "cars", "value": 12}
 			]
@@ -780,7 +747,6 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 130000,
-			"maxConnectedUnits": 0,
 			"capacity": [
 				{"name": "wood", "value": 60}
 			]
@@ -797,7 +763,6 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 150000,
-			"maxConnectedUnits": 0,
 			"capacity": [
 				{"name": "oil", "value": 66}
 			]
@@ -814,7 +779,6 @@
 			"drive": 0,
 			"reliability": 0.9,
 			"cost": 130000,
-			"maxConnectedUnits": 0,
 			"capacity": [
 				{"name": "coal", "value": 65}
 			]
@@ -831,7 +795,6 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 130000,
-			"maxConnectedUnits": 0,
 			"capacity": [
 				{"name": "containers", "value": 2}
 			]
@@ -848,7 +811,6 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 500000,
-			"maxConnectedUnits": 0,
 			"capacity": [
 				{"name": "castor", "value": 1}
 			]
