@@ -1127,7 +1127,7 @@
 				"Der RE4 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
 			],
 			"plops": 380000,
-			"stations": ["FF", "FMZ", "FWOR", "RFT", "RM", "RSD", "RGE", "RK"],
+			"stations": ["FF", "FMZ", "FWOR", "RFT", "RM", "RSD", "RSP", "RGE", "RN", "RK"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -1178,6 +1178,30 @@
 			],
 			"plops": 472000,
 			"stations": ["RK", "RM", "FF", "FF", "FKW", "HG", "HH", "AHAR", "AH"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Pendler S-Bahn von %s nach %s",
+			"descriptions": [
+				"Bringe die S9 von %s nach %s. Der Zug ist nur stark ausgelastet."
+			],
+			"plops": 360000,
+			"stations": ["RK", "RKHA", "RBAN", "RFTL", "RGN", "RWI", "RWG", "RNL", "RHK", "ROFH", "ROFH", "RSZ", "RMA", "RMN", "RM"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "S33 von %s nach %s",
+			"descriptions": [
+				"Bringe die S33 von %s nach %s."
+			],
+			"plops": 240000,
+			"stations": ["RGE", "RRHH", "RPB", "RHTT", "RGNN", "RGN", "RKF", "RBMT", "RBRP", "RBR"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
