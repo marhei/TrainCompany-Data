@@ -844,7 +844,10 @@
 				"Fahre mit dem ikonischen D-Zug nach %2$s."
 			],
 			"plops": 230000,
-			"stations": ["AWLA", "ANB", "AHM", "AHI", "AIZ", "AEL", "AA"]
+			"stations": ["AWLA", "ANB", "AHM", "AHI", "AIZ", "AEL", "AA"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
 		},
 		{
 			"group": 0,

@@ -7,70 +7,82 @@
 		"data": {
 			"type": "array",
 			"items": {
-				"type": "object",
-				"properties": {
-					"name": {
-						"description": "Bahnhofsname",
-						"type": "string"
-					},
-					"ril100": {
-						"description": "Ril100 des Bf",
-						"type": "string",
-						"minLength": 2,
-						"maxLength": 5
-					},
-					"group": {
-						"description": "Art des Bahnhofs",
-						"type": "integer",
-						"oneOf": [
-							{"const": 0, "description": "Knotenbahnhof"},
-							{"const": 1, "description": "Hauptbahnhof"},
-							{"const": 2, "description": "kleiner Bahnhof"},
-							{"const": 3, "description": "Betriebsbahnhof"},
-							{"const": 4, "description": "Abzweigstelle"}
+				"allOf": [{"$ref": "#/$defs/station"}],
+				"anyOf": [
+					{
+						"required": [
+							"name",
+							"ril100",
+							"group",
+							"x",
+							"y"
 						]
 					},
-					"x": {
-						"description": "x-Position auf Karte",
-						"type": "integer"
-					},
-					"y": {
-						"description": "y-Position auf Karte",
-						"type": "integer"
-					},
-					"platformLength": {
-						"description": "maximale Bahnsteiglänge",
-						"type": "integer",
-						"minimum": 0,
-						"default": 0
-					},
-					"platforms": {
-						"description": "Bahnsteiganzahl",
-						"type": "integer",
-						"minimum": 0,
-						"default": 0
-					},
-					"forRandomTasks": {
-						"type": "boolean",
-						"default": true
-					},
-					"objects": {
-						"description": "Sub-Stationen, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
-						"type": "array",
-						"items": {
-							"$ref": "#/properties/data/items"
-						}
+					{
+						"required": ["objects"]
 					}
-				},
-				"required": [
-					"name",
-					"ril100",
-					"group",
-					"x",
-					"y"
 				]
 			},
 			"uniqueItems": true
+		}
+	},
+	"$defs": {
+		"station": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"description": "Bahnhofsname",
+					"type": "string"
+				},
+				"ril100": {
+					"description": "Ril100 des Bf",
+					"type": "string",
+					"minLength": 2,
+					"maxLength": 5
+				},
+				"group": {
+					"description": "Art des Bahnhofs",
+					"type": "integer",
+					"oneOf": [
+						{"const": 0, "description": "Knotenbahnhof"},
+						{"const": 1, "description": "Hauptbahnhof"},
+						{"const": 2, "description": "kleiner Bahnhof"},
+						{"const": 3, "description": "Betriebsbahnhof"},
+						{"const": 4, "description": "Abzweigstelle"}
+					]
+				},
+				"x": {
+					"description": "x-Position auf Karte",
+					"type": "integer"
+				},
+				"y": {
+					"description": "y-Position auf Karte",
+					"type": "integer"
+				},
+				"platformLength": {
+					"description": "maximale Bahnsteiglänge",
+					"type": "integer",
+					"minimum": 0,
+					"default": 0
+				},
+				"platforms": {
+					"description": "Bahnsteiganzahl",
+					"type": "integer",
+					"minimum": 0,
+					"default": 0
+				},
+				"forRandomTasks": {
+					"type": "boolean",
+					"default": true
+				},
+				"objects": {
+					"description": "Sub-Stationen, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/station"
+					}
+				}
+			}
 		}
 	}
 }

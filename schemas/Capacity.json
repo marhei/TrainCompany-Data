@@ -7,52 +7,64 @@
 		"data": {
 			"type": "array",
 			"items": {
-				"type": "object",
-				"properties": {
-					"idString": {
-						"description": "Eindeutige ID einer Capacity",
-						"type": "string",
-						"minimum": 0
+				"allOf": [{"$ref": "#/$defs/capacity"}],
+				"anyOf": [
+					{
+						"required": [
+							"idString",
+							"name",
+							"needsPlatform",
+							"unit",
+							"unitMass",
+							"emoji"
+						]
 					},
-					"name": {
-						"description": "Name der Capacity",
-						"type": "string"
-					},
-					"needsPlatform": {
-						"description": "Benötigt einen bahnsteig?",
-						"type": "boolean"
-					},
-					"unit": {
-						"description": "Einheit der Capacity",
-						"type": "string"
-					},
-					"unitMass": {
-						"description": "Masse einer Einheit in t",
-						"type": "number",
-						"minimum": 0
-					},
-					"emoji": {
-						"description": "Emoji der Einheit",
-						"type": "string"
-					},
-					"objects": {
-						"description": "Sub-Ladungsarten, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
-						"type": "array",
-						"items": {
-							"$ref": "#/properties/data/items"
-						}
+					{
+						"required": ["objects"]
+					}
+				]
+			},
+			"uniqueItems": true
+		}
+	},
+	"$defs": {
+		"capacity": {
+			"type": "object",
+			"properties": {
+				"idString": {
+					"description": "Eindeutige ID einer Capacity",
+					"type": "string",
+					"minimum": 0
+				},
+				"name": {
+					"description": "Name der Capacity",
+					"type": "string"
+				},
+				"needsPlatform": {
+					"description": "Benötigt einen bahnsteig?",
+					"type": "boolean"
+				},
+				"unit": {
+					"description": "Einheit der Capacity",
+					"type": "string"
+				},
+				"unitMass": {
+					"description": "Masse einer Einheit in t",
+					"type": "number",
+					"minimum": 0
+				},
+				"emoji": {
+					"description": "Emoji der Einheit",
+					"type": "string"
+				},
+				"objects": {
+					"description": "Sub-Ladungsarten, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/capacity"
 					}
 				}
-			},
-			"required": [
-				"idString",
-				"name",
-				"needsPlatform",
-				"unit",
-				"unitMass",
-				"emoji"
-			],
-			"uniqueItems": true
+			}
 		}
 	}
 }
