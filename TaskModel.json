@@ -70,7 +70,8 @@
 			"plopDifference": 8,
 			"objects":
 			[
-				{"stations": ["RH", "RM", "FF", "FH", "FFU", "FKW", "HG"]},
+				{"stations": ["RK", "RM", "FF", "FH", "FFU", "FKW", "HG", "HH", "HWOB", "BL", "BHF"]},
+				{"stations": ["TS", "RM", "FF", "FH", "FFU", "FKW", "HG", "HH", "AH"]},
 				{"stations": ["NN", "NWH", "FFU", "FKW", "HG", "HH", "AH"]},
 				{"stations": ["UGW", "US", "NK", "NFL", "NBA", "NER", "NN"]}
 	],
@@ -825,7 +826,7 @@
 			"group": 1,
 			"name": "Marschbahn nach %s",
 			"descriptions": [
-				"Feierlustige 9 Euro Ticket Touristen wollen von %s nach %s."
+				"Feierlustige 9-Euro-Ticket-Touristen wollen von %s nach %s."
 			],
 			"plops": 250000,
 			"stations": ["AWLA", "ANB", "AHM", "AHI", "AIZ", "AGST", "AEL", "AA"],
@@ -857,6 +858,56 @@
 			],
 			"plops": 230000,
 			"stations": ["AWLA", "ANB", "AHM", "AHI", "AIZ", "AEL", "AA"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalexpress %s nach %s",
+			"descriptions": [
+				"Bringe den RE4 von %s nach %s. Der Zug ist nur stark ausgelastet.",
+				"Der RE4 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
+			],
+			"plops": 380000,
+			"stations": ["FF", "FMZ", "FWOR", "RFT", "RM", "RSD", "RGE", "RK"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalexpress von %s nach %s",
+			"descriptions": [
+				"Bringe den RE6 von %s nach %s. Der Zug ist nur stark ausgelastet.",
+				"Der RE4 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
+			],
+			"plops": 380000,
+			"stations": ["SKL", "RN", "RLA", "RWND", "RWRT", "RK"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Grenzüberschreitende RB von %s nach %s",
+			"descriptions": [
+				"Bringe die RB53 von %s nach %s."
+			],
+			"plops": 250000,
+			"stations": ["RN", "RLA", "RWND", "XFWBG"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "S-Bahn-Verstärkerfahrt von %s nach %s",
+			"descriptions": [
+				"Bringe den Verstärkerzug für die S-Bahn von %s nach %s."
+			],
+			"plops": 300000,
+			"stations": ["RK", "RBR", "RH"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
