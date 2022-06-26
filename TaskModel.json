@@ -954,6 +954,19 @@
 		},
 		{
 			"group": 0,
+			"name": "Kohlezug nach %2$s",
+			"descriptions": [
+				"In %2$s wird dringend Kohle aus dem Tagebau %1$s benötigt.",
+				"Das Kraftwerk in %2$s benötigt neue Kohle aus %1$s für Bahnstrom."
+			],
+			"stations": ["KGRB"],
+			"plops": 600000,
+			"neededCapacity": [
+				{"name": "coal", "value": 800}
+			]
+		},
+		{
+			"group": 0,
 			"name": "Dringender Heizmittel-Transport",
 			"descriptions": [
 				"In der Dienstelle in %2$s ist das Heizöl ausgegangen, bring neues aus %1$s.",
