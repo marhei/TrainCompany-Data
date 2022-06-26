@@ -1,0 +1,51 @@
+name: JSON-Validate
+
+on:
+  push:
+    paths:
+      - "*.json"
+  pull_request:
+    paths:
+      - "*.json"
+  workflow_dispatch:
+
+jobs:
+  validate_JSON:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Validate Capacity.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: schemas/Capacity.json
+          INPUT_JSONS: Capacity.json
+
+      - name: Validate DelayModel.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: schemas/DelayModel.json
+          INPUT_JSONS: DelayModel.json
+
+      - name: Validate Path.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: schemas/Path.json
+          INPUT_JSONS: Path.json
+
+      - name: Validate Station.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: schemas/Station.json
+          INPUT_JSONS: Station.json
+
+      - name: Validate TaskModel.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: schemas/TaskModel.json
+          INPUT_JSONS: TaskModel.json
+
+      - name: Validate Train.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: schemas/Train.json
+          INPUT_JSONS: Train.json

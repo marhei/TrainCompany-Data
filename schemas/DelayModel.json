@@ -1,5 +1,5 @@
 {
-	"$schema": "https://json-schema.org/draft-07/schema",
+	"$schema": "http://json-schema.org/draft-07/schema",
 	"$id": "https://raw.githubusercontent.com/marhei/TrainCompany-Data/main/schemas/DelayModel.json",
 	"title": "Modelle für Verspätungen",
 	"type": "object",
@@ -7,56 +7,109 @@
 		"data": {
 			"type": "array",
 			"items": {
-				"type": "object",
-				"properties": {
-					"type": {
-						"description": "Art der Verspätung",
-						"type": "integer",
-						"oneOf": [
-							{"const": 0, "description": "Fahrzeugstörung"},
-							{"const": 1, "description": "Personal"},
-							{"const": 2, "description": "Ladung"},
-							{"const": 3, "description": "Streckenstörung (noch nicht implementiert)"},
-							{"const": 4, "description": "Fahrplan"}
+				"allOf": [
+					{"$ref": "#/$defs/delay"},
+					{
+						"anyOf": [
+							{
+								"required": ["type"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["type"]
+										}
+									}
+								},
+								"required": ["objects"]
+							}
 						]
 					},
-					"name": {
-						"description": "Verspätungstext",
+					{
+						"anyOf": [
+							{
+								"required": ["name"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["name"]
+										}
+									}
+								},
+								"required": ["objects"]
+							}
+						]
+					},
+					{
+						"anyOf": [
+							{
+								"required": ["delay"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["delay"]
+										}
+									}
+								},
+								"required": ["objects"]
+							}
+						]
+					}
+				]
+			},
+			"uniqueItems": true
+		}
+	},
+	"$defs": {
+		"delay": {
+			"type": "object",
+			"properties": {
+				"type": {
+					"description": "Art der Verspätung",
+					"type": "integer",
+					"oneOf": [
+						{"const": 0, "description": "Fahrzeugstörung"},
+						{"const": 1, "description": "Personal"},
+						{"const": 2, "description": "Ladung"},
+						{"const": 3, "description": "Streckenstörung (noch nicht implementiert)"},
+						{"const": 4, "description": "Fahrplan"}
+					]
+				},
+				"name": {
+					"description": "Verspätungstext",
+					"type": "string"
+				},
+				"delay": {
+					"description": "Erzeugte Verspätung in Sekunden (+/-5%)",
+					"type": "integer"
+				},
+				"objects": {
+					"description": "Sub-Verspätungen, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/delay"
+					}
+				}
+			},
+			"if": {
+				"properties": {
+					"type": {
+						"const": 2
+					}
+				}
+			},
+			"then": {
+				"properties": {
+					"capacity": {
+						"description": "Die Ladungsart, für die die Störung gilt",
 						"type": "string"
-					},
-					"delay": {
-						"description": "Erzeugte Verspätung in Sekunden (+/-5%)",
-						"type": "integer"
-					},
-					"objects": {
-						"description": "Sub-Verspätungen, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
-						"type": "array",
-						"items": {
-							"$ref": "#/properties/data/items"
-						}
 					}
-				},
-				"if": {
-					"properties": {
-						"type": {
-							"const": 2
-						}
-					}
-				},
-				"then": {
-					"properties": {
-						"capacity": {
-							"description": "Die Ladungsart, für die die Störung gilt",
-							"type": "string"
-						}
-					}
-				},
-				"required": [
-					"type",
-					"name",
-					"delay"
-				],
-				"uniqueItems": true
+				}
 			}
 		}
 	}

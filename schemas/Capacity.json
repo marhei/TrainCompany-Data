@@ -1,5 +1,5 @@
 {
-	"$schema": "https://json-schema.org/draft-07/schema",
+	"$schema": "http://json-schema.org/draft-07/schema",
 	"$id": "https://raw.githubusercontent.com/marhei/TrainCompany-Data/main/schemas/Capacity.json",
 	"title": "Art der Beladungen eines Fahrzeugs",
 	"type": "object",
@@ -7,52 +7,153 @@
 		"data": {
 			"type": "array",
 			"items": {
-				"type": "object",
-				"properties": {
-					"idString": {
-						"description": "Eindeutige ID einer Capacity",
-						"type": "string",
-						"minimum": 0
+				"allOf": [
+					{"$ref": "#/$defs/capacity"},
+					{
+						"anyOf": [
+							{
+								"required": ["idString"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["idString"]
+										}
+									}
+								},
+								"required": ["objects"]
+							}
+						]
 					},
-					"name": {
-						"description": "Name der Capacity",
-						"type": "string"
+					{
+						"anyOf": [
+							{
+								"required": ["name"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["name"]
+										}
+									}
+								},
+								"required": ["objects"]
+							}
+						]
 					},
-					"needsPlatform": {
-						"description": "Benötigt einen bahnsteig?",
-						"type": "boolean"
+					{
+						"anyOf": [
+							{
+								"required": ["needsPlatform"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["needsPlatform"]
+										}
+									}
+								},
+								"required": ["objects"]
+							}
+						]
 					},
-					"unit": {
-						"description": "Einheit der Capacity",
-						"type": "string"
+					{
+						"anyOf": [
+							{
+								"required": ["unit"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["unit"]
+										}
+									}
+								},
+								"required": ["objects"]
+							}
+						]
 					},
-					"unitMass": {
-						"description": "Masse einer Einheit in t",
-						"type": "number",
-						"minimum": 0
+					{
+						"anyOf": [
+							{
+								"required": ["unitMass"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["unitMass"]
+										}
+									}
+								},
+								"required": ["objects"]
+							}
+						]
 					},
-					"emoji": {
-						"description": "Emoji der Einheit",
-						"type": "string"
-					},
-					"objects": {
-						"description": "Sub-Ladungsarten, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
-						"type": "array",
-						"items": {
-							"$ref": "#/properties/data/items"
-						}
+					{
+						"anyOf": [
+							{
+								"required": ["emoji"]
+							},
+							{
+								"properties": {
+									"objects": {
+										"items": {
+											"required": ["emoji"]
+										}
+									}
+								},
+								"required": ["objects"]
+							}
+						]
+					}
+				]
+			},
+			"uniqueItems": true
+		}
+	},
+	"$defs": {
+		"capacity": {
+			"type": "object",
+			"properties": {
+				"idString": {
+					"description": "Eindeutige ID einer Capacity",
+					"type": "string",
+					"minimum": 0
+				},
+				"name": {
+					"description": "Name der Capacity",
+					"type": "string"
+				},
+				"needsPlatform": {
+					"description": "Benötigt einen bahnsteig?",
+					"type": "boolean"
+				},
+				"unit": {
+					"description": "Einheit der Capacity",
+					"type": "string"
+				},
+				"unitMass": {
+					"description": "Masse einer Einheit in t",
+					"type": "number",
+					"minimum": 0
+				},
+				"emoji": {
+					"description": "Emoji der Einheit",
+					"type": "string"
+				},
+				"objects": {
+					"description": "Sub-Ladungsarten, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/capacity"
 					}
 				}
-			},
-			"required": [
-				"idString",
-				"name",
-				"needsPlatform",
-				"unit",
-				"unitMass",
-				"emoji"
-			],
-			"uniqueItems": true
+			}
 		}
 	}
 }
