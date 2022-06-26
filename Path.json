@@ -3039,8 +3039,16 @@
 				},
 				{
 					"start": "RK",
-					"end": "RHK",
-					"length": 26,
+					"end": "RGN",
+					"length": 21,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 200
+				},
+				{
+					"start": "RGN",
+					"end": "RSAB",
+					"length": 7,
 					"twistingFactor": 0.1,
 					"group": 0,
 					"maxSpeed": 200
@@ -3055,14 +3063,19 @@
 			"twistingFactor": 0.1,
 			"objects": [
 				{
-					"start": "RHK",
-					"end": "RM",
+					"start": "RM",
+					"end": "RHK",
 					"length": 46
 				},
 				{
 					"start": "RHK",
+					"end": "RSAB",
+					"length": 11
+				},
+				{
+					"start": "RSAB",
 					"end": "TV",
-					"length": 58
+					"length": 47
 				},
 				{
 					"start": "TV",
@@ -3997,32 +4010,11 @@
 					"maxSpeed": 120,
 					"twistingFactor": 0.1,
 					"length": 22
-				},
-				{
-					"start": "RSD",
-					"end": "RM",
-					"maxSpeed": 160,
-					"twistingFactor": 0.1,
-					"length": 13
-				},
-				{
-					"start": "RSD",
-					"end": "RN",
-					"maxSpeed": 160,
-					"twistingFactor": 0.1,
-					"length": 17
-				},
-				{
-					"start": "RM",
-					"end": "RN",
-					"maxSpeed": 160,
-					"twistingFactor": 0.1,
-					"length": 30
 				}
 			]
 		},
 		{
-			"name": "Neustadt-Wörth",
+			"name": "Pfälzische Maximiliansbahn",
 			"group": 1,
 			"electrified": false,
 			"objects":
@@ -4030,48 +4022,59 @@
 				{
 					"start": "RN",
 					"end": "RLA",
-					"maxSpeed": 160,
+					"maxSpeed": 140,
 					"twistingFactor": 0.1,
 					"length": 19
 				},
 				{
 					"start": "RLA",
-					"end": "RWRT",
-					"maxSpeed": 160,
+					"end": "RWND",
+					"maxSpeed": 140,
 					"twistingFactor": 0.1,
-					"length": 26
+					"length": 13
 				},
 				{
-					"start": "RLA",
+					"start": "RWND",
 					"end": "XFWBG",
 					"maxSpeed": 100,
 					"twistingFactor": 0.1,
-					"length": 29
+					"length": 29,
+					"neededEquipments": [
+						"FR"
+					]
 				}
 			]
 		},
 		{
-			"name": "Netz Karlsruhe",
+			"name": "Bahnstrecke Winden–Karlsruhe",
+			"group": 1,
+			"objects":
+			[
+				{
+					"start": "RWND",
+					"end": "RWRT",
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"electrified": false,
+					"length": 26
+				},
+				{
+					"start": "RWRT",
+					"end": "RK",
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"length": 13
+				}
+			]
+		},
+		{
+			"name": "Badische Hauptbahnh",
 			"group": 0,
 			"electrified": true,
 			"objects":
 			[
 				{
 					"start": "RK",
-					"end": "RWRT",
-					"maxSpeed": 120,
-					"twistingFactor": 0.1,
-					"length": 13
-				},
-				{
-					"start": "RGE",
-					"end": "RBR",
-					"maxSpeed": 160,
-					"twistingFactor": 0.2,
-					"length": 27
-				},
-				{
-					"start": "RGE",
 					"end": "RBR",
 					"maxSpeed": 160,
 					"twistingFactor": 0.1,
@@ -4083,6 +4086,29 @@
 					"maxSpeed": 160,
 					"twistingFactor": 0.1,
 					"length": 32
+				}
+			]
+		},
+		{
+			"name": "Bruhrainbahn",
+			"group": 0,
+			"electrified": true,
+			"objects":
+			[
+
+				{
+					"start": "RGE",
+					"end": "RGN",
+					"maxSpeed": 140,
+					"twistingFactor": 0.2,
+					"length": 17
+				},
+				{
+					"start": "RGN",
+					"end": "RBR",
+					"maxSpeed": 160,
+					"twistingFactor": 0.2,
+					"length": 10
 				}
 			]
 		}
