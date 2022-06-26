@@ -9,6 +9,7 @@ on:
     paths:
       - "Station.json"
       - "Path.json"
+  workflow_dispatch:
 
 jobs:
   render:
