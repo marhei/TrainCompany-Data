@@ -3995,8 +3995,7 @@
 			"name": "Wörth-Schifferstadt",
 			"group": 1,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "RWRT",
 					"end": "RGE",
@@ -4017,8 +4016,7 @@
 			"name": "Pfälzische Maximiliansbahn",
 			"group": 1,
 			"electrified": false,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "RN",
 					"end": "RLA",
@@ -4048,8 +4046,7 @@
 		{
 			"name": "Bahnstrecke Winden–Karlsruhe",
 			"group": 1,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "RWND",
 					"end": "RWRT",
@@ -4071,8 +4068,7 @@
 			"name": "Badische Hauptbahnh",
 			"group": 0,
 			"electrified": true,
-			"objects":
-			[
+			"objects": [
 				{
 					"start": "RK",
 					"end": "RBR",
@@ -4093,9 +4089,7 @@
 			"name": "Bruhrainbahn",
 			"group": 0,
 			"electrified": true,
-			"objects":
-			[
-
+			"objects": [
 				{
 					"start": "RGE",
 					"end": "RGN",
@@ -4109,6 +4103,75 @@
 					"maxSpeed": 160,
 					"twistingFactor": 0.2,
 					"length": 10
+				}
+			]
+		},
+		{
+			"maxSpeed": 120,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "WR",
+					"end": "WRV",
+					"length": 14,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "WRV",
+					"end": "WRI",
+					"length": 14,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "WRI",
+					"end": "WBUH",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "WBUH",
+					"end": "WV",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "WV",
+					"end": "WSRB",
+					"length": 16,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "WSRB",
+					"end": "WSR",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "WSR",
+					"end": "WSRR",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "WSRR",
+					"end": "WBG",
+					"length": 25,
+					"maxSpeed": 90,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "WBG",
+					"end": "WBI",
+					"group": 1,
+					"length": 21,
+					"maxSpeed": 80,
+					"twistingFactor": 0.35
 				}
 			]
 		}
