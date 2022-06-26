@@ -3039,8 +3039,32 @@
 				},
 				{
 					"start": "RK",
+					"end": "RKHA",
+					"length": 6,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 180
+				},
+				{
+					"start": "RKHA",
+					"end": "RBAN",
+					"length": 4,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 200
+				},
+				{
+					"start": "RBAN",
+					"end": "RFTL",
+					"length": 4,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 200
+				},
+				{
+					"start": "RFTL",
 					"end": "RGN",
-					"length": 21,
+					"length": 7,
 					"twistingFactor": 0.1,
 					"group": 0,
 					"maxSpeed": 200
@@ -3052,6 +3076,78 @@
 					"twistingFactor": 0.1,
 					"group": 0,
 					"maxSpeed": 200
+				},
+				{
+					"start": "RGN",
+					"end": "RWI",
+					"length": 7,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RWI",
+					"end": "RWG",
+					"length": 3,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 1600
+				},
+				{
+					"start": "RWG",
+					"end": "RNL",
+					"length": 6,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RNL",
+					"end": "RHK",
+					"length": 3,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RHK",
+					"end": "ROFH",
+					"length": 6,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 160
+				},
+				{
+					"start": "ROFH",
+					"end": "RSZ",
+					"length": 1,
+					"twistingFactor": 0.2,
+					"group": 0,
+					"maxSpeed": 120
+				},
+				{
+					"start": "RSZ",
+					"end": "RMA",
+					"length": 5,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RMA",
+					"end": "RMN",
+					"length": 5,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RMN",
+					"end": "RM",
+					"length": 3,
+					"twistingFactor": 0.2,
+					"group": 0,
+					"maxSpeed": 160
 				}
 			]
 		},
@@ -4005,10 +4101,52 @@
 				},
 				{
 					"start": "RGE",
+					"end": "RLF",
+					"maxSpeed": 120,
+					"twistingFactor": 0.3,
+					"length": 3
+				},
+				{
+					"start": "RLF",
+					"end": "RHN",
+					"maxSpeed": 140,
+					"twistingFactor": 0.1,
+					"length": 10
+				},
+				{
+					"start": "RHN",
+					"end": "RBGP",
+					"maxSpeed": 140,
+					"twistingFactor": 0.1,
+					"length": 1
+				},
+				{
+					"start": "RBGP",
+					"end": "RSP",
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"length": 4
+				},
+				{
+					"start": "RSP",
+					"end": "RSPN",
+					"maxSpeed": 100,
+					"twistingFactor": 0.2,
+					"length": 1
+				},
+				{
+					"start": "RSPN",
+					"end": "RSDS",
+					"maxSpeed": 140,
+					"twistingFactor": 0.1,
+					"length": 6
+				},
+				{
+					"start": "RSDS",
 					"end": "RSD",
 					"maxSpeed": 120,
 					"twistingFactor": 0.1,
-					"length": 22
+					"length": 2
 				}
 			]
 		},
@@ -4092,17 +4230,66 @@
 			"objects": [
 				{
 					"start": "RGE",
-					"end": "RGN",
+					"end": "RRHH",
+					"maxSpeed": 80,
+					"twistingFactor": 0.4,
+					"length": 5
+				},
+				{
+					"start": "RRHH",
+					"end": "RPB",
+					"maxSpeed": 120,
+					"twistingFactor": 0.2,
+					"length": 3
+				},
+				{
+					"start": "RPB",
+					"end": "RHTT",
 					"maxSpeed": 140,
 					"twistingFactor": 0.2,
-					"length": 17
+					"length": 4
+				},
+				{
+					"start": "RHTT",
+					"end": "RGNN",
+					"maxSpeed": 100,
+					"twistingFactor": 0.4,
+					"length": 3
+				},
+				{
+					"start": "RGNN",
+					"end": "RGN",
+					"maxSpeed": 80,
+					"twistingFactor": 0.2,
+					"length": 2
 				},
 				{
 					"start": "RGN",
-					"end": "RBR",
-					"maxSpeed": 160,
+					"end": "RKF",
+					"maxSpeed": 150,
 					"twistingFactor": 0.2,
-					"length": 10
+					"length": 5
+				},
+				{
+					"start": "RKF",
+					"end": "RBMT",
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"length": 2
+				},
+				{
+					"start": "RBMT",
+					"end": "RBRP",
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"length": 3
+				},
+				{
+					"start": "RBRP",
+					"end": "RBR",
+					"maxSpeed": 80,
+					"twistingFactor": 0.3,
+					"length": 1
 				}
 			]
 		},
