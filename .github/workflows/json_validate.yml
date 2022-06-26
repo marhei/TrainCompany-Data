@@ -16,37 +16,37 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Validate Capacity.json
-        uses: OrRosenblatt/validate-json-action@0.1.0
+        uses: docker://orrosenblatt/validate-json-action:latest
         with:
           schema: schemas/Capacity.json
           json: Capacity.json
 
       - name: Validate DelayModel.json
-        uses: OrRosenblatt/validate-json-action@0.1.0
+        uses: docker://orrosenblatt/validate-json-action:latest
         with:
           schema: schemas/DelayModel.json
           json: DelayModel.json
 
       - name: Validate Path.json
-        uses: OrRosenblatt/validate-json-action@0.1.0
+        uses: docker://orrosenblatt/validate-json-action:latest
         with:
           schema: schemas/Path.json
           json: Path.json
 
       - name: Validate Station.json
-        uses: OrRosenblatt/validate-json-action@0.1.0
+        uses: docker://orrosenblatt/validate-json-action:latest
         with:
           schema: schemas/Station.json
           json: Station.json
 
       - name: Validate TaskModel.json
-        uses: OrRosenblatt/validate-json-action@0.1.0
+        uses: docker://orrosenblatt/validate-json-action:latest
         with:
           schema: schemas/TaskModel.json
           json: TaskModel.json
 
       - name: Validate Train.json
-        uses: OrRosenblatt/validate-json-action@0.1.0
+        uses: docker://orrosenblatt/validate-json-action:latest
         with:
           schema: schemas/Train.json
           json: Train.json
