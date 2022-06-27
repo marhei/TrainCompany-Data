@@ -233,6 +233,25 @@
 			]
 		},
 		{
+			"id": 1427,
+			"group": 2,
+			"name": "Stadler Flirt 3 Akku",
+			"shortcut": "BR 1427",
+			"speed": 140,
+			"weight": 120,
+			"force": 100,
+			"length": 59,
+			"drive": 3,
+			"reliability": 1,
+			"cost": 850000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 2,
+			"range": 150,
+			"capacity": [
+				{"name": "passengers", "value": 154}
+			]
+		},
+		{
 			"id": 3427,
 			"group": 2,
 			"name": "Stadler FLIRT 3XL",
@@ -246,6 +265,7 @@
 			"cost": 450000,
 			"operationCosts": 40,
 			"maxConnectedUnits": 3,
+			"compatibleWith": [1],
 			"capacity": [
 				{"name": "passengers", "value": 190}
 			]
@@ -263,7 +283,8 @@
 			"reliability": 1,
 			"cost": 800000,
 			"operationCosts": 60,
-			"maxConnectedUnits": 4,
+			"maxConnectedUnits": 3,
+			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
 			]
