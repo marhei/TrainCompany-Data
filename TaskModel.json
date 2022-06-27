@@ -314,7 +314,7 @@
 				"Dieser S-Bahn-Langläufer muss von %s nach %s gebracht werden."
 			],
 			"plops": 300000,
-			"stations": ["SHO", "SHPT", "SLD", "SKL", "SHY", "RLBP", "RN", "RSD", "RM", "RH", "RNM", "REA", "RNZ", "RSE", "TO"],
+			"stations": ["SHO", "SBUM", "SHPT", "SLD", "SKIB","SEF", "SVO", "SKEN", "SKL", "SHY", "RFST", "RWD","RNFL", "RLBP", "RN", "RHLO", "RBOE", "RSD", "RLI", "RLUR", "RM", "RH", "RNM", "REA", "RNZ", "RSE", "TO"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -867,9 +867,9 @@
 		},
 		{
 			"group": 1,
-			"name": "Grenzüberschreitende RB von %s nach %s",
+			"name": "RB von %s nach %s",
 			"descriptions": [
-				"Bringe die RB53 von %s nach %s."
+				"Bringe die grenzüberschreitende RB53 von %s nach %s."
 			],
 			"plops": 250000,
 			"stations": ["RN", "RLA", "RWND", "XFWBG"],

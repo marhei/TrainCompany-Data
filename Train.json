@@ -380,6 +380,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 95,
 			"exchangeTime": 120,
+			"equipments": ["FR"],
 			"capacity": [
 				{"name": "passengers", "value": 180}
 			]
@@ -396,7 +397,7 @@
 			"drive": 2,
 			"reliability": 0.8,
 			"cost": 250000,
-			"operationCosts": 60,
+			"operationCosts": 30,
 			"maxConnectedUnits": 3,
 			"capacity": [
 				{"name": "passengers", "value": 110}
@@ -416,7 +417,8 @@
 			"cost": 280000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
-			"exchangeTime": 60,
+			"exchangeTime": 30,
+			"equipments": ["FR"],
 			"capacity": [
 				{"name": "passengers", "value": 149}
 			]

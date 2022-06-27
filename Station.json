@@ -139,15 +139,6 @@
 			"platforms": 16
 		},
 		{
-			"group": 0,
-			"name": "Mannheim Hbf",
-			"ril100": "RM",
-			"x": 270,
-			"y": 375,
-			"platformLength": 470,
-			"platforms": 9
-		},
-		{
 			"group": 2,
 			"name": "Groß Gerau-Dornberg",
 			"ril100": "FDG",
@@ -200,24 +191,6 @@
 			"y": 365,
 			"platformLength": 210,
 			"platforms": 4
-		},
-		{
-			"group": 0,
-			"name": "Saarbrücken Hbf",
-			"ril100": "SSH",
-			"x": 35,
-			"y": 405,
-			"platformLength": 405,
-			"platforms": 10
-		},
-		{
-			"group": 1,
-			"name": "Trier Hbf",
-			"ril100": "STR",
-			"x": 15,
-			"y": 335,
-			"platformLength": 440,
-			"platforms": 5
 		},
 		{
 			"group": 0,
@@ -328,49 +301,481 @@
 			"platforms": 6
 		},
 		{
-			"group": 2,
-			"name": "Schifferstadt",
-			"ril100": "RSD",
-			"x": 255,
-			"y": 385,
-			"platformLength": 490,
+			"group": 1,
+			"name": "Forbach",
+			"ril100": "XFFB",
+			"x": 57,
+			"y": 435,
+			"platformLength": 300,
 			"platforms": 3
 		},
 		{
-			"group": 1,
-			"name": "Neustadt (Weinstr) Hbf",
-			"ril100": "RN",
-			"x": 215,
-			"y": 395,
-			"platformLength": 400,
-			"platforms": 6
+			"group": 0,
+			"name": "Saarbrücken Hbf",
+			"ril100": "SSH",
+			"x": 69,
+			"y": 418,
+			"platformLength": 550,
+			"platforms": 10
+		},
+		{
+			"group": 5,
+			"name": "Saarbrücken-Burbach",
+			"ril100": "SSB",
+			"x": 64,
+			"y": 418,
+			"platformLength": 140,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Saarbrücken-Burbach Mitte",
+			"ril100": "SSHI",
+			"x": 62,
+			"y": 418,
+			"platformLength": 140,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Luisenthal (Saar)",
+			"ril100": "SLU",
+			"x": 57,
+			"y": 417,
+			"platformLength": 140,
+			"platforms": 2
 		},
 		{
 			"group": 1,
-			"name": "Kaiserslautern Hbf",
-			"ril100": "SKL",
-			"x": 180,
-			"y": 380,
-			"platformLength": 540,
-			"platforms": 13
+			"name": "Völklingen",
+			"ril100": "SVL",
+			"x": 49,
+			"y": 417,
+			"platformLength": 191,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Bous (Saar)",
+			"ril100": "SBO",
+			"x": 42,
+			"y": 413,
+			"platformLength": 140,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Ensdorf (Saar)",
+			"ril100": "SEN",
+			"x": 39,
+			"y": 408,
+			"platformLength": 174,
+			"platforms": 2
 		},
 		{
 			"group": 1,
-			"name": "Homburg (Saar) Hbf",
-			"ril100": "SHO",
-			"x": 115,
-			"y": 395,
-			"platformLength": 400,
-			"platforms": 7
+			"name": "Saarlouis Hbf",
+			"ril100": "SSLS",
+			"x": 36,
+			"y": 404,
+			"platformLength": 300,
+			"platforms": 3
+		},
+		{
+			"group": 2,
+			"name": "Dillingen (Saar)",
+			"ril100": "SDL",
+			"x": 32,
+			"y": 400,
+			"platformLength": 170,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Beckingen (Saar)",
+			"ril100": "SBE",
+			"x": 28,
+			"y": 394,
+			"platformLength": 140,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Fremersdorf",
+			"ril100": "SFF",
+			"x": 22,
+			"y": 390,
+			"platformLength": 150,
+			"platforms": 2
+		},
+		{
+			"group": 1,
+			"name": "Merzig (Saar)",
+			"ril100": "SMZG",
+			"x": 20,
+			"y": 386,
+			"platformLength": 300,
+			"platforms": 3
+		},
+		{
+			"group": 2,
+			"name": "Mettlach",
+			"ril100": "SMT",
+			"x": 15,
+			"y": 376,
+			"platformLength": 170,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Saarhölzbach",
+			"ril100": "SSLB",
+			"x": 16,
+			"y": 373,
+			"platformLength": 150,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Taben",
+			"ril100": "STB",
+			"x": 16,
+			"y": 367,
+			"platformLength": 140,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Serrig",
+			"ril100": "SSER",
+			"x": 11,
+			"y": 363,
+			"platformLength": 160,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Saarburg (Bezirk Trier)",
+			"ril100": "SSAB",
+			"x": 10,
+			"y": 358,
+			"platformLength": 232,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Schoden-Ockfen",
+			"ril100": "SSOF",
+			"x": 13,
+			"y": 353,
+			"platformLength": 170,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Wiltingen (Saar)",
+			"ril100": "SWIG",
+			"x": 14,
+			"y": 348,
+			"platformLength": 150,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Kanzem",
+			"ril100": "SKAZ",
+			"x": 12,
+			"y": 347,
+			"platformLength": 140,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Konz",
+			"ril100": "SKZ",
+			"x": 12,
+			"y": 343,
+			"platformLength": 190,
+			"platforms": 2
+		},
+		{
+			"group": 0,
+			"name": "Trier Hbf",
+			"ril100": "STR",
+			"x": 23,
+			"y": 333,
+			"platformLength": 437,
+			"platforms": 5
+		},
+		{
+			"group": 0,
+			"name": "Saarbrücken Hbf",
+			"ril100": "SSH",
+			"x": 69,
+			"y": 418,
+			"platformLength": 550,
+			"platforms": 10
+		},
+		{
+			"group": 5,
+			"name": "Schafbrücke",
+			"ril100": "SSU",
+			"x": 76,
+			"y": 421,
+			"platformLength": 145,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Scheidt (Saar)",
+			"ril100": "SSD",
+			"x": 78,
+			"y": 418,
+			"platformLength": 160,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Rentrisch",
+			"ril100": "SRE",
+			"x": 81,
+			"y": 415,
+			"platformLength": 140,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Sankt Ingbert",
+			"ril100": "SSI",
+			"x": 85,
+			"y": 413,
+			"platformLength": 190,
+			"platforms": 3
 		},
 		{
 			"group": 2,
 			"name": "Rohrbach (Saar)",
 			"ril100": "SRO",
-			"x": 95,
-			"y": 400,
-			"platformLength": 180,
+			"x": 91,
+			"y": 413,
+			"platformLength": 140,
 			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Kirkel",
+			"ril100": "SKI",
+			"x": 101,
+			"y": 411,
+			"platformLength": 170,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Limbach (bei Homburg/Saar)",
+			"ril100": "SLB",
+			"x": 108,
+			"y": 407,
+			"platformLength": 170,
+			"platforms": 2
+		},
+		{
+			"group": 1,
+			"name": "Homburg (Saar) Hbf",
+			"ril100": "SHO",
+			"x": 116,
+			"y": 404,
+			"platformLength": 400,
+			"platforms": 7
+		},
+		{
+			"group": 5,
+			"name": "Bruchmühlbach-Miesau",
+			"ril100": "SBUM",
+			"x": 130,
+			"y": 395,
+			"platformLength": 170,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Hauptstuhl",
+			"ril100": "SHPT",
+			"x": 136,
+			"y": 392,
+			"platformLength": 170,
+			"platforms": 2
+		},
+		{
+			"group": 1,
+			"name": "Landstuhl",
+			"ril100": "SLD",
+			"x": 147,
+			"y": 389,
+			"platformLength": 229,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Kindsbach",
+			"ril100": "SKIB",
+			"x": 153,
+			"y": 389,
+			"platformLength": 180,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Einsiedlerhof",
+			"ril100": "SEF",
+			"x": 160,
+			"y": 387,
+			"platformLength": 185,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Vogelweh",
+			"ril100": "SVO",
+			"x": 166,
+			"y": 386,
+			"platformLength": 170,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Kaiserslautern Kennelgarten",
+			"ril100": "SKEN",
+			"x": 169,
+			"y": 385,
+			"platformLength": 170,
+			"platforms": 2
+		},
+		{
+			"group": 0,
+			"name": "Kaiserslautern Hbf",
+			"ril100": "SKL",
+			"x": 174,
+			"y": 386,
+			"platformLength": 512,
+			"platforms": 13
+		},
+		{
+			"group": 0,
+			"name": "Kaiserslautern Hbf",
+			"ril100": "SKL",
+			"x": 174,
+			"y": 386,
+			"platformLength": 512,
+			"platforms": 13
+		},
+		{
+			"group": 2,
+			"name": "Hochspeyer",
+			"ril100": "SHY",
+			"x": 193,
+			"y": 385,
+			"platformLength": 220,
+			"platforms": 4
+		},
+		{
+			"group": 5,
+			"name": "Frankenstein (Pfalz)",
+			"ril100": "RFST",
+			"x": 202,
+			"y": 386,
+			"platformLength": 210,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Weidenthal",
+			"ril100": "RWD",
+			"x": 205,
+			"y": 389,
+			"platformLength": 210,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Neidenfels Hp",
+			"ril100": "RNFL",
+			"x": 212,
+			"y": 394,
+			"platformLength": 210,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Lambrecht (Pfalz)",
+			"ril100": "RLBP",
+			"x": 216,
+			"y": 397,
+			"platformLength": 210,
+			"platforms": 3
+		},
+		{
+			"group": 1,
+			"name": "Neustadt (Weinstraße) Hbf",
+			"ril100": "RN",
+			"x": 225,
+			"y": 400,
+			"platformLength": 388,
+			"platforms": 6
+		},
+		{
+			"group": 2,
+			"name": "Haßloch (Pfalz)",
+			"ril100": "RHLO",
+			"x": 240,
+			"y": 397,
+			"platformLength": 210,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Böhl-Iggelheim",
+			"ril100": "RBOE",
+			"x": 247,
+			"y": 395,
+			"platformLength": 210,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Schifferstadt",
+			"ril100": "RSD",
+			"x": 255,
+			"y": 393,
+			"platformLength": 225,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Limburgerhof",
+			"ril100": "RLI",
+			"x": 259,
+			"y": 388,
+			"platformLength": 210,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Ludwigshafen-Rheingönheim",
+			"ril100": "RLUR",
+			"x": 261,
+			"y": 384,
+			"platformLength": 210,
+			"platforms": 2
+		},
+		{
+			"group": 0,
+			"name": "Mannheim Hbf",
+			"ril100": "RM",
+			"x": 269,
+			"y": 379,
+			"platformLength": 472,
+			"platforms": 11
 		},
 		{
 			"group": 2,
@@ -380,33 +785,6 @@
 			"y": 385,
 			"platformLength": 320,
 			"platforms": 3
-		},
-		{
-			"group": 2,
-			"name": "Saarlouis Hbf",
-			"ril100": "SSLS",
-			"x": 5,
-			"y": 395,
-			"platformLength": 315,
-			"platforms": 3
-		},
-		{
-			"group": 2,
-			"name": "Merzig (Saar)",
-			"ril100": "SMZG",
-			"x": 0,
-			"y": 380,
-			"platformLength": 320,
-			"platforms": 3
-		},
-		{
-			"group": 2,
-			"name": "Wiltingen (Saar)",
-			"ril100": "SWIG",
-			"x": 0,
-			"y": 355,
-			"platformLength": 245,
-			"platforms": 2
 		},
 		{
 			"group": 2,
@@ -1542,24 +1920,6 @@
 		},
 		{
 			"group": 2,
-			"name": "Völklingen",
-			"ril100": "SVL",
-			"x": 20,
-			"y": 400,
-			"platformLength": 191,
-			"platforms": 3
-		},
-		{
-			"group": 1,
-			"name": "Forbach",
-			"ril100": "XFFB",
-			"x": 20,
-			"y": 420,
-			"platformLength": 300,
-			"platforms": 3
-		},
-		{
-			"group": 2,
 			"name": "Riedstadt-Goddelau",
 			"ril100": "FGE",
 			"x": 275,
@@ -1592,51 +1952,6 @@
 			"x": 140,
 			"y": 345,
 			"platformLength": 210,
-			"platforms": 3
-		},
-		{
-			"group": 2,
-			"name": "Lambrecht (Pfalz)",
-			"ril100": "RLBP",
-			"x": 205,
-			"y": 389,
-			"platformLength": 210,
-			"platforms": 3
-		},
-		{
-			"group": 2,
-			"name": "Hochspeyer",
-			"ril100": "SHY",
-			"x": 195,
-			"y": 380,
-			"platformLength": 220,
-			"platforms": 4
-		},
-		{
-			"group": 2,
-			"name": "Landstuhl",
-			"ril100": "SLD",
-			"x": 160,
-			"y": 385,
-			"platformLength": 240,
-			"platforms": 3
-		},
-		{
-			"group": 2,
-			"name": "Hauptstuhl",
-			"ril100": "SHPT",
-			"x": 145,
-			"y": 390,
-			"platformLength": 170,
-			"platforms": 2
-		},
-		{
-			"group": 2,
-			"name": "St. Ingbert",
-			"ril100": "SSI",
-			"x": 85,
-			"y": 400,
-			"platformLength": 250,
 			"platforms": 3
 		},
 		{
