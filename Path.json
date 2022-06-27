@@ -5170,6 +5170,34 @@
 			]
 		},
 		{
+			"maxSpeed": 120,
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.35,
+			"objects": [
+				{
+					"start": "LM",
+					"end": "LGLB",
+					"length": 9
+				},
+				{
+					"start": "LGLB",
+					"end": "LZI",
+					"length": 11
+				},
+				{
+					"start": "LZI",
+					"end": "LTH",
+					"length": 19
+				},
+				{
+					"start": "LTH",
+					"end": "LS",
+					"length": 19
+				}
+			]
+		},
+		{
 			"name": "Walsumbahn",
 			"maxSpeed": 160,
 			"electrified": true,
