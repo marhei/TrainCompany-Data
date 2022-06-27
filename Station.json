@@ -194,12 +194,156 @@
 		},
 		{
 			"group": 0,
+			"name": "Aschaffenburg Hbf",
+			"ril100": "NAH",
+			"x": 361,
+			"y": 296,
+			"platformLength": 405,
+			"platforms": 8
+		},
+		{
+			"group": 2,
+			"name": "Hösbach",
+			"ril100": "NHOE",
+			"x": 373,
+			"y": 293,
+			"platformLength": 231,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Laufach",
+			"ril100": "NLA",
+			"x": 379,
+			"y": 291,
+			"platformLength": 276,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Heigenbrücken",
+			"ril100": "NHEI",
+			"x": 393,
+			"y": 289,
+			"platformLength": 210,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Wiesthal",
+			"ril100": "NWI",
+			"x": 401,
+			"y": 290,
+			"platformLength": 210,
+			"platforms": 3
+		},
+		{
+			"group": 2,
+			"name": "Partenstein",
+			"ril100": "NPAR",
+			"x": 413,
+			"y": 286,
+			"platformLength": 210,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Lohr Bahnhof",
+			"ril100": "NLO",
+			"x": 420,
+			"y": 292,
+			"platformLength": 210,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Langenprozelten",
+			"ril100": "NLP",
+			"x": 431,
+			"y": 282,
+			"platformLength": 210,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Gemünden (Main)",
+			"ril100": "NGM",
+			"x": 437,
+			"y": 284,
+			"platformLength": 215,
+			"platforms": 8
+		},
+		{
+			"group": 5,
+			"name": "Wernfeld (Hp)",
+			"ril100": "NWFH",
+			"x": 440,
+			"y": 288,
+			"platformLength": 140,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Karlstadt (Main)",
+			"ril100": "NKA",
+			"x": 446,
+			"y": 299,
+			"platformLength": 210,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Himmelstadt",
+			"ril100": "NHIS",
+			"x": 451,
+			"y": 305,
+			"platformLength": 200,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Retzbach-Zellingen",
+			"ril100": "NREZ",
+			"x": 452,
+			"y": 308,
+			"platformLength": 210,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Thüngersheim",
+			"ril100": "NTHM",
+			"x": 456,
+			"y": 313,
+			"platformLength": 251,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Veitshöchheim",
+			"ril100": "NVE",
+			"x": 461,
+			"y": 321,
+			"platformLength": 194,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Würzburg-Zell",
+			"ril100": "NWZ",
+			"x": 462,
+			"y": 325,
+			"platformLength": 140,
+			"platforms": 2
+		},
+		{
+			"group": 0,
 			"name": "Würzburg Hbf",
 			"ril100": "NWH",
 			"x": 469,
 			"y": 325,
-			"platformLength": 445,
-			"platforms": 10
+			"platformLength": 444,
+			"platforms": 11
 		},
 		{
 			"group": 1,
@@ -1073,42 +1217,6 @@
 			"y": 305
 		},
 		{
-			"group": 1,
-			"name": "Aschaffenburg Hbf",
-			"ril100": "NAH",
-			"x": 361,
-			"y": 296,
-			"platformLength": 450,
-			"platforms": 8
-		},
-		{
-			"group": 2,
-			"name": "Laufach",
-			"ril100": "NLA",
-			"x": 379,
-			"y": 291,
-			"platformLength": 276,
-			"platforms": 3
-		},
-		{
-			"group": 2,
-			"name": "Wiesthal",
-			"ril100": "NWI",
-			"x": 401,
-			"y": 290,
-			"platformLength": 210,
-			"platforms": 3
-		},
-		{
-			"group": 2,
-			"name": "Lohr Bahnhof",
-			"ril100": "NLO",
-			"x": 420,
-			"y": 292,
-			"platformLength": 355,
-			"platforms": 3
-		},
-		{
 			"group": 2,
 			"name": "Fürth (Bay) Hbf",
 			"ril100": "NF",
@@ -1253,21 +1361,30 @@
 			"platforms": 11
 		},
 		{
-			"group": 2,
+			"group": 1,
 			"name": "Erlangen",
 			"ril100": "NER",
 			"x": 613,
 			"y": 360,
-			"platformLength": 420,
+			"platformLength": 410,
 			"platforms": 4
 		},
 		{
-			"group": 1,
+			"group": 2,
+			"name": "Forchheim (Oberfranken)",
+			"ril100": "NFO",
+			"x": 623,
+			"y": 339,
+			"platformLength": 210,
+			"platforms": 5
+		},
+		{
+			"group": 0,
 			"name": "Bamberg",
 			"ril100": "NBA",
 			"x": 600,
 			"y": 309,
-			"platformLength": 370,
+			"platformLength": 378,
 			"platforms": 7
 		},
 		{
@@ -1287,15 +1404,6 @@
 			"y": 261,
 			"platformLength": 230,
 			"platforms": 3
-		},
-		{
-			"group": 2,
-			"name": "Gemünden (Main)",
-			"ril100": "NGM",
-			"x": 437,
-			"y": 284,
-			"platformLength": 415,
-			"platforms": 8
 		},
 		{
 			"group": 0,
@@ -2269,10 +2377,19 @@
 		},
 		{
 			"group": 2,
+			"name": "Bad Staffelstein",
+			"ril100": "NSFN",
+			"x": 613,
+			"y": 275,
+			"platformLength": 242,
+			"platforms": 3
+		},
+		{
+			"group": 2,
 			"name": "Lichtenfels",
-			"ril100": "NFL",
-			"x": 620,
-			"y": 285,
+			"ril100": "NLF",
+			"x": 621,
+			"y": 268,
 			"platformLength": 370,
 			"platforms": 6
 		},
@@ -3086,8 +3203,8 @@
 			"group": 2,
 			"name": "Hockenheim",
 			"ril100": "RHK",
-			"x": 266,
-			"y": 405,
+			"x": 279,
+			"y": 406,
 			"platformLength": 336,
 			"platforms": 3
 		},
@@ -4094,7 +4211,7 @@
 			"name": "Karlsruhe Hbf",
 			"ril100": "RK",
 			"x": 260,
-			"y": 459,
+			"y": 460,
 			"platformLength": 431,
 			"platforms": 16
 		},
@@ -4138,8 +4255,8 @@
 			"group": 2,
 			"name": "Germersheim",
 			"ril100": "RGE",
-			"x": 251,
-			"y": 430,
+			"x": 255,
+			"y": 421,
 			"platformLength": 160,
 			"platforms": 4
 		},
@@ -4147,17 +4264,17 @@
 			"group": 1,
 			"name": "Bruchsal",
 			"ril100": "RBR",
-			"x": 288,
-			"y": 450,
-			"platformLength": 411,
-			"platforms": 6
+			"x": 286,
+			"y": 445,
+			"platformLength": 413,
+			"platforms": 8
 		},
 		{
 			"group": 2,
 			"name": "Graben-Neudorf",
 			"ril100": "RGN",
-			"x": 266,
-			"y": 440,
+			"x": 272,
+			"y": 435,
 			"platformLength": 217,
 			"platforms": 5
 		},
@@ -4172,8 +4289,8 @@
 			"group": 5,
 			"name": "Graben-Neudorf Nord",
 			"ril100": "RGNN",
-			"x": 265,
-			"y": 437,
+			"x": 275,
+			"y": 435,
 			"platformLength": 140,
 			"platforms": 1
 		},
@@ -4181,8 +4298,8 @@
 			"group": 2,
 			"name": "Philippsburg (Baden)",
 			"ril100": "RPB",
-			"x": 260,
-			"y": 427,
+			"x": 264,
+			"y": 435,
 			"platformLength": 140,
 			"platforms": 2
 		},
@@ -4190,8 +4307,8 @@
 			"group": 5,
 			"name": "Huttenheim",
 			"ril100": "RHTT",
-			"x": 263,
-			"y": 433,
+			"x": 270,
+			"y": 435,
 			"platformLength": 140,
 			"platforms": 1
 		},
@@ -4199,8 +4316,8 @@
 			"group": 5,
 			"name": "Rheinsheim",
 			"ril100": "RRHH",
-			"x": 255,
-			"y": 429,
+			"x": 262,
+			"y": 430,
 			"platformLength": 140,
 			"platforms": 1
 		},
@@ -4208,8 +4325,8 @@
 			"group": 2,
 			"name": "Lingenfeld",
 			"ril100": "RLF",
-			"x": 250,
-			"y": 422,
+			"x": 253,
+			"y": 416,
 			"platformLength": 160,
 			"platforms": 2
 		},
@@ -4217,8 +4334,8 @@
 			"group": 5,
 			"name": "Heiligenstein (Pfalz)",
 			"ril100": "RHN",
-			"x": 253,
-			"y": 412,
+			"x": 259,
+			"y": 411,
 			"platformLength": 160,
 			"platforms": 2
 		},
@@ -4226,8 +4343,8 @@
 			"group": 5,
 			"name": "Berghausen (Pfalz)",
 			"ril100": "RBGP",
-			"x": 255,
-			"y": 410,
+			"x": 261,
+			"y": 409,
 			"platformLength": 160,
 			"platforms": 2
 		},
@@ -4235,8 +4352,8 @@
 			"group": 1,
 			"name": "Speyer Hbf",
 			"ril100": "RSP",
-			"x": 260,
-			"y": 398,
+			"x": 264,
+			"y": 405,
 			"platformLength": 190,
 			"platforms": 3
 		},
@@ -4244,8 +4361,8 @@
 			"group": 5,
 			"name": "Speyer Nord-West",
 			"ril100": "RSPN",
-			"x": 259,
-			"y": 394,
+			"x": 263,
+			"y": 403,
 			"platformLength": 160,
 			"platforms": 2
 		},
@@ -4253,10 +4370,10 @@
 			"group": 5,
 			"name": "Schifferstadt Süd",
 			"ril100": "RSDS",
-			"x": 255,
-			"y": 386,
-			"platformLength": 160,
-			"platforms": 3
+			"x": 257,
+			"y": 396,
+			"platformLength": 187,
+			"platforms": 2
 		},
 		{
 			"group": 5,
@@ -4289,8 +4406,8 @@
 			"group": 5,
 			"name": "Karlsruhe-Hagsfeld",
 			"ril100": "RKHA",
-			"x": 262,
-			"y": 455,
+			"x": 267,
+			"y": 454,
 			"platformLength": 210,
 			"platforms": 2
 		},
@@ -4298,8 +4415,8 @@
 			"group": 2,
 			"name": "Blankenloch",
 			"ril100": "RBAN",
-			"x": 263,
-			"y": 449,
+			"x": 269,
+			"y": 447,
 			"platformLength": 210,
 			"platforms": 3
 		},
@@ -4307,8 +4424,8 @@
 			"group": 5,
 			"name": "Friedrichstal (Baden)",
 			"ril100": "RFTL",
-			"x": 265,
-			"y": 443,
+			"x": 270,
+			"y": 442,
 			"platformLength": 210,
 			"platforms": 2
 		},
@@ -4316,8 +4433,8 @@
 			"group": 5,
 			"name": "Wiesental",
 			"ril100": "RWI",
-			"x": 265,
-			"y": 423,
+			"x": 274,
+			"y": 421,
 			"platformLength": 210,
 			"platforms": 2
 		},
@@ -4325,8 +4442,8 @@
 			"group": 2,
 			"name": "Waghäusel",
 			"ril100": "RWG",
-			"x": 270,
-			"y": 418,
+			"x": 275,
+			"y": 417,
 			"platformLength": 210,
 			"platforms": 2
 		},
@@ -4334,8 +4451,8 @@
 			"group": 5,
 			"name": "Neulußheim",
 			"ril100": "RNL",
-			"x": 270,
-			"y": 411,
+			"x": 278,
+			"y": 410,
 			"platformLength": 253,
 			"platforms": 2
 		},
@@ -4343,8 +4460,8 @@
 			"group": 5,
 			"name": "Oftersheim",
 			"ril100": "ROFH",
-			"x": 274,
-			"y": 398,
+			"x": 284,
+			"y": 396,
 			"platformLength": 252 ,
 			"platforms": 3
 		},
@@ -4352,8 +4469,8 @@
 			"group": 2,
 			"name": "Schwetzingen",
 			"ril100": "RSZ",
-			"x": 275,
-			"y": 393,
+			"x": 284,
+			"y": 395,
 			"platformLength": 215 ,
 			"platforms": 3
 		},
@@ -4361,8 +4478,8 @@
 			"group": 2,
 			"name": "Mannheim-Rheinau",
 			"ril100": "RMA",
-			"x": 274,
-			"y": 384,
+			"x": 278,
+			"y": 388,
 			"platformLength": 228,
 			"platforms": 2
 		},
@@ -4370,8 +4487,8 @@
 			"group": 5,
 			"name": "Mannheim-Neckarau",
 			"ril100": "RMN",
-			"x": 271,
-			"y": 380,
+			"x": 273,
+			"y": 383,
 			"platformLength": 210,
 			"platforms": 2
 		},

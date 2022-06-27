@@ -1172,41 +1172,114 @@
 		},
 		{
 			"name": "Main-Spessart-Bahn",
-			"twistingFactor": 0.4,
 			"maxSpeed": 160,
 			"objects": [
 				{
-					"start": "FH",
-					"end": "NAH",
-					"twistingFactor": 0.35,
-					"length": 23
+					"start": "NAH",
+					"end": "NHOE",
+					"length": 6,
+					"twistingFactor": 0.2
 				},
 				{
-					"start": "NAH",
+					"start": "NHOE",
 					"end": "NLA",
-					"length": 11
+					"length": 3,
+					"twistingFactor": 0.1,
+					"maxSpeed": 120
 				},
 				{
 					"start": "NLA",
-					"end": "NWI",
-					"length": 13,
+					"end": "NHEI",
+					"length": 7,
+					"twistingFactor": 0.3,
 					"maxSpeed": 150
 				},
 				{
+					"start": "NHEI",
+					"end": "NWI",
+					"length": 4,
+					"twistingFactor": 0.2,
+					"maxSpeed": 130
+				},
+				{
 					"start": "NWI",
+					"end": "NPAR",
+					"length": 7,
+					"twistingFactor": 0.3,
+					"maxSpeed": 130
+				},
+				{
+					"start": "NPAR",
 					"end": "NLO",
-					"length": 14,
+					"length": 6,
+					"twistingFactor": 0.3,
 					"maxSpeed": 120
 				},
 				{
 					"start": "NLO",
+					"end": "NLP",
+					"length": 10,
+					"twistingFactor": 0.3,
+					"maxSpeed": 150
+				},
+				{
+					"start": "NLP",
 					"end": "NGM",
-					"length": 14
+					"length": 3,
+					"twistingFactor": 0.1,
+					"maxSpeed": 110
 				},
 				{
 					"start": "NGM",
+					"end": "NWFH",
+					"length": 3,
+					"twistingFactor": 0,
+					"maxSpeed": 100
+				},
+				{
+					"start": "NWFH",
+					"end": "NKA",
+					"length": 9,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "NKA",
+					"end": "NHIS",
+					"length": 5,
+					"twistingFactor": 0
+				},
+				{
+					"start": "NHIS",
+					"end": "NREZ",
+					"length": 2,
+					"twistingFactor": 0
+				},
+				{
+					"start": "NREZ",
+					"end": "NTHM",
+					"length": 3,
+					"twistingFactor": 0
+				},
+				{
+					"start": "NTHM",
+					"end": "NVE",
+					"length": 6,
+					"twistingFactor": 0.2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "NVE",
+					"end": "NWZ",
+					"length": 3,
+					"twistingFactor": 0,
+					"maxSpeed": 130
+				},
+				{
+					"start": "NWZ",
 					"end": "NWH",
-					"length": 38
+					"length": 3,
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
 				}
 			]
 		},
@@ -1228,8 +1301,17 @@
 				},
 				{
 					"start": "NER",
+					"end": "NFO",
+					"electrified": true,
+					"length": 14,
+					"twistingFactor": 0
+				},
+				{
+					"start": "NFO",
 					"end": "NBA",
-					"length": 42
+					"electrified": true,
+					"length": 24,
+					"twistingFactor": 0
 				}
 			]
 		},
@@ -3252,15 +3334,22 @@
 				},
 				{
 					"start": "NHM",
-					"end": "NFL",
+					"end": "NLF",
 					"maxSpeed": 150,
 					"length": 9
 				},
 				{
-					"start": "NFL",
+					"start": "NLF",
+					"end": "NSFN",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0
+				},
+				{
+					"start": "NSFN",
 					"end": "NED",
 					"maxSpeed": 160,
-					"length": 15
+					"length": 5
 				}
 			]
 		},
@@ -3900,7 +3989,7 @@
 				{
 					"start": "WK",
 					"end": "WBL",
-					"electrified": false,
+					"electrified": true,
 					"length": 17,
 					"maxSpeed": 160,
 					"twistingFactor": 0.22
@@ -3908,7 +3997,7 @@
 				{
 					"start": "WBL",
 					"end": "WB",
-					"electrified": false,
+					"electrified": true,
 					"length": 23,
 					"maxSpeed": 160,
 					"twistingFactor": 0.2
