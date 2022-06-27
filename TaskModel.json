@@ -109,29 +109,6 @@
 		},
 		{
 			"group": 0,
-			"name": "ICE-Überführung von %s nach %s",
-			"plops": 250000,
-			"objects":
-			[
-				{
-					"descriptions": [
-						"Bringe den ICE zur Hauptuntersuchung von %s nach %s."
-					],
-					"stations": ["KKRO", "KK", "FF"]
-				},
-				{
-					"descriptions": [
-						"Überführe für Siemens einen neuen ICE der BR 408 von %s nach %s."
-					],
-					"stations": ["KWEK", "KKRO", "KK", "FF"]
-				}
-			],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 0,
 			"name": "Eröffnungs-ICE nach %2$s",
 			"descriptions": [
 				"Zur Eröffnung der VDE8 wird ein ICE von %s nach %s gefahren.",
