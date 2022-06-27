@@ -81,6 +81,7 @@ Bahnhöfe
 	* **2** kleiner Bahnhof
 	* **3** Betriebsbahnhof
 	* **4** Abzweigstelle
+	* **5** Haltepunkt (Wird nicht auf der Karte gerendert)
 * **x** *(int)* x-Position auf Karte
 * **y** *(int)* y-Position auf Karte
 * **platformLength** *(int)* maximale Bahnsteiglänge (optional, Standard = 0)
