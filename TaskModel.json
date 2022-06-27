@@ -93,7 +93,19 @@
 				{"name": "passengers", "value": 0}
 			]
 		},
-
+		{
+			"group": 1,
+			"name": "ICE von %s nach %s",
+			"descriptions": [
+				"Dieser ICE stellt eine Nord-Süd-Verbindung sicher.",
+				"Bring die Fahrgäste SFS von %s nach %s."
+			],
+			"plops": 472000,
+			"stations": ["RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
 		{
 			"group": 1,
 			"name": "Alleo-ICE von %s nach %s",
@@ -191,6 +203,38 @@
 				{"stations": ["HH", "HNBG", "HV", "HB", "HHUD", "HOLD", "HLEE", "HE", "HNN", "HNDM"]},
 				{"stations": ["HNDM", "HNN", "HE", "HLEE", "HPAP", "HMEP", "HLIG", "HR", "EMST", "EDG", "KD", "KK", "KB"]}
 			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Urlaubs-Express von %s nach %s",
+			"descriptions": [
+				"Bringe die Urlauber sicher nach Hause",
+				"Bringe die Fahrgäste in den Urlaub."
+			],
+			"plops": 450000,
+			"objects":
+			[
+				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "NWH", "NN"]},
+				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM"]},
+				{"stations": ["KD", "KK", "FF", "NWH", "NN"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0},
+				{"name": "cars", "value": 60}
+			]
+		},
+		{
+			"group": 1,
+			"name": "NightJet von %s nach %s",
+			"descriptions": [
+				"Bringe die Urlauber sicher nach Hause",
+				"Bringe die Fahrgäste in den Urlaub."
+			],
+			"plops": 450000,
+			"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -843,11 +887,11 @@
 			"group": 1,
 			"name": "Regionalexpress %s nach %s",
 			"descriptions": [
-				"Bringe den RE4 von %s nach %s. Der Zug ist nur stark ausgelastet.",
-				"Der RE4 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
+				"Bringe den RE 4 von %s nach %s. Der Zug ist nur stark ausgelastet.",
+				"Der RE 4 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
 			],
 			"plops": 380000,
-			"stations": ["FF", "FMZ", "FWOR", "RFT", "RM", "RSD", "RGE", "RK"],
+			"stations": ["FF", "FMZ", "FWOR", "RFT", "RM", "RSD", "RGE", "RGN", "RK"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -856,8 +900,8 @@
 			"group": 1,
 			"name": "Regionalexpress von %s nach %s",
 			"descriptions": [
-				"Bringe den RE6 von %s nach %s. Der Zug ist nur stark ausgelastet.",
-				"Der RE4 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
+				"Bringe den RE 6 von %s nach %s. Der Zug ist nur stark ausgelastet.",
+				"Der RE 6 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
 			],
 			"plops": 380000,
 			"stations": ["SKL", "RN", "RLA", "RWND", "RWRT", "RK"],
@@ -897,6 +941,30 @@
 			],
 			"plops": 300000,
 			"stations": ["RK", "RBR", "RH"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Pendler-S-Bahn von %s nach %s",
+			"descriptions": [
+				"Bringe die S9 von %s nach %s. Der Zug ist stark ausgelastet."
+			],
+			"plops": 360000,
+			"stations": ["RK", "RKHA", "RBAN", "RFTL", "RGN", "RWI", "RWG", "RNL", "RHK", "ROFH", "RSZ", "RMA", "RMN", "RM"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "S33 von %s nach %s",
+			"descriptions": [
+				"Bringe die S33 von %s nach %s."
+			],
+			"plops": 240000,
+			"stations": ["RGE", "RRHH", "RPB", "RHTT", "RGNN", "RGN", "RKF", "RBMT", "RBRP", "RBR"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -1126,125 +1194,6 @@
 				{"name": "castor", "value": 10}
 			],
 			"neededCapacityDifference": 3
-		},
-		{
-			"group": 0,
-			"name": "Urlaubs-Express von %s nach %s",
-			"descriptions": [
-				"Bringe die Urlauber sicher nach Hause",
-				"Bringe die Fahrgäste in den Urlaub."
-			],
-			"plops": 450000,
-			"objects":
-			[
-				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "NWH", "NN"]},
-				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM"]},
-				{"stations": ["KD", "KK", "FF", "NWH", "NN"]}
-			],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0},
-				{"name": "cars", "value": 60}
-			]
-		},
-		{
-			"group": 1,
-			"name": "NightJet von %s nach %s",
-			"descriptions": [
-				"Bringe die Urlauber sicher nach Hause",
-				"Bringe die Fahrgäste in den Urlaub."
-			],
-			"plops": 450000,
-			"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 1,
-			"name": "Regionalexpress %s nach %s",
-			"descriptions": [
-				"Bringe den RE4 von %s nach %s. Der Zug ist nur stark ausgelastet.",
-				"Der RE4 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
-			],
-			"plops": 380000,
-			"stations": ["FF", "FMZ", "FWOR", "RFT", "RM", "RSD", "RSP", "RGE", "RN", "RK"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 1,
-			"name": "Regionalexpress von %s nach %s",
-			"descriptions": [
-				"Bringe den RE6 von %s nach %s. Der Zug ist nur stark ausgelastet.",
-				"Der RE4 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
-			],
-			"plops": 380000,
-			"stations": ["SKL", "RN", "RLA", "RWRT", "RK"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 1,
-			"name": "Grenzüberschreitende Regionalbahn von %s nach %s",
-			"descriptions": [
-				"Bringe die RB53 von %s nach %s."
-			],
-			"plops": 250000,
-			"stations": ["RN", "RLA", "XFWBG"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 0,
-			"name": "S-Bahn Eilzug Verstärkerfahrt %s - %s",
-			"descriptions": [
-				"Bringe den Verstärkerzug für die S-Bahn von %s nach %s."
-			],
-			"plops": 300000,
-			"stations": ["RK", "RBR", "RH"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 1,
-			"name": "ICE von %s nach %s",
-			"descriptions": [
-				"Dieser ICE stellt eine Nord-Süd-Verbindung sicher.",
-				"Bring die Fahrgäste SFS von %s nach %s."
-			],
-			"plops": 472000,
-			"stations": ["RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 1,
-			"name": "Pendler S-Bahn von %s nach %s",
-			"descriptions": [
-				"Bringe die S9 von %s nach %s. Der Zug ist nur stark ausgelastet."
-			],
-			"plops": 360000,
-			"stations": ["RK", "RKHA", "RBAN", "RFTL", "RGN", "RWI", "RWG", "RNL", "RHK", "ROFH", "RSZ", "RMA", "RMN", "RM"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 1,
-			"name": "S33 von %s nach %s",
-			"descriptions": [
-				"Bringe die S33 von %s nach %s."
-			],
-			"plops": 240000,
-			"stations": ["RGE", "RRHH", "RPB", "RHTT", "RGNN", "RGN", "RKF", "RBMT", "RBRP", "RBR"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
 		}
 	]
 }
