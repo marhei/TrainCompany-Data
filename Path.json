@@ -1705,175 +1705,293 @@
 		{
 			"group": 0,
 			"name": "Frankenbahn",
-			"maxSpeed": 110,
-			"twistingFactor": 0.3,
 			"objects": [
 				{
 					"start": "TS",
 					"end": "TSFE",
-					"length": 3
+					"length": 3,
+					"twistingFactor": 0.3,
+					"maxSpeed": 100
 				},
 				{
 					"start": "TSFE",
 					"end": "TSZ",
-					"length": 3
+					"length": 3,
+					"twistingFactor": 0.2,
+					"maxSpeed": 120
 				},
 				{
 					"start": "TSZ",
 					"end": "TKH",
-					"length": 4
+					"length": 4,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
 				},
 				{
 					"start": "TKH",
-					"end": "TKAH",
-					"length": 1
-				},
-				{
-					"start": "TKAH",
 					"end": "TLU",
-					"length": 2
+					"length": 3,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
 				},
 				{
 					"start": "TLU",
 					"end": "TAX",
-					"length": 4
+					"length": 4,
+					"twistingFactor": 0.2,
+					"maxSpeed": 120
 				},
 				{
 					"start": "TAX",
 					"end": "TTM",
-					"length": 2
+					"length": 2,
+					"twistingFactor": 0.2,
+					"maxSpeed": 120
 				},
 				{
 					"start": "TTM",
 					"end": "TBM",
-					"length": 4
+					"length": 4,
+					"twistingFactor": 0.3,
+					"maxSpeed": 100
 				},
 				{
 					"start": "TBM",
 					"end": "TBE",
-					"length": 6
+					"length": 6,
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
 				},
 				{
 					"start": "TBE",
 					"end": "TWH",
-					"length": 2
+					"length": 2,
+					"twistingFactor": 0.1,
+					"maxSpeed": 100
 				},
 				{
 					"start": "TWH",
 					"end": "TKM",
-					"length": 3
+					"length": 3,
+					"twistingFactor": 0.3,
+					"maxSpeed": 130
 				},
 				{
 					"start": "TKM",
 					"end": "TLN",
-					"length": 6
+					"length": 6,
+					"twistingFactor": 0.2,
+					"maxSpeed": 120
 				},
 				{
 					"start": "TLN",
 					"end": "TNO",
-					"length": 6
+					"length": 6,
+					"twistingFactor": 0.3,
+					"maxSpeed": 130
 				},
 				{
 					"start": "TNO",
 					"end": "TH",
-					"length": 6
+					"length": 6,
+					"twistingFactor": 0.3,
+					"maxSpeed": 130
 				},
 				{
 					"start": "TH",
 					"end": "THST",
-					"length": 1
+					"length": 1,
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
 				},
 				{
 					"start": "THST",
 					"end": "TN",
-					"length": 4
+					"length": 4,
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
 				},
 				{
 					"start": "TN",
 					"end": "TNSN",
-					"length": 2
+					"length": 2,
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
 				},
 				{
 					"start": "TNSN",
-					"end": "TBKA",
-					"length": 2
-				},
-				{
-					"start": "TBKA",
 					"end": "TBK",
-					"length": 1
+					"length": 3,
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
 				},
 				{
 					"start": "TBK",
-					"end": "TBFS",
-					"length": 1
-				},
-				{
-					"start": "TBFS",
 					"end": "TBF",
-					"length": 1
+					"length": 2,
+					"twistingFactor": 0.2,
+					"maxSpeed": 100
 				},
 				{
 					"start": "TBF",
 					"end": "TUG",
-					"length": 5
+					"length": 5,
+					"twistingFactor": 0.1,
+					"maxSpeed": 100
 				},
 				{
 					"start": "TUG",
 					"end": "THZ",
-					"length": 5
+					"length": 5,
+					"twistingFactor": 0.1,
+					"maxSpeed": 100
 				},
 				{
 					"start": "THZ",
 					"end": "TND",
-					"length": 1
+					"length": 1,
+					"twistingFactor": 0.2,
+					"maxSpeed": 80
 				},
 				{
 					"start": "TND",
 					"end": "TSY",
-					"length": 4
+					"length": 4,
+					"twistingFactor": 0.3,
+					"maxSpeed": 199
 				},
 				{
 					"start": "TSY",
 					"end": "TZU",
-					"length": 2
+					"length": 2,
+					"twistingFactor": 0.2,
+					"maxSpeed": 80
 				},
 				{
 					"start": "TZU",
 					"end": "TML",
-					"length": 5
+					"length": 5,
+					"twistingFactor": 0.1,
+					"maxSpeed": 100
 				},
 				{
 					"start": "TML",
 					"end": "TRO",
-					"length": 5
+					"length": 5,
+					"twistingFactor": 0.3,
+					"maxSpeed": 100
 				},
 				{
 					"start": "TRO",
 					"end": "TSE",
-					"length": 4
+					"length": 4,
+					"twistingFactor": 0.1,
+					"maxSpeed": 110
 				},
 				{
 					"start": "TSE",
 					"end": "TAD",
-					"length": 3
+					"length": 3,
+					"twistingFactor": 0.1,
+					"maxSpeed": 100
 				},
 				{
 					"start": "TAD",
 					"end": "TO",
-					"length": 4
+					"length": 4,
+					"twistingFactor": 0.2,
+					"maxSpeed": 100
 				},
 				{
 					"start": "TO",
+					"end": "TRBG",
+					"length": 4,
+					"twistingFactor": 0.2,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TRBG",
+					"end": "TEU",
+					"length": 7,
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TEU",
+					"end": "TBOX",
+					"length": 11,
+					"twistingFactor": 0.35,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TBOX",
+					"end": "TKF",
+					"length": 9,
+					"twistingFactor": 0.4,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TKF",
 					"end": "TL",
-					"twistingFactor": 0.24,
-					"length": 36
+					"length": 2,
+					"twistingFactor": 0.1,
+					"maxSpeed": 100
 				},
 				{
 					"start": "TL",
-					"end": "NWH",
+					"end": "TGRS",
+					"length": 6,
+					"twistingFactor": 0.2,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TGRS",
+					"end": "TZI",
+					"length": 3,
+					"twistingFactor": 0.2,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TZI",
+					"end": "TWIT",
+					"length": 5,
+					"twistingFactor": 0.2,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TWIT",
+					"end": "TGRN",
+					"length": 2,
+					"twistingFactor": 0.4,
+					"maxSpeed": 1110
+				},
+				{
+					"start": "TGRN",
+					"end": "TKU",
+					"length": 2,
+					"twistingFactor": 0.2,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TKU",
+					"end": "TGN",
+					"length": 6,
+					"twistingFactor": 0.1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TGN",
+					"end": "TRCB",
+					"length": 6,
 					"twistingFactor": 0.3,
-					"length": 43
+					"maxSpeed": 110
+				},
+				{
+					"start": "TRCB",
+					"end": "NWH",
+					"length": 9,
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
 				}
 			]
 		},
@@ -3723,8 +3841,8 @@
 				},
 				{
 					"start": "TV",
-					"end": "TS",
-					"length": 23
+					"end": "TSZ",
+					"length": 22
 				}
 			]
 		},
