@@ -5065,5 +5065,79 @@
 				}
 			]
 		}
+		{
+			"maxSpeed": 230,
+			"name": "Berlin - Hamburg",
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "BL",
+					"end": "BSPD",
+					"length": 12
+				},
+				{
+					"start": "BSPD",
+					"end": "BFKS",
+					"length": 8
+				},
+				{
+					"start": "BFKS",
+					"end": "BNAU",
+					"length": 15
+				},
+				{
+					"start": "BNAU",
+					"end": "WNS",
+					"length": 40
+				},
+				{
+					"start": "WNS",
+					"end": "WWIL",
+					"length": 37
+				},
+				{
+					"start": "WWIL",
+					"end": "WW",
+					"length": 14
+				},
+				{
+					"start": "WW",
+					"end": "WL",
+					"length": 45
+				},
+				{
+					"start": "WL",
+					"end": "WHL",
+					"length": 21
+				},
+				{
+					"start": "WHL",
+					"end": "WBZ",
+					"length": 33
+				},
+				{
+					"start": "WBZ",
+					"end": "ABCH",
+					"length": 14
+				},
+				{
+					"start": "ABCH",
+					"end": "AMUE",
+					"length": 5
+				},
+				{
+					"start": "AMUE",
+					"end": "ABG",
+					"length": 26
+				},
+				{
+					"start": "ABG",
+					"end": "AH",
+					"length": 16
+				}
+			]
+		}
 	]
 }
