@@ -5134,6 +5134,35 @@
 					"twistingFactor": 0.2
 				}
 			]
+		},
+		{
+			"name": "Walsumbahn",
+			"maxSpeed": 160,
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "EEM",
+					"end": "EWES",
+					"length": 33
+				},
+				{
+					"start": "EWES",
+					"end": "EDIN",
+					"length": 13
+				},
+				{
+					"start": "EDIN",
+					"end": "EOB",
+					"length": 14
+				},
+				{
+					"start": "EOB",
+					"end": "EDG",
+					"length": 8
+				}
+			]
 		}
 	]
 }
