@@ -2721,13 +2721,77 @@
 			"name": "Grenzlandbahn",
 			"group": 1,
 			"electrified": true,
+			"maxSpeed": 160,
 			"objects": [
 				{
 					"start": "KM",
-					"end": "KA",
+					"end": "KWIC",
+					"length": 7,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "KWIC",
+					"end": "KHER",
+					"length": 4,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KHER",
+					"end": "KERZ",
+					"length": 4,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "KERZ",
+					"end": "KBA",
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KBA",
+					"end": "KBRC",
+					"length": 4,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KBRC",
+					"end": "KLD",
+					"length": 2,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "KLD",
+					"end": "KGEK",
+					"length": 7,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KGEK",
+					"end": "KUBP",
+					"length": 4,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KUBP",
+					"end": "KHEZ",
+					"length": 6,
 					"twistingFactor": 0.2,
-					"length": 62,
-					"maxSpeed": 160
+					"maxSpeed": 150
+				},
+				{
+					"start": "KHEZ",
+					"end": "KKOS",
+					"length": 4,
+					"twistingFactor": 0.2,
+					"maxSpeed": 140
+				},
+				{
+					"start": "KKOS",
+					"end": "KA",
+					"length": 9,
+					"twistingFactor": 0.35,
+					"maxSpeed": 130
 				}
 			]
 		},
@@ -2757,27 +2821,33 @@
 			"name": "Eisener Rhein",
 			"group": 1,
 			"electrified": false,
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
 			"objects": [
 				{
 					"start": "KM",
+					"end": "KMR",
+					"length": 11
+				},
+				{
+					"start": "KMR",
+					"end": "KMGE",
+					"length": 2
+				},
+				{
+					"start": "KMGE",
 					"end": "KWEG",
-					"twistingFactor": 0.3,
-					"length": 12,
-					"maxSpeed": 100
+					"length": 3
 				},
 				{
 					"start": "KWEG",
+					"end": "KARS",
+					"length": 5
+				},
+				{
+					"start": "KARS",
 					"end": "KDAL",
-					"twistingFactor": 0.3,
-					"length": 12,
-					"maxSpeed": 100
-				},
-				{
-					"start": "KWEG",
-					"end": "KWEK",
-					"twistingFactor": 0.8,
-					"length": 5,
-					"maxSpeed": 20
+					"length": 2
 				}
 			]
 		},
@@ -5090,6 +5160,35 @@
 					"start": "LTH",
 					"end": "LS",
 					"length": 19
+				}
+			]
+		},
+		{
+			"name": "Walsumbahn",
+			"maxSpeed": 160,
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "EEM",
+					"end": "EWES",
+					"length": 33
+				},
+				{
+					"start": "EWES",
+					"end": "EDIN",
+					"length": 13
+				},
+				{
+					"start": "EDIN",
+					"end": "EOB",
+					"length": 14
+				},
+				{
+					"start": "EOB",
+					"end": "EDG",
+					"length": 8
 				}
 			]
 		}

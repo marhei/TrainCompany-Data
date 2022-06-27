@@ -1227,6 +1227,42 @@
 		},
 		{
 			"group": 1,
+			"name": "Emmerich",
+			"ril100": "EEM",
+			"x": -31,
+			"y": -12,
+			"plattformLength": 406,
+			"platforms": 4
+		},
+		{
+			"group": 1,
+			"name": "Wesel",
+			"ril100": "EWES",
+			"x": 19,
+			"y": 18,
+			"plattformLength": 390,
+			"platforms": 4
+		},
+		{
+			"group": 1,
+			"name": "Dinslaken",
+			"ril100": "EDIN",
+			"x": 34,
+			"y": 33,
+			"plattformLength": 305,
+			"platforms": 2
+		},
+		{
+			"group": 0,
+			"name": "Oberhausen Hbf",
+			"ril100": "EOB",
+			"x": 50,
+			"y": 48,
+			"plattformLength": 400,
+			"platforms": 10
+		},
+		{
+			"group": 1,
 			"name": "Duisburg Hbf",
 			"ril100": "EDG",
 			"x": 39,
@@ -2388,10 +2424,10 @@
 			"group": 1,
 			"name": "Mönchengladbach Hbf",
 			"ril100": "KM",
-			"x": -15,
-			"y": 90,
-			"platformLength": 215,
-			"platforms": 10
+			"x": -4,
+			"y": 94,
+			"platformLength": 345,
+			"platforms": 9
 		},
 		{
 			"group": 2,
@@ -2412,12 +2448,102 @@
 			"platforms": 5
 		},
 		{
+			"group": 5,
+			"name": "Wickrath",
+			"ril100": "KWIC",
+			"x": -9,
+			"y": 105,
+			"platformLength": 215,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Herrath",
+			"ril100": "KHER",
+			"x": -15,
+			"y": 109,
+			"platformLength": 163,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Erkelenz",
+			"ril100": "KERZ",
+			"x": -21,
+			"y": 114,
+			"platformLength": 215,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Baal",
+			"ril100": "KBA",
+			"x": -28,
+			"y": 121,
+			"platformLength": 215,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Brachelen",
+			"ril100": "KBRC",
+			"x": -34,
+			"y": 125,
+			"platformLength": 215,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Lindern",
+			"ril100": "KLD",
+			"x": -37,
+			"y": 127,
+			"platformLength": 235,
+			"platforms": 3
+		},
+		{
+			"group": 2,
+			"name": "Geilenkirchen",
+			"ril100": "KGEK",
+			"x": -48,
+			"y": 133,
+			"platformLength": 231,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Übach-Palenberg",
+			"ril100": "KUBP",
+			"x": -52,
+			"y": 139,
+			"platformLength": 215,
+			"platforms": 2
+		},
+		{
+			"group": 1,
+			"name": "Herzogenrath",
+			"ril100": "KHEZ",
+			"x": -52,
+			"y": 148,
+			"platformLength": 215,
+			"platforms": 4
+		},
+		{
+			"group": 5,
+			"name": "Kohlscheid",
+			"ril100": "KKOS",
+			"x": -55,
+			"y": 155,
+			"platformLength": 145,
+			"platforms": 2
+		},
+		{
 			"group": 1,
 			"name": "Aachen Hbf",
 			"ril100": "KA",
-			"x": -40,
-			"y": 150,
-			"platformLength": 215,
+			"x": -53,
+			"y": 165,
+			"platformLength": 446,
 			"platforms": 7
 		},
 		{
@@ -2430,29 +2556,49 @@
 			"platforms": 5
 		},
 		{
-			"group": 2,
-			"name": "Dalheim",
-			"ril100": "KDAL",
-			"x": -45,
-			"y": 100,
-			"platformLength": 120,
+			"group": 5,
+			"name": "Mönchengladbach-Rheindahlen",
+			"ril100": "KMR",
+			"x": -16,
+			"y": 102,
+			"platformLength": 45,
 			"platforms": 1
+		},
+		{
+			"group": 5,
+			"name": "Mönchengladbach-Genhausen",
+			"ril100": "KMGE",
+			"x": -20,
+			"y": 102,
+			"platformLength": 60,
+			"platforms": 2
 		},
 		{
 			"group": 2,
 			"name": "Wegberg",
 			"ril100": "KWEG",
-			"x": -35,
-			"y": 100,
-			"platformLength": 120,
+			"x": -27,
+			"y": 103,
+			"platformLength": 58,
 			"platforms": 1
 		},
 		{
-			"group": 3,
-			"name": "Siemens Prüfcenter Wegberg-Wildenrath",
-			"ril100": "KWEK",
-			"x": -35,
-			"y": 110
+			"group": 5,
+			"name": "Arsbeck",
+			"ril100": "KARS",
+			"x": -37,
+			"y": 101,
+			"platformLength": 56,
+			"platforms": 1
+		},
+		{
+			"group": 2,
+			"name": "Dalheim",
+			"ril100": "KDAL",
+			"x": -41,
+			"y": 102,
+			"platformLength": 45,
+			"platforms": 1
 		},
 		{
 			"group": 3,
