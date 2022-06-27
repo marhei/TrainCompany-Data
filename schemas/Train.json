@@ -198,8 +198,15 @@
 					"oneOf": [
 						{"const": 0, "description": "Keine Traktion"},
 						{"const": 1, "description": "E-Traktion"},
-						{"const": 2, "description": "Diesel-Traktion"}
+						{"const": 2, "description": "Diesel-Traktion"},
+						{"const": 3, "description": "Batterie"}
 					]
+				},
+				"range": {
+					"description": "Reichweite im Batterie-Betrieb",
+					"type": "integer",
+					"minimum": 0,
+					"default": 0
 				},
 				"reliability": {
 					"description": "Zuverlässigkeit in Prozent",

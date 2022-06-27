@@ -20,6 +20,7 @@ Fahrzeuge, die in TC zur Verfügung stehen
 	* **0** Keine Traktion
 	* **1** E-Traktion
 	* **2** Diesel-Traktion
+	* **3** Batterie
 * **reliability** *(float)* Zuverlässigkeit in Prozent (0.0-1.0)
 * **cost** *(int)* Kosten in Plops
 * **maxConnectedUnits** *(int)* Maximale Anzahl der kuppelbaren Einheiten (bei Triebzügen, Nicht gesetzt = Unbegrenzt)
@@ -28,6 +29,7 @@ Fahrzeuge, die in TC zur Verfügung stehen
 * **exchangeTime** *(int)* Aufenthaltsdauer bei Planhalten in Sekunden (Optional, Standard = 40)
 * **compatibleWith** *(array)* Für Triebzüge und Wagenverbände: Lässt sich zusätzlich mit den angegeben Fz kuppeln
 * **equivalentTo** *(int)* Nur für fixe Wagenverbände: Entspricht wie vielen Wagen?
+* **range** *(int)* Reichweite im Batteriebetrieb in km
 * **capacity** *(array)* Art der Beladung und Menge (optional, siehe Capacity.json)
 
 ## Capacity.json
