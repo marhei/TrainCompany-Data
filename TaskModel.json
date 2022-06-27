@@ -922,18 +922,6 @@
 			]
 		},
 		{
-			"group": 1,
-			"name": "IRE von %s nach %s",
-			"descriptions": [
-				"Verbinde Spree und Elbe miteinander von %s nach %s."
-			],
-			"plops": 300000,
-			"stations": ["BHF", "BL", "BSPD", "LS", "LSW", "HU", "AH"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
 			"group": 0,
 			"name": "S-Bahn-Verstärkerfahrt von %s nach %s",
 			"descriptions": [
@@ -965,6 +953,18 @@
 			],
 			"plops": 240000,
 			"stations": ["RGE", "RRHH", "RPB", "RHTT", "RGNN", "RGN", "RKF", "RBMT", "RBRP", "RBR"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "IRE von %s nach %s",
+			"descriptions": [
+				"Verbinde Spree und Elbe miteinander von %s nach %s."
+			],
+			"plops": 300000,
+			"stations": ["BHF", "BL", "BSPD", "LS", "LSW", "HU", "AH"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
