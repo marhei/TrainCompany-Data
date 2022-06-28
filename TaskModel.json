@@ -652,6 +652,41 @@
 		},
 		{
 			"group": 1,
+			"name": "RE von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress durch Mecklenburg-Vorpommern von %s nach %s.",
+				"Bring die Fahrgäste sicher und pünktlich nach %2$s."
+			],
+			"plops": 300000,
+			"objects": [
+				{
+					"name": "Hanse-Express von %s nach %s",
+					"stations": ["AH", "AMUE", "ABCH", "WBZ", "WBRH", "WHL", "WS", "WK", "WBL", "WB", "WSN", "WR"]
+				},
+				{
+					"name": "RE3 von %s nach %s",
+					"stations": ["WSR", "WMI", "WGW", "WGWS", "WGWK", "WZS", "WAK", "WDU", "WFDF", "WP", "WNL", "WPL", "WWAN", "WWLD", "WA", "WBR", "WE", "BBRN", "BGS", "BL"],
+					"descriptions": [
+						"Bringe den Langläufer quer durch drei Bundesländer."
+					],
+					"plops": 400000
+				},
+				{
+					"name": "RE7 von %s nach %s",
+					"stations": ["WSR", "WMI", "WGW"],
+					"plops": 160000
+				},
+				{
+					"name": "RE9 von %s nach %s",
+					"stations": ["WR", "WRV", "WRI", "WBUH", "WV", "WSRB", "WST", "WSRR", "WBG", "WBI"]
+				}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB89 von %s nach %s",
 			"descriptions": [
 				"Bring die Ems-Börde-Bahn pünktlich von %s nach %s."

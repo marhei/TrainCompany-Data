@@ -6783,6 +6783,311 @@
 					"length": 8
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 120,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "WSR",
+					"end": "WMI",
+					"length": 14
+				},
+				{
+					"start": "WMI",
+					"end": "WGW",
+					"length": 16
+				},
+				{
+					"start": "WGW",
+					"end": "WGWS",
+					"length": 2
+				},
+				{
+					"start": "WGWS",
+					"end": "WGKW",
+					"length": 8
+				},
+				{
+					"start": "WGKW",
+					"end": "WZS",
+					"length": 6
+				},
+				{
+					"start": "WZS",
+					"end": "WAK",
+					"length": 16
+				},
+				{
+					"start": "WAK",
+					"end": "WDU",
+					"length": 12
+				},
+				{
+					"start": "WDU",
+					"end": "WFDF",
+					"length": 12
+				},
+				{
+					"start": "WFDF",
+					"end": "WP",
+					"length": 18
+				},
+				{
+					"start": "WP",
+					"end": "WNL",
+					"length": 10
+				},
+				{
+					"start": "WNL",
+					"end": "WPL",
+					"length": 13,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "WPL",
+					"end": "WWAN",
+					"length": 16,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "WWAN",
+					"end": "WWLD",
+					"length": 8,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "WWLD",
+					"end": "WA",
+					"length": 13,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"group": 2,
+			"maxSpeed": 120,
+			"twistingFactor": 0.16,
+			"name": "Stettiner Bahn",
+			"objects": [
+				{
+					"start": "BL",
+					"end": "BGS",
+					"electrified": true,
+					"length": 4
+				},
+				{
+					"start": "BGS",
+					"end": "BBRN",
+					"electrified": true,
+					"length": 20
+				},
+				{
+					"start": "BBRN",
+					"end": "WE",
+					"electrified": true,
+					"length": 22
+				},
+				{
+					"start": "WE",
+					"end": "WBR",
+					"electrified": true,
+					"length": 4
+				},
+				{
+					"start": "WBR",
+					"end": "WA",
+					"electrified": true,
+					"length": 21
+				},
+				{
+					"start": "WA",
+					"end": "WPS",
+					"electrified": false,
+					"length": 18,
+					"maxSpeed": 60
+				},
+				{
+					"start": "WPS",
+					"end": "WSCN",
+					"electrified": false,
+					"length": 5,
+					"maxSpeed": 50
+				},
+				{
+					"start": "WSCN",
+					"end": "WCW",
+					"electrified": false,
+					"length": 4
+				},
+				{
+					"start": "WCW",
+					"end": "WPE",
+					"electrified": false,
+					"length": 4
+				},
+				{
+					"start": "WPE",
+					"end": "WTA",
+					"electrified": false,
+					"length": 7
+				},
+				{
+					"start": "WTA",
+					"end": "WXT",
+					"electrified": false,
+					"length": 8,
+					"twistingFactor": 0.26
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"name": "Berliner Nordbahn",
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "BGS",
+					"end": "BOR",
+					"length": 31,
+					"maxSpeed": 160
+				},
+				{
+					"start": "BOR",
+					"end": "WLO",
+					"length": 16,
+					"maxSpeed": 160
+				},
+				{
+					"start": "WLO",
+					"end": "WGRA",
+					"length": 12,
+					"maxSpeed": 160
+				},
+				{
+					"start": "WGRA",
+					"end": "WF",
+					"length": 21,
+					"maxSpeed": 160
+				},
+				{
+					"start": "WF",
+					"end": "WNT",
+					"length": 20,
+					"maxSpeed": 160
+				},
+				{
+					"start": "WNT",
+					"end": "WBLS",
+					"length": 14,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "WBLS",
+					"end": "WBSG",
+					"length": 12,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "WBSG",
+					"end": "WN",
+					"length": 8,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "WN",
+					"end": "WATR",
+					"length": 15
+				},
+				{
+					"start": "WATR",
+					"end": "WSE",
+					"length": 16,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "WSE",
+					"end": "WDM",
+					"length": 10,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "WDM",
+					"end": "WGI",
+					"length": 23,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "WGI",
+					"end": "WWT",
+					"length": 8,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "WWT",
+					"end": "WZAR",
+					"length": 6,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "WZAR",
+					"end": "WSR",
+					"length": 7,
+					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
+			"group": 2,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "WNT",
+					"end": "WKG",
+					"electrified": true,
+					"length": 14
+				},
+				{
+					"start": "WKG",
+					"end": "WWR",
+					"electrified": true,
+					"length": 21
+				},
+				{
+					"start": "WWR",
+					"end": "WLG",
+					"electrified": true,
+					"length": 25
+				},
+				{
+					"start": "WLG",
+					"end": "WG",
+					"electrified": false,
+					"length": 25,
+					"maxSpeed": 120
+				},
+				{
+					"start": "WG",
+					"end": "WSN",
+					"electrified": true,
+					"length": 17,
+					"maxSpeed": 120
+				}
+			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.25,
+			"start": "WG",
+			"end": "WB",
+			"electrified": true,
+			"length": 13
 		}
 	]
 }
