@@ -7809,6 +7809,78 @@
 					"length": 12
 				}
 			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.24,
+			"objects": [
+				{
+					"start": "WW",
+					"end": "WPB",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 100
+				},
+				{
+					"start": "WPB",
+					"end": "WGP",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 100
+				},
+				{
+					"start": "WGP",
+					"end": "WPR",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 100
+				},
+				{
+					"start": "WPR",
+					"end": "WLBT",
+					"electrified": false,
+					"length": 14
+				},
+				{
+					"start": "WLBT",
+					"end": "WDOW",
+					"electrified": false,
+					"length": 11
+				},
+				{
+					"start": "WDOW",
+					"end": "WNED",
+					"electrified": false,
+					"length": 16
+				},
+				{
+					"start": "WNED",
+					"end": "WNRW",
+					"electrified": false,
+					"length": 14,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "WNRW",
+					"end": "WBES",
+					"electrified": false,
+					"length": 22,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "WBES",
+					"end": "BHND",
+					"electrified": false,
+					"length": 23
+				},
+				{
+					"start": "BHND",
+					"end": "BFKS",
+					"electrified": true,
+					"length": 22
+				}
+			]
 		}
 	]
 }
