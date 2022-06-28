@@ -7622,6 +7622,71 @@
 			"end": "WB",
 			"electrified": true,
 			"length": 13
+		},
+		{
+			"electrified": true,
+			"maxSpeed": 80,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "WK",
+					"end": "WMK",
+					"group": 2,
+					"length": 9,
+					"maxSpeed": 100
+				},
+				{
+					"start": "WMK",
+					"end": "WWI",
+					"group": 2,
+					"length": 6,
+					"maxSpeed": 100
+				},
+				{
+					"start": "WWI",
+					"end": "WKAR",
+					"group": 1,
+					"length": 8
+				},
+				{
+					"start": "WKAR",
+					"end": "WHK",
+					"group": 1,
+					"length": 4
+				},
+				{
+					"start": "WHK",
+					"end": "WNB",
+					"group": 1,
+					"length": 9
+				},
+				{
+					"start": "WNB",
+					"end": "WKR",
+					"group": 1,
+					"length": 9,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "WKR",
+					"end": "WDO",
+					"group": 1,
+					"length": 9,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "WDO",
+					"end": "WGS",
+					"group": 1,
+					"length": 9
+				},
+				{
+					"start": "WGS",
+					"end": "WR",
+					"group": 1,
+					"length": 5
+				}
+			]
 		}
 	]
 }
