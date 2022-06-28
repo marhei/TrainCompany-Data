@@ -5,18 +5,63 @@
 			"group": 0,
 			"name": "Köln Hbf",
 			"ril100": "KK",
-			"x": 45,
-			"y": 135,
+			"x": 64,
+			"y": 136,
 			"platformLength": 490,
 			"platforms": 11
 		},
 		{
-			"group": 1,
+			"group": 2,
+			"name": "Hürth-Kalscheuren",
+			"ril100": "KKAS",
+			"x": 58,
+			"y": 147,
+			"platformLength": 222,
+			"platforms": 5
+		},
+		{
+			"group": 5,
+			"name": "Brühl Pbf",
+			"ril100": "KBR",
+			"x": 58,
+			"y": 155,
+			"platformLength": 264,
+			"platforms": 3
+		},
+		{
+			"group": 2,
+			"name": "Sechtem",
+			"ril100": "KSEC",
+			"x": 64,
+			"y": 161,
+			"platformLength": 211,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Roisdorf",
+			"ril100": "KROI",
+			"x": 72,
+			"y": 168,
+			"platformLength": 255,
+			"platforms": 2
+		},
+		{
+			"group": 0,
 			"name": "Bonn Hbf",
 			"ril100": "KB",
-			"x": 80,
-			"y": 180,
+			"x": 75,
+			"y": 171,
 			"platformLength": 440,
+			"platforms": 5
+		},
+		{
+			"group": 2,
+			"name": "Rolandseck",
+			"ril100": "KROL",
+			"x": 100,
+			"y": 200,
+			"platformLength": 263,
 			"platforms": 5
 		},
 		{
@@ -74,15 +119,6 @@
 			"platforms": 3
 		},
 		{
-			"group": 1,
-			"name": "Frankfurt (Main) Flughafen",
-			"ril100": "FFLF",
-			"x": 270,
-			"y": 300,
-			"platformLength": 430,
-			"platforms": 7
-		},
-		{
 			"group": 0,
 			"name": "Frankfurt (Main) Hbf",
 			"ril100": "FF",
@@ -92,42 +128,40 @@
 			"platforms": 29
 		},
 		{
+			"group": 1,
+			"name": "Frankfurt Flughafen Fernbahnhof",
+			"ril100": "FFLF",
+			"x": 283,
+			"y": 284,
+			"platformLength": 430,
+			"platforms": 4
+		},
+		{
 			"group": 2,
-			"name": "Limburg Süd",
+			"name": "Limburg (Lahn) Süd",
 			"ril100": "FLIS",
-			"x": 215,
-			"y": 245,
-			"platformLength": 405,
-			"platforms": 2,
-			"forRandomTasks": false
+			"x": 219,
+			"y": 229,
+			"platformLength": 407,
+			"platforms": 2
 		},
 		{
 			"group": 2,
 			"name": "Montabaur",
 			"ril100": "FMT",
-			"x": 180,
-			"y": 210,
+			"x": 182,
+			"y": 219,
 			"platformLength": 405,
-			"platforms": 3,
-			"forRandomTasks": false
+			"platforms": 3
 		},
 		{
 			"group": 1,
 			"name": "Siegburg/Bonn",
 			"ril100": "KSIB",
-			"x": 120,
-			"y": 160,
-			"platformLength": 420,
+			"x": 97,
+			"y": 161,
+			"platformLength": 421,
 			"platforms": 4
-		},
-		{
-			"group": 1,
-			"name": "Köln Messe/Deutz",
-			"ril100": "KKDZ",
-			"x": 55,
-			"y": 130,
-			"platformLength": 410,
-			"platforms": 10
 		},
 		{
 			"group": 0,
@@ -137,24 +171,6 @@
 			"y": 85,
 			"platformLength": 460,
 			"platforms": 16
-		},
-		{
-			"group": 2,
-			"name": "Groß Gerau-Dornberg",
-			"ril100": "FDG",
-			"x": 275,
-			"y": 315,
-			"platformLength": 220,
-			"platforms": 5
-		},
-		{
-			"group": 2,
-			"name": "Biblis",
-			"ril100": "FBL",
-			"x": 270,
-			"y": 355,
-			"platformLength": 250,
-			"platforms": 5
 		},
 		{
 			"group": 2,
@@ -2686,42 +2702,6 @@
 		},
 		{
 			"group": 2,
-			"name": "Brühl",
-			"ril100": "KBR",
-			"x": 45,
-			"y": 165,
-			"platformLength": 262,
-			"platforms": 3
-		},
-		{
-			"group": 2,
-			"name": "Hürth-Kalscheuren",
-			"ril100": "KKAS",
-			"x": 40,
-			"y": 150,
-			"platformLength": 221,
-			"platforms": 5
-		},
-		{
-			"group": 2,
-			"name": "Rolandseck",
-			"ril100": "KROL",
-			"x": 100,
-			"y": 200,
-			"platformLength": 263,
-			"platforms": 5
-		},
-		{
-			"group": 2,
-			"name": "Troisdorf",
-			"ril100": "KT",
-			"x": 100,
-			"y": 150,
-			"platformLength": 296,
-			"platforms": 5
-		},
-		{
-			"group": 2,
 			"name": "Leverkusen Mitte",
 			"ril100": "KLMI",
 			"x": 50,
@@ -2785,10 +2765,28 @@
 		},
 		{
 			"group": 2,
+			"name": "Troisdorf",
+			"ril100": "KT",
+			"x": 90,
+			"y": 158,
+			"platformLength": 296,
+			"platforms": 5
+		},
+		{
+			"group": 5,
+			"name": "Menden (Rheinland)",
+			"ril100": "KMD",
+			"x": 90,
+			"y": 163,
+			"platformLength": 287,
+			"platforms": 2
+		},
+		{
+			"group": 2,
 			"name": "Bonn-Beuel",
 			"ril100": "KBB",
-			"x": 100,
-			"y": 175,
+			"x": 87,
+			"y": 170,
 			"platformLength": 484,
 			"platforms": 3
 		},
@@ -2964,12 +2962,138 @@
 			"platforms": 3
 		},
 		{
+			"group": 5,
+			"name": "Walldorf (Hessen)",
+			"ril100": "FWF",
+			"x": 285,
+			"y": 292,
+			"platformLength": 223,
+			"platforms": 3
+		},
+		{
+			"group": 2,
+			"name": "Mörfelden",
+			"ril100": "FMF",
+			"x": 282,
+			"y": 296,
+			"platformLength": 210,
+			"platforms": 3
+		},
+		{
+			"group": 2,
+			"name": "Groß-Gerau-Dornberg",
+			"ril100": "FDG",
+			"x": 273,
+			"y": 307,
+			"platformLength": 200,
+			"platforms": 5
+		},
+		{
+			"group": 5,
+			"name": "Groß-Gerau-Dornheim",
+			"ril100": "FDOH",
+			"x": 273,
+			"y": 313,
+			"platformLength": 210,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Riedstadt-Wolfskehlen",
+			"ril100": "FLW",
+			"x": 273,
+			"y": 317,
+			"platformLength": 210,
+			"platforms": 2
+		},
+		{
 			"group": 2,
 			"name": "Riedstadt-Goddelau",
 			"ril100": "FGE",
-			"x": 275,
-			"y": 330,
+			"x": 272,
+			"y": 320,
 			"platformLength": 218,
+			"platforms": 5
+		},
+		{
+			"group": 5,
+			"name": "Stockstadt (Rhein)",
+			"ril100": "FSTR",
+			"x": 270,
+			"y": 324,
+			"platformLength": 193,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Biebesheim",
+			"ril100": "FBBM",
+			"x": 270,
+			"y": 329,
+			"platformLength": 247,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Gernsheim",
+			"ril100": "FGHM",
+			"x": 272,
+			"y": 333,
+			"platformLength": 210,
+			"platforms": 3
+		},
+		{
+			"group": 5,
+			"name": "Groß Rohrheim",
+			"ril100": "FGRO",
+			"x": 270,
+			"y": 340,
+			"platformLength": 210,
+			"platforms": 3
+		},
+		{
+			"group": 2,
+			"name": "Biblis",
+			"ril100": "FBL",
+			"x": 267,
+			"y": 344,
+			"platformLength": 210,
+			"platforms": 5
+		},
+		{
+			"group": 5,
+			"name": "Bobstadt",
+			"ril100": "FBST",
+			"x": 267,
+			"y": 348,
+			"platformLength": 210,
+			"platforms": 2
+		},
+		{
+			"group": 5,
+			"name": "Bürstadt (Hp)",
+			"ril100": "FBUP",
+			"x": 268,
+			"y": 351,
+			"platformLength": 233,
+			"platforms": 2
+		},
+		{
+			"group": 2,
+			"name": "Lampertheim",
+			"ril100": "FLP",
+			"x": 271,
+			"y": 359,
+			"platformLength": 239,
+			"platforms": 5
+		},
+		{
+			"group": 2,
+			"name": "Mannheim-Waldhof",
+			"ril100": "RMW",
+			"x": 271,
+			"y": 371,
+			"platformLength": 324,
 			"platforms": 5
 		},
 		{

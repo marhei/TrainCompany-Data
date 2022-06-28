@@ -20,9 +20,21 @@
 				},
 				{
 					"start": "KBR",
+					"end": "KSEC",
+					"length": 4,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KSEC",
+					"end": "KROI",
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KROI",
 					"end": "KB",
-					"twistingFactor": 0.1,
-					"length": 18
+					"length": 6,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "KB",
@@ -81,7 +93,7 @@
 			"name": "Rechte Rheinstrecke",
 			"objects": [
 				{
-					"start": "KKDZ",
+					"start": "KK",
 					"end": "KT",
 					"twistingFactor": 0.3,
 					"maxSpeed": 200,
@@ -89,10 +101,17 @@
 				},
 				{
 					"start": "KT",
-					"end": "KBB",
+					"end": "KMD",
+					"length": 4,
 					"twistingFactor": 0.2,
-					"maxSpeed": 120,
-					"length": 20
+					"maxSpeed": 120
+				},
+				{
+					"start": "KMD",
+					"end": "KBB",
+					"length": 5,
+					"twistingFactor": 0.2,
+					"maxSpeed": 120
 				},
 				{
 					"start": "KBB",
@@ -177,7 +196,7 @@
 					"start": "FMT",
 					"end": "KSIB",
 					"twistingFactor": 0.1,
-					"length": 65
+					"length": 63
 				},
 				{
 					"start": "KSIB",
@@ -195,16 +214,9 @@
 			"objects": [
 				{
 					"start": "KK",
-					"end": "KKDZ",
-					"twistingFactor": 0.1,
-					"length": 1,
-					"maxSpeed": 40
-				},
-				{
-					"start": "KKDZ",
 					"end": "KLMI",
 					"twistingFactor": 0.25,
-					"length": 17,
+					"length": 18,
 					"maxSpeed": 130
 				},
 				{
@@ -257,38 +269,94 @@
 		{
 			"name": "Riedbahn",
 			"maxSpeed": 200,
+			"twistingFactor": 0.1,
 			"objects": [
 				{
-					"start": "RM",
-					"end": "FBL",
-					"twistingFactor": 0.35,
-					"length": 28
+					"start": "FFLF",
+					"end": "FWF",
+					"length": 8,
+					"twistingFactor": 0.3,
+					"maxSpeed": 160
 				},
 				{
-					"start": "FBL",
-					"end": "FGE",
-					"twistingFactor": 0.2,
-					"length": 17
+					"start": "FWF",
+					"end": "FMF",
+					"length": 2,
+					"maxSpeed": 160
 				},
 				{
-					"start": "FGE",
+					"start": "FMF",
 					"end": "FDG",
-					"twistingFactor": 0.2,
 					"length": 9
 				},
 				{
 					"start": "FDG",
-					"end": "FF",
-					"twistingFactor": 0.2,
-					"maxSpeed": 160,
-					"length": 26
+					"end": "FDOH",
+					"length": 4
 				},
 				{
-					"start": "FDG",
-					"end": "FFLF",
-					"twistingFactor": 0.5,
+					"start": "FDOH",
+					"end": "FLW",
+					"length": 2
+				},
+				{
+					"start": "FLW",
+					"end": "FGE",
+					"length": 2
+				},
+				{
+					"start": "FGE",
+					"end": "FSTR",
+					"length": 2
+				},
+				{
+					"start": "FSTR",
+					"end": "FBBM",
+					"length": 3
+				},
+				{
+					"start": "FBBM",
+					"end": "FGHM",
+					"length": 3
+				},
+				{
+					"start": "FGHM",
+					"end": "FGRO",
+					"length": 4
+				},
+				{
+					"start": "FGRO",
+					"end": "FBL",
+					"length": 3
+				},
+				{
+					"start": "FBL",
+					"end": "FBST",
+					"length": 3,
 					"maxSpeed": 160,
-					"length": 18
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "FBST",
+					"end": "FBUP",
+					"length": 2
+				},
+				{
+					"start": "FBUP",
+					"end": "FLP",
+					"length": 5
+				},
+				{
+					"start": "FLP",
+					"end": "RMW",
+					"length": 8
+				},
+				{
+					"start": "RMW",
+					"end": "RM",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "FBL",
@@ -1564,9 +1632,9 @@
 				},
 				{
 					"start": "KSO",
-					"end": "KKDZ",
+					"end": "KK",
 					"twistingFactor": 0.4,
-					"length": 27
+					"length": 28
 				}
 			]
 		},
