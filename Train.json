@@ -503,6 +503,19 @@
 			"operationCosts": 120
 		},
 		{
+			"id": 112,
+			"group": 0,
+			"name": "BR 112",
+			"speed": 160,
+			"weight": 83,
+			"force": 226,
+			"length": 17,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 230000,
+			"operationCosts": 80
+		},
+		{
 			"id": 6,
 			"group": 0,
 			"name": "Bombardier Traxx P160 AC2",
@@ -574,6 +587,21 @@
 			"operationCosts": 90,
 			"equipments": ["ETCS"],
 			"compatibleWith": [1116]
+		},
+		{
+			"id": 193,
+			"group": 0,
+			"name": "Siemens Vectron MS",
+			"shortcut": "BR 193",
+			"speed": 200,
+			"weight": 90,
+			"force": 300,
+			"length": 19,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 450000,
+			"operationCosts": 110,
+			"equipments": ["ETCS", "CZ"]
 		},
 		{
 			"id": 28,
