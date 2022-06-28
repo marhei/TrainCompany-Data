@@ -4593,6 +4593,34 @@
 			]
 		},
 		{
+			"electrified": false,
+			"maxSpeed": 80,
+			"group": 1,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "HBHL",
+					"end": "AWRE",
+					"length": 11
+				},
+				{
+					"start": "AWRE",
+					"end": "ADO",
+					"length": 6
+				},
+				{
+					"start": "ADO",
+					"end": "ANZ",
+					"length": 10
+				},
+				{
+					"start": "ANZ",
+					"end": "ACV",
+					"length": 13
+				}
+			]
+		},
+		{
 			"maxSpeed": 100,
 			"electrified": false,
 			"group": 0,
