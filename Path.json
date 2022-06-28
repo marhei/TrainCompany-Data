@@ -4861,13 +4861,79 @@
 			"name": "Wörth-Schifferstadt",
 			"group": 1,
 			"electrified": true,
+			"maxSpeed": 120,
 			"objects": [
 				{
-					"start": "RWRT",
-					"end": "RGE",
-					"maxSpeed": 120,
-					"twistingFactor": 0.1,
-					"length": 27
+					"start": "RGE",
+					"end": "RGEM",
+					"length": 1,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RGEM",
+					"end": "RGES",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RGES",
+					"end": "RSOH",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RSOH",
+					"end": "RBLN",
+					"length": 5,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RBLN",
+					"end": "RBLH",
+					"length": 0,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RBLH",
+					"end": "RRZH",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RRZH",
+					"end": "RRZD",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RRZD",
+					"end": "RRZA",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RRZA",
+					"end": "RRZM",
+					"length": 0,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RRZM",
+					"end": "RRZU",
+					"length": 0,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RRZU",
+					"end": "RJO",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RJO",
+					"end": "RWRT",
+					"length": 5,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "RGE",
@@ -4924,27 +4990,83 @@
 			"name": "Pfälzische Maximiliansbahn",
 			"group": 1,
 			"electrified": false,
+			"maxSpeed": 140,
+			"twistingFactor": 0.1,
 			"objects": [
 				{
 					"start": "RN",
+					"end": "RND",
+					"length": 1
+				},
+				{
+					"start": "RND",
+					"end": "RMKI",
+					"length": 4
+				},
+				{
+					"start": "RMKI",
+					"end": "REH",
+					"length": 4
+				},
+				{
+					"start": "REH",
+					"end": "RKG",
+					"length": 3
+				},
+				{
+					"start": "RKG",
 					"end": "RLA",
-					"maxSpeed": 140,
-					"twistingFactor": 0.1,
-					"length": 19
+					"length": 4
 				},
 				{
 					"start": "RLA",
+					"end": "RIN",
+					"length": 5
+				},
+				{
+					"start": "RIN",
+					"end": "RRST",
+					"length": 2
+				},
+				{
+					"start": "RRST",
+					"end": "RSTE",
+					"length": 1
+				},
+				{
+					"start": "RSTE",
 					"end": "RWND",
-					"maxSpeed": 140,
-					"twistingFactor": 0.1,
-					"length": 13
+					"length": 2
 				},
 				{
 					"start": "RWND",
+					"end": "RSAI",
+					"length": 6,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RSAI",
+					"end": "RSFL",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RSFL",
+					"end": "RKPW",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RKPW",
+					"end": "RSHF",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RSHF",
 					"end": "XFWBG",
 					"maxSpeed": 100,
-					"twistingFactor": 0.1,
-					"length": 29,
+					"length": 4,
 					"neededEquipments": [
 						"FR"
 					]
@@ -5129,21 +5251,53 @@
 		{
 			"name": "Bahnstrecke Winden–Karlsruhe",
 			"group": 1,
+			"electrified": true,
+			"maxSpeed": 120,
 			"objects": [
 				{
 					"start": "RWND",
-					"end": "RWRT",
-					"maxSpeed": 120,
-					"twistingFactor": 0.1,
+					"end": "RKD",
+					"length": 7,
 					"electrified": false,
-					"length": 26
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "RKD",
+					"end": "RWRD",
+					"length": 4,
+					"electrified": false,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "RWRD",
+					"end": "RWRT",
+					"length": 1,
+					"electrified": false,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "RWRT",
+					"end": "RKIN",
+					"length": 5,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RKIN",
+					"end": "RKMG",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RKMG",
+					"end": "RKW",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RKW",
 					"end": "RK",
-					"maxSpeed": 120,
-					"twistingFactor": 0.1,
-					"length": 13
+					"length": 4,
+					"twistingFactor": 0.2
 				}
 			]
 		},
