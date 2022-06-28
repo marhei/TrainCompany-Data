@@ -7890,6 +7890,74 @@
 			"start": "WBG",
 			"end": "WSZ",
 			"length": 21
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "WZS",
+					"end": "WBHN",
+					"length": 10
+				},
+				{
+					"start": "WBHN",
+					"end": "WWO",
+					"length": 10
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"name": "Usedomer Bäderbahn",
+			"group": 1,
+			"maxSpeed": 80,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "WWO", 
+					"end": "WTH",
+					"length": 9
+				},
+				{
+					"start": "WTH",
+					"end": "WZ",
+					"length": 3
+				},
+				{
+					"start": "WZ",
+					"end": "WKO",
+					"length": 7
+				},
+				{
+					"start": "WKO",
+					"end": "WUEK",
+					"length": 5
+				},
+				{
+					"start": "WUEK",
+					"end": "WBN",
+					"length": 8
+				},
+				{
+					"start": "WBN",
+					"end": "WHF",
+					"length": 5
+				},
+				{
+					"start": "WHF",
+					"end": "WAB",
+					"length": 2
+				},
+				{
+					"start": "WAB",
+					"end": "XPSM",
+					"length": 4,
+					"twistingFactor": 0.1
+				}
+			]
 		}
 	]
 }
