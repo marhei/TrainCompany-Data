@@ -7622,6 +7622,342 @@
 			"end": "WB",
 			"electrified": true,
 			"length": 13
+		},
+		{
+			"electrified": true,
+			"maxSpeed": 80,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "WK",
+					"end": "WMK",
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 100
+				},
+				{
+					"start": "WMK",
+					"end": "WWI",
+					"group": 0,
+					"length": 6,
+					"maxSpeed": 100
+				},
+				{
+					"start": "WWI",
+					"end": "WKAR",
+					"group": 1,
+					"length": 8
+				},
+				{
+					"start": "WKAR",
+					"end": "WHK",
+					"group": 1,
+					"length": 4
+				},
+				{
+					"start": "WHK",
+					"end": "WNB",
+					"group": 1,
+					"length": 9
+				},
+				{
+					"start": "WNB",
+					"end": "WKR",
+					"group": 1,
+					"length": 9,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "WKR",
+					"end": "WDO",
+					"group": 1,
+					"length": 9,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "WDO",
+					"end": "WGS",
+					"group": 1,
+					"length": 9
+				},
+				{
+					"start": "WGS",
+					"end": "WR",
+					"group": 1,
+					"length": 5
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "AL",
+					"end": "WHB",
+					"length": 9
+				},
+				{
+					"start": "WHB",
+					"end": "WSBG",
+					"length": 11
+				},
+				{
+					"start": "WSBG",
+					"end": "WGV",
+					"length": 17,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "WGV",
+					"end": "WK",
+					"length": 22
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 100,
+			"twistingFactor": 0.24,
+			"objects": [
+				{
+					"start": "WG",
+					"end": "WTE",
+					"length": 29,
+					"maxSpeed": 120
+				},
+				{
+					"start": "WTE",
+					"end": "WRST",
+					"length": 25,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "WRST",
+					"end": "WMOE",
+					"length": 19,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "WMOE",
+					"end": "WN",
+					"length": 14
+				},
+				{
+					"start": "WN",
+					"end": "WNA",
+					"length": 16,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "WNA",
+					"end": "WSB",
+					"length": 17,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "WSB",
+					"end": "WP",
+					"length": 18,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"maxSpeed": 80,
+			"twistingFactor": 0.24,
+			"objects": [
+				{
+					"start": "WR",
+					"end": "WBTF",
+					"group": 1,
+					"length": 10
+				},
+				{
+					"start": "WBTF",
+					"end": "WSTZ",
+					"group": 1,
+					"length": 7
+				},
+				{
+					"start": "WSTZ",
+					"end": "WTI",
+					"group": 1,
+					"length": 8
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "WL",
+					"end": "WRW",
+					"length": 14
+				},
+				{
+					"start": "WRW",
+					"end": "WHO",
+					"length": 12
+				}
+			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.24,
+			"objects": [
+				{
+					"start": "WW",
+					"end": "WPB",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 100
+				},
+				{
+					"start": "WPB",
+					"end": "WGP",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 100
+				},
+				{
+					"start": "WGP",
+					"end": "WPR",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 100
+				},
+				{
+					"start": "WPR",
+					"end": "WLBT",
+					"electrified": false,
+					"length": 14
+				},
+				{
+					"start": "WLBT",
+					"end": "WDOW",
+					"electrified": false,
+					"length": 11
+				},
+				{
+					"start": "WDOW",
+					"end": "WNED",
+					"electrified": false,
+					"length": 16
+				},
+				{
+					"start": "WNED",
+					"end": "WNRW",
+					"electrified": false,
+					"length": 14,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "WNRW",
+					"end": "WBES",
+					"electrified": false,
+					"length": 22,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "WBES",
+					"end": "BHND",
+					"electrified": false,
+					"length": 23
+				},
+				{
+					"start": "BHND",
+					"end": "BFKS",
+					"electrified": true,
+					"length": 22
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 90,
+			"twistingFactor": 0.3,
+			"start": "WBG",
+			"end": "WSZ",
+			"length": 21
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "WZS",
+					"end": "WBHN",
+					"length": 10
+				},
+				{
+					"start": "WBHN",
+					"end": "WWO",
+					"length": 10
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"name": "Usedomer Bäderbahn",
+			"group": 1,
+			"maxSpeed": 80,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "WWO", 
+					"end": "WTH",
+					"length": 9
+				},
+				{
+					"start": "WTH",
+					"end": "WZ",
+					"length": 3
+				},
+				{
+					"start": "WZ",
+					"end": "WKO",
+					"length": 7
+				},
+				{
+					"start": "WKO",
+					"end": "WUEK",
+					"length": 5
+				},
+				{
+					"start": "WUEK",
+					"end": "WBN",
+					"length": 8
+				},
+				{
+					"start": "WBN",
+					"end": "WHF",
+					"length": 5
+				},
+				{
+					"start": "WHF",
+					"end": "WAB",
+					"length": 2
+				},
+				{
+					"start": "WAB",
+					"end": "XPSM",
+					"length": 4,
+					"twistingFactor": 0.1
+				}
+			]
 		}
 	]
 }
