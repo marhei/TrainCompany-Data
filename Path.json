@@ -6803,6 +6803,83 @@
 					"twistingFactor": 0.2
 				}
 			]
+		},
+		{
+			"group": 2,
+			"maxSpeed": 120,
+			"twistingFactor": 160,
+			"name": "Stettiner Bahn",
+			"objects": [
+				{
+					"start": "BL",
+					"end": "BGS",
+					"electrified": true,
+					"length": 4
+				},
+				{
+					"start": "BGS",
+					"end": "BBRN",
+					"electrified": true,
+					"length": 20
+				},
+				{
+					"start": "BBRN",
+					"end": "WE",
+					"electrified": true,
+					"length": 22
+				},
+				{
+					"start": "WE",
+					"end": "WBR",
+					"electrified": true,
+					"length": 4
+				},
+				{
+					"start": "WBR",
+					"end": "WA",
+					"electrified": true,
+					"length": 21
+				},
+				{
+					"start": "WA",
+					"end": "WPS",
+					"electrified": false,
+					"length": 18,
+					"maxSpeed": 60
+				},
+				{
+					"start": "WPS",
+					"end": "WSCN",
+					"electrified": false,
+					"length": 5,
+					"maxSpeed": 50
+				},
+				{
+					"start": "WSCN",
+					"end": "WCW",
+					"electrified": false,
+					"length": 4
+				},
+				{
+					"start": "WCW",
+					"end": "WPE",
+					"electrified": false,
+					"length": 4
+				},
+				{
+					"start": "WPE",
+					"end": "WTA",
+					"electrified": false,
+					"length": 7
+				},
+				{
+					"start": "WTA",
+					"end": "WXT",
+					"electrified": false,
+					"length": 8,
+					"twistingFactor": 0.26
+				}
+			]
 		}
 	]
 }
