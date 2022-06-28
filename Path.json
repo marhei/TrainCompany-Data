@@ -2025,22 +2025,8 @@
 			"objects": [
 				{
 					"start": "TS",
-					"end": "TSFE",
-					"length": 3,
-					"twistingFactor": 0.3,
-					"maxSpeed": 100
-				},
-				{
-					"start": "TSFE",
-					"end": "TSZ",
-					"length": 3,
-					"twistingFactor": 0.2,
-					"maxSpeed": 120
-				},
-				{
-					"start": "TSZ",
 					"end": "TKH",
-					"length": 4,
+					"length": 10,
 					"twistingFactor": 0.3,
 					"maxSpeed": 140
 				},
@@ -4503,8 +4489,8 @@
 				},
 				{
 					"start": "TV",
-					"end": "TSZ",
-					"length": 22
+					"end": "TS",
+					"length": 8
 				}
 			]
 		},
@@ -6058,14 +6044,8 @@
 			"objects": [
 				{
 					"start": "BL",
-					"end": "BPAF",
-					"length": 5,
-					"maxSpeed": 140
-				},
-				{
-					"start": "BPAF",
 					"end": "BTL",
-					"length": 11,
+					"length": 16,
 					"maxSpeed": 160
 				},
 				{
