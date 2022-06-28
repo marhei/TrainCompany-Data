@@ -6981,7 +6981,6 @@
 		},
 		{
 			"group": 2,
-			"name": "Lloydbahn",
 			"maxSpeed": 160,
 			"twistingFactor": 0.2,
 			"objects": [
@@ -7007,15 +7006,26 @@
 					"start": "WLG",
 					"end": "WG",
 					"electrified": false,
-					"length": 25
+					"length": 25,
+					"maxSpeed": 120
 				},
 				{
 					"start": "WG",
-					"end": "WR",
+					"end": "WSN",
 					"electrified": true,
-					"length": 33
+					"length": 17,
+					"maxSpeed": 120
 				}
 			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.25,
+			"start": "WG",
+			"end": "WB",
+			"electrified": true,
+			"length": 13
 		}
 	]
 }
