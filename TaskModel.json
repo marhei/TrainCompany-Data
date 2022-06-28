@@ -1256,6 +1256,25 @@
 				{"name": "castor", "value": 10}
 			],
 			"neededCapacityDifference": 3
+		},
+		{
+			"group": 0,
+			"name": "Flugersatzverkehr von %s nach %s",
+			"descriptions": [
+				"Wegen zu langer Warteschlangen am Check-In fährt ein Ersatzzug die Fluggäste von %s nach %s.",
+				"Weil mal wieder Pilot*innen streiken, brauchen die Airlines Ersatz.",
+				"Bringe die Flug... Fahrgäste im angemessenen Tempo von %s nach %s"
+			],
+			"plops": 500000,
+			"plopDifference": 8,
+			"objects": [
+				{"stations": ["ALB", "BFBI"]},
+				{"stations": ["ALB", "FFLF"]},
+				{"stations": ["BFBI", "FFLF"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
 		}
 	]
 }
