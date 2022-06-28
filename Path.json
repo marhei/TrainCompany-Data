@@ -6783,6 +6783,70 @@
 					"length": 8
 				}
 			]
+		},
+		{
+			"electrified": false,
+			"maxSpeed": 100,
+			"twistingFactor": 0.22,
+			"objects": [
+				{
+					"start": "EMST",
+					"end": "ENBE",
+					"group": 2,
+					"length": 10
+				},
+				{
+					"start": "ENBE",
+					"end": "ENOW",
+					"group": 1,
+					"length": 9
+				},
+				{
+					"start": "ENOW",
+					"end": "EGRK",
+					"group": 1,
+					"length": 8
+				},
+				{
+					"start": "EGRK",
+					"end": "EBFT",
+					"group": 1,
+					"length": 4
+				},
+				{
+					"start": "EBFT",
+					"end": "EOP",
+					"group": 1,
+					"length": 12
+				},
+				{
+					"start": "EOP",
+					"end": "EGRN",
+					"group": 1,
+					"length": 11
+				},
+				{
+					"start": "EGRN",
+					"end": "XNGB",
+					"group": 1,
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XNGB",
+					"end": "XNDE",
+					"group": 1,
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XNDE",
+					"end": "XNES",
+					"group": 1,
+					"length": 4,
+					"twistingFactor": 0.1
+				}
+			]
 		}
 	]
 }
