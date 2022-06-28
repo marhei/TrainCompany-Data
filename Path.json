@@ -7766,6 +7766,31 @@
 					"twistingFactor": 0.2
 				}
 			]
+		},
+		{
+			"electrified": false,
+			"maxSpeed": 80,
+			"twistingFactor": 0.24,
+			"objects": [
+				{
+					"start": "WR",
+					"end": "WBTF",
+					"group": 1,
+					"length": 10
+				},
+				{
+					"start": "WBTF",
+					"end": "WSTZ",
+					"group": 1,
+					"length": 7
+				},
+				{
+					"start": "WSTZ",
+					"end": "WTI",
+					"group": 1,
+					"length": 8
+				}
+			]
 		}
 	]
 }
