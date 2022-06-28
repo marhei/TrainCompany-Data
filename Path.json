@@ -5369,105 +5369,93 @@
 			"name": "Bahnstrecke Leipzig-Probstzella",
 			"twistingFactor": 0.3,
 			"electrified": false,
+			"maxSpeed": 100,
 			"objects": [
 				{
-					"start": "LLP",
-					"end": "LL",
-					"maxSpeed": 100,
-					"twistingFactor": 0.2,
-					"length": 11
+					"start": "UG",
+					"end": "UGLB",
+					"length": 4
 				},
 				{
-					"start": "LLK",
-					"end": "LLP",
-					"maxSpeed": 100,
-					"twistingFactor": 0.1,
-					"length": 6
-				},
-				{
-					"start": "LPG",
-					"end": "LLK",
-					"maxSpeed": 100,
-					"twistingFactor": 0.2,
-					"length": 13
-				},
-				{
-					"start": "LPR",
-					"end": "LPG",
-					"maxSpeed": 100,
-					"twistingFactor": 0.1,
-					"length": 6
-				},
-				{
-					"start": "LZ",
-					"end": "LPR",
-					"maxSpeed": 100,
-					"twistingFactor": 0.1,
-					"length": 10
-				},
-				{
-					"start": "LWZE",
-					"end": "LZ",
-					"maxSpeed": 100,
-					"twistingFactor": 0.2,
-					"length": 10
-				},
-				{
-					"start": "UKS",
-					"end": "LWZE",
-					"maxSpeed": 100,
-					"twistingFactor": 0.1,
-					"length": 5
+					"start": "UGLB",
+					"end": "UBKZ",
+					"length": 2
 				},
 				{
 					"start": "UBKZ",
 					"end": "UKS",
-					"maxSpeed": 100,
-					"twistingFactor": 0.1,
-					"length": 8
+					"length": 5
+				},
+				{
+					"start": "UKS",
+					"end": "UKSO",
+					"length": 0
+				},
+				{
+					"start": "UKSO",
+					"end": "LWZE",
+					"length": 5
+				},
+				{
+					"start": "LWZE",
+					"end": "LZ",
+					"length": 10
+				},
+				{
+					"start": "LZ",
+					"end": "LPR",
+					"length": 10
+				},
+				{
+					"start": "LPR",
+					"end": "LPG",
+					"length": 4
+				},
+				{
+					"start": "LPG",
+					"end": "LGDG",
+					"length": 5
+				},
+				{
+					"start": "LGDG",
+					"end": "LL",
+					"length": 25
 				},
 				{
 					"start": "UG",
 					"end": "UBKZ",
-					"maxSpeed": 100,
 					"twistingFactor": 0.1,
 					"length": 8
 				},
 				{
 					"start": "UGZ",
 					"end": "UWE",
-					"maxSpeed": 100,
 					"twistingFactor": 0.4,
 					"length": 8
 				},
 				{
 					"start": "UWE",
 					"end": "UNP",
-					"maxSpeed": 100,
 					"length": 8
 				},
 				{
 					"start": "UNP",
 					"end": "UTR",
-					"maxSpeed": 100,
 					"length": 7
 				},
 				{
 					"start": "UTR",
 					"end": "UNH",
-					"maxSpeed": 100,
 					"length": 12
 				},
 				{
 					"start": "UNH",
 					"end": "UPS",
-					"maxSpeed": 100,
 					"length": 10
 				},
 				{
 					"start": "UPS",
 					"end": "US",
-					"maxSpeed": 100,
 					"length": 17
 				},
 				{
