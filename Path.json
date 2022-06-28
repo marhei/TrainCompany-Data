@@ -6282,17 +6282,13 @@
 				},
 				{
 					"start": "DSN",
-					"end": "DXS",
-					"length": 2,
-					"maxSpeed": 120,
-					"twistingFactor": 0.3
-				},
-				{
-					"start": "DXS",
 					"end": "XTD",
-					"length": 12,
+					"length": 14,
 					"maxSpeed": 120,
-					"twistingFactor": 0.3
+					"twistingFactor": 0.3,
+					"neededEquipments": [
+						"CZ"
+					]
 				}
 			]
 		},
