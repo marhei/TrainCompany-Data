@@ -435,8 +435,8 @@
 				"Fahr den Zug einmal durch Franken von %s nach %s.",
 				"Der RE 20 fährt von %s nach %s quer durch's Frankenland."
 			],
-			"plops": 300000,
-			"stations": ["NWH", "NS", "NBA", "NER", "NF", "NN"],
+			"plops": 250000,
+			"stations": ["NWH", "NS", "NBA", "NFO", "NER", "NF", "NN"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -449,7 +449,7 @@
 				"Fahr als MRB im Blockabstand vor dem nächsten Fernverkehrszug durch das Mittelrheintal.",
 				"Bring die MRB nach %2$s und sammel dabei so wenig Verspätung wie möglich."
 			],
-			"plops": 300000,
+			"plops": 250000,
 			"stations": ["FMZ", "FIL", "FBGK", "KBOP", "KKO", "KAND", "KRE", "KROL", "KB", "KBR", "KKAS", "KK"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -462,8 +462,21 @@
 				"Diese Regionalbahnlinie führt von %s nach %s durch das wunderschöne Mittelrheintal.",
 				"Die Strecke ist oft durch Güterzüge blockiert."
 			],
-			"plops": 300000,
+			"plops": 250000,
 			"stations": ["FF", "FHOE", "FW", "FELT", "FRDH", "FSGH", "KNL", "KKO", "KNE"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "HLB von %s nach %s",
+			"descriptions": [
+				"Diese Regionalbahnlinie führt von %s nach %s von der Lahn an die Fulda.",
+				"Verbinde die weniger bevölkerten Gebiete von Hessen miteinander."
+			],
+			"plops": 300000,
+			"stations": ["FL","FWG","FWR","FG","FGRB","FRSK","FSAA","FGOE","FGRG","FLEH","FMCK","FNO","FBNG","FEHH","FZR","FAFD","FLAU","FANG","FSF","FGLR","FOBA","FFU"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
