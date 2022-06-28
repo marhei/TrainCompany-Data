@@ -956,11 +956,11 @@
 				},
 				{
 					"start": "FFU",
-					"end": "NBNB",
+					"end": "NBN",
 					"length": 50
 				},
 				{
-					"start": "NBNB",
+					"start": "NBN",
 					"end": "NRB",
 					"length": 18
 				},
@@ -981,6 +981,55 @@
 					"end": "HH",
 					"length": 100,
 					"maxSpeed": 250
+				}
+			]
+		},
+		{
+			"name": "Fulda-Main-Bahn",
+			"electrified": true,
+			"group": 1,
+			"objects": [
+				{
+					"start": "NGM",
+					"end": "NRCK",
+					"length": 5,
+					"twistingFactor": 0.2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "NRCK",
+					"end": "NBN",
+					"length": 6,
+					"twistingFactor": 0.3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NBN",
+					"end": "NMSN",
+					"length": 5,
+					"twistingFactor": 0.2,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NMSN",
+					"end": "NOBS",
+					"length": 1,
+					"twistingFactor": 0.2,
+					"maxSpeed": 150
+				},
+				{
+					"start": "NOBS",
+					"end": "FSTZ",
+					"length": 14,
+					"twistingFactor": 0.3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "FSTZ",
+					"end": "FFD",
+					"length": 21,
+					"twistingFactor": 0.5,
+					"maxSpeed": 100
 				}
 			]
 		},
