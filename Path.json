@@ -6028,12 +6028,76 @@
 					"end": "LH",
 					"length": 30,
 					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"name": "Bahnstrecke Magdeburg–Leipzig",
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"maxSpeed": 160,
+			"objects": [
+				{
+					"start": "LH",
+					"end": "LNM",
+					"length": 12
+				},
+				{
+					"start": "LNM",
+					"end": "LSTF",
+					"length": 7
+				},
+				{
+					"start": "LSTF",
+					"end": "LWG",
+					"length": 6
+				},
+				{
+					"start": "LWG",
+					"end": "LAF",
+					"length": 4
+				},
+				{
+					"start": "LAF",
+					"end": "LK",
+					"length": 4
+				},
+				{
+					"start": "LK",
+					"end": "LWU",
+					"length": 8
+				},
+				{
+					"start": "LWU",
+					"end": "LSAD",
+					"length": 7
+				},
+				{
+					"start": "LSAD",
+					"end": "LCBO",
+					"length": 7
+				},
+				{
+					"start": "LCBO",
+					"end": "LGND",
+					"length": 7
+				},
+				{
+					"start": "LGND",
+					"end": "LSBF",
+					"length": 2
+				},
+				{
+					"start": "LSBF",
+					"end": "LM",
+					"length": 17,
+					"maxSpeed": 120
 				},
 				{
 					"start": "LH",
 					"end": "LHME",
-					"length": 4,
-					"maxSpeed": 160
+					"length": 4
 				},
 				{
 					"start": "LHME",
@@ -6058,7 +6122,7 @@
 		{
 			"maxSpeed": 160,
 			"electrified": true,
-			"group": 0,
+			"group": 1,
 			"name": "Stendal–Uelzen",
 			"twistingFactor": 0.2,
 			"objects": [
@@ -6092,18 +6156,13 @@
 		{
 			"maxSpeed": 120,
 			"electrified": true,
-			"group": 0,
+			"group": 1,
 			"twistingFactor": 0.35,
 			"objects": [
 				{
 					"start": "LM",
-					"end": "LGLB",
-					"length": 9
-				},
-				{
-					"start": "LGLB",
 					"end": "LZI",
-					"length": 11
+					"length": 20
 				},
 				{
 					"start": "LZI",
