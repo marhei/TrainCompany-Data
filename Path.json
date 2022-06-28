@@ -1567,9 +1567,23 @@
 				},
 				{
 					"start": "UE P",
-					"end": "UWM",
-					"length": 25,
+					"end": "UVI",
+					"length": 8,
 					"twistingFactor": 0.15,
+					"maxSpeed": 120
+				},
+				{
+					"start": "UVI",
+					"end": "UHP",
+					"length": 6,
+					"twistingFactor": 0.1,
+					"maxSpeed": 120
+				},
+				{
+					"start": "UHP",
+					"end": "UWM",
+					"length": 7,
+					"twistingFactor": 0.1,
 					"maxSpeed": 120
 				}
 			]
@@ -1579,21 +1593,31 @@
 			"name": "VDE 8",
 			"twistingFactor": 0.05,
 			"maxSpeed": 300,
+			"neededEquipments": [
+				"ETCS"
+			],
 			"objects": [
 				{
 					"start": "UE P",
 					"end": "NED",
-					"neededEquipments": [
-						"ETCS"
-					],
 					"length": 110
 				},
 				{
-					"group": 0,
-					"start": "NED",
-					"end": "NBA",
-					"length": 20,
-					"maxSpeed": 160
+					"start": "UE P",
+					"end": "LPLN",
+					"length": 84
+				},
+				{
+					"start": "LPLN",
+					"end": "LH",
+					"maxSpeed": 160,
+					"twistingFactor": 0.3,
+					"length": 9
+				},
+				{
+					"start": "LPLN",
+					"end": "LGOS",
+					"length": 11
 				}
 			]
 		},
@@ -2589,20 +2613,32 @@
 				{
 					"start": "UWM",
 					"end": "UOB",
-					"maxSpeed": 100,
-					"length": 4
+					"maxSpeed": 120,
+					"length": 3
 				},
 				{
 					"start": "UOB",
-					"end": "UJW",
+					"end": "UMEN",
 					"maxSpeed": 130,
-					"length": 20
+					"length": 3
+				},
+				{
+					"start": "UMEN",
+					"end": "UGC",
+					"maxSpeed": 120,
+					"length": 6
+				},
+				{
+					"start": "UGC",
+					"end": "UJW",
+					"maxSpeed": 110,
+					"length": 8
 				},
 				{
 					"start": "UJW",
 					"end": "UGW",
 					"maxSpeed": 100,
-					"length": 5
+					"length": 4
 				},
 				{
 					"start": "UGW",
@@ -3700,6 +3736,12 @@
 					"end": "NED",
 					"maxSpeed": 160,
 					"length": 5
+				},
+				{
+					"start": "NED",
+					"end": "NBA",
+					"length": 20,
+					"maxSpeed": 160
 				}
 			]
 		},
@@ -4781,83 +4823,6 @@
 			]
 		},
 		{
-			"name": "SFS Erfurt-Leipzig/Halle",
-			"group": 2,
-			"electrified": true,
-			"objects": [
-				{
-					"start": "UE P",
-					"end": "UVI",
-					"maxSpeed": 200,
-					"twistingFactor": 0.1,
-					"length": 7
-				},
-				{
-					"start": "UVI",
-					"end": "UGBB",
-					"maxSpeed": 300,
-					"twistingFactor": 0.1,
-					"length": 20
-				},
-				{
-					"start": "UGBB",
-					"end": "LSBT",
-					"maxSpeed": 300,
-					"twistingFactor": 0.1,
-					"length": 15
-				},
-				{
-					"start": "LSBT",
-					"end": "LJD",
-					"maxSpeed": 300,
-					"twistingFactor": 0.1,
-					"length": 15
-				},
-				{
-					"start": "LJD",
-					"end": "LDST",
-					"maxSpeed": 300,
-					"twistingFactor": 0.1,
-					"length": 17
-				},
-				{
-					"start": "LDST",
-					"end": "LPLN",
-					"maxSpeed": 300,
-					"twistingFactor": 0.1,
-					"length": 5
-				},
-				{
-					"start": "LPLN",
-					"end": "LGOS",
-					"maxSpeed": 300,
-					"twistingFactor": 0.1,
-					"length": 13
-				},
-				{
-					"start": "LGOS",
-					"end": "LFLU",
-					"maxSpeed": 250,
-					"twistingFactor": 0.1,
-					"length": 8
-				},
-				{
-					"start": "LFLU",
-					"end": "LNW",
-					"maxSpeed": 250,
-					"twistingFactor": 0.1,
-					"length": 14
-				},
-				{
-					"start": "LNW",
-					"end": "LL",
-					"maxSpeed": 160,
-					"twistingFactor": 0.1,
-					"length": 8
-				}
-			]
-		},
-		{
 			"name": "Wörth-Schifferstadt",
 			"group": 1,
 			"electrified": true,
@@ -5597,20 +5562,26 @@
 				},
 				{
 					"start": "LH",
-					"end": "LSD",
-					"length": 19,
+					"end": "LHME",
+					"length": 4,
 					"maxSpeed": 160
 				},
 				{
-					"start": "LSD",
-					"end": "LLG",
-					"length": 11,
+					"start": "LHME",
+					"end": "LGOS",
+					"length": 7,
 					"maxSpeed": 120
 				},
 				{
-					"start": "LLG",
+					"start": "LGOS",
+					"end": "LSD",
+					"length": 7,
+					"maxSpeed": 120
+				},
+				{
+					"start": "LSD",
 					"end": "LL",
-					"length": 3,
+					"length": 13,
 					"maxSpeed": 120
 				}
 			]
