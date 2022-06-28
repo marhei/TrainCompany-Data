@@ -100,5 +100,6 @@ Modelle für Aufträge, aus denen automatisch neue Aufträge erstellt werden
 * **descriptions** *(array)* Array mit mehreren Strings für die Ausschreibung
 * **plops** *(int)* Verdienst für die Ausschreibung
 * **plopDifference** *(int)* Abweichung des Verdiensts in Prozent +/- (optional, Standard = 5)
-* **stations** *array* Ril100 aller Bahnhöfe, die angefahren werden sollen in der richtigen Reihenfolge, wenn keine angegeben wurden, dann werden zwei zufällige gewählt (optional)
+* **stations** *(array)* Ril100 aller Bahnhöfe, die angefahren  sollen in der richtigen Reihenfolge, wenn keine angegeben wurden, dann werden zwei zufällige gewählt (optional)
+* **stopsEverwhere** *(bool)* Wenn true dann wird auch automatisch ein Halt an allen Bahnhöfen, die zwischen den oben angegeben Bahnhöfen eingeplant (optional)
 * **neededCapacity** *array* Art der Beladung und Menge, 0 bei passengers führt zu automatischer Berechnung der Fahrgäste (siehe Capacity.json)

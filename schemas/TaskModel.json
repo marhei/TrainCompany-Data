@@ -124,6 +124,11 @@
 						"maxLength": 5
 					}
 				},
+				"stopsEverwhere": {
+					"description": "Wenn true dann wird auch automatisch ein Halt an allen Bahnhöfen, die zwischen den oben angegeben Bahnhöfen eingeplant",
+					"type": "boolean",
+					"default": false
+				},
 				"neededCapacity": {
 					"description": "Art der Beladung und Menge.",
 					"type": "array",
