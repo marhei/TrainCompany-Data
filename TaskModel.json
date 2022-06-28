@@ -1011,6 +1011,21 @@
 			]
 		},
 		{
+			"group": 1,
+			"name": "EuroCity von %s nach %s",
+			"descriptions": [
+				"Bringe den tschechischen EuroCity von %s nach %s."
+			],
+			"plops": 300000,
+			"objects": [
+				{"stations": ["XTD", "DSA", "DH", "BPAF", "BL", "WW", "WL", "ABCH", "AH", "AN", "AK"]},
+				{"stations": ["XTD", "DSA", "DH", "BPAF", "BL", "WW", "WL", "ABCH", "AH", "AN", "AF"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Sonderzug zur Kieler Woche nach %2$s",
 			"descriptions": [
