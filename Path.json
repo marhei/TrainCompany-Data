@@ -5468,6 +5468,146 @@
 		},
 		{
 			"group": 0,
+			"name": "Bahnstrecke Leipzig-Hof",
+			"electrified": true,
+			"objects": [
+				{
+					"start": "LL",
+					"end": "LGW",
+					"length": 20,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "LGW",
+					"end": "LBO",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "LBO",
+					"end": "LNK",
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "LNK",
+					"end": "LRB",
+					"length": 7,
+					"maxSpeed": 50,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "LRB",
+					"end": "LA",
+					"length": 10,
+					"maxSpeed": 50,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "LA",
+					"end": "DLH",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DLH",
+					"end": "DGZ",
+					"length": 6,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DGZ",
+					"end": "DWR",
+					"length": 20,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DWR",
+					"end": "DNM",
+					"length": 9,
+					"maxSpeed": 110,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DNM",
+					"end": "DRC",
+					"length": 8,
+					"maxSpeed": 110,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DRC",
+					"end": "DNZU",
+					"length": 6,
+					"maxSpeed": 110,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DNZU",
+					"end": "DHN",
+					"length": 5,
+					"maxSpeed": 110,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DHN",
+					"end": "DP",
+					"length": 14,
+					"maxSpeed": 110,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "DP",
+					"end": "DMEH",
+					"length": 12,
+					"maxSpeed": 110,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "DMEH",
+					"end": "DSB",
+					"length": 6,
+					"maxSpeed": 110,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DSB",
+					"end": "DRTH",
+					"length": 8,
+					"maxSpeed": 110,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DRTH",
+					"end": "DGO",
+					"length": 6,
+					"maxSpeed": 110,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DGO",
+					"end": "DGF",
+					"length": 2,
+					"maxSpeed": 110,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DGF",
+					"end": "NHO",
+					"length": 15,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"group": 0,
 			"objects": [
 				{
 					"start": "AH",
