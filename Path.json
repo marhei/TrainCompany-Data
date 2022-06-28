@@ -91,6 +91,7 @@
 		},
 		{
 			"name": "Rechte Rheinstrecke",
+			"twistingFactor": 0.1,
 			"objects": [
 				{
 					"start": "KK",
@@ -115,52 +116,208 @@
 				},
 				{
 					"start": "KBB",
+					"end": "KBO",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "KBO",
+					"end": "KND",
+					"length": 2,
+					"maxSpeed": 120
+				},
+				{
+					"start": "KND",
+					"end": "KKOW",
+					"length": 2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "KKOW",
+					"end": "KRHD",
+					"length": 2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "KRHD",
+					"end": "KUN",
+					"length": 6,
+					"maxSpeed": 130
+				},
+				{
+					"start": "KUN",
+					"end": "KERP",
+					"length": 2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "KERP",
 					"end": "KLI",
-					"twistingFactor": 0.25,
-					"maxSpeed": 130,
-					"length": 23
+					"length": 3,
+					"maxSpeed": 120
 				},
 				{
 					"start": "KLI",
+					"end": "KLEU",
+					"length": 2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "KLEU",
+					"end": "KHGB",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "KHGB",
+					"end": "KRBR",
+					"length": 3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "KRBR",
+					"end": "KLET",
+					"length": 6,
+					"maxSpeed": 130
+				},
+				{
+					"start": "KLET",
 					"end": "KNE",
-					"twistingFactor": 0.3,
-					"maxSpeed": 140,
-					"length": 23
+					"length": 6,
+					"maxSpeed": 110
 				},
 				{
 					"start": "KNE",
+					"end": "KENR",
+					"length": 5,
+					"maxSpeed": 130
+				},
+				{
+					"start": "KENR",
+					"end": "KVA",
+					"length": 5,
+					"maxSpeed": 110
+				},
+				{
+					"start": "KVA",
+					"end": "KKOE",
+					"length": 4,
+					"maxSpeed": 110
+				},
+				{
+					"start": "KKOE",
 					"end": "KNL",
-					"twistingFactor": 0.3,
-					"maxSpeed": 120,
-					"length": 21
+					"length": 5,
+					"maxSpeed": 120
 				},
 				{
 					"start": "KNL",
+					"end": "KOL",
+					"length": 2,
+					"maxSpeed": 110
+				},
+				{
+					"start": "KOL",
+					"end": "KBRB",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "KBRB",
+					"end": "KOSS",
+					"length": 5,
+					"maxSpeed": 120
+				},
+				{
+					"start": "KOSS",
+					"end": "FFI",
+					"length": 2,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FFI",
+					"end": "FKMP",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "FKMP",
+					"end": "FKES",
+					"length": 5,
+					"maxSpeed": 110
+				},
+				{
+					"start": "FKES",
 					"end": "FSGH",
-					"twistingFactor": 0.3,
-					"maxSpeed": 110,
-					"length": 30
+					"length": 6,
+					"maxSpeed": 90
 				},
 				{
 					"start": "FSGH",
+					"end": "FKAU",
+					"length": 10,
+					"maxSpeed": 90
+				},
+				{
+					"start": "FKAU",
+					"end": "FLON",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "FLON",
+					"end": "FLOR",
+					"length": 2,
+					"maxSpeed": 110
+				},
+				{
+					"start": "FLOR",
+					"end": "FAH",
+					"length": 7,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FAH",
 					"end": "FRDH",
-					"twistingFactor": 0.3,
-					"maxSpeed": 110,
-					"length": 29
+					"length": 4,
+					"maxSpeed": 100
 				},
 				{
 					"start": "FRDH",
+					"end": "FGSM",
+					"length": 4,
+					"maxSpeed": 110
+				},
+				{
+					"start": "FGSM",
+					"end": "FOE",
+					"length": 4,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FOE",
+					"end": "FERB",
+					"length": 6,
+					"maxSpeed": 100
+				},
+				{
+					"start": "FERB",
 					"end": "FELT",
-					"twistingFactor": 0.3,
-					"maxSpeed": 120,
-					"length": 17
+					"length": 2,
+					"maxSpeed": 100
 				},
 				{
 					"start": "FELT",
+					"end": "FNWF",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "FNWF",
 					"end": "FW",
-					"twistingFactor": 0.3,
-					"maxSpeed": 130,
-					"length": 14
+					"length": 10,
+					"twistingFactor": 0.4,
+					"maxSpeed": 130
 				}
 			]
 		},
@@ -3295,23 +3452,28 @@
 			"maxSpeed": 160,
 			"objects": [
 				{
-					"start": "FF",
+					"start": "FW",
+					"end": "FFH",
+					"length": 19,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "FFH",
+					"end": "FHAS",
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "FHAS",
 					"end": "FHOE",
-					"twistingFactor": 0.3,
-					"length": 9
+					"length": 5,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "FHOE",
-					"end": "FKOS",
-					"twistingFactor": 0.2,
-					"length": 21
-				},
-				{
-					"start": "FKOS",
-					"end": "FW",
-					"twistingFactor": 0.3,
-					"maxSpeed": 110,
-					"length": 11
+					"end": "FF",
+					"length": 9,
+					"twistingFactor": 0.3
 				}
 			]
 		},
