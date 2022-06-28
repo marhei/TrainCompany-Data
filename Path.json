@@ -7631,14 +7631,14 @@
 				{
 					"start": "WK",
 					"end": "WMK",
-					"group": 2,
+					"group": 0,
 					"length": 9,
 					"maxSpeed": 100
 				},
 				{
 					"start": "WMK",
 					"end": "WWI",
-					"group": 2,
+					"group": 0,
 					"length": 6,
 					"maxSpeed": 100
 				},
@@ -7690,7 +7690,7 @@
 		},
 		{
 			"electrified": false,
-			"group": 2,
+			"group": 0,
 			"maxSpeed": 120,
 			"twistingFactor": 0.2,
 			"objects": [
@@ -7715,6 +7715,55 @@
 					"start": "WGV",
 					"end": "WK",
 					"length": 22
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 100,
+			"twistingFactor": 0.24,
+			"objects": [
+				{
+					"start": "WG",
+					"end": "WTE",
+					"length": 29,
+					"maxSpeed": 120
+				},
+				{
+					"start": "WTE",
+					"end": "WRST",
+					"length": 25,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "WRST",
+					"end": "WMOE",
+					"length": 19,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "WMOE",
+					"end": "WN",
+					"length": 14
+				},
+				{
+					"start": "WN",
+					"end": "WNA",
+					"length": 16,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "WNA",
+					"end": "WSB",
+					"length": 17,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "WSB",
+					"end": "WP",
+					"length": 18,
+					"twistingFactor": 0.2
 				}
 			]
 		}
