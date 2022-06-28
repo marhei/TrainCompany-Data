@@ -6880,6 +6880,104 @@
 					"twistingFactor": 0.26
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"name": "Berliner Nordbahn",
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "BGS",
+					"end": "BOR",
+					"length": 31,
+					"maxSpeed": 160
+				},
+				{
+					"start": "BOR",
+					"end": "WLO",
+					"length": 16,
+					"maxSpeed": 160
+				},
+				{
+					"start": "WLO",
+					"end": "WGRA",
+					"length": 12,
+					"maxSpeed": 160
+				},
+				{
+					"start": "WGRA",
+					"end": "WF",
+					"length": 21,
+					"maxSpeed": 160
+				},
+				{
+					"start": "WF",
+					"end": "WNT",
+					"length": 20,
+					"maxSpeed": 160
+				},
+				{
+					"start": "WNT",
+					"end": "WBLS",
+					"length": 14,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "WBLS",
+					"end": "WBSG",
+					"length": 12,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "WBSG",
+					"end": "WN",
+					"length": 8,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "WN",
+					"end": "WATR",
+					"length": 15
+				},
+				{
+					"start": "WATR",
+					"end": "WSE",
+					"length": 16,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "WSE",
+					"end": "WDM",
+					"length": 10,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "WDM",
+					"end": "WGI",
+					"length": 23,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "WGI",
+					"end": "WWT",
+					"length": 8,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "WWT",
+					"end": "WZAR",
+					"length": 6,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "WZAR",
+					"end": "WSR",
+					"length": 7,
+					"twistingFactor": 0.15
+				}
+			]
 		}
 	]
 }
