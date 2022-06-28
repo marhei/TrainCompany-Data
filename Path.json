@@ -868,6 +868,38 @@
 		},
 		{
 			"group": 1,
+			"twistingFactor": 0.4,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "SKL",
+					"end": "SSCP",
+					"length": 12
+				},
+				{
+					"start": "SSCP",
+					"end": "SSTA",
+					"length": 6
+				},
+				{
+					"start": "SSTA",
+					"end": "SWAB",
+					"length": 5
+				},
+				{
+					"start": "SWAB",
+					"end": "SPSN",
+					"length": 5
+				},
+				{
+					"start": "SPSN",
+					"end": "SPS",
+					"length": 7
+				}
+			]
+		},
+		{
+			"group": 1,
 			"start": "SNK",
 			"end": "SHO",
 			"twistingFactor": 0.2,
@@ -6690,6 +6722,36 @@
 					"start": "LTH",
 					"end": "LS",
 					"length": 19
+				},
+				{
+					"start": "WW",
+					"end": "LGG",
+					"length": 6
+				},
+				{
+					"start": "LGG",
+					"end": "LSNA",
+					"length": 8
+				},
+				{
+					"start": "LSNA",
+					"end": "LOB",
+					"length": 11
+				},
+				{
+					"start": "LOB",
+					"end": "LGM",
+					"length": 11
+				},
+				{
+					"start": "LGM",
+					"end": "LEST",
+					"length": 5
+				},
+				{
+					"start": "LEST",
+					"end": "LS",
+					"length": 12
 				}
 			]
 		},
