@@ -7687,6 +7687,36 @@
 					"length": 5
 				}
 			]
+		},
+		{
+			"electrified": false,
+			"group": 2,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "AL",
+					"end": "WHB",
+					"length": 9
+				},
+				{
+					"start": "WHB",
+					"end": "WSBG",
+					"length": 11
+				},
+				{
+					"start": "WSBG",
+					"end": "WGV",
+					"length": 17,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "WGV",
+					"end": "WK",
+					"length": 22
+				}
+			]
 		}
 	]
 }
