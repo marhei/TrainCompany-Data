@@ -301,6 +301,20 @@
 		},
 		{
 			"group": 1,
+			"name": "Weser-Ems-Express von %s nach %s",
+			"descriptions": [
+				"Bringe den RE18 von %s nach %s. Der Zug ist nur mittelmäßig ausgelastet.",
+				"Der RE18 muss von %s nach %s gebracht werden. Die Strecke ist nicht sehr stark ausgelastet.",
+				"Bringe den Regional-Express der Linie 18 pünktlich von %s nach %s."
+			],
+			"plops": 250000,
+			"stations": ["HW", "HOLD", "HCLP", "HO"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "RE7 von %s nach %s",
 			"descriptions": [
 				"Bringe den RE7 von %s nach %s. Der Zug ist nur mittelmäßig ausgelastet.",
