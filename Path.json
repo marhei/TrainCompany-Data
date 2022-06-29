@@ -5023,6 +5023,113 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "RF",
+					"end": "REBR",
+					"length": 7,
+					"maxSpeed": 100
+				},
+				{
+					"start": "REBR",
+					"end": "RSAL",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RSAL",
+					"end": "RNO",
+					"length": 3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RNO",
+					"end": "RBKR",
+					"length": 3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RBKR",
+					"end": "RHE",
+					"length": 6,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RHE",
+					"end": "RML",
+					"length": 8,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RML",
+					"end": "RAUG",
+					"length": 3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RAUG",
+					"end": "RSG",
+					"length": 3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RSG",
+					"end": "RBEL",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RBEL",
+					"end": "RRW",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RRW",
+					"end": "RKES",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RKES",
+					"end": "REF",
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "REF",
+					"end": "REI",
+					"length": 4,
+					"maxSpeed": 160
+				},
+				{
+					"start": "REI",
+					"end": "RHL",
+					"length": 2,
+					"maxSpeed": 120
+				},
+				{
+					"start": "RHL",
+					"end": "RW",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "RW",
+					"end": "RB",
+					"length": 3,
+					"maxSpeed": 120
+				}
+			]
+		},
+		{
 			"name": "Oberrheinbahn",
 			"electrified": true,
 			"objects": [
