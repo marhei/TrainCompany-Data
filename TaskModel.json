@@ -463,6 +463,19 @@
 		},
 		{
 			"group": 1,
+			"name": "RE 2 von %s nach %s",
+			"descriptions": [
+				"Der Langläufer muss von %s nach %s gebracht werden.",
+				"Bringe die Fahrgäste sicher von %s in Richtung %s."
+			],
+			"plops": 330000,
+			"stations": ["WWI", "WK", "WL", "WW", "WNS", "BNAU", "BFKS", "BSPD", "BL", "BKW", "BLB", "BCS"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "Regioswinger von %s nach %s",
 			"descriptions": [
 				"Die kurvenreiche Strecke von %s nach %s ist ideal für ein NT-Fahrzeug.",
