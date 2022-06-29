@@ -378,7 +378,10 @@
 				"Bringe den Regional-Express pünktlich von %s nach %s."
 			],
 			"plops": 380000,
-			"stations": ["KKO", "KNL", "FNAS", "FL", "FWG", "FWR", "FG"],
+			"objects": [
+				{"stations": ["KKO", "KNL", "FNAS", "FL", "FWG", "FWR", "FG"]},
+				{"stations": ["RK", "RRA", "RBB", "RAH", "RO", "RHA", "RVL", "RDO", "RIM", "RSI", "RRZ", "RKO"]}
+			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
