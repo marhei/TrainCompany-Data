@@ -2338,6 +2338,199 @@
 			]
 		},
 		{
+			"name": "Hochrheinbahn",
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "RB",
+					"end": "RGRZ",
+					"length": 4
+				},
+				{
+					"start": "RGRZ",
+					"end": "RWY",
+					"length": 3
+				},
+				{
+					"start": "RWY",
+					"end": "RHRT",
+					"length": 4
+				},
+				{
+					"start": "RHRT",
+					"end": "RRH",
+					"length": 3
+				},
+				{
+					"start": "RRH",
+					"end": "RBEU",
+					"length": 4
+				},
+				{
+					"start": "RBEU",
+					"end": "RSST",
+					"length": 4
+				},
+				{
+					"start": "RSST",
+					"end": "RBN",
+					"length": 4
+				},
+				{
+					"start": "RBN",
+					"end": "RSAE",
+					"length": 5
+				},
+				{
+					"start": "RSAE",
+					"end": "RLFG",
+					"length": 9
+				},
+				{
+					"start": "RLFG",
+					"end": "RLBO",
+					"length": 1
+				},
+				{
+					"start": "RLBO",
+					"end": "RAL",
+					"length": 6
+				},
+				{
+					"start": "RAL",
+					"end": "RDRN",
+					"length": 3
+				},
+				{
+					"start": "RDRN",
+					"end": "RWU",
+					"length": 4
+				},
+				{
+					"start": "RWU",
+					"end": "RTI",
+					"length": 6
+				},
+				{
+					"start": "RTI",
+					"end": "RLAC",
+					"length": 3
+				},
+				{
+					"start": "RLAC",
+					"end": "RLAU",
+					"length": 1
+				},
+				{
+					"start": "RLAU",
+					"end": "RGSS",
+					"length": 6
+				},
+				{
+					"start": "RGSS",
+					"end": "RERZ",
+					"length": 4
+				},
+				{
+					"start": "RERZ",
+					"end": "RT",
+					"length": 1
+				},
+				{
+					"start": "RT",
+					"end": "RWIN",
+					"length": 3
+				},
+				{
+					"start": "RWIN",
+					"end": "RNK",
+					"length": 2
+				},
+				{
+					"start": "RNK",
+					"end": "RBE",
+					"length": 7
+				},
+				{
+					"start": "RBE",
+					"end": "RBEF",
+					"length": 1
+				},
+				{
+					"start": "RBEF",
+					"end": "RNHN",
+					"length": 2
+				},
+				{
+					"start": "RNHN",
+					"end": "RSCF",
+					"length": 3
+				},
+				{
+					"start": "RSCF",
+					"end": "RHRB",
+					"length": 4
+				},
+				{
+					"start": "RHRB",
+					"end": "RTG",
+					"length": 5
+				},
+				{
+					"start": "RTG",
+					"end": "RBGN",
+					"length": 2
+				},
+				{
+					"start": "RBGN",
+					"end": "RG",
+					"length": 3
+				},
+				{
+					"start": "RG",
+					"end": "RSI",
+					"length": 6
+				},
+				{
+					"start": "RSI",
+					"end": "RBER",
+					"length": 6
+				},
+				{
+					"start": "RBER",
+					"end": "RRZ",
+					"length": 4
+				},
+				{
+					"start": "RRZ",
+					"end": "RMAR",
+					"length": 3
+				},
+				{
+					"start": "RMAR",
+					"end": "RAB",
+					"length": 6
+				},
+				{
+					"start": "RAB",
+					"end": "RHGN",
+					"length": 2
+				},
+				{
+					"start": "RHGN",
+					"end": "RRU",
+					"length": 3
+				},
+				{
+					"start": "RRU",
+					"end": "RKO",
+					"length": 6
+				}
+			]
+		},
+		{
 			"maxSpeed": 160,
 			"name": "Bahnstrecke Fürth–Würzburg",
 			"objects": [
@@ -4751,6 +4944,64 @@
 			]
 		},
 		{
+			"electrified": false,
+			"maxSpeed": 140,
+			"group": 0,
+			"twistingFactor": 0.25,
+			"objects": [
+				{
+					"start": "NRH",
+					"end": "NRGF",
+					"length": 14
+				},
+				{
+					"start": "NRGF",
+					"end": "NMXH",
+					"length": 13
+				},
+				{
+					"start": "NMXH",
+					"end": "NSCH",
+					"length": 15
+				},
+				{
+					"start": "NSCH",
+					"end": "NIR",
+					"length": 4
+				},
+				{
+					"start": "NIR",
+					"end": "NSDO",
+					"length": 4
+				},
+				{
+					"start": "NSDO",
+					"end": "NNAB",
+					"length": 8
+				},
+				{
+					"start": "NNAB",
+					"end": "NPD",
+					"length": 4
+				},
+				{
+					"start": "NPD",
+					"end": "NWRB",
+					"length": 7
+				},
+				{
+					"start": "NWRB",
+					"end": "NLU",
+					"length": 6
+				},
+				{
+					"start": "NLU",
+					"end": "NWDO",
+					"length": 11
+				}
+			]
+		},
+		{
 			"maxSpeed": 300,
 			"electrified": true,
 			"group": 0,
@@ -4838,6 +5089,99 @@
 					"twistingFactor": 0.2,
 					"length": 23,
 					"maxSpeed": 120
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": false,
+			"maxSpeed": 120,
+			"twistingFactor": 0.15,
+			"objects": [
+				{
+					"start": "HO",
+					"end": "HHAL",
+					"length": 10
+				},
+				{
+					"start": "HHAL",
+					"end": "HAMR",
+					"length": 6
+				},
+				{
+					"start": "HAMR",
+					"end": "HBRM",
+					"length": 4
+				},
+				{
+					"start": "HBRM",
+					"end": "HHES",
+					"length": 3
+				},
+				{
+					"start": "HHES",
+					"end": "HBBR",
+					"length": 13
+				},
+				{
+					"start": "HBBR",
+					"end": "HQ",
+					"length": 13
+				},
+				{
+					"start": "HQ",
+					"end": "HESN",
+					"length": 7
+				},
+				{
+					"start": "HESN",
+					"end": "HCLP",
+					"length": 16
+				},
+				{
+					"start": "HCLP",
+					"end": "HAHO",
+					"length": 12
+				},
+				{
+					"start": "HAHO",
+					"end": "HGRK",
+					"length": 5
+				},
+				{
+					"start": "HGRK",
+					"end": "HHUL",
+					"length": 6
+				},
+				{
+					"start": "HHUL",
+					"end": "HSAK",
+					"length": 7
+				},
+				{
+					"start": "HSAK",
+					"end": "HOLD",
+					"length": 10
+				},
+				{
+					"start": "HOLD",
+					"end": "HRST",
+					"length": 13
+				},
+				{
+					"start": "HRST",
+					"end": "HVA",
+					"length": 18
+				},
+				{
+					"start": "HVA",
+					"end": "HSAN",
+					"length": 14
+				},
+				{
+					"start": "HSAN",
+					"end": "HW",
+					"length": 8
 				}
 			]
 		},
@@ -5925,6 +6269,94 @@
 					"maxSpeed": 80,
 					"twistingFactor": 0.5,
 					"length": 15
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "BFBI",
+					"end": "BKW",
+					"length": 18
+				},
+				{
+					"start": "BKW",
+					"end": "BZS",
+					"length": 3
+				},
+				{
+					"start": "BZS",
+					"end": "BBST",
+					"length": 3
+				},
+				{
+					"start": "BBST",
+					"end": "BTPI",
+					"length": 10
+				},
+				{
+					"start": "BTPI",
+					"end": "BHB",
+					"length": 6
+				},
+				{
+					"start": "BHB",
+					"end": "BOD",
+					"length": 5
+				},
+				{
+					"start": "BOD",
+					"end": "BBRA",
+					"length": 5
+				},
+				{
+					"start": "BBRA",
+					"end": "BSCH",
+					"length": 5
+				},
+				{
+					"start": "BSCH",
+					"end": "BLU",
+					"length": 5
+				},
+				{
+					"start": "BLU",
+					"end": "BLB",
+					"length": 5
+				},
+				{
+					"start": "BLB",
+					"end": "BLN",
+					"length": 11
+				},
+				{
+					"start": "BLN",
+					"end": "BRAD",
+					"length": 7
+				},
+				{
+					"start": "BRAD",
+					"end": "BV",
+					"length": 4
+				},
+				{
+					"start": "BV",
+					"end": "BPA",
+					"length": 8
+				},
+				{
+					"start": "BPA",
+					"end": "BKOW",
+					"length": 4
+				},
+				{
+					"start": "BKOW",
+					"end": "BCS",
+					"length": 6
 				}
 			]
 		},
