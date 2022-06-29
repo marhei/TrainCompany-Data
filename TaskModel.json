@@ -490,6 +490,19 @@
 		},
 		{
 			"group": 1,
+			"name": "RE 4 von %s nach %s",
+			"descriptions": [
+				"Bringe den RegionalExpress einmal quer durch MV.",
+				"Verbinde Norddeutschland und Polen miteinander."
+			],
+			"plops": 250000,
+			"stations": ["AL", "WK", "WB", "WG", "WN", "WP"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "HLB von %s nach %s",
 			"descriptions": [
 				"Diese Regionalbahnlinie führt von %s nach %s von der Lahn an die Fulda.",
