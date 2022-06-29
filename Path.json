@@ -5321,6 +5321,96 @@
 			]
 		},
 		{
+			"name": "Höllentalbahn",
+			"electrified": true,
+			"objects": [
+				{
+					"start": "RF",
+					"end": "RKZ",
+					"length": 12,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "RKZ",
+					"end": "RHIM",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "RHIM",
+					"end": "RHIZ",
+					"length": 11,
+					"maxSpeed": 60,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "RHIZ",
+					"end": "RTIT",
+					"length": 4,
+					"maxSpeed": 60,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "RTIT",
+					"end": "RNSS",
+					"length": 6,
+					"maxSpeed": 70,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "RNSS",
+					"end": "RROE",
+					"length": 11,
+					"maxSpeed": 100,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "RROE",
+					"end": "RLGN",
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "RLGN",
+					"end": "RBH",
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "RBH",
+					"end": "RUN",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "RUN",
+					"end": "RDGN",
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "RDGN",
+					"end": "RHFM",
+					"length": 8,
+					"maxSpeed": 90,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "RHFM",
+					"end": "RDO",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.35
+				}
+			]
+		},
+		{
 			"name": "Oberrheinbahn",
 			"electrified": true,
 			"objects": [
