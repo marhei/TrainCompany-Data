@@ -1092,6 +1092,18 @@
 		},
 		{
 			"group": 0,
+			"name": "Überführungsfahrt von %s nach %2$s",
+			"descriptions": [
+				"Bringe einen alten Zug für die weitere Verwertung von %s nach %s."
+			],
+			"plops": 100000,
+			"stations": ["WSZ", "KLMI"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
 			"name": "Sonderzug des Altenheims %s",
 			"descriptions": [
 				"Die aktiven Rentner wollen heute %2$s besichtigen, bring sie dorthin!",
