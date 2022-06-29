@@ -528,6 +528,7 @@
 			"reliability": 1,
 			"cost": 300000,
 			"operationCosts": 80
+			"compatibleWith": [10,11009,11007]
 		},
 		{
 			"id": 29,
@@ -586,7 +587,7 @@
 			"cost": 400000,
 			"operationCosts": 90,
 			"equipments": ["ETCS"],
-			"compatibleWith": [1116]
+			"compatibleWith": [1116,11009,11007]
 		},
 		{
 			"id": 193,
@@ -616,7 +617,8 @@
 			"reliability": 1,
 			"cost": 400000,
 			"operationCosts": 80,
-			"equipments": ["ETCS", "FR"]
+			"equipments": ["ETCS", "FR"],
+			"compatibleWith": [11009,11007]
 		},
 		{
 			"id": 5,
@@ -712,7 +714,9 @@
 			"drive": 2,
 			"reliability": 1,
 			"cost": 450000,
-			"operationCosts": 200
+			"operationCosts": 200,
+			"compatibleWith": [11009,11007],
+			
 		},
 		{
 			"id": 245,      
@@ -726,7 +730,8 @@
 			"drive": 2,
 			"reliability": 0.9,
 			"cost": 500000,
-			"operationCosts": 200
+			"operationCosts": 200,
+			"compatibleWith": [11009,11007]
 		},
 		{
 			"id": 4,
@@ -942,7 +947,7 @@
 			"reliability": 0.9,
 			"cost": 580000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [251,15,6,309],
+			"compatibleWith": [251,15,6,28,245],
 			"exchangeTime": 120,
 			"equivalentTo": 4,
 			"capacity": [
@@ -961,7 +966,7 @@
 			"reliability": 0.9,
 			"cost": 850000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [251,15,6,30],
+			"compatibleWith": [251,15,6,28,245],
 			"exchangeTime": 120,
 			"equivalentTo": 6,
 			"capacity": [
