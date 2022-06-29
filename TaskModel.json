@@ -349,6 +349,18 @@
 		},
 		{
 			"group": 1,
+			"name": "RE 5 von %s nach %s",
+			"descriptions": [
+				"Starte mit deiner Ausschreibung den RE von %s nach %s."
+			],
+			"plops": 250000,
+			"stations": ["AH", "AHAR", "ABX", "AHOG", "AST", "AHAM", "AHPF", "AHEN", "AHEM", "AWG", "ACD", "AOF", "ACV"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "S1 von %s nach %s",
 			"descriptions": [
 				"Die Linie S1 der S-Bahn Rhein-Neckar muss von %s nach %s gebracht werden.",
