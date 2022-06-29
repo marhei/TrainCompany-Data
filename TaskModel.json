@@ -101,7 +101,10 @@
 				"Bring die Fahrgäste SFS von %s nach %s."
 			],
 			"plops": 472000,
-			"stations": ["RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH"],
+			"objects": [
+				{"stations": ["RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH"]},
+				{"stations": ["RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH", "AA", "AN", "AK"]}
+			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -213,9 +216,9 @@
 			"plops": 450000,
 			"objects":
 			[
-				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "NWH", "NN"]},
-				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM"]},
-				{"stations": ["KD", "KK", "FF", "NWH", "NN"]}
+				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "NWH", "NN", "MH"]},
+				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM", "RK", "RF"]},
+				{"stations": ["KD", "KK", "FF", "NWH", "NN", "MH"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0},
@@ -230,7 +233,12 @@
 				"Bringe die Fahrgäste in den Urlaub."
 			],
 			"plops": 450000,
-			"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM"],
+			"objects": [
+				{"stations": ["AA", "AH", "HH", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF"]},
+				{"stations": ["KA", "KK", "KBB", "FF", "NWH", "NN", "MH"]},
+				{"stations": ["BL", "BPD", "LM", "HHI", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF"]}
+
+			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
