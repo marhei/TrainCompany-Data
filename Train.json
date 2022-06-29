@@ -528,6 +528,7 @@
 			"reliability": 1,
 			"cost": 300000,
 			"operationCosts": 80
+			"compatibleWith": [10,11009,11007]
 		},
 		{
 			"id": 29,
@@ -586,7 +587,7 @@
 			"cost": 400000,
 			"operationCosts": 90,
 			"equipments": ["ETCS"],
-			"compatibleWith": [1116]
+			"compatibleWith": [1116,11009,11007]
 		},
 		{
 			"id": 193,
@@ -616,7 +617,8 @@
 			"reliability": 1,
 			"cost": 400000,
 			"operationCosts": 80,
-			"equipments": ["ETCS", "FR"]
+			"equipments": ["ETCS", "FR"],
+			"compatibleWith": [11009,11007]
 		},
 		{
 			"id": 5,
@@ -700,7 +702,37 @@
 			"operationCosts": 110,
 			"equipments": ["FR"]
 		},
-
+{
+			"id": 251,      
+			"group": 0,
+			"name": "MaK DE 2700",
+			"shortcut": "BR 251",
+			"speed": 160,
+			"weight": 122,
+			"force": 410,
+			"length": 21,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 450000,
+			"operationCosts": 200,
+			"compatibleWith": [11009,11007],
+			
+		},
+		{
+			"id": 245,      
+			"group": 0,
+			"name": "P160 DE ME",
+			"shortcut": "BR 245",
+			"speed": 160,
+			"weight": 82,
+			"force": 300,
+			"length": 19,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 500000,
+			"operationCosts": 200,
+			"compatibleWith": [11009,11007]
+		},
 		{
 			"id": 4,
 			"group": 1,
@@ -901,6 +933,44 @@
 			"equivalentTo": 5,
 			"capacity": [
 				{"name": "passengers", "value": 625}
+			]
+		},
+		{
+			"id": 11007,
+			"group": 3,
+			"name": "Married-Pair-Wagen 4-Tlg",
+			"speed": 160,
+			"weight": 166,
+			"force": 0,
+			"length": 109,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 580000,
+			"maxConnectedUnits": 1,
+			"compatibleWith": [251,15,6,28,245],
+			"exchangeTime": 120,
+			"equivalentTo": 4,
+			"capacity": [
+				{"name": "passengers", "value": 379}
+			]
+		},
+		{
+			"id": 11009,
+			"group": 3,
+			"name": "Married-Pair-Wagen 6-Tlg",
+			"speed": 160,
+			"weight": 242,
+			"force": 0,
+			"length": 135,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 850000,
+			"maxConnectedUnits": 1,
+			"compatibleWith": [251,15,6,28,245],
+			"exchangeTime": 120,
+			"equivalentTo": 6,
+			"capacity": [
+				{"name": "passengers", "value": 599}
 			]
 		},
 		{
