@@ -5321,6 +5321,54 @@
 			]
 		},
 		{
+			"name": "Wiesentalbahn",
+			"electrified": true,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "RB",
+					"end": "RRIE",
+					"length": 4
+				},
+				{
+					"start": "RRIE",
+					"end": "RLST",
+					"length": 2
+				},
+				{
+					"start": "RLST",
+					"end": "RLR",
+					"length": 2
+				},
+				{
+					"start": "RLR",
+					"end": "RSTN",
+					"length": 7
+				},
+				{
+					"start": "RSTN",
+					"end": "RSCH",
+					"length": 6
+				},
+				{
+					"start": "RSCH",
+					"end": "RFN",
+					"length": 2
+				},
+				{
+					"start": "RFN",
+					"end": "RHSN",
+					"length": 2
+				},
+				{
+					"start": "RHSN",
+					"end": "RZ",
+					"length": 3
+				}
+			]
+		},
+		{
 			"name": "Höllentalbahn",
 			"electrified": true,
 			"objects": [
