@@ -4608,6 +4608,59 @@
 		{
 			"group": 0,
 			"electrified": true,
+			"maxSpeed": 140,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "HO",
+					"end": "HLOT",
+					"length": 10
+				},
+				{
+					"start": "HLOT",
+					"end": "HVEP",
+					"length": 5
+				},
+				{
+					"start": "HVEP",
+					"end": "HI",
+					"length": 11
+				},
+				{
+					"start": "HI",
+					"end": "HHTL",
+					"length": 9
+				},
+				{
+					"start": "HHTL",
+					"end": "HR",
+					"length": 12
+				},
+				{
+					"start": "HR",
+					"end": "HSAL",
+					"length": 7
+				},
+				{
+					"start": "HSAL",
+					"end": "HSTT",
+					"length": 10
+				},
+				{
+					"start": "HSTT",
+					"end": "HBTH",
+					"length": 4
+				},
+				{
+					"start": "HBTH",
+					"end": "XNHL",
+					"length": 9
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
 			"maxSpeed": 160,
 			"objects": [
 				{
