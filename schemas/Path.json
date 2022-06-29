@@ -133,17 +133,19 @@
 					"description": "Kurvigkeit. 1 ist am kurvigsten",
 					"type": "number",
 					"minimum": 0,
-					"maximum": 1
+					"maximum": 0.8
 				},
 				"length": {
 					"description": "Länge der Strecke",
 					"type": "integer",
-					"minimum": 0
+					"minimum": 1,
+					"maximum": 100
 				},
 				"maxSpeed": {
 					"description": "Höchstgeschwindigkeit des Streckenabschnitts",
 					"type": "integer",
-					"minimum": 1
+					"minimum": 10,
+					"maximum": 320
 				},
 				"electrified": {
 					"description": "Elektrifiziert",
