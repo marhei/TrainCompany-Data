@@ -4751,6 +4751,64 @@
 			]
 		},
 		{
+			"electrified": false,
+			"maxSpeed": 140,
+			"group": 0,
+			"twistingFactor": 0.25,
+			"objects": [
+				{
+					"start": "NRH",
+					"end": "NRGF",
+					"length": 14
+				},
+				{
+					"start": "NRGF",
+					"end": "NMXH",
+					"length": 13
+				},
+				{
+					"start": "NMXH",
+					"end": "NSCH",
+					"length": 15
+				},
+				{
+					"start": "NSCH",
+					"end": "NIR",
+					"length": 4
+				},
+				{
+					"start": "NIR",
+					"end": "NSDO",
+					"length": 4
+				},
+				{
+					"start": "NSDO",
+					"end": "NNAB",
+					"length": 8
+				},
+				{
+					"start": "NNAB",
+					"end": "NPD",
+					"length": 4
+				},
+				{
+					"start": "NPD",
+					"end": "NWRB",
+					"length": 7
+				},
+				{
+					"start": "NWRB",
+					"end": "NLU",
+					"length": 6
+				},
+				{
+					"start": "NLU",
+					"end": "NWDO",
+					"length": 11
+				}
+			]
+		},
+		{
 			"maxSpeed": 300,
 			"electrified": true,
 			"group": 0,
