@@ -292,7 +292,7 @@
 		{
 			"id": 21,
 			"group": 2,
-			"name": "Siemens Desiro HC Franken/Südthüringen",
+			"name": "Siemens Desiro HC Franken/Thüringen",
 			"shortcut": "BR 462",
 			"speed": 190,
 			"weight": 287,
@@ -442,6 +442,44 @@
 			"equipments": ["FR"],
 			"capacity": [
 				{"name": "passengers", "value": 149}
+			]
+		},
+		{
+			"id": 646,
+			"group": 2,
+			"name": "Stadler GTW",
+			"shortcut": "GTW",
+			"speed": 140,
+			"weight": 60,
+			"force": 70,
+			"length": 40,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 250000,
+			"operationCosts": 50,
+			"maxConnectedUnits": 3,
+			"equipments": ["NL"],
+			"capacity": [
+				{"name": "passengers", "value": 100}
+			]
+		},
+		{
+			"id": 672,
+			"group": 2,
+			"name": "DWA LVT/S",
+			"shortcut": "BR 672",
+			"speed": 100,
+			"weight": 32,
+			"force": 36,
+			"length": 17,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 200000,
+			"operationCosts": 30,
+			"maxConnectedUnits": 4,
+			"exchangeTime": 30,
+			"capacity": [
+				{"name": "passengers", "value": 60}
 			]
 		},
 		{
