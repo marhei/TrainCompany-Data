@@ -5008,6 +5008,59 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"twistingFactor": 0.3,
+			"maxSpeed": 120,
+			"objects": [
+				{
+					"start": "NSCH",
+					"end": "NBOE",
+					"length": 20
+				},
+				{
+					"start": "NBOE",
+					"end": "NNAE",
+					"length": 9
+				},
+				{
+					"start": "NNAE",
+					"end": "NROD",
+					"length": 7
+				},
+				{
+					"start": "NROD",
+					"end": "NPOE",
+					"length": 3
+				},
+				{
+					"start": "NPOE",
+					"end": "NCH",
+					"length": 8
+				},
+				{
+					"start": "NCH",
+					"end": "NKMG",
+					"length": 7
+				},
+				{
+					"start": "NKMG",
+					"end": "NWDG",
+					"length": 4
+				},
+				{
+					"start": "NWDG",
+					"end": "NARG",
+					"length": 4
+				},
+				{
+					"start": "NARG",
+					"end": "NFW",
+					"length": 5
+				}
+			]
+		},
+		{
 			"maxSpeed": 300,
 			"electrified": true,
 			"group": 0,
