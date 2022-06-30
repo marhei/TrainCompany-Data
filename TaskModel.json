@@ -10,7 +10,6 @@
 				"Bringe den ICE über die SFS pünktlich von %s nach %s."
 			],
 			"plops": 500000,
-			"plopDifference": 8,
 			"objects":
 			[
 				{"stations": ["RM", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM"]},
@@ -30,7 +29,6 @@
 				"Bringe den ICE Sprinter schnell und pünktlich von %s nach %s."
 			],
 			"plops": 500000,
-			"plopDifference": 8,
 			"objects": [
 				{"stations": ["AH", "HH", "FKW", "FF", "FD"]},
 				{
@@ -52,7 +50,6 @@
 				"Bringe den ICE über das Ruhrgebiet pünktlich von %s nach %s."
 			],
 			"plops": 560000,
-			"plopDifference": 8,
 			"stations": ["FD", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FFU", "NWH", "NN"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -67,7 +64,6 @@
 				"Bringe den ICE pünktlich und schnell von %s nach %s."
 			],
 			"plops": 480000,
-			"plopDifference": 8,
 			"objects":
 			[
 				{"stations": ["RK", "RM", "FF", "FH", "FFU", "FKW", "HG", "HH", "HWOB", "BL", "BHF"]},
@@ -87,7 +83,6 @@
 				"Bring die Fahrgäste Abseits der SFS von %s nach %s."
 			],
 			"plops": 480000,
-			"plopDifference": 8,
 			"stations": ["FW", "FMZ", "FFLF", "FF", "FH", "FFU", "FBHF", "UEI", "UGO", "UE P", "LL"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -116,7 +111,6 @@
 				"Auf dem französischen Abschnitt ist ein Umstieg in einen Zug der SNCF nötig."
 			],
 			"plops": 480000,
-			"plopDifference": 8,
 			"stations": ["FF", "RM", "SKL", "SSH", "XFFB"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -144,7 +138,6 @@
 				"Der ICE International fängt heute erst in %2$s an, bringe die Fahrgäste dort schnell hin."
 			],
 			"plops": 150000,
-			"plopDifference": 8,
 			"stations": ["FF", "FFLF"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -159,7 +152,6 @@
 				"Bringe den IC über die Rheinstrecke pünktlich von %s nach %s."
 			],
 			"plops": 450000,
-			"plopDifference": 8,
 			"objects":
 			[
 				{"stations": ["SSH", "STR", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO"]},
@@ -1259,11 +1251,9 @@
 				"Die Autos müssen schnell nach %2$s. Der Zug startet in %1$s."
 			],
 			"plops": 550000,
-			"plopDifference": 8,
 			"neededCapacity": [
 				{"name": "cars", "value": 120}
-			],
-			"neededCapacityDifference": 3
+			]
 		},
 		{
 			"group": 0,
@@ -1273,11 +1263,9 @@
 				"Die Container müssen vom Umschlagbahnhof %s an den Hafen von %s gebracht werden."
 			],
 			"plops": 550000,
-			"plopDifference": 8,
 			"neededCapacity": [
 				{"name": "containers", "value": 25}
-			],
-			"neededCapacityDifference": 3
+			]
 		},
 		{
 			"group": 0,
@@ -1288,7 +1276,6 @@
 				"Aufgrund von schlechtem Essen in der Kantine eines Logistikdienstleisters in %s muss schnell ein Ersatzzug nach %s."
 			],
 			"plops": 300000,
-			"plopDifference": 6,
 			"neededCapacity": [
 				{"name": "containers", "value": 15}
 			]
@@ -1312,14 +1299,12 @@
 				"Die Waren müssen von %s zum Rangierbahnhof nach %s gebracht werden."
 			],
 			"plops": 550000,
-			"plopDifference": 8,
 			"neededCapacity": [
 				{"name": "containers", "value": 10},
 				{"name": "cars", "value": 50},
 				{"name": "wood", "value": 100},
 				{"name": "oil", "value": 100}
-			],
-			"neededCapacityDifference": 3
+			]
 		},
 		{
 			"group": 0,
@@ -1328,11 +1313,9 @@
 				"Die Brennstäbe müssen vom AKW %s zur Aufbereitungsanlage %s gebracht werden."
 			],
 			"plops": 1000000,
-			"plopDifference": 8,
 			"neededCapacity": [
 				{"name": "castor", "value": 10}
-			],
-			"neededCapacityDifference": 3
+			]
 		},
 		{
 			"group": 0,
@@ -1347,7 +1330,6 @@
 				"Bringe ein*e Politiker*in medienwirksam zum Klimagipfel nach %s."
 			],
 			"plops": 500000,
-			"plopDifference": 8,
 			"objects": [
 				{"stations": ["ALB", "BFBI"]},
 				{"stations": ["ALB", "FFLF"]},
