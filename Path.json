@@ -2496,37 +2496,44 @@
 				{
 					"start": "RSI",
 					"end": "RBER",
-					"length": 6
+					"length": 6,
+					"electrified": true
 				},
 				{
 					"start": "RBER",
 					"end": "RRZ",
-					"length": 4
+					"length": 4,
+					"electrified": true
 				},
 				{
 					"start": "RRZ",
 					"end": "RMAR",
-					"length": 3
+					"length": 3,
+					"electrified": true
 				},
 				{
 					"start": "RMAR",
 					"end": "RAB",
-					"length": 6
+					"length": 6,
+					"electrified": true
 				},
 				{
 					"start": "RAB",
 					"end": "RHGN",
-					"length": 2
+					"length": 2,
+					"electrified": true
 				},
 				{
 					"start": "RHGN",
 					"end": "RRU",
-					"length": 3
+					"length": 3,
+					"electrified": true
 				},
 				{
 					"start": "RRU",
 					"end": "RKO",
-					"length": 6
+					"length": 6,
+					"electrified": true
 				}
 			]
 		},
@@ -6238,13 +6245,8 @@
 				},
 				{
 					"start": "BHR",
-					"end": "BMH",
-					"length": 1
-				},
-				{
-					"start": "BMH",
 					"end": "BKOD",
-					"length": 4
+					"length": 5
 				},
 				{
 					"start": "BKOD",
@@ -8927,32 +8929,27 @@
 				{
 					"start": "WNT",
 					"end": "WKG",
-					"electrified": true,
 					"length": 14
 				},
 				{
 					"start": "WKG",
 					"end": "WWR",
-					"electrified": true,
 					"length": 21
 				},
 				{
 					"start": "WWR",
 					"end": "WLG",
-					"electrified": true,
 					"length": 25
 				},
 				{
 					"start": "WLG",
 					"end": "WG",
-					"electrified": false,
 					"length": 25,
 					"maxSpeed": 120
 				},
 				{
 					"start": "WG",
 					"end": "WSN",
-					"electrified": true,
 					"length": 17,
 					"maxSpeed": 120
 				}

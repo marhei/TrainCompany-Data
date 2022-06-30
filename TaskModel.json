@@ -231,7 +231,7 @@
 			"objects":
 			[
 				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "NWH", "NN", "MH"]},
-				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM", "RK", "RF", "RB"]},
+				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM", "RK", "RF", "RDO", "RSI", "RB", "RLR"]},
 				{"stations": ["KD", "KK", "FF", "NWH", "NN", "MH"]}
 			],
 			"neededCapacity": [
@@ -248,9 +248,9 @@
 			],
 			"plops": 450000,
 			"objects": [
-				{"stations": ["AA", "AH", "HH", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF"]},
+				{"stations": ["AA", "AH", "HH", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF", "RB"]},
 				{"stations": ["KA", "KK", "KBB", "FF", "NWH", "NN", "MH"]},
-				{"stations": ["BL", "BPD", "LM", "HHI", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF"]}
+				{"stations": ["BL", "BPD", "LM", "HHI", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF", "RB"]}
 
 			],
 			"neededCapacity": [
@@ -295,6 +295,20 @@
 			],
 			"plops": 380000,
 			"stations": ["EHG", "EARB", "EOLS", "EMAR", "HWAR", "FKW"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Weser-Ems-Express von %s nach %s",
+			"descriptions": [
+				"Bringe den RE18 von %s nach %s. Der Zug ist nur mittelmäßig ausgelastet.",
+				"Der RE18 muss von %s nach %s gebracht werden. Die Strecke ist nicht sehr stark ausgelastet.",
+				"Bringe den Regional-Express der Linie 18 pünktlich von %s nach %s."
+			],
+			"plops": 250000,
+			"stations": ["HW", "HOLD", "HCLP", "HO"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -364,7 +378,10 @@
 				"Bringe den Regional-Express pünktlich von %s nach %s."
 			],
 			"plops": 380000,
-			"stations": ["KKO", "KNL", "FNAS", "FL", "FWG", "FWR", "FG"],
+			"objects": [
+				{"stations": ["KKO", "KNL", "FNAS", "FL", "FWG", "FWR", "FG"]},
+				{"stations": ["RK", "RRA", "RBB", "RAH", "RO", "RHA", "RVL", "RDO", "RIM", "RSI", "RRZ", "RKO"]}
+			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -443,6 +460,19 @@
 			],
 			"plops": 300000,
 			"stations": ["NBA", "NS", "NWH", "NGM", "NLO", "NWI", "NLA", "NAH", "FH", "FO", "FF"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 2 von %s nach %s",
+			"descriptions": [
+				"Der Langläufer muss von %s nach %s gebracht werden.",
+				"Bringe die Fahrgäste sicher von %s in Richtung %s."
+			],
+			"plops": 330000,
+			"stations": ["WWI", "WK", "WL", "WW", "WNS", "BNAU", "BFKS", "BSPD", "BL", "BKW", "BLB", "BCS"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -717,7 +747,7 @@
 			"objects": [
 				{
 					"name": "Hanse-Express von %s nach %s",
-					"stations": ["AH", "AMUE", "ABCH", "WBZ", "WBRH", "WHL", "WS", "WK", "WBL", "WB", "WSN", "WR"]
+					"stations": ["AH", "ABCH", "WBZ", "WBRH", "WHL", "WS", "WK", "WBL", "WB", "WSN", "WR"]
 				},
 				{
 					"name": "RE3 von %s nach %s",
