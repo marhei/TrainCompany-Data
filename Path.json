@@ -9423,6 +9423,46 @@
 					"twistingFactor": 0.2
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "HA",
+					"end": "ESDB",
+					"length": 11
+				},
+				{
+					"start": "ESDB",
+					"end": "EHBM",
+					"length": 8
+				},
+				{
+					"start": "EHBM",
+					"end": "EDTM",
+					"length": 9
+				},
+				{
+					"start": "EDTM",
+					"end": "ELAG",
+					"length": 8
+				},
+				{
+					"start": "ELAG",
+					"end": "EBSU",
+					"length": 11,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "EBSU",
+					"end": "EHFD",
+					"length": 7,
+					"twistingFactor": 0.2
+				}
+			]
 		}
 	]
 }
