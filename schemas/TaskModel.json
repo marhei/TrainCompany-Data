@@ -108,13 +108,6 @@
 					"type": "integer",
 					"minimum": 0
 				},
-				"plopDifference": {
-					"description": "Zufällige Abweichung des Verdiensts in Prozent +/-",
-					"type": "integer",
-					"minimum": 0,
-					"maximum": 100,
-					"default": 5
-				},
 				"stations": {
 					"description": "Ril100 aller Bahnhöfe, die angefahren werden sollen in der richtigen Reihenfolge.\nWird keiner angegeben, werden zwei zufällige gewählt.",
 					"type": "array",
