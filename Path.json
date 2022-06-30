@@ -10117,6 +10117,55 @@
 					"length": 12
 				}
 			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "MP",
+					"end": "MGE",
+					"electrified": true,
+					"length": 34
+				},
+				{
+					"start": "MGE",
+					"end": "MBU",
+					"electrified": false,
+					"length": 25
+				},
+				{
+					"start": "MBU",
+					"end": "MTHB",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 140
+				},
+				{
+					"start": "MTHB",
+					"end": "MMH",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 140
+				},
+				{
+					"start": "MMH",
+					"end": "MSHM",
+					"electrified": false,
+					"length": 13,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "MSHM",
+					"end": "MM",
+					"electrified": false,
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				}
+			]
 		}
 	]
 }
