@@ -9527,6 +9527,48 @@
 					"twistingFactor": 0.24
 				}
 			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.24,
+			"objects": [
+				{
+					"start": "LHB",
+					"end": "LGAL",
+					"length": 17
+				},
+				{
+					"start": "LGAL",
+					"end": "LAL",
+					"length": 14
+				},
+				{
+					"start": "LAL",
+					"end": "LSL",
+					"length": 11,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "LSL",
+					"end": "LKO",
+					"length": 16,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "LKO",
+					"end": "LHT",
+					"length": 22,
+					"maxSpeed": 130
+				},
+				{
+					"start": "LHT",
+					"end": "LH",
+					"length": 7,
+					"maxSpeed": 130
+				}
+			]
 		}
 	]
 }
