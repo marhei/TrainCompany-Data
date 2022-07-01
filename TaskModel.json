@@ -628,6 +628,18 @@
 		},
 		{
 			"group": 1,
+			"name": "RB 23 von %s nach %s",
+			"descriptions": [
+				"Die Usedomer Bäderbahn bringt Touristen auf die Insel."
+			],
+			"plops": 150000,
+			"stations": ["WZS", "WBHN", "WWO", "WTH", "WZ", "WUEK", "WBN", "WHF", "XPSM"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB77 von %s nach %s",
 			"descriptions": [
 				"Bring die Fahrgäste pünktlich von %s nach %s.",
