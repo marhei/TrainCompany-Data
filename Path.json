@@ -10025,7 +10025,9 @@
 			"group": 2,
 			"maxSpeed": 250,
 			"twistingFactor": 0.1,
-			"neededEquipments": ["ETCS"],
+			"neededEquipments": [
+				"ETCS"
+			],
 			"objects": [
 				{
 					"start": "TS",
@@ -10200,6 +10202,7 @@
 		},
 		{
 			"group": 0,
+			"electrified": true,
 			"objects": [
 				{
 					"start": "MM",
@@ -10248,6 +10251,613 @@
 					"end": "MLIR",
 					"length": 23,
 					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"group": 0,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "TU",
+					"end": "TLL",
+					"electrified": false,
+					"length": 16,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TLL",
+					"end": "TGB",
+					"electrified": false,
+					"length": 22,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TGB",
+					"end": "THD",
+					"electrified": false,
+					"length": 11,
+					"maxSpeed": 110
+				},
+				{
+					"start": "THD",
+					"end": "TON",
+					"electrified": false,
+					"length": 13,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TON",
+					"end": "TA",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TA",
+					"end": "TGL",
+					"electrified": true,
+					"length": 6,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TGL",
+					"end": "TEL",
+					"electrified": true,
+					"length": 9,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TEL",
+					"end": "TJZ",
+					"electrified": true,
+					"length": 8,
+					"maxSpeed": 90,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "TJZ",
+					"end": "TC",
+					"electrified": true,
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"group": 0,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "TH",
+					"end": "TOE",
+					"electrified": true,
+					"length": 26,
+					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TOE",
+					"end": "TNN",
+					"electrified": false,
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TNN",
+					"end": "TWG",
+					"electrified": false,
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "TWG",
+					"end": "TSHL",
+					"electrified": false,
+					"length": 14,
+					"maxSpeed": 110,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "TSHL",
+					"end": "TEI",
+					"electrified": false,
+					"length": 24,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TEI",
+					"end": "TC",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 140
+				},
+				{
+					"start": "TC",
+					"end": "NSNE",
+					"electrified": true,
+					"length": 11,
+					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "NSNE",
+					"end": "NDB",
+					"electrified": true,
+					"length": 11,
+					"maxSpeed": 150
+				},
+				{
+					"start": "NDB",
+					"end": "NLWI",
+					"electrified": true,
+					"length": 13,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NLWI",
+					"end": "NAN",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 150
+				},
+				{
+					"start": "NAN",
+					"end": "NWK",
+					"electrified": true,
+					"length": 11,
+					"maxSpeed": 130
+				},
+				{
+					"start": "NWK",
+					"end": "NHE",
+					"electrified": true,
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "NHE",
+					"end": "NRL",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NRL",
+					"end": "NN",
+					"electrified": true,
+					"length": 14,
+					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "MA",
+					"end": "MGAL",
+					"length": 11,
+					"twistingFactor": 0.12,
+					"maxSpeed": 200
+				},
+				{
+					"start": "MGAL",
+					"end": "MMEI",
+					"length": 8,
+					"twistingFactor": 0.12,
+					"maxSpeed": 200
+				},
+				{
+					"start": "MMEI",
+					"end": "MDT",
+					"length": 20,
+					"twistingFactor": 0.12,
+					"maxSpeed": 200
+				},
+				{
+					"start": "MDT",
+					"end": "MOTW",
+					"length": 22,
+					"maxSpeed": 140,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "MOTW",
+					"end": "MTL",
+					"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "MTL",
+					"end": "NWG",
+					"length": 8,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NWG",
+					"end": "NPLF",
+					"length": 9,
+					"maxSpeed": 130,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "NPLF",
+					"end": "NRO",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "NRO",
+					"end": "NSC",
+					"length": 10,
+					"maxSpeed": 130,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "NSC",
+					"end": "NN",
+					"length": 15,
+					"maxSpeed": 130
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 140,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "MIH",
+					"end": "MNBD",
+					"length": 24
+				},
+				{
+					"start": "MNBD",
+					"end": "MRN",
+					"length": 19
+				},
+				{
+					"start": "MRN",
+					"end": "MDT",
+					"length": 12
+				},
+				{
+					"start": "MDT",
+					"end": "MHDT",
+					"length": 18
+				},
+				{
+					"start": "MHDT",
+					"end": "MDIL",
+					"length": 7
+				},
+				{
+					"start": "MDIL",
+					"end": "MLIG",
+					"length": 4
+				},
+				{
+					"start": "MLIG",
+					"end": "MGZB",
+					"length": 18
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "MDT",
+					"end": "MHRG",
+					"length": 11,
+					"maxSpeed": 100,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "MHRG",
+					"end": "MNL",
+					"length": 18,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "MNL",
+					"end": "TPF",
+					"length": 5,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TPF",
+					"end": "TBP",
+					"length": 7,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TBP",
+					"end": "TLH",
+					"length": 11,
+					"maxSpeed": 90,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "TLH",
+					"end": "TGL",
+					"length": 9,
+					"maxSpeed": 110,
+					"twistingFactor": 0.24
+				}
+			]
+		},
+		{
+			"group": 0,
+			"objects": [
+				{
+					"start": "MRO",
+					"end": "MBEF",
+					"electrified": true,
+					"length": 16,
+					"twistingFactor": 0.15,
+					"maxSpeed": 140
+				},
+				{
+					"start": "MBEF",
+					"end": "MPR",
+					"electrified": true,
+					"length": 8,
+					"twistingFactor": 0.3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "MPR",
+					"end": "MUS",
+					"electrified": true,
+					"length": 13,
+					"twistingFactor": 0.23,
+					"maxSpeed": 130
+				},
+				{
+					"start": "MUS",
+					"end": "MTS",
+					"electrified": true,
+					"length": 15,
+					"twistingFactor": 0.3,
+					"maxSpeed": 130
+				},
+				{
+					"start": "MTS",
+					"end": "MTO",
+					"electrified": true,
+					"length": 16,
+					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "MTO",
+					"end": "MFL",
+					"electrified": true,
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "MFL",
+					"end": "XASB",
+					"electrified": false,
+					"length": 6,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Gäubahn",
+			"group": 0,
+			"objects": [
+				{
+					"start": "TS",
+					"end": "TBO",
+					"length": 25,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TBO",
+					"end": "THE",
+					"length": 15,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "THE",
+					"end": "TET",
+					"length": 15,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TET",
+					"end": "THB",
+					"length": 10,
+					"maxSpeed": 90,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "THB",
+					"end": "TSUL",
+					"length": 13,
+					"maxSpeed": 110,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "TSUL",
+					"end": "TOB",
+					"length": 11,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TOB",
+					"end": "TR",
+					"length": 18,
+					"maxSpeed": 90,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "TR",
+					"end": "TSP",
+					"length": 14,
+					"maxSpeed": 120,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "TSP",
+					"end": "TTU",
+					"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.24
+				}
+			]
+		},
+		{
+			"group": 0,
+			"objects": [
+				{
+					"start": "THB",
+					"end": "TRT",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 90,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TRT",
+					"end": "TT",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "TT",
+					"end": "TRE",
+					"electrified": true,
+					"length": 14,
+					"twistingFactor": 0.25,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TRE",
+					"end": "TME",
+					"electrified": true,
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TME",
+					"end": "TNU",
+					"electrified": true,
+					"length": 13,
+					"maxSpeed": 120,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "TNU",
+					"end": "TWD",
+					"electrified": true,
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "TWD",
+					"end": "TP",
+					"electrified": true,
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.24
+				}
+			]
+		},
+		{
+			"maxSpeed": 100,
+			"twistingFactor": 0.25,
+			"objects": [
+				{
+					"start": "TET",
+					"end": "TDS",
+					"electrified": true,
+					"group": 0,
+					"length": 23
+				},
+				{
+					"start": "TDS",
+					"end": "TFS",
+					"electrified": true,
+					"group": 1,
+					"length": 6
+				},
+				{
+					"start": "TFS",
+					"end": "RALP",
+					"electrified": false,
+					"group": 1,
+					"length": 16,
+					"maxSpeed": 70,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RALP",
+					"end": "RSZL",
+					"electrified": false,
+					"group": 1,
+					"length": 5,
+					"maxSpeed": 70,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RSZL",
+					"end": "RSCL",
+					"electrified": false,
+					"group": 1,
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RSCL",
+					"end": "RWO",
+					"electrified": false,
+					"group": 1,
+					"length": 9,
+					"maxSpeed": 70,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RWO",
+					"end": "RHA",
+					"electrified": false,
+					"group": 1,
+					"length": 4,
+					"maxSpeed": 70,
 					"twistingFactor": 0.3
 				}
 			]
