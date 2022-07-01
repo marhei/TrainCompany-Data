@@ -9,6 +9,10 @@
 					"delay": 1000
 				},
 				{
+					"name": "Aufgrund einer Bremsstörung musste eine Druckluftbremse augeschaltet werden.",
+					"delay": 1000
+				},
+				{
 					"name": "Es fand eine Zugtrennung auf freier Strecke statt.",
 					"delay": 1200
 				},
@@ -19,6 +23,10 @@
 				{
 					"name": "Die Klimaanlage im Führerstand ist ausgefallen, der Lokführer hat eine Drehfahrt beantragt.",
 					"delay": 1200
+				},
+				{
+					"name": "Am Triebfahrzeug musste ein Batteriereset durchgeführt werden.",
+					"delay": 1000
 				}
 			]
 		},
@@ -40,8 +48,11 @@
 				{
 					"name": "Der Lokführer ist über seine Arbeitszeit gekommen und musste abgelöst werden.",
 					"delay": 1000
+				},
+				{
+					"name": "Es kam zu einer Fehlleitung und der Lokführer musste den Zug zurücksetzen.",
+					"delay": 1000
 				}
-
 			]
 		},
 		{
@@ -63,31 +74,66 @@
 				{
 					"name": "Ein Fahrgast hat im Ruheabteil mit seinem Handy telefoniert und einen Aufstand gemacht.",
 					"delay": 900
+				},
+				{
+					"name": "Die Klimaanlage ist in einem Wagen ausgefallen und das Zugpersonal musste an alle Fahrgäste kostenloses Eis verteilen.",
+					"delay": 900
 				}
 			]
 		},
 		{
 			"type": 2,
+			"capacity": "wood",
 			"objects" : [
 				{
 					"name": "Es ist Holz vom Wagen gerutscht.",
-					"delay": 1000,
-					"capacity": "wood"
+					"delay": 1000
 				},
+				{
+					"name": "Ein mit Holz beladener Wagen hat angefangen zu brennen und musste gelöscht werden.",
+					"delay": 2000
+				}
+			]
+		},
+		{
+			"type": 2,
+			"capacity": "cars",
+			"objects" : [
 				{
 					"name": "Während eines kurzen Betriebshalt wurden einige Autos aufgebrochen.",
-					"delay": 1000,
-					"capacity": "cars"
+					"delay": 1000
 				},
 				{
-					"name": "Während eines kurzen Betriebshalt wurden einige Container aufgebrochen und DHL-Paket entnommen.",
-					"delay": 1000,
-					"capacity": "containers"
+					"name": "In einem Auto wurde ein blinder Passagier entdeckt, der von der Polizei abgeholt wurde.",
+					"delay": 1000
+				}
+			]
+		},
+		{
+			"type": 2,
+			"capacity": "containers",
+			"objects" : [
+				{
+					"name": "Während eines kurzen Betriebshalt wurden einige Container aufgebrochen und DHL-Pakete entnommen.",
+					"delay": 1000
 				},
+				{
+					"name": "Aus einem Container wurden während eines Betriebshalts komische Geräusche wahrgenommen. Nach einer Überprüfung wurde aber nur Druckerzubehör gefunden.",
+					"delay": 1000
+				}
+			]
+		},
+		{
+			"type": 2,
+			"capacity": "castor",
+			"objects" : [
 				{
 					"name": "Demonstranten haben sich vor dem Zug an die Gleise gekettet.",
-					"delay": 1000,
-					"capacity": "castor"
+					"delay": 1000
+				},
+				{
+					"name": "An einem Wagen wurde eine erhöhte Strahlenbelastung festgestellt. Der Lokführer konnte das Problem mit Gaffa Tape lösen.",
+					"delay": 1000
 				}
 			]
 		}
