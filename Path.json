@@ -10507,6 +10507,53 @@
 					"length": 18
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "MDT",
+					"end": "MHRG",
+					"length": 11,
+					"maxSpeed": 100,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "MHRG",
+					"end": "MNL",
+					"length": 18,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "MNL",
+					"end": "TPF",
+					"length": 5,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TPF",
+					"end": "TBP",
+					"length": 7,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TBP",
+					"end": "TLH",
+					"length": 11,
+					"maxSpeed": 90,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "TLH",
+					"end": "TGL",
+					"length": 9,
+					"maxSpeed": 110,
+					"twistingFactor": 0.24
+				}
+			]
 		}
 	]
 }
