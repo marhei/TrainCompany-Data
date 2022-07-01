@@ -9975,7 +9975,9 @@
 			"group": 2,
 			"maxSpeed": 250,
 			"twistingFactor": 0.1,
-			"neededEquipments": ["ETCS"],
+			"neededEquipments": [
+				"ETCS"
+			],
 			"objects": [
 				{
 					"start": "TS",
@@ -10199,6 +10201,80 @@
 					"length": 23,
 					"maxSpeed": 130,
 					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"group": 0,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "TU",
+					"end": "TLL",
+					"electrified": false,
+					"length": 16,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TLL",
+					"end": "TGB",
+					"electrified": false,
+					"length": 22,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TGB",
+					"end": "THD",
+					"electrified": false,
+					"length": 11,
+					"maxSpeed": 110
+				},
+				{
+					"start": "THD",
+					"end": "TON",
+					"electrified": false,
+					"length": 13,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TON",
+					"end": "TA",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TA",
+					"end": "TGL",
+					"electrified": true,
+					"length": 6,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TGL",
+					"end": "TEL",
+					"electrified": true,
+					"length": 9,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TEL",
+					"end": "TJZ",
+					"electrified": true,
+					"length": 8,
+					"maxSpeed": 90,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "TJZ",
+					"end": "TC",
+					"electrified": true,
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
 				}
 			]
 		}
