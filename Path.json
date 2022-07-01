@@ -10389,6 +10389,81 @@
 					"maxSpeed": 160
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "MA",
+					"end": "MGAL",
+					"length": 11,
+					"twistingFactor": 0.12,
+					"maxSpeed": 200
+				},
+				{
+					"start": "MGAL",
+					"end": "MMEI",
+					"length": 8,
+					"twistingFactor": 0.12,
+					"maxSpeed": 200
+				},
+				{
+					"start": "MMEI",
+					"end": "MDT",
+					"length": 20,
+					"twistingFactor": 0.12,
+					"maxSpeed": 200
+				},
+				{
+					"start": "MDT",
+					"end": "MOTW",
+					"length": 22,
+					"maxSpeed": 140,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "MOTW",
+					"end": "MTL",
+					"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "MTL",
+					"end": "NWG",
+					"length": 8,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NWG",
+					"end": "NPLF",
+					"length": 9,
+					"maxSpeed": 130,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "NPLF",
+					"end": "NRO",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "NRO",
+					"end": "NSC",
+					"length": 10,
+					"maxSpeed": 130,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "NSC",
+					"end": "NN",
+					"length": 15,
+					"maxSpeed": 130
+				}
+			]
 		}
 	]
 }
