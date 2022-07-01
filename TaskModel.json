@@ -539,6 +539,20 @@
 		},
 		{
 			"group": 1,
+			"name": "RE 5 von %s nach %s",
+			"descriptions": [
+				"Schicke einen RegionalExpress über die Berliner Nordbahn.",
+				"Verbinde pommersche Küste mit der Hauptstadt und dem brandenburger Umland.",
+				"Ein wesentlicher Teil dieser Strecke ist noch immer eingleisig."
+			],
+			"plops": 320000,
+			"stations": ["WSR", "WZAR", "WWT", "WGI", "WDM", "WSE", "WATR", "WN", "WBSG", "WBLS", "WNT", "WF", "WGRA", "WLO", "BOR", "BL", "BBF", "BRSF", "BWUE", "BDKO", "BEW"],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
 			"name": "HLB von %s nach %s",
 			"descriptions": [
 				"Diese Regionalbahnlinie führt von %s nach %s von der Lahn an die Fulda.",
