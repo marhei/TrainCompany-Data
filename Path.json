@@ -5416,7 +5416,7 @@
 		},
 		{
 			"group": 0,
-			"electrified": false,
+			"electrified": true,
 			"maxSpeed": 130,
 			"twistingFactor": 0.25,
 			"objects": [
@@ -5444,7 +5444,14 @@
 					"start": "MPO",
 					"end": "MSB",
 					"length": 5
-				},
+				}
+			]
+		},
+		{	"group": 0,
+			"electrified": false,
+			"maxSpeed": 130,
+			"twistingFactor": 0.25,
+			"objects": [
 				{
 					"start": "MSB",
 					"end": "MHLK",
