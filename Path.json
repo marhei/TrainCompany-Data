@@ -5518,6 +5518,56 @@
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 140,
+			"twistingFactor": 0.15,
+			"objects": [
+				{
+					"start": "MH",
+					"end": "MHR",
+					"length": 19,
+					"maxSpeed": 160
+				},
+				{
+					"start": "MHR",
+					"end": "MZO",
+					"length": 8,
+					"maxSpeed": 160
+				},
+				{
+					"start": "MZO",
+					"end": "MGB",
+					"length": 10,
+					"maxSpeed": 140
+				},
+				{
+					"start": "MGB",
+					"end": "MAG",
+					"length": 7,
+					"maxSpeed": 160
+				},
+				{
+					"start": "MAG",
+					"end": "MOM",
+					"length": 7,
+					"maxSpeed": 160
+				},
+				{
+					"start": "MOM",
+					"end": "MGK",
+					"length": 7,
+					"maxSpeed": 140
+				},
+				{
+					"start": "MGK",
+					"end": "MRO",
+					"length": 6,
+					"maxSpeed": 130
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"maxSpeed": 140,
 			"objects": [
 				{
 					"start": "HO",
