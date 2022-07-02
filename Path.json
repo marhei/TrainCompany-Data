@@ -10866,6 +10866,179 @@
 					"twistingFactor": 0.3
 				}
 			]
+		},
+		{
+			"name": "Oberbergische Bahn",
+			"maxSpeed": 120,
+			"objects": [
+				{
+					"start": "KK",
+					"end": "KKTR",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KKTR",
+					"end": "KKFS",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KKFS",
+					"end": "KPH",
+					"electrified": false,
+					"group": 1,
+					"maxSpeed": 100,
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KPH",
+					"end": "KRST",
+					"electrified": false,
+					"group": 1,
+					"maxSpeed": 120,
+					"length": 2,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "KRST",
+					"end": "KROE",
+					"electrified": false,
+					"group": 1,
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "KROE",
+					"end": "KHOF",
+					"electrified": false,
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "KHOF",
+					"end": "KHOR",
+					"electrified": false,
+					"group": 1,
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "KHOR",
+					"end": "KOV",
+					"electrified": false,
+					"group": 1,
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "KOV",
+					"end": "KENL",
+					"electrified": false,
+					"group": 1,
+					"length": 12,
+					"maxSpeed": 80,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "KENL",
+					"end": "KRUN",
+					"electrified": false,
+					"group": 1,
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "KRUN",
+					"end": "KOSB",
+					"electrified": false,
+					"group": 1,
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "KOSB",
+					"end": "KDI",
+					"electrified": false,
+					"group": 1,
+					"length": 5,
+					"maxSpeed": 70,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "KDI",
+					"end": "KGU",
+					"electrified": false,
+					"group": 1,
+					"length": 5,
+					"maxSpeed": 70,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "KGU",
+					"end": "KMAH",
+					"electrified": false,
+					"group": 1,
+					"length": 8,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "KMAH",
+					"end": "EMZH",
+					"electrified": false,
+					"group": 1,
+					"length": 9,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "EMZH",
+					"end": "EKIE",
+					"electrified": false,
+					"group": 1,
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "EKIE",
+					"end": "EOBG",
+					"electrified": false,
+					"group": 1,
+					"length": 8,
+					"maxSpeed": 70,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "EOBG",
+					"end": "EBRU",
+					"electrified": false,
+					"group": 1,
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "EBRU",
+					"end": "ELS",
+					"electrified": false,
+					"group": 1,
+					"length": 6,
+					"maxSpeed": 70,
+					"twistingFactor": 0.3
+				}
+			]
 		}
 	]
 }
