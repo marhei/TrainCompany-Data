@@ -5296,6 +5296,29 @@
 			]
 		},
 		{
+			"maxSpeed": 120,
+			"electrified": true,
+			"group": 1,
+			"objects": [
+				{
+					"start": "MH",
+					"end": "MGI",
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"group": 2
+				},
+				{
+					"start": "MGI",
+					"end": "MDS",
+					"length": 6,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"group": 2
+				}
+			]
+		},
+		{
 			"maxSpeed": 80,
 			"electrified": false,
 			"group": 1,
