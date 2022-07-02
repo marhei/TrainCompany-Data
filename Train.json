@@ -15,7 +15,7 @@
 			"cost": 2500000,
 			"maxConnectedUnits": 1,
 			"operationCosts": 100,
-			"equipments": ["ETCS"],
+			"equipments": ["ETCS", "CH"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 703}
@@ -54,7 +54,7 @@
 			"reliability": 1,
 			"cost": 2500000,
 			"operationCosts": 60,
-			"equipments": ["ETCS", "KRM"],
+			"equipments": ["ETCS", "KRM", "CH"],
 			"maxConnectedUnits": 2,
 			"exchangeTime": 120,
 			"capacity": [
@@ -74,7 +74,7 @@
 			"reliability": 1,
 			"cost": 4500000,
 			"operationCosts": 80,
-			"equipments": ["ETCS", "KRM"],
+			"equipments": ["ETCS", "KRM", "CH"],
 			"maxConnectedUnits": 1,
 			"exchangeTime": 120,
 			"capacity": [
@@ -96,6 +96,7 @@
 			"cost": 2500000,
 			"maxConnectedUnits": 4,
 			"operationCosts": 120,
+			"equipments": ["CH"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 195}
@@ -114,11 +115,31 @@
 			"reliability": 1,
 			"cost": 5600000,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "FR"],
+			"equipments": ["ETCS", "FR", "CH"],
 			"maxConnectedUnits": 2,
 			"exchangeTime": 150,
 			"capacity": [
 				{"name": "passengers", "value": 509}
+			]
+		},
+		{
+			"id": 610503,
+			"group": 2,
+			"name": "Alstom New Pendolino",
+			"shortcut": "ETR 610",
+			"speed": 250,
+			"weight": 450,
+			"force": 225,
+			"length": 187,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 250000,
+			"operationCosts": 65,
+			"equipments": ["ETCS", "CH"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 431}
 			]
 		},
 		{
@@ -226,6 +247,7 @@
 			"drive": 1,
 			"reliability": 1,
 			"cost": 480000,
+			"equipments": ["CH"],
 			"operationCosts": 42,
 			"maxConnectedUnits": 2,
 			"capacity": [
@@ -284,6 +306,7 @@
 			"cost": 800000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
+			"equipments": ["CH"],
 			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
@@ -496,6 +519,7 @@
 			"cost": 600000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 2,
+			"equipments": ["CH"],
 			"capacity": [
 				{"name": "containers", "value": 15}
 			]
@@ -624,7 +648,7 @@
 			"reliability": 1,
 			"cost": 400000,
 			"operationCosts": 90,
-			"equipments": ["ETCS"],
+			"equipments": ["ETCS", "CH"],
 			"compatibleWith": [1116,11009,11007]
 		},
 		{
@@ -640,7 +664,7 @@
 			"reliability": 1,
 			"cost": 450000,
 			"operationCosts": 110,
-			"equipments": ["ETCS", "CZ"]
+			"equipments": ["ETCS", "CZ", "CH"]
 		},
 		{
 			"id": 28,
@@ -655,7 +679,7 @@
 			"reliability": 1,
 			"cost": 400000,
 			"operationCosts": 80,
-			"equipments": ["ETCS", "FR"],
+			"equipments": ["ETCS", "FR", "CH"],
 			"compatibleWith": [11009,11007]
 		},
 		{
@@ -710,7 +734,8 @@
 			"drive": 2,
 			"reliability": 0.5,
 			"cost": 100000,
-			"operationCosts": 100
+			"operationCosts": 100,
+			"equipments": ["CH"]
 		},
 		{
 			"id": 100,
@@ -723,7 +748,8 @@
 			"drive": 2,
 			"reliability": 0.6,
 			"cost": 150000,
-			"operationCosts": 140
+			"operationCosts": 140,
+			"equipments": ["CH"]
 		},
 		{
 			"id": 75101,
