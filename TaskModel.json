@@ -10,14 +10,19 @@
 				"Bringe den ICE über die SFS pünktlich von %s nach %s."
 			],
 			"plops": 500000,
-			"objects":
-			[
-				{"stations": ["RM", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM"]},
-				{"stations": ["NN", "NWH", "NAH", "FH", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM"]},
-				{"stations": ["LL", "UE P", "NBA", "NER", "NN"]}
+			"objects": [
+				{
+					"stations": [ "RM", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM" ]
+				},
+				{
+					"stations": [ "NN", "NWH", "NAH", "FH", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM" ]
+				},
+				{
+					"stations": [ "LL", "UE P", "NBA", "NER", "NN" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -30,15 +35,19 @@
 			],
 			"plops": 500000,
 			"objects": [
-				{"stations": ["AH", "HH", "FKW", "FF", "FD"]},
 				{
-					"stations": ["NN", "UE P", "LL"],
+					"stations": [ "AH", "HH", "FKW", "FF", "FD" ]
+				},
+				{
+					"stations": [ "NN", "UE P", "LL" ],
 					"plops": 450000
 				},
-				{"stations": ["FD", "FF", "UE P", "LL"]}
+				{
+					"stations": [ "FD", "FF", "UE P", "LL" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -50,9 +59,9 @@
 				"Bringe den ICE über das Ruhrgebiet pünktlich von %s nach %s."
 			],
 			"plops": 560000,
-			"stations": ["FD", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FFU", "NWH", "NN"],
+			"stations": [ "FD", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FFU", "NWH", "NN" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -64,15 +73,22 @@
 				"Bringe den ICE pünktlich und schnell von %s nach %s."
 			],
 			"plops": 480000,
-			"objects":
-			[
-				{"stations": ["RK", "RM", "FF", "FH", "FFU", "FKW", "HG", "HH", "HWOB", "BL", "BHF"]},
-				{"stations": ["TS", "RM", "FF", "FH", "FFU", "FKW", "HG", "HH", "AH"]},
-				{"stations": ["NN", "NWH", "FFU", "FKW", "HG", "HH", "AH"]},
-				{"stations": ["UGW", "US", "NK", "NLF", "NBA", "NER", "NN"]}
-	],
+			"objects": [
+				{
+					"stations": [ "RK", "RM", "FF", "FH", "FFU", "FKW", "HG", "HH", "HWOB", "BL", "BHF" ]
+				},
+				{
+					"stations": [ "TS", "RM", "FF", "FH", "FFU", "FKW", "HG", "HH", "AH" ]
+				},
+				{
+					"stations": [ "NN", "NWH", "FFU", "FKW", "HG", "HH", "AH" ]
+				},
+				{
+					"stations": [ "UGW", "US", "NK", "NLF", "NBA", "NER", "NN" ]
+				}
+			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -83,9 +99,9 @@
 				"Bring die Fahrgäste Abseits der SFS von %s nach %s."
 			],
 			"plops": 480000,
-			"stations": ["FW", "FMZ", "FFLF", "FF", "FH", "FFU", "FBHF", "UEI", "UGO", "UE P", "LL"],
+			"stations": [ "FW", "FMZ", "FFLF", "FF", "FH", "FFU", "FBHF", "UEI", "UGO", "UE P", "LL" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -97,11 +113,15 @@
 			],
 			"plops": 472000,
 			"objects": [
-				{"stations": ["RB", "RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH"]},
-				{"stations": ["RB", "RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH", "AA", "AN", "AK"]}
+				{
+					"stations": [ "RB", "RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH" ]
+				},
+				{
+					"stations": [ "RB", "RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH", "AA", "AN", "AK" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -111,9 +131,9 @@
 				"Auf dem französischen Abschnitt ist ein Umstieg in einen Zug der SNCF nötig."
 			],
 			"plops": 480000,
-			"stations": ["FF", "RM", "SKL", "SSH", "XFFB"],
+			"stations": [ "FF", "RM", "SKL", "SSH", "XFFB" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -125,9 +145,9 @@
 				"Bringe die Eröffnungsgäste störungsfrei über die neue VDE8."
 			],
 			"plops": 500000,
-			"stations": ["NN", "UE P", "LL"],
+			"stations": [ "NN", "UE P", "LL" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -138,9 +158,9 @@
 				"Der ICE International fängt heute erst in %2$s an, bringe die Fahrgäste dort schnell hin."
 			],
 			"plops": 40000,
-			"stations": ["FF", "FFLF"],
+			"stations": [ "FF", "FFLF" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -152,14 +172,19 @@
 				"Bringe den IC über die Rheinstrecke pünktlich von %s nach %s."
 			],
 			"plops": 450000,
-			"objects":
-			[
-				{"stations": ["SSH", "STR", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO"]},
-				{"stations": ["RH", "RM", "FWOR", "FMZ", "FBGK", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO"]},
-				{"stations": ["NN", "NWH", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO"]}
+			"objects": [
+				{
+					"stations": [ "SSH", "STR", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO" ]
+				},
+				{
+					"stations": [ "RH", "RM", "FWOR", "FMZ", "FBGK", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO" ]
+				},
+				{
+					"stations": [ "NN", "NWH", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -170,13 +195,16 @@
 				"Bring den Zug von %s nach %s um eine Ost-West-Verbindung sicherzustellen."
 			],
 			"plops": 400000,
-			"objects":
-			[
-				{"stations": ["KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG"]},
-				{"stations": ["KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P"]}
+			"objects": [
+				{
+					"stations": [ "KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG" ]
+				},
+				{
+					"stations": [ "KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -187,10 +215,12 @@
 			],
 			"plops": 400000,
 			"objects": [
-				{"stations": ["BL", "BSPD", "LS", "HH", "HO", "HR", "XNHL"]}
+				{
+					"stations": [ "BL", "BSPD", "LS", "HH", "HO", "HR", "XNHL" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -202,14 +232,24 @@
 			],
 			"plops": 400000,
 			"objects": [
-				{"stations": ["HH", "HELZ", "HK", "HG", "FKW", "FFU", "NWH"]},
-				{"stations": ["HH", "EHFD", "EBILP", "EGLO", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK"]},
-				{"stations": ["UGW", "US", "NK", "NLF", "NBA", "NER", "NN"]},
-				{"stations": ["LL", "LH", "LK", "LM", "HBS", "HHI", "HH", "HNBG", "HV", "HB", "HHUD", "HOLD", "HLEE", "HE", "HNN", "HNDM"]},
-				{"stations": ["HNDM", "HNN", "HE", "HLEE", "HPAP", "HMEP", "HLIG", "HR", "EMST", "EDG", "KD", "KK", "KB"]}
+				{
+					"stations": [ "HH", "HELZ", "HK", "HG", "FKW", "FFU", "NWH" ]
+				},
+				{
+					"stations": [ "HH", "EHFD", "EBILP", "EGLO", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK" ]
+				},
+				{
+					"stations": [ "UGW", "US", "NK", "NLF", "NBA", "NER", "NN" ]
+				},
+				{
+					"stations": [ "LL", "LH", "LK", "LM", "HBS", "HHI", "HH", "HNBG", "HV", "HB", "HHUD", "HOLD", "HLEE", "HE", "HNN", "HNDM" ]
+				},
+				{
+					"stations": [ "HNDM", "HNN", "HE", "HLEE", "HPAP", "HMEP", "HLIG", "HR", "EMST", "EDG", "KD", "KK", "KB" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -220,15 +260,20 @@
 				"Bringe die Fahrgäste in den Urlaub."
 			],
 			"plops": 450000,
-			"objects":
-			[
-				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "NWH", "NN", "MH"]},
-				{"stations": ["AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM", "RK", "RF", "RDO", "RSI", "RB", "RLR"]},
-				{"stations": ["KD", "KK", "FF", "NWH", "NN", "MH"]}
+			"objects": [
+				{
+					"stations": [ "AA", "AH", "HH", "HG", "FB", "FFU", "FH", "NWH", "NN", "MH" ]
+				},
+				{
+					"stations": [ "AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM", "RK", "RF", "RDO", "RSI", "RB", "RLR" ]
+				},
+				{
+					"stations": [ "KD", "KK", "FF", "NWH", "NN", "MH" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0},
-				{"name": "cars", "value": 60}
+				{ "name": "passengers", "value": 0 },
+				{ "name": "cars", "value": 60 }
 			]
 		},
 		{
@@ -240,13 +285,18 @@
 			],
 			"plops": 450000,
 			"objects": [
-				{"stations": ["AA", "AH", "HH", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF", "RB"]},
-				{"stations": ["KA", "KK", "KBB", "FF", "NWH", "NN", "MH"]},
-				{"stations": ["BL", "BPD", "LM", "HHI", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF", "RB"]}
-
+				{
+					"stations": [ "AA", "AH", "HH", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF", "RB" ]
+				},
+				{
+					"stations": [ "KA", "KK", "KBB", "FF", "NWH", "NN", "MH" ]
+				},
+				{
+					"stations": [ "BL", "BPD", "LM", "HHI", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF", "RB" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -258,9 +308,9 @@
 				"Bringe den Regional-Express der Linie 12 pünktlich von %s nach %s."
 			],
 			"plops": 380000,
-			"stations": ["KK", "KKAS", "KEST", "KEU", "SGR", "SED", "STR"],
+			"stations": [ "KK", "KKAS", "KEST", "KEU", "SGR", "SED", "STR" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -271,10 +321,10 @@
 				"Die kurvige Strecke führt von %s nach %s."
 			],
 			"plops": 380000,
-			"stations": ["KKO", "STR"],
+			"stations": [ "KKO", "STR" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -286,9 +336,9 @@
 				"Bringe den Regional-Express der Linie 17 pünktlich von %s nach %s."
 			],
 			"plops": 380000,
-			"stations": ["EHG", "EARB", "EOLS", "EMAR", "HWAR", "FKW"],
+			"stations": [ "EHG", "EARB", "EOLS", "EMAR", "HWAR", "FKW" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -300,9 +350,9 @@
 				"Bringe den Regional-Express der Linie 18 pünktlich von %s nach %s."
 			],
 			"plops": 250000,
-			"stations": ["HW", "HOLD", "HCLP", "HO"],
+			"stations": [ "HW", "HOLD", "HCLP", "HO" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -314,9 +364,9 @@
 				"Bringe den Regional-Express der Linie 7 pünktlich von %s nach %s."
 			],
 			"plops": 390000,
-			"stations": ["RM", "RSD", "RN", "SKL", "SHO", "SRO", "SSH"],
+			"stations": [ "RM", "RSD", "RN", "SKL", "SHO", "SRO", "SSH" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -328,9 +378,9 @@
 				"Der RE11 muss quer durch NRW von %s nach %s."
 			],
 			"plops": 400000,
-			"stations": ["FKW", "HWAR", "HA", "EPD", "ESOT", "EHM", "EDO", "EBO", "EE", "EDG", "KD"],
+			"stations": [ "FKW", "HWAR", "HA", "EPD", "ESOT", "EHM", "EDO", "EBO", "EE", "EDG", "KD" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -342,9 +392,9 @@
 				"Bringe den Regional-Express der Linie 30 pünktlich von %s nach %s."
 			],
 			"plops": 400000,
-			"stations": ["FF", "FVL", "FFG", "FBNA", "FG", "FMBG", "FKIH", "FTS", "FWAB", "FGTH", "FKW"],
+			"stations": [ "FF", "FVL", "FFG", "FBNA", "FG", "FMBG", "FKIH", "FTS", "FWAB", "FGTH", "FKW" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -356,9 +406,9 @@
 				"Bringe den Regional-Express der Linie 3 pünktlich von %s nach %s."
 			],
 			"plops": 400000,
-			"stations": ["FF", "FFLF", "FRUE", "FMZ", "FBGK", "SBKN", "SBMS", "SIDO", "SNK", "SSH"],
+			"stations": [ "FF", "FFLF", "FRUE", "FMZ", "FBGK", "SBKN", "SBMS", "SIDO", "SNK", "SSH" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -371,11 +421,15 @@
 			],
 			"plops": 380000,
 			"objects": [
-				{"stations": ["KKO", "KNL", "FNAS", "FL", "FWG", "FWR", "FG"]},
-				{"stations": ["RK", "RRA", "RBB", "RAH", "RO", "RHA", "RVL", "RDO", "RIM", "RSI", "RRZ", "RKO"]}
+				{
+					"stations": [ "KKO", "KNL", "FNAS", "FL", "FWG", "FWR", "FG" ]
+				},
+				{
+					"stations": [ "RK", "RRA", "RBB", "RAH", "RO", "RHA", "RVL", "RDO", "RIM", "RSI", "RRZ", "RKO" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -385,9 +439,9 @@
 				"Starte mit deiner Ausschreibung den RE von %s nach %s."
 			],
 			"plops": 250000,
-			"stations": ["AH", "AHAR", "ABX", "AHOG", "AST", "AHAM", "AHPF", "AHEN", "AHEM", "AWG", "ACD", "AOF", "ACV"],
+			"stations": [ "AH", "AHAR", "ABX", "AHOG", "AST", "AHAM", "AHPF", "AHEN", "AHEM", "AWG", "ACD", "AOF", "ACV" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -398,10 +452,10 @@
 				"Dieser S-Bahn-Langläufer muss von %s nach %s gebracht werden."
 			],
 			"plops": 300000,
-			"stations": ["SHO", "SKL", "SHY", "RN", "RSD", "RM", "RH", "RNZ", "TO"],
+			"stations": [ "SHO", "SKL", "SHY", "RN", "RSD", "RM", "RH", "RNZ", "TO" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -412,9 +466,9 @@
 				"Die Linie ist bei Pendlern sehr für ihr WIFI gefragt."
 			],
 			"plops": 350000,
-			"stations": ["RM", "RN", "SKL", "SHO", "SSH", "SSLS", "STR", "SWIH", "SBY", "KKO"],
+			"stations": [ "RM", "RN", "SKL", "SHO", "SSH", "SSLS", "STR", "SWIH", "SBY", "KKO" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -425,9 +479,9 @@
 				"Diese stark ausgelastete Strecke sollte mit spurstarken Fahrzeugen befahren werden."
 			],
 			"plops": 300000,
-			"stations": ["FF", "FO", "FH", "FGEL", "FWAE", "FSUE", "FFD", "FFU", "FB"],
+			"stations": [ "FF", "FO", "FH", "FGEL", "FWAE", "FSUE", "FFD", "FFU", "FB" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -438,9 +492,9 @@
 				"Bringe die Fahrgäste von %s in Richtung %s."
 			],
 			"plops": 300000,
-			"stations": ["FF", "FVL", "FFG", "FBNA", "FG", "FWR", "FHRB", "FHG", "ESIE"],
+			"stations": [ "FF", "FVL", "FFG", "FBNA", "FG", "FWR", "FHRB", "FHG", "ESIE" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -451,9 +505,9 @@
 				"Bringe die Fahrgäste sicher von %s in Richtung %s."
 			],
 			"plops": 300000,
-			"stations": ["NBA", "NS", "NWH", "NGM", "NLO", "NWI", "NLA", "NAH", "FH", "FO", "FF"],
+			"stations": [ "NBA", "NS", "NWH", "NGM", "NLO", "NWI", "NLA", "NAH", "FH", "FO", "FF" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -464,9 +518,9 @@
 				"Bringe die Fahrgäste sicher von %s in Richtung %s."
 			],
 			"plops": 330000,
-			"stations": ["WWI", "WK", "WL", "WW", "WNS", "BNAU", "BFKS", "BSPD", "BL", "BKW", "BLB", "BCS"],
+			"stations": [ "WWI", "WK", "WL", "WW", "WNS", "BNAU", "BFKS", "BSPD", "BL", "BKW", "BLB", "BCS" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -477,9 +531,9 @@
 				"Wegen Bauarbeiten an der VDE8 müssen zusätzliche Züge nach %2$s gefahren werden."
 			],
 			"plops": 300000,
-			"stations": ["NWH", "NS", "NBKI", "UM", "USL", "UPL", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG"],
+			"stations": [ "NWH", "NS", "NBKI", "UM", "USL", "UPL", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -490,9 +544,9 @@
 				"Der RE 20 fährt von %s nach %s quer durch's Frankenland."
 			],
 			"plops": 250000,
-			"stations": ["NWH", "NS", "NBA", "NFO", "NER", "NF", "NN"],
+			"stations": [ "NWH", "NS", "NBA", "NFO", "NER", "NF", "NN" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -504,10 +558,10 @@
 				"Bring die MRB nach %2$s und sammel dabei so wenig Verspätung wie möglich."
 			],
 			"plops": 250000,
-			"stations": ["FMZ", "FBGK", "KKO", "KB", "KKAS", "KK"],
+			"stations": [ "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -518,10 +572,10 @@
 				"Die Strecke ist oft durch Güterzüge blockiert."
 			],
 			"plops": 250000,
-			"stations": ["FF", "FHOE", "FW", "KNL", "KKO", "KNE"],
+			"stations": [ "FF", "FHOE", "FW", "KNL", "KKO", "KNE" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -532,9 +586,9 @@
 				"Verbinde Norddeutschland und Polen miteinander."
 			],
 			"plops": 250000,
-			"stations": ["AL", "WK", "WB", "WG", "WN", "WP"],
+			"stations": [ "AL", "WK", "WB", "WG", "WN", "WP" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -546,9 +600,9 @@
 				"Ein wesentlicher Teil dieser Strecke ist noch immer eingleisig."
 			],
 			"plops": 320000,
-			"stations": ["WSR", "WZAR", "WWT", "WGI", "WDM", "WSE", "WATR", "WN", "WBSG", "WBLS", "WNT", "WF", "WGRA", "WLO", "BOR", "BL", "BBF", "BRSF", "BWUE", "BDKO", "BEW"],
+			"stations": [ "WSR", "WZAR", "WWT", "WGI", "WDM", "WSE", "WATR", "WN", "WBSG", "WBLS", "WNT", "WF", "WGRA", "WLO", "BOR", "BL", "BBF", "BRSF", "BWUE", "BDKO", "BEW" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -559,10 +613,10 @@
 				"Verbinde die weniger bevölkerten Gebiete von Hessen miteinander."
 			],
 			"plops": 300000,
-			"stations": ["FL","FWR","FG","FFU"],
+			"stations": [ "FL", "FWR", "FG", "FFU" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -573,10 +627,10 @@
 				"Die S-Bahn der Linie 8 im RMV muss von %s nach %s gebracht werden."
 			],
 			"plops": 300000,
-			"stations": ["FH", "FF", "FFLF", "FMZ", "FW"],
+			"stations": [ "FH", "FF", "FFLF", "FMZ", "FW" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -587,17 +641,26 @@
 				"Fahre den Langläufer von %s nach %s.",
 				"Bring die Fahrgäste pünktlich nach %2$s."
 			],
-			"objects":
-			[
-				{"stations": ["EPD", "HA", "HLUE", "HHM", "HSPR", "HH"]},
-				{"stations": ["HNBG", "HNRU", "HWUN", "HH"]},
-				{"stations": ["HM", "HWUN", "HH"]},
-				{"stations": ["HC", "HH"]},
-				{"stations": ["HHI", "HH"]}
+			"objects": [
+				{
+					"stations": [ "EPD", "HA", "HLUE", "HHM", "HSPR", "HH" ]
+				},
+				{
+					"stations": [ "HNBG", "HNRU", "HWUN", "HH" ]
+				},
+				{
+					"stations": [ "HM", "HWUN", "HH" ]
+				},
+				{
+					"stations": [ "HC", "HH" ]
+				},
+				{
+					"stations": [ "HHI", "HH" ]
+				}
 			],
 			"plops": 200000,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -608,9 +671,9 @@
 				"Die Strecke ist ideal um von Thüringen nach Norddeutschland oder zurück zu fahren."
 			],
 			"plops": 300000,
-			"stations": ["HG", "HEBG", "UL", "ULS", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG"],
+			"stations": [ "HG", "HEBG", "UL", "ULS", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -622,9 +685,9 @@
 				"Fahre einen der schnellsten Nahverkehrszüge Deutschlands über die NIM nach %2$s."
 			],
 			"plops": 280000,
-			"stations": ["MH", "MPF", "MRBI", "MIH", "MKIG", "NALB", "NN"],
+			"stations": [ "MH", "MPF", "MRBI", "MIH", "MKIG", "NALB", "NN" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -634,10 +697,10 @@
 				"Die Strecke führt quer durch Rheinhessen."
 			],
 			"plops": 300000,
-			"stations": ["FWOR", "FMSH", "FARM", "FBGK"],
+			"stations": [ "FWOR", "FMSH", "FARM", "FBGK" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -647,9 +710,9 @@
 				"Die Usedomer Bäderbahn bringt Touristen auf die Insel."
 			],
 			"plops": 150000,
-			"stations": ["WZS", "WBHN", "WWO", "WTH", "WZ", "WUEK", "WBN", "WHF", "XPSM"],
+			"stations": [ "WZS", "WBHN", "WWO", "WTH", "WZ", "WUEK", "WBN", "WHF", "XPSM" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -659,10 +722,10 @@
 				"Bring die Fahrgäste pünktlich von %s nach %s.",
 				"Fahr mit der Weser-Bahn von %s nach %s."
 			],
-			"stations": ["HHI", "HELZ", "HHM", "HHSO", "HRIN", "HL", "EHFD"],
+			"stations": [ "HHI", "HELZ", "HHM", "HHSO", "HRIN", "HL", "EHFD" ],
 			"plops": 200000,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -672,9 +735,9 @@
 				"Die Strecke führt von der Sieg an die Ruhr."
 			],
 			"plops": 300000,
-			"stations": ["ESIE", "EKT", "EA", "EFP", "EWHL", "ELE", "EHG", "EBO", "EE"],
+			"stations": [ "ESIE", "EKT", "EA", "EFP", "EWHL", "ELE", "EHG", "EBO", "EE" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -685,14 +748,17 @@
 				"Mit dem richtigen Fahrzeug kannst du die Fahrgäste schnell von %s nach %s bringen."
 			],
 			"plops": 300000,
-			"objects":
-			[
-				{"stations": ["FFU", "FHUE", "FB", "FGTH", "FKW", "HEBG", "HG"]},
-				{"stations": ["FFU", "FB", "HEBG", "HG"]}
+			"objects": [
+				{
+					"stations": [ "FFU", "FHUE", "FB", "FGTH", "FKW", "HEBG", "HG" ]
+				},
+				{
+					"stations": [ "FFU", "FB", "HEBG", "HG" ]
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -702,26 +768,29 @@
 				"Bring die Fahrgäste sicher und pünktlich durch das fränkische Randgebiet."
 			],
 			"plops": 300000,
-			"objects":
-			[
-				{"stations": ["NAH", "NM", "TWT", "TTB", "TL", "NWH"]},
-				{"stations": ["NAH", "NM", "NAMB", "RWDN", "RSE"]}
+			"objects": [
+				{
+					"stations": [ "NAH", "NM", "TWT", "TTB", "TL", "NWH" ]
+				},
+				{
+					"stations": [ "NAH", "NM", "NAMB", "RWDN", "RSE" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
 			"group": 1,
-			"name" : "S23 von %s nach %s",
+			"name": "S23 von %s nach %s",
 			"descriptions": [
 				"Bring die Fahrgäste pünktlich und sicher durch die malerischen Felder der Voreifel."
 			],
 			"plops": 80000,
-			"stations": ["KB", "KEU"],
+			"stations": [ "KB", "KEU" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -732,9 +801,9 @@
 				"Bring den RE2 von %s nach %s. Die Strecke ist stark ausgelastet."
 			],
 			"plops": 200000,
-			"stations": ["HG", "HK", "HELZ", "HH", "HC", "HU"],
+			"stations": [ "HG", "HK", "HELZ", "HH", "HC", "HU" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -746,12 +815,15 @@
 			],
 			"plops": 200000,
 			"objects": [
-				{"stations": ["AH", "AHAR", "ALBG", "HU"]},
-				{"stations": ["AH", "AHAR", "ABLZ", "AROG", "HB"]}
-
+				{
+					"stations": [ "AH", "AHAR", "ALBG", "HU" ]
+				},
+				{
+					"stations": [ "AH", "AHAR", "ABLZ", "AROG", "HB" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -765,11 +837,11 @@
 			"objects": [
 				{
 					"name": "Hanse-Express von %s nach %s",
-					"stations": ["AH", "ABCH", "WBZ", "WBRH", "WHL", "WS", "WK", "WBL", "WB", "WSN", "WR"]
+					"stations": [ "AH", "ABCH", "WBZ", "WBRH", "WHL", "WS", "WK", "WBL", "WB", "WSN", "WR" ]
 				},
 				{
 					"name": "RE3 von %s nach %s",
-					"stations": ["WSR", "WMI", "WGW", "WGWS", "WGKW", "WZS", "WAK", "WDU", "WFDF", "WP", "WNL", "WPL", "WWAN", "WWLD", "WA", "WBR", "WE", "BBRN", "BL"],
+					"stations": [ "WSR", "WMI", "WGW", "WGWS", "WGKW", "WZS", "WAK", "WDU", "WFDF", "WP", "WNL", "WPL", "WWAN", "WWLD", "WA", "WBR", "WE", "BBRN", "BL" ],
 					"descriptions": [
 						"Bringe den Langläufer quer durch drei Bundesländer."
 					],
@@ -777,16 +849,16 @@
 				},
 				{
 					"name": "RE7 von %s nach %s",
-					"stations": ["WSR", "WMI", "WGW"],
+					"stations": [ "WSR", "WMI", "WGW" ],
 					"plops": 80000
 				},
 				{
 					"name": "RE9 von %s nach %s",
-					"stations": ["WR", "WRV", "WRI", "WBUH", "WV", "WSRB", "WSR", "WSRR", "WBG", "WBI"]
+					"stations": [ "WR", "WRV", "WRI", "WBUH", "WV", "WSRB", "WSR", "WSRR", "WBG", "WBI" ]
 				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -796,9 +868,9 @@
 				"Bring die Ems-Börde-Bahn pünktlich von %s nach %s."
 			],
 			"plops": 220000,
-			"stations": ["FKW", "HWAR", "HA", "EPD", "ESOT", "EHM", "EMST"],
+			"stations": [ "FKW", "HWAR", "HA", "EPD", "ESOT", "EHM", "EMST" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -809,9 +881,9 @@
 				"Bring die Eggebahn quer durch das Hochstift von %s nach %s. Die Strecke ist nicht stark ausgelastet."
 			],
 			"plops": 120000,
-			"stations": ["EPD", "HA", "HBDG", "HBKL", "HOTT", "HHXR", "HHZM", "HSDF", "HK"],
+			"stations": [ "EPD", "HA", "HBDG", "HBKL", "HOTT", "HHXR", "HHZM", "HSDF", "HK" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -821,9 +893,9 @@
 				"Bringe den Rhein-Ruhr-Express von %s nach %s."
 			],
 			"plops": 300000,
-			"stations": ["KK", "KDN", "KA", "KM", "KN", "KD", "KW", "EHG"],
+			"stations": [ "KK", "KDN", "KA", "KM", "KN", "KD", "KW", "EHG" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -833,10 +905,10 @@
 				"Bringe die RB von %s nach %s."
 			],
 			"plops": 180000,
-			"stations": ["KA", "KM", "KV", "EDG"],
+			"stations": [ "KA", "KM", "KV", "EDG" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -846,9 +918,9 @@
 				"Bringe den Rhein-Erft-Express von %s nach %s."
 			],
 			"plops": 230000,
-			"stations": ["KM", "KGRB", "KK", "KT", "KLI", "KNE", "KKO"],
+			"stations": [ "KM", "KGRB", "KK", "KT", "KLI", "KNE", "KKO" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -859,13 +931,16 @@
 			],
 			"plops": 150000,
 			"objects": [
-				{"stations": ["KDN", "KEU"]},
-				{"stations": ["KHE", "KDN", "KJ"]}
-
+				{
+					"stations": [ "KDN", "KEU" ]
+				},
+				{
+					"stations": [ "KHE", "KDN", "KJ" ]
+				}
 			],
-			"stations": ["KDN", "KEU"],
+			"stations": [ "KDN", "KEU" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -875,10 +950,10 @@
 				"Bring die Frankenwaldbahn pünktlich von %s nach %s."
 			],
 			"plops": 320000,
-			"stations": ["UGW", "US", "NED", "NBA", "NF", "NN" ],
+			"stations": [ "UGW", "US", "NED", "NBA", "NF", "NN" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -888,10 +963,10 @@
 				"Bringe den RE 12 pünktlich von von %s nach %s."
 			],
 			"plops": 220000,
-			"stations": ["LL", "UG", "US"],
+			"stations": [ "LL", "UG", "US" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -901,10 +976,10 @@
 				"Bringe die Maas-Schwalm-Nette-Bahn von %s nach %s."
 			],
 			"plops": 150000,
-			"stations": ["KDAL", "KM"],
+			"stations": [ "KDAL", "KM" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -914,9 +989,9 @@
 				"Bringe die Eurobahn durch den Niederrhein von %s nach %s."
 			],
 			"plops": 250000,
-			"stations": ["XNVL", "KV", "KM", "KN", "KD", "KW", "EHG", "EHM"],
+			"stations": [ "XNVL", "KV", "KM", "KN", "KD", "KW", "EHG", "EHM" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -926,13 +1001,16 @@
 				"Bringe den Schleswig-Holstein-Express durch den echten Norden von %s nach %s."
 			],
 			"plops": 380000,
-			"objects":
-			[
-				{"stations": ["AA", "AN", "AK"]},
-				{"stations": ["AA", "AN", "AR", "AF"]}
+			"objects": [
+				{
+					"stations": [ "AA", "AN", "AK" ]
+				},
+				{
+					"stations": [ "AA", "AN", "AR", "AF" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -942,15 +1020,20 @@
 				"Bringe die RB durch den echten Norden von %s nach %s."
 			],
 			"plops": 280000,
-			"objects":
-			[
-				{"stations": ["AK", "AR", "AJ", "AHM"]},
-				{"stations": ["AK", "AL"]},
-				{"stations": ["AK", "AF"]}
+			"objects": [
+				{
+					"stations": [ "AK", "AR", "AJ", "AHM" ]
+				},
+				{
+					"stations": [ "AK", "AL" ]
+				},
+				{
+					"stations": [ "AK", "AF" ]
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -960,14 +1043,17 @@
 				"Bringe die Fahrgäste von %s nach %s."
 			],
 			"plops": 200000,
-			"objects":
-			[
-				{"stations": ["AH", "AUBS", "AN"]},
-				{"stations": ["AUBS", "AEL"]}
+			"objects": [
+				{
+					"stations": [ "AH", "AUBS", "AN" ]
+				},
+				{
+					"stations": [ "AUBS", "AEL" ]
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -977,12 +1063,13 @@
 				"Bringe den RE 1 von %s nach %s."
 			],
 			"plops": 350000,
-			"objects":
-			[
-				{"stations": ["LM", "LBU", "LB", "BPD", "BL", "BHF", "BFUW", "BFP", "BCS"]}
+			"objects": [
+				{
+					"stations": [ "LM", "LBU", "LB", "BPD", "BL", "BHF", "BFUW", "BFP", "BCS" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -992,9 +1079,9 @@
 				"Bringe den Strand-Express von %s nach %s."
 			],
 			"plops": 200000,
-			"stations": ["AH", "AAHR", "AO", "ARD", "AL", "ASID", "AOL", "APU"],
+			"stations": [ "AH", "AAHR", "AO", "ARD", "AL", "ASID", "AOL", "APU" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1004,9 +1091,9 @@
 				"Feierlustige 9-Euro-Ticket-Touristen wollen von %s nach %s."
 			],
 			"plops": 250000,
-			"stations": ["AWLA", "ANB", "AHM", "AHI", "AIZ", "AGST", "AEL", "AA"],
+			"stations": [ "AWLA", "ANB", "AHM", "AHI", "AIZ", "AGST", "AEL", "AA" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1017,10 +1104,10 @@
 				"Fahre über den Hindenburgdamm nach %2$s."
 			],
 			"plops": 140000,
-			"stations": ["AWLA", "ANB"],
+			"stations": [ "AWLA", "ANB" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0},
-				{"name": "cars", "value": 60}
+				{ "name": "passengers", "value": 0 },
+				{ "name": "cars", "value": 60 }
 			]
 		},
 		{
@@ -1032,9 +1119,9 @@
 				"Fahre mit dem ikonischen D-Zug nach %2$s."
 			],
 			"plops": 230000,
-			"stations": ["AWLA", "ANB", "AHM", "AHI", "AIZ", "AEL", "AA"],
+			"stations": [ "AWLA", "ANB", "AHM", "AHI", "AIZ", "AEL", "AA" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1045,9 +1132,9 @@
 				"Der RE 4 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
 			],
 			"plops": 380000,
-			"stations": ["FF", "FMZ", "FWOR", "RFT", "RM", "RSD", "RGE", "RGN", "RK"],
+			"stations": [ "FF", "FMZ", "FWOR", "RFT", "RM", "RSD", "RGE", "RGN", "RK" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1058,9 +1145,9 @@
 				"Der RE 6 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
 			],
 			"plops": 380000,
-			"stations": ["SKL", "RN", "RLA", "RWND", "RWRT", "RK"],
+			"stations": [ "SKL", "RN", "RLA", "RWND", "RWRT", "RK" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1070,9 +1157,9 @@
 				"Bringe die grenzüberschreitende RB53 von %s nach %s."
 			],
 			"plops": 250000,
-			"stations": ["RN", "RND", "RMKI", "REH", "RKG", "RLA", "RIN", "RRST", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG"],
+			"stations": [ "RN", "RND", "RMKI", "REH", "RKG", "RLA", "RIN", "RRST", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1082,9 +1169,9 @@
 				"Bringe den Verstärkerzug für die S-Bahn von %s nach %s."
 			],
 			"plops": 300000,
-			"stations": ["RK", "RBR", "RH"],
+			"stations": [ "RK", "RBR", "RH" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1094,9 +1181,9 @@
 				"Bringe die S33 von %s nach %s."
 			],
 			"plops": 240000,
-			"stations": ["RGE", "RRHH", "RPB", "RHTT", "RGNN", "RGN", "RKF", "RBMT", "RBRP", "RBR"],
+			"stations": [ "RGE", "RRHH", "RPB", "RHTT", "RGNN", "RGN", "RKF", "RBMT", "RBRP", "RBR" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1106,9 +1193,9 @@
 				"Verbinde Spree und Elbe miteinander von %s nach %s."
 			],
 			"plops": 300000,
-			"stations": ["BHF", "BL", "BSPD", "LS", "LSW", "HU", "AH"],
+			"stations": [ "BHF", "BL", "BSPD", "LS", "LSW", "HU", "AH" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1119,11 +1206,15 @@
 			],
 			"plops": 300000,
 			"objects": [
-				{"stations": ["XTD", "DSA", "DH", "BL", "WW", "WL", "ABCH", "AH", "AN", "AK"]},
-				{"stations": ["XTD", "DSA", "DH", "BL", "WW", "WL", "ABCH", "AH", "AN", "AF"]}
+				{
+					"stations": [ "XTD", "DSA", "DH", "BL", "WW", "WL", "ABCH", "AH", "AN", "AK" ]
+				},
+				{
+					"stations": [ "XTD", "DSA", "DH", "BL", "WW", "WL", "ABCH", "AH", "AN", "AF" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1133,9 +1224,9 @@
 				"Bringe den Sonderzug von %s nach %s."
 			],
 			"plops": 50000,
-			"stations": ["ASCS", "AK"],
+			"stations": [ "ASCS", "AK" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1146,9 +1237,9 @@
 				"Das Altenheim %s plant einen gemeinsamen Ausflug nach %s."
 			],
 			"plops": 350000,
-			"stations": ["EA"],
+			"stations": [ "EA" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1161,7 +1252,7 @@
 			],
 			"plops": 400000,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1173,9 +1264,9 @@
 				"Die B278 wurde zwischen %s und %s unterspült, die Schüler müssen aber trotzdem in den Unterricht."
 			],
 			"plops": 50000,
-			"stations": ["NS", "NBKI", "NGM", "NLO"],
+			"stations": [ "NS", "NBKI", "NGM", "NLO" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1187,9 +1278,9 @@
 				"Aufgrund einer verspäteten Fz-Abnahme durch das EBA muss schnell Ersatz her."
 			],
 			"plops": 300000,
-			"stations": ["KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW"],
+			"stations": [ "KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW" ],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1201,7 +1292,7 @@
 			],
 			"plops": 550000,
 			"neededCapacity": [
-				{"name": "wood", "value": 700}
+				{ "name": "wood", "value": 700 }
 			]
 		},
 		{
@@ -1213,8 +1304,8 @@
 			],
 			"plops": 600000,
 			"neededCapacity": [
-				{"name": "oil", "value": 400},
-				{"name": "wood", "value": 400}
+				{ "name": "oil", "value": 400 },
+				{ "name": "wood", "value": 400 }
 			]
 		},
 		{
@@ -1226,7 +1317,7 @@
 			],
 			"plops": 600000,
 			"neededCapacity": [
-				{"name": "wood", "value": 800}
+				{ "name": "wood", "value": 800 }
 			]
 		},
 		{
@@ -1236,10 +1327,10 @@
 				"In %2$s wird dringend Kohle aus dem Tagebau %1$s benötigt.",
 				"Das Kraftwerk in %2$s benötigt neue Kohle aus %1$s für Bahnstrom."
 			],
-			"stations": ["KGRB"],
+			"stations": [ "KGRB" ],
 			"plops": 600000,
 			"neededCapacity": [
-				{"name": "coal", "value": 800}
+				{ "name": "coal", "value": 800 }
 			]
 		},
 		{
@@ -1252,7 +1343,7 @@
 			],
 			"plops": 600000,
 			"neededCapacity": [
-				{"name": "oil", "value": 1000}
+				{ "name": "oil", "value": 1000 }
 			]
 		},
 		{
@@ -1264,9 +1355,9 @@
 			],
 			"plops": 600000,
 			"neededCapacity": [
-				{"name": "oil", "value": 300},
-				{"name": "wood", "value": 300},
-				{"name": "cars", "value": 50}
+				{ "name": "oil", "value": 300 },
+				{ "name": "wood", "value": 300 },
+				{ "name": "cars", "value": 50 }
 			]
 		},
 		{
@@ -1278,7 +1369,7 @@
 			],
 			"plops": 550000,
 			"neededCapacity": [
-				{"name": "cars", "value": 120}
+				{ "name": "cars", "value": 120 }
 			]
 		},
 		{
@@ -1290,7 +1381,7 @@
 			],
 			"plops": 550000,
 			"neededCapacity": [
-				{"name": "containers", "value": 25}
+				{ "name": "containers", "value": 25 }
 			]
 		},
 		{
@@ -1303,7 +1394,7 @@
 			],
 			"plops": 300000,
 			"neededCapacity": [
-				{"name": "containers", "value": 15}
+				{ "name": "containers", "value": 15 }
 			]
 		},
 		{
@@ -1315,7 +1406,7 @@
 			],
 			"plops": 700000,
 			"neededCapacity": [
-				{"name": "containers", "value": 35}
+				{ "name": "containers", "value": 35 }
 			]
 		},
 		{
@@ -1326,10 +1417,10 @@
 			],
 			"plops": 550000,
 			"neededCapacity": [
-				{"name": "containers", "value": 10},
-				{"name": "cars", "value": 50},
-				{"name": "wood", "value": 100},
-				{"name": "oil", "value": 100}
+				{ "name": "containers", "value": 10 },
+				{ "name": "cars", "value": 50 },
+				{ "name": "wood", "value": 100 },
+				{ "name": "oil", "value": 100 }
 			]
 		},
 		{
@@ -1340,7 +1431,7 @@
 			],
 			"plops": 1000000,
 			"neededCapacity": [
-				{"name": "castor", "value": 10}
+				{ "name": "castor", "value": 10 }
 			]
 		},
 		{
@@ -1358,12 +1449,157 @@
 			],
 			"plops": 500000,
 			"objects": [
-				{"stations": ["ALB", "BFBI"]},
-				{"stations": ["ALB", "FFLF"]},
-				{"stations": ["BFBI", "FFLF"]}
+				{
+					"stations": [ "ALB", "BFBI" ]
+				},
+				{
+					"stations": [ "ALB", "FFLF" ]
+				},
+				{
+					"stations": [ "BFBI", "FFLF" ]
+				}
 			],
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"name": "RB 85 von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn der Linie 85 von %s nach %s.",
+				"Bring die Fahrgäste in der RB 85 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "EPD", "HA", "HBDG", "HBKL", "HOTT", "HBOF", "HG" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 111000,
+			"group": 1
+		},
+		{
+			"name": "RB 64 von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn der Linie 64 von %s nach %s.",
+				"Bring die Fahrgäste in der RB 64 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "EMST", "ENBE", "ENOW", "EGRK", "EBFT", "EOP", "EGRN", "XNGB", "XNDE", "XNES" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 62000,
+			"group": 1
+		},
+		{
+			"name": "RE 4 von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 4 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 4 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "LH", "LKO", "LSL", "LAL", "LGAL", "LHB", "LWD", "LIG", "HVBG", "HGS" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 154350,
+			"group": 1
+		},
+		{
+			"name": "IRE 6 von %s nach %s",
+			"descriptions": [
+				"Bringe den Interregio-Express der Linie 6 von %s nach %s.",
+				"Bring die Fahrgäste in dem IRE 6 pünktlich nach %2$s.",
+				"Fahre den IRE störungsfrei nach %2$s."
+			],
+			"stations": [ "TS", "TRE", "TT" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 72360,
+			"group": 1
+		},
+		{
+			"name": "RE 87 von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 87 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 87 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "TS", "TBO", "THB", "TR", "TTU", "RSI" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 182700,
+			"group": 1
+		},
+		{
+			"name": "ECE von %s nach %s",
+			"descriptions": [
+				"Bringe den Eurocity-Express von %s nach %s.",
+				"Bring die Fahrgäste in dem ECE pünktlich nach %2$s.",
+				"Fahre den ECE störungsfrei nach %2$s."
+			],
+			"stations": [ "MLIR", "MM", "MBU", "MH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 228480,
+			"group": 1
+		},
+		{
+			"name": "Fugger-Express von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress von %s nach %s.",
+				"Bring die Fahrgäste in dem RE pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s.",
+				"Bring den Fugger-Express von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "MOTW", "MDT", "MMEI", "MA", "MKIS", "MMR", "MH" ],
+					"plops": 126000
+				},
+				{
+					"stations": [ "TU", "MGZB", "MMAH", "MFHD", "MKUN", "MA", "MKIS", "MMR", "MH" ],
+					"plops": 149100
+				}
+			]
+		},
+		{
+			"name": "ICE von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity-Express von %s nach %s.",
+				"Bring die Fahrgäste in dem ICE pünktlich nach %2$s.",
+				"Fahre den ICE störungsfrei nach %2$s.",
+				"Bringe den Intercity-Express pünktlich über die SFS von %s nach %s"
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "AH", "AHAR", "HH", "HG", "FKW", "FFU", "NWH", "NN", "MIH", "MH" ],
+					"plops": 895050
+				},
+				{
+					"descriptions": [
+						"Bringe den Intercity-Express von %s nach %s.",
+						"Bring die Fahrgäste in dem ICE pünktlich nach %2$s.",
+						"Fahre den ICE störungsfrei nach %2$s."
+					],
+					"stations": [ "FF", "NAH", "NWH", "NN", "MH" ],
+					"plops": 450450
+				},
+				{
+					"stations": [ "AH", "BL", "LBT", "LH", "UE P", "NBA", "NN", "MIH", "MH" ],
+					"plops": 1056510
+				}
 			]
 		}
 	]
