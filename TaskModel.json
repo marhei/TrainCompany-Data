@@ -1474,8 +1474,9 @@
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
-			"plops": 119960,
-			"group": 1
+			"plops": 129960,
+			"group": 1,
+			"pathSuggestion": [ "EPD", "HA", "HBDG", "HBKL", "HOTT", "HBOF", "HG" ]
 		},
 		{
 			"name": "RB 64 von %s nach %s",
@@ -1489,7 +1490,8 @@
 				{ "name": "passengers", "value": 0 }
 			],
 			"plops": 112320,
-			"group": 1
+			"group": 1,
+			"pathSuggestion": [ "EMST", "ENBE", "ENOW", "EGRK", "EBFT", "EOP", "EGRN", "XNGB", "XNDE", "XNES" ]
 		},
 		{
 			"name": "IRE 6 von %s nach %s",
@@ -1502,8 +1504,9 @@
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
-			"plops": 124120,
-			"group": 1
+			"plops": 108140,
+			"group": 1,
+			"pathSuggestion": [ "TS", "TP", "TRE", "TT" ]
 		},
 		{
 			"name": "RE 4 von %s nach %s",
@@ -1516,8 +1519,9 @@
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
-			"plops": 162920,
-			"group": 1
+			"plops": 146740,
+			"group": 1,
+			"pathSuggestion": [ "LH", "LKO", "LSL", "LAL", "LGAL", "LHB", "LWD", "LIG", "HVBG", "HGS" ]
 		},
 		{
 			"name": "RE 87 von %s nach %s",
@@ -1530,8 +1534,9 @@
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
-			"plops": 142640,
-			"group": 1
+			"plops": 158080,
+			"group": 1,
+			"pathSuggestion": [ "TS", "TBO", "TET", "THB", "TR", "TTU", "RIM", "RSI" ]
 		},
 		{
 			"name": "ECE von %s nach %s",
@@ -1544,8 +1549,9 @@
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
-			"plops": 190800,
-			"group": 1
+			"plops": 227480.0,
+			"group": 1,
+			"pathSuggestion": [ "MLIR", "MM", "MBU", "MH" ]
 		},
 		{
 			"name": "Fugger-Express von %s nach %s",
@@ -1562,11 +1568,13 @@
 			"objects": [
 				{
 					"stations": [ "MOTW", "MDT", "MMEI", "MA", "MKIS", "MMR", "MH" ],
-					"plops": 173200
+					"plops": 135400,
+					"pathSuggestion": [ "MOTW", "MDT", "MMEI", "MA", "MKIS", "MMR", "MH" ]
 				},
 				{
-					"plops": 181120,
-					"stations": [ "TU", "MGZB", "MMAH", "MFHD", "MKUN", "MA", "MKIS", "MMR", "MH" ]
+					"stations": [ "TU", "MGZB", "MMAH", "MFHD", "MKUN", "MA", "MKIS", "MMR", "MH" ],
+					"pathSuggestion": [ "TU", "MGZB", "MMAH", "MFHD", "MKUN", "MA", "MKIS", "MMR", "MH" ],
+					"plops": 144640
 				}
 			]
 		},
@@ -1585,7 +1593,8 @@
 			"objects": [
 				{
 					"stations": [ "AH", "AHAR", "HH", "HG", "FKW", "FFU", "NWH", "NN", "MIH", "MH" ],
-					"plops": 405350
+					"plops": 436000,
+					"pathSuggestion": [ "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FFU", "NBN", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MH" ]
 				},
 				{
 					"descriptions": [
@@ -1594,10 +1603,12 @@
 						"Fahre den ICE störungsfrei nach %2$s."
 					],
 					"stations": [ "FF", "NAH", "NWH", "NN", "MH" ],
-					"plops": 357150
+					"plops": 284000,
+					"pathSuggestion": [ "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MH" ]
 				},
 				{
-					"plops": 459170,
+					"plops": 491200,
+					"pathSuggestion": [ "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "LBT", "LH", "LPLN", "UE P", "NED", "NBA", "NF", "NN", "MIH", "MH" ],
 					"stations": [ "AH", "BL", "LBT", "LH", "UE P", "NBA", "NN", "MIH", "MH" ]
 				}
 			]
@@ -1616,11 +1627,13 @@
 			"objects": [
 				{
 					"stations": [ "EPD", "HA", "EHBM", "EDTM", "ELAG", "EBSU", "EHFD" ],
-					"plops": 105920
+					"plops": 115920,
+					"pathSuggestion": [ "EPD", "HA", "EHBM", "EDTM", "ELAG", "EBSU", "EHFD" ]
 				},
 				{
-					"plops": 96200,
-					"stations": [ "EPD", "ESHO", "EBILP" ]
+					"pathSuggestion": [ "EPD", "ESHO", "EBILP" ],
+					"stations": [ "EPD", "ESHO", "EBILP" ],
+					"plops": 106200
 				}
 			]
 		},
@@ -1638,15 +1651,18 @@
 			"objects": [
 				{
 					"stations": [ "HH", "HWUN", "HNRU", "HNBG", "HDVD", "HV", "HB", "HOSS", "HBH", "HBHL" ],
-					"plops": 161860
+					"plops": 161860,
+					"pathSuggestion": [ "HH", "HWUN", "HNRU", "HNBG", "HDVD", "HV", "HB", "HOSS", "HBH", "HBHL" ]
 				},
 				{
 					"stations": [ "HBHL", "HBH", "HOSS", "HB", "HSYK", "HT", "HBNF", "HDIP", "HLMF", "HBOM", "HO" ],
-					"plops": 160180
+					"plops": 160180,
+					"pathSuggestion": [ "HBHL", "HBH", "HOSS", "HB", "HSYK", "HT", "HBNF", "HDIP", "HLMF", "HBOM", "HO" ]
 				},
 				{
+					"stations": [ "HH", "HWUN", "HNRU", "HNBG", "HDVD", "HV", "HB", "HD", "HHUD", "HOLD", "HZWI", "HOCH", "HAUG", "HLEE", "HE", "HNN", "HNDM" ],
 					"plops": 202180,
-					"stations": [ "HH", "HWUN", "HNRU", "HNBG", "HDVD", "HV", "HB", "HD", "HHUD", "HOLD", "HZWI", "HOCH", "HAUG", "HLEE", "HE", "HNN", "HNDM" ]
+					"pathSuggestion": [ "HH", "HWUN", "HNRU", "HNBG", "HDVD", "HV", "HB", "HD", "HHUD", "HOLD", "HZWI", "HOCH", "HAUG", "HLEE", "HE", "HNN", "HNDM" ]
 				}
 			]
 		},
@@ -1662,7 +1678,8 @@
 				{ "name": "passengers", "value": 0 }
 			],
 			"plops": 157240,
-			"group": 1
+			"group": 1,
+			"pathSuggestion": [ "HE", "HLEE", "HPAP", "HASD", "HLAT", "HHAR", "HMEP", "HGEE", "HLIG", "HLED", "HR", "EEDT", "EGRV", "EMST" ]
 		}
 	]
 }
