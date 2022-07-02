@@ -117,6 +117,15 @@
 						"maxLength": 5
 					}
 				},
+				"pathSuggestion": {
+					"description": "Ril100 aller Bahnhöfe, die standardmäßig mit oder ohne Halt angefahren werden sollen in der richtigen Reihenfolge.",
+					"type": "array",
+					"items": {
+						"type": "string",
+						"minLength": 2,
+						"maxLength": 5
+					}
+				},
 				"stopsEverwhere": {
 					"description": "Wenn true dann wird auch automatisch ein Halt an allen Bahnhöfen, die zwischen den oben angegeben Bahnhöfen eingeplant",
 					"type": "boolean",

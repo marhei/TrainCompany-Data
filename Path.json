@@ -11039,6 +11039,128 @@
 					"twistingFactor": 0.3
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "MLIR",
+					"end": "XAB",
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.24,
+					"neededEquipments": []
+				},
+				{
+					"start": "XAB",
+					"end": "XSSM",
+					"length": 12,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XSSM",
+					"end": "XSRS",
+					"length": 11,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XSRS",
+					"end": "XSSG",
+					"length": 15,
+					"maxSpeed": 85,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XSSG",
+					"end": "XSWI",
+					"length": 30,
+					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XSWI",
+					"end": "XSWT",
+					"length": 27,
+					"maxSpeed": 155,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "XSWT",
+					"end": "XSZO",
+					"length": 21,
+					"maxSpeed": 125,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XSZO",
+					"end": "XSZH",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "RKO",
+					"end": "XSKL",
+					"length": 1,
+					"twistingFactor": 0.2,
+					"maxSpeed": 50
+				},
+				{
+					"start": "XSKL",
+					"end": "XSR",
+					"length": 18
+				},
+				{
+					"start": "XSR",
+					"end": "XSSG",
+					"length": 21,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": ["CH"],
+			"twistingFactor": 0.16,
+			"objects": [
+				{
+					"start": "XSR",
+					"end": "XSAB",
+					"length": 8,
+					"maxSpeed": 125
+				},
+				{
+					"start": "XSAB",
+					"end": "XSHB",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "XSHB",
+					"end": "XSRS",
+					"length": 3,
+					"maxSpeed": 125
+				}
+			]
 		}
 	]
 }
