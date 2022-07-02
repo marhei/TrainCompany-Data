@@ -1601,6 +1601,54 @@
 					"plops": 571500
 				}
 			]
+		},
+		{
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "EPD", "HA", "EHBM", "EDTM", "ELAG", "EBSU", "EHFD" ],
+					"plops": 107440
+				},
+				{
+					"plops": 93400,
+					"stations": [ "EPD", "ESHO", "EBILP" ]
+				}
+			]
+		},
+		{
+			"name": "RE von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress von %s nach %s.",
+				"Bring die Fahrgäste in dem RE pünktlich nach %2$s.",
+				"Fahre den RE im Expresskreuz Niedersachsen/Bremen nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "HH", "HWUN", "HNRU", "HNBG", "HDVD", "HV", "HB", "HOSS", "HBH", "HBHL" ],
+					"plops": 190650
+				},
+				{
+					"stations": [ "HBHL", "HBH", "HOSS", "HB", "HSYK", "HT", "HBNF", "HDIP", "HLMF", "HBOM", "HO" ],
+					"plops": 188450
+				},
+				{
+					"stations": [ "HH", "HWUN", "HNRU", "HNBG", "HDVD", "HV", "HB", "HD", "HHUD", "HOLD", "HZWI", "HOCH", "HAUG", "HLEE", "HE", "HNN", "HNDM" ],
+					"plops": 243450
+				}
+			]
 		}
 	]
 }
