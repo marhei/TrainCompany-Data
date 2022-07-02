@@ -1082,13 +1082,8 @@
 				"Oberbergische Bahn von %s nach %s."
 			],
 			"plops": 150000,
-			"objects": [
-				{"stations": ["ELS", "EBRU", "EOBG", "EKIE", "EMZH", "KMAH", "KGU", "KDI", "KRUN", "KENL", "KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KK"]},
-				{"stations": ["KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KK"]},
-				{"stations": ["KENL", "KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KK"]},
-				{"stations": ["KDI", "KENL", "KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KRUN", "KK"]},
-				{"stations": ["KGU", "KDI", "KENL", "KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KRUN", "KK"]}
-			],
+			"stations": ["ELS", "KK"],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -1188,12 +1183,8 @@
 			"descriptions": [
 				"Bringe die Schüler*innen von %s nach %s"
 			],
-			"objects": [
-				{"stations": ["KGU", "KDI", "KRUN", "KENL", "KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KK"]},
-				{"stations": ["KK", "KKTR", "KKFS", "KRST", "KROE", "KHOF", "KHOR", "KOV"]},
-				{"stations": ["KK", "KKTR", "KKFS", "KRST", "KROE", "KHOF", "KHOR", "KOV", "KENL"]}
-					
-			],
+			"stations": ["KGU", "KENL", "KK"],
+			"stopsEverywhere": true,
 			"plops": 300000,
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -1209,7 +1200,7 @@
 			"objects": [
 				{"stations": ["KK", "KKTR", "KKFS", "KRST", "KROE", "KHOF", "KHOR", "KOV", "KENL", "KRUN", "KDI", "KGU", "KMAH", "EMZH", "EKIE", "EOBG", "EBRU", "ELS"]},
 				{"stations": ["KGU", "KDI", "KRUN", "KENL", "KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KK"]}
-					
+
 			],
 			"plops": 300000,
 			"neededCapacity": [
