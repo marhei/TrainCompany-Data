@@ -1076,6 +1076,24 @@
 			]
 		},
 		{
+			"group": 1,
+			"name": "Oberbergische Bahn von %s nach %s",
+			"descriptions": [
+				"Oberbergische Bahn von %s nach %s."
+			],
+			"plops": 150000,
+			"objects": [
+				{"stations": ["ELS", "EBRU", "EOBG", "EKIE", "EMZH", "KMAH", "KGU", "KDI", "KRUN", "KENL", "KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KK"]},
+				{"stations": ["KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KK"]},
+				{"stations": ["KENL", "KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KK"]},
+				{"stations": ["KDI", "KENL", "KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KRUN", "KK"]},
+				{"stations": ["KGU", "KDI", "KENL", "KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KRUN", "KK"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
 			"group": 0,
 			"name": "S-Bahn-Verstärkerfahrt von %s nach %s",
 			"descriptions": [
@@ -1160,6 +1178,40 @@
 				"Es ist unentschieden zwischen %s und %s ausgegangen. Bring die Fans nach Hause!"
 			],
 			"plops": 400000,
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Schulverkehr von %s nach %s",
+			"descriptions": [
+				"Bringe die Schüler*innen von %s nach %s"
+			],
+			"objects": [
+				{"stations": ["KGU", "KDI", "KRUN", "KENL", "KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KK"]},
+				{"stations": ["KK", "KKTR", "KKFS", "KRST", "KROE", "KHOF", "KHOR", "KOV"]},
+				{"stations": ["KK", "KKTR", "KKFS", "KRST", "KROE", "KHOF", "KHOR", "KOV", "KENL"]}
+					
+			],
+			"plops": 300000,
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Ersatzverkehre von %s nach %s",
+			"descriptions": [
+				"Das Personal ist kurzfristig ausgefallen. Bringe die Fahrgäste von %s nach %s",
+				"Die Fahrzeuge eines EVUs sind ausgefallen. Das Land braucht ersatz!"
+			],
+			"objects": [
+				{"stations": ["KK", "KKTR", "KKFS", "KRST", "KROE", "KHOF", "KHOR", "KOV", "KENL", "KRUN", "KDI", "KGU", "KMAH", "EMZH", "EKIE", "EOBG", "EBRU", "ELS"]},
+				{"stations": ["KGU", "KDI", "KRUN", "KENL", "KOV", "KHOR", "KHOF", "KROE", "KRST", "KKFS", "KKTR", "KK"]}
+					
+			],
+			"plops": 300000,
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -1364,6 +1416,32 @@
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Museumsbahn auf die Wiehltalbahn",
+			"descriptions": [
+				"Fahre die Museumsbahn von Dieringhausen nach Osberghausen auf die Wiehltalbahn."
+			],
+			"plops": 325000,
+			"objects": [
+				{"stations": ["KDI", "KOSB"]}
+			],
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Kohlezug nach %s",
+			"descriptions": [
+				"Bringe den Kohlezug nach %s"
+			],
+			"plops": 500000,
+			"stations": ["KPH"],
+			"neededCapacity": [
+				{"name": "coal", "value": 12}
 			]
 		}
 	]
