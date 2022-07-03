@@ -152,6 +152,21 @@
 			"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
 		},
 		{
+			"name": "MDV-IC von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity der Mitte-Deutschland-Verbindung von %s nach %s.",
+				"Bring die Fahrgäste im IC pünktlich nach %2$s.",
+				"Fahre den Ost-West-IC nach %2$s."
+			],
+			"stations": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HH", "HBS", "LM", "LK", "LH", "LL", "DR", "DH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 396000,
+			"group": 1,
+			"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HL", "HWUN", "HH", "HWOB", "HBS", "LM", "LK", "LH", "LGOS", "LL", "DR", "DPR", "DH" ]
+		},
+		{
 			"group": 0,
 			"name": "Eröffnungs-ICE nach %2$s",
 			"descriptions": [
@@ -369,14 +384,22 @@
 			],
 			"plops": 300000,
 			"objects": [
-				{"stations": ["MH", "MSN", "MHO", "MSFL", "MBT", "MLG"]},
-				{"stations": ["MH", "MSN", "MHO", "MSFL", "MGMD", "MTE"]},
-				{"stations": ["MH", "MSN", "MHO", "MMIB", "MSCS", "MBZ"]},
-				{"stations": ["MH", "MSN", "MHO", "MMIB", "MSCS"]}
+				{
+					"stations": [ "MH", "MSN", "MHO", "MSFL", "MBT", "MLG" ]
+				},
+				{
+					"stations": [ "MH", "MSN", "MHO", "MSFL", "MGMD", "MTE" ]
+				},
+				{
+					"stations": [ "MH", "MSN", "MHO", "MMIB", "MSCS", "MBZ" ]
+				},
+				{
+					"stations": [ "MH", "MSN", "MHO", "MMIB", "MSCS" ]
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -387,12 +410,16 @@
 			],
 			"plops": 300000,
 			"objects": [
-				{"stations": ["MH", "MHO", "MRO"]},
-				{"stations": ["MHO", "MRO"]}
+				{
+					"stations": [ "MH", "MHO", "MRO" ]
+				},
+				{
+					"stations": [ "MHO", "MRO" ]
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -404,13 +431,19 @@
 			],
 			"plops": 300000,
 			"objects": [
-				{"stations": ["MH", "MRO", "XASB"]},
-				{"stations": ["MH", "MRO"]},
-				{"stations": ["MH", "MRO", "MTS"]}
+				{
+					"stations": [ "MH", "MRO", "XASB" ]
+				},
+				{
+					"stations": [ "MH", "MRO" ]
+				},
+				{
+					"stations": [ "MH", "MRO", "MTS" ]
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -422,14 +455,22 @@
 			],
 			"plops": 320000,
 			"objects": [
-				{"stations": ["MH", "MRO", "MPR"]},
-				{"stations": ["MH", "MRO"]},
-				{"stations": ["MTS", "XASB"]},
-				{"stations": ["MPR", "XASB"]}
+				{
+					"stations": [ "MH", "MRO", "MPR" ]
+				},
+				{
+					"stations": [ "MH", "MRO" ]
+				},
+				{
+					"stations": [ "MTS", "XASB" ]
+				},
+				{
+					"stations": [ "MPR", "XASB" ]
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -439,10 +480,10 @@
 				"Fahre als S3 von %s nach %s und halte dabei an allen Unterwegsbahnhöfen."
 			],
 			"plops": 300000,
-			"stations": [ "MHO", "MDS", "MH", "MMAM"],
+			"stations": [ "MHO", "MDS", "MH", "MMAM" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{"name": "passengers", "value": 0}
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -1317,7 +1358,7 @@
 				"Bringe die RB 52 über die Volmetalbahn nach %s."
 			],
 			"plops": 275000,
-			"stations": [ "EDO", "EHG", "EBRU", "ELS"],
+			"stations": [ "EDO", "EHG", "EBRU", "ELS" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -1330,7 +1371,7 @@
 				"Bringe die RB 52 über die Volmetalbahn nach %s."
 			],
 			"plops": 275000,
-			"stations": [ "EHG", "ELS"],
+			"stations": [ "EHG", "ELS" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -1914,7 +1955,7 @@
 				"Zwischen Hagen und Wuppertal gab es eine Entgleisung. Bringe den Umleiter nach %2$s."
 			],
 			"plops": 325000,
-			"stations": ["KK", "KOV", "EBRU", "EHG"],
+			"stations": [ "KK", "KOV", "EBRU", "EHG" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
