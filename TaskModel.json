@@ -919,6 +919,29 @@
 		},
 		{
 			"group": 1,
+			"name": "S2 Verstärker nach %s",
+			"descriptions": [
+				"Damit der 10 Minuten Takt auf der S2 aufrechterhalten werden kann, wird eine Zugleistung von %s nach %s ausgeschrieben."
+			],
+			"plops": 150000,
+			"objects": [
+				{
+					"stations": [ "MSB", "MPO", "MGRB", "MHEM", "MFK", "MH", "MOZ", "MMAL", "MDA"]
+				},
+				{
+					"stations": [ "MSB", "MPO", "MGRB", "MHEM", "MFK", "MH"]
+				},
+				{
+					"stations": ["MH", "MOZ", "MMAL", "MDA"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Metronom von %s nach %s",
 			"descriptions": [
 				"Bring die Fahrgäste mit oder ohne Fahrräder pünktlich durch das Leinetal und an die Aller.",
