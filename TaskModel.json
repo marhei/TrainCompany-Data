@@ -1862,6 +1862,28 @@
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
+		},
+		{
+			"group": 0,
+			"name": "Alpen-Sylt-Nachtexpress von %s nach %s",
+			"descriptions": [
+				"Bring die Fahrgäste in den Urlaub.",
+				"Fahre den Zug zwischen Alpen und Nordsee.",
+				"Fahr mit dem Nachtzug nach %2$s."
+			],
+			"plops": 600000,
+			"objects": [
+				{
+					"stations": [ "XASB", "MFL", "MPR", "MRO", "MH", "NN", "AH", "AHI", "AHM", "ANB", "AWLA" ]
+				},
+				{
+					"stations": [ "RB", "RF", "RK", "RM", "FF", "AH", "AHI", "AHM", "ANB", "AWLA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "beds", "value": 0 }
+			]
 		}
 	]
 }
