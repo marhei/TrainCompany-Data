@@ -151,33 +151,13 @@
 								]
 							}
 						},
-						"if": {
-							"properties": {
-								"name": {
-									"const": "passengers"
-								}
-							}
-						},
-						"then": {
-							"properties": {
-								"value": {
-									"description": "Anzahl der Fahrgäste",
-									"type": "integer",
-									"oneOf": [
-										{"const": 0, "description": "Automatisch"},
-										{"minimum": 1}
-									]
-								}
-							}
-						},
-						"else": {
-							"properties": {
-								"value": {
-									"description": "Menge der Ladung",
-									"type": "integer",
-									"minimum": 1
-								}
-							}
+						"value": {
+							"description": "Menge der Ladung",
+							"type": "integer",
+							"oneOf": [
+								{"const": 0, "description": "Automatisch"},
+								{"minimum": 1}
+							]
 						}
 					}
 				},
