@@ -146,6 +146,12 @@
 					"description": "Emoji der Einheit",
 					"type": "string"
 				},
+				"exchangeFactor": {
+					"description": "Faktor für automatischen Zustieg: 1 ist normale Fahrgäste",
+					"type": "number",
+					"minimum": 0,
+					"maximum": 5
+				},
 				"objects": {
 					"description": "Sub-Ladungsarten, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
 					"type": "array",
