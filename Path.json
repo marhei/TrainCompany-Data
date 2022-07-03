@@ -11329,6 +11329,77 @@
 					"twistingFactor": 0.3
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "LL",
+					"end": "LWZ",
+					"length": 25,
+					"maxSpeed": 200
+				},
+				{
+					"start": "LWZ",
+					"end": "LDA",
+					"length": 17,
+					"maxSpeed": 200
+				},
+				{
+					"start": "LDA",
+					"end": "DOT",
+					"length": 9,
+					"maxSpeed": 200
+				},
+				{
+					"start": "DOT",
+					"end": "DR",
+					"length": 13,
+					"maxSpeed": 200
+				},
+				{
+					"start": "DR",
+					"end": "DGLA",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "DGLA",
+					"end": "DPR",
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DPR",
+					"end": "DNDR",
+					"length": 10,
+					"maxSpeed": 120
+				},
+				{
+					"start": "DNDR",
+					"end": "DCW",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "DCW",
+					"end": "DH",
+					"length": 17,
+					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.15,
+			"electrified": true,
+			"start": "DGB",
+			"end": "DPR",
+			"length": 7
 		}
 	]
 }
