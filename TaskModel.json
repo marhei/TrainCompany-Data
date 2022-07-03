@@ -947,6 +947,119 @@
 		},
 		{
 			"group": 1,
+			"name": "S2 nach %s",
+			"descriptions": [
+				"Fahre eine Runde S2 von %s nach %s"
+			],
+			"plops": 150000,
+			"objects": [
+				{
+					"stations": [ "MSB", "MPO", "MGRB", "MHEM", "MFK", "MH", "MOZ", "MMAL", "MDA", "MPE"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S4 nach %s",
+			"descriptions": [
+				"Fahre eine Runde S4 von %s nach %s"
+			],
+			"plops": 150000,
+			"objects": [
+				{
+					"stations": [ "MGB", "MZO", "MHR", "MH", "MGE"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE nach %s",
+			"descriptions": [
+				"Fahre den Regionalexpress zwischen %s und %s."
+			],
+			"plops": 200000,
+			"objects": [
+				{
+					"stations": [ "NRH", "MLA", "MMB", "MLB", "MFR", "MH"]
+				},
+				{
+					"stations": [ "NRH", "MLA", "MFR", "MH"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Flughafenexpress nach %s",
+			"descriptions": [
+				"Fahrgäste von %s möchten nach %s. Fahre bitte von %s nach %s."
+			],
+			"plops": 200000,
+			"objects": [
+				{
+					"stations": [ "NRH", "MLA", "MMB", "MLB", "MFR", "MPU", "MFMH"]
+				},
+				{
+					"stations":  [ "NRH", "MLA", "MFR", "MPU", "MFMH"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S20 nach %s",
+			"descriptions": [
+				"Fahre eine Runde S20 von %s nach %s"
+			],
+			"plops": 150000,
+			"objects": [
+				{
+					"stations": [ "MGE", "MH"]
+				},
+				{
+					"stations": [ "MGE", "MH", "MSN", "MDS"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S1 nach %s",
+			"descriptions": [
+				"Fahre eine Runde S1 von %s nach %s"
+			],
+			"plops": 150000,
+			"objects": [
+				{
+					"stations": [ "MFR", "MPU", "MNF", "MEC", "MLH", "MOSM", "MH"]
+				},
+				{
+					"stations": [ "MFHM", "MNF", "MEC", "MLH", "MOSM", "MH"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Metronom von %s nach %s",
 			"descriptions": [
 				"Bring die Fahrgäste mit oder ohne Fahrräder pünktlich durch das Leinetal und an die Aller.",
