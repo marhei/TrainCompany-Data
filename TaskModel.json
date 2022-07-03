@@ -422,12 +422,12 @@
 			],
 			"plops": 320000,
 			"objects": [
-				{"stations": ["MH", "MRO", "MPR"]},
+				{"stations": ["MH", "MRO", "MBEF", "MPR"]},
 				{"stations": ["MH", "MRO"]},
-				{"stations": ["MTS", "XASB"]},
-				{"stations": ["MPR", "XASB"]}
+				{"stations": ["MTS", "MTO", "MFL", "XASB"]},
+				{"stations": ["MPR", "MUS", "MTS", "MTO", "MFL", "XASB"]}
 			],
-			"stopsEverywhere": true,
+			"stopsEverywhere": false,
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -498,6 +498,23 @@
 			],
 			"plops": 400000,
 			"stations": [ "FKW", "HWAR", "HA", "EPD", "ESOT", "EHM", "EDO", "EBO", "EE", "EDG", "KD" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S1 von %s nach %s",
+			"descriptions": [
+				"Fahre einen Zug der Linie S1 zwischen %s und %s.",
+				"Die BEG schreibt die S1 von %s nach %s aus."
+			],
+			"plops": 200000,
+			"objects": [
+				{"stations": ["MFHM", "MNF", "MH"]},
+				{"stations": ["MFR", "MPU", "MNF", "MH"]}
+			],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
