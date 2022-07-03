@@ -1253,6 +1253,32 @@
 			]
 		},
 		{
+			"group": 1,
+			"name": "RB 52 von %s nach %s",
+			"descriptions": [
+				"Bringe die RB 52 über die Volmetalbahn nach %s."
+			],
+			"plops": 275000,
+			"stations": [ "EDO", "ELS"],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB 52 von %s nach %s",
+			"descriptions": [
+				"Bringe die RB 52 über die Volmetalbahn nach %s."
+			],
+			"plops": 275000,
+			"stations": [ "EHG", "ELS"],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
 			"group": 0,
 			"name": "S-Bahn-Verstärkerfahrt von %s nach %s",
 			"descriptions": [
@@ -1825,6 +1851,23 @@
 			"stations": [ "KPH" ],
 			"neededCapacity": [
 				{ "name": "coal", "value": 12 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Umleiter von %s nach %s ",
+			"descriptions": [
+				"Zwischen Hagen und Wuppertal gab es eine Entgleisung. Bringe den Umleiter nach %2$s."
+			],
+			"plops": 325000,
+			"objects": [
+				{
+					"stations": ["KK", "KOV", "EBRU", "EHG"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
 			]
 		}
 	]

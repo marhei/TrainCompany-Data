@@ -11254,7 +11254,9 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": ["CH"],
+			"neededEquipments": [
+				"CH"
+			],
 			"twistingFactor": 0.16,
 			"objects": [
 				{
@@ -11274,6 +11276,56 @@
 					"end": "XSRS",
 					"length": 3,
 					"maxSpeed": 125
+				}
+			]
+		},
+		{
+			"name": "Volmetalbahn",
+			"maxSpeed": 90,
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "EHG",
+					"end": "EHGO",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "EHGO",
+					"end": "EDHL",
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "EDHL",
+					"end": "EROL",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "EROL",
+					"end": "EDAK",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "EDAK",
+					"end": "ESMU",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "ESMU",
+					"end": "EBRU",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
 				}
 			]
 		}
