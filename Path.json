@@ -5206,6 +5206,144 @@
 			]
 		},
 		{
+			"maxSpeed": 160,
+			"electrified": true,
+			"group": 1,
+			"objects": [
+				{
+					"start": "MH",
+					"end": "MSN",
+					"length": 9,
+					"twistingFactor": 0.3,
+					"maxSpeed": 160,
+					"group": 1
+				},
+				{
+					"start": "MSN",
+					"end": "MDS",
+					"length": 9,
+					"twistingFactor": 0.2,
+					"group": 1
+				},
+				{
+					"start": "MDS",
+					"end": "MHO",
+					"length": 18,
+					"twistingFactor": 0.2,
+					"group": 1
+				},
+				{
+					"start": "MHO",
+					"end": "MSFL",
+					"length": 11,
+					"maxSpeed": 100,
+					"twistingFactor": 0.23,
+					"electrified": false,
+					"group": 0
+				},
+				{
+					"start": "MSFL",
+					"end": "MBT",
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1,
+					"electrified": false,
+					"group": 0
+				},
+				{
+					"start": "MBT",
+					"end": "MLG",
+					"length": 9,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15,
+					"electrified": false,
+					"group": 0
+				}
+			]
+		},
+		{
+			"maxSpeed": 120,
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "MHO",
+					"end": "MMIB",
+					"length": 17,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4,
+					"electrified": false,
+					"group": 0
+				},
+				{
+					"start": "MMIB",
+					"end": "MSCS",
+					"length": 7,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1,
+					"electrified": false,
+					"group": 0
+				},
+				{
+					"start": "MSCS",
+					"end": "MBZ",
+					"length": 16,
+					"maxSpeed": 60,
+					"twistingFactor": 0.6,
+					"electrified": false,
+					"group": 0
+				}
+			]
+		},
+		{
+			"maxSpeed": 120,
+			"electrified": true,
+			"group": 1,
+			"objects": [
+				{
+					"start": "MH",
+					"end": "MGI",
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"group": 1
+				},
+				{
+					"start": "MGI",
+					"end": "MDS",
+					"length": 6,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"group": 1
+				}
+			]
+		},
+		{
+			"maxSpeed": 80,
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "MSFL",
+					"end": "MGMD",
+					"length": 8,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3,
+					"electrified": false,
+					"group": 0
+				},
+				{
+					"start": "MGMD",
+					"end": "MTE",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.25,
+					"electrified": false,
+					"group": 0
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"maxSpeed": 160,
 			"twistingFactor": 0.2,
