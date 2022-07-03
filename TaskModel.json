@@ -377,28 +377,12 @@
 		},
 		{
 			"group": 1,
-			"name": "S3 Verstärker von %s nach %s",
-			"descriptions": [
-				"Fahre als Verstärker der S3 von %s nach %s und halte dabei an allen Unterwegsbahnhöfen."
-			],
-			"plops": 300000,
-			
-			"objects": [
-				{"stations": ["MDS", "MGI", "MH", "MMAM"]},
-				{"stations": ["MDS", "MGI", "MH"]}
-			],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 1,
 			"name": "S3 von %s nach %s",
 			"descriptions": [
 				"Fahre als S3 von %s nach %s und halte dabei an allen Unterwegsbahnhöfen."
 			],
 			"plops": 300000,
-			"stations": [ "MHO", "MDS", "MGI", "MH", "MMAM"],
+			"stations": [ "MHO", "MDS", "MH", "MMAM"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
