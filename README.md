@@ -41,6 +41,7 @@ Art der Beladungen eines Fahrzeuges
 * **unit** *(string)* Einheit der Capacity
 * **unitMass** *(float)* Eine Einheit entspricht wie viel t Gewicht?
 * **emoji** *(string)* Emoji der Einheit
+* **exchangeFactor** *(float)* Faktor für automatischen Zustieg: 1 ist normale Fahrgäste (optional)
 
 
 ## DelayModel.json
