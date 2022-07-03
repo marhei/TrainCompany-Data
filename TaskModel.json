@@ -1246,7 +1246,7 @@
 				"Oberbergische Bahn von %s nach %s."
 			],
 			"plops": 150000,
-			"stations": [ "ELS", "KK" ],
+			"stations": [ "ELS", "EBRU", "KK" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -1259,7 +1259,7 @@
 				"Bringe die RB 52 über die Volmetalbahn nach %s."
 			],
 			"plops": 275000,
-			"stations": [ "EDO", "ELS"],
+			"stations": [ "EDO", "EHG", "EBRU", "ELS"],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -1832,11 +1832,7 @@
 				"Fahre die Museumsbahn von Dieringhausen nach Osberghausen auf die Wiehltalbahn."
 			],
 			"plops": 325000,
-			"objects": [
-				{
-					"stations": [ "KDI", "KOSB" ]
-				}
-			],
+			"stations": [ "KDI", "KOSB" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -1860,11 +1856,7 @@
 				"Zwischen Hagen und Wuppertal gab es eine Entgleisung. Bringe den Umleiter nach %2$s."
 			],
 			"plops": 325000,
-			"objects": [
-				{
-					"stations": ["KK", "KOV", "EBRU", "EHG"]
-				}
-			],
+			"stations": ["KK", "KOV", "EBRU", "EHG"],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
