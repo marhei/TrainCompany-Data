@@ -5262,6 +5262,47 @@
 			]
 		},
 		{
+			"name": "Mangfalltalbahn",
+			"maxSpeed": 120,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "MHO",
+					"end": "MKZ",
+					"length": 6,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "MKZ",
+					"end": "MBRM",
+					"length": 14,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "MBRM",
+					"end": "MBAI",
+					"length": 7,
+					"twistingFactor": 0.15,
+					"group": 0
+				},
+				{
+					"start": "MBAI",
+					"end": "MKMR",
+					"length": 5,
+					"twistingFactor": 0.15,
+					"group": 0
+				},
+				{
+					"start": "MKMR",
+					"end": "MRO",
+					"length": 5,
+					"twistingFactor": 0.45,
+					"group": 0
+				}
+			]
+		},
+		{
 			"maxSpeed": 120,
 			"electrified": false,
 			"group": 1,
@@ -7098,12 +7139,6 @@
 					"start": "LGDG",
 					"end": "LL",
 					"length": 25
-				},
-				{
-					"start": "UG",
-					"end": "UBKZ",
-					"twistingFactor": 0.1,
-					"length": 8
 				},
 				{
 					"start": "UGZ",
@@ -10780,7 +10815,7 @@
 				{
 					"start": "MFL",
 					"end": "XASB",
-					"electrified": false,
+					"electrified": true,
 					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.2
