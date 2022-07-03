@@ -364,14 +364,71 @@
 			"group": 1,
 			"name": "BRB Oberland von %s nach %s",
 			"descriptions": [
-				"Fahre durch das Bayerische Oberland. Die Strecke die angeboten wird, ist die von %s nach %s. Gute Reise!"
+				"Fahre durch das Bayerische Oberland. Du wirst gebeten von %s nach %s zu fahren. Gute Reise!"
 			],
 			"plops": 300000,
 			"objects": [
 				{"stations": ["MH", "MSN", "MHO", "MSFL", "MBT", "MLG"]},
 				{"stations": ["MH", "MSN", "MHO", "MSFL", "MGMD", "MTE"]},
-				{"stations": ["MH", "MSN", "MHO", "MMIB", "MSCS", "MBZ"]}
+				{"stations": ["MH", "MSN", "MHO", "MMIB", "MSCS", "MBZ"]},
+				{"stations": ["MH", "MSN", "MHO", "MMIB", "MSCS"]}
 			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "BRB Chiemgau-Inntal von %s nach %s",
+			"descriptions": [
+				"Du fährst die BRB Chiemgau-Inntal von %s nach %s."
+			],
+			"plops": 300000,
+			"objects": [
+				{"stations": ["MH", "MSN", "MDS", "MHO"]},
+				{"stations": ["MH", "MSN", "MDS", "MHO", "MKZ", "MBRM", "MBAI", "MKMR", "MRO"]},
+				{"stations": ["MHO", "MKZ", "MBRM", "MBAI", "MKMR", "MRO"]},
+				{"stations": ["MH", "MSN", "MDS"]}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 1,
+			"name": "BRB Chiemgau-Inntal (RE 5) von %s nach %s",
+			"descriptions": [
+				"Die BEG schreibt das Chiemgau-Inntal Netz aus. Deine Fahrt führt von %s nach %s",
+				"Um dem bestellten Einsatz gerecht zu werden, müssen Fahrgäste von %s nach %s im Netz Chiemgau-Inntal befördert werden."
+			],
+			"plops": 300000,
+			"objects": [
+				{"stations": ["MH", "MRO", "MBEF", "MPR", "MUS", "MTS", "MTO", "MFL", "XASB"]},
+				{"stations": ["MH", "MRO"]},
+				{"stations": ["MH", "MRO", "MBEF", "MPR", "MUS", "MTS"]}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{"name": "passengers", "value": 0}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Pendelzug RE 5 von %s nach %s",
+			"descriptions": [
+				"Wegen Bauarbeiten wurde ein Streckenabschnitt gesperrt. Fahre einen Pendelzug von %s nach %s.",
+				"Ein Polizeieinsatz hat den Bahnverkehr zum erliegen gebracht. Ein SEV für den Streckenabschnitt wurde eingerichtet. Fahre einen Pendelzug zwischen %s und %s."
+			],
+			"plops": 320000,
+			"objects": [
+				{"stations": ["MH", "MRO", "MBEF", "MPR"]},
+				{"stations": ["MH", "MRO"]},
+				{"stations": ["MTS", "MTO", "MFL", "XASB"]},
+				{"stations": ["MPR", "MUS", "MTS", "MTO", "MFL", "XASB"]}
+			],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -384,6 +441,7 @@
 			],
 			"plops": 300000,
 			"stations": [ "MHO", "MDS", "MH", "MMAM"],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
