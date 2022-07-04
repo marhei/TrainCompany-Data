@@ -18,7 +18,8 @@
 			"equipments": ["ETCS", "CH"],
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "passengers", "value": 703}
+				{"name": "passengers", "value": 703},
+				{"name": "bistroseats", "value": 24 }
 			]
 		},
 		{
@@ -38,7 +39,8 @@
 			"equipments": ["ETCS", "KRM", "FR", "NL"],
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "passengers", "value": 460}
+				{"name": "passengers", "value": 460},
+				{"name": "bistroseats", "value": 16 }
 			]
 		},
 		{
@@ -58,7 +60,8 @@
 			"maxConnectedUnits": 2,
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "passengers", "value": 444}
+				{"name": "passengers", "value": 444},
+				{"name": "bistroseats", "value": 16 }
 			]
 		},
 		{
@@ -78,7 +81,8 @@
 			"maxConnectedUnits": 1,
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "passengers", "value": 918}
+				{"name": "passengers", "value": 918},
+				{"name": "bistroseats", "value": 22 }
 			]
 		},
 		{
@@ -99,7 +103,8 @@
 			"equipments": ["CH"],
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "passengers", "value": 195}
+				{"name": "passengers", "value": 195},
+				{"name": "bistroseats", "value": 2 }
 			]
 		},
 		{
@@ -878,6 +883,23 @@
 			"exchangeTime": 180,
 			"capacity": [
 				{"name": "beds", "value": 30}
+			]
+		},
+		{
+			"id": 37,
+			"group": 1,
+			"name": "IC-Speisewagen",
+			"shortcut": "ARmz211.0",
+			"speed": 200,
+			"weight": 48,
+			"force": 0,
+			"length": 28,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 220000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 18}
 			]
 		},
 		{
