@@ -11605,7 +11605,9 @@
 			"group": 0,
 			"maxSpeed": 125,
 			"twistingFactor": 0.2,
-			"neededEquipments": [ "CH" ],
+			"neededEquipments": [
+				"CH"
+			],
 			"objects": [
 				{
 					"start": "RSCF",
@@ -11637,6 +11639,85 @@
 					"start": "XSOB",
 					"end": "XSZO",
 					"length": 8
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "RRZ",
+					"end": "RST",
+					"length": 7,
+					"maxSpeed": 110,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "RST",
+					"end": "RLU",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "RLU",
+					"end": "RSIN",
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "RSIN",
+					"end": "RUEM",
+					"length": 6,
+					"maxSpeed": 70,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "RUEM",
+					"end": "RSLM",
+					"length": 13,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RSLM",
+					"end": "RMAD",
+					"length": 8,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "RMAD",
+					"end": "TFF",
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "TFF",
+					"end": "TF",
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "TF",
+					"end": "TLR",
+					"length": 9,
+					"electrified": true,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TLR",
+					"end": "MLIR",
+					"length": 14,
+					"electrified": true,
+					"maxSpeed": 100,
+					"twistingFactor": 0.24
 				}
 			]
 		}
