@@ -130,8 +130,8 @@
 					"pathSuggestion": [ "RB", "RF", "RO", "RK", "RGN", "RSAB", "RM", "FBL", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH" ]
 				},
 				{
-					"stations": [ "RB", "RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH", "AA", "AN", "AK" ],
-					"pathSuggestion": [ "RB", "RF", "RO", "RK", "RGN", "RSAB", "RM", "FBL", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH", "AA", "AEL", "AN", "AK" ]
+					"stations": [ "XSZH", "XSB", "RB", "RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH", "AA", "AN", "AK" ],
+					"pathSuggestion": [ "XSZH", "XSKS", "XSB", "RB", "RF", "RO", "RK", "RGN", "RSAB", "RM", "FBL", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH", "AA", "AEL", "AN", "AK" ]
 				}
 			],
 			"neededCapacity": [
@@ -308,7 +308,7 @@
 				},
 				{
 					"stations": [ "AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM", "RK", "RF", "RDO", "RSI", "RB", "RLR" ],
-					"pathSuggestion": [ "AA", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FGTH", "FB", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RO", "RF", "RDO", "RIM", "RSI", "RB", "RLR" ]
+					"pathSuggestion": [ "AA", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FGTH", "FB", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RO", "RF", "RDO", "RIM", "RSI", "RSCF", "RB", "RLR" ]
 				},
 				{
 					"stations": [ "KD", "KK", "FF", "NWH", "NN", "MH" ],
@@ -671,7 +671,7 @@
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
-			"pathSuggestion": [ "NBA", "NS", "NRTD", "NWH", "NGM", "NLO", "NWI", "NLA", "NAH", "FH", "FO", "FF" ]
+			"pathSuggestion": [ "NBA", "NS", "NRTD", "NWH", "NRB", "NBN", "NGM", "NLO", "NWI", "NLA", "NAH", "FH", "FO", "FF" ]
 		},
 		{
 			"group": 1,
@@ -1138,8 +1138,7 @@
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
-			],
-			"pathSuggestion": [ "LL", "UBKZ", "UG", "US" ]
+			]
 		},
 		{
 			"group": 1,
@@ -1349,7 +1348,8 @@
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
-			]
+			],
+			"pathSuggestion": [ "ELS", "EBRU", "EHG", "KW", "KK" ]
 		},
 		{
 			"group": 1,
@@ -1375,7 +1375,8 @@
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
-			]
+			],
+			"pathSuggestion": [ "EHG", "EBRU", "ELS" ]
 		},
 		{
 			"group": 0,
@@ -1424,11 +1425,11 @@
 			"objects": [
 				{
 					"stations": [ "XTD", "DSA", "DH", "BL", "WW", "WL", "ABCH", "AH", "AN", "AK" ],
-					"pathSuggestion": [ "XTD", "DSA", "DH", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AK" ]
+					"pathSuggestion": [ "XTD", "DSA", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AK" ]
 				},
 				{
 					"stations": [ "XTD", "DSA", "DH", "BL", "WW", "WL", "ABCH", "AH", "AN", "AF" ],
-					"pathSuggestion": [ "XTD", "DSA", "DH", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF" ]
+					"pathSuggestion": [ "XTD", "DSA", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF" ]
 				}
 			],
 			"neededCapacity": [
@@ -1520,7 +1521,7 @@
 			],
 			"plops": 284240,
 			"group": 1,
-			"pathSuggestion": [ "MH", "MBU", "MM", "MLIR", "XAB", "XSSM", "XSRS", "XSSG", "XSWT", "XSZH" ]
+			"pathSuggestion": [ "MH", "MBU", "MM", "MLIR", "XAB", "XSSM", "XSRS", "XSSG", "XSWT", "XSZO", "XSZH" ]
 		},
 		{
 			"name": "Fugger-Express von %s nach %s",
@@ -1575,7 +1576,7 @@
 				},
 				{
 					"plops": 491200,
-					"pathSuggestion": [ "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "LBT", "LH", "LPLN", "UE P", "NED", "NBA", "NF", "NN", "MIH", "MH" ],
+					"pathSuggestion": [ "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LBT", "LH", "LPLN", "UE P", "NED", "NBA", "NF", "NN", "MIH", "MH" ],
 					"stations": [ "AH", "BL", "LBT", "LH", "UE P", "NBA", "NN", "MIH", "MH" ]
 				}
 			]
@@ -1972,10 +1973,12 @@
 			"plops": 600000,
 			"objects": [
 				{
-					"stations": [ "XASB", "MFL", "MPR", "MRO", "MH", "NN", "AH", "AHI", "AHM", "ANB", "AWLA" ]
+					"stations": [ "XASB", "MFL", "MPR", "MRO", "MH", "NN", "AH", "AHI", "AHM", "ANB", "AWLA" ],
+					"pathSuggestion": [ "XASB", "MFL", "MPR", "MRO", "MH", "MIH", "NN", "NF", "NRTD", "NWH", "NRB", "NBN", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH", "AEL", "AHI", "AHM", "ANB", "AWLA" ]
 				},
 				{
-					"stations": [ "RB", "RF", "RK", "RM", "FF", "AH", "AHI", "AHM", "ANB", "AWLA" ]
+					"stations": [ "RB", "RF", "RK", "RM", "FF", "AH", "AHI", "AHM", "ANB", "AWLA" ],
+					"pathSuggestion": [ "RB", "RF", "RO", "RK", "RGN", "RSAB", "RM", "FBL", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH", "AEL", "AHI", "AHM", "ANB", "AWLA" ]
 				}
 			],
 			"neededCapacity": [
