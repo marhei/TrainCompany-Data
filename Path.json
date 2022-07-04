@@ -11599,6 +11599,46 @@
 					"twistingFactor": 0.24
 				}
 			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 125,
+			"twistingFactor": 0.2,
+			"neededEquipments": [ "CH" ],
+			"objects": [
+				{
+					"start": "RSCF",
+					"end": "XSJE",
+					"length": 8,
+					"maxSpeed": 105,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "XSJE",
+					"end": "XSEG",
+					"length": 12,
+					"maxSpeed": 100,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "XSEG",
+					"end": "XSBH",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XSBH",
+					"end": "XSOB",
+					"length": 7
+				},
+				{
+					"start": "XSOB",
+					"end": "XSZO",
+					"length": 8
+				}
+			]
 		}
 	]
 }
