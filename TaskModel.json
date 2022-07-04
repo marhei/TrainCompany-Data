@@ -1988,6 +1988,22 @@
 				{ "name": "bistroseats", "value": 0 },
 				{ "name": "beds", "value": 0 }
 			]
+		},
+		{
+			"group": 0,
+			"name": "McTrain von %s nach %s",
+			"descriptions": [
+				"Bring die hunrigen Fahrgäste in die andere Ecke des Landes.",
+				"Fahre den Zug zwischen Alpen und Nordsee.",
+				"Fahr mit dem Fastfood-Express nach %2$s."
+			],
+			"plops": 460000,
+			"stations": [ "AH", "EDO", "KD", "KK", "KKO", "FMZ", "FF", "NWH", "NN", "MA", "MH" ],
+            "pathSuggestion": [ "AH","AHAR", "ABLZ", "AROG", "HB", "HO", "EMST", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK", "KKAS", "KB", "KKO", "FBGK", "FMZ", "FFLF", "FF", "FH", "NAH", "NLO", "NGM", "NWH", "NRTD", "NF", "NN", "MDT", "MA", "MOZ", "MH" ],
+			"neededCapacity": [
+				{ "name": "bistroseats", "value": 60 },
+				{ "name": "passengers", "value": 0 }
+			]
 		}
 	]
 }
