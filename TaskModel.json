@@ -167,6 +167,21 @@
 			"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HL", "HWUN", "HH", "HWOB", "HBS", "LM", "LK", "LH", "LGOS", "LL", "DR", "DPR", "DH" ]
 		},
 		{
+			"name": "IC von %s nach %s",
+			"descriptions": [
+				"Bringe den internationalen Intercity von %s nach %s.",
+				"Bring die Fahrgäste in dem IC pünktlich nach %2$s.",
+				"Fahre den IC zwischen Deutschland und Schweiz nach %2$s."
+			],
+			"stations": [ "XSZH", "RSCF", "RSI", "TTU", "TR", "THB", "TBO", "TS" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 216000,
+			"group": 1,
+			"pathSuggestion": [ "XSZH", "XSZO", "RSCF", "RSI", "RIM", "TTU", "TR", "THB", "TET", "TBO", "TS" ]
+		},
+		{
 			"group": 0,
 			"name": "Eröffnungs-ICE nach %2$s",
 			"descriptions": [
