@@ -154,6 +154,18 @@
 			"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
 		},
 		{
+			"group": 1,
+			"name": "Thalys von %s nach %s",
+			"descriptions": [
+				"Verbinde Deutschland mit Belgien und Frankreich."
+			],
+			"plops": 480000,
+			"stations": [ "EDO", "EE", "EDG", "KD", "KK", "KA"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+		},
+		{
 			"name": "MDV-IC von %s nach %s",
 			"descriptions": [
 				"Bringe den Intercity der Mitte-Deutschland-Verbindung von %s nach %s.",
