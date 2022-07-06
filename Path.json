@@ -4559,20 +4559,43 @@
 			"name": "Mönchengladbach - Köln",
 			"group": 0,
 			"electrified": true,
+			"twistingFactor": 0.2,
+			"maxSpeed": 120,
 			"objects": [
 				{
-					"start": "KM",
+					"start": "KK",
+					"end": "KPUL",
+					"length": 14
+				},
+				{
+					"start": "KPUL",
+					"end": "KSOM",
+					"length": 4
+				},
+				{
+					"start": "KSOM",
+					"end": "KROM",
+					"length": 4
+				},
+				{
+					"start": "KROM",
 					"end": "KGRB",
-					"twistingFactor": 0.2,
-					"length": 20,
-					"maxSpeed": 120
+					"length": 11
 				},
 				{
 					"start": "KGRB",
-					"end": "KK",
-					"twistingFactor": 0.2,
-					"length": 31,
-					"maxSpeed": 120
+					"end": "KJUC",
+					"length": 7
+				},
+				{
+					"start": "KJUC",
+					"end": "KRYO",
+					"length": 7
+				},
+				{
+					"start": "KRYO",
+					"end": "KM",
+					"length": 6
 				}
 			]
 		},
@@ -4627,7 +4650,7 @@
 		},
 		{
 			"name": "Grenzlandbahn",
-			"group": 1,
+			"group": 0,
 			"electrified": true,
 			"maxSpeed": 160,
 			"objects": [
