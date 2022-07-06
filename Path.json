@@ -2878,6 +2878,54 @@
 			]
 		},
 		{
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "EDO",
+					"end": "EDD",
+					"maxSpeed": 120,
+					"length": 8
+				},
+				{
+					"start": "EDD",
+					"end": "EPRN",
+					"length": 2
+				},
+				{
+					"start": "EPRN",
+					"end": "ELUE",
+					"length": 3
+				},
+				{
+					"start": "ELUE",
+					"end": "ECP",
+					"length": 16
+				},
+				{
+					"start": "ECP",
+					"end": "EASB",
+					"length": 5
+				},
+				{
+					"start": "EASB",
+					"end": "EDVB",
+					"length": 4
+				},
+				{
+					"start": "EDVB",
+					"end": "EAML",
+					"length": 7
+				},
+				{
+					"start": "EAML",
+					"end": "EMST",
+					"length": 8
+				}
+			]
+		},
+		{
 			"name": "Wupperstrecke",
 			"maxSpeed": 160,
 			"objects": [
