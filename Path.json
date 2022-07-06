@@ -6406,26 +6406,51 @@
 			"name": "Vogelfluglinie",
 			"group": 0,
 			"electrified": false,
+			"twistingFactor": 0.3,
+			"maxSpeed": 140,
 			"objects": [
 				{
 					"start": "AL",
+					"end": "ATIM",
+					"length": 15
+				},
+				{
+					"start": "ATIM",
+					"end": "ASAZ",
+					"length": 2
+				},
+				{
+					"start": "ASAZ",
+					"end": "AHAF",
+					"length": 4
+				},
+				{
+					"start": "AHAF",
 					"end": "ASID",
-					"length": 26,
-					"twistingFactor": 0.3,
-					"maxSpeed": 140
+					"length": 2
 				},
 				{
 					"start": "ASID",
+					"end": "ALS",
+					"length": 19,
+					"maxSpeed": 100
+				},
+				{
+					"start": "ALS",
 					"end": "AOL",
-					"length": 26,
-					"twistingFactor": 0.3,
+					"length": 7,
 					"maxSpeed": 100
 				},
 				{
 					"start": "AOL",
+					"end": "AGRO",
+					"length": 18,
+					"maxSpeed": 100
+				},
+				{
+					"start": "AGRO",
 					"end": "APU",
-					"length": 36,
-					"twistingFactor": 0.3,
+					"length": 18,
 					"maxSpeed": 160
 				}
 			]
