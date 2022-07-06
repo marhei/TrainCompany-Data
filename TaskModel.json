@@ -412,7 +412,7 @@
 				},
 				{
 					"stations": ["XAL", "XAWE", "NPA", "NRH", "NN", "FFLF", "FMZ", "KKO", "KB", "KK", "KD", "EEM"],
-					"pathSuggestion": ["XAL", "XAWE", "NPA", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FF", "FLFF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KD", "EEM"]
+					"pathSuggestion": ["XAL", "XAWE", "NPA", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KD", "EEM"]
 				}
 			],
 			"neededCapacity": [
@@ -518,23 +518,17 @@
 			"group": 1,
 			"name": "REX von %s nach %s",
 			"descriptions": [
-				"REX von %s nach %s."
+				"Hilf der ÖBB mit einem REX von %s nach %s aus."
 			],
 			"plops": 375000,
-			"stations": ["NPA", "XATRN", "XAL"],
-			"stopsEverywhere": true,
-			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
-			]
-		},
-		{
-			"group": 1,
-			"name": "REX von %s nach %s",
-			"descriptions": [
-				"REX von %s nach %s."
+			"objects": [
+				{
+					"stations": ["NPA", "XAWE", "XAL"]
+				},
+				{
+					"stations": ["XASB", "XAWE", "XAL"]
+				}
 			],
-			"plops": 375000,
-			"stations": [ "XASB", "XATRN", "XAL"],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
