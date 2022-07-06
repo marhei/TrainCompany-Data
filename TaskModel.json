@@ -155,6 +155,18 @@
 		},
 		{
 			"group": 1,
+			"name": "Thalys von %s nach %s",
+			"descriptions": [
+				"Verbinde Deutschland mit Belgien und Frankreich."
+			],
+			"plops": 480000,
+			"stations": [ "EDO", "EE", "EDG", "KD", "KK", "KA"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "ICE International von %s nach %s",
 			"descriptions": [
 				"Verbinde die Niederlande mit der Schweiz."
