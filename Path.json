@@ -6242,18 +6242,53 @@
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 120,
+			"twistingFactor": 0.35,
 			"objects": [
 				{
-					"start": "AK",
+					"start": "AF",
+					"end": "AY",
+					"length": 9
+				},
+				{
+					"start": "AY",
+					"end": "ASOE",
+					"length": 8
+				},
+				{
+					"start": "ASOE",
+					"end": "ASUE",
+					"length": 11
+				},
+				{
+					"start": "ASUE",
+					"end": "ARY",
+					"length": 11
+				},
+				{
+					"start": "ARY",
 					"end": "AEC",
-					"length": 31,
-					"twistingFactor": 0.4
+					"length": 8
 				},
 				{
 					"start": "AEC",
-					"end": "AF",
-					"length": 49,
-					"twistingFactor": 0.4
+					"end": "AGF",
+					"group": 1,
+					"length": 12
+				},
+				{
+					"start": "AGF",
+					"end": "ASU",
+					"length": 11
+				},
+				{
+					"start": "ASU",
+					"end": "AKRH",
+					"length": 2
+				},
+				{
+					"start": "AKRH",
+					"end": "AK",
+					"length": 5
 				}
 			]
 		},
