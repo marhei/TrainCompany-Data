@@ -2538,27 +2538,32 @@
 				{
 					"start": "RSCF",
 					"end": "RHRB",
-					"length": 4
+					"length": 4,
+					"electrified": true
 				},
 				{
 					"start": "RHRB",
 					"end": "RTG",
-					"length": 5
+					"length": 5,
+					"electrified": true
 				},
 				{
 					"start": "RTG",
 					"end": "RBGN",
-					"length": 2
+					"length": 2,
+					"electrified": true
 				},
 				{
 					"start": "RBGN",
 					"end": "RG",
-					"length": 3
+					"length": 3,
+					"electrified": true
 				},
 				{
 					"start": "RG",
 					"end": "RSI",
-					"length": 6
+					"length": 6,
+					"electrified": true
 				},
 				{
 					"start": "RSI",
@@ -11757,7 +11762,7 @@
 			]
 		},
 		{
-			"electrified": false,
+			"electrified": true,
 			"group": 0,
 			"maxSpeed": 125,
 			"twistingFactor": 0.2,
