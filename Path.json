@@ -4705,23 +4705,55 @@
 		},
 		{
 			"name": "Aachen - Köln",
-			"group": 1,
+			"group": 0,
 			"electrified": true,
+			"twistingFactor": 0.1,
 			"objects": [
 				{
-					"start": "KK",
-					"end": "KDN",
 					"group": 2,
-					"twistingFactor": 0.2,
-					"length": 39,
+					"start": "KK",
+					"end": "KHR",
+					"length": 18,
+					"maxSpeed": 250,
+					"twistingFactor": 0.25
+				},
+				{
+					"group": 2,
+					"start": "KHR",
+					"end": "KDN",
+					"length": 20,
 					"maxSpeed": 250
 				},
 				{
 					"start": "KDN",
-					"end": "KA",
-					"twistingFactor": 0.25,
-					"length": 34,
+					"end": "KLAW",
+					"length": 9,
 					"maxSpeed": 160
+				},
+				{
+					"start": "KLAW",
+					"end": "KE",
+					"length": 7,
+					"maxSpeed": 160
+				},
+				{
+					"start": "KE",
+					"end": "KST",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "KST",
+					"end": "KEIL",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "KEIL",
+					"end": "KA",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.25
 				}
 			]
 		},
