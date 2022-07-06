@@ -7105,8 +7105,13 @@
 				},
 				{
 					"start": "RSAB",
+					"end": "RROL",
+					"length": 15
+				},
+				{
+					"start": "RROL",
 					"end": "TV",
-					"length": 47
+					"length": 32
 				},
 				{
 					"start": "TV",
@@ -8810,10 +8815,52 @@
 				},
 				{
 					"start": "RBR",
+					"end": "RBRR",
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"length": 2
+				},
+				{
+					"start": "RBRR",
+					"end": "RUWA",
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"length": 2
+				},
+				{
+					"start": "RUWA",
 					"end": "RH",
 					"maxSpeed": 160,
 					"twistingFactor": 0.1,
-					"length": 32
+					"length": 28
+				}
+			]
+		},
+		{
+			"name": "Verbindungsstrecke Bruchsal",
+			"group": 2,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "RBR",
+					"end": "RROL",
+					"maxSpeed": 100,
+					"twistingFactor": 0.5,
+					"length": 2
+				}
+			]
+		},
+		{
+			"name": "Verbindungsstrecke Ubstadt",
+			"group": 2,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "RROL",
+					"end": "RROL",
+					"maxSpeed": 160,
+					"twistingFactor": 0.5,
+					"length": 3
 				}
 			]
 		},
