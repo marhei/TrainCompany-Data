@@ -1786,6 +1786,22 @@
 			"group": 1
 		},
 		{
+			"name": "Nordthüringenbahn von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 55 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 55 pünktlich nach %2$s.",
+				"Bringe den Regionalexpress der Linie 56 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 56 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "UN", "USF", "UE P" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 157240,
+			"group": 1
+		},
+		{
 			"group": 0,
 			"name": "Sonderzug zur Kieler Woche nach %2$s",
 			"descriptions": [
