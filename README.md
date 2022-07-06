@@ -21,7 +21,7 @@ Fahrzeuge, die in TC zur Verfügung stehen
 	* **1** E-Traktion
 	* **2** Diesel-Traktion
 	* **3** Batterie
-* **reliability** *(float)* Zuverlässigkeit in Prozent (0.0-1.0)
+* **reliability** *(float)* Zuverlässigkeit in Prozent (0.8-1.0)
 * **cost** *(int)* Kosten in Plops
 * **maxConnectedUnits** *(int)* Maximale Anzahl der kuppelbaren Einheiten (bei Triebzügen, Nicht gesetzt = Unbegrenzt)
 * **operationCosts** *(int)* Betriebskosten pro km in Plops (Nur bei Fz mit Antrieb benutzen!)
