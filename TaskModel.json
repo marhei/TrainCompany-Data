@@ -25,7 +25,8 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			]
 		},
 		{
@@ -67,7 +68,8 @@
 			"plops": 560000,
 			"stations": [ "FD", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FFU", "NWH", "NN", "MH" ],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			],
 			"pathSuggestion": [ "FD", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KT", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FFU", "NBN", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MH" ]
 		},
@@ -140,6 +142,23 @@
 		},
 		{
 			"group": 1,
+			"name": "ICE von %s nach %s",
+			"descriptions": [
+				"Dieser ICE stellt eine Österreich-Deutschland-Verbindung sicher."
+			],
+			"plops": 500000,
+			"objects": [
+				{
+					"stations": ["XAWE", "NPA", "NRH", "NN", "NWH", "NAH", "FFLF", "FMZ", "KKO", "KB", "KK", "KSO", "KW", "EHG", "EDO"],
+					"pathSuggestion": ["XAWE", "NPA", "NN", "NF", "NRTD", "NWH", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EDO"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Alleo-ICE von %s nach %s",
 			"descriptions": [
 				"Auf dem französischen Abschnitt ist ein Umstieg in einen Zug der SNCF nötig."
@@ -152,6 +171,34 @@
 			"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
 		},
 		{
+			"group": 1,
+			"name": "Thalys von %s nach %s",
+			"descriptions": [
+				"Verbinde Deutschland mit Belgien und Frankreich."
+			],
+			"plops": 480000,
+			"stations": [ "EDO", "EE", "EDG", "KD", "KK", "KA"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "ICE International von %s nach %s",
+			"descriptions": [
+				"Verbinde die Niederlande mit der Schweiz."
+			],
+			"plops": 480000,
+			"objects": [
+				{"stations": [ "EEM", "EDG", "KD", "KK", "FFLF", "RM", "RK", "RO", "RF", "RB"]},
+				{"stations": [ "EEM", "EDG", "KD", "KK", "FFLF", "FF"]}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
+			]
+		},
+		{
 			"name": "MDV-IC von %s nach %s",
 			"descriptions": [
 				"Bringe den Intercity der Mitte-Deutschland-Verbindung von %s nach %s.",
@@ -160,7 +207,8 @@
 			],
 			"stations": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HH", "HBS", "LM", "LK", "LH", "LL", "DR", "DH" ],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			],
 			"plops": 396000,
 			"group": 1,
@@ -254,12 +302,13 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			]
 		},
 		{
 			"group": 1,
-			"name": "IC Berlijn %2$s",
+			"name": "IC Berlijn nach %2$s",
 			"descriptions": [
 				"Stelle eine West-Ost-Verbindung zwischen der Hauptstadt von Deutschland und den Niederlanden her."
 			],
@@ -1213,6 +1262,12 @@
 					"stations": [ "AK", "AR", "AJ", "AHM" ]
 				},
 				{
+					"stations": [ "APO", "AHM" ]
+				},
+				{
+					"stations": [ "AN", "AHI", "ABSM"]
+				},
+				{
 					"stations": [ "AK", "AL" ]
 				},
 				{
@@ -1448,7 +1503,8 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			]
 		},
 		{
@@ -1942,26 +1998,14 @@
 		},
 		{
 			"group": 0,
-			"name": "Museumsbahn auf die Wiehltalbahn",
-			"descriptions": [
-				"Fahre die Museumsbahn von Dieringhausen nach Osberghausen auf die Wiehltalbahn."
-			],
-			"plops": 325000,
-			"stations": [ "KDI", "KOSB" ],
-			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
-			]
-		},
-		{
-			"group": 0,
 			"name": "Kohlezug nach %s",
 			"descriptions": [
-				"Bringe den Kohlezug nach %s"
+				"Bringe den Kohlezug nach %s."
 			],
 			"plops": 500000,
 			"stations": [ "KPH" ],
 			"neededCapacity": [
-				{ "name": "coal", "value": 12 }
+				{ "name": "coal", "value": 780 }
 			]
 		},
 		{
@@ -1998,7 +2042,24 @@
 			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 },
 				{ "name": "beds", "value": 0 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "McTrain von %s nach %s",
+			"descriptions": [
+				"Bring die hunrigen Fahrgäste in die andere Ecke des Landes.",
+				"Fahre den Zug zwischen Alpen und Nordsee.",
+				"Fahr mit dem Fastfood-Express nach %2$s."
+			],
+			"plops": 460000,
+			"stations": [ "AH", "EDO", "KD", "KK", "KKO", "FMZ", "FF", "NWH", "NN", "MA", "MH" ],
+			"pathSuggestion": [ "AH","AHAR", "ABLZ", "AROG", "HB", "HO", "EMST", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK", "KKAS", "KB", "KKO", "FBGK", "FMZ", "FFLF", "FF", "FH", "NAH", "NLO", "NGM", "NWH", "NRTD", "NF", "NN", "MDT", "MA", "MH" ],
+			"neededCapacity": [
+				{ "name": "bistroseats", "value": 60 },
+				{ "name": "passengers", "value": 0 }
 			]
 		}
 	]

@@ -11601,6 +11601,161 @@
 			]
 		},
 		{
+			"maxSpeed": 160,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "NRH",
+					"end": "NBWH",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "NBWH",
+					"end": "NOT",
+					"length": 2,
+					"maxSpeed": 150,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "NOT",
+					"end": "NSUE",
+					"length": 16,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "NSUE",
+					"end": "NRA",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "NRA",
+					"end": "NST",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "NST",
+					"end": "NSK",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "NSK",
+					"end": "NPL",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "NPL",
+					"end": "NOS",
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "NOS",
+					"end": "NPLG",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "NPLG",
+					"end": "NVI",
+					"length": 8,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "NVI",
+					"end": "NPA",
+					"length": 21,
+					"maxSpeed": 110,
+					"twistingFactor": 0
+				}
+			]
+		},
+		{
+			"maxSpeed": 160,
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": ["AT"],
+			"objects": [
+				{
+					"start": "NPA",
+					"end": "XAWR",
+					"length": 11,
+					"maxSpeed": 110,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XAWR",
+					"end": "XASH",
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XASH",
+					"end": "XATF",
+					"length": 11,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XATF",
+					"end": "XAAD",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XAAD",
+					"end": "IXARI",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "IXARI",
+					"end": "XANK",
+					"length": 13,
+					"maxSpeed": 150,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XANK",
+					"end": "XAGP",
+					"length": 11,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XAGP",
+					"end": "XASBW",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XASBW",
+					"end": "XAWE",
+					"length": 13,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				}
+			]
+		}.,
+		{
 			"electrified": false,
 			"group": 0,
 			"maxSpeed": 125,

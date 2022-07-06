@@ -18,7 +18,8 @@
 			"equipments": ["ETCS", "CH"],
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "passengers", "value": 703}
+				{"name": "passengers", "value": 703},
+				{"name": "bistroseats", "value": 24 }
 			]
 		},
 		{
@@ -38,7 +39,8 @@
 			"equipments": ["ETCS", "KRM", "FR", "NL"],
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "passengers", "value": 460}
+				{"name": "passengers", "value": 460},
+				{"name": "bistroseats", "value": 16 }
 			]
 		},
 		{
@@ -58,7 +60,8 @@
 			"maxConnectedUnits": 2,
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "passengers", "value": 444}
+				{"name": "passengers", "value": 444},
+				{"name": "bistroseats", "value": 16 }
 			]
 		},
 		{
@@ -78,7 +81,30 @@
 			"maxConnectedUnits": 1,
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "passengers", "value": 918}
+				{"name": "passengers", "value": 918},
+				{"name": "bistroseats", "value": 22 }
+			]
+		},
+		{
+
+			"id": 411,
+			"group": 2,
+			"name": "ICE T",
+			"shortcut": "BR 411",
+			"speed": 230,
+			"weight": 368,
+			"force": 200,
+			"length": 185,
+			"drive": 1,
+			"reliability": 1.0,
+			"cost": 3000000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 130,
+			"equipments": ["ETCS", "AT"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 195},
+				{"name": "bistroseats", "value": 8 }
 			]
 		},
 		{
@@ -99,7 +125,8 @@
 			"equipments": ["CH"],
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "passengers", "value": 195}
+				{"name": "passengers", "value": 195},
+				{"name": "bistroseats", "value": 2 }
 			]
 		},
 		{
@@ -119,7 +146,8 @@
 			"maxConnectedUnits": 2,
 			"exchangeTime": 150,
 			"capacity": [
-				{"name": "passengers", "value": 509}
+				{"name": "passengers", "value": 509},
+				{"name": "bistroseats", "value": 8 }
 			]
 		},
 		{
@@ -133,13 +161,14 @@
 			"length": 187,
 			"drive": 1,
 			"reliability": 1,
-			"cost": 250000,
+			"cost": 2500000,
 			"operationCosts": 65,
 			"equipments": ["ETCS", "CH"],
 			"maxConnectedUnits": 2,
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "passengers", "value": 431}
+				{"name": "passengers", "value": 431},
+				{"name": "bistroseats", "value": 8 }
 			]
 		},
 		{
@@ -190,6 +219,7 @@
 			"cost": 600000,
 			"operationCosts": 40,
 			"maxConnectedUnits": 4,
+			"equipments": ["AT"],
 			"capacity": [
 				{"name": "passengers", "value": 221}
 			]
@@ -323,7 +353,7 @@
 			"cost": 800000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
-			"equipments": ["CH"],
+			"equipments": ["CH", "AT"],
 			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
@@ -460,7 +490,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 95,
 			"exchangeTime": 120,
-			"equipments": ["FR"],
+			"equipments": ["FR", "AT"],
 			"capacity": [
 				{"name": "passengers", "value": 180}
 			]
@@ -479,6 +509,7 @@
 			"cost": 250000,
 			"operationCosts": 30,
 			"maxConnectedUnits": 3,
+			"equipments": ["AT"],
 			"capacity": [
 				{"name": "passengers", "value": 110}
 			]
@@ -561,6 +592,24 @@
 			]
 		},
 		{
+			"id": 161,
+			"group": 2,
+			"name": "Pesa Link",
+			"shortcut": "BR 632",
+			"speed": 140,
+			"weight": 87,
+			"force": 235,
+			"length": 44,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 350000,
+			"operationCosts": 30,
+			"maxConnectedUnits": 4,
+			"capacity": [
+				{"name": "passengers", "value": 240}
+			]
+		},
+		{
 			"id": 3,
 			"group": 0,
 			"name": "BR 101",
@@ -572,6 +621,7 @@
 			"reliability": 0.9,
 			"cost": 350000,
 			"operationCosts": 100,
+			"equipments": ["AT"],
 			"compatibleWith": [1051]
 		},
 		{
@@ -684,7 +734,7 @@
 			"reliability": 1,
 			"cost": 400000,
 			"operationCosts": 90,
-			"equipments": ["ETCS", "CH"],
+			"equipments": ["ETCS", "AT", "CH"],
 			"compatibleWith": [1116,11009,11007]
 		},
 		{
@@ -700,7 +750,7 @@
 			"reliability": 1,
 			"cost": 450000,
 			"operationCosts": 110,
-			"equipments": ["ETCS", "CZ", "CH"]
+			"equipments": ["ETCS", "CZ", "CH", "AT"]
 		},
 		{
 			"id": 28,
@@ -715,7 +765,7 @@
 			"reliability": 1,
 			"cost": 400000,
 			"operationCosts": 80,
-			"equipments": ["ETCS", "FR", "CH"],
+			"equipments": ["ETCS", "FR", "CH", "AT"],
 			"compatibleWith": [11009,11007]
 		},
 		{
@@ -757,7 +807,7 @@
 			"reliability": 1,
 			"cost": 450000,
 			"operationCosts": 110,
-			"equipments": ["ETCS"]
+			"equipments": ["ETCS", "AT"]
 		},
 		{
 			"id": 34,
@@ -866,6 +916,58 @@
 			]
 		},
 		{
+			"id": 40,
+			"group": 1,
+			"name": "IC-Halbspeisewagen",
+			"shortcut": "ARkimbz",
+			"speed": 200,
+			"weight": 51,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 220000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 15},
+				{"name": "passengers", "value": 18}
+			]
+		},
+		{
+			"id": 37,
+			"group": 1,
+			"name": "IC-Speisewagen",
+			"shortcut": "ARmz211.0",
+			"speed": 200,
+			"weight": 48,
+			"force": 0,
+			"length": 28,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 220000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 18}
+			]
+		},
+		{
+			"id": 38,
+			"group": 1,
+			"name": "Reko-Speisewagen",
+			"shortcut": "WRge542",
+			"speed": 140,
+			"weight": 31,
+			"force": 0,
+			"length": 19,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 90000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 24 }
+			]
+		},
+		{
 			"id": 35,
 			"group": 1,
 			"name": "Schlafwagen Comfortline",
@@ -897,6 +999,23 @@
 			"exchangeTime": 180,
 			"capacity": [
 				{"name": "beds", "value": 30}
+			]
+		},
+		{
+			"id": 39,
+			"group": 1,
+			"name": "Y-Speisewagen",
+			"shortcut": "WRme",
+			"speed": 160,
+			"weight": 43,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 180000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 42 }
 			]
 		},
 		{
@@ -1134,7 +1253,7 @@
 			"reliability": 1,
 			"cost": 1500000,
 			"maxConnectedUnits": 1,
-			"equipments": ["ETCS"],
+			"equipments": ["ETCS", "AT"],
 			"compatibleWith": [15],
 			"exchangeTime": 120,
 			"equivalentTo": 7,
