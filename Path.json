@@ -3318,46 +3318,165 @@
 		{
 			"group": 1,
 			"name": "Neckartalbahn",
+			"twistingFactor": 0.4,
+			"maxSpeed": 110,
 			"objects": [
 				{
 					"start": "RH",
+					"end": "RHKA",
+					"length": 4
+				},
+				{
+					"start": "RHKA",
+					"end": "RSR",
+					"length": 3
+				},
+				{
+					"start": "RSR",
+					"end": "RHBO",
+					"length": 1
+				},
+				{
+					"start": "RHBO",
 					"end": "RNM",
-					"twistingFactor": 0.4,
-					"maxSpeed": 100,
-					"length": 12
+					"length": 2
 				},
 				{
 					"start": "RNM",
+					"end": "RNMA",
+					"length": 1
+				},
+				{
+					"start": "RNMA",
+					"end": "RNT",
+					"length": 4
+				},
+				{
+					"start": "RNT",
+					"end": "RNH",
+					"length": 4
+				},
+				{
+					"start": "RNH",
+					"end": "RHO",
+					"length": 3
+				},
+				{
+					"start": "RHO",
 					"end": "REA",
-					"twistingFactor": 0.4,
-					"maxSpeed": 110,
-					"length": 21
+					"length": 8
 				},
 				{
 					"start": "REA",
+					"end": "RLID",
+					"length": 6
+				},
+				{
+					"start": "RLID",
+					"end": "RZW",
+					"length": 3
+				},
+				{
+					"start": "RZW",
+					"end": "RNA",
+					"length": 3
+				},
+				{
+					"start": "RNA",
+					"end": "RBIN",
+					"length": 3
+				},
+				{
+					"start": "RBIN",
 					"end": "RNZ",
-					"twistingFactor": 0.4,
-					"maxSpeed": 130,
-					"length": 20
+					"length": 3
+				},
+				{
+					"start": "RNZ",
+					"end": "RNEZ",
+					"length": 5
+				},
+				{
+					"start": "RNEZ",
+					"end": "RHAS",
+					"length": 1
+				},
+				{
+					"start": "RHAS",
+					"end": "RGUN",
+					"length": 2
+				},
+				{
+					"start": "RGUN",
+					"end": "ROU",
+					"length": 4
+				},
+				{
+					"start": "ROU",
+					"end": "TBF",
+					"length": 3
 				}
 			]
 		},
 		{
 			"group": 1,
+			"twistingFactor": 0.2,
+			"maxSpeed": 90,
 			"objects": [
 				{
 					"start": "RNZ",
+					"end": "RMOW",
+					"length": 2
+				},
+				{
+					"start": "RMOW",
+					"end": "RMO",
+					"length": 1
+				},
+				{
+					"start": "RMO",
+					"end": "RNB",
+					"length": 3
+				},
+				{
+					"start": "RNB",
+					"end": "RDL",
+					"length": 2
+				},
+				{
+					"start": "RDL",
+					"end": "RACH",
+					"length": 3
+				},
+				{
+					"start": "RACH",
+					"end": "ROSC",
+					"length": 5
+				},
+				{
+					"start": "ROSC",
+					"end": "REM",
+					"length": 2
+				},
+				{
+					"start": "REM",
 					"end": "RSE",
-					"twistingFactor": 0.4,
-					"maxSpeed": 90,
-					"length": 24
+					"length": 4
 				},
 				{
 					"start": "RSE",
+					"end": "RZIM",
+					"length": 2
+				},
+				{
+					"start": "RZIM",
+					"end": "RADN",
+					"length": 2
+				},
+				{
+					"start": "RADN",
 					"end": "TO",
-					"twistingFactor": 0.4,
-					"maxSpeed": 100,
-					"length": 7
+					"length": 2
 				}
 			]
 		},
@@ -3990,18 +4109,48 @@
 			"objects": [
 				{
 					"start": "NAH",
+					"end": "FMAS",
+					"length": 4
+				},
+				{
+					"start": "FMAS",
+					"end": "FSTK",
+					"length": 2
+				},
+				{
+					"start": "FSTK",
 					"end": "FBA",
-					"length": 14
+					"length": 7
 				},
 				{
 					"start": "FBA",
+					"end": "FHER",
+					"length": 3
+				},
+				{
+					"start": "FHER",
+					"end": "FAT",
+					"length": 2
+				},
+				{
+					"start": "FAT",
 					"end": "FDI",
-					"length": 10
+					"length": 4
 				},
 				{
 					"start": "FDI",
+					"end": "FMES",
+					"length": 7
+				},
+				{
+					"start": "FMES",
+					"end": "FDK",
+					"length": 5
+				},
+				{
+					"start": "FDK",
 					"end": "FD",
-					"length": 19
+					"length": 6
 				}
 			]
 		},
