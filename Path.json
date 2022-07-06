@@ -1400,20 +1400,79 @@
 		{
 			"group": 1,
 			"name": "Voreifelbahn",
-			"twistingFactor": 0.5,
+			"twistingFactor": 0.1,
 			"electrified": false,
+			"maxSpeed": 100,
 			"objects": [
 				{
 					"start": "KB",
+					"end": "KBEC",
+					"length": 2,
+					"maxSpeed": 90
+				},
+				{
+					"start": "KBEC",
+					"end": "KBHH",
+					"length": 1
+				},
+				{
+					"start": "KBHH",
+					"end": "KBD",
+					"length": 1
+				},
+				{
+					"start": "KBD",
+					"end": "KALI",
+					"length": 1
+				},
+				{
+					"start": "KALI",
+					"end": "KWIS",
+					"length": 2
+				},
+				{
+					"start": "KWIS",
+					"end": "KKOF",
+					"length": 3
+				},
+				{
+					"start": "KKOF",
+					"end": "KMCP",
+					"length": 2
+				},
+				{
+					"start": "KMCP",
+					"end": "KMCK",
+					"length": 2
+				},
+				{
+					"start": "KMCK",
+					"end": "KRBL",
+					"length": 3,
+					"maxSpeed": 90
+				},
+				{
+					"start": "KRBL",
 					"end": "KRBA",
-					"length": 22,
+					"length": 1,
 					"maxSpeed": 90
 				},
 				{
 					"start": "KRBA",
+					"end": "KODE",
+					"length": 5,
+					"maxSpeed": 110
+				},
+				{
+					"start": "KODE",
+					"end": "KKUH",
+					"length": 3
+				},
+				{
+					"start": "KKUH",
 					"end": "KEU",
-					"length": 12,
-					"maxSpeed": 100
+					"length": 3,
+					"maxSpeed": 90
 				}
 			]
 		},
