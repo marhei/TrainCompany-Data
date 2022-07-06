@@ -360,6 +360,27 @@
 			]
 		},
 		{
+			"id": 502,
+			"group": 2,
+			"name": "Bombardier Twindexx Express",
+			"shortcut": "RABe 502",
+			"speed": 200,
+			"weight": 539,
+			"force": 482,
+			"length": 201,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 1300000,
+			"operationCosts": 66,
+			"maxConnectedUnits": 2,
+			"equipments": [ "CH", "ETCS" ],
+			"neededEquipments": [ "CH" ],
+			"capacity": [
+				{"name": "passengers", "value": 682},
+				{"name": "bistroseats", "value": 29}
+			]
+		},
+		{
 			"id": 21,
 			"group": 2,
 			"name": "Siemens Desiro HC Franken/Thüringen",
@@ -643,6 +664,20 @@
 			"reliability": 0.9,
 			"cost": 230000,
 			"operationCosts": 80
+		},
+		{
+			"id": 2026,
+			"group": 0,
+			"name": "Talgo Travca",
+			"speed": 230,
+			"weight": 72,
+			"force": 160,
+			"length": 20,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 190000,
+			"operationCosts": 78,
+			"equipments": [ "ETCS", "NL" ]
 		},
 		{
 			"id": 6,
@@ -1260,6 +1295,27 @@
 			"equivalentTo": 7,
 			"capacity": [
 				{"name": "passengers", "value": 382}
+			]
+		},
+		{
+			"id": 230,
+			"group": 3,
+			"name": "Talgo 230 (ICE-L/ECx)",
+			"shortcut": "ECx",
+			"speed": 230,
+			"weight": 425,
+			"force": 0,
+			"length": 235,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 1600000,
+			"maxConnectedUnits": 1,
+			"compatibleWith": [ 251, 245, 5, 28, 26, 193, 15, 30, 29, 6, 102, 2026 ],
+			"exchangeTime": 60,
+			"equivalentTo": 17,
+			"capacity": [
+				{"name": "passengers", "value": 570},
+				{"name": "bistroseats", "value": 20}
 			]
 		}
 	]
