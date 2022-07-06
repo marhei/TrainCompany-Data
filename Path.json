@@ -4536,22 +4536,41 @@
 		},
 		{
 			"name": "Mönchengladbach - Düsseldorf",
-			"group": 1,
+			"group": 0,
 			"electrified": true,
+			"twistingFactor": 0.2,
+			"maxSpeed": 140,
 			"objects": [
 				{
-					"start": "KD",
+					"start": "KM",
+					"end": "KML",
+					"length": 1
+				},
+				{
+					"start": "KML",
+					"end": "KKOI",
+					"length": 2
+				},
+				{
+					"start": "KKOI",
+					"end": "KKLE",
+					"length": 2
+				},
+				{
+					"start": "KKLE",
+					"end": "KBUT",
+					"length": 3
+				},
+				{
+					"start": "KBUT",
 					"end": "KN",
-					"twistingFactor": 0.2,
-					"length": 8,
-					"maxSpeed": 120
+					"length": 5
 				},
 				{
 					"start": "KN",
-					"end": "KM",
-					"twistingFactor": 0.2,
-					"length": 18,
-					"maxSpeed": 140
+					"end": "KD",
+					"length": 10,
+					"maxSpeed": 120
 				}
 			]
 		},
