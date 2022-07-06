@@ -11204,14 +11204,15 @@
 					"length": 8,
 					"maxSpeed": 100,
 					"twistingFactor": 0.24,
-					"neededEquipments": []
+					"neededEquipments": ["AT"]
 				},
 				{
 					"start": "XAB",
 					"end": "XSSM",
 					"length": 12,
 					"maxSpeed": 130,
-					"twistingFactor": 0.2
+					"twistingFactor": 0.2,
+					"neededEquipments": ["AT", "CH"]
 				},
 				{
 					"start": "XSSM",
@@ -11754,7 +11755,7 @@
 					"twistingFactor": 0.1
 				}
 			]
-		}.,
+		},
 		{
 			"electrified": false,
 			"group": 0,
