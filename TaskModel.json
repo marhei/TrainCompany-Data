@@ -2083,6 +2083,30 @@
 		},
 		{
 			"group": 0,
+			"name": "Sandzug von Krummenerl nach Westerland (Sylt)",
+			"descriptions": [
+				"Die Badesaison steht bald an und Sylt braucht wieder Sand. Bringe den Sandzug nach Sylt!"
+			],
+			"plops": 600000,
+			"stations": [ "EKRU" , "AWLA"],
+			"neededCapacity": [
+				{ "name": "coal", "value": 916 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Schotterzug von %s nach %s",
+			"descriptions": [
+				"Der Schotterzug aus %s muss jetzt sicher und pünktlich nach %s gebracht werden."
+			],
+			"plops": 525000,
+			"stations": [ "EKRU" ],
+			"neededCapacity": [
+				{ "name": "coal", "value":  585}
+			]
+		},
+		{
+			"group": 0,
 			"name": "Umleiter von %s nach %s ",
 			"descriptions": [
 				"Zwischen Hagen und Wuppertal gab es eine Entgleisung. Bringe den Umleiter nach %2$s."
