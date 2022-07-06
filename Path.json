@@ -11052,20 +11052,94 @@
 			]
 		},
 		{
-			"group": 0,
 			"maxSpeed": 160,
-			"twistingFactor": 0.2,
+			"group": 0,
+			"name": "Allgäubahn",
+			"twistingFactor": 0.1,
 			"objects": [
 				{
 					"start": "MH",
 					"end": "MGE",
-					"length": 40
+					"length": 40,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "MGE",
 					"end": "MBU",
 					"length": 25
 				},
+				{
+					"start": "MBU",
+					"end": "MKFB",
+					"length": 20
+				},
+				{
+					"start": "MKFB",
+					"end": "MBIH",
+					"length": 5,
+					"maxSpeed": 130
+				},
+				{
+					"start": "MBIH",
+					"end": "MGNZ",
+					"length": 18,
+					"maxSpeed": 130,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "MGNZ",
+					"end": "MKP",
+					"length": 18,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "MKP",
+					"end": "MMSZ",
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "MMSZ",
+					"end": "MIMS",
+					"length": 10,
+					"maxSpeed": 140,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "MIMS",
+					"end": "MOSF",
+					"length": 16,
+					"maxSpeed": 110,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "MOSF",
+					"end": "MRTA",
+					"length": 13,
+					"maxSpeed": 80
+				},
+				{
+					"start": "MRTA",
+					"end": "MHMK",
+					"length": 4,
+					"maxSpeed": 110
+				},
+				{
+					"start": "MHMK",
+					"end": "MHGZ",
+					"length": 10,
+					"maxSpeed": 120,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"objects": [
 				{
 					"start": "MBU",
 					"end": "MTHB",
@@ -11091,6 +11165,45 @@
 					"length": 13,
 					"maxSpeed": 160,
 					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
+			"maxSpeed": 160,
+			"group": 0,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "MA",
+					"end": "MAMS",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "MAMS",
+					"end": "MAGM",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "MAGM",
+					"end": "MINI",
+					"length": 3
+				},
+				{
+					"start": "MINI",
+					"end": "MBOB",
+					"length": 5
+				},
+				{
+					"start": "MBOB",
+					"end": "MSMN",
+					"length": 11
+				},
+				{
+					"start": "MSMN",
+					"end": "MBU",
+					"length": 16
 				}
 			]
 		},
