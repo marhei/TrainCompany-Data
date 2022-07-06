@@ -1802,6 +1802,93 @@
 			"group": 1
 		},
 		{
+			"name": "Halle-Kasseler Bahn von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 8 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 8 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "LH", "LRN", "LEL", "LWOR", "USG", "UBK", "UN", "UBD", "USOL", "UL" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 150000,
+			"group": 1
+		},
+		{
+			"name": "Halle-Kasseler Bahn von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 9 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 9 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "LH", "LRN", "LEL", "LWOR", "USG", "UWAL", "UBEN", "UROS", "UBK", "UGSB", "UHRH", "UN", "UBD", "UL" , "UHT", "HEBG", "FWZN", "FHMD", "FKW"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 175000,
+			"group": 1
+		},
+		{
+			"name": "RB 57 von %s nach %s",
+			"descriptions": [
+				"Bringe die RB über die Halle-Kasseler Bahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB 57 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "UN", "UBD", "UL" , "UHT"],
+					"plops": 100000
+				},
+				{
+					"stations": [ "USG", "UBK", "UN", "UBD", "UL" , "UHT"],
+					"plops": 125000
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
+			"name": "S 7 von %s nach %s",
+			"descriptions": [
+				"Bringe die S 7 von %s nach %s.",
+				"Bring die Fahrgäste der S-Bahn Mitteldeutschland pünktlich nach %2$s.",
+				"Fahre die S-Bahn störungsfrei nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "LEL", "LRN", "LZBN" , "LH"],
+					"plops": 100000
+				},
+				{
+					"stations": [ "USG", "LEL", "LRN", "LZBN" , "LH"],
+					"plops": 125000
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
+			"name": "RB 57 / S 7 von %s nach %s",
+			"descriptions": [
+				"Bringe die durchgebundene RB/S-Bahn von %s nach %s."
+			],
+			"stations": [ "LH", "LZBN", "LRN" , "LEL", "USG", "UBK", "UN", "UBD", "UL" , "UHT"],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 175000,
+			"group": 1
+		},
+		{
 			"group": 0,
 			"name": "Sonderzug zur Kieler Woche nach %2$s",
 			"descriptions": [
