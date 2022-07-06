@@ -449,7 +449,20 @@
 				"Bringe den Regional-Express der Linie 12 pünktlich von %s nach %s."
 			],
 			"plops": 380000,
-			"stations": [ "KK", "KKAS", "KEST", "KEU", "SGR", "SED", "STR" ],
+			"stations": [ "KK", "KKAS", "KEST", "KWES", "KEU", "KMCH", "KKAL", "SGR", "SED", "STR" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Eifel-Mosel-Bahn von %s nach %s",
+			"descriptions": [
+				"Bringe den Zug einmal queer duch die Eifel."
+			],
+			"plops": 380000,
+			"stations": [ "KK", "KKAS", "STR" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]

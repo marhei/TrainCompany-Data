@@ -1361,39 +1361,174 @@
 		{
 			"group": 1,
 			"name": "Eifelstrecke",
-			"twistingFactor": 0.6,
+			"twistingFactor": 0.45,
+			"maxSpeed": 120,
 			"electrified": false,
 			"objects": [
 				{
 					"start": "KKAS",
+					"end": "KKIE",
+					"length": 4
+				},
+				{
+					"start": "KKIE",
 					"end": "KEST",
-					"twistingFactor": 0.2,
-					"length": 11,
-					"maxSpeed": 100
+					"length": 6
 				},
 				{
 					"start": "KEST",
+					"end": "KWES",
+					"length": 6
+				},
+				{
+					"start": "KWES",
+					"end": "KDEK",
+					"length": 5
+				},
+				{
+					"start": "KDEK",
+					"end": "KGBU",
+					"length": 2
+				},
+				{
+					"start": "KGBU",
 					"end": "KEU",
-					"length": 29,
-					"maxSpeed": 120
+					"length": 4
 				},
 				{
 					"start": "KEU",
+					"end": "KSA",
+					"length": 7
+				},
+				{
+					"start": "KSA",
+					"end": "KMCH",
+					"length": 6
+				},
+				{
+					"start": "KMCH",
+					"end": "KSEV",
+					"length": 5
+				},
+				{
+					"start": "KSEV",
+					"end": "KKAL",
+					"length": 3
+				},
+				{
+					"start": "KKAL",
+					"end": "KURF",
+					"length": 4
+				},
+				{
+					"start": "KURF",
+					"end": "KNEH",
+					"length": 5
+				},
+				{
+					"start": "KNEH",
+					"end": "KBLH",
+					"length": 6
+				},
+				{
+					"start": "KBLH",
+					"end": "KSMI",
+					"length": 4
+				},
+				{
+					"start": "KSMI",
+					"end": "KDAM",
+					"length": 3
+				},
+				{
+					"start": "KDAM",
+					"end": "KJU",
+					"length": 5
+				},
+				{
+					"start": "KJU",
+					"end": "KLIS",
+					"length": 3
+				},
+				{
+					"start": "KLIS",
+					"end": "SOH",
+					"length": 4
+				},
+				{
+					"start": "SOH",
 					"end": "SGR",
-					"length": 71,
-					"maxSpeed": 120
+					"length": 9
 				},
 				{
 					"start": "SGR",
+					"end": "SBRB",
+					"length": 7
+				},
+				{
+					"start": "SBRB",
+					"end": "SMLB",
+					"length": 4
+				},
+				{
+					"start": "SMLB",
+					"end": "SDBO",
+					"length": 2
+				},
+				{
+					"start": "SDBO",
+					"end": "SUZD",
+					"length": 2
+				},
+				{
+					"start": "SUZD",
+					"end": "SSTO",
+					"length": 3
+				},
+				{
+					"start": "SSTO",
+					"end": "SKY",
+					"length": 3
+				},
+				{
+					"start": "SKY",
 					"end": "SED",
-					"length": 30,
-					"maxSpeed": 90
+					"length": 5
 				},
 				{
 					"start": "SED",
+					"end": "SHT",
+					"length": 4
+				},
+				{
+					"start": "SHT",
+					"end": "SPI",
+					"length": 3
+				},
+				{
+					"start": "SPI",
+					"end": "SSPE",
+					"length": 3
+				},
+				{
+					"start": "SSPE",
+					"end": "SAUW",
+					"length": 3
+				},
+				{
+					"start": "SAUW",
+					"end": "SDF",
+					"length": 6
+				},
+				{
+					"start": "SDF",
+					"end": "SKDL",
+					"length": 5
+				},
+				{
+					"start": "SKDL",
 					"end": "STR",
-					"length": 37,
-					"maxSpeed": 80
+					"length": 12
 				}
 			]
 		},
