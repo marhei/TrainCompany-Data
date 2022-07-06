@@ -3195,24 +3195,123 @@
 			"maxSpeed": 160,
 			"objects": [
 				{
-					"start": "RM",
-					"end": "RH",
-					"length": 17
+					"start": "FF",
+					"end": "FLG",
+					"length": 13,
+					"twistingFactor": 0.2
 				},
 				{
-					"start": "RH",
-					"end": "RWE",
-					"length": 23
-				},
-				{
-					"start": "RWE",
+					"start": "FLG",
 					"end": "FD",
-					"length": 37
+					"length": 13
 				},
 				{
 					"start": "FD",
-					"end": "FF",
-					"length": 29
+					"end": "FDS",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "FDS",
+					"end": "FDE",
+					"length": 4
+				},
+				{
+					"start": "FDE",
+					"end": "FBI",
+					"length": 6
+				},
+				{
+					"start": "FBI",
+					"end": "FHAE",
+					"length": 2
+				},
+				{
+					"start": "FHAE",
+					"end": "FZW",
+					"length": 1
+				},
+				{
+					"start": "FZW",
+					"end": "FBAU",
+					"length": 2
+				},
+				{
+					"start": "FBAU",
+					"end": "FBH",
+					"length": 2
+				},
+				{
+					"start": "FBH",
+					"end": "FHP",
+					"length": 4,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FHP",
+					"end": "RLCH",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "RLCH",
+					"end": "RHCH",
+					"length": 2
+				},
+				{
+					"start": "RHCH",
+					"end": "RWE",
+					"length": 4,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RWE",
+					"end": "RLUE",
+					"length": 3
+				},
+				{
+					"start": "RLUE",
+					"end": "RGCH",
+					"length": 2
+				},
+				{
+					"start": "RGCH",
+					"end": "RLD",
+					"length": 4
+				},
+				{
+					"start": "RLD",
+					"end": "RMF",
+					"length": 3
+				},
+				{
+					"start": "RMF",
+					"end": "RHBP",
+					"length": 7,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "RHBP",
+					"end": "RH",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RM",
+					"end": "RMSM",
+					"length": 3,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RMSM",
+					"end": "RMSE",
+					"length": 2
+				},
+				{
+					"start": "RMSE",
+					"end": "RMF",
+					"length": 2
 				}
 			]
 		},
