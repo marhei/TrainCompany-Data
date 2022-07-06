@@ -87,6 +87,28 @@
 		},
 		{
 
+			"id": 411,
+			"group": 2,
+			"name": "ICE T",
+			"shortcut": "BR 611",
+			"speed": 230,
+			"weight": 368,
+			"force": 200,
+			"length": 185,
+			"drive": 1,
+			"reliability": 1.0,
+			"cost": 3000000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 130,
+			"equipments": ["ETCS", "AT"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 195},
+				{"name": "bistroseats", "value": 2 }
+			]
+		},
+		{
+
 			"id": 605,
 			"group": 2,
 			"name": "ICE TD",
@@ -688,7 +710,7 @@
 			"reliability": 1,
 			"cost": 400000,
 			"operationCosts": 90,
-			"equipments": ["ETCS", "CH"],
+			"equipments": ["ETCS", "AT", "CH"],
 			"compatibleWith": [1116,11009,11007]
 		},
 		{
@@ -1207,7 +1229,7 @@
 			"reliability": 1,
 			"cost": 1500000,
 			"maxConnectedUnits": 1,
-			"equipments": ["ETCS"],
+			"equipments": ["ETCS", "AT"],
 			"compatibleWith": [15],
 			"exchangeTime": 120,
 			"equivalentTo": 7,
