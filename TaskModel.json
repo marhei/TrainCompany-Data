@@ -165,14 +165,25 @@
 			"group": 1,
 			"name": "Alleo-ICE von %s nach %s",
 			"descriptions": [
-				"Auf dem französischen Abschnitt ist ein Umstieg in einen Zug der SNCF nötig."
+				"Auf dem französischen Abschnitt ist ein Umstieg in einen Zug der SNCF nötig.",
+				"Aufgrund des Alleo-Winterkonzeptes wird auf dem französchen Teil nach/von Paris ein Zug der SNCF gestellt."
 			],
 			"plops": 480000,
-			"stations": [ "FF", "RM", "SKL", "SSH", "XFFB" ],
-			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+			"objects": [
+				{
+					"stations": [ "FF", "RM", "SKL", "SSH", "XFFB" ],
+					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
+				},
+				{
+					"stations": [ "FF", "RM", "RK", "XFSTG" ],
+					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG"  ]
+				}
 			],
-			"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
+			]
+
 		},
 		{
 			"group": 1,
