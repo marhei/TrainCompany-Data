@@ -7105,11 +7105,11 @@
 				},
 				{
 					"start": "RSAB",
-					"end": "RROL",
+					"end": "RBR",
 					"length": 15
 				},
 				{
-					"start": "RROL",
+					"start": "RBR",
 					"end": "TV",
 					"length": 32
 				},
@@ -8805,62 +8805,55 @@
 			"name": "Badische Hauptbahnh",
 			"group": 0,
 			"electrified": true,
+			"maxSpeed": 160,
+			"twistingFactor": 0.1,
 			"objects": [
 				{
-					"start": "RK",
+					"start": "RH",
+					"end": "RHKM",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RHKM",
+					"end": "RSIG",
+					"length": 4
+				},
+				{
+					"start": "RSIG",
+					"end": "RWS",
+					"length": 5
+				},
+				{
+					"start": "RWS",
+					"end": "RRM",
+					"length": 5
+				},
+				{
+					"start": "RRM",
+					"end": "RBSK",
+					"length": 2
+				},
+				{
+					"start": "RBSK",
+					"end": "RBS",
+					"length": 2
+				},
+				{
+					"start": "RBS",
+					"end": "RUW",
+					"length": 4
+				},
+				{
+					"start": "RUW",
 					"end": "RBR",
-					"maxSpeed": 160,
-					"twistingFactor": 0.1,
-					"length": 21
+					"length": 5
 				},
 				{
 					"start": "RBR",
-					"end": "RBRR",
-					"maxSpeed": 160,
-					"twistingFactor": 0.1,
-					"length": 2
-				},
-				{
-					"start": "RBRR",
-					"end": "RUWA",
-					"maxSpeed": 160,
-					"twistingFactor": 0.1,
-					"length": 2
-				},
-				{
-					"start": "RUWA",
-					"end": "RH",
-					"maxSpeed": 160,
-					"twistingFactor": 0.1,
-					"length": 28
-				}
-			]
-		},
-		{
-			"name": "Verbindungsstrecke Bruchsal",
-			"group": 2,
-			"electrified": true,
-			"objects": [
-				{
-					"start": "RBR",
-					"end": "RROL",
-					"maxSpeed": 100,
-					"twistingFactor": 0.5,
-					"length": 2
-				}
-			]
-		},
-		{
-			"name": "Verbindungsstrecke Ubstadt",
-			"group": 2,
-			"electrified": true,
-			"objects": [
-				{
-					"start": "RROL",
-					"end": "RROL",
-					"maxSpeed": 160,
-					"twistingFactor": 0.5,
-					"length": 3
+					"end": "RK",
+					"length": 21,
+					"twistingFactor": 0.3
 				}
 			]
 		},
