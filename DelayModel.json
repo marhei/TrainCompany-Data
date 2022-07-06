@@ -52,6 +52,10 @@
 				{
 					"name": "Es kam zu einer Fehlleitung und der Lokführer musste den Zug zurücksetzen.",
 					"delay": 1000
+				},
+				{
+					"name": "Der Zug musste eine Umleitung fahren, da nicht genügend arbeitsfähiges Personal für das NBÜ-Ersatzkonzept zur Verfügung stand.",
+					"delay": 1000
 				}
 			]
 		},
@@ -79,7 +83,7 @@
 			]
 		},
 		{
-			"type": 1,
+			"type": 2,
 			"capacity": "bistroseats",
 			"objects": [
 				{
@@ -97,13 +101,9 @@
 			]
 		},
 		{
-			"type": 1,
+			"type": 2,
 			"capacity": "beds",
 			"objects": [
-				{
-					"name": "Der Zug musste eine Umleitung fahren, da nicht genügend arbeitsfähiges Personal für das NBÜ-Ersatzkonzept zur Verfügung stand.",
-					"delay": 1000
-				},
 				{
 					"name": "Bei einer Zwangsbremsung sind 3 Fahrgäste aus ihren Betten gefallen und mussten verarztet werden.",
 					"delay": 600
