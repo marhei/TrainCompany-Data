@@ -4634,36 +4634,45 @@
 		},
 		{
 			"name": "Duisburg - Mönchengladbach",
-			"group": 1,
+			"group": 0,
 			"electrified": true,
+			"twistingFactor": 0.2,
+			"maxSpeed": 120,
 			"objects": [
 				{
-					"start": "EDG",
-					"end": "KKRO",
-					"twistingFactor": 0.2,
-					"length": 17,
-					"maxSpeed": 120
-				},
-				{
-					"start": "KKRO",
-					"end": "KKR",
-					"twistingFactor": 0.2,
-					"length": 1,
-					"maxSpeed": 120
-				},
-				{
-					"start": "KKR",
+					"start": "KM",
 					"end": "KV",
-					"twistingFactor": 0.2,
-					"length": 14,
-					"maxSpeed": 140
+					"length": 8
 				},
 				{
 					"start": "KV",
-					"end": "KM",
-					"twistingFactor": 0.2,
-					"length": 10,
-					"maxSpeed": 140
+					"end": "KANR",
+					"length": 6
+				},
+				{
+					"start": "KANR",
+					"end": "KFOS",
+					"length": 4
+				},
+				{
+					"start": "KFOS",
+					"end": "KKR",
+					"length": 5
+				},
+				{
+					"start": "KKR",
+					"end": "KRH",
+					"length": 13
+				},
+				{
+					"start": "KRH",
+					"end": "KRHO",
+					"length": 1
+				},
+				{
+					"start": "KRHO",
+					"end": "EDG",
+					"length": 5
 				}
 			]
 		},
@@ -5740,13 +5749,36 @@
 		{
 			"group": 1,
 			"electrified": true,
+			"twistingFactor": 0.2,
+			"maxSpeed": 120,
 			"objects": [
 				{
 					"start": "KV",
+					"end": "KDUL",
+					"length": 5
+				},
+				{
+					"start": "KDUL",
+					"end": "KBOI",
+					"length": 4
+				},
+				{
+					"start": "KBOI",
+					"end": "KBRY",
+					"length": 3
+				},
+				{
+					"start": "KBRY",
+					"end": "KKAK",
+					"length": 4
+				},
+				{
+					"start": "KKAK",
 					"end": "XNVL",
-					"twistingFactor": 0.2,
-					"length": 23,
-					"maxSpeed": 120
+					"length": 5,
+					"neededEquipments": [
+						"NL"
+					]
 				}
 			]
 		},
@@ -6057,7 +6089,10 @@
 				{
 					"start": "HBTH",
 					"end": "XNHL",
-					"length": 9
+					"length": 9,
+					"neededEquipments": [
+						"NL"
+					]
 				}
 			]
 		},
