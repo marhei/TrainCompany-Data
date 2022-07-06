@@ -149,8 +149,12 @@
 			"plops": 500000,
 			"objects": [
 				{
-					"stations": ["XAWE", "NPA", "NRH", "NN", "NWH", "NAH", "FFLF", "FMZ", "KKO", "KB", "KK", "KSO", "KW", "EHG", "EDO"],
-					"pathSuggestion": ["XAWE", "NPA", "NN", "NF", "NRTD", "NWH", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EDO"]
+					"stations": ["XAL", "XAWE", "NPA", "NRH", "NN", "NWH", "NAH", "FFLF", "FMZ", "KKO", "KB", "KK", "KSO", "KW", "EHG", "EDO"],
+					"pathSuggestion": ["XAL", "XAWE", "NPA", "NN", "NF", "NRTD", "NWH", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EDO"]
+				},
+				{
+					"stations": ["XAL", "XAWE", "NPA", "NST", "NRH", "NN", "NWH", "UE P", "LH", "BL", "BSPD", "AH", "AA"],
+					"pathSuggestion": ["XAL", "XAWE", "NPA", "NN", "NF", "NRTD", "NF", "NBA", "NED", "UE P", "LPLN", "LH", "LW", "BJUE", "BL", "BSPD", "WW", "WL", "WHL", "ABCH", "AH", "AA"]
 				}
 			],
 			"neededCapacity": [
@@ -405,11 +409,35 @@
 				{
 					"stations": [ "BL", "BPD", "LM", "HHI", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF", "RB" ],
 					"pathSuggestion": [ "BL", "BPD", "LM", "HBS", "HHI", "HELZ", "HK", "HG", "HEBG", "FB", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RO", "RF", "RB" ]
+				},
+				{
+					"stations": ["XAL", "XAWE", "NPA", "NRH", "NN", "FFLF", "FMZ", "KKO", "KB", "KK", "KD", "EEM"],
+					"pathSuggestion": ["XAL", "XAWE", "NPA", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FF", "FLFF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KD", "EEM"]
 				}
 			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "beds", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "NightJet von %s nach %s",
+			"descriptions": [
+				"Bringe die Urlauber sicher nach Hause",
+				"Bringe die Fahrgäste in den Urlaub."
+			],
+			"plops": 550000,
+			"objects": [
+				{
+					"stations": ["XAL", "XAWE", "NPA", "NRH", "NN", "NWH", "HG", "HH", "AHAR", "AH", "AA"],
+					"pathSuggestion": ["XAL", "XAWE", "NPA", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "FFU", "FKW", "HG", "HH", "HWUN", "HV", "AROG", "ABLZ", "AHAR", "AH", "AA"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "beds", "value": 0 },
+				{ "name": "cars", "value": 62}
 			]
 		},
 		{
@@ -481,6 +509,32 @@
 					"stations": [ "MHO", "MRO" ]
 				}
 			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "REX von %s nach %s",
+			"descriptions": [
+				"REX von %s nach %s."
+			],
+			"plops": 375000,
+			"stations": ["NPA", "XATRN", "XAL"],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "REX von %s nach %s",
+			"descriptions": [
+				"REX von %s nach %s."
+			],
+			"plops": 375000,
+			"stations": [ "XASB", "XATRN", "XAL"],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -1807,6 +1861,19 @@
 			],
 			"plops": 300000,
 			"stations": [ "KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Umleitung von %s nach %s",
+			"descriptions": [
+				"Die Strecke zwischen Passau und Wels ist gesperrt. Fahre über Salzburg!"
+			],
+			"plops": 580000,
+			"stations": ["XAL", "XAWE", "XAAT", "XASB", "MH", "NN", "NWH", "NAH", "FFLF", "FMZ", "KKO", "KB", "KK", "KSO", "KW", "EHG", "EDO"],
+			"pathSuggestion": ["XAL", "XAWE", "XAAT", "XASB", "MH", "NN", "NF", "NRTD", "NWH", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EDO"],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
