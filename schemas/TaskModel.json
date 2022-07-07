@@ -95,6 +95,19 @@
 					"description": "Name des Auftrags\n%s als Platzhalter für Start/Ziel",
 					"type": "string"
 				},
+				"service": {
+					"description": "Servicelevel",
+					"type": "integer",
+					"oneOf": [
+						{"const": 0, "description": "HGV"},
+						{"const": 1, "description": "IC"},
+						{"const": 2, "description": "Regionalverkehr"},
+						{"const": 3, "description": "kurzer Regionalverkehr"},
+						{"const": 4, "description": "Sonderzug"},
+						{"const": 10, "description": "wichtiger Güterzug"},
+						{"const": 11, "description": "Güterzug"}
+					]
+				},
 				"descriptions": {
 					"description": "Beschreibung(en) der Ausschreibung",
 					"type": "array",

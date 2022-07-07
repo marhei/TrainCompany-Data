@@ -99,6 +99,14 @@ Modelle für Aufträge, aus denen automatisch neue Aufträge erstellt werden
 	* **0** Direktvergabe
 	* **1** Ausschreibung
 * **name** *(string)* Name des Auftrags
+* **service** *(int)* Servicelevel zur automatischen Berechnung des Gewinns
+	* **0** HGV
+	* **1** IC
+	* **2** Regionalverkehr
+	* **3** kurzer Regionalverkehr
+	* **4** Sonderzug
+	* **10** wichtiger Güterzug
+	* **11** Güterzug
 * **descriptions** *(array)* Array mit mehreren Strings für die Ausschreibung
 * **plops** *(int)* Verdienst für die Ausschreibung
 * **stations** *(array)* Ril100 aller Bahnhöfe, die angefahren  sollen in der richtigen Reihenfolge, wenn keine angegeben wurden, dann werden zwei zufällige gewählt (optional)

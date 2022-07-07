@@ -4,6 +4,7 @@
 		{
 			"group": 1,
 			"name": "ICE von %s nach %s",
+			"service": 0,
 			"descriptions": [
 				"Der ICE muss über die Schnellfahrstrecke nach %2$s.",
 				"Der ICE muss von %s über die SFS nach %s gebracht werden.",
@@ -32,6 +33,7 @@
 		{
 			"group": 1,
 			"name": "ICE Sprinter von %s nach %s",
+			"service": 0,
 			"descriptions": [
 				"Der ICE Sprinter muss mit wenigen Halten schnell nach %2$s.",
 				"Der ICE Sprinter muss von %s über die SFS nach %s gebracht werden.",
@@ -60,6 +62,7 @@
 		{
 			"group": 1,
 			"name": "ICE von %s nach %s",
+			"service": 0,
 			"descriptions": [
 				"Der ICE muss über das Ruhrgebiet nach %2$s.",
 				"Der ICE muss von %s über NRW nach %s gebracht werden.",
@@ -76,6 +79,7 @@
 		{
 			"group": 1,
 			"name": "ICE von %s nach %s",
+			"service": 0,
 			"descriptions": [
 				"Der ICE muss nach %2$s gebracht. Er startet in %1$s.",
 				"Der ICE muss von %s nach %s gebracht werden. Verwende die schnellste Strecke.",
@@ -107,6 +111,7 @@
 		{
 			"group": 1,
 			"name": "ICE von %s nach %s",
+			"service": 0,
 			"descriptions": [
 				"Dieser ICE stellt eine Ost-West-Verbindung sicher.",
 				"Bring die Fahrgäste Abseits der SFS von %s nach %s."
@@ -121,6 +126,7 @@
 		{
 			"group": 1,
 			"name": "ICE von %s nach %s",
+			"service": 0,
 			"descriptions": [
 				"Dieser ICE stellt eine Nord-Süd-Verbindung sicher.",
 				"Bring die Fahrgäste über die SFS von %s nach %s."
@@ -143,6 +149,7 @@
 		{
 			"group": 1,
 			"name": "ICE von %s nach %s",
+			"service": 0,
 			"descriptions": [
 				"Dieser ICE stellt eine Österreich-Deutschland-Verbindung sicher."
 			],
@@ -164,6 +171,7 @@
 		{
 			"group": 1,
 			"name": "Alleo-ICE von %s nach %s",
+			"service": 0,
 			"descriptions": [
 				"Auf dem französischen Abschnitt ist ein Umstieg in einen Zug der SNCF nötig.",
 				"Aufgrund des Alleo-Winterkonzeptes wird auf dem französchen Teil nach/von Paris ein Zug der SNCF gestellt."
@@ -188,6 +196,7 @@
 		{
 			"group": 1,
 			"name": "Thalys von %s nach %s",
+			"service": 0,
 			"descriptions": [
 				"Verbinde Deutschland mit Belgien und Frankreich."
 			],
@@ -200,6 +209,7 @@
 		{
 			"group": 1,
 			"name": "ICE International von %s nach %s",
+			"service": 0,
 			"descriptions": [
 				"Verbinde die Niederlande mit der Schweiz."
 			],
@@ -214,39 +224,9 @@
 			]
 		},
 		{
-			"name": "MDV-IC von %s nach %s",
-			"descriptions": [
-				"Bringe den Intercity der Mitte-Deutschland-Verbindung von %s nach %s.",
-				"Bring die Fahrgäste im IC pünktlich nach %2$s.",
-				"Fahre den Ost-West-IC nach %2$s."
-			],
-			"stations": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HH", "HBS", "LM", "LK", "LH", "LL", "DR", "DH" ],
-			"neededCapacity": [
-				{ "name": "passengers", "value": 0 },
-				{ "name": "bistroseats", "value": 0 }
-			],
-			"plops": 396000,
-			"group": 1,
-			"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HL", "HWUN", "HH", "HWOB", "HBS", "LM", "LK", "LH", "LGOS", "LL", "DR", "DPR", "DH" ]
-		},
-		{
-			"name": "IC von %s nach %s",
-			"descriptions": [
-				"Bringe den internationalen Intercity von %s nach %s.",
-				"Bring die Fahrgäste in dem IC pünktlich nach %2$s.",
-				"Fahre den IC zwischen Deutschland und Schweiz nach %2$s."
-			],
-			"stations": [ "XSZH", "RSCF", "RSI", "TTU", "TR", "THB", "TBO", "TS" ],
-			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
-			],
-			"plops": 216000,
-			"group": 1,
-			"pathSuggestion": [ "XSZH", "XSZO", "RSCF", "RSI", "RIM", "TTU", "TR", "THB", "TET", "TBO", "TS" ]
-		},
-		{
 			"group": 0,
 			"name": "Eröffnungs-ICE nach %2$s",
+			"service": 0,
 			"descriptions": [
 				"Zur Eröffnung der VDE8 wird ein ICE von %s nach %s gefahren.",
 				"Die VDE8 wird heute feierlich eröffnet, viele Politiker sind geladen.",
@@ -261,6 +241,7 @@
 		{
 			"group": 0,
 			"name": "ICE-Zubringer nach %2$s",
+			"service": 3,
 			"descriptions": [
 				"Wegen eines Haltausfalls eines ICE in %s müssen die Fahrgäste schnell nach %s.",
 				"Der ICE International fängt heute erst in %2$s an, bringe die Fahrgäste dort schnell hin."
@@ -273,7 +254,41 @@
 		},
 		{
 			"group": 1,
+			"name": "MDV-IC von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe den Intercity der Mitte-Deutschland-Verbindung von %s nach %s.",
+				"Bring die Fahrgäste im IC pünktlich nach %2$s.",
+				"Fahre den Ost-West-IC nach %2$s."
+			],
+			"stations": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HH", "HBS", "LM", "LK", "LH", "LL", "DR", "DH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
+			],
+			"plops": 396000,
+			"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HL", "HWUN", "HH", "HWOB", "HBS", "LM", "LK", "LH", "LGOS", "LL", "DR", "DPR", "DH" ]
+		},
+		{
+			"group": 1,
+			"name": "IC von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe den internationalen Intercity von %s nach %s.",
+				"Bring die Fahrgäste in dem IC pünktlich nach %2$s.",
+				"Fahre den IC zwischen Deutschland und Schweiz nach %2$s."
+			],
+			"stations": [ "XSZH", "RSCF", "RSI", "TTU", "TR", "THB", "TBO", "TS" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 216000,
+			"pathSuggestion": [ "XSZH", "XSZO", "RSCF", "RSI", "RIM", "TTU", "TR", "THB", "TET", "TBO", "TS" ]
+		},
+		{
+			"group": 1,
 			"name": "Intercity von %s nach %s",
+			"service": 1,
 			"descriptions": [
 				"Bringe den Intercity von %s nach %s, über die Rheinstrecke.",
 				"Der IC muss von %s über die Rheinstrecke nach %s gebracht werden.",
@@ -301,6 +316,7 @@
 		{
 			"group": 1,
 			"name": "IC der Mitte-Deutschland-Verbindung nach %2$s",
+			"service": 1,
 			"descriptions": [
 				"Ein IC muss auf der mäßig ausgelasteten Verbindung von %s nach %s gefahren werden.",
 				"Bring den Zug von %s nach %s um eine Ost-West-Verbindung sicherzustellen."
@@ -324,6 +340,7 @@
 		{
 			"group": 1,
 			"name": "IC Berlijn nach %2$s",
+			"service": 1,
 			"descriptions": [
 				"Stelle eine West-Ost-Verbindung zwischen der Hauptstadt von Deutschland und den Niederlanden her."
 			],
@@ -341,6 +358,7 @@
 		{
 			"group": 1,
 			"name": "IC von %s nach %s",
+			"service": 1,
 			"descriptions": [
 				"Der Intercity muss pünktlich von %s nach %s gebracht werden.",
 				"Schicke den IC pünktlich und sicher nach %2$s."
@@ -375,6 +393,7 @@
 		{
 			"group": 0,
 			"name": "Urlaubs-Express von %s nach %s",
+			"service": 1,
 			"descriptions": [
 				"Bringe die Urlauber sicher nach Hause",
 				"Bringe die Fahrgäste in den Urlaub."
@@ -403,6 +422,7 @@
 		{
 			"group": 1,
 			"name": "NightJet von %s nach %s",
+			"service": 1,
 			"descriptions": [
 				"Bringe die Urlauber sicher nach Hause",
 				"Bringe die Fahrgäste in den Urlaub."
@@ -434,6 +454,7 @@
 		{
 			"group": 1,
 			"name": "NightJet von %s nach %s",
+			"service": 1,
 			"descriptions": [
 				"Bringe die Urlauber sicher nach Hause",
 				"Bringe die Fahrgäste in den Urlaub."
@@ -454,6 +475,7 @@
 		{
 			"group": 1,
 			"name": "Eifel-Mosel-Express von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den RE12 von %s nach %s. Der Zug ist nur schwach ausgelastet.",
 				"Der RE12 muss von %s nach %s gebracht werden. Die Strecke ist nicht stark ausgelastet.",
@@ -468,6 +490,7 @@
 		{
 			"group": 1,
 			"name": "Eifel-Mosel-Bahn von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Zug einmal queer duch die Eifel."
 			],
@@ -481,6 +504,7 @@
 		{
 			"group": 1,
 			"name": "Moselbahn von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Der Zug muss durchs mahlerische Moseltal von %s nach %s gebracht werden.",
 				"Die kurvige Strecke führt von %s nach %s."
@@ -495,6 +519,7 @@
 		{
 			"group": 1,
 			"name": "BRB Oberland von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Fahre durch das Bayerische Oberland. Du wirst gebeten von %s nach %s zu fahren. Gute Reise!"
 			],
@@ -521,6 +546,7 @@
 		{
 			"group": 1,
 			"name": "BRB Chiemgau-Inntal von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Du fährst die BRB Chiemgau-Inntal von %s nach %s."
 			],
@@ -541,6 +567,7 @@
 		{
 			"group": 1,
 			"name": "REX von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Hilf der ÖBB mit einem REX von %s nach %s aus."
 			],
@@ -561,6 +588,7 @@
 		{
 			"group": 1,
 			"name": "BRB Chiemgau-Inntal (RE 5) von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Die BEG schreibt das Chiemgau-Inntal Netz aus. Deine Fahrt führt von %s nach %s",
 				"Um dem bestellten Einsatz gerecht zu werden, müssen Fahrgäste von %s nach %s im Netz Chiemgau-Inntal befördert werden."
@@ -585,6 +613,7 @@
 		{
 			"group": 0,
 			"name": "Pendelzug RE 5 von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Wegen Bauarbeiten wurde ein Streckenabschnitt gesperrt. Fahre einen Pendelzug von %s nach %s.",
 				"Ein Polizeieinsatz hat den Bahnverkehr zum erliegen gebracht. Ein SEV für den Streckenabschnitt wurde eingerichtet. Fahre einen Pendelzug zwischen %s und %s."
@@ -612,6 +641,7 @@
 		{
 			"group": 1,
 			"name": "S3 von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Fahre als S3 von %s nach %s und halte dabei an allen Unterwegsbahnhöfen."
 			],
@@ -625,6 +655,7 @@
 		{
 			"group": 1,
 			"name": "Sauerland-Express von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den RE17 von %s nach %s. Der Zug ist nur mittelmäßig ausgelastet.",
 				"Der RE17 muss von %s nach %s gebracht werden. Die Strecke ist nicht sehr stark ausgelastet.",
@@ -639,6 +670,7 @@
 		{
 			"group": 1,
 			"name": "Weser-Ems-Express von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den RE18 von %s nach %s. Der Zug ist nur mittelmäßig ausgelastet.",
 				"Der RE18 muss von %s nach %s gebracht werden. Die Strecke ist nicht sehr stark ausgelastet.",
@@ -653,6 +685,7 @@
 		{
 			"group": 1,
 			"name": "RE7 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den RE7 von %s nach %s. Der Zug ist nur mittelmäßig ausgelastet.",
 				"Der RE7 muss von %s nach %s gebracht werden. Die Strecke ist nicht sehr stark ausgelastet.",
@@ -668,6 +701,7 @@
 		{
 			"group": 1,
 			"name": "RE11 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Rhein-Hellweg-Express von %s nach %s. Der Zug ist teilweise stark ausgelastet.",
 				"Bringe den RE11 pünktlich und störungsfrei von %s nach %s.",
@@ -682,6 +716,7 @@
 		{
 			"group": 1,
 			"name": "RE30 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den RE30 von %s nach %s. Der Zug ist stark ausgelastet.",
 				"Der RE30 muss von %s nach %s gebracht werden. Die Strecke ist stark ausgelastet.",
@@ -696,6 +731,7 @@
 		{
 			"group": 1,
 			"name": "Nahe-Express von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den RE3 von %s nach %s. Der Zug ist zeitweise stark ausgelastet.",
 				"Der RE3 muss von %s nach %s gebracht werden. Die Strecke ist stark ausgelastet.",
@@ -710,6 +746,7 @@
 		{
 			"group": 1,
 			"name": "Regional-Express von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den RE von %s nach %s. Die Strecke ist sehr kurvig.",
 				"Der RE muss von %s nach %s gebracht werden. Die Strecke ist sehr kurvig.",
@@ -731,6 +768,7 @@
 		{
 			"group": 1,
 			"name": "RE 5 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Starte mit deiner Ausschreibung den RE von %s nach %s."
 			],
@@ -743,12 +781,13 @@
 		{
 			"group": 1,
 			"name": "S1 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Die Linie S1 der S-Bahn Rhein-Neckar muss von %s nach %s gebracht werden.",
 				"Dieser S-Bahn-Langläufer muss von %s nach %s gebracht werden."
 			],
 			"plops": 300000,
-			"stations": [ "SHO", "SKL", "SHY", "RN", "RSD", "RM", "RH", "RNZ", "RSE", "TO" ],
+			"stations": [ "SHO", "SKL", "SHY", "RN", "RSD", "RM", "RH", "RMF", "RH", "RNZ", "RSE", "TO" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -757,6 +796,7 @@
 		{
 			"group": 1,
 			"name": "SÜWEX von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Die RE-Linie 1 fährt quer durch RLP und Saarland.",
 				"Die Linie ist bei Pendlern sehr für ihr WIFI gefragt."
@@ -771,6 +811,7 @@
 		{
 			"group": 1,
 			"name": "RE50 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Der Hessen-Express muss mit ausreichend Kapazität bis %2$s gefahren werden.",
 				"Diese stark ausgelastete Strecke sollte mit spurstarken Fahrzeugen befahren werden."
@@ -784,6 +825,7 @@
 		{
 			"group": 1,
 			"name": "RE99 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Die Strecke ist bei Nutzern des Schönes-Wochenende-Ticket sehr beliebt.",
 				"Bringe die Fahrgäste von %s in Richtung %s."
@@ -797,6 +839,7 @@
 		{
 			"group": 1,
 			"name": "RE54 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Der Langläufer muss von %s nach %s gebracht werden.",
 				"Bringe die Fahrgäste sicher von %s in Richtung %s."
@@ -811,6 +854,7 @@
 		{
 			"group": 1,
 			"name": "RE 2 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Der Langläufer muss von %s nach %s gebracht werden.",
 				"Bringe die Fahrgäste sicher von %s in Richtung %s."
@@ -825,6 +869,7 @@
 		{
 			"group": 1,
 			"name": "Regioswinger von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Die kurvenreiche Strecke von %s nach %s ist ideal für ein NT-Fahrzeug.",
 				"Wegen Bauarbeiten an der VDE8 müssen zusätzliche Züge nach %2$s gefahren werden."
@@ -839,6 +884,7 @@
 		{
 			"group": 1,
 			"name": "RE 20 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Fahr den Zug einmal durch Franken von %s nach %s.",
 				"Der RE 20 fährt von %s nach %s quer durch's Frankenland."
@@ -853,6 +899,7 @@
 		{
 			"group": 1,
 			"name": "MRB von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Die Mittelrheinbahn fährt von %s nach %s und wird unterwegs häufig überholt.",
 				"Fahr als MRB im Blockabstand vor dem nächsten Fernverkehrszug durch das Mittelrheintal.",
@@ -868,6 +915,7 @@
 		{
 			"group": 1,
 			"name": "Vias von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Diese Regionalbahnlinie führt von %s nach %s durch das wunderschöne Mittelrheintal.",
 				"Die Strecke ist oft durch Güterzüge blockiert."
@@ -882,6 +930,7 @@
 		{
 			"group": 1,
 			"name": "RE 4 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den RegionalExpress einmal quer durch MV.",
 				"Verbinde Norddeutschland und Polen miteinander."
@@ -895,6 +944,7 @@
 		{
 			"group": 1,
 			"name": "RE 5 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Schicke einen RegionalExpress über die Berliner Nordbahn.",
 				"Verbinde pommersche Küste mit der Hauptstadt und dem brandenburger Umland.",
@@ -909,6 +959,7 @@
 		{
 			"group": 1,
 			"name": "HLB von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Diese Regionalbahnlinie führt von %s nach %s von der Lahn an die Fulda.",
 				"Verbinde die weniger bevölkerten Gebiete von Hessen miteinander."
@@ -923,6 +974,7 @@
 		{
 			"group": 1,
 			"name": "S8 von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bring die Flughafen-Pendler von %s nach %s.",
 				"Die S-Bahn der Linie 8 im RMV muss von %s nach %s gebracht werden."
@@ -937,6 +989,7 @@
 		{
 			"group": 1,
 			"name": "S-Bahn Hannover von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bring die Fahrgäste einigermaßen bequem von %s nach %s.",
 				"Fahre den Langläufer von %s nach %s.",
@@ -968,6 +1021,7 @@
 		{
 			"group": 1,
 			"name": "RE 1 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Die kurvenreiche Strecke von %s nach %s ist ideal für ein NT-Fahrzeug.",
 				"Die Strecke ist ideal um von Thüringen nach Norddeutschland oder zurück zu fahren."
@@ -981,6 +1035,7 @@
 		{
 			"group": 1,
 			"name": "MNX von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den München-Nürnberg-Express über die SFS von %s nach %s",
 				"Bringe den RE1 pünktlich von %s nach %s.",
@@ -995,6 +1050,7 @@
 		{
 			"group": 1,
 			"name": "RB von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Die Strecke führt quer durch Rheinhessen."
 			],
@@ -1008,6 +1064,7 @@
 		{
 			"group": 1,
 			"name": "RB 23 von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Die Usedomer Bäderbahn bringt Touristen auf die Insel."
 			],
@@ -1020,6 +1077,7 @@
 		{
 			"group": 1,
 			"name": "RB77 von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bring die Fahrgäste pünktlich von %s nach %s.",
 				"Fahr mit der Weser-Bahn von %s nach %s."
@@ -1033,6 +1091,7 @@
 		{
 			"group": 1,
 			"name": "RB 91 von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Die Strecke führt von der Sieg an die Ruhr."
 			],
@@ -1046,6 +1105,7 @@
 		{
 			"group": 1,
 			"name": "Cantus von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bring die Fahrgäste sicher und pünktlich durch Nordhessen.",
 				"Mit dem richtigen Fahrzeug kannst du die Fahrgäste schnell von %s nach %s bringen."
@@ -1068,6 +1128,7 @@
 		{
 			"group": 1,
 			"name": "Westfrankenbahn von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bring die Fahrgäste sicher und pünktlich durch das fränkische Randgebiet."
 			],
@@ -1087,6 +1148,7 @@
 		{
 			"group": 1,
 			"name": "S23 von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bring die Fahrgäste pünktlich und sicher durch die malerischen Felder der Voreifel."
 			],
@@ -1100,6 +1162,7 @@
 		{
 			"group": 1,
 			"name": "Metronom von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bring die Fahrgäste mit oder ohne Fahrräder pünktlich durch das Leinetal und an die Aller.",
 				"Bring den RE2 von %s nach %s. Die Strecke ist stark ausgelastet."
@@ -1113,6 +1176,7 @@
 		{
 			"group": 1,
 			"name": "Metronom von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bring die Fahrgäste mit oder ohne Fahrräder pünktlich nach %2$s.",
 				"Bring den RE von %s nach %s."
@@ -1133,6 +1197,7 @@
 		{
 			"group": 1,
 			"name": "RE von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Regionalexpress durch Mecklenburg-Vorpommern von %s nach %s.",
 				"Bring die Fahrgäste sicher und pünktlich nach %2$s."
@@ -1169,6 +1234,7 @@
 		{
 			"group": 1,
 			"name": "RB89 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bring die Ems-Börde-Bahn pünktlich von %s nach %s."
 			],
@@ -1181,6 +1247,7 @@
 		{
 			"group": 1,
 			"name": "RB84 von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bring die Fahrgäste pünktlich und sicher durch die Egge bis ins Weserbergland",
 				"Bring die Eggebahn quer durch das Hochstift von %s nach %s. Die Strecke ist nicht stark ausgelastet."
@@ -1194,6 +1261,7 @@
 		{
 			"group": 1,
 			"name": "RRX von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Rhein-Ruhr-Express von %s nach %s."
 			],
@@ -1206,6 +1274,7 @@
 		{
 			"group": 1,
 			"name": "RB von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bringe die RB von %s nach %s."
 			],
@@ -1219,6 +1288,7 @@
 		{
 			"group": 1,
 			"name": "Rhein-Erft-Express von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Rhein-Erft-Express von %s nach %s."
 			],
@@ -1231,6 +1301,7 @@
 		{
 			"group": 1,
 			"name": "Rurtalbahn von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bringe die Rurtalbahn von %s nach %s."
 			],
@@ -1251,6 +1322,7 @@
 		{
 			"group": 1,
 			"name": "RE 42 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bring die Frankenwaldbahn pünktlich von %s nach %s."
 			],
@@ -1265,6 +1337,7 @@
 		{
 			"group": 1,
 			"name": "RE 12 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den RE 12 pünktlich von von %s nach %s."
 			],
@@ -1278,6 +1351,7 @@
 		{
 			"group": 1,
 			"name": "Maas-Schwalm-Nette-Bahn von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bringe die Maas-Schwalm-Nette-Bahn von %s nach %s."
 			],
@@ -1291,6 +1365,7 @@
 		{
 			"group": 1,
 			"name": "Eurobahn von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe die Eurobahn durch den Niederrhein von %s nach %s."
 			],
@@ -1304,6 +1379,7 @@
 		{
 			"group": 1,
 			"name": "Schleswig-Holstein-Express von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Schleswig-Holstein-Express durch den echten Norden von %s nach %s."
 			],
@@ -1325,6 +1401,7 @@
 		{
 			"group": 1,
 			"name": "RB von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bringe die RB durch den echten Norden von %s nach %s."
 			],
@@ -1354,6 +1431,7 @@
 		{
 			"group": 1,
 			"name": "AKN von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bringe die Fahrgäste von %s nach %s."
 			],
@@ -1374,6 +1452,7 @@
 		{
 			"group": 1,
 			"name": "RE 1 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den RE 1 von %s nach %s."
 			],
@@ -1390,6 +1469,7 @@
 		{
 			"group": 1,
 			"name": "Strand-Express nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Strand-Express von %s nach %s."
 			],
@@ -1402,6 +1482,7 @@
 		{
 			"group": 1,
 			"name": "Marschbahn nach %s",
+			"service": 2,
 			"descriptions": [
 				"Feierlustige 9-Euro-Ticket-Touristen wollen von %s nach %s."
 			],
@@ -1414,6 +1495,7 @@
 		{
 			"group": 1,
 			"name": "Sylt Shuttle nach %2$s",
+			"service": 2,
 			"descriptions": [
 				"Bring die Fahrgäste und ihre Autos von %s nach %s.",
 				"Fahre über den Hindenburgdamm nach %2$s."
@@ -1428,6 +1510,7 @@
 		{
 			"group": 1,
 			"name": "Sylt Shuttle Plus",
+			"service": 2,
 			"descriptions": [
 				"Bring die 9€-Ticket-Besitzer von %s nach %s.",
 				"Bring den SSP von %s nach %s. Der Zug ist so gut wie gar nicht ausgelastet.",
@@ -1442,6 +1525,7 @@
 		{
 			"group": 1,
 			"name": "Regionalexpress %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den RE 4 von %s nach %s. Der Zug ist nur stark ausgelastet.",
 				"Der RE 4 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
@@ -1456,6 +1540,7 @@
 		{
 			"group": 1,
 			"name": "Regionalexpress von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den RE 6 von %s nach %s. Der Zug ist nur stark ausgelastet.",
 				"Der RE 6 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
@@ -1470,6 +1555,7 @@
 		{
 			"group": 1,
 			"name": "RB von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe die grenzüberschreitende RB53 von %s nach %s."
 			],
@@ -1482,6 +1568,7 @@
 		{
 			"group": 1,
 			"name": "Oberbergische Bahn von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Oberbergische Bahn von %s nach %s."
 			],
@@ -1495,6 +1582,7 @@
 		{
 			"group": 1,
 			"name": "RB 52 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe die RB 52 über die Volmetalbahn nach %s."
 			],
@@ -1506,21 +1594,9 @@
 			]
 		},
 		{
-			"group": 1,
-			"name": "RB 52 von %s nach %s",
-			"descriptions": [
-				"Bringe die RB 52 über die Volmetalbahn nach %s."
-			],
-			"plops": 275000,
-			"stations": [ "EHG", "EBRU", "ELS" ],
-			"stopsEverywhere": true,
-			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
-			]
-		},
-		{
 			"group": 0,
 			"name": "S-Bahn-Verstärkerfahrt von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bringe den Verstärkerzug für die S-Bahn von %s nach %s."
 			],
@@ -1534,6 +1610,7 @@
 		{
 			"group": 1,
 			"name": "S33 von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bringe die S33 von %s nach %s."
 			],
@@ -1546,6 +1623,7 @@
 		{
 			"group": 1,
 			"name": "IRE von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Verbinde Spree und Elbe miteinander von %s nach %s."
 			],
@@ -1559,6 +1637,7 @@
 		{
 			"group": 1,
 			"name": "EuroCity von %s nach %s",
+			"service": 1,
 			"descriptions": [
 				"Bringe den tschechischen EuroCity von %s nach %s."
 			],
@@ -1580,12 +1659,14 @@
 		},
 		{
 			"name": "RB 85 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe die Regionalbahn der Linie 85 von %s nach %s.",
 				"Bring die Fahrgäste in der RB 85 pünktlich nach %2$s.",
 				"Fahre die RB störungsfrei nach %2$s."
 			],
-			"stations": [ "EPD", "HA", "HBDG", "HBKL", "HOTT", "HBOF", "HG" ],
+			"stations": [ "EPD", "HA", "HOTT", "HG" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
@@ -1594,12 +1675,14 @@
 		},
 		{
 			"name": "RB 64 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe die Regionalbahn der Linie 64 von %s nach %s.",
 				"Bring die Fahrgäste in der RB 64 pünktlich nach %2$s.",
 				"Fahre die RB störungsfrei nach %2$s."
 			],
-			"stations": [ "EMST", "ENBE", "ENOW", "EGRK", "EBFT", "EOP", "EGRN", "XNGB", "XNDE", "XNES" ],
+			"stations": [ "EMST", "XNES" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
@@ -1608,6 +1691,7 @@
 		},
 		{
 			"name": "IRE 6 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Interregio-Express der Linie 6 von %s nach %s.",
 				"Bring die Fahrgäste in dem IRE 6 pünktlich nach %2$s.",
@@ -1623,6 +1707,7 @@
 		},
 		{
 			"name": "RE 4 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Regionalexpress der Linie 4 von %s nach %s.",
 				"Bring die Fahrgäste in dem RE 4 pünktlich nach %2$s.",
@@ -1637,6 +1722,7 @@
 		},
 		{
 			"name": "RE 87 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Regionalexpress der Linie 87 von %s nach %s.",
 				"Bring die Fahrgäste in dem RE 87 pünktlich nach %2$s.",
@@ -1652,6 +1738,7 @@
 		},
 		{
 			"name": "ECE von %s nach %s",
+			"service": 0,
 			"descriptions": [
 				"Bringe den Eurocity-Express von %s nach %s.",
 				"Bring die Fahrgäste in dem ECE pünktlich nach %2$s.",
@@ -1667,6 +1754,7 @@
 		},
 		{
 			"name": "Fugger-Express von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Regionalexpress von %s nach %s.",
 				"Bring die Fahrgäste in dem RE pünktlich nach %2$s.",
@@ -1690,6 +1778,7 @@
 		},
 		{
 			"name": "ICE von %s nach %s",
+			"service": 0,
 			"descriptions": [
 				"Bringe den Intercity-Express von %s nach %s.",
 				"Bring die Fahrgäste in dem ICE pünktlich nach %2$s.",
@@ -1725,6 +1814,7 @@
 		},
 		{
 			"name": "RB von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bringe die Regionalbahn von %s nach %s.",
 				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
@@ -1736,17 +1826,19 @@
 			"group": 1,
 			"objects": [
 				{
-					"stations": [ "EPD", "HA", "EHBM", "EDTM", "ELAG", "EBSU", "EHFD" ],
+					"stations": [ "EPD", "HA", "EHFD" ],
 					"plops": 115920
 				},
 				{
-					"stations": [ "EPD", "ESHO", "EBILP" ],
+					"stations": [ "EPD", "EBILP" ],
 					"plops": 106200
 				}
-			]
+			],
+			"stopsEverywhere": true
 		},
 		{
 			"name": "RE von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Regionalexpress von %s nach %s.",
 				"Bring die Fahrgäste in dem RE pünktlich nach %2$s.",
@@ -1773,6 +1865,7 @@
 		},
 		{
 			"name": "RE 15 von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Regionalexpress der Linie 15 von %s nach %s.",
 				"Bring die Fahrgäste in dem RE 15 pünktlich nach %2$s.",
@@ -1787,6 +1880,7 @@
 		},
 		{
 			"name": "Nordthüringenbahn von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bringe den Regionalexpress der Linie 55 von %s nach %s.",
 				"Bring die Fahrgäste in dem RE 55 pünktlich nach %2$s.",
@@ -1803,6 +1897,7 @@
 		},
 		{
 			"name": "Halle-Kasseler Bahn von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Regionalexpress der Linie 8 von %s nach %s.",
 				"Bring die Fahrgäste in dem RE 8 pünktlich nach %2$s.",
@@ -1817,6 +1912,7 @@
 		},
 		{
 			"name": "Halle-Kasseler Bahn von %s nach %s",
+			"service": 2,
 			"descriptions": [
 				"Bringe den Regionalexpress der Linie 9 von %s nach %s.",
 				"Bring die Fahrgäste in dem RE 9 pünktlich nach %2$s.",
@@ -1831,6 +1927,7 @@
 		},
 		{
 			"name": "RB 57 von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bringe die RB über die Halle-Kasseler Bahn von %s nach %s.",
 				"Bring die Fahrgäste in der RB 57 pünktlich nach %2$s.",
@@ -1854,6 +1951,7 @@
 		},
 		{
 			"name": "S 7 von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bringe die S 7 von %s nach %s.",
 				"Bring die Fahrgäste der S-Bahn Mitteldeutschland pünktlich nach %2$s.",
@@ -1877,6 +1975,7 @@
 		},
 		{
 			"name": "RB 57 / S 7 von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Bringe die durchgebundene RB/S-Bahn von %s nach %s."
 			],
@@ -1890,6 +1989,7 @@
 		},
 		{
 			"group": 0,
+			"service": 4,
 			"name": "Sonderzug zur Kieler Woche nach %2$s",
 			"descriptions": [
 				"Bringe den Sonderzug von %s nach %s."
@@ -1902,6 +2002,7 @@
 		},
 		{
 			"group": 0,
+			"service": 4,
 			"name": "Sonderzug des Altenheims %s",
 			"descriptions": [
 				"Die aktiven Rentner wollen heute %2$s besichtigen, bring sie dorthin!",
@@ -1916,6 +2017,7 @@
 		{
 			"group": 0,
 			"name": "Fußball-Sonderzug von %s nach %s",
+			"service": 4,
 			"descriptions": [
 				"Nach einem verlorenen Spiel gegen den FC %s wollen die Fans schnell nach %s.",
 				"Das Spiel gegen den FC %s wurde gewonnen, die Fans wollen gut gelaunt nach %s.",
@@ -1929,6 +2031,7 @@
 		{
 			"group": 0,
 			"name": "Schulverkehr von %s nach %s",
+			"service": 4,
 			"descriptions": [
 				"Bringe die Schüler*innen von %s nach %s"
 			],
@@ -1942,6 +2045,7 @@
 		{
 			"group": 0,
 			"name": "Ersatzverkehre von %s nach %s",
+			"service": 4,
 			"descriptions": [
 				"Das Personal ist kurzfristig ausgefallen. Bringe die Fahrgäste von %s nach %s",
 				"Die Fahrzeuge eines EVUs sind ausgefallen. Das Land braucht ersatz!"
@@ -1962,6 +2066,7 @@
 		{
 			"group": 0,
 			"name": "Straßen-Ersatzverkehr B278",
+			"service": 4,
 			"descriptions": [
 				"Die B278 ist zwischen %s und %s gesperrt, fahre die Schüler mit dem Zug zur Schule.",
 				"Wegen eines Brückenschadens zwischen %s und %s muss der Verkehr über die Bahn abgewickelt werden.",
@@ -1976,6 +2081,7 @@
 		{
 			"group": 0,
 			"name": "Ersatzverkehre von %s nach %s",
+			"service": 4,
 			"descriptions": [
 				"Ein nicht weiter zu benenndes EVU ist leider pleite gegangen. Das Land braucht Ersatz!",
 				"Die Fahrzeuge eines namhaften Herstellers wurden nicht rechtzeitig geliefert.",
@@ -1990,6 +2096,7 @@
 		{
 			"group": 0,
 			"name": "Umleitung von %s nach %s",
+			"service": 4,
 			"descriptions": [
 				"Die Strecke zwischen Passau und Wels ist gesperrt. Fahre über Salzburg!"
 			],
@@ -2003,6 +2110,7 @@
 		{
 			"group": 0,
 			"name": "Holzverkehre von %s nach %s",
+			"service": 11,
 			"descriptions": [
 				"Nach einem Sturm in %s soll das Holz schnell weggeschafft werden.",
 				"Aufgrund eines starken Borkenkäferbefalls in %s muss Holz transportiert werden."
@@ -2015,6 +2123,7 @@
 		{
 			"group": 0,
 			"name": "Gemischter Güterzug nach %2$s",
+			"service": 11,
 			"descriptions": [
 				"Wegen der Sauerland-Wochen müssen einige Güter von %s nach %s.",
 				"Das Dampflok-AW in %s versendet Güter nach %s."
@@ -2028,6 +2137,7 @@
 		{
 			"group": 0,
 			"name": "Holzzug nach %2$s",
+			"service": 11,
 			"descriptions": [
 				"Für ein neuen Bahnsteigdach in %2$s wird Holz aus %1$s benötigt.",
 				"Es wird Holz aus %s für neue Schwellen in %s benötigt."
@@ -2040,6 +2150,7 @@
 		{
 			"group": 0,
 			"name": "Kohlezug nach %2$s",
+			"service": 11,
 			"descriptions": [
 				"In %2$s wird dringend Kohle aus dem Tagebau %1$s benötigt.",
 				"Das Kraftwerk in %2$s benötigt neue Kohle aus %1$s für Bahnstrom."
@@ -2053,6 +2164,7 @@
 		{
 			"group": 0,
 			"name": "Dringender Heizmittel-Transport",
+			"service": 11,
 			"descriptions": [
 				"In der Dienstelle in %2$s ist das Heizöl ausgegangen, bring neues aus %1$s.",
 				"Zum Tanken der Diesel-Fahrzeuge in %2$s wird dringend neuer Diesel aus %1$s benötigt.",
@@ -2066,6 +2178,7 @@
 		{
 			"group": 0,
 			"name": "Gemischter Güterzug nach %2$s",
+			"service": 11,
 			"descriptions": [
 				"Aufgrund einer Firmenauflösung müssen die Waren schnell von %s nach %s.",
 				"Es gab einen starken Schimmelbefall im Firmensitz in %s, bring die Waren schnell in die Zentrale."
@@ -2080,6 +2193,7 @@
 		{
 			"group": 0,
 			"name": "Autotransport nach %2$s",
+			"service": 11,
 			"descriptions": [
 				"Bringe die Autos von %s nach %s.",
 				"Die Autos müssen schnell nach %2$s. Der Zug startet in %1$s."
@@ -2092,6 +2206,7 @@
 		{
 			"group": 0,
 			"name": "KV-Zug nach %2$s",
+			"service": 11,
 			"descriptions": [
 				"Bringe die Container von %s nach %s.",
 				"Die Container müssen vom Umschlagbahnhof %s an den Hafen von %s gebracht werden."
@@ -2104,6 +2219,7 @@
 		{
 			"group": 0,
 			"name": "LKW-Ersatzzug von %s nach %s.",
+			"service": 11,
 			"descriptions": [
 				"Wegen einer Rückrufaktion eines namhaften LKW-Herstellers müssen Ersatzgüterzüge von %s nach %s gefahren werden.",
 				"Aufgrund von Straßensperrungen wegen des lokalen CSD müssen die Container schnell von %s nach %s.",
@@ -2117,6 +2233,7 @@
 		{
 			"group": 0,
 			"name": "Schwerer Containerzug von %s nach %s.",
+			"service": 11,
 			"descriptions": [
 				"In %s hat ein neues Einkaufszentrum eröffnet! Bringe schnell die benötigten Waren dorthin.",
 				"Die Autobahn bei %s ist wegen Unwetterschäden nicht benutzbar. Fahre die Gütertransporte als Ersatz nach %s."
@@ -2129,6 +2246,7 @@
 		{
 			"group": 0,
 			"name": "Gemischter GV von %s nach %s",
+			"service": 11,
 			"descriptions": [
 				"Die Waren müssen von %s zum Rangierbahnhof nach %s gebracht werden."
 			],
@@ -2143,6 +2261,7 @@
 		{
 			"group": 0,
 			"name": "Castor-Transport von %s nach %s",
+			"service": 10,
 			"descriptions": [
 				"Die Brennstäbe müssen vom AKW %s zur Aufbereitungsanlage %s gebracht werden."
 			],
@@ -2154,6 +2273,7 @@
 		{
 			"group": 0,
 			"name": "Flugersatzverkehr von %s nach %s",
+			"service": 4,
 			"descriptions": [
 				"Wegen zu langer Warteschlangen am Check-In fährt ein Ersatzzug die Fluggäste von %s nach %s.",
 				"Weil mal wieder Pilot*innen streiken, brauchen die Airlines schnell Ersatz.",
@@ -2186,6 +2306,7 @@
 		{
 			"group": 0,
 			"name": "Kohlezug von %s nach %s",
+			"service": 11,
 			"descriptions": [
 				"Bringe den Kohlezug ohne Verspätung von %s nach %s."
 			],
@@ -2198,6 +2319,7 @@
 		{
 			"group": 0,
 			"name": "Umleiter von %s nach %s ",
+			"service": 4,
 			"descriptions": [
 				"Zwischen Hagen und Wuppertal gab es eine Entgleisung. Bringe den Umleiter nach %2$s."
 			],
@@ -2211,6 +2333,7 @@
 		{
 			"group": 0,
 			"name": "Alpen-Sylt-Nachtexpress von %s nach %s",
+			"service": 1,
 			"descriptions": [
 				"Bring die Fahrgäste in den Urlaub.",
 				"Fahre den Zug zwischen Alpen und Nordsee.",
@@ -2236,6 +2359,7 @@
 		{
 			"group": 0,
 			"name": "McTrain von %s nach %s",
+			"service": 4,
 			"descriptions": [
 				"Bring die hunrigen Fahrgäste in die andere Ecke des Landes.",
 				"Fahre den Zug zwischen Alpen und Nordsee.",
