@@ -6430,24 +6430,37 @@
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 160,
+			"twistingFactor": 0.2,
 			"objects": [
 				{
 					"start": "AA",
+					"end": "AP",
+					"length": 15
+				},
+				{
+					"start": "AP",
+					"end": "APD",
+					"length": 3
+				},
+				{
+					"start": "APD",
+					"end": "ATM",
+					"length": 3
+				},
+				{
+					"start": "ATM",
 					"end": "AEL",
-					"length": 30,
-					"twistingFactor": 0.2
+					"length": 7
 				},
 				{
 					"start": "AEL",
 					"end": "AN",
-					"length": 44,
-					"twistingFactor": 0.2
+					"length": 44
 				},
 				{
 					"start": "AN",
 					"end": "AK",
-					"length": 26,
-					"twistingFactor": 0.2
+					"length": 26
 				}
 			]
 		},
@@ -6636,12 +6649,67 @@
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 80,
+			"twistingFactor": 0.2,
 			"objects": [
 				{
-					"start": "AHI",
-					"end": "AN",
-					"length": 63,
-					"twistingFactor": 0.2
+					"start": "AN",
+					"end": "ANSW",
+					"length": 1
+				},
+				{
+					"start": "ANSW",
+					"end": "AWA",
+					"length": 4
+				},
+				{
+					"start": "AWA",
+					"end": "AAU",
+					"length": 7
+				},
+				{
+					"start": "AAU",
+					"end": "AHWT",
+					"length": 8
+				},
+				{
+					"start": "AHWT",
+					"end": "AODT",
+					"length": 5
+				},
+				{
+					"start": "AODT",
+					"end": "ABGS",
+					"length": 2
+				},
+				{
+					"start": "ABGS",
+					"end": "AGK",
+					"length": 4
+				},
+				{
+					"start": "AGK",
+					"end": "AHNU",
+					"length": 3
+				},
+				{
+					"start": "AHNU",
+					"end": "ABE",
+					"length": 3
+				},
+				{
+					"start": "ABE",
+					"end": "AAL",
+					"length": 5
+				},
+				{
+					"start": "AAL",
+					"end": "ANH",
+					"length": 7
+				},
+				{
+					"start": "ANH",
+					"end": "AHI",
+					"length": 6
 				}
 			]
 		},
@@ -6662,12 +6730,37 @@
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 80,
+			"twistingFactor": 0.4,
 			"objects": [
 				{
-					"start": "ABSM",
-					"end": "AHI",
-					"length": 23,
-					"twistingFactor": 0.4
+					"start": "AHI",
+					"end": "ATB",
+					"length": 8
+				},
+				{
+					"start": "ATB",
+					"end": "AJHH",
+					"length": 3
+				},
+				{
+					"start": "AJHH",
+					"end": "AWBU",
+					"length": 2
+				},
+				{
+					"start": "AWBU",
+					"end": "ASDD",
+					"length": 1
+				},
+				{
+					"start": "ASDD",
+					"end": "ARE",
+					"length": 2
+				},
+				{
+					"start": "ARE",
+					"end": "ABSM",
+					"length": 6
 				}
 			]
 		},
@@ -6741,50 +6834,118 @@
 			"name": "Marschbahn",
 			"group": 0,
 			"electrified": false,
+			"twistingFactor": 0.3,
+			"maxSpeed": 140,
 			"objects": [
 				{
 					"start": "AEL",
+					"end": "AHZH",
+					"length": 13,
+					"maxSpeed": 120,
+					"electrified": true
+				},
+				{
+					"start": "AHZH",
 					"end": "AGST",
-					"length": 17,
-					"twistingFactor": 0.3,
+					"length": 3,
 					"maxSpeed": 120,
 					"electrified": true
 				},
 				{
 					"start": "AGST",
+					"end": "AKM",
+					"length": 7,
+					"maxSpeed": 120,
+					"electrified": true
+				},
+				{
+					"start": "AKM",
+					"end": "AKHD",
+					"length": 5,
+					"maxSpeed": 120,
+					"electrified": true
+				},
+				{
+					"start": "AKHD",
 					"end": "AIZ",
-					"length": 17,
-					"twistingFactor": 0.3,
+					"length": 5,
 					"maxSpeed": 120,
 					"electrified": true
 				},
 				{
 					"start": "AIZ",
+					"end": "AWIR",
+					"length": 9
+				},
+				{
+					"start": "AWIR",
+					"end": "ABR",
+					"length": 17
+				},
+				{
+					"start": "ABR",
+					"end": "ASD",
+					"length": 9
+				},
+				{
+					"start": "ASD",
+					"end": "AMF",
+					"length": 11
+				},
+				{
+					"start": "AMF",
 					"end": "AHI",
-					"length": 60,
-					"twistingFactor": 0.3,
-					"maxSpeed": 140
+					"length": 11
 				},
 				{
 					"start": "AHI",
+					"end": "ALU",
+					"length": 16
+				},
+				{
+					"start": "ALU",
+					"end": "AFD",
+					"length": 6
+				},
+				{
+					"start": "AFD",
 					"end": "AHM",
-					"length": 34,
-					"twistingFactor": 0.3,
-					"maxSpeed": 140
+					"length": 11
 				},
 				{
 					"start": "AHM",
+					"end": "ABST",
+					"length": 18
+				},
+				{
+					"start": "ABST",
+					"end": "ALG",
+					"length": 7
+				},
+				{
+					"start": "ALG",
 					"end": "ANB",
-					"length": 40,
-					"twistingFactor": 0.3,
-					"maxSpeed": 140
+					"length": 14
 				},
 				{
 					"start": "ANB",
+					"end": "AKX",
+					"length": 13
+				},
+				{
+					"start": "AKX",
+					"end": "AMM",
+					"length": 16
+				},
+				{
+					"start": "AMM",
+					"end": "AKI",
+					"length": 4
+				},
+				{
+					"start": "AKI",
 					"end": "AWLA",
-					"length": 39,
-					"twistingFactor": 0.3,
-					"maxSpeed": 140
+					"length": 4
 				}
 			]
 		},
