@@ -50,19 +50,6 @@
 					},
 					{
 						"anyOf": [
-							{ "required": ["plops"] },
-							{
-								"properties": {
-									"objects": {
-										"items": { "required": ["plops"] }
-									}
-								},
-								"required": ["objects"]
-							}
-						]
-					},
-					{
-						"anyOf": [
 							{ "required": ["neededCapacity"] },
 							{
 								"properties": {
@@ -115,11 +102,6 @@
 						"type": "string",
 						"description": "%s als Platzhalter für Start/Ziel"
 					}
-				},
-				"plops": {
-					"description": "Verdienst für die Ausschreibung",
-					"type": "integer",
-					"minimum": 0
 				},
 				"stations": {
 					"description": "Ril100 aller Bahnhöfe, die angefahren werden sollen in der richtigen Reihenfolge.\nWird keiner angegeben, werden zwei zufällige gewählt.",
