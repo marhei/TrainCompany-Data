@@ -471,7 +471,7 @@
 			"descriptions": [
 				"Bringe den Zug einmal queer duch die Eifel."
 			],
-			"stations": [ "KK", "KKAS", "STR" ],
+			"stations": [ "KK", "KKAS", "KEU", "STR" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -1052,8 +1052,7 @@
 			],
 			"objects": [
 				{
-					"stations": [ "FFU", "FHUE", "FB", "FGTH", "FKW", "HEBG", "HG" ],
-					"pathSuggestion": [ "FFU", "FHUE", "FB", "FGTH", "FKW", "HG", "HEBG", "HG" ]
+					"stations": [ "FFU", "FHUE", "FB", "FGTH", "FKW", "HEBG", "HG" ]
 				},
 				{
 					"stations": [ "FFU", "FB", "HEBG", "HG" ]
@@ -1252,12 +1251,11 @@
 			"descriptions": [
 				"Bring die Frankenwaldbahn pünktlich von %s nach %s."
 			],
-			"stations": [ "UGW", "US", "NED", "NBA", "NF", "NN" ],
+			"stations": [ "UGW", "US", "NHM", "NED", "NBA", "NF", "NN" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
-			],
-			"pathSuggestion": [ "UGW", "US", "NHM", "NED", "NBA", "NF", "NN" ]
+			]
 		},
 		{
 			"group": 1,
