@@ -10349,6 +10349,50 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"name": "Kleinseebahn",
+			"maxSpeed": 90,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "WNT",
+					"end": "WGQ",
+					"length": 8,
+					"maxSpeed": 60,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "WGQ",
+					"end": "WWE",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "WWE",
+					"end": "WWES",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "WWES",
+					"end": "WZIR",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "WZIR",
+					"end": "WMIR",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.05
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 120,
 			"twistingFactor": 0.25,
