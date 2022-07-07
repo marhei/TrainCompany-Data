@@ -99,7 +99,7 @@
 			"reliability": 1.0,
 			"cost": 3000000,
 			"maxConnectedUnits": 2,
-			"operationCosts": 130,
+			"operationCosts": 70,
 			"equipments": ["ETCS", "AT"],
 			"exchangeTime": 120,
 			"capacity": [
@@ -162,7 +162,7 @@
 			"drive": 1,
 			"reliability": 1,
 			"cost": 2500000,
-			"operationCosts": 65,
+			"operationCosts": 70,
 			"equipments": ["ETCS", "CH", "AT"],
 			"maxConnectedUnits": 2,
 			"exchangeTime": 120,
@@ -236,7 +236,7 @@
 			"drive": 1,
 			"reliability": 0.95,
 			"cost": 450000,
-			"operationCosts": 35,
+			"operationCosts": 40,
 			"maxConnectedUnits": 4,
 			"capacity": [
 				{"name": "passengers", "value": 200}
@@ -313,7 +313,7 @@
 			"drive": 3,
 			"reliability": 1,
 			"cost": 850000,
-			"operationCosts": 40,
+			"operationCosts": 45,
 			"maxConnectedUnits": 2,
 			"range": 150,
 			"capacity": [
@@ -423,6 +423,27 @@
 			]
 		},
 		{
+			"id": 231,
+			"group": 2,
+			"name": "Bombardier ET 2010 (AVG/VBK)",
+			"shortcut": "ET2010",
+			"speed": 100,
+			"weight": 62,
+			"force": 37,
+			"length": 37,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 400000,
+			"operationCosts": 50,
+			"maxConnectedUnits": 4,
+			"equipments": [
+				"bostrab"
+			],
+			"capacity": [
+				{"name": "passengers", "value": 93}
+			]
+		},
+		{
 			"id": 2,
 			"group": 2,
 			"name": "RegioSwinger",
@@ -434,7 +455,7 @@
 			"drive": 2,
 			"reliability": 1,
 			"cost": 500000,
-			"operationCosts": 80,
+			"operationCosts": 85,
 			"maxConnectedUnits": 4,
 			"exchangeTime": 60,
 			"capacity": [
@@ -452,7 +473,7 @@
 			"drive": 2,
 			"reliability": 1,
 			"cost": 550000,
-			"operationCosts": 90,
+			"operationCosts": 80,
 			"maxConnectedUnits": 5,
 			"exchangeTime": 60,
 			"capacity": [
@@ -490,11 +511,29 @@
 			"reliability": 0.9,
 			"cost": 250000,
 			"maxConnectedUnits": 3,
-			"operationCosts": 95,
+			"operationCosts": 75,
 			"exchangeTime": 120,
 			"equipments": ["FR", "AT"],
 			"capacity": [
 				{"name": "passengers", "value": 144}
+			]
+		},
+		{
+			"id": 161,
+			"group": 2,
+			"name": "Pesa Link",
+			"shortcut": "BR 632",
+			"speed": 140,
+			"weight": 87,
+			"force": 235,
+			"length": 44,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 350000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 4,
+			"capacity": [
+				{"name": "passengers", "value": 240}
 			]
 		},
 		{
@@ -509,7 +548,7 @@
 			"drive": 2,
 			"reliability": 0.8,
 			"cost": 250000,
-			"operationCosts": 30,
+			"operationCosts": 55,
 			"maxConnectedUnits": 3,
 			"equipments": ["AT"],
 			"capacity": [
@@ -567,7 +606,7 @@
 			"drive": 2,
 			"reliability": 0.9,
 			"cost": 200000,
-			"operationCosts": 30,
+			"operationCosts": 35,
 			"maxConnectedUnits": 4,
 			"exchangeTime": 30,
 			"capacity": [
@@ -586,29 +625,11 @@
 			"drive": 2,
 			"reliability": 0.8,
 			"cost": 600000,
-			"operationCosts": 60,
+			"operationCosts": 150,
 			"maxConnectedUnits": 2,
 			"equipments": ["CH", "AT"],
 			"capacity": [
 				{"name": "containers", "value": 15}
-			]
-		},
-		{
-			"id": 161,
-			"group": 2,
-			"name": "Pesa Link",
-			"shortcut": "BR 632",
-			"speed": 140,
-			"weight": 87,
-			"force": 235,
-			"length": 44,
-			"drive": 2,
-			"reliability": 0.8,
-			"cost": 350000,
-			"operationCosts": 30,
-			"maxConnectedUnits": 4,
-			"capacity": [
-				{"name": "passengers", "value": 240}
 			]
 		},
 		{
@@ -623,8 +644,7 @@
 			"reliability": 0.9,
 			"cost": 350000,
 			"operationCosts": 100,
-			"equipments": ["AT"],
-			"compatibleWith": [1051]
+			"equipments": ["AT"]
 		},
 		{
 			"id": 102,
@@ -675,7 +695,7 @@
 			"length": 20,
 			"drive": 1,
 			"reliability": 0.9,
-			"cost": 190000,
+			"cost": 380000,
 			"operationCosts": 78,
 			"equipments": [ "ETCS", "NL" ]
 		},
@@ -691,8 +711,7 @@
 			"drive": 1,
 			"reliability": 1,
 			"cost": 300000,
-			"operationCosts": 80,
-			"compatibleWith": [11009,11007]
+			"operationCosts": 80
 		},
 		{
 			"id": 29,
@@ -705,10 +724,9 @@
 			"length": 19,
 			"drive": 1,
 			"reliability": 0.9,
-			"cost": 250000,
-			"operationCosts": 90,
-			"equipments": ["ETCS"],
-			"compatibleWith": [31]
+			"cost": 280000,
+			"operationCosts": 75,
+			"equipments": ["ETCS"]
 		},
 		{
 			"id": 30,
@@ -750,8 +768,7 @@
 			"reliability": 1,
 			"cost": 400000,
 			"operationCosts": 90,
-			"equipments": ["ETCS", "AT", "CH"],
-			"compatibleWith": [1116,11009,11007]
+			"equipments": ["ETCS", "AT", "CH"]
 		},
 		{
 			"id": 193,
@@ -781,8 +798,7 @@
 			"reliability": 1,
 			"cost": 400000,
 			"operationCosts": 80,
-			"equipments": ["ETCS", "FR", "CH", "AT"],
-			"compatibleWith": [11009,11007]
+			"equipments": ["ETCS", "FR", "CH", "AT"]
 		},
 		{
 			"id": 5,
@@ -795,7 +811,7 @@
 			"drive": 2,
 			"reliability": 0.9,
 			"cost": 200000,
-			"operationCosts": 120
+			"operationCosts": 130
 		},
 		{
 			"id": 20,
@@ -808,7 +824,7 @@
 			"drive": 2,
 			"reliability": 0.9,
 			"cost": 220000,
-			"operationCosts": 140
+			"operationCosts": 145
 		},
 		{
 			"id": 26,
@@ -895,8 +911,7 @@
 			"drive": 2,
 			"reliability": 1,
 			"cost": 450000,
-			"operationCosts": 200,
-			"compatibleWith": [11009,11007]
+			"operationCosts": 200
 
 		},
 		{
@@ -911,8 +926,7 @@
 			"drive": 2,
 			"reliability": 0.9,
 			"cost": 500000,
-			"operationCosts": 200,
-			"compatibleWith": [11009,11007]
+			"operationCosts": 200
 		},
 		{
 			"id": 4,
@@ -1308,7 +1322,7 @@
 			"length": 235,
 			"drive": 0,
 			"reliability": 1,
-			"cost": 1600000,
+			"cost": 1800000,
 			"maxConnectedUnits": 1,
 			"compatibleWith": [ 251, 245, 5, 28, 26, 193, 15, 30, 29, 6, 102, 2026 ],
 			"exchangeTime": 60,
@@ -1316,27 +1330,6 @@
 			"capacity": [
 				{"name": "passengers", "value": 570},
 				{"name": "bistroseats", "value": 20}
-			]
-		},
-		{
-			"id": 231,
-			"group": 2,
-			"name": "Bombardier Elektrotriebwagen 2010 (AVG/VBK)",
-			"shortcut": "ET2010",
-			"speed": 100,
-			"weight": 62,
-			"force": 37,
-			"length": 37,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 400000,
-			"operationCosts": 50,
-			"maxConnectedUnits": 4,
-			"equipments": [
-				"bostrab"
-			],
-			"capacity": [
-				{"name": "passengers", "value": 93}
 			]
 		}
 	]
