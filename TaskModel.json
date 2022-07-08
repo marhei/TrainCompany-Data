@@ -1647,7 +1647,7 @@
 				{ "name": "passengers", "value": 0 }
 			],
 			"group": 1,
-			"pathSuggestion": [ "MH", "MBU", "MM", "MLIR", "XAB", "XSSM", "XSRS", "XSSG", "XSWT", "XSZO", "XSZH" ]
+			"pathSuggestion": [ "MH", "MBU", "MM", "MHGZ", "MLIR", "XAB", "XSSM", "XSRS", "XSSG", "XSWT", "XSZO", "XSZH" ]
 		},
 		{
 			"name": "Fugger-Express von %s nach %s",
@@ -1864,6 +1864,21 @@
 				{ "name": "passengers", "value": 0 }
 			],
 			"group": 1
+		},
+		{
+			"group": 1,
+			"name": "RB 16 Kleinseebahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"stations": [ "WNT", "WWE", "WZIR", "WMIR" ],
+			"stopsEverywhere": true
 		},
 		{
 			"group": 0,
@@ -2224,6 +2239,31 @@
 			"neededCapacity": [
 				{ "name": "bistroseats", "value": 60 },
 				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Sonderzug zum Fusion Festival %s nach %s",
+			"service": 4,
+			"descriptions": [
+				"Verbinde die Metrople und das Festivalgelände ",
+				"Bring das Partyvolk nach %2$s"
+			],
+			"stations": [ "WMIR" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 200 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Kesselganzzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Bringe den Kesselganzzug für das Tanklager Wesenberg von %s nach %s."
+			],
+			"stations": [ "WR", "WZIR" ],
+			"neededCapacity": [
+				{ "name": "oil", "value": 720 }
 			]
 		}
 	]
