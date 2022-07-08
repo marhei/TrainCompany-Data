@@ -910,6 +910,55 @@
 		},
 		{
 			"group": 1,
+			"name": "RE 5 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den RE 5 auf der Württembergischen Südbahn von %s nach %s."
+			],
+			"stations": [ "MLIR", "TLR" ,"TF", "TMK", "TRB", "TAU", "TBSC", "TBI", "TLW", "TU", "TG", "TGO", "TP", "TE", "TS" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "IRE 3 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den IRE 3 auf der Württembergischen Südbahn von %s nach %s."
+			],
+			"stations": [ "TF", "TMK", "TRB", "TAU", "TBSC", "TBI", "TLW", "TU" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB 91 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den RB 91 auf der Württembergischen Südbahn von %s nach %s."
+			],
+			"stations": [ "TF", "TLOE", "TFFL", "TKEH", "TMK", "TOBZ", "TWSN", "TRB", "TWEB", "TNB", "TMO", "TAU" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RS 21 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den RS 21 auf der Württembergischen Südbahn von %s nach %s."
+			],
+			"stations": [ "TBIB", "TBI", "TWVH", "TSX", "TSX", "TLW", "TER", "TUD", "TU" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "HLB von %s nach %s",
 			"service": 2,
 			"descriptions": [
