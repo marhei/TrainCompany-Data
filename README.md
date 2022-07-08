@@ -21,11 +21,12 @@ Fahrzeuge, die in TC zur Verfügung stehen
 	* **1** E-Traktion
 	* **2** Diesel-Traktion
 	* **3** Batterie
-* **reliability** *(float)* Zuverlässigkeit in Prozent (0.0-1.0)
+* **reliability** *(float)* Zuverlässigkeit in Prozent (0.8-1.0)
 * **cost** *(int)* Kosten in Plops
 * **maxConnectedUnits** *(int)* Maximale Anzahl der kuppelbaren Einheiten (bei Triebzügen, Nicht gesetzt = Unbegrenzt)
 * **operationCosts** *(int)* Betriebskosten pro km in Plops (Nur bei Fz mit Antrieb benutzen!)
 * **equipments** *(array)* Fahrzeugausstattung (siehe TrainEquipments.json)
+* **neededEquipments** *(array)* Streckenanforderung (siehe TrainEquipments.json)
 * **exchangeTime** *(int)* Aufenthaltsdauer bei Planhalten in Sekunden (Optional, Standard = 40)
 * **compatibleWith** *(array)* Für Triebzüge und Wagenverbände: Lässt sich zusätzlich mit den angegeben Fz kuppeln
 * **equivalentTo** *(int)* Nur für fixe Wagenverbände: Entspricht wie vielen Wagen?
@@ -41,6 +42,7 @@ Art der Beladungen eines Fahrzeuges
 * **unit** *(string)* Einheit der Capacity
 * **unitMass** *(float)* Eine Einheit entspricht wie viel t Gewicht?
 * **emoji** *(string)* Emoji der Einheit
+* **exchangeFactor** *(float)* Faktor für automatischen Zustieg: 1 ist normale Fahrgäste (optional)
 
 
 ## DelayModel.json
@@ -97,8 +99,15 @@ Modelle für Aufträge, aus denen automatisch neue Aufträge erstellt werden
 	* **0** Direktvergabe
 	* **1** Ausschreibung
 * **name** *(string)* Name des Auftrags
+* **service** *(int)* Servicelevel zur automatischen Berechnung des Gewinns
+	* **0** HGV
+	* **1** IC
+	* **2** Regionalverkehr
+	* **3** kurzer Regionalverkehr
+	* **4** Sonderzug
+	* **10** wichtiger Güterzug
+	* **11** Güterzug
 * **descriptions** *(array)* Array mit mehreren Strings für die Ausschreibung
-* **plops** *(int)* Verdienst für die Ausschreibung
 * **stations** *(array)* Ril100 aller Bahnhöfe, die angefahren  sollen in der richtigen Reihenfolge, wenn keine angegeben wurden, dann werden zwei zufällige gewählt (optional)
 * **stopsEverwhere** *(bool)* Wenn true dann wird auch automatisch ein Halt an allen Bahnhöfen, die zwischen den oben angegeben Bahnhöfen eingeplant (optional)
 * **neededCapacity** *array* Art der Beladung und Menge, 0 bei passengers führt zu automatischer Berechnung der Fahrgäste (siehe Capacity.json)

@@ -490,6 +490,7 @@
 		{
 			"maxSpeed": 200,
 			"name": "Bahnstrecke Köln–Duisburg",
+			"twistingFactor": 0.2,
 			"objects": [
 				{
 					"start": "KK",
@@ -506,9 +507,13 @@
 				},
 				{
 					"start": "KD",
+					"end": "KDFF",
+					"length": 8
+				},
+				{
+					"start": "KDFF",
 					"end": "EDG",
-					"twistingFactor": 0.2,
-					"length": 24
+					"length": 15
 				}
 			]
 		},
@@ -1361,59 +1366,253 @@
 		{
 			"group": 1,
 			"name": "Eifelstrecke",
-			"twistingFactor": 0.6,
+			"twistingFactor": 0.45,
+			"maxSpeed": 120,
 			"electrified": false,
 			"objects": [
 				{
 					"start": "KKAS",
+					"end": "KKIE",
+					"length": 4
+				},
+				{
+					"start": "KKIE",
 					"end": "KEST",
-					"twistingFactor": 0.2,
-					"length": 11,
-					"maxSpeed": 100
+					"length": 6
 				},
 				{
 					"start": "KEST",
+					"end": "KWES",
+					"length": 6
+				},
+				{
+					"start": "KWES",
+					"end": "KDEK",
+					"length": 5
+				},
+				{
+					"start": "KDEK",
+					"end": "KGBU",
+					"length": 2
+				},
+				{
+					"start": "KGBU",
 					"end": "KEU",
-					"length": 29,
-					"maxSpeed": 120
+					"length": 4
 				},
 				{
 					"start": "KEU",
+					"end": "KSA",
+					"length": 7
+				},
+				{
+					"start": "KSA",
+					"end": "KMCH",
+					"length": 6
+				},
+				{
+					"start": "KMCH",
+					"end": "KSEV",
+					"length": 5
+				},
+				{
+					"start": "KSEV",
+					"end": "KKAL",
+					"length": 3
+				},
+				{
+					"start": "KKAL",
+					"end": "KURF",
+					"length": 4
+				},
+				{
+					"start": "KURF",
+					"end": "KNEH",
+					"length": 5
+				},
+				{
+					"start": "KNEH",
+					"end": "KBLH",
+					"length": 6
+				},
+				{
+					"start": "KBLH",
+					"end": "KSMI",
+					"length": 4
+				},
+				{
+					"start": "KSMI",
+					"end": "KDAM",
+					"length": 3
+				},
+				{
+					"start": "KDAM",
+					"end": "KJU",
+					"length": 5
+				},
+				{
+					"start": "KJU",
+					"end": "KLIS",
+					"length": 3
+				},
+				{
+					"start": "KLIS",
+					"end": "SOH",
+					"length": 4
+				},
+				{
+					"start": "SOH",
 					"end": "SGR",
-					"length": 71,
-					"maxSpeed": 120
+					"length": 9
 				},
 				{
 					"start": "SGR",
+					"end": "SBRB",
+					"length": 7
+				},
+				{
+					"start": "SBRB",
+					"end": "SMLB",
+					"length": 4
+				},
+				{
+					"start": "SMLB",
+					"end": "SDBO",
+					"length": 2
+				},
+				{
+					"start": "SDBO",
+					"end": "SUZD",
+					"length": 2
+				},
+				{
+					"start": "SUZD",
+					"end": "SSTO",
+					"length": 3
+				},
+				{
+					"start": "SSTO",
+					"end": "SKY",
+					"length": 3
+				},
+				{
+					"start": "SKY",
 					"end": "SED",
-					"length": 30,
-					"maxSpeed": 90
+					"length": 5
 				},
 				{
 					"start": "SED",
+					"end": "SHT",
+					"length": 4
+				},
+				{
+					"start": "SHT",
+					"end": "SPI",
+					"length": 3
+				},
+				{
+					"start": "SPI",
+					"end": "SSPE",
+					"length": 3
+				},
+				{
+					"start": "SSPE",
+					"end": "SAUW",
+					"length": 3
+				},
+				{
+					"start": "SAUW",
+					"end": "SDF",
+					"length": 6
+				},
+				{
+					"start": "SDF",
+					"end": "SKDL",
+					"length": 5
+				},
+				{
+					"start": "SKDL",
 					"end": "STR",
-					"length": 37,
-					"maxSpeed": 80
+					"length": 12
 				}
 			]
 		},
 		{
 			"group": 1,
 			"name": "Voreifelbahn",
-			"twistingFactor": 0.5,
+			"twistingFactor": 0.1,
 			"electrified": false,
+			"maxSpeed": 100,
 			"objects": [
 				{
 					"start": "KB",
+					"end": "KBEC",
+					"length": 2,
+					"maxSpeed": 90
+				},
+				{
+					"start": "KBEC",
+					"end": "KBHH",
+					"length": 1
+				},
+				{
+					"start": "KBHH",
+					"end": "KBD",
+					"length": 1
+				},
+				{
+					"start": "KBD",
+					"end": "KALI",
+					"length": 1
+				},
+				{
+					"start": "KALI",
+					"end": "KWIS",
+					"length": 2
+				},
+				{
+					"start": "KWIS",
+					"end": "KKOF",
+					"length": 3
+				},
+				{
+					"start": "KKOF",
+					"end": "KMCP",
+					"length": 2
+				},
+				{
+					"start": "KMCP",
+					"end": "KMCK",
+					"length": 2
+				},
+				{
+					"start": "KMCK",
+					"end": "KRBL",
+					"length": 3,
+					"maxSpeed": 90
+				},
+				{
+					"start": "KRBL",
 					"end": "KRBA",
-					"length": 22,
+					"length": 1,
 					"maxSpeed": 90
 				},
 				{
 					"start": "KRBA",
+					"end": "KODE",
+					"length": 5,
+					"maxSpeed": 110
+				},
+				{
+					"start": "KODE",
+					"end": "KKUH",
+					"length": 3
+				},
+				{
+					"start": "KKUH",
 					"end": "KEU",
-					"length": 12,
-					"maxSpeed": 100
+					"length": 3,
+					"maxSpeed": 90
 				}
 			]
 		},
@@ -2538,27 +2737,32 @@
 				{
 					"start": "RSCF",
 					"end": "RHRB",
-					"length": 4
+					"length": 4,
+					"electrified": true
 				},
 				{
 					"start": "RHRB",
 					"end": "RTG",
-					"length": 5
+					"length": 5,
+					"electrified": true
 				},
 				{
 					"start": "RTG",
 					"end": "RBGN",
-					"length": 2
+					"length": 2,
+					"electrified": true
 				},
 				{
 					"start": "RBGN",
 					"end": "RG",
-					"length": 3
+					"length": 3,
+					"electrified": true
 				},
 				{
 					"start": "RG",
 					"end": "RSI",
-					"length": 6
+					"length": 6,
+					"electrified": true
 				},
 				{
 					"start": "RSI",
@@ -2679,33 +2883,119 @@
 			]
 		},
 		{
-			"name": "Wupperstrecke",
+			"group": 0,
 			"maxSpeed": 160,
+			"twistingFactor": 0.2,
 			"objects": [
 				{
 					"start": "EDO",
+					"end": "EDD",
+					"maxSpeed": 120,
+					"length": 8
+				},
+				{
+					"start": "EDD",
+					"end": "EPRN",
+					"length": 2
+				},
+				{
+					"start": "EPRN",
+					"end": "ELUE",
+					"length": 3
+				},
+				{
+					"start": "ELUE",
+					"end": "ECP",
+					"length": 16
+				},
+				{
+					"start": "ECP",
+					"end": "EASB",
+					"length": 5
+				},
+				{
+					"start": "EASB",
+					"end": "EDVB",
+					"length": 4
+				},
+				{
+					"start": "EDVB",
+					"end": "EAML",
+					"length": 7
+				},
+				{
+					"start": "EAML",
+					"end": "EMST",
+					"length": 8
+				}
+			]
+		},
+		{
+			"name": "Wupperstrecke",
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "EDO",
+					"end": "EWIT",
+					"length": 16,
+					"maxSpeed": 140
+				},
+				{
+					"start": "EWIT",
+					"end": "EWET",
+					"length": 7,
+					"maxSpeed": 130
+				},
+				{
+					"start": "EWET",
 					"end": "EHG",
-					"twistingFactor": 0.35,
-					"maxSpeed": 140,
-					"length": 31
+					"length": 7,
+					"maxSpeed": 120
 				},
 				{
 					"start": "EHG",
+					"end": "EENP",
+					"length": 11
+				},
+				{
+					"start": "EENP",
+					"end": "KSWE",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "KSWE",
 					"end": "KW",
-					"twistingFactor": 0.35,
-					"length": 26
+					"length": 10,
+					"maxSpeed": 120
 				},
 				{
 					"start": "KW",
+					"end": "KHAN",
+					"length": 14,
+					"maxSpeed": 130
+				},
+				{
+					"start": "KHAN",
 					"end": "KSO",
-					"twistingFactor": 0.4,
-					"length": 18
+					"length": 3
 				},
 				{
 					"start": "KSO",
+					"end": "KLEL",
+					"length": 5
+				},
+				{
+					"start": "KLEL",
+					"end": "KLS",
+					"length": 8
+				},
+				{
+					"start": "KLS",
 					"end": "KK",
-					"twistingFactor": 0.4,
-					"length": 28
+					"length": 12,
+					"twistingFactor": 0.3
 				}
 			]
 		},
@@ -2718,11 +3008,30 @@
 			"maxSpeed": 130
 		},
 		{
-			"start": "EHG",
-			"end": "EHM",
+			"electrified": true,
 			"twistingFactor": 0.3,
-			"length": 48,
-			"maxSpeed": 160
+			"maxSpeed": 160,
+			"group": 0,
+			"objects": [
+				{
+					"start": "EHG",
+					"end": "EUN",
+					"length": 30,
+					"maxSpeed": 150
+				},
+				{
+					"start": "EUN",
+					"end": "EBEO",
+					"length": 8,
+					"twistingFactor": 0
+				},
+				{
+					"start": "EBEO",
+					"end": "EHM",
+					"length": 10,
+					"twistingFactor": 0
+				}
+			]
 		},
 		{
 			"group": 1,
@@ -2948,70 +3257,322 @@
 			"maxSpeed": 160,
 			"objects": [
 				{
-					"start": "RM",
-					"end": "RH",
-					"length": 17
+					"start": "FF",
+					"end": "FLG",
+					"length": 13,
+					"twistingFactor": 0.2
 				},
 				{
-					"start": "RH",
-					"end": "RWE",
-					"length": 23
-				},
-				{
-					"start": "RWE",
+					"start": "FLG",
 					"end": "FD",
-					"length": 37
+					"length": 13
 				},
 				{
 					"start": "FD",
-					"end": "FF",
-					"length": 29
+					"end": "FDS",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "FDS",
+					"end": "FDE",
+					"length": 4
+				},
+				{
+					"start": "FDE",
+					"end": "FBI",
+					"length": 6
+				},
+				{
+					"start": "FBI",
+					"end": "FHAE",
+					"length": 2
+				},
+				{
+					"start": "FHAE",
+					"end": "FZW",
+					"length": 1
+				},
+				{
+					"start": "FZW",
+					"end": "FBAU",
+					"length": 2
+				},
+				{
+					"start": "FBAU",
+					"end": "FBH",
+					"length": 2
+				},
+				{
+					"start": "FBH",
+					"end": "FHP",
+					"length": 4,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FHP",
+					"end": "RLCH",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "RLCH",
+					"end": "RHCH",
+					"length": 2
+				},
+				{
+					"start": "RHCH",
+					"end": "RWE",
+					"length": 4,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RWE",
+					"end": "RLUE",
+					"length": 3
+				},
+				{
+					"start": "RLUE",
+					"end": "RGCH",
+					"length": 2
+				},
+				{
+					"start": "RGCH",
+					"end": "RLD",
+					"length": 4
+				},
+				{
+					"start": "RLD",
+					"end": "RMF",
+					"length": 3
+				},
+				{
+					"start": "RMF",
+					"end": "RHBP",
+					"length": 7,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "RHBP",
+					"end": "RH",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RM",
+					"end": "RMSM",
+					"length": 3,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RMSM",
+					"end": "RMSE",
+					"length": 2
+				},
+				{
+					"start": "RMSE",
+					"end": "RMF",
+					"length": 2
 				}
 			]
 		},
 		{
 			"group": 1,
 			"name": "Neckartalbahn",
+			"twistingFactor": 0.4,
+			"maxSpeed": 110,
 			"objects": [
 				{
 					"start": "RH",
+					"end": "RHKA",
+					"length": 4
+				},
+				{
+					"start": "RHKA",
+					"end": "RSR",
+					"length": 3
+				},
+				{
+					"start": "RSR",
+					"end": "RHBO",
+					"length": 1
+				},
+				{
+					"start": "RHBO",
 					"end": "RNM",
-					"twistingFactor": 0.4,
-					"maxSpeed": 100,
-					"length": 12
+					"length": 2
 				},
 				{
 					"start": "RNM",
+					"end": "RNMA",
+					"length": 1
+				},
+				{
+					"start": "RNMA",
+					"end": "RNT",
+					"length": 4
+				},
+				{
+					"start": "RNT",
+					"end": "RNH",
+					"length": 4
+				},
+				{
+					"start": "RNH",
+					"end": "RHO",
+					"length": 3
+				},
+				{
+					"start": "RHO",
 					"end": "REA",
-					"twistingFactor": 0.4,
-					"maxSpeed": 110,
-					"length": 21
+					"length": 8
 				},
 				{
 					"start": "REA",
+					"end": "RLID",
+					"length": 6
+				},
+				{
+					"start": "RLID",
+					"end": "RZW",
+					"length": 3
+				},
+				{
+					"start": "RZW",
+					"end": "RNA",
+					"length": 3
+				},
+				{
+					"start": "RNA",
+					"end": "RBIN",
+					"length": 3
+				},
+				{
+					"start": "RBIN",
 					"end": "RNZ",
-					"twistingFactor": 0.4,
-					"maxSpeed": 130,
-					"length": 20
+					"length": 3
+				},
+				{
+					"start": "RNZ",
+					"end": "RNEZ",
+					"length": 5
+				},
+				{
+					"start": "RNEZ",
+					"end": "RHAS",
+					"length": 1
+				},
+				{
+					"start": "RHAS",
+					"end": "RGUN",
+					"length": 2
+				},
+				{
+					"start": "RGUN",
+					"end": "ROU",
+					"length": 4
+				},
+				{
+					"start": "ROU",
+					"end": "TBF",
+					"length": 3
 				}
 			]
 		},
 		{
 			"group": 1,
+			"twistingFactor": 0.2,
+			"maxSpeed": 90,
 			"objects": [
 				{
 					"start": "RNZ",
+					"end": "RMOW",
+					"length": 2
+				},
+				{
+					"start": "RMOW",
+					"end": "RMO",
+					"length": 1
+				},
+				{
+					"start": "RMO",
+					"end": "RNB",
+					"length": 3
+				},
+				{
+					"start": "RNB",
+					"end": "RDL",
+					"length": 2
+				},
+				{
+					"start": "RDL",
+					"end": "RACH",
+					"length": 3
+				},
+				{
+					"start": "RACH",
+					"end": "ROSC",
+					"length": 5
+				},
+				{
+					"start": "ROSC",
+					"end": "REM",
+					"length": 2
+				},
+				{
+					"start": "REM",
 					"end": "RSE",
-					"twistingFactor": 0.4,
-					"maxSpeed": 90,
-					"length": 24
+					"length": 4
 				},
 				{
 					"start": "RSE",
+					"end": "RZIM",
+					"length": 2
+				},
+				{
+					"start": "RZIM",
+					"end": "RADN",
+					"length": 2
+				},
+				{
+					"start": "RADN",
 					"end": "TO",
-					"twistingFactor": 0.4,
-					"maxSpeed": 100,
-					"length": 7
+					"length": 2
+				}
+			]
+		},
+		{
+			"maxSpeed": 140,
+			"twistingFactor": 0.1,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "RAP",
+					"end": "RLT",
+					"length": 4
+				},
+				{
+					"start": "RLT",
+					"end": "RKOR",
+					"length": 3
+				},
+				{
+					"start": "RKOR",
+					"end": "RKL",
+					"length": 4,
+					"maxSpeed": 120
+				},
+				{
+					"start": "RKL",
+					"end": "XFSTG",
+					"length": 8,
+					"maxSpeed": 110,
+					"twistingFactor": 0.25,
+					"neededEquipments": [
+						"FR"
+					]
 				}
 			]
 		},
@@ -3644,18 +4205,48 @@
 			"objects": [
 				{
 					"start": "NAH",
+					"end": "FMAS",
+					"length": 4
+				},
+				{
+					"start": "FMAS",
+					"end": "FSTK",
+					"length": 2
+				},
+				{
+					"start": "FSTK",
 					"end": "FBA",
-					"length": 14
+					"length": 7
 				},
 				{
 					"start": "FBA",
+					"end": "FHER",
+					"length": 3
+				},
+				{
+					"start": "FHER",
+					"end": "FAT",
+					"length": 2
+				},
+				{
+					"start": "FAT",
 					"end": "FDI",
-					"length": 10
+					"length": 4
 				},
 				{
 					"start": "FDI",
+					"end": "FMES",
+					"length": 7
+				},
+				{
+					"start": "FMES",
+					"end": "FDK",
+					"length": 5
+				},
+				{
+					"start": "FDK",
 					"end": "FD",
-					"length": 19
+					"length": 6
 				}
 			]
 		},
@@ -4337,22 +4928,41 @@
 		},
 		{
 			"name": "Mönchengladbach - Düsseldorf",
-			"group": 1,
+			"group": 0,
 			"electrified": true,
+			"twistingFactor": 0.2,
+			"maxSpeed": 140,
 			"objects": [
 				{
-					"start": "KD",
+					"start": "KM",
+					"end": "KML",
+					"length": 1
+				},
+				{
+					"start": "KML",
+					"end": "KKOI",
+					"length": 2
+				},
+				{
+					"start": "KKOI",
+					"end": "KKLE",
+					"length": 2
+				},
+				{
+					"start": "KKLE",
+					"end": "KBUT",
+					"length": 3
+				},
+				{
+					"start": "KBUT",
 					"end": "KN",
-					"twistingFactor": 0.2,
-					"length": 8,
-					"maxSpeed": 120
+					"length": 5
 				},
 				{
 					"start": "KN",
-					"end": "KM",
-					"twistingFactor": 0.2,
-					"length": 18,
-					"maxSpeed": 140
+					"end": "KD",
+					"length": 10,
+					"maxSpeed": 120
 				}
 			]
 		},
@@ -4360,20 +4970,43 @@
 			"name": "Mönchengladbach - Köln",
 			"group": 0,
 			"electrified": true,
+			"twistingFactor": 0.2,
+			"maxSpeed": 120,
 			"objects": [
 				{
-					"start": "KM",
+					"start": "KK",
+					"end": "KPUL",
+					"length": 14
+				},
+				{
+					"start": "KPUL",
+					"end": "KSOM",
+					"length": 4
+				},
+				{
+					"start": "KSOM",
+					"end": "KROM",
+					"length": 4
+				},
+				{
+					"start": "KROM",
 					"end": "KGRB",
-					"twistingFactor": 0.2,
-					"length": 20,
-					"maxSpeed": 120
+					"length": 11
 				},
 				{
 					"start": "KGRB",
-					"end": "KK",
-					"twistingFactor": 0.2,
-					"length": 31,
-					"maxSpeed": 120
+					"end": "KJUC",
+					"length": 7
+				},
+				{
+					"start": "KJUC",
+					"end": "KRYO",
+					"length": 7
+				},
+				{
+					"start": "KRYO",
+					"end": "KM",
+					"length": 6
 				}
 			]
 		},
@@ -4393,42 +5026,51 @@
 		},
 		{
 			"name": "Duisburg - Mönchengladbach",
-			"group": 1,
+			"group": 0,
 			"electrified": true,
+			"twistingFactor": 0.2,
+			"maxSpeed": 120,
 			"objects": [
 				{
-					"start": "EDG",
-					"end": "KKRO",
-					"twistingFactor": 0.2,
-					"length": 17,
-					"maxSpeed": 120
-				},
-				{
-					"start": "KKRO",
-					"end": "KKR",
-					"twistingFactor": 0.2,
-					"length": 1,
-					"maxSpeed": 120
-				},
-				{
-					"start": "KKR",
+					"start": "KM",
 					"end": "KV",
-					"twistingFactor": 0.2,
-					"length": 14,
-					"maxSpeed": 140
+					"length": 8
 				},
 				{
 					"start": "KV",
-					"end": "KM",
-					"twistingFactor": 0.2,
-					"length": 10,
-					"maxSpeed": 140
+					"end": "KANR",
+					"length": 6
+				},
+				{
+					"start": "KANR",
+					"end": "KFOS",
+					"length": 4
+				},
+				{
+					"start": "KFOS",
+					"end": "KKR",
+					"length": 5
+				},
+				{
+					"start": "KKR",
+					"end": "KRH",
+					"length": 13
+				},
+				{
+					"start": "KRH",
+					"end": "KRHO",
+					"length": 1
+				},
+				{
+					"start": "KRHO",
+					"end": "EDG",
+					"length": 5
 				}
 			]
 		},
 		{
 			"name": "Grenzlandbahn",
-			"group": 1,
+			"group": 0,
 			"electrified": true,
 			"maxSpeed": 160,
 			"objects": [
@@ -4506,23 +5148,55 @@
 		},
 		{
 			"name": "Aachen - Köln",
-			"group": 1,
+			"group": 0,
 			"electrified": true,
+			"twistingFactor": 0.1,
 			"objects": [
 				{
-					"start": "KK",
-					"end": "KDN",
 					"group": 2,
-					"twistingFactor": 0.2,
-					"length": 39,
+					"start": "KK",
+					"end": "KHR",
+					"length": 18,
+					"maxSpeed": 250,
+					"twistingFactor": 0.25
+				},
+				{
+					"group": 2,
+					"start": "KHR",
+					"end": "KDN",
+					"length": 20,
 					"maxSpeed": 250
 				},
 				{
 					"start": "KDN",
-					"end": "KA",
-					"twistingFactor": 0.25,
-					"length": 34,
+					"end": "KLAW",
+					"length": 9,
 					"maxSpeed": 160
+				},
+				{
+					"start": "KLAW",
+					"end": "KE",
+					"length": 7,
+					"maxSpeed": 160
+				},
+				{
+					"start": "KE",
+					"end": "KST",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "KST",
+					"end": "KEIL",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "KEIL",
+					"end": "KA",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.25
 				}
 			]
 		},
@@ -5216,21 +5890,21 @@
 					"length": 9,
 					"twistingFactor": 0.3,
 					"maxSpeed": 160,
-					"group": 1
+					"group": 0
 				},
 				{
 					"start": "MSN",
 					"end": "MDS",
 					"length": 9,
 					"twistingFactor": 0.2,
-					"group": 1
+					"group": 0
 				},
 				{
 					"start": "MDS",
 					"end": "MHO",
 					"length": 18,
 					"twistingFactor": 0.2,
-					"group": 1
+					"group": 0
 				},
 				{
 					"start": "MHO",
@@ -5239,7 +5913,7 @@
 					"maxSpeed": 100,
 					"twistingFactor": 0.23,
 					"electrified": false,
-					"group": 0
+					"group": 1
 				},
 				{
 					"start": "MSFL",
@@ -5248,7 +5922,7 @@
 					"maxSpeed": 100,
 					"twistingFactor": 0.1,
 					"electrified": false,
-					"group": 0
+					"group": 1
 				},
 				{
 					"start": "MBT",
@@ -5257,6 +5931,47 @@
 					"maxSpeed": 100,
 					"twistingFactor": 0.15,
 					"electrified": false,
+					"group": 1
+				}
+			]
+		},
+		{
+			"name": "Mangfalltalbahn",
+			"maxSpeed": 120,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "MHO",
+					"end": "MKZ",
+					"length": 6,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "MKZ",
+					"end": "MBRM",
+					"length": 14,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "MBRM",
+					"end": "MBAI",
+					"length": 7,
+					"twistingFactor": 0.35,
+					"group": 0
+				},
+				{
+					"start": "MBAI",
+					"end": "MKMR",
+					"length": 5,
+					"twistingFactor": 0.35,
+					"group": 0
+				},
+				{
+					"start": "MKMR",
+					"end": "MRO",
+					"length": 5,
+					"twistingFactor": 0.25,
 					"group": 0
 				}
 			]
@@ -5273,7 +5988,7 @@
 					"maxSpeed": 120,
 					"twistingFactor": 0.4,
 					"electrified": false,
-					"group": 0
+					"group": 1
 				},
 				{
 					"start": "MMIB",
@@ -5282,7 +5997,7 @@
 					"maxSpeed": 100,
 					"twistingFactor": 0.1,
 					"electrified": false,
-					"group": 0
+					"group": 1
 				},
 				{
 					"start": "MSCS",
@@ -5291,29 +6006,6 @@
 					"maxSpeed": 60,
 					"twistingFactor": 0.6,
 					"electrified": false,
-					"group": 0
-				}
-			]
-		},
-		{
-			"maxSpeed": 120,
-			"electrified": true,
-			"group": 1,
-			"objects": [
-				{
-					"start": "MH",
-					"end": "MGI",
-					"length": 9,
-					"maxSpeed": 120,
-					"twistingFactor": 0.1,
-					"group": 1
-				},
-				{
-					"start": "MGI",
-					"end": "MDS",
-					"length": 6,
-					"maxSpeed": 120,
-					"twistingFactor": 0.1,
 					"group": 1
 				}
 			]
@@ -5330,7 +6022,7 @@
 					"maxSpeed": 80,
 					"twistingFactor": 0.3,
 					"electrified": false,
-					"group": 0
+					"group": 1
 				},
 				{
 					"start": "MGMD",
@@ -5339,7 +6031,7 @@
 					"maxSpeed": 80,
 					"twistingFactor": 0.25,
 					"electrified": false,
-					"group": 0
+					"group": 1
 				}
 			]
 		},
@@ -5447,15 +6139,57 @@
 			]
 		},
 		{
+			"electrified": true,
+			"maxSpeed": 160,
+			"twistingFactor": 0.1,
+			"group": 0,
+			"objects": [
+				{
+					"start": "MNF",
+					"end": "MFHM",
+					"length": 7
+				},
+				{
+					"name": "Neufahrner Spange",
+					"start": "MFHM",
+					"end": "MPU",
+					"length": 7
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": true,
+			"twistingFactor": 0.2,
+			"maxSpeed": 120,
 			"objects": [
 				{
 					"start": "KV",
+					"end": "KDUL",
+					"length": 5
+				},
+				{
+					"start": "KDUL",
+					"end": "KBOI",
+					"length": 4
+				},
+				{
+					"start": "KBOI",
+					"end": "KBRY",
+					"length": 3
+				},
+				{
+					"start": "KBRY",
+					"end": "KKAK",
+					"length": 4
+				},
+				{
+					"start": "KKAK",
 					"end": "XNVL",
-					"twistingFactor": 0.2,
-					"length": 23,
-					"maxSpeed": 120
+					"length": 5,
+					"neededEquipments": [
+						"NL"
+					]
 				}
 			]
 		},
@@ -5766,7 +6500,10 @@
 				{
 					"start": "HBTH",
 					"end": "XNHL",
-					"length": 9
+					"length": 9,
+					"neededEquipments": [
+						"NL"
+					]
 				}
 			]
 		},
@@ -5774,24 +6511,72 @@
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 160,
+			"twistingFactor": 0.2,
 			"objects": [
 				{
 					"start": "AA",
+					"end": "AP",
+					"length": 15
+				},
+				{
+					"start": "AP",
+					"end": "APD",
+					"length": 3
+				},
+				{
+					"start": "APD",
+					"end": "ATM",
+					"length": 3
+				},
+				{
+					"start": "ATM",
 					"end": "AEL",
-					"length": 30,
-					"twistingFactor": 0.2
+					"length": 7
 				},
 				{
 					"start": "AEL",
+					"end": "AHOT",
+					"length": 5
+				},
+				{
+					"start": "AHOT",
+					"end": "ADH",
+					"length": 6
+				},
+				{
+					"start": "ADH",
+					"end": "AWST",
+					"length": 9
+				},
+				{
+					"start": "AWST",
+					"end": "ABRS",
+					"length": 8
+				},
+				{
+					"start": "ABRS",
 					"end": "AN",
-					"length": 44,
-					"twistingFactor": 0.2
+					"length": 14
 				},
 				{
 					"start": "AN",
+					"end": "AEF",
+					"length": 6
+				},
+				{
+					"start": "AEF",
+					"end": "ABRD",
+					"length": 5
+				},
+				{
+					"start": "ABRD",
+					"end": "AFT",
+					"length": 8
+				},
+				{
+					"start": "AFT",
 					"end": "AK",
-					"length": 26,
-					"twistingFactor": 0.2
+					"length": 10
 				}
 			]
 		},
@@ -5824,18 +6609,42 @@
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 120,
+			"twistingFactor": 0.3,
 			"objects": [
 				{
 					"start": "AK",
+					"end": "AKRU",
+					"length": 5
+				},
+				{
+					"start": "AKRU",
+					"end": "AME",
+					"length": 2
+				},
+				{
+					"start": "AME",
+					"end": "AACW",
+					"length": 4
+				},
+				{
+					"start": "AACW",
 					"end": "AFEB",
-					"length": 23,
-					"twistingFactor": 0.3
+					"length": 1
 				},
 				{
 					"start": "AFEB",
+					"end": "ABRB",
+					"length": 5
+				},
+				{
+					"start": "ABRB",
+					"end": "ASC",
+					"length": 8
+				},
+				{
+					"start": "ASC",
 					"end": "AR",
-					"length": 14,
-					"twistingFactor": 0.3
+					"length": 12
 				}
 			]
 		},
@@ -5843,24 +6652,42 @@
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 160,
+			"twistingFactor": 0.2,
 			"objects": [
 				{
 					"start": "AN",
+					"end": "ANF",
+					"length": 14
+				},
+				{
+					"start": "ANF",
 					"end": "AR",
-					"length": 39,
-					"twistingFactor": 0.2
+					"length": 24
 				},
 				{
 					"start": "AR",
+					"end": "AOS",
+					"length": 11
+				},
+				{
+					"start": "AOS",
+					"end": "ASW",
+					"length": 13
+				},
+				{
+					"start": "ASW",
 					"end": "AJ",
-					"length": 36,
-					"twistingFactor": 0.2
+					"length": 11
 				},
 				{
 					"start": "AJ",
+					"end": "ATP",
+					"length": 12
+				},
+				{
+					"start": "ATP",
 					"end": "AF",
-					"length": 27,
-					"twistingFactor": 0.2
+					"length": 14
 				}
 			]
 		},
@@ -5868,18 +6695,53 @@
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 120,
+			"twistingFactor": 0.35,
 			"objects": [
 				{
-					"start": "AK",
+					"start": "AF",
+					"end": "AY",
+					"length": 9
+				},
+				{
+					"start": "AY",
+					"end": "ASOE",
+					"length": 8
+				},
+				{
+					"start": "ASOE",
+					"end": "ASUE",
+					"length": 11
+				},
+				{
+					"start": "ASUE",
+					"end": "ARY",
+					"length": 11
+				},
+				{
+					"start": "ARY",
 					"end": "AEC",
-					"length": 31,
-					"twistingFactor": 0.4
+					"length": 8
 				},
 				{
 					"start": "AEC",
-					"end": "AF",
-					"length": 49,
-					"twistingFactor": 0.4
+					"end": "AGF",
+					"group": 1,
+					"length": 12
+				},
+				{
+					"start": "AGF",
+					"end": "ASU",
+					"length": 11
+				},
+				{
+					"start": "ASU",
+					"end": "AKRH",
+					"length": 2
+				},
+				{
+					"start": "AKRH",
+					"end": "AK",
+					"length": 5
 				}
 			]
 		},
@@ -5945,12 +6807,67 @@
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 80,
+			"twistingFactor": 0.2,
 			"objects": [
 				{
-					"start": "AHI",
-					"end": "AN",
-					"length": 63,
-					"twistingFactor": 0.2
+					"start": "AN",
+					"end": "ANSW",
+					"length": 1
+				},
+				{
+					"start": "ANSW",
+					"end": "AWA",
+					"length": 4
+				},
+				{
+					"start": "AWA",
+					"end": "AAU",
+					"length": 7
+				},
+				{
+					"start": "AAU",
+					"end": "AHWT",
+					"length": 8
+				},
+				{
+					"start": "AHWT",
+					"end": "AODT",
+					"length": 5
+				},
+				{
+					"start": "AODT",
+					"end": "ABGS",
+					"length": 2
+				},
+				{
+					"start": "ABGS",
+					"end": "AGK",
+					"length": 4
+				},
+				{
+					"start": "AGK",
+					"end": "AHNU",
+					"length": 3
+				},
+				{
+					"start": "AHNU",
+					"end": "ABE",
+					"length": 3
+				},
+				{
+					"start": "ABE",
+					"end": "AAL",
+					"length": 5
+				},
+				{
+					"start": "AAL",
+					"end": "ANH",
+					"length": 7
+				},
+				{
+					"start": "ANH",
+					"end": "AHI",
+					"length": 6
 				}
 			]
 		},
@@ -5971,12 +6888,37 @@
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 80,
+			"twistingFactor": 0.4,
 			"objects": [
 				{
-					"start": "ABSM",
-					"end": "AHI",
-					"length": 23,
-					"twistingFactor": 0.4
+					"start": "AHI",
+					"end": "ATB",
+					"length": 8
+				},
+				{
+					"start": "ATB",
+					"end": "AJHH",
+					"length": 3
+				},
+				{
+					"start": "AJHH",
+					"end": "AWBU",
+					"length": 2
+				},
+				{
+					"start": "AWBU",
+					"end": "ASDD",
+					"length": 1
+				},
+				{
+					"start": "ASDD",
+					"end": "ARE",
+					"length": 2
+				},
+				{
+					"start": "ARE",
+					"end": "ABSM",
+					"length": 6
 				}
 			]
 		},
@@ -5984,12 +6926,47 @@
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 80,
+			"twistingFactor": 0.3,
 			"objects": [
 				{
-					"start": "APO",
-					"end": "AHM",
-					"length": 39,
-					"twistingFactor": 0.3
+					"start": "AHM",
+					"end": "AWRT",
+					"length": 11
+				},
+				{
+					"start": "AWRT",
+					"end": "ATG",
+					"length": 9
+				},
+				{
+					"start": "ATG",
+					"end": "AKTO",
+					"length": 4
+				},
+				{
+					"start": "AKTO",
+					"end": "AKAD",
+					"length": 2
+				},
+				{
+					"start": "AKAD",
+					"end": "AGD",
+					"length": 3
+				},
+				{
+					"start": "AGD",
+					"end": "ATAT",
+					"length": 4
+				},
+				{
+					"start": "ATAT",
+					"end": "APSD",
+					"length": 4
+				},
+				{
+					"start": "APSD",
+					"end": "APO",
+					"length": 2
 				}
 			]
 		},
@@ -5997,26 +6974,51 @@
 			"name": "Vogelfluglinie",
 			"group": 0,
 			"electrified": false,
+			"twistingFactor": 0.3,
+			"maxSpeed": 140,
 			"objects": [
 				{
 					"start": "AL",
+					"end": "ATIM",
+					"length": 15
+				},
+				{
+					"start": "ATIM",
+					"end": "ASAZ",
+					"length": 2
+				},
+				{
+					"start": "ASAZ",
+					"end": "AHAF",
+					"length": 4
+				},
+				{
+					"start": "AHAF",
 					"end": "ASID",
-					"length": 26,
-					"twistingFactor": 0.3,
-					"maxSpeed": 140
+					"length": 2
 				},
 				{
 					"start": "ASID",
+					"end": "ALS",
+					"length": 19,
+					"maxSpeed": 100
+				},
+				{
+					"start": "ALS",
 					"end": "AOL",
-					"length": 26,
-					"twistingFactor": 0.3,
+					"length": 7,
 					"maxSpeed": 100
 				},
 				{
 					"start": "AOL",
+					"end": "AGRO",
+					"length": 18,
+					"maxSpeed": 100
+				},
+				{
+					"start": "AGRO",
 					"end": "APU",
-					"length": 36,
-					"twistingFactor": 0.3,
+					"length": 18,
 					"maxSpeed": 160
 				}
 			]
@@ -6025,50 +7027,118 @@
 			"name": "Marschbahn",
 			"group": 0,
 			"electrified": false,
+			"twistingFactor": 0.3,
+			"maxSpeed": 140,
 			"objects": [
 				{
 					"start": "AEL",
+					"end": "AHZH",
+					"length": 13,
+					"maxSpeed": 120,
+					"electrified": true
+				},
+				{
+					"start": "AHZH",
 					"end": "AGST",
-					"length": 17,
-					"twistingFactor": 0.3,
+					"length": 3,
 					"maxSpeed": 120,
 					"electrified": true
 				},
 				{
 					"start": "AGST",
+					"end": "AKM",
+					"length": 7,
+					"maxSpeed": 120,
+					"electrified": true
+				},
+				{
+					"start": "AKM",
+					"end": "AKHD",
+					"length": 5,
+					"maxSpeed": 120,
+					"electrified": true
+				},
+				{
+					"start": "AKHD",
 					"end": "AIZ",
-					"length": 17,
-					"twistingFactor": 0.3,
+					"length": 5,
 					"maxSpeed": 120,
 					"electrified": true
 				},
 				{
 					"start": "AIZ",
+					"end": "AWIR",
+					"length": 9
+				},
+				{
+					"start": "AWIR",
+					"end": "ABR",
+					"length": 17
+				},
+				{
+					"start": "ABR",
+					"end": "ASD",
+					"length": 9
+				},
+				{
+					"start": "ASD",
+					"end": "AMF",
+					"length": 11
+				},
+				{
+					"start": "AMF",
 					"end": "AHI",
-					"length": 60,
-					"twistingFactor": 0.3,
-					"maxSpeed": 140
+					"length": 11
 				},
 				{
 					"start": "AHI",
+					"end": "ALU",
+					"length": 16
+				},
+				{
+					"start": "ALU",
+					"end": "AFD",
+					"length": 6
+				},
+				{
+					"start": "AFD",
 					"end": "AHM",
-					"length": 34,
-					"twistingFactor": 0.3,
-					"maxSpeed": 140
+					"length": 11
 				},
 				{
 					"start": "AHM",
+					"end": "ABST",
+					"length": 18
+				},
+				{
+					"start": "ABST",
+					"end": "ALG",
+					"length": 7
+				},
+				{
+					"start": "ALG",
 					"end": "ANB",
-					"length": 40,
-					"twistingFactor": 0.3,
-					"maxSpeed": 140
+					"length": 14
 				},
 				{
 					"start": "ANB",
+					"end": "AKX",
+					"length": 13
+				},
+				{
+					"start": "AKX",
+					"end": "AMM",
+					"length": 16
+				},
+				{
+					"start": "AMM",
+					"end": "AKI",
+					"length": 4
+				},
+				{
+					"start": "AKI",
 					"end": "AWLA",
-					"length": 39,
-					"twistingFactor": 0.3,
-					"maxSpeed": 140
+					"length": 4
 				}
 			]
 		},
@@ -6671,8 +7741,13 @@
 				},
 				{
 					"start": "RSAB",
+					"end": "RBR",
+					"length": 15
+				},
+				{
+					"start": "RBR",
 					"end": "TV",
-					"length": 47
+					"length": 32
 				},
 				{
 					"start": "TV",
@@ -7121,12 +8196,6 @@
 					"start": "LGDG",
 					"end": "LL",
 					"length": 25
-				},
-				{
-					"start": "UG",
-					"end": "UBKZ",
-					"twistingFactor": 0.1,
-					"length": 8
 				},
 				{
 					"start": "UGZ",
@@ -8372,20 +9441,55 @@
 			"name": "Badische Hauptbahnh",
 			"group": 0,
 			"electrified": true,
+			"maxSpeed": 160,
+			"twistingFactor": 0.1,
 			"objects": [
 				{
-					"start": "RK",
+					"start": "RH",
+					"end": "RHKM",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RHKM",
+					"end": "RSIG",
+					"length": 4
+				},
+				{
+					"start": "RSIG",
+					"end": "RWS",
+					"length": 5
+				},
+				{
+					"start": "RWS",
+					"end": "RRM",
+					"length": 5
+				},
+				{
+					"start": "RRM",
+					"end": "RBSK",
+					"length": 2
+				},
+				{
+					"start": "RBSK",
+					"end": "RBS",
+					"length": 2
+				},
+				{
+					"start": "RBS",
+					"end": "RUW",
+					"length": 4
+				},
+				{
+					"start": "RUW",
 					"end": "RBR",
-					"maxSpeed": 160,
-					"twistingFactor": 0.1,
-					"length": 21
+					"length": 5
 				},
 				{
 					"start": "RBR",
-					"end": "RH",
-					"maxSpeed": 160,
-					"twistingFactor": 0.1,
-					"length": 32
+					"end": "RK",
+					"length": 21,
+					"twistingFactor": 0.3
 				}
 			]
 		},
@@ -9438,6 +10542,50 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"name": "Kleinseebahn",
+			"maxSpeed": 90,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "WNT",
+					"end": "WGQ",
+					"length": 8,
+					"maxSpeed": 60,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "WGQ",
+					"end": "WWE",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "WWE",
+					"end": "WWES",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "WWES",
+					"end": "WZIR",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "WZIR",
+					"end": "WMIR",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.05
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 120,
 			"twistingFactor": 0.25,
@@ -9469,45 +10617,52 @@
 					"start": "WWI",
 					"end": "WKAR",
 					"group": 1,
-					"length": 8
+					"length": 8,
+					"electrified":false
 				},
 				{
 					"start": "WKAR",
 					"end": "WHK",
 					"group": 1,
-					"length": 4
+					"length": 4,
+					"electrified":false
 				},
 				{
 					"start": "WHK",
 					"end": "WNB",
 					"group": 1,
-					"length": 9
+					"length": 9,
+					"electrified":false
 				},
 				{
 					"start": "WNB",
 					"end": "WKR",
 					"group": 1,
 					"length": 9,
-					"twistingFactor": 0.25
+					"twistingFactor": 0.25,
+					"electrified":false
 				},
 				{
 					"start": "WKR",
 					"end": "WDO",
 					"group": 1,
 					"length": 9,
-					"twistingFactor": 0.4
+					"twistingFactor": 0.4,
+					"electrified":false
 				},
 				{
 					"start": "WDO",
 					"end": "WGS",
 					"group": 1,
-					"length": 9
+					"length": 9,
+					"electrified":false
 				},
 				{
 					"start": "WGS",
 					"end": "WR",
 					"group": 1,
-					"length": 5
+					"length": 5,
+					"electrified":false
 				}
 			]
 		},
@@ -10194,7 +11349,8 @@
 					"start": "RIM",
 					"end": "TTU",
 					"length": 10,
-					"twistingFactor": 0.24
+					"twistingFactor": 0.24,
+					"electrified": true
 				},
 				{
 					"start": "TTU",
@@ -10301,20 +11457,104 @@
 			]
 		},
 		{
-			"group": 0,
 			"maxSpeed": 160,
-			"twistingFactor": 0.2,
+			"group": 0,
+			"name": "Allgäubahn",
+			"twistingFactor": 0.1,
 			"objects": [
 				{
 					"start": "MH",
 					"end": "MGE",
-					"length": 40
+					"length": 40,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "MGE",
 					"end": "MBU",
 					"length": 25
 				},
+				{
+					"start": "MBU",
+					"end": "MKFB",
+					"electrified": false,
+					"length": 20
+				},
+				{
+					"start": "MKFB",
+					"end": "MBIH",
+					"electrified": false,
+					"length": 5,
+					"maxSpeed": 130
+				},
+				{
+					"start": "MBIH",
+					"end": "MGNZ",
+					"electrified": false,
+					"length": 18,
+					"maxSpeed": 130,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "MGNZ",
+					"end": "MKP",
+					"electrified": false,
+					"length": 18,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "MKP",
+					"end": "MMSZ",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "MMSZ",
+					"end": "MIMS",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 140,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "MIMS",
+					"end": "MOSF",
+					"electrified": false,
+					"length": 16,
+					"maxSpeed": 110,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "MOSF",
+					"end": "MRTA",
+					"electrified": false,
+					"length": 13,
+					"maxSpeed": 80
+				},
+				{
+					"start": "MRTA",
+					"end": "MHMK",
+					"electrified": false,
+					"length": 4,
+					"maxSpeed": 110
+				},
+				{
+					"start": "MHMK",
+					"end": "MHGZ",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 120,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"objects": [
 				{
 					"start": "MBU",
 					"end": "MTHB",
@@ -10340,6 +11580,46 @@
 					"length": 13,
 					"maxSpeed": 160,
 					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
+			"maxSpeed": 160,
+			"group": 0,
+			"twistingFactor": 0.1,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "MA",
+					"end": "MAMS",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "MAMS",
+					"end": "MAGM",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "MAGM",
+					"end": "MINI",
+					"length": 3
+				},
+				{
+					"start": "MINI",
+					"end": "MBOB",
+					"length": 5
+				},
+				{
+					"start": "MBOB",
+					"end": "MSMN",
+					"length": 11
+				},
+				{
+					"start": "MSMN",
+					"end": "MBU",
+					"length": 16
 				}
 			]
 		},
@@ -10802,7 +12082,7 @@
 				{
 					"start": "MFL",
 					"end": "XASB",
-					"electrified": false,
+					"electrified": true,
 					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.2
@@ -11191,14 +12471,15 @@
 					"length": 8,
 					"maxSpeed": 100,
 					"twistingFactor": 0.24,
-					"neededEquipments": []
+					"neededEquipments": ["AT"]
 				},
 				{
 					"start": "XAB",
 					"end": "XSSM",
 					"length": 12,
 					"maxSpeed": 130,
-					"twistingFactor": 0.2
+					"twistingFactor": 0.2,
+					"neededEquipments": ["AT", "CH"]
 				},
 				{
 					"start": "XSSM",
@@ -11277,7 +12558,9 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": ["CH"],
+			"neededEquipments": [
+				"CH"
+			],
 			"twistingFactor": 0.16,
 			"objects": [
 				{
@@ -11297,6 +12580,797 @@
 					"end": "XSRS",
 					"length": 3,
 					"maxSpeed": 125
+				}
+			]
+		},
+		{
+			"name": "Volmetalbahn",
+			"maxSpeed": 90,
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "EHG",
+					"end": "EHGO",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "EHGO",
+					"end": "EDHL",
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "EDHL",
+					"end": "EROL",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "EROL",
+					"end": "EDAK",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "EDAK",
+					"end": "ESMU",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "ESMU",
+					"end": "EBRU",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "LL",
+					"end": "LWZ",
+					"length": 25,
+					"maxSpeed": 200
+				},
+				{
+					"start": "LWZ",
+					"end": "LDA",
+					"length": 17,
+					"maxSpeed": 200
+				},
+				{
+					"start": "LDA",
+					"end": "DOT",
+					"length": 9,
+					"maxSpeed": 200
+				},
+				{
+					"start": "DOT",
+					"end": "DR",
+					"length": 13,
+					"maxSpeed": 200
+				},
+				{
+					"start": "DR",
+					"end": "DGLA",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "DGLA",
+					"end": "DPR",
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DPR",
+					"end": "DNDR",
+					"length": 10,
+					"maxSpeed": 120
+				},
+				{
+					"start": "DNDR",
+					"end": "DCW",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "DCW",
+					"end": "DH",
+					"length": 17,
+					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.15,
+			"electrified": true,
+			"start": "DGB",
+			"end": "DPR",
+			"length": 7
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "DC",
+					"end": "DMW",
+					"length": 17,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DMW",
+					"end": "DWA",
+					"length": 13
+				},
+				{
+					"start": "DWA",
+					"end": "DDE",
+					"length": 9
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 130,
+			"twistingFactor": 0.17,
+			"objects": [
+				{
+					"start": "DR",
+					"end": "DGT",
+					"length": 15
+				},
+				{
+					"start": "DGT",
+					"end": "BEW",
+					"length": 7
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "DDE",
+					"end": "DSTU",
+					"length": 15
+				},
+				{
+					"start": "DSTU",
+					"end": "DR",
+					"length": 9
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.12,
+			"start": "DR",
+			"end": "LF",
+			"length": 32
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.13,
+			"objects": [
+				{
+					"start": "LF",
+					"end": "LAB",
+					"length": 22
+				},
+				{
+					"start": "LAB",
+					"end": "LJN",
+					"length": 9
+				},
+				{
+					"start": "LJN",
+					"end": "LW",
+					"length": 22
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.12,
+			"objects": [
+				{
+					"start": "LF",
+					"end": "LHZW",
+					"length": 11
+				},
+				{
+					"start": "LHZW",
+					"end": "LLI",
+					"length": 21
+				},
+				{
+					"start": "LLI",
+					"end": "BJUE",
+					"length": 17
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.15,
+			"objects": [
+				{
+					"start": "BCS",
+					"end": "BC",
+					"length": 23
+				},
+				{
+					"start": "BC",
+					"end": "BGM",
+					"length": 7
+				},
+				{
+					"start": "BGM",
+					"end": "BFW",
+					"length": 14
+				},
+				{
+					"start": "BFW",
+					"end": "BDKO",
+					"length": 10
+				},
+				{
+					"start": "BDKO",
+					"end": "LF",
+					"length": 22
+				},
+				{
+					"start": "LF",
+					"end": "LTG",
+					"length": 18
+				},
+				{
+					"start": "LTG",
+					"end": "LEG",
+					"length": 27
+				},
+				{
+					"start": "LEG",
+					"end": "LL",
+					"length": 24,
+					"twistingFactor": 0.24
+				}
+			]
+		},
+		{
+			"maxSpeed": 160,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "NRH",
+					"end": "NBWH",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "NBWH",
+					"end": "NOT",
+					"length": 2,
+					"maxSpeed": 150,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "NOT",
+					"end": "NSUE",
+					"length": 16,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "NSUE",
+					"end": "NRA",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "NRA",
+					"end": "NST",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "NST",
+					"end": "NSK",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "NSK",
+					"end": "NPL",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "NPL",
+					"end": "NOS",
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "NOS",
+					"end": "NPLG",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "NPLG",
+					"end": "NVI",
+					"length": 8,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "NVI",
+					"end": "NPA",
+					"length": 21,
+					"maxSpeed": 110,
+					"twistingFactor": 0
+				}
+			]
+		},
+		{
+			"maxSpeed": 160,
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": ["AT"],
+			"objects": [
+				{
+					"start": "NPA",
+					"end": "XAWR",
+					"length": 11,
+					"maxSpeed": 110,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XAWR",
+					"end": "XASH",
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XASH",
+					"end": "XATF",
+					"length": 11,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XATF",
+					"end": "XAAD",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XAAD",
+					"end": "IXARI",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "IXARI",
+					"end": "XANK",
+					"length": 13,
+					"maxSpeed": 150,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XANK",
+					"end": "XAGP",
+					"length": 11,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XAGP",
+					"end": "XASBW",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XASBW",
+					"end": "XAWE",
+					"length": 13,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 125,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "RSCF",
+					"end": "XSJE",
+					"length": 8,
+					"maxSpeed": 105,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "XSJE",
+					"end": "XSEG",
+					"length": 12,
+					"maxSpeed": 100,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "XSEG",
+					"end": "XSBH",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XSBH",
+					"end": "XSOB",
+					"length": 7
+				},
+				{
+					"start": "XSOB",
+					"end": "XSZO",
+					"length": 8
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "RRZ",
+					"end": "RST",
+					"length": 7,
+					"maxSpeed": 110,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "RST",
+					"end": "RLU",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "RLU",
+					"end": "RSIN",
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "RSIN",
+					"end": "RUEM",
+					"length": 6,
+					"maxSpeed": 70,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "RUEM",
+					"end": "RSLM",
+					"length": 13,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RSLM",
+					"end": "RMAD",
+					"length": 8,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "RMAD",
+					"end": "TFF",
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "TFF",
+					"end": "TF",
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "TF",
+					"end": "TLR",
+					"length": 9,
+					"electrified": true,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TLR",
+					"end": "MLIR",
+					"length": 14,
+					"electrified": true,
+					"maxSpeed": 100,
+					"twistingFactor": 0.24
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSZH",
+					"end": "XSDI",
+					"length": 10,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XSDI",
+					"end": "XSKS",
+					"length": 5,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XSKS",
+					"end": "XSLB",
+					"length": 15,
+					"maxSpeed": 140,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XSLB",
+					"end": "XSA",
+					"length": 9,
+					"maxSpeed": 140,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XSA",
+					"end": "XSOL",
+					"length": 13,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XSOL",
+					"end": "XSSC",
+					"length": 18,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XSSC",
+					"end": "XSB",
+					"length": 20,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XSB",
+					"end": "RB",
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSKS",
+					"end": "XSBA",
+					"length": 6,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XSBA",
+					"end": "XSBRU",
+					"length": 8,
+					"maxSpeed": 95,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "XSBRU",
+					"end": "XSFRK",
+					"length": 20,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XSFRK",
+					"end": "XSSK",
+					"length": 6,
+					"maxSpeed": 125,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XSSK",
+					"end": "XSRD",
+					"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XSRD",
+					"end": "XSB",
+					"length": 16,
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
+			"maxSpeed": 160,
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": ["AT"],
+			"objects": [
+				{
+					"start": "XASB",
+					"end": "XAHE",
+					"length": 8,
+					"maxSpeed": 95,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "XAHE",
+					"end": "XASK",
+					"length": 6,
+					"maxSpeed": 110,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XASK",
+					"end": "XANKD",
+					"length": 1,
+					"maxSpeed": 130,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XANKD",
+					"end": "XASF",
+					"length": 2,
+					"maxSpeed": 130,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XASF",
+					"end": "XASR",
+					"length": 3,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XASR",
+					"end": "XAFA",
+					"length": 17,
+					"maxSpeed": 110,
+					"twistingFactor": 0.45
+				},
+				{
+					"start": "XAFA",
+					"end": "XAVM",
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XAVM",
+					"end": "XAVB",
+					"length": 16,
+					"maxSpeed": 160,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "XAVB",
+					"end": "XAAT",
+					"length": 5,
+					"maxSpeed": 130,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XAAT",
+					"end": "XALB",
+					"length": 17,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XALB",
+					"end": "XAWE",
+					"length": 14,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"maxSpeed": 160,
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": ["AT"],
+			"objects": [
+				{
+					"start": "XAWE",
+					"end": "XAMR",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XAMR",
+					"end": "XAHOG",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XAHOG",
+					"end": "XAL",
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
 				}
 			]
 		}

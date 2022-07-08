@@ -211,7 +211,7 @@
 				"reliability": {
 					"description": "Zuverlässigkeit in Prozent",
 					"type": "number",
-					"minimum": 0,
+					"minimum": 0.8,
 					"maximum": 1
 				},
 				"cost": {
@@ -235,7 +235,25 @@
 							"FR",
 							"NL",
 							"CZ",
-							"CH"
+							"CH",
+							"AT"
+						]
+					},
+					"uniqueItems": true
+				},
+				"neededEquipments": {
+					"description": "Streckenanforderung",
+					"type": "array",
+					"items": {
+						"type": "string",
+						"examples": [
+							"ETCS",
+							"KRM",
+							"FR",
+							"NL",
+							"CZ",
+							"CH",
+							"AT"
 						]
 					},
 					"uniqueItems": true
@@ -262,7 +280,9 @@
 									"cars",
 									"containers",
 									"castor",
-									"coal"
+									"coal",
+									"beds",
+									"bistroseats"
 								]
 							},
 							"value": {
