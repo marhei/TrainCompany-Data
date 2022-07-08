@@ -10618,21 +10618,21 @@
 					"end": "WKAR",
 					"group": 1,
 					"length": 8,
-					"electrified":false
+					"electrified": false
 				},
 				{
 					"start": "WKAR",
 					"end": "WHK",
 					"group": 1,
 					"length": 4,
-					"electrified":false
+					"electrified": false
 				},
 				{
 					"start": "WHK",
 					"end": "WNB",
 					"group": 1,
 					"length": 9,
-					"electrified":false
+					"electrified": false
 				},
 				{
 					"start": "WNB",
@@ -10640,7 +10640,7 @@
 					"group": 1,
 					"length": 9,
 					"twistingFactor": 0.25,
-					"electrified":false
+					"electrified": false
 				},
 				{
 					"start": "WKR",
@@ -10648,21 +10648,21 @@
 					"group": 1,
 					"length": 9,
 					"twistingFactor": 0.4,
-					"electrified":false
+					"electrified": false
 				},
 				{
 					"start": "WDO",
 					"end": "WGS",
 					"group": 1,
 					"length": 9,
-					"electrified":false
+					"electrified": false
 				},
 				{
 					"start": "WGS",
 					"end": "WR",
 					"group": 1,
 					"length": 5,
-					"electrified":false
+					"electrified": false
 				}
 			]
 		},
@@ -12578,7 +12578,9 @@
 					"length": 8,
 					"maxSpeed": 100,
 					"twistingFactor": 0.24,
-					"neededEquipments": ["AT"]
+					"neededEquipments": [
+						"AT"
+					]
 				},
 				{
 					"start": "XAB",
@@ -12586,7 +12588,10 @@
 					"length": 12,
 					"maxSpeed": 130,
 					"twistingFactor": 0.2,
-					"neededEquipments": ["AT", "CH"]
+					"neededEquipments": [
+						"AT",
+						"CH"
+					]
 				},
 				{
 					"start": "XSSM",
@@ -13063,7 +13068,9 @@
 			"maxSpeed": 160,
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": ["AT"],
+			"neededEquipments": [
+				"AT"
+			],
 			"objects": [
 				{
 					"start": "NPA",
@@ -13520,7 +13527,9 @@
 			"maxSpeed": 160,
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": ["AT"],
+			"neededEquipments": [
+				"AT"
+			],
 			"objects": [
 				{
 					"start": "XASB",
@@ -13605,7 +13614,9 @@
 			"maxSpeed": 160,
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": ["AT"],
+			"neededEquipments": [
+				"AT"
+			],
 			"objects": [
 				{
 					"start": "XAWE",
@@ -13627,6 +13638,531 @@
 					"length": 10,
 					"maxSpeed": 160,
 					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSZH",
+					"end": "XSTW",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XSTW",
+					"end": "XSWW",
+					"length": 11,
+					"maxSpeed": 102,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "XSWW",
+					"end": "XSPF",
+					"length": 9,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XSPF",
+					"end": "XSSW",
+					"length": 10,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XSSW",
+					"end": "XSZB",
+					"length": 13,
+					"maxSpeed": 125,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XSZB",
+					"end": "XSWA",
+					"length": 20,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XSWA",
+					"end": "XSFL",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XSFL",
+					"end": "XSSR",
+					"length": 9,
+					"maxSpeed": 140,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XSSR",
+					"end": "XSLQ",
+					"length": 12,
+					"maxSpeed": 150,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XSLQ",
+					"end": "XSC",
+					"length": 13,
+					"maxSpeed": 140,
+					"twistingFactor": 0.18
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSADF",
+					"end": "XSEF",
+					"length": 6
+				},
+				{
+					"start": "XSEF",
+					"end": "XSGS",
+					"length": 29
+				},
+				{
+					"start": "XSGS",
+					"end": "XSAI",
+					"length": 15
+				},
+				{
+					"start": "XSAI",
+					"end": "XSFD",
+					"length": 20
+				},
+				{
+					"start": "XSFD",
+					"end": "XSBOD",
+					"length": 19
+				},
+				{
+					"start": "XSBOD",
+					"end": "XSBC",
+					"length": 6
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSADF",
+					"end": "XSBC",
+					"length": 66
+				},
+				{
+					"start": "XSBC",
+					"end": "XSCA",
+					"length": 15
+				},
+				{
+					"start": "XSCA",
+					"end": "XSBZ",
+					"length": 3
+				},
+				{
+					"start": "XSBZ",
+					"end": "XSL",
+					"length": 24
+				},
+				{
+					"start": "XSL",
+					"end": "XSME",
+					"length": 18
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSB",
+					"end": "XSLF",
+					"length": 22
+				},
+				{
+					"start": "XSLF",
+					"end": "XSDE",
+					"length": 16
+				},
+				{
+					"start": "XSDE",
+					"end": "XSMU",
+					"length": 11
+				},
+				{
+					"start": "XSMU",
+					"end": "XSGRN",
+					"length": 10
+				},
+				{
+					"start": "XSGRN",
+					"end": "XSBL",
+					"length": 13
+				},
+				{
+					"start": "XSBL",
+					"end": "XSBE",
+					"length": 33
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSBE",
+					"end": "XSMUS",
+					"length": 16
+				},
+				{
+					"start": "XSMUS",
+					"end": "XSTH",
+					"length": 14
+				},
+				{
+					"start": "XSTH",
+					"end": "XSSP",
+					"length": 10
+				},
+				{
+					"start": "XSSP",
+					"end": "XSIO",
+					"length": 18
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSBL",
+					"end": "XSCO",
+					"length": 21
+				},
+				{
+					"start": "XSCO",
+					"end": "XSNC",
+					"length": 8
+				},
+				{
+					"start": "XSNC",
+					"end": "XSY",
+					"length": 36
+				},
+				{
+					"start": "XSY",
+					"end": "XSLA",
+					"length": 39
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSLA",
+					"end": "XSMO",
+					"length": 24
+				},
+				{
+					"start": "XSMO",
+					"end": "XSAL",
+					"length": 14
+				},
+				{
+					"start": "XSAL",
+					"end": "XSMA",
+					"length": 27
+				},
+				{
+					"start": "XSMA",
+					"end": "XSSN",
+					"length": 26
+				},
+				{
+					"start": "XSSN",
+					"end": "XSSI",
+					"length": 15
+				},
+				{
+					"start": "XSSI",
+					"end": "XSLE",
+					"length": 9
+				},
+				{
+					"start": "XSLE",
+					"end": "XSGM",
+					"length": 8
+				},
+				{
+					"start": "XSGM",
+					"end": "XSVI",
+					"length": 10
+				},
+				{
+					"start": "XSVI",
+					"end": "XSBG",
+					"length": 8
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSOL",
+					"end": "XSZG",
+					"length": 8
+				},
+				{
+					"start": "XSZG",
+					"end": "XSN",
+					"length": 11
+				},
+				{
+					"start": "XSN",
+					"end": "XSSUS",
+					"length": 10
+				},
+				{
+					"start": "XSSUS",
+					"end": "XSLU",
+					"length": 26
+				},
+				{
+					"start": "XSLU",
+					"end": "XSKN",
+					"length": 16
+				},
+				{
+					"start": "XSKN",
+					"end": "XSIM",
+					"length": 3
+				},
+				{
+					"start": "XSIM",
+					"end": "XSAG",
+					"length": 8
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSSM",
+					"end": "XSHR",
+					"length": 5
+				},
+				{
+					"start": "XSHR",
+					"end": "XSAS",
+					"length": 6
+				},
+				{
+					"start": "XSAS",
+					"end": "XSRT",
+					"length": 11
+				},
+				{
+					"start": "XSRT",
+					"end": "XSBU",
+					"length": 14
+				},
+				{
+					"start": "XSBU",
+					"end": "XSSR",
+					"length": 15
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSSP",
+					"end": "XSFR",
+					"length": 13
+				},
+				{
+					"start": "XSFR",
+					"end": "XSVI",
+					"length": 40
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSTW",
+					"end": "XSZU",
+					"length": 17
+				},
+				{
+					"start": "XSZU",
+					"end": "XSAG",
+					"length": 16
+				},
+				{
+					"start": "XSAG",
+					"end": "XSSY",
+					"length": 8
+				},
+				{
+					"start": "XSSY",
+					"end": "XSADF",
+					"length": 17
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSZG",
+					"end": "XSLT",
+					"length": 19
+				},
+				{
+					"start": "XSLT",
+					"end": "XSHZ",
+					"length": 7
+				},
+				{
+					"start": "XSHZ",
+					"end": "CH:BDF",
+					"length": 16
+				},
+				{
+					"start": "CH:BDF",
+					"end": "XSBE",
+					"length": 21
+				},
+				{
+					"start": "XSBE",
+					"end": "XSFM",
+					"length": 13
+				},
+				{
+					"start": "XSFM",
+					"end": "XSF",
+					"length": 18
+				},
+				{
+					"start": "XSF",
+					"end": "CH:ROM",
+					"length": 26
+				},
+				{
+					"start": "CH:ROM",
+					"end": "CH:PUI",
+					"length": 28
+				},
+				{
+					"start": "CH:PUI",
+					"end": "XSLA",
+					"length": 12
+				},
+				{
+					"start": "XSLA",
+					"end": "XSMG",
+					"length": 12
+				},
+				{
+					"start": "XSMG",
+					"end": "CH:GLA",
+					"length": 21
+				},
+				{
+					"start": "CH:GLA",
+					"end": "CH:NY",
+					"length": 4
+				},
+				{
+					"start": "CH:NY",
+					"end": "XSGE",
+					"length": 21
 				}
 			]
 		}
