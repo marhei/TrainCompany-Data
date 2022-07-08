@@ -490,6 +490,7 @@
 		{
 			"maxSpeed": 200,
 			"name": "Bahnstrecke Köln–Duisburg",
+			"twistingFactor": 0.2,
 			"objects": [
 				{
 					"start": "KK",
@@ -506,9 +507,13 @@
 				},
 				{
 					"start": "KD",
+					"end": "KDFF",
+					"length": 8
+				},
+				{
+					"start": "KDFF",
 					"end": "EDG",
-					"twistingFactor": 0.2,
-					"length": 24
+					"length": 15
 				}
 			]
 		},
@@ -2928,31 +2933,69 @@
 		{
 			"name": "Wupperstrecke",
 			"maxSpeed": 160,
+			"twistingFactor": 0.2,
 			"objects": [
 				{
 					"start": "EDO",
+					"end": "EWIT",
+					"length": 16,
+					"maxSpeed": 140
+				},
+				{
+					"start": "EWIT",
+					"end": "EWET",
+					"length": 7,
+					"maxSpeed": 130
+				},
+				{
+					"start": "EWET",
 					"end": "EHG",
-					"twistingFactor": 0.35,
-					"maxSpeed": 140,
-					"length": 31
+					"length": 7,
+					"maxSpeed": 120
 				},
 				{
 					"start": "EHG",
+					"end": "EENP",
+					"length": 11
+				},
+				{
+					"start": "EENP",
+					"end": "KSWE",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "KSWE",
 					"end": "KW",
-					"twistingFactor": 0.35,
-					"length": 26
+					"length": 10,
+					"maxSpeed": 120
 				},
 				{
 					"start": "KW",
+					"end": "KHAN",
+					"length": 14,
+					"maxSpeed": 130
+				},
+				{
+					"start": "KHAN",
 					"end": "KSO",
-					"twistingFactor": 0.4,
-					"length": 18
+					"length": 3
 				},
 				{
 					"start": "KSO",
+					"end": "KLEL",
+					"length": 5
+				},
+				{
+					"start": "KLEL",
+					"end": "KLS",
+					"length": 8
+				},
+				{
+					"start": "KLS",
 					"end": "KK",
-					"twistingFactor": 0.4,
-					"length": 28
+					"length": 12,
+					"twistingFactor": 0.3
 				}
 			]
 		},
@@ -2965,11 +3008,30 @@
 			"maxSpeed": 130
 		},
 		{
-			"start": "EHG",
-			"end": "EHM",
+			"electrified": true,
 			"twistingFactor": 0.3,
-			"length": 48,
-			"maxSpeed": 160
+			"maxSpeed": 160,
+			"group": 0,
+			"objects": [
+				{
+					"start": "EHG",
+					"end": "EUN",
+					"length": 30,
+					"maxSpeed": 150
+				},
+				{
+					"start": "EUN",
+					"end": "EBEO",
+					"length": 8,
+					"twistingFactor": 0
+				},
+				{
+					"start": "EBEO",
+					"end": "EHM",
+					"length": 10,
+					"twistingFactor": 0
+				}
+			]
 		},
 		{
 			"group": 1,
@@ -6454,13 +6516,48 @@
 				},
 				{
 					"start": "AEL",
+					"end": "AHOT",
+					"length": 5
+				},
+				{
+					"start": "AHOT",
+					"end": "ADH",
+					"length": 6
+				},
+				{
+					"start": "ADH",
+					"end": "AWST",
+					"length": 9
+				},
+				{
+					"start": "AWST",
+					"end": "ABRS",
+					"length": 8
+				},
+				{
+					"start": "ABRS",
 					"end": "AN",
-					"length": 44
+					"length": 14
 				},
 				{
 					"start": "AN",
+					"end": "AEF",
+					"length": 6
+				},
+				{
+					"start": "AEF",
+					"end": "ABRD",
+					"length": 5
+				},
+				{
+					"start": "ABRD",
+					"end": "AFT",
+					"length": 8
+				},
+				{
+					"start": "AFT",
 					"end": "AK",
-					"length": 26
+					"length": 10
 				}
 			]
 		},
