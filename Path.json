@@ -11212,9 +11212,9 @@
 			"group": 0,
 			"objects": [
 				{
-					"start": "MH",
+					"start": "MP",
 					"end": "MMAM",
-					"length": 29,
+					"length": 22,
 					"maxSpeed": 230,
 					"twistingFactor": 0.1
 				},
@@ -11459,13 +11459,26 @@
 		{
 			"maxSpeed": 160,
 			"group": 0,
-			"name": "Allgäubahn",
 			"twistingFactor": 0.1,
 			"objects": [
 				{
 					"start": "MH",
+					"end": "MP",
+					"length": 7,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"maxSpeed": 160,
+			"group": 0,
+			"name": "Allgäubahn",
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "MP",
 					"end": "MGE",
-					"length": 40,
+					"length": 33,
 					"twistingFactor": 0.25
 				},
 				{
