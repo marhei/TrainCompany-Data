@@ -601,7 +601,20 @@
 			"descriptions": [
 				"Fahre als S3 von %s nach %s und halte dabei an allen Unterwegsbahnhöfen."
 			],
-			"stations": [ "MHO", "MDS", "MH", "MMAM" ],
+			"stations": [ "MHO", "MDS", "MH", "MP", "MMAM" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S4 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre als S4 von %s nach %s und halte dabei an allen Unterwegsbahnhöfen."
+			],
+			"stations": [ "MGB", "MZO", "MHR", "MH","MP", "MGE" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -1650,7 +1663,7 @@
 				{ "name": "passengers", "value": 0 }
 			],
 			"group": 1,
-			"pathSuggestion": [ "MH", "MBU", "MM", "MHGZ", "MLIR", "XAB", "XSSM", "XSRS", "XSSG", "XSWT", "XSZO", "XSZH" ]
+			"pathSuggestion": [ "MH", "MP", "MBU", "MM", "MHGZ", "MLIR", "XAB", "XSSM", "XSRS", "XSSG", "XSWT", "XSZO", "XSZH" ]
 		},
 		{
 			"name": "Fugger-Express von %s nach %s",
@@ -1667,10 +1680,10 @@
 			"group": 1,
 			"objects": [
 				{
-					"stations": [ "MOTW", "MDT", "MMEI", "MA", "MKIS", "MMR", "MH" ]
+					"stations": [ "MOTW", "MDT", "MMEI", "MA", "MKIS", "MMR", "MP", "MH" ]
 				},
 				{
-					"stations": [ "TU", "MGZB", "MMAH", "MFHD", "MKUN", "MA", "MKIS", "MMR", "MH" ]
+					"stations": [ "TU", "MGZB", "MMAH", "MFHD", "MKUN", "MA", "MKIS", "MMR", "MP", "MH" ]
 				}
 			]
 		},
