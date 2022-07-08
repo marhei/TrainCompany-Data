@@ -11210,34 +11210,78 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 230,
+			"twistingFactor": 0.1,
 			"objects": [
 				{
 					"start": "MH",
+					"end": "MLW",
+					"length": 9,
+					"maxSpeed": 130
+				},
+				{
+					"start": "MLW",
+					"end": "MLO",
+					"length": 2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "MLO",
+					"end": "MGRZ",
+					"length": 3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "MGRZ",
+					"end": "MOL",
+					"length": 3,
+					"maxSpeed": 130
+				},
+				{
+					"start": "MOL",
+					"end": "MGLD",
+					"length": 2
+				},
+				{
+					"start": "MGLD",
+					"end": "MMAG",
+					"length": 6
+				},
+				{
+					"start": "MMAG",
 					"end": "MMAM",
-					"length": 29,
-					"maxSpeed": 230,
-					"twistingFactor": 0.1
+					"length": 3
 				},
 				{
 					"start": "MMAM",
+					"end": "MHMR",
+					"length": 5
+				},
+				{
+					"start": "MHMR",
+					"end": "MAHB",
+					"length": 3
+				},
+				{
+					"start": "MAHB",
 					"end": "MMR",
-					"length": 15,
-					"maxSpeed": 230,
-					"twistingFactor": 0.1
+					"length": 6
 				},
 				{
 					"start": "MMR",
+					"end": "MSAF",
+					"length": 2
+				},
+				{
+					"start": "MSAF",
 					"end": "MKIS",
-					"length": 4,
-					"maxSpeed": 230,
-					"twistingFactor": 0.1
+					"length": 2
 				},
 				{
 					"start": "MKIS",
 					"end": "MA",
 					"length": 11,
-					"maxSpeed": 230,
-					"twistingFactor": 0.25
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "MA",
@@ -11464,14 +11508,60 @@
 			"objects": [
 				{
 					"start": "MH",
+					"end": "MMAU",
+					"length": 10,
+					"maxSpeed": 120
+				},
+				{
+					"start": "MMAU",
+					"end": "MPM",
+					"length": 4
+				},
+				{
+					"start": "MPM",
+					"end": "MEIC",
+					"length": 2
+				},
+				{
+					"start": "MEIC",
+					"end": "MFB",
+					"length": 5
+				},
+				{
+					"start": "MFB",
+					"end": "MBAU",
+					"length": 3
+				},
+				{
+					"start": "MBAU",
+					"end": "MSNG",
+					"length": 2
+				},
+				{
+					"start": "MSNG",
+					"end": "MGF",
+					"length": 3
+				},
+				{
+					"start": "MGF",
+					"end": "MTFD",
+					"length": 6,
+					"maxSpeed": 130
+				},
+				{
+					"start": "MTFD",
 					"end": "MGE",
-					"length": 40,
-					"twistingFactor": 0.25
+					"length": 2
 				},
 				{
 					"start": "MGE",
+					"end": "MKFG",
+					"length": 14
+				},
+				{
+					"start": "MKFG",
 					"end": "MBU",
-					"length": 25
+					"length": 11
 				},
 				{
 					"start": "MBU",
@@ -11563,14 +11653,27 @@
 				},
 				{
 					"start": "MTHB",
+					"end": "MRAM",
+					"length": 2,
+					"maxSpeed": 140
+				},
+				{
+					"start": "MRAM",
 					"end": "MMH",
-					"length": 10,
+					"length": 8,
 					"maxSpeed": 140
 				},
 				{
 					"start": "MMH",
+					"end": "MSTS",
+					"length": 6,
+					"twistingFactor": 0.3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "MSTS",
 					"end": "MSHM",
-					"length": 13,
+					"length": 7,
 					"twistingFactor": 0.3,
 					"maxSpeed": 140
 				},
@@ -11578,7 +11681,6 @@
 					"start": "MSHM",
 					"end": "MM",
 					"length": 13,
-					"maxSpeed": 160,
 					"twistingFactor": 0.15
 				}
 			]
