@@ -566,17 +566,11 @@
 				"Um dem bestellten Einsatz gerecht zu werden, müssen Fahrgäste von %s nach %s im Netz Chiemgau-Inntal befördert werden."
 			],
 			"objects": [
-				{
-					"stations": [ "MH", "MRO", "XASB" ]
-				},
-				{
-					"stations": [ "MH", "MRO" ]
-				},
-				{
-					"stations": [ "MH", "MRO", "MTS" ]
-				}
+				{"stations": ["MH", "MRO", "MBEF", "MPR", "MUS", "MTS", "MTO", "MFL", "XASB"]},
+				{"stations": ["MH", "MRO"]},
+				{"stations": ["MH", "MRO", "MBEF", "MPR", "MUS", "MTS"]}
 			],
-			"stopsEverywhere": true,
+			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -590,20 +584,12 @@
 				"Ein Polizeieinsatz hat den Bahnverkehr zum erliegen gebracht. Ein SEV für den Streckenabschnitt wurde eingerichtet. Fahre einen Pendelzug zwischen %s und %s."
 			],
 			"objects": [
-				{
-					"stations": [ "MH", "MRO", "MPR" ]
-				},
-				{
-					"stations": [ "MH", "MRO" ]
-				},
-				{
-					"stations": [ "MTS", "XASB" ]
-				},
-				{
-					"stations": [ "MPR", "XASB" ]
-				}
+				{"stations": ["MH", "MRO", "MBEF", "MPR"]},
+				{"stations": ["MH", "MRO"]},
+				{"stations": ["MTS", "MTO", "MFL", "XASB"]},
+				{"stations": ["MPR", "MUS", "MTS", "MTO", "MFL", "XASB"]}
 			],
-			"stopsEverywhere": true,
+			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -674,6 +660,23 @@
 				"Der RE11 muss quer durch NRW von %s nach %s."
 			],
 			"stations": [ "FKW", "HWAR", "HA", "EPD", "ESOT", "EHM", "EDO", "EBO", "EE", "EDG", "KD" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S1 von %s nach %s",
+			"descriptions": [
+				"Fahre einen Zug der Linie S1 zwischen %s und %s.",
+				"Die BEG schreibt die S1 von %s nach %s aus."
+			],
+			"service": 2,
+			"objects": [
+				{"stations": ["MFHM", "MNF", "MH"]},
+				{"stations": ["MFR", "MPU", "MNF", "MH"]}
+			],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]

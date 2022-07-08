@@ -5951,13 +5951,13 @@
 					"start": "MKZ",
 					"end": "MBRM",
 					"length": 14,
-					"twistingFactor": 0.75
+					"twistingFactor": 0.5
 				},
 				{
 					"start": "MBRM",
 					"end": "MBAI",
 					"length": 7,
-					"twistingFactor": 0.15,
+					"twistingFactor": 0.35,
 					"group": 0
 				},
 				{
@@ -6135,6 +6135,25 @@
 					"start": "MOSM",
 					"end": "MH",
 					"length": 19
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"maxSpeed": 160,
+			"twistingFactor": 0.1,
+			"group": 0,
+			"objects": [
+				{
+					"start": "MNF",
+					"end": "MFHM",
+					"length": 7
+				},
+				{
+					"name": "Neufahrner Spange",
+					"start": "MFHM",
+					"end": "MPU",
+					"length": 7
 				}
 			]
 		},
