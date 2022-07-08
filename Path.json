@@ -6609,18 +6609,42 @@
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 120,
+			"twistingFactor": 0.3,
 			"objects": [
 				{
 					"start": "AK",
+					"end": "AKRU",
+					"length": 5
+				},
+				{
+					"start": "AKRU",
+					"end": "AME",
+					"length": 2
+				},
+				{
+					"start": "AME",
+					"end": "AACW",
+					"length": 4
+				},
+				{
+					"start": "AACW",
 					"end": "AFEB",
-					"length": 23,
-					"twistingFactor": 0.3
+					"length": 1
 				},
 				{
 					"start": "AFEB",
+					"end": "ABRB",
+					"length": 5
+				},
+				{
+					"start": "ABRB",
+					"end": "ASC",
+					"length": 8
+				},
+				{
+					"start": "ASC",
 					"end": "AR",
-					"length": 14,
-					"twistingFactor": 0.3
+					"length": 12
 				}
 			]
 		},
@@ -6628,24 +6652,42 @@
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 160,
+			"twistingFactor": 0.2,
 			"objects": [
 				{
 					"start": "AN",
+					"end": "ANF",
+					"length": 14
+				},
+				{
+					"start": "ANF",
 					"end": "AR",
-					"length": 39,
-					"twistingFactor": 0.2
+					"length": 24
 				},
 				{
 					"start": "AR",
+					"end": "AOS",
+					"length": 11
+				},
+				{
+					"start": "AOS",
+					"end": "ASW",
+					"length": 13
+				},
+				{
+					"start": "ASW",
 					"end": "AJ",
-					"length": 36,
-					"twistingFactor": 0.2
+					"length": 11
 				},
 				{
 					"start": "AJ",
+					"end": "ATP",
+					"length": 12
+				},
+				{
+					"start": "ATP",
 					"end": "AF",
-					"length": 27,
-					"twistingFactor": 0.2
+					"length": 14
 				}
 			]
 		},
@@ -6884,12 +6926,47 @@
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 80,
+			"twistingFactor": 0.3,
 			"objects": [
 				{
-					"start": "APO",
-					"end": "AHM",
-					"length": 39,
-					"twistingFactor": 0.3
+					"start": "AHM",
+					"end": "AWRT",
+					"length": 11
+				},
+				{
+					"start": "AWRT",
+					"end": "ATG",
+					"length": 9
+				},
+				{
+					"start": "ATG",
+					"end": "AKTO",
+					"length": 4
+				},
+				{
+					"start": "AKTO",
+					"end": "AKAD",
+					"length": 2
+				},
+				{
+					"start": "AKAD",
+					"end": "AGD",
+					"length": 3
+				},
+				{
+					"start": "AGD",
+					"end": "ATAT",
+					"length": 4
+				},
+				{
+					"start": "ATAT",
+					"end": "APSD",
+					"length": 4
+				},
+				{
+					"start": "APSD",
+					"end": "APO",
+					"length": 2
 				}
 			]
 		},
