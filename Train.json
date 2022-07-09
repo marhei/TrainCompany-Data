@@ -696,6 +696,25 @@
 			]
 		},
 		{
+			"id": 650,
+			"group": 2,
+			"name": "Stadler RegioShuttle RS1",
+			"shortcut": "BR 650",
+			"speed": 120,
+			"weight": 40,
+			"force": 55,
+			"length": 24,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 230000,
+			"operationCosts": 42,
+			"maxConnectedUnits": 6,
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 86}
+			]
+		},
+		{
 			"id": 33,
 			"group": 2,
 			"name": "CargoSprinter",
@@ -882,6 +901,22 @@
 			"cost": 400000,
 			"operationCosts": 80,
 			"equipments": ["ETCS", "FR", "CH", "AT"]
+		},
+		{
+			"id": 2159,
+			"group": 0,
+			"name": "Stadler EuroDual",
+			"shortcut": "BR 2159",
+			"speed": 160,
+			"weight": 123,
+			"force": 500,
+			"length": 23,
+			"drive": 3,
+			"range": 1000,
+			"reliability": 1,
+			"cost": 600000,
+			"operationCosts": 130,
+			"equipments": [ "FR", "ETCS", "AT" ]
 		},
 		{
 			"id": 460,
