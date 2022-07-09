@@ -755,6 +755,32 @@
 			"operationCosts": 120
 		},
 		{
+			"id": 111,
+			"group": 0,
+			"name": "BR 111",
+			"speed": 160,
+			"weight": 83,
+			"force": 274,
+			"length": 17,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 380000,
+			"operationCosts": 120
+		},
+		{
+			"id": 120,
+			"group": 0,
+			"name": "BR 120",
+			"speed": 200,
+			"weight": 84,
+			"force": 340,
+			"length": 19,
+			"drive": 1,
+			"reliability": 1.0,
+			"cost": 350000,
+			"operationCosts": 120
+		},
+		{
 			"id": 112,
 			"group": 0,
 			"name": "BR 112",
@@ -867,6 +893,22 @@
 			"cost": 450000,
 			"operationCosts": 110,
 			"equipments": ["ETCS", "CZ", "CH", "AT", "NL"]
+		},
+		{
+			"id": 248,
+			"group": 0,
+			"name": "Siemens Vectron DM",
+			"shortcut": "BR 248",
+			"speed": 160,
+			"weight": 90,
+			"force": 300,
+			"length": 19,
+			"drive": 3,
+			"range": 300,
+			"reliability": 1,
+			"cost": 550000,
+			"operationCosts": 110,
+			"equipments": ["ETCS", "CH", "AT"]
 		},
 		{
 			"id": 28,
