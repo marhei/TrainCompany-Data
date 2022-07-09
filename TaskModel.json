@@ -148,12 +148,12 @@
 			],
 			"objects": [
 				{
-					"stations": ["XAL", "XAWE", "NPA", "NRH", "NN", "NWH", "NAH", "FFLF", "FMZ", "KKO", "KB", "KK", "KSO", "KW", "EHG", "EDO"],
-					"pathSuggestion": ["XAL", "XAWE", "NPA", "NRH", "NN", "NF", "NRTD", "NWH", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EDO"]
+					"stations": [ "XAL", "XAWE", "NPA", "NRH", "NN", "NWH", "NAH", "FFLF", "FMZ", "KKO", "KB", "KK", "KSO", "KW", "EHG", "EDO" ],
+					"pathSuggestion": [ "XAL", "XAWE", "NPA", "NRH", "NN", "NF", "NRTD", "NWH", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EDO" ]
 				},
 				{
-					"stations": ["XAL", "XAWE", "NPA", "NST", "NRH", "NN", "UE P", "LH", "BL", "BSPD", "AH", "AA"],
-					"pathSuggestion": ["XAL", "XAWE", "NPA", "NST", "NRH", "NN", "NF", "NBA", "NED", "UE P", "LPLN", "LH", "LW", "BJUE", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AA"]
+					"stations": [ "XAL", "XAWE", "NPA", "NST", "NRH", "NN", "UE P", "LH", "BL", "BSPD", "AH", "AA" ],
+					"pathSuggestion": [ "XAL", "XAWE", "NPA", "NST", "NRH", "NN", "NF", "NBA", "NED", "UE P", "LPLN", "LH", "LW", "BJUE", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AA" ]
 				}
 			],
 			"neededCapacity": [
@@ -175,14 +175,13 @@
 				},
 				{
 					"stations": [ "FF", "RM", "RK", "XFSTG" ],
-					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG"  ]
+					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG" ]
 				}
 			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
 			]
-
 		},
 		{
 			"group": 1,
@@ -191,7 +190,7 @@
 			"descriptions": [
 				"Verbinde Deutschland mit Belgien und Frankreich."
 			],
-			"stations": [ "EDO", "EE", "EDG", "KD", "KK", "KA"],
+			"stations": [ "EDO", "EE", "EDG", "KD", "KK", "KA" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -204,13 +203,137 @@
 				"Verbinde die Niederlande mit der Schweiz."
 			],
 			"objects": [
-				{"stations": [ "EEM", "EDG", "KD", "KK", "FFLF", "RM", "RK", "RO", "RF", "RB"]},
-				{"stations": [ "EEM", "EDG", "KD", "KK", "FFLF", "FF"]}
+				{
+					"stations": [ "EEM", "EDG", "KD", "KK", "FFLF", "RM", "RK", "RO", "RF", "RB" ]
+				},
+				{
+					"stations": [ "EEM", "EDG", "KD", "KK", "FFLF", "FF" ]
+				}
 			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
 			]
+		},
+		{
+			"name": "Voralpen-Express von %s nach %s",
+			"descriptions": [
+				"Bringe den Interregio von %s nach %s.",
+				"Bring die Fahrgäste in dem IR pünktlich nach %2$s.",
+				"Fahre den IR störungsfrei nach %2$s.",
+				"Bring den Voralpen-Express von %s nach %s."
+			],
+			"stations": [ "XSSG", "CH:HE", "CH:WA", "CH:UZ", "CH:RW", "XSPF", "CH:BIB", "XSRTT", "XSAG", "XSKN", "XSLU" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 128800,
+			"group": 1,
+			"service": 1,
+			"pathSuggestion": [ "XSSG", "CH:HE", "CH:WA", "CH:UZ", "CH:RW", "XSPF", "CH:BIB", "XSRTT", "XSAG", "XSKN", "XSLU" ]
+		},
+		{
+			"name": "IC von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity von %s nach %s.",
+				"Bring die Fahrgäste in dem IC pünktlich nach %2$s.",
+				"Fahre den IC störungsfrei nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"stations": [ "XSGE", "XSMG", "XSY", "XSNC", "XSBL", "XSSO", "XSOL", "XSA", "XSZH", "XSWT", "XSSG", "XSRS" ],
+					"plops": 273200,
+					"pathSuggestion": [ "XSGE", "XSMG", "XSLA", "XSY", "XSNC", "XSBL", "XSGRN", "XSSO", "XSLT", "XSZG", "XSOL", "XSA", "XSKS", "XSZH", "XSZO", "XSWT", "XSSG", "XSRS" ]
+				},
+				{
+					"stations": [ "XSB", "XSOL", "XSLU", "XSAG", "XSBZ", "XSL" ],
+					"plops": 221200,
+					"pathSuggestion": [ "XSB", "XSOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSL" ]
+				},
+				{
+					"stations": [ "XSB", "XSOL", "XSBE", "XSTH", "XSSP", "XSVI", "XSBG" ],
+					"plops": 203600,
+					"pathSuggestion": [ "XSB", "XSOL", "XSZG", "XSLT", "XSBE", "XSTH", "XSSP", "XSVI", "XSBG" ]
+				},
+				{
+					"stations": [ "XSB", "XSZH", "XSSR", "XSLQ", "XSC" ],
+					"plops": 197600,
+					"pathSuggestion": [ "XSB", "XSOL", "XSKS", "XSZH", "XSTW", "XSPF", "XSSR", "XSLQ", "XSC" ]
+				},
+				{
+					"stations": [ "XSZH", "XSZU", "XSAG", "XSADF", "XSBZ", "XSL" ],
+					"plops": 190800,
+					"pathSuggestion": [ "XSZH", "XSTW", "XSZU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSL" ]
+				},
+				{
+					"pathSuggestion": [ "XSLA", "CH:PUI", "XSF", "XSBE", "XSLT", "XSZG", "XSOL", "XSKS", "XSZH", "XSZO", "XSWT", "XSWI", "XSSG" ],
+					"stations": [ "XSLA", "XSF", "XSBE", "XSZH", "XSZO", "XSWT", "XSWI", "XSSG" ],
+					"plops": 241200
+				}
+			]
+		},
+		{
+			"name": "ICE von %s nach %s",
+			"descriptions": [
+				"Bringe den ICE-International von %s nach %s.",
+				"Bring die Fahrgäste in dem ICE pünktlich nach %2$s.",
+				"Fahre den ICE störungsfrei nach %2$s.",
+				"Bringe den Intercity-Express pünktlich über die SFS von %s nach %s"
+			],
+			"stations": [ "XSIO", "XSSP", "XSTH", "XSBE", "XSOL", "XSB", "RB", "RF", "RBB", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH", "AA" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 532800,
+			"group": 1,
+			"service": 0,
+			"pathSuggestion": [ "XSIO", "XSSP", "XSTH", "XSBE", "XSLT", "XSZG", "XSOL", "XSB", "RB", "RF", "RO", "RAP", "RBB", "RK", "RGN", "RSAB", "RM", "FBL", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH", "AA" ]
+		},
+		{
+			"name": "IR von %s nach %s",
+			"descriptions": [
+				"Bringe den Interregio von %s nach %s.",
+				"Bring die Fahrgäste in dem IR pünktlich nach %2$s.",
+				"Fahre den IR störungsfrei nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"stations": [ "XSLU", "XSZU", "XSZH", "XSZO", "XSWT", "XSWI", "XSSG", "XSRS", "XSSM", "XSHR", "XSAS", "XSBU", "XSSR", "XSLQ", "XSC" ],
+					"plops": 182400,
+					"pathSuggestion": [ "XSLU", "XSAG", "XSZU", "XSTW", "XSZH", "XSZO", "XSWT", "XSWI", "XSSG", "XSRS", "XSSM", "XSHR", "XSAS", "XSBU", "XSSR", "XSLQ", "XSC" ]
+				},
+				{
+					"plops": 161200,
+					"stations": [ "XSZH", "XSZU", "XSAG", "XSSY", "XSADF", "XSEF", "XSGS", "XSAI", "XSFD", "XSBOD", "XSBC", "XSCA", "XSBZ", "XSLC" ],
+					"pathSuggestion": [ "XSZH", "XSTW", "XSZU", "XSAG", "XSSY", "XSADF", "XSEF", "XSGS", "XSAI", "XSFD", "XSBOD", "XSBC", "XSCA", "XSBZ", "XSLC" ]
+				}
+			]
+		},
+		{
+			"name": "ECE von %s nach %s",
+			"descriptions": [
+				"Bringe den Eurocity-Express von %s nach %s.",
+				"Bring die Fahrgäste in dem ECE pünktlich nach %2$s.",
+				"Fahre den ECE störungsfrei nach %2$s."
+			],
+			"stations": [ "FF", "RM", "RK", "RB", "XSB", "XSOL", "XSLU", "XSAG", "XSBZ", "XSL" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 403480,
+			"group": 1,
+			"service": 0,
+			"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RB", "XSB", "XSOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSL" ]
 		},
 		{
 			"group": 0,
@@ -421,8 +544,8 @@
 					"pathSuggestion": [ "BL", "BPD", "LM", "HBS", "HHI", "HELZ", "HK", "HG", "HEBG", "FB", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RO", "RF", "RB" ]
 				},
 				{
-					"stations": ["XAL", "XAWE", "NPA", "NRH", "NN", "FFLF", "FMZ", "KKO", "KB", "KK", "KD", "EEM"],
-					"pathSuggestion": ["XAL", "XAWE", "NPA", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KD", "EDG", "EEM"]
+					"stations": [ "XAL", "XAWE", "NPA", "NRH", "NN", "FFLF", "FMZ", "KKO", "KB", "KK", "KD", "EEM" ],
+					"pathSuggestion": [ "XAL", "XAWE", "NPA", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KD", "EDG", "EEM" ]
 				}
 			],
 			"neededCapacity": [
@@ -440,14 +563,14 @@
 			],
 			"objects": [
 				{
-					"stations": ["XAL", "XAWE", "NPA", "NRH", "NN", "NWH", "HG", "HH", "AHAR", "AH", "AA"],
-					"pathSuggestion": ["XAL", "XAWE", "NPA", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "FFU", "FKW", "HG", "HH", "HWUN", "HV", "AROG", "ABLZ", "AHAR", "AH", "AA"]
+					"stations": [ "XAL", "XAWE", "NPA", "NRH", "NN", "NWH", "HG", "HH", "AHAR", "AH", "AA" ],
+					"pathSuggestion": [ "XAL", "XAWE", "NPA", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "FFU", "FKW", "HG", "HH", "HWUN", "HV", "AROG", "ABLZ", "AHAR", "AH", "AA" ]
 				}
 			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "beds", "value": 0 },
-				{ "name": "cars", "value": 62}
+				{ "name": "cars", "value": 62 }
 			]
 		},
 		{
@@ -546,10 +669,10 @@
 			],
 			"objects": [
 				{
-					"stations": ["NPA", "XAWE", "XAL"]
+					"stations": [ "NPA", "XAWE", "XAL" ]
 				},
 				{
-					"stations": ["XASB", "XAWE", "XAL"]
+					"stations": [ "XASB", "XAWE", "XAL" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -1450,7 +1573,7 @@
 					"stations": [ "APO", "AHM" ]
 				},
 				{
-					"stations": [ "AN", "AHI", "ABSM"]
+					"stations": [ "AN", "AHI", "ABSM" ]
 				},
 				{
 					"stations": [ "AK", "AL" ]
@@ -1920,7 +2043,7 @@
 				"Bring die Fahrgäste in dem RE 9 pünktlich nach %2$s.",
 				"Fahre den RE störungsfrei nach %2$s."
 			],
-			"stations": [ "LH", "LRN", "LEL", "LWOR", "USG", "UWAL", "UBEN", "UROS", "UBK", "UGSB", "UHRH", "UN", "UBD", "UL" , "UHT", "HEBG", "FWZN", "FHMD", "FKW"],
+			"stations": [ "LH", "LRN", "LEL", "LWOR", "USG", "UWAL", "UBEN", "UROS", "UBK", "UGSB", "UHRH", "UN", "UBD", "UL", "UHT", "HEBG", "FWZN", "FHMD", "FKW" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
@@ -1936,10 +2059,10 @@
 			],
 			"objects": [
 				{
-					"stations": [ "UN", "UBD", "UL" , "UHT"]
+					"stations": [ "UN", "UBD", "UL", "UHT" ]
 				},
 				{
-					"stations": [ "USG", "UBK", "UN", "UBD", "UL" , "UHT"]
+					"stations": [ "USG", "UBK", "UN", "UBD", "UL", "UHT" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -1958,10 +2081,10 @@
 			],
 			"objects": [
 				{
-					"stations": [ "LEL", "LRN", "LZBN" , "LH"]
+					"stations": [ "LEL", "LRN", "LZBN", "LH" ]
 				},
 				{
-					"stations": [ "USG", "LEL", "LRN", "LZBN" , "LH"]
+					"stations": [ "USG", "LEL", "LRN", "LZBN", "LH" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -1976,7 +2099,7 @@
 			"descriptions": [
 				"Bringe die durchgebundene RB/S-Bahn von %s nach %s."
 			],
-			"stations": [ "LH", "LZBN", "LRN" , "LEL", "USG", "UBK", "UN", "UBD", "UL" , "UHT"],
+			"stations": [ "LH", "LZBN", "LRN", "LEL", "USG", "UBK", "UN", "UBD", "UL", "UHT" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -2104,8 +2227,8 @@
 			"descriptions": [
 				"Die Strecke zwischen Passau und Wels ist gesperrt. Fahre über Salzburg!"
 			],
-			"stations": ["XAL", "XAWE", "XAAT", "XASB", "MH", "NN", "NWH", "NAH", "FFLF", "FMZ", "KKO", "KB", "KK", "KSO", "KW", "EHG", "EDO"],
-			"pathSuggestion": ["XAL", "XAWE", "XAAT", "XASB", "MRO", "MH", "MIH", "NN", "NF", "NRTD", "NWH", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EDO"],
+			"stations": [ "XAL", "XAWE", "XAAT", "XASB", "MH", "NN", "NWH", "NAH", "FFLF", "FMZ", "KKO", "KB", "KK", "KSO", "KW", "EHG", "EDO" ],
+			"pathSuggestion": [ "XAL", "XAWE", "XAAT", "XASB", "MRO", "MH", "MIH", "NN", "NF", "NRTD", "NWH", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EDO" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -2373,7 +2496,7 @@
 				"Fahr mit dem Fastfood-Express nach %2$s."
 			],
 			"stations": [ "AH", "EDO", "KD", "KK", "KKO", "FMZ", "FF", "NWH", "NN", "MA", "MH" ],
-			"pathSuggestion": [ "AH","AHAR", "ABLZ", "AROG", "HB", "HO", "EMST", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK", "KKAS", "KB", "KKO", "FBGK", "FMZ", "FFLF", "FF", "FH", "NAH", "NLO", "NGM", "NWH", "NRTD", "NF", "NN", "MDT", "MA", "MH" ],
+			"pathSuggestion": [ "AH", "AHAR", "ABLZ", "AROG", "HB", "HO", "EMST", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK", "KKAS", "KB", "KKO", "FBGK", "FMZ", "FFLF", "FF", "FH", "NAH", "NLO", "NGM", "NWH", "NRTD", "NF", "NN", "MDT", "MA", "MH" ],
 			"neededCapacity": [
 				{ "name": "bistroseats", "value": 60 },
 				{ "name": "passengers", "value": 0 }
