@@ -14340,6 +14340,35 @@
 					"twistingFactor": 0.2
 				}
 			]
+		},
+		{
+			"start": "XSLT",
+			"end": "XSBE",
+			"electrified": true,
+			"group": 0,
+			"length": 43,
+			"maxSpeed": 200,
+			"twistingFactor": 0.2
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "XSLT",
+					"end": "XSSO",
+					"length": 19,
+					"maxSpeed": 200,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XSSO",
+					"end": "XSGRN",
+					"length": 11,
+					"maxSpeed": 140,
+					"twistingFactor": 0.12
+				}
+			]
 		}
 	]
 }
