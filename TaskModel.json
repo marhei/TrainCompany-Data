@@ -927,7 +927,19 @@
 			"descriptions": [
 				"Fahre den IRE 3 auf der Württembergischen Südbahn von %s nach %s."
 			],
-			"stations": [ "RB", "RSAE", "RWU", "RSCF", "RSI", "RRZ", "TF", "TMK", "TRB", "TAU", "TBSC", "TBI", "TLW", "TU" ],
+			"stations": [ "TF", "TMK", "TRB", "TAU", "TBSC", "TBI", "TLW", "TU" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "IRE 3 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den IRE 3 am Bodensee entlang von %s nach %s."
+			],
+			"stations": [ "RB", "RSAE", "RWU", "RSCF", "RSI", "RRZ", "TF" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
