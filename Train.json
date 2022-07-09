@@ -384,7 +384,7 @@
 		{
 			"id": 1,
 			"group": 2,
-			"name": "Stadler KISS",
+			"name": "Stadler KISS 160",
 			"shortcut": "BR 445",
 			"speed": 160,
 			"weight": 298,
@@ -399,6 +399,24 @@
 			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
+			]
+		},
+		{
+			"id": 4010,
+			"name": "Stadler KISS 200",
+			"shortcut": "KISS-FV",
+			"speed": 200,
+			"weight": 212,
+			"force": 320,
+			"length": 101,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 1400000,
+			"operationCosts": 70,
+			"equipments": ["ETCS", "CH", "AT"],
+			"capacity": [
+				{"name": "passengers", "value": 323},
+				{"name": "bistroseats", "value": 8}
 			]
 		},
 		{
