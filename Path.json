@@ -13723,8 +13723,6 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
 			"neededEquipments": [
 				"CH"
 			],
@@ -13732,76 +13730,104 @@
 				{
 					"start": "XSADF",
 					"end": "XSEF",
-					"length": 6
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
 				},
 				{
 					"start": "XSEF",
 					"end": "XSGS",
-					"length": 29
+					"length": 29,
+					"maxSpeed": 80,
+					"twistingFactor": 0.8
 				},
 				{
 					"start": "XSGS",
 					"end": "XSAI",
-					"length": 15
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.02
 				},
 				{
 					"start": "XSAI",
 					"end": "XSFD",
-					"length": 20
+					"length": 20,
+					"maxSpeed": 80,
+					"twistingFactor": 0.5
 				},
 				{
 					"start": "XSFD",
 					"end": "XSBOD",
-					"length": 19
+					"length": 19,
+					"maxSpeed": 80,
+					"twistingFactor": 0.5
 				},
 				{
 					"start": "XSBOD",
 					"end": "XSBC",
-					"length": 6
+					"length": 6,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
 				}
 			]
 		},
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
 			"neededEquipments": [
 				"CH"
 			],
 			"objects": [
 				{
+					"name": "Gotthard-Basistunnel",
 					"start": "XSADF",
 					"end": "XSBC",
-					"length": 66
+					"neededEquipments": [
+						"CH",
+						"ETCS"
+					],
+					"length": 66,
+					"maxSpeed": 230,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XSBC",
 					"end": "XSCA",
-					"length": 15
+					"length": 15,
+					"maxSpeed": 150,
+					"twistingFactor": 0.21
 				},
 				{
 					"start": "XSCA",
 					"end": "XSBZ",
-					"length": 3
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.24
 				},
 				{
+					"name": "Ceneri-Basistunnel",
+					"neededEquipments": [
+						"CH",
+						"ETCS"
+					],
 					"start": "XSBZ",
 					"end": "XSL",
-					"length": 24
+					"length": 24,
+					"maxSpeed": 230,
+					"twistingFactor": 0.15
 				},
 				{
 					"start": "XSL",
 					"end": "XSME",
-					"length": 18
+					"length": 18,
+					"maxSpeed": 105,
+					"twistingFactor": 0.35
 				}
 			]
 		},
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
 			"neededEquipments": [
 				"CH"
 			],
@@ -13809,40 +13835,57 @@
 				{
 					"start": "XSB",
 					"end": "XSLF",
-					"length": 22
+					"length": 22,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XSLF",
 					"end": "XSDE",
-					"length": 16
+					"length": 16,
+					"maxSpeed": 105,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XSDE",
 					"end": "XSMU",
-					"length": 11
+					"length": 11,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XSMU",
 					"end": "XSGRN",
-					"length": 10
+					"length": 10,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XSGRN",
 					"end": "XSBL",
-					"length": 13
+					"length": 13,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XSBL",
+					"end": "CH:LY",
+					"length": 10,
+					"maxSpeed": 115,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "CH:LY",
 					"end": "XSBE",
-					"length": 33
+					"length": 23,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
 				}
 			]
 		},
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
 			"neededEquipments": [
 				"CH"
 			],
@@ -13850,30 +13893,36 @@
 				{
 					"start": "XSBE",
 					"end": "XSMUS",
-					"length": 16
+					"length": 16,
+					"maxSpeed": 155,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XSMUS",
 					"end": "XSTH",
-					"length": 14
+					"length": 14,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XSTH",
 					"end": "XSSP",
-					"length": 10
+					"length": 10,
+					"maxSpeed": 90,
+					"twistingFactor": 0.24
 				},
 				{
 					"start": "XSSP",
 					"end": "XSIO",
-					"length": 18
+					"length": 18,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
 				}
 			]
 		},
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
 			"neededEquipments": [
 				"CH"
 			],
@@ -13881,86 +13930,136 @@
 				{
 					"start": "XSBL",
 					"end": "XSCO",
-					"length": 21
+					"length": 21,
+					"maxSpeed": 150,
+					"twistingFactor": 0.27
 				},
 				{
 					"start": "XSCO",
 					"end": "XSNC",
-					"length": 8
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "XSNC",
+					"end": "CH:GOR",
+					"length": 17,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "CH:GOR",
 					"end": "XSY",
-					"length": 36
+					"length": 19,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XSY",
+					"end": "CH:CHV",
+					"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "CH:CHV",
+					"end": "CH:COS",
+					"length": 13,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "CH:COS",
 					"end": "XSLA",
-					"length": 39
+					"length": 15,
+					"maxSpeed": 150,
+					"twistingFactor": 0.27
 				}
 			]
 		},
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
 			"neededEquipments": [
 				"CH"
 			],
 			"objects": [
 				{
 					"start": "XSLA",
+					"end": "CH:VV",
+					"length": 19,
+					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "CH:VV",
 					"end": "XSMO",
-					"length": 24
+					"length": 6,
+					"maxSpeed": 135,
+					"twistingFactor": 0.24
 				},
 				{
 					"start": "XSMO",
 					"end": "XSAL",
-					"length": 14
+					"length": 14,
+					"maxSpeed": 140,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "XSAL",
 					"end": "XSMA",
-					"length": 27
+					"length": 27,
+					"maxSpeed": 145,
+					"twistingFactor": 0.27
 				},
 				{
 					"start": "XSMA",
 					"end": "XSSN",
-					"length": 26
+					"length": 26,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
 				},
 				{
 					"start": "XSSN",
 					"end": "XSSI",
-					"length": 15
+					"length": 15,
+					"maxSpeed": 155,
+					"twistingFactor": 0.17
 				},
 				{
 					"start": "XSSI",
 					"end": "XSLE",
-					"length": 9
+					"length": 9,
+					"maxSpeed": 135,
+					"twistingFactor": 0.22
 				},
 				{
 					"start": "XSLE",
 					"end": "XSGM",
-					"length": 8
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XSGM",
 					"end": "XSVI",
-					"length": 10
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XSVI",
 					"end": "XSBG",
-					"length": 8
+					"length": 8,
+					"maxSpeed": 145,
+					"twistingFactor": 0.23
 				}
 			]
 		},
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
 			"neededEquipments": [
 				"CH"
 			],
@@ -13968,45 +14067,64 @@
 				{
 					"start": "XSOL",
 					"end": "XSZG",
-					"length": 8
+					"length": 8,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XSZG",
 					"end": "XSN",
-					"length": 11
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
 				},
 				{
 					"start": "XSN",
 					"end": "XSSUS",
-					"length": 10
+					"length": 10,
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
 				},
 				{
 					"start": "XSSUS",
+					"end": "CH:SEM",
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "CH:SEM",
 					"end": "XSLU",
-					"length": 26
+					"length": 16,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XSLU",
 					"end": "XSKN",
-					"length": 16
+					"length": 16,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XSKN",
 					"end": "XSIM",
-					"length": 3
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XSIM",
 					"end": "XSAG",
-					"length": 8
+					"length": 8,
+					"maxSpeed": 80,
+					"twistingFactor": 0.26
 				}
 			]
 		},
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
 			"neededEquipments": [
 				"CH"
 			],
@@ -14014,35 +14132,43 @@
 				{
 					"start": "XSSM",
 					"end": "XSHR",
-					"length": 5
+					"length": 5,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XSHR",
 					"end": "XSAS",
-					"length": 6
+					"length": 6,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XSAS",
 					"end": "XSRT",
-					"length": 11
+					"length": 11,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
 				},
 				{
 					"start": "XSRT",
 					"end": "XSBU",
-					"length": 14
+					"length": 14,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XSBU",
 					"end": "XSSR",
-					"length": 15
+					"length": 15,
+					"maxSpeed": 125,
+					"twistingFactor": 0.14
 				}
 			]
 		},
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
 			"neededEquipments": [
 				"CH"
 			],
@@ -14050,20 +14176,23 @@
 				{
 					"start": "XSSP",
 					"end": "XSFR",
-					"length": 13
+					"length": 13,
+					"maxSpeed": 100,
+					"twistingFactor": 0.25
 				},
 				{
+					"name": "Lötschberg-Basistunnel",
 					"start": "XSFR",
 					"end": "XSVI",
-					"length": 40
+					"length": 40,
+					"maxSpeed": 250,
+					"twistingFactor": 0.1
 				}
 			]
 		},
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
 			"neededEquipments": [
 				"CH"
 			],
@@ -14071,30 +14200,36 @@
 				{
 					"start": "XSTW",
 					"end": "XSZU",
-					"length": 17
+					"length": 17,
+					"maxSpeed": 100,
+					"twistingFactor": 0.32
 				},
 				{
 					"start": "XSZU",
 					"end": "XSAG",
-					"length": 16
+					"length": 16,
+					"maxSpeed": 75,
+					"twistingFactor": 0.34
 				},
 				{
 					"start": "XSAG",
 					"end": "XSSY",
-					"length": 8
+					"length": 8,
+					"maxSpeed": 95,
+					"twistingFactor": 0.33
 				},
 				{
 					"start": "XSSY",
 					"end": "XSADF",
-					"length": 17
+					"length": 17,
+					"maxSpeed": 125,
+					"twistingFactor": 0.22
 				}
 			]
 		},
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
 			"neededEquipments": [
 				"CH"
 			],
@@ -14102,67 +14237,107 @@
 				{
 					"start": "XSZG",
 					"end": "XSLT",
-					"length": 19
+					"length": 19,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XSLT",
 					"end": "XSHZ",
-					"length": 7
+					"length": 7,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XSHZ",
 					"end": "CH:BDF",
-					"length": 16
+					"length": 16,
+					"maxSpeed": 140,
+					"twistingFactor": 0.26
 				},
 				{
 					"start": "CH:BDF",
 					"end": "XSBE",
-					"length": 21
+					"length": 21,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XSBE",
 					"end": "XSFM",
-					"length": 13
+					"length": 13,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XSFM",
 					"end": "XSF",
-					"length": 18
+					"length": 18,
+					"maxSpeed": 110,
+					"twistingFactor": 0.24
 				},
 				{
 					"start": "XSF",
 					"end": "CH:ROM",
-					"length": 26
+					"length": 26,
+					"maxSpeed": 130,
+					"twistingFactor": 0.27
 				},
 				{
 					"start": "CH:ROM",
+					"end": "CH:PAL",
+					"length": 20,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "CH:PAL",
 					"end": "CH:PUI",
-					"length": 28
+					"length": 9,
+					"maxSpeed": 115,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "CH:PUI",
 					"end": "XSLA",
-					"length": 12
+					"length": 12,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "CH:PUI",
+					"end": "CH:VV",
+					"length": 8,
+					"maxSpeed": 60,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XSLA",
 					"end": "XSMG",
-					"length": 12
+					"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "XSMG",
 					"end": "CH:GLA",
-					"length": 21
+					"length": 21,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "CH:GLA",
 					"end": "CH:NY",
-					"length": 4
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
 				},
 				{
 					"start": "CH:NY",
 					"end": "XSGE",
-					"length": 21
+					"length": 21,
+					"maxSpeed": 145,
+					"twistingFactor": 0.2
 				}
 			]
 		}
