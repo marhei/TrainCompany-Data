@@ -13186,38 +13186,80 @@
 				},
 				{
 					"start": "XAAD",
+					"end": "🇦🇹Ri H1",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹Ri H1",
 					"end": "IXARI",
-					"length": 9,
+					"length": 2,
 					"maxSpeed": 160,
 					"twistingFactor": 0.1
 				},
 				{
 					"start": "IXARI",
-					"end": "XANK",
-					"length": 13,
+					"end": "🇦🇹Neu H2",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹Neu H2",
+					"end": "🇦🇹Neu H1",
+					"length": 5,
 					"maxSpeed": 150,
-					"twistingFactor": 0.4
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇦🇹Neu H1",
+					"end": "XANK",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.15
 				},
 				{
 					"start": "XANK",
+					"end": "🇦🇹Gk H1",
+					"length": 5,
+					"maxSpeed": 130,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇦🇹Gk H1",
 					"end": "XAGP",
-					"length": 11,
+					"length": 6,
 					"maxSpeed": 140,
-					"twistingFactor": 0.2
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XAGP",
+					"end": "🇦🇹Wa H1",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹Wa H1",
 					"end": "XASBW",
-					"length": 7,
+					"length": 5,
 					"maxSpeed": 160,
 					"twistingFactor": 0.1
 				},
 				{
 					"start": "XASBW",
-					"end": "XAWE",
-					"length": 13,
+					"end": "🇦🇹Had",
+					"length": 5,
 					"maxSpeed": 120,
-					"twistingFactor": 0.1
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇦🇹Had",
+					"end": "XAWE",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.25
 				}
 			]
 		},
@@ -13608,7 +13650,8 @@
 			]
 		},
 		{
-			"maxSpeed": 160,
+			"name": "Westbahn",
+			"maxSpeed": 230,
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -13617,24 +13660,52 @@
 			"objects": [
 				{
 					"start": "XASB",
-					"end": "XAHE",
-					"length": 8,
+					"end": "🇦🇹Hw H1",
+					"length": 4,
 					"maxSpeed": 95,
-					"twistingFactor": 0.35
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇦🇹Hw H1",
+					"end": "XAHE",
+					"length": 5,
+					"maxSpeed": 95,
+					"twistingFactor": 0.4
 				},
 				{
 					"start": "XAHE",
+					"end": "XAED",
+					"length": 3,
+					"maxSpeed": 95,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XAED",
 					"end": "XASK",
-					"length": 6,
+					"length": 4,
 					"maxSpeed": 110,
-					"twistingFactor": 0.2
+					"twistingFactor": 0.15
 				},
 				{
 					"start": "XASK",
-					"end": "XANKD",
-					"length": 1,
-					"maxSpeed": 130,
+					"end": "XAWAL",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XAWAL",
+					"end": "🇦🇹Nst H1",
+					"length": 3,
+					"maxSpeed": 140,
 					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹Nst H1",
+					"end": "XANKD",
+					"length": 5,
+					"maxSpeed": 130,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "XANKD",
@@ -13652,10 +13723,31 @@
 				},
 				{
 					"start": "XASR",
+					"end": "🇦🇹Edb H1",
+					"length": 4,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇦🇹Edb H1",
+					"end": "🇦🇹Edb",
+					"length": 4,
+					"maxSpeed": 130,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇦🇹Edb",
+					"end": "🇦🇹Fm H1",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇦🇹Fm H1",
 					"end": "XAFA",
-					"length": 17,
+					"length": 7,
 					"maxSpeed": 110,
-					"twistingFactor": 0.45
+					"twistingFactor": 0.35
 				},
 				{
 					"start": "XAFA",
@@ -13666,42 +13758,88 @@
 				},
 				{
 					"start": "XAVM",
-					"end": "XAVB",
-					"length": 16,
+					"end": "🇦🇹Rz",
+					"length": 5,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇦🇹Rz",
+					"end": "🇦🇹Tm H1",
+					"length": 3,
 					"maxSpeed": 160,
 					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇦🇹Tm H1",
+					"end": "🇦🇹Tm",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹Tm",
+					"end": "XAVB",
+					"length": 6,
+					"maxSpeed": 150,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XAVB",
 					"end": "XAAT",
 					"length": 5,
 					"maxSpeed": 130,
-					"twistingFactor": 0.15
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XAAT",
-					"end": "XALB",
-					"length": 17,
+					"end": "🇦🇹Sas",
+					"length": 6,
 					"maxSpeed": 160,
-					"twistingFactor": 0.2
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹Sas",
+					"end": "🇦🇹Bre",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇦🇹Bre",
+					"end": "🇦🇹La H2",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹La H2",
+					"end": "🇦🇹La H1",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹La H1",
+					"end": "XALB",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
 				},
 				{
 					"start": "XALB",
+					"end": "🇦🇹Gun",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹Gun",
 					"end": "XAWE",
-					"length": 14,
+					"length": 8,
 					"maxSpeed": 160,
 					"twistingFactor": 0.2
-				}
-			]
-		},
-		{
-			"maxSpeed": 160,
-			"electrified": true,
-			"group": 0,
-			"neededEquipments": [
-				"AT"
-			],
-			"objects": [
+				},
 				{
 					"start": "XAWE",
 					"end": "XAMR",
@@ -13711,17 +13849,38 @@
 				},
 				{
 					"start": "XAMR",
+					"end": "🇦🇹Hoe H1",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹Hoe H1",
 					"end": "XAHOG",
-					"length": 9,
+					"length": 4,
 					"maxSpeed": 160,
 					"twistingFactor": 0.1
 				},
 				{
 					"start": "XAHOG",
-					"end": "XAL",
-					"length": 10,
+					"end": "🇦🇹Lz H2",
+					"length": 3,
 					"maxSpeed": 160,
 					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹Lz H2",
+					"end": "🇦🇹Lz H1",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇦🇹Lz H1",
+					"end": "XAL",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.25
 				}
 			]
 		},
