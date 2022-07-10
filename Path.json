@@ -3135,6 +3135,8 @@
 		},
 		{
 			"name": "Thüringer Stammbahn",
+			"twistingFactor": 0.1,
+			"maxSpeed": 120,
 			"objects": [
 				{
 					"start": "FB",
@@ -3177,6 +3179,88 @@
 					"length": 7,
 					"twistingFactor": 0.1,
 					"maxSpeed": 120
+				},
+				{
+					"start": "UWM",
+					"end": "UOM",
+					"length": 8
+				},
+				{
+					"start": "UOM",
+					"end": "UAP",
+					"length": 7
+				},
+				{
+					"start": "UAP",
+					"end": "UNTA",
+					"length": 5
+				},
+				{
+					"start": "UNTA",
+					"end": "UBS",
+					"length": 5
+				},
+				{
+					"start": "UBS",
+					"end": "UGH",
+					"length": 2
+				},
+				{
+					"start": "UGH",
+					"end": "UKO",
+					"length": 5
+				},
+				{
+					"start": "UKO",
+					"end": "UNM",
+					"length": 7,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UNM",
+					"end": "ULL",
+					"length": 8,
+					"maxSpeed": 140
+				},
+				{
+					"start": "ULL",
+					"end": "LGC",
+					"length": 13
+				},
+				{
+					"start": "LGC",
+					"end": "LDBG",
+					"length": 5
+				},
+				{
+					"start": "LDBG",
+					"end": "LKTU",
+					"length": 3
+				},
+				{
+					"start": "LKTU",
+					"end": "LGL",
+					"length": 3
+				},
+				{
+					"start": "LGL",
+					"end": "LMKS",
+					"length": 4
+				},
+				{
+					"start": "LMKS",
+					"end": "LMIZ",
+					"length": 3
+				},
+				{
+					"start": "LMIZ",
+					"end": "LRMF",
+					"length": 2
+				},
+				{
+					"start": "LRMF",
+					"end": "LL",
+					"length": 9
 				}
 			]
 		},
