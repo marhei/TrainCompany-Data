@@ -7807,6 +7807,27 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": ["FR"],
+			"objects": [
+				{
+					"start": "XFWBG",
+					"end": "XFHG",
+					"length": 33,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFHG",
+					"end": "XFVH",
+					"length": 24,
+					"maxSpeed": 160,
+					"twistingFactor": 0.26
+				}
+			]
+		},
+		{
 			"name": "Mannheim–Stuttgart",
 			"electrified": true,
 			"group": 2,
@@ -8896,6 +8917,44 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": ["FR"],
+			"maxSpeed": 130,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XFFB",
+					"end": "XFBE",
+					"length": 8,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XFBE",
+					"end": "XFSA",
+					"length": 11,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XFSA",
+					"end": "XFF",
+					"length": 11,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XFF",
+					"end": "XFHN",
+					"length": 10,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XFHN",
+					"end": "🇫🇷BDCT",
+					"length": 8
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"maxSpeed": 80,
 			"group": 1,
@@ -9007,8 +9066,13 @@
 				},
 				{
 					"start": "XFVH",
+					"end": "🇫🇷BDCT",
+					"length": 109
+				},
+				{
+					"start": "🇫🇷BDCT",
 					"end": "XFLR",
-					"length": 126
+					"length": 18
 				},
 				{
 					"start": "XFLR",
