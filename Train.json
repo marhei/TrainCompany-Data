@@ -304,6 +304,26 @@
 			]
 		},
 		{
+			"id": 563,
+			"group": 2,
+			"name": "Mireo Plus H",
+			"shortcut": "BR 563",
+			"speed": 160,
+			"weight": 101,
+			"force": 112,
+			"length": 63,
+			"drive": 5,
+			"reliability": 0.9,
+			"cost": 900000,
+			"operationCosts": 100,
+			"range": 1000,
+			"exchangeTime": 60,
+			"maxConnectedUnits": 2,
+			"capacity": [
+				{"name": "passengers", "value": 160}
+			]
+		},
+		{
 			"id": 428,
 			"group": 2,
 			"name": "Stadler FLIRT 2",
@@ -452,10 +472,10 @@
 			"length": 189,
 			"drive": 1,
 			"reliability": 1,
-			"cost": 1800000,
+			"cost": 1700000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 2,
-			"equipments": ["CH"],
+			"equipments": ["CH", "ETCS"],
 			"neededEquipments": ["CH"],
 			"capacity": [
 				{"name": "passengers", "value": 457},
@@ -696,6 +716,25 @@
 			]
 		},
 		{
+			"id": 650,
+			"group": 2,
+			"name": "Stadler RegioShuttle RS1",
+			"shortcut": "BR 650",
+			"speed": 120,
+			"weight": 40,
+			"force": 55,
+			"length": 24,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 230000,
+			"operationCosts": 42,
+			"maxConnectedUnits": 6,
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 86}
+			]
+		},
+		{
 			"id": 33,
 			"group": 2,
 			"name": "CargoSprinter",
@@ -924,6 +963,22 @@
 			"cost": 400000,
 			"operationCosts": 80,
 			"equipments": ["ETCS", "FR", "CH", "AT"]
+		},
+		{
+			"id": 2159,
+			"group": 0,
+			"name": "Stadler EuroDual",
+			"shortcut": "BR 159",
+			"speed": 160,
+			"weight": 123,
+			"force": 500,
+			"length": 23,
+			"drive": 4,
+			"range": 1000,
+			"reliability": 1,
+			"cost": 600000,
+			"operationCosts": 130,
+			"equipments": [ "FR", "ETCS", "AT" ]
 		},
 		{
 			"id": 460,
@@ -1437,7 +1492,7 @@
 			"reliability": 0.9,
 			"cost": 580000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [251,15,6,28,245],
+			"compatibleWith": [251,15,6,28,245,2159],
 			"exchangeTime": 120,
 			"equivalentTo": 4,
 			"capacity": [
@@ -1456,7 +1511,7 @@
 			"reliability": 0.9,
 			"cost": 850000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [251,15,6,28,245],
+			"compatibleWith": [251,15,6,28,245,2159],
 			"exchangeTime": 120,
 			"equivalentTo": 6,
 			"capacity": [
@@ -1518,7 +1573,7 @@
 			"reliability": 1,
 			"cost": 1800000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [ 251, 245, 5, 28, 26, 193, 15, 30, 29, 6, 102, 2026 ],
+			"compatibleWith": [ 251, 245, 5, 28, 26, 193, 15, 30, 29, 6, 102, 2026, 2159 ],
 			"exchangeTime": 60,
 			"equivalentTo": 17,
 			"capacity": [
