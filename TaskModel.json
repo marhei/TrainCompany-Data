@@ -2386,6 +2386,18 @@
 		},
 		{
 			"group": 0,
+			"name": "Castor-Transport von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Die Franzosen haben Interesse an deutschen Brennstäben nach dem Atomaustieg. Bringe die Brennstäbe von %s nach %s."
+			],
+			"stations": [ "XFFB" ],
+			"neededCapacity": [
+				{ "name": "castor", "value": 10 }
+			]
+		},
+		{
+			"group": 0,
 			"name": "Flugersatzverkehr von %s nach %s",
 			"service": 4,
 			"descriptions": [
