@@ -192,10 +192,25 @@
 				"Fahre über die LGV von %s nach %s."
 			],
 			"stations": [ "FF", "RM", "RK", "XFSTG", "XFPO" ],
-			"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFPO" ],
+			"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "🇫🇷BDCT", "XFPO" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "OUIGO von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre die Passagiere für wenig Geld schnell nach %2$s.",
+				"Bringe viele Leute so billig wie möglich von %s nach %s.",
+				"Fahre den Zug mit wenig Komfort über die LGV nach %2$s."
+			],
+			"stations": [ "XFPO", "XFSTG" ],
+			"pathSuggestion": [ "XFPO", "🇫🇷BDCT", "XFVH", "XFSTG" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
