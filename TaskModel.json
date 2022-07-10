@@ -171,11 +171,11 @@
 			"objects": [
 				{
 					"stations": [ "FF", "RM", "SKL", "SSH", "XFFB", "XFPO" ],
-					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB", "🇫🇷BDCT", "XFPO" ]
+					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB", "🇫🇷BDC", "XFPO" ]
 				},
 				{
 					"stations": [ "FF", "RM", "RK", "XFSTG", "XFPO" ],
-					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "🇫🇷BDCT", "XFPO" ]
+					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "🇫🇷BDC", "XFPO" ]
 				}
 			],
 			"neededCapacity": [
@@ -192,8 +192,16 @@
 				"Bringe viele Leute so billig wie möglich von %s nach %s.",
 				"Fahre den Zug mit wenig Komfort über die LGV nach %2$s."
 			],
-			"stations": [ "XFPO", "XFSTG" ],
-			"pathSuggestion": [ "XFPO", "🇫🇷BDCT", "XFVH", "XFSTG" ],
+			"objects": [
+				{
+					"stations": [ "XFPO", "XFSTG" ],
+					"pathSuggestion": [ "XFPO", "🇫🇷BDC", "XFVH", "XFSTG" ]
+				},
+				{
+					"stations": [ "XFPG", "XFLPD" ],
+					"pathSuggestion": [ "XFPG", "🇫🇷PAI", "XFLPD" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -375,6 +383,23 @@
 					"stations": [ "XSB", "XFMV", "XFBMT", "XFPG" ]
 				}
 			]
+		},
+		{
+			"name": "TGV InOui von %s nach %s",
+			"descriptions": [
+				"Bringe den TGV von %s nach %s.",
+				"Bring die Fahrgäste in dem TGV pünktlich nach %2$s.",
+				"Fahre den TGV störungsfrei nach %2$s.",
+				"Bringe den TGV pünktlich über die SFS von %s nach %s"
+			],
+			"stations": [ "XFPG", "XFLC", "XFLPD" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 250400,
+			"group": 1,
+			"service": 0,
+			"pathSuggestion": [ "XFPG", "🇫🇷PAI", "XFLC", "XFLPD" ]
 		},
 		{
 			"group": 0,
