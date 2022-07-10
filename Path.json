@@ -7618,8 +7618,16 @@
 				},
 				{
 					"start": "RRA",
+					"end": "RDRM",
+					"length": 9,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 160
+				},
+				{
+					"start": "RDRM",
 					"end": "RK",
-					"length": 21,
+					"length": 13,
 					"twistingFactor": 0.1,
 					"group": 0,
 					"maxSpeed": 160
@@ -9574,6 +9582,20 @@
 					"end": "RK",
 					"length": 21,
 					"twistingFactor": 0.3
+				},
+				{
+					"start": "RK",
+					"end": "RETL",
+					"maxSpeed": 160,
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RRA",
+					"end": "RETL",
+					"maxSpeed": 160,
+					"length": 17,
+					"twistingFactor": 0.1
 				}
 			]
 		},
