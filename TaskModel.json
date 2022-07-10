@@ -351,6 +351,32 @@
 			"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RB", "XSB", "XSOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSL", "XSCH" ]
 		},
 		{
+			"name": "TGV Lyria von %s nach %s",
+			"descriptions": [
+				"Bringe den TGV von %s nach %s.",
+				"Bring die Fahrgäste in dem TGV pünktlich nach %2$s.",
+				"Fahre den TGV zwischen Schweiz und Frankreich nach %2$s.",
+				"Bring den TGV Lyria von %s nach %s.",
+				"Bringe den TGV pünktlich über die SFS von %s nach %s"
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 288000,
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "XSB", "XFMV", "XFD", "XFPG" ],
+					"pathSuggestion": [ "XSB", "XFMV", "XFD", "🇫🇷PAI", "XFPG" ]
+				},
+				{
+					"pathSuggestion": [ "XSB", "XFMV", "XFBMT", "🇫🇷PAI", "XFPG" ],
+					"stations": [ "XSB", "XFMV", "XFBMT", "XFPG" ]
+				}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Eröffnungs-ICE nach %2$s",
 			"service": 0,
@@ -704,9 +730,15 @@
 				"Um dem bestellten Einsatz gerecht zu werden, müssen Fahrgäste von %s nach %s im Netz Chiemgau-Inntal befördert werden."
 			],
 			"objects": [
-				{"stations": ["MH", "MRO", "MBEF", "MPR", "MUS", "MTS", "MTO", "MFL", "XASB"]},
-				{"stations": ["MH", "MRO"]},
-				{"stations": ["MH", "MRO", "MBEF", "MPR", "MUS", "MTS"]}
+				{
+					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS", "MTO", "MFL", "XASB" ]
+				},
+				{
+					"stations": [ "MH", "MRO" ]
+				},
+				{
+					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS" ]
+				}
 			],
 			"stopsEverywhere": false,
 			"neededCapacity": [
@@ -722,10 +754,18 @@
 				"Ein Polizeieinsatz hat den Bahnverkehr zum erliegen gebracht. Ein SEV für den Streckenabschnitt wurde eingerichtet. Fahre einen Pendelzug zwischen %s und %s."
 			],
 			"objects": [
-				{"stations": ["MH", "MRO", "MBEF", "MPR"]},
-				{"stations": ["MH", "MRO"]},
-				{"stations": ["MTS", "MTO", "MFL", "XASB"]},
-				{"stations": ["MPR", "MUS", "MTS", "MTO", "MFL", "XASB"]}
+				{
+					"stations": [ "MH", "MRO", "MBEF", "MPR" ]
+				},
+				{
+					"stations": [ "MH", "MRO" ]
+				},
+				{
+					"stations": [ "MTS", "MTO", "MFL", "XASB" ]
+				},
+				{
+					"stations": [ "MPR", "MUS", "MTS", "MTO", "MFL", "XASB" ]
+				}
 			],
 			"stopsEverywhere": false,
 			"neededCapacity": [
@@ -811,8 +851,12 @@
 			],
 			"service": 2,
 			"objects": [
-				{"stations": ["MFHM", "MNF", "MH"]},
-				{"stations": ["MFR", "MPU", "MNF", "MH"]}
+				{
+					"stations": [ "MFHM", "MNF", "MH" ]
+				},
+				{
+					"stations": [ "MFR", "MPU", "MNF", "MH" ]
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -827,7 +871,7 @@
 				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen."
 			],
 			"service": 2,
-			"stations": ["MFHM", "MFR", "MMB", "MLA", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH"],
+			"stations": [ "MFHM", "MFR", "MMB", "MLA", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
@@ -841,11 +885,11 @@
 				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen."
 			],
 			"service": 2,
-			"stations": ["MH", "MFR", "MMB", "MLA", "MERB", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH", "NBE", "NPB", "NNT", "NN"],
+			"stations": [ "MH", "MFR", "MMB", "MLA", "MERB", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH", "NBE", "NPB", "NNT", "NN" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
-			"pathSuggestion": [ "MH", "MNF", "MPU", "MFR", "MMB", "MLA", "MERB", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH", "NBE", "NPB", "NNT", "NN"]
+			"pathSuggestion": [ "MH", "MNF", "MPU", "MFR", "MMB", "MLA", "MERB", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH", "NBE", "NPB", "NNT", "NN" ]
 		},
 		{
 			"group": 1,
@@ -856,12 +900,12 @@
 			],
 			"objects": [
 				{
-					"stations": ["MH", "MFR", "MLA", "MNFR", "NRH", "NRGF", "NMXH", "NSCH", "NWDO", "NALW", "NWU", "NMR", "NHO"],
-					"pathSuggestion": ["MH", "MNF", "MPU", "MFR", "MLA", "MNFR", "NOT", "NRH", "NRGF", "NMXH", "NSCH", "NWDO", "NALW", "NWU", "NMR", "NOKP", "NHO"]
+					"stations": [ "MH", "MFR", "MLA", "MNFR", "NRH", "NRGF", "NMXH", "NSCH", "NWDO", "NALW", "NWU", "NMR", "NHO" ],
+					"pathSuggestion": [ "MH", "MNF", "MPU", "MFR", "MLA", "MNFR", "NOT", "NRH", "NRGF", "NMXH", "NSCH", "NWDO", "NALW", "NWU", "NMR", "NOKP", "NHO" ]
 				},
 				{
-					"stations": ["MH", "MFR", "MLA", "MNFR", "NRH", "NRGF", "NMXH", "NSCH", "NROD", "NCH", "NFW"],
-					"pathSuggestion": ["MH", "MNF", "MPU", "MFR", "MLA", "MNFR", "NOT", "NRH", "NRGF", "NMXH", "NSCH", "NROD", "NCH", "NFW"]
+					"stations": [ "MH", "MFR", "MLA", "MNFR", "NRH", "NRGF", "NMXH", "NSCH", "NROD", "NCH", "NFW" ],
+					"pathSuggestion": [ "MH", "MNF", "MPU", "MFR", "MLA", "MNFR", "NOT", "NRH", "NRGF", "NMXH", "NSCH", "NROD", "NCH", "NFW" ]
 				}
 			],
 			"stopsEverywhere": false,
@@ -1103,7 +1147,7 @@
 			"descriptions": [
 				"Fahre den RE 5 auf der Württembergischen Südbahn von %s nach %s."
 			],
-			"stations": [ "MLIR", "TLR" ,"TF", "TMK", "TRB", "TAU", "TBSC", "TBI", "TLW", "TU", "TG", "TGO", "TP", "TE", "TS" ],
+			"stations": [ "MLIR", "TLR", "TF", "TMK", "TRB", "TAU", "TBSC", "TBI", "TLW", "TU", "TG", "TGO", "TP", "TE", "TS" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -2440,7 +2484,7 @@
 				},
 				{
 					"stations": [ "TFFL", "FFLF" ],
-					"pathSuggestion": [ "TFFL", "TAU", "TBI", "TU", "TMKL", "TS", "TV", "RBR", "RSAB", "RM", "FBL", "FFLF"]
+					"pathSuggestion": [ "TFFL", "TAU", "TBI", "TU", "TMKL", "TS", "TV", "RBR", "RSAB", "RM", "FBL", "FFLF" ]
 				},
 				{
 					"stations": [ "TFFL", "BFBI" ],
