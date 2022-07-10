@@ -8979,6 +8979,82 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 2,
+			"twistingFactor": 0.1,
+			"maxSpeed": 320,
+			"name": "LGV Est-Européenne",
+			"neededEquipments": [
+				"FR",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XFSTG",
+					"end": "XFMUM",
+					"length": 7,
+					"maxSpeed": 160,
+					"name": ""
+				},
+				{
+					"start": "XFMUM",
+					"end": "XFVH",
+					"length": 2,
+					"maxSpeed": 160,
+					"name": ""
+				},
+				{
+					"start": "XFVH",
+					"end": "XFLR",
+					"length": 126
+				},
+				{
+					"start": "XFLR",
+					"end": "XFMU",
+					"length": 67
+				},
+				{
+					"start": "XFMU",
+					"end": "XFCV",
+					"length": 99
+				},
+				{
+					"start": "XFCV",
+					"end": "XFVAR",
+					"length": 114
+				},
+				{
+					"start": "XFVAR",
+					"end": "XFCSG",
+					"length": 4,
+					"name": "",
+					"maxSpeed": 220
+				},
+				{
+					"start": "XFCSG",
+					"end": "XFRVM",
+					"length": 5,
+					"name": "",
+					"maxSpeed": 160
+				},
+				{
+					"start": "XFRVM",
+					"end": "XFNO",
+					"length": 3,
+					"name": "",
+					"maxSpeed": 130
+				},
+				{
+					"start": "XFNO",
+					"end": "XFPO",
+					"length": 8,
+					"name": "",
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"maxSpeed": 140,
 			"name": "Emslandstrecke",
 			"electrified": true,
