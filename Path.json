@@ -1802,9 +1802,15 @@
 				},
 				{
 					"start": "HG",
-					"end": "HH",
-					"length": 100,
+					"end": "HHML",
+					"length": 92,
 					"maxSpeed": 250
+				},
+				{
+					"start": "HHML",
+					"end": "HH",
+					"length": 8,
+					"maxSpeed": 160
 				}
 			]
 		},
@@ -4865,8 +4871,8 @@
 				},
 				{
 					"start": "HELZ",
-					"end": "HH",
-					"length": 33
+					"end": "HHML",
+					"length": 25
 				}
 			]
 		},
@@ -5653,6 +5659,15 @@
 			"start": "HELZ",
 			"end": "HHI",
 			"twistingFactor": 0.25
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"maxSpeed": 160,
+			"length": 28,
+			"start": "HHI",
+			"end": "HHML",
+			"twistingFactor": 0.27
 		},
 		{
 			"electrified": true,

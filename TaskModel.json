@@ -2541,6 +2541,28 @@
 			"neededCapacity": [
 				{ "name": "oil", "value": 720 }
 			]
+		},
+		{
+			"group": 0,
+			"name": "Messeverkehr von %s nach %s",
+			"service": 4,
+			"descriptions": [
+				"Bringe die Besucher von %s zurück nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"objects": [
+				{
+					"stations": [ "MAGM" ]
+				},
+				{
+					"stations": [ "LHME" ]
+				},
+				{
+					"stations": [ "HHML" ]
+				}
+			]
 		}
 	]
 }
