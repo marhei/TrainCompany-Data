@@ -2391,7 +2391,12 @@
 			"descriptions": [
 				"Die Franzosen haben Interesse an deutschen Brennstäben nach dem Atomaustieg. Bringe die Brennstäbe von %s nach %s."
 			],
-			"stations": [ "XFFB" ],
+			"objects": [
+				{ "stations": [ "AWIR", "XFFB" ] },
+				{ "stations": [ "MLA", "XFFB" ] },
+				{ "stations": [ "TKA", "XFFB" ] },
+				{ "stations": [ "HLIG", "XFFB" ] }
+			],
 			"neededCapacity": [
 				{ "name": "castor", "value": 10 }
 			]
