@@ -1896,6 +1896,18 @@
 		},
 		{
 			"group": 0,
+			"name": "Fischtransport von %s nach %s.",
+			"descriptions": [
+				"Bringe mit Fischen beladene LKW von %s nach %s."
+			],
+			"stations": [ "SWAB", "XAWE" ],
+			"plops": 300000,
+			"neededCapacity": [
+				{ "name": "containers", "value": 15 }
+			]
+		},
+		{
+			"group": 0,
 			"name": "Schwerer Containerzug von %s nach %s.",
 			"descriptions": [
 				"In %s hat ein neues Einkaufszentrum eröffnet! Bringe schnell die benötigten Waren dorthin.",
