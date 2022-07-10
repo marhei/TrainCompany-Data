@@ -139,7 +139,7 @@
 					"description": "Länge der Strecke",
 					"type": "integer",
 					"minimum": 1,
-					"maximum": 150
+					"maximum": 300
 				},
 				"maxSpeed": {
 					"description": "Höchstgeschwindigkeit des Streckenabschnitts",
@@ -160,7 +160,13 @@
 						"examples": [
 							"ETCS",
 							"KRM",
-							"FR"
+							"FR",
+							"TVM",
+							"NL",
+							"CZ",
+							"CH",
+							"AT",
+							"bostrab"
 						]
 					}
 				},

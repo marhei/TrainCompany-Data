@@ -36,7 +36,7 @@
 			"cost": 4500000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 75,
-			"equipments": ["ETCS", "KRM", "NL"],
+			"equipments": ["ETCS", "KRM", "NL", "TVM"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 425},
@@ -57,7 +57,7 @@
 			"cost": 5000000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "KRM", "FR"],
+			"equipments": ["ETCS", "KRM", "FR", "TVM"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 460},
@@ -163,7 +163,7 @@
 			"reliability": 1,
 			"cost": 5600000,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "FR", "CH"],
+			"equipments": ["ETCS", "FR", "TVM", "CH"],
 			"maxConnectedUnits": 2,
 			"exchangeTime": 150,
 			"capacity": [
@@ -285,6 +285,26 @@
 			]
 		},
 		{
+			"id": 51500,
+			"group": 2,
+			"name": "Alstom Coradia Polyvalent",
+			"shortcut": "Régiolis",
+			"speed": 160,
+			"weight": 145,
+			"force": 144,
+			"length": 72,
+			"drive": 4,
+			"range": 500,
+			"reliability": 0.9,
+			"cost": 900000,
+			"operationCosts": 45,
+			"maxConnectedUnits": 2,
+			"equipments": ["FR", "ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 220}
+			]
+		},
+		{
 			"id": 4744,
 			"group": 2,
 			"name": "Siemens Desiro ML",
@@ -322,26 +342,6 @@
 			"compatibleWith": [21, 211],
 			"capacity": [
 				{"name": "passengers", "value": 200}
-			]
-		},
-		{
-			"id": 563,
-			"group": 2,
-			"name": "Mireo Plus H",
-			"shortcut": "BR 563",
-			"speed": 160,
-			"weight": 101,
-			"force": 112,
-			"length": 63,
-			"drive": 5,
-			"reliability": 0.9,
-			"cost": 900000,
-			"operationCosts": 100,
-			"range": 1000,
-			"exchangeTime": 60,
-			"maxConnectedUnits": 2,
-			"capacity": [
-				{"name": "passengers", "value": 160}
 			]
 		},
 		{
@@ -567,6 +567,46 @@
 			]
 		},
 		{
+			"id": 563,
+			"group": 2,
+			"name": "Siemens Mireo Plus H",
+			"shortcut": "BR 563",
+			"speed": 160,
+			"weight": 101,
+			"force": 112,
+			"length": 63,
+			"drive": 5,
+			"reliability": 0.9,
+			"cost": 900000,
+			"operationCosts": 100,
+			"range": 1000,
+			"exchangeTime": 60,
+			"maxConnectedUnits": 2,
+			"capacity": [
+				{"name": "passengers", "value": 160}
+			]
+		},
+		{
+			"id": 654,
+			"group": 2,
+			"name": "Alstom Coradia iLint",
+			"shortcut": "iLint",
+			"speed": 140,
+			"weight": 98,
+			"force": 87,
+			"length": 54,
+			"drive": 5,
+			"range": 1000,
+			"reliability": 0.95,
+			"cost": 850000,
+			"operationCosts": 90,
+			"exchangeTime": 60,
+			"maxConnectedUnits": 2,
+			"capacity": [
+				{"name": "passengers", "value": 138}
+			]
+		},
+		{
 			"id": 2,
 			"group": 2,
 			"name": "RegioSwinger",
@@ -601,6 +641,25 @@
 			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 164}
+			]
+		},
+		{
+			"id": 5001,
+			"group": 2,
+			"name": "DSB MF",
+			"speed": 180,
+			"weight": 97,
+			"force": 107,
+			"length": 59,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 900000,
+			"operationCosts": 90,
+			"maxConnectedUnits": 5,
+			"exchangeTime": 80,
+			"equipments": ["ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 144}
 			]
 		},
 		{
@@ -657,6 +716,25 @@
 			"maxConnectedUnits": 4,
 			"capacity": [
 				{"name": "passengers", "value": 240}
+			]
+		},
+		{
+			"id": 641,
+			"group": 2,
+			"name": "Alstom Coradia A TER",
+			"shortcut": "BR 641",
+			"speed": 120,
+			"weight": 49,
+			"force": 38,
+			"length": 28,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 240000,
+			"operationCosts": 50,
+			"maxConnectedUnits": 3,
+			"equipments": ["FR"],
+			"capacity": [
+				{"name": "passengers", "value": 80}
 			]
 		},
 		{

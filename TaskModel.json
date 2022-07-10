@@ -165,22 +165,45 @@
 			"name": "Alleo-ICE von %s nach %s",
 			"service": 0,
 			"descriptions": [
-				"Auf dem französischen Abschnitt ist ein Umstieg in einen Zug der SNCF nötig.",
-				"Aufgrund des Alleo-Winterkonzeptes wird auf dem französchen Teil nach/von Paris ein Zug der SNCF gestellt."
+				"Bringe den internationalen Zug schnell nach %2$s.",
+				"Fahre über die LGV von %s nach %s."
 			],
 			"objects": [
 				{
-					"stations": [ "FF", "RM", "SKL", "SSH", "XFFB" ],
-					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
+					"stations": [ "FF", "RM", "SKL", "SSH", "XFFB", "XFPO" ],
+					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB", "🇫🇷BDC", "XFPO" ]
 				},
 				{
-					"stations": [ "FF", "RM", "RK", "XFSTG" ],
-					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG" ]
+					"stations": [ "FF", "RM", "RK", "XFSTG", "XFPO" ],
+					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "🇫🇷BDC", "XFPO" ]
 				}
 			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "OUIGO von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre die Passagiere für wenig Geld schnell nach %2$s.",
+				"Bringe viele Leute so billig wie möglich von %s nach %s.",
+				"Fahre den Zug mit wenig Komfort über die LGV nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "XFPO", "XFSTG" ],
+					"pathSuggestion": [ "XFPO", "🇫🇷BDC", "XFVH", "XFSTG" ]
+				},
+				{
+					"stations": [ "XFPG", "XFLPD" ],
+					"pathSuggestion": [ "XFPG", "🇫🇷PAI", "XFLPD" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
@@ -334,6 +357,49 @@
 			"group": 1,
 			"service": 0,
 			"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RB", "XSB", "XSOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSL", "XSCH" ]
+		},
+		{
+			"name": "TGV Lyria von %s nach %s",
+			"descriptions": [
+				"Bringe den TGV von %s nach %s.",
+				"Bring die Fahrgäste in dem TGV pünktlich nach %2$s.",
+				"Fahre den TGV zwischen Schweiz und Frankreich nach %2$s.",
+				"Bring den TGV Lyria von %s nach %s.",
+				"Bringe den TGV pünktlich über die SFS von %s nach %s"
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 288000,
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "XSB", "XFMV", "XFD", "XFPG" ],
+					"pathSuggestion": [ "XSB", "XFMV", "XFD", "🇫🇷PAI", "XFPG" ]
+				},
+				{
+					"pathSuggestion": [ "XSB", "XFMV", "XFBMT", "🇫🇷PAI", "XFPG" ],
+					"stations": [ "XSB", "XFMV", "XFBMT", "XFPG" ]
+				}
+			]
+		},
+		{
+			"name": "TGV InOui von %s nach %s",
+			"descriptions": [
+				"Bringe den TGV von %s nach %s.",
+				"Bring die Fahrgäste in dem TGV pünktlich nach %2$s.",
+				"Fahre den TGV störungsfrei nach %2$s.",
+				"Bringe den TGV pünktlich über die SFS von %s nach %s"
+			],
+			"stations": [ "XFPG", "XFLC", "XFLPD" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"plops": 250400,
+			"group": 1,
+			"service": 0,
+			"pathSuggestion": [ "XFPG", "🇫🇷PAI", "XFLC", "XFLPD" ]
 		},
 		{
 			"group": 0,
@@ -689,9 +755,15 @@
 				"Um dem bestellten Einsatz gerecht zu werden, müssen Fahrgäste von %s nach %s im Netz Chiemgau-Inntal befördert werden."
 			],
 			"objects": [
-				{"stations": ["MH", "MRO", "MBEF", "MPR", "MUS", "MTS", "MTO", "MFL", "XASB"]},
-				{"stations": ["MH", "MRO"]},
-				{"stations": ["MH", "MRO", "MBEF", "MPR", "MUS", "MTS"]}
+				{
+					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS", "MTO", "MFL", "XASB" ]
+				},
+				{
+					"stations": [ "MH", "MRO" ]
+				},
+				{
+					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS" ]
+				}
 			],
 			"stopsEverywhere": false,
 			"neededCapacity": [
@@ -707,10 +779,18 @@
 				"Ein Polizeieinsatz hat den Bahnverkehr zum erliegen gebracht. Ein SEV für den Streckenabschnitt wurde eingerichtet. Fahre einen Pendelzug zwischen %s und %s."
 			],
 			"objects": [
-				{"stations": ["MH", "MRO", "MBEF", "MPR"]},
-				{"stations": ["MH", "MRO"]},
-				{"stations": ["MTS", "MTO", "MFL", "XASB"]},
-				{"stations": ["MPR", "MUS", "MTS", "MTO", "MFL", "XASB"]}
+				{
+					"stations": [ "MH", "MRO", "MBEF", "MPR" ]
+				},
+				{
+					"stations": [ "MH", "MRO" ]
+				},
+				{
+					"stations": [ "MTS", "MTO", "MFL", "XASB" ]
+				},
+				{
+					"stations": [ "MPR", "MUS", "MTS", "MTO", "MFL", "XASB" ]
+				}
 			],
 			"stopsEverywhere": false,
 			"neededCapacity": [
@@ -796,8 +876,12 @@
 			],
 			"service": 2,
 			"objects": [
-				{"stations": ["MFHM", "MNF", "MH"]},
-				{"stations": ["MFR", "MPU", "MNF", "MH"]}
+				{
+					"stations": [ "MFHM", "MNF", "MH" ]
+				},
+				{
+					"stations": [ "MFR", "MPU", "MNF", "MH" ]
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -812,7 +896,7 @@
 				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen."
 			],
 			"service": 2,
-			"stations": ["MFHM", "MFR", "MMB", "MLA", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH"],
+			"stations": [ "MFHM", "MFR", "MMB", "MLA", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
@@ -826,11 +910,11 @@
 				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen."
 			],
 			"service": 2,
-			"stations": ["MH", "MFR", "MMB", "MLA", "MERB", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH", "NBE", "NPB", "NNT", "NN"],
+			"stations": [ "MH", "MFR", "MMB", "MLA", "MERB", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH", "NBE", "NPB", "NNT", "NN" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
-			"pathSuggestion": [ "MH", "MNF", "MPU", "MFR", "MMB", "MLA", "MERB", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH", "NBE", "NPB", "NNT", "NN"]
+			"pathSuggestion": [ "MH", "MNF", "MPU", "MFR", "MMB", "MLA", "MERB", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH", "NBE", "NPB", "NNT", "NN" ]
 		},
 		{
 			"group": 1,
@@ -841,12 +925,12 @@
 			],
 			"objects": [
 				{
-					"stations": ["MH", "MFR", "MLA", "MNFR", "NRH", "NRGF", "NMXH", "NSCH", "NWDO", "NALW", "NWU", "NMR", "NHO"],
-					"pathSuggestion": ["MH", "MNF", "MPU", "MFR", "MLA", "MNFR", "NOT", "NRH", "NRGF", "NMXH", "NSCH", "NWDO", "NALW", "NWU", "NMR", "NOKP", "NHO"]
+					"stations": [ "MH", "MFR", "MLA", "MNFR", "NRH", "NRGF", "NMXH", "NSCH", "NWDO", "NALW", "NWU", "NMR", "NHO" ],
+					"pathSuggestion": [ "MH", "MNF", "MPU", "MFR", "MLA", "MNFR", "NOT", "NRH", "NRGF", "NMXH", "NSCH", "NWDO", "NALW", "NWU", "NMR", "NOKP", "NHO" ]
 				},
 				{
-					"stations": ["MH", "MFR", "MLA", "MNFR", "NRH", "NRGF", "NMXH", "NSCH", "NROD", "NCH", "NFW"],
-					"pathSuggestion": ["MH", "MNF", "MPU", "MFR", "MLA", "MNFR", "NOT", "NRH", "NRGF", "NMXH", "NSCH", "NROD", "NCH", "NFW"]
+					"stations": [ "MH", "MFR", "MLA", "MNFR", "NRH", "NRGF", "NMXH", "NSCH", "NROD", "NCH", "NFW" ],
+					"pathSuggestion": [ "MH", "MNF", "MPU", "MFR", "MLA", "MNFR", "NOT", "NRH", "NRGF", "NMXH", "NSCH", "NROD", "NCH", "NFW" ]
 				}
 			],
 			"stopsEverywhere": false,
@@ -1088,7 +1172,7 @@
 			"descriptions": [
 				"Fahre den RE 5 auf der Württembergischen Südbahn von %s nach %s."
 			],
-			"stations": [ "MLIR", "TLR" ,"TF", "TMK", "TRB", "TAU", "TBSC", "TBI", "TLW", "TU", "TG", "TGO", "TP", "TE", "TS" ],
+			"stations": [ "MLIR", "TLR", "TF", "TMK", "TRB", "TAU", "TBSC", "TBI", "TLW", "TU", "TG", "TGO", "TP", "TE", "TS" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -2454,7 +2538,7 @@
 				},
 				{
 					"stations": [ "TFFL", "FFLF" ],
-					"pathSuggestion": [ "TFFL", "TAU", "TBI", "TU", "TMKL", "TS", "TV", "RBR", "RSAB", "RM", "FBL", "FFLF"]
+					"pathSuggestion": [ "TFFL", "TAU", "TBI", "TU", "TMKL", "TS", "TV", "RBR", "RSAB", "RM", "FBL", "FFLF" ]
 				},
 				{
 					"stations": [ "TFFL", "BFBI" ],
@@ -2554,6 +2638,28 @@
 			"stations": [ "WR", "WZIR" ],
 			"neededCapacity": [
 				{ "name": "oil", "value": 720 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Messeverkehr von %s nach %s",
+			"service": 4,
+			"descriptions": [
+				"Bringe die Besucher von %s zurück nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"objects": [
+				{
+					"stations": [ "MAGM" ]
+				},
+				{
+					"stations": [ "LHME" ]
+				},
+				{
+					"stations": [ "HHML" ]
+				}
 			]
 		}
 	]
