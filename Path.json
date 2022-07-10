@@ -5017,6 +5017,62 @@
 			]
 		},
 		{
+			"start": "XFPG",
+			"end": "XFCQ",
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": true,
+			"length": 26,
+			"maxSpeed": 155,
+			"twistingFactor": 0.3,
+			"group": 0
+		},
+		{
+			"electrified": true,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.1,
+			"name": "LGV Sud-Est",
+			"objects": [
+				{
+					"start": "XFCQ",
+					"end": "🇫🇷PAI",
+					"length": 164
+				},
+				{
+					"start": "🇫🇷PAI",
+					"end": "XFLC",
+					"length": 113
+				},
+				{
+					"start": "XFLC",
+					"end": "XFMAL",
+					"length": 60
+				},
+				{
+					"start": "XFMAL",
+					"end": "XFSRI",
+					"length": 55
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"FR"
+			],
+			"start": "XFSRI",
+			"end": "XFLPD",
+			"length": 8,
+			"maxSpeed": 90,
+			"group": 0,
+			"twistingFactor": 0.3
+		},
+		{
 			"name": "Mönchengladbach - Düsseldorf",
 			"group": 0,
 			"electrified": true,
@@ -6076,6 +6132,40 @@
 			]
 		},
 		{
+			"electrified": true,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
+			"group": 2,
+			"maxSpeed": 320,
+			"twistingFactor": 0.1,
+			"name": "LGV Rhin-Rhône",
+			"objects": [
+				{
+					"start": "XFD",
+					"end": "XFB",
+					"length": 77
+				},
+				{
+					"start": "XFB",
+					"end": "XFBMT",
+					"length": 82
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"FR"
+			],
+			"start": "XFBMT",
+			"end": "XFMV",
+			"length": 45,
+			"maxSpeed": 160,
+			"group": 0,
+			"twistingFactor": 0.25
+		},
+		{
 			"maxSpeed": 120,
 			"electrified": false,
 			"group": 1,
@@ -6255,6 +6345,39 @@
 					"length": 7
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 200,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFMV",
+					"end": "XFSTL",
+					"length": 27
+				},
+				{
+					"start": "XFSTL",
+					"end": "XSB",
+					"length": 6
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 0,
+			"maxSpeed": 90,
+			"electrified": true,
+			"start": "XFMV",
+			"end": "RML",
+			"twistingFactor": 0.2,
+			"length": 22
 		},
 		{
 			"group": 1,
@@ -6744,6 +6867,42 @@
 					"start": "ASC",
 					"end": "AR",
 					"length": 12
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.24,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷PAI",
+					"end": "🇫🇷MBA",
+					"length": 23
+				},
+				{
+					"start": "🇫🇷MBA",
+					"end": "XFLLA",
+					"length": 13
+				},
+				{
+					"start": "XFLLA",
+					"end": "🇫🇷BSB",
+					"length": 31
+				},
+				{
+					"start": "🇫🇷BSB",
+					"end": "🇫🇷MLI",
+					"length": 7
+				},
+				{
+					"start": "🇫🇷MLI",
+					"end": "XFD",
+					"length": 19
 				}
 			]
 		},
@@ -7824,7 +7983,9 @@
 		{
 			"electrified": false,
 			"group": 0,
-			"neededEquipments": ["FR"],
+			"neededEquipments": [
+				"FR"
+			],
 			"objects": [
 				{
 					"start": "XFWBG",
@@ -8934,7 +9095,9 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": ["FR"],
+			"neededEquipments": [
+				"FR"
+			],
 			"maxSpeed": 130,
 			"twistingFactor": 0.2,
 			"objects": [
@@ -8964,7 +9127,7 @@
 				},
 				{
 					"start": "XFHN",
-					"end": "🇫🇷BDCT",
+					"end": "🇫🇷BDC",
 					"length": 8
 				}
 			]
@@ -9081,11 +9244,11 @@
 				},
 				{
 					"start": "XFVH",
-					"end": "🇫🇷BDCT",
+					"end": "🇫🇷BDC",
 					"length": 109
 				},
 				{
-					"start": "🇫🇷BDCT",
+					"start": "🇫🇷BDC",
 					"end": "XFLR",
 					"length": 18
 				},
