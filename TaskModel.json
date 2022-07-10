@@ -165,34 +165,19 @@
 			"name": "Alleo-ICE von %s nach %s",
 			"service": 0,
 			"descriptions": [
-				"Auf dem französischen Abschnitt ist ein Umstieg in einen Zug der SNCF nötig.",
-				"Aufgrund des Alleo-Winterkonzeptes wird auf dem französchen Teil nach/von Paris ein Zug der SNCF gestellt."
-			],
-			"objects": [
-				{
-					"stations": [ "FF", "RM", "SKL", "SSH", "XFFB" ],
-					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
-				},
-				{
-					"stations": [ "FF", "RM", "RK", "XFSTG" ],
-					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG" ]
-				}
-			],
-			"neededCapacity": [
-				{ "name": "passengers", "value": 0 },
-				{ "name": "bistroseats", "value": 0 }
-			]
-		},
-		{
-			"group": 1,
-			"name": "Alleo-ICE von %s nach %s",
-			"service": 0,
-			"descriptions": [
 				"Bringe den internationalen Zug schnell nach %2$s.",
 				"Fahre über die LGV von %s nach %s."
 			],
-			"stations": [ "FF", "RM", "RK", "XFSTG", "XFPO" ],
-			"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "🇫🇷BDCT", "XFPO" ],
+			"objects": [
+				{
+					"stations": [ "FF", "RM", "SKL", "SSH", "XFFB", "XFPO" ],
+					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB", "🇫🇷BDCT", "XFPO" ]
+				},
+				{
+					"stations": [ "FF", "RM", "RK", "XFSTG", "XFPO" ],
+					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "🇫🇷BDCT", "XFPO" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
