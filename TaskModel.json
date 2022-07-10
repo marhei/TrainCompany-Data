@@ -185,6 +185,21 @@
 		},
 		{
 			"group": 1,
+			"name": "Alleo-ICE von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Bringe den internationalen Zug schnell nach %2$s.",
+				"Fahre über die LGV von %s nach %s."
+			],
+			"stations": [ "FF", "RM", "RK", "XFSTG", "XFPO" ],
+			"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFPO" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Thalys von %s nach %s",
 			"service": 0,
 			"descriptions": [
