@@ -172,6 +172,27 @@
 			]
 		},
 		{
+			"id": 501,
+			"group": 2,
+			"name": "Stadler SMILE",
+			"shortcut": "RABe 501",
+			"speed": 250,
+			"weight": 454,
+			"force": 300,
+			"length": 202,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 2250000,
+			"operationCosts": 60,
+			"equipments": ["ETCS", "CH", "AT"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 409},
+				{"name": "bistroseats", "value": 17}
+			]
+		},
+		{
 			"id": 420,
 			"group": 2,
 			"name": "BR 420",
@@ -283,6 +304,26 @@
 			]
 		},
 		{
+			"id": 563,
+			"group": 2,
+			"name": "Mireo Plus H",
+			"shortcut": "BR 563",
+			"speed": 160,
+			"weight": 101,
+			"force": 112,
+			"length": 63,
+			"drive": 5,
+			"reliability": 0.9,
+			"cost": 900000,
+			"operationCosts": 100,
+			"range": 1000,
+			"exchangeTime": 60,
+			"maxConnectedUnits": 2,
+			"capacity": [
+				{"name": "passengers", "value": 160}
+			]
+		},
+		{
 			"id": 428,
 			"group": 2,
 			"name": "Stadler FLIRT 2",
@@ -341,9 +382,29 @@
 			]
 		},
 		{
+			"id": 526,
+			"group": 2,
+			"name": "Stadler Traverso",
+			"shortcut": "Traverso",
+			"speed": 160,
+			"weight": 260,
+			"force": 400,
+			"length": 150,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 600000,
+			"maxConnectedUnits": 2,
+			"equipments": ["CH", "ETCS"],
+			"neededEquipments": ["CH"],
+			"capacity": [
+				{"name": "passengers", "value": 384},
+				{"name": "bistroseats", "value": 4}
+			]
+		},
+		{
 			"id": 1,
 			"group": 2,
-			"name": "Stadler KISS",
+			"name": "Stadler KISS 160",
 			"shortcut": "BR 445",
 			"speed": 160,
 			"weight": 298,
@@ -361,6 +422,25 @@
 			]
 		},
 		{
+			"id": 4010,
+			"group": 2,
+			"name": "Stadler KISS 200",
+			"shortcut": "KISS-FV",
+			"speed": 200,
+			"weight": 212,
+			"force": 320,
+			"length": 101,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 1400000,
+			"operationCosts": 70,
+			"equipments": ["ETCS", "CH", "AT"],
+			"capacity": [
+				{"name": "passengers", "value": 323},
+				{"name": "bistroseats", "value": 8}
+			]
+		},
+		{
 			"id": 502,
 			"group": 2,
 			"name": "Bombardier Twindexx Express",
@@ -371,7 +451,7 @@
 			"length": 201,
 			"drive": 1,
 			"reliability": 0.85,
-			"cost": 1300000,
+			"cost": 1400000,
 			"operationCosts": 66,
 			"maxConnectedUnits": 2,
 			"equipments": [ "CH", "ETCS" ],
@@ -379,6 +459,27 @@
 			"capacity": [
 				{"name": "passengers", "value": 682},
 				{"name": "bistroseats", "value": 29}
+			]
+		},
+		{
+			"id": 500,
+			"group": 2,
+			"name": "ICN RABDe 500",
+			"shortcut": "ICN",
+			"speed": 200,
+			"weight": 395,
+			"force": 210,
+			"length": 189,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 1700000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 2,
+			"equipments": ["CH", "ETCS"],
+			"neededEquipments": ["CH"],
+			"capacity": [
+				{"name": "passengers", "value": 457},
+				{"name": "bistroseats", "value": 20}
 			]
 		},
 		{
@@ -615,6 +716,25 @@
 			]
 		},
 		{
+			"id": 650,
+			"group": 2,
+			"name": "Stadler RegioShuttle RS1",
+			"shortcut": "BR 650",
+			"speed": 120,
+			"weight": 40,
+			"force": 55,
+			"length": 24,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 230000,
+			"operationCosts": 42,
+			"maxConnectedUnits": 6,
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 86}
+			]
+		},
+		{
 			"id": 33,
 			"group": 2,
 			"name": "CargoSprinter",
@@ -674,6 +794,19 @@
 			"operationCosts": 120
 		},
 		{
+			"id": 111,
+			"group": 0,
+			"name": "BR 111",
+			"speed": 160,
+			"weight": 83,
+			"force": 274,
+			"length": 17,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 230000,
+			"operationCosts": 120
+		},
+		{
 			"id": 112,
 			"group": 0,
 			"name": "BR 112",
@@ -684,7 +817,20 @@
 			"drive": 1,
 			"reliability": 0.9,
 			"cost": 230000,
-			"operationCosts": 80
+			"operationCosts": 120
+		},
+		{
+			"id": 120,
+			"group": 0,
+			"name": "BR 120",
+			"speed": 200,
+			"weight": 84,
+			"force": 250,
+			"length": 19,
+			"drive": 1,
+			"reliability": 1.0,
+			"cost": 320000,
+			"operationCosts": 110
 		},
 		{
 			"id": 2026,
@@ -788,6 +934,22 @@
 			"equipments": ["ETCS", "CZ", "CH", "AT", "NL"]
 		},
 		{
+			"id": 248,
+			"group": 0,
+			"name": "Siemens Vectron DM",
+			"shortcut": "BR 248",
+			"speed": 160,
+			"weight": 90,
+			"force": 300,
+			"length": 19,
+			"drive": 4,
+			"range": 300,
+			"reliability": 1,
+			"cost": 550000,
+			"operationCosts": 110,
+			"equipments": ["ETCS", "CH", "AT"]
+		},
+		{
 			"id": 28,
 			"group": 0,
 			"name": "Bombardier Traxx F140 AC2",
@@ -801,6 +963,37 @@
 			"cost": 400000,
 			"operationCosts": 80,
 			"equipments": ["ETCS", "FR", "CH", "AT"]
+		},
+		{
+			"id": 2159,
+			"group": 0,
+			"name": "Stadler EuroDual",
+			"shortcut": "BR 159",
+			"speed": 160,
+			"weight": 123,
+			"force": 500,
+			"length": 23,
+			"drive": 4,
+			"range": 1000,
+			"reliability": 1,
+			"cost": 600000,
+			"operationCosts": 130,
+			"equipments": [ "FR", "ETCS", "AT" ]
+		},
+		{
+			"id": 460,
+			"group": 0,
+			"name": "Re 460",
+			"speed": 200,
+			"weight": 84,
+			"force": 300,
+			"length": 19,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 380000,
+			"operationCosts": 90,
+			"equipments": ["CH"],
+			"neededEquipments": ["CH"]
 		},
 		{
 			"id": 5,
@@ -1085,6 +1278,58 @@
 			]
 		},
 		{
+			"id": 2000,
+			"group": 1,
+			"name": "IC2000 Dosto",
+			"shortcut": "IC2000",
+			"speed": 200,
+			"weight": 53,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 250000,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 120}
+			]
+		},
+		{
+			"id": 20001,
+			"group": 1,
+			"name": "IC2000 Dosto Bistrowagen",
+			"shortcut": "IC2000-BR",
+			"speed": 200,
+			"weight": 56,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 260000,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "bistroseats", "value": 16},
+				{"name": "passengers", "value": 40}
+			]
+		},
+		{
+			"id": 20002,
+			"group": 1,
+			"name": "IC2000 Dosto Speisewagen",
+			"shortcut": "IC2000-WRB",
+			"speed": 200,
+			"weight": 56,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 260000,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "bistroseats", "value": 26}
+			]
+		},
+		{
 			"id": 7,
 			"group": 1,
 			"name": "Doppelstock-Wagen",
@@ -1247,7 +1492,7 @@
 			"reliability": 0.9,
 			"cost": 580000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [251,15,6,28,245],
+			"compatibleWith": [251,15,6,28,245,2159],
 			"exchangeTime": 120,
 			"equivalentTo": 4,
 			"capacity": [
@@ -1266,7 +1511,7 @@
 			"reliability": 0.9,
 			"cost": 850000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [251,15,6,28,245],
+			"compatibleWith": [251,15,6,28,245,2159],
 			"exchangeTime": 120,
 			"equivalentTo": 6,
 			"capacity": [
@@ -1328,7 +1573,7 @@
 			"reliability": 1,
 			"cost": 1800000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [ 251, 245, 5, 28, 26, 193, 15, 30, 29, 6, 102, 2026 ],
+			"compatibleWith": [ 251, 245, 5, 28, 26, 193, 15, 30, 29, 6, 102, 2026, 2159 ],
 			"exchangeTime": 60,
 			"equivalentTo": 17,
 			"capacity": [
