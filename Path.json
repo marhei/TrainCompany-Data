@@ -7257,7 +7257,9 @@
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.2,
-			"neededEquipments": ["FR"],
+			"neededEquipments": [
+				"FR"
+			],
 			"objects": [
 				{
 					"start": "XFLPD",
@@ -7326,7 +7328,10 @@
 					"length": 14,
 					"maxSpeed": 110,
 					"twistingFactor": 0.3,
-					"neededEquipments": ["CH", "FR"]
+					"neededEquipments": [
+						"CH",
+						"FR"
+					]
 				}
 			]
 		},
@@ -10142,6 +10147,44 @@
 					"length": 21,
 					"maxSpeed": 80,
 					"twistingFactor": 0.35
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": -1,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"objects": [
+				{
+					"start": "XFPO",
+					"end": "🇫🇷VEMARS",
+					"length": 27
+				},
+				{
+					"start": "🇫🇷VEMARS",
+					"end": "XFHP",
+					"length": 98
+				},
+				{
+					"start": "XFHP",
+					"end": "XFLIE",
+					"length": 99
+				},
+				{
+					"start": "XFLIE",
+					"end": "XFFE",
+					"length": 101
+				},
+				{
+					"start": "XFFE",
+					"end": "🇬🇧ETUK",
+					"length": 55
+				},
+				{
+					"start": "🇬🇧ETUK",
+					"end": "XKAI",
+					"length": 20
 				}
 			]
 		},
