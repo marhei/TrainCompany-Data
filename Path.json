@@ -2445,6 +2445,10 @@
 			"name": "LGV Interconnexion Est",
 			"twistingFactor": 0.17,
 			"maxSpeed": 270,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
 			"objects": [
 				{
 					"start": "🇫🇷MOIS",
@@ -7253,6 +7257,7 @@
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.2,
+			"neededEquipments": ["FR"],
 			"objects": [
 				{
 					"start": "XFLPD",
@@ -7320,7 +7325,8 @@
 					"end": "XSGE",
 					"length": 14,
 					"maxSpeed": 110,
-					"twistingFactor": 0.3
+					"twistingFactor": 0.3,
+					"neededEquipments": ["CH", "FR"]
 				}
 			]
 		},
@@ -13725,6 +13731,62 @@
 					"start": "XSOB",
 					"end": "XSZO",
 					"length": 8
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"name": "LGV Nord",
+			"maxSpeed": 300,
+			"twistingFactor": 0.14,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
+			"objects": [
+				{
+					"start": "XFPO",
+					"end": "🇫🇷VEMARS",
+					"length": 27
+				},
+				{
+					"start": "🇫🇷VEMARS",
+					"end": "XFHP",
+					"length": 98
+				},
+				{
+					"start": "XFHP",
+					"end": "XFLIE",
+					"length": 99
+				},
+				{
+					"start": "XFLIE",
+					"end": "XFFE",
+					"length": 101
+				},
+				{
+					"start": "XFFE",
+					"end": "🇬🇧ETUK",
+					"length": 55,
+					"name": "Eurotunnel",
+					"maxSpeed": 160,
+					"neededEquipments": [
+						"FR",
+						"Eurotunnel",
+						"TVM"
+					]
+				},
+				{
+					"start": "🇬🇧ETUK",
+					"end": "XKAI",
+					"length": 20,
+					"name": "HS1",
+					"neededEquipments": [
+						"Eurotunnel",
+						"TVM",
+						"FR"
+					]
 				}
 			]
 		},
