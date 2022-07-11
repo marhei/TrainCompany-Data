@@ -9096,24 +9096,27 @@
 					"start": "XFBE",
 					"end": "XFSA",
 					"length": 11,
-					"twistingFactor": 0.3
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XFSA",
 					"end": "XFF",
 					"length": 11,
-					"twistingFactor": 0.25
+					"twistingFactor": 0.1,
+					"maxSpeed": 150
 				},
 				{
 					"start": "XFF",
 					"end": "XFHN",
 					"length": 10,
-					"twistingFactor": 0.1
+					"twistingFactor": 0.1,
+					"maxSpeed": 150
 				},
 				{
 					"start": "XFHN",
 					"end": "🇫🇷BDC",
-					"length": 8
+					"length": 8,
+					"maxSpeed": 160
 				}
 			]
 		},
