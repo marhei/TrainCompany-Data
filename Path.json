@@ -9423,6 +9423,29 @@
 			]
 		},
 		{
+			"name": "Ligne 1 PE-SG",
+			"maxSpeed": 160,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFSTG",
+					"end": "XFMUM",
+					"group": 0,
+					"length": 7,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XFMUM",
+					"end": "XFVH",
+					"group": 0,
+					"length": 2,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 2,
 			"twistingFactor": 0.1,
@@ -9433,22 +9456,6 @@
 				"TVM"
 			],
 			"objects": [
-				{
-					"start": "XFSTG",
-					"end": "XFMUM",
-					"group": 0,
-					"length": 7,
-					"maxSpeed": 160,
-					"name": ""
-				},
-				{
-					"start": "XFMUM",
-					"end": "XFVH",
-					"group": 0,
-					"length": 2,
-					"maxSpeed": 160,
-					"name": ""
-				},
 				{
 					"start": "XFVH",
 					"end": "🇫🇷BDC",
