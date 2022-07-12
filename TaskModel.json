@@ -2697,6 +2697,20 @@
 		},
 		{
 			"group": 0,
+			"name": "Selfkantbahn von %s nach %s",
+			"service": 4,
+			"descriptions": [
+				"Bringe die Ausflügler von %s nach $s",
+				"Fahre den Museumszug von %s nach %s"
+			],
+			"stations": [ "KSCH", "KGIR" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 0,
 			"name": "Alpen-Sylt-Nachtexpress von %s nach %s",
 			"service": 1,
 			"descriptions": [
