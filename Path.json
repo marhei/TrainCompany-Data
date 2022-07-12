@@ -15183,6 +15183,44 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.18,
+			"neededEquipments": [
+				"BE"
+			],
+			"objects": [
+				{
+					"start": "XBB",
+					"end": "XBVV",
+					"length": 13,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XBVV",
+					"end": "XBWD",
+					"length": 6
+				},
+				{
+					"start": "XBWD",
+					"end": "XBMCH",
+					"length": 4
+				},
+				{
+					"start": "XBMCH",
+					"end": "XBKTH",
+					"length": 13
+				},
+				{
+					"start": "XBKTH",
+					"end": "XBAC",
+					"length": 10
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"neededEquipments": [
 				"CH"
 			],
