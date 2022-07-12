@@ -165,10 +165,53 @@
 			"operationCosts": 70,
 			"equipments": ["ETCS", "FR", "TVM", "CH"],
 			"maxConnectedUnits": 2,
+			"compatibleWith": [4403, 4501],
 			"exchangeTime": 150,
 			"capacity": [
 				{"name": "passengers", "value": 509},
 				{"name": "bistroseats", "value": 8 }
+			]
+		},
+		{
+			"id": 4403,
+			"group": 2,
+			"name": "TGV POS",
+			"speed": 320,
+			"weight": 383,
+			"force": 300,
+			"length": 200,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 4800000,
+			"operationCosts": 60,
+			"equipments": ["FR", "TVM", "CH"],
+			"maxConnectedUnits": 2,
+			"compatibleWith": [4701, 4501],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 400},
+				{"name": "bistroseats", "value": 10}
+			]
+		},
+		{
+			"id": 4501,
+			"group": 2,
+			"name": "TGV Réseau",
+			"speed": 320,
+			"weight": 383,
+			"force": 300,
+			"length": 200,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 4400000,
+			"operationCosts": 60,
+			"equipments": ["FR", "TVM", "BE", "NL"],
+			"neededEquipments": ["FR", "BE", "NL"],
+			"compatibleWith": [4403, 4701, 409],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 361},
+				{"name": "bistroseats", "value": 10}
 			]
 		},
 		{
@@ -230,6 +273,7 @@
 			"operationCosts": 72,
 			"equipments": ["FR", "NL", "BE", "TVM", "ETCS"],
 			"maxConnectedUnits": 2,
+			"compatibleWith": [4501],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 377},
