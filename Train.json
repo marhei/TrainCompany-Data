@@ -699,6 +699,31 @@
 			]
 		},
 		{
+			"id": 9040,
+			"group": 2,
+			"name": "Eurotunnel Le Shuttle",
+			"shortcut": "Le Shuttle",
+			"speed": 160,
+			"weight": 1020,
+			"force": 800,
+			"length": 750,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 1,
+			"equipments": [
+				"Eurotunnel",
+				"TVM",
+				"FR",
+				"GB"
+			],
+			"neededEquipments": ["Eurotunnel"],
+			"operationCosts": 200,
+			"cost": 2900000,
+			"capacity": [
+				{"name": "cars", "value": 132}
+			]
+		},
+		{
 			"id": 563,
 			"group": 2,
 			"name": "Siemens Mireo Plus H",
