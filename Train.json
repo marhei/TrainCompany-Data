@@ -163,7 +163,7 @@
 			"reliability": 1,
 			"cost": 5600000,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "FR", "TVM", "CH"],
+			"equipments": ["ETCS", "FR", "TVM", "CH", "LU"],
 			"maxConnectedUnits": 2,
 			"exchangeTime": 150,
 			"capacity": [
@@ -184,8 +184,8 @@
 			"reliability": 1,
 			"cost": 7200000,
 			"operationCosts": 130,
-			"equipments": ["FR", "BE", "TVM", "Eurotunnel"],
-			"neededEquipments": ["FR", "BE"],
+			"equipments": ["GB", "FR", "BE", "TVM", "Eurotunnel"],
+			"neededEquipments": ["GB", "FR", "BE"],
 			"maxConnectedUnits": 1,
 			"exchangeTime": 120,
 			"capacity": [
@@ -206,8 +206,8 @@
 			"reliability": 1,
 			"cost": 8600000,
 			"operationCosts": 130,
-			"equipments": ["FR", "BE", "NL", "TVM", "ETCS", "Eurotunnel"],
-			"neededEquipments": ["FR", "BE", "NL"],
+			"equipments": ["GB", "FR", "BE", "NL", "TVM", "ETCS", "Eurotunnel"],
+			"neededEquipments": ["GB", "FR", "BE", "NL"],
 			"maxConnectedUnits": 1,
 			"exchangeTime": 120,
 			"capacity": [
@@ -502,7 +502,7 @@
 			"cost": 800000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
-			"equipments": ["CH", "AT"],
+			"equipments": ["CH", "AT", "LU"],
 			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
