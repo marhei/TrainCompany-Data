@@ -184,7 +184,7 @@
 			"reliability": 1,
 			"cost": 7200000,
 			"operationCosts": 130,
-			"equipments": ["FR", "TVM", "Eurotunnel"],
+			"equipments": ["FR", "BE", "TVM", "Eurotunnel"],
 			"neededEquipments": ["FR"],
 			"maxConnectedUnits": 1,
 			"exchangeTime": 120,
@@ -204,15 +204,36 @@
 			"length": 390,
 			"drive": 1,
 			"reliability": 1,
-			"cost": 850000,
+			"cost": 860000,
 			"operationCosts": 130,
-			"equipments": ["FR", "TVM", "ETCS"],
+			"equipments": ["FR", "BE", "NL", "TVM", "ETCS"],
 			"neededEquipments": ["FR"],
 			"maxConnectedUnits": 1,
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 894},
 				{"name": "bistroseats", "value": 20}
+			]
+		},
+		{
+			"id": 409,
+			"group": 2,
+			"name": "Thalys PBKA",
+			"shortcut": "BR 409",
+			"speed": 300,
+			"weight": 383,
+			"force": 300,
+			"length": 200,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 5000000,
+			"operationCosts": 72,
+			"equipments": ["FR", "NL", "BE", "TVM", "ETCS"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 377},
+				{"name": "bistroseats", "value": 10}
 			]
 		},
 		{
