@@ -6372,7 +6372,80 @@
 			]
 		},
 		{
+			"maxSpeed": 140,
 			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "MH",
+					"end": "MGT",
+					"length": 18,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "MGT",
+					"end": "MST",
+					"length": 9,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MST",
+					"end": "MPH",
+					"length": 5,
+					"twistingFactor": 0.225
+				},
+				{
+					"start": "MPH",
+					"end": "MTZ",
+					"length": 7,
+					"twistingFactor": 0.425
+				},
+				{
+					"start": "MTZ",
+					"end": "MPZ",
+					"length": 22,
+					"twistingFactor": 0.45,
+					"maxSpeed": 100,
+					"name": "Kochelseebahn"
+				},
+				{
+					"start": "MPZ",
+					"end": "MKCH",
+					"length": 13,
+					"maxSpeed": 100,
+					"twistingFactor": 0.385,
+					"name": "Kochelseebahn"
+				},
+				{
+					"start": "MTZ",
+					"end": "MWH",
+					"length": 14,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "MWH",
+					"end": "MMU",
+					"length": 21,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "MMU",
+					"end": "MOA",
+					"length": 23,
+					"twistingFactor": 0.49,
+					"maxSpeed": 60,
+					"name": "Ammergaubahn"
+				},
+				{
+					"start": "MMU",
+					"end": "MGP",
+					"length": 26,
+					"twistingFactor": 0.4,
+					"electrified": true
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 200,
 			"twistingFactor": 0.2,
