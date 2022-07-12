@@ -23,6 +23,27 @@
 			]
 		},
 		{
+			"id": 403,
+			"group": 2,
+			"name": "ICE 3",
+			"shortcut": "BR 403/406",
+			"speed": 330,
+			"weight": 409,
+			"force": 300,
+			"length": 201,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 4500000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 75,
+			"equipments": ["ETCS", "KRM", "NL", "BE"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 425},
+				{"name": "bistroseats", "value": 22 }
+			]
+		},
+		{
 			"id": 0,
 			"group": 2,
 			"name": "ICE 3",
@@ -36,7 +57,7 @@
 			"cost": 5000000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "KRM", "FR", "NL"],
+			"equipments": ["ETCS", "KRM", "FR", "TVM"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 460},
@@ -142,12 +163,77 @@
 			"reliability": 1,
 			"cost": 5600000,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "FR", "CH"],
+			"equipments": ["ETCS", "FR", "TVM", "CH", "LU"],
 			"maxConnectedUnits": 2,
 			"exchangeTime": 150,
 			"capacity": [
 				{"name": "passengers", "value": 509},
 				{"name": "bistroseats", "value": 8 }
+			]
+		},
+		{
+			"id": 373,
+			"group": 2,
+			"name": "TGV/Eurostar TMST",
+			"shortcut": "TMST",
+			"speed": 300,
+			"weight": 752,
+			"force": 410,
+			"length": 387,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 7200000,
+			"operationCosts": 130,
+			"equipments": ["GB", "FR", "BE", "TVM", "Eurotunnel"],
+			"neededEquipments": ["GB", "FR", "BE"],
+			"maxConnectedUnits": 1,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 750},
+				{"name": "bistroseats", "value": 20}
+			]
+		},
+		{
+			"id": 374,
+			"group": 2,
+			"name": "Siemens Velaro e320",
+			"shortcut": "e320",
+			"speed": 320,
+			"weight": 921,
+			"force": 500,
+			"length": 390,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 8600000,
+			"operationCosts": 130,
+			"equipments": ["GB", "FR", "BE", "NL", "TVM", "ETCS", "Eurotunnel"],
+			"neededEquipments": ["GB", "FR", "BE", "NL"],
+			"maxConnectedUnits": 1,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 894},
+				{"name": "bistroseats", "value": 20}
+			]
+		},
+		{
+			"id": 409,
+			"group": 2,
+			"name": "Thalys PBKA",
+			"shortcut": "BR 409",
+			"speed": 300,
+			"weight": 383,
+			"force": 300,
+			"length": 200,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 5000000,
+			"operationCosts": 72,
+			"equipments": ["FR", "NL", "BE", "TVM", "ETCS"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 377},
+				{"name": "bistroseats", "value": 10}
 			]
 		},
 		{
@@ -264,6 +350,26 @@
 			]
 		},
 		{
+			"id": 51500,
+			"group": 2,
+			"name": "Alstom Coradia Polyvalent",
+			"shortcut": "Régiolis",
+			"speed": 160,
+			"weight": 145,
+			"force": 144,
+			"length": 72,
+			"drive": 4,
+			"range": 500,
+			"reliability": 0.9,
+			"cost": 900000,
+			"operationCosts": 45,
+			"maxConnectedUnits": 2,
+			"equipments": ["FR", "ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 220}
+			]
+		},
+		{
 			"id": 4744,
 			"group": 2,
 			"name": "Siemens Desiro ML",
@@ -301,26 +407,6 @@
 			"compatibleWith": [21, 211],
 			"capacity": [
 				{"name": "passengers", "value": 200}
-			]
-		},
-		{
-			"id": 563,
-			"group": 2,
-			"name": "Mireo Plus H",
-			"shortcut": "BR 563",
-			"speed": 160,
-			"weight": 101,
-			"force": 112,
-			"length": 63,
-			"drive": 5,
-			"reliability": 0.9,
-			"cost": 900000,
-			"operationCosts": 100,
-			"range": 1000,
-			"exchangeTime": 60,
-			"maxConnectedUnits": 2,
-			"capacity": [
-				{"name": "passengers", "value": 160}
 			]
 		},
 		{
@@ -393,6 +479,7 @@
 			"drive": 1,
 			"reliability": 1,
 			"cost": 600000,
+			"operationCosts": 60,
 			"maxConnectedUnits": 2,
 			"equipments": ["CH", "ETCS"],
 			"neededEquipments": ["CH"],
@@ -415,7 +502,7 @@
 			"cost": 800000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
-			"equipments": ["CH", "AT"],
+			"equipments": ["CH", "AT", "LU"],
 			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
@@ -546,6 +633,46 @@
 			]
 		},
 		{
+			"id": 563,
+			"group": 2,
+			"name": "Siemens Mireo Plus H",
+			"shortcut": "BR 563",
+			"speed": 160,
+			"weight": 101,
+			"force": 112,
+			"length": 63,
+			"drive": 5,
+			"reliability": 0.9,
+			"cost": 900000,
+			"operationCosts": 100,
+			"range": 1000,
+			"exchangeTime": 60,
+			"maxConnectedUnits": 2,
+			"capacity": [
+				{"name": "passengers", "value": 160}
+			]
+		},
+		{
+			"id": 654,
+			"group": 2,
+			"name": "Alstom Coradia iLint",
+			"shortcut": "iLint",
+			"speed": 140,
+			"weight": 98,
+			"force": 87,
+			"length": 54,
+			"drive": 5,
+			"range": 1000,
+			"reliability": 0.95,
+			"cost": 850000,
+			"operationCosts": 90,
+			"exchangeTime": 60,
+			"maxConnectedUnits": 2,
+			"capacity": [
+				{"name": "passengers", "value": 138}
+			]
+		},
+		{
 			"id": 2,
 			"group": 2,
 			"name": "RegioSwinger",
@@ -580,6 +707,25 @@
 			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 164}
+			]
+		},
+		{
+			"id": 5001,
+			"group": 2,
+			"name": "DSB MF",
+			"speed": 180,
+			"weight": 97,
+			"force": 107,
+			"length": 59,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 900000,
+			"operationCosts": 90,
+			"maxConnectedUnits": 5,
+			"exchangeTime": 80,
+			"equipments": ["ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 144}
 			]
 		},
 		{
@@ -636,6 +782,25 @@
 			"maxConnectedUnits": 4,
 			"capacity": [
 				{"name": "passengers", "value": 240}
+			]
+		},
+		{
+			"id": 641,
+			"group": 2,
+			"name": "Alstom Coradia A TER",
+			"shortcut": "BR 641",
+			"speed": 120,
+			"weight": 49,
+			"force": 38,
+			"length": 28,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 240000,
+			"operationCosts": 50,
+			"maxConnectedUnits": 3,
+			"equipments": ["FR"],
+			"capacity": [
+				{"name": "passengers", "value": 80}
 			]
 		},
 		{
@@ -1442,6 +1607,23 @@
 			"capacity": [
 				{"name": "containers", "value": 2}
 			]
+		},
+		{
+			"id": 703,
+			"group": 1,
+			"name": "Containerwagen InterCargoExpress",
+			"shortcut": "Sgss-y",
+			"speed": 160,
+			"weight": 20,
+			"force": 0,
+			"length": 17,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 100000,
+			"capacity": [
+				{"name": "containers", "value": 1}
+			]
+
 		},
 		{
 			"id": 27,
