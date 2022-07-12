@@ -2440,6 +2440,40 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 2,
+			"name": "LGV Interconnexion Est",
+			"twistingFactor": 0.17,
+			"maxSpeed": 270,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷MOIS",
+					"end": "XFMVC",
+					"length": 38
+				},
+				{
+					"start": "XFMVC",
+					"end": "XFVAR",
+					"length": 10
+				},
+				{
+					"start": "XFVAR",
+					"end": "🇫🇷CDG",
+					"length": 13
+				},
+				{
+					"start": "🇫🇷CDG",
+					"end": "🇫🇷VEMARS",
+					"length": 5,
+					"maxSpeed": 230
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": false,
 			"twistingFactor": 0.3,
@@ -5035,8 +5069,14 @@
 			"objects": [
 				{
 					"start": "XFCQ",
+					"end": "🇫🇷MOIS",
+					"length": 20,
+					"maxSpeed": 200
+				},
+				{
+					"start": "🇫🇷MOIS",
 					"end": "🇫🇷PAI",
-					"length": 164
+					"length": 146
 				},
 				{
 					"start": "🇫🇷PAI",
@@ -6128,9 +6168,9 @@
 			"name": "LGV Rhin-Rhône",
 			"objects": [
 				{
-					"start": "XFD",
+					"start": "🇫🇷GLS",
 					"end": "XFB",
-					"length": 77
+					"length": 68
 				},
 				{
 					"start": "XFB",
@@ -7214,6 +7254,88 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFLPD",
+					"end": "XFMIR",
+					"length": 11,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XFMIR",
+					"end": "XFMLU",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XFMLU",
+					"end": "🇫🇷MEX",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷MEX",
+					"end": "XFAE",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XFAE",
+					"end": "🇫🇷VRU",
+					"length": 38,
+					"maxSpeed": 115,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷VRU",
+					"end": "XFCZ",
+					"length": 11,
+					"maxSpeed": 130,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "XFCZ",
+					"end": "🇫🇷SSS",
+					"length": 15,
+					"maxSpeed": 150
+				},
+				{
+					"start": "🇫🇷SSS",
+					"end": "XFBA",
+					"length": 18,
+					"maxSpeed": 115,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "XFBA",
+					"end": "XFGPL",
+					"length": 18,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XFGPL",
+					"end": "XSGE",
+					"length": 14,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3,
+					"neededEquipments": [
+						"CH",
+						"FR"
+					]
+				}
+			]
+		},
+		{
 			"name": "Vogelfluglinie",
 			"group": 0,
 			"electrified": false,
@@ -8284,6 +8406,91 @@
 					"maxSpeed": 200,
 					"twistingFactor": 0.3,
 					"length": 75,
+					"group": 0
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"twistingFactor": 0.18,
+			"neededEquipments": [
+				"BE"
+			],
+			"objects": [
+				{
+					"start": "XFLIE",
+					"end": "XBHAL",
+					"length": 93,
+					"name": "HSL 1",
+					"maxSpeed": 300,
+					"neededEquipments": [
+						"FR",
+						"BE",
+						"TVM"
+					]
+				},
+				{
+					"start": "XBHAL",
+					"end": "XBB",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"neededEquipments": [
+						"FR",
+						"BE"
+					]
+				},
+				{
+					"start": "XBB",
+					"end": "XBDM",
+					"length": 11,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2,
+					"group": 0
+				},
+				{
+					"start": "XBDM",
+					"end": "XBLE",
+					"length": 21,
+					"maxSpeed": 200,
+					"group": 0
+				},
+				{
+					"start": "XBLE",
+					"end": "XBANS",
+					"length": 64,
+					"maxSpeed": 300,
+					"name": "HSL 2",
+					"neededEquipments": [
+						"BE",
+						"ETCS"
+					]
+				},
+				{
+					"start": "XBANS",
+					"end": "XBLIG",
+					"length": 6,
+					"maxSpeed": 140,
+					"group": 0
+				},
+				{
+					"start": "XBLIG",
+					"end": "XBHE",
+					"length": 41,
+					"maxSpeed": 260,
+					"name": "HSL 3",
+					"neededEquipments": [
+						"BE",
+						"ETCS"
+					]
+				},
+				{
+					"start": "XBHE",
+					"end": "KA",
+					"length": 7,
+					"maxSpeed": 160,
 					"group": 0
 				}
 			]
@@ -13625,6 +13832,62 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 2,
+			"name": "LGV Nord",
+			"maxSpeed": 300,
+			"twistingFactor": 0.14,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
+			"objects": [
+				{
+					"start": "XFPO",
+					"end": "🇫🇷VEMARS",
+					"length": 27
+				},
+				{
+					"start": "🇫🇷VEMARS",
+					"end": "XFHP",
+					"length": 98
+				},
+				{
+					"start": "XFHP",
+					"end": "XFLIE",
+					"length": 99
+				},
+				{
+					"start": "XFLIE",
+					"end": "XFFE",
+					"length": 101
+				},
+				{
+					"start": "XFFE",
+					"end": "🇬🇧ETUK",
+					"length": 55,
+					"name": "Eurotunnel",
+					"maxSpeed": 160,
+					"neededEquipments": [
+						"FR",
+						"Eurotunnel",
+						"TVM"
+					]
+				},
+				{
+					"start": "🇬🇧ETUK",
+					"end": "XKAI",
+					"length": 20,
+					"name": "HS1",
+					"neededEquipments": [
+						"Eurotunnel",
+						"TVM",
+						"FR"
+					]
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"twistingFactor": 0.3,
@@ -13849,6 +14112,93 @@
 					"length": 4,
 					"maxSpeed": 160,
 					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFD",
+					"end": "🇫🇷GLS",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷GLS",
+					"end": "🇫🇷VLP",
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷VLP",
+					"end": "XFDO",
+					"length": 17,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XFDO",
+					"end": "XFMOU",
+					"length": 31,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFMOU",
+					"end": "🇫🇷AND",
+					"length": 24,
+					"maxSpeed": 110,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇫🇷AND",
+					"end": "🇫🇷FRA",
+					"length": 20,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷FRA",
+					"end": "🇫🇷LLR",
+					"length": 17,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇫🇷LLR",
+					"end": "🇨🇭VAL",
+					"length": 7,
+					"name": "Simplon-Tunnel",
+					"maxSpeed": 140,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇨🇭VAL",
+					"end": "🇨🇭LSA",
+					"length": 23,
+					"name": "Simplon-Strecke",
+					"maxSpeed": 90,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"CH"
+					]
+				},
+				{
+					"start": "🇨🇭LSA",
+					"end": "🇨🇭COS",
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.28,
+					"neededEquipments": [
+						"CH"
+					]
 				}
 			]
 		},

@@ -172,6 +172,71 @@
 			]
 		},
 		{
+			"id": 373,
+			"group": 2,
+			"name": "TGV/Eurostar TMST",
+			"shortcut": "TMST",
+			"speed": 300,
+			"weight": 752,
+			"force": 410,
+			"length": 387,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 7200000,
+			"operationCosts": 130,
+			"equipments": ["FR", "BE", "TVM", "Eurotunnel"],
+			"neededEquipments": ["FR"],
+			"maxConnectedUnits": 1,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 750},
+				{"name": "bistroseats", "value": 20}
+			]
+		},
+		{
+			"id": 374,
+			"group": 2,
+			"name": "Siemens Velaro e320",
+			"shortcut": "e320",
+			"speed": 320,
+			"weight": 921,
+			"force": 500,
+			"length": 390,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 860000,
+			"operationCosts": 130,
+			"equipments": ["FR", "BE", "NL", "TVM", "ETCS"],
+			"neededEquipments": ["FR"],
+			"maxConnectedUnits": 1,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 894},
+				{"name": "bistroseats", "value": 20}
+			]
+		},
+		{
+			"id": 409,
+			"group": 2,
+			"name": "Thalys PBKA",
+			"shortcut": "BR 409",
+			"speed": 300,
+			"weight": 383,
+			"force": 300,
+			"length": 200,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 5000000,
+			"operationCosts": 72,
+			"equipments": ["FR", "NL", "BE", "TVM", "ETCS"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 377},
+				{"name": "bistroseats", "value": 10}
+			]
+		},
+		{
 			"id": 610503,
 			"group": 2,
 			"name": "Alstom New Pendolino",

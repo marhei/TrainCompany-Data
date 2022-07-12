@@ -131,7 +131,7 @@
 					"pathSuggestion": [ "RB", "RML", "RF", "RO", "RAP", "RK", "RGN", "RSAB", "RM", "FBL", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH" ]
 				},
 				{
-					"stations": [ "XSZH", "XSB", "RB",  "RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH", "AA", "AN", "AK" ],
+					"stations": [ "XSZH", "XSB", "RB", "RF", "RO", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH", "AA", "AN", "AK" ],
 					"pathSuggestion": [ "XSZH", "XSKS", "XSB", "RB", "RML", "RF", "RO", "RAP", "RK", "RGN", "RSAB", "RM", "FBL", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH", "AA", "AEL", "AN", "AK" ]
 				}
 			],
@@ -213,7 +213,15 @@
 			"descriptions": [
 				"Verbinde Deutschland mit Belgien und Frankreich."
 			],
-			"stations": [ "EDO", "EE", "EDG", "KD", "KK", "KA" ],
+			"objects": [
+				{
+					"stations": [ "EDO", "EE", "EDG", "KD", "KK", "KA", "XBLIG", "XBB", "XFPO" ],
+					"pathSuggestion": [ "EDO", "EE", "EDG", "KD", "KK", "KA", "XBLIG", "XBB", "XFLIE", "XFPO" ]
+				},
+				{
+					"stations": [ "EDO", "EE", "EDG", "KD", "KK", "KA", "XBLIG", "XBB", "XFLIE" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -400,6 +408,41 @@
 			"group": 1,
 			"service": 0,
 			"pathSuggestion": [ "XFPG", "🇫🇷PAI", "XFLC", "XFLPD" ]
+		},
+		{
+			"name": "Eurostar von %s nach %s",
+			"descriptions": [
+				"Fahre den Eurostar durch den Tunnel nach %2$s.",
+				"Bringe den Eurostar schnell von %s nach %s.",
+				"Fahre den Eurostar nach %2$s. Fahrgäste von/nach London müssen wegen des Brexits umsteigen."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "XFMVC", "XFLIE", "XKAI" ],
+					"plops": 240400,
+					"pathSuggestion": [ "XFMVC", "XFVAR", "🇫🇷VEMARS", "XFLIE", "XKAI" ]
+				},
+				{
+					"stations": [ "XFLPD", "XFLIE", "XKAI" ],
+					"plops": 408400,
+					"pathSuggestion": [ "XFLPD", "🇫🇷PAI", "🇫🇷MOIS", "XFVAR", "🇫🇷VEMARS", "XFLIE", "XKAI" ]
+				},
+				{
+					"plops": 240000,
+					"stations": [ "XFPO", "XFLIE", "XFFE", "XKAI" ],
+					"pathSuggestion": [ "XFPO", "🇫🇷VEMARS", "XFLIE", "XFFE", "XKAI" ]
+				},
+				{
+					"stations": [ "XBB", "XFLIE", "XKAI" ],
+					"pathSuggestion": [ "XBB", "XFLIE", "XKAI" ],
+					"plops": 192800
+				}
+			]
 		},
 		{
 			"group": 0,
@@ -2488,10 +2531,18 @@
 				"Die Franzosen haben Interesse an deutschen Brennstäben nach dem Atomaustieg. Bringe die Brennstäbe von %s nach %s."
 			],
 			"objects": [
-				{ "stations": [ "AWIR", "XFFB" ] },
-				{ "stations": [ "MLA", "XFFB" ] },
-				{ "stations": [ "TKM", "XFFB" ] },
-				{ "stations": [ "HLIG", "XFFB" ] }
+				{
+					"stations": [ "AWIR", "XFFB" ]
+				},
+				{
+					"stations": [ "MLA", "XFFB" ]
+				},
+				{
+					"stations": [ "TKM", "XFFB" ]
+				},
+				{
+					"stations": [ "HLIG", "XFFB" ]
+				}
 			],
 			"neededCapacity": [
 				{ "name": "castor", "value": 10 }
