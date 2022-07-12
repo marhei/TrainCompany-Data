@@ -5332,8 +5332,13 @@
 			"electrified": false,
 			"twistingFactor": 0.35,
 			"maxSpeed": 20,
-			"start": "KGIR",
-			"end": "KSCH"
+			"objects": [
+				{
+					"start": "KGIR",
+					"end": "KSCH",
+					"length": 5
+				}
+			]
 		},
 		{
 			"name": "Aachen - Köln",
