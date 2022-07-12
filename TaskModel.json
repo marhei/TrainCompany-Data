@@ -966,6 +966,94 @@
 		},
 		{
 			"group": 1,
+			"name": "Werdenfelsbahn von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die Werdenfelsbahn zwischen %s und %s."
+			],
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "MH", "MST", "MTZ", "MWH", "MMU", "MGP"],
+					"pathSuggestion": [ "MH", "MGT", "MST", "MTZ", "MWH", "MMU", "MGP" ]
+				},
+				{
+					"stations": [ "MH", "MST", "MTZ", "MPZ", "MKCH" ]
+				},
+				{ 
+					"stations": [ "MH", "MST", "MTZ", "MWH", "MMU", "MOA"]
+				},
+				{
+					"stations": [ "MMU", "MOA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "ICE 41 von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre den ICE 41 zwischen %s und %s."
+			],
+			"service": 0,
+			"stations": [ "EDO", "EBO", "EE", "EDG", "KD", "KK", "FMT", "FLIS", "FFLF", "FF", "NAH", "NWH", "NN", "MH", "MTZ", "MWH", "MMU", "MGP"],
+			"pathSuggestion": [ "EDO", "EBO", "EE", "EDG", "KD", "KK", "KT", "KSIB", "FMT", "FLIS", "FFLF", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MH", "MTZ", "MWH", "MMU", "MGP"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "ICE 28 von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre den ICE 28 zwischen %s und %s."
+			],
+			"service": 0,
+			"stations": [ "AA", "AH", "WL", "WW", "BSPD", "BL", "LW", "LL", "UE P", "NBA", "NN", "MIH", "MH", "MTZ", "MWH", "MMU", "MGP"],
+			"pathSuggestion": [ "AA", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE2", "LW", "LF", "LL", "LGOS", "LPLN", "UE P", "NED", "NBA", "NF", "NN", "MIH", "MH", "MTZ", "MWH", "MMU", "MGP"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "IC 28 von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre den IC 28 zwischen %s und %s."
+			],
+			"service": 1,
+			"stations": ["NN", "MTL", "MDT", "MA", "MH", "MWH", "MMU", "MGP"],
+			"pathSuggestion": ["NN", "MTL", "MDT", "MA", "MH", "MWH", "MMU", "MGP"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S6 von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die S6 zwischen %s und %s."
+			],
+			"service": 3,
+			"stations": ["MH", "MTZ"],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RE30 von %s nach %s",
 			"service": 2,
 			"descriptions": [
