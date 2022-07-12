@@ -213,7 +213,15 @@
 			"descriptions": [
 				"Verbinde Deutschland mit Belgien und Frankreich."
 			],
-			"stations": [ "EDO", "EE", "EDG", "KD", "KK", "KA" ],
+			"objects": [
+				{
+					"stations": [ "EDO", "EE", "EDG", "KD", "KK", "KA", "XBLIG", "XBB", "XFPO" ],
+					"pathSuggestion": [ "EDO", "EE", "EDG", "KD", "KK", "KA", "XBLIG", "XBB", "XFLIE", "XFPO" ]
+				},
+				{
+					"stations": [ "EDO", "EE", "EDG", "KD", "KK", "KA", "XBLIG", "XBB", "XFLIE" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
