@@ -8411,6 +8411,71 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 2,
+			"twistingFactor": 0.18,
+			"objects": [
+				{
+					"start": "XFLIE",
+					"end": "XBHAL",
+					"length": 93,
+					"name": "HSL 1",
+					"maxSpeed": 300
+				},
+				{
+					"start": "XBHAL",
+					"end": "XBB",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1,
+					"group": 0
+				},
+				{
+					"start": "XBB",
+					"end": "XBDM",
+					"length": 11,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2,
+					"group": 0
+				},
+				{
+					"start": "XBDM",
+					"end": "XBLE",
+					"length": 21,
+					"maxSpeed": 200,
+					"group": 0
+				},
+				{
+					"start": "XBLE",
+					"end": "XBANS",
+					"length": 64,
+					"maxSpeed": 300,
+					"name": "HSL 2"
+				},
+				{
+					"start": "XBANS",
+					"end": "XBLIG",
+					"length": 6,
+					"maxSpeed": 140,
+					"group": 0
+				},
+				{
+					"start": "XBLIG",
+					"end": "XBHE",
+					"length": 41,
+					"maxSpeed": 260,
+					"name": "HSL 3"
+				},
+				{
+					"start": "XBHE",
+					"end": "KA",
+					"length": 7,
+					"maxSpeed": 160,
+					"group": 0
+				}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Weddeler Schleife",
 			"electrified": true,
