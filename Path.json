@@ -8430,12 +8430,13 @@
 			"group": 2,
 			"electrified": true,
 			"twistingFactor": 0.1,
-			"neededEquipments": ["BE", "NL"],
+			"neededEquipments": ["NL"],
 			"objects": [
 				{
 					"start": "XBAC",
 					"end": "XNRC",
 					"maxSpeed": 300,
+					"neededEquipments": ["BE", "NL"],
 					"length": 93
 				},
 				{
