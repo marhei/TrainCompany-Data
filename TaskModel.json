@@ -905,7 +905,7 @@
 				"Bringe den RE11 pünktlich und störungsfrei von %s nach %s.",
 				"Der RE11 muss quer durch NRW von %s nach %s."
 			],
-			"stations": [ "FKW", "HWAR", "HA", "EPD", "ESOT", "EHM", "EDO", "EBO", "EE", "EDG", "KD" ],
+			"stations": [ "FKW", "HWAR", "HA", "EPD", "ELPP", "ESOT", "EHM", "EDO", "EBO", "EE", "EDG", "KD" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -1321,11 +1321,10 @@
 					"stations": [ "HM", "HWUN", "HH" ]
 				},
 				{
-					"stations": [ "HC", "HH" ]
+					"stations": [ "HC", "HGBW", "HH" ]
 				},
 				{
-					"stations": [ "HHI", "HH" ],
-					"pathSuggestion": [ "HHI", "HELZ", "HH" ]
+					"stations": [ "HHI", "HLER", "HH" ]
 				}
 			],
 			"neededCapacity": [
@@ -1537,7 +1536,7 @@
 			"descriptions": [
 				"Bring die Ems-Börde-Bahn pünktlich von %s nach %s."
 			],
-			"stations": [ "FKW", "HWAR", "HA", "EPD", "ESOT", "EHM", "EMST" ],
+			"stations": [ "FKW", "HWAR", "HA", "EPD", "ELPP", "ESOT", "EHM", "EMST" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
