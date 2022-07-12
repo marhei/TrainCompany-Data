@@ -208,9 +208,31 @@
 			"equipments": ["FR", "TVM", "BE", "NL"],
 			"neededEquipments": ["FR", "BE", "NL"],
 			"compatibleWith": [4403, 4701, 409],
+			"maxConnectedUnits": 2,
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 361},
+				{"name": "bistroseats", "value": 10}
+			]
+		},
+		{
+			"id": 24000,
+			"group": 2,
+			"name": "TGV Atlantique",
+			"speed": 320,
+			"weight": 444,
+			"force": 300,
+			"length": 238,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 4200000,
+			"operationCosts": 60,
+			"equipments": ["FR", "TVM"],
+			"neededEquipments": ["FR"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 485},
 				{"name": "bistroseats", "value": 10}
 			]
 		},
@@ -1203,22 +1225,6 @@
 			"operationCosts": 90,
 			"equipments": ["CH"],
 			"neededEquipments": ["CH"]
-		},
-		{
-			"id": 22278,
-			"group": 0,
-			"name": "Nez Cassès 200 km/h",
-			"shortcut": "SNCF BB 22200",
-			"speed": 200,
-			"weight": 90,
-			"force": 294,
-			"length": 18,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 400000,
-			"operationCosts": 90,
-			"equipments": ["FR", "TVM"],
-			"neededEquipments": ["FR"]
 		},
 		{
 			"id": 5,
