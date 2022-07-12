@@ -8414,13 +8414,21 @@
 			"electrified": true,
 			"group": 2,
 			"twistingFactor": 0.18,
+			"neededEquipments": [
+				"BE"
+			],
 			"objects": [
 				{
 					"start": "XFLIE",
 					"end": "XBHAL",
 					"length": 93,
 					"name": "HSL 1",
-					"maxSpeed": 300
+					"maxSpeed": 300,
+					"neededEquipments": [
+						"FR",
+						"BE",
+						"TVM"
+					]
 				},
 				{
 					"start": "XBHAL",
@@ -8450,7 +8458,11 @@
 					"end": "XBANS",
 					"length": 64,
 					"maxSpeed": 300,
-					"name": "HSL 2"
+					"name": "HSL 2",
+					"neededEquipments": [
+						"BE",
+						"ETCS"
+					]
 				},
 				{
 					"start": "XBANS",
@@ -8464,7 +8476,11 @@
 					"end": "XBHE",
 					"length": 41,
 					"maxSpeed": 260,
-					"name": "HSL 3"
+					"name": "HSL 3",
+					"neededEquipments": [
+						"BE",
+						"ETCS"
+					]
 				},
 				{
 					"start": "XBHE",
