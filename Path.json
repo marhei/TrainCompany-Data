@@ -8411,6 +8411,48 @@
 			]
 		},
 		{
+			"name": "Brüssel-Antwerpen",
+			"group": 0,
+			"electrified": true,
+			"twistingFactor": 0.2,
+			"neededEquipments": ["BE"],
+			"objects": [
+				{
+					"start": "XBB",
+					"end": "XBAC",
+					"length": 46,
+					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"name": "HSL-4/Zuid",
+			"group": 2,
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"neededEquipments": ["BE", "NL"],
+			"objects": [
+				{
+					"start": "XBAC",
+					"end": "XNRC",
+					"maxSpeed": 300,
+					"length": 93
+				},
+				{
+					"start": "XNRC",
+					"end": "XNSP",
+					"maxSpeed": 300,
+					"length": 51
+				},
+				{
+					"start": "XNSP",
+					"end": "XNAC",
+					"maxSpeed": 130,
+					"length": 17
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 2,
 			"twistingFactor": 0.18,
