@@ -6332,6 +6332,26 @@
 			]
 		},
 		{
+			"maxSpeed": 120,
+			"electrified": true,
+			"group": 0,
+			"name": "Isartalbahn",
+			"objects": [
+				{
+					"start": "MSN",
+					"end": "MHRK",
+					"length": 6,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "MHRK",
+					"end": "MWO",
+					"length": 17,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"maxSpeed": 80,
 			"electrified": false,
 			"group": 1,
@@ -6503,8 +6523,14 @@
 			"objects": [
 				{
 					"start": "MH",
+					"end": "MWKR",
+					"length": 8,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "MWKR",
 					"end": "MGT",
-					"length": 18,
+					"length": 10,
 					"twistingFactor": 0.3
 				},
 				{
