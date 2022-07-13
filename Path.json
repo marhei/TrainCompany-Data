@@ -6631,6 +6631,35 @@
 		},
 		{
 			"group": 0,
+			"electrified": true,
+			"maxSpeed": 140,
+			"twistingFactor": 0.2,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "XNEI",
+					"end": "🇳🇱Gp",
+					"length": 6
+				},
+				{
+					"start": "🇳🇱Gp",
+					"end": "🇳🇱Hze",
+					"length": 4
+				},
+				{
+					"start": "🇳🇱Hze",
+					"end": "🇳🇱Mz",
+					"length": 10
+				},
+				{
+					"start": "🇳🇱Mz",
+					"end": "XNWT",
+					"length": 10
+				}
+			]
+		},
+		{
+			"group": 0,
 			"electrified": false,
 			"maxSpeed": 120,
 			"twistingFactor": 0.15,
