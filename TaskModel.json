@@ -382,6 +382,26 @@
 			]
 		},
 		{
+			"name": "TGV Atlantique von %s nach %s",
+			"descriptions": [
+				"Bringe den TGV von %s nach %s.",
+				"Bring die Fahrgäste in dem TGV pünktlich nach %2$s.",
+				"Fahre den TGV zwischen Paris und der Bretagne nach %2$s.",
+				"Bringe den TGV Atlantique von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "XFR", "🇫🇷MPW", "XFPG" ],
+					"pathSuggestion": [ "XFR", "🇫🇷CSP", "🇫🇷MPW", "XFPG" ]
+				}
+			]
+		},
+		{
 			"name": "TGV InOui von %s nach %s",
 			"descriptions": [
 				"Bringe den TGV von %s nach %s.",
@@ -981,7 +1001,7 @@
 				{
 					"stations": [ "MH", "MST", "MTZ", "MPZ", "MKCH" ]
 				},
-				{
+				{ 
 					"stations": [ "MH", "MST", "MTZ", "MWH", "MMU", "MOA"]
 				},
 				{

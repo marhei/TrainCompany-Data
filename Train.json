@@ -900,6 +900,69 @@
 			]
 		},
 		{
+			"id": 64,
+			"group": 2,
+			"name": "Materieel ′64",
+			"shortcut": "Mat ′64",
+			"speed": 140,
+			"weight": 86,
+			"force": 100,
+			"length": 52,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 250000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL"],
+			"neededEquipments": ["NL"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 144}
+			]
+		},
+		{
+			"id": 4200,
+			"group": 2,
+			"name": "Intercitymaterieel",
+			"shortcut": "ICM",
+			"speed": 160,
+			"weight": 192,
+			"force": 250,
+			"length": 107,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 650000,
+			"operationCosts": 80,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL"],
+			"neededEquipments": ["NL"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 253}
+			]
+		},
+		{
+			"id": 8600,
+			"group": 2,
+			"name": "Verlengd InterRegioMaterieel",
+			"shortcut": "VIRM",
+			"speed": 160,
+			"weight": 352,
+			"force": 300,
+			"length": 162,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 800000,
+			"operationCosts": 100,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL"],
+			"neededEquipments": ["NL"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 600}
+			]
+		},
+		{
 			"id": 33,
 			"group": 2,
 			"name": "CargoSprinter",
@@ -1056,6 +1119,19 @@
 			"operationCosts": 95
 		},
 		{
+			"id": 12,
+			"group": 0,
+			"name": "BR 143",
+			"speed": 120,
+			"weight": 83,
+			"force": 240,
+			"length": 17,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 200000,
+			"operationCosts": 110
+		},
+		{
 			"id": 151,
 			"group": 0,
 			"name": "BR 151",
@@ -1069,17 +1145,20 @@
 			"operationCosts": 120
 		},
 		{
-			"id": 12,
+			"id": 2159,
 			"group": 0,
-			"name": "BR 143",
-			"speed": 120,
-			"weight": 83,
-			"force": 240,
-			"length": 17,
-			"drive": 1,
-			"reliability": 0.9,
-			"cost": 200000,
-			"operationCosts": 110
+			"name": "Stadler EuroDual",
+			"shortcut": "BR 159",
+			"speed": 160,
+			"weight": 123,
+			"force": 500,
+			"length": 23,
+			"drive": 4,
+			"range": 1000,
+			"reliability": 1,
+			"cost": 600000,
+			"operationCosts": 130,
+			"equipments": [ "FR", "ETCS", "AT" ]
 		},
 		{
 			"id": 15,
@@ -1095,6 +1174,36 @@
 			"cost": 400000,
 			"operationCosts": 90,
 			"equipments": ["ETCS", "AT", "CH"]
+		},
+		{
+			"id": 28,
+			"group": 0,
+			"name": "Bombardier Traxx F140 AC2",
+			"shortcut": "BR 185.2",
+			"speed": 140,
+			"weight": 85,
+			"force": 300,
+			"length": 19,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 400000,
+			"operationCosts": 80,
+			"equipments": ["ETCS", "FR", "BE", "LU", "DK", "CH", "AT"]
+		},
+		{
+			"id": 189,
+			"group": 0,
+			"name": "Siemens ES64F4",
+			"shortcut": "BR 189",
+			"speed": 140,
+			"weight": 87,
+			"force": 300,
+			"length": 20,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 450000,
+			"operationCosts": 75,
+			"equipments": ["ETCS", "BE", "NL", "LU", "DK", "CH", "AT", "CZ", "IT", "PL", "SE"]
 		},
 		{
 			"id": 193,
@@ -1126,37 +1235,6 @@
 			"cost": 550000,
 			"operationCosts": 110,
 			"equipments": ["ETCS", "CH", "AT"]
-		},
-		{
-			"id": 28,
-			"group": 0,
-			"name": "Bombardier Traxx F140 AC2",
-			"shortcut": "BR 185.2",
-			"speed": 140,
-			"weight": 85,
-			"force": 300,
-			"length": 19,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 400000,
-			"operationCosts": 80,
-			"equipments": ["ETCS", "FR", "BE", "LU", "DK", "CH", "AT"]
-		},
-		{
-			"id": 2159,
-			"group": 0,
-			"name": "Stadler EuroDual",
-			"shortcut": "BR 159",
-			"speed": 160,
-			"weight": 123,
-			"force": 500,
-			"length": 23,
-			"drive": 4,
-			"range": 1000,
-			"reliability": 1,
-			"cost": 600000,
-			"operationCosts": 130,
-			"equipments": [ "FR", "ETCS", "AT" ]
 		},
 		{
 			"id": 460,
