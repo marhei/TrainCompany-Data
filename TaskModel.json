@@ -981,7 +981,7 @@
 				{
 					"stations": [ "MH", "MST", "MTZ", "MPZ", "MKCH" ]
 				},
-				{
+				{ 
 					"stations": [ "MH", "MST", "MTZ", "MWH", "MMU", "MOA"]
 				},
 				{
@@ -1047,7 +1047,7 @@
 			],
 			"service": 3,
 			"stations": ["MH", "MTZ"],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -2316,6 +2316,92 @@
 				{ "name": "passengers", "value": 0 }
 			],
 			"stations": [ "WNT", "WWE", "WZIR", "WMIR" ],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "Saxonia-Express von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 50 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 50 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "DH", "DCW", "DNDR", "DPR", "DGLA", "DR", "DOT", "LDA", "LWZ", "LL" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
+			"name": "S 3 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe die Dresdner S 3 von %s nach %s.",
+				"Bring die Fahrgäste in der S 3 pünktlich nach %2$s.",
+				"Fahre die S-Bahn störungsfrei nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "DH", "DPA", "DTH" ]
+				},
+				{
+					"stations": [ "DH", "DPA", "DTH", "DKC", "DFR" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
+			"name": "RE 3 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 3 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 3 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "DH", "DTH", "DFR", "DNR", "DC", "DHO", "DGL", "DZW", "DRC", "DP", "NHO" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
+			"name": "RB 30 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe die Regionalbahn der Linie 30 von %s nach %s.",
+				"Bring die Fahrgäste in der RB 30 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "DH", "DTH", "DFR", "DNR", "DC", "DHO", "DGL", "DZW"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"stopsEverywhere": true
+		},
+		{
+			"name": "RB 45 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe die Regionalbahn der Linie 45 von %s nach %s.",
+				"Bring die Fahrgäste in der RB 45 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "DC", "DMW", "DDE", "DR" ]
+				},
+				{
+					"stations": [ "DC", "DMW", "DDE", "DR", "BEW" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
 			"stopsEverywhere": true
 		},
 		{

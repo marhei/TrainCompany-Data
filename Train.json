@@ -1147,6 +1147,19 @@
 			"operationCosts": 95
 		},
 		{
+			"id": 151,
+			"group": 0,
+			"name": "BR 151",
+			"speed": 120,
+			"weight": 118,
+			"force": 395,
+			"length": 20,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 294000,
+			"operationCosts": 120
+		},
+		{
 			"id": 12,
 			"group": 0,
 			"name": "BR 143",
@@ -1248,7 +1261,7 @@
 			"reliability": 1,
 			"cost": 380000,
 			"operationCosts": 90,
-			"equipments": ["CH"],
+			"equipments": ["CH", "ETCS"],
 			"neededEquipments": ["CH"]
 		},
 		{
