@@ -4840,7 +4840,10 @@
 			"electrified": true,
 			"group": 2,
 			"name": "HS 1",
-			"neededEquipments": ["GB", "TVM"],
+			"neededEquipments": [
+				"GB",
+				"TVM"
+			],
 			"maxSpeed": 300,
 			"twistingFactor": 0.18,
 			"objects": [
@@ -11059,7 +11062,9 @@
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.3,
-			"neededEquipments": [ "NL" ],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "EEM",
@@ -12119,6 +12124,56 @@
 					"end": "LH",
 					"length": 7,
 					"maxSpeed": 130
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XFMAL",
+					"end": "🇫🇷SXA",
+					"length": 29,
+					"name": "LGV Rhône-Alpes"
+				},
+				{
+					"start": "🇫🇷SXA",
+					"end": "🇫🇷GRNY",
+					"length": 7,
+					"name": "LGV Rhône-Alpes"
+				},
+				{
+					"start": "🇫🇷GRNY",
+					"end": "XFVCV",
+					"length": 78,
+					"name": "LGV Rhône-Alpes"
+				},
+				{
+					"start": "XFVCV",
+					"end": "🇫🇷BLLN",
+					"length": 81,
+					"name": "LGV Mediterranée"
+				},
+				{
+					"start": "🇫🇷BLLN",
+					"end": "XFAVV",
+					"length": 48,
+					"name": "LGV Mediterranée"
+				},
+				{
+					"start": "XFAVV",
+					"end": "XFAX",
+					"length": 74,
+					"name": "LGV Mediterranée"
+				},
+				{
+					"start": "XFAX",
+					"end": "XFM",
+					"length": 19,
+					"name": "LGV Mediterranée"
 				}
 			]
 		},
