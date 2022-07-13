@@ -10890,6 +10890,31 @@
 			]
 		},
 		{
+			"name": "Rhijnspoorweg",
+			"maxSpeed": 140,
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.3,
+			"neededEquipments": [ "NL" ],
+			"objects": [
+				{
+					"start": "EEM",
+					"end": "XNAH",
+					"length": 25
+				},
+				{
+					"start": "XNAH",
+					"end": "XNU",
+					"length": 57
+				},
+				{
+					"start": "XNU",
+					"end": "XNAC",
+					"length": 35
+				}
+			]
+		},
+		{
 			"name": "Walsumbahn",
 			"maxSpeed": 160,
 			"electrified": true,
