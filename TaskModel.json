@@ -735,16 +735,16 @@
 			],
 			"objects": [
 				{
-					"stations": [ "MH", "MSN", "MHO", "MWGU", "MSFL", "MRCH", "MBT", "MGAI", "MOGS", "MLG" ]
+					"stations": [ "MH", "MHO", "MWGU", "MSFL", "MRCH", "MBT", "MGAI", "MOGS", "MLG" ]
 				},
 				{
-					"stations": [ "MH", "MSN", "MHO", "MWGU", "MSFL", "MGMD", "MTE" ]
+					"stations": [ "MH", "MHO", "MWGU", "MSFL", "MGMD", "MTE" ]
 				},
 				{
-					"stations": [ "MH", "MSN", "MHO", "MDAR", "MMIB", "MAGD", "MHHM", "MSCS", "MFIN", "MFBU", "MGEU", "MOSH", "MBZ" ]
+					"stations": [ "MH", "MHO", "MDAR", "MMIB", "MAGD", "MHHM", "MSCS", "MFIN", "MFBU", "MGEU", "MOSH", "MBZ" ]
 				},
 				{
-					"stations": [ "MH", "MSN", "MHO", "MDAR", "MMIB", "MAGD", "MHHM", "MSCS" ]
+					"stations": [ "MH", "MHO", "MDAR", "MMIB", "MAGD", "MHHM", "MSCS" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -759,14 +759,7 @@
 			"descriptions": [
 				"Du fährst die BRB Chiemgau-Inntal von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "MH", "MHO", "MRO" ]
-				},
-				{
-					"stations": [ "MHO", "MRO" ]
-				}
-			],
+			"stations": [ "MH", "MHO", "MRO" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -998,14 +991,13 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "MH", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MOH", "MECH", "MOU", "MFCH", "MGP"],
-					"pathSuggestion": [ "MH", "MGT", "MST", "MTZ", "MWH", "MMU", "MGP" ]
+					"stations": [ "MH", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MOH", "MECH", "MOU", "MFCH", "MGP"]
 				},
 				{
 					"stations": [ "MH", "MST", "MTZ", "MSE", "MSTA", "MPZ", "MBIC", "MBEN", "MKCH" ]
 				},
 
-				{ 
+				{
 					"stations": [ "MH", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MUO", "MSEB", "MGRA", "MBKG", "MBKK", "MSGB", "MALT", "MUAG", "MOA"]
 				},
 				{
@@ -1120,7 +1112,7 @@
 				"Fahre die S7 zwischen %s und %s."
 			],
 			"service": 3,
-			"stations": ["MH","MSN", "MHRK", "MWO"],
+			"stations": ["MH", "MHRK", "MWO"],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -2623,7 +2615,7 @@
 				"Die Strecke zwischen Passau und Wels ist gesperrt. Fahre über Salzburg!"
 			],
 			"stations": [ "XAL", "XAWE", "XAAT", "XASB", "MH", "NN", "NWH", "NAH", "FFLF", "FMZ", "KKO", "KB", "KK", "KSO", "KW", "EHG", "EDO" ],
-			"pathSuggestion": [ "XAL", "XAWE", "XAAT", "XASB", "MRO", "MH", "MIH", "NN", "NF", "NRTD", "NWH", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EDO" ],
+			"pathSuggestion": [ "XAL", "XAWE", "XAAT", "XASB", "MRO", "MGB", "MH", "MIH", "NN", "NF", "NRTD", "NWH", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EDO" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -2904,7 +2896,7 @@
 			"objects": [
 				{
 					"stations": [ "XASB", "MFL", "MPR", "MRO", "MH", "NN", "AH", "AHI", "AHM", "ANB", "AWLA" ],
-					"pathSuggestion": [ "XASB", "MFL", "MPR", "MRO", "MH", "MIH", "NN", "NF", "NRTD", "NWH", "NRB", "NBN", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH", "AEL", "AHI", "AHM", "ANB", "AWLA" ]
+					"pathSuggestion": [ "XASB", "MFL", "MPR", "MRO", "MGB", "MH", "MIH", "NN", "NF", "NRTD", "NWH", "NRB", "NBN", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH", "AEL", "AHI", "AHM", "ANB", "AWLA" ]
 				},
 				{
 					"stations": [ "RB", "RF", "RK", "RM", "FF", "AH", "AHI", "AHM", "ANB", "AWLA" ],
