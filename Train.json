@@ -633,6 +633,26 @@
 			]
 		},
 		{
+			"id": 303,
+			"group": 2,
+			"name": "SJ X31K",
+			"speed": 180,
+			"weight": 156,
+			"force": 500,
+			"length": 79,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 450000,
+			"operationCosts": 100,
+			"equipments": ["DK", "SE"],
+			"neededEquipments": ["DK", "SE"],
+			"maxConnectedUnits": 5,
+			"exchangeTime": 125,
+			"capacity": [
+				{"name": "passengers", "value": 229},
+			]
+		},
+		{
 			"id": 563,
 			"group": 2,
 			"name": "Siemens Mireo Plus H",
@@ -1250,6 +1270,20 @@
 			"operationCosts": 90,
 			"equipments": ["CH", "ETCS"],
 			"neededEquipments": ["CH"]
+		},
+		{
+			"id": 303,
+			"group": 0,
+			"name": "DSB EG",
+			"speed": 140,
+			"weight": 132,
+			"force": 400,
+			"length": 21,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 475000,
+			"operationCosts": 100
+			"equipments": ["DK", "SE"]
 		},
 		{
 			"id": 5,
