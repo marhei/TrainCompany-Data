@@ -7964,78 +7964,224 @@
 		},
 		{
 			"name": "Frankenwaldbahn",
-			"twistingFactor": 0.3,
+			"twistingFactor": 0.2,
 			"electrified": true,
 			"objects": [
 				{
-					"start": "UGW",
-					"end": "UKA",
-					"maxSpeed": 100,
-					"twistingFactor": 0.4,
-					"length": 10
-				},
-				{
-					"start": "UKA",
-					"end": "UR",
-					"maxSpeed": 120,
-					"length": 22
-				},
-				{
-					"start": "UR",
-					"end": "US",
-					"maxSpeed": 110,
-					"length": 10
-				},
-				{
-					"start": "US",
-					"end": "UPR",
-					"maxSpeed": 80,
-					"twistingFactor": 0.7,
-					"length": 25
-				},
-				{
-					"start": "UPR",
-					"end": "NFDF",
-					"maxSpeed": 70,
-					"twistingFactor": 0.55,
-					"length": 20
-				},
-				{
-					"start": "NFDF",
-					"end": "NK",
-					"maxSpeed": 140,
-					"length": 20
-				},
-				{
-					"start": "NK",
-					"end": "NHM",
-					"maxSpeed": 150,
-					"length": 15
-				},
-				{
-					"start": "NHM",
-					"end": "NLF",
-					"maxSpeed": 150,
-					"length": 9
-				},
-				{
-					"start": "NLF",
-					"end": "NSFN",
-					"length": 6,
-					"maxSpeed": 160,
-					"twistingFactor": 0
-				},
-				{
-					"start": "NSFN",
+					"start": "NBA",
 					"end": "NED",
+					"length": 20,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NED",
+					"end": "NSFN",
 					"maxSpeed": 160,
 					"length": 5
 				},
 				{
-					"start": "NED",
-					"end": "NBA",
-					"length": 20,
+					"start": "NSFN",
+					"end": "NLF",
+					"length": 6,
 					"maxSpeed": 160
+				},
+				{
+					"start": "NLF",
+					"end": "NMI",
+					"length": 4,
+					"maxSpeed": 150
+				},
+				{
+					"start": "NMI",
+					"end": "NHM",
+					"length": 4,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NHM",
+					"end": "NRZ",
+					"length": 3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NRZ",
+					"end": "NKUE",
+					"length": 5,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NKUE",
+					"end": "NNEU",
+					"length": 3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NNEU",
+					"end": "NK",
+					"length": 2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "NK",
+					"end": "NGD",
+					"length": 4,
+					"maxSpeed": 150
+				},
+				{
+					"start": "NGD",
+					"end": "NSTH",
+					"length": 3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NSTH",
+					"end": "NPR",
+					"length": 5,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NPR",
+					"end": "NFDF",
+					"length": 5,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NFDF",
+					"end": "NSD",
+					"length": 6,
+					"maxSpeed": 90
+				},
+				{
+					"start": "NSD",
+					"end": "NLUS",
+					"length": 6,
+					"maxSpeed": 80
+				},
+				{
+					"start": "NLUS",
+					"end": "UPR",
+					"length": 6,
+					"maxSpeed": 70
+				},
+				{
+					"start": "UPR",
+					"end": "UUZ",
+					"length": 9,
+					"maxSpeed": 90
+				},
+				{
+					"start": "UUZ",
+					"end": "UHR",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "UHR",
+					"end": "UKL",
+					"length": 2,
+					"maxSpeed": 80
+				},
+				{
+					"start": "UKL",
+					"end": "UBZ",
+					"length": 3,
+					"maxSpeed": 90
+				},
+				{
+					"start": "UBZ",
+					"end": "US",
+					"length": 5,
+					"maxSpeed": 80
+				},
+				{
+					"start": "US",
+					"end": "URS",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "URS",
+					"end": "UR",
+					"length": 4,
+					"maxSpeed": 120
+				},
+				{
+					"start": "UR",
+					"end": "UUS",
+					"length": 9,
+					"maxSpeed": 120
+				},
+				{
+					"start": "UUS",
+					"end": "UZE",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "UZE",
+					"end": "UO",
+					"length": 4,
+					"maxSpeed": 120
+				},
+				{
+					"start": "UO",
+					"end": "UKA",
+					"length": 5,
+					"maxSpeed": 120
+				},
+				{
+					"start": "UKA",
+					"end": "UROT",
+					"length": 5,
+					"maxSpeed": 110
+				},
+				{
+					"start": "UROT",
+					"end": "UGW",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "UGW",
+					"end": "UJP",
+					"length": 5,
+					"maxSpeed": 100
+				},
+				{
+					"start": "UJP",
+					"end": "UJS",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "UJS",
+					"end": "UJZ",
+					"length": 2,
+					"maxSpeed": 120
+				},
+				{
+					"start": "UJZ",
+					"end": "UPF",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "UPF",
+					"end": "UDG",
+					"length": 4,
+					"maxSpeed": 120
+				},
+				{
+					"start": "UDG",
+					"end": "UCB",
+					"length": 7,
+					"maxSpeed": 100
+				},
+				{
+					"start": "UCB",
+					"end": "UGH",
+					"length": 7,
+					"maxSpeed": 110
 				}
 			]
 		},
