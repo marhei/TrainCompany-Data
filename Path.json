@@ -4837,6 +4837,33 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 2,
+			"name": "HS 1",
+			"neededEquipments": ["GB", "TVM"],
+			"maxSpeed": 300,
+			"twistingFactor": 0.18,
+			"objects": [
+				{
+					"start": "XKAI",
+					"end": "XKEI",
+					"length": 53
+				},
+				{
+					"start": "XKEI",
+					"end": "XKSF",
+					"length": 27,
+					"maxSpeed": 230
+				},
+				{
+					"start": "XKSF",
+					"end": "XKLP",
+					"length": 9,
+					"maxSpeed": 230
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 110,
@@ -7478,7 +7505,9 @@
 			"group": 0,
 			"maxSpeed": 220,
 			"twistingFactor": 0.2,
-			"neededEquipments": ["FR"],
+			"neededEquipments": [
+				"FR"
+			],
 			"objects": [
 				{
 					"start": "XFSTG",
