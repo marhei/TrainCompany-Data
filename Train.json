@@ -900,6 +900,69 @@
 			]
 		},
 		{
+			"id": 64,
+			"group": 2,
+			"name": "Materieel ′64",
+			"shortcut": "Mat ′64",
+			"speed": 140,
+			"weight": 86,
+			"force": 100,
+			"length": 52,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 250000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL"],
+			"neededEquipments": ["NL"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 144}
+			]
+		},
+		{
+			"id": 4200,
+			"group": 2,
+			"name": "Intercitymaterieel",
+			"shortcut": "ICM",
+			"speed": 160,
+			"weight": 192,
+			"force": 250,
+			"length": 107,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 650000,
+			"operationCosts": 80,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL"],
+			"neededEquipments": ["NL"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 253}
+			]
+		},
+		{
+			"id": 8600,
+			"group": 2,
+			"name": "Verlengd InterRegioMaterieel",
+			"shortcut": "VIRM",
+			"speed": 160,
+			"weight": 352,
+			"force": 300,
+			"length": 162,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 800000,
+			"operationCosts": 100,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL"],
+			"neededEquipments": ["NL"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 600}
+			]
+		},
+		{
 			"id": 33,
 			"group": 2,
 			"name": "CargoSprinter",
