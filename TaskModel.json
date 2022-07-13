@@ -1069,7 +1069,14 @@
 				"Fahre die S6 zwischen %s und %s."
 			],
 			"service": 3,
-			"stations": ["MEG","MGB", "MH", "MTZ"],
+			"objects": [
+				{
+					"stations": ["MEG","MGB", "MH", "MTZ"]
+				},
+				{
+					"stations": ["MGB", "MH", "MTZ"]
+				}
+			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -1084,7 +1091,14 @@
 				"Fahre die S4 zwischen %s und %s."
 			],
 			"service": 3,
-			"stations": ["MEG","MGB", "MH", "MGE"],
+			"objects": [
+				{
+					"stations": ["MEG","MGB", "MH", "MGE"]
+				},
+				{
+					"stations": ["MGB", "MH", "MGE"]
+				}
+			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
