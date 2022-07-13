@@ -6878,6 +6878,86 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"neededEquipments": ["FR"],
+			"objects": [
+				{
+					"start": "XFD",
+					"end": "XFGE",
+					"length": 11,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XFGE",
+					"end": "🇫🇷NUI",
+					"length": 11,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷NUI",
+					"end": "🇫🇷BEA",
+					"length": 14,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷BEA",
+					"end": "XFCGY",
+					"length": 15,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XFCGY",
+					"end": "XFCS",
+					"length": 16,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XFCS",
+					"end": "🇫🇷SRD",
+					"length": 16,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷SRD",
+					"end": "🇫🇷TOS",
+					"length": 9,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇫🇷TOS",
+					"end": "🇫🇷FLV",
+					"length": 14,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷FLV",
+					"end": "XFMAL",
+					"length": 19,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFMAL",
+					"end": "XFBV",
+					"length": 20,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFBV",
+					"end": "🇫🇷ANS",
+					"length": 19,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷ANS",
+					"end": "XFLPD",
+					"length": 25,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 140,
@@ -12132,6 +12212,7 @@
 			"group": 2,
 			"maxSpeed": 300,
 			"twistingFactor": 0.2,
+			"neededEquipments": ["FR", "TVM"],
 			"objects": [
 				{
 					"start": "XFSRI",
