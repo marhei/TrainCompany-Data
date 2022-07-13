@@ -163,7 +163,7 @@
 			"reliability": 1,
 			"cost": 5600000,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "FR", "TVM", "CH"],
+			"equipments": ["ETCS", "FR", "TVM", "CH", "LU"],
 			"maxConnectedUnits": 2,
 			"compatibleWith": [4403, 4501],
 			"exchangeTime": 150,
@@ -249,8 +249,8 @@
 			"reliability": 1,
 			"cost": 7200000,
 			"operationCosts": 130,
-			"equipments": ["FR", "BE", "TVM", "Eurotunnel"],
-			"neededEquipments": ["FR", "BE"],
+			"equipments": ["GB", "FR", "BE", "TVM", "Eurotunnel"],
+			"neededEquipments": ["GB", "FR", "BE"],
 			"maxConnectedUnits": 1,
 			"exchangeTime": 120,
 			"capacity": [
@@ -271,8 +271,8 @@
 			"reliability": 1,
 			"cost": 8600000,
 			"operationCosts": 130,
-			"equipments": ["FR", "BE", "NL", "TVM", "ETCS", "Eurotunnel"],
-			"neededEquipments": ["FR", "BE", "NL"],
+			"equipments": ["GB", "FR", "BE", "NL", "TVM", "ETCS", "Eurotunnel"],
+			"neededEquipments": ["GB", "FR", "BE", "NL"],
 			"maxConnectedUnits": 1,
 			"exchangeTime": 120,
 			"capacity": [
@@ -568,7 +568,7 @@
 			"cost": 800000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
-			"equipments": ["CH", "AT"],
+			"equipments": ["CH", "AT", "LU"],
 			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
@@ -814,7 +814,7 @@
 			"operationCosts": 90,
 			"maxConnectedUnits": 5,
 			"exchangeTime": 80,
-			"equipments": ["ETCS"],
+			"equipments": ["ETCS", "DK"],
 			"capacity": [
 				{"name": "passengers", "value": 144}
 			]
@@ -852,7 +852,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 75,
 			"exchangeTime": 120,
-			"equipments": ["FR", "AT"],
+			"equipments": ["FR", "AT", "LU", "PL"],
 			"capacity": [
 				{"name": "passengers", "value": 144}
 			]
@@ -908,7 +908,7 @@
 			"cost": 250000,
 			"operationCosts": 55,
 			"maxConnectedUnits": 3,
-			"equipments": ["AT"],
+			"equipments": ["AT", "PL"],
 			"capacity": [
 				{"name": "passengers", "value": 110}
 			]
@@ -1187,7 +1187,7 @@
 			"reliability": 1,
 			"cost": 450000,
 			"operationCosts": 110,
-			"equipments": ["ETCS", "CZ", "CH", "AT", "NL"]
+			"equipments": ["ETCS", "CZ", "CH", "AT", "NL", "BE"]
 		},
 		{
 			"id": 248,
@@ -1218,7 +1218,7 @@
 			"reliability": 1,
 			"cost": 400000,
 			"operationCosts": 80,
-			"equipments": ["ETCS", "FR", "CH", "AT"]
+			"equipments": ["ETCS", "FR", "BE", "LU", "DK", "CH", "AT"]
 		},
 		{
 			"id": 2159,
@@ -1305,7 +1305,7 @@
 			"reliability": 0.9,
 			"cost": 400000,
 			"operationCosts": 120,
-			"equipments": ["CZ", "FR"]
+			"equipments": ["GB", "NL", "BE", "LU", "DK", "PL", "CZ", "FR"]
 		},
 		{
 			"id": 17,
@@ -1698,6 +1698,23 @@
 			"capacity": [
 				{"name": "containers", "value": 2}
 			]
+		},
+		{
+			"id": 703,
+			"group": 1,
+			"name": "Containerwagen InterCargoExpress",
+			"shortcut": "Sgss-y",
+			"speed": 160,
+			"weight": 20,
+			"force": 0,
+			"length": 17,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 100000,
+			"capacity": [
+				{"name": "containers", "value": 1}
+			]
+
 		},
 		{
 			"id": 27,
