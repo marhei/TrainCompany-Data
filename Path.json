@@ -6597,6 +6597,40 @@
 		},
 		{
 			"group": 0,
+			"electrified": true,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "XNVL",
+					"end": "XNBL",
+					"length": 1
+				},
+				{
+					"start": "XNBL",
+					"end": "🇳🇱Hrt",
+					"length": 10
+				},
+				{
+					"start": "🇳🇱Hrt",
+					"end": "🇳🇱Dn",
+					"length": 18
+				},
+				{
+					"start": "🇳🇱Dn",
+					"end": "XNHM",
+					"length": 9
+				},
+				{
+					"start": "XNHM",
+					"end": "XNEI",
+					"length": 13
+				}
+			]
+		},
+		{
+			"group": 0,
 			"electrified": false,
 			"maxSpeed": 120,
 			"twistingFactor": 0.15,
