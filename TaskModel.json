@@ -802,13 +802,16 @@
 			],
 			"objects": [
 				{
-					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS", "MTO", "MFL", "XASB" ]
+					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS", "MTO", "MFL", "XASB" ],
+					"pathSuggestion": [ "MH", "MGB", "MRO", "MBEF", "MPR", "MUS", "MTS", "MTO", "MFL", "XASB" ]
 				},
 				{
-					"stations": [ "MH", "MRO" ]
+					"stations": [ "MH", "MRO" ],
+					"pathSuggestion": [ "MH", "MGB", "MRO"]
 				},
 				{
-					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS" ]
+					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS" ],
+					"pathSuggestion": [ "MH", "MGB", "MRO", "MBEF", "MPR", "MUS", "MTS"]
 				}
 			],
 			"stopsEverywhere": false,
@@ -1066,7 +1069,74 @@
 				"Fahre die S6 zwischen %s und %s."
 			],
 			"service": 3,
-			"stations": ["MH", "MTZ"],
+			"stations": ["MEG","MGB", "MH", "MTZ"],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S4 von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die S4 zwischen %s und %s."
+			],
+			"service": 3,
+			"stations": ["MEG","MGB", "MH", "MGE"],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S7 von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die S7 zwischen %s und %s."
+			],
+			"service": 3,
+			"stations": ["MH","MSN", "MHRK", "MWO"],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die Regionalbahn zwischen %s und %s."
+			],
+			"service": 3,
+			"objects": [
+				{
+					"stations": ["MWSB", "MEDL", "MTUL", "MEG", "MGB"]
+				},
+				{
+					"stations": ["MWSB", "MEDL", "MTUL", "MEG", "MGB", "MH"]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die Regionalbahn zwischen %s und %s."
+			],
+			"service": 3,
+			"stations": ["MRO", "MWSB", "MMF"],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
