@@ -735,16 +735,16 @@
 			],
 			"objects": [
 				{
-					"stations": [ "MH", "MSN", "MHO", "MSFL", "MBT", "MLG" ]
+					"stations": [ "MH", "MSN", "MHO", "MWGU", "MSFL", "MRCH", "MBT", "MGAI", "MOGS", "MLG" ]
 				},
 				{
-					"stations": [ "MH", "MSN", "MHO", "MSFL", "MGMD", "MTE" ]
+					"stations": [ "MH", "MSN", "MHO", "MWGU", "MSFL", "MGMD", "MTE" ]
 				},
 				{
-					"stations": [ "MH", "MSN", "MHO", "MMIB", "MSCS", "MBZ" ]
+					"stations": [ "MH", "MSN", "MHO", "MDAR", "MMIB", "MAGD", "MHHM", "MSCS", "MFIN", "MFBU", "MGEU", "MOSH", "MBZ" ]
 				},
 				{
-					"stations": [ "MH", "MSN", "MHO", "MMIB", "MSCS" ]
+					"stations": [ "MH", "MSN", "MHO", "MDAR", "MMIB", "MAGD", "MHHM", "MSCS" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -802,13 +802,16 @@
 			],
 			"objects": [
 				{
-					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS", "MTO", "MFL", "XASB" ]
+					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS", "MTO", "MFL", "XASB" ],
+					"pathSuggestion": [ "MH", "MGB", "MRO", "MBEF", "MPR", "MUS", "MTS", "MTO", "MFL", "XASB" ]
 				},
 				{
-					"stations": [ "MH", "MRO" ]
+					"stations": [ "MH", "MRO" ],
+					"pathSuggestion": [ "MH", "MGB", "MRO"]
 				},
 				{
-					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS" ]
+					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS" ],
+					"pathSuggestion": [ "MH", "MGB", "MRO", "MBEF", "MPR", "MUS", "MTS"]
 				}
 			],
 			"stopsEverywhere": false,
@@ -995,17 +998,18 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "MH", "MST", "MTZ", "MWH", "MMU", "MGP"],
+					"stations": [ "MH", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MOH", "MECH", "MOU", "MFCH", "MGP"],
 					"pathSuggestion": [ "MH", "MGT", "MST", "MTZ", "MWH", "MMU", "MGP" ]
 				},
 				{
-					"stations": [ "MH", "MST", "MTZ", "MPZ", "MKCH" ]
+					"stations": [ "MH", "MST", "MTZ", "MSE", "MSTA", "MPZ", "MBIC", "MBEN", "MKCH" ]
+				},
+
+				{ 
+					"stations": [ "MH", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MUO", "MSEB", "MGRA", "MBKG", "MBKK", "MSGB", "MALT", "MUAG", "MOA"]
 				},
 				{
-					"stations": [ "MH", "MST", "MTZ", "MWH", "MMU", "MOA"]
-				},
-				{
-					"stations": [ "MMU", "MOA" ]
+					"stations": [ "MMU", "MUO", "MSEB", "MGRA", "MBKG", "MBKK", "MSGB", "MALT", "MUAG", "MOA" ]
 				}
 			],
 			"neededCapacity": [
@@ -1066,7 +1070,94 @@
 				"Fahre die S6 zwischen %s und %s."
 			],
 			"service": 3,
-			"stations": ["MH", "MTZ"],
+			"objects": [
+				{
+					"stations": ["MEG","MGB", "MH", "MTZ"]
+				},
+				{
+					"stations": ["MGB", "MH", "MTZ"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S4 von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die S4 zwischen %s und %s."
+			],
+			"service": 3,
+			"objects": [
+				{
+					"stations": ["MEG","MGB", "MH", "MGE"]
+				},
+				{
+					"stations": ["MGB", "MH", "MGE"]
+				},
+				{
+					"stations": ["MGB", "MH", "MGF"]
+				},
+				{
+					"stations": ["MEG","MGB", "MH", "MGF"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S7 von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die S7 zwischen %s und %s."
+			],
+			"service": 3,
+			"stations": ["MH","MSN", "MHRK", "MWO"],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die Regionalbahn zwischen %s und %s."
+			],
+			"service": 3,
+			"objects": [
+				{
+					"stations": ["MWSB", "MEDL", "MTUL", "MEG", "MGB"]
+				},
+				{
+					"stations": ["MWSB", "MEDL", "MTUL", "MEG", "MGB", "MH"]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die Regionalbahn zwischen %s und %s."
+			],
+			"service": 3,
+			"stations": ["MRO", "MWSB", "MMF"],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
