@@ -7474,6 +7474,60 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 220,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XFSTG",
+					"end": "XFGR",
+					"length": 7
+				},
+				{
+					"start": "XFGR",
+					"end": "XFES",
+					"length": 13
+				},
+				{
+					"start": "XFES",
+					"end": "XFKO",
+					"length": 12
+				},
+				{
+					"start": "XFKO",
+					"end": "XFSL",
+					"length": 11
+				},
+				{
+					"start": "XFSL",
+					"end": "XFC",
+					"length": 22
+				},
+				{
+					"start": "XFC",
+					"end": "XFHH",
+					"length": 6
+				},
+				{
+					"start": "XFHH",
+					"end": "XFMEH",
+					"length": 11
+				},
+				{
+					"start": "XFMEH",
+					"end": "XFSTA",
+					"length": 10
+				},
+				{
+					"start": "XFSTA",
+					"end": "XFMV",
+					"length": 14,
+					"maxSpeed": 200
+				}
+			]
+		},
+		{
 			"name": "Marschbahn",
 			"group": 0,
 			"electrified": false,
@@ -8500,7 +8554,9 @@
 			"group": 0,
 			"electrified": true,
 			"twistingFactor": 0.2,
-			"neededEquipments": ["BE"],
+			"neededEquipments": [
+				"BE"
+			],
 			"maxSpeed": 160,
 			"objects": [
 				{
@@ -8531,13 +8587,18 @@
 			"group": 2,
 			"electrified": true,
 			"twistingFactor": 0.1,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XBAC",
 					"end": "XNRC",
 					"maxSpeed": 300,
-					"neededEquipments": ["BE", "NL"],
+					"neededEquipments": [
+						"BE",
+						"NL"
+					],
 					"length": 93
 				},
 				{
