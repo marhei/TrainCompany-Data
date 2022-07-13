@@ -199,7 +199,9 @@
 						{"const": 0, "description": "Keine Traktion"},
 						{"const": 1, "description": "E-Traktion"},
 						{"const": 2, "description": "Diesel-Traktion"},
-						{"const": 3, "description": "Batterie"}
+						{"const": 3, "description": "Batterie"},
+						{"const": 4, "description": "Hybrid"},
+						{"const": 5, "description": "Wasserstoff"}
 					]
 				},
 				"range": {
@@ -211,7 +213,7 @@
 				"reliability": {
 					"description": "Zuverlässigkeit in Prozent",
 					"type": "number",
-					"minimum": 0,
+					"minimum": 0.8,
 					"maximum": 1
 				},
 				"cost": {
@@ -233,9 +235,33 @@
 							"ETCS",
 							"KRM",
 							"FR",
+							"TVM",
+							"Eurotunnel",
 							"NL",
 							"CZ",
-							"CH"
+							"CH",
+							"AT",
+							"bostrab"
+						]
+					},
+					"uniqueItems": true
+				},
+				"neededEquipments": {
+					"description": "Streckenanforderung",
+					"type": "array",
+					"items": {
+						"type": "string",
+						"examples": [
+							"ETCS",
+							"KRM",
+							"FR",
+							"TVM",
+							"Eurotunnel",
+							"NL",
+							"CZ",
+							"CH",
+							"AT",
+							"bostrab"
 						]
 					},
 					"uniqueItems": true
@@ -262,7 +288,9 @@
 									"cars",
 									"containers",
 									"castor",
-									"coal"
+									"coal",
+									"beds",
+									"bistroseats"
 								]
 							},
 							"value": {
