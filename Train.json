@@ -1119,6 +1119,87 @@
 			"operationCosts": 95
 		},
 		{
+			"id": 151,
+			"group": 0,
+			"name": "BR 151",
+			"speed": 120,
+			"weight": 118,
+			"force": 395,
+			"length": 20,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 294000,
+			"operationCosts": 70
+		},
+				{
+			"id": 303,
+			"group": 0,
+			"name": "DSB EG",
+			"speed": 140,
+			"weight": 132,
+			"force": 400,
+			"length": 21,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 450000,
+			"operationCosts": 90,
+			"equipments": ["DK", "SE"]
+		},
+		{
+			"id": 319,
+			"group": 2,
+			"name": "SJ X31K",
+			"speed": 180,
+			"weight": 156,
+			"force": 500,
+			"length": 79,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 832000,
+			"operationCosts": 1000,
+			"equipments": ["DK", "SE"],
+			"neededEquipments": ["DK", "SE"],
+			"maxConnectedUnits": 5,
+			"exchangeTime": 125,
+			"capacity": [
+				{"name": "passengers", "value": 229}
+			]
+		},
+		{
+			"id": 303,
+			"group": 0,
+			"name": "DSB EG",
+			"speed": 140,
+			"weight": 132,
+			"force": 400,
+			"length": 21,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 450000,
+			"operationCosts": 90,
+			"equipments": ["DK", "SE"]
+		},
+		{
+			"id": 319,
+			"group": 2,
+			"name": "SJ X31K",
+			"speed": 180,
+			"weight": 156,
+			"force": 500,
+			"length": 79,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 832000,
+			"operationCosts": 1000,
+			"equipments": ["DK", "SE"],
+			"neededEquipments": ["DK", "SE"],
+			"maxConnectedUnits": 5,
+			"exchangeTime": 125,
+			"capacity": [
+				{"name": "passengers", "value": 229}
+			]
+		},
+		{
 			"id": 12,
 			"group": 0,
 			"name": "BR 143",
@@ -1130,35 +1211,6 @@
 			"reliability": 0.9,
 			"cost": 200000,
 			"operationCosts": 110
-		},
-		{
-			"id": 151,
-			"group": 0,
-			"name": "BR 151",
-			"speed": 120,
-			"weight": 118,
-			"force": 395,
-			"length": 20,
-			"drive": 1,
-			"reliability": 0.95,
-			"cost": 294000,
-			"operationCosts": 120
-		},
-		{
-			"id": 2159,
-			"group": 0,
-			"name": "Stadler EuroDual",
-			"shortcut": "BR 159",
-			"speed": 160,
-			"weight": 123,
-			"force": 500,
-			"length": 23,
-			"drive": 4,
-			"range": 1000,
-			"reliability": 1,
-			"cost": 600000,
-			"operationCosts": 130,
-			"equipments": [ "FR", "ETCS", "AT" ]
 		},
 		{
 			"id": 15,
@@ -1174,36 +1226,6 @@
 			"cost": 400000,
 			"operationCosts": 90,
 			"equipments": ["ETCS", "AT", "CH"]
-		},
-		{
-			"id": 28,
-			"group": 0,
-			"name": "Bombardier Traxx F140 AC2",
-			"shortcut": "BR 185.2",
-			"speed": 140,
-			"weight": 85,
-			"force": 300,
-			"length": 19,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 400000,
-			"operationCosts": 80,
-			"equipments": ["ETCS", "FR", "BE", "LU", "DK", "CH", "AT"]
-		},
-		{
-			"id": 189,
-			"group": 0,
-			"name": "Siemens ES64F4",
-			"shortcut": "BR 189",
-			"speed": 140,
-			"weight": 87,
-			"force": 300,
-			"length": 20,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 450000,
-			"operationCosts": 75,
-			"equipments": ["ETCS", "BE", "NL", "LU", "DK", "CH", "AT", "CZ", "IT", "PL", "SE"]
 		},
 		{
 			"id": 193,
@@ -1237,6 +1259,37 @@
 			"equipments": ["ETCS", "CH", "AT"]
 		},
 		{
+			"id": 28,
+			"group": 0,
+			"name": "Bombardier Traxx F140 AC2",
+			"shortcut": "BR 185.2",
+			"speed": 140,
+			"weight": 85,
+			"force": 300,
+			"length": 19,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 400000,
+			"operationCosts": 80,
+			"equipments": ["ETCS", "FR", "BE", "LU", "DK", "CH", "AT"]
+		},
+		{
+			"id": 2159,
+			"group": 0,
+			"name": "Stadler EuroDual",
+			"shortcut": "BR 159",
+			"speed": 160,
+			"weight": 123,
+			"force": 500,
+			"length": 23,
+			"drive": 4,
+			"range": 1000,
+			"reliability": 1,
+			"cost": 600000,
+			"operationCosts": 130,
+			"equipments": [ "FR", "ETCS", "AT" ]
+		},
+		{
 			"id": 460,
 			"group": 0,
 			"name": "Re 460",
@@ -1248,7 +1301,7 @@
 			"reliability": 1,
 			"cost": 380000,
 			"operationCosts": 90,
-			"equipments": ["CH", "ETCS"],
+			"equipments": ["CH"],
 			"neededEquipments": ["CH"]
 		},
 		{
