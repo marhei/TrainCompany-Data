@@ -636,6 +636,46 @@
 			]
 		},
 		{
+			"id": 555000,
+			"group": 2,
+			"name": "Bombardier Omnéo",
+			"shortcut": "Régio2N",
+			"speed": 160,
+			"weight": 200,
+			"force": 180,
+			"length": 83,
+			"reliability": 1,
+			"drive": 1,
+			"cost": 1000000,
+			"operationCosts": 45,
+			"maxConnectedUnits": 3,
+			"equipments": ["FR", "ETCS"],
+			"neededEquipments": ["ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 440}
+			]
+		},
+		{
+			"id": 566000,
+			"group": 2,
+			"name": "Bombardier Omnéo Premium",
+			"shortcut": "Omnéo Intercités",
+			"speed": 200,
+			"weight": 450,
+			"force": 379,
+			"length": 135,
+			"reliability": 1,
+			"drive": 1,
+			"cost": 1500000,
+			"operationCosts": 45,
+			"maxConnectedUnits": 3,
+			"equipments": ["FR", "ETCS"],
+			"neededEquipments": ["ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 505}
+			]
+		},
+		{
 			"id": 21,
 			"group": 2,
 			"name": "Siemens Desiro HC Franken/Thüringen",
