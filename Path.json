@@ -5096,6 +5096,44 @@
 			]
 		},
 		{
+			"electrified": true,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.1,
+			"name": "LGV Atlantique",
+			"objects": [
+				{
+					"start": "XFPG",
+					"end": "🇫🇷MPW",
+					"length": 14,
+					"maxSpeed": 200
+				},
+				{
+					"start": "🇫🇷MPW",
+					"end": "🇫🇷CSP",
+					"length": 116
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.1,
+			"name": "LGV Bretagne-Pays de la Loire",
+			"start": "🇫🇷CSP",
+			"end": "XFR",
+			"length": 231
+		},
+		{
 			"neededEquipments": [
 				"FR"
 			],
@@ -6372,7 +6410,124 @@
 			]
 		},
 		{
+			"maxSpeed": 140,
 			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "MH",
+					"end": "MGT",
+					"length": 18,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "MGT",
+					"end": "MST",
+					"length": 9,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MST",
+					"end": "MPH",
+					"length": 5,
+					"twistingFactor": 0.225
+				},
+				{
+					"start": "MPH",
+					"end": "MTZ",
+					"length": 7,
+					"twistingFactor": 0.425
+				},
+				{
+					"start": "MTZ",
+					"end": "MPZ",
+					"length": 22,
+					"twistingFactor": 0.45,
+					"maxSpeed": 100,
+					"name": "Kochelseebahn"
+				},
+				{
+					"start": "MPZ",
+					"end": "MKCH",
+					"length": 13,
+					"maxSpeed": 100,
+					"twistingFactor": 0.385,
+					"name": "Kochelseebahn"
+				},
+				{
+					"start": "MTZ",
+					"end": "MWH",
+					"length": 14,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "MWH",
+					"end": "MMU",
+					"length": 21,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "MMU",
+					"end": "MOA",
+					"length": 23,
+					"twistingFactor": 0.49,
+					"maxSpeed": 60,
+					"name": "Ammergaubahn"
+				},
+				{
+					"start": "MMU",
+					"end": "MGP",
+					"length": 26,
+					"twistingFactor": 0.4,
+					"electrified": true
+				}
+			]
+		},
+		{
+			"name": "Mittenwaldbahn / Karwendelbahn",
+			"maxSpeed": 70,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "MGP",
+					"end": "MKAZ",
+					"length": 2,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "MKAZ",
+					"end": "MKLA",
+					"length": 10,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "MKLA",
+					"end": "MMW",
+					"length": 6,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "MMW",
+					"end": "XAS",
+					"length": 16,
+					"neededEquipments": [
+						"AT"
+					],
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XAS",
+					"end": "XAIW",
+					"length": 22,
+					"neededEquipments": [
+						"AT"
+					],
+					"twistingFactor": 0.175
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 200,
 			"twistingFactor": 0.2,
@@ -10817,6 +10972,31 @@
 			]
 		},
 		{
+			"name": "Rhijnspoorweg",
+			"maxSpeed": 140,
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.3,
+			"neededEquipments": [ "NL" ],
+			"objects": [
+				{
+					"start": "EEM",
+					"end": "XNAH",
+					"length": 25
+				},
+				{
+					"start": "XNAH",
+					"end": "XNU",
+					"length": 57
+				},
+				{
+					"start": "XNU",
+					"end": "XNAC",
+					"length": 35
+				}
+			]
+		},
+		{
 			"name": "Walsumbahn",
 			"maxSpeed": 160,
 			"electrified": true,
@@ -14595,6 +14775,48 @@
 					"length": 4,
 					"maxSpeed": 120,
 					"twistingFactor": 0.25
+				},
+				{
+					"start": "XAL",
+					"end": "XASV",
+					"length": 24,
+					"maxSpeed": 230,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XASV",
+					"end": "XAAS",
+					"length": 40,
+					"maxSpeed": 200,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XAAS",
+					"end": "XAY",
+					"length": 17,
+					"maxSpeed": 250,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XAY",
+					"end": "XAPN",
+					"length": 14,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XAPN",
+					"end": "XAP",
+					"length": 33,
+					"maxSpeed": 200,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XAP",
+					"end": "XAWW",
+					"length": 60,
+					"maxSpeed": 250,
+					"twistingFactor": 0.2
 				}
 			]
 		},
