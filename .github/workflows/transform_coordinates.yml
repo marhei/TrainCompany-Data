@@ -30,5 +30,4 @@ jobs:
           git config --global user.name 'TrainCompany'
           git config --global user.email 'train-company@c1710.de'
           git add Station.json
-          git commit -m "Transformed coordinates"
-          git push
+          git diff-index --quiet HEAD || git commit -m "Transformed coordinates" & git push
