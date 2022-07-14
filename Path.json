@@ -3376,6 +3376,49 @@
 			]
 		},
 		{
+			"electrified": false,
+			"maxSpeed": 80,
+			"twistingFactor": 0.15,
+			"objects": [
+				{
+					"start": "MTS",
+					"end": "MMTZ",
+					"group": 1,
+					"length": 8
+				},
+				{
+					"start": "MMTZ",
+					"end": "MATM",
+					"group": 1,
+					"length": 8
+				},
+				{
+					"start": "MATM",
+					"end": "MTCH",
+					"group": 1,
+					"length": 9
+				},
+				{
+					"start": "MTCH",
+					"end": "MGA",
+					"group": 1,
+					"length": 6
+				},
+				{
+					"start": "MGA",
+					"end": "MTLG",
+					"group": 0,
+					"length": 9
+				},
+				{
+					"start": "MTLG",
+					"end": "MMF",
+					"group": 0,
+					"length": 7
+				}
+			]
+		},
+		{
 			"name": "Main-Neckar-Bahn",
 			"twistingFactor": 0.1,
 			"maxSpeed": 160,
@@ -6972,7 +7015,9 @@
 			"electrified": true,
 			"maxSpeed": 160,
 			"twistingFactor": 0.2,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XNVL",
@@ -7006,7 +7051,9 @@
 			"electrified": true,
 			"maxSpeed": 140,
 			"twistingFactor": 0.2,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XNEI",
@@ -7307,7 +7354,9 @@
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 160,
-			"neededEquipments": ["FR"],
+			"neededEquipments": [
+				"FR"
+			],
 			"objects": [
 				{
 					"start": "XFD",
@@ -9315,13 +9364,18 @@
 			"group": 2,
 			"electrified": true,
 			"twistingFactor": 0.1,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XBAC",
 					"end": "XNRC",
 					"maxSpeed": 300,
-					"neededEquipments": ["BE", "NL"],
+					"neededEquipments": [
+						"BE",
+						"NL"
+					],
 					"length": 93
 				},
 				{
@@ -11703,7 +11757,9 @@
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.3,
-			"neededEquipments": [ "NL" ],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "EEM",
@@ -12771,7 +12827,10 @@
 			"group": 2,
 			"maxSpeed": 300,
 			"twistingFactor": 0.2,
-			"neededEquipments": ["FR", "TVM"],
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
 			"objects": [
 				{
 					"start": "XFSRI",
