@@ -6972,7 +6972,9 @@
 			"electrified": true,
 			"maxSpeed": 160,
 			"twistingFactor": 0.2,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XNVL",
@@ -7006,7 +7008,9 @@
 			"electrified": true,
 			"maxSpeed": 140,
 			"twistingFactor": 0.2,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XNEI",
@@ -7279,6 +7283,134 @@
 			]
 		},
 		{
+			"electrified": true,
+			"name": "East Coast Mainline",
+			"group": 0,
+			"maxSpeed": 200,
+			"twistingFactor": 0.2,
+			"neededEquipments": ["GB"],
+			"objects": [
+				{
+					"start": "XKLP",
+					"end": "🇬🇧PBR",
+					"length": 20,
+					"maxSpeed": 185,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧PBR",
+					"end": "🇬🇧SVG",
+					"length": 24
+				},
+				{
+					"start": "🇬🇧SVG",
+					"end": "🇬🇧SNO",
+					"length": 38
+				},
+				{
+					"start": "🇬🇧SNO",
+					"end": "🇬🇧PBO",
+					"length": 39
+				},
+				{
+					"start": "🇬🇧PBO",
+					"end": "🇬🇧NNG",
+					"length": 70
+				},
+				{
+					"start": "🇬🇧NNG",
+					"end": "🇬🇧RET",
+					"length": 29,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇬🇧RET",
+					"end": "🇬🇧DON",
+					"length": 28
+				},
+				{
+					"start": "🇬🇧DON",
+					"end": "🇬🇧YRK",
+					"length": 52,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧YRK",
+					"end": "🇬🇧THI",
+					"length": 35,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧THI",
+					"end": "🇬🇧NTR",
+					"length": 12,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧NTR",
+					"end": "🇬🇧DAR",
+					"length": 22,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧DAR",
+					"end": "🇬🇧DHM",
+					"length": 35,
+					"twistingFactor": 0.26,
+					"maxSpeed": 170
+				},
+				{
+					"start": "🇬🇧DHM",
+					"end": "🇬🇧NCL",
+					"length": 22,
+					"maxSpeed": 185
+				},
+				{
+					"start": "🇬🇧NCL",
+					"end": "🇬🇧CRM",
+					"length": 16,
+					"maxSpeed": 170
+				},
+				{
+					"start": "🇬🇧CRM",
+					"end": "🇬🇧MPT",
+					"length": 10,
+					"maxSpeed": 170
+				},
+				{
+					"start": "🇬🇧MPT",
+					"end": "🇬🇧ALM",
+					"length": 29,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇬🇧ALM",
+					"end": "🇬🇧BWK",
+					"length": 51
+				},
+				{
+					"start": "🇬🇧BWK",
+					"end": "🇬🇧DUN",
+					"length": 45,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧DUN",
+					"end": "🇬🇧PST",
+					"length": 31,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇬🇧PST",
+					"end": "🇬🇧EDB",
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 140,
@@ -7307,7 +7439,9 @@
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 160,
-			"neededEquipments": ["FR"],
+			"neededEquipments": [
+				"FR"
+			],
 			"objects": [
 				{
 					"start": "XFD",
@@ -9315,13 +9449,18 @@
 			"group": 2,
 			"electrified": true,
 			"twistingFactor": 0.1,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XBAC",
 					"end": "XNRC",
 					"maxSpeed": 300,
-					"neededEquipments": ["BE", "NL"],
+					"neededEquipments": [
+						"BE",
+						"NL"
+					],
 					"length": 93
 				},
 				{
@@ -11703,7 +11842,9 @@
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.3,
-			"neededEquipments": [ "NL" ],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "EEM",
@@ -12771,7 +12912,10 @@
 			"group": 2,
 			"maxSpeed": 300,
 			"twistingFactor": 0.2,
-			"neededEquipments": ["FR", "TVM"],
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
 			"objects": [
 				{
 					"start": "XFSRI",
