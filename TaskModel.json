@@ -229,6 +229,25 @@
 		},
 		{
 			"group": 1,
+			"name": "IC Direct von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Verbinde die wichtigsten Städte der Niederlande und Belgien schnell und direkt."
+			],
+			"objects": [
+				{
+					"stations": [ "XNAC", "XNRC", "XBAC", "XBB" ]
+				},
+				{
+					"stations": [ "XNAC", "XNRC" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "ICE International von %s nach %s",
 			"service": 0,
 			"descriptions": [
