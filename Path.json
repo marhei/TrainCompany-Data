@@ -6900,6 +6900,41 @@
 			]
 		},
 		{
+			"name": "Brennerbahn",
+			"group": 0,
+			"maxSpeed": 80,
+			"electrified": true,
+			"neededEquipments": [
+				"AT"
+			],
+			"objects": [
+				{
+					"start": "XAIW",
+					"end": "XAI",
+					"length": 2,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XAI",
+					"end": "XAM",
+					"length": 18,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XAM",
+					"end": "XAST",
+					"length": 5,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XAST",
+					"end": "XIBN",
+					"length": 14,
+					"twistingFactor": 0.35
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 200,
 			"twistingFactor": 0.2,
