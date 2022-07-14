@@ -2658,6 +2658,19 @@
 		},
 		{
 			"group": 0,
+			"name": "Holzzug nach %2$s",
+			"service": 11,
+			"descriptions": [
+				"Der Holzproduzent Ante möchte Schnittholz aus %s zur Europalettenproduktion nach %s liefern lassen.",
+				"Es wird Holz aus %s für die Europalettenproduktion in %s benötigt."
+			],
+			"stations": [ "URTS", "TMG" ],
+			"neededCapacity": [
+				{ "name": "wood", "value": 800 }
+			]
+		},
+		{
+			"group": 0,
 			"name": "Kohlezug nach %2$s",
 			"service": 11,
 			"descriptions": [
