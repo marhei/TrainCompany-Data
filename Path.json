@@ -6397,6 +6397,37 @@
 		},
 		{
 			"maxSpeed": 120,
+			"electrified": false,
+			"group": 0,
+			"objects": [
+				{
+					"start": "MRO",
+					"end": "MRT",
+					"length": 16,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "MRT",
+					"end": "MWSB",
+					"length": 9,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "MWSB",
+					"end": "MWKG",
+					"length": 25,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "MWKG",
+					"end": "MMF",
+					"length": 10,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"maxSpeed": 120,
 			"electrified": true,
 			"group": 0,
 			"name": "Isartalbahn",
@@ -6894,9 +6925,7 @@
 			"electrified": true,
 			"maxSpeed": 160,
 			"twistingFactor": 0.2,
-			"neededEquipments": [
-				"NL"
-			],
+			"neededEquipments": ["NL"],
 			"objects": [
 				{
 					"start": "XNVL",
@@ -6930,9 +6959,7 @@
 			"electrified": true,
 			"maxSpeed": 140,
 			"twistingFactor": 0.2,
-			"neededEquipments": [
-				"NL"
-			],
+			"neededEquipments": ["NL"],
 			"objects": [
 				{
 					"start": "XNEI",
@@ -9077,9 +9104,7 @@
 			"group": 0,
 			"electrified": true,
 			"twistingFactor": 0.2,
-			"neededEquipments": [
-				"BE"
-			],
+			"neededEquipments": ["BE"],
 			"objects": [
 				{
 					"start": "XBB",
@@ -9094,18 +9119,13 @@
 			"group": 2,
 			"electrified": true,
 			"twistingFactor": 0.1,
-			"neededEquipments": [
-				"NL"
-			],
+			"neededEquipments": ["NL"],
 			"objects": [
 				{
 					"start": "XBAC",
 					"end": "XNRC",
 					"maxSpeed": 300,
-					"neededEquipments": [
-						"BE",
-						"NL"
-					],
+					"neededEquipments": ["BE", "NL"],
 					"length": 93
 				},
 				{
@@ -10532,69 +10552,6 @@
 			]
 		},
 		{
-			"maxSpeed": 120,
-			"electrified": false,
-			"group": 0,
-			"twistingFactor": 0.2,
-			"objects": [
-				{
-					"start": "MRO",
-					"end": "MROS",
-					"length": 2
-				},
-				{
-					"start": "MROS",
-					"end": "MSC",
-					"length": 6
-				},
-				{
-					"start": "MSC",
-					"end": "MRT",
-					"length": 7
-				},
-				{
-					"start": "MRT",
-					"end": "MRMB",
-					"length": 3
-				},
-				{
-					"start": "MRMB",
-					"end": "MWSB",
-					"length": 5
-				},
-				{
-					"start": "MWSB",
-					"end": "MSY",
-					"length": 5
-				},
-				{
-					"start": "MSY",
-					"end": "MGS",
-					"length": 9
-				},
-				{
-					"start": "MGS",
-					"end": "MMIG",
-					"length": 2
-				},
-				{
-					"start": "MMIG",
-					"end": "MJEB",
-					"length": 3
-				},
-				{
-					"start": "MJEB",
-					"end": "MWKG",
-					"length": 4
-				},
-				{
-					"start": "MWKG",
-					"end": "MMF",
-					"length": 10
-				}
-			]
-		},
-		{
 			"group": 1,
 			"electrified": false,
 			"twistingFactor": 0.5,
@@ -11554,9 +11511,7 @@
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.3,
-			"neededEquipments": [
-				"NL"
-			],
+			"neededEquipments": [ "NL" ],
 			"objects": [
 				{
 					"start": "EEM",
