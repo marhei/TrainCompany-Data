@@ -13394,69 +13394,6 @@
 			]
 		},
 		{
-			"electrified": false,
-			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
-			"objects": [
-				{
-					"start": "MRO",
-					"end": "MROS",
-					"length": 2
-				},
-				{
-					"start": "MROS",
-					"end": "MSC",
-					"length": 6
-				},
-				{
-					"start": "MSC",
-					"end": "MRT",
-					"length": 7
-				},
-				{
-					"start": "MRT",
-					"end": "MRMB",
-					"length": 3
-				},
-				{
-					"start": "MRMB",
-					"end": "MWSB",
-					"length": 5
-				},
-				{
-					"start": "MWSB",
-					"end": "MSY",
-					"length": 5
-				},
-				{
-					"start": "MSY",
-					"end": "MGS",
-					"length": 9
-				},
-				{
-					"start": "MGS",
-					"end": "MMIG",
-					"length": 2
-				},
-				{
-					"start": "MMIG",
-					"end": "MJEB",
-					"length": 3
-				},
-				{
-					"start": "MJEB",
-					"end": "MWKG",
-					"length": 4
-				},
-				{
-					"start": "MWKG",
-					"end": "MMF",
-					"length": 10
-				}
-			]
-		},
-		{
 			"group": 0,
 			"electrified": true,
 			"objects": [
@@ -14492,10 +14429,10 @@
 			]
 		},
 		{
+			"maxSpeed": 120,
 			"electrified": false,
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
+			"twistingFactor": 0.2,
 			"objects": [
 				{
 					"start": "MRO",
