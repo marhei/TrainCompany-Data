@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "Station.json"
+  create:
   workflow_dispatch:
     
 jobs:
