@@ -24,7 +24,7 @@ jobs:
       - name: Install requirements
         run: python -m pip install -r tools/requirements.txt
       - name: Transform coordinates
-        run: python tools/transform_to_laea.py --tc_dir=.
+        run: python tools/transform_to_laea.py --tc-dir=.
       - name: Commit and Push
         run: |
           git config --global user.name 'TrainCompany'
