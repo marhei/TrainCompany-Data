@@ -4,9 +4,6 @@ on:
   push:
     paths:
       - "Station.json"
-  pull_request:
-    paths:
-      - "Station.json"
   workflow_dispatch:
     
 jobs:
