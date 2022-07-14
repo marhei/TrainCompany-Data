@@ -431,19 +431,19 @@
 			"service": 0,
 			"objects": [
 				{
-					"stations": [ "XFMVC", "XFLIE", "XKAI" ],
-					"pathSuggestion": [ "XFMVC", "XFVAR", "🇫🇷VEMARS", "XFLIE", "XKAI" ]
+					"stations": [ "XFMVC", "XFLIE", "XKAI", "XKEI", "XKLP" ],
+					"pathSuggestion": [ "XFMVC", "XFVAR", "🇫🇷VEMARS", "XFLIE", "XKAI", "XKEI", "XKLP" ]
 				},
 				{
-					"stations": [ "XFLPD", "XFLIE", "XKAI" ],
-					"pathSuggestion": [ "XFLPD", "🇫🇷PAI", "🇫🇷MOIS", "XFVAR", "🇫🇷VEMARS", "XFLIE", "XKAI" ]
+					"stations": [ "XFLPD", "XFLIE", "XKAI", "XKEI", "XKLP" ],
+					"pathSuggestion": [ "XFLPD", "🇫🇷PAI", "🇫🇷MOIS", "XFVAR", "🇫🇷VEMARS", "XFLIE", "XKAI", "XKEI", "XKLP" ]
 				},
 				{
-					"stations": [ "XFPO", "XFLIE", "XFFE", "XKAI" ],
-					"pathSuggestion": [ "XFPO", "🇫🇷VEMARS", "XFLIE", "XFFE", "XKAI" ]
+					"stations": [ "XFPO", "XFLIE", "XFFE", "XKAI", "XKEI", "XKLP" ],
+					"pathSuggestion": [ "XFPO", "🇫🇷VEMARS", "XFLIE", "XFFE", "XKAI", "XKEI", "XKLP" ]
 				},
 				{
-					"stations": ["XNAC", "XBB", "XFLIE", "XKAI" ]
+					"stations": ["XNAC", "XBB", "XFLIE", "XKAI", "XKEI", "XKLP" ]
 				}
 			]
 		},
@@ -904,7 +904,7 @@
 				"Bringe den RE11 pünktlich und störungsfrei von %s nach %s.",
 				"Der RE11 muss quer durch NRW von %s nach %s."
 			],
-			"stations": [ "FKW", "HWAR", "HA", "EPD", "ESOT", "EHM", "EDO", "EBO", "EE", "EDG", "KD" ],
+			"stations": [ "FKW", "HWAR", "HA", "EPD", "ELPP", "ESOT", "EHM", "EDO", "EBO", "EE", "EDG", "KD" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -1495,11 +1495,10 @@
 					"stations": [ "HM", "HWUN", "HH" ]
 				},
 				{
-					"stations": [ "HC", "HH" ]
+					"stations": [ "HC", "HGBW", "HH" ]
 				},
 				{
-					"stations": [ "HHI", "HH" ],
-					"pathSuggestion": [ "HHI", "HELZ", "HH" ]
+					"stations": [ "HHI", "HLER", "HH" ]
 				}
 			],
 			"neededCapacity": [
@@ -1711,7 +1710,7 @@
 			"descriptions": [
 				"Bring die Ems-Börde-Bahn pünktlich von %s nach %s."
 			],
-			"stations": [ "FKW", "HWAR", "HA", "EPD", "ESOT", "EHM", "EMST" ],
+			"stations": [ "FKW", "HWAR", "HA", "EPD", "ELPP", "ESOT", "EHM", "EMST" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]

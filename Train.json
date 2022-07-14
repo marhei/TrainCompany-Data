@@ -165,10 +165,75 @@
 			"operationCosts": 70,
 			"equipments": ["ETCS", "FR", "TVM", "CH", "LU"],
 			"maxConnectedUnits": 2,
+			"compatibleWith": [4403, 4501],
 			"exchangeTime": 150,
 			"capacity": [
 				{"name": "passengers", "value": 509},
 				{"name": "bistroseats", "value": 8 }
+			]
+		},
+		{
+			"id": 4403,
+			"group": 2,
+			"name": "TGV POS",
+			"speed": 320,
+			"weight": 383,
+			"force": 300,
+			"length": 200,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 4500000,
+			"operationCosts": 60,
+			"equipments": ["FR", "TVM"],
+			"maxConnectedUnits": 2,
+			"compatibleWith": [4701, 4501],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 400},
+				{"name": "bistroseats", "value": 10}
+			]
+		},
+		{
+			"id": 4501,
+			"group": 2,
+			"name": "TGV Réseau",
+			"speed": 320,
+			"weight": 383,
+			"force": 300,
+			"length": 200,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 4400000,
+			"operationCosts": 60,
+			"equipments": ["FR", "TVM", "BE", "IT"],
+			"neededEquipments": ["FR", "BE", "IT"],
+			"compatibleWith": [4403, 4701, 409],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 361},
+				{"name": "bistroseats", "value": 10}
+			]
+		},
+		{
+			"id": 24000,
+			"group": 2,
+			"name": "TGV Atlantique",
+			"speed": 320,
+			"weight": 444,
+			"force": 300,
+			"length": 238,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 4200000,
+			"operationCosts": 60,
+			"equipments": ["FR", "TVM"],
+			"neededEquipments": ["FR"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 485},
+				{"name": "bistroseats", "value": 10}
 			]
 		},
 		{
@@ -230,6 +295,7 @@
 			"operationCosts": 72,
 			"equipments": ["FR", "NL", "BE", "TVM", "ETCS"],
 			"maxConnectedUnits": 2,
+			"compatibleWith": [4501],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 377},
@@ -570,6 +636,46 @@
 			]
 		},
 		{
+			"id": 555000,
+			"group": 2,
+			"name": "Bombardier Omnéo",
+			"shortcut": "Régio2N",
+			"speed": 160,
+			"weight": 200,
+			"force": 180,
+			"length": 83,
+			"reliability": 1,
+			"drive": 1,
+			"cost": 1000000,
+			"operationCosts": 45,
+			"maxConnectedUnits": 3,
+			"equipments": ["FR", "ETCS"],
+			"neededEquipments": ["ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 440}
+			]
+		},
+		{
+			"id": 566000,
+			"group": 2,
+			"name": "Bombardier Omnéo Premium",
+			"shortcut": "Omnéo Intercités",
+			"speed": 200,
+			"weight": 450,
+			"force": 379,
+			"length": 135,
+			"reliability": 1,
+			"drive": 1,
+			"cost": 1500000,
+			"operationCosts": 45,
+			"maxConnectedUnits": 3,
+			"equipments": ["FR", "ETCS"],
+			"neededEquipments": ["ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 505}
+			]
+		},
+		{
 			"id": 21,
 			"group": 2,
 			"name": "Siemens Desiro HC Franken/Thüringen",
@@ -651,6 +757,31 @@
 			"exchangeTime": 125,
 			"capacity": [
 				{"name": "passengers", "value": 229}
+			]
+		},
+		{
+			"id": 9040,
+			"group": 2,
+			"name": "Eurotunnel Le Shuttle",
+			"shortcut": "Le Shuttle",
+			"speed": 160,
+			"weight": 1020,
+			"force": 800,
+			"length": 750,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 1,
+			"equipments": [
+				"Eurotunnel",
+				"TVM",
+				"FR",
+				"GB"
+			],
+			"neededEquipments": ["Eurotunnel"],
+			"operationCosts": 200,
+			"cost": 2900000,
+			"capacity": [
+				{"name": "cars", "value": 132}
 			]
 		},
 		{
@@ -1399,7 +1530,7 @@
 			"operationCosts": 110,
 			"equipments": ["FR"]
 		},
-{
+		{
 			"id": 251,
 			"group": 0,
 			"name": "MaK DE 2700",
@@ -1478,6 +1609,23 @@
 			"exchangeTime": 180,
 			"capacity": [
 				{"name": "bistroseats", "value": 18}
+			]
+		},
+		{
+			"id": 1975,
+			"group": 1,
+			"name": "Corail-Wagen",
+			"shortcut": "B10rtu",
+			"speed": 200,
+			"weight": 42,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 190000,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 88}
 			]
 		},
 		{
