@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.9'
       - name: Install matplotlib
-        run: python -m pip install matplotlib
+        run: python -m pip install -r tools/requirements.txt
       - name: Render map
         run: python tools/plot.py
       - uses: actions/upload-artifact@v3
