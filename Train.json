@@ -1359,8 +1359,8 @@
 		{
 			"id": 15,
 			"group": 0,
-			"name": "Siemens Taurus",
-			"shortcut": "BR 182",
+			"name": "Siemens ES64U2",
+			"shortcut": "BR 182 / Rh1116",
 			"speed": 230,
 			"weight": 86,
 			"force": 300,
@@ -1370,6 +1370,21 @@
 			"cost": 400000,
 			"operationCosts": 90,
 			"equipments": ["ETCS", "AT", "CH"]
+		},
+		{
+			"id": 183,
+			"group": 0,
+			"name": "Siemens ES64U4",
+			"shortcut": "BR 183 / Rh1216",
+			"speed": 230,
+			"weight": 87,
+			"force": 300,
+			"length": 20,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 450000,
+			"operationCosts": 90,
+			"equipments": ["ETCS", "AT", "CH", "IT", "CZ", "PL"]
 		},
 		{
 			"id": 28,
@@ -1592,7 +1607,7 @@
 		{
 			"id": 245,
 			"group": 0,
-			"name": "P160 DE ME",
+			"name": "Bombardier Traxx P160 DE ME",
 			"shortcut": "BR 245",
 			"speed": 160,
 			"weight": 82,
@@ -2043,7 +2058,7 @@
 			"reliability": 1,
 			"cost": 1500000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [15],
+			"compatibleWith": [15, 183],
 			"exchangeTime": 120,
 			"equivalentTo": 7,
 			"capacity": [
