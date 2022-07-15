@@ -3024,10 +3024,10 @@
 		},
 		{
 			"group": 1,
-			"name": "Containerzug von Krefeld nach Helsingborg ",
+			"name": "Containerzug von %s nach %s",
 			"service": 11,
 			"descriptions": [
-				"Verbinde das Rheinland mit dem Norden."
+				"Bringe den schweren Containerzug nach %2$s."
 			],
 			"stations": [ "KKR", "XVH" ],
 			"neededCapacity": [
@@ -3036,10 +3036,10 @@
 		},
 		{
 			"group": 1,
-			"name": "Güterzug von Hamburg nach Malmö ",
+			"name": "Güterzug von %s nach %s ",
 			"service": 11,
 			"descriptions": [
-				"Bringe einen Kombinierten Güterzug nach Malmö."
+				"Bringe einen kombinierten Güterzug nach %2$s."
 			],
 			"stations": [ "AHAR", "XVM" ],
 			"neededCapacity": [
@@ -3078,11 +3078,11 @@
 		},
 		{
 			"group": 1,
-			"name": "Öresundståg von XDKH nach XVH",
+			"name": "Regionalzug von %s nach %s",
 			"service": 2,
 			"descriptions": [
-				"Verbinde Kopenhagen mit Helsingborg.",
-				"Fahre den Zug zwischen Dänemark und Schweden."
+				"Verbinde %s mit %s.",
+				"Fahre den Zug zwischen %s und %s."
 			],
 			"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "🇸🇪LK", "XVH" ],
 			"neededCapacity": [
@@ -3091,11 +3091,11 @@
 		},
 		{
 			"group": 1,
-			"name": "Öresundståg von XVH nach XDKH",
+			"name": "Regionalzug von XVH nach XDKH",
 			"service": 2,
 			"descriptions": [
-				"Verbinde Schweden mit Dänemark.",
-				"Fahre den Zug zwischen Helsingborg und Kopenhagen."
+				"Verbinde %s mit %s.",
+				"Fahre den Zug zwischen %s und %s."
 			],
 			"stations": [ "XVH", "🇸🇪LK", "🇸🇪KL", "XVM", "XDKHL", "XDKH" ],
 			"neededCapacity": [
