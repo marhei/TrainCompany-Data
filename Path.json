@@ -6151,7 +6151,9 @@
 			"maxSpeed": 90,
 			"electrified": false,
 			"group": 0,
-			"neededEquipments": [ "CZ" ],
+			"neededEquipments": [
+				"CZ"
+			],
 			"twistingFactor": 0.25,
 			"objects": [
 				{
@@ -11926,6 +11928,39 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "MER",
+					"end": "MANE",
+					"length": 1
+				},
+				{
+					"start": "MANE",
+					"end": "MAFE",
+					"length": 2
+				},
+				{
+					"start": "MAFE",
+					"end": "MKL",
+					"length": 3
+				},
+				{
+					"start": "MKL",
+					"end": "MONH",
+					"length": 3
+				},
+				{
+					"start": "MONH",
+					"end": "MSB",
+					"length": 3
+				}
+			]
+		},
+		{
 			"name": "Rhijnspoorweg",
 			"maxSpeed": 140,
 			"electrified": true,
@@ -16882,7 +16917,8 @@
 					"maxSpeed": 160,
 					"twistingFactor": 0.5
 				},
-				{	"start": "XDKHL",
+				{
+					"start": "XDKHL",
 					"end": "🇩🇰PB",
 					"length": 8,
 					"maxSpeed": 180,
@@ -16934,13 +16970,15 @@
 					"maxSpeed": 150,
 					"twistingFactor": 0.2
 				},
-				{	"start": "🇸🇪KL",
+				{
+					"start": "🇸🇪KL",
 					"end": "🇸🇪LK",
 					"length": 20,
 					"maxSpeed": 200,
 					"twistingFactor": 0.45
 				},
-				{	"start": "🇸🇪LK",
+				{
+					"start": "🇸🇪LK",
 					"end": "XVH",
 					"length": 22,
 					"maxSpeed": 200,
