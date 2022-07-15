@@ -1,4 +1,4 @@
-name: Transform coordinates
+name: Project coordinates
 
 on:
   push:
@@ -21,12 +21,12 @@ jobs:
           python-version: '3.9'
       - name: Install requirements
         run: python -m pip install -r tools/requirements.txt
-      - name: Transform coordinates
-        run: python tools/transform_to_laea.py --tc-dir=.
+      - name: Project coordinates
+        run: python tools/project_coordinates.py --tc-dir=.
       - name: Commit and Push
         # https://stackoverflow.com/a/58393457
         run: |
           git config --global user.name 'TrainCompany'
           git config --global user.email 'train-company@c1710.de'
-          git add Station.json && git commit -m "Transformed coordinates" && git push
+          git add Station.json && git commit -m "Projected coordinates" && git push
         continue-on-error: true

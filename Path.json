@@ -6148,6 +6148,60 @@
 			]
 		},
 		{
+			"maxSpeed": 90,
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [ "CZ" ],
+			"twistingFactor": 0.25,
+			"objects": [
+				{
+					"start": "NFW",
+					"end": "🇨🇿5474805",
+					"length": 6
+				},
+				{
+					"start": "🇨🇿5474805",
+					"end": "🇨🇿5473515",
+					"length": 11
+				},
+				{
+					"start": "🇨🇿5473515",
+					"end": "🇨🇿5474765",
+					"length": 12
+				},
+				{
+					"start": "🇨🇿5474765",
+					"end": "🇨🇿5476585",
+					"length": 8
+				},
+				{
+					"start": "🇨🇿5476585",
+					"end": "🇨🇿5474735",
+					"length": 5
+				},
+				{
+					"start": "🇨🇿5474735",
+					"end": "🇨🇿5474715",
+					"length": 8
+				},
+				{
+					"start": "🇨🇿5474715",
+					"end": "🇨🇿5474595",
+					"length": 11
+				},
+				{
+					"start": "🇨🇿5474595",
+					"end": "🇨🇿5474675",
+					"length": 5
+				},
+				{
+					"start": "🇨🇿5474675",
+					"end": "🇨🇿5473275",
+					"length": 8
+				}
+			]
+		},
+		{
 			"maxSpeed": 300,
 			"electrified": true,
 			"group": 0,
@@ -8258,28 +8312,13 @@
 				},
 				{
 					"start": "MNRO",
-					"end": "MSHU",
-					"length": 1
-				},
-				{
-					"start": "MSHU",
 					"end": "MSHH",
-					"length": 2
+					"length": 3
 				},
 				{
 					"start": "MSHH",
-					"end": "MABO",
-					"length": 1
-				},
-				{
-					"start": "MABO",
-					"end": "MOBU",
-					"length": 1
-				},
-				{
-					"start": "MOBU",
 					"end": "MBCN",
-					"length": 1
+					"length": 3
 				},
 				{
 					"start": "MBCN",
@@ -16842,6 +16881,12 @@
 					"length": 12,
 					"maxSpeed": 160,
 					"twistingFactor": 0.5
+				},
+				{	"start": "XDKHL",
+					"end": "🇩🇰PB",
+					"length": 8,
+					"maxSpeed": 180,
+					"twistingFactor": 0.15
 				}
 			]
 		},
@@ -16865,6 +16910,41 @@
 					"length": 15,
 					"maxSpeed": 160,
 					"twistingFactor": 0.5
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"SE"
+			],
+			"objects": [
+				{
+					"start": "🇩🇰PB",
+					"end": "XVM",
+					"length": 24,
+					"maxSpeed": 200,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "XVM",
+					"end": "🇸🇪KL",
+					"length": 24,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{	"start": "🇸🇪KL",
+					"end": "🇸🇪LK",
+					"length": 20,
+					"maxSpeed": 200,
+					"twistingFactor": 0.45
+				},
+				{	"start": "🇸🇪LK",
+					"end": "XVH",
+					"length": 22,
+					"maxSpeed": 200,
+					"twistingFactor": 0.25
 				}
 			]
 		}

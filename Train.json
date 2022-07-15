@@ -785,6 +785,28 @@
 			]
 		},
 		{
+			"id": 322,
+			"group": 2,
+			"name": "DSB ER",
+			"shortcut": "IR4",
+			"speed": 180,
+			"weight": 133,
+			"force": 250,
+			"length": 77,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 5,
+			"equipments": [
+				"DK"
+			],
+			"neededEquipments": ["DK"],
+			"operationCosts": 85,
+			"cost": 500000,
+			"capacity": [
+				{"name": "passengers", "value": 227}
+			]
+		},
+		{
 			"id": 563,
 			"group": 2,
 			"name": "Siemens Mireo Plus H",
@@ -878,6 +900,28 @@
 			"equipments": ["ETCS", "DK"],
 			"capacity": [
 				{"name": "passengers", "value": 144}
+			]
+		},
+		{
+			"id": 355,
+			"group": 2,
+			"name": "DSB MG",
+			"shortcut": "IC4",
+			"speed": 200,
+			"weight": 160,
+			"force": 150,
+			"length": 86,
+			"drive": 2,
+			"reliability": 0.8,
+			"maxConnectedUnits": 4,
+			"equipments": [
+				"DK"
+			],
+			"neededEquipments": ["DK"],
+			"operationCosts": 100,
+			"cost": 500000,
+			"capacity": [
+				{"name": "passengers", "value": 208}
 			]
 		},
 		{
@@ -1315,8 +1359,8 @@
 		{
 			"id": 15,
 			"group": 0,
-			"name": "Siemens Taurus",
-			"shortcut": "BR 182",
+			"name": "Siemens ES64U2",
+			"shortcut": "BR 182 / Rh1116",
 			"speed": 230,
 			"weight": 86,
 			"force": 300,
@@ -1326,6 +1370,21 @@
 			"cost": 400000,
 			"operationCosts": 90,
 			"equipments": ["ETCS", "AT", "CH"]
+		},
+		{
+			"id": 183,
+			"group": 0,
+			"name": "Siemens ES64U4",
+			"shortcut": "BR 183 / Rh1216",
+			"speed": 230,
+			"weight": 87,
+			"force": 300,
+			"length": 20,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 450000,
+			"operationCosts": 90,
+			"equipments": ["ETCS", "AT", "CH", "IT", "CZ", "PL"]
 		},
 		{
 			"id": 28,
@@ -1370,7 +1429,7 @@
 			"reliability": 1,
 			"cost": 450000,
 			"operationCosts": 110,
-			"equipments": ["ETCS", "CZ", "CH", "AT", "NL", "BE", "IT", "PL"]
+			"equipments": ["ETCS", "CZ", "CH", "AT", "NL", "BE", "IT", "PL", "DK", "SE"]
 		},
 		{
 			"id": 248,
@@ -1485,7 +1544,7 @@
 			"reliability": 0.9,
 			"cost": 400000,
 			"operationCosts": 120,
-			"equipments": ["GB", "NL", "BE", "LU", "DK", "PL", "CZ", "FR"]
+			"equipments": ["GB", "NL", "BE", "LU", "DK", "PL", "CZ", "FR", "SE"]
 		},
 		{
 			"id": 17,
@@ -1548,7 +1607,7 @@
 		{
 			"id": 245,
 			"group": 0,
-			"name": "P160 DE ME",
+			"name": "Bombardier Traxx P160 DE ME",
 			"shortcut": "BR 245",
 			"speed": 160,
 			"weight": 82,
@@ -1999,7 +2058,7 @@
 			"reliability": 1,
 			"cost": 1500000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [15],
+			"compatibleWith": [15, 183],
 			"exchangeTime": 120,
 			"equivalentTo": 7,
 			"capacity": [
