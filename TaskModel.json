@@ -100,7 +100,8 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			]
 		},
 		{
@@ -113,7 +114,8 @@
 			],
 			"stations": [ "FW", "FMZ", "FFLF", "FF", "FH", "FFU", "FBHF", "UEI", "UGO", "UE P", "LL" ],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			],
 			"pathSuggestion": [ "FW", "FMZ", "FFLF", "FF", "FH", "FFD", "FFU", "FBHF", "FB", "UEI", "UGO", "UE P", "LPLN", "LGOS", "LL" ]
 		},
@@ -136,7 +138,8 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			]
 		},
 		{
@@ -157,7 +160,8 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			]
 		},
 		{
@@ -224,6 +228,26 @@
 				}
 			],
 			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "IC Direct von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Verbinde die wichtigsten Städte der Niederlande und Belgien schnell und direkt."
+			],
+			"objects": [
+				{
+					"stations": [ "XNAC", "XNRC", "XBAC", "XBB" ]
+				},
+				{
+					"stations": [ "XNAC", "XNRC" ]
+				}
+			],
+			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
 		},
@@ -236,10 +260,12 @@
 			],
 			"objects": [
 				{
-					"stations": [ "XNAC", "XNU", "XNAH", "EOB", "EDG", "KD", "KK", "FFLF", "RM", "RK", "RO", "RF", "RB" ]
+					"stations": [ "XNAC", "XNU", "XNAH", "EOB", "EDG", "KD", "KK", "FFLF", "RM", "RK", "RO", "RF", "RB" ],
+					"pathSuggestion": [ "XNAC", "XNU", "XNAH", "EOB", "EDG", "KD", "KK", "KT", "KSIB", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB" ]
 				},
 				{
-					"stations": [ "XNAC", "XNU", "XNAH", "EOB", "EDG", "KD", "KK", "FFLF", "FF" ]
+					"stations": [ "XNAC", "XNU", "XNAH", "EOB", "EDG", "KD", "KK", "FFLF", "FF" ],
+					"pathSuggestion": [ "XNAC", "XNU", "XNAH", "EOB", "EDG", "KD", "KK", "KT", "KSIB", "FFLF", "FF" ]
 				}
 			],
 			"neededCapacity": [
@@ -312,7 +338,8 @@
 			],
 			"stations": [ "XSIO", "XSSP", "XSTH", "XSBE", "XSOL", "XSB", "RB", "RF", "RBB", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH", "AA" ],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			],
 			"group": 1,
 			"service": 0,
@@ -350,7 +377,8 @@
 			],
 			"stations": [ "FF", "RM", "RK", "RB", "XSB", "XSOL", "XSLU", "XSAG", "XSBZ", "XSL", "XSCH" ],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			],
 			"group": 1,
 			"service": 0,
@@ -366,7 +394,8 @@
 				"Bringe den TGV pünktlich über die SFS von %s nach %s"
 			],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			],
 			"group": 1,
 			"service": 0,
@@ -390,7 +419,8 @@
 				"Bringe den TGV Atlantique von %s nach %s."
 			],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			],
 			"group": 1,
 			"service": 0,
@@ -411,7 +441,8 @@
 			],
 			"stations": [ "XFPG", "XFLC", "XFLPD" ],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			],
 			"group": 1,
 			"service": 0,
@@ -425,7 +456,8 @@
 				"Fahre den Eurostar nach %2$s. Fahrgäste von/nach London müssen wegen des Brexits umsteigen."
 			],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			],
 			"group": 1,
 			"service": 0,
@@ -491,6 +523,7 @@
 			"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HL", "HWUN", "HH", "HELZ", "HBS", "LM", "LK", "LH", "LGOS", "LL", "DR", "DPR", "DH" ]
 		},
 		{
+
 			"group": 1,
 			"name": "IC von %s nach %s",
 			"service": 1,
@@ -504,6 +537,33 @@
 				{ "name": "passengers", "value": 0 }
 			],
 			"pathSuggestion": [ "XSZH", "XSZO", "RSCF", "RSI", "RIM", "TTU", "TR", "THB", "TET", "TBO", "TS" ]
+		},
+		{
+			"group": 1,
+			"objects": [
+				{
+					"name": "ICE von %s nach %s",
+					"service": 0,
+					"neededCapacity": [
+						{ "name": "passengers", "value": 0 },
+						{ "name": "bistroseats", "value": 0 }
+					]
+				},
+				{
+					"name": "EC von %s nach %s",
+					"service": 1,
+					"neededCapacity": [
+						{ "name": "passengers", "value": 0 }
+					]
+				}
+			],
+			"descriptions": [
+				"Bringe den internationalen Zug von %s nach %s.",
+				"Dieser Zug ist bei Interrailern in Richtung Skandinavien sehr beliebt.",
+				"Fahre über den großen Belt von %s nach %s."
+			],
+			"stations": [ "XDKH", "XDOD", "XDKO", "AF", "AH", "BL", "BHF" ],
+			"pathSuggestion": [ "XDKH", "🇩🇰VB", "XDRI",  "XDOD", "XDKO", "AF", "AJ", "AR", "AN", "AEL", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BHF" ]
 		},
 		{
 			"group": 1,
@@ -648,8 +708,8 @@
 					"pathSuggestion": [ "AA", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "HEBG", "FB", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RO", "RF", "RML", "RB" ]
 				},
 				{
-					"stations": [ "KA", "KK", "KBB", "FF", "NWH", "NN", "MH" ],
-					"pathSuggestion": [ "KA", "KDN", "KK", "KT", "KBB", "KNE", "KNL", "FW", "FMZ", "FFLF", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MH" ]
+					"stations": [ "XBB", "XBLIG", "KA", "KK", "KBB", "FF", "NWH", "NN", "MH" ],
+					"pathSuggestion": [ "XBB", "XBLIG", "KA", "KDN", "KK", "KT", "KBB", "KNE", "KNL", "FW", "FMZ", "FFLF", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MH" ]
 				},
 				{
 					"stations": [ "BL", "BPD", "LM", "HHI", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF", "RB" ],
@@ -2614,7 +2674,7 @@
 				"Die Strecke zwischen Passau und Wels ist gesperrt. Fahre über Salzburg!"
 			],
 			"stations": [ "XAL", "XAWE", "XAAT", "XASB", "MH", "NN", "NWH", "NAH", "FFLF", "FMZ", "KKO", "KB", "KK", "KSO", "KW", "EHG", "EDO" ],
-			"pathSuggestion": [ "XAL", "XAWE", "XAAT", "XASB", "MRO", "MGB", "MH", "MIH", "NN", "NF", "NRTD", "NWH", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EDO" ],
+			"pathSuggestion": [ "XAL", "XAWE", "XAAT", "XASB", "MTS", "MRO", "MGB", "MH", "MIH", "NN", "NF", "NRTD", "NWH", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EDO" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -2652,6 +2712,19 @@
 				"Für ein neuen Bahnsteigdach in %2$s wird Holz aus %1$s benötigt.",
 				"Es wird Holz aus %s für neue Schwellen in %s benötigt."
 			],
+			"neededCapacity": [
+				{ "name": "wood", "value": 800 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Holzzug nach %2$s",
+			"service": 11,
+			"descriptions": [
+				"Der Holzproduzent Ante möchte Schnittholz aus %s zur Europalettenproduktion nach %s liefern lassen.",
+				"Es wird Holz aus %s für die Europalettenproduktion in %s benötigt."
+			],
+			"stations": [ "URTS", "TMG" ],
 			"neededCapacity": [
 				{ "name": "wood", "value": 800 }
 			]
@@ -2895,7 +2968,7 @@
 			"objects": [
 				{
 					"stations": [ "XASB", "MFL", "MPR", "MRO", "MH", "NN", "AH", "AHI", "AHM", "ANB", "AWLA" ],
-					"pathSuggestion": [ "XASB", "MFL", "MPR", "MRO", "MGB", "MH", "MIH", "NN", "NF", "NRTD", "NWH", "NRB", "NBN", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH", "AEL", "AHI", "AHM", "ANB", "AWLA" ]
+					"pathSuggestion": [ "XASB", "MFL", "MPR", "MTS", "MRO", "MGB", "MH", "MIH", "NN", "NF", "NRTD", "NWH", "NRB", "NBN", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH", "AEL", "AHI", "AHM", "ANB", "AWLA" ]
 				},
 				{
 					"stations": [ "RB", "RF", "RK", "RM", "FF", "AH", "AHI", "AHM", "ANB", "AWLA" ],

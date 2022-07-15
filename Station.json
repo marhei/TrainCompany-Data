@@ -4236,6 +4236,36 @@
 			"laea": 1
 		},
 		{
+			"name": "Vendôme-Villiers-sur-Loir-TGV",
+			"ril100": "🇫🇷VDT",
+			"group": 2,
+			"x": -810,
+			"y": 593,
+			"platformLength": 500,
+			"platforms": 2,
+			"laea": 1
+		},
+		{
+			"name": "Tours",
+			"ril100": "🇫🇷TO",
+			"group": 0,
+			"x": -868,
+			"y": 660,
+			"platformLength": 500,
+			"platforms": 12,
+			"laea": 1
+		},
+		{
+			"name": "Bordeaux-Saint-Jean",
+			"ril100": "XFBJ",
+			"group": 0,
+			"x": -1121,
+			"y": 1062,
+			"platformLength": 500,
+			"platforms": 15,
+			"laea": 1
+		},
+		{
 			"name": "Besançon-Mouillère",
 			"ril100": "XFB",
 			"group": 2,
@@ -5154,6 +5184,26 @@
 			"laea": 1
 		},
 		{
+			"name": "Matzing",
+			"ril100": "MMTZ",
+			"group": 5,
+			"x": 845,
+			"y": 630,
+			"platformLength": 60,
+			"platforms": 1,
+			"laea": 1
+		},
+		{
+			"name": "Altenmarkt (Alz)",
+			"ril100": "MATM",
+			"group": 5,
+			"x": 836,
+			"y": 619,
+			"platformLength": 95,
+			"platforms": 1,
+			"laea": 1
+		},
+		{
 			"group": 2,
 			"name": "Grünberg (Oberhessen)",
 			"ril100": "FGRG",
@@ -5734,7 +5784,15 @@
 			"laea": 1
 		},
 		{
-			"group": 5,
+			"name": "Rottleberode Süd",
+			"ril100": "URTS",
+			"group": 3,
+			"x": 607,
+			"y": 42,
+			"laea": true
+		},
+		{
+			"group": 2,
 			"name": "Berga-Kelbra",
 			"ril100": "UBK",
 			"x": 609,
@@ -5744,7 +5802,7 @@
 			"laea": 1
 		},
 		{
-			"group": 2,
+			"group": 5,
 			"name": "Roßla",
 			"ril100": "UROS",
 			"x": 615,
@@ -8772,7 +8830,6 @@
 			"y": 624,
 			"platformLength": 213,
 			"platforms": 2,
-			"forRandomTasks": true,
 			"laea": 1
 		},
 		{
@@ -8783,7 +8840,6 @@
 			"y": 638,
 			"platformLength": 140,
 			"platforms": 2,
-			"forRandomTasks": true,
 			"laea": 1
 		},
 		{
@@ -9088,13 +9144,43 @@
 		},
 		{
 			"group": 1,
-			"name": "Innsbruck Westbf.",
-			"ril100": "XAIW",
-			"x": 689,
-			"y": 732,
+			"name": "Innsbruck Hauptbahnhof",
+			"ril100": "XAI",
+			"x": 668,
+			"y": 747,
 			"platformLength": 250,
+			"platforms": 11,
+			"laea": true
+		},
+		{
+			"group": 2,
+			"name": "Matrei",
+			"ril100": "XAM",
+			"x": 675,
+			"y": 769,
+			"platformLength": 280,
+			"platforms": 2,
+			"laea": true
+		},
+		{
+			"group": 2,
+			"name": "Steinach in Tirol ",
+			"ril100": "XAST",
+			"x": 677,
+			"y": 775,
+			"platformLength": 400,
 			"platforms": 3,
 			"laea": 1
+		},
+		{
+			"group": 1,
+			"name": "Brenner/Brennero",
+			"ril100": "XIBN",
+			"x": 682,
+			"y": 790,
+			"platformLength": 640,
+			"platforms": 5,
+			"laea": true
 		},
 		{
 			"group": 2,
@@ -13451,6 +13537,26 @@
 			"y": 168,
 			"platformLength": 110,
 			"platforms": 2,
+			"laea": 1
+		},
+		{
+			"name": "Garching (Alz)",
+			"ril100": "MGA",
+			"group": 2,
+			"x": 844,
+			"y": 598,
+			"platformLength": 160,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Tüßling",
+			"ril100": "MTLG",
+			"group": 5,
+			"x": 848,
+			"y": 584,
+			"platformLength": 150,
+			"platforms": 3,
 			"laea": 1
 		},
 		{
@@ -21466,6 +21572,16 @@
 			"laea": 1
 		},
 		{
+			"name": "Tacherting",
+			"ril100": "MTCH",
+			"group": 5,
+			"x": 840,
+			"y": 606,
+			"platformLength": 60,
+			"platforms": 1,
+			"laea": 1
+		},
+		{
 			"name": "Montluel",
 			"ril100": "XFMLU",
 			"group": 2,
@@ -21609,6 +21725,322 @@
 			"y": 83,
 			"platformLength": 339,
 			"platforms": 4,
+			"laea": 1
+		},
+		{
+			"name": "Padborg",
+			"ril100": "XDPA",
+			"group": 2,
+			"x": 395,
+			"y": -506,
+			"platformLength": 443,
+			"platforms": 2,
+			"laea": 1
+		},
+		{
+			"name": "Tinglev",
+			"ril100": "XDTI",
+			"group": 2,
+			"x": 383,
+			"y": -524,
+			"platformLength": 180,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Rødekro",
+			"ril100": "XDRD",
+			"group": 2,
+			"x": 392,
+			"y": -547,
+			"platformLength": 324,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Vojens",
+			"ril100": "XDV",
+			"group": 2,
+			"x": 389,
+			"y": -576,
+			"platformLength": 326,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Lunderskov",
+			"ril100": "XDLU",
+			"group": 2,
+			"x": 390,
+			"y": -615,
+			"platformLength": 267,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Kolding",
+			"ril100": "XDKO",
+			"group": 1,
+			"x": 411,
+			"y": -616,
+			"platformLength": 302,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Taulov",
+			"ril100": "XDTA",
+			"group": 2,
+			"x": 427,
+			"y": -625,
+			"platformLength": 175,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Middelfart",
+			"ril100": "XDMF",
+			"group": 2,
+			"x": 441,
+			"y": -618,
+			"platformLength": 340,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Kavslunde",
+			"ril100": "🇩🇰KL",
+			"group": 5,
+			"x": 451,
+			"y": -614,
+			"platformLength": 140,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Nørre Aaby",
+			"ril100": "🇩🇰NA",
+			"group": 5,
+			"x": 458,
+			"y": -611,
+			"platformLength": 143,
+			"platforms": 2,
+			"laea": 1
+		},
+		{
+			"name": "Ejby",
+			"ril100": "XDEY",
+			"group": 2,
+			"x": 465,
+			"y": -606,
+			"platformLength": 100,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Gelsted",
+			"ril100": "🇩🇰GS",
+			"group": 5,
+			"x": 471,
+			"y": -601,
+			"platformLength": 100,
+			"platforms": 2,
+			"laea": 1
+		},
+		{
+			"name": "Aarup",
+			"ril100": "🇩🇰AR",
+			"group": 5,
+			"x": 481,
+			"y": -598,
+			"platformLength": 183,
+			"platforms": 2,
+			"laea": 1
+		},
+		{
+			"name": "Bred",
+			"ril100": "🇩🇰BD",
+			"group": 5,
+			"x": 487,
+			"y": -597,
+			"platformLength": 112,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Skalbjerg",
+			"ril100": "🇩🇰SB",
+			"group": 5,
+			"x": 491,
+			"y": -596,
+			"platformLength": 100,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Tommerup",
+			"ril100": "🇩🇰TM",
+			"group": 5,
+			"x": 496,
+			"y": -593,
+			"platformLength": 108,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Holmstrup",
+			"ril100": "🇩🇰HS",
+			"group": 5,
+			"x": 506,
+			"y": -595,
+			"platformLength": 100,
+			"platforms": 2,
+			"laea": 1
+		},
+		{
+			"name": "Odense",
+			"ril100": "XDOD",
+			"group": 1,
+			"x": 521,
+			"y": -602,
+			"platformLength": 425,
+			"platforms": 6,
+			"laea": 1
+		},
+		{
+			"name": "Langeskov",
+			"ril100": "🇩🇰LK",
+			"group": 5,
+			"x": 545,
+			"y": -595,
+			"platformLength": 252,
+			"platforms": 2,
+			"laea": 1
+		},
+		{
+			"name": "Nyborg",
+			"ril100": "XDNY",
+			"group": 2,
+			"x": 572,
+			"y": -587,
+			"platformLength": 333,
+			"platforms": 4,
+			"laea": 1
+		},
+		{
+			"name": "Sprogø",
+			"ril100": "🇩🇰SG",
+			"group": 3,
+			"x": 593,
+			"y": -591,
+			"laea": 1
+		},
+		{
+			"name": "Korsør",
+			"ril100": "XDKS",
+			"group": 2,
+			"x": 611,
+			"y": -595,
+			"platformLength": 333,
+			"platforms": 4,
+			"laea": 1
+		},
+		{
+			"name": "Slagelse",
+			"ril100": "XDSGE",
+			"group": 1,
+			"x": 637,
+			"y": -604,
+			"platformLength": 352,
+			"platforms": 5,
+			"laea": 1
+		},
+		{
+			"name": "Sorø",
+			"ril100": "XDSOR",
+			"group": 5,
+			"x": 665,
+			"y": -605,
+			"platformLength": 330,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Ringsted",
+			"ril100": "XDRI",
+			"group": 1,
+			"x": 690,
+			"y": -610,
+			"platformLength": 350,
+			"platforms": 5,
+			"laea": 1
+		},
+		{
+			"name": "Borup",
+			"ril100": "XDBOP",
+			"group": 2,
+			"x": 712,
+			"y": -619,
+			"platformLength": 252,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Viby Jylland",
+			"ril100": "XDVI",
+			"group": 5,
+			"x": 718,
+			"y": -628,
+			"platformLength": 252,
+			"platforms": 3,
+			"laea": 1
+		},
+		{
+			"name": "Roskilde",
+			"ril100": "XDRK",
+			"group": 1,
+			"x": 726,
+			"y": -644,
+			"platformLength": 390,
+			"platforms": 7,
+			"laea": 1
+		},
+		{
+			"name": "Hoeje Taastrup",
+			"ril100": "XDHT",
+			"group": 1,
+			"x": 748,
+			"y": -646,
+			"platformLength": 338,
+			"platforms": 6,
+			"laea": 1
+		},
+		{
+			"name": "Vallensbæk",
+			"ril100": "🇩🇰VB",
+			"group": 3,
+			"x": 757,
+			"y": -644,
+			"laea": 1
+		},
+		{
+			"name": "København",
+			"ril100": "XDKH",
+			"group": 0,
+			"x": 783,
+			"y": -650,
+			"platformLength": 346,
+			"platforms": 13,
+			"laea": 1
+		},
+		{
+			"name": "Københavns Lufthavn",
+			"ril100": "XDKHL",
+			"group": 2,
+			"x": 793,
+			"y": -643,
+			"platformLength": 300,
+			"platforms": 2,
 			"laea": 1
 		}
 	]
