@@ -3021,6 +3021,87 @@
 			"neededCapacity": [
 				{ "name": "oil", "value": 720 }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Containerzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Bringe den schweren Containerzug nach %2$s."
+			],
+			"stations": [ "KKR", "XVH" ],
+			"neededCapacity": [
+				{ "name": "containers", "value": 72 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Güterzug von %s nach %s ",
+			"service": 11,
+			"descriptions": [
+				"Bringe einen kombinierten Güterzug nach %2$s."
+			],
+			"stations": [ "AHAR", "XVM" ],
+			"neededCapacity": [
+				{ "name": "containers", "value": 20 },
+				{ "name": "oil", "value": 660 },
+				{ "name": "wood", "value": 600 },
+				{ "name": "cars", "value": 60 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schwerer Intermodaltransport von von %s nach %s ",
+			"service": 11,
+			"descriptions": [
+				"Verbinde %s mit %s mit diesem Intermodalen Güterzug."
+			],
+			"stations": [ ],
+			"neededCapacity": [
+				{ "name": "containers", "value": 72 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Güterzug von von %s nach %s ",
+			"service": 11,
+			"descriptions": [
+				"Verbinde %s mit %s mit diesem Güterzug."
+			],
+			"stations": [ ],
+			"neededCapacity": [
+				{ "name": "containers", "value": 20 },
+				{ "name": "oil", "value": 660 },
+				{ "name": "wood", "value": 600 },
+				{ "name": "cars", "value": 60 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Verbinde %s mit %s.",
+				"Fahre den Zug zwischen %s und %s."
+			],
+			"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "🇸🇪LK", "XVH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von XVH nach XDKH",
+			"service": 2,
+			"descriptions": [
+				"Verbinde %s mit %s.",
+				"Fahre den Zug zwischen %s und %s."
+			],
+			"stations": [ "XVH", "🇸🇪LK", "🇸🇪KL", "XVM", "XDKHL", "XDKH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
 		}
+
 	]
 }
