@@ -5219,8 +5219,37 @@
 				"TVM"
 			],
 			"group": 2,
-			"maxSpeed": 300,
+			"maxSpeed": 320,
 			"twistingFactor": 0.1,
+			"name": "LGV Sud Europe Atlantique",
+			"objects": [
+				{
+					"start": "🇫🇷CSP",
+					"end": "🇫🇷VDT",
+					"length": 32,
+					"maxSpeed": 300
+				},
+				{
+					"start": "🇫🇷VDT",
+					"end": "🇫🇷TO",
+					"length": 63
+				},
+				{
+					"start": "🇫🇷TO",
+					"end": "XFBJ",
+					"length": 300
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.2,
 			"name": "LGV Bretagne-Pays de la Loire",
 			"start": "🇫🇷CSP",
 			"end": "XFR",
