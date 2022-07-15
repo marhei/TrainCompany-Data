@@ -3021,6 +3021,87 @@
 			"neededCapacity": [
 				{ "name": "oil", "value": 720 }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Containerzug von Krefeld nach Helsingborg ",
+			"service": 11,
+			"descriptions": [
+				"Verbinde das Rheinland mit dem Norden."
+			],
+			"stations": [ "KKR", "XVH" ],
+			"neededCapacity": [
+				{ "name": "containers", "value": 72 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Güterzug von Hamburg nach Malmö ",
+			"service": 11,
+			"descriptions": [
+				"Bringe einen Kombinierten Güterzug nach Malmö."
+			],
+			"stations": [ "AHAR", "XVM" ],
+			"neededCapacity": [
+				{ "name": "containers", "value": 20 },
+				{ "name": "oil", "value": 660 },
+				{ "name": "wood", "value": 600 },
+				{ "name": "cars", "value": 60 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schwerer Intermodaltransport von von %s nach %s ",
+			"service": 11,
+			"descriptions": [
+				"Verbinde %s mit %s mit diesem Intermodalen Güterzug."
+			],
+			"stations": [ ],
+			"neededCapacity": [
+				{ "name": "containers", "value": 72 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Güterzug von von %s nach %s ",
+			"service": 11,
+			"descriptions": [
+				"Verbinde %s mit %s mit diesem Güterzug."
+			],
+			"stations": [ ],
+			"neededCapacity": [
+				{ "name": "containers", "value": 20 },
+				{ "name": "oil", "value": 660 },
+				{ "name": "wood", "value": 600 },
+				{ "name": "cars", "value": 60 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Öresundståg von XDKH nach XVH",
+			"service": 2,
+			"descriptions": [
+				"Verbinde Kopenhagen mit Helsingborg.",
+				"Fahre den Zug zwischen Dänemark und Schweden."
+			],
+			"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "🇸🇪LK", "XVH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Öresundståg von XVH nach XDKH",
+			"service": 2,
+			"descriptions": [
+				"Verbinde Schweden mit Dänemark.",
+				"Fahre den Zug zwischen Helsingborg und Kopenhagen."
+			],
+			"stations": [ "XVH", "🇸🇪LK", "🇸🇪KL", "XVM", "XDKHL", "XDKH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
 		}
+
 	]
 }
