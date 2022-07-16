@@ -512,6 +512,41 @@
 			"pathSuggestion": [ "XKLP", "🇬🇧RDG", "🇬🇧DID", "🇬🇧SWI", "🇬🇧CPM", "🇬🇧BTH", "🇬🇧BRI" ]
 		},
 		{
+			"name": "TER von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalzug von %s nach %s.",
+				"Bring die Fahrgäste im TER pünktlich nach %2$s.",
+				"Fahre den TER durch den Osten Frankreichs nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "XFD", "🇫🇷BEA", "XFCGY", "XFCS", "🇫🇷TOS", "XFMAL", "XFBV", "XFLPD" ],
+					"pathSuggestion": [ "XFD", "🇫🇷BEA", "XFCGY", "XFCS", "🇫🇷TOS", "XFMAL", "XFBV", "XFLPD" ]
+				},
+				{
+					"stations": [ "XFMZV", "XFPS", "XFN" ],
+					"pathSuggestion": [ "XFMZV", "XFPS", "XFFD", "XFN" ]
+				},
+				{
+					"stations": [ "XFN", "XFLU", "🇫🇷IA", "XFRD", "XFSV", "XFSTG" ],
+					"pathSuggestion": [ "XFN", "XFLU", "🇫🇷IA", "XFRD", "XFSV", "XFVH", "XFSTG" ]
+				},
+				{
+					"stations": [ "XFLPD", "🇫🇷VRU", "XFCZ", "🇫🇷SSS", "XFBA", "XSGE" ],
+					"pathSuggestion": [ "XFLPD", "🇫🇷VRU", "XFCZ", "🇫🇷SSS", "XFBA", "XSGE" ]
+				},
+				{
+					"pathSuggestion": [ "XFN", "XFFD", "XFTU", "XFNE", "XFCU", "XFIS", "XFD" ],
+					"stations": [ "XFN", "XFTU", "XFNE", "XFCU", "XFIS", "XFD" ]
+				}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Eröffnungs-ICE nach %2$s",
 			"service": 0,
