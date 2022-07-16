@@ -108,7 +108,8 @@
 					"type": "array",
 					"items": {
 						"type": "string",
-						"minLength": 2
+						"minLength": 2,
+						"maxLength": 10
 					}
 				},
 				"pathSuggestion": {
@@ -116,7 +117,8 @@
 					"type": "array",
 					"items": {
 						"type": "string",
-						"minLength": 2
+						"minLength": 2,
+						"maxLength": 10
 					}
 				},
 				"stopsEverwhere": {
