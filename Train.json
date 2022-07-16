@@ -762,6 +762,27 @@
 			]
 		},
 		{
+			"id": 44390,
+			"group": 2,
+			"name": "Alstom Pendolino Bitannico",
+			"shortcut": "Class 390",
+			"speed": 225,
+			"weight": 466,
+			"length": 265,
+			"drive": 1,
+			"reliability": 1,
+			"force": 204,
+			"cost": 1900000,
+			"operationCosts": 60,
+			"equipments": ["GB"],
+			"neededEquipments": ["GB"],
+			"maxConnectedUnits": 1,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 589}
+			]
+		},
+		{
 			"id": 231,
 			"group": 2,
 			"name": "Bombardier ET 2010 (AVG/VBK)",
@@ -1005,6 +1026,27 @@
 			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 300}
+			]
+		},
+		{
+			"id": 44175,
+			"group": 2,
+			"name": "Alstom Coradia 1000",
+			"shortcut": "Class 175",
+			"speed": 160,
+			"weight": 98,
+			"force": 72,
+			"length": 48,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 250000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 70,
+			"exchangeTime": 60,
+			"equipments": ["GB"],
+			"neededEquipments": ["GB"],
+			"capacity": [
+				{"name": "passengers", "value": 136}
 			]
 		},
 		{
