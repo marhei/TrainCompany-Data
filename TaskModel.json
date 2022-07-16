@@ -261,6 +261,22 @@
 		},
 		{
 			"group": 1,
+			"name": "Stoptrein von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre durch die Niederlande."
+			],
+			"objects": [
+				{
+					"stations": [ "XNWT", "XNRM", "XNSI", "XNMT" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "ICE International von %s nach %s",
 			"service": 0,
 			"descriptions": [
