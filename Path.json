@@ -4466,6 +4466,49 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "MRPD",
+					"end": "MBID",
+					"length": 1
+				},
+				{
+					"start": "MBID",
+					"end": "MEZT",
+					"length": 3
+				},
+				{
+					"start": "MEZT",
+					"end": "MHPF",
+					"length": 2
+				},
+				{
+					"start": "MHPF",
+					"end": "MSGD",
+					"length": 1
+				},
+				{
+					"start": "MSGD",
+					"end": "MTRD",
+					"length": 1
+				},
+				{
+					"start": "MTRD",
+					"end": "MSBD",
+					"length": 2
+				},
+				{
+					"start": "MSBD",
+					"end": "MTS",
+					"length": 1
+				}
+			]
+		},
+		{
 			"name": "Halle-Kasseler Bahn",
 			"twistingFactor": 0.1,
 			"maxSpeed": 100,
@@ -12730,6 +12773,39 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "MER",
+					"end": "MANE",
+					"length": 1
+				},
+				{
+					"start": "MANE",
+					"end": "MAFE",
+					"length": 2
+				},
+				{
+					"start": "MAFE",
+					"end": "MKL",
+					"length": 3
+				},
+				{
+					"start": "MKL",
+					"end": "MONH",
+					"length": 3
+				},
+				{
+					"start": "MONH",
+					"end": "MSB",
+					"length": 3
+				}
+			]
+		},
+		{
 			"name": "Rhijnspoorweg",
 			"maxSpeed": 140,
 			"electrified": true,
@@ -15503,6 +15579,39 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0,
+			"objects": [
+				{
+					"start": "MSBI",
+					"end": "MJUL",
+					"length": 5
+				},
+				{
+					"start": "MJUL",
+					"end": "MMK",
+					"length": 7
+				},
+				{
+					"start": "MMK",
+					"end": "MNN",
+					"length": 13
+				},
+				{
+					"start": "MNN",
+					"end": "MTG",
+					"length": 7
+				},
+				{
+					"start": "MTG",
+					"end": "MMF",
+					"length": 5
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 100,
 			"twistingFactor": 0.15,
@@ -17396,6 +17505,53 @@
 			"length": 43,
 			"maxSpeed": 200,
 			"twistingFactor": 0.2
+		},
+		{
+			"group": 0,
+			"maxSpeed": 140,
+			"twistingFactor": 0,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "XAKN",
+					"end": "MXKU",
+					"length": 2,
+					"neededEquipments": [
+						"AT"
+					],
+					"name": "Unterinntalbahn"
+				},
+				{
+					"start": "MXKU",
+					"end": "MKI",
+					"length": 1
+				},
+				{
+					"start": "MKI",
+					"end": "MOD",
+					"length": 5
+				},
+				{
+					"start": "MOD",
+					"end": "MFLI",
+					"length": 8
+				},
+				{
+					"start": "MFLI",
+					"end": "MBB",
+					"length": 2
+				},
+				{
+					"start": "MBB",
+					"end": "MRA",
+					"length": 5
+				},
+				{
+					"start": "MRA",
+					"end": "MRO",
+					"length": 8
+				}
+			]
 		},
 		{
 			"electrified": true,

@@ -1038,6 +1038,24 @@
 			]
 		},
 		{
+			"group": 1,
+			"name": "BRB Chiemgau-Inntal (RB 54) von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Die BEG schreibt das Chiemgau-Inntal Netz aus. Deine Fahrt führt von %s nach %s",
+				"Um dem bestellten Einsatz gerecht zu werden, müssen Fahrgäste von %s nach %s im Netz Chiemgau-Inntal befördert werden."
+			],
+			"objects": [
+				{
+					"stations": [ "MH", "MGB", "MRO", "MRA", "MBB", "MFLI", "MOD", "MKI", "XAKN"]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
 			"group": 0,
 			"name": "Pendelzug RE 5 von %s nach %s",
 			"service": 3,
@@ -1047,10 +1065,12 @@
 			],
 			"objects": [
 				{
-					"stations": [ "MH", "MRO", "MBEF", "MPR" ]
+					"stations": [ "MH", "MRO", "MBEF", "MPR" ],
+					"pathSuggestion": [ "MH", "MGB", "MRO", "MBEF", "MPR" ]
 				},
 				{
-					"stations": [ "MH", "MRO" ]
+					"stations": [ "MH", "MRO" ],
+					"pathSuggestion": [ "MH", "MGB", "MRO" ]
 				},
 				{
 					"stations": [ "MTS", "MTO", "MFL", "XASB" ]
@@ -1148,6 +1168,150 @@
 				},
 				{
 					"stations": [ "MFR", "MPU", "MNF", "MH" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S2 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre als S2 von %s nach %s und halte dabei an allen Unterwegsbahnhöfen."
+			],
+			"objects": [
+				{
+					"stations": [ "MER", "MSB", "MH", "MDA", "MPE" ]
+				},
+				{
+					"stations": [ "MER", "MSB", "MH", "MDA", "MATM" ]
+				},
+				{
+					"stations": ["MDA", "MATM"]
+				},
+				{
+					"stations": [ "MSB", "MH", "MDA", "MATM" ]
+				},
+				{
+					"stations": [ "MSB", "MH", "MDA" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "S2 Zusatzzug von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Es gibt einen Ansturm in die Therme Erding. Fahre einen Zusatzzug von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "MANE", "MSB", "MH", "MDA", "MPE" ]
+				},
+				{
+					"stations": [ "MANE", "MSB", "MH", "MDA", "MATM" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre eine Regionalbahn von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "MTS", "MMF" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre eine Regionalbahn von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "MTS", "MRPD" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "WESTbahn von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre eine WESTbahn von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASK", "XASB"]
+				},
+				{
+					"stations": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASK", "XASB", "MH"],
+					"pathSuggestion": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASK", "XASB", "MFL", "MTS", "MRO", "MGB", "MH"]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Railjet von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre eine WESTbahn von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "XAWW", "XAP", "XAL", "XASB", "MRO", "MH"],
+					"pathSuggestion": [ "XAWW", "XAP", "XAL", "XAWE", "XASB", "MFL", "MTS", "MRO", "MGB", "MH"]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Südostbayernbahn von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die Südostbayernbahn zwischen %s und %s."
+			],
+			"service": 2,
+			"objects": [
+				{
+					"stations": ["MH", "MSB", "MHLK", "MWKN", "MTMA", "MDFN", "MSDG", "MWDB", "MAPF", "MMF"]
+				},
+				{
+					"stations": ["MH", "MSB", "MHLK", "MWKN", "MTMA", "MDFN", "MSDG", "MWDB", "MAPF", "MMF", "MTG", "MNN", "MMK", "MJUL", "MSBI"]
 				}
 			],
 			"stopsEverywhere": true,
