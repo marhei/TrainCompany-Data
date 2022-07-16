@@ -17075,113 +17075,87 @@
 			"electrified": true,
 			"group": 0,
 			"name": "Great Western Main Line",
-			"neededEquipments": ["GB"],
+			"neededEquipments": [
+				"GB"
+			],
 			"maxSpeed": 200,
 			"twistingFactor": 0.14,
 			"objects": [
 				{
 					"start": "XKLP",
-					"start_long": "London St Pancras",
 					"end": "🇬🇧EAL",
-					"end_long": "Ealing Broadway",
 					"maxSpeed": 160,
 					"length": 9
 				},
 				{
 					"start": "🇬🇧EAL",
-					"start_long": "Ealing Broadway",
 					"end": "🇬🇧SLO",
-					"end_long": "Slough",
 					"length": 20
 				},
 				{
 					"start": "🇬🇧SLO",
-					"start_long": "Slough",
 					"end": "🇬🇧MAI",
-					"end_long": "Maidenhead",
 					"length": 9
 				},
 				{
 					"start": "🇬🇧MAI",
-					"start_long": "Maidenhead",
 					"end": "🇬🇧RDG",
-					"end_long": "Reading",
 					"length": 18
 				},
 				{
 					"start": "🇬🇧RDG",
-					"start_long": "Reading",
 					"end": "🇬🇧PAN",
-					"end_long": "Pangbourne",
 					"length": 9,
 					"twistingFactor": 0.2
 				},
 				{
 					"start": "🇬🇧PAN",
-					"start_long": "Pangbourne",
 					"end": "🇬🇧CHO",
-					"end_long": "Cholsey",
 					"length": 11,
 					"twistingFactor": 0.2
 				},
 				{
 					"start": "🇬🇧CHO",
-					"start_long": "Cholsey",
 					"end": "🇬🇧DID",
-					"end_long": "Didcot Parkway",
 					"length": 7
 				},
 				{
 					"start": "🇬🇧DID",
-					"start_long": "Didcot Parkway",
 					"end": "🇬🇧CHALLOW",
-					"end_long": "Challow",
 					"length": 17
 				},
 				{
 					"start": "🇬🇧CHALLOW",
-					"start_long": "Challow",
 					"end": "🇬🇧SWI",
-					"end_long": "Swindon",
 					"length": 21
 				},
 				{
 					"start": "🇬🇧SWI",
-					"start_long": "Swindon",
 					"end": "🇬🇧WTNBSTJ",
-					"end_long": "Wootton Bassett Jn",
 					"length": 9
 				},
 				{
 					"start": "🇬🇧WTNBSTJ",
-					"start_long": "Wootton Bassett Jn",
 					"end": "🇬🇧CPM",
-					"end_long": "Chippenham",
 					"length": 17,
 					"twistingFactor": 0.18
 				},
 				{
 					"start": "🇬🇧CPM",
-					"start_long": "Chippenham",
 					"end": "🇬🇧BTH",
-					"end_long": "Bath Spa",
 					"length": 20,
 					"twistingFactor": 0.2
 				},
 				{
 					"start": "🇬🇧BTH",
-					"start_long": "Bath Spa",
 					"end": "🇬🇧KYN",
-					"end_long": "Keynsham",
 					"length": 11,
 					"maxSpeed": 160,
 					"twistingFactor": 0.25
 				},
 				{
 					"start": "🇬🇧KYN",
-					"start_long": "Keynsham",
 					"end": "🇬🇧BRI",
-					"end_long": "Bristol Temple Meads",
 					"length": 7,
 					"maxSpeed": 160,
 					"twistingFactor": 0.2
