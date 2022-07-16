@@ -3307,7 +3307,9 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": ["FR"],
+			"neededEquipments": [
+				"FR"
+			],
 			"twistingFactor": 0.2,
 			"objects": [
 				{
@@ -6834,6 +6836,45 @@
 					"end": "MWO",
 					"length": 17,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "West Coast Main Line",
+			"maxSpeed": 140,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "🇬🇧CRSTRSS",
+					"start_long": "Carstairs South Jn",
+					"end": "🇬🇧CLU",
+					"end_long": "Carluke",
+					"length": 13
+				},
+				{
+					"start": "🇬🇧CLU",
+					"start_long": "Carluke",
+					"end": "🇬🇧MTH",
+					"end_long": "Motherwell",
+					"length": 12
+				},
+				{
+					"start": "🇬🇧MTH",
+					"start_long": "Motherwell",
+					"end": "🇬🇧UDD",
+					"end_long": "Uddingston",
+					"length": 7
+				},
+				{
+					"start": "🇬🇧UDD",
+					"start_long": "Uddingston",
+					"end": "🇬🇧GLC",
+					"end_long": "Glasgow Central",
+					"length": 13,
+					"twistingFactor": 0.27,
+					"maxSpeed": 130
 				}
 			]
 		},
@@ -11152,6 +11193,86 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"name": "North Wales Coast Line",
+			"maxSpeed": 140,
+			"twistingFactor": 0.25,
+			"objects": [
+				{
+					"start": "XKCR",
+					"start_long": "Crewe",
+					"end": "🇬🇧CTR",
+					"end_long": "Chester",
+					"length": 34,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧CTR",
+					"start_long": "Chester",
+					"end": "🇬🇧FLN",
+					"end_long": "Flint",
+					"length": 20,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧FLN",
+					"start_long": "Flint",
+					"end": "🇬🇧PRT",
+					"end_long": "Prestatyn",
+					"length": 22,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧PRT",
+					"start_long": "Prestatyn",
+					"end": "🇬🇧AGL",
+					"end_long": "Abergele & Pensarn",
+					"length": 12,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧AGL",
+					"start_long": "Abergele & Pensarn",
+					"end": "🇬🇧CWB",
+					"end_long": "Colwyn Bay",
+					"length": 10
+				},
+				{
+					"start": "🇬🇧CNW",
+					"start_long": "Conwy",
+					"end": "🇬🇧LLF",
+					"end_long": "Llanfairfechan",
+					"length": 19,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇬🇧LLF",
+					"start_long": "Llanfairfechan",
+					"end": "🇬🇧LPG",
+					"end_long": "Llanfairpwll",
+					"length": 17,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇬🇧LPG",
+					"start_long": "Llanfairpwll",
+					"end": "🇬🇧BOR",
+					"end_long": "Bodorgan",
+					"length": 17,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇬🇧BOR",
+					"start_long": "Bodorgan",
+					"end": "🇬🇧HHD",
+					"end_long": "Holyhead",
+					"length": 19,
+					"maxSpeed": 130
+				}
+			]
+		},
+		{
 			"name": "Wörth-Schifferstadt",
 			"group": 1,
 			"electrified": true,
@@ -11277,6 +11398,292 @@
 					"maxSpeed": 120,
 					"twistingFactor": 0.1,
 					"length": 2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "West Coast Main Line",
+			"objects": [
+				{
+					"start": "XKLP",
+					"start_long": "London St Pancras",
+					"end": "🇬🇧BSH",
+					"end_long": "Bushey",
+					"length": 25,
+					"maxSpeed": 170,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧BSH",
+					"start_long": "Bushey",
+					"end": "🇬🇧BKM",
+					"end_long": "Berkhamsted",
+					"length": 19,
+					"maxSpeed": 170,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧BKM",
+					"start_long": "Berkhamsted",
+					"end": "🇬🇧CED",
+					"end_long": "Cheddington",
+					"length": 13,
+					"maxSpeed": 170,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧CED",
+					"start_long": "Cheddington",
+					"end": "🇬🇧BLY",
+					"end_long": "Bletchley",
+					"length": 17,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧BLY",
+					"start_long": "Bletchley",
+					"end": "🇬🇧WOL",
+					"end_long": "Wolverton",
+					"length": 9,
+					"maxSpeed": 170,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧WOL",
+					"start_long": "Wolverton",
+					"end": "🇬🇧NMP",
+					"end_long": "Northampton",
+					"length": 21,
+					"maxSpeed": 170,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧NMP",
+					"start_long": "Northampton",
+					"end": "🇬🇧LBK",
+					"end_long": "Long Buckby",
+					"length": 15,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧LBK",
+					"start_long": "Long Buckby",
+					"end": "XKRU",
+					"end_long": "Rugby",
+					"length": 15,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XKRU",
+					"start_long": "Rugby",
+					"end": "🇬🇧COV",
+					"end_long": "Coventry",
+					"length": 18,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧COV",
+					"start_long": "Coventry",
+					"end": "🇬🇧BHI",
+					"end_long": "Birmingham International",
+					"length": 17,
+					"maxSpeed": 170,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧BHI",
+					"start_long": "Birmingham International",
+					"end": "🇬🇧BHM",
+					"end_long": "Birmingham New Street",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧BHM",
+					"start_long": "Birmingham New Street",
+					"end": "🇬🇧DDP",
+					"end_long": "Dudley Port",
+					"length": 12,
+					"maxSpeed": 125,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧DDP",
+					"start_long": "Dudley Port",
+					"end": "🇬🇧PKG",
+					"end_long": "Penkridge",
+					"length": 24,
+					"maxSpeed": 180,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧PKG",
+					"start_long": "Penkridge",
+					"end": "🇬🇧STA",
+					"end_long": "Stafford",
+					"length": 9,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧STA",
+					"start_long": "Stafford",
+					"end": "🇬🇧SOT",
+					"end_long": "Stoke-On-Trent",
+					"length": 26,
+					"maxSpeed": 170,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇬🇧SOT",
+					"start_long": "Stoke-On-Trent",
+					"end": "🇬🇧CNG",
+					"end_long": "Congleton",
+					"length": 19,
+					"maxSpeed": 160,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧CNG",
+					"start_long": "Congleton",
+					"end": "🇬🇧MAC",
+					"end_long": "Macclesfield",
+					"length": 12,
+					"maxSpeed": 170,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧MAC",
+					"start_long": "Macclesfield",
+					"end": "🇬🇧CHU",
+					"end_long": "Cheadle Hulme",
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧CHU",
+					"start_long": "Cheadle Hulme",
+					"end": "🇬🇧MAN",
+					"end_long": "Manchester Piccadilly",
+					"length": 13,
+					"maxSpeed": 150,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧MAN",
+					"start_long": "Manchester Piccadilly",
+					"end": "🇬🇧BON",
+					"end_long": "Bolton",
+					"length": 19,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧BON",
+					"start_long": "Bolton",
+					"end": "🇬🇧CRL",
+					"end_long": "Chorley",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧CRL",
+					"start_long": "Chorley",
+					"end": "🇬🇧LEY",
+					"end_long": "Leyland",
+					"length": 7,
+					"maxSpeed": 140,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧LEY",
+					"start_long": "Leyland",
+					"end": "🇬🇧PRE",
+					"end_long": "Preston",
+					"length": 6,
+					"maxSpeed": 170,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧PRE",
+					"start_long": "Preston",
+					"end": "🇬🇧LAN",
+					"end_long": "Lancaster",
+					"length": 33,
+					"maxSpeed": 170,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧LAN",
+					"start_long": "Lancaster",
+					"end": "🇬🇧OXN",
+					"end_long": "Oxenholme",
+					"length": 30,
+					"maxSpeed": 160,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧OXN",
+					"start_long": "Oxenholme",
+					"end": "🇬🇧PNR",
+					"end_long": "Penrith",
+					"length": 52,
+					"maxSpeed": 155,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇬🇧PNR",
+					"start_long": "Penrith",
+					"end": "🇬🇧CAR",
+					"end_long": "Carlisle",
+					"length": 28,
+					"maxSpeed": 170,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧CAR",
+					"start_long": "Carlisle",
+					"end": "🇬🇧LOC",
+					"end_long": "Lockerbie",
+					"length": 41,
+					"maxSpeed": 160,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇬🇧LOC",
+					"start_long": "Lockerbie",
+					"end": "🇬🇧CRSTRSS",
+					"end_long": "Carstairs South Jn",
+					"length": 76,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧CRSTRSS",
+					"start_long": "Carstairs South Jn",
+					"end": "🇬🇧KKN",
+					"end_long": "Kirknewton",
+					"length": 28,
+					"maxSpeed": 155,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧KKN",
+					"start_long": "Kirknewton",
+					"end": "🇬🇧EDB",
+					"end_long": "Edinburgh",
+					"length": 17,
+					"maxSpeed": 155,
+					"twistingFactor": 0.17
 				}
 			]
 		},
@@ -11592,6 +11999,57 @@
 					"end": "RK",
 					"length": 4,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "West Coast Main Line",
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "🇬🇧SOT",
+					"start_long": "Stoke-On-Trent",
+					"end": "XKCR",
+					"end_long": "Crewe",
+					"length": 24,
+					"maxSpeed": 120
+				},
+				{
+					"start": "XKCR",
+					"start_long": "Crewe",
+					"end": "🇬🇧WSF",
+					"end_long": "Winsford",
+					"length": 11,
+					"maxSpeed": 170,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧WSF",
+					"start_long": "Winsford",
+					"end": "🇬🇧RUN",
+					"end_long": "Runcorn",
+					"length": 24,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇬🇧RUN",
+					"start_long": "Runcorn",
+					"end": "🇬🇧LPY",
+					"end_long": "Liverpool South Parkway",
+					"length": 12,
+					"maxSpeed": 150,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇬🇧LPY",
+					"start_long": "Liverpool South Parkway",
+					"end": "🇬🇧LIV",
+					"end_long": "Liverpool Lime Street",
+					"length": 9,
+					"maxSpeed": 140,
+					"twistingFactor": 0.26
 				}
 			]
 		},
