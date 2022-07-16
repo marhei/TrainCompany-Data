@@ -547,6 +547,21 @@
 			]
 		},
 		{
+			"name": "OTC von %s nach %s",
+			"descriptions": [
+				"Bringe den OUIGO Train Classique sehr preisgünstigvon %s nach %s.",
+				"Bring die Passagiere in dem OTC billig nach %2$s.",
+				"Fahre abseits der LGVs für wenig Geld von %s nach %s."
+			],
+			"stations": [ "XFD", "XFCS", "XFMAL", "XFLPD" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 1,
+			"pathSuggestion": [ "XFD", "XFCS", "XFMAL", "XFSRI", "XFLPD" ]
+		},
+		{
 			"group": 0,
 			"name": "Eröffnungs-ICE nach %2$s",
 			"service": 0,
