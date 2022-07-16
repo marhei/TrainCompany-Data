@@ -442,12 +442,32 @@
 		{
 			"name": "TGV InOui von %s nach %s",
 			"descriptions": [
-				"Bringe den TGV von %s nach %s.",
-				"Bring die Fahrgäste in dem TGV pünktlich nach %2$s.",
+				"Bringe den TGV InOui von %s nach %s.",
+				"Bring die Fahrgäste im TGV pünktlich nach %2$s.",
 				"Fahre den TGV störungsfrei nach %2$s.",
 				"Bringe den TGV pünktlich über die SFS von %s nach %s"
 			],
-			"stations": [ "XFPG", "XFLC", "XFLPD" ],
+			"objects": [
+				{
+					"stations": [ "XBB", "XFLIE", "🇫🇷CDG", "XFMVC", "XFLPD", "XFAVV", "XFAX", "XFM" ],
+					"pathSuggestion": [ "XBB", "XFLIE", "🇫🇷VEMARS", "🇫🇷CDG", "XFVAR", "XFMVC", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFSRI", "XFLPD", "XFSRI", "XFAVV", "XFAX", "XFM" ]
+				},
+				{
+					"stations": [ "XFN", "XFC", "XFMV", "XFBMT", "XFB", "XFD", "XFMAL", "XFLPD", "XFAVV", "XFAX", "XFM" ],
+					"pathSuggestion": [ "XFN", "XFFD", "XFPS", "🇫🇷BDC", "XFVH", "XFSTG", "XFC", "XFMV", "XFBMT", "XFB", "🇫🇷GLS", "XFD", "XFMAL", "XFSRI", "XFLPD", "XFSRI", "XFAVV", "XFAX", "XFM" ]
+				},
+				{
+					"stations": [ "XFSTG", "XFLR", "XFMU", "XFCV", "🇫🇷CDG", "XFMVC", "🇫🇷MPW" ],
+					"pathSuggestion": [ "XFSTG", "XFVH", "🇫🇷BDC", "XFLR", "XFPS", "XFMU", "XFCV", "XFVAR", "🇫🇷CDG", "XFVAR", "XFMVC", "🇫🇷MOIS", "🇫🇷MPW" ]
+				},
+				{
+					"pathSuggestion": [ "XBB", "XFLIE", "🇫🇷VEMARS", "🇫🇷CDG", "XFVAR", "XFCV", "XFMU", "XFPS", "XFLR", "🇫🇷BDC", "XFVH", "XFSTG" ],
+					"stations": [ "XBB", "🇫🇷CDG", "XFCV", "XFMU", "XFLR", "XFSTG" ]
+				},
+				{
+					"stations": [ "XFPG", "XFLC", "XFLPD" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
