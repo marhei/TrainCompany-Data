@@ -1078,6 +1078,23 @@
 		},
 		{
 			"group": 1,
+			"name": "RB von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre eine Regionalbahn von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "MTS", "MRPD" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "WESTbahn von %s nach %s",
 			"service": 1,
 			"descriptions": [
