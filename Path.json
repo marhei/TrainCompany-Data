@@ -3305,6 +3305,28 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XFMZV",
+					"end": "XFRM",
+					"length": 22,
+					"maxSpeed": 140
+				},
+				{
+					"start": "XFRM",
+					"end": "🇫🇷BDC",
+					"length": 9,
+					"maxSpeed": 150
+				}
+			]
+		},
+		{
 			"group": 2,
 			"name": "VDE 8",
 			"twistingFactor": 0.05,
@@ -4945,6 +4967,149 @@
 			]
 		},
 		{
+			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 0,
+			"maxSpeed": 130,
+			"twistingFactor": 0.26,
+			"objects": [
+				{
+					"start": "XFD",
+					"end": "🇫🇷GMX",
+					"maxSpeed": 135,
+					"length": 27
+				},
+				{
+					"start": "🇫🇷GMX",
+					"end": "XFIS",
+					"maxSpeed": 135,
+					"length": 4
+				},
+				{
+					"start": "XFIS",
+					"end": "🇫🇷VXY",
+					"length": 21
+				},
+				{
+					"start": "🇫🇷VXY",
+					"end": "XFCU",
+					"length": 23,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFCU",
+					"end": "🇫🇷ADY",
+					"length": 17,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷ADY",
+					"end": "XFMY",
+					"length": 17,
+					"maxSpeed": 120
+				},
+				{
+					"start": "XFMY",
+					"end": "🇫🇷BMT",
+					"length": 19,
+					"maxSpeed": 110,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷BMT",
+					"end": "XFNE",
+					"length": 21,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XFNE",
+					"end": "XFTU",
+					"length": 43,
+					"maxSpeed": 130,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "XFTU",
+					"end": "XFFD",
+					"length": 24,
+					"maxSpeed": 140,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "XFFD",
+					"end": "XFN",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "XFN",
+					"end": "XFVN",
+					"length": 13,
+					"maxSpeed": 150
+				},
+				{
+					"start": "XFVN",
+					"end": "XFBLV",
+					"length": 10,
+					"maxSpeed": 150,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XFBLV",
+					"end": "XFLU",
+					"length": 9,
+					"maxSpeed": 150,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XFLU",
+					"end": "🇫🇷IA",
+					"length": 24,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷IA",
+					"end": "🇫🇷HMG",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷HMG",
+					"end": "XFRD",
+					"length": 11,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFRD",
+					"end": "XFSV",
+					"length": 22,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XFSV",
+					"end": "XFMH",
+					"length": 21,
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XFMH",
+					"end": "XFVH",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 160,
 			"electrified": true,
@@ -6151,7 +6316,9 @@
 			"maxSpeed": 90,
 			"electrified": false,
 			"group": 0,
-			"neededEquipments": [ "CZ" ],
+			"neededEquipments": [
+				"CZ"
+			],
 			"twistingFactor": 0.25,
 			"objects": [
 				{
@@ -6625,6 +6792,38 @@
 					"end": "MWO",
 					"length": 17,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "West Coast Main Line",
+			"neededEquipments": ["GB"],
+			"maxSpeed": 140,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "🇬🇧CRSTRSS",
+					"end": "🇬🇧CLU",
+					"length": 13
+				},
+				{
+					"start": "🇬🇧CLU",
+					"end": "🇬🇧MTH",
+					"length": 12
+				},
+				{
+					"start": "🇬🇧MTH",
+					"end": "🇬🇧UDD",
+					"length": 7
+				},
+				{
+					"start": "🇬🇧UDD",
+					"end": "🇬🇧GLC",
+					"length": 13,
+					"twistingFactor": 0.27,
+					"maxSpeed": 130
 				}
 			]
 		},
@@ -7447,6 +7646,161 @@
 			]
 		},
 		{
+			"electrified": true,
+			"name": "East Coast Main Line",
+			"group": 0,
+			"maxSpeed": 200,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "XKLP",
+					"end": "🇬🇧PBR",
+					"length": 20,
+					"maxSpeed": 185,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧PBR",
+					"end": "🇬🇧SVG",
+					"length": 24
+				},
+				{
+					"start": "🇬🇧SVG",
+					"end": "🇬🇧SDY",
+					"length": 27
+				},
+				{
+					"start": "🇬🇧SDY",
+					"end": "🇬🇧SNO",
+					"length": 12
+				},
+				{
+					"start": "🇬🇧SNO",
+					"end": "🇬🇧HUN",
+					"length": 12
+				},
+				{
+					"start": "🇬🇧HUN",
+					"end": "🇬🇧PBO",
+					"length": 28
+				},
+				{
+					"start": "🇬🇧PBO",
+					"end": "🇬🇧TALNGBR",
+					"length": 14
+				},
+				{
+					"start": "🇬🇧TALNGBR",
+					"end": "🇬🇧GRA",
+					"length": 33
+				},
+				{
+					"start": "🇬🇧GRA",
+					"end": "🇬🇧NNG",
+					"length": 24
+				},
+				{
+					"start": "🇬🇧NNG",
+					"end": "🇬🇧RET",
+					"length": 29,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇬🇧RET",
+					"end": "🇬🇧DON",
+					"length": 28
+				},
+				{
+					"start": "🇬🇧DON",
+					"end": "🇬🇧YRK",
+					"length": 52,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧YRK",
+					"end": "🇬🇧THI",
+					"length": 35,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧THI",
+					"end": "🇬🇧NTR",
+					"length": 12,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧NTR",
+					"end": "🇬🇧DAR",
+					"length": 22,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧DAR",
+					"end": "🇬🇧DHM",
+					"length": 35,
+					"twistingFactor": 0.26,
+					"maxSpeed": 170
+				},
+				{
+					"start": "🇬🇧DHM",
+					"end": "🇬🇧NCL",
+					"length": 22,
+					"maxSpeed": 185
+				},
+				{
+					"start": "🇬🇧NCL",
+					"end": "🇬🇧CRM",
+					"length": 16,
+					"maxSpeed": 170
+				},
+				{
+					"start": "🇬🇧CRM",
+					"end": "🇬🇧MPT",
+					"length": 10,
+					"maxSpeed": 170
+				},
+				{
+					"start": "🇬🇧MPT",
+					"end": "🇬🇧ALM",
+					"length": 29,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇬🇧ALM",
+					"end": "🇬🇧CHT",
+					"length": 18
+				},
+				{
+					"start": "🇬🇧CHT",
+					"end": "🇬🇧BWK",
+					"length": 34
+				},
+				{
+					"start": "🇬🇧BWK",
+					"end": "🇬🇧DUN",
+					"length": 45,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧DUN",
+					"end": "🇬🇧PST",
+					"length": 31,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇬🇧PST",
+					"end": "🇬🇧EDB",
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 140,
@@ -8042,6 +8396,29 @@
 					"start": "ARE",
 					"end": "ABSM",
 					"length": 6
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 0,
+			"maxSpeed": 150,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "XFFD",
+					"end": "XFDI",
+					"length": 14,
+					"maxSpeed": 140
+				},
+				{
+					"start": "XFDI",
+					"end": "XFPS",
+					"length": 16,
+					"twistingFactor": 0.2
 				}
 			]
 		},
@@ -10608,8 +10985,13 @@
 				},
 				{
 					"start": "XFLR",
+					"end": "XFPS",
+					"length": 12
+				},
+				{
+					"start": "XFPS",
 					"end": "XFMU",
-					"length": 67
+					"length": 56
 				},
 				{
 					"start": "XFMU",
@@ -10756,6 +11138,75 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"name": "North Wales Coast Line",
+			"neededEquipments": ["GB"],
+			"maxSpeed": 140,
+			"twistingFactor": 0.25,
+			"objects": [
+				{
+					"start": "XKCR",
+					"end": "🇬🇧CTR",
+					"length": 34,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧CTR",
+					"end": "🇬🇧FLN",
+					"length": 20,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧FLN",
+					"end": "🇬🇧PRT",
+					"length": 22,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧PRT",
+					"end": "🇬🇧AGL",
+					"length": 12,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧AGL",
+					"end": "🇬🇧CWB",
+					"length": 10
+				},
+				{
+					"start": "🇬🇧CWB",
+					"end": "🇬🇧CNW",
+					"length": 8,
+					"maxSpeed": 120
+				},
+				{
+					"start": "🇬🇧CNW",
+					"end": "🇬🇧LLF",
+					"length": 19,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇬🇧LLF",
+					"end": "🇬🇧LPG",
+					"length": 17,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇬🇧LPG",
+					"end": "🇬🇧BOR",
+					"length": 17,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇬🇧BOR",
+					"end": "🇬🇧HHD",
+					"length": 19,
+					"maxSpeed": 130
+				}
+			]
+		},
+		{
 			"name": "Wörth-Schifferstadt",
 			"group": 1,
 			"electrified": true,
@@ -10881,6 +11332,231 @@
 					"maxSpeed": 120,
 					"twistingFactor": 0.1,
 					"length": 2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "West Coast Main Line",
+			"neededEquipments": ["GB"],
+			"objects": [
+				{
+					"start": "XKLP",
+					"end": "🇬🇧BSH",
+					"length": 25,
+					"maxSpeed": 170,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧BSH",
+					"end": "🇬🇧BKM",
+					"length": 19,
+					"maxSpeed": 170,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧BKM",
+					"end": "🇬🇧CED",
+					"length": 13,
+					"maxSpeed": 170,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧CED",
+					"end": "🇬🇧BLY",
+					"length": 17,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧BLY",
+					"end": "🇬🇧WOL",
+					"length": 9,
+					"maxSpeed": 170,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧WOL",
+					"end": "🇬🇧NMP",
+					"length": 21,
+					"maxSpeed": 170,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧NMP",
+					"end": "🇬🇧LBK",
+					"length": 15,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧LBK",
+					"end": "XKRU",
+					"length": 15,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XKRU",
+					"end": "🇬🇧COV",
+					"length": 18,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧COV",
+					"end": "🇬🇧BHI",
+					"length": 17,
+					"maxSpeed": 170,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧BHI",
+					"end": "🇬🇧BHM",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧BHM",
+					"end": "🇬🇧DDP",
+					"length": 12,
+					"maxSpeed": 125,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧DDP",
+					"end": "🇬🇧PKG",
+					"length": 24,
+					"maxSpeed": 180,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧PKG",
+					"end": "🇬🇧STA",
+					"length": 9,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧STA",
+					"end": "🇬🇧SOT",
+					"length": 26,
+					"maxSpeed": 170,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇬🇧SOT",
+					"end": "🇬🇧CNG",
+					"length": 19,
+					"maxSpeed": 160,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧CNG",
+					"end": "🇬🇧MAC",
+					"length": 12,
+					"maxSpeed": 170,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧MAC",
+					"end": "🇬🇧CHU",
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧CHU",
+					"end": "🇬🇧MAN",
+					"length": 13,
+					"maxSpeed": 150,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧MAN",
+					"end": "🇬🇧BON",
+					"length": 19,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧BON",
+					"end": "🇬🇧CRL",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧CRL",
+					"end": "🇬🇧LEY",
+					"length": 7,
+					"maxSpeed": 140,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧LEY",
+					"end": "🇬🇧PRE",
+					"length": 6,
+					"maxSpeed": 170,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧PRE",
+					"end": "🇬🇧LAN",
+					"length": 33,
+					"maxSpeed": 170,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧LAN",
+					"end": "🇬🇧OXN",
+					"length": 30,
+					"maxSpeed": 160,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧OXN",
+					"end": "🇬🇧PNR",
+					"length": 52,
+					"maxSpeed": 155,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇬🇧PNR",
+					"end": "🇬🇧CAR",
+					"length": 28,
+					"maxSpeed": 170,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧CAR",
+					"end": "🇬🇧LOC",
+					"length": 41,
+					"maxSpeed": 160,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇬🇧LOC",
+					"end": "🇬🇧CRSTRSS",
+					"length": 76,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧CRSTRSS",
+					"end": "🇬🇧KKN",
+					"length": 28,
+					"maxSpeed": 155,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧KKN",
+					"end": "🇬🇧EDB",
+					"length": 17,
+					"maxSpeed": 155,
+					"twistingFactor": 0.17
 				}
 			]
 		},
@@ -11196,6 +11872,48 @@
 					"end": "RK",
 					"length": 4,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "West Coast Main Line",
+			"neededEquipments": ["GB"],
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "🇬🇧SOT",
+					"end": "XKCR",
+					"length": 24,
+					"maxSpeed": 120
+				},
+				{
+					"start": "XKCR",
+					"end": "🇬🇧WSF",
+					"length": 11,
+					"maxSpeed": 170,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧WSF",
+					"end": "🇬🇧RUN",
+					"length": 24,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇬🇧RUN",
+					"end": "🇬🇧LPY",
+					"length": 12,
+					"maxSpeed": 150,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇬🇧LPY",
+					"end": "🇬🇧LIV",
+					"length": 9,
+					"maxSpeed": 140,
+					"twistingFactor": 0.26
 				}
 			]
 		},
@@ -14404,6 +15122,40 @@
 		},
 		{
 			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XFLE",
+					"end": "XFRB",
+					"length": 17
+				},
+				{
+					"start": "XFRB",
+					"end": "XFO",
+					"length": 28
+				},
+				{
+					"start": "XFO",
+					"end": "XFPS",
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "XFPS",
+					"end": "XFMZV",
+					"length": 28,
+					"maxSpeed": 125
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
 				"CH"
@@ -15412,7 +16164,6 @@
 					"start": "🇫🇷LLR",
 					"end": "🇨🇭VAL",
 					"length": 7,
-					"name": "Simplon-Tunnel",
 					"maxSpeed": 140,
 					"twistingFactor": 0.05
 				},
@@ -16882,7 +17633,8 @@
 					"maxSpeed": 160,
 					"twistingFactor": 0.5
 				},
-				{	"start": "XDKHL",
+				{
+					"start": "XDKHL",
 					"end": "🇩🇰PB",
 					"length": 8,
 					"maxSpeed": 180,
@@ -16916,6 +17668,97 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"name": "Great Western Main Line",
+			"neededEquipments": [
+				"GB"
+			],
+			"maxSpeed": 200,
+			"twistingFactor": 0.14,
+			"objects": [
+				{
+					"start": "XKLP",
+					"end": "🇬🇧EAL",
+					"maxSpeed": 160,
+					"length": 9
+				},
+				{
+					"start": "🇬🇧EAL",
+					"end": "🇬🇧SLO",
+					"length": 20
+				},
+				{
+					"start": "🇬🇧SLO",
+					"end": "🇬🇧MAI",
+					"length": 9
+				},
+				{
+					"start": "🇬🇧MAI",
+					"end": "🇬🇧RDG",
+					"length": 18
+				},
+				{
+					"start": "🇬🇧RDG",
+					"end": "🇬🇧PAN",
+					"length": 9,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧PAN",
+					"end": "🇬🇧CHO",
+					"length": 11,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧CHO",
+					"end": "🇬🇧DID",
+					"length": 7
+				},
+				{
+					"start": "🇬🇧DID",
+					"end": "🇬🇧CHALLOW",
+					"length": 17
+				},
+				{
+					"start": "🇬🇧CHALLOW",
+					"end": "🇬🇧SWI",
+					"length": 21
+				},
+				{
+					"start": "🇬🇧SWI",
+					"end": "🇬🇧WTNBSTJ",
+					"length": 9
+				},
+				{
+					"start": "🇬🇧WTNBSTJ",
+					"end": "🇬🇧CPM",
+					"length": 17,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧CPM",
+					"end": "🇬🇧BTH",
+					"length": 20,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧BTH",
+					"end": "🇬🇧KYN",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇬🇧KYN",
+					"end": "🇬🇧BRI",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"neededEquipments": [
 				"SE"
 			],
@@ -16934,13 +17777,15 @@
 					"maxSpeed": 150,
 					"twistingFactor": 0.2
 				},
-				{	"start": "🇸🇪KL",
+				{
+					"start": "🇸🇪KL",
 					"end": "🇸🇪LK",
 					"length": 20,
 					"maxSpeed": 200,
 					"twistingFactor": 0.45
 				},
-				{	"start": "🇸🇪LK",
+				{
+					"start": "🇸🇪LK",
 					"end": "XVH",
 					"length": 22,
 					"maxSpeed": 200,

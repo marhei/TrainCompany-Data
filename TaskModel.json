@@ -16,7 +16,7 @@
 					"pathSuggestion": [ "RM", "FBL", "FFLF", "FLIS", "FMT", "KSIB", "KT", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM" ]
 				},
 				{
-					"stations": ["MH", "NN", "NWH", "NAH", "FH", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM" ],
+					"stations": [ "MH", "NN", "NWH", "NAH", "FH", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM" ],
 					"pathSuggestion": [ "MH", "MDA", "MIH", "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FH", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KT", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM" ]
 				},
 				{
@@ -204,6 +204,14 @@
 				{
 					"stations": [ "XFPG", "XFLPD" ],
 					"pathSuggestion": [ "XFPG", "🇫🇷PAI", "XFMAL", "XFLPD" ]
+				},
+				{
+					"stations": [ "XFPO", "XFMZV", "XFSTG" ],
+					"pathSuggestion": [ "XFPO", "XFVAR", "XFPS", "XFMZV", "🇫🇷BDC", "XFVH", "XFSTG" ]
+				},
+				{
+					"pathSuggestion": [ "XFLIE", "XFHP", "🇫🇷VEMARS", "🇫🇷CDG", "XFVAR", "XFMVC", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFSRI", "🇫🇷SXA", "XFAVV", "XFAX", "XFM" ],
+					"stations": [ "XFLIE", "XFHP", "🇫🇷CDG", "XFMVC", "🇫🇷SXA", "XFAVV", "XFAX", "XFM" ]
 				}
 			],
 			"neededCapacity": [
@@ -405,7 +413,7 @@
 					"pathSuggestion": [ "XSZH", "XSKS", "XSB", "XFMV", "🇫🇷GLS", "XFD", "🇫🇷PAI", "🇫🇷MOIS", "XFPG" ]
 				},
 				{
-					"stations": [  "XSZH", "XSB", "XFMV", "XFBMT", "XFPG" ],
+					"stations": [ "XSZH", "XSB", "XFMV", "XFBMT", "XFPG" ],
 					"pathSuggestion": [ "XSZH", "XSKS", "XSB", "XFMV", "XFBMT", "🇫🇷GLS", "XFD", "🇫🇷PAI", "🇫🇷MOIS", "XFPG" ]
 				}
 			]
@@ -434,12 +442,32 @@
 		{
 			"name": "TGV InOui von %s nach %s",
 			"descriptions": [
-				"Bringe den TGV von %s nach %s.",
-				"Bring die Fahrgäste in dem TGV pünktlich nach %2$s.",
+				"Bringe den TGV InOui von %s nach %s.",
+				"Bring die Fahrgäste im TGV pünktlich nach %2$s.",
 				"Fahre den TGV störungsfrei nach %2$s.",
 				"Bringe den TGV pünktlich über die SFS von %s nach %s"
 			],
-			"stations": [ "XFPG", "XFLC", "XFLPD" ],
+			"objects": [
+				{
+					"stations": [ "XBB", "XFLIE", "🇫🇷CDG", "XFMVC", "XFLPD", "XFAVV", "XFAX", "XFM" ],
+					"pathSuggestion": [ "XBB", "XFLIE", "🇫🇷VEMARS", "🇫🇷CDG", "XFVAR", "XFMVC", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFSRI", "XFLPD", "XFSRI", "XFAVV", "XFAX", "XFM" ]
+				},
+				{
+					"stations": [ "XFN", "XFC", "XFMV", "XFBMT", "XFB", "XFD", "XFMAL", "XFLPD", "XFAVV", "XFAX", "XFM" ],
+					"pathSuggestion": [ "XFN", "XFFD", "XFPS", "🇫🇷BDC", "XFVH", "XFSTG", "XFC", "XFMV", "XFBMT", "XFB", "🇫🇷GLS", "XFD", "XFMAL", "XFSRI", "XFLPD", "XFSRI", "XFAVV", "XFAX", "XFM" ]
+				},
+				{
+					"stations": [ "XFSTG", "XFLR", "XFMU", "XFCV", "🇫🇷CDG", "XFMVC", "🇫🇷MPW" ],
+					"pathSuggestion": [ "XFSTG", "XFVH", "🇫🇷BDC", "XFLR", "XFPS", "XFMU", "XFCV", "XFVAR", "🇫🇷CDG", "XFVAR", "XFMVC", "🇫🇷MOIS", "🇫🇷MPW" ]
+				},
+				{
+					"pathSuggestion": [ "XBB", "XFLIE", "🇫🇷VEMARS", "🇫🇷CDG", "XFVAR", "XFCV", "XFMU", "XFPS", "XFLR", "🇫🇷BDC", "XFVH", "XFSTG" ],
+					"stations": [ "XBB", "🇫🇷CDG", "XFCV", "XFMU", "XFLR", "XFSTG" ]
+				},
+				{
+					"stations": [ "XFPG", "XFLC", "XFLPD" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
@@ -475,7 +503,128 @@
 					"pathSuggestion": [ "XFPO", "🇫🇷VEMARS", "XFLIE", "XFFE", "XKAI", "XKEI", "XKLP" ]
 				},
 				{
-					"stations": ["XNAC", "XBB", "XFLIE", "XKAI", "XKEI", "XKLP" ]
+					"stations": [ "XNAC", "XBB", "XFLIE", "XKAI", "XKEI", "XKLP" ]
+				}
+			]
+		},
+		{
+			"name": "Flying Scotsman von %s nach %s",
+			"descriptions": [
+				"Fahre als LNER Azuma von %s nach %s.",
+				"Bring die Fahrgäste über die East Coast Main Line pünktlich nach %2$s.",
+				"Fahre den Azuma an der britischen Ostküste nach %2$s.",
+				"Verbinde England und Schottland zwischen %s und %s.",
+				"Bring den Flying Scotsman von %s nach %s."
+			],
+			"stations": [ "XKLP", "🇬🇧PBO", "🇬🇧NNG", "🇬🇧DON", "🇬🇧YRK", "🇬🇧NTR", "🇬🇧DAR", "🇬🇧DHM", "🇬🇧NCL", "🇬🇧EDB" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 1,
+			"pathSuggestion": [ "XKLP", "🇬🇧PBO", "🇬🇧NNG", "🇬🇧DON", "🇬🇧YRK", "🇬🇧NTR", "🇬🇧DAR", "🇬🇧DHM", "🇬🇧NCL", "🇬🇧EDB" ]
+		},
+		{
+			"name": "IC von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity von %s nach %s.",
+				"Fahre über die Great Western Main Line nach %2$s.",
+				"Verbinde den Westen Englands von %s nach %s."
+			],
+			"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧DID", "🇬🇧SWI", "🇬🇧CPM", "🇬🇧BTH", "🇬🇧BRI" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 1,
+			"pathSuggestion": [ "XKLP", "🇬🇧RDG", "🇬🇧DID", "🇬🇧SWI", "🇬🇧CPM", "🇬🇧BTH", "🇬🇧BRI" ]
+		},
+		{
+			"name": "TER von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalzug von %s nach %s.",
+				"Bring die Fahrgäste im TER pünktlich nach %2$s.",
+				"Fahre den TER durch den Osten Frankreichs nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "XFD", "🇫🇷BEA", "XFCGY", "XFCS", "🇫🇷TOS", "XFMAL", "XFBV", "XFLPD" ],
+					"pathSuggestion": [ "XFD", "🇫🇷BEA", "XFCGY", "XFCS", "🇫🇷TOS", "XFMAL", "XFBV", "XFLPD" ]
+				},
+				{
+					"stations": [ "XFMZV", "XFPS", "XFN" ],
+					"pathSuggestion": [ "XFMZV", "XFPS", "XFFD", "XFN" ]
+				},
+				{
+					"stations": [ "XFN", "XFLU", "🇫🇷IA", "XFRD", "XFSV", "XFSTG" ],
+					"pathSuggestion": [ "XFN", "XFLU", "🇫🇷IA", "XFRD", "XFSV", "XFVH", "XFSTG" ]
+				},
+				{
+					"stations": [ "XFLPD", "🇫🇷VRU", "XFCZ", "🇫🇷SSS", "XFBA", "XSGE" ],
+					"pathSuggestion": [ "XFLPD", "🇫🇷VRU", "XFCZ", "🇫🇷SSS", "XFBA", "XSGE" ]
+				},
+				{
+					"pathSuggestion": [ "XFN", "XFFD", "XFTU", "XFNE", "XFCU", "XFIS", "XFD" ],
+					"stations": [ "XFN", "XFTU", "XFNE", "XFCU", "XFIS", "XFD" ]
+				},
+				{
+					"stations": [ "XFSTG", "XFES", "XFSL", "XFC", "XFMV" ],
+					"pathSuggestion": [ "XFSTG", "XFES", "XFSL", "XFC", "XFMV" ]
+				}
+			]
+		},
+		{
+			"name": "OTC von %s nach %s",
+			"descriptions": [
+				"Bringe den OUIGO Train Classique sehr preisgünstigvon %s nach %s.",
+				"Bring die Passagiere in dem OTC billig nach %2$s.",
+				"Fahre abseits der LGVs für wenig Geld von %s nach %s."
+			],
+			"stations": [ "XFD", "XFCS", "XFMAL", "XFLPD" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 1,
+			"pathSuggestion": [ "XFD", "XFCS", "XFMAL", "XFSRI", "XFLPD" ]
+		},
+		{
+			"name": "IC von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity von %s nach %s.",
+				"Fahre an der Westküste Großbritanniens nach %2$s.",
+				"Verbinde England, Wales und Schottland zwischen %s und %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"stations": [ "XKCR", "🇬🇧CTR", "🇬🇧PRT", "🇬🇧CWB", "🇬🇧HHD" ],
+					"pathSuggestion": [ "XKCR", "🇬🇧CTR", "🇬🇧PRT", "🇬🇧CWB", "🇬🇧HHD" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧SOT", "🇬🇧MAC", "🇬🇧MAN" ],
+					"pathSuggestion": [ "XKLP", "🇬🇧SOT", "🇬🇧MAC", "🇬🇧MAN" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧STA", "XKCR", "🇬🇧RUN", "🇬🇧LIV" ],
+					"pathSuggestion": [ "XKLP", "🇬🇧STA", "🇬🇧SOT", "XKCR", "🇬🇧RUN", "🇬🇧LIV" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧PRE", "🇬🇧LAN", "🇬🇧OXN", "🇬🇧PNR", "🇬🇧CAR", "🇬🇧MTH", "🇬🇧GLC" ],
+					"pathSuggestion": [ "XKLP", "🇬🇧SOT", "🇬🇧PRE", "🇬🇧LAN", "🇬🇧OXN", "🇬🇧PNR", "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧MTH", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "XKLP", "XKRU", "🇬🇧BHI", "🇬🇧BHM" ],
+					"pathSuggestion": [ "XKLP", "XKRU", "🇬🇧BHI", "🇬🇧BHM" ]
 				}
 			]
 		},
@@ -523,7 +672,6 @@
 			"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HL", "HWUN", "HH", "HELZ", "HBS", "LM", "LK", "LH", "LGOS", "LL", "DR", "DPR", "DH" ]
 		},
 		{
-
 			"group": 1,
 			"name": "IC von %s nach %s",
 			"service": 1,
@@ -563,7 +711,7 @@
 				"Fahre über den großen Belt von %s nach %s."
 			],
 			"stations": [ "XDKH", "XDOD", "XDKO", "AF", "AH", "BL", "BHF" ],
-			"pathSuggestion": [ "XDKH", "🇩🇰VB", "XDRI",  "XDOD", "XDKO", "AF", "AJ", "AR", "AN", "AEL", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BHF" ]
+			"pathSuggestion": [ "XDKH", "🇩🇰VB", "XDRI", "XDOD", "XDKO", "AF", "AJ", "AR", "AN", "AEL", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BHF" ]
 		},
 		{
 			"group": 1,
@@ -860,11 +1008,11 @@
 				},
 				{
 					"stations": [ "MH", "MRO" ],
-					"pathSuggestion": [ "MH", "MGB", "MRO"]
+					"pathSuggestion": [ "MH", "MGB", "MRO" ]
 				},
 				{
 					"stations": [ "MH", "MRO", "MBEF", "MPR", "MUS", "MTS" ],
-					"pathSuggestion": [ "MH", "MGB", "MRO", "MBEF", "MPR", "MUS", "MTS"]
+					"pathSuggestion": [ "MH", "MGB", "MRO", "MBEF", "MPR", "MUS", "MTS" ]
 				}
 			],
 			"stopsEverywhere": false,
@@ -1051,14 +1199,13 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "MH", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MOH", "MECH", "MOU", "MFCH", "MGP"]
+					"stations": [ "MH", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MOH", "MECH", "MOU", "MFCH", "MGP" ]
 				},
 				{
 					"stations": [ "MH", "MST", "MTZ", "MSE", "MSTA", "MPZ", "MBIC", "MBEN", "MKCH" ]
 				},
-
 				{
-					"stations": [ "MH", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MUO", "MSEB", "MGRA", "MBKG", "MBKK", "MSGB", "MALT", "MUAG", "MOA"]
+					"stations": [ "MH", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MUO", "MSEB", "MGRA", "MBKG", "MBKK", "MSGB", "MALT", "MUAG", "MOA" ]
 				},
 				{
 					"stations": [ "MMU", "MUO", "MSEB", "MGRA", "MBKG", "MBKK", "MSGB", "MALT", "MUAG", "MOA" ]
@@ -1077,8 +1224,8 @@
 				"Fahre den ICE 41 zwischen %s und %s."
 			],
 			"service": 0,
-			"stations": [ "EDO", "EBO", "EE", "EDG", "KD", "KK", "FMT", "FLIS", "FFLF", "FF", "NAH", "NWH", "NN", "MH", "MTZ", "MWH", "MMU", "MGP"],
-			"pathSuggestion": [ "EDO", "EBO", "EE", "EDG", "KD", "KK", "KT", "KSIB", "FMT", "FLIS", "FFLF", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH", "MTZ", "MWH", "MMU", "MGP"],
+			"stations": [ "EDO", "EBO", "EE", "EDG", "KD", "KK", "FMT", "FLIS", "FFLF", "FF", "NAH", "NWH", "NN", "MH", "MTZ", "MWH", "MMU", "MGP" ],
+			"pathSuggestion": [ "EDO", "EBO", "EE", "EDG", "KD", "KK", "KT", "KSIB", "FMT", "FLIS", "FFLF", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH", "MTZ", "MWH", "MMU", "MGP" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -1092,8 +1239,8 @@
 				"Fahre den ICE 28 zwischen %s und %s."
 			],
 			"service": 0,
-			"stations": [ "AA", "AH", "WL", "WW", "BSPD", "BL", "LW", "LH", "UE P", "NBA", "NN", "MIH", "MH", "MTZ", "MWH", "MMU", "MGP"],
-			"pathSuggestion": [ "AA", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LH", "LPLN", "UE P", "NED", "NBA", "NF", "NN", "MIH", "MDA", "MH", "MTZ", "MWH", "MMU", "MGP"],
+			"stations": [ "AA", "AH", "WL", "WW", "BSPD", "BL", "LW", "LH", "UE P", "NBA", "NN", "MIH", "MH", "MTZ", "MWH", "MMU", "MGP" ],
+			"pathSuggestion": [ "AA", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LH", "LPLN", "UE P", "NED", "NBA", "NF", "NN", "MIH", "MDA", "MH", "MTZ", "MWH", "MMU", "MGP" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -1107,8 +1254,8 @@
 				"Fahre den IC 28 zwischen %s und %s."
 			],
 			"service": 1,
-			"stations": ["NN", "MTL", "MDT", "MA", "MH", "MWH", "MMU", "MGP"],
-			"pathSuggestion": ["NN", "MTL", "MDT", "MA", "MH", "MWH", "MMU", "MGP"],
+			"stations": [ "NN", "MTL", "MDT", "MA", "MH", "MWH", "MMU", "MGP" ],
+			"pathSuggestion": [ "NN", "MTL", "MDT", "MA", "MH", "MWH", "MMU", "MGP" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -1124,10 +1271,10 @@
 			"service": 3,
 			"objects": [
 				{
-					"stations": ["MEG","MGB", "MH", "MTZ"]
+					"stations": [ "MEG", "MGB", "MH", "MTZ" ]
 				},
 				{
-					"stations": ["MGB", "MH", "MTZ"]
+					"stations": [ "MGB", "MH", "MTZ" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -1146,16 +1293,16 @@
 			"service": 3,
 			"objects": [
 				{
-					"stations": ["MEG","MGB", "MH", "MGE"]
+					"stations": [ "MEG", "MGB", "MH", "MGE" ]
 				},
 				{
-					"stations": ["MGB", "MH", "MGE"]
+					"stations": [ "MGB", "MH", "MGE" ]
 				},
 				{
-					"stations": ["MGB", "MH", "MGF"]
+					"stations": [ "MGB", "MH", "MGF" ]
 				},
 				{
-					"stations": ["MEG","MGB", "MH", "MGF"]
+					"stations": [ "MEG", "MGB", "MH", "MGF" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -1172,7 +1319,7 @@
 				"Fahre die S7 zwischen %s und %s."
 			],
 			"service": 3,
-			"stations": ["MH", "MHRK", "MWO"],
+			"stations": [ "MH", "MHRK", "MWO" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -1189,10 +1336,10 @@
 			"service": 3,
 			"objects": [
 				{
-					"stations": ["MWSB", "MEDL", "MTUL", "MEG", "MGB"]
+					"stations": [ "MWSB", "MEDL", "MTUL", "MEG", "MGB" ]
 				},
 				{
-					"stations": ["MWSB", "MEDL", "MTUL", "MEG", "MGB", "MH"]
+					"stations": [ "MWSB", "MEDL", "MTUL", "MEG", "MGB", "MH" ]
 				}
 			],
 			"stopsEverywhere": false,
@@ -1209,7 +1356,7 @@
 				"Fahre die Regionalbahn zwischen %s und %s."
 			],
 			"service": 3,
-			"stations": ["MRO", "MWSB", "MMF"],
+			"stations": [ "MRO", "MWSB", "MMF" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -2533,7 +2680,7 @@
 				"Bring die Fahrgäste in der RB 30 pünktlich nach %2$s.",
 				"Fahre die RB störungsfrei nach %2$s."
 			],
-			"stations": [ "DH", "DTH", "DFR", "DNR", "DC", "DHO", "DGL", "DZW"],
+			"stations": [ "DH", "DTH", "DFR", "DNR", "DC", "DHO", "DGL", "DZW" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
@@ -3051,10 +3198,7 @@
 			"descriptions": [
 				"Verbinde %s mit %s mit diesem Intermodalen Güterzug."
 			],
-			"stations": [ ],
-			"neededCapacity": [
-				{ "name": "containers", "value": 72 }
-			]
+			"stations": [], "neededCapacity": [ { "name": "containers", "value": 72 } ]
 		},
 		{
 			"group": 1,
@@ -3063,13 +3207,7 @@
 			"descriptions": [
 				"Verbinde %s mit %s mit diesem Güterzug."
 			],
-			"stations": [ ],
-			"neededCapacity": [
-				{ "name": "containers", "value": 20 },
-				{ "name": "oil", "value": 660 },
-				{ "name": "wood", "value": 600 },
-				{ "name": "cars", "value": 60 }
-			]
+			"stations": [], "neededCapacity": [ { "name": "containers", "value": 20 }, { "name": "oil", "value": 660 }, { "name": "wood", "value": 600 }, { "name": "cars", "value": 60 } ]
 		},
 		{
 			"group": 1,
@@ -3097,6 +3235,5 @@
 				{ "name": "passengers", "value": 0 }
 			]
 		}
-
 	]
 }
