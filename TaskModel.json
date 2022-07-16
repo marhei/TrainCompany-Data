@@ -1124,7 +1124,14 @@
 				"Fahre die Südostbayernbahn zwischen %s und %s."
 			],
 			"service": 2,
-			"stations": ["MH", "MSB", "MHLK", "MWKN", "MTMA", "MDFN", "MSDG", "MWDB", "MAPF", "MMF"],
+			"objects": [
+				{
+					"stations": ["MH", "MSB", "MHLK", "MWKN", "MTMA", "MDFN", "MSDG", "MWDB", "MAPF", "MMF"]
+				},
+				{
+					"stations": ["MH", "MSB", "MHLK", "MWKN", "MTMA", "MDFN", "MSDG", "MWDB", "MAPF", "MMF", "MTG", "MNN", "MMK", "MJUL", "MSBI"]
+				}
+			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
