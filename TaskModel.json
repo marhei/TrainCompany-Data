@@ -846,11 +846,11 @@
 				},
 				{
 					"stations": [ "AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM", "RK", "RF", "RDO", "RSI", "RB", "RLR" ],
-					"pathSuggestion": [ "AA", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FGTH", "FB", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RO", "RF", "RKZ", "RDO", "RIM", "RSI", "RSCF", "RB", "RLR" ]
+					"pathSuggestion": [ "AA", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FGTH", "FB", "FHUE", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RKZ", "RDO", "RIM", "RSI", "RSCF", "RB", "RLR" ]
 				},
 				{
 					"stations": [ "KD", "KK", "FF", "NWH", "NN", "MH" ],
-					"pathSuggestion": [ "KD", "KK", "KT", "KSIB", "FFLF", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH" ]
+					"pathSuggestion": [ "KD", "KK", "KT", "KNE", "KNL", "FW", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH" ]
 				}
 			],
 			"neededCapacity": [
@@ -3195,36 +3195,28 @@
 		},
 		{
 			"group": 1,
-			"name": "Güterzug von %s nach %s ",
-			"service": 11,
-			"descriptions": [
-				"Bringe einen kombinierten Güterzug nach %2$s."
-			],
-			"stations": [ "AHAR", "XVM" ],
-			"neededCapacity": [
-				{ "name": "containers", "value": 20 },
-				{ "name": "oil", "value": 660 },
-				{ "name": "wood", "value": 600 },
-				{ "name": "cars", "value": 60 }
-			]
-		},
-		{
-			"group": 1,
 			"name": "Schwerer Intermodaltransport von von %s nach %s ",
 			"service": 11,
 			"descriptions": [
 				"Verbinde %s mit %s mit diesem Intermodalen Güterzug."
 			],
-			"stations": [], "neededCapacity": [ { "name": "containers", "value": 72 } ]
+			 "neededCapacity": [
+				 { "name": "containers", "value": 72 }
+			 ]
 		},
 		{
 			"group": 1,
 			"name": "Güterzug von von %s nach %s ",
-			"service": 11,
+			"service": 10,
 			"descriptions": [
 				"Verbinde %s mit %s mit diesem Güterzug."
 			],
-			"stations": [], "neededCapacity": [ { "name": "containers", "value": 20 }, { "name": "oil", "value": 660 }, { "name": "wood", "value": 600 }, { "name": "cars", "value": 60 } ]
+			"neededCapacity": [
+				{ "name": "containers", "value": 15 },
+				{ "name": "oil", "value": 660 },
+				{ "name": "wood", "value": 600 },
+				{ "name": "cars", "value": 60 }
+			]
 		},
 		{
 			"group": 1,
@@ -3235,19 +3227,6 @@
 				"Fahre den Zug zwischen %s und %s."
 			],
 			"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "🇸🇪LK", "XVH" ],
-			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
-			]
-		},
-		{
-			"group": 1,
-			"name": "Regionalzug von XVH nach XDKH",
-			"service": 2,
-			"descriptions": [
-				"Verbinde %s mit %s.",
-				"Fahre den Zug zwischen %s und %s."
-			],
-			"stations": [ "XVH", "🇸🇪LK", "🇸🇪KL", "XVM", "XDKHL", "XDKH" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
