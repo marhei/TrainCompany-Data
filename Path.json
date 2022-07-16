@@ -3305,6 +3305,30 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": ["FR"],
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XFMZV",
+					"start_long": "Mulhouse-Ville",
+					"end": "XFRM",
+					"end_long": "Rémilly",
+					"length": 22,
+					"maxSpeed": 140
+				},
+				{
+					"start": "XFRM",
+					"start_long": "Rémilly",
+					"end": "🇫🇷BDC",
+					"end_long": "Baudrecourt",
+					"length": 9,
+					"maxSpeed": 150
+				}
+			]
+		},
+		{
 			"group": 2,
 			"name": "VDE 8",
 			"twistingFactor": 0.05,
@@ -4942,6 +4966,189 @@
 			"length": 10,
 			"neededEquipments": [
 				"FR"
+			]
+		},
+		{
+			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 0,
+			"maxSpeed": 130,
+			"twistingFactor": 0.26,
+			"objects": [
+				{
+					"start": "XFD",
+					"start_long": "Dijon-Ville",
+					"end": "🇫🇷GMX",
+					"end_long": "Ruffey",
+					"maxSpeed": 135,
+					"length": 27
+				},
+				{
+					"start": "🇫🇷GMX",
+					"start_long": "Gemeaux",
+					"end": "XFIS",
+					"end_long": "Is-sur-Tille",
+					"maxSpeed": 135,
+					"length": 4
+				},
+				{
+					"start": "XFIS",
+					"start_long": "Is-sur-Tille",
+					"end": "🇫🇷VXY",
+					"end_long": "Vaux-sous-Aubigny",
+					"length": 21
+				},
+				{
+					"start": "🇫🇷VXY",
+					"start_long": "Vaux-sous-Aubigny",
+					"end": "XFCU",
+					"end_long": "Culmont-Chalindrey",
+					"length": 23,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFCU",
+					"start_long": "Culmont-Chalindrey",
+					"end": "🇫🇷ADY",
+					"end_long": "Andilly",
+					"length": 17,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷ADY",
+					"start_long": "Andilly",
+					"end": "XFMY",
+					"end_long": "Merrey (Haute-Marne)",
+					"length": 17,
+					"maxSpeed": 120
+				},
+				{
+					"start": "XFMY",
+					"start_long": "Merrey (Haute-Marne)",
+					"end": "🇫🇷BMT",
+					"end_long": "Bourmont",
+					"length": 19,
+					"maxSpeed": 110,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷BMT",
+					"start_long": "Bourmont",
+					"end": "XFNE",
+					"end_long": "Neufchâteau",
+					"length": 21,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XFNE",
+					"start_long": "Neufchâteau",
+					"end": "XFTU",
+					"end_long": "Toul",
+					"length": 43,
+					"maxSpeed": 130,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "XFTU",
+					"start_long": "Toul",
+					"end": "XFFD",
+					"end_long": "Liverdun",
+					"length": 24,
+					"maxSpeed": 140,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "XFFD",
+					"start_long": "Frouard",
+					"end": "XFN",
+					"end_long": "Nancy-Ville",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "XFN",
+					"start_long": "Nancy-Ville",
+					"end": "XFVN",
+					"end_long": "Varangéville-St-Nicolas",
+					"length": 13,
+					"maxSpeed": 150
+				},
+				{
+					"start": "XFVN",
+					"start_long": "Varangéville-St-Nicolas",
+					"end": "XFBLV",
+					"end_long": "Blainville-Damelevières",
+					"length": 10,
+					"maxSpeed": 150,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XFBLV",
+					"start_long": "Blainville-Damelevières",
+					"end": "XFLU",
+					"end_long": "Lunéville",
+					"length": 9,
+					"maxSpeed": 150,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XFLU",
+					"start_long": "Lunéville",
+					"end": "🇫🇷IA",
+					"end_long": "Igney-Avricourt",
+					"length": 24,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷IA",
+					"start_long": "Igney-Avricourt",
+					"end": "🇫🇷HMG",
+					"end_long": "Héming",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷HMG",
+					"start_long": "Héming",
+					"end": "XFRD",
+					"end_long": "Sarrebourg",
+					"length": 11,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFRD",
+					"start_long": "Réding",
+					"end": "XFSV",
+					"end_long": "Lutzelbourg",
+					"length": 22,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XFSV",
+					"start_long": "Saverne",
+					"end": "XFMH",
+					"end_long": "Hochfelden",
+					"length": 21,
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XFMH",
+					"start_long": "Mommenheim",
+					"end": "XFVH",
+					"end_long": "Brumath",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				}
 			]
 		},
 		{
@@ -8203,6 +8410,33 @@
 			]
 		},
 		{
+			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 0,
+			"maxSpeed": 150,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "XFFD",
+					"start_long": "Frouard",
+					"end": "XFDI",
+					"end_long": "Dieulouard",
+					"length": 14,
+					"maxSpeed": 140
+				},
+				{
+					"start": "XFDI",
+					"start_long": "Dieulouard",
+					"end": "XFPS",
+					"end_long": "Pagny-sur-Moselle",
+					"length": 16,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 80,
@@ -10765,8 +10999,13 @@
 				},
 				{
 					"start": "XFLR",
+					"end": "XFPS",
+					"length": 12
+				},
+				{
+					"start": "XFPS",
 					"end": "XFMU",
-					"length": 67
+					"length": 56
 				},
 				{
 					"start": "XFMU",
@@ -14561,6 +14800,48 @@
 		},
 		{
 			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XFLE",
+					"start_long": "Lérouville",
+					"end": "XFRB",
+					"end_long": "Rambucourt-Bouconville",
+					"length": 17
+				},
+				{
+					"start": "XFRB",
+					"start_long": "Rambucourt-Bouconville",
+					"end": "XFO",
+					"end_long": "Onville",
+					"length": 28
+				},
+				{
+					"start": "XFO",
+					"start_long": "Onville",
+					"end": "XFPS",
+					"end_long": "Pagny-sur-Moselle",
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "XFPS",
+					"start_long": "Pagny-sur-Moselle",
+					"end": "XFMZV",
+					"end_long": "Metz-Ville",
+					"length": 28,
+					"maxSpeed": 125
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
 				"CH"
@@ -15569,7 +15850,6 @@
 					"start": "🇫🇷LLR",
 					"end": "🇨🇭VAL",
 					"length": 7,
-					"name": "Simplon-Tunnel",
 					"maxSpeed": 140,
 					"twistingFactor": 0.05
 				},
