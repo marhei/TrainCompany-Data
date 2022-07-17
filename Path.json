@@ -8716,10 +8716,13 @@
 					"start_long": "Perpignan",
 					"end": "XEFI",
 					"end_long": "Figueras",
+					"name": "LGV Perpignan-Figueres",
+					"group": 2,
 					"length": 54,
 					"neededEquipments": [
 						"FR",
-						"ES"
+						"ES",
+						"ETCS"
 					],
 					"maxSpeed": 350
 				},
@@ -8728,9 +8731,12 @@
 					"start_long": "Figueras",
 					"end": "XEG",
 					"end_long": "Gerona (Viajeros)",
+					"name": "Madrid-Barcelona",
+					"group": 2,
 					"length": 35,
 					"neededEquipments": [
-						"ES"
+						"ES",
+						"ETCS"
 					],
 					"maxSpeed": 290
 				},
@@ -8739,9 +8745,12 @@
 					"start_long": "Gerona (Viajeros)",
 					"end": "XEB",
 					"end_long": "Barcelona Centrale",
+					"name": "Madrid-Barcelona",
+					"group": 2,
 					"length": 94,
 					"neededEquipments": [
-						"ES"
+						"ES",
+						"ETCS"
 					],
 					"maxSpeed": 250
 				}
