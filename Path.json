@@ -6842,7 +6842,9 @@
 			"electrified": true,
 			"group": 0,
 			"name": "West Coast Main Line",
-			"neededEquipments": ["GB"],
+			"neededEquipments": [
+				"GB"
+			],
 			"maxSpeed": 140,
 			"twistingFactor": 0.2,
 			"objects": [
@@ -7445,7 +7447,9 @@
 			"electrified": true,
 			"maxSpeed": 140,
 			"twistingFactor": 0.25,
-			"neededEquipments": [ "NL" ],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XNWT",
@@ -7455,11 +7459,39 @@
 			]
 		},
 		{
+			"electrified": true,
+			"name": "Contournement ferroviaire de Nîmes et de Montpellier",
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFAVV",
+					"start_long": "Avignon-TGV",
+					"end": "87703975",
+					"end_long": "Nîmes-Pont du Gard",
+					"length": 28,
+					"maxSpeed": 300
+				},
+				{
+					"start": "87703975",
+					"start_long": "Nîmes-Pont du Gard",
+					"end": "87688887",
+					"end_long": "Montpellier Sud-de-France",
+					"length": 54,
+					"maxSpeed": 220
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 130,
 			"twistingFactor": 0.15,
-			"neededEquipments": [ "NL" ],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XNRM",
@@ -11270,7 +11302,9 @@
 			"electrified": false,
 			"group": 0,
 			"name": "North Wales Coast Line",
-			"neededEquipments": ["GB"],
+			"neededEquipments": [
+				"GB"
+			],
 			"maxSpeed": 140,
 			"twistingFactor": 0.25,
 			"objects": [
@@ -11468,7 +11502,9 @@
 			"electrified": true,
 			"group": 0,
 			"name": "West Coast Main Line",
-			"neededEquipments": ["GB"],
+			"neededEquipments": [
+				"GB"
+			],
 			"objects": [
 				{
 					"start": "XKLP",
@@ -12008,7 +12044,9 @@
 			"electrified": true,
 			"group": 0,
 			"name": "West Coast Main Line",
-			"neededEquipments": ["GB"],
+			"neededEquipments": [
+				"GB"
+			],
 			"twistingFactor": 0.2,
 			"objects": [
 				{
