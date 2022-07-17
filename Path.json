@@ -9912,20 +9912,220 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"twistingFactor": 0.2,
+			"maxSpeed": 160,
 			"objects": [
 				{
-					"start": "BFP",
+					"start": "BHF",
+					"end": "BKP",
+					"length": 12,
+					"maxSpeed": 120
+				},
+				{
+					"start": "BKP",
+					"end": "BERK",
+					"length": 12,
+					"maxSpeed": 120
+				},
+				{
+					"start": "BERK",
+					"end": "BFS",
+					"length": 6
+				},
+				{
+					"start": "BFS",
+					"end": "BHGB",
+					"length": 7
+				},
+				{
+					"start": "BHGB",
 					"end": "BFUW",
-					"maxSpeed": 160,
-					"twistingFactor": 0.3,
-					"length": 34
+					"length": 10
 				},
 				{
 					"start": "BFUW",
-					"end": "BHF",
-					"maxSpeed": 160,
-					"twistingFactor": 0.3,
-					"length": 47
+					"end": "BBKR",
+					"length": 7
+				},
+				{
+					"start": "BBKR",
+					"end": "BBSN",
+					"length": 8
+				},
+				{
+					"start": "BBSN",
+					"end": "BJF",
+					"length": 5
+				},
+				{
+					"start": "BJF",
+					"end": "BPIL",
+					"length": 3
+				},
+				{
+					"start": "BPIL",
+					"end": "BFP",
+					"length": 11
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 80,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "BFP",
+					"end": "BMR",
+					"length": 13,
+					"maxSpeed": 100
+				},
+				{
+					"start": "BMR",
+					"end": "BMX",
+					"length": 6
+				},
+				{
+					"start": "BMX",
+					"end": "BGRU",
+					"length": 4
+				},
+				{
+					"start": "BGRU",
+					"end": "BSB",
+					"length": 3
+				},
+				{
+					"start": "BSB",
+					"end": "BOEG",
+					"length": 5
+				},
+				{
+					"start": "BOEG",
+					"end": "BBES",
+					"length": 1
+				},
+				{
+					"start": "BBES",
+					"end": "BBUW",
+					"length": 7
+				},
+				{
+					"start": "BBUW",
+					"end": "BLNG",
+					"length": 4
+				},
+				{
+					"start": "BLNG",
+					"end": "BSH",
+					"length": 8
+				},
+				{
+					"start": "BSH",
+					"end": "BHUB",
+					"length": 4
+				},
+				{
+					"start": "BHUB",
+					"end": "BSTW",
+					"length": 4
+				},
+				{
+					"start": "BSTW",
+					"end": "BKUM",
+					"length": 4
+				},
+				{
+					"start": "BKUM",
+					"end": "BFDF",
+					"length": 6
+				},
+				{
+					"start": "BFDF",
+					"end": "BKAB",
+					"length": 5
+				},
+				{
+					"start": "BKAB",
+					"end": "BZF",
+					"length": 2
+				},
+				{
+					"start": "BZF",
+					"end": "BNDL",
+					"length": 3
+				},
+				{
+					"start": "BNDL",
+					"end": "BKW",
+					"length": 2
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "BFP",
+					"end": "BSOE",
+					"length": 13
+				},
+				{
+					"start": "BSOE",
+					"end": "BSLO",
+					"length": 12
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.25,
+			"objects": [
+				{
+					"start": "BSLO",
+					"end": "BLTS",
+					"length": 12
+				},
+				{
+					"start": "BLTS",
+					"end": "BNTB",
+					"length": 9
+				},
+				{
+					"start": "BNTB",
+					"end": "BWRZ",
+					"length": 9
+				},
+				{
+					"start": "BWRZ",
+					"end": "BART",
+					"length": 7
+				},
+				{
+					"start": "BART",
+					"end": "WFW",
+					"length": 4
+				},
+				{
+					"start": "WFW",
+					"end": "WFBG",
+					"length": 6
+				},
+				{
+					"start": "WFBG",
+					"end": "WNW",
+					"length": 3
+				},
+				{
+					"start": "WNW",
+					"end": "WE",
+					"length": 10
 				}
 			]
 		},

@@ -2313,6 +2313,22 @@
 		},
 		{
 			"group": 1,
+			"name": "NEB von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe den Zug über Brandenburgische Nebenstrecken von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "BFP", "BMR", "BSB", "BLNG", "BSTW", "BKW" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Strand-Express nach %s",
 			"service": 2,
 			"descriptions": [
