@@ -9851,20 +9851,60 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"twistingFactor": 0.2,
+			"maxSpeed": 160,
 			"objects": [
 				{
-					"start": "BFP",
+					"start": "BHF",
+					"end": "BKP",
+					"length": 12,
+					"maxSpeed": 120
+				},
+				{
+					"start": "BKP",
+					"end": "BERK",
+					"length": 12,
+					"maxSpeed": 120
+				},
+				{
+					"start": "BERK",
+					"end": "BFS",
+					"length": 6
+				},
+				{
+					"start": "BFS",
+					"end": "BHGB",
+					"length": 7
+				},
+				{
+					"start": "BHGB",
 					"end": "BFUW",
-					"maxSpeed": 160,
-					"twistingFactor": 0.3,
-					"length": 34
+					"length": 10
 				},
 				{
 					"start": "BFUW",
-					"end": "BHF",
-					"maxSpeed": 160,
-					"twistingFactor": 0.3,
-					"length": 47
+					"end": "BBKR",
+					"length": 7
+				},
+				{
+					"start": "BBKR",
+					"end": "BBSN",
+					"length": 8
+				},
+				{
+					"start": "BBSN",
+					"end": "BJF",
+					"length": 5
+				},
+				{
+					"start": "BJF",
+					"end": "BPIL",
+					"length": 3
+				},
+				{
+					"start": "BPIL",
+					"end": "BFP",
+					"length": 11
 				}
 			]
 		},
