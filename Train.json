@@ -163,7 +163,7 @@
 			"reliability": 1,
 			"cost": 5600000,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "FR", "TVM", "CH", "LU"],
+			"equipments": ["ETCS", "FR", "TVM", "CH", "LU", "ES"],
 			"maxConnectedUnits": 2,
 			"compatibleWith": [4403, 4501],
 			"exchangeTime": 150,
@@ -233,6 +233,27 @@
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 485},
+				{"name": "bistroseats", "value": 10}
+			]
+		},
+		{
+			"id": 71100,
+			"group": 2,
+			"name": "AVE 100",
+			"speed": 300,
+			"weight": 392,
+			"force": 300,
+			"length": 201,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 4300000,
+			"operationCosts": 60,
+			"equipments": ["ES", "FR", "ETCS"],
+			"neededEquipments": ["FR", "ES"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 329},
 				{"name": "bistroseats", "value": 10}
 			]
 		},
@@ -315,13 +336,35 @@
 			"reliability": 1,
 			"cost": 2500000,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "CH", "AT", "IT"],
+			"equipments": ["ETCS", "CH", "AT", "IT", "ES"],
 			"maxConnectedUnits": 2,
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 431},
 				{"name": "bistroseats", "value": 8 }
 			]
+		},
+		{
+			"id": 71112,
+			"group": 2,
+			"name": "Talgo 350",
+			"shortcut": "S-112",
+			"speed": 350,
+			"weight": 340,
+			"force": 240,
+			"length": 200,
+			"drive": 1,
+			"reliability": 1,
+			"equipments": ["ETCS", "ES"],
+			"neededEquipments": ["ES"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 365},
+				{"name": "bistroseats", "value": 14}
+			],
+			"cost": 4400000,
+			"operationCosts": 70
 		},
 		{
 			"id": 501,
