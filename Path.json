@@ -6999,6 +6999,39 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 100,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "MLA",
+					"end": "MGHS",
+					"length": 13
+				},
+				{
+					"start": "MGHS",
+					"end": "MVSB",
+					"length": 9
+				},
+				{
+					"start": "MVSB",
+					"end": "MAIC",
+					"length": 5
+				},
+				{
+					"start": "MAIC",
+					"end": "MEGK",
+					"length": 5
+				},
+				{
+					"start": "MEGK",
+					"end": "MNR",
+					"length": 6
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"maxSpeed": 160,
 			"twistingFactor": 0.1,
