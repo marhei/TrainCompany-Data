@@ -3468,26 +3468,23 @@
 			"service": 1,
 			"descriptions": [
 				"Bringe die Urlauber nach %2$s.",
-				"Fahre diesen Intercity problemlos bis nach%2$s"
+				"Fahre diesen Intercity problemlos bis nach %2$s"
 			],
-			"stations": [ "AH", "AN", "XDPA", "XDOD", "XDNY", "XDRI", "XDKH"],
-			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
-			]
-		},
-		{
-			"group": 1,
-			"name": "Intercity von %s nach %s",
-			"service": 1,
-			"descriptions": [
-				"Bringe die Urlauber nach %2$s.",
-				"Fahre diesen Intercity problemlos bis nach%2$s"
-			],
-			"stations": [ "BHF", "BL", "AH", "XDOD", "XDNY", "XDKH"],
-			"neededCapacity": [
-				{ "name": "passengers", "value": 0 },
-				{ "name": "bistroseats", "value": 17 },
-				{ "name": "beds", "value": 35 }
+			"objects": [
+				{
+					"stations": [ "AH", "AN", "XDPA", "XDOD", "XDNY", "XDRI", "XDKH"],
+					"neededCapacity": [
+						{ "name": "passengers", "value": 0 }
+					]
+				},
+				{
+					"stations": [ "BHF", "BL", "AH", "XDOD", "XDNY", "XDKH"],
+					"neededCapacity": [
+						{ "name": "passengers", "value": 0 },
+						{ "name": "bistroseats", "value": 17 },
+						{ "name": "beds", "value": 35 }
+					]
+				}
 			]
 		},
 		{
