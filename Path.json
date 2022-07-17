@@ -8569,6 +8569,185 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.17,
+			"objects": [
+				{
+					"start": "87688887",
+					"start_long": "Montpellier Sud-de-France",
+					"end": "🇫🇷VLM",
+					"end_long": "Villeneuve-lès-Maguelone",
+					"length": 8,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷VLM",
+					"start_long": "Villeneuve-lès-Maguelone",
+					"end": "🇫🇷FRN",
+					"end_long": "Frontignan",
+					"length": 13,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷FRN",
+					"start_long": "Frontignan",
+					"end": "XFSE",
+					"end_long": "Sète",
+					"length": 6,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFSE",
+					"start_long": "Sète",
+					"end": "87781294",
+					"end_long": "Marseillan-Plage",
+					"length": 17,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "87781294",
+					"start_long": "Marseillan-Plage",
+					"end": "🇫🇷VA",
+					"end_long": "Vias",
+					"length": 9,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷VA",
+					"start_long": "Vias",
+					"end": "XFBZ",
+					"end_long": "Béziers",
+					"length": 17,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFBZ",
+					"start_long": "Béziers",
+					"end": "🇫🇷CBS",
+					"end_long": "Colombiers",
+					"length": 7,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷CBS",
+					"start_long": "Colombiers",
+					"end": "XFNB",
+					"end_long": "Narbonne",
+					"length": 18,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFNB",
+					"start_long": "Narbonne",
+					"end": "🇫🇷PLN",
+					"end_long": "Port-la-Nouvelle",
+					"length": 21,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷PLN",
+					"start_long": "Port-la-Nouvelle",
+					"end": "87781088",
+					"end_long": "Leucate-la-Franqui",
+					"length": 10,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 150
+				},
+				{
+					"start": "87781088",
+					"start_long": "Leucate-la-Franqui",
+					"end": "87784157",
+					"end_long": "Salses",
+					"length": 14,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "87784157",
+					"start_long": "Salses",
+					"end": "XFRV",
+					"end_long": "Rivesaltes",
+					"length": 9,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 150
+				},
+				{
+					"start": "XFRV",
+					"start_long": "Rivesaltes",
+					"end": "XFPE",
+					"end_long": "Perpignan",
+					"length": 8,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 150
+				},
+				{
+					"start": "XFPE",
+					"start_long": "Perpignan",
+					"end": "XEFI",
+					"end_long": "Figueras",
+					"length": 54,
+					"neededEquipments": [
+						"FR",
+						"ES"
+					],
+					"maxSpeed": 350
+				},
+				{
+					"start": "XEFI",
+					"start_long": "Figueras",
+					"end": "XEG",
+					"end_long": "Gerona (Viajeros)",
+					"length": 35,
+					"neededEquipments": [
+						"ES"
+					],
+					"maxSpeed": 290
+				},
+				{
+					"start": "XEG",
+					"start_long": "Gerona (Viajeros)",
+					"end": "XEB",
+					"end_long": "Barcelona Centrale",
+					"length": 94,
+					"neededEquipments": [
+						"ES"
+					],
+					"maxSpeed": 250
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 50,
