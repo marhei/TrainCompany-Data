@@ -10003,6 +10003,72 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "BFP",
+					"end": "BSOE",
+					"length": 13
+				},
+				{
+					"start": "BSOE",
+					"end": "BSLO",
+					"length": 12
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.25,
+			"objects": [
+				{
+					"start": "BSLO",
+					"end": "BLTS",
+					"length": 12
+				},
+				{
+					"start": "BLTS",
+					"end": "BNTB",
+					"length": 9
+				},
+				{
+					"start": "BNTB",
+					"end": "BWRZ",
+					"length": 9
+				},
+				{
+					"start": "BWRZ",
+					"end": "BART",
+					"length": 7
+				},
+				{
+					"start": "BART",
+					"end": "WFW",
+					"length": 4
+				},
+				{
+					"start": "WFW",
+					"end": "WFBG",
+					"length": 6
+				},
+				{
+					"start": "WFBG",
+					"end": "WNW",
+					"length": 3
+				},
+				{
+					"start": "WNW",
+					"end": "WE",
+					"length": 10
+				}
+			]
+		},
+		{
 			"name": "Berliner Stadtbahn",
 			"electrified": true,
 			"group": 0,
