@@ -17559,15 +17559,6 @@
 			"electrified": true,
 			"objects": [
 				{
-					"start": "XAKN",
-					"end": "MKI",
-					"length": 3,
-					"neededEquipments": [
-						"AT"
-					],
-					"name": "Unterinntalbahn"
-				},
-				{
 					"start": "MKI",
 					"end": "MOD",
 					"length": 5
@@ -18430,6 +18421,41 @@
 				"AT"
 			],
 			"objects": [
+				{
+					"start": "MKI",
+					"end": "XAKN",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XAKN",
+					"end": "XASFU",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XASFU",
+					"end": "XALK",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XALK",
+					"end": "XAKL",
+					"length": 4,
+					"maxSpeed": 150,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "XAKL",
+					"end": "XAWL",
+					"length": 5,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
 				{
 					"start": "XAWL",
 					"end": "🇦🇹Kn",
