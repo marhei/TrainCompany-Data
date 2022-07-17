@@ -893,6 +893,28 @@
 			]
 		},
 		{
+			"id": 324,
+			"group": 2,
+			"name": "Alstom Corodia Nordic",
+			"shortcut": "X62",
+			"speed": 180,
+			"weight": 133,
+			"force": 320,
+			"length": 74,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 5,
+			"equipments": [
+				"SE, NO"
+			],
+			"neededEquipments": ["SE, NO"],
+			"operationCosts": 65,
+			"cost": 450000,
+			"capacity": [
+				{"name": "passengers", "value": 374}
+			]
+		},
+		{
 			"id": 563,
 			"group": 2,
 			"name": "Siemens Mireo Plus H",
@@ -1603,6 +1625,21 @@
 			"cost": 475000,
 			"operationCosts": 100,
 			"equipments": ["DK", "SE"]
+		},
+		{
+			"id": 319,
+			"group": 0,
+			"name": "SJ Rc7",
+			"speed": 180,
+			"weight": 78,
+			"force": 314,
+			"length": 15,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 250000,
+			"operationCosts": 95,
+			"equipments": ["SE"],
+			"neededEquipments": ["SE"]
 		},
 		{
 			"id": 5,
