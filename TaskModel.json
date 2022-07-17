@@ -3410,6 +3410,99 @@
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Öresundstag von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Verbinde %s mit %s.",
+				"Fahre den Zug zwischen %s und %s."
+			],
+			"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "XVA", "XVBA", "XVLH", "XVHL", "XVFA", "XVVA", "🇸🇪ÅA", "XVKA", "XVLM", "XVGB"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Überregionalzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Verbinde %s mit %s.",
+				"Fahre den Zug zwischen %s und %s."
+			],
+			"stations": [ "XVGB", "XVAD", "XVNS", "XVAS", "XVFY", "XVFK", "XVST", "XVLX", "XVHA", "XVVI", "XVK", "XVFN", "🇸🇪MÖ", "🇸🇪JN", "🇸🇪HD", "XVS" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Holz von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Fahre den wichtigen Holzzug Grenzübergreifend von %s nach %s."
+			],
+			"stations": [ "XVLX","LS" ],
+			"neededCapacity": [
+				{ "name": "wood", "value": 2100 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "DSB Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Verbinde die Menschen im Norden von %s bis %s.",
+				"Bediene die Regionalleistung zwischen %s und %s."
+			],
+			"stations": [ "XDTI", "XDRD", "XDV", "XDLU", "XDKO", "XDTA", "XDMF", "🇩🇰KL", "🇩🇰NA", "XDEY", "🇩🇰GS", "🇩🇰AR", "🇩🇰BD", "🇩🇰SB", "🇩🇰TM", "🇩🇰HS", "XDOD", "XDNY", "🇩🇰SG", "XDKS", "XDSGE", "XDSOR", "XDRI", "XDBOP", "XDVI", "XDRK", "XDHT", "XDKH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die Urlauber nach %2$s.",
+				"Fahre diesen Intercity problemlos bis nach%2$s"
+			],
+			"stations": [ "AH", "AN", "XDPA", "XDOD", "XDNY", "XDRI", "XDKH"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die Urlauber nach %2$s.",
+				"Fahre diesen Intercity problemlos bis nach%2$s"
+			],
+			"stations": [ "BHF", "BL", "AH", "XDOD", "XDNY", "XDKH"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 17 },
+				{ "name": "beds", "value": 35 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalleistung im Norden",
+			"service": 2,
+			"descriptions": [
+				"Verbinde die Menschen im Norden von %s bis %s.",
+				"Bediene die Regionalleistung zwischen %s und %s."
+			],
+			"stations": [ "🇸🇪KL", "XVGB"  ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
 		}
 	]
 }
