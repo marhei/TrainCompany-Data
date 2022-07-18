@@ -674,6 +674,21 @@
 			]
 		},
 		{
+			"name": "RE 11 von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 11 von %s nach %s.",
+				"Bring die Fahrgäste im grenzüberschreitenden RE 11 pünktlich nach %2$s.",
+				"Fahre den RE zwischen Deutschland und Luxemburg nach %2$s."
+			],
+			"stations": [ "KKO", "SKG", "STR", "SCOC", "SBY", "SWIH", "SSWE", "STR", "SKZ", "XLW", "XLL" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "KKO", "SKG", "SCOC", "SBY", "SWIH", "SSWE", "SEGO", "STR", "SKZ", "XLW", "XLL" ]
+		},
+		{
 			"group": 0,
 			"name": "Eröffnungs-ICE nach %2$s",
 			"service": 0,
