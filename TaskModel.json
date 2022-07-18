@@ -3511,27 +3511,18 @@
 		},
 		{
 			"group": 1,
-			"name": "Intercity von %s nach %s",
+			"name": "Snälltåget von %s nach %s",
 			"service": 1,
 			"descriptions": [
 				"Bringe die Urlauber nach %2$s.",
 				"Fahre diesen Intercity problemlos bis nach %2$s"
 			],
-			"objects": [
-				{
-					"stations": [ "AH", "AN", "XDPA", "XDOD", "XDNY", "XDRI", "XDKH"],
-					"neededCapacity": [
-						{ "name": "passengers", "value": 0 }
-					]
-				},
-				{
-					"stations": [ "BHF", "BL", "AH", "XDOD", "XDNY", "XDKH"],
-					"neededCapacity": [
-						{ "name": "passengers", "value": 0 },
-						{ "name": "bistroseats", "value": 17 },
-						{ "name": "beds", "value": 35 }
-					]
-				}
+			"stations": [ "BHF", "BL", "AH", "XDOD", "XDNY", "XDKH", "XVM", "XVGB", "XVS"],
+			"pathSuggestion": [ "BHF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDOD", "XDNY", "XDRI", "XDKH", "XVM", "XVGB", "XVS"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 },
+				{ "name": "beds", "value": 0 }
 			]
 		},
 		{
