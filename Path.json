@@ -6889,7 +6889,9 @@
 			"electrified": true,
 			"group": 0,
 			"name": "West Coast Main Line",
-			"neededEquipments": ["GB"],
+			"neededEquipments": [
+				"GB"
+			],
 			"maxSpeed": 140,
 			"twistingFactor": 0.2,
 			"objects": [
@@ -7553,7 +7555,9 @@
 			"electrified": true,
 			"maxSpeed": 140,
 			"twistingFactor": 0.25,
-			"neededEquipments": [ "NL" ],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XNWT",
@@ -7563,11 +7567,37 @@
 			]
 		},
 		{
+			"electrified": true,
+			"name": "Contournement ferroviaire de Nîmes et de Montpellier",
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"FR",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XFAVV",
+					"end": "🇫🇷NPG",
+					"length": 28,
+					"maxSpeed": 300,
+					"group": 2
+				},
+				{
+					"start": "🇫🇷NPG",
+					"end": "🇫🇷MHV",
+					"length": 54,
+					"maxSpeed": 220
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 130,
 			"twistingFactor": 0.15,
-			"neededEquipments": [ "NL" ],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XNRM",
@@ -8582,6 +8612,162 @@
 					"start": "ANH",
 					"end": "AHI",
 					"length": 6
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.17,
+			"objects": [
+				{
+					"start": "🇫🇷MHV",
+					"end": "🇫🇷VLM",
+					"length": 8,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷VLM",
+					"end": "🇫🇷FRN",
+					"length": 13,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷FRN",
+					"end": "XFSE",
+					"length": 6,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFSE",
+					"end": "87781294",
+					"length": 17,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "87781294",
+					"end": "🇫🇷VA",
+					"length": 9,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷VA",
+					"end": "XFBZ",
+					"length": 17,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFBZ",
+					"end": "🇫🇷CBS",
+					"length": 7,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷CBS",
+					"end": "XFNB",
+					"length": 18,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFNB",
+					"end": "🇫🇷PLN",
+					"length": 21,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷PLN",
+					"end": "87781088",
+					"length": 10,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 150
+				},
+				{
+					"start": "87781088",
+					"end": "87784157",
+					"length": 14,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "87784157",
+					"end": "XFRV",
+					"length": 9,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 150
+				},
+				{
+					"start": "XFRV",
+					"end": "XFPE",
+					"length": 8,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 150
+				},
+				{
+					"start": "XFPE",
+					"end": "XEFI",
+					"name": "LGV Perpignan-Figueres",
+					"group": 2,
+					"length": 54,
+					"neededEquipments": [
+						"FR",
+						"ES",
+						"ETCS"
+					],
+					"maxSpeed": 350
+				},
+				{
+					"start": "XEFI",
+					"end": "XEG",
+					"name": "Madrid-Barcelona",
+					"group": 2,
+					"length": 35,
+					"neededEquipments": [
+						"ES",
+						"ETCS"
+					],
+					"maxSpeed": 290
+				},
+				{
+					"start": "XEG",
+					"end": "XEB",
+					"name": "Madrid-Barcelona",
+					"group": 2,
+					"length": 94,
+					"neededEquipments": [
+						"ES",
+						"ETCS"
+					],
+					"maxSpeed": 250
 				}
 			]
 		},
@@ -11578,7 +11764,9 @@
 			"electrified": false,
 			"group": 0,
 			"name": "North Wales Coast Line",
-			"neededEquipments": ["GB"],
+			"neededEquipments": [
+				"GB"
+			],
 			"maxSpeed": 140,
 			"twistingFactor": 0.25,
 			"objects": [
@@ -11776,7 +11964,9 @@
 			"electrified": true,
 			"group": 0,
 			"name": "West Coast Main Line",
-			"neededEquipments": ["GB"],
+			"neededEquipments": [
+				"GB"
+			],
 			"objects": [
 				{
 					"start": "XKLP",
@@ -12316,7 +12506,9 @@
 			"electrified": true,
 			"group": 0,
 			"name": "West Coast Main Line",
-			"neededEquipments": ["GB"],
+			"neededEquipments": [
+				"GB"
+			],
 			"twistingFactor": 0.2,
 			"objects": [
 				{
