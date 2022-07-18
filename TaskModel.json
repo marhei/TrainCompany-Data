@@ -203,11 +203,11 @@
 				},
 				{
 					"stations": [ "XFPG", "XFLPD" ],
-					"pathSuggestion": [ "XFPG", "🇫🇷PAI", "XFMAL", "XFLPD" ]
+					"pathSuggestion": [ "XFPG", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFLPD" ]
 				},
 				{
 					"stations": [ "XFPO", "XFMZV", "XFSTG" ],
-					"pathSuggestion": [ "XFPO", "XFVAR", "XFPS", "XFMZV", "🇫🇷BDC", "XFVH", "XFSTG" ]
+					"pathSuggestion": [ "XFPO", "XFVAR", "XFPS", "XFMZV", "XFRM", "🇫🇷BDC", "XFVH", "XFSTG" ]
 				},
 				{
 					"pathSuggestion": [ "XFLIE", "XFHP", "🇫🇷VEMARS", "🇫🇷CDG", "XFVAR", "XFMVC", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFSRI", "🇫🇷SXA", "🇫🇷GRNY", "XFAVV", "XFAX", "XFM" ],
@@ -888,7 +888,7 @@
 			"objects": [
 				{
 					"stations": [ "AA", "AH", "HH", "HG", "FB", "FFU", "FH", "NWH", "NN", "MH" ],
-					"pathSuggestion": [ "AA", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FGTH", "FB", "FFU", "FFD", "FSUE", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH" ]
+					"pathSuggestion": [ "AA", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FGTH", "FB", "FHUE", "FFU", "FFD", "FSUE", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH" ]
 				},
 				{
 					"stations": [ "AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM", "RK", "RF", "RDO", "RSI", "RB", "RLR" ],
@@ -916,7 +916,7 @@
 			"objects": [
 				{
 					"stations": [ "AA", "AH", "HH", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF", "RB" ],
-					"pathSuggestion": [ "AA", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "HEBG", "FB", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RO", "RF", "RML", "RB" ]
+					"pathSuggestion": [ "AA", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "HEBG", "FB", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB" ]
 				},
 				{
 					"stations": [ "XBB", "XBLIG", "KA", "KK", "KBB", "FF", "NWH", "NN", "MH" ],
@@ -924,7 +924,7 @@
 				},
 				{
 					"stations": [ "BL", "BPD", "LM", "HHI", "HG", "HEBG", "FB", "FFU", "FH", "RM", "RK", "RF", "RB" ],
-					"pathSuggestion": [ "BL", "BPD", "LM", "HBS", "HHI", "HELZ", "HK", "HG", "HEBG", "FB", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RO", "RF", "RML", "RB" ]
+					"pathSuggestion": [ "BL", "BPD", "LM", "HBS", "HHI", "HELZ", "HK", "HG", "HEBG", "FB", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB" ]
 				},
 				{
 					"stations": [ "XAWW", "XAP", "XAL", "XAWE", "NPA", "NRH", "NN", "FFLF", "FMZ", "KKO", "KB", "KK", "KD", "EEM", "XNAC" ],
@@ -947,7 +947,7 @@
 			"objects": [
 				{
 					"stations": [ "XAWW", "XAP", "XAL", "XAWE", "NPA", "NRH", "NN", "NWH", "HG", "HH", "AHAR", "AH", "AA" ],
-					"pathSuggestion": [ "XAWW", "XAP", "XAL", "XAWE", "NPA", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "FFU", "FKW", "HG", "HH", "HWUN", "HV", "AROG", "ABLZ", "AHAR", "AH", "AA" ]
+					"pathSuggestion": [ "XAWW", "XAP", "XAL", "XAWE", "NPA", "NOT", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "FFU", "FKW", "HG", "HH", "HWUN", "HV", "AROG", "ABLZ", "AHAR", "AH", "AA" ]
 				}
 			],
 			"neededCapacity": [
@@ -1482,7 +1482,7 @@
 			],
 			"service": 1,
 			"stations": [ "NN", "MTL", "MDT", "MA", "MH", "MWH", "MMU", "MGP" ],
-			"pathSuggestion": [ "NN", "MTL", "MDT", "MA", "MH", "MWH", "MMU", "MGP" ],
+			"pathSuggestion": [ "NN", "MTL", "MDT", "MA", "MH", "MTZ", "MWH", "MMU", "MGP" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -2351,6 +2351,22 @@
 			"objects": [
 				{
 					"stations": [ "LM", "LBU", "LB", "BPD", "BL", "BHF", "BFUW", "BFP", "BCS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "NEB von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe den Zug über Brandenburgische Nebenstrecken von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "BFP", "BMR", "BSB", "BLNG", "BSTW", "BKW" ]
 				}
 			],
 			"neededCapacity": [
@@ -3437,6 +3453,96 @@
 				"Fahre den Zug zwischen %s und %s."
 			],
 			"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "🇸🇪LK", "XVH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Öresundstag von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Verbinde %s mit %s.",
+				"Fahre den Zug zwischen %s und %s."
+			],
+			"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "XVA", "XVBA", "XVLH", "XVHL", "XVFA", "XVVA", "🇸🇪ÅA", "XVKA", "XVLM", "XVGB"],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Überregionalzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Verbinde %s mit %s.",
+				"Fahre den Zug zwischen %s und %s."
+			],
+			"stations": [ "XVGB", "XVAD", "XVNS", "XVAS", "XVFY", "XVFK", "XVST", "XVLX", "XVHA", "XVVI", "XVK", "XVFN", "🇸🇪MÖ", "🇸🇪JN", "🇸🇪HD", "XVS" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Holz von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Fahre den wichtigen Holzzug Grenzübergreifend von %s nach %s."
+			],
+			"stations": [ "XVLX","LS" ],
+			"neededCapacity": [
+				{ "name": "wood", "value": 2100 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "DSB Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Verbinde die Menschen im Norden von %s bis %s.",
+				"Bediene die Regionalleistung zwischen %s und %s."
+			],
+			"stations": [ "XDTI", "XDRD", "XDV", "XDLU", "XDKO", "XDTA", "XDMF", "🇩🇰KL", "🇩🇰NA", "XDEY", "🇩🇰GS", "🇩🇰AR", "🇩🇰BD", "🇩🇰SB", "🇩🇰TM", "🇩🇰HS", "XDOD", "XDNY", "🇩🇰SG", "XDKS", "XDSGE", "XDSOR", "XDRI", "XDBOP", "XDVI", "XDRK", "XDHT", "XDKH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die Urlauber nach %2$s.",
+				"Fahre diesen Intercity problemlos bis nach %2$s"
+			],
+			"objects": [
+				{
+					"stations": [ "AH", "AN", "XDPA", "XDOD", "XDNY", "XDRI", "XDKH"],
+					"neededCapacity": [
+						{ "name": "passengers", "value": 0 }
+					]
+				},
+				{
+					"stations": [ "BHF", "BL", "AH", "XDOD", "XDNY", "XDKH"],
+					"neededCapacity": [
+						{ "name": "passengers", "value": 0 },
+						{ "name": "bistroseats", "value": 17 },
+						{ "name": "beds", "value": 35 }
+					]
+				}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalleistung im Norden",
+			"service": 2,
+			"descriptions": [
+				"Verbinde die Menschen im Norden von %s bis %s.",
+				"Bediene die Regionalleistung zwischen %s und %s."
+			],
+			"stations": [ "🇸🇪KL", "XVGB"  ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
