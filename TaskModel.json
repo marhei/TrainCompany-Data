@@ -646,6 +646,34 @@
 			]
 		},
 		{
+			"name": "TGV/AVE von %s nach %s",
+			"descriptions": [
+				"Verbinde Frankreich und Spanien zischen %s und %s.",
+				"Fahre am Mittelmeer entlang nach %2$s.",
+				"Fahre im TGV/AVE von %s nach %s.",
+				"Bring die Fahrgäste in diesem grenzüberschreitenden Zug schnell nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "XFLPD", "XFVCV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ],
+					"pathSuggestion": [ "XFLPD", "🇫🇷GRNY", "XFVCV", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ]
+				},
+				{
+					"stations": [ "XFM", "XFAX", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ],
+					"pathSuggestion": [ "XFM", "XFAX", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ]
+				},
+				{
+					"pathSuggestion": [ "XFPG", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFSRI", "🇫🇷GRNY", "XFVCV", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFSE", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ],
+					"stations": [ "XFPG", "XFVCV", "🇫🇷NPG", "🇫🇷MHV", "XFSE", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ]
+				}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Eröffnungs-ICE nach %2$s",
 			"service": 0,
@@ -1047,7 +1075,7 @@
 			],
 			"objects": [
 				{
-					"stations": [ "MH", "MGB", "MRO", "MRA", "MBB", "MFLI", "MOD", "MKI", "XAKN"]
+					"stations": [ "MH", "MGB", "MRO", "MRA", "MBB", "MFLI", "MOD", "MKI", "XAKN" ]
 				}
 			],
 			"stopsEverywhere": false,
@@ -1190,7 +1218,7 @@
 					"stations": [ "MER", "MSB", "MH", "MDA", "MAMT" ]
 				},
 				{
-					"stations": ["MDA", "MAMT"]
+					"stations": [ "MDA", "MAMT" ]
 				},
 				{
 					"stations": [ "MSB", "MH", "MDA", "MAMT" ]
@@ -1267,11 +1295,11 @@
 			],
 			"objects": [
 				{
-					"stations": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASK", "XASB"]
+					"stations": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASK", "XASB" ]
 				},
 				{
-					"stations": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASK", "XASB", "MH"],
-					"pathSuggestion": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASK", "XASB", "MFL", "MTS", "MRO", "MGB", "MH"]
+					"stations": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASK", "XASB", "MH" ],
+					"pathSuggestion": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASK", "XASB", "MFL", "MTS", "MRO", "MGB", "MH" ]
 				}
 			],
 			"stopsEverywhere": false,
@@ -1288,8 +1316,8 @@
 			],
 			"objects": [
 				{
-					"stations": [ "XAWW", "XAP", "XAL", "XASB", "MRO", "MH"],
-					"pathSuggestion": [ "XAWW", "XAP", "XAL", "XAWE", "XASB", "MFL", "MTS", "MRO", "MGB", "MH"]
+					"stations": [ "XAWW", "XAP", "XAL", "XASB", "MRO", "MH" ],
+					"pathSuggestion": [ "XAWW", "XAP", "XAL", "XAWE", "XASB", "MFL", "MTS", "MRO", "MGB", "MH" ]
 				}
 			],
 			"stopsEverywhere": false,
@@ -1308,10 +1336,10 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": ["MH", "MSB", "MHLK", "MWKN", "MTMA", "MDFN", "MSDG", "MWDB", "MAPF", "MMF"]
+					"stations": [ "MH", "MSB", "MHLK", "MWKN", "MTMA", "MDFN", "MSDG", "MWDB", "MAPF", "MMF" ]
 				},
 				{
-					"stations": ["MH", "MSB", "MHLK", "MWKN", "MTMA", "MDFN", "MSDG", "MWDB", "MAPF", "MMF", "MTG", "MNN", "MMK", "MJUL", "MSBI"]
+					"stations": [ "MH", "MSB", "MHLK", "MWKN", "MTMA", "MDFN", "MSDG", "MWDB", "MAPF", "MMF", "MTG", "MNN", "MMK", "MJUL", "MSBI" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -3364,9 +3392,9 @@
 			"descriptions": [
 				"Verbinde %s mit %s mit diesem Intermodalen Güterzug."
 			],
-			 "neededCapacity": [
-				 { "name": "containers", "value": 72 }
-			 ]
+			"neededCapacity": [
+				{ "name": "containers", "value": 72 }
+			]
 		},
 		{
 			"group": 1,
