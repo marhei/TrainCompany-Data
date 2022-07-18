@@ -483,6 +483,10 @@
 				{
 					"stations": [ "XFPG", "XFLC", "XFLPD" ],
 					"pathSuggestion": [ "XFPG", "🇫🇷MOIS", "🇫🇷PAI", "XFLC", "XFMAL", "XFLPD" ]
+				},
+				{
+					"stations": [ "XFPO", "XFCV", "XFMZV", "XFTHV", "XLL" ],
+					"pathSuggestion": [ "XFPO", "XFVAR", "XFCV", "XFPS", "XFMZV", "XFTHV", "XLL" ]
 				}
 			],
 			"neededCapacity": [
@@ -570,28 +574,27 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "XFD", "🇫🇷BEA", "XFCGY", "XFCS", "🇫🇷TOS", "XFMAL", "XFBV", "XFLPD" ],
-					"pathSuggestion": [ "XFD", "🇫🇷BEA", "XFCGY", "XFCS", "🇫🇷TOS", "XFMAL", "XFBV", "XFLPD" ]
+					"stations": [ "XFD", "🇫🇷BEA", "XFCGY", "XFCS", "🇫🇷TOS", "XFMAL", "XFBV", "XFLPD" ]
 				},
 				{
 					"stations": [ "XFMZV", "XFPS", "XFN" ],
 					"pathSuggestion": [ "XFMZV", "XFPS", "XFFD", "XFN" ]
 				},
 				{
-					"stations": [ "XFN", "XFLU", "🇫🇷IA", "XFRD", "XFSV", "XFSTG" ],
-					"pathSuggestion": [ "XFN", "XFLU", "🇫🇷IA", "XFRD", "XFSV", "XFVH", "XFSTG" ]
+					"stations": [ "XFN", "XFLU", "🇫🇷IA", "XFRD", "XFSV", "XFSTG" ]
 				},
 				{
-					"stations": [ "XFLPD", "🇫🇷VRU", "XFCZ", "🇫🇷SSS", "XFBA", "XSGE" ],
-					"pathSuggestion": [ "XFLPD", "🇫🇷VRU", "XFCZ", "🇫🇷SSS", "XFBA", "XSGE" ]
+					"stations": [ "XFLPD", "🇫🇷VRU", "XFCZ", "🇫🇷SSS", "XFBA", "XSGE" ]
 				},
 				{
 					"pathSuggestion": [ "XFN", "XFFD", "XFTU", "XFNE", "XFCU", "XFIS", "XFD" ],
 					"stations": [ "XFN", "XFTU", "XFNE", "XFCU", "XFIS", "XFD" ]
 				},
 				{
-					"stations": [ "XFSTG", "XFES", "XFSL", "XFC", "XFMV" ],
-					"pathSuggestion": [ "XFSTG", "XFES", "XFSL", "XFC", "XFMV" ]
+					"stations": [ "XFSTG", "XFES", "XFSL", "XFC", "XFMV" ]
+				},
+				{
+					"stations": [ "XFMZV", "XFTHV", "XLB", "XLL" ]
 				}
 			]
 		},
@@ -644,6 +647,21 @@
 					"pathSuggestion": [ "XKLP", "XKRU", "🇬🇧BHI", "🇬🇧BHM" ]
 				}
 			]
+		},
+		{
+			"name": "RE 11 von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 11 von %s nach %s.",
+				"Bring die Fahrgäste im grenzüberschreitenden RE 11 pünktlich nach %2$s.",
+				"Fahre den RE zwischen Deutschland und Luxemburg nach %2$s."
+			],
+			"stations": [ "KKO", "SKG", "STR", "SCOC", "SBY", "SWIH", "SSWE", "STR", "SKZ", "XLW", "XLL" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "KKO", "SKG", "SCOC", "SBY", "SWIH", "SSWE", "SEGO", "STR", "SKZ", "XLW", "XLL" ]
 		},
 		{
 			"name": "TGV/AVE von %s nach %s",
