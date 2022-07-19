@@ -3412,30 +3412,18 @@
 			]
 		},
 		{
-			"group": 1,
-			"name": "Containerzug von %s nach %s",
-			"service": 11,
-			"descriptions": [
-				"Bringe den schweren Containerzug nach %2$s."
-			],
-			"stations": [ "KKR", "XVH" ],
-			"neededCapacity": [
-				{ "name": "containers", "value": 72 }
-			]
-		},
-		{
-			"group": 1,
+			"group": 0,
 			"name": "Schwerer Intermodaltransport von von %s nach %s ",
 			"service": 11,
 			"descriptions": [
 				"Verbinde %s mit %s mit diesem Intermodalen Güterzug."
 			],
 			"neededCapacity": [
-				{ "name": "containers", "value": 72 }
+				{ "name": "containers", "value": 70 }
 			]
 		},
 		{
-			"group": 1,
+			"group": 0,
 			"name": "Güterzug von von %s nach %s ",
 			"service": 10,
 			"descriptions": [
