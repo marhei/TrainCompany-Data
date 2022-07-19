@@ -246,26 +246,6 @@
 					},
 					"uniqueItems": true
 				},
-				"neededEquipments": {
-					"description": "Streckenanforderung",
-					"type": "array",
-					"items": {
-						"type": "string",
-						"examples": [
-							"ETCS",
-							"KRM",
-							"FR",
-							"TVM",
-							"Eurotunnel",
-							"NL",
-							"CZ",
-							"CH",
-							"AT",
-							"bostrab"
-						]
-					},
-					"uniqueItems": true
-				},
 				"exchangeTime": {
 					"description": "Aufenthaltsdauer bei Planhalten in Sekunden",
 					"type": "integer",
