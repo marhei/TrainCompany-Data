@@ -14723,6 +14723,45 @@
 		},
 		{
 			"electrified": true,
+			"neededEquipments": [
+				"IT"
+			],
+			"objects": [
+				{
+					"start": "XIMB",
+					"start_long": "Milano Centrale",
+					"end": "XIR",
+					"end_long": "Rho",
+					"length": 12,
+					"group": 0,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XIR",
+					"start_long": "Rho",
+					"end": "XITUR",
+					"end_long": "Torino Stura",
+					"length": 127,
+					"group": 2,
+					"name": "Milano-Torino",
+					"maxSpeed": 300,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XITUR",
+					"start_long": "Torino Stura",
+					"end": "XITU",
+					"end_long": "Torino Porta Nuova",
+					"length": 11,
+					"group": 0,
+					"maxSpeed": 155,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"group": 0,
 			"maxSpeed": 100,
 			"twistingFactor": 0.3,
