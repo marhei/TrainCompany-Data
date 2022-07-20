@@ -4213,6 +4213,268 @@
 			"maxSpeed": 80
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 150,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "XFM",
+					"start_long": "Marseille-St-Charles",
+					"end": "🇫🇷AUB",
+					"end_long": "Aubagne",
+					"length": 17,
+					"maxSpeed": 125,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷AUB",
+					"start_long": "Aubagne",
+					"end": "🇫🇷BND",
+					"end_long": "Bandol",
+					"length": 33,
+					"maxSpeed": 125,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷BND",
+					"start_long": "Bandol",
+					"end": "🇫🇷LSM",
+					"end_long": "La Seyne-Six-Fours",
+					"length": 11,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷LSM",
+					"start_long": "La Seyne-Six-Fours",
+					"end": "XFTO",
+					"end_long": "Toulon",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFTO",
+					"start_long": "Toulon",
+					"end": "🇫🇷SIP",
+					"end_long": "Solliès-Pont",
+					"length": 17,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷SIP",
+					"start_long": "Solliès-Pont",
+					"end": "XFCNO",
+					"end_long": "Carnoules",
+					"length": 17,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFCNO",
+					"start_long": "Carnoules",
+					"end": "87755405",
+					"end_long": "Le Luc-et-Le Cannet",
+					"length": 18,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "87755405",
+					"start_long": "Le Luc-et-Le Cannet",
+					"end": "🇫🇷VUB",
+					"end_long": "Vidauban",
+					"length": 9,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷VUB",
+					"start_long": "Vidauban",
+					"end": "XFSR",
+					"end_long": "St-Raphaël-Valescure",
+					"length": 31,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFSR",
+					"start_long": "St-Raphaël-Valescure",
+					"end": "XFCA",
+					"end_long": "Cannes",
+					"length": 32,
+					"maxSpeed": 95,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFCA",
+					"start_long": "Cannes",
+					"end": "XFAN",
+					"end_long": "Antibes",
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFAN",
+					"start_long": "Antibes",
+					"end": "XFNC",
+					"end_long": "Nice-Ville",
+					"length": 20,
+					"maxSpeed": 125,
+					"twistingFactor": 0.24,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFNC",
+					"start_long": "Nice-Ville",
+					"end": "XFMC",
+					"end_long": "Monaco-Monte-Carlo",
+					"length": 16,
+					"maxSpeed": 90,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFMC",
+					"start_long": "Monaco-Monte-Carlo",
+					"end": "XFME",
+					"end_long": "Menton",
+					"length": 8,
+					"maxSpeed": 90,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFME",
+					"start_long": "Menton",
+					"end": "XIVT",
+					"end_long": "Ventimiglia",
+					"length": 10,
+					"twistingFactor": 0.27,
+					"maxSpeed": 80,
+					"neededEquipments": [
+						"IT",
+						"FR"
+					]
+				},
+				{
+					"start": "XIVT",
+					"start_long": "Ventimiglia",
+					"end": "XITG",
+					"end_long": "Taggia",
+					"length": 22,
+					"maxSpeed": 140,
+					"twistingFactor": 0.25,
+					"neededEquipments": [
+						"IT"
+					]
+				},
+				{
+					"start": "XITG",
+					"start_long": "Taggia",
+					"end": "XIIO",
+					"end_long": "Imperia Oneglia",
+					"length": 16,
+					"maxSpeed": 180,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"IT"
+					]
+				},
+				{
+					"start": "XIIO",
+					"start_long": "Imperia Oneglia",
+					"end": "XIAO",
+					"end_long": "Alassio",
+					"length": 17,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"IT"
+					]
+				},
+				{
+					"start": "XIAO",
+					"start_long": "Alassio",
+					"end": "XILO",
+					"end_long": "Loano",
+					"length": 15,
+					"maxSpeed": 125,
+					"twistingFactor": 0.24,
+					"neededEquipments": [
+						"IT"
+					]
+				},
+				{
+					"start": "XILO",
+					"start_long": "Loano",
+					"end": "XISAV",
+					"end_long": "Savona Letimbro",
+					"length": 28,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"IT"
+					]
+				},
+				{
+					"start": "XISAV",
+					"start_long": "Savona Letimbro",
+					"end": "XIVR",
+					"end_long": "Varazze",
+					"length": 10,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"IT"
+					]
+				},
+				{
+					"start": "XIVR",
+					"start_long": "Varazze",
+					"end": "XIGP",
+					"end_long": "Genova Piazza Principe",
+					"length": 31,
+					"maxSpeed": 150,
+					"twistingFactor": 0.25,
+					"neededEquipments": [
+						"IT"
+					]
+				}
+			]
+		},
+		{
 			"group": 1,
 			"name": "Vogelsbergbahn",
 			"electrified": false,
@@ -6417,7 +6679,10 @@
 					"start": "NFW",
 					"end": "🇨🇿5474805",
 					"length": 6,
-					"neededEquipments": ["DE","CZ"]
+					"neededEquipments": [
+						"DE",
+						"CZ"
+					]
 				},
 				{
 					"start": "🇨🇿5474805",
@@ -10139,7 +10404,9 @@
 			"maxSpeed": 160,
 			"group": 0,
 			"twistingFactor": 0.25,
-			"neededEquipments": ["PL"],
+			"neededEquipments": [
+				"PL"
+			],
 			"objects": [
 				{
 					"start": "BFP",
@@ -13401,7 +13668,10 @@
 					"start": "EEM",
 					"end": "XNAH",
 					"length": 25,
-					"neededEquipments": ["DE","NL"]
+					"neededEquipments": [
+						"DE",
+						"NL"
+					]
 				},
 				{
 					"start": "XNAH",
@@ -15541,7 +15811,10 @@
 					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.2,
-					"neededEquipments": ["DE", "AT"]
+					"neededEquipments": [
+						"DE",
+						"AT"
+					]
 				}
 			]
 		},
@@ -16036,7 +16309,10 @@
 					"length": 1,
 					"twistingFactor": 0.2,
 					"maxSpeed": 50,
-					"neededEquipments": ["DE","CH"]
+					"neededEquipments": [
+						"DE",
+						"CH"
+					]
 				},
 				{
 					"start": "XSKL",
@@ -16992,7 +17268,10 @@
 					"length": 11,
 					"maxSpeed": 110,
 					"twistingFactor": 0.2,
-					"neededEquipments": ["DE","AT"]
+					"neededEquipments": [
+						"DE",
+						"AT"
+					]
 				},
 				{
 					"start": "XAWR",
@@ -18766,7 +19045,10 @@
 					"length": 8,
 					"maxSpeed": 100,
 					"twistingFactor": 0.18,
-					"neededEquipments": ["DE","DK"]
+					"neededEquipments": [
+						"DE",
+						"DK"
+					]
 				},
 				{
 					"start": "XDPA",
@@ -19136,85 +19418,99 @@
 					"maxSpeed": 200,
 					"twistingFactor": 0.25
 				},
-				{	"start": "XVH",
+				{
+					"start": "XVH",
 					"end": "🇸🇪MR",
 					"length": 5,
 					"maxSpeed": 90,
 					"twistingFactor": 0.22
 				},
-				{	"start": "🇸🇪MR",
+				{
+					"start": "🇸🇪MR",
 					"end": "🇸🇪KT",
 					"length": 9,
 					"maxSpeed": 140,
 					"twistingFactor": 0.1
 				},
-				{	"start": "🇸🇪KT",
+				{
+					"start": "🇸🇪KT",
 					"end": "XVA",
 					"length": 14,
 					"maxSpeed": 180,
 					"twistingFactor": 0.2
 				},
-				{	"start": "XVA",
+				{
+					"start": "XVA",
 					"end": "🇸🇪BÅ",
 					"length": 6,
 					"maxSpeed": 200,
 					"twistingFactor": 0.15
 				},
-				{	"start": "🇸🇪BÅ",
+				{
+					"start": "🇸🇪BÅ",
 					"end": "🇸🇪FS",
 					"length": 8,
 					"maxSpeed": 200,
 					"twistingFactor": 0.1
 				},
-				{	"start": "🇸🇪FS",
+				{
+					"start": "🇸🇪FS",
 					"end": "XVBA",
 					"length": 11,
 					"maxSpeed": 200,
 					"twistingFactor": 0.18
 				},
-				{	"start": "XVBA",
+				{
+					"start": "XVBA",
 					"end": "XVLH",
 					"length": 10,
 					"maxSpeed": 200,
 					"twistingFactor": 0.12
 				},
-				{	"start": "XVLH",
+				{
+					"start": "XVLH",
 					"end": "XVHL",
 					"length": 23,
 					"maxSpeed": 200,
 					"twistingFactor": 0.2
 				},
-				{	"start": "XVHL",
+				{
+					"start": "XVHL",
 					"end": "XVFA",
 					"length": 43,
 					"maxSpeed": 200,
 					"twistingFactor": 0.37
 				},
-				{	"start": "XVFA",
+				{
+					"start": "XVFA",
 					"end": "XVVA",
 					"length": 29,
 					"maxSpeed": 200,
 					"twistingFactor": 0.25
 				},
-				{	"start": "XVVA",
+				{
+					"start": "XVVA",
 					"end": "🇸🇪ÅA",
 					"length": 31,
 					"maxSpeed": 200,
 					"twistingFactor": 0.21
 				},
-				{	"start": "🇸🇪ÅA",
+				{
+					"start": "🇸🇪ÅA",
 					"end": "XVKA",
 					"length": 17,
 					"maxSpeed": 200,
 					"twistingFactor": 0.4
 				},
-				{	"start": "XVKA",
+				{
+					"start": "XVKA",
 					"end": "XVLM",
 					"length": 10,
 					"maxSpeed": 180,
 					"twistingFactor": 0.2
 				},
-				{ 	"start": "XVLM",
+				{
+					"start": "XVLM",
 					"end": "XVGB",
 					"length": 18,
 					"maxSpeed": 170,
@@ -19660,7 +19956,6 @@
 					"maxSpeed": 80,
 					"twistingFactor": 0.15
 				}
-
 			]
 		},
 		{
@@ -20239,86 +20534,100 @@
 					"maxSpeed": 135,
 					"twistingFactor": 0.5
 				},
-				{	"start": "XVAD",
+				{
+					"start": "XVAD",
 					"end": "XVNS",
 					"length": 16,
 					"maxSpeed": 135,
 					"twistingFactor": 0.45
 				},
-				{	"start": "XVNS",
+				{
+					"start": "XVNS",
 					"end": "XVAS",
 					"length": 10,
 					"maxSpeed": 135,
 					"twistingFactor": 0.37
 				},
-				{	"start": "XVAS",
+				{
+					"start": "XVAS",
 					"end": "XVFY",
 					"length": 55,
 					"maxSpeed": 200,
 					"twistingFactor": 0.39
 				},
-				{	"start": "XVFY",
+				{
+					"start": "XVFY",
 					"end": "XVFK",
 					"length": 14,
 					"maxSpeed": 200,
 					"twistingFactor": 0.21
 				},
-				{	"start": "XVFK",
+				{
+					"start": "XVFK",
 					"end": "XVST",
 					"length": 15,
 					"maxSpeed": 180,
 					"twistingFactor": 0.37
 				},
-				{	"start": "XVST",
+				{
+					"start": "XVST",
 					"end": "XVLX",
 					"length": 100,
 					"maxSpeed": 200,
 					"twistingFactor": 0.18
 				},
-				{	"start": "XVLX",
+				{
+					"start": "XVLX",
 					"end": "XVHA",
 					"length": 30,
 					"maxSpeed": 200,
 					"twistingFactor": 0.15
 				},
-				{	"start": "XVHA",
+				{
+					"start": "XVHA",
 					"end": "XVVI",
 					"length": 45,
 					"maxSpeed": 200,
 					"twistingFactor": 0.32
 				},
-				{	"start": "XVVI",
+				{
+					"start": "XVVI",
 					"end": "XVK",
 					"length": 21,
 					"maxSpeed": 200,
 					"twistingFactor": 0.27
 				},
-				{	"start": "XVK",
+				{
+					"start": "XVK",
 					"end": "XVFN",
 					"length": 23,
 					"maxSpeed": 200,
 					"twistingFactor": 0.17
 				},
-				{	"start": "XVFN",
+				{
+					"start": "XVFN",
 					"end": "🇸🇪MÖ",
 					"length": 51,
 					"maxSpeed": 180,
 					"twistingFactor": 0.5
 				},
-				{	"start": "🇸🇪MÖ",
+				{
+					"start": "🇸🇪MÖ",
 					"end": "🇸🇪JN",
 					"length": 11,
 					"maxSpeed": 200,
 					"twistingFactor": 0.27
 				},
-				{	"start": "🇸🇪JN",
+				{
+					"start": "🇸🇪JN",
 					"end": "🇸🇪HD",
 					"length": 34,
 					"maxSpeed": 250,
 					"group": 2,
 					"twistingFactor": 0.3
 				},
-				{	"start": "🇸🇪HD",
+				{
+					"start": "🇸🇪HD",
 					"end": "XVS",
 					"length": 13,
 					"maxSpeed": 120,
