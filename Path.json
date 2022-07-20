@@ -5276,6 +5276,71 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"IT"
+			],
+			"objects": [
+				{
+					"start": "XIAQ",
+					"end": "XINL",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "XINL",
+					"end": "XIAS",
+					"length": 21,
+					"maxSpeed": 180,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "XIAS",
+					"end": "XIFZ",
+					"length": 14,
+					"maxSpeed": 180,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIFZ",
+					"end": "XIAST",
+					"length": 19,
+					"maxSpeed": 180,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XIAST",
+					"end": "XIVFC",
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XIVFC",
+					"end": "XICBS",
+					"length": 24,
+					"maxSpeed": 180,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XICBS",
+					"end": "XIMCI",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XIMCI",
+					"end": "XITU",
+					"length": 7,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Taunus-Eisenbahn",
 			"maxSpeed": 160,
@@ -14638,6 +14703,64 @@
 					"length": 4,
 					"twistingFactor": 0.1
 				}
+			]
+		},
+		{
+			"electrified": true,
+			"neededEquipments": [
+				"IT"
+			],
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.14,
+			"objects": [
+				{
+					"start": "XIMB",
+					"end": "XIR",
+					"length": 12,
+					"group": 0,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XIR",
+					"end": "XINV",
+					"name": "Milano-Torino",
+					"length": 43,
+					"neededEquipments": [
+						"IT",
+						"ETCS"
+					]
+				},
+				{
+					"start": "XINV",
+					"end": "XITUR",
+					"name": "Milano-Torino",
+					"length": 84,
+					"neededEquipments": [
+						"IT",
+						"ETCS"
+					]
+				},
+				{
+					"start": "XITUR",
+					"end": "XITU",
+					"length": 11,
+					"group": 0,
+					"maxSpeed": 155,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"maxSpeed": 150,
+			"twistingFactor": 0.1,
+			"start": "XIAS",
+			"end": "XITOR",
+			"length": 22,
+			"neededEquipments": [
+				"IT"
 			]
 		},
 		{
