@@ -1386,7 +1386,7 @@
 		{
 			"id": 94,
 			"group": 0,
-			"name": "Krokodil",
+			"name": "Deutsches Krokodil",
 			"shortcut": "E 94",
 			"speed": 90,
 			"weight": 118,
@@ -1396,7 +1396,22 @@
 			"reliability": 0.8,
 			"cost": 380000,
 			"operationCosts": 120,
-			"equipments": ["AT", "DE","CH","FR"]
+			"equipments": ["AT", "DE","CH"]
+		},
+		{
+			"id": 14100,
+			"group": 0,
+			"name": "Französisches Krokodil",
+			"shortcut": "CC 14100",
+			"speed": 60,
+			"weight": 128,
+			"force": 422,
+			"length": 18,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 380000,
+			"operationCosts": 120,
+			"equipments": ["FR","LU"]
 		},
 		{
 			"id": 111,
