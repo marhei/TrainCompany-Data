@@ -14710,6 +14710,9 @@
 			"neededEquipments": [
 				"IT"
 			],
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.14,
 			"objects": [
 				{
 					"start": "XIMB",
@@ -14721,12 +14724,15 @@
 				},
 				{
 					"start": "XIR",
-					"end": "XITUR",
-					"length": 127,
-					"group": 2,
+					"end": "XINV",
 					"name": "Milano-Torino",
-					"maxSpeed": 300,
-					"twistingFactor": 0.14
+					"length": 43
+				},
+				{
+					"start": "XINV",
+					"end": "XITUR",
+					"name": "Milano-Torino",
+					"length": 84
 				},
 				{
 					"start": "XITUR",
