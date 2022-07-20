@@ -189,6 +189,21 @@
 		},
 		{
 			"group": 1,
+			"name": "Berlin-Warszawa-Express von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Bringe den internationalen Zug schnell nach %2$s.",
+				"Verbinde Deutschland mit Polen für gute europäische Verbindungen."
+			],
+			"stations": [ "AA", "AH", "BL", "BHF", "BFP", "🇵🇱30601" ],
+			"pathSuggestion": [ "AA", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BHF", "BFP", "🇵🇱30601" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "OUIGO von %s nach %s",
 			"service": 1,
 			"descriptions": [
