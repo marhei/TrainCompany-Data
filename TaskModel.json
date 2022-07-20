@@ -166,7 +166,7 @@
 		},
 		{
 			"group": 1,
-			"name": "Alleo-ICE von %s nach %s",
+			"name": "Alleo-ICE/TGV von %s nach %s",
 			"service": 0,
 			"descriptions": [
 				"Bringe den internationalen Zug schnell nach %2$s.",
@@ -180,6 +180,10 @@
 				{
 					"stations": [ "FF", "RM", "RK", "XFSTG", "XFPO" ],
 					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "🇫🇷BDC", "XFPS", "XFVAR", "XFPO" ]
+				},
+				{
+					"stations": [ "FF", "RM", "RK", "XFSTG", "XFMV", "XFBMT", "XFB", "XFCS", "XFLPD", "XFAVV", "XFAX", "XFM" ],
+					"pathSuggestion": [ "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFMV", "XFBMT", "XFB", "🇫🇷GLS", "XFD",  "XFCS", "XFMAL", "XFSRI", "XFLPD", "🇫🇷GRNY", "XFVCV", "🇫🇷BLN", "XFAVV", "XFAX", "XFM"  ]
 				}
 			],
 			"neededCapacity": [
@@ -225,7 +229,7 @@
 					"pathSuggestion": [ "XFPO", "XFVAR", "XFPS", "XFMZV", "XFRM", "🇫🇷BDC", "XFVH", "XFSTG" ]
 				},
 				{
-					"pathSuggestion": [ "XFLIE", "XFHP", "🇫🇷VEMARS", "🇫🇷CDG", "XFVAR", "XFMVC", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFSRI", "🇫🇷SXA", "🇫🇷GRNY", "XFAVV", "XFAX", "XFM" ],
+					"pathSuggestion": [ "XFLIE", "XFHP", "🇫🇷VEMARS", "🇫🇷CDG", "XFVAR", "XFMVC", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFSRI", "🇫🇷SXA", "🇫🇷GRNY", "🇫🇷BLN", "XFAVV", "XFAX", "XFM" ],
 					"stations": [ "XFLIE", "XFHP", "🇫🇷CDG", "XFMVC", "🇫🇷SXA", "XFAVV", "XFAX", "XFM" ]
 				}
 			],
@@ -481,15 +485,15 @@
 			"objects": [
 				{
 					"stations": [ "XBB", "XFLIE", "🇫🇷CDG", "XFMVC", "XFLPD", "XFAVV", "XFAX", "XFM" ],
-					"pathSuggestion": [ "XBB", "XFLIE", "🇫🇷VEMARS", "🇫🇷CDG", "XFVAR", "XFMVC", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFSRI", "XFLPD", "🇫🇷GRNY", "XFAVV", "XFAX", "XFM" ]
+					"pathSuggestion": [ "XBB", "XFLIE", "🇫🇷VEMARS", "🇫🇷CDG", "XFVAR", "XFMVC", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFSRI", "XFLPD", "🇫🇷GRNY", "🇫🇷BLN", "XFAVV", "XFAX", "XFM" ]
 				},
 				{
 					"stations": [ "XFN", "XFC", "XFMV", "XFBMT", "XFB", "XFD", "XFMAL", "XFLPD", "XFAVV", "XFAX", "XFM" ],
-					"pathSuggestion": [ "XFN", "XFFD", "XFPS", "🇫🇷BDC", "XFVH", "XFSTG", "XFC", "XFMV", "XFBMT", "XFB", "🇫🇷GLS", "XFD", "XFMAL", "XFSRI", "XFLPD", "🇫🇷GRNY", "XFAVV", "XFAX", "XFM" ]
+					"pathSuggestion": [ "XFN", "XFFD", "XFPS", "🇫🇷BDC", "XFVH", "XFSTG", "XFC", "XFMV", "XFBMT", "XFB", "🇫🇷GLS", "XFD", "XFMAL", "XFSRI", "XFLPD", "🇫🇷GRNY", "🇫🇷BLN", "XFAVV", "XFAX", "XFM" ]
 				},
 				{
 					"stations": [ "XFSTG", "XFLR", "XFMU", "XFCV", "XFMVC", "🇫🇷MPW" ],
-					"pathSuggestion": [ "XFSTG", "XFVH", "🇫🇷BDC", "XFLR", "XFPS", "XFMU", "XFCV", "XFVAR", "XFMVC", "🇫🇷MOIS", "🇫🇷MPW" ]
+					"pathSuggestion": [ "XFSTG", "XFVH", "🇫🇷BDC", "XFLR", "XFPS", "XFMU", "XFCV", "XFVAR", "XFMVC", "🇫🇷MOIS", "XFCQ", "🇫🇷MPW" ]
 				},
 				{
 					"pathSuggestion": [ "XBB", "XFLIE", "🇫🇷VEMARS", "🇫🇷CDG", "XFVAR", "XFCV", "XFMU", "XFPS", "XFLR", "🇫🇷BDC", "XFVH", "XFSTG" ],
