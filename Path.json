@@ -5378,8 +5378,13 @@
 				},
 				{
 					"start": "🇫🇷MOIS",
+					"end": "🇫🇷SIF",
+					"length": 101
+				},
+				{
+					"start": "🇫🇷SIF",
 					"end": "🇫🇷PAI",
-					"length": 146
+					"length": 45
 				},
 				{
 					"start": "🇫🇷PAI",
@@ -6417,7 +6422,10 @@
 					"start": "NFW",
 					"end": "🇨🇿5474805",
 					"length": 6,
-					"neededEquipments": ["DE","CZ"]
+					"neededEquipments": [
+						"DE",
+						"CZ"
+					]
 				},
 				{
 					"start": "🇨🇿5474805",
@@ -10139,7 +10147,9 @@
 			"maxSpeed": 160,
 			"group": 0,
 			"twistingFactor": 0.25,
-			"neededEquipments": ["PL"],
+			"neededEquipments": [
+				"PL"
+			],
 			"objects": [
 				{
 					"start": "BFP",
@@ -13401,7 +13411,10 @@
 					"start": "EEM",
 					"end": "XNAH",
 					"length": 25,
-					"neededEquipments": ["DE","NL"]
+					"neededEquipments": [
+						"DE",
+						"NL"
+					]
 				},
 				{
 					"start": "XNAH",
@@ -15541,7 +15554,10 @@
 					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.2,
-					"neededEquipments": ["DE", "AT"]
+					"neededEquipments": [
+						"DE",
+						"AT"
+					]
 				}
 			]
 		},
@@ -16036,7 +16052,10 @@
 					"length": 1,
 					"twistingFactor": 0.2,
 					"maxSpeed": 50,
-					"neededEquipments": ["DE","CH"]
+					"neededEquipments": [
+						"DE",
+						"CH"
+					]
 				},
 				{
 					"start": "XSKL",
@@ -16992,7 +17011,10 @@
 					"length": 11,
 					"maxSpeed": 110,
 					"twistingFactor": 0.2,
-					"neededEquipments": ["DE","AT"]
+					"neededEquipments": [
+						"DE",
+						"AT"
+					]
 				},
 				{
 					"start": "XAWR",
@@ -18766,7 +18788,10 @@
 					"length": 8,
 					"maxSpeed": 100,
 					"twistingFactor": 0.18,
-					"neededEquipments": ["DE","DK"]
+					"neededEquipments": [
+						"DE",
+						"DK"
+					]
 				},
 				{
 					"start": "XDPA",
@@ -19136,85 +19161,99 @@
 					"maxSpeed": 200,
 					"twistingFactor": 0.25
 				},
-				{	"start": "XVH",
+				{
+					"start": "XVH",
 					"end": "🇸🇪MR",
 					"length": 5,
 					"maxSpeed": 90,
 					"twistingFactor": 0.22
 				},
-				{	"start": "🇸🇪MR",
+				{
+					"start": "🇸🇪MR",
 					"end": "🇸🇪KT",
 					"length": 9,
 					"maxSpeed": 140,
 					"twistingFactor": 0.1
 				},
-				{	"start": "🇸🇪KT",
+				{
+					"start": "🇸🇪KT",
 					"end": "XVA",
 					"length": 14,
 					"maxSpeed": 180,
 					"twistingFactor": 0.2
 				},
-				{	"start": "XVA",
+				{
+					"start": "XVA",
 					"end": "🇸🇪BÅ",
 					"length": 6,
 					"maxSpeed": 200,
 					"twistingFactor": 0.15
 				},
-				{	"start": "🇸🇪BÅ",
+				{
+					"start": "🇸🇪BÅ",
 					"end": "🇸🇪FS",
 					"length": 8,
 					"maxSpeed": 200,
 					"twistingFactor": 0.1
 				},
-				{	"start": "🇸🇪FS",
+				{
+					"start": "🇸🇪FS",
 					"end": "XVBA",
 					"length": 11,
 					"maxSpeed": 200,
 					"twistingFactor": 0.18
 				},
-				{	"start": "XVBA",
+				{
+					"start": "XVBA",
 					"end": "XVLH",
 					"length": 10,
 					"maxSpeed": 200,
 					"twistingFactor": 0.12
 				},
-				{	"start": "XVLH",
+				{
+					"start": "XVLH",
 					"end": "XVHL",
 					"length": 23,
 					"maxSpeed": 200,
 					"twistingFactor": 0.2
 				},
-				{	"start": "XVHL",
+				{
+					"start": "XVHL",
 					"end": "XVFA",
 					"length": 43,
 					"maxSpeed": 200,
 					"twistingFactor": 0.37
 				},
-				{	"start": "XVFA",
+				{
+					"start": "XVFA",
 					"end": "XVVA",
 					"length": 29,
 					"maxSpeed": 200,
 					"twistingFactor": 0.25
 				},
-				{	"start": "XVVA",
+				{
+					"start": "XVVA",
 					"end": "🇸🇪ÅA",
 					"length": 31,
 					"maxSpeed": 200,
 					"twistingFactor": 0.21
 				},
-				{	"start": "🇸🇪ÅA",
+				{
+					"start": "🇸🇪ÅA",
 					"end": "XVKA",
 					"length": 17,
 					"maxSpeed": 200,
 					"twistingFactor": 0.4
 				},
-				{	"start": "XVKA",
+				{
+					"start": "XVKA",
 					"end": "XVLM",
 					"length": 10,
 					"maxSpeed": 180,
 					"twistingFactor": 0.2
 				},
-				{ 	"start": "XVLM",
+				{
+					"start": "XVLM",
 					"end": "XVGB",
 					"length": 18,
 					"maxSpeed": 170,
@@ -19660,7 +19699,6 @@
 					"maxSpeed": 80,
 					"twistingFactor": 0.15
 				}
-
 			]
 		},
 		{
@@ -19765,6 +19803,81 @@
 					"length": 5,
 					"maxSpeed": 120,
 					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "Paris-Marseille",
+			"maxSpeed": 160,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFCQ",
+					"end": "XFMEL",
+					"length": 18,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XFMEL",
+					"end": "XFMOR",
+					"length": 22,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "XFMOR",
+					"end": "XFMTU",
+					"length": 12,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XFMTU",
+					"end": "🇫🇷CSY",
+					"length": 15,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷CSY",
+					"end": "🇫🇷SES",
+					"length": 18,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷SES",
+					"end": "🇫🇷SJX",
+					"length": 22
+				},
+				{
+					"start": "🇫🇷SJX",
+					"end": "XFLAR",
+					"length": 20,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "XFLAR",
+					"end": "🇫🇷SIF",
+					"length": 17,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇫🇷SIF",
+					"end": "🇫🇷TNN",
+					"length": 24,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷TNN",
+					"end": "XFNUR",
+					"length": 28
+				},
+				{
+					"start": "XFNUR",
+					"end": "🇫🇷PAI",
+					"length": 11
 				}
 			]
 		},
@@ -20239,86 +20352,100 @@
 					"maxSpeed": 135,
 					"twistingFactor": 0.5
 				},
-				{	"start": "XVAD",
+				{
+					"start": "XVAD",
 					"end": "XVNS",
 					"length": 16,
 					"maxSpeed": 135,
 					"twistingFactor": 0.45
 				},
-				{	"start": "XVNS",
+				{
+					"start": "XVNS",
 					"end": "XVAS",
 					"length": 10,
 					"maxSpeed": 135,
 					"twistingFactor": 0.37
 				},
-				{	"start": "XVAS",
+				{
+					"start": "XVAS",
 					"end": "XVFY",
 					"length": 55,
 					"maxSpeed": 200,
 					"twistingFactor": 0.39
 				},
-				{	"start": "XVFY",
+				{
+					"start": "XVFY",
 					"end": "XVFK",
 					"length": 14,
 					"maxSpeed": 200,
 					"twistingFactor": 0.21
 				},
-				{	"start": "XVFK",
+				{
+					"start": "XVFK",
 					"end": "XVST",
 					"length": 15,
 					"maxSpeed": 180,
 					"twistingFactor": 0.37
 				},
-				{	"start": "XVST",
+				{
+					"start": "XVST",
 					"end": "XVLX",
 					"length": 100,
 					"maxSpeed": 200,
 					"twistingFactor": 0.18
 				},
-				{	"start": "XVLX",
+				{
+					"start": "XVLX",
 					"end": "XVHA",
 					"length": 30,
 					"maxSpeed": 200,
 					"twistingFactor": 0.15
 				},
-				{	"start": "XVHA",
+				{
+					"start": "XVHA",
 					"end": "XVVI",
 					"length": 45,
 					"maxSpeed": 200,
 					"twistingFactor": 0.32
 				},
-				{	"start": "XVVI",
+				{
+					"start": "XVVI",
 					"end": "XVK",
 					"length": 21,
 					"maxSpeed": 200,
 					"twistingFactor": 0.27
 				},
-				{	"start": "XVK",
+				{
+					"start": "XVK",
 					"end": "XVFN",
 					"length": 23,
 					"maxSpeed": 200,
 					"twistingFactor": 0.17
 				},
-				{	"start": "XVFN",
+				{
+					"start": "XVFN",
 					"end": "🇸🇪MÖ",
 					"length": 51,
 					"maxSpeed": 180,
 					"twistingFactor": 0.5
 				},
-				{	"start": "🇸🇪MÖ",
+				{
+					"start": "🇸🇪MÖ",
 					"end": "🇸🇪JN",
 					"length": 11,
 					"maxSpeed": 200,
 					"twistingFactor": 0.27
 				},
-				{	"start": "🇸🇪JN",
+				{
+					"start": "🇸🇪JN",
 					"end": "🇸🇪HD",
 					"length": 34,
 					"maxSpeed": 250,
 					"group": 2,
 					"twistingFactor": 0.3
 				},
-				{	"start": "🇸🇪HD",
+				{
+					"start": "🇸🇪HD",
 					"end": "XVS",
 					"length": 13,
 					"maxSpeed": 120,
