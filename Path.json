@@ -18974,6 +18974,148 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 150,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.27,
+			"objects": [
+				{
+					"start": "XFTU",
+					"start_long": "Toul",
+					"end": "XFLE",
+					"end_long": "Lérouville",
+					"length": 30,
+					"maxSpeed": 140
+				},
+				{
+					"start": "XFLE",
+					"start_long": "Lérouville",
+					"end": "XFNT",
+					"end_long": "Nançois-Tronville",
+					"length": 24,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XFNT",
+					"start_long": "Nançois-Tronville",
+					"end": "XFBD",
+					"end_long": "Bar-le-Duc",
+					"length": 11,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFBD",
+					"start_long": "Bar-le-Duc",
+					"end": "XFREV",
+					"end_long": "Revigny",
+					"length": 15,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFREV",
+					"start_long": "Revigny",
+					"end": "XFBLH",
+					"end_long": "Blesme-Haussignemont",
+					"length": 21,
+					"maxSpeed": 160,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XFBLH",
+					"start_long": "Blesme-Haussignemont",
+					"end": "XFVF",
+					"end_long": "Vitry-le-François",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "XFVF",
+					"start_long": "Vitry-le-François",
+					"end": "XFVV",
+					"end_long": "Vitry-la-Ville",
+					"length": 17,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XFVV",
+					"start_long": "Vitry-la-Ville",
+					"end": "XFCM",
+					"end_long": "Châlons-en-Champagne",
+					"length": 15,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XFCM",
+					"start_long": "Châlons-en-Champagne",
+					"end": "🇫🇷OIR",
+					"end_long": "Oiry",
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷OIR",
+					"start_long": "Oiry",
+					"end": "XFE",
+					"end_long": "Epernay",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XFE",
+					"start_long": "Epernay",
+					"end": "XFDOR",
+					"end_long": "Dormans",
+					"length": 25,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XFDOR",
+					"start_long": "Dormans",
+					"end": "XFCT",
+					"end_long": "Château-Thierry",
+					"length": 22,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "XFCT",
+					"start_long": "Château-Thierry",
+					"end": "🇫🇷NAA",
+					"end_long": "Nogent-l'Artaud-Charly",
+					"length": 10
+				},
+				{
+					"start": "🇫🇷NAA",
+					"start_long": "Nogent-l'Artaud-Charly",
+					"end": "XFLFJ",
+					"end_long": "La Ferté-sous-Jouarre",
+					"length": 18,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XFLFJ",
+					"start_long": "La Ferté-sous-Jouarre",
+					"end": "XFMEA",
+					"end_long": "Meaux",
+					"length": 21
+				},
+				{
+					"start": "XFMEA",
+					"start_long": "Meaux",
+					"end": "XFVAR",
+					"end_long": "Vaires-Torcy",
+					"length": 22,
+					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"neededEquipments": [
 				"CH"
 			],
