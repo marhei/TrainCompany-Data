@@ -9214,30 +9214,61 @@
 						"ETCS"
 					],
 					"maxSpeed": 350
-				},
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"neededEquipments": [
+				"ES",
+				"ETCS"
+			],
+			"twistingFactor": 0.2,
+			"name": "Madrid-Barcelona",
+			"maxSpeed": 300,
+			"objects": [
 				{
 					"start": "XEFI",
 					"end": "XEG",
-					"name": "Madrid-Barcelona",
-					"group": 2,
-					"length": 35,
-					"neededEquipments": [
-						"ES",
-						"ETCS"
-					],
-					"maxSpeed": 290
+					"maxSpeed": 290,
+					"length": 35
 				},
 				{
 					"start": "XEG",
 					"end": "XEB",
-					"name": "Madrid-Barcelona",
-					"group": 2,
 					"length": 94,
-					"neededEquipments": [
-						"ES",
-						"ETCS"
-					],
 					"maxSpeed": 250
+				},
+				{
+					"start": "XEB",
+					"end": "XECT",
+					"length": 101
+				},
+				{
+					"start": "XECT",
+					"end": "7178400",
+					"length": 81
+				},
+				{
+					"start": "7178400",
+					"end": "XEZ",
+					"length": 141
+				},
+				{
+					"start": "XEZ",
+					"end": "7170600",
+					"length": 86
+				},
+				{
+					"start": "7170600",
+					"end": "7104007",
+					"length": 157
+				},
+				{
+					"start": "7104007",
+					"end": "XEMAT",
+					"length": 65
 				}
 			]
 		},
