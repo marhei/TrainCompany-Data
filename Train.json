@@ -235,6 +235,27 @@
 			]
 		},
 		{
+			"id": 83575,
+			"group": 2,
+			"name": "Alstom AGV",
+			"shortcut": "AGV",
+			"speed": 320,
+			"weight": 410,
+			"force": 300,
+			"length": 132,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 4500000,
+			"operationCosts": 63,
+			"equipments": [ "ETCS", "IT" ],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{ "name": "passengers", "value": 451 },
+				{ "name": "bistroseats", "value": 10 }
+			]
+		},
+		{
 			"id": 71100,
 			"group": 2,
 			"name": "AVE 100",
