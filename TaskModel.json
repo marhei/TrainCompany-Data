@@ -703,13 +703,29 @@
 					"pathSuggestion": [ "XFLPD", "🇫🇷GRNY", "XFVCV", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ]
 				},
 				{
-					"stations": [ "XFM", "XFAX", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ],
-					"pathSuggestion": [ "XFM", "XFAX", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ]
+					"stations": [ "XFM", "XFAX", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB", "XECT", "XEZ", "XEMAT" ]
 				},
 				{
 					"pathSuggestion": [ "XFPG", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFSRI", "🇫🇷GRNY", "XFVCV", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFSE", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ],
 					"stations": [ "XFPG", "XFVCV", "🇫🇷NPG", "🇫🇷MHV", "XFSE", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ]
 				}
+			]
+		},
+		{
+			"name": "AVE von %s nach %s",
+			"descriptions": [
+				"Fahre über die SFS von %s nach %s.",
+				"Verbinde Katalonien und Spanien zwischen %s und %s."
+			],
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "XEB", "XECT", "🇪🇸78400", "XEZ", "XEMAT" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
 			]
 		},
 		{
