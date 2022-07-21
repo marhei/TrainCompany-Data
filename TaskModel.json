@@ -3028,6 +3028,20 @@
 			"stopsEverywhere": true
 		},
 		{
+			"name": "Eurotunnel Le Shuttle nach %2$s",
+			"service": 10,
+			"descriptions": [
+				"Fahre die Fahrzeuge durch den Eurotunnel nach %2$s.",
+				"Verbinde das Vereinigte Königreich mit Europa.",
+				"Fahre Autos und Busse von %s nach %s."
+			],
+			"stations": [ "XFFE", "🇬🇧ETUK" ],
+			"neededCapacity": [
+				{ "name": "cars", "value": 125 }
+			],
+			"group": 0
+		},
+		{
 			"group": 0,
 			"service": 4,
 			"name": "Sonderzug zur Kieler Woche nach %2$s",
