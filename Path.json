@@ -12320,39 +12320,6 @@
 					"start": "XFCV",
 					"end": "XFVAR",
 					"length": 114
-				},
-				{
-					"start": "XFVAR",
-					"end": "XFCSG",
-					"group": 0,
-					"length": 4,
-					"name": "",
-					"maxSpeed": 220
-				},
-				{
-					"start": "XFCSG",
-					"end": "XFRVM",
-					"group": 0,
-					"length": 5,
-					"name": "",
-					"maxSpeed": 160
-				},
-				{
-					"start": "XFRVM",
-					"end": "XFNO",
-					"group": 0,
-					"length": 3,
-					"name": "",
-					"maxSpeed": 130
-				},
-				{
-					"start": "XFNO",
-					"end": "XFPO",
-					"length": 8,
-					"group": 0,
-					"name": "",
-					"maxSpeed": 120,
-					"twistingFactor": 0.2
 				}
 			]
 		},
@@ -18989,6 +18956,7 @@
 			"neededEquipments": [
 				"FR"
 			],
+			"name": "Ligne 1",
 			"twistingFactor": 0.27,
 			"objects": [
 				{
@@ -19089,6 +19057,31 @@
 					"end": "XFVAR",
 					"length": 22,
 					"maxSpeed": 160
+				},
+				{
+					"start": "XFVAR",
+					"end": "XFCSG",
+					"length": 4,
+					"maxSpeed": 220
+				},
+				{
+					"start": "XFCSG",
+					"end": "XFRVM",
+					"length": 5,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XFRVM",
+					"end": "XFNO",
+					"length": 3,
+					"maxSpeed": 130
+				},
+				{
+					"start": "XFNO",
+					"end": "XFPO",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
 				}
 			]
 		},
