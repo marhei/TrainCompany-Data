@@ -712,6 +712,23 @@
 			]
 		},
 		{
+			"name": "AVE von %s nach %s",
+			"descriptions": [
+				"Fahre über die SFS von %s nach %s.",
+				"Verbinde Katalonien und Spanien zwischen %s und %s."
+			],
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "XEB", "XECT", "7178400", "XEZ", "XEMAT" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
 			"name": "FR von %s nach %s",
 			"descriptions": [
 				"Bringe den Frecciarossa von %s nach %s.",
