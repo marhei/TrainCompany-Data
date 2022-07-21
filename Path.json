@@ -11204,6 +11204,39 @@
 			]
 		},
 		{
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "HBS",
+					"end": "HWOH",
+					"length": 11
+				},
+				{
+					"start": "HWOH",
+					"end": "HBSM",
+					"length": 12
+				},
+				{
+					"start": "HBSM",
+					"end": "HSCL",
+					"length": 5
+				},
+				{
+					"start": "HSCL",
+					"end": "HVBG",
+					"length": 11
+				},
+				{
+					"start": "HVBG",
+					"end": "HBHA",
+					"length": 8
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"objects": [
