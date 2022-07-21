@@ -12308,8 +12308,13 @@
 				},
 				{
 					"start": "XFMU",
+					"end": "XFSHT",
+					"length": 67
+				},
+				{
+					"start": "XFSHT",
 					"end": "XFCV",
-					"length": 99
+					"length": 32
 				},
 				{
 					"start": "XFCV",
@@ -18976,6 +18981,128 @@
 					"twistingFactor": 0.3
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 150,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.27,
+			"objects": [
+				{
+					"start": "XFTU",
+					"end": "XFLE",
+					"length": 30,
+					"maxSpeed": 140
+				},
+				{
+					"start": "XFLE",
+					"end": "XFNT",
+					"length": 24,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XFNT",
+					"end": "XFBD",
+					"length": 11,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFBD",
+					"end": "XFREV",
+					"length": 15,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFREV",
+					"end": "XFBLH",
+					"length": 21,
+					"maxSpeed": 160,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XFBLH",
+					"end": "XFVF",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "XFVF",
+					"end": "XFVV",
+					"length": 17,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XFVV",
+					"end": "XFCM",
+					"length": 15,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XFCM",
+					"end": "🇫🇷OIR",
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷OIR",
+					"end": "XFE",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XFE",
+					"end": "XFDOR",
+					"length": 25,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XFDOR",
+					"end": "XFCT",
+					"length": 22,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "XFCT",
+					"end": "🇫🇷NAA",
+					"length": 10
+				},
+				{
+					"start": "🇫🇷NAA",
+					"end": "XFLFJ",
+					"length": 18,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XFLFJ",
+					"end": "XFMEA",
+					"length": 21
+				},
+				{
+					"start": "XFMEA",
+					"end": "XFVAR",
+					"length": 22,
+					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"neededEquipments": [
+				"FR"
+			],
+			"start": "XFCM",
+			"end": "XFSHT",
+			"maxSpeed": 140,
+			"twistingFactor": 0.34,
+			"length": 22
 		},
 		{
 			"electrified": true,
