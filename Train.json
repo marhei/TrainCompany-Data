@@ -173,6 +173,27 @@
 			]
 		},
 		{
+			"id": 872024,
+			"group": 2,
+			"name": "Alstom Avelia Horizon",
+			"shortcut": "TGV M",
+			"speed": 350,
+			"weight": 360,
+			"force": 300,
+			"length": 200,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 6500000,
+			"operationCosts": 70,
+			"equipments": [ "ETCS", "FR", "TVM", "BE", "IT", "LU" ],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 150,
+			"capacity": [
+				{ "name": "passengers", "value": 611 },
+				{ "name": "bistroseats", "value": 12 }
+			]
+		},
+		{
 			"id": 4403,
 			"group": 2,
 			"name": "TGV POS",
