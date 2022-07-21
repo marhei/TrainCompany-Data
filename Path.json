@@ -12302,8 +12302,13 @@
 				},
 				{
 					"start": "XFMU",
+					"end": "XFSHT",
+					"length": 67
+				},
+				{
+					"start": "XFSHT",
 					"end": "XFCV",
-					"length": 99
+					"length": 32
 				},
 				{
 					"start": "XFCV",
@@ -19080,6 +19085,18 @@
 					"maxSpeed": 160
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"neededEquipments": [
+				"FR"
+			],
+			"start": "XFCM",
+			"end": "XFSHT",
+			"maxSpeed": 140,
+			"twistingFactor": 0.34,
+			"length": 22
 		},
 		{
 			"electrified": true,
