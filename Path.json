@@ -7163,15 +7163,27 @@
 			"objects": [
 				{
 					"start": "🇫🇷GLS",
-					"end": "XFB",
+					"end": "XFBTV",
 					"length": 68
 				},
 				{
-					"start": "XFB",
+					"start": "XFBTV",
 					"end": "XFBMT",
 					"length": 82
 				}
 			]
+		},
+		{
+			"start": "XFBTV",
+			"end": "XFB",
+			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 0,
+			"twistingFactor": 0.3,
+			"maxSpeed": 110,
+			"length": 15
 		},
 		{
 			"neededEquipments": [
@@ -9548,7 +9560,6 @@
 					"maxSpeed": 110,
 					"twistingFactor": 0.3,
 					"neededEquipments": [
-						"CH",
 						"FR"
 					]
 				}
