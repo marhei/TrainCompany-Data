@@ -2195,7 +2195,7 @@
 		{
 			"id": 8,
 			"group": 1,
-			"name": "Autotransportwagen",
+			"name": "Autoreisezugwagen",
 			"shortcut": "DDm",
 			"speed": 160,
 			"weight": 45,
@@ -2206,6 +2206,22 @@
 			"cost": 200000,
 			"capacity": [
 				{"name": "cars", "value": 12}
+			]
+		},
+		{
+			"id": 81,
+			"group": 1,
+			"name": "Autotransportwagen",
+			"shortcut": "Laes 559",
+			"speed": 100,
+			"weight": 28,
+			"force": 0,
+			"length": 27,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 160000,
+			"capacity": [
+				{"name": "cars", "value": 15}
 			]
 		},
 		{
@@ -2222,6 +2238,22 @@
 			"cost": 130000,
 			"capacity": [
 				{"name": "wood", "value": 60}
+			]
+		},
+		{
+			"id": 559,
+			"group": 1,
+			"name": "Eanos-x 059",
+			"speed": 100,
+			"weight": 24,
+			"force": 0,
+			"length": 16,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 150000,
+			"capacity": [
+				{"name": "wood", "value": 40},
+				{"name": "coal", "value": 30}
 			]
 		},
 		{
