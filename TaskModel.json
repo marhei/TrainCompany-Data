@@ -3850,6 +3850,27 @@
 				{ "name": "bistroseats", "value": 0 },
 				{ "name": "beds", "value": 0 }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Fernverkehrsleistung im Schweden",
+			"service": 0,
+			"descriptions": [
+				"Verbinde die Menschen von %s durch Schweden bis %s.",
+				"Bediene die PRestigeträchtige Verbindung zwischen %s und %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XVS", "XVSD", "XVNC", "XVL", "XVN", "XVAL", "XVHH", "XVLD",  "XVM"]
+				},
+				{
+					"stations": [ "BL", "FF", "XFSTG", "XLL", "XBB", "XNAC", "AH", "XDKH", "XVS", "XVM", "XDKHL", "XDKH" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
+			]
 		}
 	]
 }
