@@ -5292,6 +5292,54 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 100,
+			"twistingFactor": 0,
+			"objects": [
+				{
+					"start": "MBIH",
+					"end": "MEBH",
+					"length": 2
+				},
+				{
+					"start": "MEBH",
+					"end": "MMO",
+					"length": 4
+				},
+				{
+					"start": "MMO",
+					"end": "MMOS",
+					"length": 1
+				},
+				{
+					"start": "MMOS",
+					"end": "MLSH",
+					"length": 4
+				},
+				{
+					"start": "MLSH",
+					"end": "MLWG",
+					"length": 6
+				},
+				{
+					"start": "MLWG",
+					"end": "MSEG",
+					"length": 5
+				},
+				{
+					"start": "MSEG",
+					"end": "MWZH",
+					"length": 5
+				},
+				{
+					"start": "MWZH",
+					"end": "MFSN",
+					"length": 8
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -7322,6 +7370,71 @@
 					"twistingFactor": 0.3,
 					"electrified": false,
 					"group": 1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"maxSpeed": 90,
+			"twistingFactor": 0,
+			"objects": [
+				{
+					"start": "MFL",
+					"end": "MFLH",
+					"group": 0,
+					"length": 1
+				},
+				{
+					"start": "MFLH",
+					"end": "MAIN",
+					"group": 0,
+					"length": 2
+				},
+				{
+					"start": "MAIN",
+					"end": "MHAU",
+					"group": 0,
+					"length": 2
+				},
+				{
+					"start": "MHAU",
+					"end": "MPI",
+					"group": 0,
+					"length": 4
+				},
+				{
+					"start": "MPI",
+					"end": "MBRL",
+					"group": 0,
+					"length": 4
+				},
+				{
+					"start": "MBRL",
+					"end": "MBRK",
+					"group": 1,
+					"maxSpeed": 50,
+					"length": 1
+				},
+				{
+					"start": "MBRK",
+					"end": "MBGM",
+					"group": 1,
+					"maxSpeed": 50,
+					"length": 1
+				},
+				{
+					"start": "MBGM",
+					"end": "MBI",
+					"group": 1,
+					"maxSpeed": 50,
+					"length": 10
+				},
+				{
+					"start": "MBI",
+					"end": "MBG",
+					"group": 1,
+					"maxSpeed": 50,
+					"length": 5
 				}
 			]
 		},
@@ -9385,6 +9498,55 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.1,
+			"name": "Ammerseebahn",
+			"objects": [
+				{
+					"start": "MGE",
+					"end": "MOTN",
+					"length": 1
+				},
+				{
+					"start": "MOTN",
+					"end": "MSDF",
+					"length": 6
+				},
+				{
+					"start": "MSDF",
+					"end": "MUTG",
+					"length": 3
+				},
+				{
+					"start": "MUTG",
+					"end": "MRDU",
+					"length": 4
+				},
+				{
+					"start": "MRDU",
+					"end": "MSAB",
+					"length": 2
+				},
+				{
+					"start": "MSAB",
+					"end": "MDIN",
+					"length": 1
+				},
+				{
+					"start": "MDIN",
+					"end": "MRAG",
+					"length": 4
+				},
+				{
+					"start": "MRAG",
+					"end": "MWH",
+					"length": 8
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 50,
@@ -9503,6 +9665,39 @@
 					"start": "APSD",
 					"end": "APO",
 					"length": 2
+				}
+			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "MLA",
+					"end": "MWTI",
+					"length": 15
+				},
+				{
+					"start": "MWTI",
+					"end": "MDIF",
+					"length": 10
+				},
+				{
+					"start": "MDIF",
+					"end": "MLDI",
+					"length": 15
+				},
+				{
+					"start": "MLDI",
+					"end": "NWLD",
+					"length": 7
+				},
+				{
+					"start": "NWLD",
+					"end": "NPL",
+					"length": 10
 				}
 			]
 		},
@@ -11566,6 +11761,15 @@
 					"length": 24
 				}
 			]
+		},
+		{
+			"start": "MKFG",
+			"end": "MLL",
+			"electrified": false,
+			"group": 1,
+			"length": 4,
+			"maxSpeed": 100,
+			"twistingFactor": 0
 		},
 		{
 			"group": 0,
@@ -17996,6 +18200,15 @@
 			]
 		},
 		{
+			"start": "MBWH",
+			"end": "MTHB",
+			"electrified": false,
+			"group": 1,
+			"length": 5,
+			"maxSpeed": 100,
+			"twistingFactor": 0
+		},
+		{
 			"electrified": true,
 			"group": 2,
 			"name": "LGV Nord",
@@ -18468,6 +18681,44 @@
 					"length": 16,
 					"maxSpeed": 140,
 					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 110,
+			"twistingFactor": 0,
+			"objects": [
+				{
+					"start": "MIMS",
+					"end": "MBLH",
+					"length": 4
+				},
+				{
+					"start": "MBLH",
+					"end": "MSF",
+					"length": 3
+				},
+				{
+					"start": "MSF",
+					"end": "MATS",
+					"length": 3
+				},
+				{
+					"start": "MATS",
+					"end": "MFN",
+					"length": 3
+				},
+				{
+					"start": "MFN",
+					"end": "MLNW",
+					"length": 2
+				},
+				{
+					"start": "MLNW",
+					"end": "MOF",
+					"length": 3
 				}
 			]
 		},
