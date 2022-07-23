@@ -1958,6 +1958,39 @@
 		},
 		{
 			"group": 1,
+			"name": "Württembergische Allgäubahn von %s nach %s",
+			"service": 3,
+			"objects": [
+				{
+					"stations": [ "THT", "TAU" ],
+					"descriptions": [
+						"Bringe den RB 53 von %s nach %s.",
+						"Fahre den Bummelzug durch die schwäbische Provinz von %s nach %s.",
+						"Der RB 53 soll von %s nach %s BWegt werden."
+					]
+				},
+				{
+					"stations": [ "TAU", "TKG", "TLK" ],
+					"descriptions": [
+						"Fahre den RB 53 a auf der Württembergischen Allgäubahn von %s nach %s.",
+						"Fahre einen Bummelzug durch die schwäbische Provinz von %s nach %s."
+					]
+				},
+				{
+					"stations": [ "TAU", "TKG", "TWW" ],
+					"descriptions": [
+						"Fahre den RB 53 b auf der Württembergischen Allgäubahn von %s nach %s.",
+						"Der RB 53 bsoll von %s nach %s BWegt werden."
+					]
+				}
+			],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "HLB von %s nach %s",
 			"service": 2,
 			"descriptions": [
