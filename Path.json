@@ -5294,7 +5294,7 @@
 		{
 			"electrified": false,
 			"group": 1,
-			"maxSpeed": 100,
+			"maxSpeed": 80,
 			"twistingFactor": 0,
 			"objects": [
 				{
@@ -5310,7 +5310,8 @@
 				{
 					"start": "MMO",
 					"end": "MMOS",
-					"length": 1
+					"length": 1,
+					"maxSpeed": 60
 				},
 				{
 					"start": "MMOS",
@@ -11768,7 +11769,7 @@
 			"electrified": false,
 			"group": 1,
 			"length": 4,
-			"maxSpeed": 100,
+			"maxSpeed": 80,
 			"twistingFactor": 0
 		},
 		{
@@ -18336,7 +18337,7 @@
 			"electrified": false,
 			"group": 1,
 			"length": 5,
-			"maxSpeed": 100,
+			"maxSpeed": 80,
 			"twistingFactor": 0
 		},
 		{
@@ -18817,7 +18818,7 @@
 		{
 			"electrified": false,
 			"group": 1,
-			"maxSpeed": 110,
+			"maxSpeed": 80,
 			"twistingFactor": 0,
 			"objects": [
 				{
@@ -18843,11 +18844,13 @@
 				{
 					"start": "MFN",
 					"end": "MLNW",
-					"length": 2
+					"length": 2,
+					"maxSpeed": 60
 				},
 				{
 					"start": "MLNW",
 					"end": "MOF",
+					"maxSpeed": 70,
 					"length": 3
 				}
 			]
