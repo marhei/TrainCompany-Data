@@ -1111,6 +1111,18 @@
 				{ "name": "passengers", "value": 0 }
 			]
 		},
+        {
+            "group": 1,
+            "name": "ÖBB IC von %s nach %s",
+            "service": 1,
+            "descriptions": [
+                "Fahre den IC Salzkammergut der ÖBB von %s nach %s."
+            ],
+            "stations": [ "XAWW", "XAP", "XAL", "XAAT", "🇦🇹Gz", "🇦🇹En H1", "XAIS", "🇦🇹Goi", "🇦🇹Stg", "🇦🇹Oa H1", "🇦🇹Oa", "XABA", "🇦🇹Kai", "🇦🇹Bam H1", "🇦🇹Bam", "🇦🇹Ku", "XASI" ],
+            "neededCapacity": [
+                { "name": "passengers", "value": 0 }
+            ]
+        },
 		{
 			"group": 1,
 			"name": "REX von %s nach %s",
@@ -1124,7 +1136,10 @@
 				},
 				{
 					"stations": [ "XASB", "XASF", "XAAT", "XAWE", "XAL" ]
-				}
+				},
+                {
+                    "stations": [ "XAL", "XAWE", "XAAT", "XASI"]
+                }
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -1400,24 +1415,24 @@
 				{ "name": "passengers", "value": 0 }
 			]
 		},
-		{
-			"group": 1,
-			"name": "Railjet von %s nach %s",
-			"service": 1,
-			"descriptions": [
-				"Fahre eine WESTbahn von %s nach %s"
-			],
-			"objects": [
-				{
-					"stations": [ "XAWW", "XAP", "XAL", "XASB", "MRO", "MH" ],
-					"pathSuggestion": [ "XAWW", "XAP", "XAL", "XAWE", "XAAT", "XASF", "XASB", "MFL", "MTS", "MRO", "MGB", "MH" ]
-				}
-			],
-			"stopsEverywhere": false,
-			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
-			]
-		},
+        {
+            "group": 1,
+            "name": "Westbahn von %s nach %s",
+            "service": 1,
+            "descriptions": [
+                "Fahre eine WESTbahn von %s nach %s"
+            ],
+            "objects": [
+                {
+                    "stations": [ "MM", "MRO", "XASB", "XAVB", "XAAT", "XAWE", "XAL", "XAAS", "XAP", "XAWW"],
+                    "pathSuggestion": [ "MM", "MGB", "MRO", "MTS", "MFL", "XASB", "XASF", "XAVB", "XAAT", "XAWE", "XAL", "XAAS", "XAP", "XAAW" ]
+                }
+            ],
+            "stopsEverywhere": false,
+            "neededCapacity": [
+                { "name": "passengers", "value": 0 }
+            ]
+        },
 		{
 			"group": 1,
 			"name": "Südostbayernbahn von %s nach %s",
