@@ -14159,6 +14159,137 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 150,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "XFCZ",
+					"end": "XFAI",
+					"length": 22,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFAI",
+					"end": "XFCY",
+					"length": 14,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 130
+				},
+				{
+					"start": "XFCY",
+					"end": "XFMOM",
+					"length": 13,
+					"neededEquipments": [
+						"FR"
+					],
+					"twistingFactor": 0.2,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XFMOM",
+					"end": "XFPY",
+					"length": 11,
+					"neededEquipments": [
+						"FR"
+					],
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XFPY",
+					"end": "XFEI",
+					"length": 23,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFEI",
+					"end": "XFJMA",
+					"length": 23,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 130,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XFJMA",
+					"end": "XFSMV",
+					"length": 12,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 115,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XFSMV",
+					"end": "XFMOD",
+					"length": 15,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 95,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "XFMOD",
+					"end": "🇮🇹00202",
+					"length": 19,
+					"neededEquipments": [
+						"IT",
+						"FR"
+					],
+					"twistingFactor": 0.3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "🇮🇹00202",
+					"end": "🇮🇹00205",
+					"length": 17,
+					"neededEquipments": [
+						"IT"
+					],
+					"maxSpeed": 130,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇮🇹00205",
+					"end": "🇮🇹00208",
+					"length": 23,
+					"neededEquipments": [
+						"IT"
+					],
+					"maxSpeed": 110
+				},
+				{
+					"start": "🇮🇹00208",
+					"end": "🇮🇹00214",
+					"length": 21,
+					"neededEquipments": [
+						"IT"
+					],
+					"twistingFactor": 0.14,
+					"maxSpeed": 155
+				},
+				{
+					"start": "🇮🇹00214",
+					"end": "XITU",
+					"length": 24,
+					"neededEquipments": [
+						"IT"
+					],
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"maxSpeed": 120,
 			"twistingFactor": 0.2,
 			"objects": [
