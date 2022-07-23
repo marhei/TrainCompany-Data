@@ -1991,6 +1991,21 @@
 		},
 		{
 			"group": 1,
+			"name": "Zollernalbbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den RB 66 auf der Zollernalbbahn von %s nach %s.",
+				"Fahre den Bummelzug durch die schwäbische Provinz von %s nach %s.",
+				"Manch ein Tourist will die Burg Hohenzollern besuchen."
+			],
+			"stations": [ "TSIG", "TAE", "TBGG", "THCH", "TMS", "TT" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "IRE 6 a %s nach %s",
 			"service": 2,
 			"descriptions": [
