@@ -1991,6 +1991,20 @@
 		},
 		{
 			"group": 1,
+			"name": "IRE 6 a %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Der IRE 6 a muß von %s nach %s.",
+				"Fahre durchs Schwabenland von %s nach %s."
+			],
+			"stations": [ "TAU", "THT", "TMG", "TSIG", "TAE", "TBGG", "THCH", "TMS", "TT", "TRE", "TS" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "HLB von %s nach %s",
 			"service": 2,
 			"descriptions": [
