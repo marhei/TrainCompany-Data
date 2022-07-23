@@ -15475,8 +15475,15 @@
 				},
 				{
 					"start": "TMG",
+					"end": "THT",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "THT",
 					"end": "TRI",
-					"length": 17,
+					"length": 11,
 					"maxSpeed": 160,
 					"twistingFactor": 0.1
 				},
@@ -18108,6 +18115,78 @@
 					"length": 4,
 					"maxSpeed": 160,
 					"twistingFactor": 0.25
+				}
+			]
+		},
+        {
+			"electrified": false,
+			"group": 0,
+			"name": "Württembergische Allgäubahn",
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "TKG",
+					"end": "TWO",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TWO",
+					"end": "TATN",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TATN",
+					"end": "TROS",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "TROS",
+					"end": "TBWA",
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "TBWA",
+					"end": "TAU",
+					"length": 9,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "TAU",
+					"end": "TAT",
+					"length": 9,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TAT",
+					"end": "TSL",
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TSL",
+					"end": "THTO",
+					"length": 7,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "THTO",
+					"end": "THT",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
 				}
 			]
 		},
