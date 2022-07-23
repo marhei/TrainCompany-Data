@@ -1703,6 +1703,137 @@
 		},
 		{
 			"group": 1,
+			"name": "RE von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die Regionalbahn zwischen %s und %s."
+			],
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "MH", "MGE", "MKFG", "MBU", "MKFB", "MBIH", "MGNZ", "MKP"]
+				},
+				{
+					"stations": [ "MH", "MGE", "MKFG", "MBU", "MKFB", "MKP", "MIMS", "MOSF", "MRTA", "MHMK", "MHGZ", "MLIR"],
+					"pathSuggestion": [ "MH", "MGE", "MKFG", "MBU", "MKFB", "MBIH", "MGNZ", "MKP", "MIMS", "MOSF", "MRTA", "MHMK", "MHGZ", "MLIR" ]
+				},
+				{
+					"stations": [ "MH", "MGE", "MKFG", "MBU", "MKFB", "MKP", "MIMS", "MBLH", "MSF", "MATS", "MFN", "MLNW", "MOF"],
+					"pathSuggestion": [ "MH", "MGE", "MKFG", "MBU", "MKFB", "MBIH", "MGNZ", "MKP", "MIMS", "MBLH", "MSF", "MATS", "MFN", "MLNW", "MOF" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "ALEX (Allgäu) von %s nach %s",
+			"descriptions": [
+				"Fahre durch das Allgäu. Deine Fahrt verläuft zwischen %s und %s."
+			],
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "MH", "MKFG", "MBU", "MKP", "MIMS"],
+					"pathSuggestion": [ "MH", "MGE", "MKFG", "MBU", "MBIH", "MKP", "MIMS" ]
+				},
+				{
+					"stations": [ "MH", "MKFG", "MBU", "MKP", "MIMS", "MOF"],
+					"pathSuggestion": [ "MH", "MGE", "MKFG", "MBU", "MBIH", "MKP", "MIMS", "MOF"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "GoAhead Bayern von %s nach %s",
+			"descriptions": [
+				"Die BEG beauftragt dich die Strecke zwischen %s und %s zu fahren."
+			],
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "MH", "MGE", "MKFG", "MBU", "MTHB", "MRAM", "MMH", "MSTS", "MSHM", "MM" ],
+					"pathSuggestion": [ "MH", "MGE", "MKFG", "MBU", "MTHB", "MRAM", "MMH", "MSTS", "MSHM", "MM" ]
+				},
+				{
+					"stations": [ "MH", "MBU", "MTHB", "MMH", "MM", "TTA", "TAI", "TLK", "TKG", "TWW", "MHGZ", "MLIR" ],
+					"pathSuggestion": ["MH", "MGE", "MKFG", "MBU", "MTHB", "MRAM", "MMH", "MSTS", "MM", "TTA", "TAI", "TLK", "TKG", "TWW", "MHGZ", "MLIR"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "BRB Ostallgäu-Lechfeld von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die Regionalbahn zwischen %s und %s."
+			],
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "MH", "MGE", "MKFG", "MBU", "MKFB", "MBIH", "MEBH", "MMO", "MMOS", "MLSH", "MLWG", "MSEG", "MWZH", "MFSN"]
+				},
+				{
+					"stations": [ "MH", "MGE", "MKFG", "MBU", "MKFB", "MBIH", "MEBH", "MMO", "MLSH", "MLWG", "MSEG", "MWZH", "MFSN"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die Regionalbahn zwischen %s und %s."
+			],
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "MBWH", "MTHB"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "BRB Ostallgäu-Lechfeld von %s nach %s",
+			"descriptions": [
+				"Fahre zwischen %s und %s.",
+				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
+				"Fahre die Regionalbahn zwischen %s und %s."
+			],
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "MKFG", "MLL"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RE30 von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -2750,7 +2881,7 @@
 				{ "name": "passengers", "value": 0 }
 			],
 			"group": 1,
-			"pathSuggestion": [ "MH", "MBU", "MM", "MHGZ", "MLIR", "XAB", "XSSM", "XSRS", "XSSG", "XSWT", "XSZO", "XSZH" ]
+			"pathSuggestion": [ "MH", "MGE", "MKFG", "MBU", "MTHB", "MM", "MHGZ", "MLIR", "XAB", "XSSM", "XSRS", "XSSG", "XSWT", "XSZO", "XSZH" ]
 		},
 		{
 			"name": "Fugger-Express von %s nach %s",
