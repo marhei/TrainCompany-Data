@@ -3805,8 +3805,8 @@
 				"Bringe die Urlauber nach %2$s.",
 				"Fahre diesen Nachtzug problemlos bis nach %2$s"
 			],
-			"stations": [ "BHF", "BL", "AH", "XDOD", "XDNY", "XDKH", "XVM", "XVGB", "XVS" ],
-			"pathSuggestion": [ "BHF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDOD", "XDNY", "XDRI", "XDKH", "XVM", "XVGB", "XVS" ],
+			"stations": [ "BHF", "BL", "AH", "XDOD", "XDNY", "XDKH", "XVM",  "XVS" ],
+			"pathSuggestion": [ "BHF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDOD", "XDNY", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 },
@@ -3842,7 +3842,7 @@
 				},
 				{
 					"stations": [ "BL", "FF", "XFSTG", "XLL", "XBB", "XNAC", "AH", "XDKH", "XVS" ],
-					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFN", "XFFD", "XFPS", "XFMZV", "XLL", "SKZ", "STR", "KKO", "KB", "KKAS", "KK", "KDN", "KA", "XBB", "XNAC", "EDG", "EDO", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDRI", "XDKH", "XVS" ]
+					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFN", "XFFD", "XFPS", "XFMZV", "XLL", "SKZ", "STR", "KKO", "KB", "KKAS", "KK", "KDN", "KA", "XBB", "XNAC", "EDG", "EDO", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ]
 				}
 			],
 			"neededCapacity": [
@@ -3859,14 +3859,7 @@
 				"Verbinde die Menschen von %s durch Schweden bis %s.",
 				"Bediene die PRestigeträchtige Verbindung zwischen %s und %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XVS", "XVSD", "XVNC", "XVL", "XVN", "XVAL", "XVHH", "XVLD",  "XVM"]
-				},
-				{
-					"stations": [ "BL", "FF", "XFSTG", "XLL", "XBB", "XNAC", "AH", "XDKH", "XVS", "XVM", "XDKHL", "XDKH" ]
-				}
-			],
+			"stations": [ "XVS", "XVSD", "XVNC", "XVL", "XVN", "XVAL", "XVHH", "XVLD",  "XVM"],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
