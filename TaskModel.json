@@ -670,6 +670,20 @@
 			]
 		},
 		{
+			"name": "Intercités von %s nach %s",
+			"descriptions": [
+				"Fahre diese Querverbindung abseits von Paris.",
+				"Diese Linie ist für ihr bequemes Rollmaterial bekannt."
+			],
+			"stations": [ "XFM", "🇫🇷NPG", "🇫🇷MHV", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
+			"pathSuggestion": [ "XFM", "XFARL", "🇫🇷NPG", "🇫🇷MHV", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 1
+		},
+		{
 			"name": "RE 11 von %s nach %s",
 			"descriptions": [
 				"Bringe den Regionalexpress der Linie 11 von %s nach %s.",
@@ -902,8 +916,8 @@
 			],
 			"objects": [
 				{
-					"stations": [ "BL", "BSPD", "LS", "HH", "HO", "HR", "XNHL" ],
-					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HH", "HWUN", "HL", "HO", "HR", "XNHL" ]
+					"stations": [ "BL", "BSPD", "LS", "HH", "HO", "HR", "XNHL", "🇳🇱Aml", "🇳🇱Dv", "🇳🇱Amf", "🇳🇱Hvs", "XNAC" ],
+					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HH", "HWUN", "HL", "HO", "HR", "XNHL", "🇳🇱Aml", "🇳🇱Dv", "🇳🇱Amf", "🇳🇱Hvs", "XNAC" ]
 				}
 			],
 			"neededCapacity": [
@@ -1003,7 +1017,7 @@
 				},
 				{
 					"stations": [ "XSZH", "XSBE", "XSLA", "XSGE", "XFLPD", "XFAVV", "XFNB", "XFPE", "XEB" ],
-					"pathSuggestion": [ "XSZH", "XSKS", "XSOL", "XSZG", "XSLT", "XSBE", "🇨🇭PUI", "XSLA", "XSMG", "XSGE", "XFLPD", "XFVCV","🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR","🇫🇷BDR", "XFAVV", "XFNB", "XFPE", "XEB" ]
+					"pathSuggestion": [ "XSZH", "XSKS", "XSOL", "XSZG", "XSLT", "XSBE", "🇨🇭PUI", "XSLA", "XSMG", "XSGE", "XFLPD", "XFVCV","🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷NPG", "XFNB", "XFPE", "XEB" ]
 				}
 			],
 			"neededCapacity": [
@@ -1030,6 +1044,29 @@
 				{ "name": "beds", "value": 0 },
 				{ "name": "cars", "value": 62 }
 			]
+		},
+		{
+			"name": "Intercités de nuit von %s nach %s",
+			"descriptions": [
+				"Verbinde die französische Hauptstadt mit dem Mittelmeer.",
+				"Diese Nachtzüge sind eine gute Konkurenz zur TGV-Tagverbindung."
+			],
+			"objects": [
+				{
+					"stations": [ "XFPG", "XFD", "XFLPD", "XFVCV", "XFAVV", "XFM", "XFTO", "XFCA", "XFNC" ],
+					"pathSuggestion": [ "XFPG", "XFCQ", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "XFMAL", "XFLPD", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "XFARL", "XFM", "XFTO", "XFCA", "XFNC" ]
+				},
+				{
+					"stations": [ "XFPG", "XFD", "XFLPD", "XFVCV", "XFAVV", "XFNB", "XFPE" ],
+					"pathSuggestion": [ "XFPG", "XFCQ", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "XFMAL", "XFLPD", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷NPG", "XFNB", "XFPE" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "beds", "value": 0 }
+			],
+			"group": 1,
+			"service": 1
 		},
 		{
 			"group": 1,
@@ -3642,7 +3679,7 @@
 			"objects": [
 				{
 					"stations": [ "XEMAT", "XEB", "XFM", "XIMB", "XSZH", "XAND", "XAWE", "BL" ],
-					"pathSuggestion": [ "XEMAT", "XEB", "XFAVV", "XFMI", "XFM", "XIAQ", "XITOR", "XIMB", "XSBZ", "XSBC", "XSADF", "XSAG", "XSTW", "XSZH", "XSZO", "XSSG", "XSSM", "XSBU", "XAND", "XAFK", "XAI", "🇦🇹Fw Z2", "XAWL", "XASB", "XASF", "XAAT", "XAWL", "XASB", "XASF", "XAAT", "XAWE", "🇦🇹Neu H1", "XASH", "NPA", "NOT", "NRH", "NN", "NF", "NBA", "NED", "UE P", "LPLN", "LH", "LW", "BJUE", "BL" ]
+					"pathSuggestion": [ "XEMAT", "XEB", "XFNB", "🇫🇷NPG", "XFARL", "XFM", "XIAQ", "XITOR", "XIMB", "XSBZ", "XSBC", "XSADF", "XSAG", "XSTW", "XSZH", "XSZO", "XSSG", "XSSM", "XSBU", "XAND", "XAFK", "XAI", "🇦🇹Fw Z2", "XAWL", "XASB", "XASF", "XAAT", "XAWL", "XASB", "XASF", "XAAT", "XAWE", "🇦🇹Neu H1", "XASH", "NPA", "NOT", "NRH", "NN", "NF", "NBA", "NED", "UE P", "LPLN", "LH", "LW", "BJUE", "BL" ]
 				},
 				{
 					"stations": [ "BL", "FF", "XFSTG", "XLL", "XBB", "XNAC", "AH", "XDKH", "XVS" ],
