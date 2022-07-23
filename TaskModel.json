@@ -773,6 +773,20 @@
 			"pathSuggestion": [ "XFM", "🇫🇷AUB", "XFTO", "XFCNO", "XFSR", "XFCA", "XFAN", "XFNC", "XFMC", "XFME" ]
 		},
 		{
+			"name": "TER von %s nach %s",
+			"descriptions": [
+				"Bringe den TER von %s nach %s.",
+				"Fahre im Regionalzug durch die Bretagne von %s nach %s."
+			],
+			"stations": [ "XFR", "XFLAM", "XFSBC", "🇫🇷MXR", "🇫🇷LDI", "🇫🇷LDO", "XFBRT" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "XFR", "XFLAM", "XFSBC", "🇫🇷MXR", "🇫🇷LDI", "🇫🇷LDO", "XFBRT" ]
+		},
+		{
 			"group": 0,
 			"name": "Eröffnungs-ICE nach %2$s",
 			"service": 0,
@@ -1017,7 +1031,7 @@
 				},
 				{
 					"stations": [ "XSZH", "XSBE", "XSLA", "XSGE", "XFLPD", "XFAVV", "XFNB", "XFPE", "XEB" ],
-					"pathSuggestion": [ "XSZH", "XSKS", "XSOL", "XSZG", "XSLT", "XSBE", "🇨🇭PUI", "XSLA", "XSMG", "XSGE", "XFCZ", "XFLPD", "XFVCV","🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷NPG", "XFNB", "XFPE", "XEB" ]
+					"pathSuggestion": [ "XSZH", "XSKS", "XSOL", "XSZG", "XSLT", "XSBE", "🇨🇭PUI", "XSLA", "XSMG", "XSGE", "XFCZ", "XFLPD", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷NPG", "XFNB", "XFPE", "XEB" ]
 				}
 			],
 			"neededCapacity": [
@@ -1148,18 +1162,18 @@
 				{ "name": "passengers", "value": 0 }
 			]
 		},
-        {
-            "group": 1,
-            "name": "ÖBB IC von %s nach %s",
-            "service": 1,
-            "descriptions": [
-                "Fahre den IC Salzkammergut der ÖBB von %s nach %s."
-            ],
-            "stations": [ "XAWW", "XAP", "XAL", "XAAT", "🇦🇹Gz", "🇦🇹En H1", "XAIS", "🇦🇹Goi", "🇦🇹Stg", "🇦🇹Oa H1", "🇦🇹Oa", "XABA", "🇦🇹Kai", "🇦🇹Bam H1", "🇦🇹Bam", "🇦🇹Ku", "XASI" ],
-            "neededCapacity": [
-                { "name": "passengers", "value": 0 }
-            ]
-        },
+		{
+			"group": 1,
+			"name": "ÖBB IC von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre den IC Salzkammergut der ÖBB von %s nach %s."
+			],
+			"stations": [ "XAWW", "XAP", "XAL", "XAAT", "🇦🇹Gz", "🇦🇹En H1", "XAIS", "🇦🇹Goi", "🇦🇹Stg", "🇦🇹Oa H1", "🇦🇹Oa", "XABA", "🇦🇹Kai", "🇦🇹Bam H1", "🇦🇹Bam", "🇦🇹Ku", "XASI" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
 		{
 			"group": 1,
 			"name": "REX von %s nach %s",
@@ -1174,9 +1188,9 @@
 				{
 					"stations": [ "XASB", "XASF", "XAAT", "XAWE", "XAL" ]
 				},
-                {
-                    "stations": [ "XAL", "XAWE", "XAAT", "XASI"]
-                }
+				{
+					"stations": [ "XAL", "XAWE", "XAAT", "XASI" ]
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -1452,24 +1466,24 @@
 				{ "name": "passengers", "value": 0 }
 			]
 		},
-        {
-            "group": 1,
-            "name": "Westbahn von %s nach %s",
-            "service": 1,
-            "descriptions": [
-                "Fahre eine WESTbahn von %s nach %s"
-            ],
-            "objects": [
-                {
-                    "stations": [ "MH", "MRO", "XASB", "XAVB", "XAAT", "XAWE", "XAL", "XAAS", "XAP", "XAWW"],
-                    "pathSuggestion": [ "MH", "MGB", "MRO", "MTS", "MFL", "XASB", "XASF", "XAVB", "XAAT", "XAWE", "XAL", "XAAS", "XAP", "XAWW" ]
-                }
-            ],
-            "stopsEverywhere": false,
-            "neededCapacity": [
-                { "name": "passengers", "value": 0 }
-            ]
-        },
+		{
+			"group": 1,
+			"name": "Westbahn von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre eine WESTbahn von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "MH", "MRO", "XASB", "XAVB", "XAAT", "XAWE", "XAL", "XAAS", "XAP", "XAWW" ],
+					"pathSuggestion": [ "MH", "MGB", "MRO", "MTS", "MFL", "XASB", "XASF", "XAVB", "XAAT", "XAWE", "XAL", "XAAS", "XAP", "XAWW" ]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
 		{
 			"group": 1,
 			"name": "Südostbayernbahn von %s nach %s",
@@ -3686,7 +3700,6 @@
 					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFN", "XFFD", "XFPS", "XFMZV", "XLL", "SKZ", "STR", "KKO", "KB", "KKAS", "KK", "KDN", "KA", "XBB", "XNAC", "EDG", "EDO", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDRI", "XDKH", "XVS" ]
 				}
 			],
-
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 },
