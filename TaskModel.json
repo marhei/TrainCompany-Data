@@ -759,6 +759,21 @@
 			"pathSuggestion": [ "XFM", "🇫🇷AUB", "XFTO", "XFCNO", "XFSR", "XFCA", "XFAN", "XFNC", "XFMC", "XFME" ]
 		},
 		{
+			"name": "IC von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercités von %s nach %s.",
+				"Bring die Fahrgäste im IC pünktlich nach %2$s.",
+				"Fahre den IC durch Frankreich nach %2$s."
+			],
+			"stations": [ "XFBJ", "XFMMD", "🇫🇷AGN", "XFMBN", "XFTM", "XFCN", "XFNB", "XFBZ", "XFSE", "🇫🇷MHV", "🇫🇷NPG", "XFARL", "XFM" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 1,
+			"pathSuggestion": [ "XFBJ", "XFMMD", "🇫🇷AGN", "XFMBN", "XFTM", "XFCN", "XFNB", "XFBZ", "XFSE", "🇫🇷MHV", "🇫🇷NPG", "XFAVV", "XFARL", "XFAVV", "XFM" ]
+		},
+		{
 			"group": 0,
 			"name": "Eröffnungs-ICE nach %2$s",
 			"service": 0,
@@ -1003,7 +1018,7 @@
 				},
 				{
 					"stations": [ "XSZH", "XSBE", "XSLA", "XSGE", "XFLPD", "XFAVV", "XFNB", "XFPE", "XEB" ],
-					"pathSuggestion": [ "XSZH", "XSKS", "XSOL", "XSZG", "XSLT", "XSBE", "🇨🇭PUI", "XSLA", "XSMG", "XSGE", "XFLPD", "XFVCV","🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR","🇫🇷BDR", "XFAVV", "XFNB", "XFPE", "XEB" ]
+					"pathSuggestion": [ "XSZH", "XSKS", "XSOL", "XSZG", "XSLT", "XSBE", "🇨🇭PUI", "XSLA", "XSMG", "XSGE", "XFLPD", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "XFNB", "XFPE", "XEB" ]
 				}
 			],
 			"neededCapacity": [
@@ -3634,7 +3649,6 @@
 					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFN", "XFFD", "XFPS", "XFMZV", "XLL", "SKZ", "STR", "KKO", "KB", "KKAS", "KK", "KDN", "KA", "XBB", "XNAC", "EDG", "EDO", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDRI", "XDKH", "XVS" ]
 				}
 			],
-
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 },
