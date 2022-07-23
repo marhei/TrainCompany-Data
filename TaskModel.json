@@ -1778,7 +1778,7 @@
 			"descriptions": [
 				"Fahre zwischen %s und %s.",
 				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
-				"Fahre die Regionalbahn zwischen %s und %s."
+				"Fahre die BRB Ostallgäu-Lechfeld zwischen %s und %s."
 			],
 			"service": 2,
 			"objects": [
@@ -1819,12 +1819,30 @@
 			"descriptions": [
 				"Fahre zwischen %s und %s.",
 				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
-				"Fahre die Regionalbahn zwischen %s und %s."
+				"Fahre die BRB Ostallgäu-Lechfeld zwischen %s und %s."
 			],
 			"service": 2,
 			"objects": [
 				{
 					"stations": [ "MKFG", "MLL"]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Donau-Isar-Express von %s nach %s",
+			"descriptions": [
+				"Verbinde die Donau mit der Isar. Deine Fahrt führt von %s nach %s."
+			],
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "MH", "MFR", "MMB", "MLA", "MWTI", "MDIF", "MLDI", "NWLD", "NPL", "MOSH", "NVI", "NPA"],
+					"pathSuggestion": ["MH", "MNF", "MPU", "MFR", "MMB", "MLA", "MWTI", "MDIF", "MLDI", "NWLD", "NPL", "MOSH", "NVI", "NPA"]
 				}
 			],
 			"stopsEverywhere": true,
