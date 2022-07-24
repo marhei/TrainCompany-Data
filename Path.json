@@ -1584,6 +1584,89 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 200,
+			"twistingFactor": 0.12,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFPO",
+					"end": "XFJU",
+					"maxSpeed": 120,
+					"twistingFactor": 0.2,
+					"length": 18
+				},
+				{
+					"start": "XFJU",
+					"end": "XFETP",
+					"length": 37,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFETP",
+					"end": "🇫🇷AGV",
+					"length": 18
+				},
+				{
+					"start": "🇫🇷AGV",
+					"end": "🇫🇷CGK",
+					"length": 20
+				},
+				{
+					"start": "🇫🇷CGK",
+					"end": "XFOL",
+					"length": 26
+				},
+				{
+					"start": "XFOL",
+					"end": "🇫🇷LBZ",
+					"length": 14
+				},
+				{
+					"start": "🇫🇷LBZ",
+					"end": "XFBGY",
+					"length": 13
+				},
+				{
+					"start": "XFBGY",
+					"end": "XFMER",
+					"length": 12
+				},
+				{
+					"start": "XFMER",
+					"end": "🇫🇷BLO",
+					"length": 19
+				},
+				{
+					"start": "🇫🇷BLO",
+					"end": "🇫🇷OZA",
+					"length": 15,
+					"maxSpeed": 170
+				},
+				{
+					"start": "🇫🇷OZA",
+					"end": "🇫🇷AMQ",
+					"length": 17
+				},
+				{
+					"start": "🇫🇷AMQ",
+					"end": "🇫🇷NTU",
+					"length": 13
+				},
+				{
+					"start": "🇫🇷NTU",
+					"end": "🇫🇷TO",
+					"length": 10,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"group": 1,
 			"name": "Voreifelbahn",
 			"twistingFactor": 0.1,
