@@ -15462,8 +15462,14 @@
 				},
 				{
 					"start": "TFD",
+					"end": "TIN",
+					"length": 23,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TIN",
 					"end": "TSIG",
-					"length": 28,
+					"length": 5,
 					"maxSpeed": 80
 				},
 				{
@@ -18187,6 +18193,176 @@
 					"length": 3,
 					"maxSpeed": 100,
 					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"name": "Zollernalbbahn",
+			"maxSpeed": 100,
+			"twistingFactor": 0.25,
+			"objects": [
+				{
+					"start": "TIN",
+					"end": "TSGZ",
+					"length": 9,
+					"maxSpeed": 70,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TSGZ",
+					"end": "TSTR",
+					"length": 7,
+					"maxSpeed": 70,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TSTR",
+					"end": "TAE",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TAE",
+					"end": "TAEW",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TAEW",
+					"end": "TALT",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TALT",
+					"end": "TALO",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "TALO",
+					"end": "TAL",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TAL",
+					"end": "TFR",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TFR",
+					"end": "TBGG",
+					"length": 2,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TBGG",
+					"end": "TBGS",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TBGS",
+					"end": "TBG",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TBG",
+					"end": "TENG",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TENG",
+					"end": "TBIS",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TBIS",
+					"end": "TZO",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "TZO",
+					"end": "THCH",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "THCH",
+					"end": "TBOD",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "TBOD",
+					"end": "TBSB",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "TBSB",
+					"end": "TMS",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TMS",
+					"end": "TNEH",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TNEH",
+					"end": "TDUS",
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TDUS",
+					"end": "TDU",
+					"length": 1,
+					"maxSpeed": 70,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TDU",
+					"end": "TTD",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "TTD",
+					"end": "TT",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.2
 				}
 			]
 		},
