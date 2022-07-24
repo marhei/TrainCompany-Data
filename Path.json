@@ -2596,7 +2596,7 @@
 				},
 				{
 					"start": "🇫🇷CDG",
-					"end": "🇫🇷VEMARS",
+					"end": "XFSVF",
 					"length": 5,
 					"maxSpeed": 230
 				}
@@ -18712,11 +18712,16 @@
 			"objects": [
 				{
 					"start": "XFPO",
-					"end": "🇫🇷VEMARS",
-					"length": 27
+					"end": "XFSVF",
+					"length": 27,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 200,
+					"group": 0
 				},
 				{
-					"start": "🇫🇷VEMARS",
+					"start": "XFSVF",
 					"end": "XFHP",
 					"length": 98
 				},
