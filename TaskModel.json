@@ -2188,6 +2188,68 @@
 		},
 		{
 			"group": 1,
+			"name": "Württembergische Allgäubahn von %s nach %s",
+			"service": 3,
+			"objects": [
+				{
+					"stations": [ "THT", "TAU" ],
+					"descriptions": [
+						"Bringe den RB 53 von %s nach %s.",
+						"Fahre den Bummelzug durch die schwäbische Provinz von %s nach %s.",
+						"Der RB 53 soll von %s nach %s BWegt werden."
+					]
+				},
+				{
+					"stations": [ "TAU", "TKG", "TLK" ],
+					"descriptions": [
+						"Fahre den RB 53 a auf der Württembergischen Allgäubahn von %s nach %s.",
+						"Fahre einen Bummelzug durch die schwäbische Provinz von %s nach %s."
+					]
+				},
+				{
+					"stations": [ "TAU", "TKG", "TWW" ],
+					"descriptions": [
+						"Fahre den RB 53 b auf der Württembergischen Allgäubahn von %s nach %s.",
+						"Der RB 53 bsoll von %s nach %s BWegt werden."
+					]
+				}
+			],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Zollernalbbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den RB 66 auf der Zollernalbbahn von %s nach %s.",
+				"Fahre den Bummelzug durch die schwäbische Provinz von %s nach %s.",
+				"Manch ein Tourist will die Burg Hohenzollern besuchen."
+			],
+			"stations": [ "TSIG", "TAE", "TBGG", "THCH", "TMS", "TT" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "IRE 6 a %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Der IRE 6 a muß von %s nach %s.",
+				"Fahre durchs Schwabenland von %s nach %s."
+			],
+			"stations": [ "TAU", "THT", "TMG", "TSIG", "TAE", "TBGG", "THCH", "TMS", "TT", "TRE", "TS" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "HLB von %s nach %s",
 			"service": 2,
 			"descriptions": [
