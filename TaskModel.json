@@ -507,6 +507,10 @@
 				{
 					"stations": [ "XFPO", "XFCV", "XFMZV", "XFTHV", "XLL" ],
 					"pathSuggestion": [ "XFPO", "XFVAR", "XFCV", "XFSHT", "XFPS", "XFMZV", "XFTHV", "XLL" ]
+				},
+				{
+					"stations": [ "XFPO", "🇫🇷TO", "XFBJ", "XFTM" ],
+					"pathSuggestion": [ "XFPO", "🇫🇷CSP", "🇫🇷TO", "XFBJ", "XFTM"   ]
 				}
 			],
 			"neededCapacity": [
@@ -626,13 +630,21 @@
 				"Bring die Passagiere in dem OTC billig nach %2$s.",
 				"Fahre abseits der LGVs für wenig Geld von %s nach %s."
 			],
-			"stations": [ "XFD", "XFCS", "XFMAL", "XFLPD" ],
+			"objects": [
+				{
+					"stations": [ "XFPO", "XFD", "XFCS", "XFMAL", "XFLPD" ],
+					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "XFCS", "XFMAL", "XFBV", "🇫🇷ANS", "XFLPD" ]
+				},
+				{
+					"stations": [ "XFPO", "🇫🇷CHH", "XFLM" ],
+					"pathSuggestion": [ "XFPO", "🇫🇷CHH", "XFCOB", "XFLM" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
 			"group": 1,
-			"service": 1,
-			"pathSuggestion": [ "XFD", "XFCS", "XFMAL", "XFSRI", "XFLPD" ]
+			"service": 1
 		},
 		{
 			"name": "IC von %s nach %s",
@@ -749,13 +761,21 @@
 				"Fahre den schnellsten Zug Italiens durch Norditalien nach %2$s",
 				"Bringe den Frecciarossa pünktlich über die SFS von %s nach %s"
 			],
-			"stations": [ "XIMB", "XIR", "XITUR", "XITU" ],
+			"objects": [
+				{
+					"stations": [ "XIMB", "XIR", "XITUR", "XITU" ]
+				},
+				{
+					"stations": [ "XIMB", "XITU", "🇮🇹00202", "XFMOD", "XFCY", "XFLPD", "XFPO"  ],
+					"pathSuggestion": [ "XIMB", "XITU", "🇮🇹00202", "XFMOD", "XFCY", "XFCZ", "XFLPD", "XFSRI", "XFMAL", "🇫🇷PAI", "🇫🇷SIF", "🇫🇷MOIS", "XFCQ", "XFPO" ]
+				}
+			],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
 			],
 			"group": 1,
-			"service": 0,
-			"pathSuggestion": [ "XIMB", "XIR", "XITUR", "XITU" ]
+			"service": 0
 		},
 		{
 			"name": "TER von %s nach %s",
