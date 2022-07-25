@@ -1411,6 +1411,26 @@
 			]
 		},
 		{
+			"id": 601,
+			"group": 2,
+			"name": "DB VT 11.5 / DSB MA",
+			"shortcut": "601",
+			"speed": 160,
+			"weight": 214,
+			"force": 80,
+			"length": 131,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 540000,
+			"operationCosts": 135,
+			"equipments": ["CH", "FR", "DE", "AT", "IT", "BE", "LU", "NL", "DK", "PL"],
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 122 },
+				{"name": "bistroseats", "value": 46 }
+			]
+		},
+		{
 			"id": 1001,
 			"group": 2,
 			"name": "SBB RAm TEE / NS DE IV",
@@ -1426,7 +1446,7 @@
 			"equipments": ["CH", "FR", "DE", "AT", "IT", "BE", "LU", "NL"],
 			"exchangeTime": 90,
 			"capacity": [
-				{"name": "passengers", "value":  114 },
+				{"name": "passengers", "value": 114 },
 				{"name": "bistroseats", "value": 32 }
 			]
 		},
