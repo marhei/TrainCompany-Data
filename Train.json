@@ -1411,6 +1411,26 @@
 			]
 		},
 		{
+			"id": 3300,
+			"group": 2,
+			"name": "Intercity Nieuwe Generatie",
+			"shortcut": "ICNG",
+			"speed": 200,
+			"weight": 332,
+			"force": 280,
+			"length": 165,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 750000,
+			"operationCosts": 100,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL", "BE", "ETCS" ],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 410}
+			]
+		},
+		{
 			"id": 33,
 			"group": 2,
 			"name": "CargoSprinter",
