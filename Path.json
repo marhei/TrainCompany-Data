@@ -19989,6 +19989,37 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 140,
+			"twistingFactor": 0.15,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFLIE",
+					"end": "🇫🇷ARM",
+					"length": 17
+				},
+				{
+					"start": "🇫🇷ARM",
+					"end": "XFHZ",
+					"length": 26
+				},
+				{
+					"start": "XFHZ",
+					"end": "🇫🇷STO",
+					"length": 20
+				},
+				{
+					"start": "🇫🇷STO",
+					"end": "XFFE",
+					"length": 43
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"neededEquipments": [
 				"CH"
 			],
