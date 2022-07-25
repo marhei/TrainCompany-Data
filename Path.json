@@ -15615,6 +15615,91 @@
 			"length": 21
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFPO",
+					"end": "XFSVF",
+					"length": 29
+				},
+				{
+					"start": "XFSVF",
+					"end": "XFCR",
+					"length": 20
+				},
+				{
+					"start": "XFCR",
+					"end": "🇫🇷CDO",
+					"length": 15
+				},
+				{
+					"start": "🇫🇷CDO",
+					"end": "🇫🇷SJS",
+					"length": 14
+				},
+				{
+					"start": "🇫🇷SJS",
+					"end": "XFBEB",
+					"length": 15
+				},
+				{
+					"start": "XFBEB",
+					"end": "XFLNG",
+					"length": 31
+				},
+				{
+					"start": "XFLNG",
+					"end": "🇫🇷CBI",
+					"length": 14
+				},
+				{
+					"start": "🇫🇷CBI",
+					"end": "XFALB",
+					"length": 15
+				},
+				{
+					"start": "XFALB",
+					"end": "🇫🇷MIK",
+					"length": 13
+				},
+				{
+					"start": "🇫🇷MIK",
+					"end": "XFAS",
+					"length": 23
+				},
+				{
+					"start": "XFAS",
+					"end": "🇫🇷RUX",
+					"length": 8,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷RUX",
+					"end": "🇫🇷DOI",
+					"length": 16,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷DOI",
+					"end": "🇫🇷LIK",
+					"length": 14,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷LIK",
+					"end": "XFLIE",
+					"length": 19,
+					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 1,
 			"maxSpeed": 100,
@@ -18977,7 +19062,7 @@
 				}
 			]
 		},
-        {
+		{
 			"electrified": false,
 			"group": 0,
 			"name": "Württembergische Allgäubahn",
