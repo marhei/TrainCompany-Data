@@ -1593,6 +1593,27 @@
 			]
 		},
 		{
+			"id": 2770,
+			"group": 2,
+			"name": "SNCF 2770 (3 tlg.)",
+			"shortcut": "X 2770",
+			"speed": 140,
+			"weight": 130,
+			"force": 72,
+			"length": 79,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 530000,
+			"operationCosts": 125,
+			"maxConnectedUnits": 3,
+			"equipments": ["FR", "IT", "CH", "BE", "NL", "DE", "ES"],
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 168 },
+				{"name": "bistroseats", "value": 1 }
+			]
+		},
+		{
 			"id": 33,
 			"group": 2,
 			"name": "CargoSprinter",
