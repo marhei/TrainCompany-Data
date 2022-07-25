@@ -1422,7 +1422,7 @@
 			"drive": 2,
 			"reliability": 0.85,
 			"cost": 495000,
-			"operationCosts": 130,
+			"operationCosts": 110,
 			"equipments": ["CH", "FR", "DE", "AT", "IT", "BE", "LU", "NL"],
 			"exchangeTime": 90,
 			"capacity": [
@@ -1442,7 +1442,7 @@
 			"drive": 2,
 			"reliability": 0.82,
 			"cost": 525000,
-			"operationCosts": 115,
+			"operationCosts": 105,
 			"equipments": ["DE", "AT", "CH"],
 			"exchangeTime": 90,
 			"capacity": [
@@ -1569,6 +1569,27 @@
 			"capacity": [
 				{"name": "passengers", "value": 168 },
 				{"name": "bistroseats", "value": 54 }
+			]
+		},
+		{
+			"id": 448,
+			"group": 2,
+			"name": "FS ALn 448 Binato Breda",
+			"shortcut": "FS ALn 448",
+			"speed": 140,
+			"weight": 104,
+			"force": 44,
+			"length": 56,
+			"drive": 2,
+			"reliability": 0.87,
+			"cost": 390000,
+			"operationCosts": 100,
+			"maxConnectedUnits": 2,
+			"equipments": ["IT", "CH", "FR", "DE", "AT"],
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 106 },
+				{"name": "bistroseats", "value": 4 }
 			]
 		},
 		{
