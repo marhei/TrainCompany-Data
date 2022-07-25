@@ -1717,6 +1717,36 @@
 			"equipments": ["FR", "CH", "BE", "LU", "NL", "DE", "AT", "IT"]
 		},
 		{
+			"id": 9300,
+			"group": 0,
+			"name": "SNCF BB 9300",
+			"shortcut": "BB 9300",
+			"speed": 160,
+			"weight": 82,
+			"force": 260,
+			"length": 16,
+			"drive": 1,
+			"reliability": 0.96,
+			"cost": 370000,
+			"operationCosts": 105,
+			"equipments": ["FR", "CH", "ES" ]
+		},
+		{
+			"id": 353,
+			"group": 0,
+			"name": "RENFE 353 T-3000",
+			"shortcut": "T-3000",
+			"speed": 180,
+			"weight": 88,
+			"force": 268,
+			"length": 19,
+			"drive": 2,
+			"reliability": 0.90,
+			"cost": 320000,
+			"operationCosts": 125,
+			"equipments": ["ES", "FR"]
+		},
+		{
 			"id": 111,
 			"group": 0,
 			"name": "BR 111",
@@ -2662,6 +2692,48 @@
 			"capacity": [
 				{"name": "passengers", "value": 570},
 				{"name": "bistroseats", "value": 20}
+			]
+		},
+		{
+			"id": 35301,
+			"group": 3,
+			"name": "RENFE Talgo III RD (16 tlg.)",
+			"shortcut": "Talgo III RD",
+			"speed": 220,
+			"weight": 408,
+			"force": 0,
+			"length": 184,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 1300000,
+			"maxConnectedUnits": 1,
+			"compatibleWith": [ 40100, 9300, 353 ],
+			"exchangeTime": 90,
+			"equivalentTo": 16,
+			"capacity": [
+				{"name": "passengers", "value": 432 },
+				{"name": "bistroseats", "value": 40 }
+			]
+		},
+		{
+			"id": 35302,
+			"group": 3,
+			"name": "RENFE Talgo III RD (21 tlg.)",
+			"shortcut": "Talgo III RD+",
+			"speed": 220,
+			"weight": 534,
+			"force": 0,
+			"length": 242,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 1450000,
+			"maxConnectedUnits": 1,
+			"compatibleWith": [ 40100, 9300, 353 ],
+			"exchangeTime": 90,
+			"equivalentTo": 21,
+			"capacity": [
+				{"name": "passengers", "value": 612 },
+				{"name": "bistroseats", "value": 40 }
 			]
 		}
 	]
