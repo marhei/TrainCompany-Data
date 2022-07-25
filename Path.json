@@ -5873,6 +5873,33 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 140,
+			"twistingFactor": 0.13,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFHZ",
+					"end": "🇫🇷CRD",
+					"length": 9
+				},
+				{
+					"start": "🇫🇷CRD",
+					"end": "XFBER",
+					"length": 22
+				},
+				{
+					"start": "XFBER",
+					"end": "XFDK",
+					"length": 8,
+					"maxSpeed": 80
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"name": "Sennebahn",
