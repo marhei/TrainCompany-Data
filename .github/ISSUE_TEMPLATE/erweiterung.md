@@ -10,10 +10,10 @@ assignees: ''
 ## Was wird hinzugefügt?
 
 ## Art der Erweiterung
-- [ ] Strecke
-- [ ] Zug
-- [ ] Aufgabe
-- [ ] Ladungsart
-- [ ] Verspätung
+[ ] Strecke
+[ ] Zug
+[ ] Aufgabe
+[ ] Ladungsart
+[ ] Verspätung
 
 ## Weitere Details
