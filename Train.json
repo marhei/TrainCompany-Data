@@ -46,7 +46,7 @@
 		{
 			"id": 0,
 			"group": 2,
-			"name": "ICE 3",
+			"name": "ICE 3 Velaro D",
 			"shortcut": "BR 407",
 			"speed": 320,
 			"weight": 454,
@@ -1022,6 +1022,86 @@
 			]
 		},
 		{
+			"id": 64,
+			"group": 2,
+			"name": "Materieel ′64",
+			"shortcut": "Mat ′64",
+			"speed": 140,
+			"weight": 86,
+			"force": 100,
+			"length": 52,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 250000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 144}
+			]
+		},
+		{
+			"id": 4200,
+			"group": 2,
+			"name": "Intercitymaterieel",
+			"shortcut": "ICM",
+			"speed": 160,
+			"weight": 192,
+			"force": 250,
+			"length": 107,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 650000,
+			"operationCosts": 80,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 253}
+			]
+		},
+		{
+			"id": 8600,
+			"group": 2,
+			"name": "Verlengd InterRegioMaterieel",
+			"shortcut": "VIRM",
+			"speed": 160,
+			"weight": 352,
+			"force": 300,
+			"length": 162,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 800000,
+			"operationCosts": 100,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 600}
+			]
+		},
+		{
+			"id": 3300,
+			"group": 2,
+			"name": "Intercity Nieuwe Generatie",
+			"shortcut": "ICNG",
+			"speed": 200,
+			"weight": 332,
+			"force": 280,
+			"length": 165,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 750000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL", "BE", "ETCS" ],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 410}
+			]
+		},
+		{
 			"id": 563,
 			"group": 2,
 			"name": "Siemens Mireo Plus H",
@@ -1838,11 +1918,12 @@
 			"weight": 84,
 			"force": 300,
 			"length": 19,
-			"drive": 1,
+			"drive": 6,
+			"range": 50,
 			"reliability": 0.95,
-			"cost": 250000,
+			"cost": 350000,
 			"operationCosts": 95,
-			"equipments": ["ETCS", "DE"]
+			"equipments": ["ETCS", "DE", "CH", "AT"]
 		},
 		{
 			"id": 12,
