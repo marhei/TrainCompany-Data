@@ -3934,6 +3934,80 @@
 		},
 		{
 			"group": 1,
+			"name": "Trans EU-Opa Express von %s bis %s",
+			"service": 1,
+			"objects": [
+				{
+					"descriptions": [ "Fahre den TEE Catalán-Talgo von %s bis %s" ],
+					"stations": [ "XSGE", "XFBA", "XFCZ",
+						"XFVCV", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEB"
+				    ],
+					"pathSuggestion": [ "XSGE", "XFBA", "XFCZ",
+						"XFAE", "XFLPD", "XFVI",
+						"XFVCV", "XFMN", "🇫🇷BLN", "XFOR",
+						"XFAVV", "XFARL",
+						"🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEB"
+					]
+				},
+				{
+					"descriptions": [ "Fahre den Neptun-Express von %s bis %s" ],
+					"stations": [ "BHF", "XDKH" ],
+					"pathSuggestion": [ "BHF", "BL", "WNT", "WG", "WSN", "WR", "WK", "AL", "AK", "AF", "XRDI", "XRDK", "XDKH" ]
+				},
+				{
+					"descriptions": [ "Fahre den Berlinaren-Express von %s bis %s" ],
+					"stations": [ "BHF", "XVM" ],
+					"pathSuggestion": [ "BHF", "BL", "WNT", "WG", "WSN", "WR", "WK", "AL", "AK", "AF", "XRDI", "XRDK", "XDKH", "XVM" ]
+				},
+				{
+					"descriptions": [ "Fahre den TEE Merkur von %s bis %s" ],
+					"stations": [ "XDKH", "AL", "AH", "HB", "HO", "EMST", "EDO", "EE", "EDG", "KD", "KK", "KB", "KKO", "FMZ", "RM", "RK", "TS" ],
+					"pathSuggestion": [ "XDKH",
+						 "XRDK", "AF", "AK", 
+						 "AL", "AH", "AHAR", "ABLZ", "AROG", "HB", "HO", "EMST", "EDO", "EE", "EDG", "KD", "KK", "KKAS", "KB", "KKO", "FBGK", "FMZ", "FWOR", "RFT", "RM", "RMF", "RH", "RNZ", "TH", "TS" ]
+				},
+				{
+					"descriptions": [ "Fahre den TEE Helvetia von %s bis %s" ],
+					"stations": [ "AA", "AH", "HH", "HG", "FF", "RM", "RK", "RO", "RF", "RB", "XSB", "XSZH" ],
+					"pathSuggestion": [ "AA", "AH", "ABLZ", "HH", "HELZ", "HK", "HG", "HEBG", "FB", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RMF", "RH", "RBR", "RK", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSKS", "XSZH" ]
+				},
+				{
+					"descriptions": [ "Fahre den TEE Albert Schweitzer von %s bis %s" ],
+					"stations": [ "EDO", "EE", "EDG", "KD", "KK", "KKO", "FMZ", "FD", "RH", "RK", "RBB", "RKL", "XFSTG" ],
+					"pathSuggestion": [ "EDO", "EE", "EDG", "KD", "KK", "KKAS", "KB", "KKO", "FBGK", "FMZ",
+						 "FFLF", "FF",
+						 "FD", "RMF", "RH", "RBR", "RK", "RBB", "RAP", "RKL", "XFSTG" ]
+				},
+				{
+					"descriptions": [ "Fahre den TEE Gottardo von %s bis %s" ],
+					"stations": [ "XIGP", "XIMB", "XSL", "XSZB", "XSZH", "XSB" ],
+					"pathSuggestion": [ "XIGP", "XIAQ", "XITOR", "XIMB", "XSL", "XSZB", "XSAI", "XSAG", "XSTW", "XSZH", "XSKS", "XSB" ]
+				},
+				{
+					"descriptions": [ "Fahre den TEE Ligure von %s bis %s" ],
+					"stations": [ "XFAVV", "XFM", "XFTO", "XFSR", "XFCA", "XFAN", "XFNC", "XFMC", "XIVT",
+					    "XIIO", "XISAV", "XIGP", "XIMB" ],
+					"pathSuggestion": [ "XFAVV", "XFARL", "XFM", "XFTO", "XFSR", "XFCA", "XFAN", "XFNC", "XFMC", "XIVT",
+					    "XIIO", "XISAV", "XIGP", "XIAQ", "XITOR", "XIMB" ]
+				},
+				{
+					"descriptions": [ "Fahre den TEE Bavaria von %s bis %s" ],
+					"stations": [ "MH", "MKP", "MLIR", "XAB", "XSSM", "XSSG", "XSWT", "XSZH" ],
+					"pathSuggestion": [ "MH", "MGE", "MKFG", "MBU", "MBIH", "MKP", "MIMS", "MGHZ", "MLIR", "XAB", "XSSM", "XSRS", "XSSG", "XSWT", "XSZO", "XSZH" ]
+				},
+				{
+					"descriptions": [ "Fahre den TEE Prinz Eugen von %s bis %s" ],
+					"stations": [ "HB", "HH", "HG", "FB", "NWH", "NN", "NRH", "NPA", "XAWE", "XAL", "XAWW" ],
+					"pathSuggestion": [ "HB", "HV", "HWUN", "HH", "HELZ", "HK", "HG", "HEBG", "FB", "FFU", "FFD", "NBN", "NGM", "NWH", "NRTD", "NF", "NN", "NRH", "NOT", "NPL", "NPA", "XASH", "🇦🇹Neu H1", "XAWE", "XAL", "XAWW" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Fernverkehrsleistung im Schweden",
 			"service": 0,
 			"descriptions": [
