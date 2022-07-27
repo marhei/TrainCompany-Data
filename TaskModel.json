@@ -687,8 +687,8 @@
 				"Fahre diese Querverbindung abseits von Paris.",
 				"Diese Linie ist für ihr bequemes Rollmaterial bekannt."
 			],
-			"stations": [ "XFM", "🇫🇷NPG", "🇫🇷MHV", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
-			"pathSuggestion": [ "XFM", "XFARL", "🇫🇷NPG", "🇫🇷MHV", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
+			"stations": [ "XFM", "🇫🇷NMS", "XFMO", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
+			"pathSuggestion": [ "XFM", "XFARL", "🇫🇷NPG", "🇫🇷NMS", "XFMO", "🇫🇷VLM", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
@@ -726,13 +726,14 @@
 			"objects": [
 				{
 					"stations": [ "XFLPD", "XFVCV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ],
-					"pathSuggestion": [ "XFLPD", "🇫🇷GRNY", "XFVCV", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ]
+					"pathSuggestion": [ "XFLPD", "🇫🇷GRNY", "XFVCV", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "🇫🇷VLM", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ]
 				},
 				{
-					"stations": [ "XFM", "XFAX", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB", "XECT", "XEZ", "XEMAT" ]
+					"stations": [ "XFM", "XFAX", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB", "XECT", "XEZ", "XEMAT" ],
+					"pathSuggestion": [ "XFM", "XFAX", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "🇫🇷VLM", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB", "XECT", "XEZ", "XEMAT" ]
 				},
 				{
-					"pathSuggestion": [ "XFPO", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFSRI", "🇫🇷GRNY", "XFVCV", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFSE", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ],
+					"pathSuggestion": [ "XFPO", "🇫🇷MOIS", "🇫🇷PAI", "XFMAL", "XFSRI", "🇫🇷GRNY", "XFVCV", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "🇫🇷VLM",  "XFSE", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ],
 					"stations": [ "XFPO", "XFVCV", "🇫🇷NPG", "🇫🇷MHV", "XFSE", "XFBZ", "XFNB", "XFPE", "XEFI", "XEG", "XEB" ]
 				}
 			]
@@ -1051,7 +1052,7 @@
 				},
 				{
 					"stations": [ "XSZH", "XSBE", "XSLA", "XSGE", "XFLPD", "XFAVV", "XFNB", "XFPE", "XEB" ],
-					"pathSuggestion": [ "XSZH", "XSKS", "XSOL", "XSZG", "XSLT", "XSBE", "🇨🇭PUI", "XSLA", "XSMG", "XSGE", "XFCZ", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷NPG", "XFNB", "XFPE", "XEB" ]
+					"pathSuggestion": [ "XSZH", "XSKS", "XSOL", "XSZG", "XSLT", "XSBE", "🇨🇭PUI", "XSLA", "XSMG", "XSGE", "XFCZ", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷NMS", "🇫🇷VLM", "XFNB", "XFPE", "XEB" ]
 				}
 			],
 			"neededCapacity": [
@@ -1092,7 +1093,7 @@
 				},
 				{
 					"stations": [ "XFPO", "XFD", "XFLPD", "XFVCV", "XFAVV", "XFNB", "XFPE" ],
-					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "XFMAL", "XFBV", "🇫🇷ANS", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷NPG", "XFNB", "XFPE" ]
+					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "XFMAL", "XFBV", "🇫🇷ANS", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷NMS", "🇫🇷VLM", "XFNB", "XFPE" ]
 				}
 			],
 			"neededCapacity": [
@@ -3940,13 +3941,13 @@
 				{
 					"descriptions": [ "Fahre den TEE Catalán-Talgo von %s bis %s" ],
 					"stations": [ "XSGE", "XFBA", "XFCZ",
-						"XFVCV", "XFAVV", "🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEB"
+						"XFVCV", "XFAVV", "🇫🇷NMS", "XFMO", "XFBZ", "XFNB", "XFPE", "XEB"
 				    ],
 					"pathSuggestion": [ "XSGE", "XFBA", "XFCZ",
 						"XFAE", "XFLPD", "XFVI",
 						"XFVCV", "🇫🇷LIV", "XFMN", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR",
 						"XFAVV",
-						"🇫🇷NPG", "🇫🇷MHV", "XFBZ", "XFNB", "XFPE", "XEB"
+						"🇫🇷NMS", "XFMO", "🇫🇷VLM", "XFBZ", "XFNB", "XFPE", "XEB"
 					]
 				},
 				{
