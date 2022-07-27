@@ -11938,7 +11938,7 @@
 			]
 		},
 		{
-			"name": "Lübbenau-Kamenz",
+			"name": "Lübbenau-Calau",
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 100,
@@ -11953,6 +11953,151 @@
 					"start": "BBSD",
 					"end": "BC",
 					"length": 7
+				}
+			]
+		},
+		{
+			"name": "Calau-Senftenberg",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.05,
+			"objects": [
+				{
+					"start": "BC",
+					"end": "BSNZ",
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BSNZ",
+					"end": "BAD",
+					"length": 4
+				},
+				{
+					"start": "BAD",
+					"end": "BADS",
+					"length": 2
+				},
+				{
+					"start": "BADS",
+					"end": "BGR",
+					"length": 5
+				},
+				{
+					"start": "BGR",
+					"end": "BSEO",
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BSEO",
+					"end": "BSN",
+					"length": 6,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"name": "Senftenberg-Hosena",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "BSN",
+					"end": "BBS",
+					"length": 3,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "BBS",
+					"end": "BPZ",
+					"length": 8
+				},
+				{
+					"start": "BPZ",
+					"end": "BHC",
+					"length": 2
+				}
+			]
+		},
+		{
+			"name": "Hosena-Kamenz",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.02,
+			"objects": [
+				{
+					"start": "BHC",
+					"end": "DWID",
+					"length": 8,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DWID",
+					"end": "DSTR",
+					"length": 4
+				},
+				{
+					"start": "DSTR",
+					"end": "DHDF",
+					"length": 3
+				},
+				{
+					"start": "DHDF",
+					"end": "DCF",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DCF",
+					"end": "DKA",
+					"length": 5,
+					"twistingFactor": 0.25,
+					"maxSpeed": 80
+				}
+			]
+		},
+		{
+			"name": "Kamenz-Arnsdorf",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "DKA",
+					"end": "DBH",
+					"length": 7
+				},
+				{
+					"start": "DBH",
+					"end": "DPUL",
+					"length": 5,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "DPUL",
+					"end": "DPUS",
+					"length": 1
+				},
+				{
+					"start": "DPUS",
+					"end": "DGRF",
+					"length": 4
+				},
+				{
+					"start": "DGRF",
+					"end": "DKRD",
+					"length": 2
+				},
+				{
+					"start": "DKRD",
+					"end": "DAF",
+					"length": 6
 				}
 			]
 		},
