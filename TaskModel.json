@@ -2309,6 +2309,29 @@
 		},
 		{
 			"group": 1,
+			"name": "S-Bahn Dresden von %s nach %s",
+			"service": 3,
+			"stopsEverywhere": true,
+			"objects": [
+				{
+					"descriptions": [ "Fahre die S1 von %s nach %s." ],
+					"stations": [ "DSN", "DSA", "DWH", "DPI", "DH", "DCW" ]
+				},
+				{
+					"descriptions": [ "Fahre die S3 von %s nach %s." ],
+					"stations": [ "DH", "DPA", "DTH", "DKC", "DFR" ]
+				},
+				{
+					"descriptions": [ "Fahre die S8 von %s nach %s." ],
+					"stations": [ "DH", "DLAB", "DRAG", "DAF", "DKA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RE 1 von %s nach %s",
 			"service": 2,
 			"descriptions": [
