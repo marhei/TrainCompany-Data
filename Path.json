@@ -794,6 +794,28 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"BE"
+			],
+			"objects": [
+				{
+					"start": "XBB",
+					"end": "XBAAS",
+					"length": 28,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XBAAS",
+					"end": "XBGP",
+					"length": 27,
+					"maxSpeed": 140
+				}
+			]
+		},
+		{
 			"name": "Nahetalbahn",
 			"group": 1,
 			"electrified": false,
@@ -6805,6 +6827,47 @@
 			"start": "AH",
 			"end": "AA",
 			"twistingFactor": 0.5
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.12,
+			"objects": [
+				{
+					"start": "XFLIE",
+					"end": "XFTC",
+					"length": 13,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 100
+				},
+				{
+					"start": "XFTC",
+					"end": "XBKK",
+					"length": 17,
+					"neededEquipments": [
+						"BE"
+					]
+				},
+				{
+					"start": "XBKK",
+					"end": "XBDZ",
+					"length": 26,
+					"neededEquipments": [
+						"BE"
+					]
+				},
+				{
+					"start": "XBDZ",
+					"end": "XBGP",
+					"length": 15,
+					"neededEquipments": [
+						"BE"
+					]
+				}
+			]
 		},
 		{
 			"electrified": true,
