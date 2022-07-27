@@ -794,6 +794,28 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"BE"
+			],
+			"objects": [
+				{
+					"start": "XBB",
+					"end": "XBAAS",
+					"length": 28,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XBAAS",
+					"end": "XBGP",
+					"length": 27,
+					"maxSpeed": 140
+				}
+			]
+		},
+		{
 			"name": "Nahetalbahn",
 			"group": 1,
 			"electrified": false,
@@ -1581,6 +1603,51 @@
 					"start": "SKDL",
 					"end": "STR",
 					"length": 12
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 220,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFLM",
+					"end": "🇫🇷LSZ",
+					"length": 18
+				},
+				{
+					"start": "🇫🇷LSZ",
+					"end": "🇫🇷NON",
+					"length": 10
+				},
+				{
+					"start": "🇫🇷NON",
+					"end": "🇫🇷SAB",
+					"length": 19
+				},
+				{
+					"start": "🇫🇷SAB",
+					"end": "🇫🇷MNS",
+					"length": 14,
+					"maxSpeed": 210,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷MNS",
+					"end": "🇫🇷TCE",
+					"length": 14,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷TCE",
+					"end": "XFASL",
+					"length": 19,
+					"maxSpeed": 200
 				}
 			]
 		},
@@ -3268,6 +3335,104 @@
 					"start": "HWAR",
 					"end": "FKW",
 					"length": 52,
+					"maxSpeed": 140
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.15,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷TO",
+					"end": "🇫🇷CQM",
+					"length": 21
+				},
+				{
+					"start": "🇫🇷CQM",
+					"end": "🇫🇷WSL",
+					"length": 21
+				},
+				{
+					"start": "🇫🇷WSL",
+					"end": "XFSUD",
+					"length": 22
+				},
+				{
+					"start": "XFSUD",
+					"end": "🇫🇷ROR",
+					"length": 15
+				},
+				{
+					"start": "🇫🇷ROR",
+					"end": "🇫🇷WBH",
+					"length": 16
+				},
+				{
+					"start": "🇫🇷WBH",
+					"end": "XFASL",
+					"length": 12
+				},
+				{
+					"start": "XFASL",
+					"end": "🇫🇷LPO",
+					"length": 15
+				},
+				{
+					"start": "🇫🇷LPO",
+					"end": "🇫🇷VDE",
+					"length": 26,
+					"maxSpeed": 210,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷VDE",
+					"end": "🇫🇷ODK",
+					"length": 21,
+					"maxSpeed": 200,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷ODK",
+					"end": "🇫🇷THE",
+					"length": 14,
+					"maxSpeed": 180,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷THE",
+					"end": "XFNA",
+					"length": 9,
+					"maxSpeed": 180,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "XFNA",
+					"end": "🇫🇷CNQ",
+					"length": 15,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷CNQ",
+					"end": "🇫🇷SNY",
+					"length": 23,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇫🇷SNY",
+					"end": "XFDGS",
+					"length": 11
+				},
+				{
+					"start": "XFDGS",
+					"end": "🇫🇷SNA",
+					"length": 13,
 					"maxSpeed": 140
 				}
 			]
@@ -6666,6 +6831,47 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.12,
+			"objects": [
+				{
+					"start": "XFLIE",
+					"end": "XFTC",
+					"length": 13,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 100
+				},
+				{
+					"start": "XFTC",
+					"end": "XBKK",
+					"length": 17,
+					"neededEquipments": [
+						"BE"
+					]
+				},
+				{
+					"start": "XBKK",
+					"end": "XBDZ",
+					"length": 26,
+					"neededEquipments": [
+						"BE"
+					]
+				},
+				{
+					"start": "XBDZ",
+					"end": "XBGP",
+					"length": 15,
+					"neededEquipments": [
+						"BE"
+					]
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"objects": [
 				{
 					"start": "XFMZV",
@@ -8080,23 +8286,23 @@
 					"end": "MMW",
 					"length": 6
 				},
-                {
-                    "start": "MMW",
-                    "end": "XAA",
-                    "length": 6,
-                    "neededEquipments": [
-                        "DE",
-                        "AT"
-                    ]
-                },
-                {
-                    "start": "XAA",
-                    "end": "XAGB",
-                    "length": 4,
-                    "neededEquipments": [
-                        "AT"
-                    ]
-                },
+				{
+					"start": "MMW",
+					"end": "XAA",
+					"length": 6,
+					"neededEquipments": [
+						"DE",
+						"AT"
+					]
+				},
+				{
+					"start": "XAA",
+					"end": "XAGB",
+					"length": 4,
+					"neededEquipments": [
+						"AT"
+					]
+				},
 				{
 					"start": "XAGB",
 					"end": "XAS",
@@ -8105,46 +8311,46 @@
 						"AT"
 					]
 				},
-                {
-                    "start": "XAS",
-                    "end": "XARE",
-                    "length": 4,
-                    "neededEquipments": [
-                        "AT"
-                    ]
-                },
-                {
-                    "start": "XARE",
-                    "end": "XALT",
-                    "length": 2,
-                    "neededEquipments": [
-                        "AT"
-                    ]
-                },
-                {
-                    "start": "XALT",
-                    "end": "XAHO",
-                    "length": 4,
-                    "neededEquipments": [
-                        "AT"
-                    ]
-                },
-                {
-                    "start": "XAHO",
-                    "end": "XAKA",
-                    "length": 7,
-                    "neededEquipments": [
-                        "AT"
-                    ]
-                },
-                {
-                    "start": "XAKA",
-                    "end": "XAAH",
-                    "length": 2,
-                    "neededEquipments": [
-                        "AT"
-                    ]
-                },
+				{
+					"start": "XAS",
+					"end": "XARE",
+					"length": 4,
+					"neededEquipments": [
+						"AT"
+					]
+				},
+				{
+					"start": "XARE",
+					"end": "XALT",
+					"length": 2,
+					"neededEquipments": [
+						"AT"
+					]
+				},
+				{
+					"start": "XALT",
+					"end": "XAHO",
+					"length": 4,
+					"neededEquipments": [
+						"AT"
+					]
+				},
+				{
+					"start": "XAHO",
+					"end": "XAKA",
+					"length": 7,
+					"neededEquipments": [
+						"AT"
+					]
+				},
+				{
+					"start": "XAKA",
+					"end": "XAAH",
+					"length": 2,
+					"neededEquipments": [
+						"AT"
+					]
+				},
 				{
 					"start": "XAAH",
 					"end": "XAI",
@@ -8315,6 +8521,42 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.22,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷NPG",
+					"end": "🇫🇷NMS",
+					"length": 15
+				},
+				{
+					"start": "🇫🇷NMS",
+					"end": "🇫🇷VZC",
+					"length": 16
+				},
+				{
+					"start": "🇫🇷VZC",
+					"end": "XFLUN",
+					"length": 10
+				},
+				{
+					"start": "XFLUN",
+					"end": "XFMO",
+					"length": 23
+				},
+				{
+					"start": "XFMO",
+					"end": "🇫🇷VLM",
+					"length": 7
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 140,
@@ -8365,6 +8607,7 @@
 			"electrified": true,
 			"name": "Contournement ferroviaire de Nîmes et de Montpellier",
 			"twistingFactor": 0.1,
+			"group": 2,
 			"neededEquipments": [
 				"FR",
 				"ETCS"
@@ -8375,12 +8618,22 @@
 					"end": "🇫🇷NPG",
 					"length": 28,
 					"maxSpeed": 300,
-					"group": 2
+					"neededEquipments": [
+						"FR",
+						"ETCS",
+						"TVM"
+					]
 				},
 				{
 					"start": "🇫🇷NPG",
 					"end": "🇫🇷MHV",
 					"length": 54,
+					"maxSpeed": 220
+				},
+				{
+					"start": "🇫🇷MHV",
+					"end": "🇫🇷VLM",
+					"length": 8,
 					"maxSpeed": 220
 				}
 			]
@@ -9509,14 +9762,6 @@
 			"twistingFactor": 0.17,
 			"objects": [
 				{
-					"start": "🇫🇷MHV",
-					"end": "🇫🇷VLM",
-					"length": 8,
-					"neededEquipments": [
-						"FR"
-					]
-				},
-				{
 					"start": "🇫🇷VLM",
 					"end": "🇫🇷FRN",
 					"length": 13,
@@ -9626,7 +9871,6 @@
 					"group": 2,
 					"length": 54,
 					"neededEquipments": [
-						"FR",
 						"ES",
 						"ETCS"
 					],
@@ -11691,6 +11935,170 @@
 				{
 					"start": "BKOW",
 					"end": "BCS",
+					"length": 6
+				}
+			]
+		},
+		{
+			"name": "Lübbenau-Calau",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.05,
+			"objects": [
+				{
+					"start": "BLN",
+					"end": "BBSD",
+					"length": 7
+				},
+				{
+					"start": "BBSD",
+					"end": "BC",
+					"length": 7
+				}
+			]
+		},
+		{
+			"name": "Calau-Senftenberg",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.05,
+			"objects": [
+				{
+					"start": "BC",
+					"end": "BSNZ",
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BSNZ",
+					"end": "BAD",
+					"length": 4
+				},
+				{
+					"start": "BAD",
+					"end": "BADS",
+					"length": 2
+				},
+				{
+					"start": "BADS",
+					"end": "BGR",
+					"length": 5
+				},
+				{
+					"start": "BGR",
+					"end": "BSEO",
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BSEO",
+					"end": "BSN",
+					"length": 6,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"name": "Senftenberg-Hosena",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "BSN",
+					"end": "BBS",
+					"length": 3,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "BBS",
+					"end": "BPZ",
+					"length": 8
+				},
+				{
+					"start": "BPZ",
+					"end": "BHC",
+					"length": 2
+				}
+			]
+		},
+		{
+			"name": "Hosena-Kamenz",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.02,
+			"objects": [
+				{
+					"start": "BHC",
+					"end": "DWID",
+					"length": 8,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DWID",
+					"end": "DSTR",
+					"length": 4
+				},
+				{
+					"start": "DSTR",
+					"end": "DHDF",
+					"length": 3
+				},
+				{
+					"start": "DHDF",
+					"end": "DCF",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DCF",
+					"end": "DKA",
+					"length": 5,
+					"twistingFactor": 0.25,
+					"maxSpeed": 80
+				}
+			]
+		},
+		{
+			"name": "Kamenz-Arnsdorf",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "DKA",
+					"end": "DBH",
+					"length": 7
+				},
+				{
+					"start": "DBH",
+					"end": "DPUL",
+					"length": 5,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "DPUL",
+					"end": "DPUS",
+					"length": 1
+				},
+				{
+					"start": "DPUS",
+					"end": "DGRF",
+					"length": 4
+				},
+				{
+					"start": "DGRF",
+					"end": "DKRD",
+					"length": 2
+				},
+				{
+					"start": "DKRD",
+					"end": "DAF",
 					"length": 6
 				}
 			]
@@ -16683,6 +17091,28 @@
 					"length": 16,
 					"maxSpeed": 120,
 					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 140,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFAVV",
+					"end": "🇫🇷77539",
+					"length": 25
+				},
+				{
+					"start": "🇫🇷77539",
+					"end": "🇫🇷NMS",
+					"length": 22,
+					"twistingFactor": 0.17
 				}
 			]
 		},
