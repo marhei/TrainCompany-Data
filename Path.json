@@ -1587,6 +1587,51 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 220,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFLM",
+					"end": "🇫🇷LSZ",
+					"length": 18
+				},
+				{
+					"start": "🇫🇷LSZ",
+					"end": "🇫🇷NON",
+					"length": 10
+				},
+				{
+					"start": "🇫🇷NON",
+					"end": "🇫🇷SAB",
+					"length": 19
+				},
+				{
+					"start": "🇫🇷SAB",
+					"end": "🇫🇷MNS",
+					"length": 14,
+					"maxSpeed": 210,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷MNS",
+					"end": "🇫🇷TCE",
+					"length": 14,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷TCE",
+					"end": "XFASL",
+					"length": 19,
+					"maxSpeed": 200
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"maxSpeed": 200,
 			"twistingFactor": 0.12,
 			"neededEquipments": [
