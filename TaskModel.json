@@ -2308,6 +2308,21 @@
 		},
 		{
 			"group": 1,
+			"name": "S1 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Befördere die Fahrgäste pünktlich und sicher durch das Ruhrgebiet.",
+				"Übernehme diese Leistung der S-Bahn Rhein-Ruhr von %s nach %s.",
+				"Der VRR schreibt diese Verbindung zwischen %s und %s aus."
+			],
+			"stations": [ "EDO", "EBO", "EE", "EDG", "KDFF", "KD", "KSO" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RE 1 von %s nach %s",
 			"service": 2,
 			"descriptions": [
