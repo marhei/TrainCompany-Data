@@ -2309,8 +2309,8 @@
 		},
 		{
 			"group": 1,
-			"name": "S1 von %s nach %s",
-			"service": 2,
+			"name": "S1 der S-Bahn RHein-Ruhr von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Befördere die Fahrgäste pünktlich und sicher durch das Ruhrgebiet.",
 				"Übernehme diese Leistung der S-Bahn Rhein-Ruhr von %s nach %s.",
@@ -2318,7 +2318,8 @@
 			],
 			"stations": [ "EDO", "EBO", "EE", "EDG", "KDFF", "KD", "KSO" ],
 			"stopsEverywhere": true,
-			]
+			"neededCapacity": [
+			{ "name": "passengers", "value": 0 }
 		},
 		{
 			"name": "S-Bahn Dresden von %s nach %s",
