@@ -46,7 +46,7 @@
 		{
 			"id": 0,
 			"group": 2,
-			"name": "ICE 3",
+			"name": "ICE 3 Velaro D",
 			"shortcut": "BR 407",
 			"speed": 320,
 			"weight": 454,
@@ -704,7 +704,7 @@
 			"cost": 800000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
-			"equipments": ["CH", "AT", "LU", "DE"],
+			"equipments": ["CH", "AT", "LU", "DE", "ETCS"],
 			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
@@ -894,7 +894,7 @@
 		{
 			"id": 44390,
 			"group": 2,
-			"name": "Alstom Pendolino Bitannico",
+			"name": "Alstom Pendolino Britannico",
 			"shortcut": "Class 390",
 			"speed": 225,
 			"weight": 466,
@@ -1036,6 +1036,86 @@
 			"capacity": [
 				{"name": "passengers", "value": 309},
 				{"name": "bistroseats", "value": 9}
+			]
+		},
+		{
+			"id": 64,
+			"group": 2,
+			"name": "Materieel ′64",
+			"shortcut": "Mat ′64",
+			"speed": 140,
+			"weight": 86,
+			"force": 100,
+			"length": 52,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 250000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 144}
+			]
+		},
+		{
+			"id": 4200,
+			"group": 2,
+			"name": "Intercitymaterieel",
+			"shortcut": "ICM",
+			"speed": 160,
+			"weight": 192,
+			"force": 250,
+			"length": 107,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 650000,
+			"operationCosts": 80,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 253}
+			]
+		},
+		{
+			"id": 8600,
+			"group": 2,
+			"name": "Verlengd InterRegioMaterieel",
+			"shortcut": "VIRM",
+			"speed": 160,
+			"weight": 352,
+			"force": 300,
+			"length": 162,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 800000,
+			"operationCosts": 100,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 600}
+			]
+		},
+		{
+			"id": 3300,
+			"group": 2,
+			"name": "Intercity Nieuwe Generatie",
+			"shortcut": "ICNG",
+			"speed": 200,
+			"weight": 332,
+			"force": 280,
+			"length": 165,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 750000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 2,
+			"equipments": ["NL", "BE", "ETCS" ],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 410}
 			]
 		},
 		{
@@ -1368,63 +1448,206 @@
 			]
 		},
 		{
-			"id": 64,
+			"id": 613,
 			"group": 2,
-			"name": "Materieel ′64",
-			"shortcut": "Mat ′64",
+			"name": "DB VT 08.5 (3 tlg.)",
+			"shortcut": "613",
 			"speed": 140,
-			"weight": 86,
-			"force": 100,
-			"length": 52,
-			"drive": 1,
-			"reliability": 0.8,
-			"cost": 250000,
-			"operationCosts": 60,
-			"maxConnectedUnits": 2,
-			"equipments": ["NL"],
-			"exchangeTime": 40,
+			"weight": 121,
+			"force": 42,
+			"length": 80,
+			"drive": 2,
+			"reliability": 0.85,
+			"cost": 495000,
+			"operationCosts": 110,
+			"equipments": ["CH", "FR", "DE", "AT", "IT", "BE", "LU", "NL"],
+			"exchangeTime": 90,
 			"capacity": [
-				{"name": "passengers", "value": 144}
+				{"name": "passengers", "value": 108 },
+				{"name": "bistroseats", "value": 24 }
 			]
 		},
 		{
-			"id": 4200,
+			"id": 551,
 			"group": 2,
-			"name": "Intercitymaterieel",
-			"shortcut": "ICM",
+			"name": "DB VT 10.5 Komet",
+			"shortcut": "VT 10 551",
 			"speed": 160,
-			"weight": 192,
-			"force": 250,
-			"length": 107,
-			"drive": 1,
-			"reliability": 0.95,
-			"cost": 650000,
-			"operationCosts": 80,
-			"maxConnectedUnits": 2,
-			"equipments": ["NL"],
-			"exchangeTime": 40,
+			"weight": 120,
+			"force": 38,
+			"length": 109,
+			"drive": 2,
+			"reliability": 0.82,
+			"cost": 525000,
+			"operationCosts": 105,
+			"equipments": ["DE", "AT", "CH", "FR"],
+			"exchangeTime": 90,
 			"capacity": [
-				{"name": "passengers", "value": 253}
+				{"name": "passengers", "value": 56 },
+				{"name": "beds", "value": 42 },
+				{"name": "bistroseats", "value": 21 }
 			]
 		},
 		{
-			"id": 8600,
+			"id": 601,
 			"group": 2,
-			"name": "Verlengd InterRegioMaterieel",
-			"shortcut": "VIRM",
+			"name": "DB VT 11.5 / DSB MA",
+			"shortcut": "601",
 			"speed": 160,
-			"weight": 352,
-			"force": 300,
-			"length": 162,
+			"weight": 214,
+			"force": 80,
+			"length": 131,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 540000,
+			"operationCosts": 135,
+			"equipments": ["CH", "FR", "DE", "AT", "IT", "BE", "LU", "NL", "DK", "PL"],
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 122 },
+				{"name": "bistroseats", "value": 46 }
+			]
+		},
+		{
+			"id": 675,
+			"group": 2,
+			"name": "DR 175 VT 18.16 (4 tlg.)",
+			"shortcut": "SVT",
+			"speed": 160,
+			"weight": 214,
+			"force": 78,
+			"length": 98,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 480000,
+			"operationCosts": 135,
+			"equipments": ["DE", "AT", "DK", "SE", "CZ"],
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 134 },
+				{"name": "bistroseats", "value": 23 }
+			]
+		},
+		{
+			"id": 67505,
+			"group": 2,
+			"name": "DR 175 VT 18.16 (5 tlg.)",
+			"shortcut": "SVT 5t",
+			"speed": 160,
+			"weight": 255,
+			"force": 78,
+			"length": 122,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 490000,
+			"operationCosts": 135,
+			"equipments": ["DE", "AT", "DK", "SE", "CZ"],
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 206 },
+				{"name": "bistroseats", "value": 23 }
+			]
+		},
+		{
+			"id": 67506,
+			"group": 2,
+			"name": "DR 175 VT 18.16 (6 tlg.)",
+			"shortcut": "SVT 6t",
+			"speed": 140,
+			"weight": 296,
+			"force": 78,
+			"length": 145,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 490000,
+			"operationCosts": 135,
+			"equipments": ["DE", "AT", "DK", "SE", "CZ"],
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 278 },
+				{"name": "bistroseats", "value": 23 }
+			]
+		},
+		{
+			"id": 1001,
+			"group": 2,
+			"name": "SBB RAm TEE / NS DE IV",
+			"shortcut": "RAm TEE",
+			"speed": 140,
+			"weight": 229,
+			"force": 79,
+			"length": 98,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 480000,
+			"operationCosts": 125,
+			"equipments": ["CH", "FR", "DE", "AT", "IT", "BE", "LU", "NL"],
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 114 },
+				{"name": "bistroseats", "value": 32 }
+			]
+		},
+		{
+			"id": 1050,
+			"group": 2,
+			"name": "SBB RAe TEE II",
+			"shortcut": "RAe TEE II",
+			"speed": 160,
+			"weight": 296,
+			"force": 82,
+			"length": 143,
 			"drive": 1,
 			"reliability": 0.95,
-			"cost": 800000,
+			"cost": 950000,
+			"operationCosts": 90,
+			"equipments": ["CH", "FR", "DE", "AT", "IT", "BE", "LU", "NL"],
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 168 },
+				{"name": "bistroseats", "value": 54 }
+			]
+		},
+		{
+			"id": 448,
+			"group": 2,
+			"name": "FS ALn 448 Binato Breda",
+			"shortcut": "FS ALn 448",
+			"speed": 140,
+			"weight": 104,
+			"force": 44,
+			"length": 56,
+			"drive": 2,
+			"reliability": 0.87,
+			"cost": 390000,
 			"operationCosts": 100,
 			"maxConnectedUnits": 2,
-			"equipments": ["NL"],
-			"exchangeTime": 40,
+			"equipments": ["IT", "CH", "FR", "DE", "AT"],
+			"exchangeTime": 90,
 			"capacity": [
-				{"name": "passengers", "value": 600}
+				{"name": "passengers", "value": 106 },
+				{"name": "bistroseats", "value": 4 }
+			]
+		},
+		{
+			"id": 2770,
+			"group": 2,
+			"name": "SNCF 2770 (3 tlg.)",
+			"shortcut": "X 2770",
+			"speed": 140,
+			"weight": 130,
+			"force": 72,
+			"length": 79,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 530000,
+			"operationCosts": 125,
+			"maxConnectedUnits": 3,
+			"equipments": ["FR", "IT", "CH", "BE", "NL", "DE", "ES"],
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 168 },
+				{"name": "bistroseats", "value": 1 }
 			]
 		},
 		{
@@ -1515,6 +1738,51 @@
 			"cost": 380000,
 			"operationCosts": 120,
 			"equipments": ["FR","LU"]
+		},
+		{
+			"id": 40100,
+			"group": 0,
+			"name": "SNCF CC 40100 Nez Cassé",
+			"shortcut": "CC 40100",
+			"speed": 240,
+			"weight": 110,
+			"force": 210,
+			"length": 22,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 550000,
+			"operationCosts": 120,
+			"equipments": ["FR", "CH", "BE", "LU", "NL", "DE", "AT", "IT"]
+		},
+		{
+			"id": 9300,
+			"group": 0,
+			"name": "SNCF BB 9300",
+			"shortcut": "BB 9300",
+			"speed": 160,
+			"weight": 82,
+			"force": 260,
+			"length": 16,
+			"drive": 1,
+			"reliability": 0.96,
+			"cost": 370000,
+			"operationCosts": 105,
+			"equipments": ["FR", "CH", "ES" ]
+		},
+		{
+			"id": 353,
+			"group": 0,
+			"name": "RENFE 353 T-3000",
+			"shortcut": "T-3000",
+			"speed": 180,
+			"weight": 88,
+			"force": 268,
+			"length": 19,
+			"drive": 2,
+			"reliability": 0.90,
+			"cost": 320000,
+			"operationCosts": 125,
+			"equipments": ["ES", "FR"]
 		},
 		{
 			"id": 111,
@@ -1608,11 +1876,12 @@
 			"weight": 84,
 			"force": 300,
 			"length": 19,
-			"drive": 1,
+			"drive": 6,
+			"range": 50,
 			"reliability": 0.95,
-			"cost": 250000,
+			"cost": 350000,
 			"operationCosts": 95,
-			"equipments": ["ETCS", "DE"]
+			"equipments": ["ETCS", "DE", "CH", "AT"]
 		},
 		{
 			"id": 12,
@@ -2462,6 +2731,48 @@
 			"capacity": [
 				{"name": "passengers", "value": 570},
 				{"name": "bistroseats", "value": 20}
+			]
+		},
+		{
+			"id": 35301,
+			"group": 3,
+			"name": "RENFE Talgo III RD (16 tlg.)",
+			"shortcut": "Talgo III RD",
+			"speed": 220,
+			"weight": 408,
+			"force": 0,
+			"length": 184,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 1300000,
+			"maxConnectedUnits": 1,
+			"compatibleWith": [ 40100, 9300, 353 ],
+			"exchangeTime": 90,
+			"equivalentTo": 16,
+			"capacity": [
+				{"name": "passengers", "value": 432 },
+				{"name": "bistroseats", "value": 40 }
+			]
+		},
+		{
+			"id": 35302,
+			"group": 3,
+			"name": "RENFE Talgo III RD (21 tlg.)",
+			"shortcut": "Talgo III RD+",
+			"speed": 220,
+			"weight": 534,
+			"force": 0,
+			"length": 242,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 1450000,
+			"maxConnectedUnits": 1,
+			"compatibleWith": [ 40100, 9300, 353 ],
+			"exchangeTime": 90,
+			"equivalentTo": 21,
+			"capacity": [
+				{"name": "passengers", "value": 612 },
+				{"name": "bistroseats", "value": 40 }
 			]
 		}
 	]
