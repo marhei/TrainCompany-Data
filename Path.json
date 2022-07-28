@@ -11739,6 +11739,119 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"IT"
+			],
+			"objects": [
+				{
+					"start": "XIMB",
+					"end": "XIPIL",
+					"length": 12,
+					"maxSpeed": 180,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XIPIL",
+					"end": "🇮🇹01707",
+					"length": 14,
+					"maxSpeed": 180,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇮🇹01707",
+					"end": "🇮🇹01708",
+					"length": 6,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇮🇹01708",
+					"end": "🇮🇹01711",
+					"length": 13,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇮🇹01711",
+					"end": "XIOT",
+					"length": 25,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIOT",
+					"end": "XIBCA",
+					"length": 11,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIBCA",
+					"end": "XILN",
+					"length": 23,
+					"maxSpeed": 180,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XILN",
+					"end": "XIPDG",
+					"length": 18,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XIPDG",
+					"end": "XIVP",
+					"length": 22,
+					"maxSpeed": 150
+				},
+				{
+					"start": "XIVP",
+					"end": "🇮🇹02435",
+					"length": 9,
+					"maxSpeed": 140,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇮🇹02435",
+					"end": "XISBO",
+					"length": 15,
+					"maxSpeed": 180
+				},
+				{
+					"start": "XISBO",
+					"end": "XIVC",
+					"length": 27,
+					"group": 2,
+					"maxSpeed": 250,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XIVC",
+					"end": "XIGDZ",
+					"length": 15,
+					"maxSpeed": 180
+				},
+				{
+					"start": "XIGDZ",
+					"end": "XIPP",
+					"length": 15,
+					"maxSpeed": 180
+				},
+				{
+					"start": "XIPP",
+					"end": "🇮🇹02586",
+					"length": 11,
+					"maxSpeed": 200
+				},
+				{
+					"start": "🇮🇹02586",
+					"end": "XIVNS",
+					"length": 25,
+					"maxSpeed": 220
+				}
+			]
+		},
+		{
 			"name": "Berliner Stadtbahn",
 			"electrified": true,
 			"group": 0,
@@ -20960,7 +21073,6 @@
 				}
 			]
 		},
-
 		{
 			"electrified": true,
 			"group": 0,
