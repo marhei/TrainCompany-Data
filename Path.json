@@ -564,15 +564,67 @@
 			]
 		},
 		{
-					"group": 2
-					"maxSpeed": 120
-					"start": "KD"
-					"end": "KSO"
-					"twistingFactor": 0.2
-					"length": 19
-					"electrified": true
-		},
-		{
+			"group": 2
+			"maxSpeed": 120
+			"twistingFactor": 0.2
+			"electrified": true
+			"objects": [
+    			{
+					"start": "KD",
+					"end": "KDV",
+					"length": 0
+				},
+				{
+					"start": "KDV",
+					"end": "KEM",
+					"length": 1
+				},
+				{
+					"start": "KEM",
+					"end": "KWST",
+					"length": -0
+				},
+				{
+					"start": "KWST",
+					"end": "KDOB",
+					"length": 1
+				},
+				{
+					"start": "KDOB",
+					"end": "KSTU",
+					"length": 2
+				},
+				{
+					"start": "KSTU",
+					"end": "KDEM",
+					"length": -0
+				},
+				{
+					"start": "KDEM",
+					"end": "KDE",
+					"length": 1
+				},
+				{
+					"start": "KDE",
+					"end": "KHI",
+					"length": 6
+				},
+				{
+					"start": "KHI",
+					"end": "KHIS",
+					"length": 1
+				},
+				{
+					"start": "KHIS",
+					"end": "KSV",
+					"length": 4
+				},
+				{
+					"start": "KSV",
+					"end": "KSO",
+					"length": 2
+    }
+]
 			"name": "Mainbahn",
 			"twistingFactor": 0.1,
 			"objects": [
