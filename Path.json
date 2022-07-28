@@ -11739,6 +11739,119 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"IT"
+			],
+			"objects": [
+				{
+					"start": "XIMB",
+					"end": "XIPIL",
+					"length": 12,
+					"maxSpeed": 180,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XIPIL",
+					"end": "🇮🇹01707",
+					"length": 14,
+					"maxSpeed": 180,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇮🇹01707",
+					"end": "🇮🇹01708",
+					"length": 6,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇮🇹01708",
+					"end": "🇮🇹01711",
+					"length": 13,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇮🇹01711",
+					"end": "XIOT",
+					"length": 25,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIOT",
+					"end": "XIBCA",
+					"length": 11,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIBCA",
+					"end": "XILN",
+					"length": 23,
+					"maxSpeed": 180,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XILN",
+					"end": "XIPDG",
+					"length": 18,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XIPDG",
+					"end": "XIVP",
+					"length": 22,
+					"maxSpeed": 150
+				},
+				{
+					"start": "XIVP",
+					"end": "🇮🇹02435",
+					"length": 9,
+					"maxSpeed": 140,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇮🇹02435",
+					"end": "XISBO",
+					"length": 15,
+					"maxSpeed": 180
+				},
+				{
+					"start": "XISBO",
+					"end": "XIVC",
+					"length": 27,
+					"group": 2,
+					"maxSpeed": 250,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XIVC",
+					"end": "XIGDZ",
+					"length": 15,
+					"maxSpeed": 180
+				},
+				{
+					"start": "XIGDZ",
+					"end": "XIPP",
+					"length": 15,
+					"maxSpeed": 180
+				},
+				{
+					"start": "XIPP",
+					"end": "🇮🇹02586",
+					"length": 11,
+					"maxSpeed": 200
+				},
+				{
+					"start": "🇮🇹02586",
+					"end": "XIVNS",
+					"length": 25,
+					"maxSpeed": 220
+				}
+			]
+		},
+		{
 			"name": "Berliner Stadtbahn",
 			"electrified": true,
 			"group": 0,
@@ -16054,6 +16167,98 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"name": "Brennerbahn",
+			"neededEquipments": [
+				"IT"
+			],
+			"twistingFactor": 0.27,
+			"objects": [
+				{
+					"start": "XIBN",
+					"end": "XICIG",
+					"length": 15,
+					"twistingFactor": 0.4,
+					"maxSpeed": 130
+				},
+				{
+					"start": "XICIG",
+					"end": "XIFF",
+					"length": 24,
+					"maxSpeed": 90
+				},
+				{
+					"start": "XIFF",
+					"end": "XIBX",
+					"length": 10,
+					"maxSpeed": 105
+				},
+				{
+					"start": "XIBX",
+					"end": "XIPW",
+					"length": 16,
+					"maxSpeed": 80
+				},
+				{
+					"start": "XIPW",
+					"end": "XIBZ",
+					"length": 22,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XIBZ",
+					"end": "🇮🇹02032",
+					"length": 22,
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇮🇹02032",
+					"end": "XIMZ",
+					"length": 16,
+					"maxSpeed": 155,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XIMZ",
+					"end": "XITR",
+					"length": 17,
+					"maxSpeed": 135,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XITR",
+					"end": "XIRR",
+					"length": 23,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XIRR",
+					"end": "XIAL",
+					"length": 16,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XIAL",
+					"end": "XIDSA",
+					"length": 31,
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XIDSA",
+					"end": "XIVP",
+					"length": 19,
+					"maxSpeed": 115,
+					"twistingFactor": 0.22
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 1,
 			"name": "Kleinseebahn",
@@ -16096,6 +16301,16 @@
 					"twistingFactor": 0.05
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 230,
+			"name": "Brennerbasistunnel",
+			"twistingFactor": 0.1,
+			"start": "XAI",
+			"end": "XIFF",
+			"length": 55
 		},
 		{
 			"group": 0,
@@ -20960,7 +21175,6 @@
 				}
 			]
 		},
-
 		{
 			"electrified": true,
 			"group": 0,
