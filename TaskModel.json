@@ -3142,16 +3142,42 @@
 			"group": 1
 		},
 		{
-			"name": "Nordthüringenbahn von %s nach %s",
+			"name": "RE 55 von %s nach %s",
 			"service": 3,
 			"descriptions": [
-				"Bringe den Regionalexpress der Linie 55 von %s nach %s.",
-				"Bring die Fahrgäste in dem RE 55 pünktlich nach %2$s.",
-				"Bringe den Regionalexpress der Linie 56 von %s nach %s.",
-				"Bring die Fahrgäste in dem RE 56 pünktlich nach %2$s.",
+				"Bringe den Regionalexpress der Nordthüringenbahn von %s nach %s.",
+				"Bring die Fahrgäste im RE 55 pünktlich nach %2$s.",
 				"Fahre den RE störungsfrei nach %2$s."
 			],
-			"stations": [ "UN", "USF", "UE P" ],
+			"stations": [ "UN", "USH", "UGN", "USF", "URGS", "UWL", "UKU", "UEGI", "UEN", "UE P" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
+			"name": "RE 56 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe den Regionalexpress der Nordthüringenbahn von %s nach %s.",
+				"Bring die Fahrgäste im RE 56 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "UN", "UKFA", "UGFA", "UGL", "USH", "UHOO", "UNI", "UWTL", "UGN", "UGSM", "USF", "URGS", "UEN", "UE P" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
+			"name": "RB 56 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe die Regionalbahn der Nordthüringenbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB 56 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "UN", "UKFA", "UGFA", "UGL", "USH", "UHOO", "UNI", "UWTL", "UGN", "UGSM", "USF", "URGS", "UWL", "UKU", "UEGI", "UEN", "UE P" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
