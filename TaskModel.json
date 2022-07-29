@@ -768,7 +768,7 @@
 				},
 				{
 					"stations": [ "XIMB", "XITU", "🇮🇹00202", "XFMOD", "XFCY", "XFLPD", "XFPO"  ],
-					"pathSuggestion": [ "XIMB", "XITU", "🇮🇹00202", "XFMOD", "XFCY", "XFCZ", "XFLPD", "XFSRI", "XFMAL", "🇫🇷PAI", "🇫🇷SIF", "🇫🇷MOIS", "XFCQ", "XFPO" ]
+					"pathSuggestion": [ "XIMB", "XIR", "XITU", "🇮🇹00202", "XFMOD", "XFCY", "XFCZ", "XFLPD", "XFSRI", "XFMAL", "🇫🇷PAI", "🇫🇷SIF", "🇫🇷MOIS", "XFCQ", "XFPO" ]
 				}
 			],
 			"neededCapacity": [
@@ -1052,7 +1052,7 @@
 				},
 				{
 					"stations": [ "XSZH", "XSBE", "XSLA", "XSGE", "XFLPD", "XFAVV", "XFNB", "XFPE", "XEB" ],
-					"pathSuggestion": [ "XSZH", "XSKS", "XSOL", "XSZG", "XSLT", "XSBE", "🇨🇭PUI", "XSLA", "XSMG", "XSGE", "XFCZ", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷NMS", "🇫🇷VLM", "XFNB", "XFPE", "XEB" ]
+					"pathSuggestion": [ "XSZH", "XSKS", "XSOL", "XSZG", "XSLT", "XSBE", "🇨🇭PUI", "XSLA", "XSMG", "XSGE", "XFCZ", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷77539", "🇫🇷NMS", "🇫🇷VLM", "XFNB", "XFPE", "XEB" ]
 				}
 			],
 			"neededCapacity": [
@@ -1089,11 +1089,11 @@
 			"objects": [
 				{
 					"stations": [ "XFPO", "XFD", "XFLPD", "XFVCV", "XFAVV", "XFM", "XFTO", "XFCA", "XFNC" ],
-					"pathSuggestion": [ "XFPO", "XFCQ", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "XFMAL", "XFLPD", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "XFARL", "XFM", "XFTO", "XFCA", "XFNC" ]
+					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "XFMAL", "XFBV", "🇫🇷ANS", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "XFARL", "XFM", "XFTO", "XFCA", "XFNC" ]
 				},
 				{
 					"stations": [ "XFPO", "XFD", "XFLPD", "XFVCV", "XFAVV", "XFNB", "XFPE" ],
-					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "XFMAL", "XFBV", "🇫🇷ANS", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷NMS", "🇫🇷VLM", "XFNB", "XFPE" ]
+					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "XFMAL", "XFBV", "🇫🇷ANS", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷77539", "🇫🇷NMS", "🇫🇷VLM", "XFNB", "XFPE" ]
 				}
 			],
 			"neededCapacity": [
@@ -2309,6 +2309,44 @@
 		},
 		{
 			"group": 1,
+			"name": "S1 der S-Bahn Rhein-Ruhr von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Befördere die Fahrgäste pünktlich und sicher durch das Ruhrgebiet.",
+				"Übernehme diese Leistung der S-Bahn Rhein-Ruhr von %s nach %s.",
+				"Der VRR schreibt diese Verbindung zwischen %s und %s aus."
+			],
+			"stations": [ "EDO", "EBO", "EE", "EDG", "KDFF", "KD" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+			{ "name": "passengers", "value": 0 }
+				]
+		},
+		{
+			"group": 1,
+			"name": "S-Bahn Dresden von %s nach %s",
+			"service": 3,
+			"stopsEverywhere": true,
+			"objects": [
+				{
+					"descriptions": [ "Fahre die S1 von %s nach %s." ],
+					"stations": [ "DSN", "DSA", "DWH", "DPI", "DH", "DCW" ]
+				},
+				{
+					"descriptions": [ "Fahre die S3 von %s nach %s." ],
+					"stations": [ "DH", "DPA", "DTH", "DKC", "DFR" ]
+				},
+				{
+					"descriptions": [ "Fahre die S8 von %s nach %s." ],
+					"stations": [ "DH", "DLAB", "DRAG", "DAF", "DKA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RE 1 von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -3119,16 +3157,42 @@
 			"group": 1
 		},
 		{
-			"name": "Nordthüringenbahn von %s nach %s",
+			"name": "RE 55 von %s nach %s",
 			"service": 3,
 			"descriptions": [
-				"Bringe den Regionalexpress der Linie 55 von %s nach %s.",
-				"Bring die Fahrgäste in dem RE 55 pünktlich nach %2$s.",
-				"Bringe den Regionalexpress der Linie 56 von %s nach %s.",
-				"Bring die Fahrgäste in dem RE 56 pünktlich nach %2$s.",
+				"Bringe den Regionalexpress der Nordthüringenbahn von %s nach %s.",
+				"Bring die Fahrgäste im RE 55 pünktlich nach %2$s.",
 				"Fahre den RE störungsfrei nach %2$s."
 			],
-			"stations": [ "UN", "USF", "UE P" ],
+			"stations": [ "UN", "USH", "UGN", "USF", "URGS", "UWL", "UKU", "UEGI", "UEN", "UE P" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
+			"name": "RE 56 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe den Regionalexpress der Nordthüringenbahn von %s nach %s.",
+				"Bring die Fahrgäste im RE 56 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "UN", "UKFA", "UGFA", "UGL", "USH", "UHOO", "UNI", "UWTL", "UGN", "UGSM", "USF", "URGS", "UEN", "UE P" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
+			"name": "RB 56 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe die Regionalbahn der Nordthüringenbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB 56 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "UN", "UKFA", "UGFA", "UGL", "USH", "UHOO", "UNI", "UWTL", "UGN", "UGSM", "USF", "URGS", "UWL", "UKU", "UEGI", "UEN", "UE P" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
@@ -3858,11 +3922,11 @@
 			"name": "Holz von %s nach %s",
 			"service": 10,
 			"descriptions": [
-				"Fahre den wichtigen Holzzug Grenzübergreifend von %s nach %s."
+				"Fahre den wichtigen Holzzug grenzübergreifend von %s nach %s."
 			],
 			"stations": [ "XVLX", "LS" ],
 			"neededCapacity": [
-				{ "name": "wood", "value": 2100 }
+				{ "name": "wood", "value": 2050 }
 			]
 		},
 		{

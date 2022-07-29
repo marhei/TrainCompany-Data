@@ -182,7 +182,7 @@
 			"force": 300,
 			"length": 200,
 			"drive": 1,
-			"reliability": 0.9,
+			"reliability": 1.0,
 			"cost": 6500000,
 			"operationCosts": 70,
 			"equipments": [ "ETCS", "FR", "TVM", "BE", "IT", "LU" ],
@@ -457,6 +457,23 @@
 			"cost": 450000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
+			"capacity": [
+				{"name": "passengers", "value": 192}
+			]
+		},
+		{
+			"id": 422,
+			"group": 2,
+			"name": "BR 422",
+			"speed": 140,
+			"weight": 112,
+			"force": 145,
+			"length": 69,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 500000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 2,
 			"capacity": [
 				{"name": "passengers", "value": 192}
 			]
