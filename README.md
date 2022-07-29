@@ -1,3 +1,5 @@
+[![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/marhei/TrainCompany-Data)
+
 # TrainCompany Daten
 In diesem Repository finden sich die Daten, die von TrainCompany genutzt werden. Die Daten sind in JSON-Dateien gespeichert, die ein data-Objekt beinhalten. Um ähnliche Objekte zusammenzufassen gibt es einfache Vererbung: **"objects": []** führt dazu, dass alle Objekte, die zwischen den [] eingefügt werden automatische die Eigenschaften des Mutter-Objekts erhalten, wenn diese nicht überschrieben wurden
 
