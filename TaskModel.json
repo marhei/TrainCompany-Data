@@ -3385,6 +3385,51 @@
 			"stopsEverywhere": true
 		},
 		{
+			"name": "RB 80 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe die Regionalbahn über die Südharzstrecke von %s nach %s.",
+				"Bring die Fahrgäste auf der Südharzstrecke pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "UN", "HHB", "HN", "HG" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"stopsEverywhere": true
+		},
+		{
+			"name": "RB 81 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe die Regionalbahn über die Südharzstrecke von %s nach %s.",
+				"Bring die Fahrgäste auf der Südharzstrecke pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "UN", "HHB", "HN", "HBOF" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"stopsEverywhere": true
+		},
+		{
+			"name": "RB 82 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe die Regionalbahn der Linie 82 von %s nach %s.",
+				"Bring die Fahrgäste der RB 82 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "HBHA", "HVBG", "HGS", "HSSN", "HK", "HN", "HG" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"stopsEverywhere": true
+		},
+		{
 			"name": "Eurotunnel Le Shuttle nach %2$s",
 			"service": 10,
 			"descriptions": [
