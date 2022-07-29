@@ -2309,6 +2309,21 @@
 		},
 		{
 			"group": 1,
+			"name": "S1 der S-Bahn Rhein-Ruhr von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Befördere die Fahrgäste pünktlich und sicher durch das Ruhrgebiet.",
+				"Übernehme diese Leistung der S-Bahn Rhein-Ruhr von %s nach %s.",
+				"Der VRR schreibt diese Verbindung zwischen %s und %s aus."
+			],
+			"stations": [ "EDO", "EBO", "EE", "EDG", "KDFF", "KD", "KSO" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+			{ "name": "passengers", "value": 0 }
+				]
+		},
+		{
+			"group": 1,		
 			"name": "S-Bahn Dresden von %s nach %s",
 			"service": 3,
 			"stopsEverywhere": true,
