@@ -14456,6 +14456,103 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.24,
+			"objects": [
+				{
+					"start": "XSBG",
+					"end": "XIIT",
+					"length": 22,
+					"neededEquipments": [
+						"CH"
+					],
+					"name": "Simplontunnel",
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "XIIT",
+					"end": "XID",
+					"length": 19,
+					"neededEquipments": [
+						"CH"
+					],
+					"name": "Simplonstrecke",
+					"maxSpeed": 115,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XID",
+					"end": "XIPMC",
+					"length": 15,
+					"neededEquipments": [
+						"IT"
+					],
+					"maxSpeed": 140
+				},
+				{
+					"start": "XIPMC",
+					"end": "XIVEP",
+					"length": 14,
+					"neededEquipments": [
+						"IT"
+					],
+					"maxSpeed": 115
+				},
+				{
+					"start": "XIVEP",
+					"end": "XIBGT",
+					"length": 15,
+					"neededEquipments": [
+						"IT"
+					],
+					"maxSpeed": 115,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XIBGT",
+					"end": "XIAN",
+					"length": 11,
+					"neededEquipments": [
+						"IT"
+					],
+					"maxSpeed": 115,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XIAN",
+					"end": "XISCD",
+					"length": 8,
+					"neededEquipments": [
+						"IT"
+					],
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XISCD",
+					"end": "XIGA",
+					"length": 17,
+					"neededEquipments": [
+						"IT"
+					],
+					"maxSpeed": 130,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XIGA",
+					"end": "XIR",
+					"length": 26,
+					"neededEquipments": [
+						"IT"
+					],
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
+				}
+			]
+		},
+		{
 			"name": "Pfälzische Maximiliansbahn",
 			"group": 1,
 			"electrified": false,
