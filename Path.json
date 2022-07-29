@@ -5984,6 +5984,76 @@
 			]
 		},
 		{
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 100,
+			"name": "Südharzstrecke",
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+        			"start": "HN",
+        			"end": "HKAT",
+        			"length": 8
+    			},
+    			{
+        			"start": "HKAT",
+        			"end": "HWUL",
+					"maxSpeed": 90,
+        			"length": 7
+    			},
+    			{
+        			"start": "HWUL",
+        			"end": "HHTF",
+        			"length": 4
+    			},
+    			{
+        			"start": "HHTF",
+        			"end": "HHB",
+        			"length": 8
+    			},
+    			{
+        			"start": "HHB",
+        			"end": "HBLB",
+        			"length": 7
+    			},
+    			{
+        			"start": "HBLB",
+        			"end": "HSCH",
+        			"length": 13
+    			},
+    			{
+        			"start": "HSCH",
+        			"end": "HWKD",
+        			"length": 2
+    			},
+    			{
+        			"start": "HWKD",
+        			"end": "UER",
+        			"length": 5
+    			},
+    			{
+        			"start": "UER",
+        			"end": "UWOF",
+        			"length": 5
+    			},
+    			{
+        			"start": "UWOF",
+        			"end": "UNIW",
+        			"length": 3
+    			},
+    			{
+        			"start": "UNIW",
+        			"end": "UNSA",
+        			"length": 4
+    			},
+    			{
+        			"start": "UNSA",
+        			"end": "UN",
+        			"length": 2
+    			}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 160,
