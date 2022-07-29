@@ -5967,10 +5967,26 @@
 			"twistingFactor": 0.3,
 			"objects": [
 				{
-					"start": "HG",
-					"end": "HK",
-					"length": 39
-				},
+        			"start": "HG",
+        			"end": "HNTH",
+        			"length": 9
+    			},
+    			{
+        			"start": "HNTH",
+        			"end": "HN",
+        			"length": 10
+    			},
+    			{
+        			"start": "HN",
+        			"end": "HEB",
+        			"length": 12
+    			},
+    			{
+        			"start": "HEB",
+        			"end": "HK",
+        			"length": 8,
+					"maxSpeed": 110
+    			},
 				{
 					"start": "HK",
 					"end": "HELZ",
