@@ -12184,6 +12184,88 @@
 			]
 		},
 		{
+			"name": "Cottbus-Großenhain (nord)",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.05,
+			"objects": [
+				{
+					"start": "BCS",
+					"end": "BLE",
+					"length": 8,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BLE",
+					"end": "BDR",
+					"length": 5
+				},
+				{
+					"start": "BDR",
+					"end": "BNP",
+					"length": 7
+				},
+				{
+					"start": "BNP",
+					"end": "BBO",
+					"length": 4
+				},
+				{
+					"start": "BBO",
+					"end": "BSEO",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"name": "Cottbus-Großenhain (süd)",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.05,
+			"objects": [
+				{
+					"start": "BBS",
+					"end": "BSRO",
+					"length": 6
+				},
+				{
+					"start": "BSRO",
+					"end": "BRU",
+					"length": 2
+				},
+				{
+					"start": "BRU",
+					"end": "BORT",
+					"length": 12
+				},
+				{
+					"start": "BORT",
+					"end": "BLW",
+					"length": 10,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BLW",
+					"end": "DGC",
+					"length": 11
+				}
+			]
+		},
+		{
+			"name": "Großenhainer Verbindungsbahn",
+			"group": 0,
+			"electrified": true,
+			"maxSpeed": 40,
+			"start": "DGC",
+			"end": "DGB",
+			"length": 2,
+			"twistingFactor": 0.1
+		},
+		{
 			"name": "Calau-Senftenberg",
 			"electrified": true,
 			"group": 0,
