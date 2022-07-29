@@ -5952,11 +5952,105 @@
 					"name": "Sollingbahn"
 				},
 				{
+        			"start": "HBOF",
+        			"end": "HUS",
+        			"length": 8,
+					"name": "Sollingbahn"
+    			},
+    			{
+        			"start": "HUS",
+        			"end": "HVOP",
+        			"length": 7,
+					"name": "Sollingbahn"
+    			},
+    			{
+        			"start": "HVOP",
+        			"end": "HHRD",
+        			"length": 6,
+					"name": "Sollingbahn"
+    			},
+    			{
+        			"start": "HHRD",
+        			"end": "HN",
+        			"length": 16,
+					"name": "Sollingbahn"
+    			},
+				{
 					"start": "HBOF",
 					"end": "HG",
 					"length": 37,
 					"name": "Oberweserbahn"
 				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 100,
+			"name": "Südharzstrecke",
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+        			"start": "HN",
+        			"end": "HKAT",
+        			"length": 8
+    			},
+    			{
+        			"start": "HKAT",
+        			"end": "HWUL",
+					"maxSpeed": 90,
+        			"length": 7
+    			},
+    			{
+        			"start": "HWUL",
+        			"end": "HHTF",
+        			"length": 4
+    			},
+    			{
+        			"start": "HHTF",
+        			"end": "HHB",
+        			"length": 8
+    			},
+    			{
+        			"start": "HHB",
+        			"end": "HBLB",
+        			"length": 7
+    			},
+    			{
+        			"start": "HBLB",
+        			"end": "HSCH",
+        			"length": 13
+    			},
+    			{
+        			"start": "HSCH",
+        			"end": "HWKD",
+        			"length": 2
+    			},
+    			{
+        			"start": "HWKD",
+        			"end": "UER",
+        			"length": 5
+    			},
+    			{
+        			"start": "UER",
+        			"end": "UWOF",
+        			"length": 5
+    			},
+    			{
+        			"start": "UWOF",
+        			"end": "UNIW",
+        			"length": 3
+    			},
+    			{
+        			"start": "UNIW",
+        			"end": "UNSA",
+        			"length": 4
+    			},
+    			{
+        			"start": "UNSA",
+        			"end": "UN",
+        			"length": 2
+    			}
 			]
 		},
 		{
@@ -5967,10 +6061,26 @@
 			"twistingFactor": 0.3,
 			"objects": [
 				{
-					"start": "HG",
-					"end": "HK",
-					"length": 39
-				},
+        			"start": "HG",
+        			"end": "HNTH",
+        			"length": 9
+    			},
+    			{
+        			"start": "HNTH",
+        			"end": "HN",
+        			"length": 10
+    			},
+    			{
+        			"start": "HN",
+        			"end": "HEB",
+        			"length": 12
+    			},
+    			{
+        			"start": "HEB",
+        			"end": "HK",
+        			"length": 8,
+					"maxSpeed": 110
+    			},
 				{
 					"start": "HK",
 					"end": "HELZ",
