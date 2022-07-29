@@ -12078,6 +12078,43 @@
 			]
 		},
 		{
+			"name": "Cottbus-Großenhain (nord)",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.05,
+			"objects": [
+				{
+					"start": "BCS",
+					"end": "BLE",
+					"length": 8,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BLE",
+					"end": "BDR",
+					"length": 5
+				},
+				{
+					"start": "BDR",
+					"end": "BNP",
+					"length": 7
+				},
+				{
+					"start": "BNP",
+					"end": "BBO",
+					"length": 4
+				},
+				{
+					"start": "BBO",
+					"end": "BSEO",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
 			"name": "Calau-Senftenberg",
 			"electrified": true,
 			"group": 0,
