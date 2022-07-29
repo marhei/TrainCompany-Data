@@ -5498,19 +5498,117 @@
 			"electrified": false,
 			"objects": [
 				{
-					"start": "UN",
-					"end": "USF",
-					"twistingFactor": 0.5,
-					"length": 54,
-					"maxSpeed": 90
-				},
-				{
-					"start": "USF",
-					"end": "UE P",
-					"twistingFactor": 0.35,
-					"length": 27,
-					"maxSpeed": 100
-				}
+        			"start": "UE  P",
+        			"end": "UEN",
+        			"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.3
+    			},
+    			{
+        			"start": "UEN",
+        			"end": "UEGI",
+        			"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.0
+    			},
+    			{
+        			"start": "UEGI",
+        			"end": "UKU",
+        			"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.0
+    			},
+    			{
+        			"start": "UKU",
+        			"end": "UWL",
+        			"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.05
+    			},
+    			{
+        			"start": "UWL",
+        			"end": "URGS",
+        			"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.05
+    			},
+    			{
+        			"start": "URGS",
+        			"end": "USF",
+        			"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+    			},
+    			{
+        			"start": "USF",
+        			"end": "UGSM",
+        			"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.2
+    			},
+    			{
+        			"start": "UGSM",
+        			"end": "UGN",
+        			"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.3
+    			},
+    			{
+        			"start": "UGN",
+        			"end": "UWTL",
+        			"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.2
+    			},
+    			{
+        			"start": "UWTL",
+        			"end": "UNI",
+        			"length": 6,
+					"maxSpeed": 90,
+					"twistingFactor": 0.5
+    			},
+    			{
+        			"start": "UNI",
+        			"end": "UHOO",
+        			"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+    			},
+    			{
+        			"start": "UHOO",
+        			"end": "USH",
+        			"length": 10,
+					"maxSpeed": 90,
+					"twistingFactor": 0.5
+    			},
+    			{
+        			"start": "USH",
+        			"end": "UGL",
+        			"length": 2,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+    			},
+    			{
+        			"start": "UGL",
+        			"end": "UGFA",
+        			"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+    			},
+    			{
+        			"start": "UGFA",
+        			"end": "UKFA",
+        			"length": 3,
+					"maxSpeed": 110,
+					"twistingFactor": 0.2
+    			},
+    			{
+        			"start": "UKFA",
+        			"end": "UN",
+        			"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+    			}
 			]
 		},
 		{
