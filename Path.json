@@ -5162,16 +5162,15 @@
 			]
 		},
 		{
-			"electrified": false,
-			"group": -1,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
 			"objects": [
 				{
 					"start": "XAWW",
-					"start_long": "Wien Westbf",
 					"end": "XAGR",
-					"end_long": "Gramatneusiedl",
+					"name": "Ostbahn",
 					"length": 32,
 					"neededEquipments": [
 						"AT"
@@ -5179,9 +5178,8 @@
 				},
 				{
 					"start": "XAGR",
-					"start_long": "Gramatneusiedl",
 					"end": "XABK",
-					"end_long": "Bruck a. d. Leitha",
+					"name": "Ostbahn",
 					"length": 22,
 					"neededEquipments": [
 						"AT"
@@ -5189,9 +5187,8 @@
 				},
 				{
 					"start": "XABK",
-					"start_long": "Bruck a. d. Leitha",
 					"end": "XAPD",
-					"end_long": "Parndorf",
+					"name": "Ostbahn",
 					"length": 6,
 					"neededEquipments": [
 						"AT"
@@ -5199,108 +5196,96 @@
 				},
 				{
 					"start": "XAPD",
-					"start_long": "Parndorf",
 					"end": "XMHY",
-					"end_long": "Hegyeshalom",
+					"name": "Ostbahn",
 					"length": 24,
 					"neededEquipments": [
-						"AT",
-						"HU"
+						"AT"
 					]
 				},
 				{
 					"start": "XMHY",
-					"start_long": "Hegyeshalom",
 					"end": "XMMO",
-					"end_long": "Mosonmagyarovar",
 					"length": 13,
 					"neededEquipments": [
 						"HU"
-					]
+					],
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XMMO",
-					"start_long": "Mosonmagyarovar",
 					"end": "XMG",
-					"end_long": "Györ",
 					"length": 35,
 					"neededEquipments": [
 						"HU"
-					]
+					],
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XMG",
-					"start_long": "Györ",
 					"end": "XMKO",
-					"end_long": "Komarom",
 					"length": 37,
 					"neededEquipments": [
 						"HU"
-					]
+					],
+					"twistingFactor": 0.14
 				},
 				{
 					"start": "XMKO",
-					"start_long": "Komarom",
 					"end": "XMTA",
-					"end_long": "Tata",
 					"length": 20,
 					"neededEquipments": [
 						"HU"
-					]
+					],
+					"twistingFactor": 0.23
 				},
 				{
 					"start": "XMTA",
-					"start_long": "Tata",
 					"end": "XMTB",
-					"end_long": "Tatabanya",
 					"length": 10,
 					"neededEquipments": [
 						"HU"
-					]
+					],
+					"twistingFactor": 0.23
 				},
 				{
 					"start": "XMTB",
-					"start_long": "Tatabanya",
 					"end": "XMBA",
-					"end_long": "Bicske Also",
 					"length": 25,
 					"neededEquipments": [
 						"HU"
-					]
+					],
+					"twistingFactor": 0.23
 				},
 				{
 					"start": "XMBA",
-					"start_long": "Bicske Also",
 					"end": "XMBOS",
-					"end_long": "Budaörs",
 					"length": 27,
 					"neededEquipments": [
 						"HU"
-					]
+					],
+					"twistingFactor": 0.23
 				},
 				{
 					"start": "XMBOS",
-					"start_long": "Budaörs",
 					"end": "XMBK",
-					"end_long": "Budapest-Keleti",
 					"length": 18,
 					"neededEquipments": [
 						"HU"
-					]
+					],
+					"twistingFactor": 0.23
 				}
 			]
 		},
 		{
-			"electrified": false,
-			"group": -1,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 80,
+			"twistingFactor": 0.18,
 			"objects": [
 				{
 					"start": "XMBK",
-					"start_long": "Budapest-Keleti",
 					"end": "🇭🇺16204",
-					"end_long": "Kunszentmiklós-Tass",
 					"length": 60,
 					"neededEquipments": [
 						"HU"
@@ -5308,29 +5293,25 @@
 				},
 				{
 					"start": "🇭🇺16204",
-					"start_long": "Kunszentmiklós-Tass",
 					"end": "🇭🇺16261",
-					"end_long": "Kiskőrös",
 					"length": 46,
 					"neededEquipments": [
 						"HU"
-					]
+					],
+					"maxSpeed": 60
 				},
 				{
 					"start": "🇭🇺16261",
-					"start_long": "Kiskőrös",
 					"end": "🇭🇺16311",
-					"end_long": "Kiskunhalas",
 					"length": 27,
 					"neededEquipments": [
 						"HU"
-					]
+					],
+					"maxSpeed": 60
 				},
 				{
 					"start": "🇭🇺16311",
-					"start_long": "Kiskunhalas",
 					"end": "XMK",
-					"end_long": "Kelebia",
 					"length": 28,
 					"neededEquipments": [
 						"HU"
@@ -5338,160 +5319,143 @@
 				},
 				{
 					"start": "XMK",
-					"start_long": "Kelebia",
 					"end": "XJST",
-					"end_long": "Subotica",
 					"length": 11,
 					"neededEquipments": [
-						"HU",
 						"RS"
 					]
 				},
 				{
 					"start": "XJST",
-					"start_long": "Subotica",
 					"end": "XJNS",
-					"end_long": "Novi Sad",
 					"length": 98,
 					"neededEquipments": [
 						"RS"
-					]
+					],
+					"maxSpeed": 60
 				},
 				{
 					"start": "XJNS",
-					"start_long": "Novi Sad",
 					"end": "XJSP",
-					"end_long": "Stara Pazova",
 					"length": 42,
 					"neededEquipments": [
 						"RS"
-					]
+					],
+					"maxSpeed": 200
 				},
 				{
 					"start": "XJSP",
-					"start_long": "Stara Pazova",
 					"end": "XJNP",
-					"end_long": "Nova Pazova",
 					"length": 7,
 					"neededEquipments": [
 						"RS"
-					]
+					],
+					"maxSpeed": 200
 				},
 				{
 					"start": "XJNP",
-					"start_long": "Nova Pazova",
 					"end": "XJBC",
-					"end_long": "Beograd Centar",
 					"length": 25,
 					"neededEquipments": [
 						"RS"
-					]
+					],
+					"maxSpeed": 120
 				}
 			]
 		},
 		{
-			"electrified": false,
-			"group": -1,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 60,
+			"twistingFactor": 0.27,
 			"neededEquipments": [
 				"RS"
 			],
 			"objects": [
 				{
 					"start": "XJBC",
-					"start_long": "Beograd Centar",
 					"end": "XJBR",
-					"end_long": "Beograd Ranzirna",
-					"length": 11
+					"length": 11,
+					"maxSpeed": 70
 				},
 				{
 					"start": "XJBR",
-					"start_long": "Beograd Ranzirna",
 					"end": "XJML",
-					"end_long": "Mladenovac",
 					"length": 48
 				},
 				{
 					"start": "XJML",
-					"start_long": "Mladenovac",
 					"end": "XJLP",
-					"end_long": "Lapovo",
-					"length": 55
+					"length": 55,
+					"maxSpeed": 80
 				},
 				{
 					"start": "XJLP",
-					"start_long": "Lapovo",
 					"end": "XJSZ",
-					"end_long": "Svetozarevo",
-					"length": 26
+					"length": 26,
+					"maxSpeed": 50
 				},
 				{
 					"start": "XJSZ",
-					"start_long": "Svetozarevo",
 					"end": "XJSC",
-					"end_long": "Stalac",
-					"length": 39
+					"length": 39,
+					"maxSpeed": 80
 				},
 				{
 					"start": "XJSC",
-					"start_long": "Stalac",
 					"end": "XJA",
-					"end_long": "Aleksinac",
-					"length": 37
+					"length": 37,
+					"maxSpeed": 60,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XJA",
-					"start_long": "Aleksinac",
 					"end": "XJNI",
-					"end_long": "Nis",
-					"length": 29
+					"length": 29,
+					"maxSpeed": 70
 				},
 				{
 					"start": "XJNI",
-					"start_long": "Nis",
 					"end": "XJBP",
-					"end_long": "Bela Palanka",
-					"length": 45
+					"length": 45,
+					"electrified": false,
+					"maxSpeed": 40
 				},
 				{
 					"start": "XJBP",
-					"start_long": "Bela Palanka",
 					"end": "XJP",
-					"end_long": "Pirot",
-					"length": 28
+					"length": 28,
+					"electrified": false,
+					"maxSpeed": 40
 				},
 				{
 					"start": "XJP",
-					"start_long": "Pirot",
 					"end": "XJDI",
-					"end_long": "Dimitrovgrad                        (RS)",
-					"length": 24
+					"length": 24,
+					"electrified": false,
+					"maxSpeed": 70,
+					"twistingFactor": 0.2
 				}
 			]
 		},
 		{
-			"electrified": false,
-			"group": -1,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 70,
+			"twistingFactor": 0.26,
 			"objects": [
 				{
 					"start": "XJDI",
-					"start_long": "Dimitrovgrad                        (RS)",
 					"end": "XWKZ",
-					"end_long": "Kalotina Zapad",
 					"length": 9,
 					"neededEquipments": [
-						"BG",
-						"RS"
-					]
+						"BG"
+					],
+					"maxSpeed": 80
 				},
 				{
 					"start": "XWKZ",
-					"start_long": "Kalotina Zapad",
 					"end": "XWDR",
-					"end_long": "Dragoman",
 					"length": 11,
 					"neededEquipments": [
 						"BG"
@@ -5499,238 +5463,209 @@
 				},
 				{
 					"start": "XWDR",
-					"start_long": "Dragoman",
 					"end": "XWS",
-					"end_long": "Sofija",
 					"length": 42,
 					"neededEquipments": [
 						"BG"
-					]
+					],
+					"maxSpeed": 60
 				},
 				{
 					"start": "XWS",
-					"start_long": "Sofija",
 					"end": "XWSP",
-					"end_long": "Septemvri",
 					"length": 102,
 					"neededEquipments": [
 						"BG"
-					]
+					],
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XWSP",
-					"start_long": "Septemvri",
 					"end": "🇧🇬16043",
-					"end_long": "Pazardzhik",
 					"length": 16,
 					"neededEquipments": [
 						"BG"
-					]
+					],
+					"twistingFactor": 0.2,
+					"maxSpeed": 160
 				},
 				{
 					"start": "🇧🇬16043",
-					"start_long": "Pazardzhik",
 					"end": "XWPL",
-					"end_long": "Plovdiv",
 					"length": 36,
 					"neededEquipments": [
 						"BG"
-					]
+					],
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XWPL",
-					"start_long": "Plovdiv",
 					"end": "🇧🇬14000",
-					"end_long": "Dimitrovgrad",
 					"length": 76,
 					"neededEquipments": [
 						"BG"
-					]
+					],
+					"maxSpeed": 160,
+					"twistingFactor": 0.22
 				},
 				{
 					"start": "🇧🇬14000",
-					"start_long": "Dimitrovgrad",
 					"end": "XWSV",
-					"end_long": "Svilengrad",
 					"length": 65,
 					"neededEquipments": [
 						"BG"
-					]
+					],
+					"maxSpeed": 160
 				}
 			]
 		},
 		{
-			"electrified": false,
-			"group": -1,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
+			"electrified": true,
+			"group": 0,
 			"objects": [
 				{
 					"start": "XWSV",
-					"start_long": "Svilengrad",
 					"end": "XQED",
-					"end_long": "Edirne",
 					"length": 37,
 					"neededEquipments": [
-						"BG",
 						"TR"
-					]
+					],
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
 				},
 				{
 					"start": "XQED",
-					"start_long": "Edirne",
 					"end": "XQCK",
-					"end_long": "Cerkezköy",
 					"length": 172,
 					"neededEquipments": [
 						"TR"
-					]
+					],
+					"maxSpeed": 200,
+					"twistingFactor": 0.13
 				},
 				{
 					"start": "XQCK",
-					"start_long": "Cerkezköy",
 					"end": "XQHA",
-					"end_long": "Halkali",
 					"length": 87,
 					"neededEquipments": [
 						"TR"
-					]
+					],
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XQHA",
-					"start_long": "Halkali",
 					"end": "XQIS",
-					"end_long": "Istanbul Sirkeci",
 					"length": 25,
 					"neededEquipments": [
 						"TR"
-					]
+					],
+					"maxSpeed": 80,
+					"twistingFactor": 0.27
 				}
 			]
 		},
 		{
-			"electrified": false,
-			"group": -1,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 150,
+			"twistingFactor": 0.2,
 			"neededEquipments": [
 				"IT"
 			],
 			"objects": [
 				{
 					"start": "XIVNS",
-					"start_long": "Venezia S. Lucia",
 					"end": "🇮🇹02670",
-					"end_long": "Quarto d'Altino",
 					"length": 24
 				},
 				{
 					"start": "🇮🇹02670",
-					"start_long": "Quarto d'Altino",
 					"end": "🇮🇹02666",
-					"end_long": "San Donà di Piave-Jesolo",
 					"length": 17
 				},
 				{
 					"start": "🇮🇹02666",
-					"start_long": "San Donà di Piave-Jesolo",
 					"end": "🇮🇹02664",
-					"end_long": "San Stino di Livenza",
 					"length": 13
 				},
 				{
 					"start": "🇮🇹02664",
-					"start_long": "San Stino di Livenza",
 					"end": "XIPGC",
-					"end_long": "Portogruaro Caorle",
 					"length": 13
 				},
 				{
 					"start": "XIPGC",
-					"start_long": "Portogruaro Caorle",
 					"end": "🇮🇹03202",
-					"end_long": "Latisana-Lignano-Bibione",
 					"length": 14
 				},
 				{
 					"start": "🇮🇹03202",
-					"start_long": "Latisana-Lignano-Bibione",
 					"end": "🇮🇹03205",
-					"end_long": "San Giorgio di Nogaro",
 					"length": 17
 				},
 				{
 					"start": "🇮🇹03205",
-					"start_long": "San Giorgio di Nogaro",
 					"end": "XICER",
-					"end_long": "Cervignano Aquileia Grado",
 					"length": 10
 				},
 				{
 					"start": "XICER",
-					"start_long": "Cervignano Aquileia Grado",
 					"end": "🇮🇹03212",
-					"end_long": "Ronchi dei Legionari Sud",
 					"length": 12
 				},
 				{
 					"start": "🇮🇹03212",
-					"start_long": "Ronchi dei Legionari Sud",
 					"end": "🇮🇹03313",
-					"end_long": "Bivio d'Aurisina",
-					"length": 16
+					"length": 16,
+					"maxSpeed": 110,
+					"twistingFactor": 0.22
 				},
 				{
 					"start": "🇮🇹03313",
-					"start_long": "Bivio d'Aurisina",
 					"end": "XIT",
-					"end_long": "Trieste Centrale",
-					"length": 14
+					"length": 14,
+					"maxSpeed": 95
 				}
 			]
 		},
 		{
-			"electrified": false,
-			"group": -1,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 80,
+			"twistingFactor": 0.3,
 			"objects": [
 				{
-					"start": "XIT",
-					"start_long": "Trieste Centrale",
+					"start": "🇮🇹03313",
 					"end": "XIVOP",
-					"end_long": "Villa Opicina",
-					"length": 28,
+					"length": 15,
 					"neededEquipments": [
 						"IT"
-					]
+					],
+					"twistingFactor": 0.23
 				},
 				{
 					"start": "XIVOP",
-					"start_long": "Villa Opicina",
 					"end": "XZS",
-					"end_long": "Sezana",
 					"length": 7,
 					"neededEquipments": [
-						"IT",
-						"SI"
-					]
+						"IT"
+					],
+					"maxSpeed": 50
 				},
 				{
 					"start": "XZS",
-					"start_long": "Sezana",
 					"end": "XZDV",
-					"end_long": "Divaca",
 					"length": 10,
 					"neededEquipments": [
 						"SI"
-					]
+					],
+					"maxSpeed": 60,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "XZDV",
-					"start_long": "Divaca",
 					"end": "XZPV",
-					"end_long": "Pivka",
 					"length": 24,
 					"neededEquipments": [
 						"SI"
@@ -5738,9 +5673,7 @@
 				},
 				{
 					"start": "XZPV",
-					"start_long": "Pivka",
 					"end": "XZPJ",
-					"end_long": "Postojna",
 					"length": 12,
 					"neededEquipments": [
 						"SI"
@@ -5748,9 +5681,7 @@
 				},
 				{
 					"start": "XZPJ",
-					"start_long": "Postojna",
 					"end": "XZLO",
-					"end_long": "Logatec",
 					"length": 25,
 					"neededEquipments": [
 						"SI"
@@ -5758,223 +5689,218 @@
 				},
 				{
 					"start": "XZLO",
-					"start_long": "Logatec",
 					"end": "XZBO",
-					"end_long": "Borovnica",
 					"length": 21,
 					"neededEquipments": [
 						"SI"
-					]
+					],
+					"maxSpeed": 75
 				},
 				{
 					"start": "XZBO",
-					"start_long": "Borovnica",
 					"end": "XZL",
-					"end_long": "Ljubljana",
 					"length": 21,
 					"neededEquipments": [
 						"SI"
-					]
+					],
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
 				}
 			]
 		},
 		{
-			"electrified": false,
-			"group": -1,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 90,
+			"twistingFactor": 0.26,
+			"name": "Save-Korridor",
 			"objects": [
 				{
 					"start": "XZL",
-					"start_long": "Ljubljana",
 					"end": "XZZM",
-					"end_long": "Zidani most",
 					"length": 64,
 					"neededEquipments": [
 						"SI"
-					]
+					],
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XZZM",
-					"start_long": "Zidani most",
 					"end": "XZSN",
-					"end_long": "Sevnica",
 					"length": 16,
 					"neededEquipments": [
 						"SI"
-					]
+					],
+					"maxSpeed": 80
 				},
 				{
 					"start": "XZSN",
-					"start_long": "Sevnica",
 					"end": "XZD",
-					"end_long": "Dobova",
 					"length": 32,
 					"neededEquipments": [
 						"SI"
-					]
+					],
+					"maxSpeed": 100
 				},
 				{
 					"start": "XZD",
-					"start_long": "Dobova",
 					"end": "XRSM",
-					"end_long": "Savski Marof",
 					"length": 9,
 					"neededEquipments": [
-						"HR",
-						"SI"
-					]
+						"HR"
+					],
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XRSM",
-					"start_long": "Savski Marof",
 					"end": "XRZP",
-					"end_long": "Zapresic",
 					"length": 6,
 					"neededEquipments": [
 						"HR"
-					]
+					],
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XRZP",
-					"start_long": "Zapresic",
 					"end": "XRZ",
-					"end_long": "Zagreb Gl. kol.",
 					"length": 17,
 					"neededEquipments": [
 						"HR"
-					]
+					],
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
 				},
 				{
 					"start": "XRZ",
-					"start_long": "Zagreb Gl. kol.",
 					"end": "XRDS",
-					"end_long": "Dugo Selo",
 					"length": 20,
 					"neededEquipments": [
 						"HR"
-					]
+					],
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
 				},
 				{
 					"start": "XRDS",
-					"start_long": "Dugo Selo",
 					"end": "XRBJ",
-					"end_long": "Banova Jaruga",
 					"length": 67,
 					"neededEquipments": [
 						"HR"
-					]
+					],
+					"maxSpeed": 60,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XRBJ",
-					"start_long": "Banova Jaruga",
 					"end": "XRNV",
-					"end_long": "Novska",
 					"length": 18,
 					"neededEquipments": [
 						"HR"
-					]
+					],
+					"maxSpeed": 80,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XRNV",
-					"start_long": "Novska",
 					"end": "XRNG",
-					"end_long": "Nova Gradiska",
 					"length": 34,
 					"neededEquipments": [
 						"HR"
-					]
+					],
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
 				},
 				{
 					"start": "XRNG",
-					"start_long": "Nova Gradiska",
 					"end": "XRNK",
-					"end_long": "Nova Kapela",
 					"length": 21,
 					"neededEquipments": [
 						"HR"
-					]
+					],
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XRNK",
-					"start_long": "Nova Kapela",
 					"end": "XRSL",
-					"end_long": "Slavonski Brod",
 					"length": 30,
 					"neededEquipments": [
 						"HR"
-					]
+					],
+					"maxSpeed": 110,
+					"twistingFactor": 0.13
 				},
 				{
 					"start": "XRSL",
-					"start_long": "Slavonski Brod",
 					"end": "XRSV",
-					"end_long": "Strizivojna Vrpolje",
 					"length": 32,
 					"neededEquipments": [
 						"HR"
-					]
+					],
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XRSV",
-					"start_long": "Strizivojna Vrpolje",
 					"end": "XRVI",
-					"end_long": "Vinkovci",
 					"length": 32,
 					"neededEquipments": [
 						"HR"
-					]
+					],
+					"maxSpeed": 140,
+					"twistingFactor": 0.12
 				},
 				{
 					"start": "XRVI",
-					"start_long": "Vinkovci",
 					"end": "XRT",
-					"end_long": "Tovarnik",
 					"length": 32,
 					"neededEquipments": [
 						"HR"
-					]
+					],
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XRT",
-					"start_long": "Tovarnik",
 					"end": "XJSI",
-					"end_long": "Sid",
 					"length": 7,
 					"neededEquipments": [
-						"RS",
-						"HR"
-					]
+						"RS"
+					],
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XJSI",
-					"start_long": "Sid",
 					"end": "XJSM",
-					"end_long": "Sremska Mitrovica",
 					"length": 35,
 					"neededEquipments": [
 						"RS"
-					]
+					],
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XJSM",
-					"start_long": "Sremska Mitrovica",
 					"end": "XJRU",
-					"end_long": "Ruma",
 					"length": 16,
 					"neededEquipments": [
 						"RS"
-					]
+					],
+					"maxSpeed": 80,
+					"twistingFactor": 0.05
 				},
 				{
 					"start": "XJRU",
-					"start_long": "Ruma",
-					"end": "XJBC",
-					"end_long": "Beograd Centar",
-					"length": 62,
+					"end": "XJSP",
+					"length": 29,
 					"neededEquipments": [
 						"RS"
-					]
+					],
+					"maxSpeed": 100,
+					"twistingFactor": 0.12
 				}
 			]
 		},
