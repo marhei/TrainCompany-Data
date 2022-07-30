@@ -874,6 +874,82 @@
 			]
 		},
 		{
+			"name": "Saarbahn",
+			"group": 1,
+			"electrified": true,
+			"objects": [
+				{
+        			"start": "XFSM",
+        			"end": "SHN",
+					"twistingFactor": 0.2,
+        			"length": 2,
+					"maxSpeed": 60
+    			},
+    			{
+        			"start": "SHN",
+        			"end": "SAM",
+					"twistingFactor": 0.15,
+        			"length": 2,
+					"maxSpeed": 100
+    			},
+    			{
+        			"start": "SAM",
+        			"end": "SKB",
+					"twistingFactor": 0.15,
+        			"length": 2,
+					"maxSpeed": 100
+    			},
+    			{
+        			"start": "SKB",
+        			"end": "SBN",
+					"twistingFactor": 0.25,
+        			"length": 3,
+					"maxSpeed": 100
+    			},
+    			{
+        			"start": "SBN",
+        			"end": "SGD",
+					"twistingFactor": 0.2,
+        			"length": 2,
+					"maxSpeed": 100
+    			},
+    			{
+        			"start": "SGD",
+        			"end": "SBA",
+					"twistingFactor": 0.05,
+        			"length": 2,
+					"maxSpeed": 100
+    			},
+				{
+        			"start": "SBA",
+        			"end": "SSH",
+					"twistingFactor": 0.15,
+        			"length": 4,
+					"maxSpeed": 30,
+					"neededEquipments": [
+						"bostrab"
+					]
+    			},
+				{
+        			"start": "SSH",
+        			"end": "SLCH",
+					"twistingFactor": 0.3,
+        			"length": 25,
+					"maxSpeed": 45,
+					"neededEquipments": [
+						"bostrab"
+					]
+    			},
+				{
+        			"start": "SLCH",
+        			"end": "SLCJ",
+					"twistingFactor": 0.05,
+        			"length": 1,
+					"maxSpeed": 40
+    			}
+			]
+		},
+		{
 			"name": "Pfälzische Ludwigsbahn",
 			"twistingFactor": 0.2,
 			"maxSpeed": 160,
