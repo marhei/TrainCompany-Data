@@ -5784,12 +5784,32 @@
 				},
 				{
 					"start": "XRDS",
-					"end": "XRBJ",
-					"length": 67,
+					"end": "XRIG",
+					"length": 18,
 					"neededEquipments": [
 						"HR"
 					],
 					"maxSpeed": 60,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XRIG",
+					"end": "XRPP",
+					"length": 25,
+					"neededEquipments": [
+						"HR"
+					],
+					"maxSpeed": 60,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XRPP",
+					"end": "XRBJ",
+					"length": 25,
+					"neededEquipments": [
+						"HR"
+					],
+					"maxSpeed": 70,
 					"twistingFactor": 0.2
 				},
 				{
