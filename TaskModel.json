@@ -2269,6 +2269,21 @@
 		},
 		{
 			"group": 1,
+			"name": "RE 18 %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den RE 18 von %s nach %s.",
+				"Fahre den Regionalexpress durch die Lausitz von %s nach %s."
+			],
+			"stations": [ "DH", "DCW", "DPR", "DGC", "BRU", "BSN", "BSEO", "BNP", "BCS" ],
+			"pathSuggestion": [ "DH", "DCW", "DPR", "DGC", "BRU", "BBS", "BSN", "BSEO", "BNP", "BCS" ],
+			"stopsEverwhere": false,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "HLB von %s nach %s",
 			"service": 2,
 			"descriptions": [
