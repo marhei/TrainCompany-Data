@@ -3087,6 +3087,58 @@
 			]
 		},
 		{
+			"group": 0,
+			"twistingFactor": 0.2,
+			"maxSpeed": 120,
+			"objects": [
+				{
+					"start": "KD",
+					"end": "KDV",
+					"length": 1
+				},
+				{
+					"start": "KDV",
+					"end": "KWST",
+					"length": 1
+				},
+				{
+        			"start": "KWST",
+					"end": "KDOB",
+					"length": 1
+				},
+				{
+					"start": "KDOB",
+					"end": "KDEM",
+					"length": 2
+				},
+				{
+					"start": "KDEM",
+					"end": "KDE",
+					"length": 1
+				},
+				{
+					"start": "KDE",
+					"end": "KHI",
+					"length": 6
+				},
+				{
+					"start": "KHI",
+					"end": "KHIS",
+					"length": 1
+				},
+				{
+					"start": "KHIS",
+					"end": "KSV",
+					"length": 4
+				},
+				{
+					"start": "KSV",
+					"end": "KSO",
+					"length": 2
+				}
+			]
+		},
+		{
 			"maxSpeed": 160,
 			"twistingFactor": 0.2,
 			"objects": [
@@ -12888,6 +12940,66 @@
 			]
 		},
 		{
+			"name": "Ferrovia Milano-Bologna",
+			"electrified": true,
+			"maxSpeed": 300,
+			"twistingFactor": 0.1,
+			"group": 2,
+			"neededEquipments": ["IT"],
+			"objects": [
+				{
+					"start": "XIMB",
+					"end": "XIRE",
+					"length": 143
+				},
+				{
+					"start": "XIRE",
+					"end": "XIBC",
+					"length": 63
+				}
+			]
+		},
+		{
+			"name": "Ferrovia Bologna-Firenze",
+			"electrified": true,
+			"maxSpeed": 300,
+			"twistingFactor": 0.2,
+			"group": 2,
+			"neededEquipments": ["IT"],
+			"objects": [
+				{
+					"start": "XIBC",
+					"end": "XIFRS",
+					"length": 78
+				}
+			]
+		},
+		{
+			"name": "Direttissima Firenze-Roma",
+			"electrified": true,
+			"maxSpeed": 250,
+			"group": 2,
+			"twistingFactor": 0.25,
+			"neededEquipments": ["IT"],
+			"objects": [
+				{
+					"start": "XIFRS",
+					"end": "XIFRC",
+					"length": 4
+				},
+				{
+					"start": "XIFRC",
+					"end": "XICU",
+					"length": 93
+				},
+				{
+					"start": "XICU",
+					"end": "XIRM",
+					"length": 164
+				}
+			]
+		},
+		{
 			"name": "Berliner Stadtbahn",
 			"electrified": true,
 			"group": 0,
@@ -13016,6 +13128,88 @@
 			]
 		},
 		{
+			"name": "Cottbus-Großenhain (nord)",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.05,
+			"objects": [
+				{
+					"start": "BCS",
+					"end": "BLE",
+					"length": 8,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BLE",
+					"end": "BDR",
+					"length": 5
+				},
+				{
+					"start": "BDR",
+					"end": "BNP",
+					"length": 7
+				},
+				{
+					"start": "BNP",
+					"end": "BBO",
+					"length": 4
+				},
+				{
+					"start": "BBO",
+					"end": "BSEO",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"name": "Cottbus-Großenhain (süd)",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.05,
+			"objects": [
+				{
+					"start": "BBS",
+					"end": "BSRO",
+					"length": 6
+				},
+				{
+					"start": "BSRO",
+					"end": "BRU",
+					"length": 2
+				},
+				{
+					"start": "BRU",
+					"end": "BORT",
+					"length": 12
+				},
+				{
+					"start": "BORT",
+					"end": "BLW",
+					"length": 10,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BLW",
+					"end": "DGC",
+					"length": 11
+				}
+			]
+		},
+		{
+			"name": "Großenhainer Verbindungsbahn",
+			"group": 0,
+			"electrified": true,
+			"maxSpeed": 40,
+			"start": "DGC",
+			"end": "DGB",
+			"length": 2,
+			"twistingFactor": 0.1
+		},
+		{
 			"name": "Calau-Senftenberg",
 			"electrified": true,
 			"group": 0,
@@ -13035,13 +13229,8 @@
 				},
 				{
 					"start": "BAD",
-					"end": "BADS",
-					"length": 2
-				},
-				{
-					"start": "BADS",
 					"end": "BGR",
-					"length": 5
+					"length": 7
 				},
 				{
 					"start": "BGR",
@@ -17011,6 +17200,13 @@
 					"group": 1,
 					"length": 4,
 					"twistingFactor": 0.1
+				},
+				{
+					"start": "XNES",
+					"end": "XNHL",
+					"length": 8,
+					"group": 1,
+					"neededEquipments": ["NL"]
 				}
 			]
 		},
