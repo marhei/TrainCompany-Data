@@ -3832,6 +3832,75 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "XAVH",
+					"end": "XAFS",
+					"name": "Karawankenbahn",
+					"length": 12,
+					"neededEquipments": [
+						"AT"
+					],
+					"maxSpeed": 100,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "XAFS",
+					"end": "XARB",
+					"name": "Karawankenbahn",
+					"length": 12,
+					"neededEquipments": [
+						"AT"
+					],
+					"maxSpeed": 80,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "XARB",
+					"end": "XZJ",
+					"name": "Karawankentunnel",
+					"length": 12,
+					"neededEquipments": [
+						"AT"
+					],
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XZJ",
+					"end": "XZLB",
+					"length": 13,
+					"neededEquipments": [
+						"SI"
+					],
+					"maxSpeed": 80,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XZLB",
+					"end": "XZKJ",
+					"length": 22,
+					"neededEquipments": [
+						"SI"
+					],
+					"maxSpeed": 75
+				},
+				{
+					"start": "XZKJ",
+					"end": "XZL",
+					"length": 29,
+					"neededEquipments": [
+						"SI"
+					],
+					"maxSpeed": 110,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"maxSpeed": 80,
 			"twistingFactor": 0.15,
