@@ -3882,6 +3882,24 @@
 		},
 		{
 			"group": 0,
+			"name": "GCT Nachtzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die Pauschalreisenden von %s nach %s",
+				"Fahre durch Europa mit dem Nachtzug",
+				"Die Reisenden wollen schnell in ihr Hotel am Zielort %2$s."
+			],
+			"objects": [
+				{
+					"stations": ["XVS", "XVM", "XDKH", "HBTH", "BL", "DH"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "beds", "value": 0 }
+			]
+		},
+		{
+			"group": 0,
 			"name": "McTrain von %s nach %s",
 			"service": 4,
 			"descriptions": [
