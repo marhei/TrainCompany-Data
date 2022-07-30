@@ -3453,6 +3453,31 @@
 			"stopsEverywhere": true
 		},
 		{
+			"name": "Saarbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe die Regionalstadtbahn der Linie S 1 von %s nach %s.",
+				"Bring die Fahrgäste im Tram-Train pünktlich nach %2$s.",
+				"Fahre die Regionalstadtbahn störungsfrei nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "XFSM", "SKB", "SBA", "SSH", "SLCH" ]
+				},
+				{
+					"stations": [ "SKB", "SBA", "SSH", "SLCH" ]
+				},
+				{
+					"stations": [ "SBA", "SSH", "SLCH", "SLCJ" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"stopsEverywhere": true
+		},
+		{
 			"name": "Eurotunnel Le Shuttle nach %2$s",
 			"service": 10,
 			"descriptions": [
