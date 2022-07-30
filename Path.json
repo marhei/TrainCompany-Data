@@ -12108,6 +12108,66 @@
 			]
 		},
 		{
+			"name": "Ferrovia Milano-Bologna",
+			"electrified": true,
+			"maxSpeed": 300,
+			"twistingFactor": 0.1,
+			"group": 2,
+			"neededEquipments": ["IT"],
+			"objects": [
+				{
+					"start": "XIMB",
+					"end": "XIRE",
+					"length": 143
+				},
+				{
+					"start": "XIRE",
+					"end": "XIBC",
+					"length": 63
+				}
+			]
+		},
+		{
+			"name": "Ferrovia Bologna-Firenze",
+			"electrified": true,
+			"maxSpeed": 300,
+			"twistingFactor": 0.2,
+			"group": 2,
+			"neededEquipments": ["IT"],
+			"objects": [
+				{
+					"start": "XIBC",
+					"end": "XIFRS",
+					"length": 78
+				}
+			]
+		},
+		{
+			"name": "Direttissima Firenze-Roma",
+			"electrified": true,
+			"maxSpeed": 250,
+			"group": 2,
+			"twistingFactor": 0.25,
+			"neededEquipments": ["IT"],
+			"objects": [
+				{
+					"start": "XIFRS",
+					"end": "XIFRC",
+					"length": 4
+				},
+				{
+					"start": "XIFRC",
+					"end": "XICU",
+					"length": 93
+				},
+				{
+					"start": "XICU",
+					"end": "XIRM",
+					"length": 164
+				}
+			]
+		},
+		{
 			"name": "Berliner Stadtbahn",
 			"electrified": true,
 			"group": 0,
