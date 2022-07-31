@@ -3290,19 +3290,19 @@
 			"group": 1
 		},
 		{
-			"name": "S 7 von %s nach %s",
+			"name": "S-Bahn Mitteldeutschland von %s nach %s",
 			"service": 3,
-			"descriptions": [
-				"Bringe die S 7 von %s nach %s.",
-				"Bring die Fahrgäste der S-Bahn Mitteldeutschland pünktlich nach %2$s.",
-				"Fahre die S-Bahn störungsfrei nach %2$s."
-			],
 			"objects": [
 				{
-					"stations": [ "LEL", "LRN", "LZBN", "LH" ]
-				},
-				{
-					"stations": [ "USG", "LEL", "LRN", "LZBN", "LH" ]
+					"descriptions": [
+						"Bringe die S 7 von %s nach %s.",
+						"Bring die Fahrgäste der S-Bahn Mitteldeutschland pünktlich nach %2$s.",
+						"Fahre die S-Bahn störungsfrei nach %2$s."
+					],
+					"objects": [
+						{ "stations": [ "LEL", "LRN", "LZBN", "LH" ] },
+						{ "stations": [ "USG", "LEL", "LRN", "LZBN", "LH" ] }
+					]
 				}
 			],
 			"stopsEverywhere": true,
