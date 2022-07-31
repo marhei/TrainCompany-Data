@@ -3332,6 +3332,20 @@
 			"group": 1
 		},
 		{
+			"name": "RE6 von %s nach %s",
+			"descriptions": [
+				"Bringe den RE 6 von %s nach %s.",
+				"Fahre den RE 6 durch die sächsische Provinz."
+			],
+			"service": 2,
+			"stations": [ "LL", "LBLS", "LGH", "DC" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
 			"name": "RB 57 / S 7 von %s nach %s",
 			"service": 3,
 			"descriptions": [
