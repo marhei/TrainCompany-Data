@@ -20385,7 +20385,46 @@
 			]
 		},
 		{
-			"name": "Geithain-Leipzig",
+			"name": "Geithain-Borna-Leipzig",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.15,
+			"objects":[
+				{
+					"start": "LNK",
+					"end": "LLO",
+					"length": 3
+				},
+				{
+					"start": "LLO",
+					"end": "LBL",
+					"length": 3
+				},
+				{
+					"start": "LBL",
+					"end": "LPB",
+					"length": 3
+				},
+				{
+					"start": "LPB",
+					"end": "LNWY",
+					"length": 2
+				},
+				{
+					"start": "LNWY",
+					"end": "LFB",
+					"length": 3
+				},
+				{
+					"start": "LFB",
+					"end": "LGH",
+					"length": 10
+				}
+			]
+		},
+		{
+			"name": "Geithain-Großpösna-Leipzig",
 			"electrified": false,
 			"group": 0,
 			"maxSpeed": 160,
