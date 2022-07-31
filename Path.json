@@ -20324,6 +20324,177 @@
 			]
 		},
 		{
+			"name": "Chemnitz-Geithain",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 110,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "DC",
+					"end": "DKW",
+					"length": 3,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DKW",
+					"end": "DCBH",
+					"length": 1,
+					"maxSpeed": 90
+				},
+				{
+					"start": "DCBH",
+					"end": "DWIM",
+					"length": 3,
+					"maxSpeed": 90
+				},
+				{
+					"start": "DWIM",
+					"end": "DWIO",
+					"length": 3,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DWIO",
+					"end": "DBU",
+					"length": 4,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DBU",
+					"end": "DCO",
+					"length": 7,
+					"twistingFactor": 0.2,
+					"maxSpeed": 120
+				},
+				{
+					"start": "DCO",
+					"end": "LNA",
+					"length": 9,
+					"maxSpeed": 100
+				},
+				{
+					"start": "LNA",
+					"end": "LGH",
+					"length": 6,
+					"maxSpeed": 130
+				}
+			]
+		},
+		{
+			"name": "Geithain-Leipzig",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "LGH",
+					"end": "LTNH",
+					"length": 4,
+					"maxSpeed": 110,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "LTNH",
+					"end": "LHGT",
+					"length": 3,
+					"maxSpeed": 110,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "LHGT",
+					"end": "LBLS",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "LBLS",
+					"end": "LLSB",
+					"length": 4,
+					"maxSpeed": 110
+				},
+				{
+					"start": "LLSB",
+					"end": "LOTW",
+					"length": 3,
+					"maxSpeed": 150,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "LOTW",
+					"end": "LBGH",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "LBGH",
+					"end": "LOH",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "LOH",
+					"end": "LGP",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "LGP",
+					"end": "LLWZ",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "LLWZ",
+					"end": "LHSN",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "LHSN",
+					"end": "LMLK",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "LMLK",
+					"end": "LEW",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "LEW",
+					"end": "LLPD",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "LLPD",
+					"end": "LL  V",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "LL  V",
+					"end": "LL",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 130,
