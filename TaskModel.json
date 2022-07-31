@@ -3318,6 +3318,20 @@
 			"group": 1
 		},
 		{
+			"name": "RB 113 von %s nach %s",
+			"descriptions": [
+				"Bringe den RB 113 von %s nach %s.",
+				"Fahre den RB 113 durch die sächsische Provinz."
+			],
+			"service": 3,
+			"stations": [ "LGH", "LBLS", "LL" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
 			"name": "RB 57 / S 7 von %s nach %s",
 			"service": 3,
 			"descriptions": [
