@@ -3588,6 +3588,49 @@
 		},
 		{
 			"group": 0,
+			"service": 4,
+			"name": "Sonderzug für die in %s gestrandete Pfadfindergruppe nach %s",
+			"descriptions": [
+				"Die Pfadfinder wollten eigentlich nach %2$s, jetzt sind sie aber in %1$s gelandet!",
+				"Die verpeilten Pfadfinder müssen schnell von %s zum großen Treffen nach %s.",
+				"Der Gruppenleiter hat sich im Zielort vertan, nun muß die Gruppe schnell von %2$s nach %1$s gefahren werden.",
+				"Hätte der Gruppenleiter am Fahrkartenschalter nicht so genuschelt, wären sie jetzt schon in %2$s und säßen nicht in %1$s fest."
+			],
+			"objects": [
+				{"stations": [ "LGRI", "WGI" ]},
+				{"stations": [ "BWUE", "HWUN"]},
+				{"stations": [ "MLIR", "MLDI"]},
+				{"stations": [ "MLIR", "RLA" ]},
+				{"stations": [ "MLDI", "RLA" ]},
+				{"stations": [ "FROF", "AROG"]},
+				{"stations": [ "FROF", "TRT" ]},
+				{"stations": [ "AROG", "TRT" ]},
+				{"stations": [ "MFB", "WF"   ]},
+				{"stations": [ "MFB", "BFUW" ]},
+				{"stations": [ "WF", "BFUW"  ]},
+				{"stations": [ "TBO", "MBOB" ]},
+				{"stations": [ "AL", "AJ"    ]},
+				{"stations": [ "XBHAL", "LH" ]},
+				{"stations": [ "WSTZ", "WSZ" ]},
+				{"stations": [ "SRO", "MRBI" ]},
+				{"stations": [ "AOL", "HOLD" ]},
+				{"stations": [ "FF", "BFP"   ]},
+				{"stations": [ "HNBF", "🇳🇱Brn"]},
+				{"stations": [ "MER", "🇬🇧RDG"]},
+				{"stations": [ "FNSM", "HNRU"]},
+				{"stations": [ "HNRU", "NNA"]},
+				{"stations": [ "NNA", "RNSS"]},
+				{"stations": [ "RNSS", "WNS"]},
+				{"stations": [ "WNS", "RN"]},
+				{"stations": [ "🇦🇹Nsf", "FFG"]},
+				{"stations": [ "XASA", "US"]}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 25 }
+			]
+		},
+		{
+			"group": 0,
 			"name": "Fußball-Sonderzug von %s nach %s",
 			"service": 4,
 			"descriptions": [
