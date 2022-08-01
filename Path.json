@@ -2033,6 +2033,115 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 150,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTBE",
+					"end": "XTPOD",
+					"length": 11,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTPOD",
+					"end": "XTBR",
+					"length": 49,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTBR",
+					"end": "🇨🇿33015",
+					"length": 15,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇿33015",
+					"end": "XTBA",
+					"length": 8,
+					"maxSpeed": 100
+				},
+				{
+					"start": "XTBA",
+					"end": "XTSS",
+					"length": 14,
+					"maxSpeed": 120
+				},
+				{
+					"start": "XTSS",
+					"end": "XTLE",
+					"length": 9,
+					"maxSpeed": 105
+				},
+				{
+					"start": "XTLE",
+					"end": "XTSI",
+					"length": 26,
+					"maxSpeed": 120,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XTSI",
+					"end": "XTTR",
+					"length": 16,
+					"maxSpeed": 130,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XTTR",
+					"end": "XTUO",
+					"length": 10,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XTUO",
+					"end": "XTCE",
+					"length": 14,
+					"maxSpeed": 85
+				},
+				{
+					"start": "XTCE",
+					"end": "XTPAR",
+					"length": 34,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTPAR",
+					"end": "XTPE",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTPE",
+					"end": "XTKI",
+					"length": 28,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTKI",
+					"end": "XTVEL",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTVEL",
+					"end": "XTP",
+					"length": 54,
+					"maxSpeed": 150,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
 			"group": 2,
 			"name": "Hannover-Würzburg",
 			"twistingFactor": 0.05,
@@ -13742,6 +13851,42 @@
 		},
 		{
 			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.16,
+			"name": "Nordbahn",
+			"objects": [
+				{
+					"start": "XAWW",
+					"end": "XASBN",
+					"length": 18,
+					"neededEquipments": [
+						"AT"
+					],
+					"maxSpeed": 100,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "XASBN",
+					"end": "XAHH",
+					"length": 53,
+					"neededEquipments": [
+						"AT"
+					]
+				},
+				{
+					"start": "XAHH",
+					"end": "XTBE",
+					"length": 18,
+					"neededEquipments": [
+						"CZ",
+						"AT"
+					]
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"group": 2,
 			"twistingFactor": 0.18,
 			"neededEquipments": [
@@ -22905,6 +23050,63 @@
 					"length": 23,
 					"maxSpeed": 125,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.25,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTD",
+					"end": "XTU",
+					"length": 22,
+					"maxSpeed": 120
+				},
+				{
+					"start": "XTU",
+					"end": "XTLO",
+					"length": 22,
+					"maxSpeed": 110
+				},
+				{
+					"start": "XTLO",
+					"end": "XTRN",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "XTRN",
+					"end": "XTHN",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XTHN",
+					"end": "XTKR",
+					"length": 30,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XTKR",
+					"end": "XTROZ",
+					"length": 15,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XTROZ",
+					"end": "XTP",
+					"length": 17,
+					"maxSpeed": 80,
+					"twistingFactor": 0.28
 				}
 			]
 		},
