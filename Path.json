@@ -20196,6 +20196,80 @@
 			]
 		},
 		{
+			"name": "Borsdorf–Coswig (nord)",
+			"electrified": false,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "LBOR",
+					"end": "LBEU",
+					"length": 4,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "LBEU",
+					"end": "LNH",
+					"length": 5,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "LNH",
+					"end": "LGS",
+					"length": 4,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "LGS",
+					"end": "LGRI",
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "LGRI",
+					"end": "DGR",
+					"length": 7,
+					"twistingFactor": 0.1,
+					"maxSpeed": 90
+				},
+				{
+					"start": "DGR",
+					"end": "DTA",
+					"length": 8,
+					"maxSpeed": 70					
+				},
+				{
+					"start": "DTA",
+					"end": "DMP",
+					"length": 2,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DMP",
+					"end": "DLS",
+					"length": 5,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DLS",
+					"end": "DKLB",
+					"length": 5,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DKLB",
+					"end": "DWES",
+					"length": 3
+				},
+				{
+					"start": "DWES",
+					"end": "DDE",
+					"length": 6
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.2,
