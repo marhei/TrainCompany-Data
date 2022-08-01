@@ -3290,22 +3290,56 @@
 			"group": 1
 		},
 		{
-			"name": "S 7 von %s nach %s",
+			"name": "S-Bahn Mitteldeutschland von %s nach %s",
 			"service": 3,
-			"descriptions": [
-				"Bringe die S 7 von %s nach %s.",
-				"Bring die Fahrgäste der S-Bahn Mitteldeutschland pünktlich nach %2$s.",
-				"Fahre die S-Bahn störungsfrei nach %2$s."
-			],
 			"objects": [
 				{
-					"stations": [ "LEL", "LRN", "LZBN", "LH" ]
+					"descriptions": [
+						"Bringe die S 6 von %s nach %s."
+					],
+					"stations": [ "LGH", "LBL", "LNK", "LL" ]
 				},
 				{
-					"stations": [ "USG", "LEL", "LRN", "LZBN", "LH" ]
+					"descriptions": [
+						"Bringe die S 7 von %s nach %s.",
+						"Bring die Fahrgäste der S-Bahn Mitteldeutschland pünktlich nach %2$s.",
+						"Fahre die S-Bahn störungsfrei nach %2$s."
+					],
+					"objects": [
+						{ "stations": [ "LEL", "LRN", "LZBN", "LH" ] },
+						{ "stations": [ "USG", "LEL", "LRN", "LZBN", "LH" ] }
+					]
 				}
 			],
 			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
+			"name": "RB 113 von %s nach %s",
+			"descriptions": [
+				"Bringe den RB 113 von %s nach %s.",
+				"Fahre den RB 113 durch die sächsische Provinz."
+			],
+			"service": 3,
+			"stations": [ "LGH", "LBLS", "LL" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
+			"name": "RE6 von %s nach %s",
+			"descriptions": [
+				"Bringe den RE 6 von %s nach %s.",
+				"Fahre den RE 6 durch die sächsische Provinz."
+			],
+			"service": 2,
+			"stations": [ "LL", "LBLS", "LGH", "DC" ],
+			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
