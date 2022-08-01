@@ -20270,6 +20270,62 @@
 			]
 		},
 		{
+			"name": "Beucha-Trebsen",
+			"electrified": false,
+			"group": 1,
+			"twistingFactor": 0.2,
+			"maxSpeed": 60,
+			"objects":[
+				{
+					"start": "LBEU",
+					"end": "LBRG",
+					"length": 1,
+					"maxSpeed": 40
+				},
+				{
+					"start": "LBRG",
+					"end": "LBRA",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "LBRA",
+					"end": "LAMH",
+					"length": 5,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "LAMH",
+					"end": "LALH",
+					"length": 3,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "LALH",
+					"end": "LSE",
+					"length": 2
+				},
+				{
+					"start": "LSE",
+					"end": "LSET",
+					"length": 1,
+					"maxSpeed": 40
+				},
+				{
+					"start": "LSET",
+					"end": "LTRG",
+					"length": 1,
+					"maxSpeed": 40
+				},
+				{
+					"start": "LTRG",
+					"end": "LTRE",
+					"length": 2,
+					"maxSpeed": 40
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.2,
