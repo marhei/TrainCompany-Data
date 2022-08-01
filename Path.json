@@ -20196,14 +20196,150 @@
 			]
 		},
 		{
+			"name": "Borsdorf–Coswig (nord)",
+			"electrified": false,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "LBOR",
+					"end": "LBEU",
+					"length": 4,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "LBEU",
+					"end": "LNH",
+					"length": 5,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "LNH",
+					"end": "LGS",
+					"length": 4,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "LGS",
+					"end": "LGRI",
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "LGRI",
+					"end": "DGR",
+					"length": 7,
+					"twistingFactor": 0.1,
+					"maxSpeed": 90
+				},
+				{
+					"start": "DGR",
+					"end": "DTA",
+					"length": 8,
+					"maxSpeed": 70					
+				},
+				{
+					"start": "DTA",
+					"end": "DMP",
+					"length": 2,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DMP",
+					"end": "DLS",
+					"length": 5,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DLS",
+					"end": "DKLB",
+					"length": 5,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DKLB",
+					"end": "DWES",
+					"length": 3
+				},
+				{
+					"start": "DWES",
+					"end": "DDE",
+					"length": 6
+				}
+			]
+		},
+		{
+			"name": "Beucha-Trebsen",
+			"electrified": false,
+			"group": 1,
+			"twistingFactor": 0.2,
+			"maxSpeed": 60,
+			"objects":[
+				{
+					"start": "LBEU",
+					"end": "LBRG",
+					"length": 1,
+					"maxSpeed": 40
+				},
+				{
+					"start": "LBRG",
+					"end": "LBRA",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "LBRA",
+					"end": "LAMH",
+					"length": 5,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "LAMH",
+					"end": "LALH",
+					"length": 3,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "LALH",
+					"end": "LSE",
+					"length": 2
+				},
+				{
+					"start": "LSE",
+					"end": "LSET",
+					"length": 1,
+					"maxSpeed": 40
+				},
+				{
+					"start": "LSET",
+					"end": "LTRG",
+					"length": 1,
+					"maxSpeed": 40
+				},
+				{
+					"start": "LTRG",
+					"end": "LTRE",
+					"length": 2,
+					"maxSpeed": 40
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.2,
 			"objects": [
 				{
 					"start": "LL",
+					"end": "LBOR",
+					"length": 11,
+					"maxSpeed": 200
+				},
+				{
+					"start": "LBOR",
 					"end": "LWZ",
-					"length": 25,
+					"length": 14,
 					"maxSpeed": 200
 				},
 				{

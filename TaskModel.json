@@ -866,7 +866,7 @@
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
 			],
-			"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HL", "HWUN", "HH", "HELZ", "HBS", "LM", "LK", "LH", "LGOS", "LL", "DR", "DPR", "DH" ]
+			"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HL", "HWUN", "HH", "HELZ", "HBS", "LM", "LK", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DH" ]
 		},
 		{
 			"group": 1,
@@ -3321,6 +3321,20 @@
 			"group": 1
 		},
 		{
+			"name": "RB 110 von %s nach %s",
+			"descriptions": [
+				"Bringe den RB 110 von %s nach %s.",
+				"Fahre den RB 110 durch die sächsische Provinz."
+			],
+			"service": 3,
+			"stations": [ "LL", "LBOR", "LBEU", "LGRI", "DGR", "DDE" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
 			"name": "RB 113 von %s nach %s",
 			"descriptions": [
 				"Bringe den RB 113 von %s nach %s.",
@@ -3385,6 +3399,7 @@
 				"Fahre den RE störungsfrei nach %2$s."
 			],
 			"stations": [ "DH", "DCW", "DNDR", "DPR", "DGLA", "DR", "DOT", "LDA", "LWZ", "LL" ],
+			"pathSuggestion": [ "DH", "DCW", "DNDR", "DPR", "DGLA", "DR", "DOT", "LDA", "LWZ", "LBOR", "LL" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
