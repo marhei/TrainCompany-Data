@@ -3321,6 +3321,20 @@
 			"group": 1
 		},
 		{
+			"name": "RB 110 von %s nach %s",
+			"descriptions": [
+				"Bringe den RB 110 von %s nach %s.",
+				"Fahre den RB 110 durch die sächsische Provinz."
+			],
+			"service": 3,
+			"stations": [ "LL", "LBOR", "LBEU", "LGRI", "DGR", "DDE" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1
+		},
+		{
 			"name": "RB 113 von %s nach %s",
 			"descriptions": [
 				"Bringe den RB 113 von %s nach %s.",
