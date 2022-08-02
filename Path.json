@@ -8241,6 +8241,76 @@
 			]
 		},
 		{
+			"name": "Natobahn",
+			"group": 1,
+			"electrified": true,
+			"maxSpeed": 80,
+			"twistingFactor": 0.15,
+			"objects": [
+				{
+					"start": "HNBG",
+					"end": "HLGD",
+					"length": 4,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "HLGD",
+					"end": "HSFF",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HSFF",
+					"end": "HEST",
+					"length": 4,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HEST",
+					"end": "HLDB",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HLDB",
+					"end": "HLST",
+					"length": 4,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "HLST",
+					"end": "HHMS",
+					"length": 10
+				},
+				{
+					"start": "HHMS",
+					"end": "HWDH",
+					"length": 8
+				},
+				{
+					"start": "HWDH",
+					"end": "HLAD",
+					"length": 4
+				},
+				{
+					"start": "HLAD",
+					"end": "HFLL",
+					"length": 5,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "HFLL",
+					"end": "HM  G",
+					"length": 6
+				},
+				{
+					"start": "HM  G",
+					"end": "HM",
+					"length": 2
+				}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Heidebahn",
 			"electrified": false,
