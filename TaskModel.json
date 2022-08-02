@@ -2276,8 +2276,8 @@
 				"Fahre den RE 18 von %s nach %s.",
 				"Fahre den Regionalexpress durch die Lausitz von %s nach %s."
 			],
-			"stations": [ "DH", "DCW", "DPR", "DGC", "BRU", "BSN", "BSEO", "BNP", "BCS" ],
-			"pathSuggestion": [ "DH", "DCW", "DPR", "DGC", "BRU", "BBS", "BSN", "BSEO", "BNP", "BCS" ],
+			"stations": [ "DH", "DCW", "DPR", "DGB", "BRU", "BSN", "BSEO", "BNP", "BCS" ],
+			"pathSuggestion": [ "DH", "DCW", "DPR", "DGB", "BRU", "BBS", "BSN", "BSEO", "BNP", "BCS" ],
 			"stopsEverwhere": false,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -4312,8 +4312,8 @@
 				},
 				{
 					"descriptions": [ "Fahre den TEE Mediolanum von %s bis %s" ],
-					"stations": [ "MH", "XAKN", "XAI", "XIBN", "XIBZ", "XITR", "XIVP", "XIMB" ],
-					"pathSuggestion": [ "MH", "MHR", "MGB", "MRO", "XAKN", "XAWL", "🇦🇹Fw Z2", "XAI", "🇦🇹I Z1", "XIBN", "XIFF", "XIBZ", "XITR", "XIVP", "XILN", "XIBCA", "🇮🇹01711", "🇮🇹01708", "XIMB" ]
+					"stations": [ "MH", "XAKN", "XAI", "XIBZ", "XITR", "XIVP", "XIMB" ],
+					"pathSuggestion": [ "MH", "MHR", "MGB", "MRO", "XAKN", "XAWL", "🇦🇹Fw Z2", "XAI", "🇦🇹I Z1", "XIFF", "XIBZ", "XITR", "XIVP", "XILN", "XIBCA", "🇮🇹01711", "🇮🇹01708", "XIMB" ]
 				},
 				{
 					"descriptions": [ "Fahre den TEE L'Arbalète von %s bis %s" ],
@@ -4326,9 +4326,9 @@
 					"descriptions": [ "Fahre den Vindobona von %s bis %s" ],
 					"stations": [ "BHF", "BEW", "DH", "XTP","XAWW" ],
 					"pathSuggestion": [ "BHF", "BL", "BBF", "BDKO", "BEW",
-						"DGC",
+						"DGB",
 						"DH", "DSA", "XTD", "XTU", "XTP",
-						"XKTI", "XTPAR", "XTTR" , "XTBR", "XTBE",
+						"XTKI", "XTPAR", "XTTR" , "XTBR", "XTBE",
 						"XAWW"
 					]
 				},
@@ -4351,17 +4351,17 @@
 				{
 					"descriptions": [ "Fahre den TEE Lemano von %s bis %s" ],
 					"stations": [ "XIMB", "XID", "XSBG", "XSSN", "XSLA", "XSGE" ],
-					"pathSuggestion": [ "XIMB", "XIR", "XID", "XSBG", "XVSI", "XSSN", "XSMA", "XSMO", "🇨🇭VV", "XSLA", "XSMG", "XSGE" ]
+					"pathSuggestion": [ "XIMB", "XIR", "XID", "XSBG", "XSVI", "XSSN", "XSMA", "XSMO", "🇨🇭VV", "XSLA", "XSMG", "XSGE" ]
 				},
 				{
 					"descriptions": [ "Fahre den TEE Ticino von %s bis %s" ],
 					"stations": [ "XIMB", "XSCH", "XSL", "XSZH" ],
-					"pathSuggestion": [ "XIMB", "XSCH", "XSL", "XSBZ", "XSBC", "XSAI", "XSEF", "XSADF", "XSAG", "XSZU", "XSTW", "XSZH" ]
+					"pathSuggestion": [ "XIMB", "XSCH", "XSL", "XSBZ", "XSBC", "XSBOD", "XSAI", "XSEF", "XSADF", "XSAG", "XSZU", "XSTW", "XSZH" ]
 				},
 				{
 					"descriptions": [ "Fahre den TEE Roland von %s bis %s" ],
 					"stations": [ "HB", "HH", "HG", "FFU", "FF", "RH", "RK", "RBB", "RF", "RB", "XSLU", "XSAG", "XSBZ", "XSL", "XSCH", "XIMB" ],
-					"pathSuggestion": [ "HB", "HV", "HWUN", "HH", "HELZ", "HK", "HN", "HG", "HEBG", "FB", "FBHF", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RH", "RBR", "RK", "RBB", "RAP", "RO", "RF", "RML", "RB", "XOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSEF", "XSAI", "XSBC", "XSBZ", "XSL", "XSCH", "XIMB" ]
+					"pathSuggestion": [ "HB", "HV", "HWUN", "HH", "HELZ", "HK", "HN", "HNTH", "HG", "HEBG", "FB", "FBHF", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RH", "RBR", "RK", "RBB", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSEF", "XSAI", "XSBOD", "XSBC", "XSBZ", "XSL", "XSCH", "XIMB" ]
 				},
 				{
 					"descriptions": [ "Fahre den TEE Prinz Eugen von %s bis %s" ],
