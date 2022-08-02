@@ -4370,6 +4370,7 @@
 				}
 			],
 			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
 				{ "name": "beds", "value": 0 },
 				{ "name": "bistroseats", "value": 0 },
 				{ "name": "cars", "value": 64 }
@@ -4633,22 +4634,19 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "XJBC", "XJBR", "XJML", "XJLP", "XJSZ", "XJSC", "XJA", "MSTS", "XJNI" ],
-					"pathSuggestion": [ "XJBC", "XJBR", "XJML", "XJLP", "XJSZ", "XJSC", "XJA", "MSTS", "XJNI" ]
+					"stations": [ "XJBC", "XJBR", "XJML", "XJLP", "XJSZ", "XJSC", "XJA", "MSTS", "XJNI" ]
 				},
 				{
 					"stations": [ "XJNI", "XJBP", "XJP", "XJDI" ],
-					"pathSuggestion": [ "XJNI", "XJBP", "XJP", "XJDI" ]
 				},
 				{
-					"stations": [ "XJBC", "XJNP", "XJSP", "XJDI", "XJRU", "XJSM", "XJSI" ],
-					"pathSuggestion": [ "XJBC", "XJNP", "XJSP", "XJDI", "XJRU", "XJSM", "XJSI" ]
+					"stations": [ "XJBC", "XJNP", "XJSP", "XJDI", "XJRU", "XJSM", "XJSI" ]
 				},
 				{
-					"stations": [ "XJBC", "XJNP", "XJSP", "XJNS", "XJST" ],
-					"pathSuggestion": [ "XJBC", "XJNP", "XJSP", "XJNS", "XJST" ]
+					"stations": [ "XJBC", "XJNP", "XJSP", "XJNS", "XJST" ]
 				}
 			],
+			"stopsEverywhere": true,			
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4677,18 +4675,16 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "XZL", "XZZM", "XZSN", "XZD" ],
-					"pathSuggestion": [  "XZL", "XZZM", "XZSN", "XZD" ]
+					"stations": [ "XZL", "XZZM", "XZSN", "XZD" ]
 				},
 				{
-					"stations": [ "XZL", "XZBO", "XZLO", "XZPJ", "XZDV", "XZS", "XIVOP", "03313", "XIT" ],
-					"pathSuggestion": [ "XZL", "XZBO", "XZLO", "XZPJ", "XZDV", "XZS", "XIVOP", "03313", "XIT" ]
+					"stations": [ "XZL", "XZBO", "XZLO", "XZPJ", "XZDV", "XZS", "XIVOP", "03313", "XIT" ]
 				},
 				{
-					"stations": [ "XZL", "XZKJ", "XZLB", "XZJ" ],
-					"pathSuggestion": [ "XZL", "XZKJ", "XZLB", "XZJ" ]
+					"stations": [ "XZL", "XZKJ", "XZLB", "XZJ" ]
 				}
 			],
+			"stopsEverywhere": true,			
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4704,14 +4700,13 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "XRZ", "XRDS", "XRIG", "XRPP", "XRBJ", "XRNV", "XRNG", "XRNK", "XRSL", "XRSV", "XRVI" ],
-					"pathSuggestion": [ "XRZ", "XRDS", "XRIG", "XRPP", "XRBJ", "XRNV", "XRNG", "XRNK", "XRSL", "XRSV", "XRVI" ]
+					"stations": [ "XRZ", "XRDS", "XRIG", "XRPP", "XRBJ", "XRNV", "XRNG", "XRNK", "XRSL", "XRSV", "XRVI" ]
 				},
 				{
-					"stations": [ "XRNV", "XRNG", "XRNK", "XRSL", "XRSV", "XRVI", "XRT" ],
-					"pathSuggestion": [ "XRNV", "XRNG", "XRNK", "XRSL", "XRSV", "XRVI", "XRT" ]
+					"stations": [ "XRNV", "XRNG", "XRNK", "XRSL", "XRSV", "XRVI", "XRT" ]
 				}
 			],
+			"stopsEverywhere": true,			
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4742,18 +4737,16 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "XMBK", "26204", "16261", "16311" ],
-					"pathSuggestion": [ "XMBK", "26204", "16261", "16311" ]
+					"stations": [ "XMBK", "26204", "16261", "16311" ]
 				},
 				{
-					"stations": [ "XMBK", "XMBOS", "XMBA", "XMTB", "XMTA", "XMKO", "XMG" ],
-					"pathSuggestion": [ "XMBK", "XMBOS", "XMBA", "XMTB", "XMTA", "XMKO", "XMG" ]
+					"stations": [ "XMBK", "XMBOS", "XMBA", "XMTB", "XMTA", "XMKO", "XMG" ]
 				},
 				{
-					"stations": [ "XMBK", "XMBOS", "XMBA", "XMTB", "XMTA", "XMKO", "XMG", "XMMO", "XMHY" ],
-					"pathSuggestion": [ "XMBK", "XMBOS", "XMBA", "XMTB", "XMTA", "XMKO", "XMG", "XMMO", "XMHY" ]
+					"stations": [ "XMBK", "XMBOS", "XMBA", "XMTB", "XMTA", "XMKO", "XMG", "XMMO", "XMHY" ]
 				}
 			],
+			"stopsEverywhere": true,			
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
