@@ -1041,6 +1041,33 @@
 		},
 		{
 			"group": 1,
+			"name": "EuroNight von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die Urlauber sicher nach Hause.",
+				"Bringe die Fahrgäste in den Urlaub."
+			],
+			"objects": [
+				{
+					"stations": [ "MH", "MRO", "XASB", "XASW", "XAVH", "XZL", "XZD", "XRZ" ],
+					"pathSuggestion": [ "MH", "MGB", "MRO", "MBEF", "MTS", "MFL", "XASB", "XASW", "XAVH", "XZL", "XZD", "XRZ" ]
+				},
+				{
+					"stations": [ "MH", "MRO", "XASB", "XAP", "XAWW", "XMHY", "XMBK" ],
+					"pathSuggestion": [ "MH", "MGB", "MRO", "MBEF", "MTS", "MFL", "XASB", "XASF", "XAAT", "XAWE", "XAP", "XAWW", "XMHY", "XMBK" ]
+				},
+				{
+					"stations": [ "XMBK", "XMHY", "XAWW", "XTBR", "XTP", "DH", "BL", "LM", "EHM", "KW", "KK", "KM", "EDG", "EOB" ],
+					"pathSuggestion": [ "XMBK", "XMHY", "XAWW", "XTBR", "XTP", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "LM", "HBS", "HELZ", "HH", "HWUN", "HL", "EHFD", "EBILP", "EHM", "EHG", "KW", "KSO", "KK", "KGRB", "KM", "KV", "EDG", "EOB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "beds", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "NightJet von %s nach %s",
 			"service": 1,
 			"descriptions": [
@@ -1071,6 +1098,10 @@
 				{
 					"stations": [ "XSZH", "XSBE", "XSLA", "XSGE", "XFLPD", "XFAVV", "XFNB", "XFPE", "XEB" ],
 					"pathSuggestion": [ "XSZH", "XSKS", "XSOL", "XSZG", "XSLT", "XSBE", "🇨🇭PUI", "XSLA", "XSMG", "XSGE", "XFCZ", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷77539", "🇫🇷NMS", "🇫🇷VLM", "XFNB", "XFPE", "XEB" ]
+				},
+				{
+					"stations": [ "MH", "MRO", "XASB", "XAWL", "XIVP", "XIVNS" ],
+					"pathSuggestion": [ "MH", "MGB", "MRO", "MBEF", "MTS", "MFL", "XASB", "XASW", "XAHG", "XAWL", "🇦🇹Fw Z2", "🇦🇹I Z1", "XIFF", "XIVP", "XIVNS" ]
 				}
 			],
 			"neededCapacity": [
