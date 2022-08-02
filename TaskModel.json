@@ -4342,11 +4342,7 @@
 			"descriptions": [
 				"Bringe die schlafenden Fahrgäste von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XWS", "XWSP", "16043", "XWPL", "14000", "XWSV", "XQED", "XQCK", "XQHA", "XQIS" ],
-					"pathSuggestion": [ "XWS", "XWSP", "16043", "XWPL", "14000", "XWSV", "XQED", "XQCK", "XQHA", "XQIS" ]
-				}
+			"stations": [ "XWS", "XWSP", "16043", "XWPL", "14000", "XWSV", "XQED", "XQCK", "XQHA", "XQIS" ]
 			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
@@ -4456,12 +4452,7 @@
 			"descriptions": [
 				"Fahre diesen Railjet von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XAWW", "XMHY", "XMG", "XMBK" ],
-					"pathSuggestion": [ "XAWW", "XMHY", "XMG", "XMBK" ] 
-				}
-			],
+			"stations": [ "XAWW", "XMHY", "XMG", "XMBK" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
@@ -4474,12 +4465,7 @@
 			"descriptions": [
 				"Fahre diesen Intercity von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XMG", "XMKO", "XMTA", "XMTB", "XMBK" ],
-					"pathSuggestion": [ "XMG", "XMKO", "XMTA", "XMTB", "XMBK" ] 
-				}
-			],
+			"stations": [ "XMG", "XMKO", "XMTA", "XMTB", "XMBK" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
@@ -4538,30 +4524,7 @@
 			"descriptions": [
 				"Fahre diesen Schnellzug von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XZD", "XZL", "XZJ", "XAVH" ],
-					"pathSuggestion": [ "XZD", "XZL", "XZJ", "XAVH" ] 
-				}
-			],
-			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
-			]
-
-		},
-		{
-			"group": 1,
-			"name": "Schnellzug von %s nach %s",
-			"service": 1,
-			"descriptions": [
-				"Fahre diesen Schnellzug von %s nach %s."
-			],
-			"objects": [
-				{
-					"stations": [ "XRZ", "XRNV", "XRSL", "XRVI" ],
-					"pathSuggestion": [ "XRZ", "XRNV", "XRSL", "XRVI" ] 
-				}
-			],
+			"stations": [ "XZD", "XZL", "XZJ", "XAVH" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4573,12 +4536,19 @@
 			"descriptions": [
 				"Fahre diesen Schnellzug von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XJDI", "XWS", "16043", "XWPL", "14000", "XWSW" ],
-					"pathSuggestion": [ "XJDI", "XWS", "16043", "XWPL", "14000", "XWSW" ] 
-				}
+			"stations": [ "XRZ", "XRNV", "XRSL", "XRVI" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s."
 			],
+			"stations": [ "XJDI", "XWS", "16043", "XWPL", "14000", "XWSW" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]			
