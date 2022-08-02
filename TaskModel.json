@@ -2315,6 +2315,31 @@
 			]
 		},
 		{
+			"name": "RE 78 von %s nach %s",
+			"group": 1,
+			"service": 2,
+			"descriptions": [
+				"Fahre den RE 78 über die Natobahn von %s nach %s.",
+				"Fahre die Regionalbahn entlang der Weser von %s nach %s",
+				"Der Eurobahn RE 78 verkehrt neuerdings auch vereinzelt am Wochenende.",
+				"Der Porta-Express ist wichtig für den Berufsverkehr"
+			],
+			"objects": [
+				{
+					"stations": [ "HNBG", "HM", "HL", "EHFD", "EBILP" ],
+					"pathSuggestion": [ "HNBG", "HM", "HL", "EHFD", "EBILP" ]
+				},
+				{
+					"stations": [ "HNBG", "HM", "HL", "EHFD", "EBILP", "EGLO", "ERDW" ],
+					"pathSuggestion": [ "HNBG", "HM", "HL", "EHFD", "EBILP", "EGLO", "ERDW" ]
+				}
+			],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
 			"group": 1,
 			"name": "HLB von %s nach %s",
 			"service": 2,
