@@ -3509,6 +3509,23 @@
 			"stopsEverywhere": true
 		},
 		{
+			"name": "RB 76 von %s nach %s",
+			"group": 1,
+			"service": 3,
+			"descriptions": [
+				"Fahre den RB 76 über die Natobahn von %s nach %s.",
+				"Fahre die Regionalbahn entlang der Weser von %s nach %s",
+				"Die RB 76 fährt nur am Wochenende.",
+				"Die Strecke ist bei Nutzern des Schönes-Wochenende-Ticket sehr beliebt."
+			],
+			"stations": [ "HM", "HNBG", "HDVD", "HV", "AROG" ],
+			"pathSuggestion": [ "HM", "HNBG", "HDVD", "HV", "AROG" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
 			"name": "RB 80 von %s nach %s",
 			"service": 3,
 			"descriptions": [
