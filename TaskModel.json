@@ -866,7 +866,7 @@
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
 			],
-			"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HL", "HWUN", "HH", "HELZ", "HBS", "LM", "LK", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DH" ]
+			"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HELZ", "HBS", "LM", "LK", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DH" ]
 		},
 		{
 			"group": 1,
@@ -970,7 +970,7 @@
 			"objects": [
 				{
 					"stations": [ "BL", "BSPD", "LS", "HH", "HO", "HR", "XNHL", "🇳🇱Aml", "🇳🇱Dv", "🇳🇱Amf", "🇳🇱Hvs", "XNAC" ],
-					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HH", "HWUN", "HL", "HO", "HR", "XNHL", "🇳🇱Aml", "🇳🇱Dv", "🇳🇱Amf", "🇳🇱Hvs", "XNAC" ]
+					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HH", "HWUN", "HM", "HL", "HO", "HR", "XNHL", "🇳🇱Aml", "🇳🇱Dv", "🇳🇱Amf", "🇳🇱Hvs", "XNAC" ]
 				}
 			],
 			"neededCapacity": [
@@ -992,7 +992,7 @@
 				},
 				{
 					"stations": [ "HH", "EHFD", "EBILP", "EGLO", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK" ],
-					"pathSuggestion": [ "HH", "HWUN", "HL", "EHFD", "EBILP", "EGLO", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK" ]
+					"pathSuggestion": [ "HH", "HWUN", "HM", "HL", "EHFD", "EBILP", "EGLO", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK" ]
 				},
 				{
 					"stations": [ "UGW", "US", "NK", "NLF", "NBA", "NER", "NN" ],
@@ -1058,7 +1058,7 @@
 				},
 				{
 					"stations": [ "XMBK", "XMHY", "XAWW", "XTBR", "XTP", "DH", "BL", "LM", "EHM", "KW", "KK", "KM", "EDG", "EOB" ],
-					"pathSuggestion": [ "XMBK", "XMHY", "XAWW", "XTBR", "XTP", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "LM", "HBS", "HELZ", "HH", "HWUN", "HL", "EHFD", "EBILP", "EHM", "EHG", "KW", "KSO", "KK", "KGRB", "KM", "KV", "EDG", "EOB" ]
+					"pathSuggestion": [ "XMBK", "XMHY", "XAWW", "XTBR", "XTP", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "LM", "HBS", "HELZ", "HH", "HWUN", "HM", "HL", "EHFD", "EBILP", "EHM", "EHG", "KW", "KSO", "KK", "KGRB", "KM", "KV", "EDG", "EOB" ]
 				}
 			],
 			"neededCapacity": [
@@ -1120,7 +1120,7 @@
 			"objects": [
 				{
 					"stations": [ "XAWW", "XAP", "XAL", "XAWE", "NPA", "NRH", "NN", "NWH", "HG", "HH", "AHAR", "AH", "AA" ],
-					"pathSuggestion": [ "XAWW", "XAP", "XAL", "XAWE", "🇦🇹Neu H1", "XASH", "NPA", "NPL", "NOT", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "FFU", "FKW", "HG", "HH", "HWUN", "HV", "AROG", "ABLZ", "AHAR", "AH", "AA" ]
+					"pathSuggestion": [ "XAWW", "XAP", "XAL", "XAWE", "🇦🇹Neu H1", "XASH", "NPA", "NPL", "NOT", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "FFU", "FKW", "HG", "HH", "HWUN", "HNBG", "HV", "AROG", "ABLZ", "AHAR", "AH", "AA" ]
 				}
 			],
 			"neededCapacity": [
@@ -2313,6 +2313,31 @@
 			"stopsEverwhere": false,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"name": "RE 78 von %s nach %s",
+			"group": 1,
+			"service": 2,
+			"descriptions": [
+				"Fahre den RE 78 über die Natobahn von %s nach %s.",
+				"Fahre die Regionalbahn entlang der Weser von %s nach %s",
+				"Der Eurobahn RE 78 verkehrt neuerdings auch vereinzelt am Wochenende.",
+				"Der Porta-Express ist wichtig für den Berufsverkehr"
+			],
+			"objects": [
+				{
+					"stations": [ "HNBG", "HM", "HL", "EHFD", "EBILP" ],
+					"pathSuggestion": [ "HNBG", "HM", "HL", "EHFD", "EBILP" ]
+				},
+				{
+					"stations": [ "HNBG", "HM", "HL", "EHFD", "EBILP", "EGLO", "ERDW" ],
+					"pathSuggestion": [ "HNBG", "HM", "HL", "EHFD", "EBILP", "EGLO", "ERDW" ]
+				}
+			],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
 			]
 		},
 		{
@@ -3510,6 +3535,23 @@
 			"stopsEverywhere": true
 		},
 		{
+			"name": "RB 76 von %s nach %s",
+			"group": 1,
+			"service": 3,
+			"descriptions": [
+				"Fahre den RB 76 über die Natobahn von %s nach %s.",
+				"Fahre die Regionalbahn entlang der Weser von %s nach %s",
+				"Die RB 76 fährt nur am Wochenende.",
+				"Die Strecke ist bei Nutzern des Schönes-Wochenende-Ticket sehr beliebt."
+			],
+			"stations": [ "HM", "HNBG", "HDVD", "HV", "AROG" ],
+			"pathSuggestion": [ "HM", "HNBG", "HDVD", "HV", "AROG" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
 			"name": "RB 80 von %s nach %s",
 			"service": 3,
 			"descriptions": [
@@ -3991,7 +4033,7 @@
 				},
 				{
 					"stations": [ "ALB", "KDFF" ],
-					"pathSuggestion": [ "ALB", "ABCH", "ALBG", "HU", "HH", "HWUN", "HL", "EHFD", "EBILP", "EHM", "EDO", "EDG", "KDFF" ]
+					"pathSuggestion": [ "ALB", "ABCH", "ALBG", "HU", "HH", "HWUN", "HM", "HL", "EHFD", "EBILP", "EHM", "EDO", "EDG", "KDFF" ]
 				},
 				{
 					"stations": [ "BFBI", "FFLF" ],
@@ -3999,7 +4041,7 @@
 				},
 				{
 					"stations": [ "BFBI", "KDFF" ],
-					"pathSuggestion": [ "BFBI", "BBF", "BL", "BSPD", "LS", "HWOB", "HH", "HWUN", "HL", "EHFD", "EBILP", "EHM", "EDO", "EDG", "KDFF" ]
+					"pathSuggestion": [ "BFBI", "BBF", "BL", "BSPD", "LS", "HWOB", "HH", "HWUN", "HM", "HL", "EHFD", "EBILP", "EHM", "EDO", "EDG", "KDFF" ]
 				},
 				{
 					"stations": [ "FFLF", "KDFF" ],
@@ -4412,7 +4454,7 @@
 				{
 					"descriptions": [ "Fahre den TEE Roland von %s bis %s" ],
 					"stations": [ "HB", "HH", "HG", "FFU", "FF", "RH", "RK", "RBB", "RF", "RB", "XSLU", "XSAG", "XSBZ", "XSL", "XSCH", "XIMB" ],
-					"pathSuggestion": [ "HB", "HV", "HWUN", "HH", "HELZ", "HK", "HN", "HNTH", "HG", "HEBG", "FB", "FBHF", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RH", "RBR", "RK", "RBB", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSEF", "XSAI", "XSBOD", "XSBC", "XSBZ", "XSL", "XSCH", "XIMB" ]
+					"pathSuggestion": [ "HB", "HV", "HNBG", "HWUN", "HH", "HELZ", "HK", "HN", "HNTH", "HG", "HEBG", "FB", "FBHF", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RH", "RBR", "RK", "RBB", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSEF", "XSAI", "XSBOD", "XSBC", "XSBZ", "XSL", "XSCH", "XIMB" ]
 				},
 				{
 					"descriptions": [ "Fahre den TEE Brabant von %s bis %s" ],
@@ -4447,7 +4489,7 @@
 				{
 					"descriptions": [ "Fahre den TEE Prinz Eugen von %s bis %s" ],
 					"stations": [ "HB", "HH", "HG", "FB", "NWH", "NN", "NRH", "NPA", "XAWE", "XAL", "XAWW" ],
-					"pathSuggestion": [ "HB", "HV", "HWUN", "HH", "HELZ", "HK", "HN", "HNTH", "HG", "HEBG", "FB", "FFU", "NBN", "NGM", "NWH", "NRTD", "NF", "NN", "NRH", "NOT", "NPL", "NPA", "XASH", "🇦🇹Neu H1", "XAWE", "XAL", "XAWW" ]
+					"pathSuggestion": [ "HB", "HV", "HNBG", "HWUN", "HH", "HELZ", "HK", "HN", "HNTH", "HG", "HEBG", "FB", "FFU", "NBN", "NGM", "NWH", "NRTD", "NF", "NN", "NRH", "NOT", "NPL", "NPA", "XASH", "🇦🇹Neu H1", "XAWE", "XAL", "XAWW" ]
 				}
 			],
 			"neededCapacity": [
