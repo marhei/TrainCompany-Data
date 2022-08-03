@@ -3621,6 +3621,21 @@
 		{
 			"group": 0,
 			"service": 4,
+			"name": "Freizeitpark-Sonderzug von %s nach %s",
+			"descriptions": [
+				"In %s wurde es zu langweilig. Fahre nach %s",
+				"Nach dem Besuch in %s steht der nächste Besuch in %s an",
+				"Ein Freizeitpark reicht nicht. Fahre zum nächsten nach %s"
+			],
+			"objects": [
+				{ "stations": ["RRL", "BOD"]},
+				{ "stations": ["RRL", "XFMVC"]},
+				{ "stations": ["BOD", "XFMVC"]}
+			]
+		},
+		{
+			"group": 0,
+			"service": 4,
 			"name": "Sonderzug für die in %s gestrandete Pfadfindergruppe nach %s",
 			"descriptions": [
 				"Die Pfadfinder wollten eigentlich nach %2$s, jetzt sind sie aber in %1$s gelandet!",
