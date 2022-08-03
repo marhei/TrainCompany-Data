@@ -4358,12 +4358,8 @@
 				"Ermögliche mit dieser Ausschreibung eine direkte Verbindung zwischen Österreich und der Türkei.",
 				"Biete mit dieser Verbindung eine Alternative zu anstrengenden Autofahrten."
 			],
-			"objects": [
-				{
-					"stations": [ "XQED", "XAVH" ],
-					"pathSuggestion": [ "XQED", "XJBC", "XRZ", "XZL", "XAVH" ]
-				}
-			],
+			"stations": [ "XQED", "XAVH" ],
+			"pathSuggestion": [ "XQED", "XJBC", "XRZ", "XZL", "XAVH" ]
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "beds", "value": 0 },
@@ -4379,12 +4375,8 @@
 				"Bringe die schlafenden Fahrgäste von %s nach %s.",
 				"Verbinde die Hauptstädte Ungarns und Serbiens miteinander."
 			],
-			"objects": [
-				{
-					"stations": [ "XMBK", "16311", "XJNS", "XJBC" ],
-					"pathSuggestion": [ "XMBK", "16311", "XJNS", "XJSP", "XJBC" ]
-				}
-			],
+			"stations": [ "XMBK", "16311", "XJNS", "XJBC" ],
+			"pathSuggestion": [ "XMBK", "16311", "XJNS", "XJSP", "XJBC" ]
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "beds", "value": 0 }
@@ -4398,12 +4390,8 @@
 				"Bringe die schlafenden Fahrgäste von %s nach %s.",
 				"Verbinde die Hauptstädte Sloweniens, Kroatiens und Serbiens miteinander."
 			],
-			"objects": [
-				{
-					"stations": [ "XZL", "XZD", "XRZ", "XRT", "XJSI", "XJBC" ],
-					"pathSuggestion": [ "XZL", "XZD", "XRZ", "XRT", "XJSI", "XJSP", "XJBC" ]
-				}
-			],
+			"stations": [ "XZL", "XZD", "XRZ", "XRT", "XJSI", "XJBC" ],
+			"pathSuggestion": [ "XZL", "XZD", "XRZ", "XRT", "XJSI", "XJSP", "XJBC" ]
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "beds", "value": 0 }
@@ -4416,12 +4404,8 @@
 			"descriptions": [
 				"Bringe die schlafenden Fahrgäste von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XMBK", "XMG", "XMHY", "XAWW", "XAP", "XAL", "XAWE", "XASB", "MFL", "MRO", "MH" ],
-					"pathSuggestion": [  "XMBK", "XMG", "XMHY", "XAWW", "XAP", "XAL", "XAWE","XAAT", "XASF", "XASB", "MFL", "MTS", "MRO", "MGB", "MH" ]
-				}
-			],
+			"stations": [ "XMBK", "XMG", "XMHY", "XAWW", "XAP", "XAL", "XAWE", "XASB", "MFL", "MRO", "MH" ],
+			"pathSuggestion": [  "XMBK", "XMG", "XMHY", "XAWW", "XAP", "XAL", "XAWE","XAAT", "XASF", "XASB", "MFL", "MTS", "MRO", "MGB", "MH" ]
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "beds", "value": 0 }
@@ -4434,12 +4418,8 @@
 			"descriptions": [
 				"Fahre ohne Zwischenhalt von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XJBC", "XJNS" ],
-					"pathSuggestion": [ "XJBC", "XJSP", "XJNS" ] 
-				}
-			],
+			"stations": [ "XJBC", "XJNS" ],
+			"pathSuggestion": [ "XJBC", "XJSP", "XJNS" ] 
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4477,24 +4457,47 @@
 				"Fahre diesen Schnellzug zwischen %s und %s."
 			],
 			"service": 2,
-			"objects": [
-				{
-					"stations": [ "XJBC", "XJNS", "XJST", "XMK", "16311", "XMBK" ],
-					"pathSuggestion": [ "XJBC", "XJSP", "XJNS", "XJST", "XMK", "16311", "XMBK" ]
-				},
-				{
-					"stations": [ "XJBC", "XJNI", "XJDI", "XWS" ],
-					"pathSuggestion": [ "XJBC", "XJNI", "XJDI", "XWS" ]
-				},
-				{
-					"stations": [ "XRZ", "XRT", "XJSI", "XJBC" ],
-					"pathSuggestion": [ "XRZ", "XRT", "XJSI", "XJSP", "XJBC" ]
-				},
-				{
-					"stations": [ "XJBC", "XJLP", "XJNI" ],
-					"pathSuggestion": [ "XJBC", "XJLP", "XJNI" ]
-				}
+			"stations": [ "XJBC", "XJNS", "XJST", "XMK", "16311", "XMBK" ],
+			"pathSuggestion": [ "XJBC", "XJSP", "XJNS", "XJST", "XMK", "16311", "XMBK" ]
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"descriptions": [
+				"Fahre diesen Schnellzug zwischen %s und %s."
 			],
+			"service": 2,
+			"stations": [ "XJBC", "XJNI", "XJDI", "XWS" ],
+			"pathSuggestion": [ "XJBC", "XJNI", "XJDI", "XWS" ]
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"descriptions": [
+				"Fahre diesen Schnellzug zwischen %s und %s."
+			],
+			"service": 2,
+			"stations": [ "XRZ", "XRT", "XJSI", "XJBC" ],
+			"pathSuggestion": [ "XRZ", "XRT", "XJSI", "XJSP", "XJBC" ]
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"descriptions": [
+				"Fahre diesen Schnellzug zwischen %s und %s."
+			],
+			"service": 2,
+			"stations": [ "XJBC", "XJLP", "XJNI" ],
+			"pathSuggestion": [ "XJBC", "XJLP", "XJNI" ]
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4506,12 +4509,8 @@
 			"descriptions": [
 				"Fahre diesen internationalen Intercity von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XJBC", "XJNS", "XJST", "XMK", "16311", "XMBK", "XMG", "XMHY", "XAWW" ],
-					"pathSuggestion": [ "XJBC", "XJSP", "XJNS", "XJST", "XMK", "16311", "XMBK", "XMG", "XMHY", "XAWW" ] 
-				}
-			],
+			"stations": [ "XJBC", "XJNS", "XJST", "XMK", "16311", "XMBK", "XMG", "XMHY", "XAWW" ],
+			"pathSuggestion": [ "XJBC", "XJSP", "XJNS", "XJST", "XMK", "16311", "XMBK", "XMG", "XMHY", "XAWW" ] 
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
