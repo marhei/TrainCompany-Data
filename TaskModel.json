@@ -4419,6 +4419,546 @@
 				{ "name": "passengers", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Istanbul-Sofia-Express von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die schlafenden Fahrgäste von %s nach %s."
+			],
+			"stations": [ "XWS", "XWSP", "🇧🇬16043", "XWPL", "🇧🇬14000", "XWSV", "XQED", "XQCK", "XQHA", "XQIS" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "beds", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Optima Express von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe diesen Autozug von %s nach %s.",
+				"Ermögliche mit dieser Ausschreibung eine direkte Verbindung zwischen Österreich und der Türkei.",
+				"Biete mit dieser Verbindung eine Alternative zu anstrengenden Autofahrten."
+			],
+			"stations": [ "XQED", "XAVH" ],
+			"pathSuggestion": [ "XQED", "XJBC", "XRZ", "XZL", "XAVH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "beds", "value": 0 },
+				{ "name": "bistroseats", "value": 0 },
+				{ "name": "cars", "value": 64 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Nacht-Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die schlafenden Fahrgäste von %s nach %s.",
+				"Verbinde die Hauptstädte Ungarns und Serbiens miteinander."
+			],
+			"stations": [ "XMBK", "🇭🇺16311", "XJNS", "XJBC" ],
+			"pathSuggestion": [ "XMBK", "🇭🇺16311", "XJNS", "XJSP", "XJBC" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "beds", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Nacht-Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die schlafenden Fahrgäste von %s nach %s.",
+				"Verbinde die Hauptstädte Sloweniens, Kroatiens und Serbiens miteinander."
+			],
+			"stations": [ "XZL", "XZD", "XRZ", "XRT", "XJSI", "XJBC" ],
+			"pathSuggestion": [ "XZL", "XZD", "XRZ", "XRT", "XJSI", "XJSP", "XJBC" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "beds", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "EuroNight von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die schlafenden Fahrgäste von %s nach %s."
+			],
+			"stations": [ "XMBK", "XMG", "XMHY", "XAWW", "XAP", "XAL", "XAWE", "XASB", "MFL", "MRO", "MH" ],
+			"pathSuggestion": [  "XMBK", "XMG", "XMHY", "XAWW", "XAP", "XAL", "XAWE","XAAT", "XASF", "XASB", "MFL", "MTS", "MRO", "MGB", "MH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "beds", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre ohne Zwischenhalt von %s nach %s."
+			],
+			"stations": [ "XJBC", "XJNS" ],
+			"pathSuggestion": [ "XJBC", "XJSP", "XJNS" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RJX von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Railjet von %s nach %s."
+			],
+			"stations": [ "XAWW", "XMHY", "XMG", "XMBK" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Intercity von %s nach %s."
+			],
+			"stations": [ "XMG", "XMKO", "XMTA", "XMTB", "XMBK" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 },
+				{ "name": "bistroseats", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"descriptions": [
+				"Fahre diesen Schnellzug zwischen %s und %s."
+			],
+			"service": 2,
+			"stations": [ "XJBC", "XJNS", "XJST", "XMK", "🇭🇺16311", "XMBK" ],
+			"pathSuggestion": [ "XJBC", "XJSP", "XJNS", "XJST", "XMK", "🇭🇺16311", "XMBK" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"descriptions": [
+				"Fahre diesen Schnellzug zwischen %s und %s."
+			],
+			"service": 2,
+			"stations": [ "XJBC", "XJNI", "XJDI", "XWS" ],
+			"pathSuggestion": [ "XJBC", "XJNI", "XJDI", "XWS" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"descriptions": [
+				"Fahre diesen Schnellzug zwischen %s und %s."
+			],
+			"service": 2,
+			"stations": [ "XRZ", "XRT", "XJSI", "XJBC" ],
+			"pathSuggestion": [ "XRZ", "XRT", "XJSI", "XJSP", "XJBC" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"descriptions": [
+				"Fahre diesen Schnellzug zwischen %s und %s."
+			],
+			"service": 2,
+			"stations": [ "XJBC", "XJLP", "XJNI" ],
+			"pathSuggestion": [ "XJBC", "XJLP", "XJNI" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen internationalen Intercity von %s nach %s."
+			],
+			"stations": [ "XJBC", "XJNS", "XJST", "XMK", "🇭🇺16311", "XMBK", "XMG", "XMHY", "XAWW" ],
+			"pathSuggestion": [ "XJBC", "XJSP", "XJNS", "XJST", "XMK", "🇭🇺16311", "XMBK", "XMG", "XMHY", "XAWW" ] ,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s."
+			],
+			"stations": [ "XZD", "XZL", "XZJ", "XAVH" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s."
+			],
+			"stations": [ "XRZ", "XRNV", "XRSL", "XRVI" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s."
+			],
+			"stations": [ "XJDI", "XWS", "🇧🇬16043", "XWPL", "🇧🇬14000", "XWSV" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diese Regionalleistung zwischen Istanbul und der Grenze zu Bulgarien."
+			],
+			"stations": [ "XQIS", "XQHA", "XQCK", "XQED" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Lokalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Verbinde Plovdiv mit den Süden Bulgariens."
+			],
+			"stations": [ "XWPL", "🇧🇬14000", "XWSV" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Lokalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre durch Bulgarien und halte dabei an allen Stationen."
+			],
+			"stations": [ "XWPL", "🇧🇬16043", "XWSP", "XWS" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Železnice Srbije diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Serbien."
+			],
+			"stations": [ "XJBC", "XJBR", "XJML", "XJLP", "XJSZ", "XJSC", "XJA", "MSTS", "XJNI" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Železnice Srbije diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Serbien."
+			],
+			"stations": [ "XJNI", "XJBP", "XJP", "XJDI" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Železnice Srbije diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Serbien."
+			],
+			"stations": [ "XJBC", "XJNP", "XJSP", "XJDI", "XJRU", "XJSM", "XJSI" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Železnice Srbije diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Serbien."
+			],
+			"stations": [ "XJBC", "XJNP", "XJSP", "XJNS", "XJST" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Befahre die Neubaustrecke zwischen Belgrad und Novi Sad und halte dabei an allen Stationen."
+			],
+			"stations": [  "XJBC", "XJNP", "XJSP", "XJNS" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Slovenske Železnice diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regio durch Slowenien."
+			],
+			"stations": [ "XZL", "XZZM", "XZSN", "XZD" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Slovenske Železnice diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regio durch Slowenien."
+			],
+			"stations": [ "XZL", "XZBO", "XZLO", "XZPJ", "XZDV", "XZS", "XIVOP", "🇮🇹03313", "XIT" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Slovenske Železnice diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regio durch Slowenien."
+			],
+			"stations": [ "XZL", "XZKJ", "XZLB", "XZJ" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Hrvatske Železnice diesen Personenzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Personenzug durch Kroatien."
+			],
+			"stations": [ "XRZ", "XRDS", "XRIG", "XRPP", "XRBJ", "XRNV", "XRNG", "XRNK", "XRSL", "XRSV", "XRVI" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Hrvatske Železnice diesen Personenzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Personenzug durch Kroatien."
+			],
+			"stations": [ "XRNV", "XRNG", "XRNK", "XRSL", "XRSV", "XRVI", "XRT" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionale von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s."
+			],
+			"stations": [ "XIT", "🇮🇹03313", "XIVNS" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Személyvonat von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der MÁV diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Ungarn."
+			],
+			"stations": [ "XMBK", "🇭🇺16311" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Személyvonat von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der MÁV diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Ungarn."
+			],
+			"stations": [ "XMBK", "XMBOS", "XMBA", "XMTB", "XMTA", "XMKO", "XMG" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Személyvonat von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der MÁV diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Ungarn."
+			],
+			"stations": [ "XMBK", "XMBOS", "XMBA", "XMTB", "XMTA", "XMKO", "XMG", "XMMO", "XMHY" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionale von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen grenzüberschreitenden Regionalzug von %s nach %s."
+			],
+			"stations": [ "XMG", "XMMO", "XMHY", "XAPD", "XABK", "XAGR", "XAWW" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+
+		},
+		{
+			"group": 1,
+			"name": "Marmaray von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s."
+			],
+			"stations": [ "XQIS", "XQHA" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Vorortzug von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s."
+			],
+			"stations": [ "XWS", "XWDR" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Vorortzug von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s."
+			],
+			"stations": [ "XWPL", "🇧🇬14000" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "BG Voz von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s."
+			],
+			"stations": [ "XJBC", "XJBR", "XJML" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Vorortzug von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s."
+			],
+			"stations": [ "XZD", "XRSM", "XRZP", "XRZ", "XRDS" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			]
 		}
 	]
 }
