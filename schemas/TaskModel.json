@@ -151,10 +151,7 @@
 						"value": {
 							"description": "Menge der Ladung",
 							"type": "integer",
-							"oneOf": [
-								{"const": 0, "description": "Automatisch"},
-								{"minimum": 1}
-							]
+							"minimum": 1
 						}
 					}
 				},
