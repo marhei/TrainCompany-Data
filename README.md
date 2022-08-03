@@ -68,6 +68,7 @@ Verbindungen zwischen zwei Bahnhöfen
 	* **0** Hauptbahn
 	* **1** Nebenbahn
 	* **2** SFS
+	* **3** Fähre
 * **start** *(string)* Ril100 des Startbahnhofs
 * **end** *(string)* Ril100 des Endbahnhofs
 * **twistingFactor** *(float)* Angebe der Kurvigkeit von 0.0 bis 1.0 wobei 1.0 am kurvigsten ist
