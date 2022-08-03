@@ -4342,12 +4342,12 @@
 			"descriptions": [
 				"Bringe die schlafenden Fahrgäste von %s nach %s."
 			],
-			"stations": [ "XWS", "XWSP", "16043", "XWPL", "14000", "XWSV", "XQED", "XQCK", "XQHA", "XQIS" ],
+			"stations": [ "XWS", "XWSP", "🇧🇬16043", "XWPL", "🇧🇬14000", "XWSV", "XQED", "XQCK", "XQHA", "XQIS" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "beds", "value": 0 },
 				{ "name": "bistroseats", "value": 0 }
-			]	
+			]
 		},
 		{
 			"group": 1,
@@ -4375,8 +4375,8 @@
 				"Bringe die schlafenden Fahrgäste von %s nach %s.",
 				"Verbinde die Hauptstädte Ungarns und Serbiens miteinander."
 			],
-			"stations": [ "XMBK", "16311", "XJNS", "XJBC" ],
-			"pathSuggestion": [ "XMBK", "16311", "XJNS", "XJSP", "XJBC" ],
+			"stations": [ "XMBK", "🇭🇺16311", "XJNS", "XJBC" ],
+			"pathSuggestion": [ "XMBK", "🇭🇺16311", "XJNS", "XJSP", "XJBC" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 },
 				{ "name": "beds", "value": 0 }
@@ -4457,8 +4457,8 @@
 				"Fahre diesen Schnellzug zwischen %s und %s."
 			],
 			"service": 2,
-			"stations": [ "XJBC", "XJNS", "XJST", "XMK", "16311", "XMBK" ],
-			"pathSuggestion": [ "XJBC", "XJSP", "XJNS", "XJST", "XMK", "16311", "XMBK" ],
+			"stations": [ "XJBC", "XJNS", "XJST", "XMK", "🇭🇺16311", "XMBK" ],
+			"pathSuggestion": [ "XJBC", "XJSP", "XJNS", "XJST", "XMK", "🇭🇺16311", "XMBK" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4509,8 +4509,8 @@
 			"descriptions": [
 				"Fahre diesen internationalen Intercity von %s nach %s."
 			],
-			"stations": [ "XJBC", "XJNS", "XJST", "XMK", "16311", "XMBK", "XMG", "XMHY", "XAWW" ],
-			"pathSuggestion": [ "XJBC", "XJSP", "XJNS", "XJST", "XMK", "16311", "XMBK", "XMG", "XMHY", "XAWW" ] ,
+			"stations": [ "XJBC", "XJNS", "XJST", "XMK", "🇭🇺16311", "XMBK", "XMG", "XMHY", "XAWW" ],
+			"pathSuggestion": [ "XJBC", "XJSP", "XJNS", "XJST", "XMK", "🇭🇺16311", "XMBK", "XMG", "XMHY", "XAWW" ] ,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4546,10 +4546,10 @@
 			"descriptions": [
 				"Fahre diesen Schnellzug von %s nach %s."
 			],
-			"stations": [ "XJDI", "XWS", "16043", "XWPL", "14000", "XWSW" ],
+			"stations": [ "XJDI", "XWS", "🇧🇬16043", "XWPL", "🇧🇬14000", "XWSV" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
-			]					
+			]
 		},
 		{
 			"group": 1,
@@ -4571,7 +4571,7 @@
 			"descriptions": [
 				"Verbinde Plovdiv mit den Süden Bulgariens."
 			],
-			"stations": [ "XWPL", "14000", "XWSW" ],
+			"stations": [ "XWPL", "🇧🇬14000", "XWSW" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -4584,7 +4584,7 @@
 			"descriptions": [
 				"Fahre durch Bulgarien und halte dabei an allen Stationen."
 			],
-			"stations": [ "XWPL", "16043", "XWSP", "XWS" ],
+			"stations": [ "XWPL", "🇧🇬16043", "XWSP", "XWS" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -4600,7 +4600,7 @@
 				"Fahre mit diesen Regionalzug durch Serbien."
 			],
 			"stations": [ "XJBC", "XJBR", "XJML", "XJLP", "XJSZ", "XJSC", "XJA", "MSTS", "XJNI" ],
-			"stopsEverywhere": true,			
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4615,7 +4615,7 @@
 				"Fahre mit diesen Regionalzug durch Serbien."
 			],
 			"stations": [ "XJNI", "XJBP", "XJP", "XJDI" ],
-			"stopsEverywhere": true,			
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4630,7 +4630,7 @@
 				"Fahre mit diesen Regionalzug durch Serbien."
 			],
 			"stations": [ "XJBC", "XJNP", "XJSP", "XJDI", "XJRU", "XJSM", "XJSI" ],
-			"stopsEverywhere": true,			
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4645,7 +4645,7 @@
 				"Fahre mit diesen Regionalzug durch Serbien."
 			],
 			"stations": [ "XJBC", "XJNP", "XJSP", "XJNS", "XJST" ],
-			"stopsEverywhere": true,			
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4673,7 +4673,7 @@
 				"Fahre mit diesen Regio durch Slowenien."
 			],
 			"stations": [ "XZL", "XZZM", "XZSN", "XZD" ],
-			"stopsEverywhere": true,			
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4687,8 +4687,8 @@
 				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
 				"Fahre mit diesen Regio durch Slowenien."
 			],
-			"stations": [ "XZL", "XZBO", "XZLO", "XZPJ", "XZDV", "XZS", "XIVOP", "03313", "XIT" ],
-			"stopsEverywhere": true,			
+			"stations": [ "XZL", "XZBO", "XZLO", "XZPJ", "XZDV", "XZS", "XIVOP", "🇮🇹03313", "XIT" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4703,7 +4703,7 @@
 				"Fahre mit diesen Regio durch Slowenien."
 			],
 			"stations": [ "XZL", "XZKJ", "XZLB", "XZJ" ],
-			"stopsEverywhere": true,			
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4718,7 +4718,7 @@
 				"Fahre mit diesen Personenzug durch Kroatien."
 			],
 			"stations": [ "XRZ", "XRDS", "XRIG", "XRPP", "XRBJ", "XRNV", "XRNG", "XRNK", "XRSL", "XRSV", "XRVI" ],
-			"stopsEverywhere": true,			
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4733,7 +4733,7 @@
 				"Fahre mit diesen Personenzug durch Kroatien."
 			],
 			"stations": [ "XRNV", "XRNG", "XRNK", "XRSL", "XRSV", "XRVI", "XRT" ],
-			"stopsEverywhere": true,			
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4745,7 +4745,7 @@
 			"descriptions": [
 				"Fahre diesen Regionalzug von %s nach %s."
 			],
-			"stations": [ "XIT", "03313", "03212", "XICER", "03205", "03202", "XIPGC", "02664", "02666", "02670L", "XIVNS" ],
+			"stations": [ "XIT", "🇮🇹03313", "XIVNS" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -4760,8 +4760,8 @@
 				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
 				"Fahre mit diesen Regionalzug durch Ungarn."
 			],
-			"stations": [ "XMBK", "26204", "16261", "16311" ],
-			"stopsEverywhere": true,			
+			"stations": [ "XMBK", "🇭🇺16311" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			]
@@ -4776,10 +4776,10 @@
 				"Fahre mit diesen Regionalzug durch Ungarn."
 			],
 			"stations": [ "XMBK", "XMBOS", "XMBA", "XMTB", "XMTA", "XMKO", "XMG" ],
-			"stopsEverywhere": true,			
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
-			]	
+			]
 		},
 		{
 			"group": 1,
@@ -4791,10 +4791,10 @@
 				"Fahre mit diesen Regionalzug durch Ungarn."
 			],
 			"stations": [ "XMBK", "XMBOS", "XMBA", "XMTB", "XMTA", "XMKO", "XMG", "XMMO", "XMHY" ],
-			"stopsEverywhere": true,			
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
-			]	
+			]
 		},
 		{
 			"group": 1,
@@ -4807,7 +4807,7 @@
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
-			]			
+			]
 
 		},
 		{
@@ -4843,7 +4843,7 @@
 			"descriptions": [
 				"Fahre diesen Vorortzug von %s nach %s."
 			],
-			"stations": [ "XWPL", "14000" ],
+			"stations": [ "XWPL", "🇧🇬14000" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
@@ -4873,7 +4873,7 @@
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
-			]						
-		}		
+			]
+		}
 	]
 }
