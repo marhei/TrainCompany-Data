@@ -8268,7 +8268,7 @@
 					"length": 7,
 					"maxSpeed": 160,
 					"twistingFactor": 0.23
-				},				
+				},
 				{
 					"start": "HNBG",
 					"end": "HLBU",
@@ -20644,6 +20644,103 @@
 					"start": "DWES",
 					"end": "DDE",
 					"length": 6
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 70,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DDE",
+					"end": "DDEG",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DDEG",
+					"end": "DDEZ",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "DDEZ",
+					"end": "DNST",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DNST",
+					"end": "DRW",
+					"length": 4
+				},
+				{
+					"start": "DRW",
+					"end": "DGLM",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "DGLM",
+					"end": "DNO",
+					"length": 4
+				},
+				{
+					"start": "DNO",
+					"end": "DDB",
+					"length": 4
+				},
+				{
+					"start": "DDB",
+					"end": "DMI",
+					"length": 9
+				},
+				{
+					"start": "DMI",
+					"end": "DMTG",
+					"length": 7
+				},
+				{
+					"start": "DMTG",
+					"end": "DMT",
+					"length": 1
+				},
+				{
+					"start": "DMT",
+					"end": "DMEA",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "DMEA",
+					"end": "DME",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DME",
+					"end": "DNZ",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DNZ",
+					"end": "DCW",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1
 				}
 			]
 		},
