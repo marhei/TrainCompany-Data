@@ -163,7 +163,7 @@
 			"reliability": 1,
 			"cost": 5600000,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "FR", "TVM", "CH", "LU", "ES", "DE", "MA"],
+			"equipments": ["ETCS", "FR", "TVM", "CH", "LU", "ES", "DE"],
 			"maxConnectedUnits": 2,
 			"compatibleWith": [4403, 4501],
 			"exchangeTime": 150,
@@ -604,7 +604,7 @@
 			"drive": 1,
 			"reliability": 1,
 			"cost": 480000,
-			"equipments": ["CH", "NL", "DE", "HU"],
+			"equipments": ["CH", "NL", "DE"],
 			"operationCosts": 42,
 			"maxConnectedUnits": 2,
 			"capacity": [
@@ -665,29 +665,9 @@
 			"operationCosts": 40,
 			"maxConnectedUnits": 3,
 			"compatibleWith": [1],
-			"equipments": ["NL", "DE", "RS", "NO"],
+			"equipments": ["NL", "DE"],
 			"capacity": [
 				{"name": "passengers", "value": 190}
-			]
-		},
-		{
-			"id": 85518,
-			"group": 2,
-			"name": "Stadler FLIRT 4",
-			"shortcut": "SŽ 510",
-			"speed": 160,
-			"weight": 136,
-			"force": 150,
-			"length": 80,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 500000,
-			"maxConnectedUnits": 3,
-			"operationCosts": 55,
-			"equipments": ["SI", "AT", "CH", "HR"],
-			"exchangeTime": 40,
-			"capacity": [
-				{"name": "passengers", "value": 235}
 			]
 		},
 		{
@@ -724,7 +704,7 @@
 			"cost": 800000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
-			"equipments": ["CH", "AT", "LU", "DE", "ETCS", "SI", "HU"],
+			"equipments": ["CH", "AT", "LU", "DE", "ETCS"],
 			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
@@ -744,7 +724,7 @@
 			"cost": 1400000,
 			"operationCosts": 70,
 			"maxConnectedUnits": 3,
-			"equipments": ["ETCS", "CH", "AT", "DE", "RS"],
+			"equipments": ["ETCS", "CH", "AT", "DE"],
 			"capacity": [
 				{"name": "passengers", "value": 323},
 				{"name": "bistroseats", "value": 8}
@@ -951,6 +931,44 @@
 			]
 		},
 		{
+			"id": 4228,
+			"group": 2,
+			"name": "Düwag Stadtbahnwagen Typ B",
+			"shortcut": "B80D Alu",
+			"speed": 80,
+			"weight": 39,
+			"force": 37,
+			"length": 28,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 400000,
+			"operationCosts": 45,
+			"maxConnectedUnits": 4,
+			"equipments": [ "bostrab", "DE" ],
+			"capacity": [
+				{"name": "passengers", "value": 75}
+			]
+		},
+		{
+			"id": 3216,
+			"group": 2,
+			"name": "Düwag",
+			"shortcut": "GT8SU",
+			"speed": 80,
+			"weight": 40,
+			"force": 37,
+			"length": 28,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 400000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 2,
+			"equipments": [ "bostrab", "DE" ],
+			"capacity": [
+				{"name": "passengers", "value": 53}
+			]
+		},
+		{
 			"id": 303,
 			"group": 2,
 			"name": "Crusalis Contessa",
@@ -1139,163 +1157,6 @@
 			]
 		},
 		{
-			"id": 72411,
-			"group": 2,
-			"name": "JŽ 411",
-			"speed": 120,
-			"weight": 145,
-			"force": 300,
-			"length": 72,
-			"drive": 1,
-			"reliability": 0.9,
-			"cost": 220000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 60,
-			"equipments": ["HR", "BA"],
-			"exchangeTime": 35,
-			"capacity": [
-				{"name": "passengers", "value": 236}
-			]
-		},
-		{
-			"id": 72412,
-			"group": 2,
-			"name": "JŽ 412/ BDŽ 33",
-			"speed": 120,
-			"weight": 220,
-			"force": 170,
-			"length": 102,
-			"drive": 1,
-			"reliability": 0.8,
-			"cost": 240000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 65,
-			"equipments": ["RS", "BG", "MK", "ME"],
-			"exchangeTime": 35,
-			"capacity": [
-				{"name": "passengers", "value": 294}
-			]
-		},
-		{
-			"id": 786112,
-			"group": 2,
-			"name": "HŽ 6112",
-			"speed": 160,
-			"weight": 172,
-			"force": 200,
-			"length": 75,
-			"drive": 1,
-			"reliability": 0.95,
-			"cost": 320000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 55,
-			"equipments": ["HR", "BA"],
-			"exchangeTime": 35,
-			"capacity": [
-				{"name": "passengers", "value": 212}
-			]
-		},
-		{
-			"id": 79310,
-			"group": 2,
-			"name": "InterCitySlovenija Pendolino",
-			"shortcut": "SŽ 310",
-			"speed": 200,
-			"weight": 164,
-			"force": 300,
-			"length": 81,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 1000000,
-			"maxConnectedUnits": 3,
-			"operationCosts": 80,
-			"equipments": ["SI", "IT"],
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 166},
-				{"name": "bistroseats", "value": 6 }
-			]
-		},
-		{
-			"id": 79312,
-			"group": 2,
-			"name": "Siemens Desiro Classic ET",
-			"shortcut": "SŽ 312/ BDŽ 30/ OSE 460",
-			"speed": 140,
-			"weight": 95,
-			"force": 150,
-			"length": 75,
-			"drive": 1,
-			"reliability": 0.95,
-			"cost": 450000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 55,
-			"equipments": ["SI", "BG", "GR"],
-			"exchangeTime": 40,
-			"capacity": [
-				{"name": "passengers", "value": 188}
-			]
-		},
-		{
-			"id": 85563,
-			"group": 2,
-			"name": "CAF Civity",
-			"shortcut": "FS ETR 563",
-			"speed": 160,
-			"weight": 98,
-			"force": 170,
-			"length": 92,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 520000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 65,
-			"equipments": ["SI", "IT", "ME"],
-			"exchangeTime": 40,
-			"capacity": [
-				{"name": "passengers", "value": 297}
-			]
-		},
-		{
-			"id": 55425,
-			"group": 2,
-			"name": "Bombardier Talent ET",
-			"shortcut": "MÁV 425/ ÖBB 4124",
-			"speed": 140,
-			"weight": 196,
-			"force": 122,
-			"length": 92,
-			"drive": 1,
-			"reliability": 0.9,
-			"cost": 480000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 60,
-			"equipments": ["HU", "AT"],
-			"exchangeTime": 40,
-			"capacity": [
-				{"name": "passengers", "value": 199}
-			]
-		},
-		{
-			"id": 7532000,
-			"group": 2,
-			"name": "TCDD E32000",
-			"speed": 105,
-			"weight": 193,
-			"force": 150,
-			"length": 112,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 500000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 55,
-			"equipments": ["TR"],
-			"exchangeTime": 30,
-			"capacity": [
-				{"name": "passengers", "value": 248}
-			]
-		},
-		{
 			"id": 563,
 			"group": 2,
 			"name": "Siemens Mireo Plus H",
@@ -1350,7 +1211,6 @@
 			"operationCosts": 85,
 			"maxConnectedUnits": 4,
 			"exchangeTime": 60,
-			"equipments": [ "DE", "AT", "CZ", "HR" ],
 			"capacity": [
 				{"name": "passengers", "value": 146}
 			]
@@ -1485,7 +1345,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 75,
 			"exchangeTime": 120,
-			"equipments": ["FR", "AT", "LU", "PL", "DE", "CZ", "RO"],
+			"equipments": ["FR", "AT", "LU", "PL", "DE"],
 			"capacity": [
 				{"name": "passengers", "value": 144}
 			]
@@ -1542,7 +1402,7 @@
 			"cost": 250000,
 			"operationCosts": 55,
 			"maxConnectedUnits": 3,
-			"equipments": ["AT", "PL", "DE", "HU", "DK", "RO", "BG", "GR"],
+			"equipments": ["AT", "PL", "DE"],
 			"capacity": [
 				{"name": "passengers", "value": 110}
 			]
@@ -1562,7 +1422,7 @@
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
 			"exchangeTime": 30,
-			"equipments": ["FR", "DE", "NO"],
+			"equipments": ["FR", "DE"],
 			"capacity": [
 				{"name": "passengers", "value": 149}
 			]
@@ -1581,7 +1441,7 @@
 			"cost": 250000,
 			"operationCosts": 50,
 			"maxConnectedUnits": 3,
-			"equipments": ["NL", "CH", "DE", "CZ", "IT", "GR"],
+			"equipments": ["NL", "CH", "DE"],
 			"capacity": [
 				{"name": "passengers", "value": 100}
 			]
@@ -1658,7 +1518,7 @@
 			"reliability": 0.82,
 			"cost": 525000,
 			"operationCosts": 105,
-			"equipments": ["DE", "AT", "CH", "FR", "IT", "SI", "HR", "RS", "MK", "GR"],
+			"equipments": ["DE", "AT", "CH", "FR"],
 			"exchangeTime": 90,
 			"capacity": [
 				{"name": "passengers", "value": 56 },
@@ -1826,121 +1686,6 @@
 			"capacity": [
 				{"name": "passengers", "value": 168 },
 				{"name": "bistroseats", "value": 1 }
-			]
-		},
-		{
-			"id": 74710,
-			"group": 2,
-			"name": "Y1",
-			"speed": 130,
-			"weight": 45,
-			"force": 40,
-			"length": 24,
-			"drive": 2,
-			"reliability": 0.9,
-			"cost": 180000,
-			"maxConnectedUnits": 3,
-			"operationCosts": 45,
-			"exchangeTime": 60,
-			"equipments": ["SE", "RS", "HR"],
-			"capacity": [
-				{"name": "passengers", "value": 68}
-			]
-		},
-		{
-			"id": 80795,
-			"group": 2,
-			"name": "VT 95",
-			"speed": 90,
-			"weight": 21,
-			"force": 36,
-			"length": 14,
-			"drive": 2,
-			"reliability": 0.8,
-			"cost": 120000,
-			"maxConnectedUnits": 6,
-			"operationCosts": 30,
-			"exchangeTime": 50,
-			"equipments": ["DE", "RS", "AT"],
-			"capacity": [
-				{"name": "passengers", "value": 56}
-			]
-		},
-		{
-			"id": 72711,
-			"group": 2,
-			"name": "ŽS 711",
-			"speed": 100,
-			"weight": 88,
-			"force": 72,
-			"length": 42,
-			"drive": 2,
-			"reliability": 0.95,
-			"cost": 250000,
-			"maxConnectedUnits": 3,
-			"operationCosts": 30,
-			"exchangeTime": 60,
-			"equipments": ["RS"],
-			"capacity": [
-				{"name": "passengers", "value": 136}
-			]
-		},
-		{
-			"id": 787022,
-			"group": 2,
-			"name": "HŽ 7022",
-			"speed": 120,
-			"weight": 150,
-			"force": 125,
-			"length": 70,
-			"drive": 2,
-			"reliability": 0.9,
-			"cost": 330000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 60,
-			"exchangeTime": 45,
-			"equipments": ["HR"],
-			"capacity": [
-				{"name": "passengers", "value": 209}
-			]
-		},
-		{
-			"id": 79713,
-			"group": 2,
-			"name": "SŽ 713",
-			"speed": 120,
-			"weight": 60,
-			"force": 50,
-			"length": 48,
-			"drive": 2,
-			"reliability": 0.9,
-			"cost": 300000,
-			"maxConnectedUnits": 4,
-			"operationCosts": 60,
-			"exchangeTime": 40,
-			"equipments": ["SI"],
-			"capacity": [
-				{"name": "passengers", "value": 209}
-			]
-		},
-		{
-			"id": 79610,
-			"group": 2,
-			"name": "Stadler Flirt 3 Diesel",
-			"shortcut": "SŽ 610",
-			"speed": 120,
-			"weight": 150,
-			"force": 95,
-			"length": 29,
-			"drive": 2,
-			"reliability": 0.85,
-			"cost": 250000,
-			"maxConnectedUnits": 3,
-			"operationCosts": 60,
-			"exchangeTime": 50,
-			"equipments": ["SI", "HR", "AT", "IT"],
-			"capacity": [
-				{"name": "passengers", "value": 150}
 			]
 		},
 		{
@@ -2291,7 +2036,7 @@
 			"reliability": 1,
 			"cost": 650000,
 			"operationCosts": 110,
-			"equipments": ["ETCS", "CZ", "CH", "AT", "NL", "BE", "IT", "PL", "DK", "SE", "NO", "DE", "BG", "HR", "RO", "SK", "SI", "HU", "TR", "RS"]
+			"equipments": ["ETCS", "CZ", "CH", "AT", "NL", "BE", "IT", "PL", "DK", "SE", "DE", "BG", "HR", "RO", "SK", "SI", "HU", "TR", "RS"]
 		},
 		{
 			"id": 248,
@@ -2321,7 +2066,7 @@
 			"reliability": 1,
 			"cost": 380000,
 			"operationCosts": 90,
-			"equipments": ["CH", "ETCS", "NO"]
+			"equipments": ["CH", "ETCS"]
 		},
 		{
 			"id": 319,
@@ -2349,7 +2094,7 @@
 			"reliability": 1,
 			"cost": 380000,
 			"operationCosts": 120,
-			"equipments": ["GB", "Eurotunnel", "TVM", "BG", "RO", "HR"]
+			"equipments": ["GB", "Eurotunnel", "TVM"]
 		},
 		{
 			"id": 398,
@@ -2405,7 +2150,7 @@
 			"reliability": 0.85,
 			"cost": 270000,
 			"operationCosts": 120,
-			"equipments": ["HR", "RS", "TR", "MK", "ME", "BA"]
+			"equipments": ["HR", "RS", "TR"] 
 		},
 		{
 			"id": 72461,
@@ -2419,7 +2164,7 @@
 			"reliability": 0.85,
 			"cost": 320000,
 			"operationCosts": 135,
-			"equipments": ["RO", "RS", "BG", "MK", "ME"]
+			"equipments": ["RO", "RS", "BG"] 
 		},
 		{
 			"id": 721142,
@@ -2433,7 +2178,7 @@
 			"reliability": 0.9,
 			"cost": 285000,
 			"operationCosts": 125,
-			"equipments": ["HR"]
+			"equipments": ["HR"] 
 		},
 		{
 			"id": 72342,
@@ -2447,7 +2192,7 @@
 			"reliability": 0.8,
 			"cost": 240000,
 			"operationCosts": 105,
-			"equipments": ["SI", "IT"]
+			"equipments": ["SI", "IT"] 
 		},
 		{
 			"id": 72363,
@@ -2461,7 +2206,7 @@
 			"reliability": 0.85,
 			"cost": 260000,
 			"operationCosts": 115,
-			"equipments": ["SI"]
+			"equipments": ["SI"] 
 		},
 		{
 			"id": 5242,
@@ -2475,7 +2220,7 @@
 			"reliability": 0.8,
 			"cost": 270000,
 			"operationCosts": 110,
-			"equipments": ["BG"]
+			"equipments": ["BG"] 
 		},
 		{
 			"id": 6192,
@@ -2490,7 +2235,7 @@
 			"reliability": 1,
 			"cost": 350000,
 			"operationCosts": 95,
-			"equipments": ["DE", "RO", "BG"]
+			"equipments": ["DE", "RO", "BG"] 
 		},
 		{
 			"id": 7342,
@@ -2505,7 +2250,7 @@
 			"reliability": 0.9,
 			"cost": 370000,
 			"operationCosts": 105,
-			"equipments": ["GR"]
+			"equipments": ["GR"] 
 		},
 		{
 			"id": 7543000,
@@ -2519,7 +2264,7 @@
 			"reliability": 0.85,
 			"cost": 360000,
 			"operationCosts": 110,
-			"equipments": ["TR"]
+			"equipments": ["TR"] 
 		},
 		{
 			"id": 7568000,
@@ -2533,7 +2278,7 @@
 			"reliability": 1,
 			"cost": 400000,
 			"operationCosts": 100,
-			"equipments": ["TR"]
+			"equipments": ["TR"] 
 		},
 		{
 			"id": 5,
@@ -2646,7 +2391,7 @@
 			"reliability": 0.8,
 			"cost": 150000,
 			"operationCosts": 140,
-			"equipments": ["CH", "DE", "BA"]
+			"equipments": ["CH", "DE"]
 		},
 		{
 			"id": 75101,
@@ -2733,7 +2478,7 @@
 			"reliability": 0.8,
 			"cost": 330000,
 			"operationCosts": 100,
-			"equipments": ["HU", "GR"]
+			"equipments": ["HU", "GR"] 
 		},
 		{
 			"id": 55628,
@@ -2747,7 +2492,7 @@
 			"reliability": 0.85,
 			"cost": 380000,
 			"operationCosts": 110,
-			"equipments": ["HU", "DE", "PL", "CZ", "SK"]
+			"equipments": ["HU", "DE", "PL", "CZ", "SK"] 
 		},
 		{
 			"id": 72661,
@@ -2761,7 +2506,7 @@
 			"reliability": 0.8,
 			"cost": 350000,
 			"operationCosts": 125,
-			"equipments": ["SI", "HR", "RS", "ME", "BA"]
+			"equipments": ["SI", "HR", "RS"] 
 		},
 		{
 			"id": 72645,
@@ -2775,7 +2520,7 @@
 			"reliability": 0.9,
 			"cost": 320000,
 			"operationCosts": 115,
-			"equipments": ["SI", "HR", "RS"]
+			"equipments": ["SI", "HR", "RS"] 
 		},
 		{
 			"id": 72666,
@@ -2789,7 +2534,7 @@
 			"reliability": 0.8,
 			"cost": 350000,
 			"operationCosts": 140,
-			"equipments": ["RS"]
+			"equipments": ["RS"] 
 		},
 		{
 			"id": 53060,
@@ -2803,7 +2548,7 @@
 			"reliability": 0.8,
 			"cost": 310000,
 			"operationCosts": 125,
-			"equipments": ["PL", "RO", "BG", "IT"]
+			"equipments": ["PL", "RO", "BG", "IT"] 
 		},
 		{
 			"id": 73220,
@@ -2817,7 +2562,7 @@
 			"reliability": 0.9,
 			"cost": 370000,
 			"operationCosts": 115,
-			"equipments": ["GR"]
+			"equipments": ["GR"] 
 		},
 		{
 			"id": 73450,
@@ -2831,7 +2576,7 @@
 			"reliability": 0.8,
 			"cost": 350000,
 			"operationCosts": 125,
-			"equipments": ["GR"]
+			"equipments": ["GR"] 
 		},
 		{
 			"id": 7524000,
@@ -2845,7 +2590,7 @@
 			"reliability": 0.85,
 			"cost": 400000,
 			"operationCosts": 130,
-			"equipments": ["TR"]
+			"equipments": ["TR"] 
 		},
 		{
 			"id": 4,
@@ -2985,40 +2730,6 @@
 			]
 		},
 		{
-			"id": 7919802,
-			"group": 1,
-			"name": "UIC-Y-Schlafwagen",
-			"shortcut": "Bc",
-			"speed": 160,
-			"weight": 50,
-			"force": 0,
-			"length": 26,
-			"drive": 0,
-			"reliability": 0.9,
-			"cost": 190000,
-			"exchangeTime": 180,
-			"capacity": [
-				{"name": "beds", "value": 40}
-			]
-		},
-		{
-			"id": 7919801,
-			"group": 1,
-			"name": "UIC-Y-Sitzwagen",
-			"shortcut": "Bl",
-			"speed": 160,
-			"weight": 41,
-			"force": 0,
-			"length": 26,
-			"drive": 0,
-			"reliability": 0.9,
-			"cost": 180000,
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 60}
-			]
-		},
-		{
 			"id": 39,
 			"group": 1,
 			"name": "Y-Speisewagen",
@@ -3122,58 +2833,6 @@
 			]
 		},
 		{
-			"id": 5520121,
-			"group": 1,
-			"name": "MÁV IC+ Sitzwagen",
-			"shortcut": "Bpmz",
-			"speed": 200,
-			"weight": 42,
-			"force": 0,
-			"length": 26,
-			"drive": 0,
-			"reliability": 1,
-			"cost": 210000,
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 80}
-			]
-		},
-		{
-			"id": 5520122,
-			"group": 1,
-			"name": "MÁV IC+ Halbspeisewagen",
-			"shortcut": "ARmz211.0",
-			"speed": 200,
-			"weight": 48,
-			"force": 0,
-			"length": 26,
-			"drive": 0,
-			"reliability": 1,
-			"cost": 220000,
-			"exchangeTime": 180,
-			"capacity": [
-				{"name": "bistroseats", "value": 4},
-				{"name": "passengers", "value": 35}
-			]
-		},
-		{
-			"id": 5520213,
-			"group": 1,
-			"name": "MÁV IC+ Schlafwagen",
-			"shortcut": "WLABmz",
-			"speed": 200,
-			"weight": 53,
-			"force": 0,
-			"length": 26,
-			"drive": 0,
-			"reliability": 1,
-			"cost": 210000,
-			"exchangeTime": 180,
-			"capacity": [
-				{"name": "beds", "value": 28}
-			]
-		},
-		{
 			"id": 7,
 			"group": 1,
 			"name": "Doppelstock-Wagen",
@@ -3208,60 +2867,9 @@
 			]
 		},
 		{
-			"id": 7519931,
-			"group": 1,
-			"name": "TVS2000 Sitzwagen",
-			"shortcut": "WSPIm",
-			"speed": 160,
-			"weight": 48,
-			"force": 0,
-			"length": 26,
-			"drive": 0,
-			"reliability": 1,
-			"cost": 200000,
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 60}
-			]
-		},
-		{
-			"id": 7519932,
-			"group": 1,
-			"name": "TVS2000 Speisewagen",
-			"shortcut": "WRIm",
-			"speed": 160,
-			"weight": 52,
-			"force": 0,
-			"length": 26,
-			"drive": 0,
-			"reliability": 1,
-			"cost": 240000,
-			"exchangeTime": 180,
-			"capacity": [
-				{"name": "bistroseats", "value": 32}
-			]
-		},
-		{
-			"id": 7519933,
-			"group": 1,
-			"name": "TVS2000 Schlafwagen",
-			"shortcut": "WLAIm",
-			"speed": 160,
-			"weight": 54,
-			"force": 0,
-			"length": 26,
-			"drive": 0,
-			"reliability": 1,
-			"cost": 220000,
-			"exchangeTime": 180,
-			"capacity": [
-				{"name": "beds", "value": 20}
-			]
-		},
-		{
 			"id": 8,
 			"group": 1,
-			"name": "Autoreisezugwagen",
+			"name": "Autotransportwagen",
 			"shortcut": "DDm",
 			"speed": 160,
 			"weight": 45,
@@ -3272,22 +2880,6 @@
 			"cost": 200000,
 			"capacity": [
 				{"name": "cars", "value": 12}
-			]
-		},
-		{
-			"id": 81,
-			"group": 1,
-			"name": "Autotransportwagen",
-			"shortcut": "Laes 559",
-			"speed": 100,
-			"weight": 28,
-			"force": 0,
-			"length": 27,
-			"drive": 0,
-			"reliability": 0.9,
-			"cost": 160000,
-			"capacity": [
-				{"name": "cars", "value": 15}
 			]
 		},
 		{
