@@ -665,7 +665,7 @@
 			"operationCosts": 40,
 			"maxConnectedUnits": 3,
 			"compatibleWith": [1],
-			"equipments": ["NL", "DE", "RS"],
+			"equipments": ["NL", "DE", "RS", "NO"],
 			"capacity": [
 				{"name": "passengers", "value": 190}
 			]
@@ -1142,7 +1142,7 @@
 			"id": 72411,
 			"group": 2,
 			"name": "JŽ 411",
-			"speed": 330,
+			"speed": 120,
 			"weight": 145,
 			"force": 300,
 			"length": 72,
@@ -1151,7 +1151,7 @@
 			"cost": 220000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 60,
-			"equipments": ["HR"],
+			"equipments": ["HR", "BA"],
 			"exchangeTime": 35,
 			"capacity": [
 				{"name": "passengers", "value": 236}
@@ -1170,7 +1170,7 @@
 			"cost": 240000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 65,
-			"equipments": ["RS", "BG"],
+			"equipments": ["RS", "BG", "MK", "ME"],
 			"exchangeTime": 35,
 			"capacity": [
 				{"name": "passengers", "value": 294}
@@ -1189,7 +1189,7 @@
 			"cost": 320000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 55,
-			"equipments": ["HR"],
+			"equipments": ["HR", "BA"],
 			"exchangeTime": 35,
 			"capacity": [
 				{"name": "passengers", "value": 212}
@@ -1250,7 +1250,7 @@
 			"cost": 520000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 65,
-			"equipments": ["SI", "IT"],
+			"equipments": ["SI", "IT", "ME"],
 			"exchangeTime": 40,
 			"capacity": [
 				{"name": "passengers", "value": 297}
@@ -1562,7 +1562,7 @@
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
 			"exchangeTime": 30,
-			"equipments": ["FR", "DE"],
+			"equipments": ["FR", "DE", "NO"],
 			"capacity": [
 				{"name": "passengers", "value": 149}
 			]
@@ -2321,7 +2321,7 @@
 			"reliability": 1,
 			"cost": 380000,
 			"operationCosts": 90,
-			"equipments": ["CH", "ETCS"]
+			"equipments": ["CH", "ETCS", "NO"]
 		},
 		{
 			"id": 319,
@@ -2419,7 +2419,7 @@
 			"reliability": 0.85,
 			"cost": 320000,
 			"operationCosts": 135,
-			"equipments": ["RO", "RS", "BG", "MK"]
+			"equipments": ["RO", "RS", "BG", "MK", "ME"]
 		},
 		{
 			"id": 721142,
@@ -2646,7 +2646,7 @@
 			"reliability": 0.8,
 			"cost": 150000,
 			"operationCosts": 140,
-			"equipments": ["CH", "DE"]
+			"equipments": ["CH", "DE", "BA"]
 		},
 		{
 			"id": 75101,
