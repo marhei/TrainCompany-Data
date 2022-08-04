@@ -212,6 +212,97 @@
 			]
 		},
 		{
+			"name": "",
+			"twistingFactor": 0.2,
+			"maxSpeed": 120,
+			"objects": [
+				{
+					"start": "FHOE",
+					"end": "FFZH",
+					"length": 3
+				},
+				{
+					"start": "FFZH",
+					"end": "FKRI",
+					"length": 2
+				},
+				{
+					"start": "FKRI",
+					"end": "FHF",
+					"length": 2
+				},
+				{
+					"start": "FHF",
+					"end": "FLB",
+					"length": 4
+				},
+				{
+					"start": "FLB",
+					"end": "FEP",
+					"length": 5,
+					"maxSpeed": 90
+				},
+				{
+					"start": "FEP",
+					"end": "FEPB",
+					"length": 1,
+					"maxSpeed": 90
+				},
+				{
+					"start": "FEPB",
+					"end": "FNJ",
+					"length": 2,
+					"maxSpeed": 110
+				},
+				{
+					"start": "FNJ",
+					"end": "FNSD",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "FNSD",
+					"end": "FIST",
+					"length": 8
+				},
+				{
+					"start": "FIST",
+					"end": "FWOD",
+					"length": 3
+				},
+				{
+					"start": "FWOD",
+					"end": "FCA",
+					"length": 7
+				},
+				{
+					"start": "FCA",
+					"end": "FNS",
+					"length": 4
+				},
+				{
+					"start": "FNS",
+					"end": "FOB",
+					"length": 4
+				},
+				{
+					"start": "FOB",
+					"end": "FNCH",
+					"length": 2
+				},
+				{
+					"start": "FNCH",
+					"end": "FLHN",
+					"length": 4
+				},
+				{
+					"start": "FLHN",
+					"end": "FL",
+					"length": 6
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"objects": [
@@ -504,29 +595,46 @@
 			"neededEquipments": [
 				"KRM"
 			],
+			"twistingFactor": 0.1,
 			"objects": [
 				{
 					"start": "FFLF",
+					"end": "FBRM",
+					"length": 15
+				},
+				{
+					"start": "FBRM",
+					"end": "FIDS",
+					"length": 17
+				},
+				{
+					"start": "FIDS",
+					"end": "FLHH",
+					"length": 24
+				},
+				{
+					"start": "FLHH",
 					"end": "FLIS",
-					"twistingFactor": 0.1,
-					"length": 59
+					"length": 2
 				},
 				{
 					"start": "FLIS",
 					"end": "FMT",
-					"twistingFactor": 0.1,
 					"length": 21
 				},
 				{
 					"start": "FMT",
+					"end": "FWRT",
+					"length": 27
+				},
+				{
+					"start": "FWRT",
 					"end": "KSIB",
-					"twistingFactor": 0.1,
-					"length": 63
+					"length": 36
 				},
 				{
 					"start": "KSIB",
 					"end": "KT",
-					"twistingFactor": 0.1,
 					"length": 7,
 					"neededEquipments": [],
 					"maxSpeed": 200
