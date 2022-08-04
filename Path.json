@@ -17252,6 +17252,97 @@
 			]
 		},
 		{
+			"name": "Müglitztalbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 70,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DHD",
+					"end": "DDO",
+					"length": 2
+				},
+				{
+					"start": "DDO",
+					"end": "DKTW",
+					"length": 2
+				},
+				{
+					"start": "DKTW",
+					"end": "DWSN",
+					"length": 2
+				},
+				{
+					"start": "DWSN",
+					"end": "DBWD",
+					"length": 2
+				},
+				{
+					"start": "DBWD",
+					"end": "DMHL",
+					"length": 2,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DMHL",
+					"end": "DNDS",
+					"length": 3,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DNDS",
+					"end": "DOSC",
+					"length": 2,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DOSC",
+					"end": "DGHU",
+					"length": 4,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DGHU",
+					"end": "DBJ",
+					"length": 3,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DBJ",
+					"end": "DBAG",
+					"length": 3
+				},
+				{
+					"start": "DBAG",
+					"end": "DLST",
+					"length": 3
+				},
+				{
+					"start": "DLST",
+					"end": "DHMU",
+					"length": 2
+				},
+				{
+					"start": "DHMU",
+					"end": "DGEI",
+					"length": 2,
+					"maxSpeed": 50,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "DGEI",
+					"end": "DAG",
+					"length": 6,
+					"maxSpeed": 50,
+					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
 			"name": "Bahnstrecke Magdeburg–Leipzig",
 			"electrified": true,
 			"group": 0,
