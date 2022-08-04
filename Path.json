@@ -348,6 +348,156 @@
 			]
 		},
 		{
+			"twistingFactor": 0.1,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "NN",
+					"end": "NNO",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "NNO",
+					"end": "NNER",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "NNER",
+					"end": "NBEH",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NBEH",
+					"end": "NRUE",
+					"length": 3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NRUE",
+					"end": "NLUD",
+					"length": 2,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NLUD",
+					"end": "NLR",
+					"length": 2,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NLR",
+					"end": "NNKS",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NNKS",
+					"end": "NREI",
+					"length": 3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NREI",
+					"end": "NHR",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NHR",
+					"end": "NHOH",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NHOH",
+					"end": "NV",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NV",
+					"end": "NRST",
+					"length": 5,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NRST",
+					"end": "NVN",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NVN",
+					"end": "NNP",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NNP",
+					"end": "NPZ",
+					"length": 16,
+					"maxSpeed": 100
+				},
+				{
+					"start": "NPZ",
+					"end": "NSAW",
+					"length": 8,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NSAW",
+					"end": "NKL",
+					"length": 19,
+					"maxSpeed": 130
+				},
+				{
+					"start": "NKL",
+					"end": "NHAG",
+					"length": 4,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NHAG",
+					"end": "NIM",
+					"length": 4,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NIM",
+					"end": "NNSG",
+					"length": 11,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NNSG",
+					"end": "NWDH",
+					"length": 9,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NWDH",
+					"end": "NMR",
+					"length": 3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NMR",
+					"end": "NAZ",
+					"length": 10,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NAZ",
+					"end": "NSG",
+					"length": 4,
+					"maxSpeed": 110
+				}
+			]
+		},
+		{
 			"name": "Rechte Rheinstrecke",
 			"twistingFactor": 0.1,
 			"objects": [
@@ -9839,6 +9989,124 @@
 					"start": "MEGK",
 					"end": "MNR",
 					"length": 6
+				},
+				{
+					"start": "MNR",
+					"end": "MROH",
+					"length": 9
+				},
+				{
+					"start": "MROH",
+					"end": "MMF",
+					"length": 6
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 80,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "MNR",
+					"end": "MMSG",
+					"length": 9
+				},
+				{
+					"start": "MMSG",
+					"end": "MDF",
+					"length": 5
+				},
+				{
+					"start": "MDF",
+					"end": "MHUS",
+					"length": 3
+				},
+				{
+					"start": "MHUS",
+					"end": "MEGF",
+					"length": 3
+				},
+				{
+					"start": "MEGF",
+					"end": "MEFM",
+					"length": 1
+				},
+				{
+					"start": "MEFM",
+					"end": "MHEF",
+					"length": 4
+				},
+				{
+					"start": "MHEF",
+					"end": "MPKI",
+					"length": 9
+				},
+				{
+					"start": "MPKI",
+					"end": "MAK",
+					"length": 7
+				},
+				{
+					"start": "MAK",
+					"end": "MBIB",
+					"length": 4
+				},
+				{
+					"start": "MBIB",
+					"end": "MBYB",
+					"length": 5
+				},
+				{
+					"start": "MBYB",
+					"end": "MKH",
+					"length": 4
+				},
+				{
+					"start": "MKH",
+					"end": "MPKG",
+					"length": 9
+				},
+				{
+					"start": "MPKG",
+					"end": "MRUS",
+					"length": 4
+				},
+				{
+					"start": "MRUS",
+					"end": "MSBH",
+					"length": 4
+				},
+				{
+					"start": "MSBH",
+					"end": "MEGH",
+					"length": 4
+				},
+				{
+					"start": "MEGH",
+					"end": "MBHT",
+					"length": 3
+				},
+				{
+					"start": "MBHT",
+					"end": "MFZL",
+					"length": 3
+				},
+				{
+					"start": "MFZL",
+					"end": "MNK",
+					"length": 4
+				},
+				{
+					"start": "MNK",
+					"end": "NNSP",
+					"length": 8
+				},
+				{
+					"start": "NNSP",
+					"end": "NPA",
+					"length": 4
 				}
 			]
 		},
