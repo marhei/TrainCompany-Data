@@ -3817,24 +3817,141 @@
 			"objects": [
 				{
 					"start": "FB",
-					"end": "UEI",
-					"twistingFactor": 0.3,
-					"length": 45,
+					"end": "FFDF",
+					"length": 3,
 					"maxSpeed": 160
 				},
 				{
+					"start": "FFDF",
+					"end": "FRON",
+					"length": 2,
+					"maxSpeed": 160
+				},
+				{
+					"start": "FRON",
+					"end": "FHNB",
+					"length": 6,
+					"maxSpeed": 140
+				},
+				{
+					"start": "FHNB",
+					"end": "FBOS",
+					"length": 4,
+					"maxSpeed": 160
+				},
+				{
+					"start": "FBOS",
+					"end": "FOBS",
+					"length": 2,
+					"maxSpeed": 160
+				},
+				{
+					"start": "FOBS",
+					"end": "UGT",
+					"length": 3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UGT",
+					"end": "UHER",
+					"length": 11,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UHER",
+					"end": "UWAR",
+					"length": 3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UWAR",
+					"end": "UHL",
+					"length": 2,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UHL",
+					"end": "UEIS",
+					"length": 4,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UEIS",
+					"end": "UEIP",
+					"length": 1,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UEIP",
+					"end": "UEIW",
+					"length": 1,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UEIW",
+					"end": "UEI",
+					"length": 2,
+					"maxSpeed": 120
+				},
+				{
 					"start": "UEI",
+					"end": "UWU",
+					"length": 6,
+					"maxSpeed": 200
+				},
+				{
+					"start": "UWU",
+					"end": "USU",
+					"length": 2,
+					"maxSpeed": 200
+				},
+				{
+					"start": "USU",
+					"end": "USAE",
+					"length": 4,
+					"maxSpeed": 200
+				},
+				{
+					"start": "USAE",
+					"end": "UMS",
+					"length": 1,
+					"maxSpeed": 200
+				},
+				{
+					"start": "UMS",
+					"end": "UME",
+					"length": 2,
+					"maxSpeed": 200
+				},
+				{
+					"start": "UME",
+					"end": "UFT",
+					"length": 4,
+					"maxSpeed": 200
+				},
+				{
+					"start": "UFT",
 					"end": "UGO",
-					"twistingFactor": 0.15,
-					"length": 29,
+					"length": 10,
 					"maxSpeed": 200
 				},
 				{
 					"start": "UGO",
-					"end": "UE P",
-					"twistingFactor": 0.15,
-					"length": 28,
+					"end": "USB",
+					"length": 6,
 					"maxSpeed": 200
+				},
+				{
+					"start": "USB",
+					"end": "UWA",
+					"length": 5,
+					"maxSpeed": 200
+				},
+				{
+					"start": "UWA",
+					"end": "UE P",
+					"length": 18,
+					"maxSpeed": 160
 				},
 				{
 					"start": "UE P",
@@ -6649,20 +6766,87 @@
 			"name": "Bahnstrecke Gotha–Leinefelde",
 			"group": 1,
 			"electrified": false,
+			"twistingFactor": 0.1,
+			"maxSpeed": 140,
 			"objects": [
 				{
 					"start": "UL",
+					"end": "UBKN",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "UBKN",
+					"end": "USI",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "USI",
+					"end": "UDA",
+					"length": 9,
+					"maxSpeed": 130
+				},
+				{
+					"start": "UDA",
+					"end": "UAMM",
+					"length": 6,
+					"maxSpeed": 100
+				},
+				{
+					"start": "UAMM",
+					"end": "UMH",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "UMH",
+					"end": "USE",
+					"length": 6
+				},
+				{
+					"start": "USE",
+					"end": "UGG",
+					"length": 4
+				},
+				{
+					"start": "UGG",
+					"end": "USCS",
+					"length": 3
+				},
+				{
+					"start": "USCS",
 					"end": "ULS",
-					"twistingFactor": 0.3,
-					"length": 46,
-					"maxSpeed": 140
+					"length": 5
 				},
 				{
 					"start": "ULS",
-					"end": "UGO",
-					"twistingFactor": 0.4,
-					"length": 22,
+					"end": "UEK",
+					"length": 5
+				},
+				{
+					"start": "UEK",
+					"end": "UBAS",
+					"length": 4,
 					"maxSpeed": 160
+				},
+				{
+					"start": "UBAS",
+					"end": "UBF",
+					"length": 5,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UBF",
+					"end": "UGOS",
+					"length": 4,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UGOS",
+					"end": "UGO",
+					"length": 3,
+					"maxSpeed": 70
 				}
 			]
 		},
