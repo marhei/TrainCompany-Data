@@ -17120,6 +17120,69 @@
 					"twistingFactor": 0.2
 				},
 				{
+					"start": "DH",
+					"end": "DSTH",
+					"length": 2,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DSTH",
+					"end": "DRK",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "DRK",
+					"end": "DD",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "DD",
+					"end": "DNSH",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "DNSH",
+					"end": "DZSW",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "DZSW",
+					"end": "DHD",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DHD",
+					"end": "DHDS",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DHDS",
+					"end": "DHDG",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DHDG",
+					"end": "DPI",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
 					"start": "DPI",
 					"end": "DOG",
 					"length": 5,
@@ -17185,6 +17248,97 @@
 						"DE",
 						"CZ"
 					]
+				}
+			]
+		},
+		{
+			"name": "Müglitztalbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 70,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DHD",
+					"end": "DDO",
+					"length": 2
+				},
+				{
+					"start": "DDO",
+					"end": "DKTW",
+					"length": 2
+				},
+				{
+					"start": "DKTW",
+					"end": "DWSN",
+					"length": 2
+				},
+				{
+					"start": "DWSN",
+					"end": "DBWD",
+					"length": 2
+				},
+				{
+					"start": "DBWD",
+					"end": "DMHL",
+					"length": 2,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DMHL",
+					"end": "DNDS",
+					"length": 3,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DNDS",
+					"end": "DOSC",
+					"length": 2,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DOSC",
+					"end": "DGHU",
+					"length": 4,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DGHU",
+					"end": "DBJ",
+					"length": 3,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DBJ",
+					"end": "DBAG",
+					"length": 3
+				},
+				{
+					"start": "DBAG",
+					"end": "DLST",
+					"length": 3
+				},
+				{
+					"start": "DLST",
+					"end": "DHMU",
+					"length": 2
+				},
+				{
+					"start": "DHMU",
+					"end": "DGEI",
+					"length": 2,
+					"maxSpeed": 50,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "DGEI",
+					"end": "DAG",
+					"length": 6,
+					"maxSpeed": 50,
+					"twistingFactor": 0.4
 				}
 			]
 		},
