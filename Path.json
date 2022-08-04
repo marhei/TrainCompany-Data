@@ -20814,6 +20814,268 @@
 			"length": 7
 		},
 		{
+			"name": "Chemnitz-Aue",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 80,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DC",
+					"end": "DCS",
+					"length": 2,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DCS",
+					"end": "DCS S",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DCS S",
+					"end": "DVTS",
+					"length": 2,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "DVTS",
+					"end": "DCRE",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "DCRE",
+					"end": "DCE",
+					"length": 1,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DCE",
+					"end": "DCEO",
+					"length": 1,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DCEO",
+					"end": "DEDH",
+					"length": 1,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "DEDH",
+					"end": "DED",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "DED",
+					"end": "DEDP",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "DEDP",
+					"end": "DEDB",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "DEDB",
+					"end": "DDF",
+					"length": 2,
+					"maxSpeed": 60
+				},
+				{
+					"start": "DDF",
+					"end": "DKAU",
+					"length": 4,
+					"twistingFactor": 0.4,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DKAU",
+					"end": "DBUF",
+					"length": 2,
+					"twistingFactor": 0.25,
+					"maxSpeed": 70
+				},
+				{
+					"start": "DBUF",
+					"end": "DBUM",
+					"length": 1,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DBUM",
+					"end": "DMS",
+					"length": 3,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DMS",
+					"end": "DTAM",
+					"length": 3,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DTAM",
+					"end": "DTAL",
+					"length": 1,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DTAL",
+					"end": "DDCH",
+					"length": 4,
+					"twistingFactor": 0.35,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DDCH",
+					"end": "DNZW",
+					"length": 2,
+					"twistingFactor": 0.35,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DNZW",
+					"end": "DZI",
+					"length": 3,
+					"twistingFactor": 0.35,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DZI",
+					"end": "DLN",
+					"length": 6,
+					"twistingFactor": 0.5,
+					"maxSpeed": 40
+				},
+				{
+					"start": "DLN",
+					"end": "DLNU",
+					"length": 4,
+					"twistingFactor": 0.45,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DLNU",
+					"end": "DAUS",
+					"length": 3,
+					"twistingFactor": 0.4,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DAUS",
+					"end": "DAU",
+					"length": 2,
+					"twistingFactor": 0.55,
+					"maxSpeed": 50
+				}
+			]
+		},
+		{
+			"name": "Obererzgebirgische Eisenbahn",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.4,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DAU",
+					"end": "DLR",
+					"length": 6,
+					"maxSpeed": 70
+				},
+				{
+					"start": "DLR",
+					"end": "DSCN",
+					"length": 2,
+					"twistingFactor": 0.25,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DSCN",
+					"end": "DSC",
+					"length": 2,
+					"twistingFactor": 0.25,
+					"maxSpeed": 80
+				}
+			]
+		},
+		{
+			"name": "Schwarzenberg (Erzgebirge) - Karlovy Vary",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 50,
+			"twistingFactor": 0.4,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DSC",
+					"end": "DSCH",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DSCH",
+					"end": "DERA",
+					"length": 1
+				},
+				{
+					"start": "DERA",
+					"end": "DATL",
+					"length": 4
+				},
+				{
+					"start": "DATL",
+					"end": "DBRE",
+					"length": 3,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "DBRE",
+					"end": "DERB",
+					"length": 3,
+					"maxSpeed": 40,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "DERB",
+					"end": "DJ",
+					"length": 4
+				},
+				{
+					"start": "DJ",
+					"end": "DXJ",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DXJ",
+					"end": "XTPO",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1,
+					"neededEquipments": [
+						"DE",
+						"CZ"
+					]
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 100,
