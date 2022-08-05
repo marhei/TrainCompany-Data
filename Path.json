@@ -21999,9 +21999,27 @@
 			"objects": [
 				{
 					"start": "DC",
-					"end": "DMW",
-					"length": 17,
+					"end": "DOBL",
+					"length": 8,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "DOBL",
+					"end": "DOF",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DOF",
+					"end": "DAMD",
+					"length": 4,
 					"twistingFactor": 0.2
+				},
+				{
+					"start": "DAMD",
+					"end": "DMW",
+					"length": 2,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "DMW",
