@@ -212,6 +212,96 @@
 			]
 		},
 		{
+			"twistingFactor": 0.2,
+			"maxSpeed": 120,
+			"objects": [
+				{
+					"start": "FHOE",
+					"end": "FFZH",
+					"length": 3
+				},
+				{
+					"start": "FFZH",
+					"end": "FKRI",
+					"length": 2
+				},
+				{
+					"start": "FKRI",
+					"end": "FHF",
+					"length": 2
+				},
+				{
+					"start": "FHF",
+					"end": "FLB",
+					"length": 4
+				},
+				{
+					"start": "FLB",
+					"end": "FEP",
+					"length": 5,
+					"maxSpeed": 90
+				},
+				{
+					"start": "FEP",
+					"end": "FEPB",
+					"length": 1,
+					"maxSpeed": 90
+				},
+				{
+					"start": "FEPB",
+					"end": "FNJ",
+					"length": 2,
+					"maxSpeed": 110
+				},
+				{
+					"start": "FNJ",
+					"end": "FNSD",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "FNSD",
+					"end": "FIST",
+					"length": 8
+				},
+				{
+					"start": "FIST",
+					"end": "FWOD",
+					"length": 3
+				},
+				{
+					"start": "FWOD",
+					"end": "FCA",
+					"length": 7
+				},
+				{
+					"start": "FCA",
+					"end": "FNS",
+					"length": 4
+				},
+				{
+					"start": "FNS",
+					"end": "FOB",
+					"length": 4
+				},
+				{
+					"start": "FOB",
+					"end": "FNCH",
+					"length": 2
+				},
+				{
+					"start": "FNCH",
+					"end": "FLHN",
+					"length": 4
+				},
+				{
+					"start": "FLHN",
+					"end": "FL",
+					"length": 6
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"objects": [
@@ -254,6 +344,156 @@
 					],
 					"maxSpeed": 140,
 					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"twistingFactor": 0.1,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "NN",
+					"end": "NNO",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "NNO",
+					"end": "NNER",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "NNER",
+					"end": "NBEH",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NBEH",
+					"end": "NRUE",
+					"length": 3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NRUE",
+					"end": "NLUD",
+					"length": 2,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NLUD",
+					"end": "NLR",
+					"length": 2,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NLR",
+					"end": "NNKS",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NNKS",
+					"end": "NREI",
+					"length": 3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NREI",
+					"end": "NHR",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NHR",
+					"end": "NHOH",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NHOH",
+					"end": "NV",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NV",
+					"end": "NRST",
+					"length": 5,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NRST",
+					"end": "NVN",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NVN",
+					"end": "NNP",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NNP",
+					"end": "NPZ",
+					"length": 16,
+					"maxSpeed": 100
+				},
+				{
+					"start": "NPZ",
+					"end": "NSAW",
+					"length": 8,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NSAW",
+					"end": "NKL",
+					"length": 19,
+					"maxSpeed": 130
+				},
+				{
+					"start": "NKL",
+					"end": "NHAG",
+					"length": 4,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NHAG",
+					"end": "NIM",
+					"length": 4,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NIM",
+					"end": "NNSG",
+					"length": 11,
+					"maxSpeed": 120
+				},
+				{
+					"start": "NNSG",
+					"end": "NWDH",
+					"length": 9,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NWDH",
+					"end": "NMR",
+					"length": 3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "NMR",
+					"end": "NAZ",
+					"length": 10,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NAZ",
+					"end": "NSG",
+					"length": 4,
+					"maxSpeed": 110
 				}
 			]
 		},
@@ -504,29 +744,46 @@
 			"neededEquipments": [
 				"KRM"
 			],
+			"twistingFactor": 0.1,
 			"objects": [
 				{
 					"start": "FFLF",
+					"end": "FBRM",
+					"length": 15
+				},
+				{
+					"start": "FBRM",
+					"end": "FIDS",
+					"length": 17
+				},
+				{
+					"start": "FIDS",
+					"end": "FLHH",
+					"length": 24
+				},
+				{
+					"start": "FLHH",
 					"end": "FLIS",
-					"twistingFactor": 0.1,
-					"length": 59
+					"length": 2
 				},
 				{
 					"start": "FLIS",
 					"end": "FMT",
-					"twistingFactor": 0.1,
 					"length": 21
 				},
 				{
 					"start": "FMT",
+					"end": "FWRT",
+					"length": 27
+				},
+				{
+					"start": "FWRT",
 					"end": "KSIB",
-					"twistingFactor": 0.1,
-					"length": 63
+					"length": 36
 				},
 				{
 					"start": "KSIB",
 					"end": "KT",
-					"twistingFactor": 0.1,
 					"length": 7,
 					"neededEquipments": [],
 					"maxSpeed": 200
@@ -3709,24 +3966,141 @@
 			"objects": [
 				{
 					"start": "FB",
-					"end": "UEI",
-					"twistingFactor": 0.3,
-					"length": 45,
+					"end": "FFDF",
+					"length": 3,
 					"maxSpeed": 160
 				},
 				{
+					"start": "FFDF",
+					"end": "FRON",
+					"length": 2,
+					"maxSpeed": 160
+				},
+				{
+					"start": "FRON",
+					"end": "FHNB",
+					"length": 6,
+					"maxSpeed": 140
+				},
+				{
+					"start": "FHNB",
+					"end": "FBOS",
+					"length": 4,
+					"maxSpeed": 160
+				},
+				{
+					"start": "FBOS",
+					"end": "FOBS",
+					"length": 2,
+					"maxSpeed": 160
+				},
+				{
+					"start": "FOBS",
+					"end": "UGT",
+					"length": 3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UGT",
+					"end": "UHER",
+					"length": 11,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UHER",
+					"end": "UWAR",
+					"length": 3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UWAR",
+					"end": "UHL",
+					"length": 2,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UHL",
+					"end": "UEIS",
+					"length": 4,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UEIS",
+					"end": "UEIP",
+					"length": 1,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UEIP",
+					"end": "UEIW",
+					"length": 1,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UEIW",
+					"end": "UEI",
+					"length": 2,
+					"maxSpeed": 120
+				},
+				{
 					"start": "UEI",
+					"end": "UWU",
+					"length": 6,
+					"maxSpeed": 200
+				},
+				{
+					"start": "UWU",
+					"end": "USU",
+					"length": 2,
+					"maxSpeed": 200
+				},
+				{
+					"start": "USU",
+					"end": "USAE",
+					"length": 4,
+					"maxSpeed": 200
+				},
+				{
+					"start": "USAE",
+					"end": "UMS",
+					"length": 1,
+					"maxSpeed": 200
+				},
+				{
+					"start": "UMS",
+					"end": "UME",
+					"length": 2,
+					"maxSpeed": 200
+				},
+				{
+					"start": "UME",
+					"end": "UFT",
+					"length": 4,
+					"maxSpeed": 200
+				},
+				{
+					"start": "UFT",
 					"end": "UGO",
-					"twistingFactor": 0.15,
-					"length": 29,
+					"length": 10,
 					"maxSpeed": 200
 				},
 				{
 					"start": "UGO",
-					"end": "UE P",
-					"twistingFactor": 0.15,
-					"length": 28,
+					"end": "USB",
+					"length": 6,
 					"maxSpeed": 200
+				},
+				{
+					"start": "USB",
+					"end": "UWA",
+					"length": 5,
+					"maxSpeed": 200
+				},
+				{
+					"start": "UWA",
+					"end": "UE P",
+					"length": 18,
+					"maxSpeed": 160
 				},
 				{
 					"start": "UE P",
@@ -6541,20 +6915,198 @@
 			"name": "Bahnstrecke Gotha–Leinefelde",
 			"group": 1,
 			"electrified": false,
+			"twistingFactor": 0.1,
+			"maxSpeed": 140,
 			"objects": [
 				{
 					"start": "UL",
+					"end": "UBKN",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "UBKN",
+					"end": "USI",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "USI",
+					"end": "UDA",
+					"length": 9,
+					"maxSpeed": 130
+				},
+				{
+					"start": "UDA",
+					"end": "UAMM",
+					"length": 6,
+					"maxSpeed": 100
+				},
+				{
+					"start": "UAMM",
+					"end": "UMH",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "UMH",
+					"end": "USE",
+					"length": 6
+				},
+				{
+					"start": "USE",
+					"end": "UGG",
+					"length": 4
+				},
+				{
+					"start": "UGG",
+					"end": "USCS",
+					"length": 3
+				},
+				{
+					"start": "USCS",
 					"end": "ULS",
-					"twistingFactor": 0.3,
-					"length": 46,
-					"maxSpeed": 140
+					"length": 5
 				},
 				{
 					"start": "ULS",
-					"end": "UGO",
-					"twistingFactor": 0.4,
-					"length": 22,
+					"end": "UEK",
+					"length": 5
+				},
+				{
+					"start": "UEK",
+					"end": "UBAS",
+					"length": 4,
 					"maxSpeed": 160
+				},
+				{
+					"start": "UBAS",
+					"end": "UBF",
+					"length": 5,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UBF",
+					"end": "UGOS",
+					"length": 4,
+					"maxSpeed": 160
+				},
+				{
+					"start": "UGOS",
+					"end": "UGO",
+					"length": 3,
+					"maxSpeed": 70
+				}
+			]
+		},
+		{
+			"maxSpeed": 160,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "EOB",
+					"end": "EEDL",
+					"length": 5
+				},
+				{
+					"start": "EEDL",
+					"end": "EEBE",
+					"length": 4
+				},
+				{
+					"start": "EEBE",
+					"end": "EEAL",
+					"length": 2
+				},
+				{
+					"start": "EEAL",
+					"end": "EEKB",
+					"length": 3
+				},
+				{
+					"start": "EEKB",
+					"end": "EG",
+					"length": 4
+				},
+				{
+					"start": "EG",
+					"end": "EWAN",
+					"length": 5
+				},
+				{
+					"start": "EWAN",
+					"end": "EBAU",
+					"length": 3
+				},
+				{
+					"start": "EBAU",
+					"end": "ERES",
+					"length": 2
+				},
+				{
+					"start": "ERES",
+					"end": "ERE",
+					"length": 6
+				},
+				{
+					"start": "ERE",
+					"end": "EMSI",
+					"length": 6
+				},
+				{
+					"start": "EMSI",
+					"end": "ELPE",
+					"length": 5
+				},
+				{
+					"start": "ELPE",
+					"end": "EHLT",
+					"length": 4
+				},
+				{
+					"start": "EHLT",
+					"end": "ESYH",
+					"length": 5
+				},
+				{
+					"start": "ESYH",
+					"end": "EDUL",
+					"length": 8
+				},
+				{
+					"start": "EDUL",
+					"end": "EBUD",
+					"length": 6
+				},
+				{
+					"start": "EBUD",
+					"end": "EAPH",
+					"length": 5
+				},
+				{
+					"start": "EAPH",
+					"end": "EBSL",
+					"length": 5
+				},
+				{
+					"start": "EBSL",
+					"end": "EABT",
+					"length": 3
+				},
+				{
+					"start": "EABT",
+					"end": "EMEK",
+					"length": 4
+				},
+				{
+					"start": "EMEK",
+					"end": "EGST",
+					"length": 3
+				},
+				{
+					"start": "EGST",
+					"end": "EMST",
+					"length": 3
 				}
 			]
 		},
@@ -8268,7 +8820,7 @@
 					"length": 7,
 					"maxSpeed": 160,
 					"twistingFactor": 0.23
-				},				
+				},
 				{
 					"start": "HNBG",
 					"end": "HLBU",
@@ -9437,6 +9989,124 @@
 					"start": "MEGK",
 					"end": "MNR",
 					"length": 6
+				},
+				{
+					"start": "MNR",
+					"end": "MROH",
+					"length": 9
+				},
+				{
+					"start": "MROH",
+					"end": "MMF",
+					"length": 6
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 80,
+			"twistingFactor": 0.3,
+			"objects": [
+				{
+					"start": "MNR",
+					"end": "MMSG",
+					"length": 9
+				},
+				{
+					"start": "MMSG",
+					"end": "MDF",
+					"length": 5
+				},
+				{
+					"start": "MDF",
+					"end": "MHUS",
+					"length": 3
+				},
+				{
+					"start": "MHUS",
+					"end": "MEGF",
+					"length": 3
+				},
+				{
+					"start": "MEGF",
+					"end": "MEFM",
+					"length": 1
+				},
+				{
+					"start": "MEFM",
+					"end": "MHEF",
+					"length": 4
+				},
+				{
+					"start": "MHEF",
+					"end": "MPKI",
+					"length": 9
+				},
+				{
+					"start": "MPKI",
+					"end": "MAK",
+					"length": 7
+				},
+				{
+					"start": "MAK",
+					"end": "MBIB",
+					"length": 4
+				},
+				{
+					"start": "MBIB",
+					"end": "MBYB",
+					"length": 5
+				},
+				{
+					"start": "MBYB",
+					"end": "MKH",
+					"length": 4
+				},
+				{
+					"start": "MKH",
+					"end": "MPKG",
+					"length": 9
+				},
+				{
+					"start": "MPKG",
+					"end": "MRUS",
+					"length": 4
+				},
+				{
+					"start": "MRUS",
+					"end": "MSBH",
+					"length": 4
+				},
+				{
+					"start": "MSBH",
+					"end": "MEGH",
+					"length": 4
+				},
+				{
+					"start": "MEGH",
+					"end": "MBHT",
+					"length": 3
+				},
+				{
+					"start": "MBHT",
+					"end": "MFZL",
+					"length": 3
+				},
+				{
+					"start": "MFZL",
+					"end": "MNK",
+					"length": 4
+				},
+				{
+					"start": "MNK",
+					"end": "NNSP",
+					"length": 8
+				},
+				{
+					"start": "NNSP",
+					"end": "NPA",
+					"length": 4
 				}
 			]
 		},
@@ -17114,10 +17784,66 @@
 				},
 				{
 					"start": "DH",
-					"end": "DPI",
-					"length": 17,
+					"end": "DSTH",
+					"length": 2,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DSTH",
+					"end": "DRK",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "DRK",
+					"end": "DD",
+					"length": 2,
 					"maxSpeed": 160,
-					"twistingFactor": 0.2
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "DD",
+					"end": "DNSH",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "DNSH",
+					"end": "DZSW",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "DZSW",
+					"end": "DHD",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DHD",
+					"end": "DHDS",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DHDS",
+					"end": "DHDG",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DHDG",
+					"end": "DPI",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "DPI",
@@ -17185,6 +17911,97 @@
 						"DE",
 						"CZ"
 					]
+				}
+			]
+		},
+		{
+			"name": "Müglitztalbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 70,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DHD",
+					"end": "DDO",
+					"length": 2
+				},
+				{
+					"start": "DDO",
+					"end": "DKTW",
+					"length": 2
+				},
+				{
+					"start": "DKTW",
+					"end": "DWSN",
+					"length": 2
+				},
+				{
+					"start": "DWSN",
+					"end": "DBWD",
+					"length": 2
+				},
+				{
+					"start": "DBWD",
+					"end": "DMHL",
+					"length": 2,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DMHL",
+					"end": "DNDS",
+					"length": 3,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DNDS",
+					"end": "DOSC",
+					"length": 2,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DOSC",
+					"end": "DGHU",
+					"length": 4,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DGHU",
+					"end": "DBJ",
+					"length": 3,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DBJ",
+					"end": "DBAG",
+					"length": 3
+				},
+				{
+					"start": "DBAG",
+					"end": "DLST",
+					"length": 3
+				},
+				{
+					"start": "DLST",
+					"end": "DHMU",
+					"length": 2
+				},
+				{
+					"start": "DHMU",
+					"end": "DGEI",
+					"length": 2,
+					"maxSpeed": 50,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "DGEI",
+					"end": "DAG",
+					"length": 6,
+					"maxSpeed": 50,
+					"twistingFactor": 0.4
 				}
 			]
 		},
@@ -20644,6 +21461,105 @@
 					"start": "DWES",
 					"end": "DDE",
 					"length": 6
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 70,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DDE",
+					"end": "DDEG",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DDEG",
+					"end": "DDEZ",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "DDEZ",
+					"end": "DNST",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DNST",
+					"end": "DRW",
+					"length": 4
+				},
+				{
+					"start": "DRW",
+					"end": "DGLM",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "DGLM",
+					"end": "DNO",
+					"length": 4
+				},
+				{
+					"start": "DNO",
+					"end": "DDB",
+					"length": 4
+				},
+				{
+					"start": "DDB",
+					"end": "DMI",
+					"length": 9
+				},
+				{
+					"start": "DMI",
+					"end": "DMTG",
+					"length": 7
+				},
+				{
+					"start": "DMTG",
+					"end": "DMT",
+					"length": 1
+				},
+				{
+					"start": "DMT",
+					"end": "DMEA",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "DMEA",
+					"end": "DME",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DME",
+					"end": "DNZ",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1,
+					"electrified": true
+				},
+				{
+					"start": "DNZ",
+					"end": "DCW",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1,
+					"electrified": true
 				}
 			]
 		},

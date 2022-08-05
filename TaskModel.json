@@ -866,7 +866,7 @@
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
 			],
-			"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HELZ", "HBS", "LM", "LK", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DH" ]
+			"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EDO", "EHM", "EGLO", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HELZ", "HBS", "LM", "LK", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DCW", "DH" ]
 		},
 		{
 			"group": 1,
@@ -1003,8 +1003,8 @@
 					"pathSuggestion": [ "LL", "LGOS", "LH", "LK", "LM", "HBS", "HHI", "HELZ", "HH", "HWUN", "HNBG", "HV", "HB", "HHUD", "HOLD", "HLEE", "HE", "HNN", "HNDM" ]
 				},
 				{
-					"stations": [ "HNDM", "HNN", "HE", "HLEE", "HPAP", "HMEP", "HLIG", "HR", "EMST", "EDG", "KD", "KK", "KB" ],
-					"pathSuggestion": [ "HNDM", "HNN", "HE", "HLEE", "HPAP", "HMEP", "HLIG", "HR", "EMST", "EHM", "EDO", "EDG", "KD", "KK", "KKAS", "KB" ]
+					"stations": [ "HNDM", "HNN", "HE", "HLEE", "HPAP", "HMEP", "HLIG", "HR", "EMST", "ERE", "EWAN", "EG", "EOB", "EDG", "KD", "KK", "KB" ],
+					"pathSuggestion": [ "HNDM", "HNN", "HE", "HLEE", "HPAP", "HMEP", "HLIG", "HR", "EMST", "ERE", "EWAN", "EG", "EOB", "EDG", "KD", "KK", "KKAS", "KB" ]
 				}
 			],
 			"neededCapacity": [
@@ -1030,7 +1030,7 @@
 				},
 				{
 					"stations": [ "KD", "KK", "FF", "NWH", "NN", "MH" ],
-					"pathSuggestion": [ "KD", "KK", "KT", "KNE", "KNL", "FW", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH" ]
+					"pathSuggestion": [ "KD", "KK", "KT", "KNE", "KNL", "FW", "FHOE", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH" ]
 				}
 			],
 			"neededCapacity": [
@@ -1058,7 +1058,7 @@
 				},
 				{
 					"stations": [ "XMBK", "XMHY", "XAWW", "XTBR", "XTP", "DH", "BL", "LM", "EHM", "KW", "KK", "KM", "EDG", "EOB" ],
-					"pathSuggestion": [ "XMBK", "XMHY", "XAWW", "XTBR", "XTP", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "LM", "HBS", "HELZ", "HH", "HWUN", "HM", "HL", "EHFD", "EBILP", "EHM", "EHG", "KW", "KSO", "KK", "KGRB", "KM", "KV", "EDG", "EOB" ]
+					"pathSuggestion": [ "XMBK", "XMHY", "XAWW", "XTBR", "XTP", "XTD", "DSA", "DPI", "DHD", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "LM", "HBS", "HELZ", "HH", "HWUN", "HM", "HL", "EHFD", "EBILP", "EHM", "EHG", "KW", "KSO", "KK", "KGRB", "KM", "KV", "EDG", "EOB" ]
 				}
 			],
 			"neededCapacity": [
@@ -1089,7 +1089,7 @@
 				},
 				{
 					"stations": [ "XAWW", "XAP", "XAL", "XAWE", "NPA", "NRH", "NN", "FFLF", "FMZ", "KKO", "KB", "KK", "KD", "EEM", "XNAC" ],
-					"pathSuggestion": [ "XAWW", "XAP", "XAL", "XAWE", "🇦🇹Neu H1", "XASH", "NPA", "NPL", "NOT", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KD", "EDG", "EEM", "XNAC" ]
+					"pathSuggestion": [ "XAWW", "XAP", "XAL", "XAWE", "🇦🇹Neu H1", "XASH", "NPA", "NPL", "NOT", "NRH", "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KD", "EDG", "EOB", "EEM", "XNAC" ]
 				},
 				{
 					"stations": [ "XAWW", "XAP", "XAL", "XAWE", "XASB", "MRO", "MH", "RK", "XFSTG", "XFN", "XFPO" ],
@@ -2210,6 +2210,23 @@
 		},
 		{
 			"group": 1,
+			"name": "RB 72 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den RB 72 auf der Müglitztalbahn von %s nach %s.",
+				"Auch das Erzgebirge ist bei Urlaubern beliebt.",
+				"Das Müglitztal ist mit dem RB 72 zu erreichen.",
+				"Altenberg im Erzgebirge ist ein bekannter Kurort.",
+				"Bei Übernachtungen wird eine Kurtaxe fällig. ☝🧐"
+			],
+			"stations": [ "DHD", "DKTW", "DGHU", "DBAG", "DAG" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB 91 von %s nach %s",
 			"service": 3,
 			"descriptions": [
@@ -2423,7 +2440,7 @@
 					"descriptions": [
 						"Fahre die S1 von %s nach %s."
 					],
-					"stations": [ "DSN", "DSA", "DWH", "DPI", "DH", "DCW" ]
+					"stations": [ "DSN", "DSA", "DWH", "DPI", "DHD", "DH", "DCW", "DME" ]
 				},
 				{
 					"descriptions": [
@@ -3043,11 +3060,11 @@
 			"objects": [
 				{
 					"stations": [ "XTP", "XTU", "XTD", "DSA", "DH", "BL", "WW", "WL", "ABCH", "AH", "AN", "AK" ],
-					"pathSuggestion": [ "XTP", "XTU", "XTD", "DSA", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AK" ]
+					"pathSuggestion": [ "XTP", "XTU", "XTD", "DSA", "DPI", "DHD", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AK" ]
 				},
 				{
 					"stations": [ "XTP", "XTU","XTD", "DSA", "DH", "BL", "WW", "WL", "ABCH", "AH", "AN", "AF" ],
-					"pathSuggestion": [ "XTP", "XTU", "XTD", "DSA", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF" ]
+					"pathSuggestion": [ "XTP", "XTU", "XTD", "DSA", "DPI", "DHD", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF" ]
 				}
 			],
 			"neededCapacity": [
@@ -3853,9 +3870,9 @@
 				"Der Holzproduzent Ante möchte Schnittholz aus %s zur Europalettenproduktion nach %s liefern lassen.",
 				"Es wird Holz aus %s für die Europalettenproduktion in %s benötigt."
 			],
-			"stations": [ "URTS", "TMG" ],
+			"stations": [ "URTS" ],
 			"neededCapacity": [
-				{ "name": "wood", "value": 800 }
+				{ "name": "wood", "value": 1800 }
 			]
 		},
 		{
@@ -4122,7 +4139,7 @@
 			"objects": [
 				{
 					"stations": ["XVS", "XVM", "XDKH", "HBTH", "BL", "DH"],
-					"pathSuggestion": ["XVS", "🇸🇪HD", "🇸🇪JN", "🇸🇪MÖ", "XVFN", "XVK", "XVNC", "🇸🇪KS", "🇸🇪HJ", "XVM", "🇩🇰PB", "XDKHL", "XDKH", "🇩🇰VB", "XDRI", "XDSOR", "XDPA", "AF", "ATP", "AJ", "ASW", "AOS", "AR", "ANF", "AN", "ABRS", "AHOT", "AEL", "ATM", "AA", "AH", "AHAR", "ABLZ", "AROG", "HB", "HBHM", "HBOM", "HO", "HI", "HHTL", "HR", "HSTT", "HBTH", "XNHL", "🇳🇱Aml", "XNAC", "EDG", "EDO", "EHM", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HLER", "HWOB", "LS", "BSPD", "BL", "BBF", "BDT", "BBRS", "BDKO", "BRO", "BHL", "BEW", "BFR", "DGB", "DH"]
+					"pathSuggestion": ["XVS", "🇸🇪HD", "🇸🇪JN", "🇸🇪MÖ", "XVFN", "XVK", "XVNC", "🇸🇪KS", "🇸🇪HJ", "XVM", "🇩🇰PB", "XDKHL", "XDKH", "🇩🇰VB", "XDRI", "XDSOR", "XDPA", "AF", "ATP", "AJ", "ASW", "AOS", "AR", "ANF", "AN", "ABRS", "AHOT", "AEL", "ATM", "AA", "AH", "AHAR", "ABLZ", "AROG", "HB", "HBHM", "HBOM", "HO", "HI", "HHTL", "HR", "HSTT", "HBTH", "XNHL", "🇳🇱Aml", "XNAC", "EOB", "EDG", "EDO", "EHM", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HLER", "HWOB", "LS", "BSPD", "BL", "BBF", "BDT", "BBRS", "BDKO", "BRO", "BHL", "BEW", "BFR", "DGB", "DH"]
 				}
 			],
 			"neededCapacity": [
@@ -4305,7 +4322,7 @@
 				},
 				{
 					"stations": [ "BL", "FF", "XFSTG", "XLL", "XBB", "XNAC", "AH", "XDKH", "XVS" ],
-					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFN", "XFFD", "XFPS", "XFMZV", "XLL", "SKZ", "STR", "KKO", "KB", "KKAS", "KK", "KDN", "KA", "XBB", "XNAC", "EDG", "EDO", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ]
+					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFN", "XFFD", "XFPS", "XFMZV", "XLL", "SKZ", "STR", "KKO", "KB", "KKAS", "KK", "KDN", "KA", "XBB", "XNAC", "EOB", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ]
 				},
 				{
 					"stations": [ "XFSTG", "XSBE", "XIMB", "XIVP", "XAWW", "XMBK", "XJBC", "XWS", "XQIS" ],
@@ -4411,16 +4428,14 @@
 				{
 					"descriptions": [ "Fahre den TEE L'Arbalète von %s bis %s" ],
 					"stations": [ "XSZH", "XSB", "XFMV", "XFPO" ],
-					"pathSuggestion": [ "XSZH", "XSKS", "XSB", "XFMV",
-						"XFSTG", "XFVH", "XFN", "XFFD", "XFTU", "XFLE", "XFCM", "🇫🇷NAA", "XFMEA", "XFVAR", "XFPO"
-					]
+					"pathSuggestion": [ "XSZH", "XSKS", "XSB", "XFMV", "XFSTG", "XFVH", "XFN", "XFFD", "XFTU", "XFLE", "XFCM", "🇫🇷NAA", "XFMEA", "XFVAR", "XFPO" ]
 				},
 				{
 					"descriptions": [ "Fahre den Vindobona von %s bis %s" ],
 					"stations": [ "BHF", "BEW", "DH", "XTP","XAWW" ],
 					"pathSuggestion": [ "BHF", "BL", "BBF", "BDKO", "BEW",
 						"DGB",
-						"DH", "DSA", "XTD", "XTU", "XTP",
+						"DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP",
 						"XTKI", "XTPAR", "XTTR" , "XTBR", "XTBE",
 						"XAWW"
 					]
@@ -4437,8 +4452,8 @@
 						"XFO", "XFPS", "XFMZV", "XFRM", "🇫🇷BDC", "XFFB", "SSH", "SSI", "SRO", "SHO", "SLD", "SKL",
 						"SHY", "RN", "RSD", "RM", "FBL", "FFLF", "FF",
 						"FH", "FFD", "FFU", "FBHF", "FB", "UEI", "UGO", "UE P",
-						"UWM", "UGH", "UNM", "LL", "LBOR", "DR", "DPR",
-						"DH", "DPI", "DSA", "XTD", "XTU", "XTP"
+						"UWM", "UGH", "UNM", "LL", "LBOR", "DR", "DPR", "DCW",
+						"DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP"
 					]
 				},
 				{
@@ -4474,12 +4489,12 @@
 				{
 					"descriptions": [ "Fahre den TEE Rheingold von %s bis %s" ],
 					"stations": [ "XSGE", "XSLA", "XSBE", "XSB", "RB", "RF", "RK", "RM", "FMZ","KKO", "KB", "KK", "KD", "EDG", "EEM", "XNAH", "XNU", "XNAC" ],
-					"pathSuggestion": [ "XSGE", "XSMG", "XSLA", "🇨🇭PUI", "XSBE", "XSBL", "XSGRN", "XSDE", "XSB", "RB", "RML", "RF", "RO", "RAP", "RK", "RBR", "RH", "RMF", "RM", "RFT", "FWOR", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KD", "EDG", "EEM", "XNAH", "XNU", "XNAC" ]
+					"pathSuggestion": [ "XSGE", "XSMG", "XSLA", "🇨🇭PUI", "XSBE", "XSBL", "XSGRN", "XSDE", "XSB", "RB", "RML", "RF", "RO", "RAP", "RK", "RBR", "RH", "RMF", "RM", "RFT", "FWOR", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KD", "EDG", "EOB", "EEM", "XNAH", "XNU", "XNAC" ]
 				},
 				{
 					"descriptions": [ "Fahre den TEE van Beethoven von %s bis %s" ],
 					"stations": [ "NN", "NWH", "NAH", "FF", "FMZ","KKO", "KB", "KK", "KD", "EDG", "EEM", "XNAH", "XNU", "XNAC" ],
-					"pathSuggestion": [ "NN","NF", "NRTD", "NWH", "NGM", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KD", "EDG", "EEM", "XNAH", "XNU", "XNAC" ]
+					"pathSuggestion": [ "NN","NF", "NRTD", "NWH", "NGM", "NLO", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KB", "KKAS", "KK", "KD", "EDG", "EOB", "EEM", "XNAH", "XNU", "XNAC" ]
 				},
 				{
 					"descriptions": [ "Fahre den TEE Gambrinus von %s bis %s" ],
