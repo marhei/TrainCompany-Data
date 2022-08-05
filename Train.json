@@ -32,7 +32,7 @@
 			"force": 200,
 			"length": 205,
 			"drive": 1,
-			"reliability": 1,
+			"reliability": 0.85,
 			"cost": 2000000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 95,
@@ -3819,7 +3819,7 @@
 			"drive": 1,
 			"reliability": 0.9,
 			"cost": 490000,
-			"operationCosts": 120	,
+			"operationCosts": 120,
 			"equipments": ["CZ", "SK", "DE", "AT", "HU", "PL", "ETCS"]
 		},
 		{
@@ -4694,7 +4694,7 @@
 			"force": 317,
 			"length": 20,
 			"drive": 4,
-			"range": 1000
+			"range": 1000,
 			"reliability": 1,
 			"cost": 420000,
 			"operationCosts": 130,
