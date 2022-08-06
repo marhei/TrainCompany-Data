@@ -2263,6 +2263,21 @@
 			]
 		},
 		{
+			"group": 0,
+			"service": 4,
+			"name": "Erzgebirgische Aussichtsbahn",
+			"descriptions": [
+				"Es ist wieder soweit, an diesem Wochenende soll ein Sonderzug auf dieser sonst wenig befahrenen Strecke verkehren.",
+				"Der Verein Sächsischer Eisenbahnfreunde würde historische Fahrzeuge für diesen Sonderzug bevorzugen.",
+				"Daß das advanced TrainLab auf dieser Strecke fuhr, ist schon einige Zeit her. Heute sollte es etwas klassischer zugehen. "
+			],
+			"stations": [ "DABU", "DAB", "DSCL", "DMAR", "DGS", "DSC" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
 			"group": 1,
 			"name": "ČD von %s nach %s",
 			"service": 3,
