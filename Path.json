@@ -22335,6 +22335,65 @@
 			]
 		},
 		{
+			"name": "Annaberg-Buchholz–Schwarzenberg",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 50,
+			"twistingFactor": 0.4,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DAB",
+					"end": "DWF",
+					"length": 5
+				},
+				{
+					"start": "DWF",
+					"end": "DSCL",
+					"length": 2
+				},
+				{
+					"start": "DSCL",
+					"end": "DSG",
+					"length": 3
+				},
+				{
+					"start": "DSG",
+					"end": "DMAR",
+					"length": 8,
+					"maxSpeed": 40,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "DMAR",
+					"end": "DRAS",
+					"length": 1,
+					"maxSpeed": 40
+				},
+				{
+					"start": "DRAS",
+					"end": "DGS",
+					"length": 2,
+					"maxSpeed": 40
+				},
+				{
+					"start": "DGS",
+					"end": "DSCP",
+					"length": 1,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DSCP",
+					"end": "DSC",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"name": "Obererzgebirgische Eisenbahn",
 			"electrified": false,
 			"group": 0,
