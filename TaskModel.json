@@ -2247,9 +2247,26 @@
 			"service": 3,
 			"descriptions": [
 				"Fahre mit der Chemnitzer City-Bahn von %s nach %s",
-				"Die Tramhaltestellen Bahnhofstraße bis Technopark werden heute nicht bedient."
+				"Die Tramhaltestellen Bahnhofstraße bis Technopark werden heute nicht bedient.",
+				"Fahre die CB C13 durchs beschauliche Zwönitztal.",
+				"Zwei mal im Monat ist der Zug voll mit Fußballfans."
 			],
 			"stations": [ "DBU", "DC", "DED", "DDF", "DBUF", "DMS", "DTAL", "DZI", "DAU" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "CB C14 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre mit der Chemnitzer City-Bahn von %s nach %s",
+				"Die Tramhaltestellen Bahnhofstraße bis Technopark werden heute nicht bedient.",
+				"Normalerweise kommen auf dieser Strecke Mehrsystemfahrzeuge vom Typ Citylink zum Einsatz."
+			],
+			"stations": [ "DMW", "DC", "DED", "DDF", "DBUF", "DMS", "DTAL" ],
 			"stopsEverwhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
