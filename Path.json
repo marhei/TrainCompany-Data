@@ -21927,6 +21927,81 @@
 			]
 		},
 		{
+			"name": "Obererzgebirgische Eisenbahn",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 70,
+			"twistingFactor": 0.4,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DZW",
+					"end": "DZSG",
+					"length": 1,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DZSG",
+					"end": "DZWS",
+					"length": 2,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DZWS",
+					"end": "DBAC",
+					"length": 1,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DBAC",
+					"end": "DCDF",
+					"length": 1,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DCDF",
+					"end": "DWI",
+					"length": 2,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "DWI",
+					"end": "DSBS",
+					"length": 4
+				},
+				{
+					"start": "DSBS",
+					"end": "DWSB",
+					"length": 2,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DWSB",
+					"end": "DFBE",
+					"length": 4,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DFBE",
+					"end": "DHST",
+					"length": 3
+				},
+				{
+					"start": "DHST",
+					"end": "DSUB",
+					"length": 5
+				},
+				{
+					"start": "DSUB",
+					"end": "DAU",
+					"length": 4,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
 			"name": "Schwarzenberg (Erzgebirge) - Karlovy Vary",
 			"electrified": false,
 			"group": 0,
