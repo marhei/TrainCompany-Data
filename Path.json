@@ -19683,29 +19683,57 @@
 				},
 				{
 					"start": "DFR",
+					"end": "DKMA",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DKMA",
 					"end": "DFRS",
-					"length": 9,
-					"maxSpeed": 120
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "DFRS",
+					"end": "DOR",
+					"length": 7,
+					"maxSpeed": 110
+				},
+				{
+					"start": "DOR",
 					"end": "DFUS",
-					"length": 13,
+					"length": 7,
 					"maxSpeed": 90
 				},
 				{
 					"start": "DFUS",
+					"end": "DFL",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DFL",
 					"end": "DNR",
-					"length": 6,
-					"maxSpeed": 100,
+					"length": 4,
+					"maxSpeed": 120,
 					"twistingFactor": 0.2
 				},
 				{
 					"start": "DNR",
-					"end": "DC",
-					"length": 8,
+					"end": "DCHP",
+					"length": 5,
 					"maxSpeed": 120,
 					"twistingFactor": 0.2
+				},
+				{
+					"start": "DCHP",
+					"end": "DC",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "DC",
