@@ -2243,6 +2243,20 @@
 		},
 		{
 			"group": 1,
+			"name": "ČD von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Aufgrund von Bauarbeiten auf der Strecke ČD 142 erfolgt die Weiterfahrt von Potůčky nach mit dem Schienenersatzverkehr",
+				"Wenn die Bauarbeiten auf der Strecke ČD 142 abgeschlossen sind, kann man wieder ohne umzusteigen von Johanngeorgenstadt nach Karlovy Vary fahren."
+			],
+			"stations": [ "DJ", "XTPO" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "CB C13 von %s nach %s",
 			"service": 3,
 			"descriptions": [
