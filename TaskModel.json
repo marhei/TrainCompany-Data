@@ -2227,6 +2227,67 @@
 		},
 		{
 			"group": 1,
+			"name": "RB 95 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den RB 95 auf der Obererzgebirgischen Eisenbahn von %s nach %s.",
+				"Auch das Erzgebirge ist bei Urlaubern beliebt.",
+				"Das Muldetal ist mit dem RB 95 zu erreichen.",
+				"Mit dem RB 95 kommt man nah an die tschechische Grenze."
+			],
+			"stations": [ "DZW", "DAU", "DSC", "DJ" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "ČD von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Aufgrund von Bauarbeiten auf der Strecke ČD 142 erfolgt die Weiterfahrt von Potůčky nach mit dem Schienenersatzverkehr",
+				"Wenn die Bauarbeiten auf der Strecke ČD 142 abgeschlossen sind, kann man wieder ohne umzusteigen von Johanngeorgenstadt nach Karlovy Vary fahren."
+			],
+			"stations": [ "DJ", "XTPO" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "CB C13 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre mit der Chemnitzer City-Bahn von %s nach %s",
+				"Die Tramhaltestellen Bahnhofstraße bis Technopark werden heute nicht bedient.",
+				"Fahre die CB C13 durchs beschauliche Zwönitztal.",
+				"Zwei mal im Monat ist der Zug voll mit Fußballfans."
+			],
+			"stations": [ "DBU", "DC", "DED", "DDF", "DBUF", "DMS", "DTAL", "DZI", "DAU" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "CB C14 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre mit der Chemnitzer City-Bahn von %s nach %s",
+				"Die Tramhaltestellen Bahnhofstraße bis Technopark werden heute nicht bedient.",
+				"Normalerweise kommen auf dieser Strecke Mehrsystemfahrzeuge vom Typ Citylink zum Einsatz."
+			],
+			"stations": [ "DMW", "DC", "DED", "DDF", "DBUF", "DMS", "DTAL" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB 91 von %s nach %s",
 			"service": 3,
 			"descriptions": [
