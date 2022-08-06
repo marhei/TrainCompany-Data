@@ -21982,6 +21982,161 @@
 			"length": 7
 		},
 		{
+			"name": "Zschopautalbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 80,
+			"twistingFactor": 0.4,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DFL",
+					"end": "DFLP",
+					"length": 1,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "DFLP",
+					"end": "DEA",
+					"length": 3,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DEA",
+					"end": "DHRF",
+					"length": 4
+				},
+				{
+					"start": "DHRF",
+					"end": "DWIT",
+					"length": 3
+				},
+				{
+					"start": "DWIT",
+					"end": "DWK",
+					"length": 1,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DWK",
+					"end": "DZPO",
+					"length": 3,
+					"maxSpeed": 70
+				},
+				{
+					"start": "DZPO",
+					"end": "DZP",
+					"length": 1
+				},
+				{
+					"start": "DZP",
+					"end": "DWL",
+					"length": 3,
+					"maxSpeed": 70
+				},
+				{
+					"start": "DWL",
+					"end": "DSS",
+					"length": 3,
+					"maxSpeed": 50,
+					"twistingFactor": 0.45
+				},
+				{
+					"start": "DSS",
+					"end": "DWAB",
+					"length": 4
+				},
+				{
+					"start": "DWAB",
+					"end": "DWO",
+					"maxSpeed": 50,
+					"twistingFactor": 0.45
+				},
+				{
+					"start": "DWO",
+					"end": "DWIE",
+					"length": 6,
+					"maxSpeed": 60
+				},
+				{
+					"start": "DWIE",
+					"end": "DWIS",
+					"length": 2,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DWIS",
+					"end": "DABU",
+					"length": 6,
+					"maxSpeed": 60
+				}
+			]
+		},
+		{
+			"name": "Vejprty–Annaberg-Buchholz unt Bf",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DABU",
+					"end": "DABM",
+					"length": 1
+				},
+				{
+					"start": "DABM",
+					"end": "DAB",
+					"length": 1
+				}
+			]
+		},
+		{
+			"name": "Vejprty–Annaberg-Buchholz unt Bf",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 50,
+			"twistingFactor": 0.4,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DAB",
+					"end": "DSEH",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DSEH",
+					"end": "DCR",
+					"length": 3
+				},
+				{
+					"start": "DCR",
+					"end": "DBS",
+					"length": 10,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "DBS",
+					"end": "XTVY",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"DE","CZ"
+					]
+				}
+			]
+		},
+		{
 			"name": "Chemnitz-Aue",
 			"electrified": false,
 			"group": 1,
