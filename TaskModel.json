@@ -2243,6 +2243,20 @@
 		},
 		{
 			"group": 1,
+			"name": "CB C13 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre mit der Chemnitzer City-Bahn von %s nach %s",
+				"Die Tramhaltestellen Bahnhofstraße bis Technopark werden heute nicht bedient."
+			],
+			"stations": [ "DBU", "DC", "DED", "DDF", "DBUF", "DMS", "DTAL", "DZI", "DAU" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB 91 von %s nach %s",
 			"service": 3,
 			"descriptions": [
