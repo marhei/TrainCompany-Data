@@ -2227,6 +2227,27 @@
 		},
 		{
 			"group": 1,
+			"name": "RB 80 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den RB 80 durch das Zschopautal von %s nach %s.",
+				"Auch das Erzgebirge ist bei Urlaubern beliebt.",
+				"Die Burg Scharfenstein ist mit dem RB 80 zu erreichen.",
+				"Besichtigen Sie das Wolkensteiner Schloß und übernachten Sie im Zughotel.",
+				"In der Saison verkehrt der RB 80 bis ins tschechische Chomutov."
+			],
+			"objects": [
+				{"stations": [ "DC", "DNR", "DFL", "DNRF", "DZP", "DWO", "DABU", "DAB" ]},
+				{"stations": [ "DC", "DNR", "DFL", "DNRF", "DZP", "DWO", "DABU", "DAB", "DCR" ]},
+				{"stations": [ "DCR", "XTVY" ]}
+			],			
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB 95 von %s nach %s",
 			"service": 3,
 			"descriptions": [
