@@ -1407,6 +1407,43 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.18,
+			"neededEquipments": [
+				"ES",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "🇪🇸08004",
+					"end": "🇪🇸10500",
+					"length": 88
+				},
+				{
+					"start": "🇪🇸10500",
+					"end": "🇪🇸30200",
+					"length": 87
+				},
+				{
+					"start": "🇪🇸30200",
+					"end": "🇪🇸31200",
+					"length": 106
+				},
+				{
+					"start": "🇪🇸31200",
+					"end": "🇪🇸31205",
+					"length": 50
+				},
+				{
+					"start": "🇪🇸31205",
+					"end": "🇪🇸22100",
+					"length": 165
+				}
+			]
+		},
+		{
 			"group": 1,
 			"twistingFactor": 0.4,
 			"electrified": false,
@@ -3788,6 +3825,19 @@
 			]
 		},
 		{
+			"start": "🇪🇸22100",
+			"end": "🇪🇸31400",
+			"electrified": true,
+			"group": 2,
+			"length": 88,
+			"maxSpeed": 300,
+			"twistingFactor": 0.18,
+			"neededEquipments": [
+				"ES",
+				"ETCS"
+			]
+		},
+		{
 			"name": "Mitte-Deutschland-Verbindung",
 			"twistingFactor": 0.25,
 			"maxSpeed": 120,
@@ -5951,6 +6001,32 @@
 						"HU"
 					],
 					"twistingFactor": 0.23
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.15,
+			"neededEquipments": [
+				"ES"
+			],
+			"objects": [
+				{
+					"start": "🇪🇸50500",
+					"end": "XEPG",
+					"length": 96
+				},
+				{
+					"start": "XEPG",
+					"end": "XEAS",
+					"length": 37
+				},
+				{
+					"start": "XEAS",
+					"end": "🇪🇸54413",
+					"length": 59
 				}
 			]
 		},
@@ -8533,6 +8609,49 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"ES",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XEMAT",
+					"end": "🇪🇸37200",
+					"length": 171,
+					"maxSpeed": 270
+				},
+				{
+					"start": "🇪🇸37200",
+					"end": "🇪🇸37300",
+					"length": 39
+				},
+				{
+					"start": "🇪🇸37300",
+					"end": "🇪🇸37704",
+					"length": 75,
+					"maxSpeed": 250,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇪🇸37704",
+					"end": "🇪🇸50500",
+					"length": 60,
+					"maxSpeed": 240,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇪🇸50500",
+					"end": "🇪🇸11510",
+					"length": 133,
+					"maxSpeed": 250
+				}
+			]
+		},
+		{
 			"name": "Lübeck-Büchener Eisenbahn",
 			"maxSpeed": 120,
 			"electrified": false,
@@ -10637,6 +10756,30 @@
 					"start": "XFMO",
 					"end": "🇫🇷VLM",
 					"length": 7
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.18,
+			"neededEquipments": [
+				"ES",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "🇪🇸03208",
+					"end": "🇪🇸60600",
+					"length": 126
+				},
+				{
+					"start": "🇪🇸60600",
+					"end": "🇪🇸60902",
+					"length": 111,
+					"twistingFactor": 0.22,
+					"maxSpeed": 280
 				}
 			]
 		},
@@ -13842,6 +13985,19 @@
 					"end": "BKW",
 					"length": 2
 				}
+			]
+		},
+		{
+			"start": "🇪🇸11000",
+			"end": "XEBU",
+			"electrified": true,
+			"group": 2,
+			"length": 89,
+			"maxSpeed": 300,
+			"twistingFactor": 0.13,
+			"neededEquipments": [
+				"ES",
+				"ETCS"
 			]
 		},
 		{
@@ -17383,6 +17539,47 @@
 		},
 		{
 			"electrified": true,
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.18,
+			"neededEquipments": [
+				"ES"
+			],
+			"objects": [
+				{
+					"start": "XEMAT",
+					"end": "🇪🇸08004",
+					"length": 78
+				},
+				{
+					"start": "🇪🇸08004",
+					"end": "🇪🇸10600",
+					"length": 111
+				},
+				{
+					"start": "🇪🇸10600",
+					"end": "🇪🇸11000",
+					"length": 37
+				},
+				{
+					"start": "🇪🇸11000",
+					"end": "🇪🇸14100",
+					"length": 14
+				},
+				{
+					"start": "🇪🇸14100",
+					"end": "🇪🇸15007",
+					"length": 60
+				},
+				{
+					"start": "🇪🇸15007",
+					"end": "🇪🇸15100",
+					"length": 76
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
 				"IT"
@@ -18627,6 +18824,33 @@
 					"electrified": false,
 					"length": 8,
 					"twistingFactor": 0.26
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 300,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"ES",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XEMAT",
+					"end": "🇪🇸03208",
+					"length": 188
+				},
+				{
+					"start": "🇪🇸03208",
+					"end": "🇪🇸03213",
+					"length": 132
+				},
+				{
+					"start": "🇪🇸03213",
+					"end": "🇪🇸03216",
+					"length": 69
 				}
 			]
 		},
