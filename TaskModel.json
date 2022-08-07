@@ -2227,6 +2227,27 @@
 		},
 		{
 			"group": 1,
+			"name": "RB 80 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den RB 80 durch das Zschopautal von %s nach %s.",
+				"Auch das Erzgebirge ist bei Urlaubern beliebt.",
+				"Die Burg Scharfenstein ist mit dem RB 80 zu erreichen.",
+				"Besichtigen Sie das Wolkensteiner Schloß und übernachten Sie im Zughotel.",
+				"In der Saison verkehrt der RB 80 bis ins tschechische Chomutov."
+			],
+			"objects": [
+				{"stations": [ "DC", "DNR", "DFL", "DHRF", "DZP", "DWO", "DABU", "DAB" ]},
+				{"stations": [ "DC", "DNR", "DFL", "DHRF", "DZP", "DWO", "DABU", "DAB", "DCR" ]},
+				{"stations": [ "DCR", "XTVY" ]}
+			],			
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB 95 von %s nach %s",
 			"service": 3,
 			"descriptions": [
@@ -2236,6 +2257,21 @@
 				"Mit dem RB 95 kommt man nah an die tschechische Grenze."
 			],
 			"stations": [ "DZW", "DAU", "DSC", "DJ" ],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"service": 4,
+			"name": "Erzgebirgische Aussichtsbahn",
+			"descriptions": [
+				"Es ist wieder soweit, an diesem Wochenende soll ein Sonderzug auf dieser sonst wenig befahrenen Strecke verkehren.",
+				"Der Verein Sächsischer Eisenbahnfreunde würde historische Fahrzeuge für diesen Sonderzug bevorzugen.",
+				"Daß das advanced TrainLab auf dieser Strecke fuhr, ist schon einige Zeit her. Heute sollte es etwas klassischer zugehen. "
+			],
+			"stations": [ "DABU", "DAB", "DSCL", "DMAR", "DGS", "DSC" ],
 			"stopsEverwhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -3569,7 +3605,7 @@
 				"Bring die Fahrgäste in dem RE 3 pünktlich nach %2$s.",
 				"Fahre den RE störungsfrei nach %2$s."
 			],
-			"stations": [ "DH", "DTH", "DFR", "DNR", "DC", "DHO", "DGL", "DZW", "DRC", "DP", "NHO" ],
+			"stations": [ "DH", "DTH", "DFR", "DFL", "DNR", "DC", "DHO", "DGL", "DZW", "DRC", "DP", "NHO" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -3583,7 +3619,7 @@
 				"Bring die Fahrgäste in der RB 30 pünktlich nach %2$s.",
 				"Fahre die RB störungsfrei nach %2$s."
 			],
-			"stations": [ "DH", "DTH", "DFR", "DNR", "DC", "DHO", "DGL", "DZW" ],
+			"stations": [ "DH", "DTH", "DFR", "DFL", "DNR", "DC", "DHO", "DGL", "DZW" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
