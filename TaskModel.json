@@ -815,14 +815,101 @@
 				"Biete den Gästen eine hochklassige und unvergessliche Fahrt nach %2$s.",
 				"Bringe den VSOE mit bestem Ambiente von %s nach %s."
 			],
-			"stations": [ "XFPO", "XIVNS" ],
+			"objects": [
+				{
+					"stations": [ "XFPO", "XIVNS" ],
+					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "🇫🇷GLS", "🇨🇭COS", "XSBL", "XSGRN", "XSB", "XSOL", "XSKS", "XSZH", "XSTW", "XSPF", "XSSR", "XSBU", "XAFK", "XAI", "🇦🇹I Z1", "XICIG", "XIFF", "XIVP", "XIVNS" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "beds" },
 				{ "name": "bistroseats" }
 			],
 			"group": 0,
-			"service": 1,
-			"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "🇫🇷GLS", "🇨🇭COS", "XSBL", "XSGRN", "XSB", "XSOL", "XSKS", "XSZH", "XSTW", "XSPF", "XSSR", "XSBU", "XAFK", "XAI", "🇦🇹I Z1", "XICIG", "XIFF", "XIVP", "XIVNS" ]
+			"service": 1
+		},
+		{
+			"name": "Orient-Express",
+			"descriptions": [
+				"Fahre auf den Spuren des legendären Orient-Express von %s nach %s.",
+				"Bringe die Gäste auf dieser nostalgischen Route nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "XFPO", "XFCM", "XFN", "XFSTG", "TS", "MH", "XASB", "XAWW", "XMG", "XMBK", "XJST", "XJBC", "XJNI", "XWS", "XQIS" ],
+					"descriptions": [
+						"Fahre auf den Spuren des legendären Orient-Express von %s nach %s.",
+						"Bringe die Gäste auf der berühmten Route nach %2$s.",
+						"Verbinde Seine und Bosporus zwischen %s und %s.",
+						"Veranstalte eine luxuriöse Reise, aber bitte ohne Gewaltverbrechen."
+					],
+					"pathSuggestion": [ "XFPO", "XFNO", "XFCSG", "XFVAR", "XFMEA", "🇫🇷OIR", "XFCM", "XFVV", "XFNT", "XFLE", "XFTU", "XFFD", "XFN", "XFMH", "XFVH", "XFMUM", "XFSTG", "XFMUM", "XFVH", "XFHG", "RSAI", "RWND", "RSTE", "RIN", "RLA", "RKG", "RND", "RN", "RHLO", "RBOE", "RSD", "RLI", "RLUR", "RM", "RMSM", "RMSE", "RMF", "RHBP", "RH", "RHKA", "RBIN", "RNZ", "RNEZ", "ROU", "TBF", "TBK", "THST", "TH", "TNO", "TKH", "TS", "TE", "TP", "TGO", "TLON", "TU", "MGZB", "MMAH", "MKUN", "MA", "MKIS", "MLW", "MH", "MHR", "MZO", "MGB", "MAG", "MGK", "MRO", "MBEF", "MUS", "MTS", "MTO", "MFL", "XASB", "🇦🇹Hw H1", "XANKD", "XASF", "XASR", "XAVB", "XAAT", "🇦🇹Sas", "🇦🇹Gun", "XAWE", "XAMR", "XAP", "XAWW", "XAGR", "XMG", "XMBK", "XJST", "XJNS", "XJSP", "XJNP", "XJBC", "XJNI", "XWS", "XQIS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "beds" },
+				{ "name": "bistroseats" }
+			],
+			"group": 0,
+			"service": 4
+		},
+		{
+			"name": "Simplon-Orient-Express",
+			"descriptions": [
+				"Fahre auf den Spuren des legendären Orient-Express von %s nach %s.",
+				"Bringe die Gäste auf der berühmten Route nach %2$s.",
+				"Verbinde Seine und Bosporus zwischen %s und %s.",
+				"Veranstalte eine luxuriöse Reise, aber bitte ohne Gewaltverbrechen.",
+				"Fahre über die Simplonstrecke und am Balkan entlang von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XFPO", "XFD", "XSLA", "XSBG", "XIMB", "XIVNS", "XIT", "XZL", "XRZ", "XRVI", "XJBC", "XJNI", "XWS", "XWSV", "XQED", "XQIS" ],
+					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "🇫🇷MBA", "🇫🇷MLI", "XFD", "🇫🇷GLS", "🇫🇷VVLP", "🇨🇭LSA", "🇨🇭COS", "XSLA", "🇨🇭VV", "XSMO", "XSGM", "XSVI", "XSBG", "XSVI", "XSFR", "XSSP", "XSTH", "XSMUS", "XSBE", "XSLT", "XSZG", "XSN", "XSIM", "XSAG", "XSSY", "XSADF", "XSBC", "XSCA", "XSBZ", "XSL", "XIMOZ", "XIMB", "XIPIL", "XIPDG", "XIVP", "🇮🇹02435", "XIVNS", "🇮🇹03212", "🇮🇹03313", "XIT", "🇮🇹03313", "XIVOP", "XZBO", "XZL", "XZZM", "XRZ", "XRVI", "XJRU", "XJSP", "XJNP", "XJBC", "XJNI", "XWS", "XWSV", "XQED", "XQIS" ]
+				},
+				{
+					"stations": [ "XBB", "XLL", "XFSTG", "XSB", "XIMB", "XIVNS", "XIT", "XZL", "XRZ", "XRVI", "XJBC", "XJNI", "XWS", "XWSV", "XQED", "XQIS" ],
+					"comment": "TODO: Wenn Brüssel-Namur-Luxemburg da ist, muss die pathSuggestion angepasst werden",
+					"pathSuggestion": [ "XBB", "XBAAS", "XFTC", "XFLIE", "🇫🇷LIK", "🇫🇷DOI", "🇫🇷RUX", "XFAS", "🇫🇷CBI", "🇫🇷AMS", "XFBEB", "XFCR", "XFSVF", "XFPO", "XFNO", "XFCSG", "XFVAR", "XFMEA", "🇫🇷OIR", "XFCM", "XFVV", "XFNT", "XFLE", "XFRB", "XFO", "XFPS", "XFMZV", "🇫🇷MMZ", "XLL", "🇫🇷MMZ", "XFMZV", "XFPS", "XFDI", "XFFD", "XFN", "XFMH", "XFVH", "XFMUM", "XFSTG", "XFGR", "XFSTA", "XFMV", "XFSTL", "XSB", "XSSC", "XSOL", "XSZG", "XSN", "XSIM", "XSAG", "XSSY", "XSADF", "XSBC", "XSCA", "XSBZ", "XSL", "XIMOZ", "XIMB", "XIPIL", "XIPDG", "XIVP", "🇮🇹02435", "XIVNS", "🇮🇹03212", "🇮🇹03313", "XIT", "🇮🇹03313", "XIVOP", "XZBO", "XZL", "XZZM", "XRZ", "XRVI", "XJRU", "XJSP", "XJNP", "XJBC", "XJNI", "XWS", "XWSV", "XQED", "XQIS" ],
+					"descriptions": [
+						"Fahre auf den Spuren des legendären Orient-Express von %s nach %s.",
+						"Bringe die Gäste auf der berühmten Route nach %2$s.",
+						"Verbinde Seine und Bosporus zwischen %s und %s.",
+						"Veranstalte eine luxuriöse Reise, aber bitte ohne Gewaltverbrechen."
+					]
+				},
+				{
+					"stations": [ "XBB", "KK", "FF", "NN", "NPA", "XAL", "XAWW", "XMBK", "XJST", "XJBC", "XJNI", "XWS", "XWSV", "XQED", "XQIS" ],
+					"pathSuggestion": [ "XBB", "XBDM", "KA", "KDN", "KHR", "KK", "KKAS", "KBR", "KROI", "KB", "KBUN", "KUR", "KKO", "KRHE", "FTRE", "FBGK", "FGAL", "FMM", "FMZ", "FMG", "FRA", "FFLF", "FF", "FO", "FH", "NAH", "NHOE", "NPAR", "NLO", "NLP", "NGM", "NWFH", "NWZ", "NWH", "NRTD", "NKN", "NSDF", "NF", "NN", "NFT", "NET", "NRH", "NBWH", "NOT", "NSUE", "NSK", "NPL", "NOS", "NVI", "NPA", "XAWR", "XASH", "XATF", "🇦🇹Neu H2", "🇦🇹Neu H1", "XANK", "🇦🇹Had", "XAWE", "XAMR", "XAL", "XAP", "XAWW", "XAGR", "XMBK", "XJST", "XJNS", "XJSP", "XJNP", "XJBC", "XJNI", "XWS", "XWSV", "XQED", "XQIS" ],
+					"descriptions": [
+						"Fahre auf den Spuren des legendären Orient-Express von %s nach %s.",
+						"Bringe die Gäste auf der berühmten Route nach %2$s.",
+						"Verbinde Seine und Bosporus zwischen %s und %s.",
+						"Veranstalte eine luxuriöse Reise, aber bitte ohne Gewaltverbrechen."
+					]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "beds" },
+				{ "name": "bistroseats" }
+			],
+			"group": 0,
+			"service": 4
+		},
+		{
+			"group": 0,
+			"name": "18 nach Istanbul",
+			"service": 2,
+			"descriptions": [
+				"Heute fährt die 18 nach Istanbul.",
+				"Bring die Fahrgäste in der Tram von %s nach %s.",
+				"Fahre zwischen Rhein und Bosporus."
+			],
+			"stations": ["KK", "XQIS"],
+			"pathSuggestion": [ "KK", "KPUL", "KROM", "KGRB", "KJUC", "KRYO", "KM", "KV", "KANR", "KRHO", "EDG", "EOB", "EDIN", "XNU", "XNAC", "🇳🇱Wp", "🇳🇱Aml", "XNHL", "HBTH", "HSTT", "HR", "HHTL", "HI", "HO", "HMEL", "HBDE", "HL", "HM", "HBKB", "HHAS", "HWUN", "HDED", "HLT", "HH", "HLER", "HHI", "HBS", "HHLM", "LEI", "LM", "LSBF", "LNM", "LH", "LHME", "LGOS", "LSD", "LL", "LBOR", "LWZ", "DOT", "DR", "DGLA", "DPR", "DNDR", "DCW", "DH", "DSTH", "DZSW", "DHD", "DHDS", "XASBN", "XAWW", "XAGR", "XJNS", "XJSP", "XJNP", "XQIS" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		},
 		{
 			"group": 0,
