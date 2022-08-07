@@ -21982,6 +21982,145 @@
 			"length": 7
 		},
 		{
+			"name": "Flöhatalbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 80,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DFL",
+					"end": "DFU",
+					"length": 3
+				},
+				{
+					"start": "DFU",
+					"end": "DHZF",
+					"length": 2
+				},
+				{
+					"start": "DHZF",
+					"end": "DHOF",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DHOF",
+					"end": "DLEU",
+					"length": 3
+				},
+				{
+					"start": "DLEU",
+					"end": "DGRB",
+					"length": 4,
+					"maxSpeed": 60,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DGRB",
+					"end": "DFM",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DFM",
+					"end": "DRF",
+					"length": 3
+				},
+				{
+					"start": "DRF",
+					"end": "DRAU",
+					"length": 1
+				},
+				{
+					"start": "DRAU",
+					"end": "DPF",
+					"length": 5,
+					"maxSpeed": 50,
+					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
+			"name": "Flöhatalbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 50,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DPF",
+					"end": "DNGM",
+					"length": 2
+				},
+				{
+					"start": "DNGM",
+					"end": "DBLU",
+					"length": 4,
+					"twistingFactor": 0.4,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DBLU",
+					"end": "DOLW",
+					"length": 3,
+					"maxSpeed": 60
+				},
+				{
+					"start": "DOLW",
+					"end": "DOL",
+					"length": 1
+				},
+				{
+					"start": "DOL",
+					"end": "DOGT",
+					"length": 3
+				},
+				{
+					"start": "DOGT",
+					"end": "DNH",
+					"length": 8,
+					"twistingFactor": 0.3,
+					"maxSpeed": 60
+				}
+			]
+		},
+		{
+			"name": "Pockau-Lengefeld - Reitzenhain",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.4,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DPF",
+					"end": "DSTM",
+					"length": 5
+				},
+				{
+					"start": "DSTM",
+					"end": "DZB",
+					"length": 2
+				},
+				{
+					"start": "DZB",
+					"end": "DMG",
+					"length": 6
+				}
+			]
+		},
+		{
 			"name": "Zschopautalbahn",
 			"electrified": false,
 			"group": 1,

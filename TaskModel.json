@@ -2248,6 +2248,22 @@
 		},
 		{
 			"group": 1,
+			"name": "RB 81 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den RB 81 durch das Flöhatal von %s nach %s.",
+				"Auch das Erzgebirge ist bei Urlaubern beliebt."
+			],
+			"objects": [
+				{"stations": [ "DC", "DNR", "DFL", "DHZF", "DGRB", "DPF", "DOL", "DNH" ]}
+			],			
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB 95 von %s nach %s",
 			"service": 3,
 			"descriptions": [
