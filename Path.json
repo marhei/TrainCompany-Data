@@ -7076,6 +7076,32 @@
 			]
 		},
 		{
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.1,
+			"electrified": true,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "EG",
+					"end": "EGRO",
+					"length": 1
+				},
+				{
+					"start": "EGRO",
+					"end": "EEKN",
+					"length": 3
+				},
+				{
+					"start": "EEKN",
+					"end": "EE",
+					"length": 6
+				}
+			]
+		},
+		{
 			"maxSpeed": 160,
 			"twistingFactor": 0.1,
 			"objects": [
