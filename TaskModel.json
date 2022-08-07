@@ -830,22 +830,14 @@
 		},
 		{
 			"name": "Orient-Express",
+			"stations": [ "XFPO", "XFCM", "XFN", "XFSTG", "TS", "MH", "XASB", "XAWW", "XMG", "XMBK", "XJST", "XJBC", "XJNI", "XWS", "XQIS" ],
 			"descriptions": [
 				"Fahre auf den Spuren des legendären Orient-Express von %s nach %s.",
-				"Bringe die Gäste auf dieser nostalgischen Route nach %2$s."
+				"Bringe die Gäste auf der berühmten Route nach %2$s.",
+				"Verbinde Seine und Bosporus zwischen %s und %s.",
+				"Veranstalte eine luxuriöse Reise, aber bitte ohne Gewaltverbrechen."
 			],
-			"objects": [
-				{
-					"stations": [ "XFPO", "XFCM", "XFN", "XFSTG", "TS", "MH", "XASB", "XAWW", "XMG", "XMBK", "XJST", "XJBC", "XJNI", "XWS", "XQIS" ],
-					"descriptions": [
-						"Fahre auf den Spuren des legendären Orient-Express von %s nach %s.",
-						"Bringe die Gäste auf der berühmten Route nach %2$s.",
-						"Verbinde Seine und Bosporus zwischen %s und %s.",
-						"Veranstalte eine luxuriöse Reise, aber bitte ohne Gewaltverbrechen."
-					],
-					"pathSuggestion": [ "XFPO", "XFNO", "XFCSG", "XFVAR", "XFMEA", "🇫🇷OIR", "XFCM", "XFVV", "XFNT", "XFLE", "XFTU", "XFFD", "XFN", "XFMH", "XFVH", "XFMUM", "XFSTG", "XFMUM", "XFVH", "XFHG", "RSAI", "RWND", "RSTE", "RIN", "RLA", "RKG", "RND", "RN", "RHLO", "RBOE", "RSD", "RLI", "RLUR", "RM", "RMSM", "RMSE", "RMF", "RHBP", "RH", "RHKA", "RBIN", "RNZ", "RNEZ", "ROU", "TBF", "TBK", "THST", "TH", "TNO", "TKH", "TS", "TE", "TP", "TGO", "TLON", "TU", "MGZB", "MMAH", "MKUN", "MA", "MKIS", "MLW", "MH", "MHR", "MZO", "MGB", "MAG", "MGK", "MRO", "MBEF", "MUS", "MTS", "MTO", "MFL", "XASB", "🇦🇹Hw H1", "XANKD", "XASF", "XASR", "XAVB", "XAAT", "🇦🇹Sas", "🇦🇹Gun", "XAWE", "XAMR", "XAP", "XAWW", "XAGR", "XMG", "XMBK", "XJST", "XJNS", "XJSP", "XJNP", "XJBC", "XJNI", "XWS", "XQIS" ]
-				}
-			],
+			"pathSuggestion": [ "XFPO", "XFNO", "XFCSG", "XFVAR", "XFMEA", "🇫🇷OIR", "XFCM", "XFVV", "XFNT", "XFLE", "XFTU", "XFFD", "XFN", "XFMH", "XFVH", "XFMUM", "XFSTG", "XFMUM", "XFVH", "XFHG", "RSAI", "RWND", "RSTE", "RIN", "RLA", "RKG", "RND", "RN", "RHLO", "RBOE", "RSD", "RLI", "RLUR", "RM", "RMSM", "RMSE", "RMF", "RHBP", "RH", "RHKA", "RBIN", "RNZ", "RNEZ", "ROU", "TBF", "TBK", "THST", "TH", "TNO", "TKH", "TS", "TE", "TP", "TGO", "TLON", "TU", "MGZB", "MMAH", "MKUN", "MA", "MKIS", "MLW", "MH", "MHR", "MZO", "MGB", "MAG", "MGK", "MRO", "MBEF", "MUS", "MTS", "MTO", "MFL", "XASB", "🇦🇹Hw H1", "XANKD", "XASF", "XASR", "XAVB", "XAAT", "🇦🇹Sas", "🇦🇹Gun", "XAWE", "XAMR", "XAP", "XAWW", "XAGR", "XMG", "XMBK", "XJST", "XJNS", "XJSP", "XJNP", "XJBC", "XJNI", "XWS", "XQIS" ],
 			"neededCapacity": [
 				{ "name": "beds" },
 				{ "name": "bistroseats" }
