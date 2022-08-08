@@ -10257,6 +10257,43 @@
 		},
 		{
 			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"BE"
+			],
+			"objects": [
+				{
+					"start": "XBGP",
+					"end": "XBLDG",
+					"length": 10
+				},
+				{
+					"start": "XBLDG",
+					"end": "XBAAL",
+					"length": 9
+				},
+				{
+					"start": "XBAAL",
+					"end": "XBBE",
+					"length": 9
+				},
+				{
+					"start": "XBBE",
+					"end": "XBBR",
+					"length": 11,
+					"maxSpeed": 140
+				},
+				{
+					"start": "XBBR",
+					"end": "XBO",
+					"length": 22
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"maxSpeed": 160,
 			"twistingFactor": 0.1,
 			"group": 0,
@@ -22297,7 +22334,8 @@
 					"maxSpeed": 60,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
-						"DE","CZ"
+						"DE",
+						"CZ"
 					]
 				}
 			]
