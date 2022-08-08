@@ -18229,6 +18229,69 @@
 			]
 		},
 		{
+			"name": "Süd-Lausitzer Bahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.25,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DPI",
+					"end": "DPIC",
+					"length": 1,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DPIC",
+					"end": "DPIN",
+					"length": 1
+				},
+				{
+					"start": "DPIN",
+					"end": "DLO",
+					"length": 5,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DLO",
+					"end": "DRR",
+					"length": 5
+				},
+				{
+					"start": "DRR",
+					"end": "DHLF",
+					"length": 3
+				},
+				{
+					"start": "DHLF",
+					"end": "DSTL",
+					"length": 3,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DSTL",
+					"end": "DLWM",
+					"length": 3,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DLWM",
+					"end": "DLW",
+					"length": 2,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DLW",
+					"end": "DNE",
+					"length": 5,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"name": "Bahnstrecke Magdeburg–Leipzig",
 			"electrified": true,
 			"group": 0,
