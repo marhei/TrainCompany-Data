@@ -18402,6 +18402,57 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DL",
+					"end": "DLOG",
+					"length": 1
+				},
+				{
+					"start": "DLOG",
+					"end": "DGSW",
+					"length": 3
+				},
+				{
+					"start": "DGSW",
+					"end": "DNCUA",
+					"length": 1
+				},
+				{
+					"start": "DNCUA",
+					"end": "DDH",
+					"length": 3
+				},
+				{
+					"start": "DDH",
+					"end": "DDHG",
+					"length": 5
+				},
+				{
+					"start": "DDHG",
+					"end": "DEB",
+					"length": 1
+				},
+				{
+					"start": "DEB",
+					"end": "DXE",
+					"length": 1
+				},
+				{
+					"start": "DXE",
+					"end": "XTRU",
+					"length": 7
+				}
+			]
+		},
+		{
 			"name": "Bahnstrecke Magdeburg–Leipzig",
 			"electrified": true,
 			"group": 0,
