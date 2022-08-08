@@ -5096,6 +5096,20 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "S-Bahn Hamburg von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Zug der S3 von %s nach %s.",
+				"Um eventuell auftretenden Problemen beim Systemwechsel vorzubeugen, wird diese Fahrt durchgehend auf Wechselstromstrecken durchgeführt."
+			],
+			"stations": [ "AST", "AHOG", "ABX", "AHAR", "AH", "AA", "AP" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
