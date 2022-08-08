@@ -18363,6 +18363,30 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 50,
+			"twistingFactor": 0.35,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "DSEB",
+					"end": "DXSB",
+					"length": 1,
+					"neededEquipments": [
+						"DE"
+					]
+				},
+				{
+					"start": "DXSB",
+					"end": "XTDA",
+					"length": 1
+				}
+			]
+		},
+		{
 			"name": "Bahnstrecke Magdeburg–Leipzig",
 			"electrified": true,
 			"group": 0,
