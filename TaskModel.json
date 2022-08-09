@@ -2316,8 +2316,7 @@
 			"name": "TL RB 61 von %s nach %s",
 			"service": 3,
 			"descriptions": [
-				"Fahre den TL RB 61 durch das  von %s nach %s.",
-				"Fahre mit dem TL RB 61 durch die Oberlausitz.",
+				"Fahre den TL RB 61 durch die Oberlausitz von %s nach %s.",
 				"Dieser RB fährt bis nah an die tschechisch-polnische Grenze.",
 				"Eibauer Schwarzbier und Wilthener Goldkrone sind hier zu Hause."
 			],
@@ -2331,10 +2330,27 @@
 		},
 		{
 			"group": 1,
+			"name": "TLX RE 2 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den TLX RE 2 durch die Oberlausitz von %s nach %s.",
+				"Dieser RE fährt bis nah an die tschechisch-polnische Grenze.",
+				"Dieser Regionalexpress hält nicht an jedem Kuhdorf."
+			],
+			"objects": [
+				{"stations": [ "DH", "DBW", "DWT", "DEB", "DZ" ]}
+			],
+			"stopsEverwhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB 71 von %s nach %s",
 			"service": 3,
 			"descriptions": [
-				"Fahre den RB 71 durch das  von %s nach %s.",
+				"Fahre den RB 71 durch das Erzgebirge von %s nach %s.",
 				"Auch das Erzgebirge ist bei Urlaubern beliebt.",
 				"Weihnachtsschmuck aus Sebnitz im Erzgebirge ist weltbekannt.",
 				"Besuchen sie auch das Modelleisenbahnmusem im Sebnitzer TILLIG Werk."
