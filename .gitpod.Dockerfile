@@ -1,2 +1,2 @@
-FROM ghcr.io/c1710/traincompany-tools:latest
+FROM ghcr.io/c1710/traincompany-tools:dev
 ENV TRAINCOMPANY_DATA /workspace/TrainCompany-Data
