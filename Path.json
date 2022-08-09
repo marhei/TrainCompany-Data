@@ -7700,6 +7700,192 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"name": "Marchegger Ostbahn",
+			"maxSpeed": 120,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "XAWW",
+					"end": "XAMG",
+					"length": 46,
+					"neededEquipments": [
+						"AT"
+					]
+				},
+				{
+					"start": "XAMG",
+					"end": "XYDN",
+					"length": 6,
+					"neededEquipments": [
+						"SK",
+						"AT"
+					],
+					"maxSpeed": 100
+				},
+				{
+					"start": "XYDN",
+					"end": "XYB",
+					"length": 12,
+					"neededEquipments": [
+						"SK"
+					],
+					"maxSpeed": 110,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.13,
+			"objects": [
+				{
+					"start": "XYB",
+					"end": "XYBA",
+					"length": 10,
+					"neededEquipments": [
+						"SK"
+					],
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XYBA",
+					"end": "XYSL",
+					"length": 32,
+					"neededEquipments": [
+						"SK"
+					],
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XYSL",
+					"end": "XYG",
+					"length": 7,
+					"neededEquipments": [
+						"SK"
+					],
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XYG",
+					"end": "XYSA",
+					"length": 11,
+					"neededEquipments": [
+						"SK"
+					],
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XYSA",
+					"end": "XYPA",
+					"length": 21,
+					"neededEquipments": [
+						"SK"
+					]
+				},
+				{
+					"start": "XYPA",
+					"end": "XYNZ",
+					"length": 10,
+					"neededEquipments": [
+						"SK"
+					],
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XYNZ",
+					"end": "XYSK",
+					"length": 20,
+					"neededEquipments": [
+						"SK"
+					],
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XYSK",
+					"end": "XYGB",
+					"length": 9,
+					"neededEquipments": [
+						"SK"
+					],
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XYGB",
+					"end": "XYST",
+					"length": 14,
+					"neededEquipments": [
+						"SK"
+					],
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XYST",
+					"end": "XMSB",
+					"length": 14,
+					"neededEquipments": [
+						"HU",
+						"SK"
+					]
+				},
+				{
+					"start": "XMSB",
+					"end": "XMNV",
+					"length": 11,
+					"neededEquipments": [
+						"HU"
+					],
+					"maxSpeed": 100,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "XMNV",
+					"end": "XMVC",
+					"length": 7,
+					"neededEquipments": [
+						"HU"
+					],
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XMVC",
+					"end": "XMV",
+					"length": 9,
+					"neededEquipments": [
+						"HU"
+					],
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XMV",
+					"end": "XMRU",
+					"length": 25,
+					"neededEquipments": [
+						"HU"
+					],
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XMRU",
+					"end": "XMBK",
+					"length": 14,
+					"neededEquipments": [
+						"HU"
+					],
+					"maxSpeed": 80,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 100,
@@ -10252,6 +10438,43 @@
 					"start": "NNSP",
 					"end": "NPA",
 					"length": 4
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"BE"
+			],
+			"objects": [
+				{
+					"start": "XBGP",
+					"end": "XBLDG",
+					"length": 10
+				},
+				{
+					"start": "XBLDG",
+					"end": "XBAAL",
+					"length": 9
+				},
+				{
+					"start": "XBAAL",
+					"end": "XBBE",
+					"length": 9
+				},
+				{
+					"start": "XBBE",
+					"end": "XBBR",
+					"length": 11,
+					"maxSpeed": 140
+				},
+				{
+					"start": "XBBR",
+					"end": "XBO",
+					"length": 22
 				}
 			]
 		},
@@ -14435,6 +14658,71 @@
 					"length": 6,
 					"maxSpeed": 100,
 					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTP",
+					"end": "XTZT",
+					"length": 31,
+					"maxSpeed": 100,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "XTZT",
+					"end": "XTBU",
+					"length": 12,
+					"maxSpeed": 100
+				},
+				{
+					"start": "XTBU",
+					"end": "XTZI",
+					"length": 9,
+					"maxSpeed": 130,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XTZI",
+					"end": "XTHV",
+					"length": 10,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XTHV",
+					"end": "XTKE",
+					"length": 13,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XTKE",
+					"end": "XTHO",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XTHO",
+					"end": "XTRO",
+					"length": 9,
+					"maxSpeed": 125,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XTRO",
+					"end": "🇨🇿5473275",
+					"length": 16,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
 				}
 			]
 		},
@@ -22734,7 +23022,8 @@
 					"maxSpeed": 60,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
-						"DE","CZ"
+						"DE",
+						"CZ"
 					]
 				}
 			]
@@ -23172,13 +23461,33 @@
 				},
 				{
 					"start": "DMW",
+					"end": "DER",
+					"length": 2
+				},
+				{
+					"start": "DER",
+					"end": "DSKH",
+					"length": 4
+				},
+				{
+					"start": "DSKH",
 					"end": "DWA",
-					"length": 13
+					"length": 7
 				},
 				{
 					"start": "DWA",
+					"end": "DSTI",
+					"length": 3
+				},
+				{
+					"start": "DSTI",
+					"end": "DLM",
+					"length": 3
+				},
+				{
+					"start": "DLM",
 					"end": "DDE",
-					"length": 9
+					"length": 3
 				}
 			]
 		},
@@ -23418,13 +23727,28 @@
 			"objects": [
 				{
 					"start": "DDE",
+					"end": "DZSC",
+					"length": 7
+				},
+				{
+					"start": "DZSC",
+					"end": "DOU",
+					"length": 3
+				},
+				{
+					"start": "DOU",
 					"end": "DSTU",
-					"length": 15
+					"length": 6
 				},
 				{
 					"start": "DSTU",
+					"end": "DSRH",
+					"length": 4
+				},
+				{
+					"start": "DSRH",
 					"end": "DR",
-					"length": 9
+					"length": 6
 				}
 			]
 		},
