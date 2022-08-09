@@ -18382,32 +18382,41 @@
 				{
 					"start": "DXSB",
 					"end": "XTDA",
-					"length": 1
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.4
 				},
 				{
 					"start": "XTDA",
 					"end": "XTHPT",
-					"length": 2
+					"length": 2,
+					"maxSpeed": 40,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XTHPT",
 					"end": "XTVL",
-					"length": 2
+					"length": 2,
+					"maxSpeed": 50,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XTVL",
 					"end": "XTMD",
-					"length": 2
+					"length": 2,
+					"twistingFactor": 0.4
 				},
 				{
 					"start": "XTMD",
 					"end": "XTLL",
-					"length": 2
+					"length": 2,
+					"twistingFactor": 0.4
 				},
 				{
 					"start": "XTLL",
 					"end": "XTVV",
-					"length": 2
+					"length": 2,
+					"twistingFactor": 0.4
 				},
 				{
 					"start": "XTVV",
@@ -18417,22 +18426,30 @@
 				{
 					"start": "XTVVZ",
 					"end": "XTSLZ",
-					"length": 3
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XTSLZ",
 					"end": "XTSLN",
-					"length": 2
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XTSLN",
 					"end": "XTVA",
-					"length": 5
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "XTVA",
 					"end": "XTRU",
-					"length": 5
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.25
 				}
 			]
 		},
