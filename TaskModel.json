@@ -2313,6 +2313,24 @@
 		},
 		{
 			"group": 1,
+			"name": "TL RB 61 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den TL RB 61 durch das  von %s nach %s.",
+				"Fahre mit dem TL RB 61 durch die Oberlausitz.",
+				"Dieser RB fährt bis nah an die tschechisch-polnische Grenze.",
+				"Eibauer Schwarzbier und Wilthener Goldkrone sind hier zu Hause."
+			],
+			"objects": [
+				{"stations": [ "DH", "DBW", "DNKW", "DWT", "DEB", "DEIB", "DZ" ]}
+			],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB 71 von %s nach %s",
 			"service": 3,
 			"descriptions": [
