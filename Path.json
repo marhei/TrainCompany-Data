@@ -28056,6 +28056,162 @@
 					"twistingFactor": 0.17
 				}
 			]
+		},
+		{
+			"neededEquipments": [
+				"LV","1520mm"
+			],
+			"start": "🇱🇻RIGA",
+			"end": "🇱🇻ZMTN",
+			"length": 1,
+			"maxSpeed": 80,
+			"twistingFactor": 0
+		},
+		{
+			"name": "Bahnstrecke Zemitāni - Skulte",
+			"neededEquipments": [
+				"LV","1520mm"
+			],
+			"electrified": true,
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇱🇻ZMTN",
+					"end": "🇱🇻BRS",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇱🇻BRS",
+					"end": "🇱🇻SKDGV",
+					"length": 1,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇱🇻SKDGV",
+					"end": "🇱🇻MGI",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇱🇻MGI",
+					"end": "🇱🇻ZMBL",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.225
+				},
+				{
+					"start": "🇱🇻ZMBL",
+					"end": "🇱🇻VCDGV",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇱🇻VCDGV",
+					"end": "🇱🇻VCK",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇱🇻VCK",
+					"end": "🇱🇻KLNG",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇱🇻KLNG",
+					"end": "🇱🇻GCMS",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.175
+				},
+				{
+					"start": "🇱🇻GCMS",
+					"end": "🇱🇻GRP",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇱🇻GRP",
+					"end": "🇱🇻CNKV",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇱🇻CNKV",
+					"end": "🇱🇻GJA",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.075
+				},
+				{
+					"start": "🇱🇻GJA",
+					"end": "🇱🇻LLE",
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇱🇻LLE",
+					"end": "🇱🇻ICP",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.235
+				},
+				{
+					"start": "🇱🇻ICP",
+					"end": "🇱🇻PBI",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇱🇻PBI",
+					"end": "🇱🇻SKRST",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇱🇻SKRST",
+					"end": "🇱🇻KSPE",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇱🇻KSPE",
+					"end": "🇱🇻ZVJNCM",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.085
+				},
+				{
+					"start": "🇱🇻ZVJNCM",
+					"end": "🇱🇻SKLT",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.015
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"LV","1520mm"
+			],
+			"start": "🇱🇻ZMBL",
+			"end": "🇱🇻RIHA",
+			"length": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.05
 		}
 	]
 }
