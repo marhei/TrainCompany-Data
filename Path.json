@@ -28064,6 +28064,7 @@
 			"start": "LVRIGA",
 			"end": "LVZMTN",
 			"length": 1,
+			"group": 0,
 			"maxSpeed": 80,
 			"twistingFactor": 0
 		},
@@ -28211,7 +28212,80 @@
 			"end": "LVRIHA",
 			"length": 1,
 			"maxSpeed": 60,
-			"twistingFactor": 0.05
+			"twistingFactor": 0.05,
+			"group": 1
+		},
+		{
+			"name": "Bahnstrecke Riga - Jelgava",
+			"neededEquipments": [
+				"LV","1520mm"
+			],
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.1,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "LVRIGA",
+					"end": "LVTNKLN",
+					"length": 3
+				},
+				{
+					"start": "LVTNKLN",
+					"end": "LVATZN",
+					"length": 5
+				},
+				{
+					"start": "LVATZN",
+					"end": "LVTBA",
+					"length": 1
+				},
+				{
+					"start": "LVTBA",
+					"end": "LVTNE",
+					"length": 3
+				},
+				{
+					"start": "LVTNE",
+					"end": "LVBLZI",
+					"length": 4
+				},
+				{
+					"start": "LVBLZI",
+					"end": "LVJNLE",
+					"length": 5
+				},
+				{
+					"start": "LVJNLE",
+					"end": "LVOLE",
+					"length": 4
+				},
+				{
+					"start": "LVOLE",
+					"end": "LVDLBE",
+					"length": 7
+				},
+				{
+					"start": "LVDLBE",
+					"end": "LVCENA",
+					"length": 5
+				},
+				{
+					"start": "LVCENA",
+					"end": "LVOZNKI",
+					"length": 3
+				},
+				{
+					"start": "LVOZNKI",
+					"end": "LVCUKUR",
+					"length": 4
+				},
+				{
+					"start": "LVCUKUR",
+					"end": "LVJGA",
+					"length": 2
+				}
+			]
 		}
 	]
 }
