@@ -118,7 +118,7 @@
 					"items": {
 						"type": "string",
 						"minLength": 2,
-						"maxLength": 10
+						"maxLength": 20
 					}
 				},
 				"stopsEverwhere": {
@@ -151,10 +151,7 @@
 						"value": {
 							"description": "Menge der Ladung",
 							"type": "integer",
-							"oneOf": [
-								{"const": 0, "description": "Automatisch"},
-								{"minimum": 1}
-							]
+							"minimum": 1
 						}
 					}
 				},

@@ -113,7 +113,8 @@
 					"oneOf": [
 						{"const": 0, "description": "Hauptbahn"},
 						{"const": 1, "description": "Nebenbahn"},
-						{"const": 2, "description": "SFS"}
+						{"const": 2, "description": "SFS"},
+						{"const": 3, "description": "Fähre"}
 					],
 					"default": 0
 				},
@@ -163,11 +164,27 @@
 							"FR",
 							"TVM",
 							"Eurotunnel",
-							"NL",
-							"CZ",
-							"CH",
+							"bostrab",
 							"AT",
-							"bostrab"
+							"BE",
+							"BG",
+							"CH",
+							"CZ",
+							"DK",
+							"ES",
+							"FR",
+							"GB",
+							"GR",
+							"HR",
+							"HU",
+							"IT",
+							"LU",
+							"NL",
+							"PL",
+							"RS",
+							"SE",
+							"SI",
+							"TR"
 						]
 					}
 				},

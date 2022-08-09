@@ -72,6 +72,7 @@ Verbindungen zwischen zwei Bahnhöfen
 	* **0** Hauptbahn
 	* **1** Nebenbahn
 	* **2** SFS
+	* **3** Fähre
 * **start** *(string)* Ril100 des Startbahnhofs
 * **end** *(string)* Ril100 des Endbahnhofs
 * **twistingFactor** *(float)* Angebe der Kurvigkeit von 0.0 bis 1.0 wobei 1.0 am kurvigsten ist
@@ -92,6 +93,7 @@ Bahnhöfe
 	* **3** Betriebsbahnhof
 	* **4** Abzweigstelle
 	* **5** Haltepunkt (Wird nicht auf der Karte gerendert)
+	* **6** Wegpunkt (Wird nicht auf der Karte gerendert)
 * **x** *(int)* x-Position auf Karte
 * **y** *(int)* y-Position auf Karte
 * **platformLength** *(int)* maximale Bahnsteiglänge (optional, Standard = 0)
@@ -116,4 +118,4 @@ Modelle für Aufträge, aus denen automatisch neue Aufträge erstellt werden
 * **descriptions** *(array)* Array mit mehreren Strings für die Ausschreibung
 * **stations** *(array)* Ril100 aller Bahnhöfe, die angefahren  sollen in der richtigen Reihenfolge, wenn keine angegeben wurden, dann werden zwei zufällige gewählt (optional)
 * **stopsEverwhere** *(bool)* Wenn true dann wird auch automatisch ein Halt an allen Bahnhöfen, die zwischen den oben angegeben Bahnhöfen eingeplant (optional)
-* **neededCapacity** *array* Art der Beladung und Menge, 0 bei passengers führt zu automatischer Berechnung der Fahrgäste (siehe Capacity.json)
+* **neededCapacity** *array* Art der Beladung und Menge, wenn die Menge weggelassen wird führt es zu automatischer Beladung, wenn von Capacity unterstützt (siehe Capacity.json)
