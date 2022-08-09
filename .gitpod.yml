@@ -1,6 +1,8 @@
-image: ghcr.io/c1710/traincompany-tools:latest
+image:
+  file: .gitpod.Dockerfile
 vscode:
   extensions:
-    - "ms-python.python"
-    - "mechatroner.rainbow-csv"
-    - "pinage404.git-extension-pack"
+    - ms-python.python
+    - mechatroner.rainbow-csv
+    - pinage404.git-extension-pack
+    - ms-azuretools.vscode-docker
