@@ -18577,6 +18577,443 @@
 			]
 		},
 		{
+			"name": "Süd-Lausitzer Bahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.25,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DPI",
+					"end": "DPIC",
+					"length": 1,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DPIC",
+					"end": "DPIN",
+					"length": 1
+				},
+				{
+					"start": "DPIN",
+					"end": "DLO",
+					"length": 5,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DLO",
+					"end": "DRR",
+					"length": 5
+				},
+				{
+					"start": "DRR",
+					"end": "DHLF",
+					"length": 3
+				},
+				{
+					"start": "DHLF",
+					"end": "DSTL",
+					"length": 3,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DSTL",
+					"end": "DLWM",
+					"length": 3,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DLWM",
+					"end": "DLW",
+					"length": 2,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DLW",
+					"end": "DNE",
+					"length": 5,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 50,
+			"twistingFactor": 0.35,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DSA",
+					"end": "DRD",
+					"length": 1
+				},
+				{
+					"start": "DRD",
+					"end": "DPSC",
+					"length": 2
+				},
+				{
+					"start": "DPSC",
+					"end": "DKH",
+					"length": 2,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "DKH",
+					"end": "DMDF",
+					"length": 2
+				},
+				{
+					"start": "DMDF",
+					"end": "DUD",
+					"length": 2
+				},
+				{
+					"start": "DUD",
+					"end": "DAMH",
+					"length": 2,
+					"maxSpeed": 50
+				},
+				{
+					"start": "DAMH",
+					"end": "DSEB",
+					"length": 4,
+					"maxSpeed": 50
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+
+				{
+					"start": "DSEB",
+					"end": "DKRU",
+					"length": 6
+				},
+				{
+					"start": "DKRU",
+					"end": "DNE",
+					"length": 6
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 50,
+			"twistingFactor": 0.35,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "DSEB",
+					"end": "DXSB",
+					"length": 1,
+					"neededEquipments": [
+						"DE"
+					]
+				},
+				{
+					"start": "DXSB",
+					"end": "XTDA",
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XTDA",
+					"end": "XTHPT",
+					"length": 2,
+					"maxSpeed": 40,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XTHPT",
+					"end": "XTVL",
+					"length": 2,
+					"maxSpeed": 50,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XTVL",
+					"end": "XTMD",
+					"length": 2,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XTMD",
+					"end": "XTLL",
+					"length": 2,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XTLL",
+					"end": "XTVV",
+					"length": 2,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XTVV",
+					"end": "XTVVZ",
+					"length": 2
+				},
+				{
+					"start": "XTVVZ",
+					"end": "XTSLZ",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XTSLZ",
+					"end": "XTSLN",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XTSLN",
+					"end": "XTVA",
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XTVA",
+					"end": "XTRU",
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DL",
+					"end": "DLOG",
+					"length": 1
+				},
+				{
+					"start": "DLOG",
+					"end": "DGSW",
+					"length": 3
+				},
+				{
+					"start": "DGSW",
+					"end": "DNCUA",
+					"length": 1
+				},
+				{
+					"start": "DNCUA",
+					"end": "DDH",
+					"length": 3
+				},
+				{
+					"start": "DDH",
+					"end": "DDHG",
+					"length": 5
+				},
+				{
+					"start": "DDHG",
+					"end": "DEB",
+					"length": 1
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 60,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DEB",
+					"end": "DXE",
+					"length": 1
+				},
+				{
+					"start": "DXE",
+					"end": "XTRU",
+					"length": 7,
+					"neededEquipments": [
+						"CZ"
+					]
+				}
+			]
+		},
+		{
+			"name": "Süd-Lausitzer Bahn",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.25,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DBW",
+					"end": "DSML",
+					"length": 3
+				},
+				{
+					"start": "DSML",
+					"end": "DPT",
+					"length": 2
+				},
+				{
+					"start": "DPT",
+					"end": "DNKW",
+					"length": 4
+				}
+			]
+		},
+		{
+			"name": "Süd-Lausitzer Bahn",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.25,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DNKW",
+					"end": "DNKO",
+					"length": 4
+				},
+				{
+					"start": "DNKO",
+					"end": "DWT",
+					"length": 5,
+					"maxSpeed": 120
+				},
+				{
+					"start": "DWT",
+					"end": "DSWK",
+					"length": 4
+				},
+				{
+					"start": "DSWK",
+					"end": "DSOH",
+					"length": 2,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DSOH",
+					"end": "DSOA",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DSOA",
+					"end": "DTB",
+					"length": 4,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "DTB",
+					"end": "DNP",
+					"length": 3,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "DNP",
+					"end": "DEB",
+					"length": 6,
+					"twistingFactor": 0.35,
+					"maxSpeed": 90
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DEB",
+					"end": "DNF",
+					"length": 4,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DNF",
+					"end": "DEIB",
+					"length": 3,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DEIB",
+					"end": "DOZO",
+					"length": 4,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DOZO",
+					"end": "DOZ",
+					"length": 3,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DOZ",
+					"end": "DOZA",
+					"length": 1,
+					"maxSpeed": 70
+				},
+				{
+					"start": "DOZA",
+					"end": "DNOW",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DNOW",
+					"end": "DMHD",
+					"length": 4,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DMHD",
+					"end": "DZ",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
 			"name": "Bahnstrecke Magdeburg–Leipzig",
 			"electrified": true,
 			"group": 0,

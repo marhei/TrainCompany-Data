@@ -906,7 +906,7 @@
 				"Fahre zwischen Rhein und Bosporus."
 			],
 			"stations": ["KK", "XQIS"],
-			"pathSuggestion": [ "KK", "KPUL", "KROM", "KGRB", "KJUC", "KRYO", "KM", "KV", "KANR", "KRHO", "EDG", "EOB", "EDIN", "XNU", "XNAC", "🇳🇱Wp", "🇳🇱Aml", "XNHL", "HBTH", "HSTT", "HR", "HHTL", "HI", "HO", "HMEL", "HBDE", "HL", "HM", "HBKB", "HHAS", "HWUN", "HDED", "HLT", "HH", "HLER", "HHI", "HBS", "HHLM", "LEI", "LM", "LSBF", "LNM", "LH", "LHME", "LGOS", "LSD", "LL", "LBOR", "LWZ", "DOT", "DR", "DGLA", "DPR", "DNDR", "DCW", "DH", "DSTH", "DZSW", "DHD", "DHDS", "XTP", "XASBN", "XAWW", "XAGR", "XMBK", "XJNS", "XJSP", "XJNP", "🇧🇬14000", "XQIS" ],
+			"pathSuggestion": [ "KK", "KPUL", "KROM", "KGRB", "KJUC", "KRYO", "KM", "KV", "KANR", "KRHO", "EDG", "EOB", "EDIN", "XNU", "XNAC", "🇳🇱Wp", "🇳🇱Aml", "XNHL", "HBTH", "HSTT", "HR", "HHTL", "HI", "HO", "HMEL", "HBDE", "HL", "HM", "HBKB", "HHAS", "HWUN", "HDED", "HLT", "HH", "HLER", "HHI", "HBS", "HHLM", "LEI", "LM", "LSBF", "LNM", "LH", "LHME", "LGOS", "LSD", "LL", "LBOR", "LWZ", "DOT", "DR", "DGLA", "DPR", "DNDR", "DCW", "DH", "DSTH", "DZSW", "DHD", "DHDS", "DPI", "DWH", "DSA", "DSN", "XTD", "XTU", "XTP", "XASBN", "XAWW", "XAGR", "XMBK", "XJNS", "XJSP", "XJNP", "🇧🇬14000", "XQIS" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2307,6 +2307,82 @@
 				"Fahre den IRE 3 am Bodensee entlang von %s nach %s."
 			],
 			"stations": [ "RB", "RSAE", "RWU", "RSCF", "RSI", "RRZ", "TF" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB U28 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf deutscher und tschechischer Seite durch das Erzgebirge von %s nach %s.",
+				"Halten Sie ihre Personaldokumente bitte griffbereit.",
+				"Bitte beachten sie die Zollbestimmungen.",
+				"Fahren sie gemütlich mit der Bahn durch die Kurorte im Erzgebirge."
+			],
+			"objects": [
+				{
+					"name": "ČD Os 6684 von %s nach %s",
+					"stations": [ "XTRU", "XTVV", "XTMD", "DSEB" ]
+				},
+				{"stations": [ "XTRU", "XTVV", "XTMD", "DSEB", "DSA" ]},
+				{"stations": [ "XTRU", "XTVV", "XTMD", "DSEB", "DSA", "XTD" ]}
+			],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "TL RB 61 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den TL RB 61 durch die Oberlausitz von %s nach %s.",
+				"Dieser RB fährt bis nah an die tschechisch-polnische Grenze.",
+				"Eibauer Schwarzbier und Wilthener Goldkrone sind hier zu Hause."
+			],
+			"objects": [
+				{"stations": [ "DH", "DBW", "DNKW", "DWT", "DEB", "DEIB", "DZ" ]}
+			],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "TLX RE 2 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den TLX RE 2 durch die Oberlausitz von %s nach %s.",
+				"Dieser RE fährt bis nah an die tschechisch-polnische Grenze.",
+				"Dieser Regionalexpress hält nicht an jedem Kuhdorf."
+			],
+			"objects": [
+				{"stations": [ "DH", "DBW", "DWT", "DEB", "DZ" ]}
+			],
+			"stopsEverwhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB 71 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den RB 71 durch das Erzgebirge von %s nach %s.",
+				"August der Starke verbannte einst die Gräfin Cosel auf die Burg Stolpen.",
+				"Auch das Erzgebirge ist bei Urlaubern beliebt.",
+				"Weihnachtsschmuck aus Sebnitz im Erzgebirge ist weltbekannt.",
+				"Besuchen sie auch das Modelleisenbahnmusem im Sebnitzer TILLIG Werk."
+			],
+			"objects": [
+				{"stations": [ "DPI", "DRR", "DNE", "DSEB" ]}
+			],
+			"stopsEverwhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -4577,7 +4653,7 @@
 						"Fahre den Sorben-Express von %s bis %s"
 					],
 					"stations": [ "BHF", "DBZ" ],
-					"pathSuggestion": [ "BHF", "BL", "BFBI", "BKW", "BLN", "BC", "BSEO", "BSN", "BBS", "BHC", "DKA", "DAF", "DBZ" ]
+					"pathSuggestion": [ "BHF", "BL", "BFBI", "BKW", "BLN", "BC", "BSEO", "BSN", "BBS", "BHC", "DKA", "DAF", "DBW", "DBZ" ]
 				},
 				{
 					"descriptions": [
