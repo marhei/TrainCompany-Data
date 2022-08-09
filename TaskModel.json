@@ -870,7 +870,7 @@
 				{
 					"stations": [ "XBO", "XBB", "XFSTG", "XSB", "XIMB", "XIVNS", "XZL", "XRZ", "XRVI", "XJBC", "XJNI", "XWS", "XWSV", "XQED", "XQIS" ],
 					"comment": "TODO: Wenn Brüssel-Namur-Luxemburg da ist, muss die pathSuggestion angepasst werden.",
-					"pathSuggestion": [ "XBO", "XBGP", "XBB", "XBAAS", "XFTC", "XFLIE", "🇫🇷LIK", "🇫🇷DOI", "🇫🇷RUX", "XFAS", "🇫🇷CBI", "🇫🇷AMS", "XFBEB", "XFCR", "XFSVF", "XFPO", "XFNO", "XFCSG", "XFVAR", "XFMEA", "🇫🇷OIR", "XFCM", "XFVV", "XFNT", "XFLE", "XFTU", "XFFD", "XFN", "XFMH", "XFVH", "XFMUM", "XFSTG", "XFGR", "XFSTA", "XFMV", "XFSTL", "XSB", "XSSC", "XSOL", "XSZG", "XSN", "XSIM", "XSAG", "XSSY", "XSADF", "XSBC", "XSCA", "XSBZ", "XSL", "XIMOZ", "XIMB", "XIPIL", "XIPDG", "XIVP", "🇮🇹02435", "XIVNS", "🇮🇹03313", "XIVOP", "XZBO", "XZL", "XZZM", "XRZ", "XRVI", "XJRU", "XJSP", "XJNP", "XJBC", "XJNI", "XWS", "XWSV", "XQED", "XQIS" ],
+
 					"descriptions": [
 						"Fahre auf den Spuren des legendären Orient-Express von %s nach %s.",
 						"Bringe die Gäste auf der berühmten Route nach %2$s.",
@@ -906,7 +906,7 @@
 				"Fahre zwischen Rhein und Bosporus."
 			],
 			"stations": ["KK", "XQIS"],
-			"pathSuggestion": [ "KK", "KPUL", "KROM", "KGRB", "KJUC", "KRYO", "KM", "KV", "KANR", "KRHO", "EDG", "EOB", "EDIN", "XNU", "XNAC", "🇳🇱Wp", "🇳🇱Aml", "XNHL", "HBTH", "HSTT", "HR", "HHTL", "HI", "HO", "HMEL", "HBDE", "HL", "HM", "HBKB", "HHAS", "HWUN", "HDED", "HLT", "HH", "HLER", "HHI", "HBS", "HHLM", "LEI", "LM", "LSBF", "LNM", "LH", "LHME", "LGOS", "LSD", "LL", "LBOR", "LWZ", "DOT", "DR", "DGLA", "DPR", "DNDR", "DCW", "DH", "DSTH", "DZSW", "DHD", "DHDS", "XASBN", "XAWW", "XAGR", "XJNS", "XJSP", "XJNP", "XQIS" ],
+			"pathSuggestion": [ "KK", "KPUL", "KROM", "KGRB", "KJUC", "KRYO", "KM", "KV", "KANR", "KRHO", "EDG", "EOB", "EDIN", "XNU", "XNAC", "🇳🇱Wp", "🇳🇱Aml", "XNHL", "HBTH", "HSTT", "HR", "HHTL", "HI", "HO", "HMEL", "HBDE", "HL", "HM", "HBKB", "HHAS", "HWUN", "HDED", "HLT", "HH", "HLER", "HHI", "HBS", "HHLM", "LEI", "LM", "LSBF", "LNM", "LH", "LHME", "LGOS", "LSD", "LL", "LBOR", "LWZ", "DOT", "DR", "DGLA", "DPR", "DNDR", "DCW", "DH", "DSTH", "DZSW", "DHD", "DHDS", "XTP", "XASBN", "XAWW", "XAGR", "XMBK", "XJNS", "XJSP", "XJNP", "XQIS" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -1721,8 +1721,8 @@
 					"pathSuggestion": [ "MH", "MNF", "MPU", "MFR", "MLA", "MNFR", "NOT", "NRH", "NRGF", "NMXH", "NSCH", "NWDO", "NALW", "NWU", "NMR", "NOKP", "NHO" ]
 				},
 				{
-					"stations": [ "MH", "MFR", "MLA", "MNFR", "NRH", "NRGF", "NMXH", "NSCH", "NROD", "NCH", "NFW", "🇨🇿5473275" ],
-					"pathSuggestion": [ "MH", "MNF", "MPU", "MFR", "MLA", "MNFR", "NOT", "NRH", "NRGF", "NMXH", "NSCH", "NROD", "NCH", "NFW", "🇨🇿5473275" ]
+					"stations": [ "MH", "MFR", "MLA", "MNFR", "NRH", "NRGF", "NMXH", "NSCH", "NROD", "NCH", "NFW", "🇨🇿5473275", "XTP" ],
+					"pathSuggestion": [ "MH", "MNF", "MPU", "MFR", "MLA", "MNFR", "NOT", "NRH", "NRGF", "NMXH", "NSCH", "NROD", "NCH", "NFW", "🇨🇿5473275", "XTP" ]
 				}
 			],
 			"stopsEverywhere": false,
