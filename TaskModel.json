@@ -2313,6 +2313,29 @@
 		},
 		{
 			"group": 1,
+			"name": "RB U28 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf deutscher und tschechischer Seite durch das Erzgebirge von %s nach %s.",
+				"Halten Sie ihre Personaldokumente bitte griffbereit.",
+				"Bitte beachten sie die Zollbestimmungen.",
+				"Fahren sie gemütlich mit der Bahn durch die Kurorte im Erzgebirge."
+			],
+			"objects": [
+				{
+					"name": "ČD Os 6684 von %s nach %s",
+					"stations": [ "XTRU", "XTVV", "XTMD", "SEB" ]
+				},
+				{"stations": [ "XTRU", "XTVV", "XTMD", "DSEB", "DSA" ]},
+				{"stations": [ "XTRU", "XTVV", "XTMD", "DSEB", "DSA", "XTD" ]}
+			],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "TL RB 61 von %s nach %s",
 			"service": 3,
 			"descriptions": [
@@ -2351,6 +2374,7 @@
 			"service": 3,
 			"descriptions": [
 				"Fahre den RB 71 durch das Erzgebirge von %s nach %s.",
+				"August der Starke verbannte einst die Gräfin Cosel auf die Burg Stolpen.",
 				"Auch das Erzgebirge ist bei Urlaubern beliebt.",
 				"Weihnachtsschmuck aus Sebnitz im Erzgebirge ist weltbekannt.",
 				"Besuchen sie auch das Modelleisenbahnmusem im Sebnitzer TILLIG Werk."
