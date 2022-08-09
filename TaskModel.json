@@ -2313,6 +2313,24 @@
 		},
 		{
 			"group": 1,
+			"name": "RB 71 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den RB 71 durch das  von %s nach %s.",
+				"Auch das Erzgebirge ist bei Urlaubern beliebt.",
+				"Weihnachtsschmuck aus Sebnitz im Erzgebirge ist weltbekannt.",
+				"Besuchen sie auch das Modelleisenbahnmusem im Sebnitzer TILLIG Werk."
+			],
+			"objects": [
+				{"stations": [ "DPI", "DRR", "DNE", "DSEB" ]}
+			],
+			"stopsEverwhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB 72 von %s nach %s",
 			"service": 3,
 			"descriptions": [
