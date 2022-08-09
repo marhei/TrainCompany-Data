@@ -1321,6 +1321,44 @@
 			]
 		},
 		{
+			"id": 232,
+			"group": 2,
+			"name": "Stadler Citylink D/E",
+			"shortcut": "Citylink",
+			"speed": 100,
+			"weight": 68,
+			"force": 39,
+			"length": 37,
+			"drive": 4,
+			"reliability": 1,
+			"cost": 500000,
+			"operationCosts": 75,
+			"maxConnectedUnits": 2,
+			"equipments": [ "bostrab", "DE", "HU" ],
+			"capacity": [
+				{"name": "passengers", "value": 87}
+			]
+		},
+		{
+			"id": 233,
+			"group": 2,
+			"name": "Stadler Citylink E/E",
+			"shortcut": "Citylink",
+			"speed": 100,
+			"weight": 68,
+			"force": 58,
+			"length": 37,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 500000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 4,
+			"equipments": [ "bostrab", "DE", "GB", "AT" ],
+			"capacity": [
+				{"name": "passengers", "value": 96}
+			]
+		},
+		{
 			"id": 303,
 			"group": 2,
 			"name": "Crusalis Contessa",
