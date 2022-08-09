@@ -18519,6 +18519,153 @@
 			]
 		},
 		{
+			"name": "Süd-Lausitzer Bahn",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.25,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DBW",
+					"end": "DSML",
+					"length": 3
+				},
+				{
+					"start": "DSML",
+					"end": "DPT",
+					"length": 2
+				},
+				{
+					"start": "DPT",
+					"end": "DNKW",
+					"length": 4
+				}
+			]
+		},
+		{
+			"name": "Süd-Lausitzer Bahn",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.25,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DNKW",
+					"end": "DNKO",
+					"length": 4
+				},
+				{
+					"start": "DNKO",
+					"end": "DWT",
+					"length": 5,
+					"maxSpeed": 120
+				},
+				{
+					"start": "DWT",
+					"end": "DSWK",
+					"length": 4
+				},
+				{
+					"start": "DSWK",
+					"end": "DSOH",
+					"length": 2,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DSOH",
+					"end": "DSOA",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DSOA",
+					"end": "DTB",
+					"length": 4,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "DTB",
+					"end": "DNP",
+					"length": 3,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "DNP",
+					"end": "DEB",
+					"length": 6,
+					"twistingFactor": 0.35,
+					"maxSpeed": 90
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DEB",
+					"end": "DNF",
+					"length": 4,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DNF",
+					"end": "DEIB",
+					"length": 3,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DEIB",
+					"end": "DOZO",
+					"length": 4,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DOZO",
+					"end": "DOZ",
+					"length": 3,
+					"maxSpeed": 80
+				},
+				{
+					"start": "DOZ",
+					"end": "DOZA",
+					"length": 1,
+					"maxSpeed": 70
+				},
+				{
+					"start": "DOZA",
+					"end": "DNOW",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DNOW",
+					"end": "DMHD",
+					"length": 4,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DMHD",
+					"end": "DZ",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
 			"name": "Bahnstrecke Magdeburg–Leipzig",
 			"electrified": true,
 			"group": 0,
