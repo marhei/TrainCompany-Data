@@ -4184,6 +4184,20 @@
 			"operationCosts": 130
 		},
 		{
+			"id": 80210,
+			"group": 0,
+			"name": "BR 210",
+			"speed": 160,
+			"weight": 82,
+			"force": 235,
+			"length": 16,
+			"drive": 2,
+			"reliability": 0.85,
+			"cost": 250000,
+			"operationCosts": 150,
+			"equipments": ["DE", "CH"]
+		},	
+		{
 			"id": 20,
 			"group": 0,
 			"name": "BR 232",
@@ -4310,13 +4324,14 @@
 			"drive": 2,
 			"reliability": 0.8,
 			"cost": 150000,
-			"operationCosts": 140,
-			"equipments": ["CH", "DE", "BA"]
+			"operationCosts": 110,
+			"equipments": ["CH", "DE", "BA", "AT", "NO", "FR", "IT", "BG", "TR"]
 		},
 		{
-			"id": 80210,
+			"id": 80202,
 			"group": 0,
-			"name": "BR 210",
+			"name": "BR 202 / DR 112",
+			"shortcut": "DR 112",
 			"speed": 100,
 			"weight": 64,
 			"force": 227,
@@ -4324,8 +4339,8 @@
 			"drive": 2,
 			"reliability": 0.9,
 			"cost": 140000,
-			"operationCosts": 140,
-			"equipments": ["DE", "BE", "NL"]
+			"operationCosts": 110,
+			"equipments": ["DE", "BE", "NL", "BG", "IT", "LU", "AT", "CH", "RO", "CZ", "SK", "HU", "RS"]
 		},
 		{
 			"id": 75101,
@@ -4808,6 +4823,57 @@
 				{"name": "passengers", "value": 88}
 			]
 		},
+		{
+			"id": 8071217,
+			"group": 1,
+			"name": "zweiachsiger Reko-Wagen",
+			"shortcut": "Baag",
+			"speed": 90,
+			"weight": 17,
+			"force": 0,
+			"length": 13,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 60000,
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 48 }
+			]
+		},
+		{
+			"id": 80152019,
+			"group": 1,
+			"name": "dreiachsiger Reko-Wagen",
+			"shortcut": "Bag",
+			"speed": 90,
+			"weight": 19,
+			"force": 0,
+			"length": 13,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 65000,
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 48 }
+			]
+		},	
+		{
+			"id": 80303129,
+			"group": 1,
+			"name": "vierachsiger Reko-Wagen",
+			"shortcut": "Bghw",
+			"speed": 120,
+			"weight": 29,
+			"force": 0,
+			"length": 19,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 80000,
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 64 }
+			]
+		},			
 		{
 			"id": 38,
 			"group": 1,
