@@ -29172,6 +29172,298 @@
 				}
 
 			]
+		},
+		{
+			"name": "Bahnstrecke Riga - Daugavpils",
+			"neededEquipments": [
+				"LV","1520mm"
+			],
+			"group": 0,
+			"objects": [
+				{
+					"start": "LVRIGA",
+					"end": "LVVGNUPRK",
+					"maxSpeed": 100,
+					"twistingFactor": 0.1,
+					"length": 2,
+					"electrified": true
+				},
+				{
+					"start": "LVVGNUPRK",
+					"end": "LVJNVT",
+					"maxSpeed": 100,
+					"twistingFactor": 0,
+					"length": 2,
+					"electrified": true
+				},
+				{
+					"start": "LVJNVT",
+					"end": "LVDGML",
+					"maxSpeed": 100,
+					"twistingFactor": 0,
+					"length": 2,
+					"electrified": true
+				},
+				{
+					"start": "LVDGML",
+					"end": "LVSKTV",
+					"maxSpeed": 100,
+					"twistingFactor": 0.15,
+					"length": 2,
+					"electrified": true
+				},
+				{
+					"start": "LVSKTV",
+					"end": "LVGSMA",
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"length": 2,
+					"electrified": true
+				},
+				{
+					"start": "LVGSMA",
+					"end": "LVRMBL",
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"length": 1,
+					"electrified": true
+				},
+				{
+					"start": "LVRMBL",
+					"end": "LVDRZN",
+					"maxSpeed": 120,
+					"twistingFactor": 0.2,
+					"length": 2,
+					"electrified": true
+				},
+				{
+					"start": "LVDRZN",
+					"end": "LVDOLE",
+					"maxSpeed": 120,
+					"twistingFactor": 0.25,
+					"length": 3,
+					"electrified": true
+				},
+				{
+					"start": "LVDOLE",
+					"end": "LVSPS",
+					"maxSpeed": 120,
+					"twistingFactor": 0.21,
+					"length": 2,
+					"electrified": true
+				},
+				{
+					"start": "LVSPS",
+					"end": "LVSLKLNE",
+					"maxSpeed": 120,
+					"twistingFactor": 0.18,
+					"length": 5,
+					"electrified": true
+				},
+				{
+					"start": "LVSLKLNE",
+					"end": "LVIKILE",
+					"maxSpeed": 120,
+					"twistingFactor": 0.18,
+					"length": 5,
+					"electrified": true
+				},
+				{
+					"start": "LVIKILE",
+					"end": "LVJOGRE",
+					"maxSpeed": 120,
+					"twistingFactor": 0.18,
+					"length": 5,
+					"electrified": true
+				},
+				{
+					"start": "LVJOGRE",
+					"end": "LVOGRE",
+					"maxSpeed": 120,
+					"twistingFactor": 0.05,
+					"length": 1,
+					"electrified": true
+				},
+				{
+					"start": "LVOGRE",
+					"end": "LVPOGRE",
+					"maxSpeed": 120,
+					"twistingFactor": 0.075,
+					"length": 1,
+					"electrified": true
+				},
+				{
+					"start": "LVPOGRE",
+					"end": "LVCMPE",
+					"maxSpeed": 120,
+					"twistingFactor": 0.15,
+					"length": 4,
+					"electrified": true
+				},
+				{
+					"start": "LVCMPE",
+					"end": "LVKGMS",
+					"maxSpeed": 120,
+					"twistingFactor": 0.25,
+					"length": 6,
+					"electrified": true
+				},
+				{
+					"start": "LVKGMS",
+					"end": "LVLVDE",
+					"maxSpeed": 120,
+					"twistingFactor": 0.2,
+					"length": 6,
+					"electrified": true
+				},
+				{
+					"start": "LVLVDE",
+					"end": "LVKBLA",
+					"maxSpeed": 120,
+					"twistingFactor": 0.195,
+					"length": 5,
+					"electrified": true
+				},
+				{
+					"start": "LVKBLA",
+					"end": "LVJMPRV",
+					"maxSpeed": 120,
+					"twistingFactor": 0.14,
+					"length": 6,
+					"electrified": true
+				},
+				{
+					"start": "LVJMPRV",
+					"end": "LVSKRVR",
+					"maxSpeed": 120,
+					"twistingFactor": 0.16,
+					"length": 10,
+					"electrified": true
+				},
+				{
+					"start": "LVSKRVR",
+					"end": "LVMLDKMNS",
+					"maxSpeed": 90,
+					"twistingFactor": 0.16,
+					"length": 6,
+					"electrified": true
+				},
+				{
+					"start": "LVMLDKMNS",
+					"end": "LVAZKRKLE",
+					"maxSpeed": 90,
+					"twistingFactor": 0.16,
+					"length": 4,
+					"electrified": true
+				},
+				{
+					"start": "LVAZKRKLE",
+					"end": "LVKKNSE",
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"length": 12,
+					"electrified": false
+				},
+				{
+					"start": "LVKKNSE",
+					"end": "LVALTNE",
+					"maxSpeed": 120,
+					"twistingFactor": 0.08,
+					"length": 8,
+					"electrified": false
+				},
+				{
+					"start": "LVALTNE",
+					"end": "LVPLVS",
+					"maxSpeed": 120,
+					"twistingFactor": 0.12,
+					"length": 10,
+					"electrified": false
+				},
+				{
+					"start": "LVPLVS",
+					"end": "LVOLSL",
+					"maxSpeed": 120,
+					"twistingFactor": 0.16,
+					"length": 9,
+					"electrified": false
+				},
+				{
+					"start": "LVOLSL",
+					"end": "LVKRPLS",
+					"maxSpeed": 120,
+					"twistingFactor": 0.15,
+					"length": 8,
+					"electrified": false
+				},
+				{
+					"start": "LVKRPLS",
+					"end": "LVTREPE",
+					"maxSpeed": 120,
+					"twistingFactor": 0.15,
+					"length": 17,
+					"electrified": false
+				},
+				{
+					"start": "LVTREPE",
+					"end": "LVLIVI",
+					"maxSpeed": 120,
+					"twistingFactor": 0.15,
+					"length": 12,
+					"electrified": false
+				},
+				{
+					"start": "LVLIVI",
+					"end": "LVJERS",
+					"maxSpeed": 100,
+					"twistingFactor": 0.15,
+					"length": 11,
+					"electrified": false
+				},
+				{
+					"start": "LVJERS",
+					"end": "LVNICG",
+					"maxSpeed": 120,
+					"twistingFactor": 0.15,
+					"length": 17,
+					"electrified": false
+				},
+				{
+					"start": "LVNICG",
+					"end": "LVVABO",
+					"maxSpeed": 120,
+					"twistingFactor": 0.15,
+					"length": 12,
+					"electrified": false
+				},
+				{
+					"start": "LVVABO",
+					"end": "LVLIKS",
+					"maxSpeed": 120,
+					"twistingFactor": 0.195,
+					"length": 5,
+					"electrified": false
+				},
+				{
+					"start": "LVLIKS",
+					"end": "LVDGVPL",
+					"maxSpeed": 120,
+					"twistingFactor": 0.4,
+					"length": 15,
+					"electrified": false
+				}
+			]
+		},
+		{
+			"group": 0,
+			"start": "LVPLVS",
+			"end": "LVPLVSG",
+			"neededEquipments": [
+				"LV","1520mm"
+			],
+			"length": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0
 		}
 	]
 }
