@@ -29476,7 +29476,7 @@
 				{
 					"start": "LVDGVPL",
 					"end": "LVEGLNE",
-					"length": 5,
+					"length": 10,
 					"neededEquipments": [
 						"LV", "1520mm"
 					]
@@ -29484,7 +29484,7 @@
 				{
 					"start": "LVEGLNE",
 					"end": "LVLTGRENZE",
-					"length": 1,
+					"length": 2,
 					"neededEquipments": [
 						"LV", "1520mm"
 					]
@@ -29492,7 +29492,7 @@
 				{
 					"start": "LVLTGRENZE",
 					"end": "LTOBLIAI",
-					"length": 6,
+					"length": 12,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29500,7 +29500,7 @@
 				{
 					"start": "LTOBLIAI",
 					"end": "LTKRSTI",
-					"length": 3,
+					"length": 6,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29508,7 +29508,7 @@
 				{
 					"start": "LTKRSTI",
 					"end": "LTTLIAI",
-					"length": 2,
+					"length": 4,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29516,7 +29516,7 @@
 				{
 					"start": "LTTLIAI",
 					"end": "LTPAMULI",
-					"length": 1,
+					"length": 2,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29524,7 +29524,7 @@
 				{
 					"start": "LTPAMULI",
 					"end": "LTSKIS",
-					"length": 3,
+					"length": 6,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29532,7 +29532,7 @@
 				{
 					"start": "LTSKIS",
 					"end": "LTKIS",
-					"length": 3,
+					"length": 6,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29540,7 +29540,7 @@
 				{
 					"start": "LTKIS",
 					"end": "LTRADI",
-					"length": 2,
+					"length": 4,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29548,7 +29548,7 @@
 				{
 					"start": "LTRADI",
 					"end": "LTSABA",
-					"length": 2,
+					"length": 4,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29556,7 +29556,7 @@
 				{
 					"start": "LTSABA",
 					"end": "LTBYGAI",
-					"length": 1,
+					"length": 2,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29564,7 +29564,7 @@
 				{
 					"start": "LTBYGAI",
 					"end": "LTKARSA",
-					"length": 1,
+					"length": 2,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29572,7 +29572,7 @@
 				{
 					"start": "LTKARSA",
 					"end": "LTPANEVE",
-					"length": 2,
+					"length": 4,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29580,7 +29580,7 @@
 				{
 					"start": "LTPANEVE",
 					"end": "LTGUST",
-					"length": 2,
+					"length": 4,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29588,7 +29588,7 @@
 				{
 					"start": "LTGUST",
 					"end": "LTLABUC",
-					"length": 2,
+					"length": 4,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29596,7 +29596,7 @@
 				{
 					"start": "LTLABUC",
 					"end": "LTLABU",
-					"length": 1,
+					"length": 2,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29604,7 +29604,7 @@
 				{
 					"start": "LTLABU",
 					"end": "LTSEDVA",
-					"length": 2,
+					"length": 4,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29612,7 +29612,7 @@
 				{
 					"start": "LTSEDVA",
 					"end": "LTRADVIKIS",
-					"length": 4,
+					"length": 8,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29620,7 +29620,7 @@
 				{
 					"start": "LTRADVIKIS",
 					"end": "LTKUTI",
-					"length": 1,
+					"length": 2,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29628,7 +29628,7 @@
 				{
 					"start": "LTKUTI",
 					"end": "LTMANKI",
-					"length": 1,
+					"length": 2,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
@@ -29636,12 +29636,140 @@
 				{
 					"start": "LTMANKI",
 					"end": "LTSIAUL",
-					"length": 3,
+					"length": 6,
 					"neededEquipments": [
 						"LT", "1520mm"
 					]
 				}
 			]
+		},
+		{
+			"neededEquipments": [
+				"LT","1520mm"
+			],
+			"electrified": false,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"group": 1,
+			"objects": [
+				{
+					"start": "LTRADVIKIS",
+					"end": "LTGGLA",
+					"length": 11
+				},
+				{
+					"start": "LTGGLA",
+					"end": "LTBSLA",
+					"length": 11
+				},
+				{
+					"start": "LTBSLA",
+					"end": "LTGUDAI",
+					"length": 10
+				},
+				{
+					"start": "LTGUDAI",
+					"end": "LTDTNVA",
+					"length": 13
+				},
+				{
+					"start": "LTDTNVA",
+					"end": "LTKDNAI",
+					"length": 12
+				},
+				{
+					"start": "LTKDNAI",
+					"end": "LTJNVA",
+					"length": 29
+				},
+				{
+					"start": "LTJNVA",
+					"end": "LTGZNAI",
+					"length": 7
+				},
+				{
+					"start": "LTGZNAI",
+					"end": "LTPLMS",
+					"length": 20
+				},
+				{
+					"start": "LTPLMS",
+					"end": "LTKNAS",
+					"length": 8
+				},
+				{
+					"start": "LTKNAS",
+					"end": "LTMARAI",
+					"length": 14
+				},
+				{
+					"start": "LTMARAI",
+					"end": "LTPABLIS",
+					"length": 4
+				},
+				{
+					"start": "LTMARAI",
+					"end": "LTPABLIS",
+					"length": 4
+				},
+				{
+					"start": "LTPABLIS",
+					"end": "LTJURE",
+					"length": 6
+				},
+				{
+					"start": "LTJURE",
+					"end": "LTKZRDA",
+					"length": 6
+				},
+				{
+					"start": "LTKZRDA",
+					"end": "LTBBRSKE",
+					"length": 4
+				},
+				{
+					"start": "LTBBRSKE",
+					"end": "LTVCAI",
+					"length": 2
+				},
+				{
+					"start": "LTVCAI",
+					"end": "LTBVAI",
+					"length": 4
+				},
+				{
+					"start": "LTBVAI",
+					"end": "LTMJMPL",
+					"length": 5
+				},
+				{
+					"start": "LTMJMPL",
+					"end": "LTSESTOK",
+					"length": 19
+				},
+				{
+					"start": "LTSESTOK",
+					"end": "LTMCKVG",
+					"length": 6
+				},
+				{
+					"start": "LTMCKVG",
+					"end": "PLLTGRENZE",
+					"length": 10
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"LT","1520mm"
+			],
+			"electrified": false,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"group": 1,
+			"start": "LTSESTOK",
+			"end": "LTALTYU",
+			"length": 32
 		}
 	]
 }
