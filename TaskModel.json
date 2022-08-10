@@ -5221,6 +5221,98 @@
 					"stations": [ "XEMAT", "🇪🇸08004", "🇪🇸10500", "🇪🇸30200", "🇪🇸31200", "🇪🇸31205", "🇪🇸22100", "🇪🇸31400" ]
 				}
 			]
-		}
+		},
+		{
+			"name": "Intercity von %s nach %s",
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre diesen Zug durch Belgien."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "XFLIE", "XFTC", "XBKK", "XBDZ", "XBGP", "XBAAS", "XBB", "XBMCH", "XBAC" ]
+				},
+				{
+					"stations": [ "XBLE", "XBB", "XBAAS", "XBGP" ]
+				},
+				{
+					"stations": [ "XBB", "XBAAS", "XBGP", "XBLDG", "XBAAL", "XBBE", "XBBR", "XBO" ]
+				}			
+			]
+		},	
+		{
+			"name": "Intercity von %s nach %s",
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre diesen Zug durch die Niederlande."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "XNSP", "XNAC", "🇳🇱Amf", "🇳🇱Apd", "🇳🇱Dv", "🇳🇱Aml", "XNHL", "XNES" ]
+				},
+				{
+					"stations": [ "XNSP", "XNAC", "XNU", "XNAH" ]
+				}
+			]
+		},	
+		{
+			"group": 1,
+			"name": "Lokalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Lokalzug von %s nach %s."
+			],
+			"objects": [
+				{		
+					"stations": [ "XBLE", "XBB", "XBMCH", "XBAC" ]
+				},
+				{
+					"stations": [ "XBGP", "XBAAL", "XBBR" ]
+				}	
+			],			
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Stoptrein von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Nahverkehrszug von %s nach %s."
+			],
+			"objects": [
+				{		
+					"stations": [ "XNES", "XNHL", "🇳🇱Aml", "🇳🇱Apd" ]
+				},
+				{
+					"stations": [ "🇳🇱Apd", "🇳🇱Amf" ]
+				},
+				{
+					"stations": [ "🇳🇱Amf", "🇳🇱Hvs", "XNAC" ]
+				},
+				{
+					"stations": [ "XNAC", "XNU" ]
+				},
+				{
+					"stations": [ "XNU", "XNAH" ]
+				}				
+			],			
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		}				
 	]
 }
