@@ -28286,6 +28286,178 @@
 					"length": 2
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"name": "Bahnstrecke Torņakalns - Tukums II",
+			"neededEquipments": [
+				"LV","1520mm"
+			],
+			"group": 0,
+			"objects": [
+				{
+					"start": "LVTNKLN",
+					"end": "LVZSLK",
+					"length": 4,
+					"twistingFactor": 0.15,
+					"maxSpeed": 100
+				},
+				{
+					"start": "LVZSLK",
+					"end": "LVDEPO",
+					"length": 1,
+					"twistingFactor": 0.075,
+					"maxSpeed": 120
+				},
+				{
+					"start": "LVDEPO",
+					"end": "LVZTDE",
+					"length": 1,
+					"twistingFactor": 0.075,
+					"maxSpeed": 120
+				},
+				{
+					"start": "LVZTDE",
+					"end": "LVIMT",
+					"length": 1,
+					"twistingFactor": 0.05,
+					"maxSpeed": 120
+				},
+				{
+					"start": "LVIMT",
+					"end": "LVBBTE",
+					"length": 3,
+					"twistingFactor": 0.1,
+					"maxSpeed": 120
+				},
+				{
+					"start": "LVBBTE",
+					"end": "LVPRDNE",
+					"length": 4,
+					"twistingFactor": 0.1,
+					"maxSpeed": 120
+				},
+				{
+					"start": "LVPRDNE",
+					"end": "LVLLPE",
+					"length": 2,
+					"twistingFactor": 0,
+					"maxSpeed": 120
+				},
+				{
+					"start": "LVLLPE",
+					"end": "LVBDRI",
+					"length": 1,
+					"twistingFactor": 0.025,
+					"maxSpeed": 120
+				},
+				{
+					"start": "LVBDRI",
+					"end": "LVDZRI",
+					"length": 3,
+					"twistingFactor": 0.25,
+					"maxSpeed": 120
+				},
+				{
+					"start": "LVDZRI",
+					"end": "LVMJRI",
+					"length": 1,
+					"twistingFactor": 0.175,
+					"maxSpeed": 120
+				},
+				{
+					"start": "LVMJRI",
+					"end": "LVDBTI",
+					"length": 1,
+					"twistingFactor": 0.175,
+					"maxSpeed": 120
+				},
+				{
+					"start": "LVDBTI",
+					"end": "LVJDBTI",
+					"length": 2,
+					"twistingFactor": 0.75,
+					"maxSpeed": 100
+				},
+				{
+					"start": "LVJDBTI",
+					"end": "LVPPRI",
+					"length": 1,
+					"twistingFactor": 0,
+					"maxSpeed": 100
+				},
+				{
+					"start": "LVPPRI",
+					"end": "LVMLZI",
+					"length": 1,
+					"twistingFactor": 0,
+					"maxSpeed": 100
+				},
+				{
+					"start": "LVMLZI",
+					"end": "LVASRI",
+					"length": 2,
+					"twistingFactor": 0,
+					"maxSpeed": 100
+				},
+				{
+					"start": "LVASRI",
+					"end": "LVVVRI",
+					"length": 1,
+					"twistingFactor": 0,
+					"maxSpeed": 100
+				},
+				{
+					"start": "LVVVRI",
+					"end": "LVSLKA",
+					"length": 3,
+					"twistingFactor": 0.2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "LVSLKA",
+					"end": "LVKDRA",
+					"length": 5,
+					"twistingFactor": 0.2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "LVKDRA",
+					"end": "LVKMR",
+					"length": 4,
+					"twistingFactor": 0.1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "LVKMR",
+					"end": "LVSMDR",
+					"length": 10,
+					"twistingFactor": 0.1,
+					"maxSpeed": 80
+				},
+				{
+					"start": "LVSMDR",
+					"end": "LVMLZNE",
+					"length": 7,
+					"twistingFactor": 0.1,
+					"maxSpeed": 80
+				},
+				{
+					"start": "LVMLZNE",
+					"end": "LVTKMSI",
+					"length": 4,
+					"twistingFactor": 0.1,
+					"maxSpeed": 80
+				},
+				{
+					"start": "LVTKMSI",
+					"end": "LVTKMSII",
+					"length": 3,
+					"twistingFactor": 0.15,
+					"maxSpeed": 80
+				}
+
+			]
 		}
 	]
 }
