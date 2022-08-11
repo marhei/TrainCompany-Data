@@ -5486,6 +5486,295 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		}
+		},
+		{
+			"name": "Caledonian Sleeper von %s nach %s",
+			"descriptions": [
+				"Fahre entlang der West Coast Main Line von %s nach %s.",
+				"Fahrgäste von und nach Nordschottland müssen in einen Regionalzug umsteigen."
+			],
+			"objects": [
+				{
+					"stations": [ "XKLP", "🇬🇧CAR", "🇬🇧MTH", "🇬🇧GLC" ],
+					"pathSuggestion": [ "XKLP", "🇬🇧SOT", "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧CAR", "🇬🇧EDB" ],
+					"pathSuggestion": [ "XKLP", "🇬🇧SOT", "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧EDB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" }				
+			],
+			"group": 1,
+			"service": 1
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre auf der HS1 von %s nach %s."
+			],
+			"stations": [ "XKLP", "XKSF", "XKEI", "XKAI" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"name": "Elizabeth Line von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre pünktlich von %s nach %s.",
+				"Aus technischen Gründen ist in Paddington ein Umstieg in einen stammstreckentauglichen Zug erforderlich."
+			],
+			"stations": [ "XKLP", "🇬🇧RDG" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe diesen Regionalzug von %s nach %s.",
+				"Fahre ohne Verspätungen durch Großbritannien."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧DID" ]
+				},
+				{
+					"stations": [ "🇬🇧DID", "🇬🇧SWI", "🇬🇧BTH", "🇬🇧BRI" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧BLY", "🇬🇧NMP", "XKRU", "🇬🇧BHI", "🇬🇧BHM" ]
+				},
+				{
+					"stations": [ "🇬🇧LIV", "🇬🇧RUN", "XKCR", "🇬🇧SOT" ]
+				},
+				{
+					"stations": [ "🇬🇧HHD", "🇬🇧AGL", "🇬🇧PRT", "🇬🇧CTR", "XKCR" ]
+				},
+				{
+					"stations": [ "🇬🇧SOT", "🇬🇧MAN" ]
+				},
+				{
+					"stations": [ "🇬🇧MAN", "🇬🇧BON", "🇬🇧PNR", "🇬🇧MTH", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧PBO" ]
+				},
+				{
+					"stations": [ "🇬🇧PBO", "🇬🇧DON", "🇬🇧YRK" ]
+				},
+				{
+					"stations": [ "🇬🇧DON", "🇬🇧YRK", "🇬🇧DAR", "🇬🇧NCL" ]
+				},
+				{
+					"stations": [ "🇬🇧NCL", "🇬🇧EDB" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧MTH", "🇬🇧GLC" ]
+				}					
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "TER-GV von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre pünktlich auf der Schnellfahrstrecke von %s nach %s.",
+				"Binde die an der französischen Nordküste liegenden Städte an Lille an."
+			],
+			"stations": [ "XFLIE", "XFFE", "🇫🇷BEM", "🇫🇷ETA", "🇫🇷RDF" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "Transilien von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe diesen Vorortzug von %s nach %s.",
+				"Verbinde Paris mit ihren Vororten."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XFPO", "XFCR" ]
+				},
+				{
+					"stations": [ "XFPO", "🇫🇷VCR", "🇫🇷RBT" ]
+				},
+				{
+					"stations": [ "XFPO", "XFMEL" ]
+				},
+				{
+					"stations": [ "XFPO", "XFMEA", "🇫🇷NAA", "XFCT" ]
+				}				
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "RER A von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe diesen Vorortzug von %s nach %s.",
+				"Diese Linie dient hauptsächlich dem Pendelverkehr sowie Besuchen des nahegelegenen Freizeitparks."
+			],
+			"stations": [ "XFPO", "XFVAR", "XFMVC" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "RER C von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe diesen Vorortzug von %s nach %s."
+			],
+			"stations": [ "XFPO", "XFETP" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "TER von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe diesen TER von %s nach %s.",
+				"Fahre ohne Verspätungen durch Frankreich."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XFLIE", "XFHZ", "XFDK" ]
+				},
+				{
+					"stations": [ "XFFE", "🇫🇷BEM", "🇫🇷RDF", "🇫🇷AMS" ]
+				},
+				{
+					"stations": [ "XFLIE", "XFAS", "🇫🇷AMS", "XFCR", "XFPO" ]
+				},
+				{
+					"stations": [ "XFPO", "🇫🇷VCR", "🇫🇷CHH", "XFLM" ]
+				},
+				{
+					"stations": [ "XFLM", "XFASL", "XFNA" ]
+				},
+				{
+					"stations": [ "XFNA", "🇫🇷SNA" ]
+				},
+				{
+					"stations": [ "XFLM", "🇫🇷SLG", "XFLAL", "XFVTE", "XFR" ]
+				},
+				{
+					"stations": [ "XFNA", "XFASL", "XFSUD", "🇫🇷TO" ]
+				},
+				{
+					"stations": [ "🇫🇷TO", "XFOL", "XFPO" ]
+				},
+				{
+					"stations": [ "XFBJ", "🇫🇷AGN" ]
+				},
+				{
+					"stations": [ "🇫🇷AGN", "XFMBN", "XFTM" ]
+				},
+				{
+					"stations": [ "XFTM", "XFCN", "XFNB" ]
+				},
+				{
+					"stations": [ "XFPE", "XFNB", "XFBZ", "XFSE", "🇫🇷FRN", "XFLUN", "🇫🇷NMS", "🇫🇷NPG", "XFARL", "XFMI", "XFM" ]
+				},
+				{
+					"stations": [ "XFM", "XFMI", "XFARL", "XFAVV" ]
+				},
+				{
+					"stations": [ "XFAVV", "XFOR", "XFMN", "XFVCV", "XFVI", "XFLPD" ]
+				},
+				{
+					"stations": [ "XFLPD", "XFAE", "XFCZ", "XFAI", "XFMOD" ]
+				},
+				{
+					"stations": [ "XFPO", "XFMEL", "🇫🇷SES", "🇫🇷SIF", "🇫🇷PAI", "XFD" ]
+				},
+				{
+					"stations": [ "XFD", "🇫🇷GLS", "XFDO" ]
+				},
+				{
+					"stations": [ "XFDO", "XFMOU", "🇨🇭VAL" ]
+				},
+				{
+					"stations": [ "XFPO", "XFMEA", "🇫🇷NAA", "XFE", "XFCM", "XFBD" ]
+				},
+				{
+					"stations": [ "XFSHT", "XFCM" ]
+				},
+				{
+					"stations": [ "XFSTG", "RAP", "RO" ]
+				},
+				{
+					"stations": [ "XFCM", "XFBD", "XFLE", "XFTU", "XFFD", "XFN" ]
+				},
+				{
+					"stations": [ "SSH", "XFMZV" ]
+				},
+				{
+					"stations": [ "XFMZV", "XFPS", "XFO", "XFLE", "XFBD" ]
+				},
+				{
+					"stations": [ "XFSTG", "XFSL", "XFC", "XFMV", "XSB" ]
+				},
+				{
+					"stations": [ "XFMV", "RML" ]
+				},
+				{
+					"stations": [ "XFCA", "XFNC", "XFMC", "XIVT" ]
+				}				
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "TER von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen TER von %s nach %s.",
+				"Fahre als Zubringer von und zum TGV-Bahnhof von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XFLM", "XFLAL" ]
+				},
+				{
+					"stations": [ "XFB", "XFBTV" ]
+				}				
+			],
+			"stopsEverywhere": true
+		}		
 	]
 }
