@@ -29914,6 +29914,220 @@
 		},
 		{
 			"neededEquipments": [
+				"PL"
+			],
+			"name": "Bahnstrecke Zielonka - Kuźnica Białostocka",
+			"electrified": true,
+			"maxSpeed": 160,
+			"twistingFactor": 0,
+			"objects": [
+				{
+					"start": "PLBLK",
+					"end": "PLKLP",
+					"length": 5
+				},
+				{
+					"start": "PLKLP",
+					"end": "PLNWC",
+					"length": 4
+				},
+				{
+					"start": "PLNWC",
+					"end": "PLTRY",
+					"length": 1
+				},
+				{
+					"start": "PLTRY",
+					"end": "PLBAU",
+					"length": 4
+				},
+				{
+					"start": "PLBAU",
+					"end": "PLOWO",
+					"length": 7
+				},
+				{
+					"start": "PLOWO",
+					"end": "PLLAP",
+					"length": 2
+				},
+				{
+					"start": "PLLAP",
+					"end": "PLLAO",
+					"length": 2
+				},
+				{
+					"start": "PLLAO",
+					"end": "PLRBY",
+					"length": 10
+				},
+				{
+					"start": "PLRBY",
+					"end": "PLJKA",
+					"length": 5
+				},
+				{
+					"start": "PLJKA",
+					"end": "PLSBY",
+					"length": 3
+				},
+				{
+					"start": "PLSBY",
+					"end": "PLSPO",
+					"length": 5
+				},
+				{
+					"start": "PLSPO",
+					"end": "PLCYW",
+					"length": 16
+				},
+				{
+					"start": "PLCYW",
+					"end": "PLSWK",
+					"length": 9
+				},
+				{
+					"start": "PLSWK",
+					"end": "PLKLK",
+					"length": 3
+				},
+				{
+					"start": "PLKLK",
+					"end": "PLZKN",
+					"length": 3
+				},
+				{
+					"start": "PLZKN",
+					"end": "PLMKA",
+					"length": 9
+				},
+				{
+					"start": "PLMKA",
+					"end": "PLPST",
+					"length": 6
+				},
+				{
+					"start": "PLPST",
+					"end": "PLSDK",
+					"length": 9
+				},
+				{
+					"start": "PLSDK",
+					"end": "PLTOP",
+					"length": 4
+				},
+				{
+					"start": "PLTOP",
+					"end": "PLOKW",
+					"length": 5
+				},
+				{
+					"start": "PLOKW",
+					"end": "PLLOW",
+					"length": 5
+				},
+				{
+					"start": "PLLOW",
+					"end": "PLURL",
+					"length": 5
+				},
+				{
+					"start": "PLURL",
+					"end": "PLSZA",
+					"length": 5
+				},
+				{
+					"start": "PLSZA",
+					"end": "PLMKW",
+					"length": 5
+				},
+				{
+					"start": "PLMKW",
+					"end": "PLCHN",
+					"length": 2
+				},
+				{
+					"start": "PLCHN",
+					"end": "PLTUZ",
+					"length": 4
+				},
+				{
+					"start": "PLTUZ",
+					"end": "PLJMW",
+					"length": 3
+				},
+				{
+					"start": "PLJMW",
+					"end": "PLKBW",
+					"length": 3
+				},
+				{
+					"start": "PLKBW",
+					"end": "PLDCZ",
+					"length": 4
+				},
+				{
+					"start": "PLDCZ",
+					"end": "PLZGC",
+					"length": 2
+				},
+				{
+					"start": "PLZGC",
+					"end": "PLWMZ",
+					"length": 3
+				},
+				{
+					"start": "PLWMZ",
+					"end": "PLWLM",
+					"length": 1
+				},
+				{
+					"start": "PLWLM",
+					"end": "PLKYL",
+					"length": 2
+				},
+				{
+					"start": "PLKYL",
+					"end": "PLKYO",
+					"length": 2
+				},
+				{
+					"start": "PLKYO",
+					"end": "PLZLK",
+					"length": 3
+				},
+				{
+					"start": "PLZLK",
+					"end": "PLZLB",
+					"length": 2,
+					"name": "Bahnstrecke Zielonka - Warszawa Rembertów",
+					"maxSpeed": 120
+				},
+				{
+					"start": "PLZLB",
+					"end": "PLMLE",
+					"length": 2,
+					"name": "Bahnstrecke Zielonka - Warszawa Rembertów",
+					"maxSpeed": 120
+				},
+				{
+					"start": "PLMLE",
+					"end": "PLWRT",
+					"length": 5,
+					"name": "Bahnstrecke Zielonka - Warszawa Rembertów",
+					"maxSpeed": 120
+				},
+				{
+					"start": "PLWRT",
+					"end": "PLWZA",
+					"length": 5,
+					"name": "Warschau Verbindungsbahn Rembertów - Zachodnia",
+					"maxSpeed": 100
+				}
+			]
+		},
+		{
+			"neededEquipments": [
 				"LT","1520mm"
 			],
 			"electrified": false,
