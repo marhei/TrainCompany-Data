@@ -5906,6 +5906,113 @@
 				}				
 			],
 			"stopsEverywhere": true
-		}		
+		},	
+		{
+			"group": 1,
+			"name": "Osobní vlak von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Nahverkehrszug von %s nach %s.",
+				"Fahre diese grenzüberschreitende Verbindung von %s nach %s."
+			],
+			"stations": [ "DSA", "XTD" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},		
+		{
+			"name": "Osobní vlak von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Nahverkehrszug von %s nach %s.",
+				"Fahre durch Tschechien und halte dabei an allen Stationen."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XTPAR", "XTTR" ]
+				},
+				{
+					"stations": [ "XTPAR", "XTKI", "XTP" ]
+				},
+				{
+					"stations": [ "XTTR", "XTBR" ]
+				},
+				{
+					"stations": [ "🇨🇿5473515", "🇨🇿5473275" ]
+				}				
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "Spěšný vlak von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Eilzug von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XTBR", "XTBE" ]
+				},
+				{
+					"stations": [ "XTBR", "XTBA", "XTSS", "XTLE", "XTSI", "XTTR" ]
+				},
+		{
+			"name": "Rychlík von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen langsamen Schnellzug von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XTP", "XTKR", "XTRN", "XTLO", "XTU", "XTD" ]
+				},
+				{
+					"stations": [ "XTP", "XTBU", "XTZI", "XTRO", "🇨🇿5473275" ]
+				},
+				{
+					"stations": [ "XTP", "XTKI", "XTPAR", "XTCE", "XTTR" ]
+				}				
+			]
+		},
+		{
+			"group": 1,
+			"name": "Railjet von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Railjet von %s nach %s."
+			],
+			"stations": [ "XAWW", "XTBE", "XTBR", "XTPAR", "XTP" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Intercity von %s nach %s.",
+				"Fahre durch Tschechien."
+			],
+			"stations": [ "XTBE", "XTBR", "XTTR", "XTPAR", "XTKI", "XTP" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		}			
 	]
 }
