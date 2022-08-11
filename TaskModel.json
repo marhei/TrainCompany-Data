@@ -5812,6 +5812,51 @@
 					"pathSuggestion": [ "XIVT", "XITG", "XIIO", "XIAO", "XISAV", "XIGP", "XIAQ", "XITOR", "XIVOG", "XIPVI", "XIMB" ]
 				}
 			]
-		}		
+		},
+		{
+			"name": "Regionale von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s.",
+				"Fahre durch Italien und halte dabei an allen Stationen."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XIVT", "XITG", "XIIO", "XISAV", "XIGP" ]
+				},
+				{
+					"stations": [ "XIGP", "XIAS", "XIAST", "XITU" ]
+				},
+				{
+					"stations": [ "XIGP", "XITOR", "XIVOG", "XIMB" ]
+				},
+				{
+					"stations": [ "XIMB", "XIVOG", "XITOR", "XIAS", "XIAST", "XITU" ]
+				},
+				{
+					"stations": [ "XID", "XIR", "XIMB" ]
+				},
+				{
+					"stations": [ "XIMB", "XIMOZ", "XSCH", "XSL", "XSBZ", "XSLC" ]
+				},
+				{
+					"stations": [ "XIMB", "🇮🇹01708", "🇮🇹01711", "XIBCA", "XILN", "XIVP" ]
+				},
+				{
+					"stations": [ "XIVP", "XIPP", "XIVNS" ]
+				},
+				{
+					"stations": [ "XIBZ", "XITR", "XIVP", "XIPP", "XIVNS" ]
+				},
+				{
+					"stations": [ "XIBZ", "XIFF", "XIBN" ]
+				}				
+			],
+			"stopsEverywhere": true
+		}			
 	]
 }
