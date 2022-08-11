@@ -5278,7 +5278,10 @@
 				},
 				{
 					"stations": [ "XMBK", "XMBOS", "XMBA", "XMTB", "XMTA", "XMKO", "XMG", "XMMO", "XMHY" ]
-				}
+				},
+				{
+					"stations": [ "XMBK", "XMV", "XMSB" ]
+				}				
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -6015,6 +6018,68 @@
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
 			]
-		}			
+		},
+		{
+			"group": 1,
+			"name": "EuroCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen EuroCity von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XTP", "XTBR", "XTBE", "XYB" ]
+				},
+				{
+					"stations": [ "XTP", "XTBR", "XTBE", "XYB", "XYST", "XMBK" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RJX von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Railjet von %s nach %s."
+			],
+			"stations": [ "XYB", "XAWW", "XAL", "XASB", "XAWL", "XAI", "XALE", "XABL", "XAFK", "XSBU", "XSZH" ],
+					"pathSuggestion": [ "XYB", "XAWW", "XAL", "XAWE", "XAAT", "XASF", "XASB", "XASW", "XAWL", "🇦🇹Fw Z2", "XAI", "XALE", "XABL", "XAFK", "XSBU", "XSSR", "XSPF", "XSTW", "XSZH" ]			
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Osobní vlak von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Nahverkehrszug von %s nach %s.",
+				"Fahre durch die Slowakei und halte dabei an allen Stationen."
+			],
+			"stations": [ "XYB", "XYNZ", "XYST" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "REX von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regional-Express von %s nach %s.",
+				"Verbinde die Hauptstädte Österreichs und der Slowakei miteinander."
+			],
+			"stations": [ "XYB", "XAWW" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		}
 	]
 }
