@@ -5655,6 +5655,111 @@
 				{ "name": "passengers" }
 			],
 			"group": 1
-		}		
+		},
+		{
+			"name": "TER von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe diesen TER von %s nach %s.",
+				"Fahre ohne Verspätungen durch Frankreich."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XFLIE", "XFHZ", "XFDK" ]
+				},
+				{
+					"stations": [ "XFFE", "🇫🇷BEM", "🇫🇷RDF", "🇫🇷AMS" ]
+				},
+				{
+					"stations": [ "XFLIE", "XFAS", "🇫🇷AMS", "XFCR", "XFPO" ]
+				},
+				{
+					"stations": [ "XFPO", "🇫🇷VCR", "🇫🇷CHH", "XFLM" ]
+				},
+				{
+					"stations": [ "XFLM", "XFLAL" ]
+				},
+				{
+					"stations": [ "XFLM", "XFASL", "XFNA" ]
+				},
+				{
+					"stations": [ "XFNA", "🇫🇷SNA" ]
+				},
+				{
+					"stations": [ "XFLM", "🇫🇷SLG", "XFLAL", "XFVTE", "XFR" ]
+				},
+				{
+					"stations": [ "XFNA", "XFASL", "XFSUD", "🇫🇷TO" ]
+				},
+				{
+					"stations": [ "🇫🇷TO", "XFOL", "XFPO" ]
+				},
+				{
+					"stations": [ "XFBJ", "🇫🇷AGN" ]
+				},
+				{
+					"stations": [ "AGN", "XFMBN", "XFTM" ]
+				},
+				{
+					"stations": [ "XFTM", "XFCN", "XFNB" ]
+				},
+				{
+					"stations": [ "XFPE", "XFNB", "XFBZ", "XFSE", "🇫🇷FRN", "XFLUN", "🇫🇷NMS", "🇫🇷NPG", "XFARL", "XFMI", "XFM" ]
+				},
+				{
+					"stations": [ "XFM", "XFMI", "XFARL", "XFAVV" ]
+				},
+				{
+					"stations": [ "XFAVV", "XFOR", "XFMN", "XFVCV", "XFVI", "XFLPD" ]
+				},
+				{
+					"stations": [ "XFLPD", "XFAE", "XFCZ", "XFAI", "XFMOD" ]
+				},
+				{
+					"stations": [ "XFB", "XFBTV" ]
+				},
+				{
+					"stations": [ "XFPO", "XFMEL", "🇫🇷SES", "🇫🇷SIF", "🇫🇷PAI", "XFD" ]
+				},
+				{
+					"stations": [ "XFD", "🇫🇷GLS", "XFDO" ]
+				},
+				{
+					"stations": [ "XFDO", "XFMOU", "🇨🇭VAL" ]
+				},
+				{
+					"stations": [ "XFPO", "XFMEA", "🇫🇷NAA", "XFE", "XFCM", "XFBD" ]
+				},
+				{
+					"stations": [ "XFSHT", "XFCM" ]
+				},
+				{
+					"stations": [ "XFSTG", "RAP", "RO" ]
+				},
+				{
+					"stations": [ "XFCM", "XFBD", "XFLE", "XFTU", "XFFD", "XFN" ]
+				},
+				{
+					"stations": [ "SSH", "XFMZV" ]
+				},
+				{
+					"stations": [ "XFMZV", "XFPS", "XFO", "XFLE", "XFBD" ]
+				},
+				{
+					"stations": [ "XFSTG", "XFSL", "XFC", "XFMV", "XSB" ]
+				},
+				{
+					"stations": [ "XFMV", "RML" ]
+				},
+				{
+					"stations": [ "XFCA", "XFNC", "XFMC", "XIVT" ]
+				}				
+			],
+			"stopsEverywhere": true
+		},		
 	]
 }
