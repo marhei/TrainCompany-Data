@@ -5857,6 +5857,34 @@
 				}				
 			],
 			"stopsEverywhere": true
-		}			
+		},
+		{
+			"group": 1,
+			"name": "Metropolitano von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre diese Verbindung des Turiner Vorortbahnnetzes von %s nach %s."
+			],
+			"stations": [ "XITU", "🇮🇹00202" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Metropolitano von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre diese Verbindung des Mailänder Vorortbahnnetzes von %s nach %s."
+			],
+			"stations": [ "XIMB", "XIMOZ", "XSCH" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		}		
 	]
 }
