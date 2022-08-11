@@ -5486,6 +5486,107 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		}
+		},
+		{
+			"name": "Caledonian Sleeper von %s nach %s",
+			"descriptions": [
+				"Fahre entlang der West Coast Main Line von %s nach %s.",
+				"Fahrgäste von und nach Nordschottland müssen in einen Regionalzug umsteigen."
+			],
+			"objects": [
+				{
+					"stations": [ "XKLP", "🇬🇧CAR", "🇬🇧MTH", "🇬🇧GLC" ],
+					"pathSuggestion": [ "XKLP", "🇬🇧SOT", "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧CAR", "🇬🇧EDB" ],
+					"pathSuggestion": [ "XKLP", "🇬🇧SOT", "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧EDB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" }				
+			],
+			"group": 1,
+			"service": 1
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre auf der HS1 von %s nach %s."
+			],
+			"stations": [ "XKLP", "XKSF", "XKEI", "XKAI" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"name": "Elizabeth Line von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre pünktlich von %s nach %s.",
+				"Aus technischen Gründen ist in Paddington ein Umstieg in einen stammstreckentauglichen Zug erforderlich."
+			],
+			"stations": [ "XKLP", "🇬🇧RDG" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "Regionalzug von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe diesen Regionalzug von %s nach %s.",
+				"Fahre ohne Verspätungen durch Großbritannien."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧DID" ]
+				},
+				{
+					"stations": [ "🇬🇧DID", "🇬🇧SWI", "🇬🇧BTH", "🇬🇧BRI" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧BLY", "🇬🇧NMP", "XKRU", "🇬🇧BHI", "🇬🇧BHM" ]
+				},
+				{
+					"stations": [ "🇬🇧LIV", "🇬🇧RUN", "XKCR", "🇬🇧SOT" ]
+				},
+				{
+					"stations": [ "🇬🇧HHD", "🇬🇧AGL", "🇬🇧PRT", "🇬🇧CTR", "XKCR" ]
+				},
+				{
+					"stations": [ "🇬🇧SOT", "🇬🇧MAN" ]
+				},
+				{
+					"stations": [ "🇬🇧MAN", "🇬🇧BON", "🇬🇧PNR", "🇬🇧MTH", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧PBO" ]
+				},
+				{
+					"stations": [ "🇬🇧PBO", "🇬🇧DON", "🇬🇧YRK" ]
+				},
+				{
+					"stations": [ "🇬🇧DON", "🇬🇧YRK", "🇬🇧DAR", "🇬🇧NCL" ]
+				},
+				{
+					"stations": [ "🇬🇧NCL", "🇬🇧EDB" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧MTH", "🇬🇧GLC" ]
+				}					
+			],
+			"stopsEverywhere": true
+		}		
 	]
 }
