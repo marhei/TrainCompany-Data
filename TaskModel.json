@@ -5775,6 +5775,43 @@
 				}				
 			],
 			"stopsEverywhere": true
-		}		
+		},
+		{
+			"name": "Frecciarossa von %s nach %s",
+			"descriptions": [
+				"Bringe den Frecciarossa von %s nach %s.",
+				"Bringe diese Hochgeschwindigkeitsleistung durch Norditalien."
+				"Fahre über die SFS von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "XIT", "XICER", "🇮🇹03202", "XIVNS", "XIVP", "XIBCA", "XIMB", "XITU" ],
+					"pathSuggestion": [ "XIT", "🇮🇹03313", "XICER", "🇮🇹03202", "XIVNS", "XIVP", "XIBCA", "XIMB", "XIR", "XITU" ]
+				}
+			]
+		},
+		{
+			"name": "InterCity von %s nach %s",
+			"descriptions": [
+				"Bringe diesen InterCity von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"stations": [ "XIVT", "XITG", "XIIO", "XIAO", "XISAV", "XIGP", "XIVOG", "XIPIV", "XIMB" ],
+					"pathSuggestion": [ "XIVT", "XITG", "XIIO", "XIAO", "XISAV", "XIGP", "XIAQ", "XITOR", "XIVOG", "XIPIV", "XIMB" ]
+				}
+			]
+		},		
 	]
 }
