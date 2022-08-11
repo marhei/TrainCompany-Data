@@ -6174,6 +6174,181 @@
 				}				
 			],
 			"stopsEverywhere": true
+		},
+		{
+			"name": "RegioExpress von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre ohne Verspätungen durch die Schweiz."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XSSG", "XSRS", "XSSM", "XSBU", "XSSR" ]
+				},
+				{
+					"stations": [ "XSOL", "XSZG", "XSLU", "XSAG" ]
+				},
+				{
+					"stations": [ "XSZH", "XSTW", "XSPF", "XSSR" ]
+				},
+				{
+					"stations": [ "RKO", "XSR", "XSSG", "🇨🇭HE" ]
+				},
+				{
+					"stations": [ "RSCF", "XSZH" ]
+				},
+				{
+					"stations": [ "XSZH", "XSOL" ]
+				},
+				{
+					"stations": [ "XSBL", "XSDE" ]
+				},
+				{
+					"stations": [ "XSOL", "XSLT", "XSBL" ]
+				},
+				{
+					"stations": [ "XSBL", "XSBE", "XSSP", "XSIO" ]
+				},
+				{
+					"stations": [ "XSOL", "XSLT", "XSHZ", "XSBE" ]
+				},
+				{
+					"stations": [ "XSBE", "XSLA" ]
+				},
+				{
+					"stations": [ "XSLA", "XSNC", "XSBL" ]
+				}				
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "InterRegio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre ohne Verspätungen durch die Schweiz."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }				
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "XSAI", "XSEF", "XSADF", "XSSY", "XSAG", "XSZU", "XSTW", "XSZH" ]
+				},
+				{
+					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "XSAI", "XSEF", "XSADF", "XSSY", "XSAG", "XSIM", "XSLU", "XSSUS", "XSN", "XSZG", "XSOL", "XSSC", "XSB" ]
+				},
+				{
+					"stations": [ "XSBE", "XSLT", "XSZG", "XSOL", "XSA", "XSLB", "XSKS", "XSDI", "XSZH", "XSTW", "XSWW", "XSPF", "XSZB", "XSWA", "XSSR", "XSLQ", "XSC" ]
+				},
+				{
+					"stations": [ "XSB", "XSSC", "XSOL", "XSA", "XSLB", "XSKS", "XSDI", "XSZH" ]
+				},
+				{
+					"stations": [ "XSBG", "XSVI", "XSLE", "XSSI", "XSSN", "XSMA", "XSAL", "XSMO", "🇨🇭VV", "XSLA", "XSMG", "🇨🇭GLA", "🇨🇭NY", "XSGE" ]
+				}				
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"name": "Thurbo von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSSR", "XSC" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S2 der Stadtbahn Zug von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSZU", "XSAG", "XSSY", "XSEF" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S10 der S-Bahn Tessin von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSAI", "XSBC", "XSBZ", "XSL", "XSCH" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S9 der S-Bahn Zürich von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "RSCF", "XSZH" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S2 der S-Bahn Basel von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSDE", "XSB", "XSOL" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "Regionalbahn von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Verbinde die Orte im Grenzgebiet zwischen Deutschland und der Schweiz."
+			],
+			"stations": [ "XSB", "RWU", "RSCF", "RSI", "RRZ", "TAU", "TU" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "InterCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch den Jura."
+			],
+			"stations": [ "XSB", "XSDE", "XSGRN", "XSBL" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
+			],
+			"group": 1
 		}		
 	]
 }
