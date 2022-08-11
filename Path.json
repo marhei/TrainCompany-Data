@@ -29467,7 +29467,7 @@
 			"electrified": false
 		},
 		{
-			"group": 1,
+			"group": 0,
 			"neededEquipments": [
 				"1520mm"
 			],
@@ -29651,7 +29651,7 @@
 			"electrified": false,
 			"maxSpeed": 120,
 			"twistingFactor": 0.2,
-			"group": 1,
+			"group": 0,
 			"objects": [
 				{
 					"start": "LTRAD",
@@ -29697,7 +29697,18 @@
 					"start": "LTPLM",
 					"end": "LTKUN",
 					"length": 8
-				},
+				}
+			]
+		},
+		{
+		"neededEquipments": [
+			"LT"
+		],
+		"electrified": false,
+		"maxSpeed": 120,
+		"twistingFactor": 0.2,
+		"group": 0,
+		"objects": [
 				{
 					"start": "LTKUN",
 					"end": "LTMAR",
@@ -29752,6 +29763,136 @@
 					"start": "LTMCG",
 					"end": "PLLTGRENZE",
 					"length": 10
+				},
+				{
+					"start": "PLLTGRENZE",
+					"end": "PLTRA",
+					"length": 2,
+					"neededEquipments": [ 
+						"PL"
+					]
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"PL"
+			],
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "PLTRA",
+					"end": "PLSUW",
+					"length": 21
+				},
+				{
+					"start": "PLSUW",
+					"end": "PLOLC",
+					"length": 29
+				},
+				{
+					"start": "PLOLC",
+					"end": "PLELK",
+					"length": 27
+				},
+				{
+					"start": "PLELK",
+					"end": "PLLIE",
+					"length": 10,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLLIE",
+					"end": "PLGRA",
+					"length": 11,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLGRA",
+					"end": "PLRDA",
+					"length": 8,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLRDA",
+					"end": "PLPDL",
+					"length": 3,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLPDL",
+					"end": "PLOSW",
+					"length": 13,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLOSW",
+					"end": "PLGNZ",
+					"length": 5,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLGNZ",
+					"end": "PLMNK",
+					"length": 9,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLMNK",
+					"end": "PLCZO",
+					"length": 6,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLCZO",
+					"end": "PLZST",
+					"length": 5,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLZST",
+					"end": "PLKNY",
+					"length": 4,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLKNY",
+					"end": "PLBRS",
+					"length": 7,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLBRS",
+					"end": "PLDDE",
+					"length": 6,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLDDE",
+					"end": "PLFSY",
+					"length": 3,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLFSY",
+					"end": "PLBBK",
+					"length": 4,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLBBK",
+					"end": "PLBST",
+					"length": 4,
+					"name": "Bahnstrecke Ełk - Białystok"
+				},
+				{
+					"start": "PLBST",
+					"end": "PLBLK",
+					"length": 4,
+					"name": "Bahnstrecke Ełk - Białystok"
 				}
 			]
 		},
