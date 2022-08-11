@@ -6080,6 +6080,100 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		}
+		},
+		{
+			"group": 1,
+			"name": "EuroCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen EuroCity über den Brenner von %s nach %s.",
+				"Verbinde Deutschland mit Italien."
+			],
+			"stations": [ "XIVNS", "XIVP", "XIBZ", "XIBN", "XAI", "MH" ],
+			"pathSuggestion": [ "XIVNS", "XIVP", "XIBZ", "XIFF", "XIBN", "🇦🇹I Z1", "XAI", "MH" ],			
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "InterCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen EuroCity über den Brenner von %s nach %s.",
+				"Verbinde Deutschland mit Italien."
+			],
+			"stations": [ "XAVH", "XASP", "XABO", "XASB", "XAAT", "XAWE", "XAL", "XAP", "XAWW" ],
+			"pathSuggestion": [ "XAVH", "XASP", "XASW", "XABO", "XASB", "XASF", "XAAT", "XAWE", "XAL", "XAP", "XAWW" ],			
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"name": "REX von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe diesen Regional-Express von %s nach %s.",
+				"Fahre ohne Verspätungen durch Österreich.",
+				"Fahre im Auftrag der ÖBB von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XAWW", "XAHH" ]
+				},
+				{
+					"stations": [ "XAWW", "XAP", "XAAS" ]
+				},
+				{
+					"stations": [ "XAAS", "XASV", "XAL" ]
+				},
+				{
+					"stations": [ "NPA", "XAWE", "XAL" ]
+				},
+				{
+					"stations": [ "XAVH", "XASP" ]
+				},
+				{
+					"stations": [ "XASP", "XABO" ]
+				},
+				{
+					"stations": [ "XASB", "XABO", "XAZ", "XASA", "XAKI", "XAWL" ]
+				},
+				{
+					"stations": [ "XABR", "XASF", "XASB", "MFL" ]
+				},
+				{
+					"stations": [ "MSBI", "XABR", "XARI", "XANK", "XAWE" ]
+				},
+				{
+					"stations": [ "XASH", "XARI", "XAAT" ]
+				},
+				{
+					"stations": [ "XAWL", "XAI" ]
+				},
+				{
+					"stations": [ "XAI", "XIBN" ]
+				},
+				{
+					"stations": [ "XAI", "MGP" ]
+				},
+				{
+					"stations": [ "XAI", "XABL" ]
+				},
+				{
+					"stations": [ "XABL", "XAFK", "XAB", "MLIR" ]
+				},
+				{
+					"stations": [ "XABL", "XAFK", "XSBU" ]
+				}				
+			],
+			"stopsEverywhere": true
+		}		
 	]
 }
