@@ -5949,49 +5949,6 @@
 			"stopsEverywhere": true
 		},
 		{
-			"name": "Spěšný vlak von %s nach %s",
-			"service": 2,
-			"descriptions": [
-				"Fahre diesen Eilzug von %s nach %s."
-			],
-			"neededCapacity": [
-				{ "name": "passengers" }
-			],
-			"group": 1,
-			"objects": [
-				{
-					"stations": [ "XTBR", "XTBE" ]
-				},
-				{
-					"stations": [ "XTBR", "XTBA", "XTSS", "XTLE", "XTSI", "XTTR" ]
-				},
-			],
-			"stopsEverywhere": false
-		},			
-		{
-			"name": "Rychlík von %s nach %s",
-			"service": 2,
-			"descriptions": [
-				"Fahre diesen langsamen Schnellzug von %s nach %s."
-			],
-			"neededCapacity": [
-				{ "name": "passengers" }
-			],
-			"group": 1,
-			"objects": [
-				{
-					"stations": [ "XTP", "XTKR", "XTRN", "XTLO", "XTU", "XTD" ]
-				},
-				{
-					"stations": [ "XTP", "XTBU", "XTZI", "XTRO", "🇨🇿5473275" ]
-				},
-				{
-					"stations": [ "XTP", "XTKI", "XTPAR", "XTCE", "XTTR" ]
-				}				
-			],
-			"stopsEverywhere": false
-		},
-		{
 			"group": 1,
 			"name": "Railjet von %s nach %s",
 			"service": 1,
