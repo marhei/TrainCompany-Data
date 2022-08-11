@@ -5539,7 +5539,7 @@
 		},
 		{
 			"name": "Regionalzug von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Bringe diesen Regionalzug von %s nach %s.",
 				"Fahre ohne Verspätungen durch Großbritannien."
@@ -5587,6 +5587,74 @@
 				}					
 			],
 			"stopsEverywhere": true
+		},
+		{
+			"name": "TER-GV von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre pünktlich auf der Schnellfahrstrecke von %s nach %s.",
+				"Binde die an der französischen Nordküste liegenden Städte an Lille an."
+			],
+			"stations": [ "XFLIE", "XFFE", "🇫🇷BEM", "🇫🇷ETA", "🇫🇷RDF" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "Transilien von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe diesen Vorortzug von %s nach %s.",
+				"Verbinde Paris mit ihren Vororten."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XFPO", "XFCR" ]
+				},
+				{
+					"stations": [ "XFPO", "🇫🇷VCR", "🇫🇷RBT" ]
+				},
+				{
+					"stations": [ "XFPO", "XFMEL" ]
+				},
+				{
+					"stations": [ "XFPO", "XFMEA", "🇫🇷NAA", "XFCT" ]
+				}				
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "RER A von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe diesen Vorortzug von %s nach %s.",
+				"Diese Linie dient hauptsächlich dem Pendelverkehr sowie Besuchen des nahegelegenen Freizeitparks."
+			],
+			"stations": [ "XFPO", "XFVAR", "XFMVC" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "RER C von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Bringe diesen Vorortzug von %s nach %s."
+			],
+			"stations": [ "XFPO", "XFETP" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
 		}		
 	]
 }
