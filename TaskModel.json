@@ -5681,9 +5681,6 @@
 					"stations": [ "XFPO", "🇫🇷VCR", "🇫🇷CHH", "XFLM" ]
 				},
 				{
-					"stations": [ "XFLM", "XFLAL" ]
-				},
-				{
 					"stations": [ "XFLM", "XFASL", "XFNA" ]
 				},
 				{
@@ -5718,9 +5715,6 @@
 				},
 				{
 					"stations": [ "XFLPD", "XFAE", "XFCZ", "XFAI", "XFMOD" ]
-				},
-				{
-					"stations": [ "XFB", "XFBTV" ]
 				},
 				{
 					"stations": [ "XFPO", "XFMEL", "🇫🇷SES", "🇫🇷SIF", "🇫🇷PAI", "XFD" ]
@@ -5760,6 +5754,27 @@
 				}				
 			],
 			"stopsEverywhere": true
-		},		
+		},
+		{
+			"name": "TER von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen TER von %s nach %s.",
+				"Fahre als Zubringer von und zum TGV-Bahnhof von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XFLM", "XFLAL" ]
+				},
+				{
+					"stations": [ "XFB", "XFBTV" ]
+				}				
+			],
+			"stopsEverywhere": true
+		}		
 	]
 }
