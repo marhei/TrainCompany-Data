@@ -5885,6 +5885,27 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"name": "Regio von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Nahverkehrszug von %s nach %s.",
+				"Fahre durch Polen und halte dabei an allen Stationen."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "🇵🇱25809", "🇵🇱26104" ]
+				},
+				{
+					"stations": [ "🇵🇱26104", "🇵🇱30601" ]
+				}				
+			],
+			"stopsEverywhere": true
 		}		
 	]
 }
