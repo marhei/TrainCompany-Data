@@ -20511,6 +20511,65 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 130,
+			"twistingFactor": 0.1,
+			"name": "Brabantse Lijn",
+			"objects": [
+				{
+					"start": "🇳🇱Tb",
+					"end": "🇳🇱Ht",
+					"length": 23
+				},
+				{
+					"start": "🇳🇱Ht",
+					"end": "🇳🇱Hto",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Hto",
+					"end": "🇳🇱Rs",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Rs",
+					"end": "🇳🇱Ow",
+					"length": 11
+				},
+				{
+					"start": "🇳🇱Ow",
+					"end": "🇳🇱O",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱O",
+					"end": "🇳🇱Rvs",
+					"length": 8
+				},
+				{
+					"start": "🇳🇱Rvs",
+					"end": "🇳🇱Wc",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Wc",
+					"end": "🇳🇱Nmd",
+					"length": 6
+				},
+				{
+					"start": "🇳🇱Nmd",
+					"end": "🇳🇱Nmgo",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Nmgo",
+					"end": "🇳🇱Nm",
+					"length": 3
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"maxSpeed": 120,
 			"twistingFactor": 0.1,
 			"objects": [
