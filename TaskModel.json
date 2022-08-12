@@ -5173,7 +5173,11 @@
 			"descriptions": [
 				"Fahre durch Bulgarien und halte dabei an allen Stationen."
 			],
-			"stations": [ "XWPL", "🇧🇬16043", "XWSP", "XWS" ],
+			"objects": [
+				{			
+			"stations": [ "XWPL", "🇧🇬16043", "XWSP", "XWS" ]
+				}				
+			],					
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -5200,7 +5204,7 @@
 				},
 				{
 					"stations": [ "XJBC", "XJSP", "XJST" ]
-				}
+				}				
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -5298,7 +5302,10 @@
 				},
 				{
 					"stations": [ "XMBK", "XMBOS", "XMBA", "XMTB", "XMTA", "XMKO", "XMG", "XMMO", "XMHY" ]
-				}
+				},
+				{
+					"stations": [ "XMBK", "XMV", "XMSB" ]
+				}			
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -5699,7 +5706,8 @@
 					"stations": [ "XFNA", "🇫🇷SNA" ]
 				},
 				{
-					"stations": [ "XFLM", "🇫🇷SLG", "XFLAL", "XFVTE", "XFR" ]
+					"stations": [ "XFLM", "🇫🇷SLG", "XFLAL", "XFVTE", "XFR" ],
+					"pathSuggestion": [ "XFLM", "🇫🇷CIE", "🇫🇷SLG", "🇫🇷EVN", "🇫🇷NEA", "XFLAL", "🇫🇷PTT", "XFVTE", "🇫🇷CTG", "XFR" ]
 				},
 				{
 					"stations": [ "XFNA", "XFASL", "XFSUD", "🇫🇷TO" ]
@@ -5787,6 +5795,614 @@
 				}
 			],
 			"stopsEverywhere": true
-		}
+		},
+		{
+			"name": "Frecciarossa von %s nach %s",
+			"descriptions": [
+				"Bringe den Frecciarossa von %s nach %s.",
+				"Bringe diese Hochgeschwindigkeitsleistung durch Norditalien.",
+				"Fahre über die SFS von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "XIT", "XICER", "🇮🇹03202", "XIVNS", "XIVP", "XIBCA", "XIMB", "XITU" ],
+					"pathSuggestion": [ "XIT", "🇮🇹03313", "XICER", "🇮🇹03202", "XIVNS", "XIVP", "XIBCA", "XIMB", "XIR", "XITU" ]
+				}
+			]
+		},
+		{
+			"name": "InterCity von %s nach %s",
+			"descriptions": [
+				"Bringe diesen InterCity von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"stations": [ "XIVT", "XITG", "XIIO", "XIAO", "XISAV", "XIGP", "XIVOG", "XIPVI", "XIMB" ],
+					"pathSuggestion": [ "XIVT", "XITG", "XIIO", "XIAO", "XISAV", "XIGP", "XIAQ", "XITOR", "XIVOG", "XIPVI", "XIMB" ]
+				}
+			]
+		},
+		{
+			"name": "Regionale von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s.",
+				"Fahre durch Italien und halte dabei an allen Stationen."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XIVT", "XITG", "XIIO", "XISAV", "XIGP" ]
+				},
+				{
+					"stations": [ "XIGP", "XIAS", "XIAST", "XITU" ]
+				},
+				{
+					"stations": [ "XIGP", "XITOR", "XIVOG", "XIMB" ]
+				},
+				{
+					"stations": [ "XIMB", "XIVOG", "XITOR", "XIAS", "XIAST", "XITU" ]
+				},
+				{
+					"stations": [ "XID", "XIR", "XIMB" ]
+				},
+				{
+					"stations": [ "XIMB", "XIMOZ", "XSCH", "XSL", "XSBZ", "XSLC" ]
+				},
+				{
+					"stations": [ "XIMB", "🇮🇹01708", "🇮🇹01711", "XIBCA", "XILN", "XIVP" ]
+				},
+				{
+					"stations": [ "XIVP", "XIPP", "XIVNS" ]
+				},
+				{
+					"stations": [ "XIBZ", "XITR", "XIVP", "XIPP", "XIVNS" ]
+				},
+				{
+					"stations": [ "XIBZ", "XIFF", "XIBN" ]
+				}				
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Metropolitano von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre diese Verbindung des Turiner Vorortbahnnetzes von %s nach %s."
+			],
+			"stations": [ "XITU", "🇮🇹00202" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Metropolitano von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre diese Verbindung des Mailänder Vorortbahnnetzes von %s nach %s."
+			],
+			"stations": [ "XIMB", "XIMOZ", "XSCH" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"name": "Regio von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Nahverkehrszug von %s nach %s.",
+				"Fahre durch Polen und halte dabei an allen Stationen."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "🇵🇱25809", "🇵🇱26104" ]
+				},
+				{
+					"stations": [ "🇵🇱26104", "🇵🇱30601" ]
+				}				
+			],
+			"stopsEverywhere": true
+		},	
+		{
+			"group": 1,
+			"name": "Osobní vlak von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Nahverkehrszug von %s nach %s.",
+				"Fahre diese grenzüberschreitende Verbindung von %s nach %s."
+			],
+			"stations": [ "DSA", "XTD" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},		
+		{
+			"name": "Osobní vlak von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Nahverkehrszug von %s nach %s.",
+				"Fahre durch Tschechien und halte dabei an allen Stationen."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XTPAR", "XTTR" ]
+				},
+				{
+					"stations": [ "XTPAR", "XTKI", "XTP" ]
+				},
+				{
+					"stations": [ "XTTR", "XTBR" ]
+				},
+				{
+					"stations": [ "🇨🇿5473515", "🇨🇿5473275" ]
+				}				
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Spěšný vlak von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Eilzug von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XTBR", "XTBE" ]
+				},
+				{
+					"stations": [ "XTBR", "XTBA", "XTSS", "XTLE", "XTSI", "XTTR" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},	
+		{
+			"group": 1,
+			"name": "Rychlík von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen langsamen Schnellzug von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XTP", "XTKR", "XTRN", "XTLO", "XTU", "XTD" ]
+				},
+				{
+					"stations": [ "XTP", "XTBU", "XTZI", "XTRO", "🇨🇿5473275" ]
+				},				
+				{
+					"stations": [ "XTP", "XTKI", "XTPAR", "XTCE", "XTTR" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},		
+		{
+			"group": 1,
+			"name": "Railjet von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Railjet von %s nach %s."
+			],
+			"stations": [ "XAWW", "XTBE", "XTBR", "XTPAR", "XTP" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Intercity von %s nach %s.",
+				"Fahre durch Tschechien."
+			],
+			"stations": [ "XTBE", "XTBR", "XTTR", "XTPAR", "XTKI", "XTP" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "EuroCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen EuroCity von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XTP", "XTBR", "XTBE", "XYB" ]
+				},
+				{
+					"stations": [ "XTP", "XTBR", "XTBE", "XYB", "XYST", "XMBK" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RJX von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Railjet von %s nach %s."
+			],
+			"stations": [ "XYB", "XAWW", "XAL", "XASB", "XAWL", "XAI", "XALE", "XABL", "XAFK", "XSBU", "XSZH" ],
+			"pathSuggestion": [ "XYB", "XAWW", "XAL", "XAWE", "XAAT", "XASF", "XASB", "XASW", "XAWL", "🇦🇹Fw Z2", "XAI", "XALE", "XABL", "XAFK", "XSBU", "XSSR", "XSPF", "XSTW", "XSZH" ],			
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Osobní vlak von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Nahverkehrszug von %s nach %s.",
+				"Fahre durch die Slowakei und halte dabei an allen Stationen."
+			],
+			"stations": [ "XYB", "XYNZ", "XYST" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "REX von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regional-Express von %s nach %s.",
+				"Verbinde die Hauptstädte Österreichs und der Slowakei miteinander."
+			],
+			"stations": [ "XYB", "XAWW" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "EuroCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen EuroCity über den Brenner von %s nach %s.",
+				"Verbinde Deutschland mit Italien."
+			],
+			"stations": [ "XIVNS", "XIVP", "XIBZ", "XIBN", "XAI", "MH" ],
+			"pathSuggestion": [ "XIVNS", "XIVP", "XIBZ", "XIFF", "XIBN", "🇦🇹I Z1", "XAI", "MH" ],			
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "InterCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen EuroCity über den Brenner von %s nach %s.",
+				"Verbinde Deutschland mit Italien."
+			],
+			"stations": [ "XAVH", "XASP", "XABO", "XASB", "XAAT", "XAWE", "XAL", "XAP", "XAWW" ],
+			"pathSuggestion": [ "XAVH", "XASP", "XASW", "XABO", "XASB", "XASF", "XAAT", "XAWE", "XAL", "XAP", "XAWW" ],			
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"name": "REX von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe diesen Regional-Express von %s nach %s.",
+				"Fahre ohne Verspätungen durch Österreich.",
+				"Fahre im Auftrag der ÖBB von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XAWW", "XAHH" ]
+				},
+				{
+					"stations": [ "XAWW", "XAP", "XAAS" ]
+				},
+				{
+					"stations": [ "XAAS", "XASV", "XAL" ]
+				},
+				{
+					"stations": [ "NPA", "XAWE", "XAL" ]
+				},
+				{
+					"stations": [ "XAVH", "XASP" ]
+				},
+				{
+					"stations": [ "XASP", "XABO" ]
+				},
+				{
+					"stations": [ "XASB", "XABO", "XAZ", "XASA", "XAKI", "XAWL" ]
+				},
+				{
+					"stations": [ "XABR", "XASF", "XASB", "MFL" ]
+				},
+				{
+					"stations": [ "MSBI", "XABR", "XARI", "XANK", "XAWE" ]
+				},
+				{
+					"stations": [ "XASH", "XARI", "XAAT" ]
+				},
+				{
+					"stations": [ "XAWL", "XAI" ]
+				},
+				{
+					"stations": [ "XAI", "XIBN" ]
+				},
+				{
+					"stations": [ "XAI", "MGP" ]
+				},
+				{
+					"stations": [ "XAI", "XABL" ]
+				},
+				{
+					"stations": [ "XABL", "XAFK", "XAB", "MLIR" ]
+				},
+				{
+					"stations": [ "XABL", "XAFK", "XSBU" ]
+				}				
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "RegioExpress von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre ohne Verspätungen durch die Schweiz."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XSSG", "XSRS", "XSSM", "XSBU", "XSSR" ]
+				},
+				{
+					"stations": [ "XSOL", "XSZG", "XSLU", "XSAG" ]
+				},
+				{
+					"stations": [ "XSZH", "XSTW", "XSPF", "XSSR" ]
+				},
+				{
+					"stations": [ "RKO", "XSR", "XSSG", "🇨🇭HE" ]
+				},
+				{
+					"stations": [ "RSCF", "XSZH" ]
+				},
+				{
+					"stations": [ "XSZH", "XSOL" ]
+				},
+				{
+					"stations": [ "XSBL", "XSDE" ]
+				},
+				{
+					"stations": [ "XSOL", "XSLT", "XSBL" ]
+				},
+				{
+					"stations": [ "XSBL", "XSBE", "XSSP", "XSIO" ]
+				},
+				{
+					"stations": [ "XSOL", "XSLT", "XSHZ", "XSBE" ]
+				},
+				{
+					"stations": [ "XSBE", "XSLA" ]
+				},
+				{
+					"stations": [ "XSLA", "XSNC", "XSBL" ]
+				}				
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "InterRegio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre ohne Verspätungen durch die Schweiz."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }				
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "XSAI", "XSEF", "XSADF", "XSSY", "XSAG", "XSZU", "XSTW", "XSZH" ]
+				},
+				{
+					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "XSAI", "XSEF", "XSADF", "XSSY", "XSAG", "XSIM", "XSLU", "XSSUS", "XSN", "XSZG", "XSOL", "XSSC", "XSB" ]
+				},
+				{
+					"stations": [ "XSBE", "XSLT", "XSZG", "XSOL", "XSA", "XSLB", "XSKS", "XSDI", "XSZH", "XSTW", "XSWW", "XSPF", "XSZB", "XSWA", "XSSR", "XSLQ", "XSC" ]
+				},
+				{
+					"stations": [ "XSB", "XSSC", "XSOL", "XSA", "XSLB", "XSKS", "XSDI", "XSZH" ]
+				},
+				{
+					"stations": [ "XSBG", "XSVI", "XSLE", "XSSI", "XSSN", "XSMA", "XSAL", "XSMO", "🇨🇭VV", "XSLA", "XSMG", "🇨🇭GLA", "🇨🇭NY", "XSGE" ]
+				}				
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"name": "Thurbo von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSSR", "XSC" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S2 der Stadtbahn Zug von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSZU", "XSAG", "XSSY", "XSEF" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S10 der S-Bahn Tessin von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSAI", "XSBC", "XSBZ", "XSL", "XSCH" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S9 der S-Bahn Zürich von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "RSCF", "XSZH" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S2 der S-Bahn Basel von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSDE", "XSB", "XSOL" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "Regionalbahn von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Verbinde die Orte im Grenzgebiet zwischen Deutschland und der Schweiz."
+			],
+			"stations": [ "XSB", "RWU", "RSCF", "RSI", "RRZ", "TAU", "TU" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "InterCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch den Jura."
+			],
+			"stations": [ "XSB", "XSDE", "XSGRN", "XSBL" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
+			],
+			"group": 1
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der CFR diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Rumänien."
+			],
+			"objects": [
+				{
+					"stations": [ "XUA", "XUCU" ]
+				},
+				{
+					"stations": [ "XUBN", "XUGN" ]
+				},
+				{
+					"stations": [ "XUBN", "XUPV" ]
+				},
+				{
+					"stations": [ "XUPV", "🇷🇴30691" ]
+				},
+				{
+					"stations": [ "🇷🇴30691", "XUM" ]
+				},
+				{
+					"stations": [ "XUM", "XUAI", "XUD" ]
+				},
+				{
+					"stations": [ "XUD", "XUA" ]
+				}				
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		}		
 	]
 }
