@@ -1718,7 +1718,7 @@
 			"cost": 230000,
 			"maxConnectedUnits": 3,
 			"operationCosts": 95,
-			"equipments": ["BE"],
+			"equipments": ["BE", "MA"],
 			"exchangeTime": 80,
 			"capacity": [
 				{"name": "passengers", "value": 180}
@@ -2050,7 +2050,7 @@
 			"cost": 700000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 70,
-			"equipments": ["IT"],
+			"equipments": ["IT", "MA"],
 			"exchangeTime": 80,
 			"capacity": [
 				{"name": "passengers", "value": 469}
@@ -3312,7 +3312,7 @@
 			"cost": 370000,
 			"operationCosts": 105,
 			"equipments": ["FR", "CH", "ES" ]
-		},
+		},	
 		{
 			"id": 8737000,
 			"group": 0,
@@ -4209,6 +4209,35 @@
 			"equipments": ["TR"]
 		},
 		{
+			"id": 931250,
+			"group": 0,
+			"name": "ONCF E 1250",
+			"speed": 160,
+			"weight": 120,
+			"force": 152,
+			"length": 22,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 340000,
+			"operationCosts": 110,
+			"equipments": ["MA"]
+		},
+		{
+			"id": 931400,
+			"group": 0,
+			"name": "Alstom Prima II",
+			"shortcut": "ONCF BB 1400",
+			"speed": 160,
+			"weight": 90,
+			"force": 320,
+			"length": 19,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 520000,
+			"operationCosts": 95,
+			"equipments": ["MA"]
+		},		
+		{
 			"id": 5,
 			"group": 0,
 			"name": "BR 218",
@@ -4480,7 +4509,7 @@
 			"reliability": 0.80,
 			"cost": 270000,
 			"operationCosts": 150,
-			"equipments": ["FR"]
+			"equipments": ["FR", "MA"]
 		},
 		{
 			"id": 83445,
