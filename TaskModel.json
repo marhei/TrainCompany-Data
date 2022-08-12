@@ -6541,6 +6541,25 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Személyvonat von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der MÁV diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Ungarn."
+			],
+			"objects": [
+				{
+					"stations": [ "XMBK", "XMSN", "XMBS" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}		
 	]
 }
