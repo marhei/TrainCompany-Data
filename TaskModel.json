@@ -5156,16 +5156,7 @@
 			"objects": [
 				{			
 			"stations": [ "XWPL", "🇧🇬16043", "XWSP", "XWS" ]
-				},
-				{			
-			"stations": [ "XWBL", "XWS" ]
-				},
-				{			
-			"stations": [ "XWBL", "XWSN" ]
-				},
-				{			
-			"stations": [ "🇧🇬14000", "XWR" ]
-				}			
+				}		
 			],					
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -5193,9 +5184,6 @@
 				},
 				{
 					"stations": [ "XJBC", "XJSP", "XJST" ]
-				},
-				{
-					"stations": [ "XJNI", "XJPR" ]
 				}				
 			],
 			"stopsEverywhere": true,
@@ -6371,61 +6359,9 @@
 			"name": "Regio von %s nach %s",
 			"service": 2,
 			"descriptions": [
-				"Fahre im Auftrag der Makedonski Železnici diesen Regionalzug zwischen %s und %s.",
-				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
-				"Fahre mit diesen Regionalzug durch Nordmazedonien."
-			],
-			"objects": [
-				{
-					"stations": [ "ZAS", "XJTA" ]
-				},
-				{
-					"stations": [ "ZAS", "🇲🇰61601", "🇲🇰61708" ]
-				}				
-			],
-			"stopsEverywhere": true,
-			"neededCapacity": [
-				{ "name": "passengers" }
-			]
-		},
-		{
-			"group": 1,
-			"name": "Regional von %s nach %s",
-			"service": 2,
-			"descriptions": [
-				"Fahre von %s nach %s.",
-				"Fahre mit diesen Regionalzug durch Griechenland."
-			],
-			"objects": [
-				{
-					"stations": [ "XGA", "XGLV", "XGL" ]
-				},
-				{
-					"stations": [ "XGL", "XGK", "XGT" ]
-				},
-				{
-					"stations": [ "XGT", "XGKK", "XGPM" ]
-				},
-				{
-					"stations": [ "XGPM", "XGDM", "XGX", "XGAX" ]
-				},
-				{
-					"stations": [ "XGAX", "XGD" ]
-				}				
-			],
-			"stopsEverywhere": true,
-			"neededCapacity": [
-				{ "name": "passengers" }
-			]
-		},
-		{
-			"group": 1,
-			"name": "Regio von %s nach %s",
-			"service": 2,
-			"descriptions": [
 				"Fahre im Auftrag der CFR diesen Regionalzug zwischen %s und %s.",
 				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
-				"Fahre mit diesen Regionalzug durch umänien."
+				"Fahre mit diesen Regionalzug durch Rumänien."
 			],
 			"objects": [
 				{
