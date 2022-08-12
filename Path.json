@@ -11314,6 +11314,44 @@
 		},
 		{
 			"group": 1,
+			"electrified": true,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XNMT",
+					"end": "🇳🇱Mtr",
+					"neededEquipments": ["NL"],
+					"length": 1
+				},
+				{
+					"start": "🇳🇱Mtr",
+					"end": "🇳🇱Edn",
+					"neededEquipments": ["NL"],
+					"length": 8
+				},
+				{
+					"start": "🇳🇱Edn",
+					"end": "🇧🇪FVS",
+					"neededEquipments": ["NL","BE"],
+					"length": 4
+				},
+				{
+					"start": "🇧🇪FVS",
+					"end": "🇧🇪FBX",
+					"neededEquipments": ["BE"],
+					"length": 11
+				},
+				{
+					"start": "🇧🇪FBX",
+					"end": "XBLIG",
+					"neededEquipments": ["BE"],
+					"length": 6
+				}
+			]
+		},
+		{
+			"group": 1,
 			"electrified": false,
 			"maxSpeed": 100,
 			"twistingFactor": 0.2,
