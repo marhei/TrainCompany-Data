@@ -11314,6 +11314,44 @@
 		},
 		{
 			"group": 1,
+			"electrified": true,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XNMT",
+					"end": "🇳🇱Mtr",
+					"neededEquipments": ["NL"],
+					"length": 1
+				},
+				{
+					"start": "🇳🇱Mtr",
+					"end": "🇳🇱Edn",
+					"neededEquipments": ["NL"],
+					"length": 8
+				},
+				{
+					"start": "🇳🇱Edn",
+					"end": "🇧🇪FVS",
+					"neededEquipments": ["NL","BE"],
+					"length": 4
+				},
+				{
+					"start": "🇧🇪FVS",
+					"end": "🇧🇪FBX",
+					"neededEquipments": ["BE"],
+					"length": 11
+				},
+				{
+					"start": "🇧🇪FBX",
+					"end": "XBLIG",
+					"neededEquipments": ["BE"],
+					"length": 6
+				}
+			]
+		},
+		{
+			"group": 1,
 			"electrified": false,
 			"maxSpeed": 100,
 			"twistingFactor": 0.2,
@@ -11984,6 +12022,7 @@
 			"electrified": true,
 			"maxSpeed": 130,
 			"twistingFactor": 0.2,
+			"neededEquipments": ["NL"],
 			"objects": [
 				{
 					"start": "XNAC",
@@ -12012,6 +12051,7 @@
 			"electrified": true,
 			"maxSpeed": 100,
 			"twistingFactor": 0.25,
+			"neededEquipments": ["NL"],
 			"objects": [
 				{
 					"start": "🇳🇱Hlm",
@@ -12031,6 +12071,7 @@
 			"maxSpeed": 100,
 			"twistingFactor": 0.2,
 			"name": "Kennemerlijn",
+			"neededEquipments": ["NL"],
 			"objects": [
 				{
 					"start": "🇳🇱Hlm",
@@ -18664,6 +18705,29 @@
 					"length": 21,
 					"maxSpeed": 80,
 					"twistingFactor": 0.35
+				}
+			]
+		},
+		{
+			"maxSpeed": 30,
+			"group": 1,
+			"electrified": false,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "WBG",
+					"end": "WPUB",
+					"length": 10
+				},
+				{
+					"start": "WPUB",
+					"end": "WLAU",
+					"length": 3
+				},
+				{
+					"start": "WLAU",
+					"end": "WLAUM",
+					"length": 1
 				}
 			]
 		},
