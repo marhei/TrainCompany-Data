@@ -556,7 +556,8 @@
 					"pathSuggestion": [ "XFPO", "XFSVF", "🇫🇷RUX", "XFLIE", "XFFE", "XKAI", "XKEI", "XKLP" ]
 				},
 				{
-					"stations": [ "XNAC", "XBB", "XFLIE", "XKAI", "XKEI", "XKLP" ]
+					"stations": [ "XNAC", "XBB", "XFLIE", "XKAI", "XKEI", "XKLP" ],
+					"pathSuggestion": ["XNAC", "XBB", "XFLIE", "XFFE", "XKAI", "XKEI", "XKLP" ]
 				}
 			]
 		},
@@ -5500,20 +5501,12 @@
 				"Fahre entlang der West Coast Main Line von %s nach %s.",
 				"Fahrgäste von und nach Nordschottland müssen in einen Regionalzug umsteigen."
 			],
-			"objects": [
-				{
-					"stations": [ "XKLP", "🇬🇧CAR", "🇬🇧MTH", "🇬🇧GLC" ],
-					"pathSuggestion": [ "XKLP", "🇬🇧SOT", "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
-				},
-				{
-					"stations": [ "XKLP", "🇬🇧CAR", "🇬🇧EDB" ],
-					"pathSuggestion": [ "XKLP", "🇬🇧SOT", "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧EDB" ]
-				}
-			],
+			"stations": [ "XKLP", "🇬🇧CAR", "🇬🇧MTH", "🇬🇧GLC" ],
+			"pathSuggestion": [ "XKLP", "🇬🇧SOT", "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧MTH", "🇬🇧GLC" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "beds" },
-				{ "name": "bistroseats" }				
+				{ "name": "bistroseats" }
 			],
 			"group": 1,
 			"service": 1
@@ -5575,7 +5568,7 @@
 					"stations": [ "🇬🇧SOT", "🇬🇧MAN" ]
 				},
 				{
-					"stations": [ "🇬🇧MAN", "🇬🇧BON", "🇬🇧PNR", "🇬🇧MTH", "🇬🇧GLC" ]
+					"stations": [ "🇬🇧MAN", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
 				},
 				{
 					"stations": [ "XKLP", "🇬🇧PBO" ]
@@ -5590,8 +5583,8 @@
 					"stations": [ "🇬🇧NCL", "🇬🇧EDB" ]
 				},
 				{
-					"stations": [ "🇬🇧EDB", "🇬🇧MTH", "🇬🇧GLC" ]
-				}					
+					"stations": [ "🇬🇧EDB", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
+				}
 			],
 			"stopsEverywhere": true
 		},
@@ -5632,7 +5625,7 @@
 				},
 				{
 					"stations": [ "XFPO", "XFMEA", "🇫🇷NAA", "XFCT" ]
-				}				
+				}
 			],
 			"stopsEverywhere": true
 		},
@@ -5685,10 +5678,10 @@
 					"stations": [ "XFLIE", "XFAS", "🇫🇷AMS", "XFCR", "XFPO" ]
 				},
 				{
-					"stations": [ "XFPO", "🇫🇷VCR", "🇫🇷CHH", "XFLM" ]
+					"stations": [ "XFPO", "🇫🇷VCR", "🇫🇷CHH", "XFCOB", "XFLM" ]
 				},
 				{
-					"stations": [ "XFLM", "XFASL", "XFNA" ]
+					"stations": [ "XFLM", "🇫🇷SAB", "XFASL", "XFNA" ]
 				},
 				{
 					"stations": [ "XFNA", "🇫🇷SNA" ]
@@ -5712,13 +5705,13 @@
 					"stations": [ "XFTM", "XFCN", "XFNB" ]
 				},
 				{
-					"stations": [ "XFPE", "XFNB", "XFBZ", "XFSE", "🇫🇷FRN", "XFLUN", "🇫🇷NMS", "🇫🇷NPG", "XFARL", "XFMI", "XFM" ]
+					"stations": [ "XFPE", "XFNB", "XFBZ", "XFSE", "🇫🇷VLM", "XFLUN", "🇫🇷NMS", "🇫🇷NPG", "XFARL", "XFMI", "XFM" ]
 				},
 				{
 					"stations": [ "XFM", "XFMI", "XFARL", "XFAVV" ]
 				},
 				{
-					"stations": [ "XFAVV", "XFOR", "XFMN", "XFVCV", "XFVI", "XFLPD" ]
+					"stations": [ "XFAVV", "🇫🇷BDR", "XFOR", "🇫🇷BLN", "🇫🇷PRL", "XFMN", "XFVCV", "🇫🇷TAI", "XFVI", "XFLPD" ]
 				},
 				{
 					"stations": [ "XFLPD", "XFAE", "XFCZ", "XFAI", "XFMOD" ]
@@ -5745,7 +5738,7 @@
 					"stations": [ "XFCM", "XFBD", "XFLE", "XFTU", "XFFD", "XFN" ]
 				},
 				{
-					"stations": [ "SSH", "XFMZV" ]
+					"stations": [ "SSH", "🇫🇷BDC", "XFMZV" ]
 				},
 				{
 					"stations": [ "XFMZV", "XFPS", "XFO", "XFLE", "XFBD" ]
@@ -5758,7 +5751,7 @@
 				},
 				{
 					"stations": [ "XFCA", "XFNC", "XFMC", "XIVT" ]
-				}				
+				}
 			],
 			"stopsEverywhere": true
 		},
@@ -5779,9 +5772,9 @@
 				},
 				{
 					"stations": [ "XFB", "XFBTV" ]
-				}				
+				}
 			],
 			"stopsEverywhere": true
-		}		
+		}
 	]
 }
