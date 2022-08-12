@@ -1,0 +1,81 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Trassenfinder importieren",
+			"type": "shell",
+			"command": "import_trassenfinder.py",
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			},
+			"args": ["--annotate", "${file}"]
+		},
+		{
+			"label": "Haltestellen-Liste exportieren",
+			"type": "shell",
+			"command": "export_station_list.py",
+			"presentation": {
+				"reveal": "silent",
+				"panel": "new"
+			},
+			"args": ["${input:country}"]
+		},
+		{
+			"label": "Annotationen entfernen",
+			"type": "shell",
+			"presentation": {
+				"reveal": "silent",
+				"panel": "new"
+			},
+			"command": "cleanup.py"
+		},
+		{
+			"label": "Map rendern",
+			"type": "shell",
+			"presentation": {
+				"reveal": "silent",
+				"panel": "new"
+			},
+			"command": "plot.py"
+		}
+	],
+	"inputs": [
+		{
+			"id": "country",
+			"description": "Land (Kürzel):",
+			"type": "pickString",
+			"options": [
+				"AT",
+				"BA",
+				"BE",
+				"BG",
+				"CH",
+				"CZ",
+				"DK",
+				"ES",
+				"FI",
+				"FR",
+				"GB",
+				"GR",
+				"HU",
+				"IT",
+				"LU",
+				"NL",
+				"NO",
+				"PL",
+				"PT",
+				"RO",
+				"RS",
+				"RU",
+				"SE",
+				"SI",
+				"SK",
+				"TR"
+			]
+		}
+	]
+}

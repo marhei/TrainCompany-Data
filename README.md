@@ -1,5 +1,11 @@
+[![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/marhei/TrainCompany-Data) [![Contribute with Gitpod](https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/marhei/TrainCompany-Data)
+
+![Lint](https://github.com/marhei/Traincompany-Data/actions/workflows/eclint.yml/badge.svg) ![Validation](https://github.com/marhei/Traincompany-Data/actions/workflows/json_validate.yml/badge.svg) ![Check JSON content](https://github.com/marhei/Traincompany-Data/actions/workflows/check_content.yml/badge.svg) 
+
 # TrainCompany Daten
-In diesem Repository finden sich die Daten, die von TrainCompany genutzt werden. Die Daten sind in JSON-Dateien gespeichert, die ein data-Objekt beinhalten. Um ähnliche Objekte zusammenzufassen gibt es einfache Vererbung: **"objects": []** führt dazu, dass alle Objekte, die zwischen den [] eingefügt werden automatische die Eigenschaften des Mutter-Objekts erhalten, wenn diese nicht überschrieben wurden
+In diesem Repository finden sich die Daten, die von TrainCompany genutzt werden. Die Daten sind in JSON-Dateien gespeichert, die ein data-Objekt beinhalten. Um ähnliche Objekte zusammenzufassen gibt es einfache Vererbung: **"objects": []** führt dazu, dass alle Objekte, die zwischen den [] eingefügt werden automatische die Eigenschaften des Mutter-Objekts erhalten, wenn diese nicht überschrieben wurden.
+
+Eine Anleitung zum Erstellen neuer Erweiterungen usw. findet sich in [`Contributing.md`](CONTRIBUTING.md)
 
 ## Train.json
 Fahrzeuge, die in TC zur Verfügung stehen

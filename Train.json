@@ -1321,6 +1321,44 @@
 			]
 		},
 		{
+			"id": 232,
+			"group": 2,
+			"name": "Stadler Citylink D/E",
+			"shortcut": "Citylink",
+			"speed": 100,
+			"weight": 68,
+			"force": 39,
+			"length": 37,
+			"drive": 4,
+			"reliability": 1,
+			"cost": 500000,
+			"operationCosts": 75,
+			"maxConnectedUnits": 2,
+			"equipments": [ "bostrab", "DE", "HU" ],
+			"capacity": [
+				{"name": "passengers", "value": 87}
+			]
+		},
+		{
+			"id": 233,
+			"group": 2,
+			"name": "Stadler Citylink E/E",
+			"shortcut": "Citylink",
+			"speed": 100,
+			"weight": 68,
+			"force": 58,
+			"length": 37,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 500000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 4,
+			"equipments": [ "bostrab", "DE", "GB", "AT" ],
+			"capacity": [
+				{"name": "passengers", "value": 96}
+			]
+		},
+		{
 			"id": 303,
 			"group": 2,
 			"name": "Crusalis Contessa",
@@ -3477,7 +3515,7 @@
 			"reliability": 0.95,
 			"cost": 380000,
 			"operationCosts": 78,
-			"equipments": [ "ETCS", "NL", "DE", "ES" ]
+			"equipments": [ "1435mm", "1668mm", "ETCS", "NL", "DE", "ES" ]
 		},
 		{
 			"id": 6,
@@ -4234,6 +4272,20 @@
 			"operationCosts": 130
 		},
 		{
+			"id": 80210,
+			"group": 0,
+			"name": "BR 210",
+			"speed": 160,
+			"weight": 82,
+			"force": 235,
+			"length": 16,
+			"drive": 2,
+			"reliability": 0.85,
+			"cost": 250000,
+			"operationCosts": 150,
+			"equipments": ["DE", "CH"]
+		},
+		{
 			"id": 20,
 			"group": 0,
 			"name": "BR 232",
@@ -4360,13 +4412,14 @@
 			"drive": 2,
 			"reliability": 0.8,
 			"cost": 150000,
-			"operationCosts": 140,
-			"equipments": ["CH", "DE", "BA"]
+			"operationCosts": 110,
+			"equipments": ["CH", "DE", "BA", "AT", "NO", "FR", "IT", "BG", "TR"]
 		},
 		{
-			"id": 80210,
+			"id": 80202,
 			"group": 0,
-			"name": "BR 210",
+			"name": "BR 202 / DR 112",
+			"shortcut": "DR 112",
 			"speed": 100,
 			"weight": 64,
 			"force": 227,
@@ -4374,8 +4427,8 @@
 			"drive": 2,
 			"reliability": 0.9,
 			"cost": 140000,
-			"operationCosts": 140,
-			"equipments": ["DE", "BE", "NL"]
+			"operationCosts": 110,
+			"equipments": ["DE", "BE", "NL", "BG", "IT", "LU", "AT", "CH", "RO", "CZ", "SK", "HU", "RS"]
 		},
 		{
 			"id": 75101,
@@ -4721,13 +4774,14 @@
 			"id": 7038,
 			"group": 0,
 			"name": "BR-Baureihe 37",
+			"shortcut": "Class 37",
 			"speed": 120,
 			"weight": 114,
 			"force": 247,
 			"length": 21,
 			"drive": 2,
 			"reliability": 0.8,
-			"cost": 2200000,
+			"cost": 220000,
 			"operationCosts": 150,
 			"equipments": ["GB"]
 		},
@@ -4855,6 +4909,57 @@
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 88}
+			]
+		},
+		{
+			"id": 8071217,
+			"group": 1,
+			"name": "zweiachsiger Reko-Wagen",
+			"shortcut": "Baag",
+			"speed": 90,
+			"weight": 17,
+			"force": 0,
+			"length": 13,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 60000,
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 48 }
+			]
+		},
+		{
+			"id": 80152019,
+			"group": 1,
+			"name": "dreiachsiger Reko-Wagen",
+			"shortcut": "Bag",
+			"speed": 90,
+			"weight": 19,
+			"force": 0,
+			"length": 13,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 65000,
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 48 }
+			]
+		},
+		{
+			"id": 80303129,
+			"group": 1,
+			"name": "vierachsiger Reko-Wagen",
+			"shortcut": "Bghw",
+			"speed": 120,
+			"weight": 29,
+			"force": 0,
+			"length": 19,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 80000,
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 64 }
 			]
 		},
 		{
@@ -5059,7 +5164,7 @@
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "bistroseats", "value": 16},
-				{"name": "passengers", "value": 40}
+				{"name": "passengers", "value": 60}
 			]
 		},
 		{
@@ -5076,7 +5181,8 @@
 			"cost": 260000,
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "bistroseats", "value": 26}
+				{"name": "bistroseats", "value": 32},
+				{"name": "passengers", "value": 13}
 			]
 		},
 		{
