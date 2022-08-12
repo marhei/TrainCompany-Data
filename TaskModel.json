@@ -6604,6 +6604,35 @@
 				{ "name": "passengers" }
 			],
 			"group": 1
-		}			
+		},
+		{
+			"group": 1,
+			"name": "Nacht-Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die Fahrgäste von %s nach %s.",
+				"Verbinde Serbien, Nordmazedonien und Griechenland miteinander."
+			],
+			"stations": [ "XJBC", "XJNI", "XJPR", "XJTA", "ZAS", "XGI", "XGT" ],
+			"pathSuggestion": [ "XJBC", "XJNI", "XJPR", "XJTA", "ZAS", "XGI", "XGT" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			]
+		},
+		{
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch den Nordmazedonien."
+			],
+			"stations": [ "XAKU", "ZAS", "🇲🇰61601" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		}		
 	]
 }
