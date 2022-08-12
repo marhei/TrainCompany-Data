@@ -6411,6 +6411,352 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		}
+		},
+		{
+			"name": "Stoptrein von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch die Niederlande."
+			],
+			"objects": [
+				{
+					"stations": [ "XNAC", "🇳🇱Zvt" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Verbinde Belgien und Luxemburg."
+			],
+			"objects": [
+				{
+					"stations": [ "XBB", "XBOT", "XBNA", "XBAR", "XLL" ]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Železnice Srbije diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Serbien."
+			],
+			"objects": [
+				{
+					"stations": [ "XJPR", "XJNI" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Makedonski železnici diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Nordmazedonien."
+			],
+			"objects": [
+				{
+					"stations": [ "ZAS", "XJTA" ]
+				},
+				{
+					"stations": [ "ZAS", "🇲🇰61708" ]
+				}				
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regional von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Griechenland."
+			],
+			"objects": [
+				{
+					"stations": [ "XGA", "XGLV", "XGL" ]
+				},
+				{
+					"stations": [ "XGL", "XGT" ]
+				},
+				{
+					"stations": [ "XGPM", "XGT" ]
+				},
+				{
+					"stations": [ "XGPM", "XGAX" ]
+				},
+				{
+					"stations": [ "XGD", "XGAX" ]
+				}				
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Lokalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre durch Bulgarien und halte dabei an allen Stationen."
+			],
+			"objects": [
+				{
+			"stations": [ "XWBL", "XWS" ]
+				},
+				{
+			"stations": [ "XWBL", "XWSN" ]
+				},
+				{
+			"stations": [ "XWR", "🇧🇬14000" ]
+				}				
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Személyvonat von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der MÁV diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Ungarn."
+			],
+			"objects": [
+				{
+					"stations": [ "XMBK", "XMSN", "XMBS" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"name": "Intercity Express von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Verbinde die beiden größten Städte Griechenlands miteinander."
+			],
+			"stations": [ "XGA", "XGL", "XGT" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1
+		},
+		{
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch Griechenland."
+			],
+			"stations": [ "XGA", "XGIN", "XGLV", "XGPA", "XGL", "XGK", "XGT" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1
+		},
+		{
+			"name": "Express von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch den Norden Griechenlands."
+			],
+			"stations": [ "XGT", "XGKK", "XGR", "XGPM", "XGDM", "XGX", "XGAX" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"group": 1,
+			"name": "Nacht-Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die Fahrgäste von %s nach %s.",
+				"Verbinde Serbien, Nordmazedonien und Griechenland miteinander."
+			],
+			"stations": [ "XJBC", "XJNI", "XJPR", "XJTA", "ZAS", "XGI", "XGT" ],
+			"pathSuggestion": [ "XJBC", "XJNI", "XJPR", "XJTA", "ZAS", "XGI", "XGT" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			]
+		},
+		{
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch den Nordmazedonien."
+			],
+			"stations": [ "XAKU", "ZAS", "🇲🇰61601" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"group": 1,
+			"name": "Bosphorus Express von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die schlafenden Fahrgäste von %s nach %s."
+			],
+			"stations": [ "XQIS", "XQHA", "XQCK", "XQED", "🇧🇬14000", "XWR", "XUBN" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe diesen internationalen Schnellzug von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XWS", "XWPR", "XWRA", "XWDU", "XWBL", "XGT" ]
+				},
+				{
+					"stations": [ "XWS", "XWPL", "XWR", "XUBN" ]
+				}				
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe diesen Schnellzug von %s nach %s.",
+				"Fahre durch Bulgarien."
+			],
+			"objects": [
+				{
+					"stations": [ "XWS", "XWPL", "XWR" ]
+				},
+				{
+					"stations": [ "XWS", "XWPR", "XWBL" ]
+				}				
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Nacht-Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die schlafenden Fahrgäste von %s nach %s.",
+				"Verbinde Griechenland, Bulgarien und Rumänien miteinander."
+			],
+			"stations": [ "XUBN", "XUV", "XUGN", "XWR", "🇧🇬24000", "XWS", "XWPR", "XWRA", "XWDU", "XWBL", "XWSN", "XGT" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "EuroNight von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die schlafenden Fahrgäste von %s nach %s.",
+				"Verbinde Österreich, Ungarn und Rumänien miteinander."
+			],
+			"stations": [ "XUBN", "🇷🇴30691", "XMBS", "XMSN", "XMBK", "XMG", "XMHY", "XAWW" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" }				
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Intercity von %s nach %s.",
+				"Fahre durch Rumänien."
+			],
+			"stations": [ "XUBN", "XUPV", "🇷🇴30691", "XUM", "XUAI", "XUD", "XUA" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Intercity von %s nach %s.",
+				"Fahre durch den Osten Ungarns."
+			],
+			"stations": [ "XMBK", "XMSN", "XMBS" ],
+			"neededCapacity": [
+				{ "name": "passengers" }				
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen internationalen Intercity von %s nach %s.",
+				"Verbinde Ungarn und Rumänien miteinander."
+			],
+			"stations": [ "XMBK", "XMSN", "XMBS", "XUCU", "XUA", "XUBN" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
+			]
+		}			
 	]
 }
