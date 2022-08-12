@@ -286,7 +286,6 @@
 				{ "name": "passengers" }
 			]
 		},
-
 		{
 			"group": 1,
 			"name": "ICE International von %s nach %s",
@@ -542,7 +541,7 @@
 				},
 				{
 					"stations": [ "XNAC", "XBB", "XFLIE", "XKAI", "XKEI", "XKLP" ],
-					"pathSuggestion": ["XNAC", "XBB", "XFLIE", "XFFE", "XKAI", "XKEI", "XKLP" ]
+					"pathSuggestion": [ "XNAC", "XBB", "XFLIE", "XFFE", "XKAI", "XKEI", "XKLP" ]
 				}
 			]
 		},
@@ -802,6 +801,21 @@
 			"pathSuggestion": [ "XFR", "XFLAM", "XFSBC", "🇫🇷MXR", "🇫🇷LDI", "🇫🇷LDO", "XFBRT" ]
 		},
 		{
+			"name": "Bernina-Express von %s nach %s",
+			"descriptions": [
+				"Fahre durch die atemberaubende Berglandschaft der Ostschweiz von %s nach %s.",
+				"Fahre durch das Weltkulturerbe von %s nach %s.",
+				"Bringe die Fahrgäste von %s nach %s."
+			],
+			"stations": [ "XSC", "🇨🇭TICA", "XSFI", "XSBN", "🇨🇭OSBE", "🇨🇭ALGR", "🇨🇭POS", "🇨🇭TIR" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "XSC", "🇨🇭TICA", "XSFI", "XSBN", "🇨🇭OSBE", "🇨🇭ALGR", "🇨🇭POS", "🇨🇭TIR" ]
+		},
+		{
 			"name": "Venice-Simplon-Orient-Express von %s nach %s",
 			"descriptions": [
 				"Bringe die Gäste luxuriös durch die Alpen.",
@@ -864,7 +878,7 @@
 					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "🇫🇷MBA", "🇫🇷MLI", "XFD", "🇫🇷GLS", "🇨🇭COS", "XSLA", "🇨🇭VV", "XSMO", "XSGM", "XSVI", "XSBG", "XIR", "XIMB", "XIVP", "XIVNS", "🇮🇹03313", "XZL", "XRZ", "XRVI", "XJRU", "XJSP", "XJNP", "XJBC", "XJNI", "XWS", "XWSV", "🇧🇬14000", "XWSV", "XQED", "XQIS" ]
 				},
 				{
-					"stations": [ "XBO", "XBB", "XLL", "XFSTG", "XSB", "XIMB", "XIVNS", "XZL", "XRZ", "XRVI", "XJBC", "XJNI", "XWS", "XWSV", "XQED",  "XQIS" ],
+					"stations": [ "XBO", "XBB", "XLL", "XFSTG", "XSB", "XIMB", "XIVNS", "XZL", "XRZ", "XRVI", "XJBC", "XJNI", "XWS", "XWSV", "XQED", "XQIS" ],
 					"pathSuggestion": [ "XBO", "XBGP", "XBB", "XLL", "XFMZV", "XFPS", "XFFD", "XFDI", "XFMH", "XFVH", "XFSTG", "XFMV", "XSB", "XSOL", "XSZG", "XSAG", "XSADF", "XSBC", "XSBZ", "XIMB", "XIVP", "XIVNS", "🇮🇹03313", "XZL", "XRZ", "XRVI", "XJRU", "XJSP", "XJNP", "XJBC", "XJNI", "XWS", "XWSV", "🇧🇬14000", "XWSV", "XQED", "XQIS" ],
 					"descriptions": [
 						"Fahre auf den Spuren des legendären Orient-Express von %s nach %s.",
@@ -2345,8 +2359,12 @@
 					"name": "ČD Os 6684 von %s nach %s",
 					"stations": [ "XTRU", "XTVV", "XTMD", "DSEB" ]
 				},
-				{"stations": [ "XTRU", "XTVV", "XTMD", "DSEB", "DSA" ]},
-				{"stations": [ "XTRU", "XTVV", "XTMD", "DSEB", "DSA", "XTD" ]}
+				{
+					"stations": [ "XTRU", "XTVV", "XTMD", "DSEB", "DSA" ]
+				},
+				{
+					"stations": [ "XTRU", "XTVV", "XTMD", "DSEB", "DSA", "XTD" ]
+				}
 			],
 			"stopsEverwhere": true,
 			"neededCapacity": [
@@ -2363,8 +2381,12 @@
 				"Eibauer Schwarzbier und Wilthener Goldkrone sind hier zu Hause."
 			],
 			"objects": [
-				{"stations": [ "DH", "DBW", "DNKW", "DWT", "DEB", "DEIB", "DZ" ]},
-				{"pathSuggestion": [ "DH", "DAF", "DBW", "DNKW", "DWT", "DEB", "DEIB", "DZ" ]}
+				{
+					"stations": [ "DH", "DBW", "DNKW", "DWT", "DEB", "DEIB", "DZ" ]
+				},
+				{
+					"pathSuggestion": [ "DH", "DAF", "DBW", "DNKW", "DWT", "DEB", "DEIB", "DZ" ]
+				}
 			],
 			"stopsEverwhere": true,
 			"neededCapacity": [
@@ -2381,7 +2403,9 @@
 				"Dieser Regionalexpress hält nicht an jedem Kuhdorf."
 			],
 			"objects": [
-				{"stations": [ "DH", "DBW", "DWT", "DEB", "DZ" ]}
+				{
+					"stations": [ "DH", "DBW", "DWT", "DEB", "DZ" ]
+				}
 			],
 			"stopsEverwhere": false,
 			"neededCapacity": [
@@ -2400,7 +2424,9 @@
 				"Besuchen sie auch das Modelleisenbahnmusem im Sebnitzer TILLIG Werk."
 			],
 			"objects": [
-				{"stations": [ "DPI", "DRR", "DNE", "DSEB" ]}
+				{
+					"stations": [ "DPI", "DRR", "DNE", "DSEB" ]
+				}
 			],
 			"stopsEverwhere": true,
 			"neededCapacity": [
@@ -3962,10 +3988,10 @@
 					"stations": [ "SBA", "SSH", "PQRS", "PQHM", "SLCJ" ]
 				},
 				{
-					"stations": [ "SBA", "SSH", "PQRS"]
+					"stations": [ "SBA", "SSH", "PQRS" ]
 				},
 				{
-					"stations": [ "SBA", "SSH", "PQRS", "PQHM"]
+					"stations": [ "SBA", "SSH", "PQRS", "PQHM" ]
 				}
 			],
 			"neededCapacity": [
@@ -5179,7 +5205,7 @@
 			],
 			"objects": [
 				{
-			"stations": [ "XWPL", "🇧🇬16043", "XWSP", "XWS" ]
+					"stations": [ "XWPL", "🇧🇬16043", "XWSP", "XWS" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -6512,13 +6538,13 @@
 			],
 			"objects": [
 				{
-			"stations": [ "XWBL", "XWS" ]
+					"stations": [ "XWBL", "XWS" ]
 				},
 				{
-			"stations": [ "XWBL", "XWSN" ]
+					"stations": [ "XWBL", "XWSN" ]
 				},
 				{
-			"stations": [ "XWR", "🇧🇬14000" ]
+					"stations": [ "XWR", "🇧🇬14000" ]
 				}
 			],
 			"stopsEverywhere": true,

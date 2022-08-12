@@ -9933,6 +9933,147 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 1,
+			"twistingFactor": 0.3,
+			"name": "Albulabahn",
+			"neededEquipments": [
+				"CH",
+				"1000mm"
+			],
+			"objects": [
+				{
+					"start": "XSC",
+					"end": "🇨🇭REIT",
+					"length": 10,
+					"twistingFactor": 0.15,
+					"maxSpeed": 90
+				},
+				{
+					"start": "🇨🇭REIT",
+					"end": "🇨🇭ROTH",
+					"length": 9,
+					"maxSpeed": 60
+				},
+				{
+					"start": "🇨🇭ROTH",
+					"end": "XSTU",
+					"length": 8,
+					"maxSpeed": 90,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XSTU",
+					"end": "🇨🇭TICA",
+					"length": 13,
+					"maxSpeed": 60
+				},
+				{
+					"start": "🇨🇭TICA",
+					"end": "XSFI",
+					"length": 10,
+					"maxSpeed": 55
+				},
+				{
+					"start": "XSFI",
+					"end": "XSBN",
+					"length": 9,
+					"twistingFactor": 0.4,
+					"maxSpeed": 50
+				},
+				{
+					"start": "XSBN",
+					"end": "🇨🇭PRED",
+					"length": 13,
+					"twistingFactor": 0.7,
+					"maxSpeed": 50
+				},
+				{
+					"start": "🇨🇭PRED",
+					"end": "XSSD",
+					"length": 12,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XSSD",
+					"end": "XSMZ",
+					"length": 5,
+					"maxSpeed": 60
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"twistingFactor": 0.3,
+			"name": "Berninalinie",
+			"neededEquipments": [
+				"CH",
+				"1000mm"
+			],
+			"objects": [
+				{
+					"start": "XSMZ",
+					"end": "🇨🇭MOTA",
+					"length": 12,
+					"maxSpeed": 55
+				},
+				{
+					"start": "🇨🇭MOTA",
+					"end": "🇨🇭OSBE",
+					"length": 10,
+					"maxSpeed": 65
+				},
+				{
+					"start": "🇨🇭OSBE",
+					"end": "🇨🇭ALGR",
+					"length": 4,
+					"maxSpeed": 45
+				},
+				{
+					"start": "🇨🇭ALGR",
+					"end": "🇨🇭CAVA",
+					"length": 6,
+					"maxSpeed": 35,
+					"twistingFactor": 0.7
+				},
+				{
+					"start": "🇨🇭CAVA",
+					"end": "🇨🇭POS",
+					"length": 10,
+					"maxSpeed": 30,
+					"twistingFactor": 0.7
+				},
+				{
+					"start": "🇨🇭POS",
+					"end": "🇨🇭MIRA",
+					"length": 7,
+					"maxSpeed": 40,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇨🇭MIRA",
+					"end": "🇨🇭BRIO",
+					"length": 3,
+					"maxSpeed": 35,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇨🇭BRIO",
+					"end": "🇨🇭CAIO",
+					"length": 2,
+					"maxSpeed": 35
+				},
+				{
+					"start": "🇨🇭CAIO",
+					"end": "🇨🇭TIR",
+					"length": 4,
+					"maxSpeed": 30
+				}
+			]
+		},
+		{
 			"name": "Mangfalltalbahn",
 			"maxSpeed": 120,
 			"electrified": true,
@@ -11321,31 +11462,42 @@
 				{
 					"start": "XNMT",
 					"end": "🇳🇱Mtr",
-					"neededEquipments": ["NL"],
+					"neededEquipments": [
+						"NL"
+					],
 					"length": 1
 				},
 				{
 					"start": "🇳🇱Mtr",
 					"end": "🇳🇱Edn",
-					"neededEquipments": ["NL"],
+					"neededEquipments": [
+						"NL"
+					],
 					"length": 8
 				},
 				{
 					"start": "🇳🇱Edn",
 					"end": "🇧🇪FVS",
-					"neededEquipments": ["NL","BE"],
+					"neededEquipments": [
+						"NL",
+						"BE"
+					],
 					"length": 4
 				},
 				{
 					"start": "🇧🇪FVS",
 					"end": "🇧🇪FBX",
-					"neededEquipments": ["BE"],
+					"neededEquipments": [
+						"BE"
+					],
 					"length": 11
 				},
 				{
 					"start": "🇧🇪FBX",
 					"end": "XBLIG",
-					"neededEquipments": ["BE"],
+					"neededEquipments": [
+						"BE"
+					],
 					"length": 6
 				}
 			]
@@ -12022,7 +12174,9 @@
 			"electrified": true,
 			"maxSpeed": 130,
 			"twistingFactor": 0.2,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XNAC",
@@ -12051,7 +12205,9 @@
 			"electrified": true,
 			"maxSpeed": 100,
 			"twistingFactor": 0.25,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Hlm",
@@ -12071,7 +12227,9 @@
 			"maxSpeed": 100,
 			"twistingFactor": 0.2,
 			"name": "Kennemerlijn",
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Hlm",
