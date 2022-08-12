@@ -20066,6 +20066,61 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 130,
+			"twistingFactor": 0.15,
+			"name": "Staatslijn H",
+			"objects": [
+				{
+					"start": "XNU",
+					"end": "🇳🇱Utln",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Utln",
+					"end": "🇳🇱Htn",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Htn",
+					"end": "🇳🇱Htnc",
+					"maxSpeed": 140,
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Htnc",
+					"end": "🇳🇱Cl",
+					"length": 9
+				},
+				{
+					"start": "🇳🇱Cl",
+					"end": "🇳🇱Gdm",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Gdm",
+					"end": "🇳🇱Zbm",
+					"length": 9
+				},
+				{
+					"start": "🇳🇱Zbm",
+					"end": "🇳🇱Ht",
+					"length": 13
+				},
+				{
+					"start": "🇳🇱Ht",
+					"end": "🇳🇱Vg",
+					"length": 4
+				},
+				{
+					"start": "🇳🇱Vg",
+					"end": "🇳🇱Btl",
+					"length": 9
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"maxSpeed": 120,
 			"twistingFactor": 0.1,
 			"objects": [
