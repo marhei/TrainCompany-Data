@@ -809,7 +809,7 @@
 			],
 			"stations": [ "XSC", "🇨🇭TICA", "XSFI", "XSBN", "🇨🇭OSBE", "🇨🇭ALGR", "🇨🇭POS", "🇨🇭TIR" ],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers" }
 			],
 			"group": 1,
 			"service": 3,
@@ -889,7 +889,7 @@
 				},
 				{
 					"stations": [ "XBO", "XBB", "KK", "FF", "NN", "NPA", "XAL", "XAWW", "XYB", "XYG", "XMBK", "XJST", "XJBC", "XJNI", "XWS", "XWSV", "XQED", "XQIS" ],
-					"pathSuggestion": [ "XBO", "XBGP", "XBB", "XBDM", "KA", "KDN", "KHR", "KK", "KKAS", "KBR", "KROI", "KB", "KBUN", "KUR", "KKO", "KRHE", "FTRE", "FBGK", "FGAL", "FMM", "FMZ", "FMG", "FRA", "FFLF", "FF", "FO", "FH", "NAH", "NHOE", "NPAR", "NLO", "NLP", "NGM", "NWFH", "NWZ", "NWH", "NRTD", "NKN", "NSDF", "NF", "NN", "NFT", "NET", "NRH", "NBWH", "NOT", "NSUE", "NSK", "NPL", "NOS", "NVI", "NPA", "XAWR", "XASH", "XATF", "🇦🇹Neu H2", "🇦🇹Neu H1", "XANK", "🇦🇹Had", "XAWE", "XAMR", "XAL", "XAP", "XAWW", "XYB", "XYG", "XMBK", "XJST", "XJNS", "XJSP", "XJNP", "XJBC", "XJNI", "XWS", "XWSV", "🇧🇬14000", "XWSV", "XQED", "XQIS" ],
+					"pathSuggestion": [ "XBO", "XBGP", "XBB", "XBDM", "XBLIG", "KA", "KDN", "KHR", "KK", "KKAS", "KBR", "KROI", "KB", "KBUN", "KUR", "KKO", "KRHE", "FTRE", "FBGK", "FGAL", "FMM", "FMZ", "FMG", "FRA", "FFLF", "FF", "FO", "FH", "NAH", "NHOE", "NPAR", "NLO", "NLP", "NGM", "NWFH", "NWZ", "NWH", "NRTD", "NKN", "NSDF", "NF", "NN", "NFT", "NET", "NRH", "NBWH", "NOT", "NSUE", "NSK", "NPL", "NOS", "NVI", "NPA", "XAWR", "XASH", "XATF", "🇦🇹Neu H2", "🇦🇹Neu H1", "XANK", "🇦🇹Had", "XAWE", "XAMR", "XAL", "XAP", "XAWW", "XYB", "XYG", "XMBK", "XJST", "XJNS", "XJSP", "XJNP", "XJBC", "XJNI", "XWS", "XWSV", "🇧🇬14000", "XWSV", "XQED", "XQIS" ],
 					"descriptions": [
 						"Fahre auf den Spuren des legendären Orient-Express von %s nach %s.",
 						"Bringe die Gäste auf der berühmten Route nach %2$s.",
@@ -4128,7 +4128,7 @@
 				},
 				{
 					"stations": [ "XBHAL", "LH" ],
-					"pathSuggestion": [ "XBHAL", "XBB", "KA", "KDN", "KK", "KSO", "KW", "EHG", "EHM", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HLER", "HHI", "HBS", "LM", "LH" ]
+					"pathSuggestion": [ "XBHAL", "XBB", "XBLIG", "KA", "KDN", "KK", "KSO", "KW", "EHG", "EHM", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HLER", "HHI", "HBS", "LM", "LH" ]
 				},
 				{
 					"stations": [ "WSTZ", "WSZ" ],
@@ -4779,7 +4779,7 @@
 				},
 				{
 					"stations": [ "BL", "FF", "XFSTG", "XLL", "XBB", "XNAC", "AH", "XDKH", "XVS" ],
-					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFN", "XFFD", "XFPS", "XFMZV", "XLL", "SKZ", "STR", "KKO", "KB", "KKAS", "KK", "KDN", "KA", "XBB", "XNAC", "XNU", "EOB", "EG", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ]
+					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFN", "XFFD", "XFPS", "XFMZV", "XLL", "XBB", "XNAC", "XNU", "EOB", "EG", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ]
 				},
 				{
 					"stations": [ "XFSTG", "XSBE", "XIMB", "XIVP", "XAWW", "XMBK", "XJBC", "ZAS", "XGT", "XWS", "XQIS" ],
