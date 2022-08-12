@@ -6633,6 +6633,39 @@
 				{ "name": "passengers" }
 			],
 			"group": 1
+		},
+		{
+			"group": 1,
+			"name": "Bosphorus Express von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die schlafenden Fahrgäste von %s nach %s."
+			],
+			"stations": [ "XQIS", "XQHA", "XQCK", "XQED", "🇧🇬14000", "XWR", "XUBN" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe diesen internationale Schnellzug von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XWS", "XWPR", "XWRA", "XWDU", "XWBL", "XGT" ]
+				},
+				{
+					"stations": [ "XWS", "XWPL", "XWR", "XUBN" ]
+				}				
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}		
 	]
 }
