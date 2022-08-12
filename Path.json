@@ -20458,6 +20458,58 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 140,
+			"twistingFactor": 0.1,
+			"name": "Staatslijn E",
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "XNEI",
+					"end": "🇳🇱Bet",
+					"length": 10
+				},
+				{
+					"start": "🇳🇱Bet",
+					"end": "🇳🇱Btl",
+					"length": 9
+				},
+				{
+					"start": "🇳🇱Btl",
+					"end": "🇳🇱Ot",
+					"length": 9,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇳🇱Ot",
+					"end": "🇳🇱Tb",
+					"length": 8,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇳🇱Tb",
+					"end": "🇳🇱Tbu",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Tbu",
+					"end": "🇳🇱Tbr",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Tbr",
+					"end": "🇳🇱Gz",
+					"length": 4
+				},
+				{
+					"start": "🇳🇱Gz",
+					"end": "🇳🇱Bd",
+					"length": 11
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"maxSpeed": 120,
 			"twistingFactor": 0.1,
 			"objects": [
