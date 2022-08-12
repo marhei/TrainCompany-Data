@@ -5156,15 +5156,6 @@
 			"objects": [
 				{			
 			"stations": [ "XWPL", "🇧🇬16043", "XWSP", "XWS" ]
-				},
-				{			
-			"stations": [ "XWBL", "XWS" ]
-				},
-				{			
-			"stations": [ "XWBL", "XWSN" ]
-				},
-				{			
-			"stations": [ "🇧🇬14000", "XWR" ]
 				}
 			],					
 			"stopsEverywhere": true,
@@ -6414,6 +6405,43 @@
 				},
 				{
 					"stations": [ "XGAX", "XGD" ]
+				}				
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der CFR diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch umänien."
+			],
+			"objects": [
+				{
+					"stations": [ "XUA", "XUCU" ]
+				},
+				{
+					"stations": [ "XUBN", "XUGN" ]
+				},
+				{
+					"stations": [ "XUBN", "XUPV" ]
+				},
+				{
+					"stations": [ "XUPV", "🇷🇴30691" ]
+				},
+				{
+					"stations": [ "🇷🇴30691", "XUM" ]
+				},
+				{
+					"stations": [ "XUM", "XUAI", "XUD" ]
+				},
+				{
+					"stations": [ "XUD", "XUA" ]
 				}				
 			],
 			"stopsEverywhere": true,
