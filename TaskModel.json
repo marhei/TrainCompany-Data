@@ -6707,7 +6707,7 @@
 			"name": "EuroNight von %s nach %s",
 			"service": 1,
 			"descriptions": [
-				"Bringe die schlafenden Fahrgäste von %s nach %s."
+				"Bringe die schlafenden Fahrgäste von %s nach %s.",
 				"Verbinde Österreich, Ungarn und Rumänien miteinander."
 			],
 			"stations": [ "XUBN", "🇷🇴30691", "XMBS", "XMSN", "XMBK", "XMG", "XMHY", "XAWW" ],
@@ -6716,6 +6716,47 @@
 				{ "name": "beds" },
 				{ "name": "bistroseats" }				
 			]
-		}		
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Intercity von %s nach %s.",
+				"Fahre durch Rumänien."
+			],
+			"stations": [ "XUBN", "XUPV", "🇷🇴30691", "XUM", "XUAI", "XUD", "XUA" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Intercity von %s nach %s.",
+				"Fahre durch den Osten Ungarns."
+			],
+			"stations": [ "XMBK", "XMSN", "XMBS" ],
+			"neededCapacity": [
+				{ "name": "passengers" }				
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen internationalen Intercity von %s nach %s.",
+				"Verbinde Ungarn und Rumänien miteinander."
+			],
+			"stations": [ "XMBK", "XMSN", "XMBS", "XUCU", "XUA", "XUBN" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
+			]
+		}			
 	]
 }
