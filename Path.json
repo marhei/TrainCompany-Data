@@ -11982,6 +11982,52 @@
 		{
 			"group": 0,
 			"electrified": true,
+			"maxSpeed": 130,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XNAC",
+					"end": "🇳🇱Ass",
+					"length": 4
+				},
+				{
+					"start": "🇳🇱Ass",
+					"end": "🇳🇱Hwzb",
+					"length": 6
+				},
+				{
+					"start": "🇳🇱Hwzb",
+					"end": "🇳🇱Hlms",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Hlms",
+					"end": "🇳🇱Hlm",
+					"length": 2
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": true,
+			"maxSpeed": 100,
+			"twistingFactor": 0.25,
+			"objects": [
+				{
+					"start": "🇳🇱Hlm",
+					"end": "🇳🇱Ovn",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Ovn",
+					"end": "🇳🇱Zvt",
+					"length": 6
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
 			"maxSpeed": 160,
 			"twistingFactor": 0.2,
 			"objects": [
