@@ -6518,6 +6518,29 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Lokalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre durch Bulgarien und halte dabei an allen Stationen."
+			],
+			"objects": [
+				{
+			"stations": [ "XWBL", "XWS" ]
+				},
+				{
+			"stations": [ "XWBL", "XWSN" ]
+				},
+				{
+			"stations": [ "XWR", "🇧🇬14000" ]
+				}				
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}		
 	]
 }
