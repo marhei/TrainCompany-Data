@@ -6390,33 +6390,6 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		},
-		{
-			"group": 1,
-			"name": "Regional von %s nach %s",
-			"service": 2,
-			"descriptions": [
-				"Fahre von %s nach %s.",
-				"Fahre mit diesen Regionalzug durch Griechenland."
-			],
-			"objects": [
-				{
-					"stations": [ "XGA", "XGL" ]
-				},
-				{
-					"stations": [ "XGL", "XGT" ]
-				},
-				{
-					"stations": [ "XGT", "XGPM", "XGAX" ]
-				},
-				{
-					"stations": [ "XGAX", "XGD" ]
-				}
-			],
-			"stopsEverywhere": true,
-			"neededCapacity": [
-				{ "name": "passengers" }
-			]
 		}	
 	]
 }
