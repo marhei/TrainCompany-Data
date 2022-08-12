@@ -6390,28 +6390,6 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		},
-		{
-			"group": 1,
-			"name": "Regio von %s nach %s",
-			"service": 2,
-			"descriptions": [
-				"Fahre im Auftrag der Makedonski Železnici diesen Regionalzug zwischen %s und %s.",
-				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
-				"Fahre mit diesen Regionalzug durch Nordmazedonien."
-			],
-			"objects": [
-				{
-					"stations": [ "ZAS", "XJTA" ]
-				},
-				{
-					"stations": [ "ZAS", "🇲🇰61601", "🇲🇰61708" ]
-				}				
-			],
-			"stopsEverywhere": true,
-			"neededCapacity": [
-				{ "name": "passengers" }
-			]
 		}		
 	]
 }
