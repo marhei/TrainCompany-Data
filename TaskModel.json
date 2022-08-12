@@ -1116,7 +1116,8 @@
 			"service": 1,
 			"descriptions": [
 				"Bringe die Urlauber sicher nach Hause.",
-				"Bringe die Fahrgäste in den Urlaub."
+				"Bringe die Fahrgäste in den Urlaub in %2$s.",
+				"Bringe die Urlauber an ihr Ziel ohne sie zu sehr zu verärgern."
 			],
 			"objects": [
 				{
@@ -1130,6 +1131,14 @@
 				{
 					"stations": [ "KD", "KK", "FF", "NWH", "NN", "MH" ],
 					"pathSuggestion": [ "KD", "KK", "KT", "KNE", "KNL", "FW", "FHOE", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH" ]
+				},
+				{
+					"stations": [ "KD", "KK", "FF", "NWH", "NN", "MH", "XAWL", "XAI", "XIBZ", "XIVP" ],
+					"pathSuggestion": [ "KD", "KK", "KT", "KNE", "KNL", "FW", "FHOE", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH", "MGB", "MRO", "XAWL", "🇦🇹Fw Z2", "XAI", "XIFF", "XIBZ", "XIVP" ]
+				},
+				{
+					"stations": [ "KD", "KK", "FF", "NWH", "NN", "MH", "XAWL", "XAI" ],
+					"pathSuggestion": [ "KD", "KK", "KT", "KNE", "KNL", "FW", "FHOE", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH", "MGB", "MRO", "XAWL", "🇦🇹Fw Z2", "XAI" ]
 				}
 			],
 			"neededCapacity": [
