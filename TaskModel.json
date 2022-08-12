@@ -6652,7 +6652,7 @@
 			"name": "Schnellzug von %s nach %s",
 			"service": 1,
 			"descriptions": [
-				"Bringe diesen internationale Schnellzug von %s nach %s."
+				"Bringe diesen internationalen Schnellzug von %s nach %s."
 			],
 			"objects": [
 				{
@@ -6665,6 +6665,56 @@
 			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe diesen Schnellzug von %s nach %s.",
+				"Fahre durch Bulgarien."
+			],
+			"objects": [
+				{
+					"stations": [ "XWS", "XWPL", "XWR" ]
+				},
+				{
+					"stations": [ "XWS", "XWPR", "XWBL" ]
+				}				
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Nacht-Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die schlafenden Fahrgäste von %s nach %s."
+				"Verbinde Griechenland, Bulgarien und Rumänien miteinander."
+			],
+			"stations": [ "XUBN", "XUV", "XUGN", "XWR", "🇧🇬24000", "XWS", "XWPR", "XWRA", "XWDU", "XWBL", "XWSN", "XGT" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "EuroNight von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die schlafenden Fahrgäste von %s nach %s."
+				"Verbinde Österreich, Ungarn und Rumänien miteinander."
+			],
+			"stations": [ "XUBN", "🇷🇴30691", "XMBS", "XMSN", "XMBK", "XMG", "XMHY", "XAWW" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" }				
 			]
 		}		
 	]
