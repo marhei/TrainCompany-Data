@@ -6374,31 +6374,46 @@
 			"name": "Regio von %s nach %s",
 			"service": 2,
 			"descriptions": [
-				"Fahre im Auftrag der CFR diesen Regionalzug zwischen %s und %s.",
+				"Fahre im Auftrag der Makedonski Železnici diesen Regionalzug zwischen %s und %s.",
 				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
-				"Fahre mit diesen Regionalzug durch umänien."
+				"Fahre mit diesen Regionalzug durch Nordmazedonien."
 			],
 			"objects": [
 				{
-					"stations": [ "XUA", "XUCU" ]
+					"stations": [ "ZAS", "XJTA" ]
 				},
 				{
-					"stations": [ "XUBN", "XUGN" ]
+					"stations": [ "ZAS", "🇲🇰61601", "🇲🇰61708" ]
+				}				
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regional von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre mit diesen Regionalzug durch Griechenland."
+			],
+			"objects": [
+				{
+					"stations": [ "XGA", "XGLV", "XGL" ]
 				},
 				{
-					"stations": [ "XUBN", "XUPV" ]
+					"stations": [ "XGL", "XGK", "XGT" ]
 				},
 				{
-					"stations": [ "XUPV", "🇷🇴30691" ]
+					"stations": [ "XGT", "XGKK", "XGPM" ]
 				},
 				{
-					"stations": [ "🇷🇴30691", "XUM" ]
+					"stations": [ "XGPM", "XGDM", "XGX", "XGAX" ]
 				},
 				{
-					"stations": [ "XUM", "XUAI", "XUD" ]
-				},
-				{
-					"stations": [ "XUD", "XUA" ]
+					"stations": [ "XGAX", "XGD" ]
 				}				
 			],
 			"stopsEverywhere": true,
