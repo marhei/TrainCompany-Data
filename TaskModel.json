@@ -6488,6 +6488,36 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Regional von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Griechenland."
+			],
+			"objects": [
+				{
+					"stations": [ "XGA", "XGLV", "XGL" ]
+				},
+				{
+					"stations": [ "XGL", "XGT" ]
+				},
+				{
+					"stations": [ "XGPM", "XGT" ]
+				},
+				{
+					"stations": [ "XGPM", "XGAX" ]
+				},
+				{
+					"stations": [ "XGD", "XGAX" ]
+				}				
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}		
 	]
 }
