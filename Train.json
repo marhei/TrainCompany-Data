@@ -2294,6 +2294,121 @@
 			]
 		},
 		{
+			"id": 106000,
+			"group": 2,
+			"name": "VR-Baureihe Sm1",
+			"speed": 120,
+			"weight": 94,
+			"force": 215,
+			"length": 53,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 160000,
+			"maxConnectedUnits": 6,
+			"operationCosts": 60,
+			"equipments": [ "FI", "1520mm" ],
+			"exchangeTime": 50,
+			"capacity": [
+				{ "name": "passengers", "value": 180 }
+			]
+		},
+		{
+			"id": 106050,
+			"group": 2,
+			"name": "VR-Baureihe Sm2",
+			"speed": 120,
+			"weight": 76,
+			"force": 155,
+			"length": 53,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 180000,
+			"maxConnectedUnits": 6,
+			"operationCosts": 55,
+			"equipments": [ "FI", "1520mm" ],
+			"exchangeTime": 50,
+			"capacity": [
+				{ "name": "passengers", "value": 180 }
+			]
+		},
+		{
+			"id": 107000,
+			"group": 2,
+			"name": "VR-Baureihe Sm3",
+			"speed": 220,
+			"weight": 328,
+			"force": 163,
+			"length": 159,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 2000000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 95,
+			"equipments": [ "FI", "1520mm" ],
+			"exchangeTime": 120,
+			"capacity": [
+				{ "name": "passengers", "value": 262 }
+			]
+		},
+		{
+			"id": 106300,
+			"group": 2,
+			"name": "VR-Baureihe Sm4",
+			"speed": 160,
+			"weight": 114,
+			"force": 200,
+			"length": 53,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 250000,
+			"maxConnectedUnits": 4,
+			"operationCosts": 65,
+			"equipments": [ "FI", "1520mm" ],
+			"exchangeTime": 50,
+			"capacity": [
+				{ "name": "passengers", "value": 184 }
+			]
+		},
+		{
+			"id": 100181,
+			"group": 2,
+			"name": "Stadler Flirt 2 Breitspurversion"
+			"shortcut": "JKOY-Baureihe Sm5",
+			"speed": 160,
+			"weight": 132,
+			"force": 200,
+			"length": 74,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 500000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 65,
+			"equipments": [ "FI", "EE", "1520mm" ],
+			"exchangeTime": 45,
+			"capacity": [
+				{ "name": "passengers", "value": 232 }
+			]
+		},
+		{
+			"id": 107050,
+			"group": 2,
+			"name": "Karelian-Trains-Baureihe Sm6",
+			"speed": 220,
+			"weight": 383,
+			"force": 163,
+			"length": 185,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 2500000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 110,
+			"equipments": [ "FI", "RU", "1520mm" ],
+			"exchangeTime": 120,
+			"capacity": [
+				{ "name": "passengers", "value": 341 }
+			]
+		},
+		{
 			"id": 563,
 			"group": 2,
 			"name": "Siemens Mireo Plus H",
@@ -3192,6 +3307,25 @@
 			"exchangeTime": 40,
 			"capacity": [
 				{"name": "passengers", "value": 180}
+			]
+		},
+		{
+			"id": 104400,
+			"group": 2,
+			"name": "VR-Baureihe Dm12",
+			"speed": 120,
+			"weight": 54,
+			"force": 215,
+			"length": 25,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 130000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 40,
+			"equipments": [ "FI", "1520mm" ],
+			"exchangeTime": 60,
+			"capacity": [
+				{ "name": "passengers", "value": 63 }
 			]
 		},
 		{
@@ -4209,6 +4343,49 @@
 			"equipments": ["TR"]
 		},
 		{
+			"id": 103000,
+			"group": 0,
+			"name": "VR-Baureihe Sr1",
+			"speed": 140,
+			"weight": 84,
+			"force": 280,
+			"length": 19,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 340000,
+			"operationCosts": 100,
+			"equipments": ["FI", "1520mm"]
+		},
+		{
+			"id": 103200,
+			"group": 0,
+			"name": "VR-Baureihe Sr2",
+			"speed": 210,
+			"weight": 82,
+			"force": 280,
+			"length": 19,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 390000,
+			"operationCosts": 95,
+			"equipments": ["FI", "1520mm"]
+		},
+		{
+			"id": 103300,
+			"group": 0,
+			"name": "VR-Baureihe Sr3",
+			"speed": 200,
+			"weight": 90,
+			"force": 300,
+			"length": 19,
+			"drive": 6,
+			"range": 100,			
+			"reliability": 1,
+			"cost": 500000,
+			"operationCosts": 105,
+			"equipments": ["FI", "1520mm"]
+		},
+		{
 			"id": 931250,
 			"group": 0,
 			"name": "ONCF E 1250",
@@ -4820,6 +4997,48 @@
 			"cost": 420000,
 			"operationCosts": 130,
 			"equipments": ["GB"]
+		},
+		{
+			"id": 102500,
+			"group": 0,
+			"name": "VR-Baureihe Dv12",
+			"speed": 125,
+			"weight": 62,
+			"force": 200,
+			"length": 14,
+			"drive": 2,
+			"reliability": 0.85,
+			"cost": 190000,
+			"operationCosts": 120,
+			"equipments": ["FI", "1520mm"]
+		},
+		{
+			"id": 102800,
+			"group": 0,
+			"name": "VR-Baureihe Dr16",
+			"speed": 140,
+			"weight": 82,
+			"force": 270,
+			"length": 18,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 220000,
+			"operationCosts": 110,
+			"equipments": ["FI", "1520mm"]
+		},
+		{
+			"id": 102800,
+			"group": 0,
+			"name": "Fenniarail-Baureihe Dr18",
+			"speed": 90,
+			"weight": 120,
+			"force": 391,
+			"length": 17,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 210000,
+			"operationCosts": 100,
+			"equipments": ["FI", "1520mm"]
 		},
 		{
 			"id": 4,
@@ -5617,7 +5836,6 @@
 				{"name": "beds", "value": 54}
 			]
 		},
-
 		{
 			"id": 7519931,
 			"group": 1,
