@@ -1441,6 +1441,25 @@
 			]
 		},
 		{
+			"group": 0,
+			"name": "ICE Pendelzug von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Wegen eines Brückenschadens kann die S-Bahn nicht fahren und es wurde ein ICE Pendelzug eingerichtet.",
+				"Weil ein Schiff gegen eine S-Bahn Brücke gefahren ist, müssen die Pendler nun den Fernverkehr nehmen."
+			],
+			"objects": [
+				{
+					"stations": [ "AH", "AHAR" ],
+					"pathSuggestion": [ "AH", "AHAR" ]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
 			"group": 1,
 			"name": "S3 von %s nach %s",
 			"service": 3,
