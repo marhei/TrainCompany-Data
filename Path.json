@@ -12028,6 +12028,52 @@
 		{
 			"group": 0,
 			"electrified": true,
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
+			"name": "Kennemerlijn",
+			"objects": [
+				{
+					"start": "🇳🇱Hlm",
+					"end": "🇳🇱Bll",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Bll",
+					"end": "🇳🇱Sptz",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Sptz",
+					"end": "🇳🇱Sptn",
+					"length": 1
+				},
+				{
+					"start": "🇳🇱Sptn",
+					"end": "🇳🇱Drh",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Drh",
+					"end": "🇳🇱Bv",
+					"length": 4
+				},
+				{
+					"start": "🇳🇱Bv",
+					"end": "🇳🇱Hk",
+					"length": 3,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇳🇱Hk",
+					"end": "🇳🇱Utg",
+					"length": 4,
+					"maxSpeed": 130
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
 			"maxSpeed": 160,
 			"twistingFactor": 0.2,
 			"objects": [
