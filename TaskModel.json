@@ -286,22 +286,7 @@
 				{ "name": "passengers" }
 			]
 		},
-		{
-			"group": 1,
-			"name": "Stoptrein von %s nach %s",
-			"service": 3,
-			"descriptions": [
-				"Fahre durch die Niederlande."
-			],
-			"objects": [
-				{
-					"stations": [ "XNWT", "XNRM", "XNSI", "XNMT" ]
-				}
-			],
-			"neededCapacity": [
-				{ "name": "passengers" }
-			]
-		},
+
 		{
 			"group": 1,
 			"name": "ICE International von %s nach %s",
@@ -5499,7 +5484,8 @@
 			"name": "Stoptrein von %s nach %s",
 			"service": 3,
 			"descriptions": [
-				"Fahre diesen Nahverkehrszug von %s nach %s."
+				"Fahre diesen Nahverkehrszug von %s nach %s.",
+				"Fahre durch die Niederlande."
 			],
 			"objects": [
 				{
@@ -5516,6 +5502,12 @@
 				},
 				{
 					"stations": [ "XNU", "XNAH" ]
+				},
+				{
+					"stations": [ "XNWT", "XNRM", "XNSI", "XNMT" ]
+				},
+				{
+					"stations": [ "XNAC", "🇳🇱Hlm", "🇳🇱Zvt" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -6413,24 +6405,6 @@
 			]
 		},
 		{
-			"name": "Stoptrein von %s nach %s",
-			"service": 3,
-			"descriptions": [
-				"Fahre von %s nach %s.",
-				"Fahre durch die Niederlande."
-			],
-			"objects": [
-				{
-					"stations": [ "XNAC", "🇳🇱Zvt" ]
-				}
-			],
-			"stopsEverywhere": true,
-			"neededCapacity": [
-				{ "name": "passengers" }
-			],
-			"group": 1
-		},
-		{
 			"name": "Intercity von %s nach %s",
 			"service": 1,
 			"descriptions": [
@@ -6482,7 +6456,7 @@
 				},
 				{
 					"stations": [ "ZAS", "🇲🇰61708" ]
-				}				
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -6512,7 +6486,7 @@
 				},
 				{
 					"stations": [ "XGD", "XGAX" ]
-				}				
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -6535,7 +6509,7 @@
 				},
 				{
 			"stations": [ "XWR", "🇧🇬14000" ]
-				}				
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -6660,7 +6634,7 @@
 				},
 				{
 					"stations": [ "XWS", "XWPL", "XWR", "XUBN" ]
-				}				
+				}
 			],
 			"stopsEverywhere": false,
 			"neededCapacity": [
@@ -6681,7 +6655,7 @@
 				},
 				{
 					"stations": [ "XWS", "XWPR", "XWBL" ]
-				}				
+				}
 			],
 			"stopsEverywhere": false,
 			"neededCapacity": [
@@ -6714,7 +6688,7 @@
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "beds" },
-				{ "name": "bistroseats" }				
+				{ "name": "bistroseats" }
 			]
 		},
 		{
@@ -6728,7 +6702,7 @@
 			"stations": [ "XUBN", "XUPV", "🇷🇴30691", "XUM", "XUAI", "XUD", "XUA" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
-				{ "name": "bistroseats" }				
+				{ "name": "bistroseats" }
 			]
 		},
 		{
@@ -6741,7 +6715,7 @@
 			],
 			"stations": [ "XMBK", "XMSN", "XMBS" ],
 			"neededCapacity": [
-				{ "name": "passengers" }				
+				{ "name": "passengers" }
 			]
 		},
 		{
@@ -6755,8 +6729,8 @@
 			"stations": [ "XMBK", "XMSN", "XMBS", "XUCU", "XUA", "XUBN" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
-				{ "name": "bistroseats" }				
+				{ "name": "bistroseats" }
 			]
-		}			
+		}
 	]
 }
