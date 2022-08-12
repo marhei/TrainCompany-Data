@@ -6560,6 +6560,50 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		}		
+		},
+		{
+			"name": "Intercity Express von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Verbinde die beiden größten Städte Griechenlands miteinander."
+			],
+			"stations": [ "XGA", "XGL", "XGT" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1
+		},
+		{
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch Griechenland."
+			],
+			"stations": [ "XGA", "XGIN", "XGLV", "XGPA", "XGL", "XGK", "XGT" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1
+		},
+		{
+			"name": "Express von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch den Norden Griechenlands."
+			],
+			"stations": [ "XGT", "XGKK", "XGR", "XGPM", "XGDM", "XGX", "XGAX" ],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		}			
 	]
 }
