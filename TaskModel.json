@@ -6411,6 +6411,42 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		}
+		},
+		{
+			"name": "Stoptrein von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch die Niederlande."
+			],
+			"objects": [
+				{
+					"stations": [ "XNAC", "🇳🇱ZVT" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "Intercity von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Verbinde Belgien und Luxemburg."
+			],
+			"objects": [
+				{
+					"stations": [ "XBB", "XBOT", "XBNA", "XBAR", "XLL" ]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		}			
 	]
 }
