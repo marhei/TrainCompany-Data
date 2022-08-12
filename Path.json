@@ -20530,6 +20530,66 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 140,
+			"name": "Staatslijn F",
+			"twistingFactor": 0.1,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "🇳🇱Rsd",
+					"end": "🇳🇱Bgn",
+					"length": 12
+				},
+				{
+					"start": "🇳🇱Bgn",
+					"end": "🇳🇱Rb",
+					"length": 16
+				},
+				{
+					"start": "🇳🇱Rb",
+					"end": "🇳🇱Kbd",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Kbd",
+					"end": "🇳🇱Krg",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Krg",
+					"end": "🇳🇱Bzl",
+					"length": 6
+				},
+				{
+					"start": "🇳🇱Bzl",
+					"end": "🇳🇱Gs",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Gs",
+					"end": "🇳🇱Arn",
+					"length": 15
+				},
+				{
+					"start": "🇳🇱Arn",
+					"end": "🇳🇱Mdb",
+					"length": 4
+				},
+				{
+					"start": "🇳🇱Mdb",
+					"end": "🇳🇱Vss",
+					"length": 4
+				},
+				{
+					"start": "🇳🇱Vss",
+					"end": "🇳🇱Vs",
+					"length": 1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"maxSpeed": 130,
 			"twistingFactor": 0.1,
 			"neededEquipments": ["NL"],
