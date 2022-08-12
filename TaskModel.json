@@ -6432,7 +6432,7 @@
 		},
 		{
 			"name": "Intercity von %s nach %s",
-			"service": 3,
+			"service": 1,
 			"descriptions": [
 				"Fahre von %s nach %s.",
 				"Verbinde Belgien und Luxemburg."
@@ -6447,6 +6447,47 @@
 				{ "name": "passengers" }
 			],
 			"group": 1
-		}			
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Železnice Srbije diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Serbien."
+			],
+			"objects": [
+				{
+					"stations": [ "XJPR", "XJNI" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Auftrag der Makedonski železnici diesen Regionalzug zwischen %s und %s.",
+				"Übernehme die Verbindung zwischen %s und %s und halte dabei an allen Stationen.",
+				"Fahre mit diesen Regionalzug durch Nordmazedonien."
+			],
+			"objects": [
+				{
+					"stations": [ "ZAS", "XJTA" ]
+				},
+				{
+					"stations": [ "ZAS", "🇲🇰61708" ]
+				}				
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		}		
 	]
 }
