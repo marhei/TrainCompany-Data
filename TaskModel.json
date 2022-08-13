@@ -4033,6 +4033,21 @@
 		{
 			"group": 0,
 			"service": 4,
+			"name": "#FensterAuf-Sonderzug für @marhei",
+			"descriptions": [
+				"Marcel möchte zur Vervollständigung seiner Streckenkarte von %s nach %s gebracht werden.",
+				"Um sein Ziel alle Bahnstrecke abgefahren zu sein näher zu kommen bringe Marcel von %s nach %s.",
+				"Marcel fehlt noch die Strecke von %s nach %s auf seiner Streckenkarte, hilf ihm dieses Loch zu stopfen."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 1 },
+				{ "name": "bistroseats", "value": 1 },
+				{ "name": "beds", "value": 1 }
+			]
+		},
+		{
+			"group": 0,
+			"service": 4,
 			"name": "Freizeitpark-Sonderzug von %s nach %s",
 			"descriptions": [
 				"In %s wurde es zu langweilig. Fahre nach %s",
