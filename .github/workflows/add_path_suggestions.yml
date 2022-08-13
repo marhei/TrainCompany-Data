@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     
 jobs:
-  transform:
+  add_suggestions:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -28,5 +28,5 @@ jobs:
         run: |
           git config --global user.name 'TrainCompany'
           git config --global user.email 'train-company@c1710.de'
-          git add Station.json && git commit -m "Projected coordinates" && git push
+          git add Station.json && git commit -m "Added pathSuggestions" && git push
         continue-on-error: true
