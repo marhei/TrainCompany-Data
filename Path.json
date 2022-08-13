@@ -20300,6 +20300,119 @@
 			]
 		},
 		{
+			"name": "Staatslijn A",
+			"maxSpeed": 130,
+			"neededEquipments": ["NL"],
+			"twistingFactor": 0.2,
+			"group": 0,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "XNAH",
+					"end": "🇳🇱Ahp",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Ahp",
+					"end": "🇳🇱Ahpr",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Ahpr",
+					"end": "🇳🇱Vp",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Vp",
+					"end": "🇳🇱Rh",
+					"length": 4
+				},
+				{
+					"start": "🇳🇱Rh",
+					"end": "🇳🇱Dr",
+					"length": 8
+				},
+				{
+					"start": "🇳🇱Dr",
+					"end": "🇳🇱Bmn",
+					"length": 6
+				},
+				{
+					"start": "🇳🇱Bmn",
+					"end": "🇳🇱Zp",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Zp",
+					"end": "🇳🇱Dv",
+					"length": 15,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇳🇱Dv",
+					"end": "🇳🇱Ost",
+					"length": 10
+				},
+				{
+					"start": "🇳🇱Ost",
+					"end": "🇳🇱Wh",
+					"length": 6
+				},
+				{
+					"start": "🇳🇱Wh",
+					"end": "🇳🇱Zl",
+					"length": 14
+				},
+				{
+					"start": "🇳🇱Zl",
+					"end": "🇳🇱Mp",
+					"length": 17,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇳🇱Mp",
+					"end": "🇳🇱Swk",
+					"length": 14
+				},
+				{
+					"start": "🇳🇱Swk",
+					"end": "🇳🇱Wv",
+					"length": 13,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇳🇱Wv",
+					"end": "🇳🇱Hry",
+					"length": 7,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇳🇱Hry",
+					"end": "🇳🇱Hr",
+					"length": 3,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇳🇱Hr",
+					"end": "🇳🇱Akm",
+					"length": 10,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇳🇱Akm",
+					"end": "🇳🇱Gw",
+					"length": 5,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇳🇱Gw",
+					"end": "🇳🇱Lw",
+					"length": 13,
+					"maxSpeed": 140
+				}
+			]
+		},
+		{
 			"name": "Rhijnspoorweg",
 			"maxSpeed": 140,
 			"electrified": true,
