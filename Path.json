@@ -11230,6 +11230,51 @@
 			]
 		},
 		{
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 125,
+			"name": "Maaslijn",
+			"twistingFactor": 0.1,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "XNBL",
+					"end": "🇳🇱Vry",
+					"length": 21
+				},
+				{
+					"start": "🇳🇱Vry",
+					"end": "🇳🇱Vlb",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Vlb",
+					"end": "🇳🇱Bmr",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Bmr",
+					"end": "🇳🇱Ck",
+					"length": 10
+				},
+				{
+					"start": "🇳🇱Ck",
+					"end": "🇳🇱Mmlh",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Mmlh",
+					"end": "🇳🇱Nmh",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Nmh",
+					"end": "🇳🇱Nm",
+					"length": 2
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 160,
