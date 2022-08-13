@@ -12306,8 +12306,9 @@
 		{
 			"group": 0,
 			"electrified": true,
-			"maxSpeed": 130,
+			"maxSpeed": 140,
 			"twistingFactor": 0.2,
+			"name": "Oude Lijn",
 			"neededEquipments": [
 				"NL"
 			],
@@ -12315,22 +12316,101 @@
 				{
 					"start": "XNAC",
 					"end": "🇳🇱Ass",
-					"length": 4
+					"length": 4,
+					"maxSpeed": 130
 				},
 				{
 					"start": "🇳🇱Ass",
 					"end": "🇳🇱Hwzb",
-					"length": 6
+					"length": 6,
+					"maxSpeed": 130
 				},
 				{
 					"start": "🇳🇱Hwzb",
 					"end": "🇳🇱Hlms",
-					"length": 5
+					"length": 5,
+					"maxSpeed": 130
 				},
 				{
 					"start": "🇳🇱Hlms",
 					"end": "🇳🇱Hlm",
+					"length": 2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇳🇱Hlm",
+					"end": "🇳🇱Had",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Had",
+					"end": "🇳🇱Hil",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Hil",
+					"end": "🇳🇱Vh",
+					"length": 10
+				},
+				{
+					"start": "🇳🇱Vh",
+					"end": "🇳🇱Ledn",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Ledn",
+					"end": "🇳🇱Dvnk",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Dvnk",
+					"end": "🇳🇱Vst",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Vst",
+					"end": "🇳🇱Gvm",
+					"length": 6
+				},
+				{
+					"start": "🇳🇱Gvm",
+					"end": "🇳🇱Laa",
 					"length": 2
+				},
+				{
+					"start": "🇳🇱Laa",
+					"end": "🇳🇱Gv",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Gv",
+					"end": "🇳🇱Gvmw",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Gvmw",
+					"end": "🇳🇱Rsw",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Rsw",
+					"end": "🇳🇱Dt",
+					"length": 4
+				},
+				{
+					"start": "🇳🇱Dt",
+					"end": "🇳🇱Dtcp",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Dtcp",
+					"end": "🇳🇱Sdm",
+					"length": 8
+				},
+				{
+					"start": "🇳🇱Sdm",
+					"end": "XNRC",
+					"length": 4
 				}
 			]
 		},
