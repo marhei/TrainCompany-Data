@@ -4066,6 +4066,52 @@
 		{
 			"group": 0,
 			"service": 4,
+			"name": "Einhorn-Sonderzug von %s nach %s",
+			"descriptions": [
+				"Bringe die Einhörner von %s nach %s.",
+				"Mache einen Ausflug nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": ["AEL", "HAHO"]
+				},
+				{
+					"stations": ["AEL", "ALG"]
+				},
+				{
+					"stations": ["AEL", "RHBG"]
+				},
+				{
+					"stations": ["AEL", "EHBM"]
+				},
+				{
+					"stations": ["HAHO", "ALG"]
+				},
+				{
+					"stations": ["HAHO", "RHBG"]
+				},
+				{
+					"stations": ["HAHO", "EHBM"]
+				},
+				{
+					"stations": ["RHBG", "ALG"]
+				},
+				{
+					"stations": ["RHBG", "EHBM"]
+				},
+				{
+					"stations": ["EHBM", "ALG"]
+				}
+			],
+			"neededCapacity": [
+				{
+					"name": "passengers"
+				}
+			]
+		},
+		{
+			"group": 0,
+			"service": 4,
 			"name": "Sonderzug für die in %s gestrandete Pfadfindergruppe nach %s",
 			"descriptions": [
 				"Die Pfadfinder wollten eigentlich nach %2$s, jetzt sind sie aber in %1$s gelandet!",
