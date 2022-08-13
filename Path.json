@@ -10737,6 +10737,639 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"objects": [
+				{
+					"start": "XFBJ",
+					"start_long": "Bordeaux-St-Jean",
+					"end": "🇫🇷GAZ",
+					"end_long": "Gazinet—Cestas",
+					"length": 13,
+					"neededEquipments": [
+						"FR"
+					],
+					"twistingFactor": 0.1,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇫🇷GAZ",
+					"start_long": "Gazinet—Cestas",
+					"end": "🇫🇷MCP",
+					"end_long": "Marcheprime",
+					"length": 15,
+					"neededEquipments": [
+						"FR"
+					],
+					"twistingFactor": 0.01,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇫🇷MCP",
+					"start_long": "Marcheprime",
+					"end": "🇫🇷FAT",
+					"end_long": "Facture—Biganos",
+					"length": 10,
+					"neededEquipments": [
+						"FR"
+					],
+					"twistingFactor": 0.01,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇫🇷FAT",
+					"start_long": "Facture—Biganos",
+					"end": "🇫🇷YXC",
+					"end_long": "Ychoux",
+					"length": 36,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇫🇷YXC",
+					"start_long": "Ychoux",
+					"end": "🇫🇷LBH",
+					"end_long": "Labouheyre",
+					"length": 14,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇫🇷LBH",
+					"start_long": "Labouheyre",
+					"end": "XFMCX",
+					"end_long": "Morcenx",
+					"length": 19,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XFMCX",
+					"start_long": "Morcenx",
+					"end": "🇫🇷67312",
+					"end_long": "Laluque",
+					"length": 25,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷67312",
+					"start_long": "Laluque",
+					"end": "XFDX",
+					"end_long": "Dax",
+					"length": 14,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "XFDX",
+					"start_long": "Dax",
+					"end": "🇫🇷SQB",
+					"end_long": "Saubusse-les-Bains",
+					"length": 14,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷SQB",
+					"start_long": "Saubusse-les-Bains",
+					"end": "🇫🇷SVT",
+					"end_long": "St-Vincent-de-Tyrosse",
+					"length": 10,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷SVT",
+					"start_long": "St-Vincent-de-Tyrosse",
+					"end": "🇫🇷LBN",
+					"end_long": "Labenne",
+					"length": 12,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇫🇷LBN",
+					"start_long": "Labenne",
+					"end": "XFBY",
+					"end_long": "Bayonne",
+					"length": 13,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XFBY",
+					"start_long": "Bayonne",
+					"end": "XFBR",
+					"end_long": "Biarritz",
+					"length": 9,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFBR",
+					"start_long": "Biarritz",
+					"end": "XFHE",
+					"end_long": "Hendaye",
+					"length": 25,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFHE",
+					"start_long": "Hendaye",
+					"end": "XEIR",
+					"end_long": "Irun",
+					"length": 2,
+					"neededEquipments": [
+						"FR"
+					],
+					"maxSpeed": 30,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"ES",
+				"1668mm"
+			],
+			"objects": [
+				{
+					"start": "XEIR",
+					"start_long": "Irun",
+					"end": "🇪🇸11511",
+					"end_long": "San Sebastián-Donostia",
+					"length": 17,
+					"maxSpeed": 135
+				},
+				{
+					"start": "🇪🇸11511",
+					"start_long": "San Sebastián-Donostia",
+					"end": "🇪🇸11508",
+					"end_long": "Alsasua",
+					"length": 8,
+					"maxSpeed": 115
+				},
+				{
+					"start": "🇪🇸11508",
+					"start_long": "Heranni",
+					"end": "🇪🇸11405",
+					"end_long": "Ordizia",
+					"length": 32,
+					"maxSpeed": 100
+				},
+				{
+					"start": "🇪🇸11405",
+					"start_long": "Heranni",
+					"end": "XEZM",
+					"end_long": "Zumarraga",
+					"length": 26,
+					"twistingFactor": 0.3,
+					"maxSpeed": 85
+				},
+				{
+					"start": "XEZM",
+					"start_long": "Heranni",
+					"end": "🇪🇸11300",
+					"end_long": "Alsasua",
+					"length": 30,
+					"twistingFactor": 0.25,
+					"maxSpeed": 85
+				},
+				{
+					"start": "🇪🇸11300",
+					"start_long": "Alsasua",
+					"end": "🇪🇸11208",
+					"end_long": "Vitoria – Gasteiz",
+					"length": 43,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇪🇸11208",
+					"start_long": "Vitoria – Gasteiz",
+					"end": "🇪🇸11200",
+					"end_long": "Miranda de Ebro",
+					"length": 33,
+					"maxSpeed": 115,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇪🇸11200",
+					"start_long": "Miranda de Ebro",
+					"end": "🇪🇸11109",
+					"end_long": "Burgos",
+					"length": 42,
+					"maxSpeed": 150
+				},
+				{
+					"start": "🇪🇸11109",
+					"start_long": "Briviesca",
+					"end": "XEBU",
+					"end_long": "Burgos",
+					"length": 42,
+					"maxSpeed": 150
+				},
+				{
+					"start": "XEBU",
+					"start_long": "Burgos",
+					"end": "🇪🇸11004",
+					"end_long": "Magaz",
+					"length": 79,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇪🇸11004",
+					"start_long": "Magaz",
+					"end": "🇪🇸11000",
+					"end_long": "Venta de Baños",
+					"length": 8,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇪🇸11000",
+					"start_long": "Venta de Baños",
+					"end": "🇪🇸10604",
+					"end_long": "Cubillas de Santa Marta",
+					"length": 14,
+					"twistingFactor": 0.1,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇪🇸10604",
+					"start_long": "Cubillas de Santa Marta",
+					"end": "🇪🇸10600",
+					"end_long": "Valladolid Campo Grande",
+					"length": 22,
+					"twistingFactor": 0.1,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇪🇸10600",
+					"start_long": "Valladolid Campo Grande",
+					"end": "🇪🇸10503",
+					"end_long": "Valdestillas",
+					"length": 21,
+					"twistingFactor": 0.15,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇪🇸10503",
+					"start_long": "Valdestillas",
+					"end": "🇪🇸10500",
+					"end_long": "Medina del Campo Estación",
+					"length": 24,
+					"twistingFactor": 0.15,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇪🇸10500",
+					"start_long": "Medina del Campo Estación",
+					"end": "🇪🇸10409",
+					"end_long": "Arévalo",
+					"length": 35,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇪🇸10409",
+					"start_long": "Arévalo",
+					"end": "🇪🇸10405",
+					"end_long": "Ávila",
+					"length": 20,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇪🇸10405",
+					"end": "🇪🇸10400",
+					"length": 31,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇪🇸10400",
+					"start_long": "Ávila",
+					"end": "🇪🇸10300",
+					"end_long": "Collado Villalba",
+					"length": 23,
+					"twistingFactor": 0.3,
+					"maxSpeed": 150
+				},
+				{
+					"start": "🇪🇸10300",
+					"end": "🇪🇸10206",
+					"length": 27,
+					"maxSpeed": 150,
+					"twistingFactor": 0.3
+
+				},
+				{
+					"start": "🇪🇸10206",
+					"end": "🇪🇸10203",
+					"length": 21,
+					"maxSpeed": 150,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇪🇸10203",
+					"start_long": "Ávila",
+					"end": "XECV",
+					"end_long": "Collado Villalba",
+					"length": 13,
+					"twistingFactor": 0.3,
+					"maxSpeed": 150
+				},
+				{
+					"start": "XECV",
+					"start_long": "Collado Villalba",
+					"end": "XEMAT",
+					"end_long": "Madrid Atocha",
+					"length": 46,
+					"twistingFactor": 0.25,
+					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 155,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "🇪🇸10500",
+					"start_long": "Medina del Campo Estación",
+					"end": "🇪🇸30100",
+					"end_long": "Salamanca",
+					"length": 76,
+					"neededEquipments": [
+						"ES",
+						"1668mm"
+					],
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇪🇸30100",
+					"start_long": "Salamanca",
+					"end": "🇪🇸33013",
+					"end_long": "Ciudad Rodrigo",
+					"length": 92,
+					"neededEquipments": [
+						"ES",
+						"1668mm"
+					],
+					"electrified": false,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇪🇸33013",
+					"start_long": "Ciudad Rodrigo",
+					"end": "🇪🇸33016",
+					"end_long": "Fuentes de Oñoro",
+					"length": 31,
+					"neededEquipments": [
+						"ES",
+						"1668mm"
+					],
+					"electrified": false,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇪🇸33016",
+					"start_long": "Fuentes de Oñoro",
+					"end": "XXVF",
+					"end_long": "Vilar Formoso",
+					"length": 1,
+					"neededEquipments": [
+						"ES",
+						"1668mm"
+					],
+					"electrified": false,
+					"maxSpeed": 140
+				},
+				{
+					"start": "XXVF",
+					"start_long": "Vilar Formoso",
+					"end": "🇵🇹49007",
+					"end_long": "Guarda",
+					"length": 45,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.24,
+					"maxSpeed": 120
+				},
+				{
+					"start": "🇵🇹49007",
+					"start_long": "Guarda",
+					"end": "🇵🇹48546",
+					"end_long": "Vila Franca das Naves",
+					"length": 24,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.34,
+					"maxSpeed": 120
+				},
+				{
+					"start": "🇵🇹48546",
+					"start_long": "Vila Franca das Naves",
+					"end": "🇵🇹48405",
+					"end_long": "Celorico da Beira",
+					"length": 16,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "🇵🇹48405",
+					"start_long": "Celorico da Beira",
+					"end": "🇵🇹48009",
+					"end_long": "Mangualde",
+					"length": 37,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "🇵🇹48009",
+					"start_long": "Mangualde",
+					"end": "🇵🇹46672",
+					"end_long": "Nelas",
+					"length": 11,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "🇵🇹46672",
+					"start_long": "Nelas",
+					"end": "🇵🇹47001",
+					"end_long": "Santa Comba Dão",
+					"length": 31,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "🇵🇹47001",
+					"start_long": "Santa Comba Dão",
+					"end": "🇵🇹46094",
+					"end_long": "Luso Buçaco",
+					"length": 26,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "🇵🇹46094",
+					"start_long": "Luso Buçaco",
+					"end": "🇵🇹37002",
+					"end_long": "Pampilhosa",
+					"length": 8,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "🇵🇹37002",
+					"start_long": "Pampilhosa",
+					"end": "🇵🇹41020",
+					"end_long": "Coimbra",
+					"length": 15,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.2,
+					"maxSpeed": 120
+				},
+				{
+					"start": "🇵🇹41020",
+					"start_long": "Coimbra",
+					"end": "XXPB",
+					"end_long": "Pombal",
+					"length": 49,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.2,
+					"maxSpeed": 140
+				},
+				{
+					"start": "XXPB",
+					"start_long": "Pombal",
+					"end": "XXCX",
+					"end_long": "Caxarias",
+					"length": 30,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.2,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XXCX",
+					"start_long": "Caxarias",
+					"end": "XXEC",
+					"end_long": "Entroncamento",
+					"length": 33,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.2,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XXEC",
+					"start_long": "Entroncamento",
+					"end": "XXSR",
+					"end_long": "Santarem",
+					"length": 32,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"twistingFactor": 0.2,
+					"maxSpeed": 150
+				},
+				{
+					"start": "XXSR",
+					"start_long": "Santarem",
+					"end": "XXLO",
+					"end_long": "Lisboa Oriente",
+					"length": 74,
+					"neededEquipments": [
+						"PT",
+						"1668mm"
+					],
+					"maxSpeed": 190,
+					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"maxSpeed": 160,
 			"twistingFactor": 0.1,
 			"neededEquipments": [
@@ -11235,7 +11868,9 @@
 			"maxSpeed": 125,
 			"name": "Maaslijn",
 			"twistingFactor": 0.1,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XNBL",
@@ -15956,17 +16591,21 @@
 				{
 					"start": "XBAC",
 					"end": "🇧🇪NDK",
-					"neededEquipments": ["BE"],
+					"neededEquipments": [
+						"BE"
+					],
 					"length": 24,
 					"maxSpeed": 300
 				},
 				{
 					"start": "🇧🇪NDK",
 					"end": "🇳🇱Zlw",
-					"neededEquipments": ["BE", "NL"],
+					"neededEquipments": [
+						"BE",
+						"NL"
+					],
 					"length": 40,
 					"maxSpeed": 300
-
 				},
 				{
 					"start": "🇳🇱Zlw",
@@ -18956,7 +19595,9 @@
 			"group": 1,
 			"electrified": false,
 			"twistingFactor": 0.3,
-			"neededEquipments": ["750mm"],
+			"neededEquipments": [
+				"750mm"
+			],
 			"objects": [
 				{
 					"start": "WPUB",
@@ -20302,7 +20943,9 @@
 		{
 			"name": "Staatslijn A",
 			"maxSpeed": 130,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"twistingFactor": 0.2,
 			"group": 0,
 			"electrified": true,
@@ -20637,7 +21280,9 @@
 			"maxSpeed": 140,
 			"twistingFactor": 0.1,
 			"name": "Staatslijn E",
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "XNEI",
@@ -20688,7 +21333,9 @@
 			"group": 0,
 			"maxSpeed": 130,
 			"twistingFactor": 0.1,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Rsd",
@@ -20708,7 +21355,9 @@
 			"maxSpeed": 140,
 			"name": "Staatslijn F",
 			"twistingFactor": 0.1,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Rsd",
@@ -20767,7 +21416,9 @@
 			"group": 0,
 			"maxSpeed": 130,
 			"twistingFactor": 0.1,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"name": "Brabantse Lijn",
 			"objects": [
 				{
@@ -20827,7 +21478,9 @@
 			"group": 0,
 			"maxSpeed": 140,
 			"twistingFactor": 0.1,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Nm",
