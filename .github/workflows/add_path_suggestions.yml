@@ -1,0 +1,32 @@
+name: Add pathSuggestions
+
+on:
+  push:
+    paths:
+      - "TaskModel.json"
+  workflow_dispatch:
+    
+jobs:
+  transform:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+        with:
+          repository: 'C1710/TrainCompany-tools'
+          path: 'tools'
+          submodules: true
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install requirements
+        run: python -m pip install -r tools/requirements.txt
+      - name: Project coordinates
+        run: python tools/update_path_suggestions.py --auto-service --tc-dir=.
+      - name: Commit and Push
+        # https://stackoverflow.com/a/58393457
+        run: |
+          git config --global user.name 'TrainCompany'
+          git config --global user.email 'train-company@c1710.de'
+          git add Station.json && git commit -m "Projected coordinates" && git push
+        continue-on-error: true
