@@ -4643,6 +4643,42 @@
 			]
 		},
 		{
+			"name": "Drautalbahn",
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"maxSpeed": 130,
+			"objects": [
+				{
+					"start": "XAKT",
+					"end": "XAKR",
+					"length": 7
+				},
+				{
+					"start": "XAKR",
+					"end": "XAPW",
+					"length": 6
+				},
+				{
+					"start": "XAPW",
+					"end": "XAVE",
+					"length": 8,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XAVE",
+					"end": "XAFC",
+					"length": 7,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XAFC",
+					"end": "XAVH",
+					"length": 9
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.3,
