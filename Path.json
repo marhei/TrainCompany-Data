@@ -15945,6 +15945,31 @@
 			]
 		},
 		{
+			"name": "Spoorlijn 12",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 130,
+			"twistingFactor": 0.2,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "🇳🇱Rsd",
+					"end": "🇳🇱Odb",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Odb",
+					"end": "🇳🇱Zvb",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Zvb",
+					"end": "🇳🇱Zlw",
+					"length": 7
+				}
+			]
+		},
+		{
 			"name": "HSL-4/Zuid",
 			"group": 2,
 			"electrified": true,
