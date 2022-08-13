@@ -2683,10 +2683,12 @@
 			],
 			"objects": [
 				{
-					"stations": [ "HNBG", "HM", "HL", "EHFD", "EBILP" ]
+					"stations": [ "HNBG", "HM", "HL", "EHFD", "EBILP" ],
+					"pathSuggestion": [ "HNBG", "HM", "HL", "EHFD", "EBILP" ]
 				},
 				{
-					"stations": [ "HNBG", "HM", "HL", "EHFD", "EBILP", "EGLO", "ERDW" ]
+					"stations": [ "HNBG", "HM", "HL", "EHFD", "EBILP", "EGLO", "ERDW" ],
+					"pathSuggestion": [ "HNBG", "HM", "HL", "EHFD", "EBILP" ]
 				}
 			],
 			"stopsEverwhere": true,
@@ -3907,6 +3909,7 @@
 				"Die Strecke ist bei Nutzern des Schönes-Wochenende-Ticket sehr beliebt."
 			],
 			"stations": [ "HM", "HNBG", "HDVD", "HV", "AROG" ],
+			"pathSuggestion": [ "HM", "HNBG", "HDVD", "HV", "AROG" ],
 			"stopsEverwhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
