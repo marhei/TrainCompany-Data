@@ -3128,8 +3128,7 @@
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
-			],
-			"pathSuggestion": [ "XNVL", "KV", "KM", "KN", "KD", "KW", "EHG", "EDO", "EHM" ]
+			]
 		},
 		{
 			"group": 1,
@@ -3336,8 +3335,7 @@
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
-			],
-			"pathSuggestion": [ "ELS", "EBRU", "EHG", "KW", "KSO", "KK" ]
+			]
 		},
 		{
 			"group": 1,
@@ -3440,8 +3438,7 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
-			"group": 1,
-			"pathSuggestion": [ "EMST", "HR", "XNHL", "XNES" ]
+			"group": 1
 		},
 		{
 			"name": "IRE 6 von %s nach %s",
@@ -3940,8 +3937,7 @@
 				{ "name": "passengers" }
 			],
 			"group": 1,
-			"stopsEverywhere": true,
-			"pathSuggestion": [ "UN", "HHB", "HN", "HG", "HBOF" ]
+			"stopsEverywhere": true
 		},
 		{
 			"name": "RB 82 von %s nach %s",
@@ -5746,19 +5742,16 @@
 			"group": 1,
 			"objects": [
 				{
-					"stations": [ "XFPO", "XFCR" ],
-					"pathSuggestion": [ "XFPO", "XFSVF", "XFCR" ]
+					"stations": [ "XFPO", "XFCR" ]
 				},
 				{
 					"stations": [ "XFPO", "🇫🇷VCR", "🇫🇷RBT" ]
 				},
 				{
-					"stations": [ "XFPO", "XFMEL" ],
-					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL" ]
+					"stations": [ "XFPO", "XFMEL" ]
 				},
 				{
-					"stations": [ "XFPO", "XFMEA", "🇫🇷NAA", "XFCT" ],
-					"pathSuggestion": [ "XFPO", "XFVAR", "XFMEA", "🇫🇷NAA", "XFCT" ]
+					"stations": [ "XFPO", "XFMEA", "🇫🇷NAA", "XFCT" ]
 				}
 			],
 			"stopsEverywhere": true
@@ -5809,8 +5802,7 @@
 					"stations": [ "XFFE", "🇫🇷BEM", "🇫🇷RDF", "🇫🇷AMS" ]
 				},
 				{
-					"stations": [ "XFLIE", "XFAS", "🇫🇷AMS", "XFCR", "XFPO" ],
-					"pathSuggestion": [ "XFLIE", "🇫🇷RUX", "XFAS", "🇫🇷AMS", "XFCR", "XFSVF", "XFPO" ]
+					"stations": [ "XFLIE", "🇫🇷RUX", "XFAS", "🇫🇷AMS", "XFCR", "XFSVF", "XFPO" ]
 				},
 				{
 					"stations": [ "XFPO", "🇫🇷VCR", "🇫🇷CHH", "XFCOB", "XFLM" ]
@@ -5852,8 +5844,7 @@
 					"stations": [ "XFLPD", "XFAE", "XFCZ", "XFAI", "XFMOD" ]
 				},
 				{
-					"stations": [ "XFPO", "XFMEL", "🇫🇷SES", "🇫🇷SIF", "🇫🇷PAI", "XFD" ],
-					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "🇫🇷SES", "🇫🇷SIF", "🇫🇷PAI", "XFD" ]
+					"stations": [ "XFPO", "XFMEL", "🇫🇷SES", "🇫🇷SIF", "🇫🇷PAI", "XFD" ]
 				},
 				{
 					"stations": [ "XFD", "🇫🇷GLS", "XFDO" ]
@@ -5862,8 +5853,7 @@
 					"stations": [ "XFDO", "XFMOU", "🇨🇭VAL" ]
 				},
 				{
-					"stations": [ "XFPO", "XFMEA", "🇫🇷NAA", "XFE", "XFCM", "XFBD" ],
-					"pathSuggestion": [ "XFPO", "XFVAR", "XFMEA", "🇫🇷NAA", "XFE", "XFCM", "XFBD" ]
+					"stations": [ "XFPO", "XFMEA", "🇫🇷NAA", "XFE", "XFCM", "XFBD" ]
 				},
 				{
 					"stations": [ "XFSHT", "XFCM" ]
@@ -5905,8 +5895,7 @@
 			"group": 1,
 			"objects": [
 				{
-					"stations": [ "XFLM", "XFLAL" ],
-					"pathSuggestion": [ "XFLM", "🇫🇷SAB", "XFLAL" ]
+					"stations": [ "XFLM", "XFLAL" ]
 				},
 				{
 					"stations": [ "XFB", "XFBTV" ]
@@ -5970,8 +5959,7 @@
 					"stations": [ "XIGP", "XIAQ", "XIAS", "XIAST", "XITU" ]
 				},
 				{
-					"stations": [ "XIGP", "XITOR", "XIVOG", "XIMB" ],
-					"pathSuggestion": [ "XIGP", "XIAQ", "XITOR", "XIVOG", "XIMB" ]
+					"stations": [ "XIGP", "XIAQ", "XITOR", "XIVOG", "XIMB" ]
 				},
 				{
 					"stations": [ "XIMB", "XIVOG", "XITOR", "XIAS", "XIAST", "XITU" ]
@@ -6287,8 +6275,7 @@
 					"stations": [ "XABR", "XASF", "XASB", "MFL" ]
 				},
 				{
-					"stations": [ "MSBI", "XABR", "XARI", "XANK", "XAWE" ],
-					"pathSuggestion": [ "MSBI", "XABR", "XARI", "🇦🇹Neu H1", "XANK", "XAWE" ]
+					"stations": [ "MSBI", "XABR", "XARI", "🇦🇹Neu H1", "XANK", "XAWE" ]
 				},
 				{
 					"stations": [ "XASH", "XARI", "XAAT" ]
@@ -6339,8 +6326,7 @@
 					"stations": [ "RKO", "XSR", "XSSG", "🇨🇭HE" ]
 				},
 				{
-					"stations": [ "RSCF", "XSZH" ],
-					"pathSuggestion": [ "RSCF", "XSZO", "XSZH" ]
+					"stations": [ "RSCF", "XSZO", "XSZH" ]
 				},
 				{
 					"stations": [ "XSZH", "XSKS", "XSOL" ]
@@ -6349,19 +6335,16 @@
 					"stations": [ "XSBL", "XSGRN", "XSDE" ]
 				},
 				{
-					"stations": [ "XSOL", "XSLT", "XSBL" ],
-					"pathSuggestion": [ "XSOL", "XSZG", "XSLT", "XSGRN", "XSBL" ]
+					"stations": [ "XSOL", "XSZG", "XSLT", "XSGRN", "XSBL" ]
 				},
 				{
 					"stations": [ "XSBL", "XSBE", "XSSP", "XSIO" ]
 				},
 				{
-					"stations": [ "XSOL", "XSLT", "XSHZ", "XSBE" ],
-					"pathSuggestion": [ "XSOL", "XSZG", "XSLT", "XSHZ", "XSBE" ]
+					"stations": [ "XSOL", "XSZG", "XSLT", "XSHZ", "XSBE" ]
 				},
 				{
-					"stations": [ "XSBE", "XSLA" ],
-					"pathSuggestion": [ "XSBE", "🇨🇭PUI", "XSLA" ]
+					"stations": [ "XSBE", "🇨🇭PUI", "XSLA" ]
 				},
 				{
 					"stations": [ "XSLA", "🇨🇭COS", "XSNC", "XSBL" ]
@@ -6423,8 +6406,7 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
-			"group": 1,
-			"pathSuggestion": [ "XSZU", "XSAG", "XSSY", "XSADF", "XSEF" ]
+			"group": 1
 		},
 		{
 			"name": "S10 der S-Bahn Tessin von %s nach %s",
@@ -6445,13 +6427,12 @@
 			"descriptions": [
 				"Fahre von %s nach %s."
 			],
-			"stations": [ "RSCF", "XSZH" ],
+			"stations": [ "RSCF", "XSZO", "XSZH" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
-			"group": 1,
-			"pathSuggestion": [ "RSCF", "XSZO", "XSZH" ]
+			"group": 1
 		},
 		{
 			"name": "S2 der S-Bahn Basel von %s nach %s",
