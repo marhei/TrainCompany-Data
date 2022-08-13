@@ -4095,40 +4095,48 @@
 			],
 			"objects": [
 				{
-					"stations": ["AEL", "HAHO"]
+					"stations": [ "AEL", "HAHO" ],
+					"pathSuggestion": [ "AEL", "AH", "AHAR", "ABLZ", "AROG", "HB", "HOLD", "HAHO" ]
 				},
 				{
-					"stations": ["AEL", "ALG"]
+					"stations": [ "AEL", "ALG" ],
+					"pathSuggestion": [ "AEL", "AHI", "AHM", "ALG" ]
 				},
 				{
-					"stations": ["AEL", "RHBG"]
+					"stations": [ "AEL", "RHBG" ],
+					"pathSuggestion": [ "AEL", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RHA", "RHBG" ]
 				},
 				{
-					"stations": ["AEL", "EHBM"]
+					"stations": [ "AEL", "EHBM" ],
+					"pathSuggestion": [ "AEL", "AH", "AHAR", "ABLZ", "AROG", "HV", "HNBG", "HWUN", "HM", "HL", "EHFD", "EHBM" ]
 				},
 				{
-					"stations": ["HAHO", "ALG"]
+					"stations": [ "HAHO", "ALG" ],
+					"pathSuggestion": [ "HAHO", "HOLD", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AHI", "AHM", "ALG" ]
 				},
 				{
-					"stations": ["HAHO", "RHBG"]
+					"stations": [ "HAHO", "RHBG" ],
+					"pathSuggestion": [ "HAHO", "HOLD", "HB", "HV", "HNBG", "HWUN", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RHA", "RHBG" ]
 				},
 				{
-					"stations": ["HAHO", "EHBM"]
+					"stations": [ "HAHO", "EHBM" ],
+					"pathSuggestion": [ "HAHO", "HO", "HL", "EHFD", "EHBM" ]
 				},
 				{
-					"stations": ["RHBG", "ALG"]
+					"stations": [ "RHBG", "ALG" ],
+					"pathSuggestion": [ "RHBG", "RHA", "RO", "RAP", "RK", "RGN", "RSAB", "RM", "FBL", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH", "AEL", "AHI", "AHM", "ALG" ]
 				},
 				{
-					"stations": ["RHBG", "EHBM"]
+					"stations": [ "RHBG", "EHBM" ],
+					"pathSuggestion": [ "RHBG", "RHA", "RO", "RAP", "RK", "RGN", "RSAB", "RM", "FBL", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HWAR", "HA", "EHBM" ]
 				},
 				{
-					"stations": ["EHBM", "ALG"]
+					"stations": [ "EHBM", "ALG" ],
+					"pathSuggestion": [ "EHBM", "EHFD", "HL", "HM", "HWUN", "HNBG", "HV", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AHI", "AHM", "ALG" ]
 				}
 			],
 			"neededCapacity": [
-				{
-					"name": "passengers"
-				}
+				{ "name": "passengers" }
 			]
 		},
 		{
@@ -5059,24 +5067,15 @@
 					"descriptions": [
 						"Fahre den TEE Saphir von %s bis %s"
 					],
-					"stations": [ "EDO", "EBO", "EE", "EDG", "KD", "KK", "KA",
-						"XBHE",
-						"XBLIG", "XBB", "XBGP", "XBBR", "XBO"
-					],
-					"pathSuggestion": [ "EDO", "EBO", "EE", "EDG", "KD", "KK", "KDN" , "KA",
-						"XBHE",
-						"XBLIG", "XBB", "XBAAS", "XBGP", "XBBR", "XBO"
-					]
+					"stations": [ "EDO", "EBO", "EE", "EDG", "KD", "KK", "KA", "XBHE", "XBLIG", "XBB", "XBGP", "XBBR", "XBO" ],
+					"pathSuggestion": [ "EDO", "EBO", "EE", "EDG", "KD", "KK", "KDN", "KA", "XBHE", "XBLIG", "XBB", "XBAAS", "XBGP", "XBBR", "XBO" ]
 				},
 				{
 					"descriptions": [
 						"Fahre den TEE Iris von %s bis %s"
 					],
 					"stations": [ "XBB", "XBNA", "XBAR", "XLL", "XFTHV", "XFMZV", "XFSTG", "XFC", "XFMV", "XSB", "XSZH" ],
-					"pathSuggestion": [ "XBB", "XBOT", "XBNA", "XBAR", "XLL", "XFTHV", "XFMZV",
-						 "XFPS", "XFFD", "XFN", "XFLU", "XFRD", "XFSV", "XFVH",
-						 "XFSTG", "XFSL", "XFC", "XFMV", "XSB", "XSOL", "XSKS", "XSZH"
-					]
+					"pathSuggestion": [ "XBB", "XBOT", "XBNA", "XBAR", "XLL", "XFTHV", "XFMZV", "XFPS", "XFFD", "XFN", "XFLU", "XFRD", "XFSV", "XFVH", "XFSTG", "XFSL", "XFC", "XFMV", "XSB", "XSOL", "XSKS", "XSZH" ]
 				},
 				{
 					"descriptions": [
