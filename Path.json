@@ -31034,6 +31034,335 @@
 		},
 		{
 			"neededEquipments": [
+				"PL"
+			],
+			"electrified": true,
+			"group": 0,
+			"name": "Bahnstrecke Warschau Zachodnia - Poznań Główny",
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "PLWZA",
+					"end": "PLWWY",
+					"maxSpeed": 70,
+					"length": 3
+				},
+				{
+					"start": "PLWWY",
+					"end": "PLWGB",
+					"maxSpeed": 70,
+					"length": 4
+				},
+				{
+					"start": "PLWGB",
+					"end": "PLOWM",
+					"maxSpeed": 120,
+					"length": 5
+				},
+				{
+					"start": "PLOWM",
+					"end": "PLPLC",
+					"maxSpeed": 160,
+					"length": 6
+				},
+				{
+					"start": "PLPLC",
+					"end": "PLBLO",
+					"maxSpeed": 140,
+					"length": 7
+				},
+				{
+					"start": "PLBLO",
+					"end": "PLWIT",
+					"maxSpeed": 160,
+					"length": 3
+				},
+				{
+					"start": "PLWIT",
+					"end": "PLBZW",
+					"maxSpeed": 160,
+					"length": 3
+				},
+				{
+					"start": "PLBZW",
+					"end": "PLSKI",
+					"maxSpeed": 160,
+					"length": 4
+				},
+				{
+					"start": "PLSKI",
+					"end": "PLTRP",
+					"maxSpeed": 160,
+					"length": 3
+				},
+				{
+					"start": "PLTRP",
+					"end": "PLPSZ",
+					"maxSpeed": 160,
+					"length": 6
+				},
+				{
+					"start": "PLPSZ",
+					"end": "PLSOC",
+					"maxSpeed": 160,
+					"length": 7
+				},
+				{
+					"start": "PLSOC",
+					"end": "PLKLN",
+					"maxSpeed": 120,
+					"length": 4
+				},
+				{
+					"start": "PLKLN",
+					"end": "PLNWS",
+					"maxSpeed": 140,
+					"length": 4
+				},
+				{
+					"start": "PLNWS",
+					"end": "PLKYC",
+					"maxSpeed": 120,
+					"length": 3
+				},
+				{
+					"start": "PLKYC",
+					"end": "PLJSL",
+					"maxSpeed": 120,
+					"length": 2
+				},
+				{
+					"start": "PLJSL",
+					"end": "PLBNY",
+					"maxSpeed": 140,
+					"length": 5
+				},
+				{
+					"start": "PLBNY",
+					"end": "PLMYW",
+					"maxSpeed": 160,
+					"length": 3
+				},
+				{
+					"start": "PLMYW",
+					"end": "PLLGW",
+					"maxSpeed": 120,
+					"length": 5
+				},
+				{
+					"start": "PLLGW",
+					"end": "PLNDL",
+					"maxSpeed": 160,
+					"length": 6
+				},
+				{
+					"start": "PLNDL",
+					"end": "PLJWC",
+					"maxSpeed": 160,
+					"length": 7
+				},
+				{
+					"start": "PLJWC",
+					"end": "PLZSW",
+					"maxSpeed": 160,
+					"length": 6
+				},
+				{
+					"start": "PLZSW",
+					"end": "PLZCH",
+					"maxSpeed": 160,
+					"length": 8
+				},
+				{
+					"start": "PLZCH",
+					"end": "PLZKI",
+					"maxSpeed": 160,
+					"length": 8
+				},
+				{
+					"start": "PLZKI",
+					"end": "PLSCZ",
+					"maxSpeed": 160,
+					"length": 7
+				},
+				{
+					"start": "PLSCZ",
+					"end": "PLKNO",
+					"maxSpeed": 100,
+					"length": 3
+				},
+				{
+					"start": "PLKNO",
+					"end": "PLNCH",
+					"maxSpeed": 100,
+					"length": 9
+				},
+				{
+					"start": "PLNCH",
+					"end": "PLKRZ",
+					"maxSpeed": 160,
+					"length": 4
+				},
+				{
+					"start": "PLKRZ",
+					"end": "PLTZY",
+					"maxSpeed": 160,
+					"length": 10
+				},
+				{
+					"start": "PLTZY",
+					"end": "PLKDW",
+					"maxSpeed": 160,
+					"length": 9
+				},
+				{
+					"start": "PLKDW",
+					"end": "PLBGI",
+					"maxSpeed": 160,
+					"length": 9
+				},
+				{
+					"start": "PLBGI",
+					"end": "PLKLO",
+					"maxSpeed": 160,
+					"length": 9
+				},
+				{
+					"start": "PLKLO",
+					"end": "PLBKN",
+					"maxSpeed": 160,
+					"length": 6
+				},
+				{
+					"start": "PLBKN",
+					"end": "PLKRK",
+					"maxSpeed": 160,
+					"length": 6
+				},
+				{
+					"start": "PLKRK",
+					"end": "PLKNI",
+					"maxSpeed": 150,
+					"length": 17
+				},
+				{
+					"start": "PLKNI",
+					"end": "PLKNC",
+					"maxSpeed": 160,
+					"length": 7
+				},
+				{
+					"start": "PLKNC",
+					"end": "PLSPW",
+					"maxSpeed": 160,
+					"length": 5
+				},
+				{
+					"start": "PLSPW",
+					"end": "PLCNY",
+					"maxSpeed": 160,
+					"length": 5
+				},
+				{
+					"start": "PLCNY",
+					"end": "PLCNN",
+					"maxSpeed": 160,
+					"length": 3
+				},
+				{
+					"start": "PLCNN",
+					"end": "PLSLC",
+					"maxSpeed": 160,
+					"length": 8
+				},
+				{
+					"start": "PLSLC",
+					"end": "PLSTK",
+					"maxSpeed": 160,
+					"length": 4
+				},
+				{
+					"start": "PLSTK",
+					"end": "PLTCA",
+					"maxSpeed": 160,
+					"length": 9
+				},
+				{
+					"start": "PLTCA",
+					"end": "PLGWW",
+					"maxSpeed": 160,
+					"length": 3
+				},
+				{
+					"start": "PLGWW",
+					"end": "PLWZS",
+					"maxSpeed": 160,
+					"length": 7
+				},
+				{
+					"start": "PLWZS",
+					"end": "PLPCE",
+					"maxSpeed": 120,
+					"length": 6
+				},
+				{
+					"start": "PLPCE",
+					"end": "PLNKA",
+					"maxSpeed": 160,
+					"length": 6
+				},
+				{
+					"start": "PLNKA",
+					"end": "PLGTY",
+					"maxSpeed": 160,
+					"length": 6
+				},
+				{
+					"start": "PLGTY",
+					"end": "PLKWS",
+					"maxSpeed": 160,
+					"length": 7
+				},
+				{
+					"start": "PLKWS",
+					"end": "PLPKW",
+					"maxSpeed": 160,
+					"length": 4
+				},
+				{
+					"start": "PLPKW",
+					"end": "PLSWZ",
+					"maxSpeed": 160,
+					"length": 6
+				},
+				{
+					"start": "PLSWZ",
+					"end": "PLPAN",
+					"maxSpeed": 140,
+					"length": 3
+				},
+				{
+					"start": "PLPAN",
+					"end": "PLPWS",
+					"maxSpeed": 130,
+					"length": 4
+				},
+				{
+					"start": "PLPWS",
+					"end": "PLPGB",
+					"maxSpeed": 100,
+					"length": 3
+				},
+				{
+					"start": "PLPGB",
+					"end": "🇵🇱30601",
+					"maxSpeed": 90,
+					"length": 3
+				}
+			]
+		},
+		{
+			"neededEquipments": [
 				"LT","1520mm"
 			],
 			"electrified": false,
