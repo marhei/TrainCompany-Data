@@ -20,6 +20,7 @@ jobs:
         with:
           repository: 'C1710/TrainCompany-tools'
           path: 'tools'
+          submodules: true
       - uses: actions/setup-python@v4
         with:
           python-version: '3.9'

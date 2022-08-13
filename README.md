@@ -1,5 +1,11 @@
+[![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/marhei/TrainCompany-Data) [![Contribute with Gitpod](https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/marhei/TrainCompany-Data)
+
+![Lint](https://github.com/marhei/Traincompany-Data/actions/workflows/eclint.yml/badge.svg) ![Validation](https://github.com/marhei/Traincompany-Data/actions/workflows/json_validate.yml/badge.svg) ![Check JSON content](https://github.com/marhei/Traincompany-Data/actions/workflows/check_content.yml/badge.svg) 
+
 # TrainCompany Daten
-In diesem Repository finden sich die Daten, die von TrainCompany genutzt werden. Die Daten sind in JSON-Dateien gespeichert, die ein data-Objekt beinhalten. Um ähnliche Objekte zusammenzufassen gibt es einfache Vererbung: **"objects": []** führt dazu, dass alle Objekte, die zwischen den [] eingefügt werden automatische die Eigenschaften des Mutter-Objekts erhalten, wenn diese nicht überschrieben wurden
+In diesem Repository finden sich die Daten, die von TrainCompany genutzt werden. Die Daten sind in JSON-Dateien gespeichert, die ein data-Objekt beinhalten. Um ähnliche Objekte zusammenzufassen gibt es einfache Vererbung: **"objects": []** führt dazu, dass alle Objekte, die zwischen den [] eingefügt werden automatische die Eigenschaften des Mutter-Objekts erhalten, wenn diese nicht überschrieben wurden.
+
+Eine Anleitung zum Erstellen neuer Erweiterungen usw. findet sich in [`Contributing.md`](CONTRIBUTING.md)
 
 ## Train.json
 Fahrzeuge, die in TC zur Verfügung stehen
@@ -23,12 +29,12 @@ Fahrzeuge, die in TC zur Verfügung stehen
 	* **3** Batterie
 	* **4** Hybrid
 	* **5** Wasserstoff
+	* **6** Last Mile
 * **reliability** *(float)* Zuverlässigkeit in Prozent (0.8-1.0)
 * **cost** *(int)* Kosten in Plops
 * **maxConnectedUnits** *(int)* Maximale Anzahl der kuppelbaren Einheiten (bei Triebzügen, Nicht gesetzt = Unbegrenzt)
 * **operationCosts** *(int)* Betriebskosten pro km in Plops (Nur bei Fz mit Antrieb benutzen!)
 * **equipments** *(array)* Fahrzeugausstattung (siehe TrainEquipments.json)
-* **neededEquipments** *(array)* Streckenanforderung (siehe TrainEquipments.json)
 * **exchangeTime** *(int)* Aufenthaltsdauer bei Planhalten in Sekunden (Optional, Standard = 40)
 * **compatibleWith** *(array)* Für Triebzüge und Wagenverbände: Lässt sich zusätzlich mit den angegeben Fz kuppeln
 * **equivalentTo** *(int)* Nur für fixe Wagenverbände: Entspricht wie vielen Wagen?
@@ -68,6 +74,7 @@ Verbindungen zwischen zwei Bahnhöfen
 	* **0** Hauptbahn
 	* **1** Nebenbahn
 	* **2** SFS
+	* **3** Fähre
 * **start** *(string)* Ril100 des Startbahnhofs
 * **end** *(string)* Ril100 des Endbahnhofs
 * **twistingFactor** *(float)* Angebe der Kurvigkeit von 0.0 bis 1.0 wobei 1.0 am kurvigsten ist
@@ -88,6 +95,7 @@ Bahnhöfe
 	* **3** Betriebsbahnhof
 	* **4** Abzweigstelle
 	* **5** Haltepunkt (Wird nicht auf der Karte gerendert)
+	* **6** Wegpunkt (Wird nicht auf der Karte gerendert)
 * **x** *(int)* x-Position auf Karte
 * **y** *(int)* y-Position auf Karte
 * **platformLength** *(int)* maximale Bahnsteiglänge (optional, Standard = 0)
@@ -112,4 +120,4 @@ Modelle für Aufträge, aus denen automatisch neue Aufträge erstellt werden
 * **descriptions** *(array)* Array mit mehreren Strings für die Ausschreibung
 * **stations** *(array)* Ril100 aller Bahnhöfe, die angefahren  sollen in der richtigen Reihenfolge, wenn keine angegeben wurden, dann werden zwei zufällige gewählt (optional)
 * **stopsEverwhere** *(bool)* Wenn true dann wird auch automatisch ein Halt an allen Bahnhöfen, die zwischen den oben angegeben Bahnhöfen eingeplant (optional)
-* **neededCapacity** *array* Art der Beladung und Menge, 0 bei passengers führt zu automatischer Berechnung der Fahrgäste (siehe Capacity.json)
+* **neededCapacity** *array* Art der Beladung und Menge, wenn die Menge weggelassen wird führt es zu automatischer Beladung, wenn von Capacity unterstützt (siehe Capacity.json)

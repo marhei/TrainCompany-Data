@@ -201,7 +201,8 @@
 						{"const": 2, "description": "Diesel-Traktion"},
 						{"const": 3, "description": "Batterie"},
 						{"const": 4, "description": "Hybrid"},
-						{"const": 5, "description": "Wasserstoff"}
+						{"const": 5, "description": "Wasserstoff"},
+						{"const": 6, "description": "Last Mile"}
 					]
 				},
 				"range": {
@@ -237,31 +238,27 @@
 							"FR",
 							"TVM",
 							"Eurotunnel",
-							"NL",
-							"CZ",
-							"CH",
+							"bostrab",
 							"AT",
-							"bostrab"
-						]
-					},
-					"uniqueItems": true
-				},
-				"neededEquipments": {
-					"description": "Streckenanforderung",
-					"type": "array",
-					"items": {
-						"type": "string",
-						"examples": [
-							"ETCS",
-							"KRM",
+							"BE",
+							"BG",
+							"CH",
+							"CZ",
+							"DK",
+							"ES",
 							"FR",
-							"TVM",
-							"Eurotunnel",
+							"GB",
+							"GR",
+							"HR",
+							"HU",
+							"IT",
+							"LU",
 							"NL",
-							"CZ",
-							"CH",
-							"AT",
-							"bostrab"
+							"PL",
+							"RS",
+							"SE",
+							"SI",
+							"TR"
 						]
 					},
 					"uniqueItems": true
