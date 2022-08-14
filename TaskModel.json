@@ -7055,27 +7055,6 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		},
-		{
-			"group": 0,
-			"name": "Güter-Zufuhr von %s nach %s",
-			"service": 10,
-			"descriptions": [
-				"Zum Bau des Projekts \"Rail Baltica\" wird Holz benötigt. Fahre von %s nach %s um diese abzuliefern."
-			],
-			"objects": [
-				{
-					"stations": [ "🇱🇻RIHA", "🇱🇻RIX" ],
-					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX"]
-				},
-				{
-					"stations": [ "🇱🇻RIHA", "🇱🇻IMT" ],
-					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX", "🇱🇻TNK", "🇱🇻IMT"]
-				}
-			],
-			"neededCapacity": [
-				{ "name": "wood" }
-			]
 		}
 	]
 }
