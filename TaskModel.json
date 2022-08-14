@@ -6909,6 +6909,186 @@
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Laipni lūgti Latvijā! Dein EVU wurde beauftragt von %s nach %s zu fahren. Paldies!",
+				"Fahre durch die schönen Landschaften von Lettland und verbinde %s mit %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻SKL", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻SRA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻CNK", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverwhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"%s oder eher %s? Bitte fahre eine Leistung zwischen den beiden Stationen!",
+				"Nākamā pietura %s! Galapunkts. Fahre einen Zug zwischen %s und %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻TII", "🇱🇻TNK", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻SLO", "🇱🇻TNK", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻DTI", "🇱🇻TNK", "🇱🇻RIX" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverwhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Du wirst gebeten eine Leistung von %s nach %s zu fahren.",
+				"Nākamā pietura %s! Fahre einen Zug zwischen %s und %s."
+			],
+			"stations": [ "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverwhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre durch die schöne Landschaft und verbinde %s mit %s.",
+				"Riga, Aizkraukle, oder eher Daugavpils? Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻OGR", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻AIZ", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻DGP", "🇱🇻KRS", "🇱🇻RIX" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverwhere": true
+		},{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre durch die schöne Landschaft und verbinde %s mit %s.",
+				"Verbinde %s mit %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇪🇪VLG", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻VLM", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻SGD", "🇱🇻ZMT", "🇱🇻RIX" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverwhere": true
+		},
+		{
+			"group": 0,
+			"name": "Testfahrt von %s nach %s",
+			"service": 4,
+			"descriptions": [
+				"Pasažieru vilciens bittet dich einen Zug nach der Modernisierung zu testen. Dazu fährst du von %s nach %s.",
+				"Nach intensiven Bauarbeiten wurde die Strecke fertiggestellt. Fahre zur Erprobung der Schienen zwischen %s und %s. ",
+				"Die Bahnsteige in %s wurden gerade erhöht. Zur Erprobung wirst du gebeten eine Leistung zwischen %s und %s zu fahren."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻OGR", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻AIZ", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻DGP", "🇱🇻KRS", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻JEL", "🇱🇻RIX" ],
+					"pathSuggestion": [ "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻SKL", "🇱🇻RIX" ],
+					"pathSuggestion": [ "🇱🇻SKL", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻SRA", "🇱🇻RIX" ],
+					"pathSuggestion": [ "🇱🇻SRA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻CNK", "🇱🇻RIX" ],
+					"pathSuggestion": [ "🇱🇻CNK", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇪🇪VLG", "🇱🇻RIX" ],
+					"pathSuggestion": [ "🇪🇪VLG", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻VLM", "🇱🇻RIX" ],
+					"pathSuggestion": [ "🇱🇻VLM", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻SGD", "🇱🇻RIX" ],
+					"pathSuggestion": [ "🇱🇻SGD", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻GKL", "🇱🇻RIX" ],
+					"pathSuggestion": [ "🇱🇻GKL", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻TII", "🇱🇻RIX" ],
+					"pathSuggestion": [ "🇱🇻TII", "🇱🇻TNK", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻SLO", "🇱🇻RIX" ],
+					"pathSuggestion": [ "🇱🇻SLO", "🇱🇻TNK", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻DTI", "🇱🇻RIX" ],
+					"pathSuggestion": [ "🇱🇻DTI", "🇱🇻TNK", "🇱🇻RIX" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
