@@ -12700,6 +12700,35 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"twistingFactor": 0.2,
+			"maxSpeed": 120,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "🇳🇱Mrb",
+					"end": "🇳🇱Vhp",
+					"length": 6
+				},
+				{
+					"start": "🇳🇱Vhp",
+					"end": "🇳🇱Da",
+					"length": 1
+				},
+				{
+					"start": "🇳🇱Da",
+					"end": "🇳🇱Vz",
+					"length": 4
+				},
+				{
+					"start": "🇳🇱Vz",
+					"end": "🇳🇱Aml",
+					"length": 6
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"twistingFactor": 0.2,
