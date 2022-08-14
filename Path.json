@@ -21973,6 +21973,87 @@
 			]
 		},
 		{
+			"name": "Centraalspoorweg",
+			"group": 0,
+			"electrified": true,
+			"twistingFactor": 0.2,
+			"neededEquipments": ["NL"],
+			"maxSpeed": 140,
+			"objects": [
+				{
+					"start": "XNU",
+					"end": "🇳🇱Uto",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Uto",
+					"end": "🇳🇱Bhv",
+					"length": 6
+				},
+				{
+					"start": "🇳🇱Bhv",
+					"end": "🇳🇱Dld",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Dld",
+					"end": "🇳🇱Amf",
+					"length": 9
+				},
+				{
+					"start": "🇳🇱Amf",
+					"end": "🇳🇱Amfs",
+					"length": 4
+				},
+				{
+					"start": "🇳🇱Amfs",
+					"end": "🇳🇱Avat",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Avat",
+					"end": "🇳🇱Nkk",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Nkk",
+					"end": "🇳🇱Pt",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Pt",
+					"end": "🇳🇱Eml",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Eml",
+					"end": "🇳🇱Hd",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Hd",
+					"end": "🇳🇱Ns",
+					"length": 12
+				},
+				{
+					"start": "🇳🇱Ns",
+					"end": "🇳🇱Hde",
+					"length": 8
+				},
+				{
+					"start": "🇳🇱Hde",
+					"end": "🇳🇱Wz",
+					"length": 9
+				},
+				{
+					"start": "🇳🇱Wz",
+					"end": "🇳🇱Zl",
+					"length": 10,
+					"maxSpeed": 130
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 140,
