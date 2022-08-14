@@ -16856,6 +16856,36 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 160,
+			"neededEquipments": ["NL"],
+			"name": "Schiphollijn",
+			"twistingFactor": 0.15,
+			"objects": [
+				{
+					"start": "XNSP",
+					"end": "🇳🇱Hfd",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Hfd",
+					"end": "🇳🇱Nvp",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Nvp",
+					"end": "🇳🇱Ssh",
+					"length": 10
+				},
+				{
+					"start": "🇳🇱Ssh",
+					"end": "🇳🇱Ledn",
+					"length": 7
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"maxSpeed": 120,
 			"twistingFactor": 0.16,
 			"name": "Nordbahn",
