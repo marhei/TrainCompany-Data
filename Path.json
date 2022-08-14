@@ -21651,6 +21651,35 @@
 			]
 		},
 		{
+			"maxSpeed": 130,
+			"twistingFactor": 0.15,
+			"group": 1,
+			"electrified": true,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "🇳🇱Zl",
+					"end": "🇳🇱Hno",
+					"length": 12
+				},
+				{
+					"start": "🇳🇱Hno",
+					"end": "🇳🇱Rat",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Rat",
+					"end": "🇳🇱Nvd",
+					"length": 13
+				},
+				{
+					"start": "🇳🇱Nvd",
+					"end": "🇳🇱Wdn",
+					"length": 8
+				}
+			]
+		},
+		{
 			"name": "Hanzelijn",
 			"maxSpeed": 140,
 			"twistingFactor": 0.2,
