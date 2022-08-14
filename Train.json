@@ -6659,6 +6659,114 @@
 			]
 		},
 		{
+			"id": 20212223241,
+			"group": 1,
+			"name": "Ammendorf-Schlafwagen",
+			"shortcut": "UZ WL 36",
+			"speed": 160,
+			"weight": 50,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 180000,
+			"equipments": ["1520mm"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "beds", "value": 40}
+			]
+		},
+		{
+			"id": 20212223242,
+			"group": 1,
+			"name": "Ammendorf-Sitzwagen",
+			"shortcut": "UZ 31xxx",
+			"speed": 160,
+			"weight": 47,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 170000,
+			"equipments": ["1520mm"],
+			"exchangeTime": 100,
+			"capacity": [
+				{"name": "beds", "value": 80}
+			]
+		},		
+		{
+			"id": 20212223243,
+			"group": 1,
+			"name": "Ammendorf-Speisewagen",
+			"shortcut": "UZ WR",
+			"speed": 160,
+			"weight": 56,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 220000,
+			"equipments": ["1520mm"],
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 40}
+			]
+		},
+		{
+			"id": 20212223244,
+			"group": 1,
+			"name": "RIC-Schlafwagen",
+			"shortcut": "UZ WL 20",
+			"speed": 160,
+			"weight": 50,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 200000,
+			"equipments": ["1435mm", "1520mm"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "beds", "value": 20}
+			]
+		},
+		{
+			"id": 20212223245,
+			"group": 1,
+			"name": "Tver-Schlafwagen",
+			"shortcut": "RŽD WL 54",
+			"speed": 200,
+			"weight": 53,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 210000,
+			"equipments": ["1520mm"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "beds", "value": 54}
+			]
+		},
+		{
+			"id": 20212223246,
+			"group": 1,
+			"name": "TMH-Doppelstock-Schlafwagen",
+			"shortcut": "RŽD WL 50",
+			"speed": 200,
+			"weight": 59,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 260000,
+			"equipments": ["1520mm"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "beds", "value": 50}
+			]
+		},		
+		{
 			"id": 10404500000,
 			"group": 1,
 			"name": "VR Regionalzugwagen",
@@ -7211,7 +7319,7 @@
 			"reliability": 1,
 			"cost": 2200000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [3,183],
+			"compatibleWith": [3,183,202020],
 			"equipments": ["1435mm", "1520mm"],
 			"exchangeTime": 180,
 			"equivalentTo": 20,
