@@ -12751,6 +12751,35 @@
 			]
 		},
 		{
+			"name": "Staatslijn D",
+			"electrified": false,
+			"twistingFactor": 0.15,
+			"maxSpeed": 130,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "🇳🇱Zp",
+					"end": "🇳🇱Lc",
+					"length": 16
+				},
+				{
+					"start": "🇳🇱Lc",
+					"end": "🇳🇱Go",
+					"length": 14
+				},
+				{
+					"start": "🇳🇱Go",
+					"end": "🇳🇱Ddn",
+					"length": 9
+				},
+				{
+					"start": "🇳🇱Ddn",
+					"end": "XNHL",
+					"length": 6
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"twistingFactor": 0.2,
