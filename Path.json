@@ -21161,6 +21161,46 @@
 			]
 		},
 		{
+			"name": "Staatslijn C",
+			"maxSpeed": 140,
+			"neededEquipments": ["NL"],
+			"twistingFactor": 0.15,
+			"group": 0,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "🇳🇱Mp",
+					"end": "🇳🇱Hgv",
+					"length": 20
+				},
+				{
+					"start": "🇳🇱Hgv",
+					"end": "🇳🇱Bl",
+					"length": 13
+				},
+				{
+					"start": "🇳🇱Bl",
+					"end": "🇳🇱Asn",
+					"length": 16
+				},
+				{
+					"start": "🇳🇱Asn",
+					"end": "🇳🇱Hrn",
+					"length": 22
+				},
+				{
+					"start": "🇳🇱Hrn",
+					"end": "🇳🇱Gerp",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Gerp",
+					"end": "🇳🇱Gn",
+					"length": 2
+				}
+			]
+		},
+		{
 			"name": "Staatslijn A",
 			"maxSpeed": 130,
 			"neededEquipments": [
