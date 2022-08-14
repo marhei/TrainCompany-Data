@@ -17260,6 +17260,20 @@
 			]
 		},
 		{
+			"name": "Havenspoorlijn Rotterdam",
+			"group": 0,
+			"maxSpeed": 80,
+			"neededEquipments": ["ETCS", "NL"],
+			"twistingFactor": 0.4,
+			"objects": [
+				{
+					"start": "XNRC",
+					"end": "🇳🇱Erp",
+					"length": 40
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 160,
