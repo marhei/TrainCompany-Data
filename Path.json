@@ -21276,6 +21276,96 @@
 			]
 		},
 		{
+			"name": "Kamperlijntje",
+			"maxSpeed": 100,
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.1,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "🇳🇱Zl",
+					"end": "🇳🇱Zlsh",
+					"length": 4
+				},
+				{
+					"start": "🇳🇱Zlsh",
+					"end": "🇳🇱Kpn",
+					"length": 9
+				}
+			]
+		},
+		{
+			"name": "Hanzelijn",
+			"maxSpeed": 140,
+			"twistingFactor": 0.2,
+			"group": 0,
+			"electrified": true,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "🇳🇱Kpn",
+					"end": "🇳🇱Kpnz",
+					"length": 11
+				},
+				{
+					"start": "🇳🇱Kpnz",
+					"end": "🇳🇱Dron",
+					"length": 14
+				},
+				{
+					"start": "🇳🇱Dron",
+					"end": "🇳🇱Lls",
+					"length": 20
+				}
+			]
+		},
+		{
+			"name": "Flevolijn",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 140,
+			"twistingFactor": 0.2,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "🇳🇱Wp",
+					"end": "🇳🇱Ampo",
+					"length": 11
+				},
+				{
+					"start": "🇳🇱Ampo",
+					"end": "🇳🇱Almm",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Almm",
+					"end": "🇳🇱Alm",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Alm",
+					"end": "🇳🇱Almp",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Almp",
+					"end": "🇳🇱Almb",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Almb",
+					"end": "🇳🇱Almo",
+					"length": 1
+				},
+				{
+					"start": "🇳🇱Almo",
+					"end": "🇳🇱Lls",
+					"length": 19
+				}
+			]
+		},
+		{
 			"name": "Rhijnspoorweg",
 			"maxSpeed": 140,
 			"electrified": true,
