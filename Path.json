@@ -12843,6 +12843,60 @@
 			]
 		},
 		{
+			"electrified": false,
+			"maxSpeed": 130,
+			"twistingFactor": 0.2,
+			"group": 1,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "🇳🇱Ww",
+					"end": "🇳🇱Atn",
+					"length": 11
+				},
+				{
+					"start": "🇳🇱Atn",
+					"end": "🇳🇱Vsv",
+					"length": 9
+				},
+				{
+					"start": "🇳🇱Vsv",
+					"end": "🇳🇱Tbg",
+					"length": 7
+				},
+				{
+					"start": "🇳🇱Tbg",
+					"end": "🇳🇱Gdr",
+					"length": 1
+				},
+				{
+					"start": "🇳🇱Gdr",
+					"end": "🇳🇱Dtc",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Dtc",
+					"end": "🇳🇱Dtch",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Dtch",
+					"end": "🇳🇱Wl",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Wl",
+					"end": "🇳🇱Did",
+					"length": 6
+				},
+				{
+					"start": "🇳🇱Did",
+					"end": "🇳🇱Zv",
+					"length": 4
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"twistingFactor": 0.2,
@@ -21853,12 +21907,17 @@
 			"objects": [
 				{
 					"start": "EEM",
-					"end": "XNAH",
-					"length": 25,
+					"end": "🇳🇱Zv",
+					"length": 11,
 					"neededEquipments": [
 						"DE",
 						"NL"
 					]
+				},
+				{
+					"start": "🇳🇱Zv",
+					"end": "XNAH",
+					"length": 14
 				},
 				{
 					"start": "XNAH",
