@@ -4529,6 +4529,26 @@
 		},
 		{
 			"group": 0,
+			"name": "Käsetransport von %s nach %s.",
+			"descriptions": [
+				"Hole Nachschub an Käse für die Hauptstadt!"
+			],
+			"objects": [
+				{
+					"stations": [ "XNAC", "🇳🇱Gd" ],
+					"pathSuggestion": [ "XNAC", "XNU", "🇳🇱Wd", "🇳🇱Gd" ]
+				},
+				{
+					"stations": [ "XNAC", "🇳🇱Ldm" ],
+					"pathSuggestion": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "Ledn", "🇳🇱Gv", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr", "🇳🇱Ldm" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 12 }
+			]
+		},
+		{
+			"group": 0,
 			"name": "Schwerer Containerzug von %s nach %s.",
 			"service": 11,
 			"descriptions": [
