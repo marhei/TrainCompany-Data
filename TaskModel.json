@@ -5383,6 +5383,56 @@
 		},
 		{
 			"group": 1,
+			"name": "RE 17 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von % nach %s."
+			],
+			"objects": [
+				{
+					"stations": ["XLWZ", "XLKT"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 12 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von % nach %s."
+			],
+			"objects": [
+				{
+					"stations": ["XLDK", "XLL"],
+					"stopsEverwhere": true
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 15 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von % nach %s."
+			],
+			"objects": [
+				{
+					"stations": ["XLTV", "XLL"],
+					"stopsEverwhere": true
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Regio von %s nach %s",
 			"service": 2,
 			"descriptions": [
