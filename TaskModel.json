@@ -906,7 +906,7 @@
 				"Fahre zwischen Rhein und Bosporus."
 			],
 			"stations": [ "KK", "XQIS" ],
-			"pathSuggestion": [ "KK", "KGRB", "KM", "KV", "EDG", "EOB", "XNAH", "🇳🇱Dv", "XNHL", "HR", "HO", "HL", "HM", "HWUN", "HH", "HLER", "HHI", "HBS", "LM", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DCW", "DH", "DHD", "DPI", "DSA", "XTP", "XAWW", "XMBK", "XJSP", "XJNI", "XWS", "🇧🇬14000", "XWSV", "XQIS" ],
+			"pathSuggestion": [ "KK", "KGRB", "KM", "KV", "EDG", "EOB", "XNAH", "🇳🇱Zp", "🇳🇱Wdn", "🇳🇱Dv", "XNHL", "HR", "HO", "HL", "HM", "HWUN", "HH", "HLER", "HHI", "HBS", "LM", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DCW", "DH", "DHD", "DPI", "DSA", "XTP", "XAWW", "XMBK", "XJSP", "XJNI", "XWS", "🇧🇬14000", "XWSV", "XQIS" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -1057,7 +1057,7 @@
 			"objects": [
 				{
 					"stations": [ "BL", "BSPD", "LS", "HH", "HO", "HR", "XNHL", "🇳🇱Aml", "🇳🇱Dv", "🇳🇱Amf", "🇳🇱Hvs", "XNAC" ],
-					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HWUN", "HM", "HL", "HO", "HR", "XNHL", "🇳🇱Aml", "🇳🇱Dv", "🇳🇱Amf", "🇳🇱Hvs", "XNAC" ]
+					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HWUN", "HM", "HL", "HO", "HR", "XNHL", "🇳🇱Aml", "🇳🇱Wdn", "🇳🇱Dv", "🇳🇱Apd", "🇳🇱Amf", "🇳🇱Hvs", "XNAC" ]
 				}
 			],
 			"neededCapacity": [
@@ -4262,7 +4262,7 @@
 				},
 				{
 					"stations": [ "HBNF", "🇳🇱Brn" ],
-					"pathSuggestion": [ "HBNF", "HO", "HR", "XNHL", "🇳🇱Dv", "🇳🇱Brn" ]
+					"pathSuggestion": [ "HBNF", "HO", "HR", "XNHL", "🇳🇱Wdn", "🇳🇱Dv", "🇳🇱Apd", "🇳🇱Amf", "🇳🇱Brn" ]
 				},
 				{
 					"stations": [ "MER", "🇬🇧RDG" ],
@@ -4708,7 +4708,7 @@
 			"objects": [
 				{
 					"stations": [ "XVS", "XVM", "XDKH", "HBTH", "BL", "DH" ],
-					"pathSuggestion": [ "XVS", "🇸🇪HD", "🇸🇪JN", "XVK", "XVNC", "XVM", "XDKH", "XDRI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ABLZ", "AROG", "HB", "HO", "HR", "HBTH", "XNHL", "🇳🇱Dv", "XNAH", "EOB", "EDG", "EE", "EDO", "EHM", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HLER", "HWOB", "LS", "BSPD", "BL", "BBF", "BDKO", "BEW", "DGB", "DH" ]
+					"pathSuggestion": [ "XVS", "🇸🇪HD", "🇸🇪JN", "XVK", "XVNC", "XVM", "XDKH", "XDRI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ABLZ", "AROG", "HB", "HO", "HR", "HBTH", "XNHL", "🇳🇱Wdn", "🇳🇱Dv", "🇳🇱Zp", "XNAH", "EOB", "EDG", "EE", "EDO", "EHM", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HLER", "HWOB", "LS", "BSPD", "BL", "BBF", "BDKO", "BEW", "DGB", "DH" ]
 				}
 			],
 			"neededCapacity": [
@@ -5623,7 +5623,8 @@
 			"service": 0,
 			"objects": [
 				{
-					"stations": [ "XNSP", "XNAC", "🇳🇱Amf", "🇳🇱Apd", "🇳🇱Dv", "🇳🇱Aml", "XNHL", "XNES" ]
+					"stations": [ "XNSP", "XNAC", "🇳🇱Amf", "🇳🇱Apd", "🇳🇱Dv", "🇳🇱Aml", "XNHL", "XNES" ],
+					"pathSuggestion": [ "XNSP", "XNAC", "🇳🇱Wp", "🇳🇱Amf", "🇳🇱Apd", "🇳🇱Dv", "🇳🇱Wdn", "🇳🇱Aml", "XNHL", "XNES" ]
 				},
 				{
 					"stations": [ "XNSP", "XNAC", "XNU", "XNAH" ]
