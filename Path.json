@@ -22669,6 +22669,47 @@
 			]
 		},
 		{
+			"group": 1,
+			"maxSpeed": 100,
+			"neededEquipments": ["NL"],
+			"twistingFactor": 0.2,
+			"electrified": false,
+			"name": "Betuwelijn",
+			"objects": [
+				{
+					"start": "🇳🇱Est",
+					"end": "🇳🇱Za",
+					"length": 11
+				},
+				{
+					"start": "🇳🇱Za",
+					"end": "🇳🇱Hmn",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Hmn",
+					"end": "🇳🇱Op",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Op",
+					"end": "🇳🇱Ktr",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Ktr",
+					"end": "🇳🇱Tl",
+					"length": 12
+				},
+				{
+					"start": "🇳🇱Tl",
+					"end": "🇳🇱Gdm",
+					"electrified": true,
+					"length": 12
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 120,
