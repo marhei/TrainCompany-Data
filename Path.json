@@ -3949,31 +3949,145 @@
 			"group": 1,
 			"name": "Obere Ruhrtalbahn",
 			"electrified": false,
-			"twistingFactor": 0.4,
+			"twistingFactor": 0.1,
 			"objects": [
 				{
 					"start": "EHG",
+					"end": "ELSD",
+					"length": 25,
+					"maxSpeed": 140
+				},
+				{
+					"start": "ELSD",
+					"end": "EFOE",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "EFOE",
+					"end": "EWIC",
+					"length": 7,
+					"maxSpeed": 140
+				},
+				{
+					"start": "EWIC",
+					"end": "ENHH",
+					"length": 13,
+					"maxSpeed": 120
+				},
+				{
+					"start": "ENHH",
 					"end": "EARB",
-					"maxSpeed": 140,
-					"length": 55
+					"length": 7,
+					"maxSpeed": 120
 				},
 				{
 					"start": "EARB",
+					"end": "EOVP",
+					"length": 6,
+					"maxSpeed": 110
+				},
+				{
+					"start": "EOVP",
+					"end": "EFRE",
+					"length": 5,
+					"maxSpeed": 80
+				},
+				{
+					"start": "EFRE",
+					"end": "EWMN",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "EWMN",
+					"end": "EMSD",
+					"length": 6,
+					"maxSpeed": 100
+				},
+				{
+					"start": "EMSD",
+					"end": "EHAE",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "EHAE",
+					"end": "EBWG",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "EBWG",
+					"end": "ENUT",
+					"length": 2,
+					"maxSpeed": 90
+				},
+				{
+					"start": "ENUT",
 					"end": "EOLS",
-					"maxSpeed": 120,
-					"length": 35
+					"length": 5,
+					"maxSpeed": 90
 				},
 				{
 					"start": "EOLS",
+					"end": "EBRW",
+					"length": 7,
+					"maxSpeed": 90
+				},
+				{
+					"start": "EBRW",
+					"end": "EHOP",
+					"length": 6,
+					"maxSpeed": 100
+				},
+				{
+					"start": "EHOP",
+					"end": "EMSN",
+					"length": 4,
+					"maxSpeed": 90
+				},
+				{
+					"start": "EMSN",
+					"end": "EBRH",
+					"length": 6,
+					"maxSpeed": 90
+				},
+				{
+					"start": "EBRH",
+					"end": "EBDL",
+					"length": 2,
+					"maxSpeed": 110
+				},
+				{
+					"start": "EBDL",
 					"end": "EMAR",
-					"maxSpeed": 100,
-					"length": 34
+					"length": 9,
+					"maxSpeed": 100
 				},
 				{
 					"start": "EMAR",
+					"end": "EWSM",
+					"length": 5,
+					"maxSpeed": 120
+				},
+				{
+					"start": "EWSM",
+					"end": "HWRX",
+					"length": 7,
+					"maxSpeed": 120
+				},
+				{
+					"start": "HWRX",
+					"end": "HSCD",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "HSCD",
 					"end": "HWAR",
-					"maxSpeed": 120,
-					"length": 25
+					"length": 10,
+					"maxSpeed": 120
 				}
 			]
 		},
@@ -4027,9 +4141,43 @@
 				},
 				{
 					"start": "HWAR",
+					"end": "FLIB",
+					"length": 8
+				},
+				{
+					"start": "FLIB",
+					"end": "FLR",
+					"length": 6
+				},
+				{
+					"start": "FLR",
+					"end": "FHMM",
+					"length": 6
+				},
+				{
+					"start": "FHMM",
+					"end": "FHFG",
+					"length": 5
+				},
+				{
+					"start": "FHFG",
+					"end": "FGSN",
+					"length": 6
+				},
+				{
+					"start": "FGSN",
+					"end": "FIM",
+					"length": 5
+				},
+				{
+					"start": "FIM",
+					"end": "FMHF",
+					"length": 4
+				},
+				{
+					"start": "FMHF",
 					"end": "FKW",
-					"length": 52,
-					"maxSpeed": 140
+					"length": 11
 				}
 			]
 		},
