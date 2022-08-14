@@ -670,11 +670,18 @@
 		{
 			"name": "Intercités von %s nach %s",
 			"descriptions": [
-				"Fahre diese Querverbindung abseits von Paris.",
+				"Im Corail einmal quer durch Frankreich, was gibt es schöneres?",
 				"Diese Linie ist für ihr bequemes Rollmaterial bekannt."
 			],
-			"stations": [ "XFM", "🇫🇷NMS", "XFMO", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
-			"pathSuggestion": [ "XFM", "XFARL", "🇫🇷NPG", "🇫🇷NMS", "XFMO", "🇫🇷VLM", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
+			"objects": [
+				{
+					"stations": [ "XFM", "🇫🇷NMS", "XFMO", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
+					"pathSuggestion": [ "XFM", "XFARL", "🇫🇷NPG", "🇫🇷NMS", "XFMO", "🇫🇷VLM", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ]
+				},
+				{
+					"stations": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷VHY", "XFCLE" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
