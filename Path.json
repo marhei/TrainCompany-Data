@@ -21712,6 +21712,40 @@
 		},
 		{
 			"maxSpeed": 130,
+			"group": 0,
+			"twistingFactor": 0.1,
+			"electrified": true,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "🇳🇱Gd",
+					"end": "🇳🇱Ztmo",
+					"length": 15
+				},
+				{
+					"start": "🇳🇱Ztmo",
+					"end": "🇳🇱Ztm",
+					"length": 1
+				},
+				{
+					"start": "🇳🇱Ztm",
+					"end": "🇳🇱Ypb",
+					"length": 6
+				},
+				{
+					"start": "🇳🇱Ypb",
+					"end": "🇳🇱Vb",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Vb",
+					"end": "🇳🇱Gv",
+					"length": 3
+				}
+			]
+		},
+		{
+			"maxSpeed": 130,
 			"group": 1,
 			"twistingFactor": 0.2,
 			"electrified": true,
