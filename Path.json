@@ -21517,6 +21517,132 @@
 			]
 		},
 		{
+			"maxSpeed": 140,
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "XNU",
+					"end": "🇳🇱Utlr",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Utlr",
+					"end": "🇳🇱Utt",
+					"length": 1
+				},
+				{
+					"start": "🇳🇱Utt",
+					"end": "🇳🇱Vtn",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Vtn",
+					"end": "🇳🇱Wd",
+					"length": 8
+				},
+				{
+					"start": "🇳🇱Wd",
+					"end": "🇳🇱Gdg",
+					"length": 13,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇳🇱Gdg",
+					"end": "🇳🇱Gd",
+					"length": 3,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇳🇱Gd",
+					"end": "🇳🇱Nwk",
+					"length": 10
+				},
+				{
+					"start": "🇳🇱Nwk",
+					"end": "🇳🇱Cps",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Cps",
+					"end": "🇳🇱Rtn",
+					"length": 10
+				}
+			]
+		},
+		{
+			"maxSpeed": 130,
+			"group": 1,
+			"twistingFactor": 0.2,
+			"electrified": true,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "🇳🇱Wd",
+					"end": "🇳🇱Bdg",
+					"length": 9,
+					"maxSpeed": 120
+				},
+				{
+					"start": "🇳🇱Bdg",
+					"end": "🇳🇱Apn",
+					"length": 8,
+					"maxSpeed": 120
+				},
+				{
+					"start": "🇳🇱Apn",
+					"end": "🇳🇱Ldl",
+					"length": 13
+				},
+				{
+					"start": "🇳🇱Ldl",
+					"end": "🇳🇱Ledn",
+					"length": 2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"twistingFactor": 0.1,
+			"maxSpeed": 100,
+			"neededEquipments": ["NL"],
+			"objects": [
+				{
+					"start": "🇳🇱Gd",
+					"end": "🇳🇱Wadt",
+					"length": 6
+				},
+				{
+					"start": "🇳🇱Wadt",
+					"end": "🇳🇱Wad",
+					"length": 2
+				},
+				{
+					"start": "🇳🇱Wad",
+					"end": "🇳🇱Wadn",
+					"length": 1
+				},
+				{
+					"start": "🇳🇱Wadn",
+					"end": "🇳🇱Bsks",
+					"length": 1
+				},
+				{
+					"start": "🇳🇱Bsks",
+					"end": "🇳🇱Bsk",
+					"length": 1
+				},
+				{
+					"start": "🇳🇱Bsk",
+					"end": "🇳🇱Apn",
+					"length": 6
+				}
+			]
+		},
+		{
 			"name": "Walsumbahn",
 			"maxSpeed": 160,
 			"electrified": true,
