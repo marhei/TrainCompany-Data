@@ -12912,6 +12912,40 @@
 			]
 		},
 		{
+			"name": "Lechfeldbahn",
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 100,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "MBOB",
+					"end": "MOMN",
+					"length": 3
+				},
+				{
+					"start": "MOMN",
+					"end": "MGRL",
+					"length": 5
+				},
+				{
+					"start": "MGRL",
+					"end": "MLLF",
+					"length": 1
+				},
+				{
+					"start": "MLLF",
+					"end": "MKLF",
+					"length": 4
+				},
+				{
+					"start": "MKLF",
+					"end": "MKFG",
+					"length": 9
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"twistingFactor": 0.2,
