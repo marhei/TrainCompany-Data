@@ -16989,6 +16989,41 @@
 			]
 		},
 		{
+			"name": "Staatslijn I",
+			"group": 0,
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"neededEquipments": ["NL"],
+			"maxSpeed": 140,
+			"objects": [
+				{
+					"start": "🇳🇱Zlw",
+					"end": "🇳🇱Ddzd",
+					"length": 12
+				},
+				{
+					"start": "🇳🇱Ddzd",
+					"end": "🇳🇱Ddr",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Ddr",
+					"end": "🇳🇱Zwd",
+					"length": 3
+				},
+				{
+					"start": "🇳🇱Zwd",
+					"end": "🇳🇱Kfh",
+					"length": 5
+				},
+				{
+					"start": "🇳🇱Kfh",
+					"end": "🇳🇱Brd",
+					"length": 2
+				}
+			]
+		},
+		{
 			"name": "HSL-4/Zuid",
 			"group": 2,
 			"electrified": true,
