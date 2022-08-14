@@ -207,8 +207,7 @@
 				"Bringe den internationalen Zug schnell nach %2$s.",
 				"Verbinde Deutschland mit Polen für gute europäische Verbindungen."
 			],
-			"stations": [ "AA", "AH", "BL", "BHF", "BFP", "🇵🇱30601" ],
-			"pathSuggestion": [ "AA", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BHF", "BFP", "🇵🇱30601" ],
+			"stations": [ "BL", "BHF", "BFP", "🇵🇱25809", "🇵🇱28100", "🇵🇱26146", "🇵🇱30601", "🇵🇱KNI", "🇵🇱KNO", "🇵🇱WZA" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
@@ -295,12 +294,12 @@
 			],
 			"objects": [
 				{
-					"stations": [ "XNAC", "XNU", "XNAH", "EOB", "EDG", "KD", "KK", "FFLF", "RM", "RK", "RO", "RF", "RB" ],
-					"pathSuggestion": [ "XNAC", "XNU", "XNAH", "EOB", "EDG", "KD", "KK", "KT", "KSIB", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB" ]
+					"stations": [ "XNAC", "XNU", "XNAH", "EOB", "EDG", "KD", "KK", "FFLF", "RM", "RK", "RO", "RF", "RB", "XSB" ],
+					"pathSuggestion": [ "XNAC", "XNU", "XNAH", "🇳🇱Zv", "EOB", "EDG", "KD", "KK", "KT", "KSIB", "FFLF", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB", "XSB" ]
 				},
 				{
 					"stations": [ "XNAC", "XNU", "XNAH", "EOB", "EDG", "KD", "KK", "FFLF", "FF" ],
-					"pathSuggestion": [ "XNAC", "XNU", "XNAH", "EOB", "EDG", "KD", "KK", "KT", "KSIB", "FFLF", "FF" ]
+					"pathSuggestion": [ "XNAC", "XNU", "XNAH", "🇳🇱Zv", "EOB", "EDG", "KD", "KK", "KT", "KSIB", "FFLF", "FF" ]
 				}
 			],
 			"neededCapacity": [
@@ -906,7 +905,7 @@
 				"Fahre zwischen Rhein und Bosporus."
 			],
 			"stations": [ "KK", "XQIS" ],
-			"pathSuggestion": [ "KK", "KGRB", "KM", "KV", "EDG", "EOB", "XNAH", "🇳🇱Dv", "XNHL", "HR", "HO", "HL", "HM", "HWUN", "HH", "HLER", "HHI", "HBS", "LM", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DCW", "DH", "DHD", "DPI", "DSA", "XTP", "XAWW", "XMBK", "XJSP", "XJNI", "XWS", "🇧🇬14000", "XWSV", "XQIS" ],
+			"pathSuggestion": [ "KK", "KGRB", "KM", "KV", "EDG", "EOB", "🇳🇱Zv", "XNAH", "🇳🇱Zp", "🇳🇱Wdn", "🇳🇱Dv", "XNHL", "HR", "HO", "HL", "HM", "HWUN", "HH", "HLER", "HHI", "HBS", "LM", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DCW", "DH", "DHD", "DPI", "DSA", "XTP", "XAWW", "XMBK", "XJSP", "XJNI", "XWS", "🇧🇬14000", "XWSV", "XQIS" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -1057,7 +1056,7 @@
 			"objects": [
 				{
 					"stations": [ "BL", "BSPD", "LS", "HH", "HO", "HR", "XNHL", "🇳🇱Aml", "🇳🇱Dv", "🇳🇱Amf", "🇳🇱Hvs", "XNAC" ],
-					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HWUN", "HM", "HL", "HO", "HR", "XNHL", "🇳🇱Aml", "🇳🇱Dv", "🇳🇱Amf", "🇳🇱Hvs", "XNAC" ]
+					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HWUN", "HM", "HL", "HO", "HR", "XNHL", "🇳🇱Aml", "🇳🇱Wdn", "🇳🇱Dv", "🇳🇱Apd", "🇳🇱Amf", "🇳🇱Hvs", "XNAC" ]
 				}
 			],
 			"neededCapacity": [
@@ -2080,7 +2079,7 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "MKFG", "MLL" ]
+					"stations": [ "MA", "MBOB", "MKFG", "MLL" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -2391,7 +2390,7 @@
 					"stations": [ "XTRU", "XTVV", "XTMD", "DSEB", "DSA", "XTD" ]
 				}
 			],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2407,11 +2406,11 @@
 			],
 			"objects": [
 				{
-					"stations": [ "DH", "DBW", "DNKW", "DWT", "DEB", "DEIB", "DZ" ]
+					"stations": [ "DH", "DAF", "DBW", "DNKW", "DWT", "DEB", "DEIB", "DZ" ]
 				},
 				{}
 			],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2431,7 +2430,7 @@
 					"pathSuggestion": [ "DH", "DAF", "DBW", "DWT", "DEB", "DZ" ]
 				}
 			],
-			"stopsEverwhere": false,
+			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2452,7 +2451,7 @@
 					"stations": [ "DPI", "DRR", "DNE", "DSEB" ]
 				}
 			],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2469,7 +2468,7 @@
 				"Bei Übernachtungen wird eine Kurtaxe fällig. ☝🧐"
 			],
 			"stations": [ "DHD", "DKTW", "DGHU", "DBAG", "DAG" ],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2496,7 +2495,7 @@
 					"stations": [ "DCR", "XTVY" ]
 				}
 			],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2514,7 +2513,7 @@
 					"stations": [ "DC", "DNR", "DFL", "DHZF", "DGRB", "DPF", "DOL", "DNH" ]
 				}
 			],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2530,7 +2529,7 @@
 				"Mit dem RB 95 kommt man nah an die tschechische Grenze."
 			],
 			"stations": [ "DZW", "DAU", "DSC", "DJ" ],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2545,7 +2544,7 @@
 				"Daß das advanced TrainLab auf dieser Strecke fuhr, ist schon einige Zeit her. Heute sollte es etwas klassischer zugehen. "
 			],
 			"stations": [ "DABU", "DAB", "DSCL", "DMAR", "DGS", "DSC" ],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2559,7 +2558,7 @@
 				"Wenn die Bauarbeiten auf der Strecke ČD 142 abgeschlossen sind, kann man wieder ohne umzusteigen von Johanngeorgenstadt nach Karlovy Vary fahren."
 			],
 			"stations": [ "DJ", "XTPO" ],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2575,7 +2574,7 @@
 				"Zwei mal im Monat ist der Zug voll mit Fußballfans."
 			],
 			"stations": [ "DBU", "DC", "DED", "DDF", "DBUF", "DMS", "DTAL", "DZI", "DAU" ],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2590,7 +2589,7 @@
 				"Normalerweise kommen auf dieser Strecke Mehrsystemfahrzeuge vom Typ Citylink zum Einsatz."
 			],
 			"stations": [ "DMW", "DC", "DED", "DDF", "DBUF", "DMS", "DTAL" ],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2605,7 +2604,7 @@
 				"Das Zeppelinmuseum und das Dorniermusem sind mit dem RB 91 zu erreichen."
 			],
 			"stations": [ "TF", "TLOE", "TFFL", "TKEH", "TMK", "TOBZ", "TWSN", "TRB", "TWEB", "TNB", "TMO", "TAU" ],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2619,7 +2618,7 @@
 				"Fahre den Bummelzug durch die schwäbische Provinz."
 			],
 			"stations": [ "TBI", "TU" ],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2652,7 +2651,7 @@
 					]
 				}
 			],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2667,7 +2666,7 @@
 				"Manch ein Tourist will die Burg Hohenzollern besuchen."
 			],
 			"stations": [ "TSIG", "TAE", "THCH", "TMS", "TT" ],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2697,7 +2696,7 @@
 			],
 			"stations": [ "DH", "DCW", "DPR", "DGB", "BRU", "BSN", "BSEO", "BNP", "BCS" ],
 			"pathSuggestion": [ "DH", "DCW", "DPR", "DGB", "BRU", "BBS", "BSN", "BSEO", "BNP", "BCS" ],
-			"stopsEverwhere": false,
+			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2720,7 +2719,7 @@
 					"stations": [ "HNBG", "HM", "HL", "EHFD", "EBILP", "EGLO", "ERDW" ]
 				}
 			],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -3935,7 +3934,7 @@
 				"Die Strecke ist bei Nutzern des Schönes-Wochenende-Ticket sehr beliebt."
 			],
 			"stations": [ "HM", "HNBG", "HDVD", "HV", "AROG" ],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -4262,7 +4261,7 @@
 				},
 				{
 					"stations": [ "HBNF", "🇳🇱Brn" ],
-					"pathSuggestion": [ "HBNF", "HO", "HR", "XNHL", "🇳🇱Dv", "🇳🇱Amf", "🇳🇱Brn" ]
+					"pathSuggestion": [ "HBNF", "HO", "HR", "XNHL", "🇳🇱Wdn", "🇳🇱Dv", "🇳🇱Apd", "🇳🇱Amf", "🇳🇱Brn" ]
 				},
 				{
 					"stations": [ "MER", "🇬🇧RDG" ],
@@ -4505,7 +4504,7 @@
 		},
 		{
 			"group": 0,
-			"name": "LKW-Ersatzzug von %s nach %s.",
+			"name": "LKW-Ersatzzug von %s nach %s",
 			"service": 11,
 			"descriptions": [
 				"Wegen einer Rückrufaktion eines namhaften LKW-Herstellers müssen Ersatzgüterzüge von %s nach %s gefahren werden.",
@@ -4518,7 +4517,7 @@
 		},
 		{
 			"group": 0,
-			"name": "Fischtransport von %s nach %s.",
+			"name": "Fischtransport von %s nach %s",
 			"descriptions": [
 				"Bringe mit Fischen beladene LKW von %s nach %s."
 			],
@@ -4527,6 +4526,26 @@
 				{ "name": "containers", "value": 15 }
 			],
 			"pathSuggestion": [ "SWAB", "SKL", "SHY", "RN", "RSD", "RM", "RSAB", "RBR", "TV", "TS", "TU", "MGZB", "MA", "MH", "MGB", "MRO", "MTS", "MFL", "XASB", "XASF", "XAAT", "XAWE" ]
+		},
+		{
+			"group": 0,
+			"name": "Käsetransport von %s nach %s",
+			"descriptions": [
+				"Hole Nachschub an Käse für die Hauptstadt!"
+			],
+			"objects": [
+				{
+					"stations": [ "XNAC", "🇳🇱Gd" ],
+					"pathSuggestion": [ "XNAC", "XNU", "🇳🇱Wd", "🇳🇱Gd" ]
+				},
+				{
+					"stations": [ "XNAC", "🇳🇱Ldm" ],
+					"pathSuggestion": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr", "🇳🇱Ldm" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 12 }
+			]
 		},
 		{
 			"group": 0,
@@ -4660,7 +4679,7 @@
 		},
 		{
 			"group": 0,
-			"name": "Umleiter von %s nach %s ",
+			"name": "Umleiter von %s nach %s",
 			"service": 4,
 			"descriptions": [
 				"Zwischen Hagen und Wuppertal gab es eine Entgleisung. Bringe den Umleiter nach %2$s."
@@ -4708,7 +4727,7 @@
 			"objects": [
 				{
 					"stations": [ "XVS", "XVM", "XDKH", "HBTH", "BL", "DH" ],
-					"pathSuggestion": [ "XVS", "🇸🇪HD", "🇸🇪JN", "XVK", "XVNC", "XVM", "XDKH", "XDRI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ABLZ", "AROG", "HB", "HO", "HR", "HBTH", "XNHL", "🇳🇱Dv", "XNAH", "EOB", "EDG", "EE", "EDO", "EHM", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HLER", "HWOB", "LS", "BSPD", "BL", "BBF", "BDKO", "BEW", "DGB", "DH" ]
+					"pathSuggestion": [ "XVS", "🇸🇪HD", "🇸🇪JN", "XVK", "XVNC", "XVM", "XDKH", "XDRI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ABLZ", "AROG", "HB", "HO", "HR", "HBTH", "XNHL", "🇳🇱Wdn", "🇳🇱Dv", "🇳🇱Zp", "XNAH", "🇳🇱Zv", "EOB", "EDG", "EE", "EDO", "EHM", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HLER", "HWOB", "LS", "BSPD", "BL", "BBF", "BDKO", "BEW", "DGB", "DH" ]
 				}
 			],
 			"neededCapacity": [
@@ -4736,8 +4755,8 @@
 			"name": "Sonderzug zum Fusion Festival %s nach %s",
 			"service": 4,
 			"descriptions": [
-				"Verbinde die Metrople und das Festivalgelände ",
-				"Bring das Partyvolk nach %2$s"
+				"Verbinde die Metrople und das Festivalgelände.",
+				"Bring das Partyvolk nach %2$s."
 			],
 			"stations": [ "WMIR" ],
 			"neededCapacity": [
@@ -4843,7 +4862,7 @@
 				"Bediene die Regionalleistung zwischen %s und %s."
 			],
 			"stations": [ "XDTI", "XDRI", "XDBOP", "XDVI", "XDHT", "XDKH" ],
-			"stopsEverwhere": true,
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -4893,7 +4912,7 @@
 				},
 				{
 					"stations": [ "BL", "FF", "XFSTG", "XLL", "XBB", "XNAC", "AH", "XDKH", "XVS" ],
-					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFN", "XFFD", "XFPS", "XFMZV", "XLL", "XBB", "🇳🇱Zlw", "XNRC", "XNAC", "XNU", "XNAH", "EOB", "EG", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ]
+					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RM", "RSAB", "RGN", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFN", "XFFD", "XFPS", "XFMZV", "XLL", "XBB", "🇳🇱Zlw", "XNRC", "XNAC", "XNU", "XNAH", "🇳🇱Zv", "EOB", "EG", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ]
 				},
 				{
 					"stations": [ "XFSTG", "XSBE", "XIMB", "XIVP", "XAWW", "XMBK", "XJBC", "ZAS", "XGT", "XWS", "XQIS" ],
@@ -5113,6 +5132,20 @@
 					],
 					"stations": [ "AA", "AH", "AHAR", "HH", "HG", "FFU", "NWH", "MA", "MH", "XASB", "XABO", "XASW", "XABH", "XABG", "XAMO", "XASP", "XAVH", "XAVE", "XAPW", "XAKR", "XAKT"],
 					"pathSuggestion": [ "AA", "AH", "AHAR", "ABLZ", "HH", "HG", "HEBG", "FB", "FFU", "NBN", "NGM", "NWH", "TL", "TC", "TGL", "MDT", "MA", "MH", "MHR", "MGB", "MRO", "MTS" , "MFL", "XASB", "XABO", "XASW", "XABH", "XABG", "XAMO", "XASP", "XAVH", "XAVE", "XAPW", "XAKR", "XAKT" ]
+				},
+				{
+					"descriptions": [
+						"Fahre den TEE Erasmus von %s nach %s"
+					],
+					"stations": [ "🇳🇱Gv", "XNU", "XNAH", "EOB", "EDG", "KD", "KK", "KB", "KKO", "FMZ", "FF", "NWH", "MA", "MH" ],
+					"pathSuggestion": [ "🇳🇱Gv", "🇳🇱Gd", "🇳🇱Wd", "XNU", "XNAH", "🇳🇱Zv", "EEM", "EOB", "EDG", "KD", "KK", "KKAS", "KB", "KKO", "FBGK", "FMZ", "FFLF", "FF", "FH", "NAH", "NLO", "NGM", "NWH", "TL", "TC", "TGL", "MDT", "MA", "MH" ]
+				},
+				{
+					"descriptions": [
+						"Fahre den TEE Edelweiss von %s nach %s"
+					],
+					"stations": [ "XNAC", "XNRC", "XBAC", "XBB", "XBNA", "XLL", "XFMZV", "XFSTG", "XFMV", "XSB", "XSZH" ],
+					"pathSuggestion": [ "XNAC", "XNSP", "XNRC", "🇳🇱Brd", "🇳🇱Zlw", "🇧🇪NDK", "XBAC", "XBMCH", "XBB", "XBOT", "XBNA", "XBAR", "XLL", "XFTHV", "XFMZV", "XFPS", "XFFD", "XFN", "XFLU", "XFRD", "XFSV", "XFVH", "XFSTG", "XFSL", "XFC", "XFMV", "XSB", "XSOL", "XSKS", "XSZH" ]
 				},
 				{
 					"descriptions": [
@@ -5344,6 +5377,56 @@
 				}
 			],
 			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 17 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von % nach %s."
+			],
+			"objects": [
+				{
+					"stations": ["XLWZ", "XLKT"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 12 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von % nach %s."
+			],
+			"objects": [
+				{
+					"stations": ["XLDK", "XLL"],
+					"stopsEverwhere": true
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 15 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von % nach %s."
+			],
+			"objects": [
+				{
+					"stations": ["XLTV", "XLL"],
+					"stopsEverwhere": true
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -5624,10 +5707,28 @@
 			"objects": [
 				{
 					"stations": [ "XNSP", "XNAC", "🇳🇱Amf", "🇳🇱Apd", "🇳🇱Dv", "🇳🇱Aml", "XNHL", "XNES" ],
-					"pathSuggestion": [ "XNSP", "XNAC", "🇳🇱Wp", "🇳🇱Amf", "🇳🇱Apd", "🇳🇱Dv", "🇳🇱Aml", "XNHL", "XNES" ]
+					"pathSuggestion": [ "XNSP", "XNAC", "🇳🇱Wp", "🇳🇱Amf", "🇳🇱Apd", "🇳🇱Dv", "🇳🇱Wdn", "🇳🇱Aml", "XNHL", "XNES" ]
 				},
 				{
 					"stations": [ "XNSP", "XNAC", "XNU", "XNAH" ]
+				},
+				{
+					"stations": ["XNRC", "XNU", "🇳🇱Amf", "🇳🇱Zl", "🇳🇱Asn", "🇳🇱Gn"]
+				},
+				{
+					"stations": ["XNRC", "XNU", "🇳🇱Amf", "🇳🇱Zl", "🇳🇱Mp", "🇳🇱Lw"]
+				},
+				{
+					"stations": ["XNMT", "XNSI", "XNRM", "XNWT", "XNEI", "🇳🇱Ht", "XNU", "XNAC", "🇳🇱Amr", "🇳🇱Sgn", "🇳🇱Hdr"]
+				},
+				{
+					"stations": ["🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Bd", "🇳🇱Tb", "XNEI"]
+				},
+				{
+					"stations": ["XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Ddr", "🇳🇱Rsd", "🇳🇱Vs"]
+				},
+				{
+					"stations": ["🇳🇱Lls", "🇳🇱Almb", "🇳🇱Alm", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Ddr"]
 				}
 			]
 		},
@@ -6908,6 +7009,131 @@
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Laipni lūgti Latvijā! Dein EVU wurde beauftragt von %s nach %s zu fahren. Paldies!",
+				"Fahre durch die schönen Landschaften von Lettland und verbinde %s mit %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻SKL", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻SRA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻CNK", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"%s oder eher %s? Bitte fahre eine Leistung zwischen den beiden Stationen!",
+				"Nākamā pietura %s! Galapunkts. Fahre einen Zug zwischen %s und %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻TII", "🇱🇻TNK", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻SLO", "🇱🇻TNK", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻DTI", "🇱🇻TNK", "🇱🇻RIX" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Du wirst gebeten eine Leistung von %s nach %s zu fahren.",
+				"Nākamā pietura %s! Fahre einen Zug zwischen %s und %s."
+			],
+			"stations": [ "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre durch die schöne Landschaft und verbinde %s mit %s.",
+				"Riga, Aizkraukle, oder eher Daugavpils? Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻OGR", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻AIZ", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻DGP", "🇱🇻KRS", "🇱🇻RIX" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre durch die schöne Landschaft und verbinde %s mit %s.",
+				"Verbinde %s mit %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇪🇪VLG", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻VLM", "🇱🇻ZMT", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻SGD", "🇱🇻ZMT", "🇱🇻RIX" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 0,
+			"name": "Testfahrt von %s nach %s",
+			"service": 4,
+			"descriptions": [
+				"Pasažieru vilciens bittet dich einen Zug nach der Modernisierung zu testen. Dazu fährst du von %s nach %s.",
+				"Nach intensiven Bauarbeiten wurde die Strecke fertiggestellt. Fahre zur Erprobung der Schienen zwischen %s und %s. ",
+				"Die Bahnsteige in %1$s wurden gerade erhöht. Zur Erprobung wirst du gebeten eine Leistung zwischen %s und %s zu fahren."
+			],
+
+			"stations": [ "🇱🇻GKL", "🇱🇻RIX" ],
+			"pathSuggestion": [ "🇱🇻GKL", "🇱🇻ZMT", "🇱🇻RIX" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
 			]
 		}
 	]

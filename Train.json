@@ -2118,6 +2118,69 @@
 			]
 		},
 		{
+			"id": 371002,
+			"group": 2,
+			"name": "ER2",
+			"speed": 130,
+			"weight": 265,
+			"force": 263,
+			"length": 117,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 500000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 60,
+			"equipments": ["EE","LV","LT","1520mm"],
+			"exchangeTime": 40,
+			"compatibleWith": [
+				371003
+			],
+			"capacity": [
+				{"name": "passengers", "value": 630}
+			]
+		},
+		{
+			"id": 371016,
+			"group": 2,
+			"name": "Škoda 16Ev",
+			"speed": 160,
+			"weight": 238,
+			"force": 340,
+			"length": 105,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 562000,
+			"maxConnectedUnits": 4,
+			"operationCosts": 60,
+			"equipments": ["LV","1520mm","ETCS"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 400}
+			]
+		},
+		{
+			"id": 371003,
+			"group": 2,
+			"name": "ER2T",
+			"speed": 130,
+			"weight": 176,
+			"force": 263,
+			"length": 78,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 500000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 60,
+			"equipments": ["EE","LV","LT","1520mm"],
+			"exchangeTime": 40,
+			"compatibleWith": [
+				371002
+			],
+			"capacity": [
+				{"name": "passengers", "value": 420}
+			]
+		},
+		{
 			"id": 83470,
 			"group": 2,
 			"name": "Cisalpino-Pendolino",
@@ -2196,6 +2259,50 @@
 			"exchangeTime": 40,
 			"capacity": [
 				{"name": "passengers", "value": 199}
+			]
+		},
+		{
+			"id": 371001,
+			"group": 2,
+			"name": "DR1AM",
+			"speed": 120,
+			"weight": 140,
+			"force": 75,
+			"length": 77,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 600000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 60,
+			"equipments": ["EE","LV","LT","1520mm"],
+			"exchangeTime": 40,
+			"compatibleWith": [
+				371011
+			],
+			"capacity": [
+				{"name": "passengers", "value": 270}
+			]
+		},
+		{
+			"id": 371011,
+			"group": 2,
+			"name": "DR1A",
+			"speed": 120,
+			"weight": 240,
+			"force": 129,
+			"length": 152,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 620000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 60,
+			"equipments": ["EE","LV","LT","1520mm"],
+			"exchangeTime": 40,
+			"compatibleWith": [
+				371001
+			],
+			"capacity": [
+				{"name": "passengers", "value": 541}
 			]
 		},
 		{
@@ -2877,7 +2984,8 @@
 		{
 			"id": 54810,
 			"group": 2,
-			"name": "ČD/ZSSK-Baureihe 810",
+			"name": "ČD/ZSSK-Baureihe 810 (ČSD M152)",
+			"shortcut": "ČD 810",
 			"speed": 80,
 			"weight": 20,
 			"force": 29,
@@ -2887,7 +2995,7 @@
 			"cost": 180000,
 			"maxConnectedUnits": 4,
 			"operationCosts": 30,
-			"equipments": ["CZ", "SK", "HU"],
+			"equipments": ["CZ", "SK", "HU", "DE", "AT", "PL"],
 			"exchangeTime": 35,
 			"capacity": [
 				{"name": "passengers", "value": 55}
@@ -3446,7 +3554,7 @@
 			"cost": 370000,
 			"operationCosts": 105,
 			"equipments": ["FR", "CH", "ES" ]
-		},	
+		},
 		{
 			"id": 8737000,
 			"group": 0,
@@ -4379,7 +4487,7 @@
 			"force": 300,
 			"length": 19,
 			"drive": 6,
-			"range": 100,			
+			"range": 100,
 			"reliability": 1,
 			"cost": 500000,
 			"operationCosts": 105,
@@ -4413,7 +4521,7 @@
 			"cost": 520000,
 			"operationCosts": 95,
 			"equipments": ["MA"]
-		},		
+		},
 		{
 			"id": 5,
 			"group": 0,
@@ -4556,6 +4664,20 @@
 			"cost": 100000,
 			"operationCosts": 100,
 			"equipments": ["CH", "DE"]
+		},
+		{
+			"id": 371070,
+			"group": 0,
+			"name": "TEP70",
+			"speed": 160,
+			"weight": 135,
+			"force": 167,
+			"length": 21,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 100000,
+			"operationCosts": 100,
+			"equipments": ["LV", "EE", "LT", "RU"]
 		},
 		{
 			"id": 100,
@@ -6097,7 +6219,7 @@
 			"capacity": [
 				{"name": "cars", "value": 12}
 			]
-		},		
+		},
 		{
 			"id": 8,
 			"group": 1,
@@ -6422,7 +6544,7 @@
 			"cost": 1300000,
 			"maxConnectedUnits": 1,
 			"compatibleWith": [ 40100, 9300, 353 ],
-			"equipments": ["1435mm", "1668mm"],			
+			"equipments": ["1435mm", "1668mm"],
 			"exchangeTime": 90,
 			"equivalentTo": 16,
 			"capacity": [
