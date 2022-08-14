@@ -2516,6 +2516,178 @@
 			]
 		},
 		{
+			"id": 20200200,
+			"group": 2,
+			"name": "SŽD-Baureihe ER200",
+			"speed": 200,
+			"weight": 442,
+			"force": 140,
+			"length": 208,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 1600000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 170,
+			"equipments": [ "RU", "1520mm" ],
+			"exchangeTime": 120,
+			"capacity": [
+				{ "name": "passengers", "value": 416 }
+			]
+		},
+		{
+			"id": 20403,
+			"group": 2,
+			"name": "RŽD-Baureihe EWS1",
+			"speed": 250,
+			"weight": 662,
+			"force": 328,
+			"length": 250,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 5000000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 100,
+			"equipments": ["RU", "1520mm"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 604},
+				{"name": "bistroseats", "value": 22 }
+			]
+		},
+		{
+			"id": 20294294,
+			"group": 2,
+			"name": "RŽD-Baureihe ES1",
+			"speed": 160,
+			"weight": 270,
+			"force": 170,
+			"length": 120,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 600000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 50,
+			"equipments": [ "RU", "1520mm" ],
+			"exchangeTime": 60,
+			"capacity": [
+				{ "name": "passengers", "value": 466 }
+			]
+		},
+		{
+			"id": 20130130,
+			"group": 2,
+			"name": "SŽD-Baureihe ED2T",
+			"speed": 130,
+			"weight": 254,
+			"force": 130,
+			"length": 110,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 450000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 70,
+			"equipments": [ "UA", "RU", "1520mm" ],
+			"exchangeTime": 80,
+			"capacity": [
+				{ "name": "passengers", "value": 550 }
+			]
+		},
+		{
+			"id": 20130130,
+			"group": 2,
+			"name": "SŽD-Baureihe ED9",
+			"speed": 130,
+			"weight": 480,
+			"force": 170,
+			"length": 200,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 800000,
+			"maxConnectedUnits": 1,
+			"operationCosts": 130,
+			"equipments": [ "UA", "RU", "1520mm" ],
+			"exchangeTime": 80,
+			"capacity": [
+				{ "name": "passengers", "value": 1100 }
+			]
+		},
+		{
+			"id": 20001035,
+			"group": 2,
+			"name": "SŽD-Baureihe ED9",
+			"speed": 130,
+			"weight": 220,
+			"force": 200,
+			"length": 101,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 600000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 65,
+			"equipments": [ "UA", "1520mm" ],
+			"exchangeTime": 80,
+			"capacity": [
+				{ "name": "passengers", "value": 510 }
+			]
+		},
+		{
+			"id": 20675471,
+			"group": 2,
+			"name": "UZ-Baureihe EJ 675",
+			"speed": 160,
+			"weight": 334,
+			"force": 180,
+			"length": 158,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 600000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 55,
+			"equipments": [ "UA", "LV", "1520mm" ],
+			"exchangeTime": 60,
+			"capacity": [
+				{ "name": "passengers", "value": 623 }
+			]
+		},
+		{
+			"id": 202014,
+			"group": 2,
+			"name": "Stadler KISS 160 1520mm",
+			"shortcut": "RŽD-Baureihe ESh2",
+			"speed": 160,
+			"weight": 349,
+			"force": 400,
+			"length": 155,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 900000,
+			"operationCosts": 70,
+			"maxConnectedUnits": 2,
+			"equipments": ["RU"],
+			"capacity": [
+				{"name": "passengers", "value": 842}
+			]
+		},
+		{
+			"id": 2020112012,
+			"group": 2,
+			"name": "UZ-Baureihe HRCS2",
+			"speed": 176,
+			"weight": 310,
+			"force": 250,
+			"length": 196,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 900000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 60,
+			"equipments": [ "UA", "1520mm" ],
+			"exchangeTime": 90,
+			"capacity": [
+				{ "name": "passengers", "value": 579 }
+			]
+		},		
+		{
 			"id": 563,
 			"group": 2,
 			"name": "Siemens Mireo Plus H",
