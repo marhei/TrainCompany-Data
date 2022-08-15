@@ -1881,6 +1881,239 @@
 			]
 		},
 		{
+			"id": 71730,
+			"group": 2,
+			"name": "RENFE-Baureihe 730",
+			"speed": 250,
+			"weight": 361,
+			"force": 240,
+			"length": 186,
+			"drive": 4,
+			"reliability": 1,
+			"equipments": ["ETCS", "ES", "1668mm", "1435mm"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 262},
+				{"name": "bistroseats", "value": 14}
+			],
+			"cost": 5000000,
+			"operationCosts": 130
+		},
+		{
+			"id": 71120,
+			"group": 2,
+			"name": "RENFE-Baureihe 120",
+			"speed": 250,
+			"weight": 225,
+			"force": 150,
+			"length": 107,
+			"drive": 4,
+			"reliability": 1,
+			"equipments": ["ETCS", "ES", "1668mm", "1435mm"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 235},
+				{"name": "bistroseats", "value": 8}
+			],
+			"cost": 4100000,
+			"operationCosts": 100
+		},	
+		{
+			"id": 71103,
+			"group": 2,
+			"name": "RENFE-Baureihe 103",
+			"speed": 350,
+			"weight": 425,
+			"force": 283,
+			"length": 201,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 4700000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 85,
+			"equipments": ["ETCS", "ES"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 425},
+				{"name": "bistroseats", "value": 22 }
+			]
+		},	
+		{
+			"id": 71440,
+			"group": 2,
+			"name": "RENFE-Baureihe 440",
+			"speed": 140,
+			"weight": 150,
+			"force": 290,
+			"length": 80,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 260000,
+			"maxConnectedUnits": 4,
+			"operationCosts": 65,
+			"equipments": ["ES", "1668mm"],
+			"exchangeTime": 35,
+			"capacity": [
+				{"name": "passengers", "value": 240}
+			]
+		},
+		{
+			"id": 71447,
+			"group": 2,
+			"name": "RENFE-Baureihe 447",
+			"speed": 120,
+			"weight": 157,
+			"force": 290,
+			"length": 75,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 350000,
+			"maxConnectedUnits": 4,
+			"operationCosts": 65,
+			"equipments": ["ES", "1668mm"],
+			"exchangeTime": 30,
+			"capacity": [
+				{"name": "passengers", "value": 234}
+			]
+		},
+		{
+			"id": 71448,
+			"group": 2,
+			"name": "RENFE-Baureihe 448",
+			"speed": 160,
+			"weight": 151,
+			"force": 240,
+			"length": 75,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 320000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 95,
+			"equipments": ["ES", "1668mm"],
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 212}
+			]
+		},	
+		{
+			"id": 71450943500,
+			"group": 2,
+			"name": "RENFE-Baureihe 450/CP-Baureihe 3500",
+			"speed": 140,
+			"weight": 225,
+			"force": 350,
+			"length": 107,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 750000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 100,
+			"equipments": ["ES", "PT", "1668mm"],
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 476}
+			]
+		},
+		{
+			"id": 71464,
+			"group": 2,
+			"name": "RENFE-Baureihe 464",
+			"speed": 160,
+			"weight": 132,
+			"force": 300,
+			"length": 80,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 470000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 60,
+			"equipments": ["ES", "1668mm"],
+			"exchangeTime": 30,
+			"capacity": [
+				{"name": "passengers", "value": 223}
+			]
+		},
+		{
+			"id": 942240,
+			"group": 2,
+			"name": "CP-Baureihe 2240",
+			"speed": 120,
+			"weight": 136,
+			"force": 180,
+			"length": 71,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 330000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 65,
+			"equipments": ["PT", "1668mm"],
+			"exchangeTime": 50,
+			"capacity": [
+				{"name": "passengers", "value": 252}
+			]
+		},
+		{
+			"id": 942300,
+			"group": 2,
+			"name": "CP-Baureihe 2300",
+			"speed": 120,
+			"weight": 180,
+			"force": 225,
+			"length": 96,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 370000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 55,
+			"equipments": ["PT", "1668mm"],
+			"exchangeTime": 30,
+			"capacity": [
+				{"name": "passengers", "value": 316}
+			]
+		},	
+		{
+			"id": 943400,
+			"group": 2,
+			"name": "CP-Baureihe 3400",
+			"speed": 140,
+			"weight": 116,
+			"force": 240,
+			"length": 67,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 450000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 50,
+			"equipments": ["PT", "1668mm"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 250}
+			]
+		},	
+		{
+			"id": 944000,
+			"group": 2,
+			"name": "Alfa Pendular",
+			"shortcut": "RENFE-Baureihe 103",
+			"speed": 220,
+			"weight": 298,
+			"force": 210,
+			"length": 158,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 2200000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 60,
+			"equipments": ["PT", "1668mm"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 299},
+				{"name": "bistroseats", "value": 18}
+			]
+		},		
+		{
 			"id": 72412,
 			"group": 2,
 			"name": "JŽ 412/ BDŽ 33",
