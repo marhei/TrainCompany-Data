@@ -5090,10 +5090,17 @@
 				},
 				{
 					"start": "XFRGC",
-					"end": "XFM",
-					"length": 27,
+					"end": "XFLES",
+					"length": 17,
 					"maxSpeed": 150,
 					"twistingFactor": 0.24
+				},
+				{
+					"start": "XFLES",
+					"end": "XFM",
+					"maxSpeed": 150,
+					"length": 10,
+					"twistingFactor": 0.34
 				}
 			]
 		},
@@ -17717,6 +17724,95 @@
 					"end": "XFNB",
 					"length": 51,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"name": "Ligne de la Côte Bleue",
+			"group": 1,
+			"maxSpeed": 105,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFMI",
+					"end": "🇫🇷ISR",
+					"length": 11,
+					"twistingFactor": 0.4,
+					"maxSpeed": 120,
+					"electrified": true
+				},
+				{
+					"start": "🇫🇷ISR",
+					"end": "🇫🇷RAU",
+					"length": 2,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷RAU",
+					"end": "🇫🇷FOS",
+					"length": 8,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇫🇷FOS",
+					"end": "🇫🇷PDB",
+					"length": 2,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇫🇷PDB",
+					"end": "🇫🇷XST",
+					"length": 2,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷XST",
+					"end": "XFMAG",
+					"length": 2,
+					"twistingFactor": 0.2,
+					"maxSpeed": 115
+				},
+				{
+					"start": "XFMAG",
+					"end": "🇫🇷CRQ",
+					"length": 6,
+					"twistingFactor": 0.18,
+					"maxSpeed": 115
+				},
+				{
+					"start": "🇫🇷CRQ",
+					"end": "🇫🇷SPJ",
+					"length": 5,
+					"twistingFactor": 0.16,
+					"maxSpeed": 115
+				},
+				{
+					"start": "🇫🇷SPJ",
+					"end": "🇫🇷CRR",
+					"length": 3,
+					"twistingFactor": 0.08,
+					"maxSpeed": 115
+				},
+				{
+					"start": "🇫🇷CRR",
+					"end": "🇫🇷RDS",
+					"length": 3,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷RDS",
+					"end": "🇫🇷NLO",
+					"length": 5,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷NLO",
+					"end": "XFLES",
+					"length": 6,
+					"twistingFactor": 0.17
 				}
 			]
 		},
