@@ -5169,6 +5169,25 @@
 		},
 		{
 			"group": 1,
+			"name": "Pannonia Express von %s bis %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre den Pannonia Express von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "BHF", "DH", "DSA", "XTD", "XTP", "XTBR", "XYB", "XMBK", "XJBC", "XWS"],
+					"pathSuggestion": [ "BHF", "BL", "BBF", "BDKO", "BEW", "DGB", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW", "XYB", "XMBK", "XJST", "XJSP", "XJBC", "XJA", "XJNI", "XJP", "XWS"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 500 },
+				{ "name": "bistroseats", "value": 50 },
+				{ "name": "beds", "value":  200 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Fernverkehrsleistung im Schweden",
 			"service": 0,
 			"descriptions": [
