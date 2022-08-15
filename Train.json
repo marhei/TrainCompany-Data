@@ -7146,6 +7146,98 @@
 			]
 		},
 		{
+			"id": 9419751,
+			"group": 1,
+			"name": "CP-Corail-Wagen",
+			"shortcut": "CP 21-97",
+			"speed": 200,
+			"weight": 42,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 190000,
+			"equipments": ["1668mm"],			
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 88}
+			]
+		},
+		{
+			"id": 9419752,
+			"group": 1,
+			"name": "CP-Corail-Speisewagen",
+			"shortcut": "CP 21-97",
+			"speed": 200,
+			"weight": 46,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 220000,
+			"equipments": ["1668mm"],			
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "passengers", "value": 28},
+				{"name": "bistroseats", "value": 18}				
+			]
+		},
+		{
+			"id": 9419753,
+			"group": 1,
+			"name": "CP-Sorefame-Wagen",
+			"shortcut": "CP 85-97",
+			"speed": 200,
+			"weight": 44,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 185000,
+			"equipments": ["1668mm"],			
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 88}
+			]
+		},
+		{
+			"id": 9419753,
+			"group": 1,
+			"name": "CP-Sorefame-Speisewagen",
+			"shortcut": "CP 21-97",
+			"speed": 200,
+			"weight": 48,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 215000,
+			"equipments": ["1668mm"],			
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "passengers", "value": 28},
+				{"name": "bistroseats", "value": 18}				
+			]
+		},
+		{
+			"id": 9419752,
+			"group": 1,
+			"name": "CP-Schlafwagen",
+			"shortcut": "CP 711-70",
+			"speed": 160,
+			"weight": 50,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 220000,
+			"equipments": ["1668mm"],			
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "beds", "value": 40}				
+			]
+		},		
+		{
 			"id": 20212223241,
 			"group": 1,
 			"name": "Ammendorf-Schlafwagen",
@@ -7751,6 +7843,28 @@
 			]
 		},
 		{
+			"id": 714449501,
+			"group": 3,
+			"name": "Talgo 7 Tagzug der RENFE",
+			"shortcut": "Talgo 7 Tagzug RENFE",
+			"speed": 220,
+			"weight": 153,
+			"force": 0,
+			"length": 122,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 1200000,
+			"maxConnectedUnits": 2,
+			"compatibleWith": [71251252,7133394600],
+			"equipments": ["1435mm", "1668mm"],			
+			"exchangeTime": 90,
+			"equivalentTo": 9,
+			"capacity": [
+				{"name": "passengers", "value": 237 },
+				{"name": "bistroseats", "value": 12 }
+			]
+		},		
+		{
 			"id": 4449501,
 			"group": 3,
 			"name": "Talgo 7 Tagzug der ŽFBH",
@@ -7772,6 +7886,29 @@
 			]
 		},
 		{
+			"id": 714449502,
+			"group": 3,
+			"name": "Talgo 7 Nachtzug der RENFE",
+			"shortcut": "Talgo 7 Nachtzug RENFE",
+			"speed": 220,
+			"weight": 153,
+			"force": 0,
+			"length": 122,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 1400000,
+			"maxConnectedUnits": 2,
+			"compatibleWith": [71251252,7133394600],
+			"equipments": ["1435mm", "1668mm"],	
+			"exchangeTime": 180,
+			"equivalentTo": 9,
+			"capacity": [
+				{"name": "passengers", "value": 128 },
+				{"name": "bistroseats", "value": 12 },
+				{"name": "beds", "value": 58}
+			]
+		},		
+		{
 			"id": 4449502,
 			"group": 3,
 			"name": "Talgo 7 Nachtzug der ŽFBH",
@@ -7792,7 +7929,7 @@
 				{"name": "bistroseats", "value": 12 },
 				{"name": "beds", "value": 58}
 			]
-		},
+		},		
 		{
 			"id": 202017,
 			"group": 3,
