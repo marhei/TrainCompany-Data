@@ -7653,6 +7653,34 @@
 					"pathSuggestion": [ "RK", "TPH", "TV", "TS", "TKH", "TH", "TOE", "TC", "NSNE", "NAN", "NN", "NER", "NBA", "NED", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
 				}
 			]
+		},
+		{
+			"group": 1,
+			"name": "IC von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Fahre den IC queer durch Deutschland.",
+				"Lass die FahrgÃ¤ste ganz Deutschland erkunden.",
+				"Bring den IC von Ost nach West"			
+			],
+			"objects": [
+				{
+					"stations": [ "MH", "MA", "MGZB", "TU", "TG", "TGO", "TP", "TS", "TV", "RBR" "RH", "RM", "FWOR", "FMZ", "KKO", "KRE", "KB", "KK", "KM" ],
+					"pathSuggestion": [ "MH", "MA", "MGZB", "TU", "TG", "TGO", "TP", "TS", "TV", "RBR", "RH", "RMF", "RM", "FWOR", "FMZ", "FBGK", "KKO", "KB", "KK", "KGRB", "KM" ]
+				},
+				{
+					"stations": [ "MGP", "MWH", "MH", "NN", "NF", "NBA", "US", "UNM", "LL", "LH", "LM", "LS", "WW" ],
+					"pathSuggestion": [ "MGP", "MMU", "MWH", "MTZ", "MH", "MDA", "MIH", "NN", "NF", "NBA", "NED", "NHM", "US", "UGW", "UGH", "LL", "LGOS", "LH", "LM", "LS", "WW", ]
+				},
+				{
+					"stations": [ "BHF", "BL", "BSPD", "HWOB", "HH", "EPD", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK", "KDN", "KA" ],
+					"pathSuggestion": [ "BHF", "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HHM", "HA", "EPD", "EHM", "EDO", "EE", "EDG", "KDFF", "KD", "KLIM", "KK", "KHR", "KDN", "KA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
 		}
 	]
 }
