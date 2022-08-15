@@ -4674,10 +4674,17 @@
 				},
 				{
 					"start": "XFRGC",
-					"end": "XFM",
-					"length": 27,
+					"end": "XFLES",
+					"length": 17,
 					"maxSpeed": 150,
 					"twistingFactor": 0.24
+				},
+				{
+					"start": "XFLES",
+					"end": "XFM",
+					"maxSpeed": 150,
+					"length": 10,
+					"twistingFactor": 0.34
 				}
 			]
 		},
@@ -12994,7 +13001,9 @@
 			"group": 1,
 			"twistingFactor": 0.2,
 			"maxSpeed": 120,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Mrb",
@@ -13074,7 +13083,9 @@
 			"electrified": false,
 			"twistingFactor": 0.15,
 			"maxSpeed": 130,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Zp",
@@ -13103,7 +13114,9 @@
 			"group": 1,
 			"twistingFactor": 0.25,
 			"maxSpeed": 120,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Zp",
@@ -13137,7 +13150,9 @@
 			"maxSpeed": 130,
 			"twistingFactor": 0.2,
 			"group": 1,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Ww",
@@ -13192,7 +13207,10 @@
 			"electrified": true,
 			"maxSpeed": 120,
 			"twistingFactor": 0.1,
-			"neededEquipments": ["NL", "ETCS"],
+			"neededEquipments": [
+				"NL",
+				"ETCS"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Zv",
@@ -17294,6 +17312,95 @@
 			]
 		},
 		{
+			"electrified": false,
+			"name": "Ligne de la Côte Bleue",
+			"group": 1,
+			"maxSpeed": 105,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFMI",
+					"end": "🇫🇷ISR",
+					"length": 11,
+					"twistingFactor": 0.4,
+					"maxSpeed": 120,
+					"electrified": true
+				},
+				{
+					"start": "🇫🇷ISR",
+					"end": "🇫🇷RAU",
+					"length": 2,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷RAU",
+					"end": "🇫🇷FOS",
+					"length": 8,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇫🇷FOS",
+					"end": "🇫🇷PDB",
+					"length": 2,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇫🇷PDB",
+					"end": "🇫🇷XST",
+					"length": 2,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷XST",
+					"end": "XFMAG",
+					"length": 2,
+					"twistingFactor": 0.2,
+					"maxSpeed": 115
+				},
+				{
+					"start": "XFMAG",
+					"end": "🇫🇷CRQ",
+					"length": 6,
+					"twistingFactor": 0.18,
+					"maxSpeed": 115
+				},
+				{
+					"start": "🇫🇷CRQ",
+					"end": "🇫🇷SPJ",
+					"length": 5,
+					"twistingFactor": 0.16,
+					"maxSpeed": 115
+				},
+				{
+					"start": "🇫🇷SPJ",
+					"end": "🇫🇷CRR",
+					"length": 3,
+					"twistingFactor": 0.08,
+					"maxSpeed": 115
+				},
+				{
+					"start": "🇫🇷CRR",
+					"end": "🇫🇷RDS",
+					"length": 3,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷RDS",
+					"end": "🇫🇷NLO",
+					"length": 5,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷NLO",
+					"end": "XFLES",
+					"length": 6,
+					"twistingFactor": 0.17
+				}
+			]
+		},
+		{
 			"name": "Spoorlijn 12",
 			"electrified": true,
 			"group": 0,
@@ -17325,7 +17432,9 @@
 			"group": 0,
 			"electrified": true,
 			"twistingFactor": 0.1,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"maxSpeed": 140,
 			"objects": [
 				{
@@ -17413,7 +17522,10 @@
 			"name": "Havenspoorlijn Rotterdam",
 			"group": 0,
 			"maxSpeed": 80,
-			"neededEquipments": ["ETCS", "NL"],
+			"neededEquipments": [
+				"ETCS",
+				"NL"
+			],
 			"twistingFactor": 0.4,
 			"objects": [
 				{
@@ -21804,7 +21916,9 @@
 			"electrified": false,
 			"group": 1,
 			"twistingFactor": 0.2,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Gn",
@@ -21852,7 +21966,9 @@
 		{
 			"maxSpeed": 80,
 			"electrified": false,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"group": 1,
 			"twistingFactor": 0.25,
 			"objects": [
@@ -22207,7 +22323,9 @@
 			"twistingFactor": 0.15,
 			"group": 1,
 			"electrified": true,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Zl",
@@ -22687,7 +22805,9 @@
 			"group": 0,
 			"maxSpeed": 130,
 			"twistingFactor": 0.15,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"name": "Staatslijn H",
 			"objects": [
 				{
@@ -22826,7 +22946,9 @@
 			"group": 1,
 			"maxSpeed": 130,
 			"twistingFactor": 0.15,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"objects": [
 				{
 					"start": "🇳🇱Zl",
@@ -23116,7 +23238,9 @@
 		{
 			"group": 1,
 			"maxSpeed": 100,
-			"neededEquipments": ["NL"],
+			"neededEquipments": [
+				"NL"
+			],
 			"twistingFactor": 0.2,
 			"electrified": false,
 			"name": "Betuwelijn",
@@ -23892,7 +24016,9 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": ["LU"],
+			"neededEquipments": [
+				"LU"
+			],
 			"twistingFactor": 0.2,
 			"objects": [
 				{
@@ -24010,7 +24136,9 @@
 			"group": 0,
 			"twistingFactor": 0.2,
 			"maxSpeed": 80,
-			"neededEquipments": ["LU"],
+			"neededEquipments": [
+				"LU"
+			],
 			"objects": [
 				{
 					"start": "XLDK",
@@ -24023,7 +24151,9 @@
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.2,
-			"neededEquipments": ["LU"],
+			"neededEquipments": [
+				"LU"
+			],
 			"maxSpeed": 50,
 			"objects": [
 				{
@@ -32904,7 +33034,8 @@
 		},
 		{
 			"neededEquipments": [
-				"LV","1520mm"
+				"LV",
+				"1520mm"
 			],
 			"twistingFactor": 0.3,
 			"name": "Bahnstrecke Riga - Valga",
@@ -33028,7 +33159,9 @@
 					"length": 4,
 					"maxSpeed": 100,
 					"neededEquipments": [
-						"LV", "EE", "1520mm"
+						"LV",
+						"EE",
+						"1520mm"
 					]
 				}
 			],
@@ -33037,7 +33170,8 @@
 		{
 			"name": "Bahnstrecke Zemitāni - Skulte",
 			"neededEquipments": [
-				"LV","1520mm"
+				"LV",
+				"1520mm"
 			],
 			"electrified": true,
 			"group": 1,
@@ -33172,7 +33306,8 @@
 		},
 		{
 			"neededEquipments": [
-				"LV","1520mm"
+				"LV",
+				"1520mm"
 			],
 			"start": "🇱🇻ZMB",
 			"end": "🇱🇻RIHA",
@@ -33184,7 +33319,8 @@
 		{
 			"name": "Bahnstrecke Riga - Jelgava",
 			"neededEquipments": [
-				"LV","1520mm"
+				"LV",
+				"1520mm"
 			],
 			"group": 0,
 			"maxSpeed": 100,
@@ -33257,7 +33393,8 @@
 			"electrified": true,
 			"name": "Bahnstrecke Torņakalns - Tukums II",
 			"neededEquipments": [
-				"LV","1520mm"
+				"LV",
+				"1520mm"
 			],
 			"group": 0,
 			"objects": [
@@ -33422,13 +33559,13 @@
 					"twistingFactor": 0.15,
 					"maxSpeed": 80
 				}
-
 			]
 		},
 		{
 			"name": "Bahnstrecke Riga - Daugavpils",
 			"neededEquipments": [
-				"LV","1520mm"
+				"LV",
+				"1520mm"
 			],
 			"group": 0,
 			"objects": [
@@ -33719,7 +33856,8 @@
 					"end": "🇱🇻EGL",
 					"length": 10,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -33727,7 +33865,8 @@
 					"end": "🇱🇻🇱🇹",
 					"length": 2,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -33735,7 +33874,8 @@
 					"end": "🇱🇹OBL",
 					"length": 12,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33743,7 +33883,8 @@
 					"end": "🇱🇹KRS",
 					"length": 6,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33751,7 +33892,8 @@
 					"end": "🇱🇹TZI",
 					"length": 4,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33759,7 +33901,8 @@
 					"end": "🇱🇹PAM",
 					"length": 2,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33767,7 +33910,8 @@
 					"end": "🇱🇹SKS",
 					"length": 6,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33775,7 +33919,8 @@
 					"end": "🇱🇹KIS",
 					"length": 6,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33783,7 +33928,8 @@
 					"end": "🇱🇹RAZ",
 					"length": 4,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33791,7 +33937,8 @@
 					"end": "🇱🇹SAB",
 					"length": 4,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33799,7 +33946,8 @@
 					"end": "🇱🇹BYG",
 					"length": 2,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33807,7 +33955,8 @@
 					"end": "🇱🇹KAR",
 					"length": 2,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33815,7 +33964,8 @@
 					"end": "🇱🇹PNV",
 					"length": 4,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33823,7 +33973,8 @@
 					"end": "🇱🇹GUS",
 					"length": 4,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33831,7 +33982,8 @@
 					"end": "🇱🇹LAB",
 					"length": 4,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33839,7 +33991,8 @@
 					"end": "🇱🇹LAU",
 					"length": 2,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33847,7 +34000,8 @@
 					"end": "🇱🇹SED",
 					"length": 4,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33855,7 +34009,8 @@
 					"end": "🇱🇹RAD",
 					"length": 8,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33863,7 +34018,8 @@
 					"end": "🇱🇹KUT",
 					"length": 2,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33871,7 +34027,8 @@
 					"end": "🇱🇹MAN",
 					"length": 2,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -33879,14 +34036,16 @@
 					"end": "🇱🇹SQQ",
 					"length": 6,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				}
 			]
 		},
 		{
 			"neededEquipments": [
-				"LT","1520mm"
+				"LT",
+				"1520mm"
 			],
 			"electrified": false,
 			"maxSpeed": 120,
@@ -33941,14 +34100,14 @@
 			]
 		},
 		{
-		"neededEquipments": [
-			"LT"
-		],
-		"electrified": false,
-		"maxSpeed": 120,
-		"twistingFactor": 0.2,
-		"group": 0,
-		"objects": [
+			"neededEquipments": [
+				"LT"
+			],
+			"electrified": false,
+			"maxSpeed": 120,
+			"twistingFactor": 0.2,
+			"group": 0,
+			"objects": [
 				{
 					"start": "🇱🇹KUN",
 					"end": "🇱🇹MAR",
@@ -34697,7 +34856,8 @@
 		},
 		{
 			"neededEquipments": [
-				"LT","1520mm"
+				"LT",
+				"1520mm"
 			],
 			"electrified": false,
 			"maxSpeed": 120,
