@@ -20493,6 +20493,122 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 160,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFPO",
+					"end": "🇫🇷SVL",
+					"length": 16,
+					"twistingFactor": 0.2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇫🇷SVL",
+					"end": "🇫🇷PSY",
+					"length": 10,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷PSY",
+					"end": "🇫🇷VET",
+					"length": 8,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇫🇷VET",
+					"end": "🇫🇷EPO",
+					"length": 14,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷EPO",
+					"end": "XFMTE",
+					"length": 8,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XFMTE",
+					"end": "🇫🇷BNR",
+					"length": 11,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇫🇷BNR",
+					"end": "XFVNO",
+					"length": 11,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XFVNO",
+					"end": "XFGAA",
+					"length": 13,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "XFGAA",
+					"end": "XFVDR",
+					"length": 18,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "XFVDR",
+					"end": "🇫🇷RRD",
+					"length": 27,
+					"twistingFactor": 0.37,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇫🇷RRD",
+					"end": "🇫🇷MUA",
+					"length": 9,
+					"twistingFactor": 0.28,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇫🇷MUA",
+					"end": "🇫🇷BTM",
+					"length": 7,
+					"twistingFactor": 0.15,
+					"maxSpeed": 130
+				},
+				{
+					"start": "🇫🇷BTM",
+					"end": "XFMOT",
+					"length": 13,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XFMOT",
+					"end": "🇫🇷YVT",
+					"length": 7,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇫🇷YVT",
+					"end": "🇫🇷BNT",
+					"length": 20,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷BNT",
+					"end": "🇫🇷EAH",
+					"length": 14,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷EAH",
+					"end": "XFHV",
+					"length": 17,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"name": "West Coast Main Line",
 			"neededEquipments": [
 				"GB"
