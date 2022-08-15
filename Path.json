@@ -5324,10 +5324,10 @@
 				},
 				{
 					"start": "🇫🇷GUA",
-					"end": "🇫🇷SPM",
-					"length": 27,
-					"twistingFactor": 0.38,
-					"maxSpeed": 180
+					"end": "XFSZE",
+					"length": 1,
+					"twistingFactor": 0.2,
+					"maxSpeed": 140
 				},
 				{
 					"start": "🇫🇷SPM",
@@ -26524,6 +26524,36 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷GUA",
+					"end": "🇫🇷NVS",
+					"length": 20,
+					"twistingFactor": 0.3,
+					"maxSpeed": 150
+				},
+				{
+					"start": "🇫🇷NVS",
+					"end": "XFSZE",
+					"length": 10,
+					"twistingFactor": 0.3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "XFSZE",
+					"end": "🇫🇷SPM",
+					"length": 17,
+					"twistingFactor": 0.15,
+					"maxSpeed": 200
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"twistingFactor": 0.3,
 			"objects": [
 				{
@@ -28734,6 +28764,70 @@
 			"start": "DR",
 			"end": "LF",
 			"length": 32
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 105,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFSGF",
+					"end": "🇫🇷73261",
+					"length": 18,
+					"twistingFactor": 0.22,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇫🇷73261",
+					"end": "XFROA",
+					"twistingFactor": 0.3,
+					"length": 49,
+					"maxSpeed": 120
+				},
+				{
+					"start": "XFROA",
+					"end": "🇫🇷SVH",
+					"length": 22,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇫🇷SVH",
+					"end": "🇫🇷TAR",
+					"length": 19,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇫🇷TAR",
+					"end": "🇫🇷PNF",
+					"length": 5,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇫🇷PNF",
+					"end": "🇫🇷LBL",
+					"length": 11,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷LBL",
+					"end": "🇫🇷TSW",
+					"length": 11,
+					"twistingFactor": 0.4,
+					"electrified": true
+				},
+				{
+					"start": "🇫🇷TSW",
+					"end": "XFLPD",
+					"length": 16,
+					"twistingFactor": 0.3,
+					"electrified": true,
+					"maxSpeed": 100
+				}
+			]
 		},
 		{
 			"electrified": true,
