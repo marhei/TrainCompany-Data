@@ -5156,18 +5156,6 @@
 				},
 				{
 					"descriptions": [
-						"Fahre den Pannonia Express von %s nach %s"
-					],
-					"stations": [],
-					"pathSuggestion": [],
-					"neededCapacity": [
-						{ "name": "passengers", "value": 500 },
-						{ "name": "bistroseats", "value": 40 },
-						{ "name": "beds", "value":  200 }
-					]
-				},
-				{
-					"descriptions": [
 						"Fahre den TEE Prinz Eugen von %s bis %s"
 					],
 					"stations": [ "HB", "HH", "HG", "FB", "NWH", "NN", "NRH", "NPA", "XAWE", "XAL", "XAWW" ],
@@ -5177,6 +5165,30 @@
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Pannonia Express von %s bis %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre den Pannonia Express von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "BHF", "DH", "DSA", "XTD", "XTP", "XTBR", "XYB",
+						/* once route is available insert "XMKO" */
+						"XBMK", "XJBC", "XWS"
+					],
+					"pathSuggestion": [ "BHF", "BL", "BFB", "BDKO", "BEW", "DGB", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE",
+						"XAWW" /* remove once we have direct CZ-SK route */ ,
+						"XYB", "XBMK", "XJST", "XJSP", "XJBC", "XJA", "XJNI", "XJP", "XWS"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 500 },
+				{ "name": "bistroseats", "value": 50 },
+				{ "name": "beds", "value":  200 }
 			]
 		},
 		{
