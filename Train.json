@@ -1881,6 +1881,26 @@
 			]
 		},
 		{
+			"id": 71130,
+			"group": 2,
+			"name": "RENFE-Baureihe 130",
+			"speed": 250,
+			"weight": 312,
+			"force": 220,
+			"length": 184,
+			"drive": 1,
+			"reliability": 1,
+			"equipments": ["ETCS", "ES", "1668mm", "1435mm"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 299},
+				{"name": "bistroseats", "value": 14}
+			],
+			"cost": 4300000,
+			"operationCosts": 110
+		},		
+		{
 			"id": 71730,
 			"group": 2,
 			"name": "RENFE-Baureihe 730",
@@ -1908,7 +1928,7 @@
 			"weight": 225,
 			"force": 150,
 			"length": 107,
-			"drive": 4,
+			"drive": 1,
 			"reliability": 1,
 			"equipments": ["ETCS", "ES", "1668mm", "1435mm"],
 			"maxConnectedUnits": 2,
@@ -3800,6 +3820,25 @@
 				{"name": "passengers", "value": 68}
 			]
 		},
+		{
+			"id": 51218,
+			"group": 2,
+			"name": "Pesa 218M",
+			"speed": 120,
+			"weight": 82,
+			"force": 210,
+			"length": 42,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 320000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 60,
+			"exchangeTime": 60,
+			"equipments": ["PL", "LT"],
+			"capacity": [
+				{"name": "passengers", "value": 146}
+			]
+		},		
 		{
 			"id": 80795,
 			"group": 2,
