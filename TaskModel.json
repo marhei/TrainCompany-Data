@@ -5185,6 +5185,19 @@
 					],
 					"stations": [ "WR", "BL", "DH", "DSA", "XTD", "XTP", "XTBR", "XYB", "XYST", "XMBK" ],
 					"pathSuggestion": [ "WR", "WSN", "WG", "WWR", "WNT", "BOR", "BL", "BBF", "BDKO", "BEW", "DGB", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW", "XYB", "XYNZ", "XYST", "XMBK" ]
+				},
+				{
+					"descriptions": [
+						"Fahre den D 1473/1472 Metropol von %s nach %s"
+					],
+					"stations": [ "DH", "DSA", "XTD", "XTP", "XTBR", "XYST", "XMBK" ],
+					"pathSuggestion": [ "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW", "XYB", "XYNZ", "XYST", "XMBK" ],
+					"neededCapacity": [
+						{ "name": "passengers", "value": 450 },
+						{ "name": "bistroseats", "value": 40 },
+						{ "name": "beds", "value":  250 },
+						{ "name": "cars", "value": 36 }
+					]
 				}
 			],
 			"neededCapacity": [
