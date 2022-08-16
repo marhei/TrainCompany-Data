@@ -1881,6 +1881,239 @@
 			]
 		},
 		{
+			"id": 71730,
+			"group": 2,
+			"name": "RENFE-Baureihe 730",
+			"speed": 250,
+			"weight": 361,
+			"force": 240,
+			"length": 186,
+			"drive": 4,
+			"reliability": 1,
+			"equipments": ["ETCS", "ES", "1668mm", "1435mm"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 262},
+				{"name": "bistroseats", "value": 14}
+			],
+			"cost": 5000000,
+			"operationCosts": 130
+		},
+		{
+			"id": 71120,
+			"group": 2,
+			"name": "RENFE-Baureihe 120",
+			"speed": 250,
+			"weight": 225,
+			"force": 150,
+			"length": 107,
+			"drive": 4,
+			"reliability": 1,
+			"equipments": ["ETCS", "ES", "1668mm", "1435mm"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 235},
+				{"name": "bistroseats", "value": 8}
+			],
+			"cost": 4100000,
+			"operationCosts": 100
+		},	
+		{
+			"id": 71103,
+			"group": 2,
+			"name": "RENFE-Baureihe 103",
+			"speed": 350,
+			"weight": 425,
+			"force": 283,
+			"length": 201,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 4700000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 85,
+			"equipments": ["ETCS", "ES"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 425},
+				{"name": "bistroseats", "value": 22 }
+			]
+		},	
+		{
+			"id": 71440,
+			"group": 2,
+			"name": "RENFE-Baureihe 440",
+			"speed": 140,
+			"weight": 150,
+			"force": 290,
+			"length": 80,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 260000,
+			"maxConnectedUnits": 4,
+			"operationCosts": 65,
+			"equipments": ["ES", "1668mm"],
+			"exchangeTime": 35,
+			"capacity": [
+				{"name": "passengers", "value": 240}
+			]
+		},
+		{
+			"id": 71447,
+			"group": 2,
+			"name": "RENFE-Baureihe 447",
+			"speed": 120,
+			"weight": 157,
+			"force": 290,
+			"length": 75,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 350000,
+			"maxConnectedUnits": 4,
+			"operationCosts": 65,
+			"equipments": ["ES", "1668mm"],
+			"exchangeTime": 30,
+			"capacity": [
+				{"name": "passengers", "value": 234}
+			]
+		},
+		{
+			"id": 71448,
+			"group": 2,
+			"name": "RENFE-Baureihe 448",
+			"speed": 160,
+			"weight": 151,
+			"force": 240,
+			"length": 75,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 320000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 95,
+			"equipments": ["ES", "1668mm"],
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 212}
+			]
+		},	
+		{
+			"id": 71450943500,
+			"group": 2,
+			"name": "RENFE-Baureihe 450/CP-Baureihe 3500",
+			"speed": 140,
+			"weight": 225,
+			"force": 350,
+			"length": 107,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 750000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 100,
+			"equipments": ["ES", "PT", "1668mm"],
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 476}
+			]
+		},
+		{
+			"id": 71464,
+			"group": 2,
+			"name": "RENFE-Baureihe 464",
+			"speed": 160,
+			"weight": 132,
+			"force": 300,
+			"length": 80,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 470000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 60,
+			"equipments": ["ES", "1668mm"],
+			"exchangeTime": 30,
+			"capacity": [
+				{"name": "passengers", "value": 223}
+			]
+		},
+		{
+			"id": 942240,
+			"group": 2,
+			"name": "CP-Baureihe 2240",
+			"speed": 120,
+			"weight": 136,
+			"force": 180,
+			"length": 71,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 330000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 65,
+			"equipments": ["PT", "1668mm"],
+			"exchangeTime": 50,
+			"capacity": [
+				{"name": "passengers", "value": 252}
+			]
+		},
+		{
+			"id": 942300,
+			"group": 2,
+			"name": "CP-Baureihe 2300",
+			"speed": 120,
+			"weight": 180,
+			"force": 225,
+			"length": 96,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 370000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 55,
+			"equipments": ["PT", "1668mm"],
+			"exchangeTime": 30,
+			"capacity": [
+				{"name": "passengers", "value": 316}
+			]
+		},	
+		{
+			"id": 943400,
+			"group": 2,
+			"name": "CP-Baureihe 3400",
+			"speed": 140,
+			"weight": 116,
+			"force": 240,
+			"length": 67,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 450000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 50,
+			"equipments": ["PT", "1668mm"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 250}
+			]
+		},	
+		{
+			"id": 944000,
+			"group": 2,
+			"name": "Alfa Pendular",
+			"shortcut": "RENFE-Baureihe 103",
+			"speed": 220,
+			"weight": 298,
+			"force": 210,
+			"length": 158,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 2200000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 60,
+			"equipments": ["PT", "1668mm"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 299},
+				{"name": "bistroseats", "value": 18}
+			]
+		},		
+		{
 			"id": 72412,
 			"group": 2,
 			"name": "JŽ 412/ BDŽ 33",
@@ -2401,6 +2634,101 @@
 			]
 		},
 		{
+			"id": 71592,
+			"group": 0,
+			"name": "RENFE-Baureihe 592",
+			"speed": 120,
+			"weight": 118,
+			"force": 130,
+			"length": 70,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 280000,
+			"maxConnectedUnits": 5,		
+			"operationCosts": 90,
+			"equipments": ["ES", "PT", "1668mm"],
+			"exchangeTime": 65,
+			"capacity": [
+				{ "name": "passengers", "value": 228 }
+			]
+		},
+		{
+			"id": 71594,
+			"group": 0,
+			"name": "RENFE-Baureihe 594",
+			"speed": 160,
+			"weight": 97,
+			"force": 107,
+			"length": 47,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 500000,
+			"maxConnectedUnits": 5,		
+			"operationCosts": 90,
+			"equipments": ["ES", "1435mm", "1668mm"],
+			"exchangeTime": 80,
+			"capacity": [
+				{ "name": "passengers", "value": 126 }
+			]
+		},	
+		{
+			"id": 71599,
+			"group": 0,
+			"name": "RENFE-Baureihe 599",
+			"speed": 160,
+			"weight": 159,
+			"force": 157,
+			"length": 76,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 450000,
+			"maxConnectedUnits": 2,		
+			"operationCosts": 80,
+			"equipments": ["ES", "1668mm"],
+			"exchangeTime": 70,
+			"capacity": [
+				{ "name": "passengers", "value": 185 }
+			]
+		},	
+		{
+			"id": 940350,
+			"group": 0,
+			"name": "CP-Baureihe 0350",
+			"speed": 100,
+			"weight": 53,
+			"force": 40,
+			"length": 24,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 90000,
+			"maxConnectedUnits": 3,		
+			"operationCosts": 40,
+			"equipments": ["PT", "1668mm"],
+			"exchangeTime": 50,
+			"capacity": [
+				{ "name": "passengers", "value": 64 }
+			]
+		},	
+		{
+			"id": 940450,
+			"group": 0,
+			"name": "CP-Baureihe 0450",
+			"speed": 120,
+			"weight": 99,
+			"force": 90,
+			"length": 52,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 190000,
+			"maxConnectedUnits": 3,		
+			"operationCosts": 60,
+			"equipments": ["PT", "1668mm"],
+			"exchangeTime": 60,
+			"capacity": [
+				{ "name": "passengers", "value": 164 }
+			]
+		},
+		{
 			"id": 106000,
 			"group": 2,
 			"name": "VR-Baureihe Sm1",
@@ -2515,6 +2843,178 @@
 				{ "name": "passengers", "value": 341 }
 			]
 		},
+		{
+			"id": 20200200,
+			"group": 2,
+			"name": "SŽD-Baureihe ER200",
+			"speed": 200,
+			"weight": 442,
+			"force": 140,
+			"length": 208,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 1600000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 170,
+			"equipments": [ "RU", "1520mm" ],
+			"exchangeTime": 120,
+			"capacity": [
+				{ "name": "passengers", "value": 416 }
+			]
+		},
+		{
+			"id": 20403,
+			"group": 2,
+			"name": "RŽD-Baureihe EWS1",
+			"speed": 250,
+			"weight": 662,
+			"force": 328,
+			"length": 250,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 5000000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 100,
+			"equipments": ["RU", "1520mm"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 604},
+				{"name": "bistroseats", "value": 22 }
+			]
+		},
+		{
+			"id": 20294294,
+			"group": 2,
+			"name": "RŽD-Baureihe ES1",
+			"speed": 160,
+			"weight": 270,
+			"force": 170,
+			"length": 120,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 600000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 50,
+			"equipments": [ "RU", "1520mm" ],
+			"exchangeTime": 60,
+			"capacity": [
+				{ "name": "passengers", "value": 466 }
+			]
+		},
+		{
+			"id": 20130130,
+			"group": 2,
+			"name": "SŽD-Baureihe ED2T",
+			"speed": 130,
+			"weight": 254,
+			"force": 130,
+			"length": 110,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 450000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 70,
+			"equipments": [ "UA", "RU", "1520mm" ],
+			"exchangeTime": 80,
+			"capacity": [
+				{ "name": "passengers", "value": 550 }
+			]
+		},
+		{
+			"id": 20130130130,
+			"group": 2,
+			"name": "SŽD-Baureihe ED9",
+			"speed": 130,
+			"weight": 480,
+			"force": 170,
+			"length": 200,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 800000,
+			"maxConnectedUnits": 1,
+			"operationCosts": 130,
+			"equipments": [ "UA", "RU", "1520mm" ],
+			"exchangeTime": 80,
+			"capacity": [
+				{ "name": "passengers", "value": 1100 }
+			]
+		},
+		{
+			"id": 20001035,
+			"group": 2,
+			"name": "SŽD-Baureihe ED9",
+			"speed": 130,
+			"weight": 220,
+			"force": 200,
+			"length": 101,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 600000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 65,
+			"equipments": [ "UA", "1520mm" ],
+			"exchangeTime": 80,
+			"capacity": [
+				{ "name": "passengers", "value": 510 }
+			]
+		},
+		{
+			"id": 20675471,
+			"group": 2,
+			"name": "UZ-Baureihe EJ 675",
+			"speed": 160,
+			"weight": 334,
+			"force": 180,
+			"length": 158,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 600000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 55,
+			"equipments": [ "UA", "LV", "1520mm" ],
+			"exchangeTime": 60,
+			"capacity": [
+				{ "name": "passengers", "value": 623 }
+			]
+		},
+		{
+			"id": 202014,
+			"group": 2,
+			"name": "Stadler KISS 160 1520mm",
+			"shortcut": "RŽD-Baureihe ESh2",
+			"speed": 160,
+			"weight": 349,
+			"force": 400,
+			"length": 155,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 900000,
+			"operationCosts": 70,
+			"maxConnectedUnits": 2,
+			"equipments": ["RU"],
+			"capacity": [
+				{"name": "passengers", "value": 842}
+			]
+		},
+		{
+			"id": 2020112012,
+			"group": 2,
+			"name": "UZ-Baureihe HRCS2",
+			"speed": 176,
+			"weight": 310,
+			"force": 250,
+			"length": 196,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 900000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 60,
+			"equipments": [ "UA", "1520mm" ],
+			"exchangeTime": 90,
+			"capacity": [
+				{ "name": "passengers", "value": 579 }
+			]
+		},		
 		{
 			"id": 563,
 			"group": 2,
@@ -3437,6 +3937,120 @@
 			]
 		},
 		{
+			"id": 2017110000,
+			"group": 2,
+			"name": "RŽD-Baureihe RA1",
+			"speed": 100,
+			"weight": 32,
+			"force": 140,
+			"length": 25,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 120000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 45,
+			"equipments": [ "RU", "1520mm" ],
+			"exchangeTime": 60,
+			"capacity": [
+				{ "name": "passengers", "value": 62 }
+			]
+		},
+		{
+			"id": 20171119000,
+			"group": 2,
+			"name": "RŽD-Baureihe RA2",
+			"speed": 100,
+			"weight": 130,
+			"force": 140,
+			"length": 70,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 400000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 65,
+			"equipments": [ "UA", "RU", "LV", "1520mm" ],
+			"exchangeTime": 60,
+			"capacity": [
+				{ "name": "passengers", "value": 600 }
+			]
+		},
+		{
+			"id": 22200360,
+			"group": 2,
+			"name": "UZ-Baureihe DEL-02",
+			"speed": 130,
+			"weight": 130,
+			"force": 170,
+			"length": 76,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 380000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 60,
+			"equipments": [ "UA", "1520mm" ],
+			"exchangeTime": 55,
+			"capacity": [
+				{ "name": "passengers", "value": 336 }
+			]
+		},	
+		{
+			"id": 262223240,
+			"group": 2,
+			"name": "Stadler Flirt 2 1520mm-Dieseltriebwagen",
+			"speed": 160,
+			"weight": 132,
+			"force": 200,
+			"length": 74,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 550000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 75,
+			"equipments": [ "EE", "1520mm" ],
+			"exchangeTime": 45,
+			"capacity": [
+				{ "name": "passengers", "value": 232 }
+			]
+		},
+		{
+			"id": 20198819900,
+			"group": 2,
+			"name": "SŽD-Baureihe ATsch2",
+			"speed": 120,
+			"weight": 59,
+			"force": 40,
+			"length": 25,
+			"drive": 2,
+			"reliability": 0.85,
+			"cost": 110000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 50,
+			"equipments": [ "UA", "RU", "1520mm" ],
+			"exchangeTime": 60,
+			"capacity": [
+				{ "name": "passengers", "value": 67 }
+			]
+		},
+		{
+			"id": 20414100,
+			"group": 2,
+			"name": "SŽD-Baureihe D1",
+			"speed": 125,
+			"weight": 200,
+			"force": 65,
+			"length": 99,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 400000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 80,
+			"equipments": [ "UA", "RU", "LT", "1520mm" ],
+			"exchangeTime": 90,
+			"capacity": [
+				{ "name": "passengers", "value": 400 }
+			]
+		},		
+		{
 			"id": 33,
 			"group": 2,
 			"name": "CargoSprinter",
@@ -4295,6 +4909,94 @@
 			"equipments": ["IT"]
 		},
 		{
+			"id": 71251,
+			"group": 0,
+			"name": "RENFE-Baureihe 251",
+			"speed": 160,
+			"weight": 138,
+			"force": 192,
+			"length": 21,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 420000,
+			"operationCosts": 130,
+			"equipments": ["ES", "1668mm"]
+		},
+		{
+			"id": 71251252,
+			"group": 0,
+			"name": "Siemens EuroSprinter",
+			"shortcut": "RENFE-Baureihe 251/ CP-Baureihe 5600",
+			"speed": 220,
+			"weight": 90,
+			"force": 300,
+			"length": 20,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 520000,
+			"operationCosts": 100,
+			"equipments": ["ES", "PT", "1668mm", "ETCS"]
+		},	
+		{
+			"id": 71253,
+			"group": 0,
+			"name": "Bombardier Traxx F140 AC2 1668 mm",
+			"shortcut": "RENFE-Baureihe 253",
+			"speed": 140,
+			"weight": 85,
+			"force": 300,
+			"length": 19,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 500000,
+			"operationCosts": 80,
+			"equipments": ["ES", "1668mm", "ETCS"]
+		},
+		{
+			"id": 71269,
+			"group": 0,
+			"name": "RENFE-Baureihe 269",
+			"speed": 160,
+			"weight": 88,
+			"force": 245,
+			"length": 17,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 375000,
+			"operationCosts": 120,
+			"equipments": ["ES", "1668mm"]
+		},
+		{
+			"id": 942620,
+			"group": 0,
+			"name": "Nez Cassé",
+			"shortcut": "CP-Baureihe 2620",
+			"speed": 160,
+			"weight": 90,
+			"force": 294,
+			"length": 18,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 320000,
+			"operationCosts": 80,
+			"equipments": ["PT", "1668mm"]
+		},	
+		{
+			"id": 944700,
+			"group": 0,
+			"name": "Siemens Eurosprinter",
+			"shortcut": "CP-Baureihe 4700",
+			"speed": 140,
+			"weight": 87,
+			"force": 300,
+			"length": 20,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 530000,
+			"operationCosts": 95,
+			"equipments": ["PT", "1668mm"]
+		},			
+		{
 			"id": 72441,
 			"group": 0,
 			"name": "JŽ 441",
@@ -4493,6 +5195,188 @@
 			"operationCosts": 105,
 			"equipments": ["FI", "1520mm"]
 		},
+		{
+			"id": 206060,
+			"group": 0,
+			"name": "SŽD-Baureihe WL60",
+			"speed": 110,
+			"weight": 138,
+			"force": 228,
+			"length": 21,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 300000,
+			"operationCosts": 120,
+			"equipments": ["UA", "RU", "1520mm"]
+		},
+			{
+			"id": 208080,
+			"group": 0,
+			"name": "SŽD-Baureihe WL80",
+			"speed": 110,
+			"weight": 182,
+			"force": 228,
+			"length": 33,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 450000,
+			"operationCosts": 150,
+			"equipments": ["UA", "RU", "1520mm"]
+		},
+		{
+			"id": 20510,
+			"group": 0,
+			"name": "SŽD-Baureihe TschS4T",
+			"speed": 160,
+			"weight": 126,
+			"force": 300,
+			"length": 20,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 375000,
+			"operationCosts": 130,
+			"equipments": ["UA", "RU", "1520mm"]
+		},
+		{
+			"id": 20321,
+			"group": 0,
+			"name": "SŽD-Baureihe TschS7",
+			"speed": 180,
+			"weight": 172,
+			"force": 300,
+			"length": 34,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 550000,
+			"operationCosts": 170,
+			"equipments": ["UA", "RU", "1520mm"]
+		},
+		{
+			"id": 224040,
+			"group": 0,
+			"name": "UZ-Baureihe WL40U",
+			"speed": 110,
+			"weight": 92,
+			"force": 228,
+			"length": 16,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 320000,
+			"operationCosts": 130,
+			"equipments": ["UA", "1520mm"]
+		},
+		{
+			"id": 221040,
+			"group": 0,
+			"name": "UZ-Baureihe AZ8A",
+			"speed": 120,
+			"weight": 200,
+			"force": 833,
+			"length": 35,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 800000,
+			"operationCosts": 90,
+			"equipments": ["UA", "1520mm"]
+		},
+		{
+			"id": 202020,
+			"group": 0,
+			"name": "RŽD-Baureihe EP20",
+			"speed": 200,
+			"weight": 129,
+			"force": 350,
+			"length": 23,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 600000,
+			"operationCosts": 120,
+			"equipments": ["RU", "1520mm"]
+		},
+		{
+			"id": 2020202020,
+			"group": 0,
+			"name": "RŽD-Baureihe 2ES5",
+			"speed": 120,
+			"weight": 200,
+			"force": 833,
+			"length": 35,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 1000000,
+			"operationCosts": 150,
+			"equipments": ["RU", "1520mm"]
+		},
+		{
+			"id": 203232,
+			"group": 0,
+			"name": "RŽD-Baureihe E5K",
+			"speed": 120,
+			"weight": 96,
+			"force": 245,
+			"length": 19,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 500000,
+			"operationCosts": 130,
+			"equipments": ["UA", "RU", "1520mm"]
+		},
+		{
+			"id": 20285285,
+			"group": 0,
+			"name": "RŽD-Baureihe 2ES5K",
+			"speed": 120,
+			"weight": 192,
+			"force": 235,
+			"length": 35,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 900000,
+			"operationCosts": 150,
+			"equipments": ["UA", "RU", "1520mm"]
+		},
+		{
+			"id": 20850850,
+			"group": 0,
+			"name": "RŽD-Baureihe 3ES5K",
+			"speed": 120,
+			"weight": 288,
+			"force": 235,
+			"length": 52,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 1400000,
+			"operationCosts": 170,
+			"equipments": ["UA", "RU", "1520mm"]
+		},
+		{
+			"id": 2080808080,
+			"group": 0,
+			"name": "RŽD-Baureihe 4ES5K",
+			"speed": 120,
+			"weight": 384,
+			"force": 235,
+			"length": 70,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 1900000,
+			"operationCosts": 190,
+			"equipments": ["UA", "RU", "1520mm"]
+		},
+		{
+			"id": 221818,
+			"group": 0,
+			"name": "UZ-Baureihe 2EL5",
+			"speed": 110,
+			"weight": 192,
+			"force": 235,
+			"length": 35,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 850000,
+			"operationCosts": 140,
+			"equipments": ["UA", "1520mm"]
+		},		
 		{
 			"id": 931250,
 			"group": 0,
@@ -5121,6 +6005,77 @@
 			"equipments": ["GB"]
 		},
 		{
+			"id": 71311,
+			"group": 0,
+			"name": "RENFE-Baureihe 311",
+			"speed": 80,
+			"weight": 72,
+			"force": 177,
+			"length": 14,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 190000,
+			"operationCosts": 110,
+			"equipments": ["ES", "1668mm"]
+		},	
+		{
+			"id": 713192,
+			"group": 0,
+			"name": "RENFE-Baureihe 319.2",
+			"speed": 120,
+			"weight": 117,
+			"force": 370,
+			"length": 20,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 360000,
+			"operationCosts": 130,
+			"equipments": ["ES", "1668mm"]
+		},	
+		{
+			"id": 7133394600,
+			"group": 0,
+			"name": "Vossloh Euro 4000",
+			"shortcut": "RENFE-Baureihe 333",
+			"speed": 160,
+			"weight": 123,
+			"force": 400,
+			"length": 23,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 440000,
+			"operationCosts": 130,
+			"equipments": ["ES", "PT", "1668mm"]
+		},
+		{
+			"id": 941900,
+			"group": 0,
+			"name": "CP-Baureihe 1900",
+			"speed": 120,
+			"weight": 118,
+			"force": 310,
+			"length": 20,
+			"drive": 2,
+			"reliability": 0.80,
+			"cost": 250000,
+			"operationCosts": 140,
+			"equipments": ["PT", "1668mm"]
+		},			
+		{
+			"id": 941930,
+			"group": 0,
+			"name": "CP-Baureihe 1930",
+			"speed": 160,
+			"weight": 118,
+			"force": 280,
+			"length": 20,
+			"drive": 2,
+			"reliability": 0.80,
+			"cost": 270000,
+			"operationCosts": 150,
+			"equipments": ["PT", "1668mm"]
+		},		
+		{
 			"id": 102500,
 			"group": 0,
 			"name": "VR-Baureihe Dv12",
@@ -5162,6 +6117,119 @@
 			"operationCosts": 100,
 			"equipments": ["FI", "1520mm"]
 		},
+		{
+			"id": 22150,
+			"group": 0,
+			"name": "UZ-Baureihe TEP 150",
+			"speed": 160,
+			"weight": 135,
+			"force": 310,
+			"length": 20,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 290000,
+			"operationCosts": 130,
+			"equipments": ["UA", "1520mm"]
+		},
+		{
+			"id": 203513,
+			"group": 0,
+			"name": "SŽD-Baureihe 2TE10M",
+			"speed": 100,
+			"weight": 276,
+			"force": 490,
+			"length": 34,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 440000,
+			"operationCosts": 180,
+			"equipments": ["UA", "RU", "LV", "LT", "EE", "1520mm"]
+		},
+		{
+			"id": 206224,
+			"group": 0,
+			"name": "SŽD-Baureihe TEM2",
+			"speed": 100,
+			"weight": 180,
+			"force": 225,
+			"length": 21,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 220000,
+			"operationCosts": 90,
+			"equipments": ["UA", "RU", "LV", "LT", "EE", "1520mm"]
+		},
+		{
+			"id": 20853853,
+			"group": 0,
+			"name": "SŽD-Baureihe TEM7",
+			"speed": 100,
+			"weight": 180,
+			"force": 250,
+			"length": 21,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 250000,
+			"operationCosts": 80,
+			"equipments": ["UA", "RU", "LV", "LT", "EE", "1520mm"]
+		},
+		{
+			"id": 20770,
+			"group": 0,
+			"name": "SŽD-Baureihe TschME3",
+			"speed": 95,
+			"weight": 112,
+			"force": 280,
+			"length": 17,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 200000,
+			"operationCosts": 140,
+			"equipments": ["UA", "RU", "LV", "LT", "EE", "1520mm"]
+		},
+		{
+			"id": 222009,
+			"group": 0,
+			"name": "UZ-Baureihe TschME3",
+			"speed": 120,
+			"weight": 184,
+			"force": 534,
+			"length": 24,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 270000,
+			"operationCosts": 135,
+			"equipments": ["UA", "1520mm"]
+		},
+		{
+			"id": 242020,
+			"group": 0,
+			"name": "Eurorunner",
+			"shortcut": "LG-Baureihe ER20 CF",
+			"speed": 120,
+			"weight": 136,
+			"force": 450,
+			"length": 23,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 450000,
+			"operationCosts": 130,
+			"equipments": ["LT", "1520mm"]
+		},
+		{
+			"id": 26367,
+			"group": 0,
+			"name": "GE C36-7",
+			"speed": 112,
+			"weight": 181,
+			"force": 225,
+			"length": 21,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 230000,
+			"operationCosts": 150,
+			"equipments": ["EE", "1520mm"]
+		},		
 		{
 			"id": 4,
 			"group": 1,
@@ -6078,6 +7146,206 @@
 			]
 		},
 		{
+			"id": 9419751,
+			"group": 1,
+			"name": "CP-Corail-Wagen",
+			"shortcut": "CP 21-97",
+			"speed": 200,
+			"weight": 42,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 190000,
+			"equipments": ["1668mm"],			
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 88}
+			]
+		},
+		{
+			"id": 9419752,
+			"group": 1,
+			"name": "CP-Corail-Speisewagen",
+			"shortcut": "CP 21-97",
+			"speed": 200,
+			"weight": 46,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 220000,
+			"equipments": ["1668mm"],			
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "passengers", "value": 28},
+				{"name": "bistroseats", "value": 18}				
+			]
+		},
+		{
+			"id": 9419753,
+			"group": 1,
+			"name": "CP-Sorefame-Wagen",
+			"shortcut": "CP 85-97",
+			"speed": 200,
+			"weight": 44,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 185000,
+			"equipments": ["1668mm"],			
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 88}
+			]
+		},
+		{
+			"id": 9419754,
+			"group": 1,
+			"name": "CP-Sorefame-Speisewagen",
+			"shortcut": "CP 21-97",
+			"speed": 200,
+			"weight": 48,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 215000,
+			"equipments": ["1668mm"],			
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "passengers", "value": 28},
+				{"name": "bistroseats", "value": 18}				
+			]
+		},
+		{
+			"id": 9419755,
+			"group": 1,
+			"name": "CP-Schlafwagen",
+			"shortcut": "CP 711-70",
+			"speed": 160,
+			"weight": 50,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 220000,
+			"equipments": ["1668mm"],			
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "beds", "value": 40}				
+			]
+		},		
+		{
+			"id": 20212223241,
+			"group": 1,
+			"name": "Ammendorf-Schlafwagen",
+			"shortcut": "UZ WL 36",
+			"speed": 160,
+			"weight": 50,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 180000,
+			"equipments": ["1520mm"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "beds", "value": 40}
+			]
+		},
+		{
+			"id": 20212223242,
+			"group": 1,
+			"name": "Ammendorf-Sitzwagen",
+			"shortcut": "UZ 31xxx",
+			"speed": 160,
+			"weight": 47,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 170000,
+			"equipments": ["1520mm"],
+			"exchangeTime": 100,
+			"capacity": [
+				{"name": "beds", "value": 80}
+			]
+		},		
+		{
+			"id": 20212223243,
+			"group": 1,
+			"name": "Ammendorf-Speisewagen",
+			"shortcut": "UZ WR",
+			"speed": 160,
+			"weight": 56,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 220000,
+			"equipments": ["1520mm"],
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 40}
+			]
+		},
+		{
+			"id": 20212223244,
+			"group": 1,
+			"name": "RIC-Schlafwagen",
+			"shortcut": "UZ WL 20",
+			"speed": 160,
+			"weight": 50,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 200000,
+			"equipments": ["1435mm", "1520mm"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "beds", "value": 20}
+			]
+		},
+		{
+			"id": 20212223245,
+			"group": 1,
+			"name": "Tver-Schlafwagen",
+			"shortcut": "RŽD WL 54",
+			"speed": 200,
+			"weight": 53,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 210000,
+			"equipments": ["1520mm"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "beds", "value": 54}
+			]
+		},
+		{
+			"id": 20212223246,
+			"group": 1,
+			"name": "TMH-Doppelstock-Schlafwagen",
+			"shortcut": "RŽD WL 50",
+			"speed": 200,
+			"weight": 59,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 260000,
+			"equipments": ["1520mm"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "beds", "value": 50}
+			]
+		},		
+		{
 			"id": 10404500000,
 			"group": 1,
 			"name": "VR Regionalzugwagen",
@@ -6575,6 +7843,28 @@
 			]
 		},
 		{
+			"id": 714449501,
+			"group": 3,
+			"name": "Talgo 7 Tagzug der RENFE",
+			"shortcut": "Talgo 7 Tagzug RENFE",
+			"speed": 220,
+			"weight": 153,
+			"force": 0,
+			"length": 122,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 1200000,
+			"maxConnectedUnits": 2,
+			"compatibleWith": [71251252,7133394600],
+			"equipments": ["1435mm", "1668mm"],			
+			"exchangeTime": 90,
+			"equivalentTo": 9,
+			"capacity": [
+				{"name": "passengers", "value": 237 },
+				{"name": "bistroseats", "value": 12 }
+			]
+		},		
+		{
 			"id": 4449501,
 			"group": 3,
 			"name": "Talgo 7 Tagzug der ŽFBH",
@@ -6596,6 +7886,29 @@
 			]
 		},
 		{
+			"id": 714449502,
+			"group": 3,
+			"name": "Talgo 7 Nachtzug der RENFE",
+			"shortcut": "Talgo 7 Nachtzug RENFE",
+			"speed": 220,
+			"weight": 153,
+			"force": 0,
+			"length": 122,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 1400000,
+			"maxConnectedUnits": 2,
+			"compatibleWith": [71251252,7133394600],
+			"equipments": ["1435mm", "1668mm"],	
+			"exchangeTime": 180,
+			"equivalentTo": 9,
+			"capacity": [
+				{"name": "passengers", "value": 128 },
+				{"name": "bistroseats", "value": 12 },
+				{"name": "beds", "value": 58}
+			]
+		},		
+		{
 			"id": 4449502,
 			"group": 3,
 			"name": "Talgo 7 Nachtzug der ŽFBH",
@@ -6616,7 +7929,7 @@
 				{"name": "bistroseats", "value": 12 },
 				{"name": "beds", "value": 58}
 			]
-		},
+		},		
 		{
 			"id": 202017,
 			"group": 3,
@@ -6630,7 +7943,7 @@
 			"reliability": 1,
 			"cost": 2200000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [3,183],
+			"compatibleWith": [3,183,202020],
 			"equipments": ["1435mm", "1520mm"],
 			"exchangeTime": 180,
 			"equivalentTo": 20,

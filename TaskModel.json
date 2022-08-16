@@ -670,11 +670,18 @@
 		{
 			"name": "Intercités von %s nach %s",
 			"descriptions": [
-				"Fahre diese Querverbindung abseits von Paris.",
+				"Im Corail einmal quer durch Frankreich, was gibt es schöneres?",
 				"Diese Linie ist für ihr bequemes Rollmaterial bekannt."
 			],
-			"stations": [ "XFM", "🇫🇷NMS", "XFMO", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
-			"pathSuggestion": [ "XFM", "XFARL", "🇫🇷NPG", "🇫🇷NMS", "XFMO", "🇫🇷VLM", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
+			"objects": [
+				{
+					"stations": [ "XFM", "🇫🇷NMS", "XFMO", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
+					"pathSuggestion": [ "XFM", "XFARL", "🇫🇷NPG", "🇫🇷NMS", "XFMO", "🇫🇷VLM", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ]
+				},
+				{
+					"stations": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷VHY", "XFCLE" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -5386,7 +5393,7 @@
 			"name": "RE 17 von %s nach %s",
 			"service": 2,
 			"descriptions": [
-				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von % nach %s."
+				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von %s nach %s."
 			],
 			"objects": [
 				{
@@ -5402,7 +5409,7 @@
 			"name": "RE 12 von %s nach %s",
 			"service": 2,
 			"descriptions": [
-				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von % nach %s."
+				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von %s nach %s."
 			],
 			"objects": [
 				{
@@ -5419,7 +5426,7 @@
 			"name": "RE 15 von %s nach %s",
 			"service": 2,
 			"descriptions": [
-				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von % nach %s."
+				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von %s nach %s."
 			],
 			"objects": [
 				{
@@ -7041,7 +7048,7 @@
 			"service": 2,
 			"descriptions": [
 				"%s oder eher %s? Bitte fahre eine Leistung zwischen den beiden Stationen!",
-				"Nākamā pietura %s! Galapunkts. Fahre einen Zug zwischen %s und %s."
+				"Nākamā pietura %2$s! Galapunkts. Fahre einen Zug zwischen %s und %s."
 			],
 			"objects": [
 				{
@@ -7065,7 +7072,7 @@
 			"service": 2,
 			"descriptions": [
 				"Du wirst gebeten eine Leistung von %s nach %s zu fahren.",
-				"Nākamā pietura %s! Fahre einen Zug zwischen %s und %s."
+				"Nākamā pietura %2$s! Fahre einen Zug zwischen %s und %s."
 			],
 			"stations": [ "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX" ],
 			"neededCapacity": [
