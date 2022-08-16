@@ -1658,21 +1658,7 @@
 			"objects": [
 				{
 					"stations": [ "MTS", "MMF" ]
-				}
-			],
-			"stopsEverywhere": true,
-			"neededCapacity": [
-				{ "name": "passengers" }
-			]
-		},
-		{
-			"group": 1,
-			"name": "RB von %s nach %s",
-			"service": 3,
-			"descriptions": [
-				"Fahre eine Regionalbahn von %s nach %s"
-			],
-			"objects": [
+				},
 				{
 					"stations": [ "MTS", "MRPD" ]
 				}
@@ -1933,22 +1919,14 @@
 		},
 		{
 			"group": 1,
-			"name": "RB von %s nach %s",
+			"name": "RB 32 von %s nach %s",
 			"descriptions": [
-				"Fahre zwischen %s und %s.",
-				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
-				"Fahre die Regionalbahn zwischen %s und %s."
+				"Fahre die Fahrgäste auf der Rügenscher Kleinbahn von %s nach %s.",
+				"Bring die Schmalspurbahn auf Rügen von %s nach %s."
 			],
 			"service": 3,
-			"objects": [
-				{
-					"stations": [ "MWSB", "MEDL", "MTUL", "MEG", "MGB" ]
-				},
-				{
-					"stations": [ "MWSB", "MEDL", "MTUL", "MEG", "MGB", "MH" ]
-				}
-			],
-			"stopsEverywhere": false,
+			"stations": [ "WPUB", "WGO" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -1962,8 +1940,18 @@
 				"Fahre die Regionalbahn zwischen %s und %s."
 			],
 			"service": 3,
-			"stations": [ "MRO", "MWSB", "MMF" ],
-			"stopsEverywhere": true,
+			"objects": [
+				{
+					"stations": [ "MWSB", "MEDL", "MTUL", "MEG", "MGB" ]
+				},
+				{
+					"stations": [ "MWSB", "MEDL", "MTUL", "MEG", "MGB", "MH" ]
+				},
+				{
+					"stations": [ "MRO", "MWSB", "MMF" ],
+					"stopsEverywhere": true
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
