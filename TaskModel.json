@@ -5176,6 +5176,25 @@
 		},
 		{
 			"group": 1,
+			"name": "Metropol Express von %s bis %s",
+			"service": 1,
+			"objects": [
+				{
+					"descriptions": [
+						"Fahre den D 1275/1274 Metropol von %s nach %s"
+					],
+					"stations": [ "WR", "BL", "DH", "DSA", "XTD", "XTP", "XTBR", "XYB", "XYST", "XMBK" ],
+					"pathSuggestion": [ "WR", "WSN", "WG", "WWR", "WNT", "BOR", "BL", "BBF", "BDKO", "BEW", "DGB", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW", "XYB", "XYNZ", "XYST", "XMBK" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 450 },
+				{ "name": "bistroseats", "value": 40 },
+				{ "name": "beds", "value":  250 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Fernverkehrsleistung im Schweden",
 			"service": 0,
 			"descriptions": [
