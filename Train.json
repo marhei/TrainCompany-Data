@@ -5625,6 +5625,21 @@
 			"equipments": ["DE", "BE", "NL", "BG", "IT", "LU", "AT", "CH", "RO", "CZ", "SK", "HU", "RS"]
 		},
 		{
+			"id": 80750251,
+			"group": 0,
+			"name": "BR V 51/251",
+			"shortcut": "BR 251",
+			"speed": 40,
+			"weight": 39,
+			"force": 132,
+			"length": 10,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 90000,
+			"operationCosts": 80,
+			"equipments": ["DE", "750mm"]
+		},		
+		{
 			"id": 75101,
 			"group": 0,
 			"name": "Prima DE30BAC",
@@ -6399,6 +6414,23 @@
 				{"name": "bistroseats", "value": 24 }
 			]
 		},
+		{
+			"id": 80750,
+			"group": 1,
+			"name": "schmalspuriger Reko-Wagen mit 750mm Spurweite",
+			"shortcut": "Baag",
+			"speed": 40,
+			"weight": 12,
+			"force": 0,
+			"length": 10,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 30000,
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 34 }
+			]
+		},	
 		{
 			"id": 35,
 			"group": 1,
@@ -7887,7 +7919,7 @@
 			"reliability": 1,
 			"cost": 1200000,
 			"maxConnectedUnits": 2,
-			"compatibleWith": [71251252,7133394600],
+			"compatibleWith": [71251252,7133394600,8736000],
 			"equipments": ["1435mm", "1668mm"],			
 			"exchangeTime": 90,
 			"equivalentTo": 9,
@@ -7930,7 +7962,7 @@
 			"reliability": 1,
 			"cost": 1400000,
 			"maxConnectedUnits": 2,
-			"compatibleWith": [71251252,7133394600],
+			"compatibleWith": [71251252,7133394600, 8736000],
 			"equipments": ["1435mm", "1668mm"],	
 			"exchangeTime": 180,
 			"equivalentTo": 9,
