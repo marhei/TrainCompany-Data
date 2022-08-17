@@ -7457,7 +7457,7 @@
 		{
 			"group": 1,
 			"name": "Trenhotel Lusitania von %s nach %s",
-			"service": 0,
+			"service": 1,
 			"descriptions": [
 				"Fahre diesen Nachtzug von %s nach %s.",
 				"Verbinde die Hauptstädte Spaniens und Portugals miteinander."	
@@ -7472,6 +7472,33 @@
 				{ "name": "passengers" },
 				{ "name": "bistroseats" },
 				{ "name": "beds" }			
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s.",
+				"Fahre durch Spanien."
+			],
+			"objects": [
+				{
+					"stations": [ "XEMAT", "🇪🇸10400", "🇪🇸10500", "🇪🇸30100" ]
+				},
+				{
+					"stations": [ "🇪🇸33013", "🇪🇸30100" ]
+				},  
+				{
+					"stations": [ "XEBU", "🇪🇸10600", "🇪🇸10500" ]
+				}, 
+				{
+					"stations": [ "XEBU", "🇪🇸10208", "XEIR" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }		
 			]
 		}			
 	]
