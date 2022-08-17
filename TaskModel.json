@@ -7393,7 +7393,7 @@
 		{
 			"group": 1,
 			"name": "Regionalzug von %s nach %s",
-			"service": 1,
+			"service": 2,
 			"descriptions": [
 				"Fahre diesen Regionalzug von %s nach %s.",
 				"Fahre durch Litauen."
@@ -7414,7 +7414,7 @@
 		{
 			"group": 1,
 			"name": "Regionalzug von %s nach %s",
-			"service": 1,
+			"service": 2,
 			"descriptions": [
 				"Fahre diesen Regionalzug von %s nach %s.",
 				"Verbinde Polen mit Litauen.",
@@ -7429,6 +7429,29 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		}		
+		},
+		{
+			"group": 1,
+			"name": "Alvia von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Fahre diesen Hochgeschwindigkeitszug von %s nach %s.",
+				"Fahre von %s nach %s und nutze dabei Schnellfahrstrecken und konventionelle Strecken.",
+				"Unterwegs ist ein Umspurvorgang erforderlich.",
+				"Für diese Verbindung ist umspurbares Rollmeterial erforderlich."
+			],
+			"objects": [
+				{
+					"stations": [ "🇪🇸11208", "🇪🇸10600" , "XEMAT" ]
+				},
+				{
+					"stations": [ "🇪🇸30100", "🇪🇸10500" , "XEMAT" ]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		}	
 	]
 }
