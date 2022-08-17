@@ -7536,6 +7536,24 @@
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }				
 			]
+		},
+		{
+			"group": 1,
+			"name": "Intercidades von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XXLO", "XXEC", "🇵🇹41020", "🇵🇹49007" ]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
+			]
 		}		
 	]
 }
