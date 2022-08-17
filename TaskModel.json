@@ -7477,7 +7477,7 @@
 		{
 			"group": 1,
 			"name": "Regionalzug von %s nach %s",
-			"service": 1,
+			"service": 2,
 			"descriptions": [
 				"Fahre diesen Regionalzug von %s nach %s.",
 				"Fahre durch Spanien."
@@ -7504,7 +7504,7 @@
 		{
 			"group": 1,
 			"name": "Cercanías von %s nach %s",
-			"service": 1,
+			"service": 3,
 			"descriptions": [
 				"Fahre diesen Vorortzug von %s nach %s.",
 				"Verbinde Madrid mit ihren Vororten."
@@ -7517,6 +7517,24 @@
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }		
+			]
+		},
+		{
+			"group": 1,
+			"name": "Alfa Pendular von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Fahre diesen Hochgeschwindigkeitszug von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XXLO", "XXEC", "🇵🇹41020" ]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
 			]
 		}		
 	]
