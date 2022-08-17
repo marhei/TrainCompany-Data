@@ -7500,6 +7500,24 @@
 			"neededCapacity": [
 				{ "name": "passengers" }		
 			]
-		}			
+		},
+		{
+			"group": 1,
+			"name": "Cercanías von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Verbinde Madrid mit ihren Vororten."
+			],
+			"objects": [
+				{
+					"stations": [ "XEMAT", "🇪🇸10203" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }		
+			]
+		}		
 	]
 }
