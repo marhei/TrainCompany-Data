@@ -6396,9 +6396,6 @@
 					"stations": [ "🇵🇱ELK", "🇵🇱BLK" ]
 				},
 				{
-					"stations": [ "🇱🇹KUN" , "🇵🇱ELK", "🇵🇱BLK" ]
-				},
-				{
 					"stations": [ "🇵🇱30601", "🇵🇱CNN", "🇵🇱KNO" ]
 				},
 				{
@@ -7366,6 +7363,239 @@
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "InterCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen InterCity von %s nach %s",
+				"Verbinde %s mit %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XPWW", "XPWZ", "🇵🇱KNO", "🇵🇱CNN", "🇵🇱30601" ]
+				},
+				{
+					"stations": [ "XPWZ", "XPWW", "🇵🇱TUZ", "🇵🇱LAP", "🇵🇱BLK" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
+			],
+			"stopsEverywhere": false
+		},	
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s.",
+				"Fahre durch Litauen."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇹KUN", "🇱🇹SQQ" ]
+				},
+				{
+					"stations": [ "🇱🇹SQQ", "🇱🇹TZI" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s.",
+				"Verbinde Polen mit Litauen.",
+				"Stelle sicher, dass die Kulturhauptstadt Europas an das europäische Bahnnetz angebunden ist."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇹KUN" , "🇵🇱ELK", "🇵🇱BLK" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s.",
+				"Fahre durch Litauen."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇹KUN", "🇱🇹SQQ" ]
+				},
+				{
+					"stations": [ "🇱🇹SQQ", "🇱🇹TZI" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Alvia von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Fahre diesen Hochgeschwindigkeitszug von %s nach %s.",
+				"Fahre von %s nach %s und nutze dabei Schnellfahrstrecken und konventionelle Strecken.",
+				"Unterwegs ist ein Umspurvorgang erforderlich.",
+				"Für diese Verbindung ist umspurbares Rollmeterial erforderlich."
+			],
+			"objects": [
+				{
+					"stations": [ "🇪🇸11208", "🇪🇸10600" , "XEMAT" ]
+				},
+				{
+					"stations": [ "🇪🇸30100", "🇪🇸10500" , "XEMAT" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
+			],
+			"stopsEverywhere": false
+		},	
+		{
+			"group": 1,
+			"name": "Trenhotel Lusitania von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Nachtzug von %s nach %s.",
+				"Verbinde die Hauptstädte Spaniens und Portugals miteinander.",
+				"Binde Portugal an den europäischen Fernverkehr an."
+			],
+			"objects": [
+				{
+					"stations": [ "XEMAT", "🇪🇸10400", "🇪🇸30100", "🇪🇸33013", "🇵🇹33013", "🇵🇹37002", "🇵🇹41020", "XXEC", "XXLO" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" },
+				{ "name": "beds" }				
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s.",
+				"Fahre durch Spanien."
+			],
+			"objects": [
+				{
+					"stations": [ "XEMAT", "🇪🇸10400", "🇪🇸10500", "🇪🇸30100"  ]
+				},
+				{
+					"stations": [ "🇪🇸33013", "🇪🇸30100"  ]
+				},  
+				{
+					"stations": [ "XEBU", "🇪🇸10600", "🇪🇸10500" ]
+				}, 
+				{
+					"stations": [ "XEBU", "🇪🇸10208", "XEIR"  ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Cercanías von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Verbinde Madrid mit ihren Vororten."
+			],
+			"objects": [
+				{
+					"stations": [ "XEMAT", "🇪🇸10203"  ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},		
+		{
+			"group": 1,
+			"name": "Alfa Pendular von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Fahre diesen Hochgeschwindigkeitszug von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XXLO", "XXEC", "🇵🇹41020"  ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Intercidades von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XXLO", "XXEC", "🇵🇹41020", "🇵🇹49007" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regional von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s.",
+				"Fahre durch Portugal."
+			],
+			"objects": [
+				{
+					"stations": [ "XXLO", "XXEC" ]
+				}, 
+				{
+					"stations": [ "XXEC", "🇵🇹41020" ]
+				}, 
+				{
+					"stations": [ "XXVF", "🇵🇹49007", "🇵🇹41020" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }				
+			],
+			"stopsEverywhere": true
 		}	
 	]
 }
