@@ -7352,7 +7352,7 @@
 		{
 			"group": 1,
 			"name": "Express InterCity Premium von %s nach %s",
-			"service": 2,
+			"service": 0,
 			"descriptions": [
 				"Fahre diesen EIP von %s nach %s.",
 				"Fahre so schnell wie möglich von %s nach %s."
@@ -7362,12 +7362,33 @@
 			"stations": [ "🇵🇱07331", "XPWW" ]
 				}
 			],
-			"stopsEverywhere": true,
+			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
-
 			]
-		}	
+		}
+		{
+			"group": 1,
+			"name": "InterCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen InterCity von %s nach %s",
+				"Verbinde %s mit %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XPWW", "XPWZ", "🇵🇱KNO", "🇵🇱CNN", "🇵🇱30601" ]
+				},
+				{
+					"stations": [ "XPWZ", "XPWW", "🇵🇱TUZ", "🇵🇱LAP", "🇵🇱BLK" ]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		}			
 	]
 }
