@@ -7410,6 +7410,25 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s.",
+				"Verbinde Polen mit Litauen.",
+				"Stelle sicher, dass die Kulturhauptstadt Europas an das europäische Bahnnetz angebunden ist."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇹KUN" , "🇵🇱ELK", "🇵🇱BLK" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}		
 	]
 }
