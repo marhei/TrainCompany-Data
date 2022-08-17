@@ -7348,6 +7348,26 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		}		
+		},
+		{
+			"group": 1,
+			"name": "Express InterCity Premium von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen EIP von %s nach %s.",
+				"Fahre so schnell wie möglich von %s nach %s."
+			],
+			"objects": [
+				{
+			"stations": [ "🇵🇱07331", "XPWW" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+
+			]
+		}	
 	]
 }
