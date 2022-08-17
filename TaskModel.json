@@ -7536,66 +7536,6 @@
 				{ "name": "passengers" }
 			],
 			"stopsEverywhere": true
-		},		
-		{
-			"group": 1,
-			"name": "Alfa Pendular von %s nach %s",
-			"service": 0,
-			"descriptions": [
-				"Fahre diesen Hochgeschwindigkeitszug von %s nach %s."
-			],
-			"objects": [
-				{
-					"stations": [ "XXLO", "XXEC", "🇵🇹41020" ]
-				}
-			],
-			"neededCapacity": [
-				{ "name": "passengers" },
-				{ "name": "bistroseats" }				
-			],
-			"stopsEverywhere": true
-		},
-		{
-			"group": 1,
-			"name": "Intercidades von %s nach %s",
-			"service": 1,
-			"descriptions": [
-				"Fahre diesen Schnellzug von %s nach %s."
-			],
-			"objects": [
-				{
-					"stations": [ "XXLO", "XXEC", "🇵🇹41020", "🇵🇹49007" ]
-				}
-			],
-			"neededCapacity": [
-				{ "name": "passengers" },
-				{ "name": "bistroseats" }				
-			],
-			"stopsEverywhere": true
-		},
-		{
-			"group": 1,
-			"name": "Regional von %s nach %s",
-			"service": 2,
-			"descriptions": [
-				"Fahre diesen Regionalzug von %s nach %s.",
-				"Fahre durch Portugal."
-			],
-			"objects": [
-				{
-					"stations": [ "XXLO", "XXEC" ]
-				}, 
-				{
-					"stations": [ "XXEC", "🇵🇹41020" ]
-				}, 
-				{
-					"stations": [ "XXVF", "🇵🇹49007", "🇵🇹41020" ]
-				}
-			],
-			"neededCapacity": [
-				{ "name": "passengers" }				
-			],
-			"stopsEverywhere": true
-		}	
+		}			
 	]
 }
