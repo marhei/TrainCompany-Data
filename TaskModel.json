@@ -7302,4 +7302,18 @@
 			]
 		}
 	]
+	
+	{
+			"group": 1,
+			"name": "IC von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Der IC2 befördert Fahrgäste von West nach Ost.",
+			
+			],
+				{
+					"stations": [ "RK", "TPH", "TV", "TS", "TH", "TC", "NAN", "NN", "NER", "NBA", "NLF", "NK", "US", "UGW", "UNM", "LL" ],
+					"pathSuggestion": [ "RK", "TPH", "TV", "TS", "TKH", "TH", "TOE", "TC", "NSNE", "NAN", "NN", "NER", "NBA", "NED", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
+					{ "name": "passengers" }
+					{ "name": "bistroseats" }
 }
