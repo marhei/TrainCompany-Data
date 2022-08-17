@@ -7450,8 +7450,29 @@
 			],
 			"stopsEverywhere": false,
 			"neededCapacity": [
-				{ "name": "passengers" }
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
 			]
-		}	
+		},
+		{
+			"group": 1,
+			"name": "Trenhotel Lusitania von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Fahre diesen Nachtzug von %s nach %s.",
+				"Verbinde die Hauptstädte Spaniens und Portugals miteinander."	
+			],
+			"objects": [
+				{
+					"stations": [ "XEMAT", "🇪🇸10400", "🇪🇸30100", "🇪🇸33013", "🇵🇹33013", "🇵🇹37002", "🇵🇹41020", "XXEC", "XXLO" ]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" },
+				{ "name": "beds" }			
+			]
+		}			
 	]
 }
