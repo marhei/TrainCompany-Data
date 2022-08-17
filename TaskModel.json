@@ -501,7 +501,15 @@
 				{
 					"stations": [ "XFPO", "🇫🇷TO", "XFBJ", "XFTM" ],
 					"pathSuggestion": [ "XFPO", "🇫🇷CSP", "🇫🇷TO", "XFBJ", "XFTM" ]
-				}
+				},
+				{
+					"stations": [ "XFHV", "🇫🇷RRD", "XFPO", "XFLPD", "XFAVV", "XFM" ],
+					"pathSuggestion": [ "XFHV", "🇫🇷RRD", "XFPO", "XFCQ", "🇫🇷CIF", "🇫🇷PAI", "XFMAL", "XFLPD", "GRNY", "XFVCV", "🇫🇷BLN",  "XFAVV", "XFM" ]
+				},
+				{
+					"stations": [ "XFHE", "XFBR", "XFBY", "XFDX", "XFBJ", "🇫🇷TO", "XFPO" ],
+					"pathSuggestion": [ "XFHE", "XFBR", "XFBY", "XFDX", "XFBJ", "🇫🇷TO", "🇫🇷CSP", "XFPO" ]
+				}				
 			],
 			"neededCapacity": [
 				{ "name": "passengers" },
@@ -679,7 +687,11 @@
 				},
 				{
 					"stations": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷VHY", "XFCLE" ]
-				}
+				},
+				{
+					"stations": [ "XFCLE", "🇫🇷RIO", "🇫🇷VHY", "🇫🇷NVS", "🇫🇷VER", "XFOL", "XFPO" ],
+					"pathSuggestion": [ "XFCLE", "🇫🇷RIO", "🇫🇷VHY", "XFSGF", "XFSZE", "🇫🇷NVS", "🇫🇷GUA", "🇫🇷VER", "XFOL", "XFPO" ]
+				}				
 			],
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -6209,7 +6221,25 @@
 				},
 				{
 					"stations": [ "XFCA", "XFNC", "XFMC", "XIVT" ]
-				}
+				},
+				{
+					"stations": [ "XFMI", "XFMAG", "XFM" ]
+				},
+				{
+					"stations": [ "XFHE", "XFBJ" ]
+				},
+				{
+					"stations": [ "XFCLE", "🇫🇷VHY", "XFROA", "XFLPD" ]
+				},
+				{
+					"stations": [ "XFCLE", "🇫🇷NVS" ]
+				},
+				{
+					"stations": [ "XFOL", "🇫🇷NVS" ]
+				},
+				{
+					"stations": [ "XFHV", "🇫🇷RRD", XFPO" ]
+				}				
 			],
 			"stopsEverywhere": true
 		},
@@ -6361,7 +6391,28 @@
 				},
 				{
 					"stations": [ "🇵🇱26104", "🇵🇱30601" ]
-				}
+				},
+				{
+					"stations": [ "🇵🇱ELK", "🇵🇱BLK" ]
+				},
+				{
+					"stations": [ "🇱🇹KUN" , "🇵🇱ELK", "🇵🇱BLK" ]
+				},
+				{
+					"stations": [ "🇵🇱30601", "🇵🇱CNN", "🇵🇱KNO" ]
+				},
+				{
+					"stations": [ "XPWW", "🇵🇱KNO" ]
+				},
+				{
+					"stations": [ "XPWW", "🇵🇱LOW" ]
+				},
+				{
+					"stations": [ "XPWW", "🇵🇱O634988100" ]
+				},
+				{
+					"stations": [ "🇵🇱07331", "🇵🇱O634988100" ]
+				}				
 			],
 			"stopsEverywhere": true
 		},
@@ -7300,6 +7351,21 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		}
+		},
+		{
+			"group": 1,
+			"name": "Express InterCity Premium von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Fahre diesen EIP von %s nach %s.",
+				"Fahre so scnell wie möglich von %s nach %s."
+				
+			],
+			"stations": [ "🇵🇱07331", "XPWW" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		}	
 	]
 }
