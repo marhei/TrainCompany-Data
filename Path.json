@@ -4362,6 +4362,42 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 250,
+			"fictious": true,
+			"neededEquipments": [
+				"ES",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "🇪🇸55020",
+					"end": "🇪🇸O345409",
+					"length": 54,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇪🇸O345409",
+					"end": "🇪🇸O340756",
+					"length": 26,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇪🇸O340756",
+					"end": "🇪🇸O7571556036",
+					"length": 28,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇪🇸O7571556036",
+					"end": "🇪🇸54413",
+					"length": 26,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"group": 1,
 			"name": "Obere Ruhrtalbahn",
 			"electrified": false,
@@ -25212,7 +25248,7 @@
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 120,
-			"fictive": true,
+			"fictitious": true,
 			"neededEquipments": [
 				"ES"
 			],
