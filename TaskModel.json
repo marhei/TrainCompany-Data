@@ -207,7 +207,7 @@
 				"Bringe den internationalen Zug schnell nach %2$s.",
 				"Verbinde Deutschland mit Polen für gute europäische Verbindungen."
 			],
-			"stations": [ "BL", "BHF", "BFP", "🇵🇱25809", "🇵🇱28100", "🇵🇱26146", "🇵🇱30601", "🇵🇱KNI", "🇵🇱KNO", "🇵🇱WZA" ],
+			"stations": [ "BL", "BHF", "BFP", "🇵🇱25809", "🇵🇱28100", "🇵🇱26146", "🇵🇱30601", "🇵🇱KNI", "🇵🇱KNO", "XPWZ" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
@@ -508,8 +508,7 @@
 				{ "name": "bistroseats" }
 			],
 			"group": 1,
-			"service": 0,
-			"pathSuggestion": [ "XFPO", "🇫🇷PAI", "XFLC", "XFMAL", "XFSRI", "XFLPD" ]
+			"service": 0
 		},
 		{
 			"name": "Eurostar von %s nach %s",
@@ -676,10 +675,11 @@
 			"objects": [
 				{
 					"stations": [ "XFM", "🇫🇷NMS", "XFMO", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
-					"pathSuggestion": [ "XFM", "XFARL", "🇫🇷NPG", "🇫🇷NMS", "XFMO", "🇫🇷VLM", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ]
+					"pathSuggestion": [ "XFM", "XFLES", "XFMI", "XFARL", "🇫🇷NPG", "🇫🇷NMS", "XFMO", "🇫🇷VLM", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ]
 				},
 				{
-					"stations": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷VHY", "XFCLE" ]
+					"stations": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷VHY", "XFCLE" ],
+					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷GUA", "XFSZE","XFSGF", "🇫🇷VHY", "XFCLE" ]
 				}
 			],
 			"neededCapacity": [
@@ -1286,7 +1286,7 @@
 			"objects": [
 				{
 					"stations": [ "XFPO", "XFD", "XFLPD", "XFVCV", "XFAVV", "XFM", "XFTO", "XFCA", "XFNC" ],
-					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "XFMAL", "XFBV", "🇫🇷ANS", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "XFARL", "XFM", "XFTO", "XFCA", "XFNC" ]
+					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "XFMAL", "XFBV", "🇫🇷ANS", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "XFARL", "XFMI", "XFLES", "XFM", "XFTO", "XFCA", "XFNC" ]
 				},
 				{
 					"stations": [ "XFPO", "XFD", "XFLPD", "XFVCV", "XFAVV", "XFNB", "XFPE" ],
@@ -1658,21 +1658,7 @@
 			"objects": [
 				{
 					"stations": [ "MTS", "MMF" ]
-				}
-			],
-			"stopsEverywhere": true,
-			"neededCapacity": [
-				{ "name": "passengers" }
-			]
-		},
-		{
-			"group": 1,
-			"name": "RB von %s nach %s",
-			"service": 3,
-			"descriptions": [
-				"Fahre eine Regionalbahn von %s nach %s"
-			],
-			"objects": [
+				},
 				{
 					"stations": [ "MTS", "MRPD" ]
 				}
@@ -1933,22 +1919,14 @@
 		},
 		{
 			"group": 1,
-			"name": "RB von %s nach %s",
+			"name": "RB 32 von %s nach %s",
 			"descriptions": [
-				"Fahre zwischen %s und %s.",
-				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
-				"Fahre die Regionalbahn zwischen %s und %s."
+				"Fahre die Fahrgäste auf der Rügenscher Kleinbahn von %s nach %s.",
+				"Bring die Schmalspurbahn auf Rügen von %s nach %s."
 			],
 			"service": 3,
-			"objects": [
-				{
-					"stations": [ "MWSB", "MEDL", "MTUL", "MEG", "MGB" ]
-				},
-				{
-					"stations": [ "MWSB", "MEDL", "MTUL", "MEG", "MGB", "MH" ]
-				}
-			],
-			"stopsEverywhere": false,
+			"stations": [ "WPUB", "WGO" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -1962,8 +1940,18 @@
 				"Fahre die Regionalbahn zwischen %s und %s."
 			],
 			"service": 3,
-			"stations": [ "MRO", "MWSB", "MMF" ],
-			"stopsEverywhere": true,
+			"objects": [
+				{
+					"stations": [ "MWSB", "MEDL", "MTUL", "MEG", "MGB" ]
+				},
+				{
+					"stations": [ "MWSB", "MEDL", "MTUL", "MEG", "MGB", "MH" ]
+				},
+				{
+					"stations": [ "MRO", "MWSB", "MMF" ],
+					"stopsEverywhere": true
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -4605,7 +4593,7 @@
 				},
 				{
 					"stations": [ "MLA", "XFFB" ],
-					"pathSuggestion": [ "MLA", "MPU", "MNF", "MH", "MA", "MGZB", "TU", "TS", "TV", "RBR", "RSAB", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
+					"pathSuggestion": [ "MLA", "MPU", "MNF", "MH", "MA", "MGZB", "TU", "TP", "TS", "TV", "RBR", "RSAB", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
 				},
 				{
 					"stations": [ "TKM", "XFFB" ],
@@ -4613,7 +4601,7 @@
 				},
 				{
 					"stations": [ "HLIG", "XFFB" ],
-					"pathSuggestion": [ "HLIG", "HR", "EMST", "EDO", "EHG", "KW", "KSO", "KK", "KT", "KSIB", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
+					"pathSuggestion": [ "HLIG", "HR", "EMST", "EDO", "EHG", "KW", "KSO", "KK", "KKAS", "KB", "KKO", "FBGK", "FMZ", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
 				}
 			],
 			"neededCapacity": [
@@ -4998,7 +4986,7 @@
 						"Fahre den TEE Ligure von %s bis %s"
 					],
 					"stations": [ "XFAVV", "XFM", "XFTO", "XFSR", "XFCA", "XFAN", "XFNC", "XFMC", "XIVT", "XIIO", "XISAV", "XIGP", "XIMB" ],
-					"pathSuggestion": [ "XFAVV", "XFARL", "XFM", "XFTO", "XFSR", "XFCA", "XFAN", "XFNC", "XFMC", "XIVT", "XIIO", "XISAV", "XIGP", "XIAQ", "XITOR", "XIMB" ]
+					"pathSuggestion": [ "XFAVV", "XFARL", "XFMI", "XFLES", "XFM", "XFTO", "XFSR", "XFCA", "XFAN", "XFNC", "XFMC", "XIVT", "XIIO", "XISAV", "XIGP", "XIAQ", "XITOR", "XIMB" ]
 				},
 				{
 					"descriptions": [
@@ -5165,6 +5153,92 @@
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Pannonia Express von %s bis %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre den Pannonia Express von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "BHF", "DH", "DSA", "XTD", "XTP", "XTBR", "XYB", "XMBK", "XJBC", "XWS"],
+					"pathSuggestion": [ "BHF", "BL", "BBF", "BDKO", "BEW", "DGB", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW", "XYB", "XMBK", "XJST", "XJSP", "XJBC", "XJA", "XJNI", "XJP", "XWS"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 500 },
+				{ "name": "bistroseats", "value": 50 },
+				{ "name": "beds", "value":  200 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Metropol Express von %s bis %s",
+			"service": 1,
+			"objects": [
+				{
+					"descriptions": [
+						"Fahre den D 1275/1274 Metropol von %s nach %s"
+					],
+					"stations": [ "WR", "BL", "DH", "DSA", "XTD", "XTP", "XTBR", "XYB", "XYST", "XMBK" ],
+					"pathSuggestion": [ "WR", "WSN", "WG", "WWR", "WNT", "BOR", "BL", "BBF", "BDKO", "BEW", "DGB", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW", "XYB", "XYNZ", "XYST", "XMBK" ]
+				},
+				{
+					"descriptions": [
+						"Fahre den D 1473/1472 Metropol von %s nach %s"
+					],
+					"stations": [ "DH", "DSA", "XTD", "XTP", "XTBR", "XYST", "XMBK" ],
+					"pathSuggestion": [ "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW", "XYB", "XYNZ", "XYST", "XMBK" ],
+					"neededCapacity": [
+						{ "name": "passengers", "value": 450 },
+						{ "name": "bistroseats", "value": 40 },
+						{ "name": "beds", "value":  250 },
+						{ "name": "cars", "value": 36 }
+					]
+				},
+				{
+					"descriptions": [
+						"Fahre den D 377/376 Metropol von %s nach %s"
+					],
+					"stations": [ "BL", "DH", "DSA", "XTD", "XTP", "XTBR", "XYB", "XYST", "XMBK" ],
+					"pathSuggestion": [ "BL", "BBF", "BDKO", "BEW", "DGB", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW", "XYB", "XYNZ", "XYST", "XMBK" ]
+				},
+				{
+					"descriptions": [
+						"Fahre den IEx 73/72 Metropol von %s nach %s"
+					],
+					"stations": [ "BL", "DH", "DSA", "XTD", "XTP", "XTBR", "XYB", "XYST", "XMSB", "XMBK" ],
+					"pathSuggestion": [ "BL", "BBF", "BDKO", "BEW", "DGB", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW", "XYB", "XYNZ", "XYST", "XMSB", "XMBK" ]
+				},
+				{
+					"descriptions": [
+						"Fahre den IEx 73/72 Metropol von %s nach %s"
+					],
+					"stations": [ "BL", "DH", "DSA", "XTD", "XTP", "XTBR", "XAWW" ],
+					"pathSuggestion": [ "BL", "BBF", "BDKO", "BEW", "DGB", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW" ],
+					"neededCapacity": [
+						{ "name": "passengers", "value": 360 },
+						{ "name": "beds", "value":  120 }
+					]
+				},
+				{
+					"descriptions": [
+						"Fahre den IEx 73/72 Metropol von %s nach %s"
+					],
+					"stations": [ "XYB", "XYST", "XMSB", "XMBK" ],
+					"pathSuggestion": [ "XYB", "XYNZ", "XYST", "XMSB", "XMBK" ],
+					"neededCapacity": [
+						{ "name": "passengers", "value": 450 }
+					]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 450 },
+				{ "name": "bistroseats", "value": 40 },
+				{ "name": "beds", "value":  250 }
 			]
 		},
 		{
@@ -5732,10 +5806,30 @@
 					"stations": ["🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Bd", "🇳🇱Tb", "XNEI"]
 				},
 				{
-					"stations": ["XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Ddr", "🇳🇱Rsd", "🇳🇱Vs"]
+					"stations": ["XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Ddr", "🇳🇱Rsd", "🇳🇱Vs"],
+					"pathSuggestion": ["XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr", "🇳🇱Zlw", "🇳🇱Rsd", "🇳🇱Mdb", "🇳🇱Vs"]
 				},
 				{
-					"stations": ["🇳🇱Lls", "🇳🇱Almb", "🇳🇱Alm", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Ddr"]
+					"stations": ["🇳🇱Lls", "🇳🇱Almb", "🇳🇱Alm", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Ddr"],
+					"pathSuggestion": ["🇳🇱Lls", "🇳🇱Almb", "🇳🇱Alm", "🇳🇱Wp", "XNAC", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr"]
+				},
+				{
+					"stations": ["XNU", "XNAC", "XNSP", "🇳🇱Gv", "XNRC"],
+					"pathSuggestion": ["XNU", "🇳🇱Asb", "XNAC", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "XNRC"]
+				},
+				{
+					"stations": ["🇳🇱Ddr", "🇳🇱Bd", "🇳🇱Tb", "XNEI"],
+					"pathSuggestion": ["🇳🇱Ddr", "🇳🇱Zlw", "🇳🇱Rsd", "🇳🇱Bd", "🇳🇱Tb", "🇳🇱Btl", "XNEI"]
+				},
+				{
+					"stations": ["XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv"]
+				},
+				{
+					"stations": ["XNAC", "🇳🇱Hvs", "🇳🇱Amf", "🇳🇱Apd", "🇳🇱Dv"],
+					"pathSuggestion": ["XNAC", "🇳🇱Wp", "🇳🇱Hvs", "🇳🇱Brn", "🇳🇱Amf", "🇳🇱Hvl", "🇳🇱Apd", "🇳🇱Twl", "🇳🇱Dv"]
+				},
+				{
+					"stations": ["🇳🇱Ekz", "🇳🇱Hn", "XNAC", "XNU", "🇳🇱Ht", "XNEI", "XNWT", "XNRM", "XNSI", "XNMT"]
 				}
 			]
 		},
@@ -5788,6 +5882,72 @@
 				},
 				{
 					"stations": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Zvt" ]
+				},
+				{
+					"stations": ["🇳🇱Lw", "🇳🇱Mp", "🇳🇱Zl"]
+				},
+				{
+					"stations": ["🇳🇱Lw", "🇳🇱Hlgh"]
+				},
+				{
+					"stations": ["🇳🇱Stv", "🇳🇱Lw"]
+				},
+				{
+					"stations": ["🇳🇱Gn", "🇳🇱Swd", "🇳🇱Dz"]
+				},
+				{
+					"stations": ["🇳🇱Gn", "🇳🇱Swd","🇳🇱Eem"]
+				},
+				{
+					"stations": ["🇳🇱Gn", "🇳🇱Nsch"]
+				},
+				{
+					"stations": ["🇳🇱Gn", "🇳🇱Lw"]
+				},
+				{
+					"stations": ["🇳🇱Zl", "🇳🇱Mp", "🇳🇱Gn"]
+				},
+				{
+					"stations": ["🇳🇱Zl", "🇳🇱Mrb", "🇳🇱Emn"]
+				},
+				{
+					"stations": ["🇳🇱Mrb", "🇳🇱Aml"]
+				},
+				{
+					"stations": ["🇳🇱Zp", "🇳🇱Ww"]
+				},
+				{
+					"stations": ["🇳🇱Ww", "🇳🇱Zv"]
+				},
+				{
+					"stations": ["XNAH", "🇳🇱Est", "🇳🇱Gdm"]
+				},
+				{
+					"stations": ["🇳🇱Ddr", "🇳🇱Ldm", "🇳🇱Gdm"]
+				},
+				{
+					"stations": ["XNU", "🇳🇱Gdm", "🇳🇱Ht"]
+				},
+				{
+					"stations": ["🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Brd", "🇳🇱Ddr", "🇳🇱Ldm", "🇳🇱Gdm"]
+				},
+				{
+					"stations": ["🇳🇱Apn", "🇳🇱Gd"]
+				},
+				{
+					"stations": ["🇳🇱Gd", "🇳🇱Gv"]
+				},
+				{
+					"stations": ["XNU", "🇳🇱Wd", "🇳🇱Gd", "XNRC"]
+				},
+				{
+					"stations": ["🇳🇱Rsd", "🇳🇱Mdb", "🇳🇱Vs"]
+				},
+				{
+					"stations": ["🇳🇱Nm", "XNVL"]
+				},
+				{
+					"stations": ["🇳🇱Tb", "🇳🇱Btl", "XNEI", "🇳🇱Gp", "🇳🇱Hze", "🇳🇱Mz", "XNWT"]
 				}
 			],
 			"stopsEverywhere": true,

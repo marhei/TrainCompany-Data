@@ -1881,6 +1881,26 @@
 			]
 		},
 		{
+			"id": 71130,
+			"group": 2,
+			"name": "RENFE-Baureihe 130",
+			"speed": 250,
+			"weight": 312,
+			"force": 220,
+			"length": 184,
+			"drive": 1,
+			"reliability": 1,
+			"equipments": ["ETCS", "ES", "1668mm", "1435mm"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 299},
+				{"name": "bistroseats", "value": 14}
+			],
+			"cost": 4300000,
+			"operationCosts": 110
+		},		
+		{
 			"id": 71730,
 			"group": 2,
 			"name": "RENFE-Baureihe 730",
@@ -1908,7 +1928,7 @@
 			"weight": 225,
 			"force": 150,
 			"length": 107,
-			"drive": 4,
+			"drive": 1,
 			"reliability": 1,
 			"equipments": ["ETCS", "ES", "1668mm", "1435mm"],
 			"maxConnectedUnits": 2,
@@ -1919,7 +1939,7 @@
 			],
 			"cost": 4100000,
 			"operationCosts": 100
-		},	
+		},
 		{
 			"id": 71103,
 			"group": 2,
@@ -1939,7 +1959,7 @@
 				{"name": "passengers", "value": 425},
 				{"name": "bistroseats", "value": 22 }
 			]
-		},	
+		},
 		{
 			"id": 71440,
 			"group": 2,
@@ -1996,7 +2016,7 @@
 			"capacity": [
 				{"name": "passengers", "value": 212}
 			]
-		},	
+		},
 		{
 			"id": 71450943500,
 			"group": 2,
@@ -2072,7 +2092,7 @@
 			"capacity": [
 				{"name": "passengers", "value": 316}
 			]
-		},	
+		},
 		{
 			"id": 943400,
 			"group": 2,
@@ -2091,7 +2111,7 @@
 			"capacity": [
 				{"name": "passengers", "value": 250}
 			]
-		},	
+		},
 		{
 			"id": 944000,
 			"group": 2,
@@ -2112,7 +2132,7 @@
 				{"name": "passengers", "value": 299},
 				{"name": "bistroseats", "value": 18}
 			]
-		},		
+		},
 		{
 			"id": 72412,
 			"group": 2,
@@ -2644,7 +2664,7 @@
 			"drive": 2,
 			"reliability": 0.9,
 			"cost": 280000,
-			"maxConnectedUnits": 5,		
+			"maxConnectedUnits": 5,
 			"operationCosts": 90,
 			"equipments": ["ES", "PT", "1668mm"],
 			"exchangeTime": 65,
@@ -2663,14 +2683,14 @@
 			"drive": 2,
 			"reliability": 0.95,
 			"cost": 500000,
-			"maxConnectedUnits": 5,		
+			"maxConnectedUnits": 5,
 			"operationCosts": 90,
 			"equipments": ["ES", "1435mm", "1668mm"],
 			"exchangeTime": 80,
 			"capacity": [
 				{ "name": "passengers", "value": 126 }
 			]
-		},	
+		},
 		{
 			"id": 71599,
 			"group": 0,
@@ -2682,14 +2702,14 @@
 			"drive": 2,
 			"reliability": 1,
 			"cost": 450000,
-			"maxConnectedUnits": 2,		
+			"maxConnectedUnits": 2,
 			"operationCosts": 80,
 			"equipments": ["ES", "1668mm"],
 			"exchangeTime": 70,
 			"capacity": [
 				{ "name": "passengers", "value": 185 }
 			]
-		},	
+		},
 		{
 			"id": 940350,
 			"group": 0,
@@ -2701,14 +2721,14 @@
 			"drive": 2,
 			"reliability": 0.9,
 			"cost": 90000,
-			"maxConnectedUnits": 3,		
+			"maxConnectedUnits": 3,
 			"operationCosts": 40,
 			"equipments": ["PT", "1668mm"],
 			"exchangeTime": 50,
 			"capacity": [
 				{ "name": "passengers", "value": 64 }
 			]
-		},	
+		},
 		{
 			"id": 940450,
 			"group": 0,
@@ -2720,7 +2740,7 @@
 			"drive": 2,
 			"reliability": 0.9,
 			"cost": 190000,
-			"maxConnectedUnits": 3,		
+			"maxConnectedUnits": 3,
 			"operationCosts": 60,
 			"equipments": ["PT", "1668mm"],
 			"exchangeTime": 60,
@@ -3014,7 +3034,7 @@
 			"capacity": [
 				{ "name": "passengers", "value": 579 }
 			]
-		},		
+		},
 		{
 			"id": 563,
 			"group": 2,
@@ -3801,6 +3821,25 @@
 			]
 		},
 		{
+			"id": 51218,
+			"group": 2,
+			"name": "Pesa 218M",
+			"speed": 120,
+			"weight": 82,
+			"force": 210,
+			"length": 42,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 320000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 60,
+			"exchangeTime": 60,
+			"equipments": ["PL", "LT"],
+			"capacity": [
+				{"name": "passengers", "value": 146}
+			]
+		},		
+		{
 			"id": 80795,
 			"group": 2,
 			"name": "VT 95",
@@ -3971,7 +4010,7 @@
 			"equipments": [ "UA", "RU", "LV", "1520mm" ],
 			"exchangeTime": 60,
 			"capacity": [
-				{ "name": "passengers", "value": 600 }
+				{ "name": "passengers", "value": 222 }
 			]
 		},
 		{
@@ -3992,7 +4031,7 @@
 			"capacity": [
 				{ "name": "passengers", "value": 336 }
 			]
-		},	
+		},
 		{
 			"id": 262223240,
 			"group": 2,
@@ -4049,7 +4088,7 @@
 			"capacity": [
 				{ "name": "passengers", "value": 400 }
 			]
-		},		
+		},
 		{
 			"id": 33,
 			"group": 2,
@@ -4411,9 +4450,25 @@
 			"equipments": [ "FR", "ETCS", "AT", "DE" ]
 		},
 		{
+			"id": 54362,
+			"group": 0,
+			"name": "ČD-Baureihe 362",
+			"shortcut": "ČD 362",
+			"speed": 140,
+			"weight": 87,
+			"force": 258,
+			"length": 17,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 270000,
+			"operationCosts": 125,
+			"equipments": ["ETCS", "CZ", "SK"]
+		},
+		{
 			"id": 54372,
 			"group": 0,
-			"name": "ČD-Baureihe 350/ DB-Baureihe 180",
+			"name": "ČD-Baureihe 372/ DB-Baureihe 180 (ex DR 230)",
+			"shortcut": "DR 230",
 			"speed": 120,
 			"weight": 84,
 			"force": 280,
@@ -4421,6 +4476,21 @@
 			"drive": 1,
 			"reliability": 0.9,
 			"cost": 420000,
+			"operationCosts": 125,
+			"equipments": ["DE", "CZ", "SK", "PL"]
+		},
+		{
+			"id": 54371,
+			"group": 0,
+			"name": "ČD-Baureihe 371/ DB 180 001",
+			"shortcut": "ČD 371",
+			"speed": 160,
+			"weight": 84,
+			"force": 280,
+			"length": 17,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 440000,
 			"operationCosts": 125,
 			"equipments": ["DE", "CZ", "SK", "PL"]
 		},
@@ -4757,7 +4827,8 @@
 		{
 			"id": 54350,
 			"group": 0,
-			"name": "ZSSK-Baureihe 350",
+			"name": "ZSSK-Baureihe 350 (ex ČSD ES 499.0)",
+			"shortcut": "ČSD ES 499",
 			"speed": 160,
 			"weight": 90,
 			"force": 210,
@@ -4936,7 +5007,7 @@
 			"cost": 520000,
 			"operationCosts": 100,
 			"equipments": ["ES", "PT", "1668mm", "ETCS"]
-		},	
+		},
 		{
 			"id": 71253,
 			"group": 0,
@@ -4980,7 +5051,7 @@
 			"cost": 320000,
 			"operationCosts": 80,
 			"equipments": ["PT", "1668mm"]
-		},	
+		},
 		{
 			"id": 944700,
 			"group": 0,
@@ -4995,7 +5066,7 @@
 			"cost": 530000,
 			"operationCosts": 95,
 			"equipments": ["PT", "1668mm"]
-		},			
+		},
 		{
 			"id": 72441,
 			"group": 0,
@@ -5376,7 +5447,7 @@
 			"cost": 850000,
 			"operationCosts": 140,
 			"equipments": ["UA", "1520mm"]
-		},		
+		},
 		{
 			"id": 931250,
 			"group": 0,
@@ -5591,6 +5662,21 @@
 			"cost": 140000,
 			"operationCosts": 110,
 			"equipments": ["DE", "BE", "NL", "BG", "IT", "LU", "AT", "CH", "RO", "CZ", "SK", "HU", "RS"]
+		},
+		{
+			"id": 80750251,
+			"group": 0,
+			"name": "BR V 51/251",
+			"shortcut": "BR 251",
+			"speed": 40,
+			"weight": 39,
+			"force": 132,
+			"length": 10,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 90000,
+			"operationCosts": 80,
+			"equipments": ["DE", "750mm"]
 		},
 		{
 			"id": 75101,
@@ -6017,7 +6103,7 @@
 			"cost": 190000,
 			"operationCosts": 110,
 			"equipments": ["ES", "1668mm"]
-		},	
+		},
 		{
 			"id": 713192,
 			"group": 0,
@@ -6031,7 +6117,7 @@
 			"cost": 360000,
 			"operationCosts": 130,
 			"equipments": ["ES", "1668mm"]
-		},	
+		},
 		{
 			"id": 7133394600,
 			"group": 0,
@@ -6060,7 +6146,7 @@
 			"cost": 250000,
 			"operationCosts": 140,
 			"equipments": ["PT", "1668mm"]
-		},			
+		},
 		{
 			"id": 941930,
 			"group": 0,
@@ -6074,7 +6160,7 @@
 			"cost": 270000,
 			"operationCosts": 150,
 			"equipments": ["PT", "1668mm"]
-		},		
+		},
 		{
 			"id": 102500,
 			"group": 0,
@@ -6229,7 +6315,7 @@
 			"cost": 230000,
 			"operationCosts": 150,
 			"equipments": ["EE", "1520mm"]
-		},		
+		},
 		{
 			"id": 4,
 			"group": 1,
@@ -6365,6 +6451,24 @@
 			"exchangeTime": 180,
 			"capacity": [
 				{"name": "bistroseats", "value": 24 }
+			]
+		},
+		{
+			"id": 80750,
+			"group": 1,
+			"name": "schmalspuriger Reko-Wagen",
+			"shortcut": "Baag",
+			"speed": 40,
+			"weight": 12,
+			"force": 0,
+			"length": 10,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 30000,
+			"exchangeTime": 80,
+			"equipments": ["750mm"],
+			"capacity": [
+				{"name": "passengers", "value": 34 }
 			]
 		},
 		{
@@ -7157,7 +7261,7 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 190000,
-			"equipments": ["1668mm"],			
+			"equipments": ["1668mm"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 88}
@@ -7175,11 +7279,11 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 220000,
-			"equipments": ["1668mm"],			
+			"equipments": ["1668mm"],
 			"exchangeTime": 180,
 			"capacity": [
 				{"name": "passengers", "value": 28},
-				{"name": "bistroseats", "value": 18}				
+				{"name": "bistroseats", "value": 18}
 			]
 		},
 		{
@@ -7194,7 +7298,7 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 185000,
-			"equipments": ["1668mm"],			
+			"equipments": ["1668mm"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 88}
@@ -7212,11 +7316,11 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 215000,
-			"equipments": ["1668mm"],			
+			"equipments": ["1668mm"],
 			"exchangeTime": 180,
 			"capacity": [
 				{"name": "passengers", "value": 28},
-				{"name": "bistroseats", "value": 18}				
+				{"name": "bistroseats", "value": 18}
 			]
 		},
 		{
@@ -7231,12 +7335,12 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 220000,
-			"equipments": ["1668mm"],			
+			"equipments": ["1668mm"],
 			"exchangeTime": 180,
 			"capacity": [
-				{"name": "beds", "value": 40}				
+				{"name": "beds", "value": 40}
 			]
-		},		
+		},
 		{
 			"id": 20212223241,
 			"group": 1,
@@ -7272,7 +7376,7 @@
 			"capacity": [
 				{"name": "beds", "value": 80}
 			]
-		},		
+		},
 		{
 			"id": 20212223243,
 			"group": 1,
@@ -7344,7 +7448,7 @@
 			"capacity": [
 				{"name": "beds", "value": 50}
 			]
-		},		
+		},
 		{
 			"id": 10404500000,
 			"group": 1,
@@ -7855,15 +7959,15 @@
 			"reliability": 1,
 			"cost": 1200000,
 			"maxConnectedUnits": 2,
-			"compatibleWith": [71251252,7133394600],
-			"equipments": ["1435mm", "1668mm"],			
+			"compatibleWith": [71251252,7133394600,8736000],
+			"equipments": ["1435mm", "1668mm"],
 			"exchangeTime": 90,
 			"equivalentTo": 9,
 			"capacity": [
 				{"name": "passengers", "value": 237 },
 				{"name": "bistroseats", "value": 12 }
 			]
-		},		
+		},
 		{
 			"id": 4449501,
 			"group": 3,
@@ -7898,8 +8002,8 @@
 			"reliability": 1,
 			"cost": 1400000,
 			"maxConnectedUnits": 2,
-			"compatibleWith": [71251252,7133394600],
-			"equipments": ["1435mm", "1668mm"],	
+			"compatibleWith": [71251252,7133394600, 8736000],
+			"equipments": ["1435mm", "1668mm"],
 			"exchangeTime": 180,
 			"equivalentTo": 9,
 			"capacity": [
@@ -7907,7 +8011,7 @@
 				{"name": "bistroseats", "value": 12 },
 				{"name": "beds", "value": 58}
 			]
-		},		
+		},
 		{
 			"id": 4449502,
 			"group": 3,
@@ -7929,7 +8033,7 @@
 				{"name": "bistroseats", "value": 12 },
 				{"name": "beds", "value": 58}
 			]
-		},		
+		},
 		{
 			"id": 202017,
 			"group": 3,
