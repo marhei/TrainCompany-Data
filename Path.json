@@ -4362,6 +4362,42 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 250,
+			"fictious": true,
+			"neededEquipments": [
+				"ES",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "🇪🇸55020",
+					"end": "🇪🇸O345409",
+					"length": 54,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇪🇸O345409",
+					"end": "🇪🇸O340756",
+					"length": 26,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇪🇸O340756",
+					"end": "🇪🇸O7571556036",
+					"length": 28,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇪🇸O7571556036",
+					"end": "🇪🇸54413",
+					"length": 26,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"group": 1,
 			"name": "Obere Ruhrtalbahn",
 			"electrified": false,
@@ -6667,6 +6703,95 @@
 					"start": "RWDN",
 					"end": "RSE",
 					"length": 20
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 120,
+			"neededEquipments": [
+				"ES",
+				"1668mm"
+			],
+			"objects": [
+				{
+					"start": "XEAS",
+					"end": "🇪🇸55001",
+					"length": 17,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇪🇸55001",
+					"end": "🇪🇸55003",
+					"length": 16,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇪🇸55003",
+					"end": "🇪🇸55007",
+					"length": 39,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇪🇸55007",
+					"end": "🇪🇸55008",
+					"length": 7,
+					"twistingFactor": 0.53
+				},
+				{
+					"start": "🇪🇸55008",
+					"end": "🇪🇸55010",
+					"length": 14,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇪🇸55010",
+					"end": "🇪🇸55011",
+					"length": 7,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇪🇸55011",
+					"end": "🇪🇸55012",
+					"length": 9,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇪🇸55012",
+					"end": "🇪🇸55013",
+					"length": 10,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇪🇸55013",
+					"end": "🇪🇸O3762224319",
+					"length": 10,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇪🇸O3762224319",
+					"end": "🇪🇸55015",
+					"length": 5,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇪🇸55015",
+					"end": "🇪🇸55017",
+					"length": 20,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇪🇸55017",
+					"end": "🇪🇸55018",
+					"length": 7,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇪🇸55018",
+					"end": "🇪🇸55020",
+					"length": 13,
+					"twistingFactor": 0.4
 				}
 			]
 		},
@@ -13497,6 +13622,137 @@
 					"end": "XIBN",
 					"length": 10,
 					"twistingFactor": 0.35
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"neededEquipments": [
+				"MA"
+			],
+			"objects": [
+				{
+					"start": "🇲🇦O9425004014",
+					"end": "🇲🇦O2563673488",
+					"length": 6,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇲🇦O2563673488",
+					"end": "🇲🇦O2150659522",
+					"length": 20,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇲🇦O2150659522",
+					"end": "🇲🇦O9418232000",
+					"length": 18,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇲🇦O9418232000",
+					"end": "🇲🇦O9450518206",
+					"length": 193,
+					"twistingFactor": 0.15,
+					"maxSpeed": 320,
+					"name": "LGV Tanger-Kenitra",
+					"group": 2,
+					"neededEquipments": [
+						"MA",
+						"ETCS"
+					]
+				},
+				{
+					"start": "🇲🇦O9450518206",
+					"end": "🇲🇦O361575427",
+					"length": 20,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇲🇦O361575427",
+					"end": "🇲🇦O456791383",
+					"length": 11,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇲🇦O456791383",
+					"end": "🇲🇦O2819226556",
+					"length": 6,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇲🇦O2819226556",
+					"end": "🇲🇦O2572775481",
+					"length": 14,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇲🇦O2572775481",
+					"end": "🇲🇦O1481425129",
+					"length": 26,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇲🇦O1481425129",
+					"end": "🇲🇦O7055155496",
+					"length": 47,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇲🇦O7055155496",
+					"end": "🇲🇦O485910991",
+					"length": 18,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇲🇦O485910991",
+					"end": "🇲🇦O4215515532",
+					"length": 10,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇲🇦O4215515532",
+					"end": "🇲🇦O3827702078",
+					"length": 13,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇲🇦O3827702078",
+					"end": "🇲🇦O635977791",
+					"length": 30,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇲🇦O635977791",
+					"end": "🇲🇦O2194536439",
+					"length": 21,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇲🇦O2194536439",
+					"end": "🇲🇦O2194543435",
+					"length": 23,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇲🇦O2194543435",
+					"end": "🇲🇦O1210723435",
+					"length": 54,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇲🇦O1210723435",
+					"end": "🇲🇦O635975802",
+					"length": 36,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇲🇦O635975802",
+					"end": "🇲🇦O1245964366",
+					"length": 37,
+					"twistingFactor": 0.25
 				}
 			]
 		},
@@ -26966,6 +27222,44 @@
 					"end": "XFLIE",
 					"length": 19,
 					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"fictitious": true,
+			"neededEquipments": [
+				"ES"
+			],
+			"objects": [
+				{
+					"start": "🇪🇸55020",
+					"end": "🇪🇸O375671816",
+					"length": 8,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇪🇸O375671816",
+					"end": "🇪🇸O346648",
+					"length": 13,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇪🇸O346648",
+					"end": "🇲🇦O9425004014",
+					"length": 34,
+					"twistingFactor": 0.2,
+					"maxSpeed": 160,
+					"name": "Gibraltartunnel",
+					"neededEquipments": [
+						"ES",
+						"MA",
+						"ETCS"
+					],
+					"electrified": true,
+					"group": 2
 				}
 			]
 		},
