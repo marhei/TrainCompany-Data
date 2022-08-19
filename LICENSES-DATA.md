@@ -55,3 +55,7 @@ License:
 
 `uk_bplan.json`:
 - Source: https://wiki.openraildata.com/index.php?title=BPLAN_Geography_Data
+
+
+# Karte
+Die Hintergrund-Karte stammt von https://commons.wikimedia.org/wiki/File:BlankMap-World.svg und wurde hierfür angepasst (Skalierung, Farbgebung usw.).

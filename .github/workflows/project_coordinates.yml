@@ -22,7 +22,7 @@ jobs:
       - name: Install requirements
         run: python -m pip install -r tools/requirements.txt
       - name: Project coordinates
-        run: python tools/project_coordinates.py --tc-dir=.
+        run: python tools/project_coordinates.py --tc-dir=. --projection-version=3
       - name: Commit and Push
         # https://stackoverflow.com/a/58393457
         run: |
