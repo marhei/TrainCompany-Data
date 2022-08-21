@@ -5289,6 +5289,31 @@
 			]
 		},
 		{
+			"name": "Sudbury Branch Line",
+			"electrified": false,
+			"neededEquipments": [
+				"🇬🇧"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧68630",
+					"end": "🇬🇧70850",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧70850",
+					"end": "🇬🇧O181313467",
+					"group": 1,
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.11
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
