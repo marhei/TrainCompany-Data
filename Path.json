@@ -3397,6 +3397,86 @@
 			]
 		},
 		{
+			"name": "Ligne des Aubrais à Montauban",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"🇫🇷"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷VER",
+					"end": "🇫🇷O9252914544",
+					"length": 19,
+					"maxSpeed": 160,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇫🇷O9252914544",
+					"end": "🇫🇷ISK",
+					"length": 16,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷ISK",
+					"end": "🇫🇷NPO",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇫🇷NPO",
+					"end": "XFCX",
+					"length": 14,
+					"maxSpeed": 160,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "XFCX",
+					"end": "🇫🇷AGC",
+					"length": 30,
+					"maxSpeed": 160,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇫🇷AGC",
+					"end": "XFLST",
+					"length": 46,
+					"maxSpeed": 150,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XFLST",
+					"end": "🇫🇷BHA",
+					"length": 20,
+					"maxSpeed": 160,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇫🇷BHA",
+					"end": "XFSSL",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XFSSL",
+					"end": "🇫🇷ABZ",
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇫🇷ABZ",
+					"end": "🇫🇷LIM",
+					"length": 17,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
 			"maxSpeed": 120,
 			"twistingFactor": 0.3,
 			"electrified": false,
@@ -31307,7 +31387,8 @@
 			"maxSpeed": 200,
 			"twistingFactor": 0.1,
 			"neededEquipments": [
-				"DE", "1435mm"
+				"DE",
+				"1435mm"
 			],
 			"objects": [
 				{
