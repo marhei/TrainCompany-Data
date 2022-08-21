@@ -31307,7 +31307,8 @@
 			"maxSpeed": 200,
 			"twistingFactor": 0.1,
 			"neededEquipments": [
-				"DE", "1435mm"
+				"DE",
+				"1435mm"
 			],
 			"objects": [
 				{
@@ -33360,6 +33361,63 @@
 					"length": 23,
 					"maxSpeed": 125,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"🇬🇧"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧EDB",
+					"end": "🇬🇧94380",
+					"name": "Edinburgh to Glasgow via Falkirk",
+					"length": 28,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧94380",
+					"end": "🇬🇧99360",
+					"name": "Edinburgh to Glasgow via Falkirk",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧99360",
+					"end": "🇬🇧99430",
+					"name": "Edinburgh to Glasgow via Falkirk",
+					"length": 21,
+					"maxSpeed": 160,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧99430",
+					"end": "🇬🇧99550",
+					"name": "Edinburgh to Glasgow via Falkirk Line",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇬🇧99550",
+					"end": "🇬🇧99400",
+					"name": "Edinburgh to Glasgow via Falkirk Line",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧99400",
+					"end": "🇬🇧GLC",
+					"name": "Edinburgh to Glasgow via Falkirk Line",
+					"length": 5,
+					"maxSpeed": 136,
+					"twistingFactor": 0.15
 				}
 			]
 		},
