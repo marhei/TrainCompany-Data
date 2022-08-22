@@ -5805,6 +5805,20 @@
 			]
 		},
 		{
+			"name": "Al Boraq von %s nach %s",
+			"descriptions": [
+				"Fahre von %s nach %s und verbinde Afrika mit Europa."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats"}
+			],
+			"group": 1,
+			"service": 0,
+			"stations": [ "XEMAT", "🇪🇸50500", "🇪🇸54413", "🇲🇦O9418232000", "🇲🇦O2819226556", "🇲🇦O7055155496", "🇲🇦O1245964366" ],
+			"pathSuggestion": [ "XEMAT", "🇪🇸50500", "XEAS", "🇪🇸54413", "🇪🇸55020", "🇲🇦O9418232000", "🇲🇦O2819226556", "🇲🇦O7055155496", "🇲🇦O1245964366" ]
+		},
+		{
 			"name": "Intercity von %s nach %s",
 			"descriptions": [
 				"Fahre von %s nach %s.",
