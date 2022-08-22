@@ -2560,10 +2560,24 @@
 			"name": "ČD von %s nach %s",
 			"service": 3,
 			"descriptions": [
-				"Aufgrund von Bauarbeiten auf der Strecke ČD 142 erfolgt die Weiterfahrt von Potůčky nach Karlovy Vary mit dem Schienenersatzverkehr",
-				"Wenn die Bauarbeiten auf der Strecke ČD 142 abgeschlossen sind, kann man wieder ohne umzusteigen von Johanngeorgenstadt nach Karlovy Vary fahren."
+				"Fahre den Personenzug auf der tschechischen Seite des Erzegebirges",
+				"Diese Regionalbahn ist bei deutschen Touristen beliebt, die in die tschechischen Kurorte wollen.",
+				"Der Kurort Karlsbad ist auch für seine Oblaten bekannt."
 			],
-			"stations": [ "DJ", "XTPO" ],
+			"stations": [ "DJ", "XTPO", "XTHB", "XTPEK", "XTNH", "XTNJ", "XTNR", "XTKV" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "ČD von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre den Personenzug auf der tschechischen Seite des Erzegebirges"
+			],
+			"stations": [ "XTCO", "XTKM", "XTKO", "XTVY" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
