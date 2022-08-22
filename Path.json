@@ -5289,6 +5289,31 @@
 			]
 		},
 		{
+			"name": "Sudbury Branch Line",
+			"electrified": false,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧68630",
+					"end": "🇬🇧70850",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧70850",
+					"end": "🇬🇧O181313467",
+					"group": 1,
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.11
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -10947,6 +10972,265 @@
 					"end": "🇨🇭TIR",
 					"length": 4,
 					"maxSpeed": 30
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"objects": [
+				{
+					"start": "🇬🇧BRI",
+					"end": "🇬🇧O492098581",
+					"name": "Bristol to Taunton Line",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧O492098581",
+					"end": "🇬🇧33900",
+					"name": "Bristol to Taunton Line",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧33900",
+					"end": "🇬🇧34490",
+					"name": "Bristol to Exeter Line",
+					"length": 27,
+					"maxSpeed": 177,
+					"twistingFactor": 0.15,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧34490",
+					"end": "🇬🇧O3285114",
+					"name": "Bristol to Exeter Line",
+					"length": 47,
+					"maxSpeed": 160,
+					"twistingFactor": 0.28,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧O3285114",
+					"end": "🇬🇧34100",
+					"name": "Bristol to Exeter Line",
+					"length": 20,
+					"maxSpeed": 160,
+					"twistingFactor": 0.23,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧34100",
+					"end": "🇬🇧34130",
+					"name": "Great Western Main Line",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧34130",
+					"end": "🇬🇧34080",
+					"name": "Great Western Main Line",
+					"length": 5,
+					"maxSpeed": 128,
+					"twistingFactor": 0.17,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧34080",
+					"end": "🇬🇧34300",
+					"name": "Great Western Railway",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧34300",
+					"end": "🇬🇧34262",
+					"name": "Great Western Railway",
+					"length": 8,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧34262",
+					"end": "🇬🇧35580",
+					"name": "Great Western Railway",
+					"length": 14,
+					"maxSpeed": 96,
+					"twistingFactor": 0.28,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧35580",
+					"end": "🇬🇧O6138936990",
+					"name": "Great Western Railway",
+					"length": 10,
+					"maxSpeed": 96,
+					"twistingFactor": 0.14,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧O6138936990",
+					"end": "🇬🇧35550",
+					"name": "Great Western Railway",
+					"length": 7,
+					"maxSpeed": 96,
+					"twistingFactor": 0.3,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧35550",
+					"end": "🇬🇧35800",
+					"name": "Great Western Railway",
+					"length": 18,
+					"maxSpeed": 128,
+					"twistingFactor": 0.19,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧35800",
+					"end": "🇬🇧35860",
+					"name": "The Cornish Main Line",
+					"length": 14,
+					"maxSpeed": 112,
+					"twistingFactor": 0.32,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧35860",
+					"end": "🇬🇧35760",
+					"name": "The Cornish Main Line",
+					"length": 8,
+					"maxSpeed": 104,
+					"twistingFactor": 0.18,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧35760",
+					"end": "🇬🇧35730",
+					"name": "The Cornish Main Line",
+					"length": 4,
+					"maxSpeed": 96,
+					"twistingFactor": 0.14,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧35730",
+					"end": "🇬🇧35170",
+					"name": "The Cornish Main Line",
+					"length": 20,
+					"maxSpeed": 104,
+					"twistingFactor": 0.39,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧35170",
+					"end": "🇬🇧35240",
+					"name": "The Cornish Main Line",
+					"length": 6,
+					"maxSpeed": 104,
+					"twistingFactor": 0.17,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧35240",
+					"end": "🇬🇧35340",
+					"name": "The Cornish Main Line",
+					"length": 7,
+					"maxSpeed": 104,
+					"twistingFactor": 0.26,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧35340",
+					"end": "🇬🇧35400",
+					"name": "The Cornish Main Line",
+					"length": 23,
+					"maxSpeed": 112,
+					"twistingFactor": 0.19,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧35400",
+					"end": "🇬🇧35300",
+					"name": "The Cornish Main Line",
+					"length": 14,
+					"maxSpeed": 112,
+					"twistingFactor": 0.3,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧35300",
+					"end": "🇬🇧35130",
+					"name": "The Cornish Main Line",
+					"length": 15,
+					"maxSpeed": 112,
+					"twistingFactor": 0.14,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧35130",
+					"end": "🇬🇧35260",
+					"name": "The Cornish Main Line",
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15,
+					"neededEquipments": [
+						"GB"
+					]
 				}
 			]
 		},
@@ -23496,6 +23780,140 @@
 		},
 		{
 			"electrified": true,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "XKLP",
+					"end": "🇬🇧68860",
+					"name": "North London line",
+					"group": 2,
+					"length": 24,
+					"maxSpeed": 230,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧68860",
+					"end": "🇬🇧68720",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 144,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇬🇧68720",
+					"end": "🇬🇧68820",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 144,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧68820",
+					"end": "🇬🇧68360",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 144,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧68360",
+					"end": "🇬🇧68440",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 160,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇬🇧68440",
+					"end": "🇬🇧68630",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧68630",
+					"end": "🇬🇧COL",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧COL",
+					"end": "🇬🇧68560",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧68560",
+					"end": "🇬🇧IPS",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 160,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇬🇧IPS",
+					"end": "🇬🇧73550",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 19,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧73550",
+					"end": "🇬🇧O4458598",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧O4458598",
+					"end": "🇬🇧73480",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧73480",
+					"end": "🇬🇧O4612028051",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧O4612028051",
+					"end": "🇬🇧73090",
+					"name": "Great Eastern Main Line",
+					"group": 0,
+					"length": 21,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"group": 0,
 			"objects": [
 				{
@@ -29976,6 +30394,140 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧99430",
+					"end": "🇬🇧O661489722",
+					"name": "Scottish Central Main Line",
+					"electrified": true,
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧O661489722",
+					"end": "🇬🇧98760",
+					"name": "Scottish Central Main Line",
+					"electrified": true,
+					"length": 4,
+					"maxSpeed": 112,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧98760",
+					"end": "🇬🇧98880",
+					"name": "Glasgow to Dunblane",
+					"electrified": true,
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧98880",
+					"end": "🇬🇧87130",
+					"name": "Glasgow to Dunblane",
+					"electrified": true,
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧87130",
+					"end": "🇬🇧88050",
+					"name": "Glasgow to Perth",
+					"electrified": false,
+					"length": 45,
+					"maxSpeed": 160,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇬🇧88050",
+					"end": "🇬🇧O1318761629",
+					"name": "Highland Main Line",
+					"electrified": false,
+					"length": 6,
+					"maxSpeed": 136,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧O1318761629",
+					"end": "🇬🇧O6768774851",
+					"name": "Highland Main Line",
+					"electrified": false,
+					"length": 17,
+					"maxSpeed": 136,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧O6768774851",
+					"end": "🇬🇧88010",
+					"name": "Highland Main Line",
+					"electrified": false,
+					"length": 20,
+					"maxSpeed": 128,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧88010",
+					"end": "🇬🇧87500",
+					"name": "Highland Main Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 120,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧87500",
+					"end": "🇬🇧86280",
+					"name": "Highland Main Line",
+					"electrified": false,
+					"length": 37,
+					"maxSpeed": 128,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇬🇧86280",
+					"end": "🇬🇧86680",
+					"name": "Highland Main Line",
+					"electrified": false,
+					"length": 16,
+					"maxSpeed": 144,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧86680",
+					"end": "🇬🇧86100",
+					"name": "Highland Main Line",
+					"electrified": false,
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧86100",
+					"end": "🇬🇧TOMATIN",
+					"name": "Highland Main Line",
+					"electrified": false,
+					"length": 24,
+					"maxSpeed": 128,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇬🇧TOMATIN",
+					"end": "🇬🇧86490",
+					"name": "Highland Main Line",
+					"electrified": false,
+					"length": 31,
+					"maxSpeed": 128,
+					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"maxSpeed": 120,
@@ -31307,7 +31859,8 @@
 			"maxSpeed": 200,
 			"twistingFactor": 0.1,
 			"neededEquipments": [
-				"DE", "1435mm"
+				"DE",
+				"1435mm"
 			],
 			"objects": [
 				{
@@ -32021,6 +32574,143 @@
 					"length": 8,
 					"maxSpeed": 120,
 					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
+			"name": "Far North Line",
+			"electrified": false,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧86490",
+					"end": "🇬🇧88770",
+					"group": 1,
+					"length": 16,
+					"maxSpeed": 104,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇬🇧88770",
+					"end": "🇬🇧86650",
+					"group": 1,
+					"length": 4,
+					"maxSpeed": 104,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "🇬🇧86650",
+					"end": "🇬🇧86320",
+					"group": 1,
+					"length": 8,
+					"maxSpeed": 104,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧86320",
+					"end": "🇬🇧86050",
+					"group": 1,
+					"length": 15,
+					"maxSpeed": 104,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧86050",
+					"end": "🇬🇧86480",
+					"group": 1,
+					"length": 4,
+					"maxSpeed": 104,
+					"twistingFactor": 0.02
+				},
+				{
+					"start": "🇬🇧86480",
+					"end": "🇬🇧86760",
+					"group": 1,
+					"length": 20,
+					"maxSpeed": 104,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇬🇧86760",
+					"end": "🇬🇧86130",
+					"group": 1,
+					"length": 21,
+					"maxSpeed": 96,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧86130",
+					"end": "🇬🇧86710",
+					"group": 1,
+					"length": 30,
+					"maxSpeed": 96,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧86710",
+					"end": "🇬🇧86430",
+					"group": 1,
+					"length": 11,
+					"maxSpeed": 96,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧86430",
+					"end": "🇬🇧86180",
+					"group": 1,
+					"length": 9,
+					"maxSpeed": 96,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧86180",
+					"end": "🇬🇧86470",
+					"group": 1,
+					"length": 17,
+					"maxSpeed": 96,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧86470",
+					"end": "🇬🇧86530",
+					"group": 1,
+					"length": 27,
+					"maxSpeed": 64,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧86530",
+					"end": "🇬🇧86390",
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 80,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧86390",
+					"end": "🇬🇧86720",
+					"group": 0,
+					"length": 27,
+					"maxSpeed": 80,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇬🇧86720",
+					"end": "🇬🇧86410",
+					"group": 1,
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧86410",
+					"end": "🇬🇧86801",
+					"group": 1,
+					"length": 22,
+					"maxSpeed": 96,
+					"twistingFactor": 0.11
 				}
 			]
 		},
@@ -33360,6 +34050,63 @@
 					"length": 23,
 					"maxSpeed": 125,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧EDB",
+					"end": "🇬🇧94380",
+					"name": "Edinburgh to Glasgow via Falkirk",
+					"length": 28,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧94380",
+					"end": "🇬🇧99360",
+					"name": "Edinburgh to Glasgow via Falkirk",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧99360",
+					"end": "🇬🇧99430",
+					"name": "Edinburgh to Glasgow via Falkirk",
+					"length": 21,
+					"maxSpeed": 160,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧99430",
+					"end": "🇬🇧99550",
+					"name": "Edinburgh to Glasgow via Falkirk Line",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇬🇧99550",
+					"end": "🇬🇧99400",
+					"name": "Edinburgh to Glasgow via Falkirk Line",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧99400",
+					"end": "🇬🇧GLC",
+					"name": "Edinburgh to Glasgow via Falkirk Line",
+					"length": 5,
+					"maxSpeed": 136,
+					"twistingFactor": 0.15
 				}
 			]
 		},
@@ -36259,6 +37006,58 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 144,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "XKLP",
+					"end": "🇬🇧PUR",
+					"name": "Thameslink",
+					"length": 27,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇬🇧PUR",
+					"end": "🇬🇧54782",
+					"name": "Brighton Main Line (Redhill Line)",
+					"length": 11,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧54782",
+					"end": "🇬🇧70991",
+					"name": "Brighton Main Line",
+					"length": 9,
+					"twistingFactor": 0.02
+				},
+				{
+					"start": "🇬🇧70991",
+					"end": "🇬🇧54910",
+					"name": "Brighton Main Line",
+					"length": 4,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧54910",
+					"end": "🇬🇧53410",
+					"name": "Brighton Main Line",
+					"length": 18,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧53410",
+					"end": "🇬🇧52680",
+					"name": "Brighton Main Line",
+					"length": 15,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
 			"neededEquipments": [
 				"LV",
 				"1520mm"
@@ -36993,6 +37792,86 @@
 						"LT",
 						"1520mm"
 					]
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧73090",
+					"end": "🇬🇧73830",
+					"name": "Breckland Line",
+					"electrified": true,
+					"length": 16,
+					"maxSpeed": 144,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇬🇧73830",
+					"end": "🇬🇧73670",
+					"name": "Breckland Line",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 144,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧73670",
+					"end": "🇬🇧73740",
+					"name": "Breckland Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 144,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧73740",
+					"end": "🇬🇧72030",
+					"name": "Breckland Line",
+					"electrified": false,
+					"length": 12,
+					"maxSpeed": 144,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧72030",
+					"end": "🇬🇧72010",
+					"name": "Breckland Line",
+					"electrified": false,
+					"length": 17,
+					"maxSpeed": 144,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇬🇧72010",
+					"end": "🇬🇧70680",
+					"name": "Breckland Line",
+					"electrified": false,
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧70680",
+					"end": "🇬🇧71660",
+					"name": "Ely to Peterborough Line",
+					"electrified": false,
+					"length": 24,
+					"maxSpeed": 120,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇬🇧71660",
+					"end": "🇬🇧PBO",
+					"name": "Ely to Peterborough Line",
+					"electrified": false,
+					"length": 24,
+					"maxSpeed": 168,
+					"twistingFactor": 0.16
 				}
 			]
 		},
