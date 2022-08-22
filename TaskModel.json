@@ -7641,16 +7641,16 @@
 			"name": "IC von %s nach %s",
 			"service": 0,
 			"descriptions": [
-				"Der IC2 befördert Fahrgäste von West nach Ost."			
+				"Der IC2 befördert Fahrgäste von West nach Ost."
 			],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
 			],
 			"objects": [
-				{ 
+				{
 					"stations": [ "RK", "TPH", "TV", "TS", "TH", "TC", "NAN", "NN", "NER", "NBA", "NLF", "NK", "US", "UGW", "UNM", "LL" ],
-					"pathSuggestion": [ "RK", "TPH", "TV", "TS", "TKH", "TH", "TOE", "TC", "NSNE", "NAN", "NN", "NER", "NBA", "NED", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
+					"pathSuggestion": [ "RK", "TPH", "TV", "TS", "TKH", "TH", "TOE", "TC", "NSNE", "NAN", "NN", "NER", "NBA", "NED", "NLF", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
 				}
 			]
 		},
@@ -7661,20 +7661,20 @@
 			"descriptions": [
 				"Fahre den IC queer durch Deutschland.",
 				"Lass die Fahrgäste ganz Deutschland erkunden.",
-				"Bring den IC von Ost nach West"			
+				"Bring den IC von Ost nach West"
 			],
 			"objects": [
 				{
 					"stations": [ "MH", "MA", "MGZB", "TU", "TG", "TGO", "TP", "TS", "TV", "RBR", "RH", "RM", "FWOR", "FMZ", "KKO", "KRE", "KB", "KK", "KM" ],
-					"pathSuggestion": [ "MH", "MA", "MGZB", "TU", "TG", "TGO", "TP", "TS", "TV", "RBR", "RH", "RMF", "RM", "FWOR", "FMZ", "FBGK", "KKO", "KB", "KK", "KGRB", "KM" ]
+					"pathSuggestion": [ "MH", "MA", "MGZB", "TU", "TG", "TGO", "TP", "TS", "TV", "RBR", "RH", "RMF", "RM", "RFT", "FWOR", "FMZ", "FBGK", "KKO","KRE", "KB", "KKAS", "KK", "KGRB", "KM" ]
 				},
 				{
 					"stations": [ "MGP", "MWH", "MH", "NN", "NF", "NBA", "US", "UNM", "LL", "LH", "LM", "LS", "WW" ],
-					"pathSuggestion": [ "MGP", "MMU", "MWH", "MTZ", "MH", "MDA", "MIH", "NN", "NF", "NBA", "NED", "NHM", "US", "UGW", "UGH", "LL", "LGOS", "LH", "LM", "LS", "WW" ]
+					"pathSuggestion": [ "MGP", "MMU", "MWH", "MTZ", "MH", "MDA", "MIH", "NN", "NF", "NBA", "NED", "NHM", "US", "UGW", "UGH", "UNM", "LL", "LGOS", "LH", "LM", "LS", "WW" ]
 				},
 				{
 					"stations": [ "BHF", "BL", "BSPD", "HWOB", "HH", "EPD", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK", "KDN", "KA" ],
-					"pathSuggestion": [ "BHF", "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HHM", "HA", "EPD", "EHM", "EDO", "EE", "EDG", "KDFF", "KD", "KLIM", "KK", "KHR", "KDN", "KA" ]
+					"pathSuggestion": [ "BHF", "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HHM", "HA", "EPD", "EHM", "EDO", "EBO", "EE", "EDG", "KDFF", "KD", "KK", "KHR", "KDN", "KA" ]
 				}
 			],
 			"neededCapacity": [
