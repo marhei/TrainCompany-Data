@@ -1182,7 +1182,6 @@
 				{ "name": "cars", "value": 60 }
 			]
 		},
-
 		{
 			"group": 1,
 			"name": "Hellas-Express von %s nach %s",
@@ -1193,6 +1192,20 @@
 			],
 			"stations": [ "EDO", "EDG", "KK", "FMZ", "RM", "TS", "MH", "XASB", "XAVH", "XZL", "XRZ", "XJBC", "XJNI", "ZAS", "XGT", "XGA" ],
 			"pathSuggestion": [ "EDO", "EE", "EDG", "KD", "KK", "KKAS", "KB", "KKO", "FBGK", "FMZ", "FWOR", "RFT", "RM", "RSAB", "RBR", "TV", "TS", "TU", "MGZB", "MA", "MH", "MGB", "MRO", "MTS", "MFL", "XASB", "XASW", "XAVH", "XZL", "XRZ", "XJSP", "XJBC", "XJNI", "ZAS", "XGT", "XGA" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" },
+				{ "name": "beds" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Transsibirische Eisenbahn von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe den Nachtzug pünktlich über die Transsibirische Eisenbahn."
+			],
+			"stations": [ "🇷🇺O3204162813", "🇷🇺O298987056", "🇷🇺O1829667859", "🇷🇺O2807718418", "🇷🇺O1500960952", "XCNG", "🇷🇺O1718967656", "🇷🇺O4795178525", "🇷🇺O5691045827", "🇷🇺O5691037820", "🇷🇺O473887668" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" },
