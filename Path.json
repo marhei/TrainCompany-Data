@@ -23500,6 +23500,221 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧EDB",
+					"end": "🇬🇧DAM",
+					"name": "East Coast (Northern) Line",
+					"electrified": true,
+					"length": 14,
+					"maxSpeed": 160,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧DAM",
+					"end": "🇬🇧DAG",
+					"name": "Fife Circle Line",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 128,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇬🇧DAG",
+					"end": "🇬🇧BTS",
+					"name": "Fife Circle Line",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧BTS",
+					"end": "🇬🇧KDY",
+					"name": "Fife Circle Line",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇬🇧KDY",
+					"end": "🇬🇧MNC",
+					"name": "Fife Circle Line",
+					"electrified": false,
+					"length": 11,
+					"maxSpeed": 128,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧MNC",
+					"end": "🇬🇧CUP",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧CUP",
+					"end": "🇬🇧LEU",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 152,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧LEU",
+					"end": "🇬🇧DEE",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 13,
+					"maxSpeed": 136,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇬🇧DEE",
+					"end": "🇬🇧ARB",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 27,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧ARB",
+					"end": "🇬🇧MTS",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 128,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧MTS",
+					"end": "🇬🇧LAU",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 144,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧LAU",
+					"end": "🇬🇧STN",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 23,
+					"maxSpeed": 144,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧STN",
+					"end": "🇬🇧PLN",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 12,
+					"maxSpeed": 128,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧PLN",
+					"end": "🇬🇧ABD",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 12,
+					"maxSpeed": 128,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧ABD",
+					"end": "🇬🇧DYC",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 120,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧DYC",
+					"end": "🇬🇧INR",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 17,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧INR",
+					"end": "🇬🇧INS",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 17,
+					"maxSpeed": 112,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧INS",
+					"end": "🇬🇧HNT",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 96,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧HNT",
+					"end": "🇬🇧KEH",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 20,
+					"maxSpeed": 112,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇬🇧KEH",
+					"end": "🇬🇧ELG",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 29,
+					"maxSpeed": 120,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇬🇧ELG",
+					"end": "🇬🇧FOR",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧FOR",
+					"end": "🇬🇧NRN",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧NRN",
+					"end": "🇬🇧INV",
+					"name": "Highland Main Line",
+					"electrified": false,
+					"length": 24,
+					"maxSpeed": 120,
+					"twistingFactor": 0.12
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
