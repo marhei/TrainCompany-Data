@@ -504,12 +504,12 @@
 				},
 				{
 					"stations": [ "XFHV", "🇫🇷RRD", "XFPO", "XFLPD", "XFAVV", "XFM" ],
-					"pathSuggestion": [ "XFHV", "🇫🇷RRD", "XFPO", "XFCQ", "🇫🇷CIF", "🇫🇷PAI", "XFMAL", "XFLPD", "GRNY", "XFVCV", "🇫🇷BLN",  "XFAVV", "XFM" ]
+					"pathSuggestion": [ "XFHV", "🇫🇷RRD", "XFPO", "XFCQ", "🇫🇷MOIS", "🇫🇷SIF", "🇫🇷PAI", "XFMAL", "XFLPD", "🇫🇷GRNY", "XFVCV", "🇫🇷BLN",  "XFAVV", "XFM" ]
 				},
 				{
 					"stations": [ "XFHE", "XFBR", "XFBY", "XFDX", "XFBJ", "🇫🇷TO", "XFPO" ],
 					"pathSuggestion": [ "XFHE", "XFBR", "XFBY", "XFDX", "XFBJ", "🇫🇷TO", "🇫🇷CSP", "XFPO" ]
-				}				
+				}
 			],
 			"neededCapacity": [
 				{ "name": "passengers" },
@@ -5954,7 +5954,7 @@
 					"stations": ["XNU", "🇳🇱Gdm", "🇳🇱Ht"]
 				},
 				{
-					"stations": ["🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Brd", "🇳🇱Ddr", "🇳🇱Ldm", "🇳🇱Gdm"]
+					"stations": ["🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr", "🇳🇱Ldm", "🇳🇱Gdm"]
 				},
 				{
 					"stations": ["🇳🇱Apn", "🇳🇱Gd"]
@@ -6244,17 +6244,17 @@
 					"stations": [ "XFHE", "XFBJ" ]
 				},
 				{
-					"stations": [ "XFCLE", "🇫🇷VHY", "XFROA", "XFLPD" ]
+					"stations": [ "XFCLE", "XFSGF", "XFLPD" ]
 				},
 				{
-					"stations": [ "XFCLE", "🇫🇷NVS" ]
+					"stations": [ "XFCLE", "XFSGF", "XFSZE", "🇫🇷NVS" ]
 				},
 				{
 					"stations": [ "XFOL", "🇫🇷NVS" ]
 				},
 				{
 					"stations": [ "XFHV", "🇫🇷RRD", "XFPO" ]
-				}				
+				}
 			],
 			"stopsEverywhere": true
 		},
@@ -6414,17 +6414,17 @@
 					"stations": [ "🇵🇱30601", "🇵🇱CNN", "🇵🇱KNO" ]
 				},
 				{
-					"stations": [ "XPWW", "🇵🇱KNO" ]
+					"stations": [ "XPWW", "XPWZ", "🇵🇱KNO" ]
 				},
 				{
-					"stations": [ "XPWW", "🇵🇱LOW" ]
+					"stations": [ "XPWW", "🇵🇱WRT", "🇵🇱LOW" ]
 				},
 				{
-					"stations": [ "XPWW", "🇵🇱O634988100" ]
+					"stations": [ "XPWW", "XPWZ", "🇵🇱O634988100" ]
 				},
 				{
 					"stations": [ "🇵🇱07331", "🇵🇱O634988100" ]
-				}				
+				}
 			],
 			"stopsEverywhere": true
 		},
@@ -7415,10 +7415,10 @@
 			],
 			"objects": [
 				{
-					"stations": [ "🇱🇹KUN", "🇱🇹SQQ" ]
+					"stations": [ "🇱🇹KUN", "🇱🇹RAD", "🇱🇹SQQ" ]
 				},
 				{
-					"stations": [ "🇱🇹SQQ", "🇱🇹TZI" ]
+					"stations": [ "🇱🇹SQQ", "🇱🇹RAD", "🇱🇹TZI" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -7437,7 +7437,7 @@
 			],
 			"objects": [
 				{
-					"stations": [ "🇱🇹KUN" , "🇵🇱ELK", "🇵🇱BLK" ]
+					"stations": [ "🇱🇹KUN", "🇱🇹SES", "🇵🇱ELK", "🇵🇱BLK" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -7466,7 +7466,7 @@
 			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers" },
-				{ "name": "bistroseats" }				
+				{ "name": "bistroseats" }
 			]
 		},
 		{
@@ -7475,7 +7475,7 @@
 			"service": 1,
 			"descriptions": [
 				"Fahre diesen Nachtzug von %s nach %s.",
-				"Verbinde die Hauptstädte Spaniens und Portugals miteinander."	
+				"Verbinde die Hauptstädte Spaniens und Portugals miteinander."
 			],
 			"objects": [
 				{
@@ -7486,7 +7486,7 @@
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" },
-				{ "name": "beds" }			
+				{ "name": "beds" }
 			]
 		},
 		{
@@ -7503,17 +7503,17 @@
 				},
 				{
 					"stations": [ "🇪🇸33013", "🇪🇸30100" ]
-				},  
+				},
 				{
 					"stations": [ "XEBU", "🇪🇸10600", "🇪🇸10500" ]
-				}, 
+				},
 				{
 					"stations": [ "XEBU", "🇪🇸11208", "XEIR" ]
 				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{ "name": "passengers" }		
+				{ "name": "passengers" }
 			]
 		},
 		{
@@ -7531,7 +7531,7 @@
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{ "name": "passengers" }		
+				{ "name": "passengers" }
 			]
 		},
 		{
@@ -7549,7 +7549,7 @@
 			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers" },
-				{ "name": "bistroseats" }				
+				{ "name": "bistroseats" }
 			]
 		},
 		{
@@ -7567,7 +7567,7 @@
 			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers" },
-				{ "name": "bistroseats" }				
+				{ "name": "bistroseats" }
 			]
 		},
 		{
@@ -7581,18 +7581,18 @@
 			"objects": [
 				{
 					"stations": [ "XXLO", "XXEC" ]
-				}, 
+				},
 				{
 					"stations": [ "XXEC", "🇵🇹41020" ]
-				}, 
+				},
 				{
 					"stations": [ "XXVF", "🇵🇹49007", "🇵🇹41020" ]
 				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
-				{ "name": "passengers" }				
+				{ "name": "passengers" }
 			]
-		}		
+		}
 	]
 }
