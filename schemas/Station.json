@@ -127,8 +127,14 @@
 					"default": 0
 				},
 				"forRandomTasks": {
+					"description": "Wenn false wird die Station niemals für zufällige Tasks genutzt.",
 					"type": "boolean",
 					"default": true
+				},
+				"inDefaultRectangle": {
+					"description": "Zur Defination des Standard-Zoom-Rechtecks der Karte. Bitte nicht selbst setzen!",
+					"type": "boolean",
+					"default": false
 				},
 				"objects": {
 					"description": "Sub-Stationen, die ihre nicht definierten Eigenschaften von der darüberliegenden Ebene erben.",
