@@ -34872,6 +34872,36 @@
 			"length": 22
 		},
 		{
+			"name": "South Wales Main Line",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 201,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧WTNBSTJ",
+					"end": "🇬🇧LSOMFD",
+					"length": 11,
+					"twistingFactor": 0.15,
+					"maxSpeed": 180
+				},
+				{
+					"start": "🇬🇧LSOMFD",
+					"end": "🇬🇧O66729286",
+					"length": 26,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧O66729286",
+					"end": "🇬🇧BPW",
+					"length": 8,
+					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
