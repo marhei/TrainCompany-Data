@@ -22186,6 +22186,104 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧BRI",
+					"end": "🇬🇧BPW",
+					"name": "Bristol and South Wales Union Line",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧BPW",
+					"end": "🇬🇧SVB",
+					"name": "South Wales Main Line",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 144,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧SVB",
+					"end": "🇬🇧O1401008823",
+					"name": "South Wales Main Line",
+					"electrified": true,
+					"length": 24,
+					"maxSpeed": 144,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧O1401008823",
+					"end": "🇬🇧CDF",
+					"name": "South Wales Main Line",
+					"electrified": true,
+					"length": 18,
+					"maxSpeed": 96,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧CDF",
+					"end": "🇬🇧LLR",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 120,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧LLR",
+					"end": "🇬🇧BGN",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 128,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧BGN",
+					"end": "🇬🇧PYL",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧PYL",
+					"end": "🇬🇧PTA",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧PTA",
+					"end": "🇬🇧NTH",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 144,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧NTH",
+					"end": "🇬🇧SWA",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 12,
+					"maxSpeed": 144,
+					"twistingFactor": 0.31
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 2,
 			"twistingFactor": 0.1,
