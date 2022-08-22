@@ -1200,6 +1200,21 @@
 		},
 		{
 			"group": 1,
+			"name": "Sud-Express von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Verbinde Portugal mit dem Rest von Europa."
+			],
+			"stations": [ "🇪🇸11511", "XEZM", "🇪🇸11208", "XEBU", "🇪🇸10600", "🇪🇸10500", "🇵🇹49007", "🇵🇹41020", "XXLO" ],
+			"pathSuggestion": [ "🇪🇸11511", "XEZM", "🇪🇸11208", "XEBU", "🇪🇸11004", "🇪🇸11000", "🇪🇸10600", "🇪🇸10604", "🇪🇸10500", "🇵🇹49007", "🇵🇹41020", "XXLO" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" },
+				{ "name": "beds" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Transsibirische Eisenbahn von %s nach %s",
 			"service": 1,
 			"descriptions": [
