@@ -16939,6 +16939,71 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧DID",
+					"end": "🇬🇧RAD",
+					"name": "Didcot and Chester Line",
+					"length": 8,
+					"maxSpeed": 144,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧RAD",
+					"end": "🇬🇧OXF",
+					"name": "Didcot and Chester Line",
+					"length": 7,
+					"maxSpeed": 144,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧OXF",
+					"end": "🇬🇧TAC",
+					"name": "DM - Down Main",
+					"length": 14,
+					"maxSpeed": 144,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧TAC",
+					"end": "🇬🇧BAN",
+					"name": "Didcot and Chester Line",
+					"length": 21,
+					"maxSpeed": 144,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧BAN",
+					"end": "🇬🇧LMS",
+					"name": "Chiltern Main Line",
+					"length": 31,
+					"maxSpeed": 144,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧LMS",
+					"end": "🇬🇧O1458895262",
+					"name": "Leamington Spa and Coventry Line",
+					"length": 7,
+					"maxSpeed": 128,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧O1458895262",
+					"end": "🇬🇧COV",
+					"name": "Leamington Spa and Coventry Line",
+					"length": 8,
+					"maxSpeed": 128,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 80,
