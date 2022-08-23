@@ -768,7 +768,7 @@
 			],
 			"objects": [
 				{
-					"stations": [ "XIRM", "XIFRS", "XIBC", "XIMB", "XIR", "XITUR", "XITU" ]
+					"stations": ["XINAC", "XIRM", "XIFRS", "XIBC", "XIMB", "XIR", "XITUR", "XITU" ]
 				},
 				{
 					"stations": [ "XIMB", "XITU", "🇮🇹00202", "XFMOD", "XFCY", "XFLPD", "XFPO" ],
@@ -7258,6 +7258,21 @@
 				"Verbinde Österreich, Ungarn und Rumänien miteinander."
 			],
 			"stations": [ "XUBN", "🇷🇴30691", "XMBS", "XMSN", "XMBK", "XMG", "XMHY", "XAWW" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Intercity notte von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die schlafenden Fahrgäste von %s nach %s durch Italien.",
+				"Verbinde Süditalien mit dem Norden und anders rum."
+			],
+			"stations": [ "XITU", "XIMB", "XIBC", "XIFRS", "XIRM", "XINAC", "🇮🇹11774", "XIMN", "XIPA" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "beds" },
