@@ -5179,6 +5179,51 @@
 			]
 		},
 		{
+			"name": "Huddersfield Line",
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧LDS",
+					"end": "🇬🇧MIR",
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧MIR",
+					"end": "🇬🇧HUD",
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧HUD",
+					"end": "🇬🇧SWT",
+					"length": 7,
+					"maxSpeed": 136,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧SWT",
+					"end": "🇬🇧GNF",
+					"length": 13,
+					"maxSpeed": 136,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧GNF",
+					"end": "🇬🇧MAN",
+					"length": 19,
+					"maxSpeed": 104,
+					"twistingFactor": 0.32
+				}
+			]
+		},
+		{
 			"group": 2,
 			"name": "VDE 8",
 			"twistingFactor": 0.05,
@@ -8800,7 +8845,7 @@
 					"start": "🇬🇧YRK",
 					"end": "🇬🇧CHF",
 					"name": "Normanton and Colton Junction Line",
-					"electrified": false,
+					"electrified": true,
 					"length": 17,
 					"maxSpeed": 160,
 					"twistingFactor": 0.05
@@ -8809,7 +8854,7 @@
 					"start": "🇬🇧CHF",
 					"end": "🇬🇧EGF",
 					"name": "Church Fenton and Micklefield Line",
-					"electrified": false,
+					"electrified": true,
 					"length": 11,
 					"maxSpeed": 144,
 					"twistingFactor": 0.3
