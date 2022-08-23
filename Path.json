@@ -10721,34 +10721,117 @@
 		{
 			"group": 0,
 			"electrified": true,
+			"maxSpeed": 120,
+			"twistingFactor": 0.3,
 			"objects": [
 				{
 					"start": "HA",
+					"end": "HBHE",
+					"length": 14,
+					"maxSpeed": 100
+				},
+				{
+					"start": "HBHE",
+					"end": "HSTM",
+					"length": 5,
+					"maxSpeed": 100
+				},
+				{
+					"start": "HSTM",
+					"end": "HSCI",
+					"length": 8,
+					"maxSpeed": 100
+				},
+				{
+					"start": "HSCI",
 					"end": "HLUE",
-					"twistingFactor": 0.4,
-					"length": 37,
+					"length": 9,
 					"maxSpeed": 100
 				},
 				{
 					"start": "HLUE",
+					"end": "HPRT",
+					"length": 2
+				},
+				{
+					"start": "HPRT",
+					"end": "HEMT",
+					"length": 12
+				},
+				{
+					"start": "HEMT",
 					"end": "HHM",
-					"length": 21,
-					"maxSpeed": 120,
-					"twistingFactor": 0.3
+					"length": 7
 				},
 				{
 					"start": "HHM",
+					"end": "HMDD",
+					"length": 11
+				},
+				{
+					"start": "HMDD",
 					"end": "HSPR",
-					"length": 19,
-					"maxSpeed": 120,
-					"twistingFactor": 0.3
+					"length": 8
 				},
 				{
 					"start": "HSPR",
+					"end": "HELV",
+					"length": 5
+				},
+				{
+					"start": "HELV",
+					"end": "HBEN",
+					"length": 5
+				},
+				{
+					"start": "HBEN",
+					"end": "HHOL",
+					"length": 5
+				},
+				{
+					"start": "HHOL",
+					"end": "HWEZ",
+					"length": 4
+				},
+				{
+					"start": "HWEZ",
+					"end": "HRBG",
+					"length": 3
+				},
+				{
+					"start": "HRBG",
+					"end": "HEMP",
+					"length": 2
+				},
+				{
+					"start": "HEMP",
+					"end": "HEMA",
+					"length": 1
+				},
+				{
+					"start": "HEMA",
+					"end": "HHBO",
+					"length": 1
+				},
+				{
+					"start": "HHBO",
+					"end": "HLI",
+					"length": 2
+				},
+				{
+					"start": "HLI",
+					"end": "HLI R",
+					"length": 1
+				},
+				{
+					"start": "HLI R",
+					"end": "HWHN",
+					"length": 4
+				},
+				{
+					"start": "HWHN",
 					"end": "HH",
-					"length": 36,
-					"maxSpeed": 120,
-					"twistingFactor": 0.45
+					"length": 5
 				}
 			]
 		},
