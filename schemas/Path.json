@@ -136,12 +136,6 @@
 					"minimum": 0,
 					"maximum": 0.8
 				},
-				"length": {
-					"description": "Länge der Strecke",
-					"type": "integer",
-					"minimum": 1,
-					"maximum": 300
-				},
 				"maxSpeed": {
 					"description": "Höchstgeschwindigkeit des Streckenabschnitts",
 					"type": "integer",
@@ -193,6 +187,32 @@
 					"type": "array",
 					"items": {
 						"$ref": "#/$defs/path"
+					}
+				}
+			},
+			"if": {
+				"properties": {
+					"group": {
+						"const": 3
+					}
+				}
+			},
+			"then": {
+				"properties": {
+					"length": {
+						"description": "Länge der Strecke",
+						"type": "integer",
+						"minimum": 1
+					}
+				}
+			},
+			"else": {
+				"properties": {
+					"length": {
+						"description": "Länge der Strecke",
+						"type": "integer",
+						"minimum": 1,
+						"maximum": 300
 					}
 				}
 			}
