@@ -16939,6 +16939,71 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧DID",
+					"end": "🇬🇧RAD",
+					"name": "Didcot and Chester Line",
+					"length": 8,
+					"maxSpeed": 144,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧RAD",
+					"end": "🇬🇧OXF",
+					"name": "Didcot and Chester Line",
+					"length": 7,
+					"maxSpeed": 144,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧OXF",
+					"end": "🇬🇧TAC",
+					"name": "DM - Down Main",
+					"length": 14,
+					"maxSpeed": 144,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧TAC",
+					"end": "🇬🇧BAN",
+					"name": "Didcot and Chester Line",
+					"length": 21,
+					"maxSpeed": 144,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧BAN",
+					"end": "🇬🇧LMS",
+					"name": "Chiltern Main Line",
+					"length": 31,
+					"maxSpeed": 144,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧LMS",
+					"end": "🇬🇧O1458895262",
+					"name": "Leamington Spa and Coventry Line",
+					"length": 7,
+					"maxSpeed": 128,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧O1458895262",
+					"end": "🇬🇧COV",
+					"name": "Leamington Spa and Coventry Line",
+					"length": 8,
+					"maxSpeed": 128,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 80,
@@ -22121,6 +22186,104 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧BRI",
+					"end": "🇬🇧BPW",
+					"name": "Bristol and South Wales Union Line",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧BPW",
+					"end": "🇬🇧SVB",
+					"name": "South Wales Main Line",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 144,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧SVB",
+					"end": "🇬🇧O1401008823",
+					"name": "South Wales Main Line",
+					"electrified": true,
+					"length": 24,
+					"maxSpeed": 144,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧O1401008823",
+					"end": "🇬🇧CDF",
+					"name": "South Wales Main Line",
+					"electrified": true,
+					"length": 18,
+					"maxSpeed": 96,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧CDF",
+					"end": "🇬🇧LLR",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 120,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧LLR",
+					"end": "🇬🇧BGN",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 128,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧BGN",
+					"end": "🇬🇧PYL",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧PYL",
+					"end": "🇬🇧PTA",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧PTA",
+					"end": "🇬🇧NTH",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 144,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧NTH",
+					"end": "🇬🇧SWA",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 12,
+					"maxSpeed": 144,
+					"twistingFactor": 0.31
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 2,
 			"twistingFactor": 0.1,
@@ -23435,6 +23598,221 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧EDB",
+					"end": "🇬🇧DAM",
+					"name": "East Coast (Northern) Line",
+					"electrified": true,
+					"length": 14,
+					"maxSpeed": 160,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧DAM",
+					"end": "🇬🇧DAG",
+					"name": "Fife Circle Line",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 128,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇬🇧DAG",
+					"end": "🇬🇧BTS",
+					"name": "Fife Circle Line",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧BTS",
+					"end": "🇬🇧KDY",
+					"name": "Fife Circle Line",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇬🇧KDY",
+					"end": "🇬🇧MNC",
+					"name": "Fife Circle Line",
+					"electrified": false,
+					"length": 11,
+					"maxSpeed": 128,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧MNC",
+					"end": "🇬🇧CUP",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧CUP",
+					"end": "🇬🇧LEU",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 152,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧LEU",
+					"end": "🇬🇧DEE",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 13,
+					"maxSpeed": 136,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇬🇧DEE",
+					"end": "🇬🇧ARB",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 27,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧ARB",
+					"end": "🇬🇧MTS",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 128,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧MTS",
+					"end": "🇬🇧LAU",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 144,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧LAU",
+					"end": "🇬🇧STN",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 23,
+					"maxSpeed": 144,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧STN",
+					"end": "🇬🇧PLN",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 12,
+					"maxSpeed": 128,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧PLN",
+					"end": "🇬🇧ABD",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 12,
+					"maxSpeed": 128,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧ABD",
+					"end": "🇬🇧DYC",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 120,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧DYC",
+					"end": "🇬🇧INR",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 17,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧INR",
+					"end": "🇬🇧INS",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 17,
+					"maxSpeed": 112,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧INS",
+					"end": "🇬🇧HNT",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 96,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧HNT",
+					"end": "🇬🇧KEH",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 20,
+					"maxSpeed": 112,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇬🇧KEH",
+					"end": "🇬🇧ELG",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 29,
+					"maxSpeed": 120,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇬🇧ELG",
+					"end": "🇬🇧FOR",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧FOR",
+					"end": "🇬🇧NRN",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧NRN",
+					"end": "🇬🇧INV",
+					"name": "Highland Main Line",
+					"electrified": false,
+					"length": 24,
+					"maxSpeed": 120,
+					"twistingFactor": 0.12
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -24552,6 +24930,101 @@
 			]
 		},
 		{
+			"electrified": true,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "XKLP",
+					"end": "🇬🇧MRW",
+					"name": "North London line",
+					"group": 0,
+					"length": 16,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇬🇧MRW",
+					"end": "🇬🇧WLC",
+					"name": "Bethnal Green and King's Lynn Line",
+					"group": 0,
+					"length": 7,
+					"maxSpeed": 136,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇬🇧WLC",
+					"end": "🇬🇧BXB",
+					"group": 0,
+					"length": 6,
+					"maxSpeed": 136,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BXB",
+					"end": "🇬🇧HWN",
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 128,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧HWN",
+					"end": "🇬🇧BIS",
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 128,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇬🇧BIS",
+					"end": "🇬🇧AUD",
+					"name": "West Anglia Main Line",
+					"group": 0,
+					"length": 18,
+					"maxSpeed": 112,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧AUD",
+					"end": "🇬🇧WLF",
+					"name": "Bethnal Green and King's Lynn Line",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 144,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧WLF",
+					"end": "🇬🇧CBG",
+					"name": "Bethnal Green and King's Lynn Line",
+					"group": 0,
+					"length": 10,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧CBG",
+					"end": "🇬🇧WBC",
+					"name": "Bethnal Green and King's Lynn Line",
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧WBC",
+					"end": "🇬🇧ELY",
+					"name": "Fen Line",
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"maxSpeed": 60,
@@ -24599,6 +25072,123 @@
 					"start": "DPT",
 					"end": "DNKW",
 					"length": 4
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧GLC",
+					"end": "🇬🇧PYG",
+					"name": "Ayr Line",
+					"electrified": true,
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧PYG",
+					"end": "🇬🇧GLG",
+					"name": "Ayr Line",
+					"electrified": true,
+					"group": 0,
+					"length": 20,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧GLG",
+					"end": "🇬🇧IRV",
+					"name": "Ayrshire Coast Line",
+					"electrified": true,
+					"group": 0,
+					"length": 15,
+					"maxSpeed": 144,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧IRV",
+					"end": "🇬🇧PTW",
+					"name": "Ayrshire Coast Line",
+					"electrified": true,
+					"group": 0,
+					"length": 13,
+					"maxSpeed": 144,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧PTW",
+					"end": "🇬🇧O30615225",
+					"name": "Ayrshire Coast Line",
+					"electrified": true,
+					"group": 0,
+					"length": 4,
+					"maxSpeed": 144,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧O30615225",
+					"end": "🇬🇧MAY",
+					"name": "Stranraer Line",
+					"electrified": false,
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 100,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧MAY",
+					"end": "🇬🇧GIR",
+					"name": "Maybole and Girvan Railway",
+					"electrified": false,
+					"group": 0,
+					"length": 19,
+					"maxSpeed": 100,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇬🇧GIR",
+					"end": "🇬🇧BRL",
+					"name": "Stranraer Line",
+					"electrified": false,
+					"group": 1,
+					"length": 19,
+					"maxSpeed": 100,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇬🇧BRL",
+					"end": "🇬🇧O2516415174",
+					"name": "Girvan and Portpatrick Junction Railway",
+					"electrified": false,
+					"group": 1,
+					"length": 20,
+					"maxSpeed": 100,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧O2516415174",
+					"end": "🇬🇧DNRAGIT",
+					"name": "Girvan and Portpatrick Junction Railway",
+					"electrified": false,
+					"group": 1,
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧DNRAGIT",
+					"end": "🇬🇧STR",
+					"name": "Portpatrick Railway",
+					"electrified": false,
+					"group": 1,
+					"length": 9,
+					"maxSpeed": 100,
+					"twistingFactor": 0.12
 				}
 			]
 		},
@@ -30751,7 +31341,7 @@
 				},
 				{
 					"start": "🇬🇧TOMATIN",
-					"end": "🇬🇧86490",
+					"end": "🇬🇧INV",
 					"name": "Highland Main Line",
 					"electrified": false,
 					"length": 31,
@@ -32939,7 +33529,7 @@
 			],
 			"objects": [
 				{
-					"start": "🇬🇧86490",
+					"start": "🇬🇧INV",
 					"end": "🇬🇧88770",
 					"group": 1,
 					"length": 16,
@@ -34634,6 +35224,36 @@
 			"maxSpeed": 140,
 			"twistingFactor": 0.34,
 			"length": 22
+		},
+		{
+			"name": "South Wales Main Line",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 201,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧WTNBSTJ",
+					"end": "🇬🇧LSOMFD",
+					"length": 11,
+					"twistingFactor": 0.15,
+					"maxSpeed": 180
+				},
+				{
+					"start": "🇬🇧LSOMFD",
+					"end": "🇬🇧O66729286",
+					"length": 26,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧O66729286",
+					"end": "🇬🇧BPW",
+					"length": 8,
+					"twistingFactor": 0.15
+				}
+			]
 		},
 		{
 			"electrified": true,
@@ -38202,7 +38822,7 @@
 				},
 				{
 					"start": "🇬🇧72010",
-					"end": "🇬🇧70680",
+					"end": "🇬🇧ELY",
 					"name": "Breckland Line",
 					"electrified": false,
 					"length": 19,
@@ -38210,7 +38830,7 @@
 					"twistingFactor": 0.1
 				},
 				{
-					"start": "🇬🇧70680",
+					"start": "🇬🇧ELY",
 					"end": "🇬🇧71660",
 					"name": "Ely to Peterborough Line",
 					"electrified": false,
