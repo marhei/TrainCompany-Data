@@ -3716,6 +3716,80 @@
 			]
 		},
 		{
+			"twistingFactor": 0.1,
+			"maxSpeed": 140,
+			"objects": [
+				{
+					"start": "NWH",
+					"end": "NWN",
+					"length": 13,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NWN",
+					"end": "NGOD",
+					"length": 3
+				},
+				{
+					"start": "NGOD",
+					"end": "NOF",
+					"length": 5
+				},
+				{
+					"start": "NOF",
+					"end": "NMT",
+					"length": 5
+				},
+				{
+					"start": "NMT",
+					"end": "NHH",
+					"length": 11,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NHH",
+					"end": "NU",
+					"length": 6,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NU",
+					"end": "NERM",
+					"length": 6
+				},
+				{
+					"start": "NERM",
+					"end": "NSTN",
+					"length": 8,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NSTN",
+					"end": "NBUW",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NBUW",
+					"end": "NON",
+					"length": 9,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NON",
+					"end": "NLE",
+					"length": 11,
+					"maxSpeed": 130
+				},
+				{
+					"start": "NLE",
+					"end": "NAN",
+					"length": 9,
+					"maxSpeed": 160
+				}
+			]
+		},
+		{
 			"group": 0,
 			"twistingFactor": 0.2,
 			"maxSpeed": 120,
@@ -4733,12 +4807,76 @@
 		},
 		{
 			"group": 1,
-			"start": "NGM",
-			"end": "NBKI",
 			"twistingFactor": 0.35,
-			"length": 50,
 			"maxSpeed": 80,
-			"electrified": false
+			"electrified": false,
+			"objects": [
+				{
+					"start": "NBKI",
+					"end": "NEU",
+					"length": 7
+				},
+				{
+					"start": "NEU",
+					"end": "NELF",
+					"length": 4
+				},
+				{
+					"start": "NELF",
+					"end": "NWL",
+					"length": 4
+				},
+				{
+					"start": "NWL",
+					"end": "NHGO",
+					"length": 2
+				},
+				{
+					"start": "NHGO",
+					"end": "NHG",
+					"length": 2
+				},
+				{
+					"start": "NHG",
+					"end": "NDIE",
+					"length": 3
+				},
+				{
+					"start": "NDIE",
+					"end": "NMOU",
+					"length": 5
+				},
+				{
+					"start": "NMOU",
+					"end": "NWGR",
+					"length": 2
+				},
+				{
+					"start": "NWGR",
+					"end": "NMIK",
+					"length": 2
+				},
+				{
+					"start": "NMIK",
+					"end": "NG",
+					"length": 3
+				},
+				{
+					"start": "NG",
+					"end": "NWM",
+					"length": 3
+				},
+				{
+					"start": "NWM",
+					"end": "NKGM",
+					"length": 7
+				},
+				{
+					"start": "NKGM",
+					"end": "NGM",
+					"length": 2
+				}
+			]
 		},
 		{
 			"twistingFactor": 0.35,
@@ -4746,19 +4884,89 @@
 			"name": "Ludwigs-Westbahn",
 			"objects": [
 				{
-					"start": "NBA",
-					"end": "NHT",
-					"length": 33
+					"start": "NRTD",
+					"end": "NSLI",
+					"length": 9
 				},
 				{
-					"start": "NHT",
+					"start": "NSLI",
+					"end": "NBHM",
+					"length": 5
+				},
+				{
+					"start": "NBHM",
+					"end": "NEN",
+					"length": 6
+				},
+				{
+					"start": "NEN",
+					"end": "NWA",
+					"length": 3
+				},
+				{
+					"start": "NWA",
+					"end": "NBR",
+					"length": 5
+				},
+				{
+					"start": "NBR",
 					"end": "NS",
-					"length": 25
+					"length": 7
 				},
 				{
 					"start": "NS",
-					"end": "NRTD",
-					"length": 35
+					"end": "NSMT",
+					"length": 1
+				},
+				{
+					"start": "NSMT",
+					"end": "NSST",
+					"length": 1
+				},
+				{
+					"start": "NSST",
+					"end": "NSGN",
+					"length": 5
+				},
+				{
+					"start": "NSGN",
+					"end": "NGAE",
+					"length": 6
+				},
+				{
+					"start": "NGAE",
+					"end": "NHT",
+					"length": 11
+				},
+				{
+					"start": "NHT",
+					"end": "NZ",
+					"length": 7
+				},
+				{
+					"start": "NZ",
+					"end": "NZK",
+					"length": 3
+				},
+				{
+					"start": "NZK",
+					"end": "NEE",
+					"length": 3
+				},
+				{
+					"start": "NEE",
+					"end": "NOH",
+					"length": 12
+				},
+				{
+					"start": "NOH",
+					"end": "NHN",
+					"length": 5
+				},
+				{
+					"start": "NHN",
+					"end": "NBA",
+					"length": 3
 				}
 			]
 		},
@@ -5212,22 +5420,66 @@
 			]
 		},
 		{
-			"group": 1,
+			"group": 0,
 			"name": "Hauptverbindung Schweinfurt–Erfurt",
 			"twistingFactor": 0.45,
+			"maxSpeed": 120,
 			"electrified": false,
 			"objects": [
 				{
 					"start": "NS",
 					"end": "NBKI",
-					"length": 23,
-					"maxSpeed": 120
+					"length": 23
 				},
 				{
 					"start": "NBKI",
+					"end": "NRHN",
+					"length": 14
+				},
+				{
+					"start": "NRHN",
+					"end": "NMUE",
+					"length": 10
+				},
+				{
+					"start": "NMUE",
+					"end": "NBUR",
+					"length": 3
+				},
+				{
+					"start": "NBUR",
+					"end": "NBNE",
+					"length": 7
+				},
+				{
+					"start": "NBNE",
+					"end": "NME",
+					"length": 13
+				},
+				{
+					"start": "NME",
+					"end": "URH",
+					"length": 11
+				},
+				{
+					"start": "URH",
+					"end": "UBA",
+					"length": 2
+				},
+				{
+					"start": "UBA",
+					"end": "UWLH",
+					"length": 3
+				},
+				{
+					"start": "UWLH",
+					"end": "URI",
+					"length": 3
+				},
+				{
+					"start": "URI",
 					"end": "UM",
-					"length": 64,
-					"maxSpeed": 120
+					"length": 7
 				},
 				{
 					"start": "UM",
