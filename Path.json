@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/marhei/TrainCompany-Data/main/schemas/Path.json",
+	"$schema": "schemas/Path.json",
 	"data": [
 		{
 			"name": "Linke Rheinstrecke",
@@ -27312,6 +27312,19 @@
 					"twistingFactor": 0.18
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"group": 3,
+			"maxSpeed": 39,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"GB",
+				"US"
+			],
+			"start": "🇬🇧SOU",
+			"end": "🇺🇸O895371274",
+			"length": 5800
 		},
 		{
 			"name": "Süd-Lausitzer Bahn",
