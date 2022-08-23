@@ -6620,6 +6620,50 @@
 			]
 		},
 		{
+			"electrified": true,
+			"neededEquipments": [
+				"IT"
+			],
+			"objects": [
+				{
+					"start": "XIRM",
+					"end": "🇮🇹08502",
+					"name": "Ferrovia Roma – Napoli (alta velocità)",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 200,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇮🇹08502",
+					"end": "XIANI",
+					"name": "Ferrovia Roma – Napoli (alta velocità)",
+					"group": 2,
+					"length": 48,
+					"maxSpeed": 300,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XIANI",
+					"end": "🇮🇹09988",
+					"name": "Ferrovia Roma – Napoli (alta velocità)",
+					"group": 2,
+					"length": 148,
+					"maxSpeed": 300,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇮🇹09988",
+					"end": "XINAC",
+					"name": "Raccordo AV",
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
 			"name": "Fuldatalbahn",
 			"twistingFactor": 0.3,
 			"objects": [
