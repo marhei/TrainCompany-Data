@@ -33554,6 +33554,46 @@
 			]
 		},
 		{
+			"name": "Marktredwitz - Cheb",
+			"group": 0,
+			"objects": [
+				{
+					"start": "XTCH",
+					"end": "XTCS",
+					"electrified": true,
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"CZ"
+					]
+				},
+				{
+					"start": "XTCS",
+					"end": "XTPI",
+					"electrified": false,
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.08,
+					"neededEquipments": [
+						"CZ"
+					]
+				},
+				{
+					"start": "XTPI",
+					"end": "NSG",
+					"electrified": false,
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.18,
+					"neededEquipments": [
+						"CZ",
+						"DE"
+					]
+				}
+			]
+		},
+		{
 			"name": "Zschopautalbahn",
 			"electrified": false,
 			"group": 1,
@@ -34293,7 +34333,7 @@
 		},
 		{
 			"name": "Chomutov-Cheb",
-			"electrified": true,			
+			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.25,
 			"maxSpeed": 100,
