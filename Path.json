@@ -21732,6 +21732,68 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧RDG",
+					"end": "🇬🇧MOR",
+					"name": "Reading to Taunton line",
+					"electrified": true,
+					"length": 11,
+					"maxSpeed": 152,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧MOR",
+					"end": "🇬🇧BSK",
+					"name": "Basingstoke Branch",
+					"electrified": false,
+					"length": 13,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧BSK",
+					"end": "🇬🇧MIC",
+					"name": "South Western Main Line",
+					"electrified": true,
+					"length": 16,
+					"maxSpeed": 160,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧MIC",
+					"end": "🇬🇧WIN",
+					"name": "South Western Main Line",
+					"electrified": true,
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧WIN",
+					"end": "🇬🇧ESL",
+					"name": "South Western Main Line",
+					"electrified": true,
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇬🇧ESL",
+					"end": "🇬🇧SOU",
+					"name": "South Western Main Line",
+					"electrified": true,
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.21
+				}
+			]
+		},
+		{
 			"name": "Hannover–Berlin",
 			"group": 2,
 			"electrified": true,
