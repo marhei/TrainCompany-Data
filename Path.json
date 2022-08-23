@@ -34295,6 +34295,8 @@
 			"name": "Chomutov-Cheb",
 			"electrified": true,			
 			"group": 0,
+			"twistingFactor": 0.25,
+			"maxSpeed": 100,
 			"neededEquipments": [
 				"CZ"
 			],
@@ -34304,49 +34306,49 @@
 					"end": "XTKVV",
 					"length": 4,
 					"maxSpeed": 100,
-					"twistingFactor": 0.63
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XTKVV",
 					"end": "XTCD",
 					"length": 5,
-					"maxSpeed": 110,
-					"twistingFactor": 0.01
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XTCD",
 					"end": "XTNS",
 					"length": 2,
 					"maxSpeed": 80,
-					"twistingFactor": 0.01
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XTNS",
 					"end": "XTKRP",
 					"length": 7,
 					"maxSpeed": 120,
-					"twistingFactor": 0.32
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "XTKRP",
 					"end": "XTSO",
 					"length": 1,
 					"maxSpeed": 115,
-					"twistingFactor": 0.01
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XTSO",
 					"end": "XTCI",
 					"length": 3,
 					"maxSpeed": 105,
-					"twistingFactor": 0.09
+					"twistingFactor": 0.12
 				},
 				{
 					"start": "XTCI",
 					"end": "🇨🇿5475915",
 					"length": 1,
 					"maxSpeed": 95,
-					"twistingFactor": 0.01
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "🇨🇿5475915",
@@ -34367,17 +34369,17 @@
 					"end": "🇨🇿5475945",
 					"length": 3,
 					"maxSpeed": 120,
-					"twistingFactor": 0.06
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "🇨🇿5475945",
-					"end": "🇨🇿75955",
+					"end": "🇨🇿5475955",
 					"length": 5,
 					"maxSpeed": 120,
 					"twistingFactor": 0.14
 				},
 				{
-					"start": "🇨🇿75955",
+					"start": "🇨🇿5475955",
 					"end": "XTCH",
 					"length": 4,
 					"maxSpeed": 115,
