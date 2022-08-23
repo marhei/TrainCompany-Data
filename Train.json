@@ -320,7 +320,7 @@
 		{
 			"id": 373,
 			"group": 2,
-			"name": "TGV/Eurostar TMST",
+			"name": "TGV/Eurostar TMST - Three Capitals",
 			"shortcut": "TMST",
 			"speed": 300,
 			"weight": 752,
@@ -335,6 +335,27 @@
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 750},
+				{"name": "bistroseats", "value": 20}
+			]
+		},
+		{
+			"id": 3732,
+			"group": 2,
+			"name": "Eurostar North of London",
+			"shortcut": "Class 373/2",
+			"speed": 300,
+			"weight": 665,
+			"force": 410,
+			"length": 312,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 5600000,
+			"operationCosts": 120,
+			"equipments": ["GB", "FR", "BE", "TVM", "Eurotunnel"],
+			"maxConnectedUnits": 1,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 558},
 				{"name": "bistroseats", "value": 20}
 			]
 		},
@@ -2546,7 +2567,7 @@
 			"length": 152,
 			"drive": 2,
 			"reliability": 0.9,
-			"cost": 620000,
+			"cost": 840000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 60,
 			"equipments": ["EE","LV","LT","1520mm"],
@@ -2655,7 +2676,7 @@
 		},
 		{
 			"id": 71592,
-			"group": 0,
+			"group": 2,
 			"name": "RENFE-Baureihe 592",
 			"speed": 120,
 			"weight": 118,
@@ -2674,7 +2695,7 @@
 		},
 		{
 			"id": 71594,
-			"group": 0,
+			"group": 2,
 			"name": "RENFE-Baureihe 594",
 			"speed": 160,
 			"weight": 97,
@@ -2693,7 +2714,7 @@
 		},
 		{
 			"id": 71599,
-			"group": 0,
+			"group": 2,
 			"name": "RENFE-Baureihe 599",
 			"speed": 160,
 			"weight": 159,
@@ -2712,7 +2733,7 @@
 		},
 		{
 			"id": 940350,
-			"group": 0,
+			"group": 2,
 			"name": "CP-Baureihe 0350",
 			"speed": 100,
 			"weight": 53,
@@ -2731,7 +2752,7 @@
 		},
 		{
 			"id": 940450,
-			"group": 0,
+			"group": 2,
 			"name": "CP-Baureihe 0450",
 			"speed": 120,
 			"weight": 99,
@@ -5632,7 +5653,7 @@
 			"reliability": 1,
 			"cost": 100000,
 			"operationCosts": 100,
-			"equipments": ["LV", "EE", "LT", "RU"]
+			"equipments": ["1520mm","LV", "EE", "LT", "RU"]
 		},
 		{
 			"id": 100,
@@ -6315,6 +6336,39 @@
 			"cost": 230000,
 			"operationCosts": 150,
 			"equipments": ["EE", "1520mm"]
+		},
+		{
+			"id": 118,
+			"group": 0,
+			"name": "Adler",
+			"shortcut": "Adler",
+			"speed": 24,
+			"weight": 15,
+			"force": 6,
+			"length": 7,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 100000,
+			"operationCosts": 200,
+			"equipments": ["DE"]
+		},
+		{
+			"id": 201,
+			"group": 2,
+			"name": "ÖLEG C 201",
+			"shortcut": "ÖLEG C",
+			"speed": 18,
+			"weight": 25,
+			"force": 18,
+			"length": 10,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 150000,
+			"operationCosts": 200,
+			"equipments": ["AT"],
+			"capacity": [
+				{"name": "passengers", "value": 32}
+			]
 		},
 		{
 			"id": 4,

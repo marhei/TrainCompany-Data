@@ -3397,6 +3397,86 @@
 			]
 		},
 		{
+			"name": "Ligne des Aubrais à Montauban",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷VER",
+					"end": "🇫🇷O9252914544",
+					"length": 19,
+					"maxSpeed": 160,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇫🇷O9252914544",
+					"end": "🇫🇷ISK",
+					"length": 16,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷ISK",
+					"end": "🇫🇷NPO",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇫🇷NPO",
+					"end": "XFCX",
+					"length": 14,
+					"maxSpeed": 160,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "XFCX",
+					"end": "🇫🇷AGC",
+					"length": 30,
+					"maxSpeed": 160,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇫🇷AGC",
+					"end": "XFLST",
+					"length": 46,
+					"maxSpeed": 150,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XFLST",
+					"end": "🇫🇷BHA",
+					"length": 20,
+					"maxSpeed": 160,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇫🇷BHA",
+					"end": "XFSSL",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XFSSL",
+					"end": "🇫🇷ABZ",
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇫🇷ABZ",
+					"end": "🇫🇷LIM",
+					"length": 17,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
 			"maxSpeed": 120,
 			"twistingFactor": 0.3,
 			"electrified": false,
@@ -3712,6 +3792,80 @@
 					"twistingFactor": 0.15,
 					"length": 8,
 					"maxSpeed": 140
+				}
+			]
+		},
+		{
+			"twistingFactor": 0.1,
+			"maxSpeed": 140,
+			"objects": [
+				{
+					"start": "NWH",
+					"end": "NWN",
+					"length": 13,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NWN",
+					"end": "NGOD",
+					"length": 3
+				},
+				{
+					"start": "NGOD",
+					"end": "NOF",
+					"length": 5
+				},
+				{
+					"start": "NOF",
+					"end": "NMT",
+					"length": 5
+				},
+				{
+					"start": "NMT",
+					"end": "NHH",
+					"length": 11,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NHH",
+					"end": "NU",
+					"length": 6,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NU",
+					"end": "NERM",
+					"length": 6
+				},
+				{
+					"start": "NERM",
+					"end": "NSTN",
+					"length": 8,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NSTN",
+					"end": "NBUW",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NBUW",
+					"end": "NON",
+					"length": 9,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NON",
+					"end": "NLE",
+					"length": 11,
+					"maxSpeed": 130
+				},
+				{
+					"start": "NLE",
+					"end": "NAN",
+					"length": 9,
+					"maxSpeed": 160
 				}
 			]
 		},
@@ -4733,12 +4887,76 @@
 		},
 		{
 			"group": 1,
-			"start": "NGM",
-			"end": "NBKI",
 			"twistingFactor": 0.35,
-			"length": 50,
 			"maxSpeed": 80,
-			"electrified": false
+			"electrified": false,
+			"objects": [
+				{
+					"start": "NBKI",
+					"end": "NEU",
+					"length": 7
+				},
+				{
+					"start": "NEU",
+					"end": "NELF",
+					"length": 4
+				},
+				{
+					"start": "NELF",
+					"end": "NWL",
+					"length": 4
+				},
+				{
+					"start": "NWL",
+					"end": "NHGO",
+					"length": 2
+				},
+				{
+					"start": "NHGO",
+					"end": "NHG",
+					"length": 2
+				},
+				{
+					"start": "NHG",
+					"end": "NDIE",
+					"length": 3
+				},
+				{
+					"start": "NDIE",
+					"end": "NMOU",
+					"length": 5
+				},
+				{
+					"start": "NMOU",
+					"end": "NWGR",
+					"length": 2
+				},
+				{
+					"start": "NWGR",
+					"end": "NMIK",
+					"length": 2
+				},
+				{
+					"start": "NMIK",
+					"end": "NG",
+					"length": 3
+				},
+				{
+					"start": "NG",
+					"end": "NWM",
+					"length": 3
+				},
+				{
+					"start": "NWM",
+					"end": "NKGM",
+					"length": 7
+				},
+				{
+					"start": "NKGM",
+					"end": "NGM",
+					"length": 2
+				}
+			]
 		},
 		{
 			"twistingFactor": 0.35,
@@ -4746,19 +4964,89 @@
 			"name": "Ludwigs-Westbahn",
 			"objects": [
 				{
-					"start": "NBA",
-					"end": "NHT",
-					"length": 33
+					"start": "NRTD",
+					"end": "NSLI",
+					"length": 9
 				},
 				{
-					"start": "NHT",
+					"start": "NSLI",
+					"end": "NBHM",
+					"length": 5
+				},
+				{
+					"start": "NBHM",
+					"end": "NEN",
+					"length": 6
+				},
+				{
+					"start": "NEN",
+					"end": "NWA",
+					"length": 3
+				},
+				{
+					"start": "NWA",
+					"end": "NBR",
+					"length": 5
+				},
+				{
+					"start": "NBR",
 					"end": "NS",
-					"length": 25
+					"length": 7
 				},
 				{
 					"start": "NS",
-					"end": "NRTD",
-					"length": 35
+					"end": "NSMT",
+					"length": 1
+				},
+				{
+					"start": "NSMT",
+					"end": "NSST",
+					"length": 1
+				},
+				{
+					"start": "NSST",
+					"end": "NSGN",
+					"length": 5
+				},
+				{
+					"start": "NSGN",
+					"end": "NGAE",
+					"length": 6
+				},
+				{
+					"start": "NGAE",
+					"end": "NHT",
+					"length": 11
+				},
+				{
+					"start": "NHT",
+					"end": "NZ",
+					"length": 7
+				},
+				{
+					"start": "NZ",
+					"end": "NZK",
+					"length": 3
+				},
+				{
+					"start": "NZK",
+					"end": "NEE",
+					"length": 3
+				},
+				{
+					"start": "NEE",
+					"end": "NOH",
+					"length": 12
+				},
+				{
+					"start": "NOH",
+					"end": "NHN",
+					"length": 5
+				},
+				{
+					"start": "NHN",
+					"end": "NBA",
+					"length": 3
 				}
 			]
 		},
@@ -5179,6 +5467,51 @@
 			]
 		},
 		{
+			"name": "Huddersfield Line",
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧LDS",
+					"end": "🇬🇧MIR",
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧MIR",
+					"end": "🇬🇧HUD",
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧HUD",
+					"end": "🇬🇧SWT",
+					"length": 7,
+					"maxSpeed": 136,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧SWT",
+					"end": "🇬🇧GNF",
+					"length": 13,
+					"maxSpeed": 136,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧GNF",
+					"end": "🇬🇧MAN",
+					"length": 19,
+					"maxSpeed": 104,
+					"twistingFactor": 0.32
+				}
+			]
+		},
+		{
 			"group": 2,
 			"name": "VDE 8",
 			"twistingFactor": 0.05,
@@ -5212,22 +5545,66 @@
 			]
 		},
 		{
-			"group": 1,
+			"group": 0,
 			"name": "Hauptverbindung Schweinfurt–Erfurt",
 			"twistingFactor": 0.45,
+			"maxSpeed": 120,
 			"electrified": false,
 			"objects": [
 				{
 					"start": "NS",
 					"end": "NBKI",
-					"length": 23,
-					"maxSpeed": 120
+					"length": 23
 				},
 				{
 					"start": "NBKI",
+					"end": "NRHN",
+					"length": 14
+				},
+				{
+					"start": "NRHN",
+					"end": "NMUE",
+					"length": 10
+				},
+				{
+					"start": "NMUE",
+					"end": "NBUR",
+					"length": 3
+				},
+				{
+					"start": "NBUR",
+					"end": "NBNE",
+					"length": 7
+				},
+				{
+					"start": "NBNE",
+					"end": "NME",
+					"length": 13
+				},
+				{
+					"start": "NME",
+					"end": "URH",
+					"length": 11
+				},
+				{
+					"start": "URH",
+					"end": "UBA",
+					"length": 2
+				},
+				{
+					"start": "UBA",
+					"end": "UWLH",
+					"length": 3
+				},
+				{
+					"start": "UWLH",
+					"end": "URI",
+					"length": 3
+				},
+				{
+					"start": "URI",
 					"end": "UM",
-					"length": 64,
-					"maxSpeed": 120
+					"length": 7
 				},
 				{
 					"start": "UM",
@@ -6239,6 +6616,50 @@
 					"start": "TSAT",
 					"end": "TC",
 					"length": 6
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"neededEquipments": [
+				"IT"
+			],
+			"objects": [
+				{
+					"start": "XIRM",
+					"end": "🇮🇹08502",
+					"name": "Ferrovia Roma – Napoli (alta velocità)",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 200,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇮🇹08502",
+					"end": "XIANI",
+					"name": "Ferrovia Roma – Napoli (alta velocità)",
+					"group": 2,
+					"length": 48,
+					"maxSpeed": 300,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XIANI",
+					"end": "🇮🇹09988",
+					"name": "Ferrovia Roma – Napoli (alta velocità)",
+					"group": 2,
+					"length": 148,
+					"maxSpeed": 300,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇮🇹09988",
+					"end": "XINAC",
+					"name": "Raccordo AV",
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
 				}
 			]
 		},
@@ -8628,6 +9049,269 @@
 			]
 		},
 		{
+			"group": 0,
+			"objects": [
+				{
+					"start": "XUBN",
+					"end": "🇷🇴O251660798",
+					"electrified": true,
+					"length": 21,
+					"maxSpeed": 140,
+					"twistingFactor": 0.39,
+					"neededEquipments": [
+						"RO"
+					]
+				},
+				{
+					"start": "🇷🇴O251660798",
+					"end": "🇷🇴O251660832",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"RO"
+					]
+				},
+				{
+					"start": "🇷🇴O251660832",
+					"end": "🇷🇴O7420798226",
+					"electrified": false,
+					"length": 18,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"RO"
+					]
+				},
+				{
+					"start": "🇷🇴O7420798226",
+					"end": "🇷🇴O311077921",
+					"electrified": false,
+					"length": 18,
+					"maxSpeed": 100,
+					"twistingFactor": 0.28,
+					"neededEquipments": [
+						"RO"
+					]
+				},
+				{
+					"start": "🇷🇴O311077921",
+					"end": "🇷🇴O3152797954",
+					"electrified": false,
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"RO"
+					]
+				},
+				{
+					"start": "🇷🇴O3152797954",
+					"end": "🇷🇴O447936215",
+					"electrified": false,
+					"length": 31,
+					"maxSpeed": 70,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"RO"
+					]
+				},
+				{
+					"start": "🇷🇴O447936215",
+					"end": "🇷🇴O3126109999",
+					"electrified": false,
+					"length": 29,
+					"maxSpeed": 70,
+					"twistingFactor": 0.15,
+					"neededEquipments": [
+						"RO"
+					]
+				},
+				{
+					"start": "🇷🇴O3126109999",
+					"end": "🇷🇴O7527300901",
+					"electrified": true,
+					"length": 17,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"RO"
+					]
+				},
+				{
+					"start": "🇷🇴O7527300901",
+					"end": "🇷🇴O7900306835",
+					"electrified": true,
+					"length": 20,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"RO"
+					]
+				},
+				{
+					"start": "🇷🇴O7900306835",
+					"end": "XUBRA",
+					"electrified": true,
+					"length": 21,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16,
+					"neededEquipments": [
+						"RO"
+					]
+				},
+				{
+					"start": "XUBRA",
+					"end": "🇷🇴O614963718",
+					"electrified": true,
+					"length": 24,
+					"maxSpeed": 100,
+					"twistingFactor": 0.38,
+					"neededEquipments": [
+						"RO"
+					]
+				},
+				{
+					"start": "🇷🇴O614963718",
+					"end": "🇲🇩O9606418762",
+					"electrified": true,
+					"length": 17,
+					"maxSpeed": 80,
+					"twistingFactor": 0.25,
+					"neededEquipments": [
+						"RO"
+					]
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"MD",
+				"1520mm"
+			],
+			"electrified": false,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "🇲🇩O9606418762",
+					"end": "🇺🇦O2292955333",
+					"name": "Перегін Етулія (Молдова) - Рені-Наливна (Україна)",
+					"length": 19,
+					"maxSpeed": 30,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇺🇦O2292955333",
+					"end": "🇲🇩O2292942283",
+					"name": "Перегін Етулія (Молдова) - Рені-Наливна (Україна)",
+					"length": 19,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇲🇩O2292942283",
+					"end": "🇲🇩O274031285",
+					"name": "Vulcănești - Etulia",
+					"length": 21,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇲🇩O274031285",
+					"end": "🇺🇦O3740532078",
+					"name": "Перегін Болград (Україна) - Гречень (Молдова)",
+					"length": 13,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇦O3740532078",
+					"end": "🇲🇩O1210715014",
+					"length": 45,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇲🇩O1210715014",
+					"end": "🇲🇩O2292917848",
+					"name": "Culma - Ceadîr-Lunga",
+					"length": 19,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇲🇩O2292917848",
+					"end": "🇲🇩O2292221308",
+					"name": "Culma - Ceadîr-Lunga",
+					"length": 17,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇲🇩O2292221308",
+					"end": "🇲🇩O836083540",
+					"length": 10,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇲🇩O836083540",
+					"end": "🇺🇦O2292215496",
+					"length": 13,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇺🇦O2292215496",
+					"end": "🇲🇩O1294360715",
+					"length": 10,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇲🇩O1294360715",
+					"end": "🇲🇩O2292212667",
+					"name": "Zloți - Cimişlia",
+					"length": 8,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇲🇩O2292212667",
+					"end": "🇲🇩O1007241183",
+					"name": "Zloți - Cimişlia",
+					"length": 9,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇲🇩O1007241183",
+					"end": "🇲🇩O1770683290",
+					"name": "Căinari - Zloți",
+					"length": 25,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇲🇩O1770683290",
+					"end": "🇲🇩O1374889431",
+					"name": "Bălțați - Căinari",
+					"length": 9,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇲🇩O1374889431",
+					"end": "🇲🇩O2292203131",
+					"name": "Bălțați - Căinari",
+					"length": 14,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇲🇩O2292203131",
+					"end": "🇲🇩O7915730621",
+					"name": "Parc Revaca - Bălţaţi",
+					"length": 14,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇲🇩O7915730621",
+					"end": "🇲🇩O8706735150",
+					"length": 13,
+					"twistingFactor": 0.12
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 110,
@@ -8787,6 +9471,68 @@
 					],
 					"maxSpeed": 110,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧YRK",
+					"end": "🇬🇧CHF",
+					"name": "Normanton and Colton Junction Line",
+					"electrified": true,
+					"length": 17,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇬🇧CHF",
+					"end": "🇬🇧EGF",
+					"name": "Church Fenton and Micklefield Line",
+					"electrified": true,
+					"length": 11,
+					"maxSpeed": 144,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧EGF",
+					"end": "🇬🇧LDS",
+					"name": "York & Selby Lines",
+					"electrified": true,
+					"length": 11,
+					"maxSpeed": 144,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LDS",
+					"end": "🇬🇧WKF",
+					"name": "Doncaster and Leeds Line",
+					"electrified": true,
+					"length": 16,
+					"maxSpeed": 136,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇬🇧WKF",
+					"end": "🇬🇧SES",
+					"name": "Doncaster and Leeds Line",
+					"electrified": true,
+					"length": 16,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧SES",
+					"end": "🇬🇧DON",
+					"name": "Doncaster and Leeds Line",
+					"electrified": true,
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
 				}
 			]
 		},
@@ -9981,6 +10727,149 @@
 			"end": "AH",
 			"length": 12,
 			"twistingFactor": 0.3
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷LIM",
+					"end": "🇫🇷AGF",
+					"name": "Ligne de Limoges-Bénédictins à Périgueux",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 110,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷AGF",
+					"end": "🇫🇷NNF",
+					"name": "Ligne de Limoges-Bénédictins à Périgueux",
+					"electrified": false,
+					"length": 11,
+					"maxSpeed": 110,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷NNF",
+					"end": "🇫🇷BGA",
+					"name": "Ligne de Limoges-Bénédictins à Périgueux",
+					"electrified": false,
+					"length": 17,
+					"maxSpeed": 110,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇫🇷BGA",
+					"end": "🇫🇷LCQ",
+					"name": "Ligne de Limoges-Bénédictins à Périgueux",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 140,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷LCQ",
+					"end": "🇫🇷TIV",
+					"name": "Ligne de Limoges-Bénédictins à Périgueux",
+					"electrified": false,
+					"length": 14,
+					"maxSpeed": 140,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷TIV",
+					"end": "🇫🇷AGA",
+					"name": "Ligne de Limoges-Bénédictins à Périgueux",
+					"electrified": false,
+					"length": 20,
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷AGA",
+					"end": "XFPGX",
+					"name": "Ligne de Limoges-Bénédictins à Périgueux",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "XFPGX",
+					"end": "🇫🇷O3509770413",
+					"name": "Ligne de Coutras à Tulle",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇫🇷O3509770413",
+					"end": "🇫🇷STK",
+					"name": "Ligne de Coutras à Tulle",
+					"electrified": false,
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷STK",
+					"end": "XFMUS",
+					"name": "Ligne de Coutras à Tulle",
+					"electrified": false,
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XFMUS",
+					"end": "🇫🇷MPI",
+					"name": "Ligne de Coutras à Tulle",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MPI",
+					"end": "XFCOU",
+					"name": "Ligne de Coutras à Tulle",
+					"electrified": false,
+					"length": 23,
+					"maxSpeed": 220,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XFCOU",
+					"end": "🇫🇷LIB",
+					"name": "Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean",
+					"electrified": true,
+					"length": 16,
+					"maxSpeed": 220,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇫🇷LIB",
+					"end": "🇫🇷VYR",
+					"name": "Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean",
+					"electrified": true,
+					"length": 7,
+					"maxSpeed": 220,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷VYR",
+					"end": "XFBJ",
+					"name": "Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean",
+					"electrified": true,
+					"length": 27,
+					"maxSpeed": 220,
+					"twistingFactor": 0.39
+				}
+			]
 		},
 		{
 			"electrified": true,
@@ -15484,6 +16373,111 @@
 			]
 		},
 		{
+			"electrified": true,
+			"maxSpeed": 180,
+			"neededEquipments": [
+				"IT"
+			],
+			"objects": [
+				{
+					"start": "XIMN",
+					"end": "🇮🇹12050",
+					"name": "Galleria dei Peloritani",
+					"group": 0,
+					"length": 15,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇮🇹12050",
+					"end": "XIMI",
+					"name": "Galleria Malerba",
+					"group": 0,
+					"length": 15,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "XIMI",
+					"end": "🇮🇹12036",
+					"name": "Galleria Madonna del Tindari",
+					"group": 0,
+					"length": 29,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇮🇹12036",
+					"end": "🇮🇹12030",
+					"name": "Galleria Capo Calavà",
+					"group": 0,
+					"length": 23,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇮🇹12030",
+					"end": "🇮🇹12027",
+					"group": 0,
+					"length": 13,
+					"twistingFactor": 0.04
+				},
+				{
+					"start": "🇮🇹12027",
+					"end": "🇮🇹12025",
+					"group": 0,
+					"length": 18,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇮🇹12025",
+					"end": "🇮🇹O9064350507",
+					"group": 0,
+					"length": 8,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇮🇹O9064350507",
+					"end": "🇮🇹12022",
+					"group": 0,
+					"length": 8,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇮🇹12022",
+					"end": "XICF",
+					"group": 0,
+					"length": 22,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XICF",
+					"end": "🇮🇹O9062977729",
+					"group": 0,
+					"length": 8,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇮🇹O9062977729",
+					"end": "XITE",
+					"group": 0,
+					"length": 20,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XITE",
+					"end": "🇮🇹12010",
+					"group": 0,
+					"length": 18,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇮🇹12010",
+					"end": "XIPA",
+					"name": "binario 10",
+					"group": 0,
+					"length": 18,
+					"twistingFactor": 0.27
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": false,
 			"maxSpeed": 130,
@@ -16939,6 +17933,71 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧DID",
+					"end": "🇬🇧RAD",
+					"name": "Didcot and Chester Line",
+					"length": 8,
+					"maxSpeed": 144,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧RAD",
+					"end": "🇬🇧OXF",
+					"name": "Didcot and Chester Line",
+					"length": 7,
+					"maxSpeed": 144,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧OXF",
+					"end": "🇬🇧TAC",
+					"name": "DM - Down Main",
+					"length": 14,
+					"maxSpeed": 144,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧TAC",
+					"end": "🇬🇧BAN",
+					"name": "Didcot and Chester Line",
+					"length": 21,
+					"maxSpeed": 144,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧BAN",
+					"end": "🇬🇧LMS",
+					"name": "Chiltern Main Line",
+					"length": 31,
+					"maxSpeed": 144,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧LMS",
+					"end": "🇬🇧O1458895262",
+					"name": "Leamington Spa and Coventry Line",
+					"length": 7,
+					"maxSpeed": 128,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧O1458895262",
+					"end": "🇬🇧COV",
+					"name": "Leamington Spa and Coventry Line",
+					"length": 8,
+					"maxSpeed": 128,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 80,
@@ -17473,6 +18532,302 @@
 					"neededEquipments": [
 						"FR"
 					]
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"HR"
+			],
+			"objects": [
+				{
+					"start": "XRZ",
+					"end": "🇭🇷O869878799",
+					"name": "Zagreb – Rijeka",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇭🇷O869878799",
+					"end": "🇭🇷O869880204",
+					"name": "Zagreb – Rijeka",
+					"electrified": true,
+					"length": 13,
+					"maxSpeed": 100,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇭🇷O869880204",
+					"end": "🇭🇷O869867756",
+					"name": "Zagreb – Rijeka",
+					"electrified": true,
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇭🇷O869867756",
+					"end": "XRKA",
+					"name": "Zagreb – Rijeka",
+					"electrified": true,
+					"length": 19,
+					"maxSpeed": 100,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XRKA",
+					"end": "🇭🇷O273313682",
+					"name": "Zagreb – Rijeka",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 80,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇭🇷O273313682",
+					"end": "🇭🇷O1871109154",
+					"name": "Zagreb – Rijeka",
+					"electrified": true,
+					"length": 12,
+					"maxSpeed": 80,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇭🇷O1871109154",
+					"end": "🇭🇷O1735311577",
+					"name": "Zagreb – Rijeka",
+					"electrified": true,
+					"length": 19,
+					"maxSpeed": 80,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇭🇷O1735311577",
+					"end": "🇭🇷O419252847",
+					"name": "Zagreb – Rijeka",
+					"electrified": true,
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇭🇷O419252847",
+					"end": "🇭🇷O1400235298",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 80,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇭🇷O1400235298",
+					"end": "🇭🇷O1416130468",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 19,
+					"maxSpeed": 80,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇭🇷O1416130468",
+					"end": "🇭🇷O9661752252",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 25,
+					"maxSpeed": 70,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇭🇷O9661752252",
+					"end": "🇭🇷O1404490638",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 5,
+					"maxSpeed": 70,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇭🇷O1404490638",
+					"end": "🇭🇷O1404809717",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 75,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇭🇷O1404809717",
+					"end": "🇭🇷O1404864926",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 17,
+					"maxSpeed": 100,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇭🇷O1404864926",
+					"end": "XRG",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 14,
+					"maxSpeed": 100,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "XRG",
+					"end": "🇭🇷O9655821629",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 7,
+					"maxSpeed": 100,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇭🇷O9655821629",
+					"end": "🇭🇷O869897800",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 20,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇭🇷O869897800",
+					"end": "🇭🇷O472483447",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 100,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇭🇷O472483447",
+					"end": "🇭🇷O1405078587",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 26,
+					"maxSpeed": 75,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇭🇷O1405078587",
+					"end": "🇭🇷O9809650075",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 12,
+					"maxSpeed": 75,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇭🇷O9809650075",
+					"end": "🇭🇷O2330847109",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇭🇷O2330847109",
+					"end": "XRK",
+					"name": "Oštarije – Knin",
+					"electrified": false,
+					"length": 16,
+					"maxSpeed": 80,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XRK",
+					"end": "🇭🇷O1946792762",
+					"name": "Knin – Split",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 80,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇭🇷O1946792762",
+					"end": "🇭🇷O1440222604",
+					"name": "Knin – Split",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 80,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇭🇷O1440222604",
+					"end": "🇭🇷O1112948178",
+					"name": "Knin – Split",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 80,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇭🇷O1112948178",
+					"end": "🇭🇷O935883723",
+					"name": "Knin – Split",
+					"electrified": false,
+					"length": 11,
+					"maxSpeed": 100,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇭🇷O935883723",
+					"end": "XRPE",
+					"name": "Knin – Split",
+					"electrified": false,
+					"length": 12,
+					"maxSpeed": 80,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "XRPE",
+					"end": "🇭🇷O2523192383",
+					"name": "Knin – Split",
+					"electrified": false,
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇭🇷O2523192383",
+					"end": "🇭🇷O578116114",
+					"name": "Knin – Split",
+					"electrified": false,
+					"length": 11,
+					"maxSpeed": 70,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇭🇷O578116114",
+					"end": "🇭🇷O3671459717",
+					"name": "Knin – Split",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇭🇷O3671459717",
+					"end": "🇭🇷O1115889192",
+					"name": "Knin – Split",
+					"electrified": false,
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇭🇷O1115889192",
+					"end": "XRS",
+					"name": "Knin – Split",
+					"electrified": false,
+					"length": 7,
+					"maxSpeed": 85,
+					"twistingFactor": 0.2
 				}
 			]
 		},
@@ -20249,6 +21604,410 @@
 			]
 		},
 		{
+			"neededEquipments": [
+				"IT"
+			],
+			"objects": [
+				{
+					"start": "XINAC",
+					"end": "🇮🇹O4428143276",
+					"electrified": true,
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇮🇹09988",
+					"end": "🇮🇹O4428143276",
+					"name": "Raccordo AV",
+					"electrified": true,
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇮🇹O4428143276",
+					"end": "🇮🇹O40763",
+					"name": "Linea a Monte del Vesuvio",
+					"electrified": true,
+					"group": 2,
+					"length": 20,
+					"maxSpeed": 250,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇮🇹O40763",
+					"end": "🇮🇹09815",
+					"name": "Linea a Monte del Vesuvio",
+					"electrified": true,
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 200,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇮🇹09815",
+					"end": "XISN",
+					"name": "Linea a Monte del Vesuvio",
+					"electrified": true,
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 150,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "XISN",
+					"end": "XIPN",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 180,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XIPN",
+					"end": "🇮🇹09822",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 6,
+					"maxSpeed": 180,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇮🇹09822",
+					"end": "XIBT",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 3,
+					"maxSpeed": 180,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XIBT",
+					"end": "🇮🇹11705",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 29,
+					"maxSpeed": 200,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇮🇹11705",
+					"end": "🇮🇹11708",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 16,
+					"maxSpeed": 150,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇮🇹11708",
+					"end": "🇮🇹11711",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇮🇹11711",
+					"end": "🇮🇹11715",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇮🇹11715",
+					"end": "🇮🇹11718",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 17,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇮🇹11718",
+					"end": "XISR",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 150,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "XISR",
+					"end": "🇮🇹11723",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇮🇹11723",
+					"end": "🇮🇹11725",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 180,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇮🇹11725",
+					"end": "🇮🇹11727",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 10,
+					"maxSpeed": 180,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇮🇹11727",
+					"end": "🇮🇹11731",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 15,
+					"maxSpeed": 180,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇮🇹11731",
+					"end": "XIPL",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 41,
+					"maxSpeed": 200,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XIPL",
+					"end": "🇮🇹11744",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 25,
+					"maxSpeed": 200,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇮🇹11744",
+					"end": "🇮🇹11748",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 27,
+					"maxSpeed": 200,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇮🇹11748",
+					"end": "🇮🇹11751",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 180,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇮🇹11751",
+					"end": "🇮🇹11789",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 18,
+					"maxSpeed": 180,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇮🇹11789",
+					"end": "🇮🇹11790",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 18,
+					"maxSpeed": 180,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇮🇹11790",
+					"end": "XIRS",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 180,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "XIRS",
+					"end": "XIGIT",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 180,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "XIGIT",
+					"end": "🇮🇹11770",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 18,
+					"maxSpeed": 180,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇮🇹11770",
+					"end": "XISC",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XISC",
+					"end": "🇮🇹11774",
+					"name": "Ferrovia Tirrenica Meridionale",
+					"electrified": true,
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇮🇹11774",
+					"end": "XIMN",
+					"electrified": true,
+					"group": 3,
+					"length": 9,
+					"maxSpeed": 10,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIMN",
+					"end": "🇮🇹12308",
+					"electrified": true,
+					"group": 0,
+					"length": 15,
+					"maxSpeed": 150,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇮🇹12308",
+					"end": "🇮🇹12311",
+					"electrified": true,
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 150,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇮🇹12311",
+					"end": "🇮🇹O242876147",
+					"electrified": true,
+					"group": 0,
+					"length": 18,
+					"maxSpeed": 110,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇮🇹O242876147",
+					"end": "XIGR",
+					"electrified": true,
+					"group": 0,
+					"length": 18,
+					"maxSpeed": 105,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XIGR",
+					"end": "XICTC",
+					"electrified": true,
+					"group": 0,
+					"length": 28,
+					"maxSpeed": 90,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XICTC",
+					"end": "🇮🇹12338",
+					"electrified": true,
+					"group": 0,
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇮🇹12338",
+					"end": "🇮🇹12341",
+					"electrified": true,
+					"group": 0,
+					"length": 21,
+					"maxSpeed": 90,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇮🇹12341",
+					"end": "🇮🇹09915",
+					"electrified": true,
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇮🇹09915",
+					"end": "🇮🇹12345",
+					"electrified": true,
+					"group": 0,
+					"length": 13,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇮🇹12345",
+					"end": "🇮🇹12347",
+					"electrified": true,
+					"group": 0,
+					"length": 13,
+					"maxSpeed": 90,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇮🇹12347",
+					"end": "XISRC",
+					"electrified": true,
+					"group": 0,
+					"length": 13,
+					"maxSpeed": 90,
+					"twistingFactor": 0.18
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"name": "Ligne de la Côte Bleue",
 			"group": 1,
@@ -22121,6 +23880,104 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧BRI",
+					"end": "🇬🇧BPW",
+					"name": "Bristol and South Wales Union Line",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧BPW",
+					"end": "🇬🇧SVB",
+					"name": "South Wales Main Line",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 144,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧SVB",
+					"end": "🇬🇧O1401008823",
+					"name": "South Wales Main Line",
+					"electrified": true,
+					"length": 24,
+					"maxSpeed": 144,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧O1401008823",
+					"end": "🇬🇧CDF",
+					"name": "South Wales Main Line",
+					"electrified": true,
+					"length": 18,
+					"maxSpeed": 96,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧CDF",
+					"end": "🇬🇧LLR",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 120,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧LLR",
+					"end": "🇬🇧BGN",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 128,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧BGN",
+					"end": "🇬🇧PYL",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧PYL",
+					"end": "🇬🇧PTA",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧PTA",
+					"end": "🇬🇧NTH",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 144,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧NTH",
+					"end": "🇬🇧SWA",
+					"name": "South Wales Main Line",
+					"electrified": false,
+					"length": 12,
+					"maxSpeed": 144,
+					"twistingFactor": 0.31
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 2,
 			"twistingFactor": 0.1,
@@ -23435,6 +25292,221 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧EDB",
+					"end": "🇬🇧DAM",
+					"name": "East Coast (Northern) Line",
+					"electrified": true,
+					"length": 14,
+					"maxSpeed": 160,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧DAM",
+					"end": "🇬🇧DAG",
+					"name": "Fife Circle Line",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 128,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇬🇧DAG",
+					"end": "🇬🇧BTS",
+					"name": "Fife Circle Line",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧BTS",
+					"end": "🇬🇧KDY",
+					"name": "Fife Circle Line",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇬🇧KDY",
+					"end": "🇬🇧MNC",
+					"name": "Fife Circle Line",
+					"electrified": false,
+					"length": 11,
+					"maxSpeed": 128,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧MNC",
+					"end": "🇬🇧CUP",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧CUP",
+					"end": "🇬🇧LEU",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 152,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧LEU",
+					"end": "🇬🇧DEE",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 13,
+					"maxSpeed": 136,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇬🇧DEE",
+					"end": "🇬🇧ARB",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 27,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧ARB",
+					"end": "🇬🇧MTS",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 128,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧MTS",
+					"end": "🇬🇧LAU",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 144,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧LAU",
+					"end": "🇬🇧STN",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 23,
+					"maxSpeed": 144,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧STN",
+					"end": "🇬🇧PLN",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 12,
+					"maxSpeed": 128,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧PLN",
+					"end": "🇬🇧ABD",
+					"name": "Edinburgh to Aberdeen Line",
+					"electrified": false,
+					"length": 12,
+					"maxSpeed": 128,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧ABD",
+					"end": "🇬🇧DYC",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 120,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧DYC",
+					"end": "🇬🇧INR",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 17,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧INR",
+					"end": "🇬🇧INS",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 17,
+					"maxSpeed": 112,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧INS",
+					"end": "🇬🇧HNT",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 96,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧HNT",
+					"end": "🇬🇧KEH",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 20,
+					"maxSpeed": 112,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇬🇧KEH",
+					"end": "🇬🇧ELG",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 29,
+					"maxSpeed": 120,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇬🇧ELG",
+					"end": "🇬🇧FOR",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧FOR",
+					"end": "🇬🇧NRN",
+					"name": "Aberdeen to Inverness Line",
+					"electrified": false,
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧NRN",
+					"end": "🇬🇧INV",
+					"name": "Highland Main Line",
+					"electrified": false,
+					"length": 24,
+					"maxSpeed": 120,
+					"twistingFactor": 0.12
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -24552,6 +26624,101 @@
 			]
 		},
 		{
+			"electrified": true,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "XKLP",
+					"end": "🇬🇧MRW",
+					"name": "North London line",
+					"group": 0,
+					"length": 16,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇬🇧MRW",
+					"end": "🇬🇧WLC",
+					"name": "Bethnal Green and King's Lynn Line",
+					"group": 0,
+					"length": 7,
+					"maxSpeed": 136,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇬🇧WLC",
+					"end": "🇬🇧BXB",
+					"group": 0,
+					"length": 6,
+					"maxSpeed": 136,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BXB",
+					"end": "🇬🇧HWN",
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 128,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧HWN",
+					"end": "🇬🇧BIS",
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 128,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇬🇧BIS",
+					"end": "🇬🇧AUD",
+					"name": "West Anglia Main Line",
+					"group": 0,
+					"length": 18,
+					"maxSpeed": 112,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧AUD",
+					"end": "🇬🇧WLF",
+					"name": "Bethnal Green and King's Lynn Line",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 144,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧WLF",
+					"end": "🇬🇧CBG",
+					"name": "Bethnal Green and King's Lynn Line",
+					"group": 0,
+					"length": 10,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧CBG",
+					"end": "🇬🇧WBC",
+					"name": "Bethnal Green and King's Lynn Line",
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧WBC",
+					"end": "🇬🇧ELY",
+					"name": "Fen Line",
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"maxSpeed": 60,
@@ -24599,6 +26766,123 @@
 					"start": "DPT",
 					"end": "DNKW",
 					"length": 4
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧GLC",
+					"end": "🇬🇧PYG",
+					"name": "Ayr Line",
+					"electrified": true,
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧PYG",
+					"end": "🇬🇧GLG",
+					"name": "Ayr Line",
+					"electrified": true,
+					"group": 0,
+					"length": 20,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧GLG",
+					"end": "🇬🇧IRV",
+					"name": "Ayrshire Coast Line",
+					"electrified": true,
+					"group": 0,
+					"length": 15,
+					"maxSpeed": 144,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧IRV",
+					"end": "🇬🇧PTW",
+					"name": "Ayrshire Coast Line",
+					"electrified": true,
+					"group": 0,
+					"length": 13,
+					"maxSpeed": 144,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧PTW",
+					"end": "🇬🇧O30615225",
+					"name": "Ayrshire Coast Line",
+					"electrified": true,
+					"group": 0,
+					"length": 4,
+					"maxSpeed": 144,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧O30615225",
+					"end": "🇬🇧MAY",
+					"name": "Stranraer Line",
+					"electrified": false,
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 100,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧MAY",
+					"end": "🇬🇧GIR",
+					"name": "Maybole and Girvan Railway",
+					"electrified": false,
+					"group": 0,
+					"length": 19,
+					"maxSpeed": 100,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇬🇧GIR",
+					"end": "🇬🇧BRL",
+					"name": "Stranraer Line",
+					"electrified": false,
+					"group": 1,
+					"length": 19,
+					"maxSpeed": 100,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇬🇧BRL",
+					"end": "🇬🇧O2516415174",
+					"name": "Girvan and Portpatrick Junction Railway",
+					"electrified": false,
+					"group": 1,
+					"length": 20,
+					"maxSpeed": 100,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧O2516415174",
+					"end": "🇬🇧DNRAGIT",
+					"name": "Girvan and Portpatrick Junction Railway",
+					"electrified": false,
+					"group": 1,
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧DNRAGIT",
+					"end": "🇬🇧STR",
+					"name": "Portpatrick Railway",
+					"electrified": false,
+					"group": 1,
+					"length": 9,
+					"maxSpeed": 100,
+					"twistingFactor": 0.12
 				}
 			]
 		},
@@ -25095,6 +27379,333 @@
 					"start": "🇳🇱Hrn",
 					"end": "🇳🇱Gn",
 					"length": 5
+				}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Bar-Beograd",
+			"electrified": true,
+			"objects": [
+				{
+					"start": "XJBR",
+					"end": "🇷🇸O313235244",
+					"length": 17,
+					"maxSpeed": 85,
+					"twistingFactor": 0.33,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O313235244",
+					"end": "🇷🇸O313235264",
+					"length": 18,
+					"maxSpeed": 90,
+					"twistingFactor": 0.16,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O313235264",
+					"end": "🇷🇸O1843655287",
+					"length": 16,
+					"maxSpeed": 100,
+					"twistingFactor": 0.35,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O1843655287",
+					"end": "🇷🇸15251",
+					"length": 24,
+					"maxSpeed": 100,
+					"twistingFactor": 0.18,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸15251",
+					"end": "🇷🇸O457488134",
+					"length": 16,
+					"maxSpeed": 50,
+					"twistingFactor": 0.35,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O457488134",
+					"end": "🇷🇸O1639094937",
+					"length": 17,
+					"maxSpeed": 50,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O1639094937",
+					"end": "🇷🇸O188987343",
+					"length": 7,
+					"maxSpeed": 50,
+					"twistingFactor": 0.19,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O188987343",
+					"end": "🇷🇸O1843675132",
+					"length": 10,
+					"maxSpeed": 50,
+					"twistingFactor": 0.17,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O1843675132",
+					"end": "🇷🇸O354100557",
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O354100557",
+					"end": "🇷🇸O1845238410",
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O1845238410",
+					"end": "🇷🇸O1638917484",
+					"length": 7,
+					"maxSpeed": 100,
+					"twistingFactor": 0.22,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O1638917484",
+					"end": "🇷🇸O315237907",
+					"length": 6,
+					"maxSpeed": 90,
+					"twistingFactor": 0.31,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O315237907",
+					"end": "🇷🇸O1711847690",
+					"length": 14,
+					"maxSpeed": 50,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O1711847690",
+					"end": "🇷🇸O1598918645",
+					"length": 14,
+					"maxSpeed": 70,
+					"twistingFactor": 0.29,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O1598918645",
+					"end": "🇧🇦O1845247885",
+					"length": 21,
+					"maxSpeed": 50,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇧🇦O1845247885",
+					"end": "🇷🇸15708",
+					"length": 10,
+					"maxSpeed": 50,
+					"twistingFactor": 0.29,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸15708",
+					"end": "🇷🇸O1845256133",
+					"length": 2,
+					"maxSpeed": 50,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O1845256133",
+					"end": "🇷🇸O1414372177",
+					"length": 12,
+					"maxSpeed": 50,
+					"twistingFactor": 0.16,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O1414372177",
+					"end": "🇷🇸15712",
+					"length": 11,
+					"maxSpeed": 50,
+					"twistingFactor": 0.23,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸15712",
+					"end": "🇷🇸O1845258109",
+					"length": 20,
+					"maxSpeed": 50,
+					"twistingFactor": 0.28,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O1845258109",
+					"end": "🇷🇸O1496436583",
+					"length": 11,
+					"maxSpeed": 50,
+					"twistingFactor": 0.18,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇷🇸O1496436583",
+					"end": "🇲🇪O1395906256",
+					"length": 14,
+					"maxSpeed": 80,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"RS"
+					]
+				},
+				{
+					"start": "🇲🇪O1395906256",
+					"end": "🇲🇪O2431193290",
+					"length": 10,
+					"maxSpeed": 80,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"ME"
+					]
+				},
+				{
+					"start": "🇲🇪O2431193290",
+					"end": "🇲🇪31305",
+					"length": 10,
+					"maxSpeed": 80,
+					"twistingFactor": 0.28,
+					"neededEquipments": [
+						"ME"
+					]
+				},
+				{
+					"start": "🇲🇪31305",
+					"end": "🇲🇪31307",
+					"length": 19,
+					"maxSpeed": 80,
+					"twistingFactor": 0.34,
+					"neededEquipments": [
+						"ME"
+					]
+				},
+				{
+					"start": "🇲🇪31307",
+					"end": "🇲🇪O4172717221",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.26,
+					"neededEquipments": [
+						"ME"
+					]
+				},
+				{
+					"start": "🇲🇪O4172717221",
+					"end": "🇲🇪O1846513097",
+					"length": 11,
+					"maxSpeed": 80,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"ME"
+					]
+				},
+				{
+					"start": "🇲🇪O1846513097",
+					"end": "🇲🇪O5493979499",
+					"length": 34,
+					"maxSpeed": 60,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"ME"
+					]
+				},
+				{
+					"start": "🇲🇪O5493979499",
+					"end": "🇲🇪31001",
+					"length": 11,
+					"maxSpeed": 60,
+					"twistingFactor": 0.19,
+					"neededEquipments": [
+						"ME"
+					]
+				},
+				{
+					"start": "🇲🇪31001",
+					"end": "🇲🇪O7198645520",
+					"length": 28,
+					"maxSpeed": 70,
+					"twistingFactor": 0.19,
+					"neededEquipments": [
+						"ME"
+					]
+				},
+				{
+					"start": "🇲🇪O7198645520",
+					"end": "🇲🇪O7198645521",
+					"length": 11,
+					"maxSpeed": 70,
+					"twistingFactor": 0.15,
+					"neededEquipments": [
+						"ME"
+					]
+				},
+				{
+					"start": "🇲🇪O7198645521",
+					"end": "XJBA",
+					"length": 8,
+					"maxSpeed": 70,
+					"twistingFactor": 0.29,
+					"neededEquipments": [
+						"ME"
+					]
 				}
 			]
 		},
@@ -27483,7 +30094,8 @@
 			"maxSpeed": 120,
 			"twistingFactor": 0,
 			"neededEquipments": [
-				"EE", "1520mm"
+				"EE",
+				"1520mm"
 			],
 			"objects": [
 				{
@@ -30751,7 +33363,7 @@
 				},
 				{
 					"start": "🇬🇧TOMATIN",
-					"end": "🇬🇧86490",
+					"end": "🇬🇧INV",
 					"name": "Highland Main Line",
 					"electrified": false,
 					"length": 31,
@@ -33029,7 +35641,7 @@
 			],
 			"objects": [
 				{
-					"start": "🇬🇧86490",
+					"start": "🇬🇧INV",
 					"end": "🇬🇧88770",
 					"group": 1,
 					"length": 16,
@@ -33895,6 +36507,47 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧CHU",
+					"end": "🇬🇧WML",
+					"name": "Cheadle Hulm South Junction",
+					"length": 5,
+					"maxSpeed": 177,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧WML",
+					"end": "🇬🇧HCH",
+					"name": "Crewe to Manchester Line",
+					"length": 16,
+					"maxSpeed": 177,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇬🇧HCH",
+					"end": "🇬🇧SDB",
+					"name": "Crewe to Manchester Line",
+					"length": 5,
+					"maxSpeed": 177,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧SDB",
+					"end": "XKCR",
+					"name": "Crewe to Manchester Line",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.08
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 1,
 			"maxSpeed": 80,
@@ -34724,6 +37377,36 @@
 			"maxSpeed": 140,
 			"twistingFactor": 0.34,
 			"length": 22
+		},
+		{
+			"name": "South Wales Main Line",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 201,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧WTNBSTJ",
+					"end": "🇬🇧LSOMFD",
+					"length": 11,
+					"twistingFactor": 0.15,
+					"maxSpeed": 180
+				},
+				{
+					"start": "🇬🇧LSOMFD",
+					"end": "🇬🇧O66729286",
+					"length": 26,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧O66729286",
+					"end": "🇬🇧BPW",
+					"length": 8,
+					"twistingFactor": 0.15
+				}
+			]
 		},
 		{
 			"electrified": true,
@@ -38292,7 +40975,7 @@
 				},
 				{
 					"start": "🇬🇧72010",
-					"end": "🇬🇧70680",
+					"end": "🇬🇧ELY",
 					"name": "Breckland Line",
 					"electrified": false,
 					"length": 19,
@@ -38300,7 +40983,7 @@
 					"twistingFactor": 0.1
 				},
 				{
-					"start": "🇬🇧70680",
+					"start": "🇬🇧ELY",
 					"end": "🇬🇧71660",
 					"name": "Ely to Peterborough Line",
 					"electrified": false,
