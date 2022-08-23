@@ -504,7 +504,7 @@
 				},
 				{
 					"stations": [ "XFHV", "🇫🇷RRD", "XFPO", "XFLPD", "XFAVV", "XFM" ],
-					"pathSuggestion": [ "XFHV", "🇫🇷RRD", "XFPO", "XFCQ", "🇫🇷MOIS", "🇫🇷SIF", "🇫🇷PAI", "XFMAL", "XFLPD", "🇫🇷GRNY", "XFVCV", "🇫🇷BLN",  "XFAVV", "XFM" ]
+					"pathSuggestion": [ "XFHV", "🇫🇷RRD", "XFPO", "XFCQ", "🇫🇷MOIS", "🇫🇷SIF", "🇫🇷PAI", "XFMAL", "XFLPD", "🇫🇷GRNY", "XFVCV", "🇫🇷BLN", "XFAVV", "XFM" ]
 				},
 				{
 					"stations": [ "XFHE", "XFBR", "XFBY", "XFDX", "XFBJ", "🇫🇷TO", "XFPO" ],
@@ -522,8 +522,7 @@
 			"name": "Eurostar von %s nach %s",
 			"descriptions": [
 				"Fahre den Eurostar durch den Tunnel nach %2$s.",
-				"Bringe den Eurostar schnell von %s nach %s.",
-				"Fahre den Eurostar nach %2$s. Fahrgäste von/nach London müssen wegen des Brexits umsteigen."
+				"Bringe den Eurostar schnell von %s nach %s."
 			],
 			"neededCapacity": [
 				{ "name": "passengers" },
@@ -687,7 +686,7 @@
 				},
 				{
 					"stations": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷VHY", "XFCLE" ],
-					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷GUA", "XFSZE","XFSGF", "🇫🇷VHY", "XFCLE" ]
+					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷GUA", "XFSZE", "XFSGF", "🇫🇷VHY", "XFCLE" ]
 				},
 				{
 					"stations": [ "XFCLE", "🇫🇷RIO", "🇫🇷VHY", "🇫🇷NVS", "🇫🇷VER", "XFOL", "XFPO" ],
@@ -823,6 +822,28 @@
 			],
 			"group": 1,
 			"service": 3
+		},
+		{
+			"name": "Regional Eurostar von %s nach %s",
+			"descriptions": [
+				"Verbinde Frankreich mit dem Vereinigten Königreich.",
+				"Fahre durch den Tunnel an London vorbei von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "🇬🇧MAN", "XKCR", "🇬🇧STA", "🇬🇧BHM", "🇬🇧BHI", "🇬🇧COV", "XKRU", "🇬🇧BLY", "XFLIE", "XFPO" ],
+					"pathSuggestion": [ "🇬🇧MAN", "🇬🇧CHU", "XKCR", "🇬🇧SOT", "🇬🇧STA", "🇬🇧BHM", "🇬🇧BHI", "🇬🇧COV", "XKRU", "🇬🇧BLY", "XKLP", "XFFE", "XFLIE", "🇫🇷RUX", "XFSVF", "XFPO" ]
+				},
+				{
+					"pathSuggestion": [ "🇬🇧GLC", "🇬🇧99430", "🇬🇧EDB", "🇬🇧NCL", "🇬🇧DAR", "🇬🇧YRK", "🇬🇧LDS", "🇬🇧DON", "🇬🇧NNG", "🇬🇧PBO", "XKLP", "XFFE", "XFLIE", "🇫🇷RUX", "XFSVF", "XFPO" ],
+					"stations": [ "🇬🇧GLC", "🇬🇧EDB", "🇬🇧NCL", "🇬🇧DAR", "🇬🇧YRK", "🇬🇧LDS", "🇬🇧DON", "🇬🇧NNG", "🇬🇧PBO", "XFLIE", "XFPO" ]
+				}
+			]
 		},
 		{
 			"name": "Venice-Simplon-Orient-Express von %s nach %s",
@@ -1174,8 +1195,8 @@
 				"Bringe die Fahrgäste in den Urlaub in %2$s.",
 				"Bringe die Urlauber mit ihrem Auto an ihr Ziel"
 			],
-			"stations": ["🇳🇱Ht", "XNVL", "KK", "KB", "KBOP", "FD", "RK", "RF", "RB", "XSBG", "XID", "XIAS"],
-			"pathSuggestion": ["🇳🇱Ht", "🇳🇱Btl", "XNEI", "XNBL", "XNVL", "KV", "KM", "KGRB", "KK", "KKAS", "KB", "KKO", "KBOP", "FBGK", "FMZ", "FFLF", "FF", "FD", "RMF", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSGRN", "XSBL", "🇨🇭COS", "XSLA", "🇨🇭VV", "XSVI", "XSBG", "XID", "XIR", "XIMB", "XITOR", "XIAS"],
+			"stations": [ "🇳🇱Ht", "XNVL", "KK", "KB", "KBOP", "FD", "RK", "RF", "RB", "XSBG", "XID", "XIAS" ],
+			"pathSuggestion": [ "🇳🇱Ht", "🇳🇱Btl", "XNEI", "XNBL", "XNVL", "KV", "KM", "KGRB", "KK", "KKAS", "KB", "KKO", "KBOP", "FBGK", "FMZ", "FFLF", "FF", "FD", "RMF", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSGRN", "XSBL", "🇨🇭COS", "XSLA", "🇨🇭VV", "XSVI", "XSBG", "XID", "XIR", "XIMB", "XITOR", "XIAS" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "beds" },
@@ -5178,8 +5199,8 @@
 					"descriptions": [
 						"Fahre den TEE Blauer Enzian von %s bis %s"
 					],
-					"stations": [ "AA", "AH", "AHAR", "HH", "HG", "FFU", "NWH", "MA", "MH", "XASB", "XABO", "XASW", "XABH", "XABG", "XAMO", "XASP", "XAVH", "XAVE", "XAPW", "XAKR", "XAKT"],
-					"pathSuggestion": [ "AA", "AH", "AHAR", "ABLZ", "HH", "HG", "HEBG", "FB", "FFU", "NBN", "NGM", "NWH", "TL", "TC", "TGL", "MDT", "MA", "MH", "MHR", "MGB", "MRO", "MTS" , "MFL", "XASB", "XABO", "XASW", "XABH", "XABG", "XAMO", "XASP", "XAVH", "XAVE", "XAPW", "XAKR", "XAKT" ]
+					"stations": [ "AA", "AH", "AHAR", "HH", "HG", "FFU", "NWH", "MA", "MH", "XASB", "XABO", "XASW", "XABH", "XABG", "XAMO", "XASP", "XAVH", "XAVE", "XAPW", "XAKR", "XAKT" ],
+					"pathSuggestion": [ "AA", "AH", "AHAR", "ABLZ", "HH", "HG", "HEBG", "FB", "FFU", "NBN", "NGM", "NWH", "TL", "TC", "TGL", "MDT", "MA", "MH", "MHR", "MGB", "MRO", "MTS", "MFL", "XASB", "XABO", "XASW", "XABH", "XABG", "XAMO", "XASP", "XAVH", "XAVE", "XAPW", "XAKR", "XAKT" ]
 				},
 				{
 					"descriptions": [
@@ -5217,8 +5238,8 @@
 			],
 			"objects": [
 				{
-					"stations": [ "BHF", "DH", "DSA", "XTD", "XTP", "XTBR", "XYB", "XMBK", "XJBC", "XWS"],
-					"pathSuggestion": [ "BHF", "BL", "BBF", "BDKO", "BEW", "DGB", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW", "XYB", "XMBK", "XJST", "XJSP", "XJBC", "XJA", "XJNI", "XJP", "XWS"]
+					"stations": [ "BHF", "DH", "DSA", "XTD", "XTP", "XTBR", "XYB", "XMBK", "XJBC", "XWS" ],
+					"pathSuggestion": [ "BHF", "BL", "BBF", "BDKO", "BEW", "DGB", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW", "XYB", "XMBK", "XJST", "XJSP", "XJBC", "XJA", "XJNI", "XJP", "XWS" ]
 				}
 			],
 			"neededCapacity": [
@@ -5524,7 +5545,7 @@
 			],
 			"objects": [
 				{
-					"stations": ["XLWZ", "XLKT"]
+					"stations": [ "XLWZ", "XLKT" ]
 				}
 			],
 			"neededCapacity": [
@@ -5540,7 +5561,7 @@
 			],
 			"objects": [
 				{
-					"stations": ["XLDK", "XLL"],
+					"stations": [ "XLDK", "XLL" ],
 					"stopsEverwhere": true
 				}
 			],
@@ -5557,7 +5578,7 @@
 			],
 			"objects": [
 				{
-					"stations": ["XLTV", "XLL"],
+					"stations": [ "XLTV", "XLL" ],
 					"stopsEverwhere": true
 				}
 			],
@@ -5811,7 +5832,7 @@
 			],
 			"neededCapacity": [
 				{ "name": "passengers" },
-				{ "name": "bistroseats"}
+				{ "name": "bistroseats" }
 			],
 			"group": 1,
 			"service": 0,
@@ -5861,42 +5882,42 @@
 					"stations": [ "XNSP", "XNAC", "XNU", "XNAH" ]
 				},
 				{
-					"stations": ["XNRC", "XNU", "🇳🇱Amf", "🇳🇱Zl", "🇳🇱Asn", "🇳🇱Gn"]
+					"stations": [ "XNRC", "XNU", "🇳🇱Amf", "🇳🇱Zl", "🇳🇱Asn", "🇳🇱Gn" ]
 				},
 				{
-					"stations": ["XNRC", "XNU", "🇳🇱Amf", "🇳🇱Zl", "🇳🇱Mp", "🇳🇱Lw"]
+					"stations": [ "XNRC", "XNU", "🇳🇱Amf", "🇳🇱Zl", "🇳🇱Mp", "🇳🇱Lw" ]
 				},
 				{
-					"stations": ["XNMT", "XNSI", "XNRM", "XNWT", "XNEI", "🇳🇱Ht", "XNU", "XNAC", "🇳🇱Amr", "🇳🇱Sgn", "🇳🇱Hdr"]
+					"stations": [ "XNMT", "XNSI", "XNRM", "XNWT", "XNEI", "🇳🇱Ht", "XNU", "XNAC", "🇳🇱Amr", "🇳🇱Sgn", "🇳🇱Hdr" ]
 				},
 				{
-					"stations": ["🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Bd", "🇳🇱Tb", "XNEI"]
+					"stations": [ "🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Bd", "🇳🇱Tb", "XNEI" ]
 				},
 				{
-					"stations": ["XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Ddr", "🇳🇱Rsd", "🇳🇱Vs"],
-					"pathSuggestion": ["XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr", "🇳🇱Zlw", "🇳🇱Rsd", "🇳🇱Mdb", "🇳🇱Vs"]
+					"stations": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Ddr", "🇳🇱Rsd", "🇳🇱Vs" ],
+					"pathSuggestion": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr", "🇳🇱Zlw", "🇳🇱Rsd", "🇳🇱Mdb", "🇳🇱Vs" ]
 				},
 				{
-					"stations": ["🇳🇱Lls", "🇳🇱Almb", "🇳🇱Alm", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Ddr"],
-					"pathSuggestion": ["🇳🇱Lls", "🇳🇱Almb", "🇳🇱Alm", "🇳🇱Wp", "XNAC", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr"]
+					"stations": [ "🇳🇱Lls", "🇳🇱Almb", "🇳🇱Alm", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Ddr" ],
+					"pathSuggestion": [ "🇳🇱Lls", "🇳🇱Almb", "🇳🇱Alm", "🇳🇱Wp", "XNAC", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr" ]
 				},
 				{
-					"stations": ["XNU", "XNAC", "XNSP", "🇳🇱Gv", "XNRC"],
-					"pathSuggestion": ["XNU", "🇳🇱Asb", "XNAC", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "XNRC"]
+					"stations": [ "XNU", "XNAC", "XNSP", "🇳🇱Gv", "XNRC" ],
+					"pathSuggestion": [ "XNU", "🇳🇱Asb", "XNAC", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "XNRC" ]
 				},
 				{
-					"stations": ["🇳🇱Ddr", "🇳🇱Bd", "🇳🇱Tb", "XNEI"],
-					"pathSuggestion": ["🇳🇱Ddr", "🇳🇱Zlw", "🇳🇱Rsd", "🇳🇱Bd", "🇳🇱Tb", "🇳🇱Btl", "XNEI"]
+					"stations": [ "🇳🇱Ddr", "🇳🇱Bd", "🇳🇱Tb", "XNEI" ],
+					"pathSuggestion": [ "🇳🇱Ddr", "🇳🇱Zlw", "🇳🇱Rsd", "🇳🇱Bd", "🇳🇱Tb", "🇳🇱Btl", "XNEI" ]
 				},
 				{
-					"stations": ["XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv"]
+					"stations": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv" ]
 				},
 				{
-					"stations": ["XNAC", "🇳🇱Hvs", "🇳🇱Amf", "🇳🇱Apd", "🇳🇱Dv"],
-					"pathSuggestion": ["XNAC", "🇳🇱Wp", "🇳🇱Hvs", "🇳🇱Brn", "🇳🇱Amf", "🇳🇱Hvl", "🇳🇱Apd", "🇳🇱Twl", "🇳🇱Dv"]
+					"stations": [ "XNAC", "🇳🇱Hvs", "🇳🇱Amf", "🇳🇱Apd", "🇳🇱Dv" ],
+					"pathSuggestion": [ "XNAC", "🇳🇱Wp", "🇳🇱Hvs", "🇳🇱Brn", "🇳🇱Amf", "🇳🇱Hvl", "🇳🇱Apd", "🇳🇱Twl", "🇳🇱Dv" ]
 				},
 				{
-					"stations": ["🇳🇱Ekz", "🇳🇱Hn", "XNAC", "XNU", "🇳🇱Ht", "XNEI", "XNWT", "XNRM", "XNSI", "XNMT"]
+					"stations": [ "🇳🇱Ekz", "🇳🇱Hn", "XNAC", "XNU", "🇳🇱Ht", "XNEI", "XNWT", "XNRM", "XNSI", "XNMT" ]
 				}
 			]
 		},
@@ -5951,70 +5972,70 @@
 					"stations": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Zvt" ]
 				},
 				{
-					"stations": ["🇳🇱Lw", "🇳🇱Mp", "🇳🇱Zl"]
+					"stations": [ "🇳🇱Lw", "🇳🇱Mp", "🇳🇱Zl" ]
 				},
 				{
-					"stations": ["🇳🇱Lw", "🇳🇱Hlgh"]
+					"stations": [ "🇳🇱Lw", "🇳🇱Hlgh" ]
 				},
 				{
-					"stations": ["🇳🇱Stv", "🇳🇱Lw"]
+					"stations": [ "🇳🇱Stv", "🇳🇱Lw" ]
 				},
 				{
-					"stations": ["🇳🇱Gn", "🇳🇱Swd", "🇳🇱Dz"]
+					"stations": [ "🇳🇱Gn", "🇳🇱Swd", "🇳🇱Dz" ]
 				},
 				{
-					"stations": ["🇳🇱Gn", "🇳🇱Swd","🇳🇱Eem"]
+					"stations": [ "🇳🇱Gn", "🇳🇱Swd", "🇳🇱Eem" ]
 				},
 				{
-					"stations": ["🇳🇱Gn", "🇳🇱Nsch"]
+					"stations": [ "🇳🇱Gn", "🇳🇱Nsch" ]
 				},
 				{
-					"stations": ["🇳🇱Gn", "🇳🇱Lw"]
+					"stations": [ "🇳🇱Gn", "🇳🇱Lw" ]
 				},
 				{
-					"stations": ["🇳🇱Zl", "🇳🇱Mp", "🇳🇱Gn"]
+					"stations": [ "🇳🇱Zl", "🇳🇱Mp", "🇳🇱Gn" ]
 				},
 				{
-					"stations": ["🇳🇱Zl", "🇳🇱Mrb", "🇳🇱Emn"]
+					"stations": [ "🇳🇱Zl", "🇳🇱Mrb", "🇳🇱Emn" ]
 				},
 				{
-					"stations": ["🇳🇱Mrb", "🇳🇱Aml"]
+					"stations": [ "🇳🇱Mrb", "🇳🇱Aml" ]
 				},
 				{
-					"stations": ["🇳🇱Zp", "🇳🇱Ww"]
+					"stations": [ "🇳🇱Zp", "🇳🇱Ww" ]
 				},
 				{
-					"stations": ["🇳🇱Ww", "🇳🇱Zv"]
+					"stations": [ "🇳🇱Ww", "🇳🇱Zv" ]
 				},
 				{
-					"stations": ["XNAH", "🇳🇱Est", "🇳🇱Gdm"]
+					"stations": [ "XNAH", "🇳🇱Est", "🇳🇱Gdm" ]
 				},
 				{
-					"stations": ["🇳🇱Ddr", "🇳🇱Ldm", "🇳🇱Gdm"]
+					"stations": [ "🇳🇱Ddr", "🇳🇱Ldm", "🇳🇱Gdm" ]
 				},
 				{
-					"stations": ["XNU", "🇳🇱Gdm", "🇳🇱Ht"]
+					"stations": [ "XNU", "🇳🇱Gdm", "🇳🇱Ht" ]
 				},
 				{
-					"stations": ["🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr", "🇳🇱Ldm", "🇳🇱Gdm"]
+					"stations": [ "🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr", "🇳🇱Ldm", "🇳🇱Gdm" ]
 				},
 				{
-					"stations": ["🇳🇱Apn", "🇳🇱Gd"]
+					"stations": [ "🇳🇱Apn", "🇳🇱Gd" ]
 				},
 				{
-					"stations": ["🇳🇱Gd", "🇳🇱Gv"]
+					"stations": [ "🇳🇱Gd", "🇳🇱Gv" ]
 				},
 				{
-					"stations": ["XNU", "🇳🇱Wd", "🇳🇱Gd", "XNRC"]
+					"stations": [ "XNU", "🇳🇱Wd", "🇳🇱Gd", "XNRC" ]
 				},
 				{
-					"stations": ["🇳🇱Rsd", "🇳🇱Mdb", "🇳🇱Vs"]
+					"stations": [ "🇳🇱Rsd", "🇳🇱Mdb", "🇳🇱Vs" ]
 				},
 				{
-					"stations": ["🇳🇱Nm", "XNVL"]
+					"stations": [ "🇳🇱Nm", "XNVL" ]
 				},
 				{
-					"stations": ["🇳🇱Tb", "🇳🇱Btl", "XNEI", "🇳🇱Gp", "🇳🇱Hze", "🇳🇱Mz", "XNWT"]
+					"stations": [ "🇳🇱Tb", "🇳🇱Btl", "XNEI", "🇳🇱Gp", "🇳🇱Hze", "🇳🇱Mz", "XNWT" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -7366,7 +7387,8 @@
 				{ "name": "passengers" }
 			],
 			"stopsEverywhere": true
-		},{
+		},
+		{
 			"group": 1,
 			"name": "Regionalzug von %s nach %s",
 			"service": 2,
@@ -7399,7 +7421,6 @@
 				"Nach intensiven Bauarbeiten wurde die Strecke fertiggestellt. Fahre zur Erprobung der Schienen zwischen %s und %s. ",
 				"Die Bahnsteige in %1$s wurden gerade erhöht. Zur Erprobung wirst du gebeten eine Leistung zwischen %s und %s zu fahren."
 			],
-
 			"stations": [ "🇱🇻GKL", "🇱🇻RIX" ],
 			"pathSuggestion": [ "🇱🇻GKL", "🇱🇻ZMT", "🇱🇻RIX" ],
 			"neededCapacity": [
@@ -7416,7 +7437,7 @@
 			],
 			"objects": [
 				{
-			"stations": [ "🇵🇱07331", "XPWW" ]
+					"stations": [ "🇵🇱07331", "XPWW" ]
 				}
 			],
 			"stopsEverywhere": false,
@@ -7499,10 +7520,10 @@
 			],
 			"objects": [
 				{
-					"stations": [ "🇪🇸11208", "🇪🇸10600" , "XEMAT" ]
+					"stations": [ "🇪🇸11208", "🇪🇸10600", "XEMAT" ]
 				},
 				{
-					"stations": [ "🇪🇸30100", "🇪🇸10500" , "XEMAT" ]
+					"stations": [ "🇪🇸30100", "🇪🇸10500", "XEMAT" ]
 				}
 			],
 			"stopsEverywhere": false,
@@ -7666,7 +7687,7 @@
 			"objects": [
 				{
 					"stations": [ "MH", "MA", "MGZB", "TU", "TG", "TGO", "TP", "TS", "TV", "RBR", "RH", "RM", "FWOR", "FMZ", "KKO", "KRE", "KB", "KK", "KM" ],
-					"pathSuggestion": [ "MH", "MA", "MGZB", "TU", "TG", "TGO", "TP", "TS", "TV", "RBR", "RH", "RMF", "RM", "RFT", "FWOR", "FMZ", "FBGK", "KKO","KRE", "KB", "KKAS", "KK", "KGRB", "KM" ]
+					"pathSuggestion": [ "MH", "MA", "MGZB", "TU", "TG", "TGO", "TP", "TS", "TV", "RBR", "RH", "RMF", "RM", "RFT", "FWOR", "FMZ", "FBGK", "KKO", "KRE", "KB", "KKAS", "KK", "KGRB", "KM" ]
 				},
 				{
 					"stations": [ "MGP", "MWH", "MH", "NN", "NF", "NBA", "US", "UNM", "LL", "LH", "LM", "LS", "WW" ],
