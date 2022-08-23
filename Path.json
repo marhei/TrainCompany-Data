@@ -9507,10 +9507,49 @@
 			"group": 0,
 			"maxSpeed": 160,
 			"electrified": true,
-			"start": "EHM",
-			"end": "EMST",
 			"twistingFactor": 0.1,
-			"length": 36
+			"objects": [
+				{
+					"start": "EHM",
+					"end": "EFMK",
+					"length": 3
+				},
+				{
+					"start": "EFMK",
+					"end": "EBCK",
+					"length": 1
+				},
+				{
+					"start": "EBCK",
+					"end": "EMES",
+					"length": 7
+				},
+				{
+					"start": "EMES",
+					"end": "EDRS",
+					"length": 4
+				},
+				{
+					"start": "EDRS",
+					"end": "ERIK",
+					"length": 6
+				},
+				{
+					"start": "ERIK",
+					"end": "EHIT",
+					"length": 7
+				},
+				{
+					"start": "EHIT",
+					"end": "ELEC",
+					"length": 2
+				},
+				{
+					"start": "ELEC",
+					"end": "EMST",
+					"length": 5
+				}
+			]
 		},
 		{
 			"group": 0,
