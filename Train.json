@@ -320,7 +320,7 @@
 		{
 			"id": 373,
 			"group": 2,
-			"name": "TGV/Eurostar TMST",
+			"name": "TGV/Eurostar TMST - Three Capitals",
 			"shortcut": "TMST",
 			"speed": 300,
 			"weight": 752,
@@ -335,6 +335,27 @@
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 750},
+				{"name": "bistroseats", "value": 20}
+			]
+		},
+		{
+			"id": 3732,
+			"group": 2,
+			"name": "Eurostar North of London",
+			"shortcut": "Class 373/2",
+			"speed": 300,
+			"weight": 665,
+			"force": 410,
+			"length": 312,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 5600000,
+			"operationCosts": 120,
+			"equipments": ["GB", "FR", "BE", "TVM", "Eurotunnel"],
+			"maxConnectedUnits": 1,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 558},
 				{"name": "bistroseats", "value": 20}
 			]
 		},
