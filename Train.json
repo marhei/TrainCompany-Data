@@ -204,9 +204,9 @@
 			"length": 200,
 			"drive": 1,
 			"reliability": 1.0,
-			"cost": 6500000,
+			"cost": 7500000,
 			"operationCosts": 70,
-			"equipments": [ "ETCS", "FR", "TVM", "BE", "IT", "LU" ],
+			"equipments": [ "ETCS", "FR", "TVM", "BE", "IT", "LU", "DE", "CH", "ES" ],
 			"maxConnectedUnits": 2,
 			"exchangeTime": 150,
 			"capacity": [
@@ -3656,8 +3656,9 @@
 			"exchangeTime": 90,
 			"capacity": [
 				{"name": "passengers", "value": 56 },
-				{"name": "beds", "value": 42 },
-				{"name": "bistroseats", "value": 21 }
+				{"name": "beds", "value": 36 },
+				{"name": "bistroseats", "value": 21 },
+				{"name": "pullman", "value": 20}
 			]
 		},
 		{
@@ -6423,6 +6424,23 @@
 			]
 		},
 		{
+			"id": 853,
+			"group": 1,
+			"name": "Kanzlerwagen",
+			"shortcut": "WGSmz 853",
+			"speed": 200,
+			"weight": 56,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 350000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "pullman", "value": 20}
+			]
+		},
+		{
 			"id": 1975,
 			"group": 1,
 			"name": "Corail-Wagen",
@@ -7119,6 +7137,23 @@
 			"exchangeTime": 180,
 			"capacity": [
 				{"name": "beds", "value": 20}
+			]
+		},
+		{
+			"id": 8719293,
+			"group": 1,
+			"name": "CIWL Typ Lx 20 Salon",
+			"speed": 160,
+			"weight": 53,
+			"force": 0,
+			"length": 23,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 400000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "beds", "value": 16},
+				{"name": "pullman", "value": 10}
 			]
 		},
 		{
