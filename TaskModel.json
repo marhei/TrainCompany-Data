@@ -768,7 +768,7 @@
 			],
 			"objects": [
 				{
-					"stations": ["XINAC", "XIRM", "XIFRS", "XIBC", "XIMB", "XIR", "XITUR", "XITU" ]
+					"stations": [ "XINAC", "XIRM", "XIFRS", "XIBC", "XIMB", "XIR", "XITUR", "XITU" ]
 				},
 				{
 					"stations": [ "XIMB", "XITU", "🇮🇹00202", "XFMOD", "XFCY", "XFLPD", "XFPO" ],
@@ -860,6 +860,21 @@
 			"group": 1,
 			"service": 3,
 			"stopsEverywhere": true
+		},
+		{
+			"name": "Acela von %s nach %s",
+			"descriptions": [
+				"Bringe den schnellsten Zug Nordamerikas von %s nach %s.",
+				"Fahre im \"Hochgeschwindigkeitsverkehr\" von %s nach %s.",
+				"Bringe die Fahrgäste im Acela von %s nach %s.",
+				"Fahre im North East Corridor von %s nach %s."
+			],
+			"stations": [ "🇺🇸NWK", "🇺🇸STM", "🇺🇸NHV", "🇺🇸PVD", "🇺🇸BOS" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 0
 		},
 		{
 			"name": "Venice-Simplon-Orient-Express von %s nach %s",
