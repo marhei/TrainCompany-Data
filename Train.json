@@ -204,9 +204,9 @@
 			"length": 200,
 			"drive": 1,
 			"reliability": 1.0,
-			"cost": 6500000,
+			"cost": 7500000,
 			"operationCosts": 70,
-			"equipments": [ "ETCS", "FR", "TVM", "BE", "IT", "LU" ],
+			"equipments": [ "ETCS", "FR", "TVM", "BE", "IT", "LU", "DE", "CH", "ES" ],
 			"maxConnectedUnits": 2,
 			"exchangeTime": 150,
 			"capacity": [
@@ -2567,7 +2567,7 @@
 			"length": 152,
 			"drive": 2,
 			"reliability": 0.9,
-			"cost": 620000,
+			"cost": 840000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 60,
 			"equipments": ["EE","LV","LT","1520mm"],
@@ -6337,6 +6337,39 @@
 			"cost": 230000,
 			"operationCosts": 150,
 			"equipments": ["EE", "1520mm"]
+		},
+		{
+			"id": 118,
+			"group": 0,
+			"name": "Adler",
+			"shortcut": "Adler",
+			"speed": 24,
+			"weight": 15,
+			"force": 6,
+			"length": 7,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 100000,
+			"operationCosts": 200,
+			"equipments": ["DE"]
+		},
+		{
+			"id": 201,
+			"group": 2,
+			"name": "ÖLEG C 201",
+			"shortcut": "ÖLEG C",
+			"speed": 18,
+			"weight": 25,
+			"force": 18,
+			"length": 10,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 150000,
+			"operationCosts": 200,
+			"equipments": ["AT"],
+			"capacity": [
+				{"name": "passengers", "value": 32}
+			]
 		},
 		{
 			"id": 4,
