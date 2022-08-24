@@ -26184,6 +26184,79 @@
 		},
 		{
 			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFNA",
+					"end": "🇫🇷CNQ",
+					"name": "Ligne Nantes - Savenay",
+					"length": 15,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷CNQ",
+					"end": "🇫🇷SNY",
+					"name": "Ligne de Tours à Saint-Nazaire",
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷SNY",
+					"end": "🇫🇷PCU",
+					"name": "Ligne de Savenay à Landerneau",
+					"length": 14,
+					"maxSpeed": 140,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷PCU",
+					"end": "🇫🇷MWK",
+					"name": "Ligne de Savenay à Landerneau",
+					"length": 38,
+					"maxSpeed": 160,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇫🇷MWK",
+					"end": "🇫🇷FGL",
+					"name": "Ligne de Rennes à Redon",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇫🇷FGL",
+					"end": "🇫🇷MES",
+					"name": "Ligne de Rennes à Redon",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷MES",
+					"end": "🇫🇷GBC",
+					"name": "Ligne de Rennes à Redon",
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇫🇷GBC",
+					"end": "XFR",
+					"name": "Ligne de Rennes à Redon",
+					"length": 21,
+					"maxSpeed": 160,
+					"twistingFactor": 0.19
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"neededEquipments": [
 				"GB"
 			],
