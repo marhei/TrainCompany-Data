@@ -887,8 +887,7 @@
 			],
 			"neededCapacity": [
 				{ "name": "beds" },
-				{ "name": "bistroseats" },
-				{ "name": "pullman" }
+				{ "name": "bistroseats" }
 			],
 			"group": 0,
 			"service": 1
@@ -905,8 +904,7 @@
 			"pathSuggestion": [ "XFPO", "XFNO", "XFCSG", "XFVAR", "XFMEA", "🇫🇷OIR", "XFCM", "XFVV", "XFNT", "XFLE", "XFTU", "XFFD", "XFN", "XFMH", "XFVH", "XFMUM", "XFSTG", "RAP", "RK", "RBR", "RH", "RHKA", "RBIN", "RNZ", "RNEZ", "ROU", "TBF", "TBK", "THST", "TH", "TNO", "TKH", "TS", "TE", "TP", "TGO", "TLON", "TU", "MGZB", "MMAH", "MKUN", "MA", "MKIS", "MLW", "MH", "MHR", "MZO", "MGB", "MAG", "MGK", "MRO", "MBEF", "MUS", "MTS", "MTO", "MFL", "XASB", "🇦🇹Hw H1", "XANKD", "XASF", "XASR", "XAVB", "XAAT", "🇦🇹Sas", "🇦🇹Gun", "XAWE", "XAMR", "XAP", "XAWW", "XAGR", "XMG", "XMBK", "XJST", "XJNS", "XJSP", "XJNP", "XJBC", "XJBR", "XJNI", "XWS", "🇧🇬14000", "XWSV", "XQIS" ],
 			"neededCapacity": [
 				{ "name": "beds" },
-				{ "name": "bistroseats" },
-				{ "name": "pullman" }
+				{ "name": "bistroseats" }
 			],
 			"group": 0,
 			"service": 4
@@ -948,11 +946,64 @@
 			],
 			"neededCapacity": [
 				{ "name": "beds" },
-				{ "name": "bistroseats" },
-				{ "name": "pullman" }
+				{ "name": "bistroseats" }
 			],
 			"group": 0,
 			"service": 4
+		},
+		{
+			"name": "Pullman-Express",
+			"group": 0,
+			"service": 4,
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "pullman" }
+			],
+			"descriptions": [
+				"Fahre im Tagverkehr luxuriös von %s nach %s.",
+				"Bringe die Gäste bequem von %s nach %s.",
+				"Fahre mit Salonwagen nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XIMB", "XISAR", "XFNC", "XFCA" ]
+				},
+				{
+					"stations": [ "XIMB", "XIVP", "XIVNS" ]
+				},
+				{
+					"stations": [ "XFPO", "XFBJ", "XFHE" ]
+				},
+				{
+					"name": "Fléche d'Or",
+					"stations": [ "XFFE", "XFPO" ]
+				},
+				{
+					"name": "Étolle du Nord",
+					"stations": [ "XFPO", "XBB", "XNAC" ]
+				},
+				{
+					"stations": [ "🇫🇷BEM", "XFPO", "🇫🇷VHY" ]
+				},
+				{
+					"stations": [ "XITUR", "XISAR", "XIVT", "XFNC", "XFCA" ]
+				},
+				{
+					"stations": [ "XITUR", "XIMB", "XIVNS" ]
+				},
+				{
+					"stations": [ "XFPO", "XBB", "XBAC" ]
+				},
+				{
+					"stations": [ "XBO", "XBB", "XBLIG", "KK" ]
+				},
+				{
+					"stations": [ "XFPO", "XFM", "XFNC", "XIVT" ]
+				},
+				{
+					"stations": [ "XSMO", "XSIO" ]
+				}
+			]
 		},
 		{
 			"group": 0,
