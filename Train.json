@@ -15,7 +15,7 @@
 			"cost": 2500000,
 			"maxConnectedUnits": 1,
 			"operationCosts": 100,
-			"equipments": ["ETCS", "CH", "AT", "DE"],
+			"equipments": ["ETCS", "CH", "AT", "DE", "US"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 703},
@@ -1520,7 +1520,7 @@
 			"reliability": 1,
 			"maxConnectedUnits": 2,
 			"equipments": [
-				"SE", "DK", "ETCS"
+				"SE", "DK", "ETCS", "US"
 			],
 			"operationCosts": 65,
 			"cost": 2150000,
@@ -3795,7 +3795,7 @@
 			"reliability": 0.9,
 			"cost": 480000,
 			"operationCosts": 125,
-			"equipments": ["CH", "FR", "DE", "AT", "IT", "BE", "LU", "NL"],
+			"equipments": ["CH", "FR", "DE", "AT", "IT", "BE", "LU", "NL", "CA"],
 			"exchangeTime": 90,
 			"capacity": [
 				{"name": "passengers", "value": 114 },
@@ -5640,7 +5640,7 @@
 			"reliability": 1,
 			"cost": 450000,
 			"operationCosts": 110,
-			"equipments": [ "US" ]
+			"equipments": [ "US", "CA" ]
 		},
 		{
 			"id": 1800,
