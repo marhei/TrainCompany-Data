@@ -21557,6 +21557,72 @@
 			]
 		},
 		{
+			"name": "West Coastway Line",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧BTN",
+					"end": "🇬🇧SWK",
+					"length": 7,
+					"maxSpeed": 112,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧SWK",
+					"end": "🇬🇧WRH",
+					"length": 9,
+					"maxSpeed": 112,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧WRH",
+					"end": "🇬🇧BAA",
+					"length": 18,
+					"maxSpeed": 120,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧BAA",
+					"end": "🇬🇧CCH",
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧CCH",
+					"end": "🇬🇧HAV",
+					"length": 14,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧HAV",
+					"end": "🇬🇧CSA",
+					"length": 6,
+					"maxSpeed": 136,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧CSA",
+					"end": "🇬🇧FRM",
+					"length": 9,
+					"maxSpeed": 112,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧FRM",
+					"end": "🇬🇧SOU",
+					"length": 23,
+					"maxSpeed": 120,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
 			"name": "Cottbus-Großenhain (süd)",
 			"electrified": true,
 			"group": 0,
@@ -29336,6 +29402,37 @@
 					"start": "🇳🇱Vss",
 					"end": "🇳🇱Vs",
 					"length": 1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"name": "South Western Main Line",
+			"objects": [
+				{
+					"start": "XKLP",
+					"end": "🇬🇧ESH",
+					"length": 33,
+					"maxSpeed": 144,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇬🇧ESH",
+					"end": "🇬🇧O3509618076",
+					"length": 30,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧O3509618076",
+					"end": "🇬🇧BSK",
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.04
 				}
 			]
 		},
@@ -40481,7 +40578,7 @@
 				},
 				{
 					"start": "🇬🇧53410",
-					"end": "🇬🇧52680",
+					"end": "🇬🇧BTN",
 					"name": "Brighton Main Line",
 					"length": 15,
 					"twistingFactor": 0.16
