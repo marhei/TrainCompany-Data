@@ -23321,6 +23321,178 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 3,
+			"maxSpeed": 39,
+			"twistingFactor": 0.3,
+			"name": "Trans-Atlantik-Fähre",
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧SOU",
+					"end": "🇺🇳ATLANTIK2",
+					"length": 9
+				},
+				{
+					"start": "🇺🇳ATLANTIK2",
+					"end": "🇺🇳ATLANTIK3",
+					"length": 11
+				},
+				{
+					"start": "🇺🇳ATLANTIK3",
+					"end": "🇺🇳ATLANTIK4",
+					"length": 9
+				},
+				{
+					"start": "🇺🇳ATLANTIK4",
+					"end": "🇺🇳ATLANTIK5",
+					"length": 7
+				},
+				{
+					"start": "🇺🇳ATLANTIK5",
+					"end": "🇺🇳ATLANTIK6",
+					"length": 36
+				},
+				{
+					"start": "🇺🇳ATLANTIK6",
+					"end": "🇺🇳ATLANTIK7",
+					"length": 62
+				},
+				{
+					"start": "🇺🇳ATLANTIK7",
+					"end": "🇺🇳ATLANTIK8",
+					"length": 26
+				},
+				{
+					"start": "🇺🇳ATLANTIK8",
+					"end": "🇺🇳ATLANTIK9",
+					"length": 50
+				},
+				{
+					"start": "🇺🇳ATLANTIK9",
+					"end": "🇺🇳ATLANTIK10",
+					"length": 127
+				},
+				{
+					"start": "🇺🇳ATLANTIK10",
+					"end": "🇺🇳ATLANTIK11",
+					"length": 110
+				},
+				{
+					"start": "🇺🇳ATLANTIK11",
+					"end": "🇺🇳ATLANTIK12",
+					"length": 50
+				},
+				{
+					"start": "🇺🇳ATLANTIK12",
+					"end": "🇺🇳ATLANTIK13",
+					"length": 73
+				},
+				{
+					"start": "🇺🇳ATLANTIK13",
+					"end": "🇺🇳ATLANTIK14",
+					"length": 79
+				},
+				{
+					"start": "🇺🇳ATLANTIK14",
+					"end": "🇺🇳ATLANTIK15",
+					"length": 57
+				},
+				{
+					"start": "🇺🇳ATLANTIK15",
+					"end": "🇺🇳ATLANTIK16",
+					"length": 62
+				},
+				{
+					"start": "🇺🇳ATLANTIK16",
+					"end": "🇺🇳ATLANTIK17",
+					"length": 22
+				},
+				{
+					"start": "🇺🇳ATLANTIK17",
+					"end": "🇺🇳ATLANTIK18",
+					"length": 12
+				},
+				{
+					"start": "🇺🇳ATLANTIK18",
+					"end": "🇺🇳ATLANTIK19",
+					"length": 97
+				},
+				{
+					"start": "🇺🇳ATLANTIK19",
+					"end": "🇺🇳ATLANTIK20",
+					"length": 738
+				},
+				{
+					"start": "🇺🇳ATLANTIK20",
+					"end": "🇺🇳ATLANTIK21",
+					"length": 905
+				},
+				{
+					"start": "🇺🇳ATLANTIK21",
+					"end": "🇺🇳ATLANTIK22",
+					"length": 712
+				},
+				{
+					"start": "🇺🇳ATLANTIK22",
+					"end": "🇺🇳ATLANTIK23",
+					"length": 912
+				},
+				{
+					"start": "🇺🇳ATLANTIK23",
+					"end": "🇺🇳ATLANTIK24",
+					"length": 682
+				},
+				{
+					"start": "🇺🇳ATLANTIK24",
+					"end": "🇺🇳ATLANTIK25",
+					"length": 604
+				},
+				{
+					"start": "🇺🇳ATLANTIK25",
+					"end": "🇺🇳ATLANTIK26",
+					"length": 256
+				},
+				{
+					"start": "🇺🇳ATLANTIK26",
+					"end": "🇺🇳ATLANTIK27",
+					"length": 208
+				},
+				{
+					"start": "🇺🇳ATLANTIK27",
+					"end": "🇺🇳ATLANTIK28",
+					"length": 108
+				},
+				{
+					"start": "🇺🇳ATLANTIK28",
+					"end": "🇺🇳ATLANTIK29",
+					"length": 84
+				},
+				{
+					"start": "🇺🇳ATLANTIK29",
+					"end": "🇺🇳ATLANTIK30",
+					"length": 64
+				},
+				{
+					"start": "🇺🇳ATLANTIK30",
+					"end": "🇺🇳ATLANTIK31",
+					"length": 34
+				},
+				{
+					"start": "🇺🇳ATLANTIK31",
+					"end": "🇺🇳ATLANTIK32",
+					"length": 7
+				},
+				{
+					"start": "🇺🇳ATLANTIK32",
+					"end": "🇺🇸NYP",
+					"length": 20
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 90,
 			"objects": [
@@ -27554,38 +27726,6 @@
 					"length": 13,
 					"maxSpeed": 193,
 					"twistingFactor": 0.18
-				}
-			]
-		},
-		{
-			"electrified": true,
-			"group": 3,
-			"maxSpeed": 39,
-			"name": "Trans-Atlantik-Fähre",
-			"twistingFactor": 0.3,
-			"neededEquipments": [
-				"GB"
-			],
-			"objects": [
-				{
-					"start": "🇬🇧SOU",
-					"end": "🇬🇧HILFSPUNKT1",
-					"length": 103
-				},
-				{
-					"start": "🇬🇧HILFSPUNKT1",
-					"end": "🇬🇧HILFSPUNKT2",
-					"length": 100
-				},
-				{
-					"start": "🇬🇧HILFSPUNKT2",
-					"end": "🇬🇧HILFSPUNKT3",
-					"length": 5800
-				},
-				{
-					"start": "🇬🇧HILFSPUNKT3",
-					"end": "🇺🇸NYP",
-					"length": 100
 				}
 			]
 		},
