@@ -215,6 +215,48 @@
 			]
 		},
 		{
+			"id": 17762100,
+			"group": 2,
+			"name": "Alstom Avelia Liberty",
+			"shortcut": "Acela II",
+			"speed": 300,
+			"weight": 400,
+			"force": 300,
+			"length": 213,
+			"drive": 1,
+			"reliability": 1.0,
+			"cost": 2500000,
+			"operationCosts": 70,
+			"equipments": [ "US" ],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{ "name": "passengers", "value": 386 },
+				{ "name": "bistroseats", "value": 16 }
+			]
+		},
+		{
+			"id": 17762000,
+			"group": 2,
+			"name": "Alstom Acela Express",
+			"shortcut": "Acela",
+			"speed": 240,
+			"weight": 565,
+			"force": 300,
+			"length": 202,
+			"drive": 1,
+			"reliability": 1.0,
+			"cost": 1800000,
+			"operationCosts": 80,
+			"equipments": [ "US" ],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{ "name": "passengers", "value": 304 },
+				{ "name": "bistroseats", "value": 20 }
+			]
+		},
+		{
 			"id": 4403,
 			"group": 2,
 			"name": "TGV POS",
@@ -335,7 +377,7 @@
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 750},
-				{"name": "bistroseats", "value": 20}
+				{"name": "bistroseats", "value": 24}
 			]
 		},
 		{
@@ -356,7 +398,7 @@
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 558},
-				{"name": "bistroseats", "value": 20}
+				{"name": "bistroseats", "value": 16}
 			]
 		},
 		{
@@ -377,7 +419,7 @@
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 894},
-				{"name": "bistroseats", "value": 20}
+				{"name": "bistroseats", "value": 24}
 			]
 		},
 		{
