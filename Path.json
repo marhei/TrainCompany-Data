@@ -821,6 +821,37 @@
 			]
 		},
 		{
+			"name": "Eastern Route Main Line",
+			"electrified": false,
+			"neededEquipments": [
+				"US"
+			],
+			"group": 0,
+			"objects": [
+				{
+					"start": "🇺🇸7005410959",
+					"end": "🇺🇸O7120019862",
+					"length": 8,
+					"maxSpeed": 112,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸O7120019862",
+					"end": "🇺🇸O9251765279",
+					"length": 11,
+					"maxSpeed": 112,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸O9251765279",
+					"end": "🇺🇸BOS",
+					"length": 15,
+					"maxSpeed": 96,
+					"twistingFactor": 0.8
+				}
+			]
+		},
+		{
 			"name": "Mainbahn",
 			"twistingFactor": 0.1,
 			"objects": [
@@ -27205,8 +27236,8 @@
 		{
 			"electrified": true,
 			"name": "Northeast Corridor",
-			"neededEquipments": [ 
-				"US" 
+			"neededEquipments": [
+				"US"
 			],
 			"objects": [
 				{
