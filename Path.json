@@ -42038,6 +42038,71 @@
 			]
 		},
 		{
+			"name": "Keystone Corridor",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 177,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸PHL",
+					"end": "🇺🇸O1132551748",
+					"length": 21,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸O1132551748",
+					"end": "🇺🇸DOW",
+					"length": 28,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸DOW",
+					"end": "🇺🇸COT",
+					"length": 9,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇺🇸COT",
+					"end": "🇺🇸PAR",
+					"length": 9,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸PAR",
+					"end": "🇺🇸O107282462",
+					"length": 38,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇺🇸O107282462",
+					"end": "🇺🇸MJY",
+					"length": 18,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸MJY",
+					"end": "🇺🇸ELT",
+					"length": 10,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸ELT",
+					"end": "🇺🇸MID",
+					"length": 13,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸MID",
+					"end": "🇺🇸HAR",
+					"length": 14,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
 			"neededEquipments": [
 				"PL"
 			],
