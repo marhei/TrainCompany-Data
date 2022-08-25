@@ -2534,6 +2534,33 @@
 		},
 		{
 			"group": 1,
+			"name": "ČD Os von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf tschechischer Seite am Rand des Erzgebirges von %s nach %s.",
+				"Die Os Regionalzüge stoppen an jedem Haltepunkt.",
+				"Die Gegend um Karlovy Vary ist für Heilquellen und Oblaten bekannt.",
+				"ČD Os und Sp Regionalzüge bringen dich in die kleinsten Städte und Dörfer."
+			],
+			"objects": [
+				{
+					"name": "ČD Os 7066 von %s nach %s",
+					"stations": [ "XTCO", "🇨🇿5453549", "XTKN", "🇨🇿5475816", "🇨🇿5475835", "🇨🇿5475845", "XTOS", "🇨🇿5475865", "🇨🇿5473445", "XTKV" ],
+					"pathSuggestion": [ "XTCO", "🇨🇿5453549", "XTKN", "🇨🇿5475816", "🇨🇿5475835", "🇨🇿5475845", "XTOS", "🇨🇿5475865", "🇨🇿5473445", "XTKV" ]
+				},
+				{
+					"name": "ČD Os 7014",
+					"stations": [ "XTKV", "XTCD", "XTNS", "XTSO", "XTCI", "🇨🇿5475925", "🇨🇿5475935", "🇨🇿5475945", "🇨🇿5475955", "XTCH" ],
+					"pathSuggestion": [ "XTKV", "XTCD", "XTNS", "XTSO", "XTCI", "🇨🇿5475925", "🇨🇿5475935", "🇨🇿5475945", "🇨🇿5475955", "XTCH" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "TL RB 61 von %s nach %s",
 			"service": 3,
 			"descriptions": [
