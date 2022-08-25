@@ -2587,6 +2587,26 @@
 		},
 		{
 			"group": 1,
+			"name": "OPB RB95 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Die Oberpfalzbahn bedient den tschechisch-deutschen Grenzverkehr.",
+				"Das wird eine kurze Tour über die Grenze",
+				"České dráhy (ČD) ist der Infrastrukturbetreiber des tschechischen Teils der Strecke."
+			],
+			"objects": [
+				{
+					"stations": [ "XTCH", "NSG" ],
+					"pathSuggestion": [ "XTCH", "NSG" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "TL RB 61 von %s nach %s",
 			"service": 3,
 			"descriptions": [
