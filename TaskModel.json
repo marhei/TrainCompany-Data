@@ -2561,6 +2561,32 @@
 		},
 		{
 			"group": 1,
+			"name": "ČD Sp von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bediene den tschechisch-deutschen Grenzverkehr.",
+				"Die Sp Regionalzüge nehmen nicht jeden Haltepunkt mit und sind daher in etwa mit einem Regionalexpress verleichbar, führt allerdings keine erste Klasse.",
+				"ČD Os und Sp Regionalzüge bringen dich in die kleinsten Städte und Dörfer."
+			],
+			"objects": [
+				{
+					"name": "ČD Sp 5282 von %s nach %s",
+					"stations": [ "XTCH", "NSG", "NMR", "NKL", "NPZ", "NNP", "NN" ],
+					"pathSuggestion": [ "XTCH", "NSG", "NMR", "NKL", "NPZ", "NNP", "NN" ]
+				},
+				{
+					"name": "ČD Sp 5282 von %s nach %s",
+					"stations": [ "XTCH", "NSG", "NMR", "NKL", "NPZ", "NNP", "NHR" ],
+					"pathSuggestion": [ "XTCH", "NSG", "NMR", "NKL", "NPZ", "NNP", "NHR" ]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "TL RB 61 von %s nach %s",
 			"service": 3,
 			"descriptions": [
