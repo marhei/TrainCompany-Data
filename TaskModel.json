@@ -865,16 +865,28 @@
 			"name": "Acela von %s nach %s",
 			"descriptions": [
 				"Bringe den schnellsten Zug Nordamerikas von %s nach %s.",
-				"Fahre im \"Hochgeschwindigkeitsverkehr\" von %s nach %s.",
 				"Bringe die Fahrgäste im Acela von %s nach %s.",
 				"Fahre im North East Corridor von %s nach %s."
 			],
-			"stations": [ "🇺🇸NWK", "🇺🇸STM", "🇺🇸NHV", "🇺🇸PVD", "🇺🇸BOS" ],
+			"stations": [ "🇺🇸WAS", "🇺🇸BAL", "🇺🇸WIL", "🇺🇸PHL", "🇺🇸NWK", "🇺🇸NYP", "🇺🇸STM", "🇺🇸NHV", "🇺🇸PVD", "🇺🇸BOS" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 0 }
 			],
 			"group": 1,
 			"service": 0
+		},
+		{
+			"name": "Northeast Regional von %s nach %s",
+			"descriptions": [
+				"Fahre den Regionalzug die Nordostküste der USA entlang von %s nach %s.",
+				"Fahre im North East Corridor von %s nach %s."
+			],
+			"stations": [ "🇺🇸WAS", "🇺🇸NCR", "🇺🇸BWI", "🇺🇸BAL", "🇺🇸WIL", "🇺🇸PHL", "🇺🇸TRE", "🇺🇸PJC", "🇺🇸NBK", "🇺🇸MET", "🇺🇸NWK", "🇺🇸STM", "🇺🇸NHV" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 2
 		},
 		{
 			"name": "Venice-Simplon-Orient-Express von %s nach %s",
