@@ -42068,6 +42068,51 @@
 			"start": "🇱🇹SES",
 			"end": "🇱🇹ALT",
 			"length": 32
+		},
+		{
+			"name": "Enztalbahn",
+			"group": 1,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "TPH",
+					"end": "TPB",
+					"twistingFactor": 0.2,
+					"length": 2,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TPB",
+					"end": "TNE",
+					"twistingFactor": 0.4,
+					"length": 8,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TNE",
+					"end": "TCA",
+					"twistingFactor": 0.2,
+					"length": 9,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TCA",
+					"end": "TWB",
+					"twistingFactor": 0.1,
+					"length": 3,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TWB",
+					"end": "TWBK",
+					"twistingFactor": 0.2,
+					"length": 1,
+					"maxSpeed": 25,
+					"neededEquipments": [
+						"bostrab"
+					]
+				}
+			]
 		}
 	]
 }

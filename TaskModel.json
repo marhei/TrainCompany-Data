@@ -7736,6 +7736,37 @@
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "S6 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre die S6 durch das schöne Enztal.",
+				"Du brauchst hierfür ein BOStrab-Fahrzeug."
+			],
+			"objects": [
+				{
+					"stations": [ "TWBK", "TPB", "TPH", "RK" ],
+					"pathSuggestion": [ "TWBK", "TPB", "TPH", "RK" ]
+				},
+				{
+					"stations": [ "TWBK", "TPB", "TPH"],
+					"pathSuggestion": [ "TWBK", "TPB", "TPH" ]
+				},
+				{
+					"stations": ["TPH","TPB","TWBK"],
+					"pathSuggestion": ["TPH","TPB","TWBK"]
+				},
+				{
+					"stations": ["RK", "TPH","TPB","TWBK"],
+					"pathSuggestion": ["RK", "TPH","TPB","TWBK"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+		  	"stopsEverwhere": true
 		}
 	]
 }
