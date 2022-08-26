@@ -768,7 +768,7 @@
 			],
 			"objects": [
 				{
-					"stations": ["XINAC", "XIRM", "XIFRS", "XIBC", "XIMB", "XIR", "XITUR", "XITU" ]
+					"stations": [ "XINAC", "XIRM", "XIFRS", "XIBC", "XIMB", "XIR", "XITUR", "XITU" ]
 				},
 				{
 					"stations": [ "XIMB", "XITU", "🇮🇹00202", "XFMOD", "XFCY", "XFLPD", "XFPO" ],
@@ -860,6 +860,33 @@
 			"group": 1,
 			"service": 3,
 			"stopsEverywhere": true
+		},
+		{
+			"name": "Acela von %s nach %s",
+			"descriptions": [
+				"Bringe den schnellsten Zug Nordamerikas von %s nach %s.",
+				"Bringe die Fahrgäste im Acela von %s nach %s.",
+				"Fahre im North East Corridor von %s nach %s."
+			],
+			"stations": [ "🇺🇸WAS", "🇺🇸BAL", "🇺🇸WIL", "🇺🇸PHL", "🇺🇸NWK", "🇺🇸NYP", "🇺🇸STM", "🇺🇸NHV", "🇺🇸PVD", "🇺🇸BOS" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 0
+		},
+		{
+			"name": "Northeast Regional von %s nach %s",
+			"descriptions": [
+				"Fahre den Regionalzug die Nordostküste der USA entlang von %s nach %s.",
+				"Fahre im North East Corridor von %s nach %s."
+			],
+			"stations": [ "🇺🇸WAS", "🇺🇸NCR", "🇺🇸BWI", "🇺🇸BAL", "🇺🇸WIL", "🇺🇸PHL", "🇺🇸TRE", "🇺🇸PJC", "🇺🇸NBK", "🇺🇸MET", "🇺🇸NWK", "🇺🇸STM", "🇺🇸NHV" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 0 }
+			],
+			"group": 1,
+			"service": 2
 		},
 		{
 			"name": "Venice-Simplon-Orient-Express von %s nach %s",
@@ -4517,6 +4544,10 @@
 				{
 					"stations": [ "XASA", "US" ],
 					"pathSuggestion": [ "XASA", "XAWL", "MRO", "MGB", "MH", "MDA", "MIH", "NN", "NF", "NBA", "NED", "NHM", "US" ]
+				},
+				{
+					"stations": [ "🇺🇸7005410959", "RSLM" ],
+					"pathSuggestion": [ "🇺🇸7005410959", "🇬🇧SOU", "🇬🇧BSK", "🇬🇧RDG", "XKLP", "XFFE", "XFLIE", "XBB", "XBLIG", "KA", "KDN", "KK", "KT", "KSIB", "FFLF", "FBL", "RM", "RSAB", "RBR", "TV", "TS", "TU", "TAU", "TF", "RSLM" ]
 				}
 			],
 			"neededCapacity": [

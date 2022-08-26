@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/marhei/TrainCompany-Data/main/schemas/Path.json",
+	"$schema": "schemas/Path.json",
 	"data": [
 		{
 			"name": "Linke Rheinstrecke",
@@ -817,6 +817,37 @@
 					"start": "KDFF",
 					"end": "EDG",
 					"length": 15
+				}
+			]
+		},
+		{
+			"name": "Eastern Route Main Line",
+			"electrified": false,
+			"neededEquipments": [
+				"US"
+			],
+			"group": 0,
+			"objects": [
+				{
+					"start": "🇺🇸7005410959",
+					"end": "🇺🇸O7120019862",
+					"length": 8,
+					"maxSpeed": 112,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸O7120019862",
+					"end": "🇺🇸O9251765279",
+					"length": 11,
+					"maxSpeed": 112,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸O9251765279",
+					"end": "🇺🇸BOS",
+					"length": 15,
+					"maxSpeed": 96,
+					"twistingFactor": 0.8
 				}
 			]
 		},
@@ -21554,6 +21585,72 @@
 			]
 		},
 		{
+			"name": "West Coastway Line",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧BTN",
+					"end": "🇬🇧SWK",
+					"length": 7,
+					"maxSpeed": 112,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧SWK",
+					"end": "🇬🇧WRH",
+					"length": 9,
+					"maxSpeed": 112,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧WRH",
+					"end": "🇬🇧BAA",
+					"length": 18,
+					"maxSpeed": 120,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧BAA",
+					"end": "🇬🇧CCH",
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧CCH",
+					"end": "🇬🇧HAV",
+					"length": 14,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧HAV",
+					"end": "🇬🇧CSA",
+					"length": 6,
+					"maxSpeed": 136,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧CSA",
+					"end": "🇬🇧FRM",
+					"length": 9,
+					"maxSpeed": 112,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧FRM",
+					"end": "🇬🇧SOU",
+					"length": 23,
+					"maxSpeed": 120,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
 			"name": "Cottbus-Großenhain (süd)",
 			"electrified": true,
 			"group": 0,
@@ -21725,6 +21822,68 @@
 					"start": "DKRD",
 					"end": "DAF",
 					"length": 6
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧RDG",
+					"end": "🇬🇧MOR",
+					"name": "Reading to Taunton line",
+					"electrified": true,
+					"length": 11,
+					"maxSpeed": 152,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧MOR",
+					"end": "🇬🇧BSK",
+					"name": "Basingstoke Branch",
+					"electrified": false,
+					"length": 13,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧BSK",
+					"end": "🇬🇧MIC",
+					"name": "South Western Main Line",
+					"electrified": true,
+					"length": 16,
+					"maxSpeed": 160,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧MIC",
+					"end": "🇬🇧WIN",
+					"name": "South Western Main Line",
+					"electrified": true,
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧WIN",
+					"end": "🇬🇧ESL",
+					"name": "South Western Main Line",
+					"electrified": true,
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇬🇧ESL",
+					"end": "🇬🇧SOU",
+					"name": "South Western Main Line",
+					"electrified": true,
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.21
 				}
 			]
 		},
@@ -27145,6 +27304,330 @@
 			]
 		},
 		{
+			"electrified": true,
+			"name": "Northeast Corridor",
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸NYP",
+					"end": "🇺🇸NWK",
+					"length": 15,
+					"maxSpeed": 144,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇺🇸NWK",
+					"end": "🇺🇸MET",
+					"length": 23,
+					"maxSpeed": 177,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇺🇸MET",
+					"end": "🇺🇸NBK",
+					"length": 12,
+					"maxSpeed": 201,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇺🇸NBK",
+					"end": "🇺🇸O6615000261",
+					"length": 2,
+					"maxSpeed": 201,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸O6615000261",
+					"end": "🇺🇸PJC",
+					"length": 22,
+					"maxSpeed": 209,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇺🇸PJC",
+					"end": "🇺🇸TRE",
+					"length": 15,
+					"maxSpeed": 177,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸TRE",
+					"end": "🇺🇸O7061436397",
+					"length": 20,
+					"maxSpeed": 201,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸O7061436397",
+					"end": "🇺🇸O7004606694",
+					"length": 16,
+					"maxSpeed": 201,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸O7004606694",
+					"end": "🇺🇸PHL",
+					"length": 14,
+					"maxSpeed": 177,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇺🇸PHL",
+					"end": "🇺🇸O1118160091",
+					"length": 19,
+					"maxSpeed": 177,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇺🇸O1118160091",
+					"end": "🇺🇸WIL",
+					"length": 21,
+					"maxSpeed": 201,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸WIL",
+					"end": "🇺🇸NRK",
+					"length": 19,
+					"maxSpeed": 217,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸NRK",
+					"end": "🇺🇸O848230522",
+					"length": 32,
+					"maxSpeed": 217,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸O848230522",
+					"end": "🇺🇸O1159032676",
+					"length": 24,
+					"maxSpeed": 201,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇺🇸O1159032676",
+					"end": "🇺🇸O1157130172",
+					"length": 13,
+					"maxSpeed": 201,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸O1157130172",
+					"end": "🇺🇸BAL",
+					"length": 18,
+					"maxSpeed": 201,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸BAL",
+					"end": "🇺🇸BWI",
+					"length": 16,
+					"maxSpeed": 201,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇺🇸BWI",
+					"end": "🇺🇸O659518114",
+					"length": 11,
+					"maxSpeed": 201,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸O659518114",
+					"end": "🇺🇸O1142897803",
+					"length": 9,
+					"maxSpeed": 201,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇺🇸O1142897803",
+					"end": "🇺🇸NCR",
+					"length": 12,
+					"maxSpeed": 201,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸NCR",
+					"end": "🇺🇸WAS",
+					"length": 13,
+					"maxSpeed": 201,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇺🇸NYP",
+					"end": "🇺🇸O4075779127",
+					"group": 0,
+					"length": 37,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇺🇸O4075779127",
+					"end": "🇺🇸STM",
+					"group": 0,
+					"length": 20,
+					"maxSpeed": 128,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸STM",
+					"end": "🇺🇸O7103163879",
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 112,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸O7103163879",
+					"end": "🇺🇸O7103163865",
+					"group": 0,
+					"length": 21,
+					"maxSpeed": 112,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸O7103163865",
+					"end": "🇺🇸O7103297856",
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 112,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸O7103297856",
+					"end": "🇺🇸NHV",
+					"group": 0,
+					"length": 15,
+					"maxSpeed": 112,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸NHV",
+					"end": "🇺🇸O7103598933",
+					"group": 0,
+					"length": 13,
+					"maxSpeed": 128,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸O7103598933",
+					"end": "🇺🇸O7103598927",
+					"group": 0,
+					"length": 18,
+					"maxSpeed": 201,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸O7103598927",
+					"end": "🇺🇸O1267862347",
+					"group": 0,
+					"length": 13,
+					"maxSpeed": 201,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸O1267862347",
+					"end": "🇺🇸O538228379",
+					"group": 0,
+					"length": 34,
+					"maxSpeed": 177,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇺🇸O538228379",
+					"end": "🇺🇸O7030623588",
+					"group": 0,
+					"length": 15,
+					"maxSpeed": 144,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇺🇸O7030623588",
+					"end": "🇺🇸O2140980416",
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 144,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇺🇸O2140980416",
+					"end": "🇺🇸O158877707",
+					"group": 0,
+					"length": 19,
+					"maxSpeed": 168,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸O158877707",
+					"end": "🇺🇸O158918520",
+					"group": 2,
+					"length": 24,
+					"maxSpeed": 241,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸O158918520",
+					"end": "🇺🇸O5889932762",
+					"group": 2,
+					"length": 12,
+					"maxSpeed": 241,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸O5889932762",
+					"end": "🇺🇸PVD",
+					"group": 2,
+					"length": 13,
+					"maxSpeed": 241,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇺🇸PVD",
+					"end": "🇺🇸O445938332",
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 201,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇺🇸O445938332",
+					"end": "🇺🇸O7105788958",
+					"group": 2,
+					"length": 19,
+					"maxSpeed": 241,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸O7105788958",
+					"end": "🇺🇸O5901183548",
+					"group": 2,
+					"length": 15,
+					"maxSpeed": 241,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇺🇸O5901183548",
+					"end": "🇺🇸O3279972794",
+					"group": 0,
+					"length": 10,
+					"maxSpeed": 209,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇺🇸O3279972794",
+					"end": "🇺🇸BOS",
+					"group": 0,
+					"length": 13,
+					"maxSpeed": 193,
+					"twistingFactor": 0.18
+				}
+			]
+		},
+		{
 			"name": "Süd-Lausitzer Bahn",
 			"electrified": false,
 			"group": 0,
@@ -29344,6 +29827,37 @@
 					"start": "🇳🇱Vss",
 					"end": "🇳🇱Vs",
 					"length": 1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"name": "South Western Main Line",
+			"objects": [
+				{
+					"start": "XKLP",
+					"end": "🇬🇧ESH",
+					"length": 33,
+					"maxSpeed": 144,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇬🇧ESH",
+					"end": "🇬🇧O3509618076",
+					"length": 30,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧O3509618076",
+					"end": "🇬🇧BSK",
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.04
 				}
 			]
 		},
@@ -40715,7 +41229,7 @@
 				},
 				{
 					"start": "🇬🇧53410",
-					"end": "🇬🇧52680",
+					"end": "🇬🇧BTN",
 					"name": "Brighton Main Line",
 					"length": 15,
 					"twistingFactor": 0.16
@@ -41806,6 +42320,71 @@
 					"length": 4,
 					"electrified": true,
 					"name": "Bahnstrecke Ełk - Białystok"
+				}
+			]
+		},
+		{
+			"name": "Keystone Corridor",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 177,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸PHL",
+					"end": "🇺🇸O1132551748",
+					"length": 21,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸O1132551748",
+					"end": "🇺🇸DOW",
+					"length": 28,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸DOW",
+					"end": "🇺🇸COT",
+					"length": 9,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇺🇸COT",
+					"end": "🇺🇸PAR",
+					"length": 9,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸PAR",
+					"end": "🇺🇸O107282462",
+					"length": 38,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇺🇸O107282462",
+					"end": "🇺🇸MJY",
+					"length": 18,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸MJY",
+					"end": "🇺🇸ELT",
+					"length": 10,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸ELT",
+					"end": "🇺🇸MID",
+					"length": 13,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸MID",
+					"end": "🇺🇸HAR",
+					"length": 14,
+					"twistingFactor": 0.14
 				}
 			]
 		},
