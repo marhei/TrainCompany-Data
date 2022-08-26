@@ -2534,6 +2534,79 @@
 		},
 		{
 			"group": 1,
+			"name": "ČD Os von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf tschechischer Seite am Rand des Erzgebirges von %s nach %s.",
+				"Die Os Regionalzüge stoppen an jedem Haltepunkt.",
+				"Die Gegend um Karlovy Vary ist für Heilquellen und Oblaten bekannt.",
+				"ČD Os und Sp Regionalzüge bringen dich in die kleinsten Städte und Dörfer."
+			],
+			"objects": [
+				{
+					"name": "ČD Os 7066 von %s nach %s",
+					"stations": [ "XTCO", "🇨🇿5453549", "XTKN", "🇨🇿5475816", "🇨🇿5475835", "🇨🇿5475845", "XTOS", "🇨🇿5475865", "🇨🇿5473445", "XTKV" ],
+					"pathSuggestion": [ "XTCO", "🇨🇿5453549", "XTKN", "🇨🇿5475816", "🇨🇿5475835", "🇨🇿5475845", "XTOS", "🇨🇿5475865", "🇨🇿5473445", "XTKV" ]
+				},
+				{
+					"name": "ČD Os 7014",
+					"stations": [ "XTKV", "XTCD", "XTNS", "XTSO", "XTCI", "🇨🇿5475925", "🇨🇿5475935", "🇨🇿5475945", "🇨🇿5475955", "XTCH" ],
+					"pathSuggestion": [ "XTKV", "XTCD", "XTNS", "XTSO", "XTCI", "🇨🇿5475925", "🇨🇿5475935", "🇨🇿5475945", "🇨🇿5475955", "XTCH" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "ČD Sp von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bediene den tschechisch-deutschen Grenzverkehr.",
+				"Die Sp Regionalzüge nehmen nicht jeden Haltepunkt mit und sind daher in etwa mit einem Regionalexpress verleichbar, führt allerdings keine erste Klasse.",
+				"ČD Os und Sp Regionalzüge bringen dich in die kleinsten Städte und Dörfer."
+			],
+			"objects": [
+				{
+					"name": "ČD Sp 5282 von %s nach %s",
+					"stations": [ "XTCH", "NSG", "NMR", "NKL", "NPZ", "NNP", "NN" ],
+					"pathSuggestion": [ "XTCH", "NSG", "NMR", "NKL", "NPZ", "NNP", "NN" ]
+				},
+				{
+					"name": "ČD Sp 5282 von %s nach %s",
+					"stations": [ "XTCH", "NSG", "NMR", "NKL", "NPZ", "NNP", "NHR" ],
+					"pathSuggestion": [ "XTCH", "NSG", "NMR", "NKL", "NPZ", "NNP", "NHR" ]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "OPB RB95 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Die Oberpfalzbahn bedient den tschechisch-deutschen Grenzverkehr.",
+				"Das wird eine kurze Tour über die Grenze",
+				"České dráhy (ČD) ist der Infrastrukturbetreiber des tschechischen Teils der Strecke."
+			],
+			"objects": [
+				{
+					"stations": [ "XTCH", "NSG" ],
+					"pathSuggestion": [ "XTCH", "NSG" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "TL RB 61 von %s nach %s",
 			"service": 3,
 			"descriptions": [
