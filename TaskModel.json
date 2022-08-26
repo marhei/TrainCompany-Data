@@ -870,7 +870,7 @@
 			],
 			"stations": [ "🇺🇸WAS", "🇺🇸BAL", "🇺🇸WIL", "🇺🇸PHL", "🇺🇸NWK", "🇺🇸NYP", "🇺🇸STM", "🇺🇸NHV", "🇺🇸PVD", "🇺🇸BOS" ],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers"}
 			],
 			"group": 1,
 			"service": 0
@@ -883,7 +883,7 @@
 			],
 			"stations": [ "🇺🇸WAS", "🇺🇸NCR", "🇺🇸BWI", "🇺🇸BAL", "🇺🇸WIL", "🇺🇸PHL", "🇺🇸TRE", "🇺🇸PJC", "🇺🇸NBK", "🇺🇸MET", "🇺🇸NWK", "🇺🇸STM", "🇺🇸NHV" ],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers"}
 			],
 			"group": 1,
 			"service": 2
@@ -2572,13 +2572,11 @@
 			"objects": [
 				{
 					"name": "ČD Os 7066 von %s nach %s",
-					"stations": [ "XTCO", "🇨🇿5453549", "XTKN", "🇨🇿5475816", "🇨🇿5475835", "🇨🇿5475845", "XTOS", "🇨🇿5475865", "🇨🇿5473445", "XTKV" ],
-					"pathSuggestion": [ "XTCO", "🇨🇿5453549", "XTKN", "🇨🇿5475816", "🇨🇿5475835", "🇨🇿5475845", "XTOS", "🇨🇿5475865", "🇨🇿5473445", "XTKV" ]
+					"stations": [ "XTCO", "🇨🇿5453549", "XTKN", "🇨🇿5475816", "🇨🇿5475835", "🇨🇿5475845", "XTOS", "🇨🇿5475865", "🇨🇿5473445", "XTKV" ]
 				},
 				{
 					"name": "ČD Os 7014",
-					"stations": [ "XTKV", "XTCD", "XTNS", "XTSO", "XTCI", "🇨🇿5475925", "🇨🇿5475935", "🇨🇿5475945", "🇨🇿5475955", "XTCH" ],
-					"pathSuggestion": [ "XTKV", "XTCD", "XTNS", "XTSO", "XTCI", "🇨🇿5475925", "🇨🇿5475935", "🇨🇿5475945", "🇨🇿5475955", "XTCH" ]
+					"stations": [ "XTKV", "XTCD", "XTNS", "XTSO", "XTCI", "🇨🇿5475925", "🇨🇿5475935", "🇨🇿5475945", "🇨🇿5475955", "XTCH" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -2621,12 +2619,7 @@
 				"Das wird eine kurze Tour über die Grenze",
 				"České dráhy (ČD) ist der Infrastrukturbetreiber des tschechischen Teils der Strecke."
 			],
-			"objects": [
-				{
-					"stations": [ "XTCH", "NSG" ],
-					"pathSuggestion": [ "XTCH", "NSG" ]
-				}
-			],
+			"stations": [ "XTCH", "NSG" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -5744,12 +5737,8 @@
 			"descriptions": [
 				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XLDK", "XLL" ],
-					"stopsEverywhere": true
-				}
-			],
+			"stations": [ "XLDK", "XLET", "XLL" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -5761,12 +5750,8 @@
 			"descriptions": [
 				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XLTV", "XLL" ],
-					"stopsEverywhere": true
-				}
-			],
+			"stations": [ "XLTV", "XLKT", "XLET", "XLL" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -6417,7 +6402,7 @@
 					"stations": [ "XFLM", "🇫🇷SAB", "XFASL", "XFNA" ]
 				},
 				{
-					"stations": [ "XFNA", "🇫🇷SNA" ]
+					"stations": [ "XFNA", "🇫🇷SNY", "🇫🇷SNA" ]
 				},
 				{
 					"stations": [ "XFLM", "🇫🇷CIE", "🇫🇷SLG", "🇫🇷EVN", "🇫🇷NEA", "XFLAL", "🇫🇷PTT", "XFVTE", "🇫🇷CTG", "XFR" ]
@@ -7913,20 +7898,16 @@
 			],
 			"objects": [
 				{
-					"stations": [ "TWBK", "TPB", "TPH", "RK" ],
-					"pathSuggestion": [ "TWBK", "TPB", "TPH", "RK" ]
+					"stations": [ "TWBK", "TPB", "TPH", "RK" ]
 				},
 				{
-					"stations": [ "TWBK", "TPB", "TPH"],
-					"pathSuggestion": [ "TWBK", "TPB", "TPH" ]
+					"stations": [ "TWBK", "TPB", "TPH"]
 				},
 				{
-					"stations": ["TPH","TPB","TWBK"],
-					"pathSuggestion": ["TPH","TPB","TWBK"]
+					"stations": ["TPH", "TPB", "TWBK"]
 				},
 				{
-					"stations": ["RK", "TPH","TPB","TWBK"],
-					"pathSuggestion": ["RK", "TPH","TPB","TWBK"]
+					"stations": ["RK", "TPH", "TPB", "TWBK"]
 				}
 			],
 			"neededCapacity": [
