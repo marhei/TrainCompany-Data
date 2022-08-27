@@ -30733,6 +30733,87 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸BOS",
+					"end": "🇺🇸FRA",
+					"name": "Boston Subdivision",
+					"length": 34,
+					"maxSpeed": 48,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇺🇸FRA",
+					"end": "🇺🇸O1844206",
+					"name": "Boston Subdivision",
+					"length": 16,
+					"maxSpeed": 100,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸O1844206",
+					"end": "🇺🇸WOR",
+					"name": "Boston Subdivision",
+					"length": 19,
+					"maxSpeed": 100,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇺🇸WOR",
+					"end": "🇺🇸O158839884",
+					"name": "Boston Subdivision",
+					"length": 21,
+					"maxSpeed": 100,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇺🇸O158839884",
+					"end": "🇺🇸SPG",
+					"name": "Boston Subdivision",
+					"length": 65,
+					"maxSpeed": 96,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇺🇸SPG",
+					"end": "🇺🇸O158813230",
+					"name": "Berkshire Subdivision",
+					"length": 70,
+					"maxSpeed": 48,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇺🇸O158813230",
+					"end": "🇺🇸PIT",
+					"name": "Berkshire Subdivision",
+					"length": 13,
+					"maxSpeed": 100,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇺🇸PIT",
+					"end": "🇺🇸O158845206",
+					"name": "Berkshire Subdivision",
+					"length": 18,
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸O158845206",
+					"end": "🇺🇸ALB",
+					"name": "Berkshire Subdivision",
+					"length": 60,
+					"maxSpeed": 24,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -40248,7 +40329,6 @@
 			],
 			"electrified": false,
 			"objects": [
-				
 				{
 					"start": "🇺🇸BUF",
 					"end": "🇺🇸O13646385",
