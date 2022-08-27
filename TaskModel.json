@@ -870,7 +870,7 @@
 			],
 			"stations": [ "🇺🇸WAS", "🇺🇸BAL", "🇺🇸WIL", "🇺🇸PHL", "🇺🇸NWK", "🇺🇸NYP", "🇺🇸STM", "🇺🇸NHV", "🇺🇸PVD", "🇺🇸BOS" ],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers"}
 			],
 			"group": 1,
 			"service": 0
@@ -883,7 +883,7 @@
 			],
 			"stations": [ "🇺🇸WAS", "🇺🇸NCR", "🇺🇸BWI", "🇺🇸BAL", "🇺🇸WIL", "🇺🇸PHL", "🇺🇸TRE", "🇺🇸PJC", "🇺🇸NBK", "🇺🇸MET", "🇺🇸NWK", "🇺🇸STM", "🇺🇸NHV" ],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 0 }
+				{ "name": "passengers"}
 			],
 			"group": 1,
 			"service": 2
@@ -2554,6 +2554,72 @@
 					"stations": [ "XTRU", "XTVV", "XTMD", "DSEB", "DSA", "XTD" ]
 				}
 			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "ČD Os von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf tschechischer Seite am Rand des Erzgebirges von %s nach %s.",
+				"Die Os Regionalzüge stoppen an jedem Haltepunkt.",
+				"Die Gegend um Karlovy Vary ist für Heilquellen und Oblaten bekannt.",
+				"ČD Os und Sp Regionalzüge bringen dich in die kleinsten Städte und Dörfer."
+			],
+			"objects": [
+				{
+					"name": "ČD Os 7066 von %s nach %s",
+					"stations": [ "XTCO", "🇨🇿5453549", "XTKN", "🇨🇿5475816", "🇨🇿5475835", "🇨🇿5475845", "XTOS", "🇨🇿5475865", "🇨🇿5473445", "XTKV" ]
+				},
+				{
+					"name": "ČD Os 7014",
+					"stations": [ "XTKV", "XTCD", "XTNS", "XTSO", "XTCI", "🇨🇿5475925", "🇨🇿5475935", "🇨🇿5475945", "🇨🇿5475955", "XTCH" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "ČD Sp von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bediene den tschechisch-deutschen Grenzverkehr.",
+				"Die Sp Regionalzüge nehmen nicht jeden Haltepunkt mit und sind daher in etwa mit einem Regionalexpress verleichbar, führt allerdings keine erste Klasse.",
+				"ČD Os und Sp Regionalzüge bringen dich in die kleinsten Städte und Dörfer."
+			],
+			"objects": [
+				{
+					"name": "ČD Sp 5282 von %s nach %s",
+					"stations": [ "XTCH", "NSG", "NMR", "NKL", "NPZ", "NNP", "NN" ],
+					"pathSuggestion": [ "XTCH", "NSG", "NMR", "NKL", "NPZ", "NNP", "NN" ]
+				},
+				{
+					"name": "ČD Sp 5282 von %s nach %s",
+					"stations": [ "XTCH", "NSG", "NMR", "NKL", "NPZ", "NNP", "NHR" ],
+					"pathSuggestion": [ "XTCH", "NSG", "NMR", "NKL", "NPZ", "NNP", "NHR" ]
+				}
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "OPB RB95 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Die Oberpfalzbahn bedient den tschechisch-deutschen Grenzverkehr.",
+				"Das wird eine kurze Tour über die Grenze",
+				"České dráhy (ČD) ist der Infrastrukturbetreiber des tschechischen Teils der Strecke."
+			],
+			"stations": [ "XTCH", "NSG" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -5667,12 +5733,8 @@
 			"descriptions": [
 				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XLDK", "XLL" ],
-					"stopsEverwhere": true
-				}
-			],
+			"stations": [ "XLDK", "XLET", "XLL" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -5684,12 +5746,8 @@
 			"descriptions": [
 				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XLTV", "XLL" ],
-					"stopsEverwhere": true
-				}
-			],
+			"stations": [ "XLTV", "XLKT", "XLET", "XLL" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -6340,7 +6398,7 @@
 					"stations": [ "XFLM", "🇫🇷SAB", "XFASL", "XFNA" ]
 				},
 				{
-					"stations": [ "XFNA", "🇫🇷SNA" ]
+					"stations": [ "XFNA", "🇫🇷SNY", "🇫🇷SNA" ]
 				},
 				{
 					"stations": [ "XFLM", "🇫🇷CIE", "🇫🇷SLG", "🇫🇷EVN", "🇫🇷NEA", "XFLAL", "🇫🇷PTT", "XFVTE", "🇫🇷CTG", "XFR" ]
@@ -6364,7 +6422,7 @@
 					"stations": [ "XFPE", "XFNB", "XFBZ", "XFSE", "🇫🇷VLM", "XFLUN", "🇫🇷NMS", "🇫🇷NPG", "XFARL", "XFMI", "XFM" ]
 				},
 				{
-					"stations": [ "XFM", "XFMI", "XFARL", "XFAVV" ]
+					"stations": [ "XFM", "XFLES", "XFMI", "XFARL", "XFAVV" ]
 				},
 				{
 					"stations": [ "XFAVV", "🇫🇷BDR", "XFOR", "🇫🇷BLN", "🇫🇷PRL", "XFMN", "XFVCV", "🇫🇷TAI", "XFVI", "XFLPD" ]
@@ -7825,6 +7883,33 @@
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "S6 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre die S6 durch das schöne Enztal.",
+				"Du brauchst hierfür ein BOStrab-Fahrzeug."
+			],
+			"objects": [
+				{
+					"stations": [ "TWBK", "TPB", "TPH", "RK" ]
+				},
+				{
+					"stations": [ "TWBK", "TPB", "TPH"]
+				},
+				{
+					"stations": ["TPH", "TPB", "TWBK"]
+				},
+				{
+					"stations": ["RK", "TPH", "TPB", "TWBK"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
 		}
 	]
 }
