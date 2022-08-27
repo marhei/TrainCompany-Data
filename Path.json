@@ -14557,6 +14557,47 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 140,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MH",
+					"end": "MJK",
+					"length": 10,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MJK",
+					"end": "MUFG",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MUFG",
+					"end": "MIS",
+					"length": 5,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "MIS",
+					"end": "MHMO",
+					"length": 9,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MHMO",
+					"end": "MFHB",
+					"length": 7,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"maxSpeed": 155,
 			"twistingFactor": 0.2,
 			"objects": [
@@ -14804,25 +14845,6 @@
 					"start": "XBBR",
 					"end": "XBO",
 					"length": 22
-				}
-			]
-		},
-		{
-			"electrified": true,
-			"maxSpeed": 160,
-			"twistingFactor": 0.1,
-			"group": 0,
-			"objects": [
-				{
-					"start": "MNF",
-					"end": "MFHM",
-					"length": 7
-				},
-				{
-					"name": "Neufahrner Spange",
-					"start": "MFHM",
-					"end": "MPU",
-					"length": 7
 				}
 			]
 		},
@@ -33114,6 +33136,36 @@
 					"start": "MLIG",
 					"end": "MGZB",
 					"length": 18
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"name": "Neufahrner Spange",
+			"objects": [
+				{
+					"start": "MPU",
+					"end": "MFHB",
+					"length": 8,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MNF",
+					"end": "MFHB",
+					"length": 8,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MFHB",
+					"end": "MFHT",
+					"length": 1,
+					"twistingFactor": 0.14
 				}
 			]
 		},
