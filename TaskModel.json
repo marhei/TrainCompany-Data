@@ -870,7 +870,7 @@
 			],
 			"stations": [ "🇺🇸WAS", "🇺🇸BAL", "🇺🇸WIL", "🇺🇸PHL", "🇺🇸NWK", "🇺🇸NYP", "🇺🇸STM", "🇺🇸NHV", "🇺🇸PVD", "🇺🇸BOS" ],
 			"neededCapacity": [
-				{ "name": "passengers"}
+				{ "name": "passengers" }
 			],
 			"group": 1,
 			"service": 0
@@ -884,7 +884,7 @@
 			],
 			"stations": [ "🇺🇸HAR", "🇺🇸MID", "🇺🇸ELT", "🇺🇸MJY", "🇺🇸O107282462", "🇺🇸PAR", "🇺🇸COT", "🇺🇸DOW", "🇺🇸PHL", "🇺🇸TRE", "🇺🇸PJC", "🇺🇸NBK", "🇺🇸MET", "🇺🇸NWK", "🇺🇸NYP" ],
 			"neededCapacity": [
-				{ "name": "passengers"}
+				{ "name": "passengers" }
 			],
 			"group": 1,
 			"service": 0
@@ -897,10 +897,50 @@
 			],
 			"stations": [ "🇺🇸WAS", "🇺🇸NCR", "🇺🇸BWI", "🇺🇸BAL", "🇺🇸WIL", "🇺🇸PHL", "🇺🇸TRE", "🇺🇸PJC", "🇺🇸NBK", "🇺🇸MET", "🇺🇸NWK", "🇺🇸STM", "🇺🇸NHV" ],
 			"neededCapacity": [
-				{ "name": "passengers"}
+				{ "name": "passengers" }
 			],
 			"group": 1,
 			"service": 2
+		},
+		{
+			"descriptions": [
+				"Bringe den Amtrak-Nachtzug von %s nach %s.",
+				"Fahre quer durch die USA von %s nach %s.",
+				"Bringe die Fahrgäste langsam, aber bequem von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"name": "Lake Shore Limited von %s nach %s",
+					"stations":       [ "🇺🇸CHI", "🇺🇸EKH", "🇺🇸O7002595473", "🇺🇸O7024235484", "🇺🇸SKY", "🇺🇸CLE", "🇺🇸ERI", "🇺🇸BUF", "🇺🇸ROC", "🇺🇸SYR", "🇺🇸UCA", "🇺🇸SDY", "🇺🇸ALB", "🇺🇸HUD", "🇺🇸RHI", "🇺🇸POU", "🇺🇸CRT", "🇺🇸NYP" ]
+				},
+				{
+					"name": "Lake Shore Limited von %s nach %s",
+					"stations":       [ "🇺🇸CHI", "🇺🇸EKH", "🇺🇸O7002595473", "🇺🇸O7024235484", "🇺🇸SKY", "🇺🇸CLE", "🇺🇸ERI", "🇺🇸BUF", "🇺🇸ROC", "🇺🇸SYR", "🇺🇸UCA", "🇺🇸SDY", "🇺🇸ALB", "🇺🇸PIT", "🇺🇸SPG", "🇺🇸WOR", "🇺🇸FRA", "🇺🇸BOS" ]
+				},
+				{
+					"name": "City of New Orleans von %s nach %s",
+					"stations":       [ "🇺🇸CHI", "🇺🇸HMW", "🇺🇸KKI", "🇺🇸CHM", "🇺🇸MAT", "🇺🇸EFG", "🇺🇸CTL", "🇺🇸CDL", "🇺🇸FTN", "🇺🇸NBN", "🇺🇸MEM", "🇺🇸MKS", "🇺🇸GWD", "🇺🇸YAZ", "🇺🇸JAN", "🇺🇸HAZ", "🇺🇸BRH", "🇺🇸MCB", "🇺🇸HMD", "🇺🇸NOL" ]
+				},
+				{
+					"name": "Empire Builder von %s nach %s",
+					"stations":       [ "🇺🇸CHI", "🇺🇸GLN", "🇺🇸MKE", "🇺🇸CBS", "🇺🇸POG", "🇺🇸WDL", "🇺🇸TOH", "🇺🇸LSE", "🇺🇸WIN", "🇺🇸RDW", "🇺🇸MSP", "🇺🇸SCD", "🇺🇸SPL", "🇺🇸DLK", "🇺🇸FAR", "🇺🇸GFK", "🇺🇸DVL", "🇺🇸O6997575336", "🇺🇸MOT", "🇺🇸STN", "🇺🇸WTN", "🇺🇸WPT", "🇺🇸O7018100628", "🇺🇸MAL", "🇺🇸O1753183493", "🇺🇸SBY", "🇺🇸CUT", "🇺🇸BRO", "🇺🇸GPK", "🇺🇸ESM", "🇺🇸WGL", "🇺🇸WFH", "🇺🇸LIB", "🇺🇸SPT", "🇺🇸SPK", "🇺🇸EPH", "🇺🇸WEN", "🇺🇸LWA", "🇺🇸EVR", "🇺🇸EDM", "🇺🇸SEA" ]
+				},
+				{
+					"name": "Maple Leaf von %s nach %s",
+					"stations":       [ "🇨🇦O6997477908", "🇨🇦O6944077371", "🇨🇦O32994795", "🇨🇦O7034874503", "🇺🇸NFL", "🇺🇸BFX", "🇺🇸BUF", "🇺🇸ROC", "🇺🇸SYR", "🇺🇸UCA", "🇺🇸AMS", "🇺🇸SDY", "🇺🇸ALB", "🇺🇸HUD", "🇺🇸RHI", "🇺🇸POU", "🇺🇸CRT", "🇺🇸YNY", "🇺🇸NYP" ]
+				},
+				{
+					"name": "Capitol Limited von %s nach %s",
+					"stations":       [ "🇺🇸WAS", "🇺🇸RKV", "🇺🇸HFY", "🇺🇸MRB", "🇺🇸CUM", "🇺🇸COV", "🇺🇸PGH", "🇺🇸ALC", "🇺🇸CLE", "🇺🇸SKY", "🇺🇸O7024235484", "🇺🇸O7002595473", "🇺🇸EKH", "🇺🇸CHI" ]
+				}
+			]
 		},
 		{
 			"name": "Venice-Simplon-Orient-Express von %s nach %s",
@@ -7911,13 +7951,13 @@
 					"stations": [ "TWBK", "TPB", "TPH", "RK" ]
 				},
 				{
-					"stations": [ "TWBK", "TPB", "TPH"]
+					"stations": [ "TWBK", "TPB", "TPH" ]
 				},
 				{
-					"stations": ["TPH", "TPB", "TWBK"]
+					"stations": [ "TPH", "TPB", "TWBK" ]
 				},
 				{
-					"stations": ["RK", "TPH", "TPB", "TWBK"]
+					"stations": [ "RK", "TPH", "TPB", "TWBK" ]
 				}
 			],
 			"neededCapacity": [
