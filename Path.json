@@ -12930,26 +12930,6 @@
 			]
 		},
 		{
-			"maxSpeed": 120,
-			"electrified": true,
-			"group": 0,
-			"name": "Isartalbahn",
-			"objects": [
-				{
-					"start": "MH",
-					"end": "MHRK",
-					"length": 15,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "MHRK",
-					"end": "MWO",
-					"length": 17,
-					"twistingFactor": 0.2
-				}
-			]
-		},
-		{
 			"electrified": true,
 			"name": "Transsibirische Eisenbahn",
 			"group": 0,
@@ -33895,6 +33875,72 @@
 					"length": 21,
 					"maxSpeed": 100,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"name": "Isartalbahn",
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MH",
+					"end": "MGOI",
+					"length": 13,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MGOI",
+					"end": "MPUL",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MPUL",
+					"end": "MHRK",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MHRK",
+					"end": "MBHA",
+					"length": 1,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "MBHA",
+					"end": "MBAB",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "MBAB",
+					"end": "MHSL",
+					"length": 3,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MHSL",
+					"end": "MEBS",
+					"length": 1,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "MEBS",
+					"end": "MIC",
+					"length": 3,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MIC",
+					"end": "MWO",
+					"length": 4,
+					"twistingFactor": 0.24
 				}
 			]
 		},
