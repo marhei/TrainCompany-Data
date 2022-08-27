@@ -12126,6 +12126,83 @@
 		},
 		{
 			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MWKR",
+					"end": "MNA",
+					"length": 2,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "MNA",
+					"end": "MFH",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MFH",
+					"end": "MHHS",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MHHS",
+					"end": "MUG",
+					"length": 1,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "MUG",
+					"end": "MGIB",
+					"length": 4,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "MGIB",
+					"end": "MGCH",
+					"length": 2,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MGCH",
+					"end": "MNGH",
+					"length": 1,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MNGH",
+					"end": "MWS",
+					"length": 3,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MWS",
+					"end": "MSA",
+					"length": 3,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "MSA",
+					"end": "MSH",
+					"length": 2,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "MSH",
+					"end": "MHI",
+					"length": 5,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"group": 1,
 			"twistingFactor": 0.3,
 			"name": "Albulabahn",
