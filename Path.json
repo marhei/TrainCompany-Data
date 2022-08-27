@@ -34074,6 +34074,86 @@
 			]
 		},
 		{
+			"electrified": false,
+			"maxSpeed": 100,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NBEI",
+					"end": "NLT",
+					"group": 1,
+					"length": 8,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "NLT",
+					"end": "NZWL",
+					"group": 1,
+					"length": 5,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "NZWL",
+					"end": "NBMS",
+					"group": 1,
+					"length": 4,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "NBMS",
+					"end": "NREG",
+					"group": 1,
+					"length": 5,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "NREG",
+					"end": "NTRI",
+					"group": 1,
+					"length": 7,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "NTRI",
+					"end": "NGZ",
+					"group": 1,
+					"length": 6,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "NGZ",
+					"end": "NGFA",
+					"group": 1,
+					"length": 15,
+					"twistingFactor": 0.49
+				},
+				{
+					"start": "NGFA",
+					"end": "NDG",
+					"group": 1,
+					"length": 7,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "NDG",
+					"end": "NPK",
+					"group": 1,
+					"length": 5,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "NPK",
+					"end": "NPL",
+					"length": 4,
+					"group": 1,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
 			"name": "Borsdorf–Coswig (nord)",
 			"electrified": false,
 			"group": 0,
