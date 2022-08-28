@@ -870,7 +870,21 @@
 			],
 			"stations": [ "🇺🇸WAS", "🇺🇸BAL", "🇺🇸WIL", "🇺🇸PHL", "🇺🇸NWK", "🇺🇸NYP", "🇺🇸STM", "🇺🇸NHV", "🇺🇸PVD", "🇺🇸BOS" ],
 			"neededCapacity": [
-				{ "name": "passengers"}
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 0
+		},
+		{
+			"name": "Keystone Service von %s nach %s",
+			"descriptions": [
+				"Fahre den Keystone Corridor entlang von %s nach %s.",
+				"Bringe die Fahrgäste an der Ostküste der USA von %s nach %s.",
+				"Fahre im Keystone und northeast Corridor nach %2$s."
+			],
+			"stations": [ "🇺🇸HAR", "🇺🇸MID", "🇺🇸ELT", "🇺🇸MJY", "🇺🇸O107282462", "🇺🇸PAR", "🇺🇸COT", "🇺🇸DOW", "🇺🇸PHL", "🇺🇸TRE", "🇺🇸PJC", "🇺🇸NBK", "🇺🇸MET", "🇺🇸NWK", "🇺🇸NYP" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
 			],
 			"group": 1,
 			"service": 0
@@ -883,10 +897,123 @@
 			],
 			"stations": [ "🇺🇸WAS", "🇺🇸NCR", "🇺🇸BWI", "🇺🇸BAL", "🇺🇸WIL", "🇺🇸PHL", "🇺🇸TRE", "🇺🇸PJC", "🇺🇸NBK", "🇺🇸MET", "🇺🇸NWK", "🇺🇸STM", "🇺🇸NHV" ],
 			"neededCapacity": [
-				{ "name": "passengers"}
+				{ "name": "passengers" }
 			],
 			"group": 1,
 			"service": 2
+		},
+		{
+			"descriptions": [
+				"Bringe den Amtrak-Nachtzug von %s nach %s.",
+				"Fahre quer durch die USA von %s nach %s.",
+				"Bringe die Fahrgäste langsam, aber bequem von %s nach %s.",
+				"Fahre wirklich lange Langstrecke von %s nach %s"
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"name": "Lake Shore Limited von %s nach %s",
+					"stations": [ "🇺🇸CHI", "🇺🇸EKH", "🇺🇸O7002595473", "🇺🇸O7024235484", "🇺🇸SKY", "🇺🇸CLE", "🇺🇸ERI", "🇺🇸BUF", "🇺🇸ROC", "🇺🇸SYR", "🇺🇸UCA", "🇺🇸SDY", "🇺🇸ALB", "🇺🇸HUD", "🇺🇸RHI", "🇺🇸POU", "🇺🇸CRT", "🇺🇸NYP" ]
+				},
+				{
+					"name": "Lake Shore Limited von %s nach %s",
+					"stations": [ "🇺🇸CHI", "🇺🇸EKH", "🇺🇸O7002595473", "🇺🇸O7024235484", "🇺🇸SKY", "🇺🇸CLE", "🇺🇸ERI", "🇺🇸BUF", "🇺🇸ROC", "🇺🇸SYR", "🇺🇸UCA", "🇺🇸SDY", "🇺🇸ALB", "🇺🇸PIT", "🇺🇸SPG", "🇺🇸WOR", "🇺🇸FRA", "🇺🇸BOS" ]
+				},
+				{
+					"name": "City of New Orleans von %s nach %s",
+					"stations": [ "🇺🇸CHI", "🇺🇸HMW", "🇺🇸KKI", "🇺🇸CHM", "🇺🇸MAT", "🇺🇸EFG", "🇺🇸CEN", "🇺🇸CDL", "🇺🇸FTN", "🇺🇸NBN", "🇺🇸MEM", "🇺🇸MKS", "🇺🇸GWD", "🇺🇸YAZ", "🇺🇸JAN", "🇺🇸HAZ", "🇺🇸BRH", "🇺🇸MCB", "🇺🇸HMD", "🇺🇸NOL" ]
+				},
+				{
+					"name": "Empire Builder von %s nach %s",
+					"stations": [ "🇺🇸CHI", "🇺🇸GLN", "🇺🇸MKE", "🇺🇸CBS", "🇺🇸POG", "🇺🇸WDL", "🇺🇸TOH", "🇺🇸LSE", "🇺🇸WIN", "🇺🇸RDW", "🇺🇸MSP", "🇺🇸SCD", "🇺🇸SPL", "🇺🇸DLK", "🇺🇸FAR", "🇺🇸GFK", "🇺🇸DVL", "🇺🇸O6997575336", "🇺🇸MOT", "🇺🇸STN", "🇺🇸WTN", "🇺🇸WPT", "🇺🇸O7018100628", "🇺🇸MAL", "🇺🇸O1753183493", "🇺🇸SBY", "🇺🇸CUT", "🇺🇸BRO", "🇺🇸GPK", "🇺🇸ESM", "🇺🇸WGL", "🇺🇸WFH", "🇺🇸LIB", "🇺🇸SPT", "🇺🇸SPK", "🇺🇸EPH", "🇺🇸WEN", "🇺🇸LWA", "🇺🇸EVR", "🇺🇸EDM", "🇺🇸SEA" ]
+				},
+				{
+					"name": "Empire Builder von %s nach %s",
+					"stations": [ "🇺🇸CHI", "🇺🇸GLN", "🇺🇸MKE", "🇺🇸CBS", "🇺🇸POG", "🇺🇸WDL", "🇺🇸TOH", "🇺🇸LSE", "🇺🇸WIN", "🇺🇸RDW", "🇺🇸MSP", "🇺🇸SCD", "🇺🇸SPL", "🇺🇸DLK", "🇺🇸FAR", "🇺🇸GFK", "🇺🇸DVL", "🇺🇸O6997575336", "🇺🇸MOT", "🇺🇸STN", "🇺🇸WTN", "🇺🇸WPT", "🇺🇸O7018100628", "🇺🇸MAL", "🇺🇸O1753183493", "🇺🇸SBY", "🇺🇸CUT", "🇺🇸BRO", "🇺🇸GPK", "🇺🇸ESM", "🇺🇸WGL", "🇺🇸WFH", "🇺🇸LIB", "🇺🇸SPT", "🇺🇸SPK", "🇺🇸PSC", "🇺🇸WIH", "🇺🇸BNG", "🇺🇸VAN", "🇺🇸PDX" ]
+				},
+				{
+					"name": "Capitol Limited von %s nach %s",
+					"stations": [ "🇺🇸WAS", "🇺🇸RKV", "🇺🇸HFY", "🇺🇸MRB", "🇺🇸CUM", "🇺🇸COV", "🇺🇸PGH", "🇺🇸ALC", "🇺🇸CLE", "🇺🇸SKY", "🇺🇸O7024235484", "🇺🇸O7002595473", "🇺🇸EKH", "🇺🇸CHI" ]
+				},
+				{
+					"name": "California Zephyr von %s nach %s",
+					"stations": [ "🇺🇸CHI", "🇺🇸NPV", "🇺🇸O5541777126", "🇺🇸PCT", "🇺🇸GBB", "🇺🇸BTN", "🇺🇸MTP", "🇺🇸OTM", "🇺🇸OSC", "🇺🇸CRN", "🇺🇸OMA", "🇺🇸LNK", "🇺🇸HAS", "🇺🇸HLD", "🇺🇸MCK", "🇺🇸FMG", "🇺🇸DEN", "🇺🇸WIP", "🇺🇸GRA", "🇺🇸GSC", "🇺🇸GJT", "🇺🇸GRI", "🇺🇸HER", "🇺🇸PRO", "🇺🇸SLC", "🇺🇸ELK", "🇺🇸WNN", "🇺🇸RNO", "🇺🇸TRU", "🇺🇸COX", "🇺🇸RSV", "🇺🇸SAC", "🇺🇸DAV", "🇺🇸MTZ", "🇺🇸RIC", "🇺🇸EMY" ]
+				},
+				{
+					"name": "Crescent von %s nach %s",
+					"stations": [ "🇺🇸NYP", "🇺🇸NWK", "🇺🇸MET", "🇺🇸NBK", "🇺🇸PJC", "🇺🇸TRE", "🇺🇸PHL", "🇺🇸WIL", "🇺🇸BAL", "🇺🇸WAS", "🇺🇸ALX", "🇺🇸MSS", "🇺🇸CLP", "🇺🇸CVS", "🇺🇸O4565139205", "🇺🇸HPT", "🇺🇸O7022934272", "🇺🇸CLT", "🇺🇸GAS", "🇺🇸SPB", "🇺🇸GRV", "🇺🇸CSN", "🇺🇸TCA", "🇺🇸GLE", "🇺🇸ATL", "🇺🇸ATN", "🇺🇸BHM", "🇺🇸TCL", "🇺🇸MEI", "🇺🇸LAU", "🇺🇸HBG", "🇺🇸PIC", "🇺🇸SDL", "🇺🇸NOL" ]
+				},
+				{
+					"name": "Coast Starlight von %s nach %s",
+					"stations": [ "🇺🇸SEA", "🇺🇸TAC", "🇺🇸OWL", "🇺🇸CTL", "🇺🇸KEL", "🇺🇸VAN", "🇺🇸PDX", "🇺🇸SLM", "🇺🇸ALY", "🇺🇸EUG", "🇺🇸CMO", "🇺🇸KFS", "🇺🇸DUN", "🇺🇸RDD", "🇺🇸CIC", "🇺🇸SAC", "🇺🇸DAV", "🇺🇸MTZ", "🇺🇸EMY", "🇺🇸SJC", "🇺🇸PRB", "🇺🇸SLO", "🇺🇸SBA", "🇺🇸OXN", "🇺🇸SIM", "🇺🇸VNC", "🇺🇸BUR", "🇺🇸LAX" ]
+				},
+				{
+					"name": "Silver Star von %s nach %s",
+					"stations": [ "🇺🇸NYP", "🇺🇸NWK", "🇺🇸TRE", "🇺🇸PHL", "🇺🇸WIL", "🇺🇸BAL", "🇺🇸WAS", "🇺🇸ALX", "🇺🇸RVR", "🇺🇸PTB", "🇺🇸RMT", "🇺🇸O5760380615", "🇺🇸CYN", "🇺🇸SOP", "🇺🇸HAM", "🇺🇸CAM", "🇺🇸CLB", "🇺🇸DNK", "🇺🇸SAV", "🇺🇸JAX", "🇺🇸PAK", "🇺🇸DLD", "🇺🇸WPK", "🇺🇸ORL", "🇺🇸KIS", "🇺🇸WTH", "🇺🇸SBG", "🇺🇸OKE", "🇺🇸WPB", "🇺🇸DLB", "🇺🇸DFB", "🇺🇸FTL", "🇺🇸HOL", "🇺🇸MIA" ]
+				},
+				{
+					"name": "Sunset Limited von %s nach %s",
+					"stations": [ "🇺🇸NOL", "🇺🇸SCH", "🇺🇸NIB", "🇺🇸LFT", "🇺🇸LCH", "🇺🇸BMT", "🇺🇸HOS", "🇺🇸SAS", "🇺🇸DRT", "🇺🇸SND", "🇺🇸ALP", "🇺🇸ELP", "🇺🇸DEM", "🇺🇸LDB", "🇺🇸BEN", "🇺🇸TUS", "🇺🇸MRC", "🇺🇸YUM", "🇺🇸PSN", "🇺🇸ONA", "🇺🇸POS", "🇺🇸LAX" ]
+				}
+			]
+		},
+		{
+			"descriptions": [
+				"Bringe die Fahrgäste im Auftrag von Amtrak von %s nach %s.",
+				"Fahre durch die USA und Kanada von %s nach %s.",
+				"Bringe die Fahrgäste langsam, aber bequem von %s nach %s.",
+				"Fahre Langstrecke von %s nach %s"
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"name": "Maple Leaf von %s nach %s",
+					"stations": [ "🇨🇦O6997477908", "🇨🇦O6944077371", "🇨🇦O32994795", "🇨🇦O7034874503", "🇺🇸NFL", "🇺🇸BFX", "🇺🇸BUF", "🇺🇸ROC", "🇺🇸SYR", "🇺🇸UCA", "🇺🇸AMS", "🇺🇸SDY", "🇺🇸ALB", "🇺🇸HUD", "🇺🇸RHI", "🇺🇸POU", "🇺🇸CRT", "🇺🇸YNY", "🇺🇸NYP" ]
+				},
+				{
+					"name": "Cascades",
+					"stations": [ "🇨🇦O7012109787", "🇺🇸BEL", "🇺🇸MVW", "🇺🇸STW", "🇺🇸EVR", "🇺🇸EDM", "🇺🇸SEA", "🇺🇸TAC", "🇺🇸OWL", "🇺🇸KEL", "🇺🇸VAN", "🇺🇸PDX", "🇺🇸SLM", "🇺🇸ALY", "🇺🇸EUG" ]
+				}
+			]
+		},
+		{
+			"name": "Ocean von %s nach %s",
+			"descriptions": [
+				"Fahre durch den Osten Kanadas von %s nach %s.",
+				"Fahre für VIA Rail von %s nach %s.",
+				"Bring die Fahrgäste in einem der wichtigsten Züge Kanadas nach %2$s."
+			],
+			"stations": [ "🇨🇦O6298031649", "🇨🇦O5225350011", "🇨🇦O1574687761", "🇨🇦O1699454235", "🇨🇦O7039620715", "🇨🇦O7039620710", "🇨🇦O6268123870", "🇨🇦O7039620705", "🇨🇦O7039620702", "🇨🇦O7039620699", "🇨🇦O6263607585", "🇨🇦O7039606483", "🇨🇦O7039606482", "🇨🇦O1775591017", "🇨🇦O7039564180", "🇨🇦O7039564179", "🇨🇦O261221096", "🇨🇦O6251770931", "🇨🇦O1666530258", "🇨🇦O6978907614", "🇨🇦O420382673", "🇨🇦O7039564169", "🇨🇦O7039564166", "🇨🇦O6366563032", "🇨🇦O7002747046" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1,
+			"service": 1
+		},
+		{
+			"name": "Brightline von %s nach %s",
+			"descriptions": [
+				"Fahre für Brightline durch Florida von %s nach %s.",
+				"Bring die Leute mit modernen Zügen von %s nach %s."
+			],
+			"group": 0,
+			"service": 1,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stations": [ "🇺🇸MIA", "🇺🇸FTL", "🇺🇸O68280977", "🇺🇸WPB" ]
 		},
 		{
 			 "group": 0,
@@ -894,7 +1021,7 @@
 			 "service": 4,
 			 "descriptions": [
 				 "Weil die Air Force One gerade technische Störungen hat, muss der US-Präsident mit dem Zug nach %2$s.",
-				 "Um seine Liebe für Züge zum Ausdruck zu bringen, will Joe Biden per Bahn zum Staatsbesuch nach %2$s."
+				 "Um seine Liebe für Züge zum Ausdruck zu bringen, will Joe Biden per Bahn zur Wahlkampfveranstaltung nach %2$s."
 			 ],
 			 "stations": [ "🇺🇸WAS" ],
 			 "neededCapacity": [
@@ -902,7 +1029,7 @@
 				 { "name": "bistroseats", "value": 10 },
 				 { "name": "beds", "value": 20 }
 			 ]
-		 },
+		},
 		{
 			"name": "Venice-Simplon-Orient-Express von %s nach %s",
 			"descriptions": [
@@ -4849,7 +4976,7 @@
 			"descriptions": [
 				"Die Franzosen haben Interesse an deutschen Brennstäben nach dem Atomaustieg. Bringe die Brennstäbe von %s nach %s."
 			],
-			"stations": [null, "XFFB" ],
+			"stations": [ null, "XFFB" ],
 			"neededCapacity": [
 				{ "name": "castor", "value": 10 }
 			]
@@ -7895,13 +8022,13 @@
 					"stations": [ "TWBK", "TPB", "TPH", "RK" ]
 				},
 				{
-					"stations": [ "TWBK", "TPB", "TPH"]
+					"stations": [ "TWBK", "TPB", "TPH" ]
 				},
 				{
-					"stations": ["TPH", "TPB", "TWBK"]
+					"stations": [ "TPH", "TPB", "TWBK" ]
 				},
 				{
-					"stations": ["RK", "TPH", "TPB", "TWBK"]
+					"stations": [ "RK", "TPH", "TPB", "TWBK" ]
 				}
 			],
 			"neededCapacity": [

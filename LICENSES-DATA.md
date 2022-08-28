@@ -1,5 +1,10 @@
 Es wurden Daten aus den folgenden Datensätzen verwendet:
 
+## OpenStreetMap & OpenRailwayMap
+Streckengeschwindigkeiten/-informationen, Bahnhöfe (insbesondere mit O123456-Codes) und dazugehörige Informationen stammen u.a. aus [OpenStreetMap](openstreetmap.org) und [OpenRailwayMap](openrailwaymap.org).
+Lizenz: https://www.openstreetmap.org/copyright
+(c) OpenStreetMap contributors/Mitwirkende
+
 ## Trainline (international)
 - https://github.com/trainline-eu/stations
 - Lizenz: Open Database License - https://github.com/trainline-eu/stations/blob/master/LICENCE.txt
