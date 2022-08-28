@@ -29838,6 +29838,287 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸ALX",
+					"end": "🇺🇸FBG",
+					"name": "RF&P Subdivision",
+					"length": 73,
+					"maxSpeed": 112,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇺🇸FBG",
+					"end": "🇺🇸RVR",
+					"name": "RF&P Subdivision",
+					"length": 87,
+					"maxSpeed": 112,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇺🇸RVR",
+					"end": "🇺🇸PTB",
+					"name": "North End Subdivision",
+					"length": 45,
+					"maxSpeed": 127,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇺🇸PTB",
+					"end": "🇺🇸O207036",
+					"name": "North End Subdivision",
+					"length": 63,
+					"maxSpeed": 127,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸O207036",
+					"end": "🇺🇸RMT",
+					"name": "North End Subdivision",
+					"length": 91,
+					"maxSpeed": 127,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸RMT",
+					"end": "🇺🇸O5760380615",
+					"name": "South End Subdivision",
+					"length": 112,
+					"maxSpeed": 128,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇺🇸O5760380615",
+					"end": "🇺🇸CYN",
+					"name": "Norfolk Southern - Amtrak - CSX",
+					"length": 13,
+					"maxSpeed": 128,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸CYN",
+					"end": "🇺🇸SFA",
+					"name": "Aberdeen Subdivision",
+					"length": 53,
+					"maxSpeed": 100,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇺🇸SFA",
+					"end": "🇺🇸SOP",
+					"name": "Aberdeen Subdivision",
+					"length": 42,
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸SOP",
+					"end": "🇺🇸HAM",
+					"name": "Hamlet Terminal Subdivision",
+					"length": 45,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸HAM",
+					"end": "🇺🇸O194062",
+					"name": "Hamlet Subdivision",
+					"length": 29,
+					"maxSpeed": 100,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇺🇸O194062",
+					"end": "🇺🇸CAM",
+					"name": "Hamlet Subdivision",
+					"length": 89,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸CAM",
+					"end": "🇺🇸CLB",
+					"name": "CSX Hamlet Subdivision",
+					"length": 53,
+					"maxSpeed": 100,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇺🇸CLB",
+					"end": "🇺🇸DNK",
+					"name": "Columbia Subdivision",
+					"length": 79,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸DNK",
+					"end": "🇺🇸O194012",
+					"name": "Columbia Subdivision",
+					"length": 41,
+					"maxSpeed": 100,
+					"twistingFactor": 0.02
+				},
+				{
+					"start": "🇺🇸O194012",
+					"end": "🇺🇸SAV",
+					"name": "Columbia Subdivision",
+					"length": 99,
+					"maxSpeed": 80,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇺🇸SAV",
+					"end": "🇺🇸JSP",
+					"name": "Nahunta Subdivision",
+					"length": 88,
+					"maxSpeed": 127,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇺🇸JSP",
+					"end": "🇺🇸O119359",
+					"name": "Nahunta Subdivision",
+					"length": 87,
+					"maxSpeed": 127,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "🇺🇸O119359",
+					"end": "🇺🇸JAX",
+					"name": "Nahunta Subdivision",
+					"length": 58,
+					"maxSpeed": 127,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇺🇸JAX",
+					"end": "🇺🇸PAK",
+					"name": "Sanford Subdivision",
+					"length": 92,
+					"maxSpeed": 127,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇺🇸PAK",
+					"end": "🇺🇸DLD",
+					"name": "Sanford Subdivision",
+					"length": 83,
+					"maxSpeed": 127,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇺🇸DLD",
+					"end": "🇺🇸WPK",
+					"name": "Central Florida Rail Corridor",
+					"length": 52,
+					"maxSpeed": 127,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇺🇸WPK",
+					"end": "🇺🇸ORL",
+					"name": "Central Florida Rail Corridor",
+					"length": 9,
+					"maxSpeed": 48,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸ORL",
+					"end": "🇺🇸KIS",
+					"name": "Central Florida Rail Corridor",
+					"length": 26,
+					"maxSpeed": 127,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸KIS",
+					"end": "🇺🇸WTH",
+					"name": "Sanford Subdivision",
+					"length": 62,
+					"maxSpeed": 127,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇺🇸WTH",
+					"end": "🇺🇸SBG",
+					"name": "Auburndale Subdivision",
+					"length": 65,
+					"maxSpeed": 127,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸SBG",
+					"end": "🇺🇸OKE",
+					"name": "Auburndale Subdivision",
+					"length": 66,
+					"maxSpeed": 127,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇺🇸OKE",
+					"end": "🇺🇸WPB",
+					"name": "Auburndale Subdivision",
+					"length": 98,
+					"maxSpeed": 127,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇺🇸WPB",
+					"end": "🇺🇸DLB",
+					"name": "South Florida Rail Corridor",
+					"length": 34,
+					"maxSpeed": 127,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇺🇸DLB",
+					"end": "🇺🇸O68280977",
+					"name": "South Florida Rail Corridor",
+					"length": 7,
+					"maxSpeed": 127,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸O68280977",
+					"end": "🇺🇸DFB",
+					"name": "South Florida Rail Corridor",
+					"length": 9,
+					"maxSpeed": 127,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸DFB",
+					"end": "🇺🇸FTL",
+					"name": "South Florida Rail Corridor",
+					"length": 21,
+					"maxSpeed": 127,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸FTL",
+					"end": "🇺🇸HOL",
+					"name": "South Florida Rail Corridor",
+					"length": 11,
+					"maxSpeed": 96,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸HOL",
+					"end": "🇺🇸MIA",
+					"name": "South Florida Rail Corridor",
+					"length": 37,
+					"maxSpeed": 127,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
 			"name": "Staatslijn C",
 			"maxSpeed": 140,
 			"neededEquipments": [
