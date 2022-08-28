@@ -12815,6 +12815,97 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"name": "Canadian Main Line",
+			"neededEquipments": [ "US" ],
+			"objects": [
+				{
+					"start": "🇨🇦O6298031649",
+					"end": "🇨🇦O5225350011",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.37,
+					"neededEquipments": [
+						"CA"
+					]
+				},
+				{
+					"start": "🇨🇦O5225350011",
+					"end": "🇺🇸RSP",
+					"length": 72,
+					"maxSpeed": 100,
+					"twistingFactor": 0.34,
+					"neededEquipments": [
+						"CA"
+					]
+				},
+				{
+					"start": "🇺🇸RSP",
+					"end": "🇺🇸PLB",
+					"length": 37,
+					"maxSpeed": 100,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇺🇸PLB",
+					"end": "🇺🇸PRK",
+					"length": 20,
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸PRK",
+					"end": "🇺🇸WSP",
+					"length": 42,
+					"maxSpeed": 100,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇺🇸WSP",
+					"end": "🇺🇸POH",
+					"length": 17,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇺🇸POH",
+					"end": "🇺🇸FTC",
+					"length": 24,
+					"maxSpeed": 100,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇺🇸FTC",
+					"end": "🇺🇸WHL",
+					"length": 38,
+					"maxSpeed": 100,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇺🇸WHL",
+					"end": "🇺🇸O1011889402",
+					"length": 35,
+					"maxSpeed": 100,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸O1011889402",
+					"end": "🇺🇸SAR",
+					"length": 29,
+					"maxSpeed": 100,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸SAR",
+					"end": "🇺🇸SDY",
+					"length": 32,
+					"maxSpeed": 48,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
 			"maxSpeed": 90,
 			"electrified": false,
 			"group": 0,
