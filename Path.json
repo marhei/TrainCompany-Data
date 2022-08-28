@@ -5564,6 +5564,47 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MGE",
+					"end": "MWHN",
+					"length": 7,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "MWHN",
+					"end": "MELG",
+					"length": 5,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "MELG",
+					"end": "MSCN",
+					"length": 2,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MSCN",
+					"end": "MMEG",
+					"length": 3,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "MMEG",
+					"end": "MMR",
+					"length": 2,
+					"twistingFactor": 0.34
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"neededEquipments": [
 				"FR"
 			],
@@ -12085,6 +12126,83 @@
 		},
 		{
 			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MWKR",
+					"end": "MNA",
+					"length": 2,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "MNA",
+					"end": "MFH",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MFH",
+					"end": "MHHS",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MHHS",
+					"end": "MUG",
+					"length": 1,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "MUG",
+					"end": "MGIB",
+					"length": 4,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "MGIB",
+					"end": "MGCH",
+					"length": 2,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MGCH",
+					"end": "MNGH",
+					"length": 1,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MNGH",
+					"end": "MWS",
+					"length": 3,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MWS",
+					"end": "MSA",
+					"length": 3,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "MSA",
+					"end": "MSH",
+					"length": 2,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "MSH",
+					"end": "MHI",
+					"length": 5,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"group": 1,
 			"twistingFactor": 0.3,
 			"name": "Albulabahn",
@@ -12808,26 +12926,6 @@
 					"end": "MMF",
 					"length": 10,
 					"twistingFactor": 0.3
-				}
-			]
-		},
-		{
-			"maxSpeed": 120,
-			"electrified": true,
-			"group": 0,
-			"name": "Isartalbahn",
-			"objects": [
-				{
-					"start": "MH",
-					"end": "MHRK",
-					"length": 15,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "MHRK",
-					"end": "MWO",
-					"length": 17,
-					"twistingFactor": 0.2
 				}
 			]
 		},
@@ -14516,6 +14614,47 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 140,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MH",
+					"end": "MJK",
+					"length": 10,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MJK",
+					"end": "MUFG",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MUFG",
+					"end": "MIS",
+					"length": 5,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "MIS",
+					"end": "MHMO",
+					"length": 9,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MHMO",
+					"end": "MFHB",
+					"length": 7,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"maxSpeed": 155,
 			"twistingFactor": 0.2,
 			"objects": [
@@ -14763,25 +14902,6 @@
 					"start": "XBBR",
 					"end": "XBO",
 					"length": 22
-				}
-			]
-		},
-		{
-			"electrified": true,
-			"maxSpeed": 160,
-			"twistingFactor": 0.1,
-			"group": 0,
-			"objects": [
-				{
-					"start": "MNF",
-					"end": "MFHM",
-					"length": 7
-				},
-				{
-					"name": "Neufahrner Spange",
-					"start": "MFHM",
-					"end": "MPU",
-					"length": 7
 				}
 			]
 		},
@@ -33079,6 +33199,36 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"name": "Neufahrner Spange",
+			"objects": [
+				{
+					"start": "MPU",
+					"end": "MFHB",
+					"length": 8,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MNF",
+					"end": "MFHB",
+					"length": 8,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MFHB",
+					"end": "MFHT",
+					"length": 1,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"neededEquipments": [
 				"FR"
 			],
@@ -33731,6 +33881,72 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 120,
+			"name": "Isartalbahn",
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MH",
+					"end": "MGOI",
+					"length": 13,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MGOI",
+					"end": "MPUL",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MPUL",
+					"end": "MHRK",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MHRK",
+					"end": "MBHA",
+					"length": 1,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "MBHA",
+					"end": "MBAB",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "MBAB",
+					"end": "MHSL",
+					"length": 3,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MHSL",
+					"end": "MEBS",
+					"length": 1,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "MEBS",
+					"end": "MIC",
+					"length": 3,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MIC",
+					"end": "MWO",
+					"length": 4,
+					"twistingFactor": 0.24
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"neededEquipments": [
 				"CH"
 			],
@@ -33854,6 +34070,86 @@
 					"start": "XBGX",
 					"end": "XBNA",
 					"length": 17
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"maxSpeed": 100,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NBEI",
+					"end": "NLT",
+					"group": 1,
+					"length": 8,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "NLT",
+					"end": "NZWL",
+					"group": 1,
+					"length": 5,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "NZWL",
+					"end": "NBMS",
+					"group": 1,
+					"length": 4,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "NBMS",
+					"end": "NREG",
+					"group": 1,
+					"length": 5,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "NREG",
+					"end": "NTRI",
+					"group": 1,
+					"length": 7,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "NTRI",
+					"end": "NGZ",
+					"group": 1,
+					"length": 6,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "NGZ",
+					"end": "NGFA",
+					"group": 1,
+					"length": 15,
+					"twistingFactor": 0.49
+				},
+				{
+					"start": "NGFA",
+					"end": "NDG",
+					"group": 1,
+					"length": 7,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "NDG",
+					"end": "NPK",
+					"group": 1,
+					"length": 5,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "NPK",
+					"end": "NPL",
+					"length": 4,
+					"group": 1,
+					"twistingFactor": 0.29
 				}
 			]
 		},
