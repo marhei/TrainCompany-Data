@@ -889,6 +889,21 @@
 			"service": 2
 		},
 		{
+			 "group": 0,
+			 "name": "Präsidentenzug von %s nach %s",
+			 "service": 4,
+			 "descriptions": [
+				 "Weil die Air Force One gerade technische Störungen hat, muss der US-Präsident mit dem Zug nach %s.",
+				 "Um seine Liebe für Züge zum Ausdruck zu bringen, will Joe Biden per Bahn zum Staatsbesuch nach %s."
+			 ],
+			 "stations": [ "🇺🇸WAS" ],
+			 "neededCapacity": [
+				 { "name": "passengers", "value": 50 },
+				 { "name": "bistroseats", "value": 10 },
+				 { "name": "beds", "value": 20 }
+			 ]
+		 },
+		{
 			"name": "Venice-Simplon-Orient-Express von %s nach %s",
 			"descriptions": [
 				"Bringe die Gäste luxuriös durch die Alpen.",
