@@ -960,6 +960,19 @@
 			]
 		},
 		{
+			"name": "Brightline von %s nach %s",
+			"descriptions": [
+				"Fahre für Brightline durch Florida von %s nach %s.",
+				"Bring die Leute mit modernen Zügen von %s nach %s."
+			],
+			"group": 0,
+			"service": 1,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stations": [ "🇺🇸MIA", "🇺🇸FTL", "🇺🇸O68280977", "🇺🇸WPB" ]
+		},
+		{
 			"name": "Venice-Simplon-Orient-Express von %s nach %s",
 			"descriptions": [
 				"Bringe die Gäste luxuriös durch die Alpen.",
