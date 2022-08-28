@@ -12539,6 +12539,51 @@
 			"twistingFactor": 0.25
 		},
 		{
+			"name": "Bellingham Subdivision",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 127,
+			"objects": [
+				{
+					"start": "🇨🇦O7012109787",
+					"end": "🇺🇸BEL",
+					"length": 97,
+					"twistingFactor": 0.37,
+					"neededEquipments": [
+						"US",
+						"CA"
+					]
+				},
+				{
+					"start": "🇺🇸BEL",
+					"end": "🇺🇸MVW",
+					"length": 40,
+					"twistingFactor": 0.23,
+					"neededEquipments": [
+						"US"
+					]
+				},
+				{
+					"start": "🇺🇸MVW",
+					"end": "🇺🇸STW",
+					"length": 19,
+					"twistingFactor": 0.12,
+					"neededEquipments": [
+						"US"
+					]
+				},
+				{
+					"start": "🇺🇸STW",
+					"end": "🇺🇸EVR",
+					"length": 37,
+					"twistingFactor": 0.29,
+					"neededEquipments": [
+						"US"
+					]
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"twistingFactor": 0.3,
 			"objects": [
