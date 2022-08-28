@@ -107,9 +107,16 @@
 					"description": "Ril100 aller Bahnhöfe, die angefahren werden sollen in der richtigen Reihenfolge.\nWird keiner angegeben, werden zwei zufällige gewählt.",
 					"type": "array",
 					"items": {
-						"type": "string",
-						"minLength": 2,
-						"maxLength": 20
+						"oneOf": [
+							{
+								"type": "string",
+								"minLength": 2,
+								"maxLength": 20
+							},
+							{
+								"type": "null"
+							}
+						]
 					}
 				},
 				"pathSuggestion": {

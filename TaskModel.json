@@ -1849,7 +1849,7 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "MFHM", "MNF", "MH" ]
+					"stations": [ "MFHT", "MNF", "MH" ]
 				},
 				{
 					"stations": [ "MFR", "MPU", "MNF", "MH" ]
@@ -1999,11 +1999,11 @@
 				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen."
 			],
 			"service": 2,
-			"stations": [ "MFHM", "MFR", "MMB", "MLA", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH" ],
+			"stations": [ "MFHT", "MFR", "MMB", "MLA", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
-			"pathSuggestion": [ "MFHM", "MPU", "MFR", "MMB", "MLA", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH" ]
+			"pathSuggestion": [ "MFHT", "MPU", "MFR", "MMB", "MLA", "MNFR", "MEGM", "NHA", "NKOE", "NOT", "NRH" ]
 		},
 		{
 			"group": 1,
@@ -2124,10 +2124,10 @@
 			"service": 3,
 			"objects": [
 				{
-					"stations": [ "MEG", "MGB", "MH", "MTZ" ]
+					"stations": [ "MEG", "MGB", "MH", "MWKR", "MTZ" ]
 				},
 				{
-					"stations": [ "MGB", "MH", "MTZ" ]
+					"stations": [ "MGB", "MH", "MWKR", "MTZ" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -4926,24 +4926,7 @@
 			"descriptions": [
 				"Die Franzosen haben Interesse an deutschen Brennstäben nach dem Atomaustieg. Bringe die Brennstäbe von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "AWIR", "XFFB" ],
-					"pathSuggestion": [ "AWIR", "AEL", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
-				},
-				{
-					"stations": [ "MLA", "XFFB" ],
-					"pathSuggestion": [ "MLA", "MPU", "MNF", "MH", "MA", "MGZB", "TU", "TP", "TS", "TV", "RBR", "RSAB", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
-				},
-				{
-					"stations": [ "TKM", "XFFB" ],
-					"pathSuggestion": [ "TKM", "TS", "TV", "RBR", "RSAB", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
-				},
-				{
-					"stations": [ "HLIG", "XFFB" ],
-					"pathSuggestion": [ "HLIG", "HR", "EMST", "EDO", "EHG", "KW", "KSO", "KK", "KKAS", "KB", "KKO", "FBGK", "FMZ", "FFLF", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFFB" ]
-				}
-			],
+			"stations": [null, "XFFB" ],
 			"neededCapacity": [
 				{ "name": "castor", "value": 10 }
 			]
