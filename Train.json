@@ -3469,6 +3469,26 @@
 			]
 		},
 		{
+			"id": 642800,
+			"group": 2,
+			"name": "Trainguard ETCS Zug",
+			"shortcut": "VT 1.0/1.5-ETCS",
+			"speed": 120,
+			"weight": 68,
+			"force": 50,
+			"length": 42,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 550000,
+			"operationCosts": 100,
+			"maxConnectedUnits": 1,
+			"equipments": ["AT", "PL", "DE", "HU", "DK", "RO", "BG", "GR", "ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 63},
+				{"name": "bistroseats", "value": 7}
+			]
+		},
+		{
 			"id": 643,
 			"group": 2,
 			"name": "Bombardier TALENT",
