@@ -11301,6 +11301,55 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸SPK",
+					"end": "🇺🇸O237648",
+					"name": "BNSF Lakeside Subdivision",
+					"length": 103,
+					"maxSpeed": 127,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇺🇸O237648",
+					"end": "🇺🇸PSC",
+					"name": "BNSF Lakeside Subdivision",
+					"length": 129,
+					"maxSpeed": 127,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇺🇸PSC",
+					"end": "🇺🇸WIH",
+					"name": "Fallbridge Subdivision",
+					"length": 201,
+					"maxSpeed": 127,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇺🇸WIH",
+					"end": "🇺🇸BNG",
+					"name": "Fallbridge Subdivision",
+					"length": 48,
+					"maxSpeed": 112,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇺🇸BNG",
+					"end": "🇺🇸VAN",
+					"name": "Fallbridge Subdivision",
+					"length": 105,
+					"maxSpeed": 112,
+					"twistingFactor": 0.21
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 120,
