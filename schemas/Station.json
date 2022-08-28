@@ -131,6 +131,11 @@
 					"type": "boolean",
 					"default": true
 				},
+				"network": {
+					"description": "Zufällige Ausschreibungen werden nur innerhalb eines Netzwerks generiert.",
+					"type": "string",
+					"default": null
+				},
 				"inDefaultRectangle": {
 					"description": "Zur Defination des Standard-Zoom-Rechtecks der Karte. Bitte nicht selbst setzen!",
 					"type": "boolean",
