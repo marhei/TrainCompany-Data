@@ -174,6 +174,27 @@
 		},
 		{
 			"group": 1,
+			"name": "SAPSAN von %s nach %s",
+			"service": 0,
+			"descriptions": [
+				"Verbinde %s mit %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇷🇺O473887668", "🇷🇺O21596808" ],
+					"pathSuggestion": [ "🇷🇺O473887668", "🇷🇺O21596808" ]
+				},
+				{
+					"stations": [ "🇷🇺O473887668", "🇷🇺O1987608520", "🇷🇺O1987674962", "🇷🇺O1987706085", "🇷🇺O21596808" ],
+					"pathSuggestion": [ "🇷🇺O473887668", "🇷🇺O1987608520", "🇷🇺O1987674962", "🇷🇺O1987706085", "🇷🇺O21596808" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Alleo-ICE/TGV von %s nach %s",
 			"service": 0,
 			"descriptions": [
