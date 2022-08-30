@@ -8036,6 +8036,25 @@
 		},
 		{
 			"group": 1,
+			"name": "FlixTrain von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe die Fahrgäste billig durch Deutschland.",
+				"Halte auch in Haneu",
+				"Fahre preiswert und pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "TS", "RH", "FD", "FMZ", "FF", "FO", "FH", "FFU", "FKW", "HG", "HHI", "HBS", "HWOB", "BSPD", "BL"],
+					"pathSuggestion": [ "TS", "TV", "RUW", "RH", "RMF", "FBH", "FD", "FDG", "FMB", "FMZ", "FW", "FHOE", "FF", "FO", "FH", "FGEL", "FFD", "FFU", "FKW", "HG", "HN", "HK", "HELZ", "HHI", "HBS", "HWOB", "LS", "BSPD", "BL" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "S6 von %s nach %s",
 			"service": 3,
 			"descriptions": [
