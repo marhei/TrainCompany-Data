@@ -1105,59 +1105,239 @@
 		},
 		{
 			"name": "Nahetalbahn",
-			"group": 1,
+			"group": 0,
 			"electrified": false,
+			"twistingFactor": 0.2,
+			"maxSpeed": 100,
 			"objects": [
 				{
 					"start": "FBGK",
+					"end": "SMSA",
+					"length": 2
+				},
+				{
+					"start": "SMSA",
+					"end": "SLAU",
+					"length": 4
+				},
+				{
+					"start": "SLAU",
+					"end": "SLN",
+					"length": 2
+				},
+				{
+					"start": "SLN",
+					"end": "SBRH",
+					"length": 3
+				},
+				{
+					"start": "SBRH",
 					"end": "SBKN",
-					"twistingFactor": 0.2,
-					"maxSpeed": 110,
-					"length": 15
+					"length": 5
 				},
 				{
 					"start": "SBKN",
 					"end": "SBMS",
-					"twistingFactor": 0.25,
-					"maxSpeed": 90,
-					"length": 5
+					"length": 4
 				},
 				{
 					"start": "SBMS",
+					"end": "SNOR",
+					"length": 3
+				},
+				{
+					"start": "SNOR",
+					"end": "SSTH",
+					"length": 12
+				},
+				{
+					"start": "SSTH",
+					"end": "SSOB",
+					"length": 3
+				},
+				{
+					"start": "SSOB",
+					"end": "SSOP",
+					"length": 1
+				},
+				{
+					"start": "SSOP",
+					"end": "SMON",
+					"length": 4
+				},
+				{
+					"start": "SMON",
+					"end": "SHS",
+					"length": 6
+				},
+				{
+					"start": "SHS",
 					"end": "SKR",
-					"twistingFactor": 0.5,
-					"length": 33,
-					"maxSpeed": 140
+					"length": 4
 				},
 				{
 					"start": "SKR",
+					"end": "SKRS",
+					"length": 3
+				},
+				{
+					"start": "SKRS",
+					"end": "SFWB",
+					"length": 4
+				},
+				{
+					"start": "SFWB",
 					"end": "SIDO",
-					"twistingFactor": 0.2,
-					"length": 15,
-					"maxSpeed": 100
+					"length": 8
 				},
 				{
 					"start": "SIDO",
+					"end": "SKRO",
+					"length": 7
+				},
+				{
+					"start": "SKRO",
+					"end": "SNON",
+					"length": 2
+				},
+				{
+					"start": "SNON",
+					"end": "SHB",
+					"length": 3
+				},
+				{
+					"start": "SHB",
+					"end": "SHPS",
+					"length": 3
+				},
+				{
+					"start": "SHPS",
+					"end": "SNBR",
+					"length": 2
+				},
+				{
+					"start": "SNBR",
+					"end": "SNO",
+					"length": 4
+				},
+				{
+					"start": "SNO",
 					"end": "STM",
-					"twistingFactor": 0.5,
-					"length": 26,
-					"maxSpeed": 100
+					"length": 2
 				},
 				{
 					"start": "STM",
+					"end": "SWL",
+					"length": 3,
+					"electrified": true
+				},
+				{
+					"start": "SWL",
+					"end": "SNAB",
+					"length": 4,
+					"electrified": true
+				},
+				{
+					"start": "SNAB",
+					"end": "SHFD",
+					"length": 2,
+					"electrified": true
+				},
+				{
+					"start": "SHFD",
+					"end": "SBAL",
+					"length": 3,
+					"electrified": true
+				},
+				{
+					"start": "SBAL",
+					"end": "SSWD",
+					"length": 3,
+					"electrified": true
+				},
+				{
+					"start": "SSWD",
+					"end": "SOW",
+					"length": 2,
+					"electrified": true
+				},
+				{
+					"start": "SOW",
+					"end": "SNDL",
+					"length": 3,
+					"electrified": true
+				},
+				{
+					"start": "SNDL",
+					"end": "SOTW",
+					"length": 3,
+					"electrified": true
+				},
+				{
+					"start": "SOTW",
+					"end": "SWK",
+					"length": 4,
+					"electrified": true
+				},
+				{
+					"start": "SWK",
 					"end": "SNK",
-					"twistingFactor": 0.35,
-					"length": 29,
-					"electrified": true,
-					"maxSpeed": 110
+					"length": 2,
+					"electrified": true
 				},
 				{
 					"start": "SNK",
+					"end": "SLWR",
+					"length": 5,
+					"electrified": true
+				},
+				{
+					"start": "SLWR",
+					"end": "SBDS",
+					"length": 2,
+					"electrified": true
+				},
+				{
+					"start": "SBDS",
+					"end": "SFIM",
+					"length": 1,
+					"electrified": true
+				},
+				{
+					"start": "SFIM",
+					"end": "SFI",
+					"length": 1,
+					"electrified": true
+				},
+				{
+					"start": "SFI",
+					"end": "SSZA",
+					"length": 1,
+					"electrified": true
+				},
+				{
+					"start": "SSZA",
+					"end": "SSZ",
+					"length": 3,
+					"electrified": true
+				},
+				{
+					"start": "SSZ",
+					"end": "SDUW",
+					"length": 3,
+					"electrified": true
+				},
+				{
+					"start": "SDUW",
+					"end": "SJF",
+					"length": 2,
+					"electrified": true
+				},
+				{
+					"start": "SJF",
 					"end": "SSH",
-					"twistingFactor": 0.3,
-					"length": 21,
-					"electrified": true,
-					"maxSpeed": 110
+					"length": 4,
+					"electrified": true
 				}
 			]
 		},
