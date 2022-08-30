@@ -42388,6 +42388,148 @@
 			]
 		},
 		{
+			"name": "Bahnstrecke Plauen-Cheb",
+			"twistingFactor": 0.25,
+			"group": 0,			
+			"electrified": false,			
+			"maxSpeed": 80,
+			"neededEquipments": [ "DE" ],
+			"objects": [
+				{
+					"start": "DP",
+					"end": "DPW",					
+					"electrified": true,
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "DPW",
+					"end": "DSRB",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DSRB",
+					"end": "DKUR",
+					"length": 3,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "DKUR",
+					"end": "DWS",
+					"length": 3,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "DWS",
+					"end": "DPK",
+					"length": 3,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DPK",
+					"end": "DOV",
+					"length": 5,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DOV",
+					"end": "DHUN",
+					"length": 6,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "DHUN",
+					"end": "DAD",
+					"length": 6,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "DAD",
+					"end": "DBEL",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "DBEL",
+					"end": "DSOL",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "DSOL",
+					"end": "DRU",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "DRU",
+					"end": "DBM",
+					"length": 8,
+					"maxSpeed": 60,
+					"twistingFactor": 0.6
+				},
+				{
+					"start": "DBM",
+					"end": "XTPLA",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.47,
+					"neededEquipments": [
+						"CZ",
+						"DE"
+					]
+				},
+				{
+					"start": "XTPLA",
+					"end": "XTV",
+					"length": 6,
+					"maxSpeed": 60,
+					"twistingFactor": 0.31,
+					"neededEquipments": [
+						"CZ"
+					]
+				},
+				{
+					"start": "XTV",
+					"end": "XTFS",
+					"electrified": true,
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.35,
+					"neededEquipments": [
+						"CZ"
+					]
+				},
+				{
+					"start": "XTFS",
+					"end": "🇨🇿74005",
+					"electrified": true,
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"CZ"
+					]
+				},
+				{
+					"start": "🇨🇿74005",
+					"end": "XTCH",
+					"electrified": true,
+					"length": 6,
+					"maxSpeed": 90,
+					"twistingFactor": 0.19,
+					"neededEquipments": [
+						"CZ"
+					]
+				}
+			]
+		},
+		{
 			"name": "Marktredwitz - Cheb",
 			"group": 0,
 			"objects": [
