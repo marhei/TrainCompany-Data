@@ -12642,10 +12642,49 @@
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 110,
-			"start": "FARM",
-			"end": "FMZ",
 			"twistingFactor": 0.5,
-			"length": 33
+			"objects": [
+				{
+					"start": "FARM",
+					"end": "FWRR",
+					"length": 6
+				},
+				{
+					"start": "FWRR",
+					"end": "FSLH",
+					"length": 4
+				},
+				{
+					"start": "FSLH",
+					"end": "FNOL",
+					"length": 5
+				},
+				{
+					"start": "FNOL",
+					"end": "FKWO",
+					"length": 4
+				},
+				{
+					"start": "FKWO",
+					"end": "FMMB",
+					"length": 4
+				},
+				{
+					"start": "FMMB",
+					"end": "FMGO",
+					"length": 4
+				},
+				{
+					"start": "FMGO",
+					"end": "FWFK",
+					"length": 3
+				},
+				{
+					"start": "FWFK",
+					"end": "FMZ",
+					"length": 3
+				}
+			]
 		},
 		{
 			"electrified": true,
