@@ -12138,6 +12138,7 @@
 			"name": "Alsenztalbahn",
 			"electrified": false,
 			"maxSpeed": 100,
+			"twistingFactor": 0.3,
 			"objects": [
 				{
 					"start": "SKL",
@@ -12154,9 +12155,48 @@
 				},
 				{
 					"start": "SENK",
+					"end": "SMUE",
+					"length": 7
+				},
+				{
+					"start": "SMUE",
+					"end": "SLM",
+					"length": 1
+				},
+				{
+					"start": "SLM",
+					"end": "SWNW",
+					"length": 3
+				},
+				{
+					"start": "SWNW",
+					"end": "SIM",
+					"length": 5
+				},
+				{
+					"start": "SIM",
+					"end": "SRC",
+					"length": 3
+				},
+				{
+					"start": "SRC",
+					"end": "SAZ",
+					"length": 13
+				},
+				{
+					"start": "SAZ",
+					"end": "SHST",
+					"length": 4
+				},
+				{
+					"start": "SHST",
+					"end": "SAB",
+					"length": 3
+				},
+				{
+					"start": "SAB",
 					"end": "SBMS",
-					"twistingFactor": 0.35,
-					"length": 44
+					"length": 4
 				}
 			]
 		},
