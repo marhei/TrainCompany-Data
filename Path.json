@@ -26871,30 +26871,77 @@
 		},
 		{
 			"name": "Hannover–Berlin",
-			"group": 2,
+			"group": 0,
 			"electrified": true,
+			"twistingFactor": 0.1,
 			"objects": [
 				{
 					"start": "BSPD",
 					"end": "LS",
 					"maxSpeed": 250,
-					"twistingFactor": 0.1,
-					"length": 86
+					"length": 86,
+					"group": 2
 				},
 				{
 					"start": "LS",
 					"end": "HWOB",
 					"maxSpeed": 250,
-					"twistingFactor": 0.1,
-					"length": 82
+					"length": 82,
+					"group": 2
 				},
 				{
 					"start": "HWOB",
+					"end": "HF",
+					"length": 4,
+					"maxSpeed": 200
+				},
+				{
+					"start": "HF",
+					"end": "HCAL",
+					"length": 6,
+					"maxSpeed": 200
+				},
+				{
+					"start": "HCAL",
+					"end": "HGI",
+					"length": 7,
+					"maxSpeed": 200
+				},
+				{
+					"start": "HGI",
+					"end": "HLFG",
+					"length": 8,
+					"maxSpeed": 200
+				},
+				{
+					"start": "HLFG",
+					"end": "HMRS",
+					"length": 7,
+					"maxSpeed": 200
+				},
+				{
+					"start": "HMRS",
+					"end": "HDEH",
+					"length": 6,
+					"maxSpeed": 200
+				},
+				{
+					"start": "HDEH",
+					"end": "HDOG",
+					"length": 4,
+					"maxSpeed": 200
+				},
+				{
+					"start": "HDOG",
+					"end": "HIMS",
+					"length": 8,
+					"maxSpeed": 200
+				},
+				{
+					"start": "HIMS",
 					"end": "HLER",
-					"maxSpeed": 200,
-					"twistingFactor": 0.3,
-					"length": 59,
-					"group": 0
+					"length": 8,
+					"maxSpeed": 200
 				}
 			]
 		},
