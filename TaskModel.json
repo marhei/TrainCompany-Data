@@ -3184,6 +3184,7 @@
 					"stations": [ "HHI", "HLER", "HH" ]
 				}
 			],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -3280,20 +3281,22 @@
 			"descriptions": [
 				"Die Usedomer Bäderbahn bringt Touristen auf die Insel."
 			],
-			"stations": [ "WZS", "WBHN", "WWO", "WTH", "WZ", "WUEK", "WBN", "WHF", "XPSM" ],
+			"stations": [ "WZS", "XPSM" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
 		},
 		{
 			"group": 1,
-			"name": "RB77 von %s nach %s",
+			"name": "RB 77 von %s nach %s",
 			"service": 3,
 			"descriptions": [
 				"Bring die Fahrgäste pünktlich von %s nach %s.",
 				"Fahr mit der Weser-Bahn von %s nach %s."
 			],
-			"stations": [ "HHI", "HELZ", "HHM", "HHSO", "HRIN", "HL", "EHFD" ],
+			"stations": [ "HHI", "HELZ", "HHM", "HL", "EHFD" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -3370,22 +3373,12 @@
 			"service": 2,
 			"descriptions": [
 				"Bring die Fahrgäste mit oder ohne Fahrräder pünktlich durch das Leinetal und an die Aller.",
-				"Bring den RE2 von %s nach %s. Die Strecke ist stark ausgelastet."
-			],
-			"stations": [ "HG", "HNTH", "HN", "HEB", "HK", "HELZ", "HH", "HC", "HU" ],
-			"neededCapacity": [
-				{ "name": "passengers" }
-			]
-		},
-		{
-			"group": 1,
-			"name": "Metronom von %s nach %s",
-			"service": 2,
-			"descriptions": [
-				"Bring die Fahrgäste mit oder ohne Fahrräder pünktlich nach %2$s.",
-				"Bring den RE von %s nach %s."
+				"Bring den RE von %s nach %s. Die Strecke ist stark ausgelastet."
 			],
 			"objects": [
+				{
+					"stations": [ "HG", "HNTH", "HN", "HEB", "HK", "HELZ", "HH", "HC", "HU" ]
+				},
 				{
 					"stations": [ "AH", "AHAR", "ALBG", "HU" ]
 				},
@@ -3433,7 +3426,7 @@
 		},
 		{
 			"group": 1,
-			"name": "RB89 von %s nach %s",
+			"name": "RB 89 von %s nach %s",
 			"service": 2,
 			"descriptions": [
 				"Bring die Ems-Börde-Bahn pünktlich von %s nach %s."
@@ -3445,7 +3438,7 @@
 		},
 		{
 			"group": 1,
-			"name": "RB84 von %s nach %s",
+			"name": "RB 84 von %s nach %s",
 			"service": 3,
 			"descriptions": [
 				"Bring die Fahrgäste pünktlich und sicher durch die Egge bis ins Weserbergland",
@@ -4469,11 +4462,24 @@
 		{
 			"group": 0,
 			"service": 4,
+			"name": "Sonderzug des Altenheims %s",
+			"descriptions": [
+				"Nach einem anstrengenden Tag in %s wollen die nicht mehr so aktiven Rentner nur noch nach Hause.",
+				"Weil Hilde in %s die Handtasche geklaut wurde wollen die rüstigen Rentner schnell zurück in ihr Altenheil nach %s."
+			],
+			"stations": [ null, "EA" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"service": 4,
 			"name": "#FensterAuf-Sonderzug für @marhei",
 			"descriptions": [
 				"Marcel möchte zur Vervollständigung seiner Streckenkarte von %s nach %s gebracht werden.",
-				"Um sein Ziel alle Bahnstrecke abgefahren zu sein näher zu kommen bringe Marcel von %s nach %s.",
-				"Marcel fehlt noch die Strecke von %s nach %s auf seiner Streckenkarte, hilf ihm dieses Loch zu stopfen."
+				"Bringe Marcel von %s nach %s um sein Ziel alle Bahnstrecke abgefahren zu sein näher zu kommen.",
+				"Marcel fehlt auf seiner Streckenkarte noch die Strecke von %s nach %s, hilf ihm dieses Loch zu stopfen."
 			],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 1 },
@@ -4762,6 +4768,7 @@
 				"Die B278 wurde zwischen %s und %s unterspült, die Schüler müssen aber trotzdem in den Unterricht."
 			],
 			"stations": [ "NS", "NBKI", "NGM", "NLO" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -4946,7 +4953,7 @@
 				},
 				{
 					"stations": [ "XNAC", "🇳🇱Ldm" ],
-					"pathSuggestion": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr", "🇳🇱Ldm" ]
+					"pathSuggestion": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "XNRC", "🇳🇱Brd", "🇳🇱Ddr", "🇳🇱Ldm" ]
 				}
 			],
 			"neededCapacity": [
@@ -6206,16 +6213,12 @@
 					"stations": [ "🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Bd", "🇳🇱Tb", "XNEI" ]
 				},
 				{
-					"stations": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Ddr", "🇳🇱Rsd", "🇳🇱Vs" ],
-					"pathSuggestion": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr", "🇳🇱Zlw", "🇳🇱Rsd", "🇳🇱Mdb", "🇳🇱Vs" ]
+					"stations": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Rsd", "🇳🇱Vs" ],
+					"pathSuggestion": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Brd", "🇳🇱Zlw", "🇳🇱Rsd", "🇳🇱Mdb", "🇳🇱Vs" ]
 				},
 				{
 					"stations": [ "🇳🇱Lls", "🇳🇱Almb", "🇳🇱Alm", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Ddr" ],
-					"pathSuggestion": [ "🇳🇱Lls", "🇳🇱Almb", "🇳🇱Alm", "🇳🇱Wp", "XNAC", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr" ]
-				},
-				{
-					"stations": [ "XNU", "XNAC", "XNSP", "🇳🇱Gv", "XNRC" ],
-					"pathSuggestion": [ "XNU", "🇳🇱Asb", "XNAC", "XNSP", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "XNRC" ]
+					"pathSuggestion": [ "🇳🇱Lls", "🇳🇱Almb", "🇳🇱Alm", "🇳🇱Wp", "XNAC", "XNSP", "🇳🇱Hfd", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Brd", "🇳🇱Ddr" ]
 				},
 				{
 					"stations": [ "🇳🇱Ddr", "🇳🇱Bd", "🇳🇱Tb", "XNEI" ],
@@ -6329,7 +6332,7 @@
 					"stations": [ "XNU", "🇳🇱Gdm", "🇳🇱Ht" ]
 				},
 				{
-					"stations": [ "🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Brd", "🇳🇱Kfh", "🇳🇱Ddr", "🇳🇱Ldm", "🇳🇱Gdm" ]
+					"stations": [ "🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Brd", "🇳🇱Ddr", "🇳🇱Ldm", "🇳🇱Gdm" ]
 				},
 				{
 					"stations": [ "🇳🇱Apn", "🇳🇱Gd" ]
