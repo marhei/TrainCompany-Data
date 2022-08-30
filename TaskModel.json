@@ -987,6 +987,25 @@
 			]
 		},
 		{
+			"descriptions": [
+				"Bringe die Fahrgäste im Auftrag von Amtrak von %s nach %s.",
+				"Fahre durch die USA von %s nach %s.",
+				"Bringe die Fahrgäste langsam, aber bequem von %s nach %s.",
+				"Fahre Langstrecke von %s nach %s"
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"name": "Missouri River Runner von %s nach %s",
+					"stations": [ "🇺🇸KCY", "🇺🇸IDP", "🇺🇸LEE", "🇺🇸WAR", "🇺🇸SED", "🇺🇸JEF", "🇺🇸HEM", "🇺🇸WAH", "🇺🇸KWD", "🇺🇸STL" ]
+				}
+			]
+		},
+		{
 			"name": "Ocean von %s nach %s",
 			"descriptions": [
 				"Fahre durch den Osten Kanadas von %s nach %s.",
@@ -1016,19 +1035,19 @@
 			"stations": [ "🇺🇸MIA", "🇺🇸FTL", "🇺🇸O68280977", "🇺🇸WPB" ]
 		},
 		{
-			 "group": 0,
-			 "name": "Präsidentenzug von %s nach %s",
-			 "service": 4,
-			 "descriptions": [
-				 "Weil die Air Force One gerade technische Störungen hat, muss der US-Präsident mit dem Zug nach %2$s.",
-				 "Um seine Liebe für Züge zum Ausdruck zu bringen, will Joe Biden per Bahn zur Wahlkampfveranstaltung nach %2$s."
-			 ],
-			 "stations": [ "🇺🇸WAS" ],
-			 "neededCapacity": [
-				 { "name": "passengers", "value": 50 },
-				 { "name": "bistroseats", "value": 10 },
-				 { "name": "beds", "value": 20 }
-			 ]
+			"group": 0,
+			"name": "Präsidentenzug von %s nach %s",
+			"service": 4,
+			"descriptions": [
+				"Weil die Air Force One gerade technische Störungen hat, muss der US-Präsident mit dem Zug nach %2$s.",
+				"Um seine Liebe für Züge zum Ausdruck zu bringen, will Joe Biden per Bahn zur Wahlkampfveranstaltung nach %2$s."
+			],
+			"stations": [ "🇺🇸WAS" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 50 },
+				{ "name": "bistroseats", "value": 10 },
+				{ "name": "beds", "value": 20 }
+			]
 		},
 		{
 			"name": "Venice-Simplon-Orient-Express von %s nach %s",
