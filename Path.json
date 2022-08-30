@@ -1841,12 +1841,31 @@
 			]
 		},
 		{
-			"group": 1,
-			"start": "SNK",
-			"end": "SHO",
+			"group": 0,
 			"twistingFactor": 0.2,
-			"length": 14,
-			"maxSpeed": 110
+			"maxSpeed": 110,
+			"objects": [
+				{
+					"start": "SHO",
+					"end": "SBX",
+					"length": 7
+				},
+				{
+					"start": "SBX",
+					"end": "SNKE",
+					"length": 2
+				},
+				{
+					"start": "SNKE",
+					"end": "SNKW",
+					"length": 1
+				},
+				{
+					"start": "SNKW",
+					"end": "SNK",
+					"length": 4
+				}
+			]
 		},
 		{
 			"name": "Saarstrecke",
