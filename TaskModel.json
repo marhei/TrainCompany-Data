@@ -8059,6 +8059,20 @@
 				{ "name": "passengers" }
 			],
 			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regioswinger von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Die kurvenreiche Strecke von %s nach %s ist ideal für ein NT-Fahrzeug.",
+				"Bring die Urlauber ohne zu kotzen direkt ans Mittelmeer."
+			],
+			"stations": [ "XRZ", "XRS" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
