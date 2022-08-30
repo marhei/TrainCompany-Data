@@ -4356,12 +4356,48 @@
 		{
 			"name": "Main-Spessart-Bahn",
 			"maxSpeed": 160,
+			"twistingFactor": 0.1,
 			"objects": [
 				{
 					"start": "FH",
+					"end": "FGAU",
+					"length": 1,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FGAU",
+					"end": "FGK",
+					"length": 4
+				},
+				{
+					"start": "FGK",
+					"end": "FKLM",
+					"length": 2
+				},
+				{
+					"start": "FKLM",
+					"end": "FDET",
+					"length": 4
+				},
+				{
+					"start": "FDET",
+					"end": "FRS",
+					"length": 3
+				},
+				{
+					"start": "FRS",
+					"end": "FKO",
+					"length": 2
+				},
+				{
+					"start": "FKO",
+					"end": "FSTE",
+					"length": 2
+				},
+				{
+					"start": "FSTE",
 					"end": "NAH",
-					"length": 23,
-					"twistingFactor": 0.2
+					"length": 5
 				},
 				{
 					"start": "NAH",
@@ -10487,7 +10523,7 @@
 			]
 		},
 		{
-			"group": 1,
+			"group": 0,
 			"name": "Rhein-Main-Bahn",
 			"twistingFactor": 0.2,
 			"maxSpeed": 120,
@@ -10536,6 +10572,36 @@
 					"start": "FDK",
 					"end": "FD",
 					"length": 6
+				},
+				{
+					"start": "FD",
+					"end": "FWI",
+					"length": 7
+				},
+				{
+					"start": "FWI",
+					"end": "FKGE",
+					"length": 5
+				},
+				{
+					"start": "FKGE",
+					"end": "FEIM",
+					"length": 1
+				},
+				{
+					"start": "FEIM",
+					"end": "FDG",
+					"length": 1
+				},
+				{
+					"start": "FDG",
+					"end": "FNU",
+					"length": 3
+				},
+				{
+					"start": "FNU",
+					"end": "FMB",
+					"length": 9
 				}
 			]
 		},
