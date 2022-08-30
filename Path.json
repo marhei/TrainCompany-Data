@@ -12309,34 +12309,101 @@
 			"group": 1,
 			"name": "Rheinhessenbahn",
 			"electrified": false,
+			"twistingFactor": 0.15,
+			"maxSpeed": 110,
 			"objects": [
 				{
 					"start": "FWOR",
+					"end": "FPD",
+					"length": 6
+				},
+				{
+					"start": "FPD",
 					"end": "FMSH",
-					"twistingFactor": 0.15,
-					"maxSpeed": 110,
-					"length": 12
+					"length": 5,
+					"maxSpeed": 120
 				},
 				{
 					"start": "FMSH",
+					"end": "FNFD",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FNFD",
+					"end": "FGUH",
+					"length": 5,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FGUH",
+					"end": "FEPP",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FEPP",
+					"end": "FAZS",
+					"length": 5,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FAZS",
 					"end": "FALZ",
-					"twistingFactor": 0.3,
-					"maxSpeed": 120,
-					"length": 19
+					"length": 3,
+					"maxSpeed": 120
 				},
 				{
 					"start": "FALZ",
+					"end": "FAG",
+					"length": 2
+				},
+				{
+					"start": "FAG",
 					"end": "FARM",
-					"twistingFactor": 0.3,
-					"maxSpeed": 110,
-					"length": 8
+					"length": 5
 				},
 				{
 					"start": "FARM",
+					"end": "FWAH",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FWAH",
+					"end": "FGBM",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FGBM",
+					"end": "FWZ",
+					"length": 6,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FWZ",
+					"end": "FGHO",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FGHO",
+					"end": "FGHA",
+					"length": 1,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FGHA",
+					"end": "FBDR",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "FBDR",
 					"end": "FBGK",
-					"twistingFactor": 0.3,
-					"maxSpeed": 120,
-					"length": 27
+					"length": 9,
+					"maxSpeed": 120
 				}
 			]
 		},
