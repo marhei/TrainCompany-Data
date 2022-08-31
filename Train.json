@@ -7624,7 +7624,7 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 180000,
-			"equipments": ["1520mm"],
+			"equipments": ["1520mm", "1435mm"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "beds", "value": 40}
@@ -7642,7 +7642,7 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 170000,
-			"equipments": ["1520mm"],
+			"equipments": ["1520mm", "1435mm"],
 			"exchangeTime": 100,
 			"capacity": [
 				{"name": "passengers", "value": 80}
@@ -7660,7 +7660,7 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 220000,
-			"equipments": ["1520mm"],
+			"equipments": ["1520mm", "1435mm"],
 			"exchangeTime": 180,
 			"capacity": [
 				{"name": "bistroseats", "value": 40}
@@ -7896,6 +7896,22 @@
 			]
 		},
 		{
+			"id": 811520,
+			"group": 1,
+			"name": "1520mm-Autotransportwagen",
+			"shortcut": "13-925",
+			"speed": 120,
+			"weight": 22,
+			"force": 0,
+			"length": 20,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 110000,
+			"capacity": [
+				{"name": "cars", "value": 8}
+			]
+		},		
+		{
 			"id": 14,
 			"group": 1,
 			"name": "Holzwagen",
@@ -7911,6 +7927,23 @@
 				{"name": "wood", "value": 60}
 			]
 		},
+		{
+			"id": 141520,
+			"group": 1,
+			"name": "1520mm-Holzwagen",
+			"shortcut": "13-4011",
+			"speed": 120,
+			"weight": 18,
+			"force": 0,
+			"length": 20,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 150000,
+			"equipments": ["1520mm"],			
+			"capacity": [
+				{"name": "wood", "value": 70}
+			]
+		},		
 		{
 			"id": 16,
 			"group": 1,
@@ -7928,6 +7961,23 @@
 			]
 		},
 		{
+			"id": 161520,
+			"group": 1,
+			"name": "1520mm-Kesselwagen",
+			"shortcut": "15-1547",
+			"speed": 120,
+			"weight": 24,
+			"force": 0,
+			"length": 17,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 175000,
+			"equipments": ["1520mm"],				
+			"capacity": [
+				{"name": "oil", "value": 68}
+			]
+		},		
+		{
 			"id": 18,
 			"group": 1,
 			"name": "Schüttgutwagen",
@@ -7943,6 +7993,22 @@
 				{"name": "coal", "value": 65}
 			]
 		},
+		{
+			"id": 181520,
+			"group": 1,
+			"name": "1520mm-Schüttgutwagen",
+			"speed": 120,
+			"weight": 17,
+			"force": 0,
+			"length": 12,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 133000,
+			"equipments": ["1520mm"],			
+			"capacity": [
+				{"name": "coal", "value": 60}
+			]
+		},		
 		{
 			"id": 19,
 			"group": 1,
@@ -7974,8 +8040,24 @@
 			"capacity": [
 				{"name": "containers", "value": 1}
 			]
-
 		},
+		{
+			"id": 191520,
+			"group": 1,
+			"name": "1520mm-Containerwagen",
+			"shortcut": "13-400",
+			"speed": 120,
+			"weight": 20,
+			"force": 0,
+			"length": 20,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 110000,
+			"equipments": ["1520mm"],				
+			"capacity": [
+				{"name": "containers", "value": 1}
+			]
+		},					
 		{
 			"id": 27,
 			"group": 1,
@@ -7992,6 +8074,23 @@
 				{"name": "castor", "value": 1}
 			]
 		},
+		{
+			"id": 271520,
+			"group": 1,
+			"name": "1520mm-Castor-Transportwagen",
+			"shortcut": "13-400",
+			"speed": 120,
+			"weight": 20,
+			"force": 0,
+			"length": 20,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 160000,
+			"equipments": ["1520mm"],				
+			"capacity": [
+				{"name": "castor", "value": 1}
+			]
+		},		
 		{
 			"id": 31,
 			"group": 3,
