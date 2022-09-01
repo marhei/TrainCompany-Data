@@ -3,6 +3,7 @@
 	"data": [
 		{
 			"id": 13,
+			"service": 0,
 			"group": 2,
 			"name": "ICE 1",
 			"shortcut": "BR 401",
@@ -24,6 +25,7 @@
 		},
 		{
 			"id": 80402,
+			"service": 0,
 			"group": 2,
 			"name": "ICE 2",
 			"shortcut": "BR 402",
@@ -45,6 +47,7 @@
 		},
 		{
 			"id": 403,
+			"service": 0,
 			"group": 2,
 			"name": "ICE 3",
 			"shortcut": "BR 403/406",
@@ -66,6 +69,7 @@
 		},
 		{
 			"id": 7403,
+			"service": 0,
 			"group": 2,
 			"name": "Velaro RUS",
 			"shortcut": "ЭВС1",
@@ -86,6 +90,7 @@
 		},
 		{
 			"id": 0,
+			"service": 0,
 			"group": 2,
 			"name": "ICE 3 Velaro D",
 			"shortcut": "BR 407",
@@ -107,6 +112,7 @@
 		},
 		{
 			"id": 24,
+			"service": 0,
 			"group": 2,
 			"name": "ICE 4 (7-teilig)",
 			"shortcut": "BR 412.2",
@@ -128,6 +134,7 @@
 		},
 		{
 			"id": 25,
+			"service": 0,
 			"group": 2,
 			"name": "ICE 4 (13-teilig)",
 			"shortcut": "BR 412.4",
@@ -150,6 +157,7 @@
 		{
 
 			"id": 411,
+			"service": 0,
 			"group": 2,
 			"name": "ICE T",
 			"shortcut": "BR 411",
@@ -172,6 +180,7 @@
 		{
 
 			"id": 605,
+			"service": 0,
 			"group": 2,
 			"name": "ICE TD",
 			"shortcut": "BR 605",
@@ -193,6 +202,7 @@
 		},
 		{
 			"id": 4701,
+			"service": 0,
 			"group": 2,
 			"name": "Euroduplex",
 			"shortcut": "TGV 2N2",
@@ -215,6 +225,7 @@
 		},
 		{
 			"id": 872024,
+			"service": 0,
 			"group": 2,
 			"name": "Alstom Avelia Horizon",
 			"shortcut": "TGV M",
@@ -236,6 +247,7 @@
 		},
 		{
 			"id": 17762100,
+			"service": 0,
 			"group": 2,
 			"name": "Alstom Avelia Liberty",
 			"shortcut": "Acela II",
@@ -257,6 +269,7 @@
 		},
 		{
 			"id": 17762000,
+			"service": 0,
 			"group": 2,
 			"name": "Alstom Acela Express",
 			"shortcut": "Acela",
@@ -278,6 +291,7 @@
 		},
 		{
 			"id": 4403,
+			"service": 0,
 			"group": 2,
 			"name": "TGV POS",
 			"speed": 320,
@@ -299,6 +313,7 @@
 		},
 		{
 			"id": 4501,
+			"service": 0,
 			"group": 2,
 			"name": "TGV Réseau",
 			"speed": 320,
@@ -320,6 +335,7 @@
 		},
 		{
 			"id": 24000,
+			"service": 0,
 			"group": 2,
 			"name": "TGV Atlantique",
 			"speed": 320,
@@ -340,6 +356,7 @@
 		},
 		{
 			"id": 83575,
+			"service": 0,
 			"group": 2,
 			"name": "Alstom AGV",
 			"shortcut": "AGV",
@@ -361,6 +378,7 @@
 		},
 		{
 			"id": 71100,
+			"service": 0,
 			"group": 2,
 			"name": "AVE 100",
 			"speed": 300,
@@ -381,9 +399,10 @@
 		},
 		{
 			"id": 373,
+			"service": 0,
 			"group": 2,
-			"name": "TGV/Eurostar TMST - Three Capitals",
-			"shortcut": "TMST",
+			"name": "TGV/Eurostar TMST",
+			"shortcut": "e300",
 			"speed": 300,
 			"weight": 752,
 			"force": 410,
@@ -402,6 +421,7 @@
 		},
 		{
 			"id": 3732,
+			"service": 0,
 			"group": 2,
 			"name": "Eurostar North of London",
 			"shortcut": "Class 373/2",
@@ -423,6 +443,7 @@
 		},
 		{
 			"id": 374,
+			"service": 0,
 			"group": 2,
 			"name": "Siemens Velaro e320",
 			"shortcut": "e320",
@@ -444,6 +465,7 @@
 		},
 		{
 			"id": 409,
+			"service": 0,
 			"group": 2,
 			"name": "Thalys PBKA",
 			"shortcut": "BR 409",
@@ -466,6 +488,7 @@
 		},
 		{
 			"id": 610503,
+			"service": 0,
 			"group": 2,
 			"name": "Alstom New Pendolino",
 			"shortcut": "ETR 610",
@@ -487,6 +510,7 @@
 		},
 		{
 			"id": 84400,
+			"service": 0,
 			"group": 2,
 			"name": "Frecciarossa 1000",
 			"shortcut": "ETR 400",
@@ -508,6 +532,7 @@
 		},
 		{
 			"id": 71112,
+			"service": 0,
 			"group": 2,
 			"name": "Talgo 350",
 			"shortcut": "S-112",
@@ -7907,11 +7932,11 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 110000,
-			"equipments": ["1520mm"],				
+			"equipments": ["1520mm"],
 			"capacity": [
 				{"name": "cars", "value": 8}
 			]
-		},		
+		},
 		{
 			"id": 14,
 			"group": 1,
@@ -7940,11 +7965,11 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 150000,
-			"equipments": ["1520mm"],			
+			"equipments": ["1520mm"],
 			"capacity": [
 				{"name": "wood", "value": 70}
 			]
-		},		
+		},
 		{
 			"id": 16,
 			"group": 1,
@@ -7973,11 +7998,11 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 175000,
-			"equipments": ["1520mm"],				
+			"equipments": ["1520mm"],
 			"capacity": [
 				{"name": "oil", "value": 68}
 			]
-		},		
+		},
 		{
 			"id": 18,
 			"group": 1,
@@ -8005,11 +8030,11 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 133000,
-			"equipments": ["1520mm"],			
+			"equipments": ["1520mm"],
 			"capacity": [
 				{"name": "coal", "value": 60}
 			]
-		},		
+		},
 		{
 			"id": 19,
 			"group": 1,
@@ -8054,11 +8079,11 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 110000,
-			"equipments": ["1520mm"],				
+			"equipments": ["1520mm"],
 			"capacity": [
 				{"name": "containers", "value": 1}
 			]
-		},					
+		},
 		{
 			"id": 27,
 			"group": 1,
@@ -8087,11 +8112,11 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 160000,
-			"equipments": ["1520mm"],				
+			"equipments": ["1520mm"],
 			"capacity": [
 				{"name": "castor", "value": 1}
 			]
-		},		
+		},
 		{
 			"id": 31,
 			"group": 3,

@@ -16,6 +16,7 @@ Fahrzeuge, die in TC zur Verfügung stehen
 	* **1** Wagen
 	* **2** Triebzug
 	* **3** fixer Wagenverband
+* **service** *(int)* Zuordnung zu einer passenden Service-Klasse (siehe TaskModel.json)
 * **name** *(string)* Name des Fahrzeuges
 * **shortcut** *(string)* Baureihen/-art-Bezeichnung des Fahrzeuges *(optional)*
 * **speed** *(int)* Höchstgeschwindigkeit in km/h
