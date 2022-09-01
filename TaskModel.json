@@ -1209,14 +1209,14 @@
 		{
 			"group": 0,
 			"name": "18 nach Istanbul",
-			"service": 2,
+			"service": 4,
 			"descriptions": [
 				"Heute fährt die 18 nach Istanbul.",
 				"Bring die Fahrgäste in der Tram von %s nach %s.",
 				"Fahre zwischen Rhein und Bosporus."
 			],
 			"stations": [ "KK", "XQIS" ],
-			"pathSuggestion": [ "KK", "KGRB", "KM", "KV", "EDG", "EOB", "🇳🇱Zv", "XNAH", "🇳🇱Zp", "🇳🇱Wdn", "🇳🇱Dv", "XNHL", "HR", "HO", "HL", "HM", "HWUN", "HH", "HLER", "HHI", "HBS", "LM", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DCW", "DH", "DHD", "DPI", "DSA", "XTU", "XTP", "XAWW", "XMBK", "XJSP", "XJBR", "XJNI", "XWS", "🇧🇬14000", "XWSV", "XQIS" ],
+			"pathSuggestion": [ "KK", "KGRB", "KM", "KV", "EDG", "EOB", "🇳🇱Zv", "XNAH", "🇳🇱Zp", "🇳🇱Wdn", "🇳🇱Dv", "XNHL", "HR", "HO", "HL", "HM", "HWUN", "HH", "HLER", "HHI", "HBS", "LM", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DCW", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XAWW", "XMBK", "XJSP", "XJBR", "XJNI", "XWS", "🇧🇬14000", "XWSV", "XQIS" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -1538,7 +1538,7 @@
 				},
 				{
 					"stations": [ "XMBK", "XMHY", "XAWW", "XTBR", "XTP", "DH", "BL", "LM", "EHM", "KW", "KK", "KM", "EDG", "EOB" ],
-					"pathSuggestion": [ "XMBK", "XMHY", "XAWW", "XTBR", "XTP", "XTU", "DSA", "DPI", "DHD", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "LM", "HBS", "HHI", "HELZ", "HH", "HWUN", "HM", "HL", "EHFD", "EBILP", "EHM", "EHG", "KW", "KSO", "KK", "KGRB", "KM", "KV", "EDG", "EOB" ]
+					"pathSuggestion": [ "XMBK", "XMHY", "XAWW", "XTBR", "XTP", "XTU", "XTD", "DSA", "DPI", "DHD", "DH", "DGB", "BEW", "BDKO", "BBF", "BL", "LM", "HBS", "HHI", "HELZ", "HH", "HWUN", "HM", "HL", "EHFD", "EBILP", "EHM", "EHG", "KW", "KSO", "KK", "KGRB", "KM", "KV", "EDG", "EOB" ]
 				}
 			],
 			"neededCapacity": [
@@ -5307,7 +5307,7 @@
 			"objects": [
 				{
 					"stations": [ "🇲🇦O1245964366", "🇲🇦O9418232000", "XEMAT", "XEB", "XFM", "XIMB", "XSZH", "XAND", "XAWE", "BL" ],
-					"pathSuggestion": [ "🇲🇦O1245964366", "🇲🇦O9418232000", "🇪🇸55020", "XEAS", "🇪🇸50500", "XEMAT", "XEB", "XFNB", "🇫🇷VLM", "🇫🇷NPG", "XFAVV", "XFM", "XIAQ", "XITOR", "XIMB", "XSBZ", "XSBC", "XSADF", "XSAG", "XSTW", "XSZH", "XSZO", "XSSG", "XSRS", "XSSM", "XSBU", "XAND", "XAFK", "XAI", "🇦🇹Fw Z2", "XAWL", "MRO", "MTS", "MFL", "XASB", "XASF", "XAAT", "XAWE", "XAWW", "XTP", "XTU", "DSA", "DPI", "DHD", "DH", "DGB", "BEW", "BDKO", "BBF", "BL" ]
+					"pathSuggestion": [ "🇲🇦O1245964366", "🇲🇦O9418232000", "🇪🇸55020", "XEAS", "🇪🇸50500", "XEMAT", "XEB", "XFNB", "🇫🇷VLM", "🇫🇷NPG", "XFAVV", "XFM", "XIAQ", "XITOR", "XIMB", "XSBZ", "XSBC", "XSADF", "XSAG", "XSTW", "XSZH", "XSZO", "XSSG", "XSRS", "XSSM", "XSBU", "XAND", "XAFK", "XAI", "🇦🇹Fw Z2", "XAWL", "MRO", "MTS", "MFL", "XASB", "XASF", "XAAT", "XAWE", "XAWW", "XTP", "XTU", "XTD", "DSA", "DPI", "DHD", "DH", "DGB", "BEW", "BDKO", "BBF", "BL" ]
 				},
 				{
 					"stations": [ "BL", "FF", "XFSTG", "XLL", "XBB", "XNAC", "AH", "XDKH", "XVS" ],
@@ -8011,7 +8011,7 @@
 		{
 			"group": 1,
 			"name": "IC von %s nach %s",
-			"service": 0,
+			"service": 1,
 			"descriptions": [
 				"Fahre den IC queer durch Deutschland.",
 				"Lass die Fahrgäste ganz Deutschland erkunden.",
