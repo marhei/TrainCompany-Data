@@ -32855,137 +32855,6 @@
 			]
 		},
 		{
-			"name": "081 Děčín-Rumburk ",
-			"group": 0,
-			"electrified": false,
-			"maxSpeed": 100,
-			"neededEquipments": [
-				"CZ"
-			],
-			"objects": [
-				{
-					"start": "XTRU",
-					"end": "XTKLP",
-					"length": 5,
-					"maxSpeed": 90,
-					"twistingFactor": 0.26
-				},
-				{
-					"start": "XTKLP",
-					"end": "XTKLM",
-					"length": 1,
-					"maxSpeed": 80,
-					"twistingFactor": 0.39
-				},
-				{
-					"start": "XTKLM",
-					"end": "🇨🇿56719",
-					"length": 2,
-					"twistingFactor": 0.16
-				},
-				{
-					"start": "🇨🇿56719",
-					"end": "XTCHR",
-					"length": 3,
-					"maxSpeed": 90,
-					"twistingFactor": 0.45
-				},
-				{
-					"start": "XTCHR",
-					"end": "🇨🇿56759",
-					"length": 5,
-					"maxSpeed": 80,
-					"twistingFactor": 0.36
-				},
-				{
-					"start": "🇨🇿56759",
-					"end": "XTKT",
-					"group": 1,
-					"length": 5,
-					"maxSpeed": 85,
-					"twistingFactor": 0.39
-				},
-				{
-					"start": "XTKT",
-					"end": "🇨🇿O249610500",
-					"group": 1,
-					"length": 2,
-					"maxSpeed": 85,
-					"twistingFactor": 0.16
-				},
-				{
-					"start": "🇨🇿O249610500",
-					"end": "XTHK",
-					"group": 1,
-					"length": 5,
-					"maxSpeed": 90,
-					"twistingFactor": 0.3
-				},
-				{
-					"start": "XTHK",
-					"end": "🇨🇿56299",
-					"group": 1,
-					"length": 1,
-					"maxSpeed": 85,
-					"twistingFactor": 0.1
-				},
-				{
-					"start": "🇨🇿56299",
-					"end": "XTVER",
-					"group": 1,
-					"length": 3,
-					"maxSpeed": 90,
-					"twistingFactor": 0.13
-				},
-				{
-					"start": "XTVER",
-					"end": "XTMVE",
-					"group": 1,
-					"length": 3,
-					"maxSpeed": 90,
-					"twistingFactor": 0.39
-				},
-				{
-					"start": "XTMVE",
-					"end": "XTDH",
-					"group": 1,
-					"length": 2,
-					"maxSpeed": 85,
-					"twistingFactor": 0.15
-				},
-				{
-					"start": "XTDH",
-					"end": "🇨🇿56209",
-					"group": 1,
-					"length": 2,
-					"maxSpeed": 85,
-					"twistingFactor": 0.1
-				},
-				{
-					"start": "🇨🇿56209",
-					"end": "XTMV",
-					"length": 2,
-					"maxSpeed": 80,
-					"twistingFactor": 0.15
-				},
-				{
-					"start": "XTMV",
-					"end": "XTDV",
-					"length": 5,
-					"maxSpeed": 80,
-					"twistingFactor": 0.18
-				},
-				{
-					"start": "XTDV",
-					"end": "XTD",
-					"electrified": true,
-					"length": 1,
-					"maxSpeed": 40,
-					"twistingFactor": 0.27
-				}
-			]
-		},
-		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -47618,6 +47487,137 @@
 					"end": "XTVY",
 					"length": 2,
 					"maxSpeed": 50
+				}
+			]
+		},
+		{
+			"name": "081 Děčín-Rumburk ",
+			"group": 0,
+			"electrified": false,
+			"maxSpeed": 100,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTRU",
+					"end": "XTKLP",
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "XTKLP",
+					"end": "XTKLM",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "XTKLM",
+					"end": "🇨🇿56719",
+					"length": 2,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇨🇿56719",
+					"end": "XTCHR",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.45
+				},
+				{
+					"start": "XTCHR",
+					"end": "🇨🇿56759",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇨🇿56759",
+					"end": "XTKT",
+					"group": 1,
+					"length": 5,
+					"maxSpeed": 85,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "XTKT",
+					"end": "🇨🇿5456419",
+					"group": 1,
+					"length": 2,
+					"maxSpeed": 85,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇨🇿5456419",
+					"end": "XTHK",
+					"group": 1,
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XTHK",
+					"end": "🇨🇿56299",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿56299",
+					"end": "XTVER",
+					"group": 1,
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XTVER",
+					"end": "XTMVE",
+					"group": 1,
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "XTMVE",
+					"end": "XTDH",
+					"group": 1,
+					"length": 2,
+					"maxSpeed": 85,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XTDH",
+					"end": "🇨🇿56209",
+					"group": 1,
+					"length": 2,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿56209",
+					"end": "XTMV",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XTMV",
+					"end": "XTDV",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XTDV",
+					"end": "XTD",
+					"electrified": true,
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.27
 				}
 			]
 		},
