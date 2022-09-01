@@ -60,6 +60,19 @@
 								"required": ["objects"]
 							}
 						]
+					},
+					{
+						"anyOf": [
+							{ "required": ["service"] },
+							{
+								"properties": {
+									"objects": {
+										"items": { "required": ["service"] }
+									}
+								},
+								"required": ["objects"]
+							}
+						]
 					}
 				]
 			},
