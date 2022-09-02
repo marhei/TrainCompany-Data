@@ -118,6 +118,7 @@ Modelle für Aufträge, aus denen automatisch neue Aufträge erstellt werden
 	* **2** Regionalverkehr
 	* **3** kurzer Regionalverkehr
 	* **4** Sonderzug
+	* **5** Nachtzug
 	* **10** wichtiger Güterzug
 	* **11** Güterzug
 * **descriptions** *(array)* Array mit mehreren Strings für die Ausschreibung
