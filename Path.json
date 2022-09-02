@@ -47001,6 +47001,245 @@
 			]
 		},
 		{
+			"name": "Praha - Chomutov",
+			"group": 0,			
+			"maxSpeed": 100,			
+			"electrified": false,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTP",
+					"end": "🇨🇿57066",
+					"name": "Jižní Vítkovský tunel",
+					"electrified": true,
+					"length": 11,
+					"maxSpeed": 110,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇨🇿57066",
+					"end": "🇨🇿5457266",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5457266",
+					"end": "🇨🇿5457206",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇨🇿5457206",
+					"end": "🇨🇿5453656",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇨🇿5453656",
+					"end": "XTJE",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XTJE",
+					"end": "🇨🇿5453646",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇨🇿5453646",
+					"end": "🇨🇿5453626",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇨🇿5453626",
+					"end": "XTKL",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "XTKL",
+					"end": "🇨🇿5453546",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇨🇿5453546",
+					"end": "XTKZ",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XTKZ",
+					"end": "🇨🇿5453536",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇨🇿5453536",
+					"end": "🇨🇿5453496",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇨🇿5453496",
+					"end": "🇨🇿5453506",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇨🇿5453506",
+					"end": "🇨🇿5453486",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇨🇿5453486",
+					"end": "🇨🇿5453476",
+					"length": 4,
+					"maxSpeed": 95,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇨🇿5453476",
+					"end": "🇨🇿53456",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.43
+				},
+				{
+					"start": "🇨🇿53456",
+					"end": "XTKRA",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XTKRA",
+					"end": "XTMUZ",
+					"group": 1,
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XTMUZ",
+					"end": "XTMI",
+					"group": 1,
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XTMI",
+					"end": "🇨🇿O267247422",
+					"group": 1,
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇨🇿O267247422",
+					"end": "XTZL",
+					"group": 1,
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.45
+				},
+				{
+					"start": "XTZL",
+					"end": "XTM",
+					"group": 1,
+					"length": 5,
+					"maxSpeed": 75,
+					"twistingFactor": 0.6
+				},
+				{
+					"start": "XTM",
+					"end": "XTHOL",
+					"group": 0,
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "XTHOL",
+					"end": "XTVET",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XTVET",
+					"end": "🇨🇿53779",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.57
+				},
+				{
+					"start": "🇨🇿53779",
+					"end": "XTZIL",
+					"electrified": true,
+					"length": 3,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "XTZIL",
+					"end": "XTH",
+					"electrified": true,
+					"length": 3,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XTH",
+					"end": "🇨🇿O266096942",
+					"electrified": true,
+					"length": 1,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇨🇿O266096942",
+					"end": "🇨🇿O2569625902",
+					"electrified": true,
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇨🇿O2569625902",
+					"end": "🇨🇿53719",
+					"electrified": true,
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇨🇿53719",
+					"end": "XTCO",
+					"name": "Březenský tunel",
+					"electrified": false,
+					"group": 0,
+					"length": 11,
+					"twistingFactor": 0.5
+				}
+			]
+		},
+		{
 			"name": "Chomutov-Cheb",
 			"electrified": true,
 			"group": 0,
