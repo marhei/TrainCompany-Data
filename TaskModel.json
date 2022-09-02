@@ -7581,6 +7581,21 @@
 		},
 		{
 			"group": 1,
+			"name": "SJ EuroNight von %s nach %s",
+			"service": 5,
+			"descriptions": [
+				"Wegen fehlender Zulassung von Schlaf- und Sitzwagen verkehr dieser Zug heute nur mit Speisewagen.",
+				"Versuche deine schlafenden Fahrgäste im Speisewagen zu verteilen.",
+				"Kurz vor Abfahrt haben wir noch schnell allen Fahrgästen mit Sitz- und Schlafwage-Reservierung das Ticket storniert."
+			],
+			"stations": [ "AH", "XDPA", "XDKO", "XDKH", "XVM", "XVS" ],
+			"pathSuggestion": [ "AH", "AEL", "AN", "AR", "AJ", "AF", "XDPA", "XDKO", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ],
+			"neededCapacity": [
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Intercity notte von %s nach %s",
 			"service": 5,
 			"descriptions": [
