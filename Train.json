@@ -2544,7 +2544,7 @@
 			"cost": 650000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 60,
-			"equipments": ["EE","LV","LT","1520mm"],
+			"equipments": ["EE","LV","LT", "UA", "RU","1520mm"],
 			"exchangeTime": 40,
 			"compatibleWith": [
 				371003
@@ -2585,7 +2585,7 @@
 			"cost": 500000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 60,
-			"equipments": ["EE","LV","LT","1520mm"],
+			"equipments": ["EE","LV","LT","UA","RU","1520mm"],
 			"exchangeTime": 40,
 			"compatibleWith": [
 				371002
@@ -2689,7 +2689,7 @@
 			"cost": 600000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 60,
-			"equipments": ["EE","LV","LT","1520mm"],
+			"equipments": ["EE","LV","LT", "UA", "BY","1520mm"],
 			"exchangeTime": 40,
 			"compatibleWith": [
 				371011
@@ -2711,7 +2711,7 @@
 			"cost": 840000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 60,
-			"equipments": ["EE","LV","LT","1520mm"],
+			"equipments": ["EE","LV","LT","UA","RU","BY","1520mm"],
 			"exchangeTime": 40,
 			"compatibleWith": [
 				371001
@@ -3000,7 +3000,7 @@
 			"cost": 500000,
 			"maxConnectedUnits": 3,
 			"operationCosts": 65,
-			"equipments": [ "FI", "EE", "1520mm" ],
+			"equipments": [ "FI", "EE", "BY", "1520mm" ],
 			"exchangeTime": 45,
 			"capacity": [
 				{ "name": "passengers", "value": 232 }
@@ -3115,7 +3115,7 @@
 			"cost": 800000,
 			"maxConnectedUnits": 1,
 			"operationCosts": 130,
-			"equipments": [ "UA", "RU", "1520mm" ],
+			"equipments": [ "UA", "RU", "BY", "1520mm" ],
 			"exchangeTime": 80,
 			"capacity": [
 				{ "name": "passengers", "value": 1100 }
@@ -5538,7 +5538,7 @@
 			"reliability": 0.85,
 			"cost": 450000,
 			"operationCosts": 150,
-			"equipments": ["UA", "RU", "1520mm"]
+			"equipments": ["UA", "RU", "BY", "1520mm"]
 		},
 		{
 			"id": 20510,
@@ -5552,7 +5552,7 @@
 			"reliability": 0.9,
 			"cost": 375000,
 			"operationCosts": 130,
-			"equipments": ["UA", "RU", "1520mm"]
+			"equipments": ["UA", "RU", "BY", "1520mm"]
 		},
 		{
 			"id": 20321,
@@ -5694,6 +5694,20 @@
 			"operationCosts": 140,
 			"equipments": ["UA", "1520mm"]
 		},
+		{
+			"id": 2147000,
+			"group": 0,
+			"name": "BC-Baureihe BKG1",
+			"speed": 120,
+			"weight": 200,
+			"force": 760,
+			"length": 38,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 850000,
+			"operationCosts": 150,
+			"equipments": ["BY", "1520mm"]
+		},		
 		{
 			"id": 931250,
 			"group": 0,
