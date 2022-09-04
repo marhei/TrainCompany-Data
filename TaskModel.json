@@ -2716,6 +2716,10 @@
 				},
 				{
 					"stations": [ "XTRU", "XTVV", "XTMD", "DSEB", "DSA", "XTD" ]
+				},
+				{
+					"name": "ČD Os 20981 von %s nach %s",
+					"stations": [ "DZW", "DWR", "DRC", "DP", "DWS", "DOV", "DAD", "DBM", "XTV", "🇨🇿74005", "XTCH" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -2773,6 +2777,75 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "ČD R 606 Krušnohor von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre den Erzgebirgsexpress von %s nach %s",
+				"Dieser Schnellzug verbindet die Hauptstadt mit dem Westböhmischen Bäderdreieck"
+			],
+			"stations": [ "XTP", "XTU", "XTTV", "XTBI", "XTMO", "XTCO", "🇨🇿5453549", "XTKN", "XTOS", "XTKV", "XTCD", "XTSO", "🇨🇿5475935", "XTCH" ],
+			"pathSuggestion": [ "XTP", "XTU", "XTTV", "XTBI", "XTMO", "XTCO", "🇨🇿5453549", "XTKN", "XTOS", "XTKV", "XTCD", "XTSO", "🇨🇿5475935", "XTCH" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "ČD Spěšný vlak von %s nach %s",
+			"service": 2,
+			"objects": [
+				{
+					"descriptions": [
+						"Fahre den Sp 99661 von %s nach %s"
+					],
+					"stations": [ "XTKV", "XTCD", "XTSO", "XTCI", "🇨🇿5475925", "🇨🇿5475935", "🇨🇿5475955", "XTCH", "XTLC", "XTDZV", "🇨🇿74975", "XTML", "🇨🇿5474955", "🇨🇿74945", "🇨🇿5474905", "XTSB", "XTPZ" ],
+					"pathSuggestion": [ "XTKV", "XTCD", "XTSO", "XTCI", "🇨🇿5475925", "🇨🇿5475935", "🇨🇿5475955", "XTCH", "XTLC", "XTDZV", "🇨🇿74975", "XTML", "🇨🇿5474955", "🇨🇿74945", "🇨🇿5474905", "XTSB", "XTPZ" ]
+				},
+				{
+					"descriptions": [
+						"Fahre den Sp 1940 von %s nach %s"
+					],
+					"stations": [ "XTD", "XTU", "🇨🇿5453279", "XTTV", "XTBI", "XTMO", "XTCO" ],
+					"pathSuggestion": [ "XTD", "XTU", "🇨🇿5453279", "XTTV", "XTBI", "XTMO", "XTCO" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "ČD Osobní vlak von %s nach %s",
+			"service": 3,
+			"objects": [
+				{
+					"descriptions": [
+						"Fahre den Os 6832 von %s nach %s"
+					],
+					"stations": [ "XTD", "XTU", "🇨🇿5453279", "XTTV", "XTBI", "XTMO", "XTCO", "🇨🇿5453549" ]
+				},
+				{
+					"descriptions": [
+						"Fahre den Os 7334 von %s nach %s"
+					],
+					"stations": [ "XTPZ", "🇨🇿5474835", "XTPN", "XTSB", "🇨🇿5474895", "🇨🇿5474905" ]
+				},
+				{
+					"descriptions": [
+						"Fahre den Os 7341 von %s nach %s"
+					],
+					"stations": [ "XTML", "🇨🇿5474965", "🇨🇿74975", "XTDZV", "XTLC", "XTCH", "🇨🇿5475955", "🇨🇿5475935", "🇨🇿5475925", "XTCI", "XTSO", "XTCD", "XTKV" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
 		},
 		{
 			"group": 1,
@@ -5433,6 +5506,20 @@
 					],
 					"stations": [ "BHF", "BEW", "DH", "XTP", "XAWW" ],
 					"pathSuggestion": [ "BHF", "BL", "BBF", "BDKO", "BEW", "DGB", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTKI", "XTPAR", "XTTR", "XTBR", "XTBE", "XAWW" ]
+				},
+				{
+					"descriptions": [
+						"Fahre den Karlex von %s bis %s"
+					],
+					"stations": [ "BHF", "LL", "DRC", "DP", "DBM", "XTV", "XTKV" ],
+					"pathSuggestion": [ "BHF", "BL", "BJUE", "LW", "LBT", "LDL", "LL", "LNK", "DGZ", "DWR", "DRC", "DP", "DBM", "XTV", "XTCH", "XTCD", "XTKV" ]
+				},
+				{
+					"descriptions": [
+						"Fahre den Karola von %s bis %s"
+					],
+					"stations": [ "LL", "DRC", "DP", "DBM", "XTV", "XTKV" ],
+					"pathSuggestion": [ "LL", "LNK", "DGZ", "DWR", "DRC", "DP", "DBM", "XTV", "XTCH", "XTCD", "XTKV" ]
 				},
 				{
 					"descriptions": [
