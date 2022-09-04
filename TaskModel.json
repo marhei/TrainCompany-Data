@@ -2716,6 +2716,10 @@
 				},
 				{
 					"stations": [ "XTRU", "XTVV", "XTMD", "DSEB", "DSA", "XTD" ]
+				},
+				{
+					"name": "ČD Os 20981 von %s nach %s",
+					"stations": [ "DZW", "DWR", "DRC", "DP", "DWS", "DOV", "DAD", "DBM", "XTV", "🇨🇿74005", "XTCH" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -2813,6 +2817,24 @@
 				{ "name": "passengers" }
 			],
 			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "ČD Osobní vlak von %s nach %s",
+			"service": 3,
+			"objects": [
+				{
+					"descriptions": [
+						"Fahre den Os 6832 von %s nach %s"
+					],
+					"stations": [ "XTD", "XTU", "🇨🇿5453279", "XTTV", "XTBI", "XTMO", "XTCO", "🇨🇿5453549" ],
+					"pathSuggestion": [ "XTD", "XTU", "🇨🇿5453279", "XTTV", "XTBI", "XTMO", "XTCO", "🇨🇿5453549" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
 		},
 		{
 			"group": 1,
