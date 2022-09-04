@@ -38512,6 +38512,79 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 127,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸RMT",
+					"end": "🇺🇸WLN",
+					"name": "South End Subdivision",
+					"length": 25,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸WLN",
+					"end": "🇺🇸SSM",
+					"name": "South End Subdivision",
+					"length": 40,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸SSM",
+					"end": "🇺🇸FAY",
+					"name": "South End Subdivision",
+					"length": 77,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇺🇸FAY",
+					"end": "🇺🇸DIL",
+					"name": "South End Subdivision",
+					"length": 84,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇺🇸DIL",
+					"end": "🇺🇸FLO",
+					"name": "South End Subdivision",
+					"length": 47,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇺🇸FLO",
+					"end": "🇺🇸KTR",
+					"name": "Charleston Subdivision",
+					"length": 60,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇺🇸KTR",
+					"end": "🇺🇸CHW",
+					"name": "Charleston Subdivision",
+					"length": 91,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸CHW",
+					"end": "🇺🇸YEM",
+					"name": "Charleston Subdivision",
+					"length": 85,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸YEM",
+					"end": "🇺🇸SAV",
+					"name": "Charleston Subdivision",
+					"length": 77,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
 			"name": "Flöhatalbahn",
 			"electrified": false,
 			"group": 1,
@@ -46150,6 +46223,103 @@
 			"maxSpeed": 60,
 			"twistingFactor": 0.05,
 			"group": 1
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸BOS",
+					"end": "🇺🇸WOB",
+					"name": "New Hampshire Route Main Line",
+					"length": 29,
+					"maxSpeed": 112,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸WOB",
+					"end": "🇺🇸HHL",
+					"name": "Western Route Main Line",
+					"length": 33,
+					"maxSpeed": 112,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇺🇸HHL",
+					"end": "🇺🇸EXR",
+					"name": "Western Route Main Line",
+					"length": 27,
+					"maxSpeed": 127,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇺🇸EXR",
+					"end": "🇺🇸DHM",
+					"name": "Freight Main Line",
+					"length": 18,
+					"maxSpeed": 112,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇺🇸DHM",
+					"end": "🇺🇸DOV",
+					"name": "Freight Main Line",
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸DOV",
+					"end": "🇺🇸WEM",
+					"name": "Freight Main Line",
+					"length": 26,
+					"maxSpeed": 48,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸WEM",
+					"end": "🇺🇸SAO",
+					"name": "Freight Main Line",
+					"length": 25,
+					"maxSpeed": 96,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸SAO",
+					"end": "🇺🇸ORB",
+					"name": "Freight Main Line",
+					"length": 6,
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸ORB",
+					"end": "🇺🇸PDX",
+					"name": "Freight Main Line",
+					"length": 18,
+					"maxSpeed": 127,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸PDX",
+					"end": "🇺🇸FRE",
+					"name": "Freight Main Line",
+					"length": 32,
+					"maxSpeed": 112,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇺🇸FRE",
+					"end": "🇺🇸BRK",
+					"name": "Brunswick Branch",
+					"length": 13,
+					"maxSpeed": 96,
+					"twistingFactor": 0.19
+				}
+			]
 		},
 		{
 			"name": "Bahnstrecke Riga - Jelgava",
