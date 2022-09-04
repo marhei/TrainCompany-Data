@@ -2786,7 +2786,26 @@
 			"pathSuggestion": [ "XTP", "XTU", "XTTV", "XTBI", "XTMO", "XTCO", "🇨🇿5453549", "XTKN", "XTOS", "XTKV", "XTCD", "XTSO", "🇨🇿5475935", "XTCH" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
-			]
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "ČD Spěšný vlak von %s nach %s",
+			"service": 2,
+			"objects": [
+				{
+					"descriptions": [
+						"Fahre den Sp 99661 von %s nach %s"
+					],
+					"stations": [ "XTKV", "XTCD", "XTSO", "XTCI", "🇨🇿5475925", "🇨🇿5475935", "🇨🇿5475955", "XTCH", "XTLC", "XTDZV", "🇨🇿74975", "XTML", "🇨🇿5474955", "🇨🇿74945", "🇨🇿5474905", "XTSB", "XTPZ" ],
+					"pathSuggestion": [ "XTKV", "XTCD", "XTSO", "XTCI", "🇨🇿5475925", "🇨🇿5475935", "🇨🇿5475955", "XTCH", "XTLC", "XTDZV", "🇨🇿74975", "XTML", "🇨🇿5474955", "🇨🇿74945", "🇨🇿5474905", "XTSB", "XTPZ" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
 		},
 		{
 			"group": 1,
