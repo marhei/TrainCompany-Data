@@ -5299,15 +5299,15 @@
 		{
 			"group": 1,
 			"name": "Connecting-Europe-Express",
-			"service": 0,
+			"service": 4,
 			"descriptions": [
 				"Verbinde die wichtive europäische Städte miteinander, damit Politiker grenzüberschreitenden Fernverkehr haben!",
 				"Erwecke den Eindruck, man könnte problemlos mit dem Zug weite Strecken durch Europa reisen!"
 			],
 			"objects": [
 				{
-					"stations": [ "🇲🇦O1245964366", "🇲🇦O9418232000", "XEMAT", "XEB", "XFM", "XIMB", "XSZH", "XAND", "XAWE", "BL" ],
-					"pathSuggestion": [ "🇲🇦O1245964366", "🇲🇦O9418232000", "🇪🇸55020", "XEAS", "🇪🇸50500", "XEMAT", "XEB", "XFNB", "🇫🇷VLM", "🇫🇷NPG", "XFAVV", "XFM", "XIAQ", "XITOR", "XIMB", "XSBZ", "XSBC", "XSADF", "XSAG", "XSTW", "XSZH", "XSZO", "XSSG", "XSRS", "XSSM", "XSBU", "XAND", "XAFK", "XAI", "🇦🇹Fw Z2", "XAWL", "MRO", "MTS", "MFL", "XASB", "XASF", "XAAT", "XAWE", "XAWW", "XTP", "XTU", "XTD", "DSA", "DPI", "DHD", "DH", "DGB", "BEW", "BDKO", "BBF", "BL" ]
+					"stations": [ "XEMAT", "XEB", "XFM", "XIMB", "XSZH", "XAND", "XAWE", "BL" ],
+					"pathSuggestion": [ "XEMAT", "XEB", "XFNB", "🇫🇷VLM", "🇫🇷NPG", "XFAVV", "XFM", "XIAQ", "XITOR", "XIMB", "XSBZ", "XSBC", "XSADF", "XSAG", "XSTW", "XSZH", "XSZO", "XSSG", "XSRS", "XSSM", "XSBU", "XAND", "XAFK", "XAI", "🇦🇹Fw Z2", "XAWL", "MRO", "MTS", "MFL", "XASB", "XASF", "XAAT", "XAWE", "XAWW", "XTP", "XTU", "XTD", "DSA", "DPI", "DHD", "DH", "DGB", "BEW", "BDKO", "BBF", "BL" ]
 				},
 				{
 					"stations": [ "BL", "FF", "XFSTG", "XLL", "XBB", "XNAC", "AH", "XDKH", "XVS" ],
@@ -7984,7 +7984,7 @@
 		{
 			"group": 1,
 			"name": "Regional von %s nach %s",
-			"service": 1,
+			"service": 2,
 			"descriptions": [
 				"Fahre diesen Regionalzug von %s nach %s.",
 				"Fahre durch Portugal."
@@ -8008,13 +8008,12 @@
 		{
 			"group": 1,
 			"name": "IC von %s nach %s",
-			"service": 0,
+			"service": 1,
 			"descriptions": [
 				"Der IC2 befördert Fahrgäste von West nach Ost."
 			],
 			"neededCapacity": [
-				{ "name": "passengers" },
-				{ "name": "bistroseats" }
+				{ "name": "passengers" }
 			],
 			"objects": [
 				{
