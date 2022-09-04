@@ -12264,6 +12264,35 @@
 			"twistingFactor": 0.3
 		},
 		{
+			"name": "H-Line",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸CYN",
+					"end": "🇺🇸DNC",
+					"length": 28,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇺🇸DNC",
+					"end": "🇺🇸BNC",
+					"length": 53,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇺🇸BNC",
+					"end": "🇺🇸GRO",
+					"length": 34,
+					"twistingFactor": 0.17
+				}
+			]
+		},
+		{
 			"name": "Mönchengladbach - Düsseldorf",
 			"group": 0,
 			"electrified": true,
@@ -32053,14 +32082,14 @@
 				},
 				{
 					"start": "🇺🇸RMT",
-					"end": "🇺🇸O5760380615",
+					"end": "🇺🇸RGH",
 					"name": "South End Subdivision",
 					"length": 112,
 					"maxSpeed": 128,
 					"twistingFactor": 0.39
 				},
 				{
-					"start": "🇺🇸O5760380615",
+					"start": "🇺🇸RGH",
 					"end": "🇺🇸CYN",
 					"name": "Norfolk Southern - Amtrak - CSX",
 					"length": 13,
@@ -35576,6 +35605,19 @@
 					"electrified": true,
 					"group": 2
 				}
+			]
+		},
+		{
+			"start": "🇺🇸SSM",
+			"end": "🇺🇸RGH",
+			"name": "Norfolk Southern - Amtrak",
+			"electrified": false,
+			"group": 0,
+			"length": 45,
+			"maxSpeed": 128,
+			"twistingFactor": 0.16,
+			"neededEquipments": [
+				"US"
 			]
 		},
 		{
