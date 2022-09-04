@@ -47002,8 +47002,8 @@
 		},
 		{
 			"name": "Praha - Chomutov",
-			"group": 0,			
-			"maxSpeed": 100,			
+			"group": 0,
+			"maxSpeed": 100,
 			"electrified": false,
 			"neededEquipments": [
 				"CZ"
@@ -47565,6 +47565,261 @@
 					"neededEquipments": [
 						"CZ"
 					]
+				}
+			]
+		},
+		{
+			"name": "191 Plzeň - České Budějovice",
+			"group": 0,			
+			"maxSpeed": 100,			
+			"electrified": true,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTPZ",
+					"end": "🇨🇿5473996",
+					"name": "Kolej 3",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇨🇿5473996",
+					"end": "🇨🇿5473985",
+					"length": 7,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇨🇿5473985",
+					"end": "🇨🇿5473975",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473975",
+					"end": "🇨🇿5476405",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5476405",
+					"end": "🇨🇿5473965",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473965",
+					"end": "🇨🇿5473955",
+					"length": 3,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇨🇿5473955",
+					"end": "🇨🇿5473945",
+					"length": 4,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇨🇿5473945",
+					"end": "🇨🇿5473935",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473935",
+					"end": "🇨🇿73925",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿73925",
+					"end": "🇨🇿5473915",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473915",
+					"end": "🇨🇿5473905",
+					"length": 9,
+					"maxSpeed": 90,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇨🇿5473905",
+					"end": "🇨🇿5473896",
+					"length": 2,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇨🇿5473896",
+					"end": "🇨🇿5473895",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473895",
+					"end": "🇨🇿5473885",
+					"length": 4,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇨🇿5473885",
+					"end": "🇨🇿5473875",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473875",
+					"end": "🇨🇿73865",
+					"length": 3,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇨🇿73865",
+					"end": "🇨🇿5476152",
+					"length": 4,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇨🇿5476152",
+					"end": "🇨🇿5476142",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5476142",
+					"end": "🇨🇿5476132",
+					"length": 2,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇨🇿5476132",
+					"end": "🇨🇿5476122",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5476122",
+					"end": "🇨🇿76102",
+					"length": 4,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"name": "190 Plzeň - České Budějovice",
+			"maxSpeed": 100,			
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "🇨🇿76102",
+					"end": "🇨🇿5473442",
+					"length": 4,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇨🇿5473442",
+					"end": "🇨🇿5473432",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473432",
+					"end": "🇨🇿5473422",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473422",
+					"end": "🇨🇿73412",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿73412",
+					"end": "🇨🇿5473402",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473402",
+					"end": "🇨🇿5473392",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473392",
+					"end": "🇨🇿73382",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿73382",
+					"end": "🇨🇿5473372",
+					"length": 2,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇨🇿5473372",
+					"end": "🇨🇿5473362",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473362",
+					"end": "🇨🇿73352",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿73352",
+					"end": "🇨🇿5473342",
+					"length": 4,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇨🇿5473342",
+					"end": "🇨🇿5473332",
+					"length": 3,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇨🇿5473332",
+					"end": "🇨🇿5473322",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473322",
+					"end": "🇨🇿5473312",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇿5473312",
+					"end": "🇨🇿5473302",
+					"length": 5,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇨🇿5473302",
+					"end": "🇨🇿5473452",
+					"length": 7,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇨🇿5473452",
+					"end": "XTCB",
+					"length": 2,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
 				}
 			]
 		},
