@@ -2776,6 +2776,20 @@
 		},
 		{
 			"group": 1,
+			"name": "ČD R 606 Krušnohor von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre den Erzgebirgsexpress von %s nach %s",
+				"Dieser Schnellzug verbindet die Hauptstadt mit dem Westböhmischen Bäderdreieck"
+			],
+			"stations": [ "XTP", "XTU", "XTTV", "XTBI", "XTMO", "XTCO", "🇨🇿5453549", "XTKN", "XTOS", "XTKV", "XTCD", "XTSO", "🇨🇿5475935", "XTCH" ],
+			"pathSuggestion": [ "XTP", "XTU", "XTTV", "XTBI", "XTMO", "XTCO", "🇨🇿5453549", "XTKN", "XTOS", "XTKV", "XTCD", "XTSO", "🇨🇿5475935", "XTCH" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "OPB RB95 von %s nach %s",
 			"service": 3,
 			"descriptions": [
