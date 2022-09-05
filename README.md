@@ -16,6 +16,7 @@ Fahrzeuge, die in TC zur Verfügung stehen
 	* **1** Wagen
 	* **2** Triebzug
 	* **3** fixer Wagenverband
+* **service** *(int)* Zuordnung zu einer passenden Service-Klasse (siehe TaskModel.json)
 * **name** *(string)* Name des Fahrzeuges
 * **shortcut** *(string)* Baureihen/-art-Bezeichnung des Fahrzeuges *(optional)*
 * **speed** *(int)* Höchstgeschwindigkeit in km/h
@@ -117,6 +118,7 @@ Modelle für Aufträge, aus denen automatisch neue Aufträge erstellt werden
 	* **2** Regionalverkehr
 	* **3** kurzer Regionalverkehr
 	* **4** Sonderzug
+	* **5** Nachtzug
 	* **10** wichtiger Güterzug
 	* **11** Güterzug
 * **descriptions** *(array)* Array mit mehreren Strings für die Ausschreibung
