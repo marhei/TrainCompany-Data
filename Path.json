@@ -30483,6 +30483,146 @@
 		},
 		{
 			"electrified": false,
+			"group": 0,
+			"objects": [
+				{
+					"start": "🇪🇪TRT",
+					"end": "🇪🇪O1372245122",
+					"name": "Tartu-Koidula",
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.17,
+					"neededEquipments": [
+						"1520mm",
+						"EE"
+					]
+				},
+				{
+					"start": "🇪🇪O1372245122",
+					"end": "🇪🇪O1372263686",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"1520mm",
+						"EE"
+					]
+				},
+				{
+					"start": "🇪🇪O1372263686",
+					"end": "🇪🇪O1372263675",
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"1520mm",
+						"EE"
+					]
+				},
+				{
+					"start": "🇪🇪O1372263675",
+					"end": "🇪🇪O1369736164",
+					"length": 14,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"1520mm",
+						"EE"
+					]
+				},
+				{
+					"start": "🇪🇪O1369736164",
+					"end": "🇪🇪O333590085",
+					"length": 17,
+					"maxSpeed": 120,
+					"twistingFactor": 0.11,
+					"neededEquipments": [
+						"1520mm",
+						"EE"
+					]
+				},
+				{
+					"start": "🇪🇪O333590085",
+					"end": "🇪🇪O8761131037",
+					"length": 24,
+					"maxSpeed": 120,
+					"twistingFactor": 0.17,
+					"neededEquipments": [
+						"1520mm",
+						"EE"
+					]
+				},
+				{
+					"start": "🇪🇪O8761131037",
+					"end": "🇷🇺O731426985",
+					"length": 2,
+					"maxSpeed": 40,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"RU",
+						"1520mm",
+						"EE"
+					]
+				},
+				{
+					"start": "🇷🇺O731426985",
+					"end": "🇷🇺O1487931621",
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"RU",
+						"1520mm"
+					]
+				},
+				{
+					"start": "🇷🇺O1487931621",
+					"end": "🇷🇺O1088069409",
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15,
+					"neededEquipments": [
+						"RU",
+						"1520mm"
+					]
+				},
+				{
+					"start": "🇷🇺O1088069409",
+					"end": "🇷🇺O8058980007",
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"RU",
+						"1520mm"
+					]
+				},
+				{
+					"start": "🇷🇺O8058980007",
+					"end": "🇷🇺O1070653530",
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"RU",
+						"1520mm"
+					]
+				},
+				{
+					"start": "🇷🇺O1070653530",
+					"end": "🇷🇺O4501421832",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"RU",
+						"1520mm"
+					]
+				}
+			]
+		},
+		{
+			"electrified": false,
 			"maxSpeed": 100,
 			"twistingFactor": 0.3,
 			"objects": [
@@ -31658,7 +31798,9 @@
 				},
 				{
 					"neededEquipments": [
-						"LV", "LT", "1520mm"
+						"LV",
+						"LT",
+						"1520mm"
 					],
 					"start": "🇱🇹O1617442413",
 					"end": "🇱🇻DGP",
