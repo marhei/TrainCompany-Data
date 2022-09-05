@@ -21360,43 +21360,6 @@
 			]
 		},
 		{
-			"maxSpeed": 80,
-			"electrified": true,
-			"group": 1,
-			"objects": [
-				{
-					"start": "MGB",
-					"end": "MEG",
-					"length": 5,
-					"twistingFactor": 0.4
-				},
-				{
-					"start": "MEG",
-					"end": "MTUL",
-					"length": 9,
-					"twistingFactor": 0.6,
-					"electrified": false,
-					"group": 1
-				},
-				{
-					"start": "MTUL",
-					"end": "MEDL",
-					"length": 8,
-					"twistingFactor": 0.3,
-					"electrified": false,
-					"group": 1
-				},
-				{
-					"start": "MEDL",
-					"end": "MWSB",
-					"length": 2,
-					"twistingFactor": 0.3,
-					"electrified": false,
-					"group": 1
-				}
-			]
-		},
-		{
 			"electrified": true,
 			"maxSpeed": 90,
 			"twistingFactor": 0,
@@ -21458,37 +21421,6 @@
 					"group": 1,
 					"maxSpeed": 50,
 					"length": 5
-				}
-			]
-		},
-		{
-			"maxSpeed": 120,
-			"electrified": false,
-			"group": 0,
-			"objects": [
-				{
-					"start": "MRO",
-					"end": "MRT",
-					"length": 16,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "MRT",
-					"end": "MWSB",
-					"length": 9,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "MWSB",
-					"end": "MWKG",
-					"length": 25,
-					"twistingFactor": 0.4
-				},
-				{
-					"start": "MWKG",
-					"end": "MMF",
-					"length": 10,
-					"twistingFactor": 0.3
 				}
 			]
 		},
@@ -52380,6 +52312,83 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MRO",
+					"end": "MROS",
+					"length": 2,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "MROS",
+					"end": "MSC",
+					"length": 6,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MSC",
+					"end": "MRT",
+					"length": 6,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "MRT",
+					"end": "MRMB",
+					"length": 3,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "MRMB",
+					"end": "MWSB",
+					"length": 5,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "MWSB",
+					"end": "MSY",
+					"length": 5,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "MSY",
+					"end": "MGS",
+					"length": 9,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "MGS",
+					"end": "MMIG",
+					"length": 2,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "MMIG",
+					"end": "MJEB",
+					"length": 3,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "MJEB",
+					"end": "MWKG",
+					"length": 4,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "MWKG",
+					"end": "MMF",
+					"length": 10,
+					"twistingFactor": 0.17
+				}
+			]
+		},
+		{
 			"start": "XSBZ",
 			"end": "XSLC",
 			"neededEquipments": [
@@ -56769,6 +56778,65 @@
 			"start": "🇱🇹SES",
 			"end": "🇱🇹ALT",
 			"length": 32
+		},
+		{
+			"group": 1,
+			"maxSpeed": 80,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MGB",
+					"end": "MGRS",
+					"electrified": true,
+					"length": 1,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "MGRS",
+					"end": "MEG",
+					"electrified": true,
+					"length": 3,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "MEG",
+					"end": "MSHG",
+					"electrified": false,
+					"length": 6,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "MSHG",
+					"end": "MTUL",
+					"electrified": false,
+					"length": 2,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "MTUL",
+					"end": "MFOS",
+					"electrified": false,
+					"length": 2,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "MFOS",
+					"end": "MEDL",
+					"electrified": false,
+					"length": 5,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "MEDL",
+					"end": "MWSB",
+					"electrified": false,
+					"length": 2,
+					"twistingFactor": 0.29
+				}
+			]
 		},
 		{
 			"name": "Enztalbahn",
