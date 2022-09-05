@@ -17795,6 +17795,49 @@
 			]
 		},
 		{
+			"group": 2,
+			"maxSpeed": 360,
+			"twistingFactor": 0.1,
+			"name": "California High Speed Rail",
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸MCD",
+					"end": "🇺🇸MADCHSR",
+					"length": 30
+				},
+				{
+					"start": "🇺🇸MADCHSR",
+					"end": "🇺🇸FNO",
+					"length": 23
+				},
+				{
+					"start": "🇺🇸FNO",
+					"end": "🇺🇸O9980935514",
+					"length": 37
+				},
+				{
+					"start": "🇺🇸O9980935514",
+					"end": "🇺🇸BFD",
+					"length": 80
+				}
+			]
+		},
+		{
+			"group": 1,
+			"maxSpeed": 127,
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"US"
+			],
+			"electrified": false,
+			"start": "🇺🇸MAD",
+			"end": "🇺🇸MADCHSR",
+			"length": 14
+		},
+		{
 			"electrified": true,
 			"group": 1,
 			"maxSpeed": 100,
