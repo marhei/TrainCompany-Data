@@ -8196,6 +8196,21 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "FEX von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Der BER ist eröffnet – und jetzt wollen da auch noch Leute hin?!",
+				"Unterstütze die Fluggesellschaften, der Bahn Kunden abzugraben.",
+				"Pendele zwischen Flughafen und Hauptbahnhof."
+			],
+			"stations": [ "BL", "BFBI" ],
+			"pathSuggestion": ["BL", "BBF", "BFBI"],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
