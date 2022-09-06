@@ -1549,6 +1549,72 @@
 			"stopsEverywhere": true
 		},
 		{
+			"group": 0,
+			"name": "Güterzug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Es wird zwingenst Holz für den Bau von Rail Baltica gebraucht! Fahre diesen nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻O252636397", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻O252636397", "🇱🇻TNK", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻RIHA", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻SKL"],
+					"pathSuggestion": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX", "🇱🇻ZMT", "🇱🇻ZMB"]
+				},
+				{
+					"stations": [ "🇱🇻RIHA", "🇱🇻IMT"],
+					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX", "🇱🇻TNK"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "wood", "value": 690 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Güterzug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Es werden zwingenst Container für den Bau von Rail Baltica gebraucht! Fahre diesen nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻O252636397", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻O252636397", "🇱🇻TNK", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻RIHA", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻SKL"],
+					"pathSuggestion": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX", "🇱🇻ZMT", "🇱🇻ZMB"]
+				},
+				{
+					"stations": [ "🇱🇻RIHA", "🇱🇻IMT"],
+					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX", "🇱🇻TNK"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 15 }
+			]
+		},
+		{
 			"group": 1,
 			"name": "Autoslaaptrein  von %s nach %s",
 			"service": 5,
