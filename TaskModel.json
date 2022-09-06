@@ -1458,6 +1458,25 @@
 			]
 		},
 		{
+			"group": 0,
+			"name": "Latvijas Ekpresis von %s nach %s",
+			"service": 5,
+			"descriptions": [
+				"Fahre den grenzüberschreitenden Latvijas Ekpresis zwischen %s und %s"
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻RIX", "🇱🇻KRS", "🇱🇻DGP", "🇷🇺O907297496", "🇷🇺O6524674898", "🇷🇺O1994609598", "🇷🇺O473887668"],
+					"pathSuggestion": [ "🇱🇻RIX", "🇱🇻KRS", "🇱🇻DGP", "🇷🇺O907297496", "🇷🇺O6524674898", "🇷🇺O1994609598", "🇷🇺O2000431023", "🇷🇺O473887668"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" },
+				{ "name": "beds"}
+			]
+		},
+		{
 			"group": 1,
 			"name": "Autoslaaptrein  von %s nach %s",
 			"service": 5,
