@@ -1459,6 +1459,163 @@
 		},
 		{
 			"group": 1,
+			"name": "Latvijas Ekpresis von %s nach %s",
+			"service": 5,
+			"descriptions": [
+				"Fahre den grenzüberschreitenden Latvijas Ekpresis zwischen %s und %s"
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻RIX", "🇱🇻KRS", "🇱🇻DGP", "🇷🇺O907297496", "🇷🇺O6524674898", "🇷🇺O1994609598", "🇷🇺O473887668"],
+					"pathSuggestion": [ "🇱🇻RIX", "🇱🇻KRS", "🇱🇻DGP", "🇷🇺O907297496", "🇷🇺O6524674898", "🇷🇺O1994609598", "🇷🇺O2000431023", "🇷🇺O473887668"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" },
+				{ "name": "beds"}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den Regionalzug zwischen %s und %s"
+			],
+			"objects": [
+				{
+					"stations": [ "🇷🇺O21596808", "🇷🇺O473887668"],
+					"pathSuggestion": [ "🇷🇺O21596808", "🇷🇺O1987674962", "🇷🇺O473887668"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den Regionalzug zwischen %s und %s"
+			],
+			"objects": [
+				{
+					"stations": [ "🇷🇺O6429297365", "🇷🇺O473887668"],
+					"pathSuggestion": [ "🇷🇺O6429297365", "🇷🇺O2023211041", "🇷🇺O4375869577", "🇷🇺O2000431023", "🇷🇺O473887668"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den Regionalzug zwischen %s und %s"
+			],
+			"objects": [
+				{
+					"stations": [ "XCUF", "🇷🇺O473887668"],
+					"pathSuggestion": [ "XCUF", "🇷🇺O473887668"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den Regionalzug zwischen %s und %s"
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇦O2644051429", "🇺🇦O394980121"],
+					"pathSuggestion": [ "🇺🇦O2644051429", "🇺🇦O394980121"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 0,
+			"name": "Güterzug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Es wird zwingenst Holz für den Bau von Rail Baltica gebraucht! Fahre diesen nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻O252636397", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻O252636397", "🇱🇻TNK", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻RIHA", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻SKL"],
+					"pathSuggestion": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX", "🇱🇻ZMT", "🇱🇻ZMB"]
+				},
+				{
+					"stations": [ "🇱🇻RIHA", "🇱🇻IMT"],
+					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX", "🇱🇻TNK"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "wood", "value": 690 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Güterzug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Es werden zwingenst Container für den Bau von Rail Baltica gebraucht! Fahre diesen nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻O252636397", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻O252636397", "🇱🇻TNK", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻RIHA", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻SKL"],
+					"pathSuggestion": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX", "🇱🇻ZMT", "🇱🇻ZMB"]
+				},
+				{
+					"stations": [ "🇱🇻RIHA", "🇱🇻IMT"],
+					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX", "🇱🇻TNK"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 15 }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Autoslaaptrein  von %s nach %s",
 			"service": 5,
 			"descriptions": [
