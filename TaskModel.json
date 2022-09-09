@@ -1028,10 +1028,11 @@
 				"Bringe die Fahrgäste im Auftrag von Amtrak von %s nach %s.",
 				"Fahre durch die USA von %s nach %s.",
 				"Bringe die Fahrgäste langsam, aber bequem von %s nach %s.",
-				"Fahre Langstrecke von %s nach %s"
+				"Fahre Mittel- bis Langstrecke von %s nach %s"
 			],
 			"neededCapacity": [
-				{ "name": "passengers" }
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
 			],
 			"group": 1,
 			"service": 1,
@@ -1055,6 +1056,43 @@
 				{
 					"name": "Downeaster von %s nach %s",
 					"stations": [ "🇺🇸BRK", "🇺🇸FRE", "🇺🇸POR", "🇺🇸ORB", "🇺🇸SAO", "🇺🇸WEM", "🇺🇸DOV", "🇺🇸DHM", "🇺🇸EXR", "🇺🇸HHL", "🇺🇸WOB", "🇺🇸BOS" ]
+				},
+				{
+					"name": "San Joaquins von %s nach %s",
+					"stations": [ "🇺🇸SAC", "🇺🇸LOD", "🇺🇸SKT", "🇺🇸MOD", "🇺🇸TRK", "🇺🇸MCD", "🇺🇸MAD", "🇺🇸FNO", "🇺🇸HNF", "🇺🇸COC", "🇺🇸CNL", "🇺🇸WAC", "🇺🇸BFD" ]
+				},
+				{
+					"name": "Illini and Saluki von %s nach %s",
+					"stations": [ "🇺🇸CHI", "🇺🇸HMW", "🇺🇸KKI", "🇺🇸GLM", "🇺🇸CHM", "🇺🇸MAT", "🇺🇸EFG", "🇺🇸CEN", "🇺🇸CDL" ]
+				},
+				{
+					"name": "Lincoln Service von %s nach %s",
+					"stations": [ "🇺🇸CHI", "🇺🇸JOL", "🇺🇸PNT", "🇺🇸BNL", "🇺🇸LCN", "🇺🇸SPI", "🇺🇸CRV", "🇺🇸ALN", "🇺🇸STL" ]
+				},
+				{
+					"name": "Berkshire Flyer von %s nach %s",
+					"stations": [ "🇺🇸PIT", "🇺🇸ALB", "🇺🇸HUD", "🇺🇸RHI", "🇺🇸POU", "🇺🇸CRT", "🇺🇸YNY", "🇺🇸NYP" ]
+				}
+			]
+		},
+		{
+			"descriptions": [
+				"Bringe die Fahrgäste im Auftrag von Amtrak von %s nach %s.",
+				"Fahre durch die USA von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"objects": [
+				{
+					"name": "Piedmont von %s nach %s",
+					"stations": [ "🇺🇸RGH", "🇺🇸CYN", "🇺🇸BNC", "🇺🇸GRO", "🇺🇸HPT", "🇺🇸SAL", "🇺🇸CLT" ]
+				},
+				{
+					"name": "Hiawatha Service von %s nach %s",
+					"stations": [ "🇺🇸MKE", "🇺🇸GLN", "🇺🇸CHI" ]
 				}
 			]
 		},
