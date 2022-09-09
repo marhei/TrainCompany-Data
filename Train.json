@@ -3,6 +3,7 @@
 	"data": [
 		{
 			"id": 13,
+			"service": 0,
 			"group": 2,
 			"name": "ICE 1",
 			"shortcut": "BR 401",
@@ -24,6 +25,7 @@
 		},
 		{
 			"id": 80402,
+			"service": 0,
 			"group": 2,
 			"name": "ICE 2",
 			"shortcut": "BR 402",
@@ -45,6 +47,7 @@
 		},
 		{
 			"id": 403,
+			"service": 0,
 			"group": 2,
 			"name": "ICE 3",
 			"shortcut": "BR 403/406",
@@ -66,6 +69,7 @@
 		},
 		{
 			"id": 7403,
+			"service": 0,
 			"group": 2,
 			"name": "Velaro RUS",
 			"shortcut": "ЭВС1",
@@ -86,6 +90,7 @@
 		},
 		{
 			"id": 0,
+			"service": 0,
 			"group": 2,
 			"name": "ICE 3 Velaro D",
 			"shortcut": "BR 407",
@@ -107,6 +112,7 @@
 		},
 		{
 			"id": 24,
+			"service": 0,
 			"group": 2,
 			"name": "ICE 4 (7-teilig)",
 			"shortcut": "BR 412.2",
@@ -118,7 +124,7 @@
 			"reliability": 1,
 			"cost": 2500000,
 			"operationCosts": 60,
-			"equipments": ["ETCS", "KRM", "CH", "AT", "DE"],
+			"equipments": ["ETCS", "KRM", "AT", "DE"],
 			"maxConnectedUnits": 2,
 			"exchangeTime": 120,
 			"capacity": [
@@ -128,6 +134,7 @@
 		},
 		{
 			"id": 25,
+			"service": 0,
 			"group": 2,
 			"name": "ICE 4 (13-teilig)",
 			"shortcut": "BR 412.4",
@@ -150,6 +157,7 @@
 		{
 
 			"id": 411,
+			"service": 0,
 			"group": 2,
 			"name": "ICE T",
 			"shortcut": "BR 411",
@@ -172,6 +180,7 @@
 		{
 
 			"id": 605,
+			"service": 0,
 			"group": 2,
 			"name": "ICE TD",
 			"shortcut": "BR 605",
@@ -193,6 +202,7 @@
 		},
 		{
 			"id": 4701,
+			"service": 0,
 			"group": 2,
 			"name": "Euroduplex",
 			"shortcut": "TGV 2N2",
@@ -215,6 +225,7 @@
 		},
 		{
 			"id": 872024,
+			"service": 0,
 			"group": 2,
 			"name": "Alstom Avelia Horizon",
 			"shortcut": "TGV M",
@@ -236,6 +247,7 @@
 		},
 		{
 			"id": 17762100,
+			"service": 0,
 			"group": 2,
 			"name": "Alstom Avelia Liberty",
 			"shortcut": "Acela II",
@@ -257,6 +269,7 @@
 		},
 		{
 			"id": 17762000,
+			"service": 0,
 			"group": 2,
 			"name": "Alstom Acela Express",
 			"shortcut": "Acela",
@@ -278,6 +291,7 @@
 		},
 		{
 			"id": 4403,
+			"service": 0,
 			"group": 2,
 			"name": "TGV POS",
 			"speed": 320,
@@ -299,6 +313,7 @@
 		},
 		{
 			"id": 4501,
+			"service": 0,
 			"group": 2,
 			"name": "TGV Réseau",
 			"speed": 320,
@@ -320,6 +335,7 @@
 		},
 		{
 			"id": 24000,
+			"service": 0,
 			"group": 2,
 			"name": "TGV Atlantique",
 			"speed": 320,
@@ -340,6 +356,7 @@
 		},
 		{
 			"id": 83575,
+			"service": 0,
 			"group": 2,
 			"name": "Alstom AGV",
 			"shortcut": "AGV",
@@ -361,6 +378,7 @@
 		},
 		{
 			"id": 71100,
+			"service": 0,
 			"group": 2,
 			"name": "AVE 100",
 			"speed": 300,
@@ -381,9 +399,10 @@
 		},
 		{
 			"id": 373,
+			"service": 0,
 			"group": 2,
-			"name": "TGV/Eurostar TMST - Three Capitals",
-			"shortcut": "TMST",
+			"name": "TGV/Eurostar TMST",
+			"shortcut": "e300",
 			"speed": 300,
 			"weight": 752,
 			"force": 410,
@@ -402,6 +421,7 @@
 		},
 		{
 			"id": 3732,
+			"service": 0,
 			"group": 2,
 			"name": "Eurostar North of London",
 			"shortcut": "Class 373/2",
@@ -423,8 +443,9 @@
 		},
 		{
 			"id": 374,
+			"service": 0,
 			"group": 2,
-			"name": "Siemens Velaro e320",
+			"name": "Eurostar Velaro",
 			"shortcut": "e320",
 			"speed": 320,
 			"weight": 921,
@@ -444,6 +465,7 @@
 		},
 		{
 			"id": 409,
+			"service": 0,
 			"group": 2,
 			"name": "Thalys PBKA",
 			"shortcut": "BR 409",
@@ -466,6 +488,7 @@
 		},
 		{
 			"id": 610503,
+			"service": 0,
 			"group": 2,
 			"name": "Alstom New Pendolino",
 			"shortcut": "ETR 610",
@@ -487,6 +510,7 @@
 		},
 		{
 			"id": 84400,
+			"service": 0,
 			"group": 2,
 			"name": "Frecciarossa 1000",
 			"shortcut": "ETR 400",
@@ -508,6 +532,7 @@
 		},
 		{
 			"id": 71112,
+			"service": 0,
 			"group": 2,
 			"name": "Talgo 350",
 			"shortcut": "S-112",
@@ -530,6 +555,7 @@
 		{
 			"id": 501,
 			"group": 2,
+			"service": 0,
 			"name": "Stadler SMILE",
 			"shortcut": "RABe 501",
 			"speed": 250,
@@ -551,6 +577,7 @@
 		{
 			"id": 420,
 			"group": 2,
+			"service": 3,
 			"name": "BR 420",
 			"speed": 120,
 			"weight": 129,
@@ -569,6 +596,7 @@
 		{
 			"id": 422,
 			"group": 2,
+			"service": 3,
 			"name": "BR 422",
 			"speed": 140,
 			"weight": 112,
@@ -586,6 +614,7 @@
 		{
 			"id": 80423,
 			"group": 2,
+			"service": 3,
 			"name": "BR 423",
 			"speed": 140,
 			"weight": 119,
@@ -605,6 +634,7 @@
 		{
 			"id": 80430,
 			"group": 2,
+			"service": 3,
 			"name": "BR 430",
 			"speed": 140,
 			"weight": 119,
@@ -624,6 +654,7 @@
 		{
 			"id": 9,
 			"group": 2,
+			"service": 2,
 			"name": "BR 425",
 			"speed": 140,
 			"weight": 114,
@@ -642,6 +673,7 @@
 		{
 			"id": 80426,
 			"group": 2,
+			"service": 2,
 			"name": "BR 426",
 			"speed": 160,
 			"weight": 63,
@@ -662,6 +694,7 @@
 		{
 			"id": 10,
 			"group": 2,
+			"service": 2,
 			"name": "Bombardier Talent 2",
 			"shortcut": "BR 442",
 			"speed": 160,
@@ -681,6 +714,7 @@
 		{
 			"id": 440,
 			"group": 2,
+			"service": 2,
 			"name": "Alstom Coradia Continental",
 			"shortcut": "BR 440",
 			"speed": 160,
@@ -699,6 +733,7 @@
 		{
 			"id": 80455,
 			"group": 2,
+			"service": 2,
 			"name": "CAF NEXIO",
 			"shortcut": "BR 455",
 			"speed": 100,
@@ -719,6 +754,7 @@
 		{
 			"id": 804743,
 			"group": 2,
+			"service": 3,
 			"name": "BR 474.3",
 			"speed": 100,
 			"weight": 106,
@@ -738,6 +774,7 @@
 		{
 			"id": 804901,
 			"group": 2,
+			"service": 3,
 			"name": "BR 490.2",
 			"speed": 140,
 			"weight": 135,
@@ -757,6 +794,7 @@
 		{
 			"id": 51500,
 			"group": 2,
+			"service": 2,
 			"name": "Alstom Coradia Polyvalent",
 			"shortcut": "Régiolis",
 			"speed": 160,
@@ -777,6 +815,7 @@
 		{
 			"id": 4744,
 			"group": 2,
+			"service": 2,
 			"name": "Siemens Desiro ML",
 			"shortcut": "ÖBB 4744",
 			"speed": 160,
@@ -797,6 +836,7 @@
 		{
 			"id": 23,
 			"group": 2,
+			"service": 2,
 			"name": "Siemens Mireo",
 			"shortcut": "BR 463",
 			"speed": 160,
@@ -817,6 +857,7 @@
 		{
 			"id": 428,
 			"group": 2,
+			"service": 2,
 			"name": "Stadler FLIRT 2",
 			"shortcut": "BR 0428",
 			"speed": 160,
@@ -836,6 +877,7 @@
 		{
 			"id": 1427,
 			"group": 2,
+			"service": 2,
 			"name": "Stadler Flirt 3 Akku",
 			"shortcut": "BR 526",
 			"speed": 140,
@@ -855,6 +897,7 @@
 		{
 			"id": 31601,
 			"group": 2,
+			"service": 2,
 			"name": "Stadler WINK",
 			"shortcut": "WINK",
 			"speed": 140,
@@ -875,6 +918,7 @@
 		{
 			"id": 3427,
 			"group": 2,
+			"service": 2,
 			"name": "Stadler FLIRT 3XL",
 			"shortcut": "BR 3427",
 			"speed": 160,
@@ -895,6 +939,7 @@
 		{
 			"id": 85518,
 			"group": 2,
+			"service": 2,
 			"name": "Stadler FLIRT 4",
 			"shortcut": "SŽ 510",
 			"speed": 160,
@@ -915,6 +960,7 @@
 		{
 			"id": 526,
 			"group": 2,
+			"service": 1,
 			"name": "Stadler Traverso",
 			"shortcut": "Traverso",
 			"speed": 160,
@@ -935,6 +981,7 @@
 		{
 			"id": 1,
 			"group": 2,
+			"service": 2,
 			"name": "Stadler KISS 160",
 			"shortcut": "BR 445",
 			"speed": 160,
@@ -955,6 +1002,7 @@
 		{
 			"id": 4010,
 			"group": 2,
+			"service": 1,
 			"name": "Stadler KISS 200",
 			"shortcut": "KISS-FV",
 			"speed": 200,
@@ -975,6 +1023,7 @@
 		{
 			"id": 502,
 			"group": 2,
+			"service": 2,
 			"name": "Bombardier Twindexx Express",
 			"shortcut": "RABe 502",
 			"speed": 200,
@@ -995,6 +1044,7 @@
 		{
 			"id": 500,
 			"group": 2,
+			"service": 1,
 			"name": "ICN RABDe 500",
 			"shortcut": "ICN",
 			"speed": 200,
@@ -1015,6 +1065,7 @@
 		{
 			"id": 85560,
 			"group": 2,
+			"service": 2,
 			"name": "SBB RBDe 560",
 			"speed": 140,
 			"weight": 280,
@@ -1034,6 +1085,7 @@
 		{
 			"id": 85450,
 			"group": 2,
+			"service": 2,
 			"name": "SBB Re 450",
 			"speed": 130,
 			"weight": 224,
@@ -1053,6 +1105,7 @@
 		{
 			"id": 85525,
 			"group": 2,
+			"service": 2,
 			"name": "BLS RABe 525",
 			"speed": 140,
 			"weight": 78,
@@ -1073,6 +1126,7 @@
 		{
 			"id": 85535,
 			"group": 2,
+			"service": 2,
 			"name": "BLS RABe 535",
 			"speed": 160,
 			"weight": 105,
@@ -1093,6 +1147,7 @@
 		{
 			"id": 555000,
 			"group": 2,
+			"service": 2,
 			"name": "Bombardier Omnéo",
 			"shortcut": "Régio2N",
 			"speed": 160,
@@ -1112,6 +1167,7 @@
 		{
 			"id": 566000,
 			"group": 2,
+			"service": 1,
 			"name": "Bombardier Omnéo Premium",
 			"shortcut": "Omnéo Intercités",
 			"speed": 200,
@@ -1131,6 +1187,7 @@
 		{
 			"id": 876100,
 			"group": 2,
+			"service": 3,
 			"name": "SNCF Z 6100",
 			"speed": 120,
 			"weight": 160,
@@ -1150,6 +1207,7 @@
 		{
 			"id": 872000,
 			"group": 2,
+			"service": 2,
 			"name": "SNCF Z2",
 			"speed": 160,
 			"weight": 109,
@@ -1170,6 +1228,7 @@
 			"id": 8750000,
 			"group": 2,
 			"name": "SNCF Z 50000",
+			"service": 3,
 			"speed": 140,
 			"weight": 125,
 			"force": 160,
@@ -1189,6 +1248,7 @@
 			"id": 8724500,
 			"group": 2,
 			"name": "SNCF Z 24500",
+			"service": 2,
 			"speed": 140,
 			"weight": 125,
 			"force": 290,
@@ -1208,6 +1268,7 @@
 			"id": 878100,
 			"group": 2,
 			"name": "SNCF Z 8100",
+			"service": 3,
 			"speed": 140,
 			"weight": 208,
 			"force": 270,
@@ -1227,6 +1288,7 @@
 			"id": 8709,
 			"group": 2,
 			"name": "RATP MI 09",
+			"service": 3,
 			"speed": 120,
 			"weight": 288,
 			"force": 290,
@@ -1246,6 +1308,7 @@
 			"id": 21,
 			"group": 2,
 			"name": "Siemens Desiro HC Franken/Thüringen",
+			"service": 2,
 			"shortcut": "BR 1462",
 			"speed": 190,
 			"weight": 287,
@@ -1267,6 +1330,7 @@
 			"id": 211,
 			"group": 2,
 			"name": "Siemens Desiro HC RRX",
+			"service": 2,
 			"shortcut": "BR 0462",
 			"speed": 160,
 			"weight": 200,
@@ -1306,6 +1370,7 @@
 		{
 			"id": 2017800,
 			"group": 2,
+			"service": 1,
 			"name": "Hitachi Azuma/IET (5-Teiler)",
 			"shortcut": "Class 800/2",
 			"speed": 225,
@@ -1347,6 +1412,7 @@
 		},
 		{
 			"id": 44390,
+			"service": 0,
 			"group": 2,
 			"name": "Alstom Pendolino Britannico",
 			"shortcut": "Class 390",
@@ -1388,6 +1454,7 @@
 		{
 			"id": 231,
 			"group": 2,
+			"service": 3,
 			"name": "Bombardier ET 2010 (AVG/VBK)",
 			"shortcut": "ET2010",
 			"speed": 100,
@@ -1407,6 +1474,7 @@
 		{
 			"id": 232,
 			"group": 2,
+			"service": 3,
 			"name": "Stadler Citylink D/E",
 			"shortcut": "Citylink",
 			"speed": 100,
@@ -1426,6 +1494,7 @@
 		{
 			"id": 233,
 			"group": 2,
+			"service": 3,
 			"name": "Stadler Citylink E/E",
 			"shortcut": "Citylink",
 			"speed": 100,
@@ -1634,6 +1703,7 @@
 		{
 			"id": 4200,
 			"group": 2,
+			"service": 1,
 			"name": "Intercitymaterieel",
 			"shortcut": "ICM",
 			"speed": 160,
@@ -1714,6 +1784,7 @@
 		{
 			"id": 842400,
 			"group": 2,
+			"service": 3,
 			"name": "Sprinter Lighttrain",
 			"shortcut": "SLT",
 			"speed": 160,
@@ -1734,6 +1805,7 @@
 		{
 			"id": 842700,
 			"group": 2,
+			"service": 3,
 			"name": "Sprinter Nieuwe Generatie",
 			"shortcut": "SNG",
 			"speed": 160,
@@ -1889,6 +1961,7 @@
 		{
 			"id": 54680,
 			"group": 2,
+			"service": 0,
 			"name": "SuperCity Pendolino",
 			"shortcut": "ČD-Baureihe 680",
 			"speed": 230,
@@ -2200,6 +2273,7 @@
 		{
 			"id": 944000,
 			"group": 2,
+			"service": 0,
 			"name": "Alfa Pendular",
 			"shortcut": "CP-Baureihe 4000",
 			"speed": 220,
@@ -2259,6 +2333,7 @@
 		{
 			"id": 79310,
 			"group": 2,
+			"service": 0,
 			"name": "InterCitySlovenija Pendolino",
 			"shortcut": "SŽ 310",
 			"speed": 200,
@@ -2437,6 +2512,7 @@
 		{
 			"id": 83450,
 			"group": 2,
+			"service": 0,
 			"name": "Pendolino",
 			"shortcut": "FS ETR.450",
 			"speed": 250,
@@ -2468,7 +2544,7 @@
 			"cost": 650000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 60,
-			"equipments": ["EE","LV","LT","1520mm"],
+			"equipments": ["EE","LV","LT", "UA", "RU","1520mm"],
 			"exchangeTime": 40,
 			"compatibleWith": [
 				371003
@@ -2509,7 +2585,7 @@
 			"cost": 500000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 60,
-			"equipments": ["EE","LV","LT","1520mm"],
+			"equipments": ["EE","LV","LT","UA","RU","1520mm"],
 			"exchangeTime": 40,
 			"compatibleWith": [
 				371002
@@ -2521,6 +2597,7 @@
 		{
 			"id": 83470,
 			"group": 2,
+			"service": 0,
 			"name": "Cisalpino-Pendolino",
 			"shortcut": "FS ETR.470",
 			"speed": 200,
@@ -2612,7 +2689,7 @@
 			"cost": 600000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 60,
-			"equipments": ["EE","LV","LT","1520mm"],
+			"equipments": ["EE","LV","LT", "UA", "BY","1520mm"],
 			"exchangeTime": 40,
 			"compatibleWith": [
 				371011
@@ -2634,7 +2711,7 @@
 			"cost": 840000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 60,
-			"equipments": ["EE","LV","LT","1520mm"],
+			"equipments": ["EE","LV","LT","UA","RU","BY","1520mm"],
 			"exchangeTime": 40,
 			"compatibleWith": [
 				371001
@@ -2923,7 +3000,7 @@
 			"cost": 500000,
 			"maxConnectedUnits": 3,
 			"operationCosts": 65,
-			"equipments": [ "FI", "EE", "1520mm" ],
+			"equipments": [ "FI", "EE", "BY", "1520mm" ],
 			"exchangeTime": 45,
 			"capacity": [
 				{ "name": "passengers", "value": 232 }
@@ -3038,7 +3115,7 @@
 			"cost": 800000,
 			"maxConnectedUnits": 1,
 			"operationCosts": 130,
-			"equipments": [ "UA", "RU", "1520mm" ],
+			"equipments": [ "UA", "RU", "BY", "1520mm" ],
 			"exchangeTime": 80,
 			"capacity": [
 				{ "name": "passengers", "value": 1100 }
@@ -3047,7 +3124,7 @@
 		{
 			"id": 20001035,
 			"group": 2,
-			"name": "SŽD-Baureihe ED9",
+			"name": "UZ-Baureihe EPL2T",
 			"speed": 130,
 			"weight": 220,
 			"force": 200,
@@ -3163,6 +3240,7 @@
 		{
 			"id": 2,
 			"group": 2,
+			"service": 2,
 			"name": "RegioSwinger",
 			"shortcut": "BR 612",
 			"speed": 160,
@@ -3183,6 +3261,7 @@
 		{
 			"id": 117,
 			"group": 2,
+			"service": 2,
 			"name": "Integral",
 			"speed": 140,
 			"weight": 85,
@@ -3377,6 +3456,7 @@
 		{
 			"id": 628,
 			"group": 2,
+			"service": 2,
 			"name": "BR 628",
 			"speed": 120,
 			"weight": 63,
@@ -3396,6 +3476,7 @@
 		{
 			"id": 161,
 			"group": 2,
+			"service": 2,
 			"name": "Pesa Link",
 			"shortcut": "BR 632",
 			"speed": 140,
@@ -3453,8 +3534,9 @@
 		{
 			"id": 8782500,
 			"group": 2,
+			"service": 2,
 			"name": "Autorail à grande capacité",
-			"shortcut": "SNCF B 82500",
+			"shortcut": "AGC/SNCF B 82500",
 			"speed": 160,
 			"weight": 152,
 			"force": 150,
@@ -3474,6 +3556,7 @@
 		{
 			"id": 22,
 			"group": 2,
+			"service": 2,
 			"name": "Siemens Desiro",
 			"shortcut": "BR 642",
 			"speed": 120,
@@ -3485,7 +3568,7 @@
 			"cost": 250000,
 			"operationCosts": 55,
 			"maxConnectedUnits": 3,
-			"equipments": ["AT", "PL", "DE", "HU", "DK", "RO", "BG", "GR"],
+			"equipments": ["AT", "PL", "DE", "HU", "DK", "RO", "BG", "GR", "CZ", "US"],
 			"capacity": [
 				{"name": "passengers", "value": 110}
 			]
@@ -3493,6 +3576,7 @@
 		{
 			"id": 642800,
 			"group": 2,
+			"service": 4,
 			"name": "Trainguard ETCS Zug",
 			"shortcut": "VT 1.0/1.5-ETCS",
 			"speed": 120,
@@ -3513,6 +3597,7 @@
 		{
 			"id": 643,
 			"group": 2,
+			"service": 2,
 			"name": "Bombardier TALENT",
 			"shortcut": "BR 643",
 			"speed": 120,
@@ -3533,6 +3618,7 @@
 		{
 			"id": 646,
 			"group": 2,
+			"service": 2,
 			"name": "Stadler GTW",
 			"shortcut": "GTW",
 			"speed": 140,
@@ -3730,6 +3816,7 @@
 			"name": "DB VT 10.5 Komet",
 			"shortcut": "VT 10 551",
 			"speed": 160,
+			"service": 4,
 			"weight": 120,
 			"force": 38,
 			"length": 109,
@@ -4190,7 +4277,7 @@
 			"cost": 400000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 80,
-			"equipments": [ "UA", "RU", "LT", "1520mm" ],
+			"equipments": [ "UA", "RU", "LT", "MD", "1520mm" ],
 			"exchangeTime": 90,
 			"capacity": [
 				{ "name": "passengers", "value": 400 }
@@ -4199,6 +4286,7 @@
 		{
 			"id": 33,
 			"group": 2,
+			"service": 11,
 			"name": "CargoSprinter",
 			"shortcut": "BR 690",
 			"speed": 120,
@@ -5450,7 +5538,7 @@
 			"reliability": 0.85,
 			"cost": 450000,
 			"operationCosts": 150,
-			"equipments": ["UA", "RU", "1520mm"]
+			"equipments": ["UA", "RU", "BY", "1520mm"]
 		},
 		{
 			"id": 20510,
@@ -5464,7 +5552,7 @@
 			"reliability": 0.9,
 			"cost": 375000,
 			"operationCosts": 130,
-			"equipments": ["UA", "RU", "1520mm"]
+			"equipments": ["UA", "RU", "BY", "1520mm"]
 		},
 		{
 			"id": 20321,
@@ -5605,6 +5693,20 @@
 			"cost": 850000,
 			"operationCosts": 140,
 			"equipments": ["UA", "1520mm"]
+		},
+		{
+			"id": 2147000,
+			"group": 0,
+			"name": "BC-Baureihe BKG1",
+			"speed": 120,
+			"weight": 200,
+			"force": 760,
+			"length": 38,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 850000,
+			"operationCosts": 150,
+			"equipments": ["BY", "1520mm"]
 		},
 		{
 			"id": 931250,
@@ -6417,7 +6519,7 @@
 			"reliability": 0.9,
 			"cost": 440000,
 			"operationCosts": 180,
-			"equipments": ["UA", "RU", "LV", "LT", "EE", "1520mm"]
+			"equipments": ["UA", "RU", "LV", "LT", "EE", "MD", "1520mm"]
 		},
 		{
 			"id": 206224,
@@ -6452,19 +6554,19 @@
 			"group": 0,
 			"name": "SŽD-Baureihe TschME3",
 			"speed": 95,
-			"weight": 112,
-			"force": 280,
+			"weight": 126,
+			"force": 265,
 			"length": 17,
 			"drive": 2,
 			"reliability": 0.8,
 			"cost": 200000,
 			"operationCosts": 140,
-			"equipments": ["UA", "RU", "LV", "LT", "EE", "1520mm"]
+			"equipments": ["UA", "RU", "LV", "LT", "EE", "MD", "1520mm"]
 		},
 		{
 			"id": 222009,
 			"group": 0,
-			"name": "UZ-Baureihe TschME3",
+			"name": "UZ-Baureihe TE33A",
 			"speed": 120,
 			"weight": 184,
 			"force": 534,
@@ -6473,7 +6575,7 @@
 			"reliability": 1,
 			"cost": 270000,
 			"operationCosts": 135,
-			"equipments": ["UA", "1520mm"]
+			"equipments": ["UA", "MD", "1520mm"]
 		},
 		{
 			"id": 242020,
@@ -6521,6 +6623,7 @@
 		},
 		{
 			"id": 201,
+			"service": 2,
 			"group": 2,
 			"name": "ÖLEG C 201",
 			"shortcut": "ÖLEG C",
@@ -6541,6 +6644,7 @@
 			"id": 4,
 			"group": 1,
 			"name": "IC-Wagen",
+			"service": 1,
 			"shortcut": "Bpmz",
 			"speed": 200,
 			"weight": 42,
@@ -6558,6 +6662,7 @@
 			"id": 40,
 			"group": 1,
 			"name": "IC-Halbspeisewagen",
+			"service": 1,
 			"shortcut": "ARkimbz",
 			"speed": 200,
 			"weight": 51,
@@ -6576,6 +6681,7 @@
 			"id": 37,
 			"group": 1,
 			"name": "IC-Speisewagen",
+			"service": 1,
 			"shortcut": "ARmz211.0",
 			"speed": 200,
 			"weight": 48,
@@ -6593,6 +6699,7 @@
 			"id": 853,
 			"group": 1,
 			"name": "Kanzlerwagen",
+			"service": 4,
 			"shortcut": "WGSmz 853",
 			"speed": 200,
 			"weight": 56,
@@ -6610,6 +6717,7 @@
 			"id": 1975,
 			"group": 1,
 			"name": "Corail-Wagen",
+			"service": 1,
 			"shortcut": "B10rtu",
 			"speed": 200,
 			"weight": 42,
@@ -6728,6 +6836,7 @@
 		{
 			"id": 35,
 			"group": 1,
+			"service": 5,
 			"name": "Schlafwagen Comfortline",
 			"shortcut": "WLABmz 173.1",
 			"speed": 200,
@@ -6745,6 +6854,7 @@
 		{
 			"id": 36,
 			"group": 1,
+			"service": 5,
 			"name": "Schlafwagen AB30",
 			"shortcut": "AB30",
 			"speed": 160,
@@ -6762,6 +6872,7 @@
 		{
 			"id": 570,
 			"group": 1,
+			"service": 5,
 			"name": "Liegewagen TUI",
 			"shortcut": "Bcvmh",
 			"speed": 160,
@@ -6779,6 +6890,7 @@
 		{
 			"id": 7919802,
 			"group": 1,
+			"service": 5,
 			"name": "UIC-Y-Schlafwagen",
 			"shortcut": "Bc",
 			"speed": 160,
@@ -6796,6 +6908,7 @@
 		{
 			"id": 7919801,
 			"group": 1,
+			"service": 5,
 			"name": "UIC-Y-Sitzwagen",
 			"shortcut": "Bl",
 			"speed": 160,
@@ -6813,6 +6926,7 @@
 		{
 			"id": 39,
 			"group": 1,
+			"service": 5,
 			"name": "Y-Speisewagen",
 			"shortcut": "WRme",
 			"speed": 160,
@@ -6831,6 +6945,7 @@
 			"id": 11,
 			"group": 1,
 			"name": "n-Wagen",
+			"service": 2,
 			"shortcut": "Bnz",
 			"speed": 140,
 			"weight": 40,
@@ -6848,6 +6963,7 @@
 			"id": 8079478,
 			"group": 1,
 			"name": "x-Wagen",
+			"service": 3,
 			"shortcut": "Bx 794",
 			"speed": 140,
 			"weight": 28,
@@ -6865,6 +6981,7 @@
 			"id": 951,
 			"group": 1,
 			"name": "Škoda-Doppelstock-Wagen",
+			"service": 2,
 			"shortcut": "Škoda-Dosto",
 			"speed": 190,
 			"weight": 52,
@@ -6882,6 +6999,7 @@
 			"id": 2000,
 			"group": 1,
 			"name": "IC2000 Dosto",
+			"service": 1,
 			"shortcut": "IC2000",
 			"speed": 200,
 			"weight": 53,
@@ -6898,6 +7016,7 @@
 		{
 			"id": 20001,
 			"group": 1,
+			"service": 1,
 			"name": "IC2000 Dosto Bistrowagen",
 			"shortcut": "IC2000-BR",
 			"speed": 200,
@@ -6917,6 +7036,7 @@
 			"id": 20002,
 			"group": 1,
 			"name": "IC2000 Dosto Speisewagen",
+			"service": 1,
 			"shortcut": "IC2000-WRB",
 			"speed": 200,
 			"weight": 56,
@@ -6934,6 +7054,7 @@
 		{
 			"id": 5520121,
 			"group": 1,
+			"service": 1,
 			"name": "MÁV IC+ Sitzwagen",
 			"shortcut": "Bpmz",
 			"speed": 200,
@@ -6951,6 +7072,7 @@
 		{
 			"id": 5520122,
 			"group": 1,
+			"service": 1,
 			"name": "MÁV IC+ Halbspeisewagen",
 			"shortcut": "ARmz211.0",
 			"speed": 200,
@@ -6969,6 +7091,7 @@
 		{
 			"id": 5520213,
 			"group": 1,
+			"service": 5,
 			"name": "MÁV IC+ Schlafwagen",
 			"shortcut": "WLABmz",
 			"speed": 200,
@@ -6986,6 +7109,7 @@
 		{
 			"id": 7,
 			"group": 1,
+			"service": 2,
 			"name": "Doppelstock-Wagen",
 			"shortcut": "DBpza",
 			"speed": 160,
@@ -7105,6 +7229,7 @@
 		{
 			"id": 202012,
 			"group": 1,
+			"service": 5,
 			"name": "Siemens Viaggio Classic",
 			"speed": 200,
 			"weight": 58,
@@ -7258,6 +7383,7 @@
 		{
 			"id": 7621,
 			"group": 1,
+			"service": 5,
 			"name": "NSB WLAB-2",
 			"speed": 150,
 			"weight": 48,
@@ -7308,6 +7434,7 @@
 		{
 			"id": 8719291,
 			"group": 1,
+			"service": 5,
 			"name": "CIWL Typ Lx 20",
 			"speed": 160,
 			"weight": 53,
@@ -7324,6 +7451,7 @@
 		{
 			"id": 8719293,
 			"group": 1,
+			"service": 4,
 			"name": "CIWL Typ Lx 20 Salon",
 			"speed": 160,
 			"weight": 53,
@@ -7389,6 +7517,7 @@
 		{
 			"id": 74234,
 			"group": 1,
+			"service": 5,
 			"name": "SJ BC4",
 			"speed": 160,
 			"weight": 52,
@@ -7439,6 +7568,7 @@
 		{
 			"id": 7519933,
 			"group": 1,
+			"service": 5,
 			"name": "TVS2000 Schlafwagen",
 			"shortcut": "WLAIm",
 			"speed": 160,
@@ -7507,6 +7637,7 @@
 		{
 			"id": 7052,
 			"group": 1,
+			"service": 5,
 			"name": "Caledonian Sleeper Mark 5 Schlafwagen",
 			"speed": 160,
 			"weight": 43,
@@ -7523,6 +7654,7 @@
 		{
 			"id": 9419751,
 			"group": 1,
+			"service": 1,
 			"name": "CP-Corail-Wagen",
 			"shortcut": "CP 21-97",
 			"speed": 200,
@@ -7541,6 +7673,7 @@
 		{
 			"id": 9419752,
 			"group": 1,
+			"service": 1,
 			"name": "CP-Corail-Speisewagen",
 			"shortcut": "CP 21-97",
 			"speed": 200,
@@ -7597,6 +7730,7 @@
 		{
 			"id": 9419755,
 			"group": 1,
+			"service": 5,
 			"name": "CP-Schlafwagen",
 			"shortcut": "CP 711-70",
 			"speed": 160,
@@ -7615,6 +7749,7 @@
 		{
 			"id": 20212223,
 			"group": 1,
+			"service": 5,
 			"name": "Ammendorf-Schlafwagen",
 			"shortcut": "UZ WL 36",
 			"speed": 160,
@@ -7624,7 +7759,7 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 180000,
-			"equipments": ["1520mm"],
+			"equipments": ["1520mm", "1435mm"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "beds", "value": 40}
@@ -7642,7 +7777,7 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 170000,
-			"equipments": ["1520mm"],
+			"equipments": ["1520mm", "1435mm"],
 			"exchangeTime": 100,
 			"capacity": [
 				{"name": "passengers", "value": 80}
@@ -7660,7 +7795,7 @@
 			"drive": 0,
 			"reliability": 1,
 			"cost": 220000,
-			"equipments": ["1520mm"],
+			"equipments": ["1520mm", "1435mm"],
 			"exchangeTime": 180,
 			"capacity": [
 				{"name": "bistroseats", "value": 40}
@@ -7669,6 +7804,7 @@
 		{
 			"id": 202122235,
 			"group": 1,
+			"service": 5,
 			"name": "RIC-Schlafwagen",
 			"shortcut": "UZ WL 20",
 			"speed": 160,
@@ -7687,6 +7823,7 @@
 		{
 			"id": 202122236,
 			"group": 1,
+			"service": 5,
 			"name": "Tver-Schlafwagen",
 			"shortcut": "RŽD WL 54",
 			"speed": 200,
@@ -7705,6 +7842,7 @@
 		{
 			"id": 202122237,
 			"group": 1,
+			"service": 5,
 			"name": "TMH-Doppelstock-Schlafwagen",
 			"shortcut": "RŽD WL 50",
 			"speed": 200,
@@ -7759,6 +7897,7 @@
 		{
 			"id": 1040452,
 			"group": 1,
+			"service": 5,
 			"name": "VR Reisezugwagen Schlafwagen",
 			"shortcut": "VR CEmt",
 			"speed": 160,
@@ -7795,6 +7934,7 @@
 		{
 			"id": 105660100,
 			"group": 1,
+			"service": 1,
 			"name": "VR InterCity 2 Sitzwagen",
 			"shortcut": "VR Ed",
 			"speed": 160,
@@ -7813,6 +7953,7 @@
 		{
 			"id": 105660200,
 			"group": 1,
+			"service": 5,
 			"name": "VR InterCity 2 Schlafwagen",
 			"shortcut": "VR Edm",
 			"speed": 160,
@@ -7831,6 +7972,7 @@
 		{
 			"id": 105660300,
 			"group": 1,
+			"service": 1,
 			"name": "VR InterCity 2 Speisewagen",
 			"shortcut": "VR ERd",
 			"speed": 200,
@@ -7882,6 +8024,7 @@
 		{
 			"id": 81,
 			"group": 1,
+			"service": 11,
 			"name": "Autotransportwagen",
 			"shortcut": "Laes 559",
 			"speed": 100,
@@ -7896,8 +8039,45 @@
 			]
 		},
 		{
+			"id": 811520,
+			"group": 1,
+			"service": 11,
+			"name": "1520mm-Autotransportwagen",
+			"shortcut": "13-925",
+			"speed": 120,
+			"weight": 22,
+			"force": 0,
+			"length": 20,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 110000,
+			"equipments": ["1520mm"],
+			"capacity": [
+				{"name": "cars", "value": 8}
+			]
+		},
+		{
+			"id": 811668,
+			"group": 1,
+			"service": 11,
+			"name": "MA5-Autotransportwagen",
+			"shortcut": "Laaes",
+			"speed": 100,
+			"weight": 28,
+			"force": 0,
+			"length": 27,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 180000,
+			"equipments": ["1668mm"],
+			"capacity": [
+				{"name": "cars", "value": 15}
+			]
+		},
+		{
 			"id": 14,
 			"group": 1,
+			"service": 11,
 			"name": "Holzwagen",
 			"shortcut": "Snps",
 			"speed": 100,
@@ -7912,8 +8092,45 @@
 			]
 		},
 		{
+			"id": 141520,
+			"group": 1,
+			"service": 11,
+			"name": "1520mm-Holzwagen",
+			"shortcut": "13-4011",
+			"speed": 120,
+			"weight": 18,
+			"force": 0,
+			"length": 20,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 150000,
+			"equipments": ["1520mm"],
+			"capacity": [
+				{"name": "wood", "value": 70}
+			]
+		},
+		{
+			"id": 141668,
+			"group": 1,
+			"service": 11,
+			"name": "MM9C-Holzwagen",
+			"shortcut": "Remmns",
+			"speed": 100,
+			"weight": 22,
+			"force": 0,
+			"length": 14,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 160000,
+			"equipments": ["1668mm"],
+			"capacity": [
+				{"name": "wood", "value": 68}
+			]
+		},
+		{
 			"id": 16,
 			"group": 1,
+			"service": 11,
 			"name": "Kesselwagen",
 			"shortcut": "Zacns",
 			"speed": 100,
@@ -7928,8 +8145,45 @@
 			]
 		},
 		{
+			"id": 161520,
+			"group": 1,
+			"service": 11,
+			"name": "1520mm-Kesselwagen",
+			"shortcut": "15-1547",
+			"speed": 120,
+			"weight": 24,
+			"force": 0,
+			"length": 17,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 175000,
+			"equipments": ["1520mm"],
+			"capacity": [
+				{"name": "oil", "value": 68}
+			]
+		},
+		{
+			"id": 161668,
+			"group": 1,
+			"service": 11,
+			"name": "RR92-Kesselwagen",
+			"shortcut": "Zans",
+			"speed": 120,
+			"weight": 24,
+			"force": 0,
+			"length": 17,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 175000,
+			"equipments": ["1668mm"],
+			"capacity": [
+				{"name": "oil", "value": 65}
+			]
+		},
+		{
 			"id": 18,
 			"group": 1,
+			"service": 11,
 			"name": "Schüttgutwagen",
 			"shortcut": "Falns",
 			"speed": 100,
@@ -7944,8 +8198,43 @@
 			]
 		},
 		{
+			"id": 181520,
+			"group": 1,
+			"service": 11,
+			"name": "1520mm-Schüttgutwagen",
+			"speed": 120,
+			"weight": 17,
+			"force": 0,
+			"length": 12,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 133000,
+			"equipments": ["1520mm"],
+			"capacity": [
+				{"name": "coal", "value": 60}
+			]
+		},
+			{
+			"id": 181668,
+			"group": 1,
+			"service": 11,
+			"name": "TT6-Schüttgutwagen",
+			"speed": 100,
+			"weight": 25,
+			"force": 0,
+			"length": 12,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 140000,
+			"equipments": ["1668mm"],
+			"capacity": [
+				{"name": "coal", "value": 55}
+			]
+		},
+		{
 			"id": 19,
 			"group": 1,
+			"service": 11,
 			"name": "Containerwagen",
 			"shortcut": "Sgns",
 			"speed": 120,
@@ -7962,6 +8251,7 @@
 		{
 			"id": 703,
 			"group": 1,
+			"service": 11,
 			"name": "Containerwagen InterCargoExpress",
 			"shortcut": "Sgss-y",
 			"speed": 160,
@@ -7974,11 +8264,47 @@
 			"capacity": [
 				{"name": "containers", "value": 1}
 			]
-
+		},
+		{
+			"id": 191520,
+			"group": 1,
+			"service": 11,
+			"name": "1520mm-Containerwagen",
+			"shortcut": "13-400",
+			"speed": 120,
+			"weight": 20,
+			"force": 0,
+			"length": 20,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 110000,
+			"equipments": ["1520mm"],
+			"capacity": [
+				{"name": "containers", "value": 1}
+			]
+		},
+		{
+			"id": 191668,
+			"group": 1,
+			"service": 11,
+			"name": "MMC3-Containerwagen",
+			"shortcut": "13-400",
+			"speed": 120,
+			"weight": 20,
+			"force": 0,
+			"length": 20,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 135000,
+			"equipments": ["1668mm"],
+			"capacity": [
+				{"name": "containers", "value": 2}
+			]
 		},
 		{
 			"id": 27,
 			"group": 1,
+			"service": 11,
 			"name": "Schienentiefladewagen",
 			"shortcut": "Uaais",
 			"speed": 80,
@@ -7993,8 +8319,45 @@
 			]
 		},
 		{
+			"id": 271520,
+			"group": 1,
+			"service": 11,
+			"name": "1520mm-Castor-Transportwagen",
+			"shortcut": "13-400",
+			"speed": 120,
+			"weight": 20,
+			"force": 0,
+			"length": 20,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 160000,
+			"equipments": ["1520mm"],
+			"capacity": [
+				{"name": "castor", "value": 1}
+			]
+		},
+		{
+			"id": 271668,
+			"group": 1,
+			"service": 11,
+			"name": "M1-Flachwagen",
+			"shortcut": "Ks",
+			"speed": 100,
+			"weight": 22,
+			"force": 0,
+			"length": 14,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 170000,
+			"equipments": ["1668mm"],
+			"capacity": [
+				{"name": "castor", "value": 1}
+			]
+		},
+		{
 			"id": 31,
 			"group": 3,
+			"service": 1,
 			"name": "Twindexx Vario",
 			"shortcut": "IC 2",
 			"speed": 160,
@@ -8015,6 +8378,7 @@
 		{
 			"id": 11007,
 			"group": 3,
+			"service": 2,
 			"name": "Married-Pair-Wagen 4-Tlg",
 			"speed": 160,
 			"weight": 166,
@@ -8034,6 +8398,7 @@
 		{
 			"id": 11009,
 			"group": 3,
+			"service": 2,
 			"name": "Married-Pair-Wagen 6-Tlg",
 			"speed": 160,
 			"weight": 242,
@@ -8053,6 +8418,7 @@
 		{
 			"id": 871976,
 			"group": 3,
+			"service": 3,
 			"name": "SNCF Rame inox omnibus",
 			"shortcut": "SNCF RIO 78",
 			"speed": 140,
@@ -8073,6 +8439,7 @@
 		{
 			"id": 542022,
 			"group": 3,
+			"service": 1,
 			"name": "Siemens Viaggio Comfort",
 			"shortcut": "Interjet",
 			"speed": 200,
@@ -8093,6 +8460,7 @@
 		{
 			"id": 1116,
 			"group": 3,
+			"service": 0,
 			"name": "Railjet",
 			"speed": 230,
 			"weight": 356,
@@ -8113,6 +8481,7 @@
 		{
 			"id": 1051,
 			"group": 3,
+			"service": 1,
 			"name": "Metropolitan Express Train",
 			"shortcut": "MET",
 			"speed": 220,
@@ -8134,6 +8503,7 @@
 		{
 			"id": 202016,
 			"group": 3,
+			"service": 5,
 			"name": "Siemens Viaggio Next Level Nachtzug",
 			"shortcut": "Viaggio Nightjet",
 			"speed": 200,
@@ -8155,6 +8525,7 @@
 		{
 			"id": 230,
 			"group": 3,
+			"service": 0,
 			"name": "Talgo 230 (ICE-L/ECx)",
 			"shortcut": "ECx",
 			"speed": 230,
@@ -8176,6 +8547,7 @@
 		{
 			"id": 35301,
 			"group": 3,
+			"service": 1,
 			"name": "RENFE Talgo III RD (16 tlg.)",
 			"shortcut": "Talgo III RD",
 			"speed": 220,
@@ -8198,6 +8570,7 @@
 		{
 			"id": 35302,
 			"group": 3,
+			"service": 1,
 			"name": "RENFE Talgo III RD (21 tlg.)",
 			"shortcut": "Talgo III RD+",
 			"speed": 220,
@@ -8220,8 +8593,8 @@
 		{
 			"id": 714449501,
 			"group": 3,
+			"service": 1,
 			"name": "Talgo 7 Tagzug der RENFE",
-			"shortcut": "Talgo 7 Tagzug RENFE",
 			"speed": 220,
 			"weight": 153,
 			"force": 0,
@@ -8242,8 +8615,8 @@
 		{
 			"id": 4449501,
 			"group": 3,
+			"service": 1,
 			"name": "Talgo 7 Tagzug der ŽFBH",
-			"shortcut": "Talgo 7 Tagzug",
 			"speed": 220,
 			"weight": 153,
 			"force": 0,
@@ -8263,8 +8636,8 @@
 		{
 			"id": 714449502,
 			"group": 3,
+			"service": 5,
 			"name": "Talgo 7 Nachtzug der RENFE",
-			"shortcut": "Talgo 7 Nachtzug RENFE",
 			"speed": 220,
 			"weight": 153,
 			"force": 0,
@@ -8286,8 +8659,8 @@
 		{
 			"id": 4449502,
 			"group": 3,
+			"service": 5,
 			"name": "Talgo 7 Nachtzug der ŽFBH",
-			"shortcut": "Talgo 7 Nachtzug",
 			"speed": 220,
 			"weight": 153,
 			"force": 0,
@@ -8308,6 +8681,7 @@
 		{
 			"id": 202017,
 			"group": 3,
+			"service": 5,
 			"name": "Talgo 6 Strizh der RŽD",
 			"shortcut": "Talgo 6",
 			"speed": 200,
