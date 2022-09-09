@@ -10281,7 +10281,7 @@
 				{
 					"start": "🇫🇷GUA",
 					"end": "XFSZE",
-					"length": 1,
+					"length": 10,
 					"twistingFactor": 0.2,
 					"maxSpeed": 140
 				},
@@ -32936,7 +32936,7 @@
 						"LT",
 						"1520mm"
 					],
-					"start": "🇱🇹O1617442413",
+					"start": "ZLT",
 					"end": "🇱🇻DGP",
 					"electrified": false,
 					"length": 22,
@@ -48236,6 +48236,127 @@
 			]
 		},
 		{
+			"name": "Zellwaldbahn (Nossen - Moldava v Krušných horách)",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"neededEquipments": [ "DE" ],
+			"objects": [
+				{
+					"start": "DNO",
+					"end": "DKAZ",
+					"length": 1,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "DKAZ",
+					"end": "DZWAD",
+					"group": 1,
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DZWAD",
+					"end": "DGVB",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "DGVB",
+					"end": "DFR",
+					"length": 13,
+					"maxSpeed": 100,
+					"twistingFactor": 0.37
+				}
+			]
+		},
+		{
+			"name": "Freiberger Muldentalbahn (Nossen - Moldava v Krušných horách)",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"neededEquipments": [ "DE" ],
+			"objects": [
+				{
+					"start": "DFR",
+					"end": "DBF",
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "DBF",
+					"end": "DBFO",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DBFO",
+					"end": "DLIG",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "DLIG",
+					"end": "DMUL",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "DMUL",
+					"end": "DNA",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "DNA",
+					"end": "DCL",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "DCL",
+					"end": "DBIE",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "DBIE",
+					"end": "DRBS",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "DRBS",
+					"end": "DRBG",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "DRBG",
+					"end": "DHUS",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "DHUS",
+					"end": "DHU",
+					"length": 1,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
 			"name": "Beucha-Trebsen",
 			"electrified": false,
 			"group": 1,
@@ -57037,16 +57158,8 @@
 			"objects": [
 				{
 					"start": "🇱🇻RIX",
-					"end": "🇱🇻ZMT",
-					"length": 4,
-					"maxSpeed": 80,
-					"twistingFactor": 0.2,
-					"electrified": true
-				},
-				{
-					"start": "🇱🇻ZMT",
 					"end": "🇱🇻JGL",
-					"length": 6,
+					"length": 10,
 					"maxSpeed": 80,
 					"electrified": true
 				},
@@ -57171,9 +57284,9 @@
 			"group": 1,
 			"objects": [
 				{
-					"start": "🇱🇻ZMT",
+					"start": "🇱🇻RIX",
 					"end": "🇱🇻BRS",
-					"length": 2,
+					"length": 6,
 					"maxSpeed": 100,
 					"twistingFactor": 0.2
 				},
@@ -57472,13 +57585,8 @@
 			"objects": [
 				{
 					"start": "🇱🇻RIX",
-					"end": "🇱🇻TNK",
-					"length": 3
-				},
-				{
-					"start": "🇱🇻TNK",
 					"end": "🇱🇻ATZ",
-					"length": 5
+					"length": 8
 				},
 				{
 					"start": "🇱🇻ATZ",
@@ -57542,9 +57650,9 @@
 			"group": 0,
 			"objects": [
 				{
-					"start": "🇱🇻TNK",
+					"start": "🇱🇻RIX",
 					"end": "🇱🇻ZSL",
-					"length": 4,
+					"length": 7,
 					"twistingFactor": 0.15,
 					"maxSpeed": 100
 				},

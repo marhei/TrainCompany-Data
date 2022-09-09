@@ -182,7 +182,7 @@
 			"objects": [
 				{
 					"stations": [ "🇷🇺O473887668", "🇷🇺O21596808" ],
-					"pathSuggestion": [ "🇷🇺O473887668", "🇷🇺O21596808" ]
+					"pathSuggestion": [ "🇷🇺O473887668", "🇷🇺O1987674962", "🇷🇺O21596808" ]
 				},
 				{
 					"stations": [ "🇷🇺O473887668", "🇷🇺O1987608520", "🇷🇺O1987674962", "🇷🇺O1987706085", "🇷🇺O21596808" ],
@@ -1474,6 +1474,117 @@
 				{ "name": "passengers" },
 				{ "name": "beds" },
 				{ "name": "cars", "value": 60 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Latvijas Ekpresis von %s nach %s",
+			"service": 5,
+			"descriptions": [
+				"Fahre den grenzüberschreitenden Latvijas Ekpresis zwischen %s und %s"
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻RIX", "🇱🇻KRS", "🇱🇻DGP", "🇷🇺O907297496", "🇷🇺O6524674898", "🇷🇺O1994609598", "🇷🇺O473887668"],
+					"pathSuggestion": [ "🇱🇻RIX", "🇱🇻KRS", "🇱🇻DGP", "🇷🇺O907297496", "🇷🇺O6524674898", "🇷🇺O1994609598", "🇷🇺O2000431023", "🇷🇺O473887668"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" },
+				{ "name": "beds"}
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den Regionalzug zwischen %s und %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇷🇺O21596808", "🇷🇺O1987674962", "🇷🇺O473887668"]
+				},
+				{
+					"stations": [ "🇷🇺O6429297365", "🇷🇺O2023211041", "🇷🇺O4375869577", "🇷🇺O2000431023", "🇷🇺O473887668"]
+				},
+				{
+					"stations": [ "XCUF", "🇷🇺O473887668"]
+				},
+				{
+					"stations": [ "🇺🇦O2644051429", "🇺🇦O394980121"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 0,
+			"name": "Güterzug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Es wird zwingenst Holz für den Bau von Rail Baltica gebraucht! Fahre diesen nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻O252636397", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻O252636397", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻RIHA", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻SKL"],
+					"pathSuggestion": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻SKL"]
+				},
+				{
+					"stations": [ "🇱🇻RIHA", "🇱🇻IMT"],
+					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻RIX", "🇱🇻IMT"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "wood", "value": 690 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Güterzug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Es werden zwingenst Container für den Bau von Rail Baltica gebraucht! Fahre diesen nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻O252636397", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻O252636397",  "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻RIHA", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻RIX"],
+					"pathSuggestion": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻RIX"]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻SKL"],
+					"pathSuggestion": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻SKL"]
+				},
+				{
+					"stations": [ "🇱🇻RIHA", "🇱🇻IMT"],
+					"pathSuggestion": [ "🇱🇻RIHA", "🇱🇻ZMB", "🇱🇻RIX", "🇱🇻IMT"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 15 }
 			]
 		},
 		{
@@ -7766,13 +7877,13 @@
 			],
 			"objects": [
 				{
-					"stations": [ "🇱🇻SKL", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX" ]
+					"stations": [ "🇱🇻SKL", "🇱🇻ZMB", "🇱🇻RIX" ]
 				},
 				{
-					"stations": [ "🇱🇻SRA", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX" ]
+					"stations": [ "🇱🇻SRA", "🇱🇻ZMB", "🇱🇻RIX" ]
 				},
 				{
-					"stations": [ "🇱🇻CNK", "🇱🇻ZMB", "🇱🇻ZMT", "🇱🇻RIX" ]
+					"stations": [ "🇱🇻CNK", "🇱🇻ZMB", "🇱🇻RIX" ]
 				}
 			],
 			"neededCapacity": [
@@ -7790,13 +7901,13 @@
 			],
 			"objects": [
 				{
-					"stations": [ "🇱🇻TII", "🇱🇻TNK", "🇱🇻RIX" ]
+					"stations": [ "🇱🇻TII", "🇱🇻RIX" ]
 				},
 				{
-					"stations": [ "🇱🇻SLO", "🇱🇻TNK", "🇱🇻RIX" ]
+					"stations": [ "🇱🇻SLO", "🇱🇻RIX" ]
 				},
 				{
-					"stations": [ "🇱🇻DTI", "🇱🇻TNK", "🇱🇻RIX" ]
+					"stations": [ "🇱🇻DTI", "🇱🇻RIX" ]
 				}
 			],
 			"neededCapacity": [
@@ -7812,7 +7923,7 @@
 				"Du wirst gebeten eine Leistung von %s nach %s zu fahren.",
 				"Nākamā pietura %2$s! Fahre einen Zug zwischen %s und %s."
 			],
-			"stations": [ "🇱🇻JEL", "🇱🇻TNK", "🇱🇻RIX" ],
+			"stations": [ "🇱🇻JEL", "🇱🇻RIX" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -7852,13 +7963,13 @@
 			],
 			"objects": [
 				{
-					"stations": [ "🇪🇪VLG", "🇱🇻ZMT", "🇱🇻RIX" ]
+					"stations": [ "🇪🇪VLG", "🇱🇻RIX" ]
 				},
 				{
-					"stations": [ "🇱🇻VLM", "🇱🇻ZMT", "🇱🇻RIX" ]
+					"stations": [ "🇱🇻VLM", "🇱🇻RIX" ]
 				},
 				{
-					"stations": [ "🇱🇻SGD", "🇱🇻ZMT", "🇱🇻RIX" ]
+					"stations": [ "🇱🇻SGD", "🇱🇻RIX" ]
 				}
 			],
 			"neededCapacity": [
@@ -7876,7 +7987,19 @@
 				"Die Bahnsteige in %1$s wurden gerade erhöht. Zur Erprobung wirst du gebeten eine Leistung zwischen %s und %s zu fahren."
 			],
 			"stations": [ "🇱🇻GKL", "🇱🇻RIX" ],
-			"pathSuggestion": [ "🇱🇻GKL", "🇱🇻ZMT", "🇱🇻RIX" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "TGV-Testfahrt von %s nach %s",
+			"service": 4,
+			"descriptions": [
+				"Mache eine Testfahrt für ETCS mit dem TGV durch Deutschland von %s nach %s."
+			],
+			"stations": [ "UE P", "LH", "BL" ],
+			"pathSuggestion": [ "UE P", "LPLN", "LH", "LBT", "LW", "BJUE", "BLF", "BL"],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -8212,6 +8335,21 @@
 			],
 			"stations": [ "XRZ", "XRS" ],
 			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "FEX von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Der BER ist eröffnet – und jetzt wollen da auch noch Leute hin?!",
+				"Unterstütze die Fluggesellschaften, der Bahn Kunden abzugraben.",
+				"Pendele zwischen Flughafen und Hauptbahnhof."
+			],
+			"stations": [ "BL", "BFBI" ],
+			"pathSuggestion": ["BL", "BBF", "BFBI"],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
