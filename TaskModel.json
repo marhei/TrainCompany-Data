@@ -7973,6 +7973,19 @@
 			]
 		},
 		{
+			"group": 0,
+			"name": "TGV-Testfahrt von %s nach %s",
+			"service": 4,
+			"descriptions": [
+				"Mache eine Testfahrt für ETCS mit dem TGV durch Deutschland von %s nach %s."
+			],
+			"stations": [ "UE P", "LH", "BL" ],
+			"pathSuggestion": [ "UE P", "LPLN", "LH", "LBT", "LW", "BJUE", "BLF", "BL"],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
 			"group": 1,
 			"name": "Express InterCity Premium von %s nach %s",
 			"service": 0,
