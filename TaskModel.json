@@ -2810,7 +2810,7 @@
 		{
 			"group": 1,
 			"name": "RB U28 von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre auf deutscher und tschechischer Seite durch das Erzgebirge von %s nach %s.",
 				"Halten Sie ihre Personaldokumente bitte griffbereit.",
@@ -2841,7 +2841,7 @@
 		{
 			"group": 1,
 			"name": "ČD Os von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre auf tschechischer Seite am Rand des Erzgebirges von %s nach %s.",
 				"Die Os Regionalzüge stoppen an jedem Haltepunkt.",
@@ -2932,7 +2932,7 @@
 		{
 			"group": 1,
 			"name": "ČD Osobní vlak von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"objects": [
 				{
 					"descriptions": [
@@ -2961,7 +2961,7 @@
 		{
 			"group": 1,
 			"name": "OPB RB95 von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Die Oberpfalzbahn bedient den tschechisch-deutschen Grenzverkehr.",
 				"Das wird eine kurze Tour über die Grenze",
@@ -2976,7 +2976,7 @@
 		{
 			"group": 1,
 			"name": "TL RB 61 von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre den TL RB 61 durch die Oberlausitz von %s nach %s.",
 				"Dieser RB fährt bis nah an die tschechisch-polnische Grenze.",
@@ -3015,7 +3015,7 @@
 		{
 			"group": 1,
 			"name": "RB 71 von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre den RB 71 durch das Erzgebirge von %s nach %s.",
 				"August der Starke verbannte einst die Gräfin Cosel auf die Burg Stolpen.",
@@ -3036,7 +3036,7 @@
 		{
 			"group": 1,
 			"name": "RB 72 von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre den RB 72 auf der Müglitztalbahn von %s nach %s.",
 				"Auch das Erzgebirge ist bei Urlaubern beliebt.",
@@ -3053,7 +3053,7 @@
 		{
 			"group": 1,
 			"name": "RB 80 von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre den RB 80 durch das Zschopautal von %s nach %s.",
 				"Auch das Erzgebirge ist bei Urlaubern beliebt.",
@@ -3070,6 +3070,9 @@
 				},
 				{
 					"stations": [ "DCR", "XTVY" ]
+				},
+				{
+					"stations": [ "DC", "DNR", "DFL", "DHRF", "DZP", "DWO", "DABU", "DAB", "DCR", "XTVY", "XTKO", "XTKM", "XTCO" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -3080,7 +3083,7 @@
 		{
 			"group": 1,
 			"name": "RB 81 von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre den RB 81 durch das Flöhatal von %s nach %s.",
 				"Auch das Erzgebirge ist bei Urlaubern beliebt."
@@ -3098,7 +3101,7 @@
 		{
 			"group": 1,
 			"name": "RB 95 von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre den RB 95 auf der Obererzgebirgischen Eisenbahn von %s nach %s.",
 				"Auch das Erzgebirge ist bei Urlaubern beliebt.",
@@ -3127,9 +3130,59 @@
 			]
 		},
 		{
+			"group": 0,
+			"service": 4,
+			"name": "Obervogtländische Eisenbahn von %s nach $s",
+			"descriptions": [
+				"Es ist wieder soweit, an diesem Wochenende soll ein Sonderzug der OVEB auf dieser sonst wenig befahrenen Strecke verkehren.",
+				"Die Vereinsmitglieder würde historische Fahrzeuge für diesen Sonderzug bevorzugen.",
+				"Der Musikwinkel-Express wird ein mal im Monat mit Ferkeltaxen gefahren."
+			],
+			"objects": [
+				{ "stations": [ "DAD", "DZA"] },
+				{ "stations": [ "DMB", "DSNO"] }
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"service": 2,
+			"descriptions": [
+				"Fahre auf deutscher und tschechischer Seite durch Vogtland und Erzgebirge von %s nach %s.",
+				"Halten Sie ihre Personaldokumente bitte griffbereit.",
+				"Bitte beachten sie die Zollbestimmungen.",
+				"Fahren sie gemütlich mit der Bahn durch die Kurorte in Vorgtland und Erzgebirge."
+			],
+			"objects": [
+				{
+					"name": "VBG RB1 von %s nach %s",
+					"stations": [ "DZW", "DVO", "DLFD", "DFA", "DMB", "DZA", "DKN", "XTKC" ]
+				},
+				{
+					"name": "VBG RB1 von %s nach %s",
+					"stations": [ "DZW", "DVO", "DLFD", "DFA", "DMB", "DZA", "DKN", "XTKC", "XTRV", "XTOV", "XTSV", "XTSO", "XTCD", "XTKV" ]
+				},
+				{
+					"name": "VBG RB5 von %s nach %s",
+					"stations": [ "DMEH", "DP", "DHN", "DFA", "DMB", "DZA", "DKN", "XTKC" ]
+				},
+				{
+					"name": "VBG RB5 von %s nach %s",
+					"stations": [ "DMEH", "DP", "DHN", "DFA", "DMB", "DZA", "DKN", "XTKC", "XTRV", "XTOV", "XTSV", "XTSO", "XTCD", "XTKV" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
 			"group": 1,
 			"name": "ČD von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre den Personenzug auf der tschechischen Seite des Erzegebirges",
 				"Diese Regionalbahn ist bei deutschen Touristen beliebt, die in die tschechischen Kurorte wollen.",
@@ -3144,7 +3197,7 @@
 		{
 			"group": 1,
 			"name": "ČD von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre den Personenzug auf der tschechischen Seite des Erzegebirges"
 			],
@@ -3157,7 +3210,7 @@
 		{
 			"group": 1,
 			"name": "CB C13 von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre mit der Chemnitzer City-Bahn von %s nach %s",
 				"Die Tramhaltestellen Bahnhofstraße bis Technopark werden heute nicht bedient.",
@@ -3173,7 +3226,7 @@
 		{
 			"group": 1,
 			"name": "CB C14 von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre mit der Chemnitzer City-Bahn von %s nach %s",
 				"Die Tramhaltestellen Bahnhofstraße bis Technopark werden heute nicht bedient.",
@@ -3188,7 +3241,7 @@
 		{
 			"group": 1,
 			"name": "RB 91 von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre den RB 91 auf der Württembergischen Südbahn von %s nach %s.",
 				"Der Bodensee ist bei Tagesausflüglern beliebt.",
@@ -3203,7 +3256,7 @@
 		{
 			"group": 1,
 			"name": "RS 21 von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre den RS 21 auf der Württembergischen Südbahn von %s nach %s.",
 				"Fahre den Bummelzug durch die schwäbische Provinz."
@@ -3217,7 +3270,7 @@
 		{
 			"group": 1,
 			"name": "Württembergische Allgäubahn von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"objects": [
 				{
 					"stations": [ "THT", "TAU" ],
@@ -3250,7 +3303,7 @@
 		{
 			"group": 1,
 			"name": "Zollernalbbahn von %s nach %s",
-			"service": 3,
+			"service": 2,
 			"descriptions": [
 				"Fahre den RB 66 auf der Zollernalbbahn von %s nach %s.",
 				"Fahre den Bummelzug durch die schwäbische Provinz von %s nach %s.",

@@ -47094,7 +47094,9 @@
 			"electrified": false,
 			"group": 1,
 			"maxSpeed": 60,
-			"neededEquipments": [ "DE" ],
+			"neededEquipments": [
+				"DE"
+			],
 			"objects": [
 				{
 					"start": "DNO",
@@ -47131,7 +47133,9 @@
 			"electrified": false,
 			"group": 1,
 			"maxSpeed": 60,
-			"neededEquipments": [ "DE" ],
+			"neededEquipments": [
+				"DE"
+			],
 			"objects": [
 				{
 					"start": "DFR",
@@ -48143,6 +48147,74 @@
 						"CZ",
 						"DE"
 					]
+				}
+			]
+		},
+		{
+			"name": "Bahnstrecke Chemnitz - Adorf",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.4,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DAD",
+					"end": "DSBR",
+					"length": 4
+				},
+				{
+					"start": "DSBR",
+					"end": "DGUN",
+					"length": 6
+				},
+				{
+					"start": "DGUN",
+					"end": "DZA",
+					"length": 3
+				}
+			]
+		},
+		{
+			"name": "Herlasgrün - Oelsnitz",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DFA",
+					"end": "DAUH",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DAUH",
+					"end": "DAUO",
+					"length": 1,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "DAUO",
+					"end": "DEI",
+					"length": 6,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "DEI",
+					"end": "DTRE",
+					"length": 3,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "DTRE",
+					"end": "DHN",
+					"length": 7,
+					"twistingFactor": 0.4
 				}
 			]
 		},
@@ -52801,6 +52873,44 @@
 					"length": 6,
 					"maxSpeed": 125,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"name": "Chemnitz - Adorf",
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 60,
+			"twistingFactor": 0.3,
+			"neededEquipments": [ "DE" ],
+			"objects": [
+				{
+					"start": "DMB",
+					"end": "DHBR",
+					"length": 2
+				},
+				{
+					"start": "DHBR",
+					"end": "DTAN",
+					"length": 6
+				},
+				{
+					"start": "DTAN",
+					"end": "DRAK",
+					"length": 2,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "DRAK",
+					"end": "DSNS",
+					"length": 2,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "DSNS",
+					"end": "DSNO",
+					"length": 5,
+					"twistingFactor": 0.33
 				}
 			]
 		},
