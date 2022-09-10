@@ -3127,6 +3127,24 @@
 			]
 		},
 		{
+			"group": 0,
+			"service": 4,
+			"name": "Obervogtländische Eisenbahn von %s nach $s",
+			"descriptions": [
+				"Es ist wieder soweit, an diesem Wochenende soll ein Sonderzug auf dieser sonst wenig befahrenen Strecke verkehren.",
+				"Die Vereinsmitglieder würde historische Fahrzeuge für diesen Sonderzug bevorzugen.",
+				"Der Musikwinkel-Express wurde letztes Jahr mit Ferkeltaxen gefahren."
+			],
+			"objects": [
+				{ "stations": [ "DAD", "DZA"] },
+				{ "stations": [ "DMB", "DSNO"] }
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
 			"group": 1,
 			"name": "ČD von %s nach %s",
 			"service": 3,
