@@ -48156,7 +48156,9 @@
 			"group": 1,
 			"maxSpeed": 60,
 			"twistingFactor": 0.4,
-			"neededEquipments": [ "DE" ],
+			"neededEquipments": [
+				"DE"
+			],
 			"objects": [
 				{
 					"start": "DAD",
@@ -48172,6 +48174,45 @@
 					"start": "DGUN",
 					"end": "DZA",
 					"length": 3
+				}
+			]
+		},
+		{
+			"name": "Herlasgrün - Oelsnitz",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"neededEquipments": [ "DE" ],
+			"objects": [
+				{
+					"start": "DFA",
+					"end": "DAUH",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DAUH",
+					"end": "DAUO",
+					"length": 1,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "DAUO",
+					"end": "DEI",
+					"length": 6,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "DEI",
+					"end": "DTRE",
+					"length": 3,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "DTRE",
+					"end": "DHN",
+					"length": 7,
+					"twistingFactor": 0.4
 				}
 			]
 		},
