@@ -993,7 +993,7 @@
 			"cost": 800000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
-			"equipments": ["CH", "AT", "LU", "DE", "ETCS", "SI", "HU"],
+			"equipments": ["CH", "AT", "LU", "DE", "ETCS", "SI", "HU", "US"],
 			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
@@ -1014,7 +1014,7 @@
 			"cost": 1400000,
 			"operationCosts": 70,
 			"maxConnectedUnits": 3,
-			"equipments": ["ETCS", "CH", "AT", "DE", "RS"],
+			"equipments": ["ETCS", "CH", "AT", "DE", "RS", "SE"],
 			"capacity": [
 				{"name": "passengers", "value": 323},
 				{"name": "bistroseats", "value": 8}
@@ -3468,7 +3468,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 75,
 			"exchangeTime": 120,
-			"equipments": ["FR", "AT", "LU", "PL", "DE", "CZ", "RO"],
+			"equipments": ["FR", "AT", "LU", "PL", "DE", "CZ", "RO", "CA"],
 			"capacity": [
 				{"name": "passengers", "value": 144}
 			]
@@ -3492,7 +3492,7 @@
 			"capacity": [
 				{"name": "passengers", "value": 240}
 			]
-		},
+		},		
 		{
 			"id": 80609,
 			"group": 2,
@@ -3610,7 +3610,7 @@
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
 			"exchangeTime": 30,
-			"equipments": ["FR", "DE", "NO"],
+			"equipments": ["FR", "DE", "NO", "CA"],
 			"capacity": [
 				{"name": "passengers", "value": 149}
 			]
@@ -3630,11 +3630,53 @@
 			"cost": 250000,
 			"operationCosts": 50,
 			"maxConnectedUnits": 3,
-			"equipments": ["NL", "CH", "DE", "CZ", "IT", "GR"],
+			"equipments": ["NL", "CH", "DE", "CZ", "IT", "GR", "US"],
 			"capacity": [
 				{"name": "passengers", "value": 100}
 			]
 		},
+		{
+			"id": 80276400,
+			"group": 2,
+			"name": "Alstom Coradia LINT 27",
+			"shortcut": "BR 640",
+			"speed": 120,
+			"weight": 41,
+			"force": 87,
+			"length": 27,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 220000,
+			"maxConnectedUnits": 3,
+			"compatibleWith": [80416480],
+			"operationCosts": 50,
+			"equipments": ["DE"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 70}
+			]
+		},	
+		{
+			"id": 80416480,
+			"group": 2,
+			"name": "Alstom Coradia LINT 41",
+			"shortcut": "BR 648",
+			"speed": 140,
+			"weight": 68,
+			"force": 87,
+			"length": 27,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 300000,
+			"maxConnectedUnits": 3,
+			"compatibleWith": [80276400],
+			"operationCosts": 60,
+			"equipments": ["DE", "NL", "SE", "DK", "CA", "CZ"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 134}
+			]
+		},		
 		{
 			"id": 672,
 			"group": 2,
@@ -4124,7 +4166,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 60,
 			"exchangeTime": 50,
-			"equipments": ["SI", "HR", "AT", "IT"],
+			"equipments": ["SI", "HR", "AT", "IT", "CA", "US"],
 			"capacity": [
 				{"name": "passengers", "value": 150}
 			]
@@ -5765,6 +5807,20 @@
 			"equipments": ["DE", "CH"]
 		},
 		{
+			"id": 802001,
+			"group": 0,
+			"name": "BR 211/ V200.1",
+			"speed": 140,
+			"weight": 81,
+			"force": 240,
+			"length": 18,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 280000,
+			"operationCosts": 140,
+			"equipments": ["DE", "CH", "GR", "IT", "AL"]
+		},		
+		{
 			"id": 20,
 			"group": 0,
 			"name": "BR 232",
@@ -5922,7 +5978,7 @@
 			"reliability": 1,
 			"cost": 100000,
 			"operationCosts": 100,
-			"equipments": ["1520mm","LV", "EE", "LT", "RU"]
+			"equipments": ["1520mm","LV", "EE", "LT", "RU", "BY"]
 		},
 		{
 			"id": 100,
@@ -6124,8 +6180,22 @@
 			"reliability": 0.8,
 			"cost": 250000,
 			"operationCosts": 160,
-			"equipments": ["PL", "DE"]
+			"equipments": ["PL", "DE", "DK"]
 		},
+		{
+			"id": 7036,
+			"group": 0,
+			"name": "NOHAB AA16",
+			"speed": 140,
+			"weight": 108,
+			"force": 245,
+			"length": 19,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 180000,
+			"operationCosts": 180,
+			"equipments": ["DK", "NO", "HU", "DE", "SE", "BE", "LU"]
+		},		
 		{
 			"id": 55418,
 			"group": 0,
@@ -6519,7 +6589,7 @@
 			"reliability": 0.9,
 			"cost": 440000,
 			"operationCosts": 180,
-			"equipments": ["UA", "RU", "LV", "LT", "EE", "MD", "1520mm"]
+			"equipments": ["UA", "RU", "LV", "LT", "EE", "MD", "BY", "1520mm"]
 		},
 		{
 			"id": 206224,
@@ -6561,7 +6631,7 @@
 			"reliability": 0.8,
 			"cost": 200000,
 			"operationCosts": 140,
-			"equipments": ["UA", "RU", "LV", "LT", "EE", "MD", "1520mm"]
+			"equipments": ["UA", "RU", "LV", "LT", "EE", "MD", "BY", "1520mm"]
 		},
 		{
 			"id": 222009,
@@ -6621,6 +6691,20 @@
 			"operationCosts": 200,
 			"equipments": ["DE"]
 		},
+		{
+			"id": 80997779,
+			"group": 0,
+			"name": "DR-Baureihe 99.77–79",
+			"speed": 30,
+			"weight": 55,
+			"force": 84,
+			"length": 11,
+			"drive": 7,
+			"reliability": 0.9,
+			"cost": 140000,
+			"operationCosts": 220,
+			"equipments": ["DE", "750mm"]
+		},		
 		{
 			"id": 201,
 			"service": 2,
