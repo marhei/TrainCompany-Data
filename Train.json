@@ -3636,6 +3636,48 @@
 			]
 		},
 		{
+			"id": 80276400,
+			"group": 2,
+			"name": "Alstom Coradia LINT 27",
+			"shortcut": "BR 640",
+			"speed": 120,
+			"weight": 41,
+			"force": 87,
+			"length": 27,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 220000,
+			"maxConnectedUnits": 3,
+			"compatibleWith": [80416480],
+			"operationCosts": 50,
+			"equipments": ["DE"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 70}
+			]
+		},	
+		{
+			"id": 80416480,
+			"group": 2,
+			"name": "Alstom Coradia LINT 41",
+			"shortcut": "BR 648",
+			"speed": 140,
+			"weight": 68,
+			"force": 87,
+			"length": 27,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 300000,
+			"maxConnectedUnits": 3,
+			"compatibleWith": [80276400],
+			"operationCosts": 60,
+			"equipments": ["DE", "NL", "SE", "DK", "CA", "CZ"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 134}
+			]
+		},		
+		{
 			"id": 672,
 			"group": 2,
 			"name": "DWA LVT/S",
