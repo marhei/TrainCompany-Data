@@ -993,7 +993,7 @@
 			"cost": 800000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
-			"equipments": ["CH", "AT", "LU", "DE", "ETCS", "SI", "HU"],
+			"equipments": ["CH", "AT", "LU", "DE", "ETCS", "SI", "HU", "US"],
 			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
@@ -1014,7 +1014,7 @@
 			"cost": 1400000,
 			"operationCosts": 70,
 			"maxConnectedUnits": 3,
-			"equipments": ["ETCS", "CH", "AT", "DE", "RS"],
+			"equipments": ["ETCS", "CH", "AT", "DE", "RS", "SE"],
 			"capacity": [
 				{"name": "passengers", "value": 323},
 				{"name": "bistroseats", "value": 8}
@@ -3468,7 +3468,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 75,
 			"exchangeTime": 120,
-			"equipments": ["FR", "AT", "LU", "PL", "DE", "CZ", "RO"],
+			"equipments": ["FR", "AT", "LU", "PL", "DE", "CZ", "RO", "CA"],
 			"capacity": [
 				{"name": "passengers", "value": 144}
 			]
@@ -3493,6 +3493,7 @@
 				{"name": "passengers", "value": 240}
 			]
 		},
+		
 		{
 			"id": 80609,
 			"group": 2,
@@ -3610,7 +3611,7 @@
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
 			"exchangeTime": 30,
-			"equipments": ["FR", "DE", "NO"],
+			"equipments": ["FR", "DE", "NO", "CA"],
 			"capacity": [
 				{"name": "passengers", "value": 149}
 			]
@@ -4124,7 +4125,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 60,
 			"exchangeTime": 50,
-			"equipments": ["SI", "HR", "AT", "IT"],
+			"equipments": ["SI", "HR", "AT", "IT", "CA", "US"],
 			"capacity": [
 				{"name": "passengers", "value": 150}
 			]
