@@ -18841,6 +18841,56 @@
 		{
 			"electrified": false,
 			"group": 0,
+			"maxSpeed": 100,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸O1011889402",
+					"end": "🇺🇸CNV",
+					"name": "CP Rail (former D&H Canadian Main Line)",
+					"length": 56,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇺🇸CNV",
+					"end": "🇺🇸RUD",
+					"name": "Clarendon & Pittsford Railroad",
+					"length": 16,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸RUD",
+					"end": "🇺🇸MBY",
+					"name": "VRS (VTR)",
+					"length": 53,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇺🇸MBY",
+					"end": "🇺🇸VRN",
+					"length": 20,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇺🇸VRN",
+					"end": "🇺🇸BTN",
+					"length": 33,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸BTN",
+					"end": "🇺🇸ESX",
+					"name": "New England Central Railroad",
+					"length": 12,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
 			"twistingFactor": 0.3,
 			"maxSpeed": 120,
 			"objects": [
