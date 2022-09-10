@@ -48057,6 +48057,224 @@
 					"twistingFactor": 0.2
 				}
 			]
+		},		
+		{
+			"name": "Sokolov - Klingenthal",
+			"electrified": false,			
+			"group": 1,			
+			"maxSpeed": 80,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTSO",
+					"end": "XTSV",
+					"length": 1,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XTSV",
+					"end": "XTSVZ",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTSVZ",
+					"end": "XTLS",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XTLS",
+					"end": "XTHY",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.45
+				},
+				{
+					"start": "XTHY",
+					"end": "XTOV",
+					"length": 4,
+					"maxSpeed": 60,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "XTOV",
+					"end": "XTRV",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "XTRV",
+					"end": "XTKCP",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XTKCP",
+					"end": "XTKC",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XTKC",
+					"end": "XTKP",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTKP",
+					"end": "DKN",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1,
+					"neededEquipments": [
+						"CZ",
+						"DE"
+					]
+				}
+			]
+		},
+		{
+			"name": "Zwotental - Klingenthal",
+			"electrified": false,			
+			"group": 1,			
+			"maxSpeed": 60,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DKN",
+					"end": "DZWO",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DZWO",
+					"end": "DZWZ",
+					"length": 2,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "DZWZ",
+					"end": "DZA",
+					"length": 3,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
+			"name": "Zwotental - Zwickau",
+			"electrified": false,			
+			"group": 1,			
+			"maxSpeed": 60,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DZA",
+					"end": "DSCF",
+					"length": 4,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "DSCF",
+					"end": "DSCK",
+					"length": 1,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "DSCK",
+					"end": "DMBH",
+					"length": 5,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "DMBH",
+					"end": "DMB",
+					"length": 1,
+					"twistingFactor": 0.45
+				},
+				{
+					"start": "DMB",
+					"end": "DGBA",
+					"length": 3,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "DGBA",
+					"end": "DFA",
+					"length": 6,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "DFA",
+					"end": "DLD",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DLD",
+					"end": "DAUU",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "DAUU",
+					"end": "DROW",
+					"length": 1,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "DROW",
+					"end": "DLFD",
+					"length": 5,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "DLFD",
+					"end": "DIR",
+					"length": 5,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "DIR",
+					"end": "DVO",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "DVO",
+					"end": "DEBR",
+					"length": 2,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "DEBR",
+					"end": "DSTN",
+					"length": 3,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "DSTN",
+					"end": "DZW",
+					"electrified": true,
+					"group": 0,
+					"length": 7,
+					"maxSpeed": 110,
+					"twistingFactor": 0.55
+				}
+			]
 		},
 		{
 			"name": "Obererzgebirgische Eisenbahn",
