@@ -47094,7 +47094,9 @@
 			"electrified": false,
 			"group": 1,
 			"maxSpeed": 60,
-			"neededEquipments": [ "DE" ],
+			"neededEquipments": [
+				"DE"
+			],
 			"objects": [
 				{
 					"start": "DNO",
@@ -47131,7 +47133,9 @@
 			"electrified": false,
 			"group": 1,
 			"maxSpeed": 60,
-			"neededEquipments": [ "DE" ],
+			"neededEquipments": [
+				"DE"
+			],
 			"objects": [
 				{
 					"start": "DFR",
@@ -48143,6 +48147,31 @@
 						"CZ",
 						"DE"
 					]
+				}
+			]
+		},
+		{
+			"name": "Bahnstrecke Chemnitz - Adorf",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.4,
+			"neededEquipments": [ "DE" ],
+			"objects": [
+				{
+					"start": "DAD",
+					"end": "DSBR",
+					"length": 4
+				},
+				{
+					"start": "DSBR",
+					"end": "DGUN",
+					"length": 6
+				},
+				{
+					"start": "DGUN",
+					"end": "DZA",
+					"length": 3
 				}
 			]
 		},
