@@ -847,7 +847,7 @@
 					"end": "🇺🇸BOS",
 					"length": 15,
 					"maxSpeed": 96,
-					"twistingFactor": 0.8
+					"twistingFactor": 0.4
 				}
 			]
 		},
@@ -9759,6 +9759,65 @@
 			]
 		},
 		{
+			"name": "Pittsburgh Line",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸HAR",
+					"end": "🇺🇸LEW",
+					"length": 97,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇺🇸LEW",
+					"end": "🇺🇸HGD",
+					"length": 58,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸HGD",
+					"end": "🇺🇸TYR",
+					"length": 31,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇺🇸TYR",
+					"end": "🇺🇸ALT",
+					"length": 22,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸ALT",
+					"end": "🇺🇸JST",
+					"length": 60,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇺🇸JST",
+					"end": "🇺🇸LAB",
+					"length": 58,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸LAB",
+					"end": "🇺🇸GNB",
+					"length": 14,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸GNB",
+					"end": "🇺🇸PGH",
+					"length": 49,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"neededEquipments": [
@@ -16875,6 +16934,35 @@
 			"twistingFactor": 0.3
 		},
 		{
+			"name": "H-Line",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸CYN",
+					"end": "🇺🇸DNC",
+					"length": 28,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇺🇸DNC",
+					"end": "🇺🇸BNC",
+					"length": 53,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇺🇸BNC",
+					"end": "🇺🇸GRO",
+					"length": 34,
+					"twistingFactor": 0.17
+				}
+			]
+		},
+		{
 			"name": "Mönchengladbach - Düsseldorf",
 			"group": 0,
 			"electrified": true,
@@ -18109,6 +18197,416 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸CVS",
+					"end": "🇺🇸STA",
+					"name": "North Mountain Subdivision",
+					"length": 62,
+					"maxSpeed": 100,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇺🇸STA",
+					"end": "🇺🇸CLF",
+					"name": "North Mountain Subdivision",
+					"length": 90,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇺🇸CLF",
+					"end": "🇺🇸WSS",
+					"name": "Alleghany Subdivision",
+					"length": 54,
+					"maxSpeed": 100,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇺🇸WSS",
+					"end": "🇺🇸ALD",
+					"name": "Alleghany Subdivision",
+					"length": 37,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇺🇸ALD",
+					"end": "🇺🇸HIN",
+					"name": "Alleghany Subdivision",
+					"length": 33,
+					"maxSpeed": 100,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸HIN",
+					"end": "🇺🇸PRC",
+					"name": "New River Subdivision",
+					"length": 36,
+					"maxSpeed": 100,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸PRC",
+					"end": "🇺🇸THN",
+					"name": "New River Subdivision",
+					"length": 17,
+					"maxSpeed": 100,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸THN",
+					"end": "🇺🇸MNG",
+					"name": "New River Subdivision",
+					"length": 58,
+					"maxSpeed": 100,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸MNG",
+					"end": "🇺🇸CHW",
+					"name": "Kanawha Subdivision",
+					"length": 42,
+					"maxSpeed": 100,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇺🇸CHW",
+					"end": "🇺🇸HUN",
+					"name": "Kanawha Subdivision",
+					"length": 81,
+					"maxSpeed": 100,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇺🇸HUN",
+					"end": "🇺🇸AKY",
+					"name": "Kanawha Subdivision",
+					"length": 24,
+					"maxSpeed": 100,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇺🇸AKY",
+					"end": "🇺🇸SPM",
+					"name": "Northern Subdivision",
+					"length": 46,
+					"maxSpeed": 100,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇺🇸SPM",
+					"end": "🇺🇸MAY",
+					"name": "Cincinnati Subdivision",
+					"length": 86,
+					"maxSpeed": 100,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇺🇸MAY",
+					"end": "🇺🇸CIN",
+					"name": "Cincinnati Terminal Subdivision",
+					"length": 103,
+					"maxSpeed": 100,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇺🇸CIN",
+					"end": "🇺🇸COI",
+					"name": "Toledo Subdivision",
+					"length": 105,
+					"maxSpeed": 80,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇺🇸COI",
+					"end": "🇺🇸IND",
+					"name": "CSX Indianapolis Subdivision",
+					"length": 92,
+					"maxSpeed": 96,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸IND",
+					"end": "🇺🇸CRF",
+					"name": "CSX Indianapolis Terminal Subdivision MT2",
+					"length": 76,
+					"maxSpeed": 96,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇺🇸CRF",
+					"end": "🇺🇸LAF",
+					"name": "Lafayette Subdivision",
+					"length": 44,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸LAF",
+					"end": "🇺🇸REN",
+					"name": "Lafayette Subdivision",
+					"length": 76,
+					"maxSpeed": 100,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇺🇸REN",
+					"end": "🇺🇸DYE",
+					"name": "Monon Subdivision",
+					"length": 71,
+					"maxSpeed": 100,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇺🇸DYE",
+					"end": "🇺🇸CHI",
+					"name": "Villa Grove Subdivision",
+					"length": 45,
+					"maxSpeed": 40,
+					"twistingFactor": 0.19
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸CHI",
+					"end": "🇺🇸JOL",
+					"name": "Freeport Subdivision",
+					"length": 59,
+					"maxSpeed": 40,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇺🇸JOL",
+					"end": "🇺🇸PON",
+					"name": "UP Joliet Subdivision",
+					"length": 88,
+					"maxSpeed": 24,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸PON",
+					"end": "🇺🇸BNL",
+					"name": "UP Joliet Subdivision",
+					"length": 51,
+					"maxSpeed": 100,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇺🇸BNL",
+					"end": "🇺🇸LCN",
+					"name": "Springfield Subdivision",
+					"length": 51,
+					"maxSpeed": 62,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇺🇸LCN",
+					"end": "🇺🇸SPI",
+					"name": "Springfield Subdivision",
+					"length": 46,
+					"maxSpeed": 100,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇺🇸SPI",
+					"end": "🇺🇸CRV",
+					"name": "Springfield Subdivision",
+					"length": 62,
+					"maxSpeed": 96,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇺🇸CRV",
+					"end": "🇺🇸ALN",
+					"name": "Springfield Subdivision",
+					"length": 50,
+					"maxSpeed": 64,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇺🇸ALN",
+					"end": "🇺🇸STL",
+					"name": "UP (KCS) Springfield Subdivision",
+					"length": 41,
+					"maxSpeed": 96,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇺🇸STL",
+					"end": "🇺🇸ACD",
+					"name": "UP Desoto Subdivision",
+					"length": 143,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇺🇸ACD",
+					"end": "🇺🇸PBF",
+					"name": "UP Desoto Subdivision",
+					"length": 118,
+					"maxSpeed": 80,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇺🇸PBF",
+					"end": "🇺🇸WNR",
+					"name": "Hoxie Subdivision",
+					"length": 95,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸WNR",
+					"end": "🇺🇸LRK",
+					"name": "Hoxie Subdivision",
+					"length": 193,
+					"maxSpeed": 100,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸LRK",
+					"end": "🇺🇸MVN",
+					"name": "Little Rock Subdivision",
+					"length": 69,
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸MVN",
+					"end": "🇺🇸ARK",
+					"name": "Little Rock Subdivision",
+					"length": 35,
+					"maxSpeed": 100,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇺🇸ARK",
+					"end": "🇺🇸HOP",
+					"name": "Little Rock Subdivision",
+					"length": 75,
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸HOP",
+					"end": "🇺🇸TXA",
+					"name": "Little Rock Subdivision",
+					"length": 52,
+					"maxSpeed": 100,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸TXA",
+					"end": "🇺🇸MHL",
+					"name": "Little Rock Subdivision",
+					"length": 106,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸MHL",
+					"end": "🇺🇸LVW",
+					"name": "Little Rock Subdivision",
+					"length": 35,
+					"maxSpeed": 100,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸LVW",
+					"end": "🇺🇸MIN",
+					"name": "Mineola Subdivision",
+					"length": 74,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇺🇸MIN",
+					"end": "🇺🇸DAL",
+					"name": "Mineola Subdivision",
+					"length": 130,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸DAL",
+					"end": "🇺🇸FTW",
+					"name": "Dallas Subdivision",
+					"length": 50,
+					"maxSpeed": 16,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸FTW",
+					"end": "🇺🇸CBR",
+					"name": "Fort Worth Subdivision",
+					"length": 45,
+					"maxSpeed": 127,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸CBR",
+					"end": "🇺🇸MCG",
+					"name": "Fort Worth Subdivision",
+					"length": 118,
+					"maxSpeed": 127,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇺🇸MCG",
+					"end": "🇺🇸TPL",
+					"name": "Fort Worth Subdivision",
+					"length": 40,
+					"maxSpeed": 127,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸TPL",
+					"end": "🇺🇸TAY",
+					"name": "Waco Subdivision",
+					"length": 63,
+					"maxSpeed": 62,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸TAY",
+					"end": "🇺🇸AUS",
+					"name": "Austin Subdivision",
+					"length": 56,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇺🇸AUS",
+					"end": "🇺🇸SMC",
+					"name": "Austin Subdivision",
+					"length": 49,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸SMC",
+					"end": "🇺🇸SAS",
+					"name": "Austin Subdivision",
+					"length": 82,
+					"maxSpeed": 100,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 140,
@@ -18343,6 +18841,56 @@
 		{
 			"electrified": false,
 			"group": 0,
+			"maxSpeed": 100,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸FED",
+					"end": "🇺🇸CNV",
+					"name": "CP Rail (former D&H Canadian Main Line)",
+					"length": 56,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇺🇸CNV",
+					"end": "🇺🇸RUD",
+					"name": "Clarendon & Pittsford Railroad",
+					"length": 16,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸RUD",
+					"end": "🇺🇸MBY",
+					"name": "VRS (VTR)",
+					"length": 53,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇺🇸MBY",
+					"end": "🇺🇸VRN",
+					"length": 20,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇺🇸VRN",
+					"end": "🇺🇸BTN",
+					"length": 33,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸BTN",
+					"end": "🇺🇸ESX",
+					"name": "New England Central Railroad",
+					"length": 12,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
 			"twistingFactor": 0.3,
 			"maxSpeed": 120,
 			"objects": [
@@ -18465,13 +19013,13 @@
 				},
 				{
 					"start": "🇺🇸WHL",
-					"end": "🇺🇸O1011889402",
+					"end": "🇺🇸FED",
 					"length": 35,
 					"maxSpeed": 100,
 					"twistingFactor": 0.13
 				},
 				{
-					"start": "🇺🇸O1011889402",
+					"start": "🇺🇸FED",
 					"end": "🇺🇸SAR",
 					"length": 29,
 					"maxSpeed": 100,
@@ -21360,6 +21908,255 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸GBB",
+					"end": "🇺🇸FMD",
+					"name": "Chillicothe Subdivision",
+					"length": 92,
+					"maxSpeed": 127,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸FMD",
+					"end": "🇺🇸LAP",
+					"name": "Marceline Subdivision",
+					"length": 124,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸LAP",
+					"end": "🇺🇸O140629",
+					"name": "Marceline Subdivision",
+					"length": 46,
+					"maxSpeed": 144,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸O140629",
+					"end": "🇺🇸KCY",
+					"name": "Marceline Subdivision",
+					"length": 175,
+					"maxSpeed": 144,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸KCY",
+					"end": "🇺🇸LRC",
+					"name": "Topeka Subdivision",
+					"length": 63,
+					"maxSpeed": 127,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇺🇸LRC",
+					"end": "🇺🇸TOP",
+					"name": "Topeka Subdivision",
+					"length": 41,
+					"maxSpeed": 127,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸TOP",
+					"end": "🇺🇸O129669",
+					"name": "Topeka Subdivision",
+					"length": 97,
+					"maxSpeed": 127,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇺🇸O129669",
+					"end": "🇺🇸O130265",
+					"name": "Emporia Subdivision",
+					"length": 31,
+					"maxSpeed": 127,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸O130265",
+					"end": "🇺🇸NEW",
+					"name": "La Junta Subdivision",
+					"length": 85,
+					"maxSpeed": 127,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸NEW",
+					"end": "🇺🇸HUT",
+					"name": "La Junta Subdivision",
+					"length": 52,
+					"maxSpeed": 127,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸HUT",
+					"end": "🇺🇸DDG",
+					"name": "La Junta Subdivision",
+					"length": 193,
+					"maxSpeed": 144,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸DDG",
+					"end": "🇺🇸GCK",
+					"name": "La Junta Subdivision",
+					"length": 80,
+					"maxSpeed": 127,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇺🇸GCK",
+					"end": "🇺🇸LMR",
+					"name": "La Junta Subdivision",
+					"length": 160,
+					"maxSpeed": 144,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸LMR",
+					"end": "🇺🇸LAJ",
+					"name": "Boise City Subdivision",
+					"length": 84,
+					"maxSpeed": 127,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸LAJ",
+					"end": "🇺🇸TRI",
+					"name": "Raton Subdivision",
+					"length": 130,
+					"maxSpeed": 127,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸TRI",
+					"end": "🇺🇸RAT",
+					"name": "Raton Subdivision",
+					"length": 36,
+					"maxSpeed": 72,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇺🇸RAT",
+					"end": "🇺🇸LSV",
+					"name": "Raton Subdivision",
+					"length": 176,
+					"maxSpeed": 127,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇺🇸LSV",
+					"end": "🇺🇸LMY",
+					"name": "Glorieta Subdivision",
+					"length": 103,
+					"maxSpeed": 127,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸LMY",
+					"end": "🇺🇸ABQ",
+					"name": "Glorieta Subdivision",
+					"length": 106,
+					"maxSpeed": 127,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇺🇸ABQ",
+					"end": "🇺🇸GLP",
+					"name": "Gallup Subdivision",
+					"length": 255,
+					"maxSpeed": 144,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇺🇸GLP",
+					"end": "🇺🇸WLO",
+					"name": "Gallup Subdivision",
+					"length": 204,
+					"maxSpeed": 144,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇺🇸WLO",
+					"end": "🇺🇸FLG",
+					"name": "Seligman Subdivision",
+					"length": 93,
+					"maxSpeed": 127,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸FLG",
+					"end": "🇺🇸KNG",
+					"name": "Seligman Subdivision",
+					"length": 277,
+					"maxSpeed": 144,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇺🇸KNG",
+					"end": "🇺🇸NDL",
+					"name": "Seligman Subdivision",
+					"length": 98,
+					"maxSpeed": 144,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸NDL",
+					"end": "🇺🇸BAR",
+					"name": "Needles Subdivision",
+					"length": 265,
+					"maxSpeed": 144,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇺🇸BAR",
+					"end": "🇺🇸VRV",
+					"name": "Cajon Subdivision",
+					"length": 58,
+					"maxSpeed": 127,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇺🇸VRV",
+					"end": "🇺🇸SNB",
+					"name": "Cajon Subdivision",
+					"length": 71,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸SNB",
+					"end": "🇺🇸RIV",
+					"name": "San Bernardino Subdivision MT2",
+					"length": 16,
+					"maxSpeed": 96,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇺🇸RIV",
+					"end": "🇺🇸O1209326747",
+					"name": "San Bernardino Subdivision MT2",
+					"length": 22,
+					"maxSpeed": 96,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸O1209326747",
+					"end": "🇺🇸FUL",
+					"name": "San Bernardino Subdivision MT1",
+					"length": 35,
+					"maxSpeed": 96,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"maxSpeed": 90,
 			"twistingFactor": 0,
@@ -21421,6 +22218,44 @@
 					"group": 1,
 					"maxSpeed": 50,
 					"length": 5
+				}
+			]
+		},
+		{
+			"name": "CSX Grand Rapids Subdivision MT1",
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸NBU",
+					"end": "🇺🇸SJM",
+					"length": 53,
+					"maxSpeed": 127,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸SJM",
+					"end": "🇺🇸BAM",
+					"length": 43,
+					"maxSpeed": 104,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇺🇸BAM",
+					"end": "🇺🇸HOM",
+					"length": 56,
+					"maxSpeed": 104,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸HOM",
+					"end": "🇺🇸GRR",
+					"length": 40,
+					"maxSpeed": 104,
+					"twistingFactor": 0.14
 				}
 			]
 		},
@@ -23520,6 +24355,49 @@
 					"length": 22
 				}
 			]
+		},
+		{
+			"group": 2,
+			"maxSpeed": 360,
+			"twistingFactor": 0.1,
+			"name": "California High Speed Rail",
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸MCD",
+					"end": "🇺🇸MADCHSR",
+					"length": 30
+				},
+				{
+					"start": "🇺🇸MADCHSR",
+					"end": "🇺🇸FNO",
+					"length": 23
+				},
+				{
+					"start": "🇺🇸FNO",
+					"end": "🇺🇸O9980935514",
+					"length": 37
+				},
+				{
+					"start": "🇺🇸O9980935514",
+					"end": "🇺🇸BFD",
+					"length": 80
+				}
+			]
+		},
+		{
+			"group": 1,
+			"maxSpeed": 127,
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"US"
+			],
+			"electrified": false,
+			"start": "🇺🇸MAD",
+			"end": "🇺🇸MADCHSR",
+			"length": 14
 		},
 		{
 			"electrified": true,
@@ -28294,14 +29172,14 @@
 				},
 				{
 					"start": "🇺🇸HPT",
-					"end": "🇺🇸O7022934272",
+					"end": "🇺🇸SAL",
 					"name": "Danville District",
 					"length": 55,
 					"maxSpeed": 100,
 					"twistingFactor": 0.15
 				},
 				{
-					"start": "🇺🇸O7022934272",
+					"start": "🇺🇸SAL",
 					"end": "🇺🇸CLT",
 					"name": "Charlotte District",
 					"length": 67,
@@ -28350,14 +29228,14 @@
 				},
 				{
 					"start": "🇺🇸TCA",
-					"end": "🇺🇸GLE",
+					"end": "🇺🇸GNS",
 					"name": "Greenville District",
 					"length": 59,
 					"maxSpeed": 127,
 					"twistingFactor": 0.18
 				},
 				{
-					"start": "🇺🇸GLE",
+					"start": "🇺🇸GNS",
 					"end": "🇺🇸ATL",
 					"name": "Greenville District",
 					"length": 78,
@@ -29026,6 +29904,162 @@
 					"start": "MDAS",
 					"end": "MDA",
 					"length": 1
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"name": "Hartford Division",
+			"electrified": false,
+			"objects": [
+				{
+					"start": "🇺🇸NHV",
+					"end": "🇺🇸WFD",
+					"length": 19,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸WFD",
+					"end": "🇺🇸MDN",
+					"length": 9,
+					"maxSpeed": 100,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸MDN",
+					"end": "🇺🇸BER",
+					"length": 11,
+					"maxSpeed": 100,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸BER",
+					"end": "🇺🇸HFD",
+					"length": 17,
+					"maxSpeed": 48,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸HFD",
+					"end": "🇺🇸WNL",
+					"length": 17,
+					"maxSpeed": 127,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇺🇸WNL",
+					"end": "🇺🇸SPG",
+					"length": 23,
+					"maxSpeed": 127,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸SPG",
+					"end": "🇺🇸HLK",
+					"name": "Connecticut River Main Line",
+					"length": 12,
+					"maxSpeed": 48,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇺🇸HLK",
+					"end": "🇺🇸NHT",
+					"name": "Connecticut River Main Line",
+					"length": 14,
+					"maxSpeed": 100,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇺🇸NHT",
+					"end": "🇺🇸GFD",
+					"name": "Connecticut River Main Line",
+					"length": 30,
+					"maxSpeed": 48,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸GFD",
+					"end": "🇺🇸BRA",
+					"name": "Connecticut River Main Line",
+					"length": 38,
+					"maxSpeed": 94,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇺🇸BRA",
+					"end": "🇺🇸BLF",
+					"name": "New England Central Railroad",
+					"length": 38,
+					"maxSpeed": 127,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇺🇸BLF",
+					"end": "🇺🇸CLA",
+					"name": "New England Central Railroad",
+					"length": 27,
+					"maxSpeed": 127,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸CLA",
+					"end": "🇺🇸WNM",
+					"name": "New England Central Railroad",
+					"length": 12,
+					"maxSpeed": 127,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸WNM",
+					"end": "🇺🇸WRJ",
+					"name": "New England Central Railroad",
+					"length": 22,
+					"maxSpeed": 127,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇺🇸WRJ",
+					"end": "🇺🇸RPH",
+					"name": "New England Central Railroad",
+					"length": 50,
+					"maxSpeed": 94,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇺🇸RPH",
+					"end": "🇺🇸MPR",
+					"name": "New England Central Railroad",
+					"length": 48,
+					"maxSpeed": 94,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇺🇸MPR",
+					"end": "🇺🇸WAB",
+					"name": "New England Central Railroad",
+					"length": 15,
+					"maxSpeed": 94,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸WAB",
+					"end": "🇺🇸ESX",
+					"name": "New England Central Railroad",
+					"length": 35,
+					"maxSpeed": 94,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸ESX",
+					"end": "🇺🇸SAB",
+					"name": "New England Central Railroad",
+					"length": 38,
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
 				}
 			]
 		},
@@ -29980,14 +31014,14 @@
 				},
 				{
 					"start": "🇺🇸GBB",
-					"end": "🇺🇸BTN",
+					"end": "🇺🇸BRL",
 					"name": "Ottumwa Subdivision",
 					"length": 69,
 					"maxSpeed": 127,
 					"twistingFactor": 0.18
 				},
 				{
-					"start": "🇺🇸BTN",
+					"start": "🇺🇸BRL",
 					"end": "🇺🇸MTP",
 					"name": "Ottumwa Subdivision",
 					"length": 44,
@@ -30252,14 +31286,14 @@
 				},
 				{
 					"start": "🇺🇸O321061790",
-					"end": "🇺🇸WEM",
+					"end": "🇺🇸WELLS",
 					"name": "Lucin Cutoff",
 					"length": 280,
 					"maxSpeed": 112,
 					"twistingFactor": 0.23
 				},
 				{
-					"start": "🇺🇸WEM",
+					"start": "🇺🇸WELLS",
 					"end": "🇺🇸ELK",
 					"name": "Shafter Subdivision",
 					"length": 81,
@@ -30824,6 +31858,143 @@
 					"start": "🇵🇱27268",
 					"end": "🇵🇱30601",
 					"length": 19
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"CA"
+			],
+			"objects": [
+				{
+					"start": "🇨🇦O6298031649",
+					"end": "🇨🇦DORV",
+					"name": "CN Subdivision de Montréal",
+					"length": 26,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇨🇦DORV",
+					"end": "🇨🇦O6339680042",
+					"name": "CP Subdivision Vaudreuil",
+					"length": 76,
+					"maxSpeed": 120,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇨🇦O6339680042",
+					"end": "🇨🇦CSLM",
+					"name": "VIA Alexandria Subdivision",
+					"length": 39,
+					"maxSpeed": 120,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇨🇦CSLM",
+					"end": "🇨🇦OTTW",
+					"name": "VIA Alexandria Subdivision",
+					"length": 46,
+					"maxSpeed": 120,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇨🇦OTTW",
+					"end": "🇨🇦FALL",
+					"name": "VIA Beachburg Subdivision",
+					"length": 14,
+					"maxSpeed": 120,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇨🇦FALL",
+					"end": "🇨🇦SMTF",
+					"name": "VIA Smiths Falls Subdivision",
+					"length": 49,
+					"maxSpeed": 120,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇨🇦SMTF",
+					"end": "🇨🇦GANA",
+					"name": "CN Kingston Subdivision",
+					"length": 91,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇨🇦GANA",
+					"end": "🇨🇦O3430496697",
+					"name": "CN Kingston Subdivision",
+					"length": 34,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇨🇦O3430496697",
+					"end": "🇨🇦NAPN",
+					"name": "CN Kingston Subdivision",
+					"length": 36,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇦NAPN",
+					"end": "🇨🇦BLVL",
+					"name": "Kingston Subdivision",
+					"length": 34,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇦BLVL",
+					"end": "🇨🇦O440172239",
+					"name": "CN Kingston Subdivision",
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇨🇦O440172239",
+					"end": "🇨🇦CBRG",
+					"name": "CN Kingston Subdivision",
+					"length": 50,
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇨🇦CBRG",
+					"end": "🇨🇦PHOP",
+					"name": "CN Kingston Subdivision",
+					"length": 10,
+					"maxSpeed": 120,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇨🇦PHOP",
+					"end": "🇨🇦OSHA",
+					"name": "CN Kingston Subdivision",
+					"length": 50,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇨🇦OSHA",
+					"end": "🇨🇦GUIL",
+					"name": "CN Kingston Subdivision",
+					"length": 30,
+					"maxSpeed": 128,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇨🇦GUIL",
+					"end": "🇨🇦O6997477908",
+					"name": "Kingston Subdivision",
+					"length": 20,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15
 				}
 			]
 		},
@@ -33580,6 +34751,100 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 127,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸SAC",
+					"end": "🇺🇸LOD",
+					"name": "Fresno Subdivision MT1",
+					"length": 57,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸LOD",
+					"end": "🇺🇸SKT",
+					"name": "Fresno Subdivision MT1",
+					"length": 19,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸SKT",
+					"end": "🇺🇸MOD",
+					"name": "Stockton Subdivision MT1",
+					"length": 46,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸MOD",
+					"end": "🇺🇸TRK",
+					"name": "Stockton Subdivision MT1",
+					"length": 18,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇺🇸TRK",
+					"end": "🇺🇸MCD",
+					"name": "Stockton Subdivision MT1",
+					"length": 37,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇺🇸MCD",
+					"end": "🇺🇸MAD",
+					"name": "Stockton Subdivision MT1",
+					"length": 51,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸MAD",
+					"end": "🇺🇸FNO",
+					"name": "Stockton Subdivision MT1",
+					"length": 41,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇺🇸FNO",
+					"end": "🇺🇸HNF",
+					"name": "Bakersfield Subdivision MT1",
+					"length": 48,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸HNF",
+					"end": "🇺🇸COC",
+					"name": "Bakersfield Subdivision MT1",
+					"length": 27,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇺🇸COC",
+					"end": "🇺🇸CNL",
+					"name": "Bakersfield Subdivision MT1",
+					"length": 28,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸CNL",
+					"end": "🇺🇸WAC",
+					"name": "Bakersfield Subdivision MT1",
+					"length": 30,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇺🇸WAC",
+					"end": "🇺🇸BFD",
+					"name": "Bakersfield Subdivision MT1",
+					"length": 42,
+					"twistingFactor": 0.19
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 2,
 			"twistingFactor": 0.18,
@@ -34283,6 +35548,103 @@
 					"maxSpeed": 120,
 					"twistingFactor": 0.5,
 					"length": 35
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸LAX",
+					"end": "🇺🇸O1431434321",
+					"name": "River Subdivision MT1",
+					"length": 13,
+					"maxSpeed": 127,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇺🇸O1431434321",
+					"end": "🇺🇸FUL",
+					"name": "San Bernardino Subdivision MT2",
+					"length": 26,
+					"maxSpeed": 127,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇺🇸FUL",
+					"end": "🇺🇸ANA",
+					"name": "Orange Subdivision MT1",
+					"length": 9,
+					"maxSpeed": 127,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇺🇸ANA",
+					"end": "🇺🇸SNA",
+					"name": "Orange Subdivision MT2",
+					"length": 6,
+					"maxSpeed": 127,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇺🇸SNA",
+					"end": "🇺🇸IRV",
+					"name": "Orange Subdivision MT2",
+					"length": 15,
+					"maxSpeed": 144,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸IRV",
+					"end": "🇺🇸SNC",
+					"name": "Orange Subdivision MT2",
+					"length": 19,
+					"maxSpeed": 144,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸SNC",
+					"end": "🇺🇸SNP",
+					"name": "Orange Subdivision MT1",
+					"length": 12,
+					"maxSpeed": 144,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇺🇸SNP",
+					"end": "🇺🇸OSD",
+					"name": "San Diego Northern Railway",
+					"length": 34,
+					"maxSpeed": 144,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇺🇸OSD",
+					"end": "🇺🇸SOL",
+					"name": "NCTD San Diego Subdivision MT2",
+					"length": 24,
+					"maxSpeed": 144,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇺🇸SOL",
+					"end": "🇺🇸OLT",
+					"name": "NCTD San Diego Subdivision MT1",
+					"length": 35,
+					"maxSpeed": 144,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇺🇸OLT",
+					"end": "🇺🇸SAN",
+					"name": "NCTD San Diego Subdivision MT2",
+					"length": 5,
+					"maxSpeed": 104,
+					"twistingFactor": 0.13
 				}
 			]
 		},
@@ -38559,14 +39921,14 @@
 				},
 				{
 					"start": "🇺🇸O7103163879",
-					"end": "🇺🇸O7103163865",
+					"end": "🇺🇸BRP",
 					"group": 0,
 					"length": 21,
 					"maxSpeed": 112,
 					"twistingFactor": 0.17
 				},
 				{
-					"start": "🇺🇸O7103163865",
+					"start": "🇺🇸BRP",
 					"end": "🇺🇸O7103297856",
 					"group": 0,
 					"length": 12,
@@ -39315,9 +40677,16 @@
 			"objects": [
 				{
 					"start": "🇺🇸ALX",
+					"end": "🇺🇸LOR",
+					"length": 20,
+					"maxSpeed": 112,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇺🇸LOR",
 					"end": "🇺🇸FBG",
 					"name": "RF&P Subdivision",
-					"length": 73,
+					"length": 53,
 					"maxSpeed": 112,
 					"twistingFactor": 0.22
 				},
@@ -39355,14 +40724,14 @@
 				},
 				{
 					"start": "🇺🇸RMT",
-					"end": "🇺🇸O5760380615",
+					"end": "🇺🇸RGH",
 					"name": "South End Subdivision",
 					"length": 112,
 					"maxSpeed": 128,
 					"twistingFactor": 0.39
 				},
 				{
-					"start": "🇺🇸O5760380615",
+					"start": "🇺🇸RGH",
 					"end": "🇺🇸CYN",
 					"name": "Norfolk Southern - Amtrak - CSX",
 					"length": 13,
@@ -41104,6 +42473,30 @@
 					"end": "🇳🇱Zl",
 					"length": 10,
 					"maxSpeed": 130
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 127,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸GBB",
+					"end": "🇺🇸MAC",
+					"name": "Chillicothe Subdivision",
+					"length": 141,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸MAC",
+					"end": "🇺🇸QCY",
+					"name": "Brookfield Subdivision",
+					"length": 90,
+					"twistingFactor": 0.21
 				}
 			]
 		},
@@ -43111,6 +44504,19 @@
 			]
 		},
 		{
+			"start": "🇺🇸SSM",
+			"end": "🇺🇸RGH",
+			"name": "Norfolk Southern - Amtrak",
+			"electrified": false,
+			"group": 0,
+			"length": 45,
+			"maxSpeed": 128,
+			"twistingFactor": 0.16,
+			"neededEquipments": [
+				"US"
+			]
+		},
+		{
 			"electrified": false,
 			"group": 1,
 			"maxSpeed": 100,
@@ -44533,6 +45939,72 @@
 					"start": "MSMN",
 					"end": "MBU",
 					"length": 16
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸BTL",
+					"end": "🇺🇸ALI",
+					"name": "MDOT Michigan Line",
+					"length": 40,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇺🇸ALI",
+					"end": "🇺🇸JXN",
+					"name": "MDOT Michigan Line",
+					"length": 32,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇺🇸JXN",
+					"end": "🇺🇸ARB",
+					"name": "MDOT Michigan Line",
+					"length": 61,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇺🇸ARB",
+					"end": "🇺🇸DER",
+					"name": "MDOT Michigan Line",
+					"length": 44,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸DER",
+					"end": "🇺🇸DET",
+					"name": "CSAO Michigan Line",
+					"length": 16,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸DET",
+					"end": "🇺🇸ROY",
+					"name": "Holly Subdivision MT2",
+					"length": 16,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸ROY",
+					"end": "🇺🇸TRM",
+					"name": "Holly Subdivision MT2",
+					"length": 6,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸TRM",
+					"end": "🇺🇸PNT",
+					"name": "Holly Subdivision MT2",
+					"length": 13,
+					"twistingFactor": 0.02
 				}
 			]
 		},
@@ -46917,6 +48389,84 @@
 			]
 		},
 		{
+			"name": "UP Jefferson City Subdivision",
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸STL",
+					"end": "🇺🇸KWD",
+					"length": 20,
+					"maxSpeed": 64,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇺🇸KWD",
+					"end": "🇺🇸WAH",
+					"length": 61,
+					"maxSpeed": 96,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇺🇸WAH",
+					"end": "🇺🇸HEM",
+					"length": 41,
+					"maxSpeed": 96,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸HEM",
+					"end": "🇺🇸JEF",
+					"length": 71,
+					"maxSpeed": 96,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸JEF",
+					"end": "🇺🇸SED",
+					"name": "UP Sedalia Subdivision",
+					"length": 102,
+					"maxSpeed": 96,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇺🇸SED",
+					"end": "🇺🇸WAR",
+					"name": "UP Sedalia Subdivision",
+					"length": 47,
+					"maxSpeed": 96,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸WAR",
+					"end": "🇺🇸LEE",
+					"name": "UP Sedalia Subdivision",
+					"length": 66,
+					"maxSpeed": 96,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇺🇸LEE",
+					"end": "🇺🇸IDP",
+					"name": "UP Sedalia Subdivision",
+					"length": 20,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸IDP",
+					"end": "🇺🇸KCY",
+					"name": "Kansas City Terminal RR",
+					"length": 15,
+					"maxSpeed": 64,
+					"twistingFactor": 0.28
+				}
+			]
+		},
+		{
 			"name": "Borsdorf–Coswig (nord)",
 			"electrified": false,
 			"group": 0,
@@ -47576,6 +49126,79 @@
 					"length": 5,
 					"maxSpeed": 50,
 					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 127,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸RMT",
+					"end": "🇺🇸WLN",
+					"name": "South End Subdivision",
+					"length": 25,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸WLN",
+					"end": "🇺🇸SSM",
+					"name": "South End Subdivision",
+					"length": 40,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸SSM",
+					"end": "🇺🇸FAY",
+					"name": "South End Subdivision",
+					"length": 77,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇺🇸FAY",
+					"end": "🇺🇸DIL",
+					"name": "South End Subdivision",
+					"length": 84,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇺🇸DIL",
+					"end": "🇺🇸FLO",
+					"name": "South End Subdivision",
+					"length": 47,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇺🇸FLO",
+					"end": "🇺🇸KTR",
+					"name": "Charleston Subdivision",
+					"length": 60,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇺🇸KTR",
+					"end": "🇺🇸CHS",
+					"name": "Charleston Subdivision",
+					"length": 91,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸CHS",
+					"end": "🇺🇸YEM",
+					"name": "Charleston Subdivision",
+					"length": 85,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸YEM",
+					"end": "🇺🇸SAV",
+					"name": "Charleston Subdivision",
+					"length": 77,
+					"twistingFactor": 0.16
 				}
 			]
 		},
@@ -51546,6 +53169,63 @@
 		{
 			"electrified": false,
 			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸FTW",
+					"end": "🇺🇸GLE",
+					"name": "Fort Worth Subdivision",
+					"length": 105,
+					"maxSpeed": 88,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸GLE",
+					"end": "🇺🇸ARD",
+					"name": "Red Rock Subdivision",
+					"length": 63,
+					"maxSpeed": 127,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸ARD",
+					"end": "🇺🇸PVL",
+					"name": "Red Rock Subdivision",
+					"length": 72,
+					"maxSpeed": 127,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇺🇸PVL",
+					"end": "🇺🇸PUR",
+					"name": "Red Rock Subdivision",
+					"length": 34,
+					"maxSpeed": 127,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸PUR",
+					"end": "🇺🇸NOR",
+					"name": "Red Rock Subdivision",
+					"length": 24,
+					"maxSpeed": 127,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇺🇸NOR",
+					"end": "🇺🇸OKC",
+					"name": "Red Rock Subdivision",
+					"length": 28,
+					"maxSpeed": 127,
+					"twistingFactor": 0.12
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
 			"twistingFactor": 0.3,
 			"objects": [
 				{
@@ -52421,6 +54101,111 @@
 					"group": 0,
 					"length": 102,
 					"twistingFactor": 0.32
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸CHI",
+					"end": "🇺🇸HMI",
+					"name": "NS Chicago Line MT2",
+					"length": 25,
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇺🇸HMI",
+					"end": "🇺🇸MCI",
+					"name": "NS Chicago Line MT1",
+					"length": 56,
+					"maxSpeed": 100,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇺🇸MCI",
+					"end": "🇺🇸NBU",
+					"name": "AMTK Michigan Line",
+					"length": 15,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇺🇸NBU",
+					"end": "🇺🇸NLS",
+					"name": "AMTK Michigan Line",
+					"length": 43,
+					"maxSpeed": 104,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸NLS",
+					"end": "🇺🇸DOA",
+					"name": "AMTK Michigan Line",
+					"length": 19,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸DOA",
+					"end": "🇺🇸KAL",
+					"name": "AMTK Michigan Line",
+					"length": 59,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸KAL",
+					"end": "🇺🇸BTL",
+					"name": "MDOT Michigan Line",
+					"length": 36,
+					"maxSpeed": 100,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇺🇸BTL",
+					"end": "🇺🇸LNS",
+					"name": "Flint Subdivision",
+					"length": 76,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇺🇸LNS",
+					"end": "🇺🇸DRD",
+					"name": "Flint Subdivision",
+					"length": 47,
+					"maxSpeed": 100,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇺🇸DRD",
+					"end": "🇺🇸FLN",
+					"name": "Flint Subdivision",
+					"length": 29,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇺🇸FLN",
+					"end": "🇺🇸LPE",
+					"name": "Canadian National Railway - Sarnia-South Bend line",
+					"length": 28,
+					"maxSpeed": 100,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇺🇸LPE",
+					"end": "🇺🇸PTH",
+					"name": "Canadian National Railway - Sarnia-South Bend line",
+					"length": 71,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
 				}
 			]
 		},
@@ -56583,6 +58368,103 @@
 			"group": 1
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸BOS",
+					"end": "🇺🇸WOB",
+					"name": "New Hampshire Route Main Line",
+					"length": 29,
+					"maxSpeed": 112,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇺🇸WOB",
+					"end": "🇺🇸HHL",
+					"name": "Western Route Main Line",
+					"length": 33,
+					"maxSpeed": 112,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇺🇸HHL",
+					"end": "🇺🇸EXR",
+					"name": "Western Route Main Line",
+					"length": 27,
+					"maxSpeed": 127,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇺🇸EXR",
+					"end": "🇺🇸DHM",
+					"name": "Freight Main Line",
+					"length": 18,
+					"maxSpeed": 112,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇺🇸DHM",
+					"end": "🇺🇸DOV",
+					"name": "Freight Main Line",
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇺🇸DOV",
+					"end": "🇺🇸WEM",
+					"name": "Freight Main Line",
+					"length": 26,
+					"maxSpeed": 48,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇺🇸WEM",
+					"end": "🇺🇸SAO",
+					"name": "Freight Main Line",
+					"length": 25,
+					"maxSpeed": 96,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸SAO",
+					"end": "🇺🇸ORB",
+					"name": "Freight Main Line",
+					"length": 6,
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇺🇸ORB",
+					"end": "🇺🇸POR",
+					"name": "Freight Main Line",
+					"length": 18,
+					"maxSpeed": 127,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇺🇸POR",
+					"end": "🇺🇸FRE",
+					"name": "Freight Main Line",
+					"length": 32,
+					"maxSpeed": 112,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇺🇸FRE",
+					"end": "🇺🇸BRK",
+					"name": "Brunswick Branch",
+					"length": 13,
+					"maxSpeed": 96,
+					"twistingFactor": 0.19
+				}
+			]
+		},
+		{
 			"name": "Bahnstrecke Riga - Jelgava",
 			"neededEquipments": [
 				"LV",
@@ -57689,12 +59571,12 @@
 				},
 				{
 					"start": "🇺🇸PAR",
-					"end": "🇺🇸O107282462",
+					"end": "🇺🇸LNC",
 					"length": 38,
 					"twistingFactor": 0.2
 				},
 				{
-					"start": "🇺🇸O107282462",
+					"start": "🇺🇸LNC",
 					"end": "🇺🇸MJY",
 					"length": 18,
 					"twistingFactor": 0.13
