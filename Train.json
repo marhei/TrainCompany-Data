@@ -3216,7 +3216,64 @@
 			"capacity": [
 				{"name": "passengers", "value": 546}
 			]
-		},		
+		},
+		{
+			"id": 177672,
+			"group": 2,
+			"name": "Highliner II",
+			"speed": 130,
+			"weight": 64,
+			"force": 170,
+			"length": 52,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 800000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 50,
+			"equipments": ["US"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 156}
+			]
+		},	
+		{
+			"id": 17764,
+			"group": 2,
+			"name": "Silverliner IV",
+			"speed": 160,
+			"weight": 55,
+			"force": 170,
+			"length": 26,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 300000,
+			"maxConnectedUnits": 6,
+			"operationCosts": 50,
+			"equipments": ["US"],
+			"exchangeTime": 50,
+			"capacity": [
+				{"name": "passengers", "value": 78}
+			]
+		},	
+		{
+			"id": 17765,
+			"group": 2,
+			"name": "Silverliner V",
+			"speed": 160,
+			"weight": 134,
+			"force": 220,
+			"length": 52,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 500000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 40,
+			"equipments": ["US"],
+			"exchangeTime": 50,
+			"capacity": [
+				{"name": "passengers", "value": 181}
+			]
+		},			
 		{
 			"id": 563,
 			"group": 2,
@@ -4345,6 +4402,45 @@
 				{ "name": "passengers", "value": 400 }
 			]
 		},
+		{
+			"id": 1776398,
+			"group": 2,
+			"name": "Budd Rail Diesel Car",
+			"shortcut": "Budd RDC",
+			"speed": 137,
+			"weight": 54,
+			"force": 45,
+			"length": 26,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 120000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 4,
+			"exchangeTime": 70,
+			"equipments": ["US", "CA"],
+			"capacity": [
+				{"name": "passengers", "value": 90}
+			]
+		},
+		{
+			"id": 177636,
+			"group": 2,
+			"name": "Nippon Sharyo DMU",
+			"speed": 137,
+			"weight": 48,
+			"force": 65,
+			"length": 26,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 180000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 4,
+			"exchangeTime": 60,
+			"equipments": ["US", "CA"],
+			"capacity": [
+				{"name": "passengers", "value": 79}
+			]
+		},			
 		{
 			"id": 33,
 			"group": 2,
