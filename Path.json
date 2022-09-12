@@ -40330,6 +40330,58 @@
 			]
 		},
 		{
+			"name": "Neißetalbahn",
+			"electrified": false,			
+			"maxSpeed": 100,
+			"group": 1,
+			"objects": [
+				{
+					"start": "DZ",
+					"end": "DHE",
+					"length": 7,
+					"maxSpeed": 60,
+					"twistingFactor": 0.14,
+					"neededEquipments": [ "DE" ]
+				},
+				{
+					"start": "DHE",
+					"end": "XPKZG",
+					"length": 9,
+					"maxSpeed": 70,
+					"twistingFactor": 0.15,
+					"neededEquipments": [
+						"PL",
+						"DE"
+					]
+				},
+				{
+					"start": "XPKZG",
+					"end": "DHW",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1,
+					"neededEquipments": [
+						"PL",
+						"DE"
+					]
+				},
+				{
+					"start": "DHW",
+					"end": "DGWH",
+					"length": 7,
+					"twistingFactor": 0.16,
+					"neededEquipments": [ "DE" ]
+				},
+				{
+					"start": "DGWH",
+					"end": "DG",
+					"length": 2,
+					"twistingFactor": 0.3,
+					"neededEquipments": [ "DE" ]
+				}
+			]
+		},
+		{
 			"name": "Bahnstrecke Magdeburg–Leipzig",
 			"electrified": true,
 			"group": 0,
@@ -54667,7 +54719,9 @@
 			"electrified": false,
 			"maxSpeed": 60,
 			"twistingFactor": 0.3,
-			"neededEquipments": [ "DE" ],
+			"neededEquipments": [
+				"DE"
+			],
 			"objects": [
 				{
 					"start": "DMB",
