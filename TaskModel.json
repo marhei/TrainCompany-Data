@@ -3154,6 +3154,25 @@
 		},
 		{
 			"group": 1,
+			"name": "ODEG RB 65 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den RB 65 durch Lausitz und Neißetal von %s nach %s.",
+				"Dieser RB fährt bis ins deutsch-tschechisch-polnische Dreiländereck.",
+				"Der Abschnitt zwischen Görlitz und Zittau liegt teilweise in polnischem Gebiet."
+			],
+			"objects": [
+				{
+					"stations": [ "BC", "BBG", "BSP", "BWW", "BHAH", "BHR", "DG", "DHW", "XPKZG", "DZ" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "TLX RE 2 von %s nach %s",
 			"service": 2,
 			"descriptions": [
