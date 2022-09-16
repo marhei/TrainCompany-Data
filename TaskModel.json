@@ -8442,6 +8442,73 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		}
+		},
+		{
+			"group": 1,
+			"name": "Nightstar von %s nach %s",
+			"service": 5,
+			"descriptions": [
+				"Fahre diesen Nachtzug durch den Eurotunnel von %s nach %s.",
+				"An beiden Seiten des Eurotunnels sind Zwischenhalte für Grenzkontrollen erforderlich.",
+				"Verbinde Deutschland und die Niederlande mit Großbritannien."
+			],
+			"objects": [
+				{
+					"stations": [ "XKLP", "XKAI", "XFFE", "XFLIE", "XBB", "XBLIG", "KA", "KD", "EDG", "EE", "EBO", "EDO" ],
+					"pathSuggestion": [ "XKLP", "XFFE", "XFHZ", "XFLIE", "XBB", "XBLG", "KA", "KM", "KN", "KD", "EDG", "EE", "EDO" ]
+				},
+				{
+					"stations": [ "XKLP", "XKAI", "XFFE", "XFLIE", "XBB", "XBLIG", "KA", "KK" ],
+					"pathSuggestion": [ "XKLP", "XFFE", "XFHZ", "XFLIE", "XBB", "XBLG", "KA", "KDN", "KK" ]
+				},
+				{
+					"stations": [ "XKLP", "XKAI", "XFFE", "XFLIE", "XBB", "XBLIG", "KA", "KK", "FF" ],
+					"pathSuggestion": [ "XKLP", "XFFE", "XFHZ", "XFLIE", "XBB", "XBLG", "KA", "KDN", "KK", "KT", "KNE", "KNL", "FW", "FHOE", "FF" ]
+				},	
+				{
+					"stations": [ "XKLP", "XKAI", "XFFE", "XFLIE", "XBB", "XBAC", "XNRC", "XNAC" ],
+					"pathSuggestion": [ "XKLP", "XFFE", "XFHZ", "XFLIE", "XBB", "XBAC", "XNRS", "XNAC" ]
+				}				
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" }				
+			]
+		},
+		{
+			"group": 1,
+			"name": "Nightstar von %s nach %s",
+			"service": 5,
+			"descriptions": [
+				"Fahre diesen Nachtzug durch den Eurotunnel von %s nach %s.",
+				"An beiden Seiten des Eurotunnels sind Zwischenhalte für Grenzkontrollen erforderlich.",
+				"Verbinde Frankreich und Belgien mit Großbritannien.",
+				"Binde Wales und Schottland an Kontinentaleuropa an."
+			],
+			"objects": [
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧MAN", "🇬🇧BHM", "XKLP", "XHAI", "XFFE", "XFLIE", "XBB" ],
+					"pathSuggestion": [ "🇬🇧GLC", "🇬🇧CRSTRSS", "🇬🇧MAN", "🇬🇧CHU", "🇬🇧SOT", "🇬🇧COV", "🇬🇧BHM", "XKLP", "XHAI", "XFFE", "XFLIE", "XBB" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧MAN", "🇬🇧BHM", "XKLP", "XHAI", "XFFE", "XFLIE", "XFPO" ],
+					"pathSuggestion": [ "🇬🇧GLC", "🇬🇧CRSTRSS", "🇬🇧MAN", "🇬🇧CHU", "🇬🇧SOT", "🇬🇧COV", "🇬🇧BHM", "XKLP", "XHAI", "XFFE", "XFLIE", "🇫🇷DOI", "🇫🇷AMS", "XFPO" ]
+				},	
+				{
+					"stations": [ "🇬🇧SWA", "🇬🇧CDF", "XKLP", "XHAI", "XFFE", "XFLIE", "XFPO" ],
+					"pathSuggestion": [ "🇬🇧SWA", "🇬🇧CDF", "🇬🇧BPW", "🇬🇧WTNBSTJ", "🇬🇧DID", "🇬🇧RDG", "XKLP", "XHAI", "XFFE", "XFLIE", "🇫🇷DOI", "🇫🇷AMS", "XFPO" ]
+				},	
+				{
+					"stations": [ "🇬🇧35100", "🇬🇧34100", "🇬🇧BRI", "XKLP", "XHAI", "XFFE", "XFLIE", "XBB" ],
+					"pathSuggestion": [ "🇬🇧35100", "🇬🇧34100", "🇬🇧BRI", "🇬🇧WTNBSTJ", "🇬🇧DID", "🇬🇧RDG", "XKLP", "XHAI", "XFFE", "XFLIE", "XBB" ]
+				}				
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" }				
+			]
+		}		
 	]
 }
