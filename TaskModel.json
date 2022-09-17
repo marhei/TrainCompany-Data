@@ -3261,6 +3261,23 @@
 			]
 		},
 		{
+			"group": 0,
+			"service": 4,
+			"name": "Eisenbahnfreunde Nossen von %s nach %s",
+			"descriptions": [
+				"Es ist wieder soweit, an diesem Wochenende soll ein Sonderzug der Eisenbahnfreunde Nossen auf dieser sonst wenig befahrenen Strecke verkehren.",
+				"Die Vereinsmitglieder würde historische Fahrzeuge für diesen Sonderzug bevorzugen.",
+				"Zu besonderen Gelegenheiten wird dieser Zug mit einer Dampflok bespannt."
+			],
+			"objects": [
+				{ "stations": [ "DNO", "DGVB", "DFR", "DMUL", "DHUS"] }
+			],
+			"stopsEverywhere": false,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
 			"group": 1,
 			"service": 2,
 			"descriptions": [
