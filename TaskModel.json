@@ -3283,6 +3283,20 @@
 		},
 		{
 			"group": 1,
+			"name": "Freiberger Eisenbahn von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den RB 83 der Freiberger Eisenbahn von %s nach %s.",
+				"Auch das Erzgebirge ist bei Urlaubern beliebt."
+			],
+			"stations": [ "DFR", "DMUL", "DHU"],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"service": 2,
 			"descriptions": [
 				"Fahre auf deutscher und tschechischer Seite durch Vogtland und Erzgebirge von %s nach %s.",
