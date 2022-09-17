@@ -3270,7 +3270,11 @@
 				"Zu besonderen Gelegenheiten wird dieser Zug mit einer Dampflok bespannt."
 			],
 			"objects": [
-				{ "stations": [ "DNO", "DGVB", "DFR", "DMUL", "DHUS"] }
+				{ "stations": [ "DNO", "DGVB", "DFR", "DMUL", "DHUS"] },
+				{ 
+					"stations": [ "DNO", "DDE", "LL", "UNM", "UE P", "UA" ],
+					"pathSuggestion": [ "DNO", "DDE", "LBEU", "LBOR", "LL", "UNM", "UGH", "UWN", "UE P", "UA" ]
+				}
 			],
 			"stopsEverywhere": false,
 			"neededCapacity": [
