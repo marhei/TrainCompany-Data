@@ -8442,6 +8442,65 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		}
+		},
+		{
+			"group": 1,
+			"name": "Nightstar von %s nach %s",
+			"service": 5,
+			"descriptions": [
+				"Fahre diesen Nachtzug durch den Eurotunnel von %s nach %s.",
+				"An beiden Seiten des Eurotunnels sind Zwischenhalte für Grenzkontrollen erforderlich.",
+				"Verbinde Deutschland und die Niederlande mit Großbritannien."
+			],
+			"objects": [
+				{
+					"stations": [ "XKLP", "XFFE", "XFLIE", "XBB", "XBLIG", "KA", "KD", "EDG", "EE", "EBO", "EDO" ]
+				},
+				{
+					"stations": [ "XKLP", "XFFE", "XFLIE", "XBB", "XBLIG", "KA", "KK" ]
+				},
+				{
+					"stations": [ "XKLP", "XFFE", "XFLIE", "XBB", "XBLIG", "KA", "KK", "FF" ]
+				},	
+				{
+					"stations": [ "XKLP", "XFFE", "XFLIE", "XBB", "XBAC", "XNRC", "XNAC" ]
+				}				
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" }				
+			]
+		},
+		{
+			"group": 1,
+			"name": "Nightstar von %s nach %s",
+			"service": 5,
+			"descriptions": [
+				"Fahre diesen Nachtzug durch den Eurotunnel von %s nach %s.",
+				"An beiden Seiten des Eurotunnels sind Zwischenhalte für Grenzkontrollen erforderlich.",
+				"Verbinde Frankreich und Belgien mit Großbritannien.",
+				"Binde Wales und Schottland an Kontinentaleuropa an."
+			],
+			"objects": [
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧MAN", "🇬🇧BHM", "XKLP", "XFFE", "XFLIE", "XBB" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧MAN", "🇬🇧BHM", "XKLP", "XFFE", "XFLIE", "XFPO" ]
+				},	
+				{
+					"stations": [ "🇬🇧SWA", "🇬🇧CDF", "XKLP", "XFFE", "XFLIE", "XFPO" ]
+				},	
+				{
+					"stations": [ "🇬🇧35800", "🇬🇧34100", "🇬🇧BRI", "XKLP", "XFFE", "XFLIE", "XBB" ]
+				}				
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" }				
+			]
+		}		
 	]
 }
