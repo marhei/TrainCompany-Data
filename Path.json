@@ -9362,9 +9362,24 @@
 				},
 				{
 					"start": "UWA",
+					"end": "UND",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "UND",
+					"end": "UEBI",
+					"length": 7,
+					"maxSpeed": 230,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "UEBI",
 					"end": "UE P",
-					"length": 18,
-					"maxSpeed": 160
+					"length": 6,
+					"maxSpeed": 150,
+					"twistingFactor": 0.15
 				},
 				{
 					"start": "UE P",
@@ -10223,16 +10238,6 @@
 					"length": 3,
 					"maxSpeed": 160,
 					"twistingFactor": 0.14
-				},
-				{
-					"start": "UND",
-					"end": "UE P",
-					"name": "Thüringer Bahn",
-					"electrified": true,
-					"group": 2,
-					"length": 12,
-					"maxSpeed": 230,
-					"twistingFactor": 0.21
 				}
 			]
 		},
