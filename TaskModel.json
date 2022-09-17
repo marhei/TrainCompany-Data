@@ -49,7 +49,7 @@
 				},
 				{
 					"stations": [ "FD", "FF", "UE P", "LL" ],
-					"pathSuggestion": [ "FD", "FF", "FH", "FFD", "FFU", "FB", "UEI", "UGO", "UE P", "LPLN", "LGOS", "LL" ]
+					"pathSuggestion": [ "FD", "FF", "FH", "FFD", "FFU", "FB", "UEI", "UGO", "UND", "UE P", "LPLN", "LGOS", "LL" ]
 				}
 			],
 			"neededCapacity": [
@@ -125,7 +125,7 @@
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
 			],
-			"pathSuggestion": [ "FW", "FMZ", "FMB", "FFLF", "FF", "FH", "FFD", "FFU", "FBHF", "FB", "UEI", "UGO", "UE P", "LPLN", "LGOS", "LL" ]
+			"pathSuggestion": [ "FW", "FMZ", "FMB", "FFLF", "FF", "FH", "FFD", "FFU", "FBHF", "FB", "UEI", "UGO", "UND", "UE P", "LPLN", "LGOS", "LL" ]
 		},
 		{
 			"group": 1,
@@ -1502,11 +1502,11 @@
 			"objects": [
 				{
 					"stations": [ "KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG" ],
-					"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FGTH", "FB", "UEI", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG" ]
+					"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FGTH", "FB", "UEI", "UGO", "UND", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG" ]
 				},
 				{
 					"stations": [ "KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P" ],
-					"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FGTH", "FB", "UEI", "UGO", "UE P" ]
+					"pathSuggestion": [ "KK", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FGTH", "FB", "UEI", "UGO", "UND", "UE P" ]
 				}
 			],
 			"neededCapacity": [
@@ -3614,6 +3614,7 @@
 				"Die Strecke ist ideal um von Thüringen nach Norddeutschland oder zurück zu fahren."
 			],
 			"stations": [ "HG", "HEBG", "UL", "ULS", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG" ],
+			"pathSuggestion": [ "HG", "HEBG", "UL", "ULS", "UGO", "UND", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -5026,7 +5027,7 @@
 				},
 				{
 					"stations": [ "FF", "BFP" ],
-					"pathSuggestion": [ "FF", "FH", "FFD", "FFU", "FB", "UEI", "UGO", "UE P", "UWM", "UGH", "LL", "LBOR", "DR", "BEW", "BDKO", "BC", "BCS", "BFP" ]
+					"pathSuggestion": [ "FF", "FH", "FFD", "FFU", "FB", "UEI", "UGO", "UND", "UE P", "UWM", "UGH", "LL", "LBOR", "DR", "BEW", "BDKO", "BC", "BCS", "BFP" ]
 				},
 				{
 					"stations": [ "HHB", "LHZW" ],
@@ -5820,7 +5821,7 @@
 						"Fahre den verlängerten TEE Goethe von %s bis %s"
 					],
 					"stations": [ "XFPO", "XFMZV", "XFFB", "SSH", "SKL", "RM", "FF", "FFU", "UE P", "LL", "DH", "XTP" ],
-					"pathSuggestion": [ "XFPO", "XFVAR", "XFMEA", "🇫🇷NAA", "XFE", "XFCM", "XFBD", "XFLE", "XFO", "XFPS", "XFMZV", "XFRM", "🇫🇷BDC", "XFFB", "SSH", "SSI", "SRO", "SHO", "SLD", "SKL", "SHY", "RN", "RSD", "RM", "FBL", "FDG", "FFLF", "FF", "FH", "FFD", "FFU", "FBHF", "FB", "UEI", "UGO", "UE P", "UWM", "UGH", "UNM", "LL", "LBOR", "DR", "DPR", "DCW", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP" ]
+					"pathSuggestion": [ "XFPO", "XFVAR", "XFMEA", "🇫🇷NAA", "XFE", "XFCM", "XFBD", "XFLE", "XFO", "XFPS", "XFMZV", "XFRM", "🇫🇷BDC", "XFFB", "SSH", "SSI", "SRO", "SHO", "SLD", "SKL", "SHY", "RN", "RSD", "RM", "FBL", "FDG", "FFLF", "FF", "FH", "FFD", "FFU", "FBHF", "FB", "UEI", "UGO", "UND", "UE P", "UWM", "UGH", "UNM", "LL", "LBOR", "DR", "DPR", "DCW", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP" ]
 				},
 				{
 					"descriptions": [
