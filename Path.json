@@ -10190,9 +10190,49 @@
 				},
 				{
 					"start": "UPL",
+					"end": "UASD",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "UASD",
+					"end": "UA",
+					"length": 1,
+					"maxSpeed": 100,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "UA",
+					"end": "UHSN",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "UHSN",
+					"end": "USUE",
+					"length": 2,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "USUE",
+					"end": "UND",
+					"name": "Thüringer Bahn",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "UND",
 					"end": "UE P",
-					"length": 31,
-					"maxSpeed": 100
+					"name": "Thüringer Bahn",
+					"electrified": true,
+					"group": 2,
+					"length": 12,
+					"maxSpeed": 230,
+					"twistingFactor": 0.21
 				}
 			]
 		},
@@ -40331,7 +40371,7 @@
 		},
 		{
 			"name": "Neißetalbahn",
-			"electrified": false,			
+			"electrified": false,
 			"maxSpeed": 100,
 			"group": 1,
 			"objects": [
@@ -40341,7 +40381,9 @@
 					"length": 7,
 					"maxSpeed": 60,
 					"twistingFactor": 0.14,
-					"neededEquipments": [ "DE" ]
+					"neededEquipments": [
+						"DE"
+					]
 				},
 				{
 					"start": "DHE",
@@ -40370,14 +40412,18 @@
 					"end": "DGWH",
 					"length": 7,
 					"twistingFactor": 0.16,
-					"neededEquipments": [ "DE" ]
+					"neededEquipments": [
+						"DE"
+					]
 				},
 				{
 					"start": "DGWH",
 					"end": "DG",
 					"length": 2,
 					"twistingFactor": 0.3,
-					"neededEquipments": [ "DE" ]
+					"neededEquipments": [
+						"DE"
+					]
 				}
 			]
 		},
