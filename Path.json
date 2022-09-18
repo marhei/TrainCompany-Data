@@ -40704,6 +40704,65 @@
 			]
 		},
 		{
+			"electrified": false,
+			"name": "SŽDC 086 Benešov nad Ploučnicí - Česká Lípa",
+			"group": 0,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTCL",
+					"end": "XTCLH",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTCLH",
+					"end": "XTSTR",
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XTSTR",
+					"end": "XTHOP",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTHOP",
+					"end": "XTZAN",
+					"length": 1,
+					"maxSpeed": 75,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTZAN",
+					"end": "XTSTS",
+					"length": 1,
+					"maxSpeed": 75,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XTSTS",
+					"end": "XTFNP",
+					"length": 3,
+					"maxSpeed": 75,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "XTFNP",
+					"end": "XTBP",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
 			"name": "Neißetalbahn",
 			"electrified": false,
 			"maxSpeed": 100,
@@ -51929,14 +51988,14 @@
 				},
 				{
 					"start": "XTDH",
-					"end": "🇨🇿56209",
+					"end": "XTBP",
 					"group": 1,
 					"length": 2,
 					"maxSpeed": 85,
 					"twistingFactor": 0.1
 				},
 				{
-					"start": "🇨🇿56209",
+					"start": "XTBP",
 					"end": "XTMV",
 					"length": 2,
 					"maxSpeed": 80,
