@@ -40657,6 +40657,53 @@
 			]
 		},
 		{
+			"electrified": false,
+			"name": "SŽDC 080 Bakov nad Jizerou - Jedlová",
+			"group": 0,
+			"maxSpeed": 70,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTCL",
+					"end": "XTCLS",
+					"length": 1,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XTCLS",
+					"end": "XTSKA",
+					"length": 6,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XTSKA",
+					"end": "XTNB",
+					"length": 3,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "XTNB",
+					"end": "XTSVO",
+					"length": 5,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XTSVO",
+					"end": "XTNHL",
+					"length": 6,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "XTNHL",
+					"end": "XTJL",
+					"length": 2,
+					"twistingFactor": 0.33
+				}
+			]
+		},
+		{
 			"name": "Neißetalbahn",
 			"electrified": false,
 			"maxSpeed": 100,
@@ -51819,13 +51866,13 @@
 				},
 				{
 					"start": "XTCHR",
-					"end": "🇨🇿56759",
+					"end": "XTJL",
 					"length": 5,
 					"maxSpeed": 80,
 					"twistingFactor": 0.36
 				},
 				{
-					"start": "🇨🇿56759",
+					"start": "XTJL",
 					"end": "XTKT",
 					"group": 1,
 					"length": 5,
