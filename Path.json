@@ -40450,10 +40450,10 @@
 				}
 			]
 		},
-		{			
+		{
 			"name": "SŽDC 089 Liberec-Zittau",
 			"electrified": false,
-			"group": 0,			
+			"group": 0,
 			"maxSpeed": 100,
 			"neededEquipments": [
 				"CZ"
@@ -40515,6 +40515,144 @@
 					"end": "XTL",
 					"length": 5,
 					"twistingFactor": 0.17
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTL",
+					"end": "XTLHR",
+					"name": "Liberec-Turnov",
+					"length": 4,
+					"maxSpeed": 85,
+					"twistingFactor": 0.8
+				},
+				{
+					"start": "XTLHR",
+					"end": "XTOST",
+					"length": 1,
+					"maxSpeed": 65,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XTOST",
+					"end": "XTKAJ",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XTKAJ",
+					"end": "XTKRU",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XTKRU",
+					"end": "XTNOV",
+					"name": "Kryštofský tunel",
+					"length": 1,
+					"maxSpeed": 70,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XTNOV",
+					"end": "XTKZY",
+					"name": "Ještědský tunel",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XTKZY",
+					"end": "XTZDI",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XTZDI",
+					"end": "XTRTB",
+					"length": 5,
+					"maxSpeed": 65,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "XTRTB",
+					"end": "XTLVV",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTLVV",
+					"end": "XTJP",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTJP",
+					"end": "XTVVN",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTVVN",
+					"end": "XTBRI",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTBRI",
+					"end": "XTVG",
+					"length": 1,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTVG",
+					"end": "XTPPR",
+					"length": 2,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTPPR",
+					"end": "XTMM",
+					"length": 2,
+					"maxSpeed": 85,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XTMM",
+					"end": "XTZBO",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "XTZBO",
+					"end": "XTVDD",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "XTVDD",
+					"end": "XTCL",
+					"length": 6,
+					"maxSpeed": 120,
+					"twistingFactor": 0.31
 				}
 			]
 		},
