@@ -39628,6 +39628,60 @@
 		},
 		{
 			"electrified": false,
+			"name": "SŽDC 084 Rumburk-Mikulášovice",
+			"group": 1,
+			"maxSpeed": 50,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTRU",
+					"end": "XTDKR",
+					"length": 2,
+					"maxSpeed": 55,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTDKR",
+					"end": "XTSKR",
+					"length": 2,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XTSKR",
+					"end": "XTPAN",
+					"length": 2,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XTPAN",
+					"end": "XTBRT",
+					"length": 1,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XTBRT",
+					"end": "🇨🇿5456559",
+					"length": 3,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇨🇿5456559",
+					"end": "XTMHS",
+					"length": 2,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XTMHS",
+					"end": "XTMD",
+					"length": 3,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
+			"electrified": false,
 			"group": 1,
 			"maxSpeed": 60,
 			"twistingFactor": 0.3,
