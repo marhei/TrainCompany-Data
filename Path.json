@@ -40451,6 +40451,71 @@
 			]
 		},
 		{
+			"group": 1,
+			"electrified": false,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "DMHD",
+					"end": "DHND",
+					"length": 3,
+					"maxSpeed": 50,
+					"twistingFactor": 0.21,
+					"neededEquipments": []
+				},
+				{
+					"start": "DHND",
+					"end": "DGAU",
+					"length": 3,
+					"maxSpeed": 50,
+					"twistingFactor": 0.31,
+					"neededEquipments": []
+				},
+				{
+					"start": "DGAU",
+					"end": "XTVD",
+					"length": 2,
+					"maxSpeed": 50,
+					"twistingFactor": 0.17,
+					"neededEquipments": [
+						"CZ",
+						"DE"
+					]
+				},
+				{
+					"start": "XTVD",
+					"end": "XTDD",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "XTDD",
+					"end": "XTJD",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "XTJD",
+					"end": "XTHP",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 70,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XTHP",
+					"end": "XTRY",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
 			"name": "SŽDC 089 Liberec-Zittau",
 			"electrified": false,
 			"group": 0,
@@ -51912,12 +51977,12 @@
 				},
 				{
 					"start": "XTKLM",
-					"end": "🇨🇿56719",
+					"end": "XTRY",
 					"length": 2,
 					"twistingFactor": 0.16
 				},
 				{
-					"start": "🇨🇿56719",
+					"start": "XTRY",
 					"end": "XTCHR",
 					"length": 3,
 					"maxSpeed": 90,
