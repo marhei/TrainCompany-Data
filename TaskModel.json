@@ -2954,6 +2954,29 @@
 		},
 		{
 			"group": 1,
+			"name": "Bummelzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre über Nebenstrecken durch Tschechien von %s nach %s.",
+				"Bediene diese Strecke mit geringem Verkehrsaufkommen."
+			],
+			"objects": [
+				{
+					"name": "ČD Os 26026 von %s nach %s",
+					"stations": [ "XTRU", "XTPAN", "XTKLP", "XTMD" ]
+				},
+				{
+					"name": "Trilex TL T2",
+					"stations": [ "XTRU", "XTPAN", "XTMD" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "ČD Os von %s nach %s",
 			"service": 2,
 			"descriptions": [
