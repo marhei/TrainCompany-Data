@@ -40429,6 +40429,383 @@
 			]
 		},
 		{
+			"group": 1,
+			"electrified": false,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "DMHD",
+					"end": "DHND",
+					"length": 3,
+					"maxSpeed": 50,
+					"twistingFactor": 0.21,
+					"neededEquipments": []
+				},
+				{
+					"start": "DHND",
+					"end": "DGAU",
+					"length": 3,
+					"maxSpeed": 50,
+					"twistingFactor": 0.31,
+					"neededEquipments": []
+				},
+				{
+					"start": "DGAU",
+					"end": "XTVD",
+					"length": 2,
+					"maxSpeed": 50,
+					"twistingFactor": 0.17,
+					"neededEquipments": [
+						"CZ",
+						"DE"
+					]
+				},
+				{
+					"start": "XTVD",
+					"end": "XTDD",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "XTDD",
+					"end": "XTJD",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "XTJD",
+					"end": "XTHP",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 70,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XTHP",
+					"end": "XTRY",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
+			"name": "SŽDC 089 Liberec-Zittau",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "DZ",
+					"end": "XTHR",
+					"name": "Neißeviadukt",
+					"length": 6,
+					"maxSpeed": 70,
+					"twistingFactor": 0.24,
+					"neededEquipments": [
+						"DE",
+						"PL",
+						"CZ"
+					]
+				},
+				{
+					"start": "XTHR",
+					"end": "XTCY",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XTCY",
+					"end": "XTBKN",
+					"length": 4,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XTBKN",
+					"end": "XTCR",
+					"length": 2,
+					"maxSpeed": 85,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XTCR",
+					"end": "XTCA",
+					"length": 1,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XTCA",
+					"end": "XTMR",
+					"length": 1,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "XTMR",
+					"end": "XTMC",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTMC",
+					"end": "XTL",
+					"length": 5,
+					"twistingFactor": 0.17
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTL",
+					"end": "XTLHR",
+					"name": "Liberec-Turnov",
+					"length": 4,
+					"maxSpeed": 85,
+					"twistingFactor": 0.8
+				},
+				{
+					"start": "XTLHR",
+					"end": "XTOST",
+					"length": 1,
+					"maxSpeed": 65,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XTOST",
+					"end": "XTKAJ",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XTKAJ",
+					"end": "XTKRU",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XTKRU",
+					"end": "XTNOV",
+					"name": "Kryštofský tunel",
+					"length": 1,
+					"maxSpeed": 70,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XTNOV",
+					"end": "XTKZY",
+					"name": "Ještědský tunel",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XTKZY",
+					"end": "XTZDI",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XTZDI",
+					"end": "XTRTB",
+					"length": 5,
+					"maxSpeed": 65,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "XTRTB",
+					"end": "XTLVV",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTLVV",
+					"end": "XTJP",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTJP",
+					"end": "XTVVN",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTVVN",
+					"end": "XTBRI",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTBRI",
+					"end": "XTVG",
+					"length": 1,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTVG",
+					"end": "XTPPR",
+					"length": 2,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTPPR",
+					"end": "XTMM",
+					"length": 2,
+					"maxSpeed": 85,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XTMM",
+					"end": "XTZBO",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "XTZBO",
+					"end": "XTVDD",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "XTVDD",
+					"end": "XTCL",
+					"length": 6,
+					"maxSpeed": 120,
+					"twistingFactor": 0.31
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"name": "SŽDC 080 Bakov nad Jizerou - Jedlová",
+			"group": 0,
+			"maxSpeed": 70,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTCL",
+					"end": "XTCLS",
+					"length": 1,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XTCLS",
+					"end": "XTSKA",
+					"length": 6,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XTSKA",
+					"end": "XTNB",
+					"length": 3,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "XTNB",
+					"end": "XTSVO",
+					"length": 5,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XTSVO",
+					"end": "XTNHL",
+					"length": 6,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "XTNHL",
+					"end": "XTJL",
+					"length": 2,
+					"twistingFactor": 0.33
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"name": "SŽDC 086 Benešov nad Ploučnicí - Česká Lípa",
+			"group": 0,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTCL",
+					"end": "XTCLH",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTCLH",
+					"end": "XTSTR",
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XTSTR",
+					"end": "XTHOP",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTHOP",
+					"end": "XTZAN",
+					"length": 1,
+					"maxSpeed": 75,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTZAN",
+					"end": "XTSTS",
+					"length": 1,
+					"maxSpeed": 75,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XTSTS",
+					"end": "XTFNP",
+					"length": 3,
+					"maxSpeed": 75,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "XTFNP",
+					"end": "XTBP",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
 			"name": "Neißetalbahn",
 			"electrified": false,
 			"maxSpeed": 100,
@@ -51578,12 +51955,12 @@
 				},
 				{
 					"start": "XTKLM",
-					"end": "🇨🇿56719",
+					"end": "XTRY",
 					"length": 2,
 					"twistingFactor": 0.16
 				},
 				{
-					"start": "🇨🇿56719",
+					"start": "XTRY",
 					"end": "XTCHR",
 					"length": 3,
 					"maxSpeed": 90,
@@ -51591,13 +51968,13 @@
 				},
 				{
 					"start": "XTCHR",
-					"end": "🇨🇿56759",
+					"end": "XTJL",
 					"length": 5,
 					"maxSpeed": 80,
 					"twistingFactor": 0.36
 				},
 				{
-					"start": "🇨🇿56759",
+					"start": "XTJL",
 					"end": "XTKT",
 					"group": 1,
 					"length": 5,
@@ -51654,14 +52031,14 @@
 				},
 				{
 					"start": "XTDH",
-					"end": "🇨🇿56209",
+					"end": "XTBP",
 					"group": 1,
 					"length": 2,
 					"maxSpeed": 85,
 					"twistingFactor": 0.1
 				},
 				{
-					"start": "🇨🇿56209",
+					"start": "XTBP",
 					"end": "XTMV",
 					"length": 2,
 					"maxSpeed": 80,
