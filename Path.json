@@ -40450,6 +40450,74 @@
 				}
 			]
 		},
+		{			
+			"name": "SŽDC 089 Liberec-Zittau",
+			"electrified": false,
+			"group": 0,			
+			"maxSpeed": 100,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "DZ",
+					"end": "XTHR",
+					"name": "Neißeviadukt",
+					"length": 6,
+					"maxSpeed": 70,
+					"twistingFactor": 0.24,
+					"neededEquipments": [
+						"DE",
+						"PL",
+						"CZ"
+					]
+				},
+				{
+					"start": "XTHR",
+					"end": "XTCY",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XTCY",
+					"end": "XTBKN",
+					"length": 4,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XTBKN",
+					"end": "XTCR",
+					"length": 2,
+					"maxSpeed": 85,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XTCR",
+					"end": "XTCA",
+					"length": 1,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XTCA",
+					"end": "XTMR",
+					"length": 1,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "XTMR",
+					"end": "XTMC",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XTMC",
+					"end": "XTL",
+					"length": 5,
+					"twistingFactor": 0.17
+				}
+			]
+		},
 		{
 			"name": "Neißetalbahn",
 			"electrified": false,
