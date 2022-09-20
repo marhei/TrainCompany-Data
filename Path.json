@@ -2453,15 +2453,29 @@
 			"objects": [
 				{
 					"start": "XFPO",
+					"end": "XFCLR",
+					"maxSpeed": 120,
+					"twistingFactor": 0.2,
+					"length": 10
+				},
+				{
+					"start": "XFCLR",
 					"end": "XFJU",
 					"maxSpeed": 120,
 					"twistingFactor": 0.2,
-					"length": 18
+					"length": 10
 				},
 				{
 					"start": "XFJU",
+					"end": "XFSAO",
+					"maxSpeed": 120,
+					"twistingFactor": 0.2,
+					"length": 3
+				},
+				{
+					"start": "XFSAO",
 					"end": "XFETP",
-					"length": 37,
+					"length": 32,
 					"maxSpeed": 150,
 					"twistingFactor": 0.2
 				},
@@ -35453,9 +35467,39 @@
 					"end": "🇫🇷MP",
 					"length": 3,
 					"maxSpeed": 60
+				},
+				{
+					"start": "🇫🇷MP",
+					"end": "🇫🇷LGU",
+					"length": 5
+				},
+				{
+					"start": "🇫🇷LGU",
+					"end": "🇫🇷CMZ",
+					"length": 1
+				},
+				{
+					"start": "🇫🇷CMZ",
+					"end": "🇫🇷GBI",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷GBI",
+					"end": "🇫🇷PV",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷GBI",
+					"end": "🇫🇷PV",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷PV",
+					"end": "XFSAO",
+					"length": 2
 				}
 			]
-		},		
+		},
 		{
 			"group": 0,
 			"name": "Weddeler Schleife",
