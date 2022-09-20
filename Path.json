@@ -35179,13 +35179,13 @@
 				},
 				{
 					"start": "🇫🇷VCR",
-					"end": "🇫🇷CYR",
+					"end": "XFCYR",
 					"length": 5,
 					"maxSpeed": 130,
 					"twistingFactor": 0.14
 				},
 				{
-					"start": "🇫🇷CYR",
+					"start": "XFCYR",
 					"end": "XFTVO",
 					"length": 6,
 					"maxSpeed": 150
@@ -35413,6 +35413,49 @@
 				}
 			]
 		},
+		{
+			"name": "990000 : Ligne de la Grande Ceinture de Paris",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.4,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "🇫🇷VCR",
+					"end": "🇫🇷JLL",
+					"length": 4
+				},
+				{
+					"start": "🇫🇷JLL",
+					"end": "🇫🇷JAS",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷JAS",
+					"end": "🇫🇷VBO",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷VBO",
+					"end": "🇫🇷BVR",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷BVR",
+					"end": "🇫🇷IGN",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷IGN",
+					"end": "🇫🇷MP",
+					"length": 3,
+					"maxSpeed": 60
+				}
+			]
+		},		
 		{
 			"group": 0,
 			"name": "Weddeler Schleife",
