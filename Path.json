@@ -2453,15 +2453,15 @@
 			"objects": [
 				{
 					"start": "XFPO",
-					"end": "XFCLR",
+					"end": "🇫🇷CLR",
 					"maxSpeed": 120,
 					"twistingFactor": 0.2,
 					"length": 10
 				},
 				{
-					"start": "XFCLR",
+					"start": "🇫🇷CLR",
 					"end": "XFJU",
-					"maxSpeed": 120,
+					"maxSpeed": 140,
 					"twistingFactor": 0.2,
 					"length": 10
 				},
@@ -35489,14 +35489,57 @@
 					"length": 2
 				},
 				{
-					"start": "🇫🇷GBI",
-					"end": "🇫🇷PV",
-					"length": 2
-				},
-				{
 					"start": "🇫🇷PV",
 					"end": "XFSAO",
 					"length": 2
+				}
+			]
+		},
+		{
+			"name": "985000 : RER C",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.4,
+			"maxSpeed": 110,
+			"objects": [
+				{
+					"start": "🇫🇷MP",
+					"end": "🇫🇷MVW",
+					"length": 2,
+					"maxSpeed": 60
+				},
+				{
+					"start": "🇫🇷MVW",
+					"end": "🇫🇷CHQ",
+					"length": 4
+				},
+				{
+					"start": "🇫🇷CHQ",
+					"end": "🇫🇷RF",
+					"length": 3
+				},
+				{
+					"start": "🇫🇷RF",
+					"end": "🇫🇷PRU",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷PRU",
+					"end": "🇫🇷OY",
+					"length": 3
+				},
+				{
+					"start": "🇫🇷OY",
+					"end": "🇫🇷LS",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷LS",
+					"end": "🇫🇷CLR",
+					"length": 3
 				}
 			]
 		},
