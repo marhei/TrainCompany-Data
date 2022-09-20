@@ -7209,8 +7209,13 @@
 			"objects": [
 				{
 					"start": "🇫🇷MOIS",
+					"end": "🇫🇷COU",
+					"length": 15
+				},
+				{
+					"start": "🇫🇷COU",
 					"end": "XFMVC",
-					"length": 38
+					"length": 23
 				},
 				{
 					"start": "XFMVC",
@@ -7224,7 +7229,7 @@
 				},
 				{
 					"start": "🇫🇷CDG",
-					"end": "XFSVF",
+					"end": "XFVMR",
 					"length": 5,
 					"maxSpeed": 230
 				}
@@ -16836,6 +16841,18 @@
 		},
 		{
 			"start": "XFPO",
+			"end": "🇫🇷VD",
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": true,
+			"length": 26,
+			"maxSpeed": 135,
+			"twistingFactor": 0.3,
+			"group": 0
+		},
+		{
+			"start": "🇫🇷VD",
 			"end": "XFCQ",
 			"neededEquipments": [
 				"FR"
@@ -16911,6 +16928,31 @@
 					"start": "🇫🇷MPW",
 					"end": "🇫🇷CSP",
 					"length": 116
+				}
+			]
+		},
+		{
+			
+			"electrified": true,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
+			"group": 2,
+			"maxSpeed": 230,
+			"twistingFactor": 0.1,
+			"name": "SFS LGV Sud-Est de Vert de Maisons à Coubert",
+			"objects": [
+				{
+					"start": "🇫🇷VD",
+					"end": "🇫🇷VON",
+					"length": 5,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇫🇷VON",
+					"end": "🇫🇷COU",
+					"length": 22
 				}
 			]
 		},
@@ -35193,13 +35235,13 @@
 				},
 				{
 					"start": "🇫🇷VCR",
-					"end": "XFCYR",
+					"end": "🇫🇷CYR",
 					"length": 5,
 					"maxSpeed": 130,
 					"twistingFactor": 0.14
 				},
 				{
-					"start": "XFCYR",
+					"start": "🇫🇷CYR",
 					"end": "XFTVO",
 					"length": 6,
 					"maxSpeed": 150
@@ -35470,11 +35512,11 @@
 				},
 				{
 					"start": "🇫🇷MP",
-					"end": "🇫🇷LGU",
+					"end": "🇫🇷LJU",
 					"length": 5
 				},
 				{
-					"start": "🇫🇷LGU",
+					"start": "🇫🇷LJU",
 					"end": "🇫🇷CMZ",
 					"length": 1
 				},
@@ -35544,7 +35586,7 @@
 			]
 		},
 		{
-			"name": "Raccordement de Valenton aux Saules",
+			"name": "Raccordement des Saules à Valenton",
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -35557,6 +35599,25 @@
 					"start": "🇫🇷LS",
 					"end": "🇫🇷VON",
 					"length": 10
+				}
+
+			]
+		},
+		{
+			"name": "Raccordement de Massy TGV",
+			"electrified": true,
+			"group": 2,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
+			"twistingFactor": 0.36,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "🇫🇷MPW",
+					"end": "🇫🇷MVW",
+					"length": 2
 				}
 
 			]
@@ -45135,8 +45196,18 @@
 			"objects": [
 				{
 					"start": "XFPO",
+					"end": "XFPRF",
+					"length": 10
+				},
+				{
+					"start": "XFPRF",
+					"end": "XFVIB",
+					"length": 5
+				},
+				{
+					"start": "XFVIB",
 					"end": "XFSVF",
-					"length": 29
+					"length": 15
 				},
 				{
 					"start": "XFSVF",
@@ -53877,7 +53948,13 @@
 			],
 			"objects": [
 				{
-					"start": "XFSVF",
+					"start": "XFVIB",
+					"end": "XFVMR",
+					"length": 13,
+					"maxSpeed": 200
+				},
+				{
+					"start": "XFVMR",
 					"end": "XFHP",
 					"length": 98
 				},
