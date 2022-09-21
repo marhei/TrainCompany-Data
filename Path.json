@@ -16900,14 +16900,38 @@
 		},
 		{
 			"start": "🇫🇷VD",
+			"end": "XFVSG",
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": true,
+			"length": 26,
+			"maxSpeed": 100,
+			"twistingFactor": 0.3,
+			"group": 0
+		},
+		{
+			"start": "XFVSG",
 			"end": "XFCQ",
 			"neededEquipments": [
 				"FR"
 			],
 			"electrified": true,
 			"length": 26,
-			"maxSpeed": 155,
+			"maxSpeed": 120,
 			"twistingFactor": 0.3,
+			"group": 0
+		},
+		{
+			"start": "XFJU",
+			"end": "XFMEL",
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": true,
+			"length": 37,
+			"maxSpeed": 120,
+			"twistingFactor": 0.45,
 			"group": 0
 		},
 		{
@@ -35607,6 +35631,28 @@
 			]
 		},
 		{
+			"name": "745000 : RER D von Juvisy nach Villneuve-Saint-Georges",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.4,
+			"maxSpeed": 110,
+			"objects": [
+				{
+					"start": "XFJU",
+					"end": "XFVGS",
+					"length": 3
+				},
+				{
+					"start": "XFVGS",
+					"end": "XFVSG",
+					"length": 4
+				}
+			]
+		},
+		{
 			"name": "985000 : RER C von Massy-Palaiseau nach Choisy le Roi",
 			"electrified": true,
 			"group": 0,
@@ -35673,7 +35719,25 @@
 			]
 		},
 		{
-			"name": "Raccordement de Massy TGV",
+			"name": "990316 : Raccordement de Valenton à Villneuve Saint Georges",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.4,
+			"maxSpeed": 70,
+			"objects": [
+				{
+					"start": "🇫🇷VON",
+					"end": "XFVSG",
+					"length": 4
+				}
+
+			]
+		},
+		{
+			"name": "431300 : Raccordement de Massy (LGV)",
 			"electrified": true,
 			"group": 2,
 			"neededEquipments": [
