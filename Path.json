@@ -7236,6 +7236,53 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"name": "RER A von Gare de Lyon nach Marne La Vallee",
+			"twistingFactor": 0.45,
+			"maxSpeed": 120,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFPLY",
+					"end": "XFNATION",
+					"length": 2
+				},
+				{
+					"start": "XFNATION",
+					"end": "XFVCE",
+					"length": 3
+				},
+				{
+					"start": "XFVCE",
+					"end": "XFNYG",
+					"length": 5
+				},
+				{
+					"start": "XFNYG",
+					"end": "XFTOC",
+					"length": 13
+				},
+				{
+					"start": "XFTOC",
+					"end": "XFBSG",
+					"length": 4
+				},
+				{
+					"start": "XFBSG",
+					"end": "XFVOP",
+					"length": 5
+				},
+				{
+					"start": "XFVOP",
+					"end": "XFMVC",
+					"length": 2
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": false,
 			"twistingFactor": 0.3,
@@ -35470,7 +35517,7 @@
 			]
 		},
 		{
-			"name": "990000 : Ligne de la Grande Ceinture de Paris de Versailles à Savigny sur Orge",
+			"name": "990000 : Ligne de la Grande Ceinture Parisienne de Versailles à Savigny sur Orge",
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -35538,7 +35585,29 @@
 			]
 		},
 		{
-			"name": "985000 : RER C",
+			"name": "990000 : Ligne de la Grande Ceinture Parisienne de Valenton à Piereffite-Stains",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.4,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "🇫🇷VON",
+					"end": "XFVDF",
+					"length": 14
+				},
+				{
+					"start": "XFVDF",
+					"end": "XFPFR",
+					"length": 17
+				}
+			]
+		},
+		{
+			"name": "985000 : RER C von Massy-Palaiseau nach Choisy le Roi",
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
