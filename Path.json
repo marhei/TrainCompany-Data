@@ -35636,7 +35636,7 @@
 			]
 		},
 		{
-			"name": "745000 : RER D von Juvisy nach Villneuve-Saint-Georges",
+			"name": "745000 : RER D von Corbeil-Essonnes nach Villneuve-Saint-Georges",
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -35645,6 +35645,11 @@
 			"twistingFactor": 0.4,
 			"maxSpeed": 110,
 			"objects": [
+				{
+					"start": "XFCOE",
+					"end": "XFJU",
+					"length": 11
+				},
 				{
 					"start": "XFJU",
 					"end": "XFVGS",
