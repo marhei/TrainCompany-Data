@@ -8553,25 +8553,25 @@
 			]
 		},
 		{
+			"group": 1,
 			"name": "GO Transit von %s nach %s",
+			"service": 3,
 			"descriptions": [
 				"Fahre diesen Vorortzug am Ontariosee entlang von %s nach %s.",
 				"Fahre im Pendlerverkehr von %s nach %s."
 			],
-			"stations": [ 
+			"objects": [
 				{
 					"stations": [ "🇨🇦O6997477908", "🇨🇦OSHA" ]
 				},
 				{
 					"stations": [ "🇨🇦O6997477908", "🇺🇸NFL" ]
-				}				
+				}	
 			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
-			"group": 1,
-			"service": 3,
-			"stopsEverywhere": true		
-		}	
+			"stopsEverywhere": true
+		}
 	]
 }
