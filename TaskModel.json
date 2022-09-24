@@ -8566,7 +8566,7 @@
 				},
 				{
 					"stations": [ "🇨🇦O6997477908", "🇺🇸NFL" ]
-				}	
+				}
 			],
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -8608,11 +8608,7 @@
 				"Die MBTA wünscht sich, dass der Zug während der Fahrt nicht in Brand gerät.",
 				"Auf der Verbindung fahren zwar normalerweise Dieselzüge, allerdings sollte dort der Einsatz von Elektrozügen möglich sein."
 			],
-			"objects": [
-				{
-					"stations": [ "🇺🇸BOS", "🇺🇸O5889932762" ]
-				}
-			],
+			"stations": [ "🇺🇸BOS", "🇺🇸O5889932762" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -8626,11 +8622,7 @@
 				"Fahre diesen Regionalzug von %s nach %s.",
 				"Fahre auf dem North East Corridor von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "🇺🇸NHV", "🇺🇸O538228379" ]
-				}	
-			],
+			"stations": [ "🇺🇸NHV", "🇺🇸O538228379" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -8667,11 +8659,7 @@
 				"Fahre im Pendlerverkehr von %s nach %s.",
 				"Verbinde New York mit den Vororten."
 			],
-			"objects": [
-				{
-					"stations": [ "🇺🇸NYP", "🇺🇸TRE" ]
-				}
-			],
+			"stations": [ "🇺🇸NYP", "🇺🇸TRE" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -8694,7 +8682,7 @@
 				},
 				{
 					"stations": [ "🇺🇸PHL", "🇺🇸NRK" ]
-				}				
+				}
 			],
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -8716,7 +8704,7 @@
 				},
 				{
 					"stations": [ "🇺🇸WAS", "🇺🇸MRB" ]
-				}				
+				}
 			],
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -8737,14 +8725,14 @@
 					"stations": [ "🇺🇸WAS", "🇺🇸MSS" ]
 				},
 				{
-					"stations": [ "🇺🇸WAS", "🇺🇸FBG" ]
-				}				
+					"stations": [ "🇺🇸WAS", "🇺🇸ALX", "🇺🇸FBG" ]
+				}
 			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
 			"stopsEverywhere": true
-		},	
+		},
 		{
 			"group": 1,
 			"name": "Tri-Rail von %s nach %s",
@@ -8763,7 +8751,7 @@
 				{ "name": "passengers" }
 			],
 			"stopsEverywhere": true
-		},	
+		},
 		{
 			"group": 1,
 			"name": "South Shore Line von %s nach %s",
@@ -8781,7 +8769,7 @@
 				{ "name": "passengers" }
 			],
 			"stopsEverywhere": true
-		},	
+		},
 		{
 			"group": 1,
 			"name": "Metra von %s nach %s",
@@ -8806,7 +8794,7 @@
 				},
 				{
 					"stations": [ "🇺🇸CHI", "🇺🇸HMW" ]
-				}			
+				}
 			],
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -8830,7 +8818,7 @@
 				{ "name": "passengers" }
 			],
 			"stopsEverywhere": true
-		},	
+		},
 		{
 			"group": 1,
 			"name": "Frontrunner von %s nach %s",
@@ -8892,13 +8880,13 @@
 				},
 				{
 					"stations": [ "🇺🇸OSD", "🇺🇸SNC", "🇺🇸ANA", "🇺🇸FUL", "🇺🇸SNB" ]
-				}					
+				}
 			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
 			"stopsEverywhere": true
-		},	
+		},
 		{
 			"group": 1,
 			"name": "Capitol Connector von %s nach %s",
@@ -8915,7 +8903,7 @@
 			],
 			"neededCapacity": [
 				{ "name": "passengers" },
-				{ "name": "bistroseats" }				
+				{ "name": "bistroseats" }
 			],
 			"stopsEverywhere": true
 		},
@@ -8933,12 +8921,12 @@
 				},
 				{
 					"stations": [ "🇺🇸SEA", "🇺🇸EDM", "🇺🇸EVR" ]
-				}				
+				}
 			],
 			"neededCapacity": [
-				{ "name": "passengers" }				
+				{ "name": "passengers" }
 			],
 			"stopsEverywhere": true
-		}		
+		}
 	]
 }
