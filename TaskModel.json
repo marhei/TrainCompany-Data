@@ -8551,6 +8551,394 @@
 				{ "name": "beds" },
 				{ "name": "bistroseats" }
 			]
-		}
+		},
+		{
+			"group": 1,
+			"name": "GO Transit von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug am Ontariosee entlang von %s nach %s.",
+				"Fahre im Pendlerverkehr von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇨🇦O6997477908", "🇨🇦OSHA" ]
+				},
+				{
+					"stations": [ "🇨🇦O6997477908", "🇺🇸NFL" ]
+				}	
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "MBTA Commuter Rail von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug im Auftrag der MBTA von %s nach %s.",
+				"Fahre im Pendlerverkehr von %s nach %s.",
+				"Die MBTA wünscht sich, dass der Zug während der Fahrt nicht in Brand gerät."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸BOS", "🇺🇸7005410959" ]
+				},
+				{
+					"stations": [ "🇺🇸BOS", "🇺🇸HHL" ]
+				},
+				{
+					"stations": [ "🇺🇸BOS", "🇺🇸WOR" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "MBTA Commuter Rail von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug im Auftrag der MBTA von %s nach %s.",
+				"Fahre im Pendlerverkehr von %s nach %s.",
+				"Die MBTA wünscht sich, dass der Zug während der Fahrt nicht in Brand gerät.",
+				"Auf der Verbindung fahren zwar normalerweise Dieselzüge, allerdings sollte dort der Einsatz von Elektrozügen möglich sein."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸BOS", "🇺🇸O5889932762" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Shore Line East von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s.",
+				"Fahre auf dem North East Corridor von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸NHV", "🇺🇸O538228379" ]
+				}	
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Metro North Railroad von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug im Auftrag der MTA von %s nach %s.",
+				"Fahre im Pendlerverkehr von %s nach %s.",
+				"Verbinde New York mit den Vororten."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸NYP", "🇺🇸NHV" ]
+				},
+				{
+					"stations": [ "🇺🇸NYP", "🇺🇸POU" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "NJ Transit von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug im Auftrag des Bundesstaates New Jersey von %s nach %s.",
+				"Fahre im Pendlerverkehr von %s nach %s.",
+				"Verbinde New York mit den Vororten."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸NYP", "🇺🇸TRE" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "SEPTA Regional Rail von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre im Pendlerverkehr von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸PHL", "🇺🇸TRE" ]
+				},
+				{
+					"stations": [ "🇺🇸PHL", "🇺🇸DOW" ]
+				},
+				{
+					"stations": [ "🇺🇸PHL", "🇺🇸NRK" ]
+				}				
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "MARC von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre im Pendlerverkehr von %s nach %s.",
+				"Bringe Bürokraten von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸WAS", "🇺🇸BAL", "🇺🇸O848230522" ]
+				},
+				{
+					"stations": [ "🇺🇸WAS", "🇺🇸MRB" ]
+				}				
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Virginia Rail Express von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre im Pendlerverkehr von %s nach %s.",
+				"Bringe Bürokraten von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸WAS", "🇺🇸MSS" ]
+				},
+				{
+					"stations": [ "🇺🇸WAS", "🇺🇸FBG" ]
+				}				
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},	
+		{
+			"group": 1,
+			"name": "Tri-Rail von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Fahre von %s nach %s und halte dabai auch an den Stationen, die nicht von Brightline bedient werden."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸MIA", "🇺🇸FTL", "🇺🇸WPB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},	
+		{
+			"group": 1,
+			"name": "South Shore Line von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸CHI", "🇺🇸O724418147" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},	
+		{
+			"group": 1,
+			"name": "Metra von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre im Pendlerverkehr von %s nach %s.",
+				"Verbinde Chicago mit ihren Vororten.",
+				"Versuche, trotz Trassenkonflikten mit dem Güterverkehr den Fahrplan einzuhalten.",
+				"Die Stadtverwaltung wünscht sich, dass die Fahrt zur Abwechslung nicht mit fast historischen Fahrzeugen durchgeführt wird.",
+				"Normalerweise fahren auf der Strecke teilweise nur drei Zugpaare am Tag."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸CHI", "🇺🇸GLN" ]
+				},
+				{
+					"stations": [ "🇺🇸CHI", "🇺🇸NPV" ]
+				},
+				{
+					"stations": [ "🇺🇸CHI", "🇺🇸JOL" ]
+				},
+				{
+					"stations": [ "🇺🇸CHI", "🇺🇸HMW" ]
+				}			
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Trinity Rail Express von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸DAL", "🇺🇸FTW" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},	
+		{
+			"group": 1,
+			"name": "Frontrunner von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸PRO", "🇺🇸SLC", "🇺🇸O321061790" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Coaster von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Fahre an der Pazifikküste entlang von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸SAN", "🇺🇸OSD" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Metrolink von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre im Pendlerverkehr von %s nach %s.",
+				"Verbinde Los Angeles mit ihren Vororten."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸LAX", "🇺🇸FUL", "🇺🇸ANA", "🇺🇸SNC", "🇺🇸OSD" ]
+				},
+				{
+					"stations": [ "🇺🇸LAX", "🇺🇸FUL", "🇺🇸SNB" ]
+				},
+				{
+					"stations": [ "🇺🇸LAX", "🇺🇸ONA" ]
+				},
+				{
+					"stations": [ "🇺🇸LAX", "🇺🇸BUR" ]
+				},
+				{
+					"stations": [ "🇺🇸OSD", "🇺🇸SNC", "🇺🇸ANA", "🇺🇸FUL", "🇺🇸SNB" ]
+				}					
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},	
+		{
+			"group": 1,
+			"name": "Capitol Connector von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Dieser langlaufende Regionalzug dient den Vorortverkehr von und nach San Francisco, Sacramento und dem Silicon Valley."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸SAN", "🇺🇸OSD" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }				
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Sounder von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸SEA", "🇺🇸TAC" ]
+				},
+				{
+					"stations": [ "🇺🇸SEA", "🇺🇸EDM", "🇺🇸EVR" ]
+				}				
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }				
+			],
+			"stopsEverywhere": true
+		}		
 	]
 }
