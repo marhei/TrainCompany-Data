@@ -100,7 +100,6 @@
 					"name": "Ein Fahrgast hat auf der Toilette geraucht.",
 					"delay": 300
 				},
-
 				{
 					"name": "Ein Fahrgast hat sich mit seinem 9 €-Ticket geweigert die 1. Klasse zu räumen."
 				},
@@ -145,7 +144,13 @@
 				},
 				{
 					"name": "Ein Fahrgast ist während eines Betriebshaltes ausgestiegen und hat in eine Hecke gepinkelt. Der Zug ist währenddessen losgefahren."
-				}
+				},
+				{
+					"name": "Ein prominenter Fahrgast wollte nicht einsehen, dass die Beförderungsbedingungen für alle Fahrgäste gelten, und musste nach kurzer Diskussion mit einen Zugbegleiter am nächsten Bahnhof von der Bundespolizei aus dem Zug geholt werden."
+				},
+				{
+					"name": "In einen Wagen ist die Heizung ausgefallen."
+				}			
 			]
 		},
 		{
@@ -185,7 +190,11 @@
 				{
 					"name": "Bei einem Betriebshalt wurden mehrere Schlafabteile aufgebrochen und die Wertsachen entnommen.",
 					"delay": 600
-				}
+				},
+				{
+					"name": "Während der Fahrt wurden vom Personal ungewöhnliche Geräusche wahrgenommen, deren Ursache sich bei einer Kontrolle als laut schnachenden Fahrgast feststellte.",
+					"delay": 600
+				}				
 			]
 		},
 		{
@@ -227,7 +236,7 @@
 				{
 					"name": "Aus einem Container wurden während eines Betriebshalts komische Geräusche wahrgenommen. Nach einer Überprüfung wurde aber nur Druckerzubehör gefunden.",
 					"delay": 1000
-				}
+				}			
 			]
 		},
 		{
@@ -243,6 +252,48 @@
 					"delay": 1000
 				}
 			]
-		}
+		},
+		{
+			"type": 2,
+			"capacity": "oil",
+			"objects" : [
+				{
+					"name": "An einen Kesselwagen ist ein Leck gefunden worden, das mit Gaffa Tape abgedichtet werden konnte.",
+					"delay": 1000
+				},
+				{
+					"name": "Kraftstoffdiebe haben während eines Betriebshaltes versucht, Kraftstoff aus einen Kesselwagen zu entnehmen, konnten allerdings vorher vertrieben werden.",
+					"delay": 1000
+				}
+			]
+		},
+		{
+			"type": 2,
+			"capacity": "coal",
+			"objects" : [
+				{
+					"name": "Demonstranten haben sich vor dem Zug an die Gleise gekettet.",
+					"delay": 1000
+				},
+				{
+					"name": "Es ist Kohle aus einigen Wagen gefallen, die wieder aufgeladen werden musste.",
+					"delay": 1000
+				}
+			]
+		},
+		{
+			"type": 2,
+			"capacity": "pullman",
+			"objects" : [
+				{
+					"name": "Ein Fahrgast wollte trotz Rauchverbots rauchen.",
+					"delay": 1000
+				},
+				{
+					"name": "Eine angeregte Diskussion zwischen mehreren Fahrgästen ist in einen Streit eskaliert, der erst mit einigen Anstrengungen beruhigt werden konnte.",
+					"delay": 1000
+				}
+			]
+		}	
 	]
 }
