@@ -35636,7 +35636,7 @@
 			]
 		},
 		{
-			"name": "745000 : RER D von Corbeil-Essonnes nach Villneuve-Saint-Georges",
+			"name": "745000 : RER D von Melun nach Villneuve-Saint-Georges",
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -35645,6 +35645,11 @@
 			"twistingFactor": 0.4,
 			"maxSpeed": 110,
 			"objects": [
+				{
+					"start": "XFMEL",
+					"end": "XFCOE",
+					"length": 25
+				},
 				{
 					"start": "XFCOE",
 					"end": "XFJU",
