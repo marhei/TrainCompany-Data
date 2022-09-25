@@ -993,7 +993,7 @@
 			"cost": 800000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
-			"equipments": ["CH", "AT", "LU", "DE", "ETCS", "SI", "HU"],
+			"equipments": ["CH", "AT", "LU", "DE", "ETCS", "SI", "HU", "US"],
 			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
@@ -1014,7 +1014,7 @@
 			"cost": 1400000,
 			"operationCosts": 70,
 			"maxConnectedUnits": 3,
-			"equipments": ["ETCS", "CH", "AT", "DE", "RS"],
+			"equipments": ["ETCS", "CH", "AT", "DE", "RS", "SE"],
 			"capacity": [
 				{"name": "passengers", "value": 323},
 				{"name": "bistroseats", "value": 8}
@@ -3198,6 +3198,83 @@
 			]
 		},
 		{
+			"id": 421776,
+			"service": 0,
+			"group": 2,
+			"name": "N700S",
+			"speed": 330,
+			"weight": 358,
+			"force": 330,
+			"length": 205,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 5500000,
+			"maxConnectedUnits": 1,
+			"operationCosts": 100,
+			"equipments": ["US"],
+			"exchangeTime": 160,
+			"capacity": [
+				{"name": "passengers", "value": 546}
+			]
+		},
+		{
+			"id": 177672,
+			"group": 2,
+			"name": "Highliner II",
+			"speed": 130,
+			"weight": 64,
+			"force": 170,
+			"length": 52,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 800000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 50,
+			"equipments": ["US"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 156}
+			]
+		},
+		{
+			"id": 17764,
+			"group": 2,
+			"name": "Silverliner IV",
+			"speed": 160,
+			"weight": 55,
+			"force": 170,
+			"length": 26,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 300000,
+			"maxConnectedUnits": 6,
+			"operationCosts": 50,
+			"equipments": ["US"],
+			"exchangeTime": 50,
+			"capacity": [
+				{"name": "passengers", "value": 78}
+			]
+		},
+		{
+			"id": 17765,
+			"group": 2,
+			"name": "Silverliner V",
+			"speed": 160,
+			"weight": 134,
+			"force": 220,
+			"length": 52,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 500000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 40,
+			"equipments": ["US"],
+			"exchangeTime": 50,
+			"capacity": [
+				{"name": "passengers", "value": 181}
+			]
+		},
+		{
 			"id": 563,
 			"group": 2,
 			"name": "Siemens Mireo Plus H",
@@ -3468,7 +3545,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 75,
 			"exchangeTime": 120,
-			"equipments": ["FR", "AT", "LU", "PL", "DE", "CZ", "RO"],
+			"equipments": ["FR", "AT", "LU", "PL", "DE", "CZ", "RO", "CA"],
 			"capacity": [
 				{"name": "passengers", "value": 144}
 			]
@@ -3610,7 +3687,7 @@
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
 			"exchangeTime": 30,
-			"equipments": ["FR", "DE", "NO"],
+			"equipments": ["FR", "DE", "NO", "CA"],
 			"capacity": [
 				{"name": "passengers", "value": 149}
 			]
@@ -3630,9 +3707,51 @@
 			"cost": 250000,
 			"operationCosts": 50,
 			"maxConnectedUnits": 3,
-			"equipments": ["NL", "CH", "DE", "CZ", "IT", "GR"],
+			"equipments": ["NL", "CH", "DE", "CZ", "IT", "GR", "US"],
 			"capacity": [
 				{"name": "passengers", "value": 100}
+			]
+		},
+		{
+			"id": 80276400,
+			"group": 2,
+			"name": "Alstom Coradia LINT 27",
+			"shortcut": "BR 640",
+			"speed": 120,
+			"weight": 41,
+			"force": 87,
+			"length": 27,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 220000,
+			"maxConnectedUnits": 3,
+			"compatibleWith": [80416480],
+			"operationCosts": 50,
+			"equipments": ["DE"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 70}
+			]
+		},
+		{
+			"id": 80416480,
+			"group": 2,
+			"name": "Alstom Coradia LINT 41",
+			"shortcut": "BR 648",
+			"speed": 140,
+			"weight": 68,
+			"force": 87,
+			"length": 27,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 300000,
+			"maxConnectedUnits": 3,
+			"compatibleWith": [80276400],
+			"operationCosts": 60,
+			"equipments": ["DE", "NL", "SE", "DK", "CA", "CZ"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 134}
 			]
 		},
 		{
@@ -4124,7 +4243,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 60,
 			"exchangeTime": 50,
-			"equipments": ["SI", "HR", "AT", "IT"],
+			"equipments": ["SI", "HR", "AT", "IT", "CA", "US"],
 			"capacity": [
 				{"name": "passengers", "value": 150}
 			]
@@ -4281,6 +4400,45 @@
 			"exchangeTime": 90,
 			"capacity": [
 				{ "name": "passengers", "value": 400 }
+			]
+		},
+		{
+			"id": 1776398,
+			"group": 2,
+			"name": "Budd Rail Diesel Car",
+			"shortcut": "Budd RDC",
+			"speed": 137,
+			"weight": 54,
+			"force": 45,
+			"length": 26,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 120000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 4,
+			"exchangeTime": 70,
+			"equipments": ["US", "CA"],
+			"capacity": [
+				{"name": "passengers", "value": 90}
+			]
+		},
+		{
+			"id": 177636,
+			"group": 2,
+			"name": "Nippon Sharyo DMU",
+			"speed": 137,
+			"weight": 48,
+			"force": 65,
+			"length": 26,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 180000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 4,
+			"exchangeTime": 60,
+			"equipments": ["US", "CA"],
+			"capacity": [
+				{"name": "passengers", "value": 79}
 			]
 		},
 		{
@@ -4768,7 +4926,7 @@
 			"group": 0,
 			"name": "Siemens Vectron MS",
 			"shortcut": "BR 193",
-			"speed": 200,
+			"speed": 230,
 			"weight": 90,
 			"force": 300,
 			"length": 19,
@@ -4811,6 +4969,21 @@
 			"equipments": [ "US", "CA" ]
 		},
 		{
+			"id": 17764245,
+			"group": 0,
+			"name": "Bombardier ALP-45DP",
+			"speed": 200,
+			"weight": 130,
+			"force": 316,
+			"length": 22,
+			"drive": 4,
+			"range": 1000,
+			"reliability": 1,
+			"cost": 500000,
+			"operationCosts": 130,
+			"equipments": [ "US", "CA" ]
+		},
+		{
 			"id": 177664,
 			"group": 0,
 			"name": "Amtrak Cities Sprinter",
@@ -4826,6 +4999,50 @@
 			"equipments": [
 				"US"
 			]
+		},
+		{
+			"id": 17767,
+			"group": 0,
+			"name": "EMD AEM-7",
+			"speed": 201,
+			"weight": 92,
+			"force": 230,
+			"length": 16,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 450000,
+			"operationCosts": 120,
+			"equipments": ["US"]
+		},
+		{
+			"id": 17768,
+			"group": 0,
+			"name": "Bombardier-Alstom HHP-8",
+			"shortcut": "HHP-8",
+			"speed": 217,
+			"weight": 101,
+			"force": 316,
+			"length": 20,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 500000,
+			"operationCosts": 130,
+			"equipments": ["US"]
+		},
+		{
+			"id": 177646,
+			"group": 0,
+			"name": "Bombardier ALP-46A",
+			"shortcut": "ALP-46A",
+			"speed": 200,
+			"weight": 91,
+			"force": 317,
+			"length": 20,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 400000,
+			"operationCosts": 100,
+			"equipments": ["US"]
 		},
 		{
 			"id": 1776350,
@@ -5765,6 +5982,20 @@
 			"equipments": ["DE", "CH"]
 		},
 		{
+			"id": 802001,
+			"group": 0,
+			"name": "BR 211/ V200.1",
+			"speed": 140,
+			"weight": 81,
+			"force": 240,
+			"length": 18,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 280000,
+			"operationCosts": 140,
+			"equipments": ["DE", "CH", "GR", "IT", "AL"]
+		},
+		{
 			"id": 20,
 			"group": 0,
 			"name": "BR 232",
@@ -5835,6 +6066,78 @@
 			"reliability": 0.98,
 			"cost": 400000,
 			"operationCosts": 110,
+			"equipments": [ "US", "CA" ]
+		},
+		{
+			"id": 1776401,
+			"group": 0,
+			"name": "EMD F40PH",
+			"speed": 177,
+			"weight": 128,
+			"force": 260,
+			"length": 17,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 350000,
+			"operationCosts": 120,
+			"equipments": [ "US", "CA" ]
+		},
+		{
+			"id": 1776402,
+			"group": 0,
+			"name": "EMD SD40-2",
+			"speed": 110,
+			"weight": 167,
+			"force": 520,
+			"length": 21,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 250000,
+			"operationCosts": 140,
+			"equipments": [ "US", "CA" ]
+		},
+		{
+			"id": 17764400,
+			"group": 0,
+			"name": "GE AC4400CW",
+			"speed": 120,
+			"weight": 196,
+			"force": 800,
+			"length": 21,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 325000,
+			"operationCosts": 130,
+			"equipments": [ "US", "CA" ]
+		},
+		{
+			"id": 1776441,
+			"group": 0,
+			"name": "GE Evolution Series",
+			"shortcut": "GE ES44AC",
+			"speed": 110,
+			"weight": 196,
+			"force": 810,
+			"length": 23,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 450000,
+			"operationCosts": 120,
+			"equipments": [ "US", "CA" ]
+		},
+		{
+			"id": 17762003,
+			"group": 0,
+			"name": "MPI MPXpress",
+			"shortcut": "MPI MP36PH-3C",
+			"speed": 174,
+			"weight": 134,
+			"force": 378,
+			"length": 21,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 420000,
+			"operationCosts": 115,
 			"equipments": [ "US", "CA" ]
 		},
 		{
@@ -5922,7 +6225,7 @@
 			"reliability": 1,
 			"cost": 100000,
 			"operationCosts": 100,
-			"equipments": ["1520mm","LV", "EE", "LT", "RU"]
+			"equipments": ["1520mm","LV", "EE", "LT", "RU", "BY"]
 		},
 		{
 			"id": 100,
@@ -6124,7 +6427,21 @@
 			"reliability": 0.8,
 			"cost": 250000,
 			"operationCosts": 160,
-			"equipments": ["PL", "DE"]
+			"equipments": ["PL", "DE", "DK"]
+		},
+		{
+			"id": 7036,
+			"group": 0,
+			"name": "NOHAB AA16",
+			"speed": 140,
+			"weight": 108,
+			"force": 245,
+			"length": 19,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 180000,
+			"operationCosts": 180,
+			"equipments": ["DK", "NO", "HU", "DE", "SE", "BE", "LU"]
 		},
 		{
 			"id": 55418,
@@ -6519,7 +6836,7 @@
 			"reliability": 0.9,
 			"cost": 440000,
 			"operationCosts": 180,
-			"equipments": ["UA", "RU", "LV", "LT", "EE", "MD", "1520mm"]
+			"equipments": ["UA", "RU", "LV", "LT", "EE", "MD", "BY", "1520mm"]
 		},
 		{
 			"id": 206224,
@@ -6561,7 +6878,7 @@
 			"reliability": 0.8,
 			"cost": 200000,
 			"operationCosts": 140,
-			"equipments": ["UA", "RU", "LV", "LT", "EE", "MD", "1520mm"]
+			"equipments": ["UA", "RU", "LV", "LT", "EE", "MD", "BY", "1520mm"]
 		},
 		{
 			"id": 222009,
@@ -6620,6 +6937,20 @@
 			"cost": 100000,
 			"operationCosts": 200,
 			"equipments": ["DE"]
+		},
+		{
+			"id": 80997779,
+			"group": 0,
+			"name": "DR-Baureihe 99.77–79",
+			"speed": 30,
+			"weight": 55,
+			"force": 84,
+			"length": 11,
+			"drive": 7,
+			"reliability": 0.9,
+			"cost": 140000,
+			"operationCosts": 220,
+			"equipments": ["DE", "750mm"]
 		},
 		{
 			"id": 201,
@@ -7652,6 +7983,331 @@
 			]
 		},
 		{
+			"id": 1776011,
+			"group": 1,
+			"name": "Amfleet-Sitzwagen",
+			"speed": 201,
+			"weight": 48,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 220000,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 84}
+			]
+		},
+		{
+			"id": 1776012,
+			"group": 1,
+			"name": "Amfleet-Speisewagen",
+			"speed": 201,
+			"weight": 51,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 240000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 32},
+				{"name": "passengers", "value": 23}
+			]
+		},
+		{
+			"id": 1776021,
+			"group": 1,
+			"name": "Viewliner-Schlafwagen",
+			"speed": 201,
+			"weight": 48,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 235000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "beds", "value": 30}
+			]
+		},
+		{
+			"id": 1776022,
+			"group": 1,
+			"name": "Viewliner-Speisewagen",
+			"speed": 201,
+			"weight": 51,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 240000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 40}
+			]
+		},
+		{
+			"id": 1776031,
+			"group": 1,
+			"name": "Superliner-Sitzwagen",
+			"speed": 161,
+			"weight": 69,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 300000,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 78}
+			]
+		},
+		{
+			"id": 1776032,
+			"group": 1,
+			"name": "Superliner-Speisewagen",
+			"speed": 161,
+			"weight": 79,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 350000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 72}
+			]
+		},
+		{
+			"id": 1776033,
+			"group": 1,
+			"service": 5,
+			"name": "Superliner-Schlafwagen",
+			"speed": 161,
+			"weight": 75,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 320000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "beds", "value": 44}
+			]
+		},
+		{
+			"id": 1776041,
+			"group": 1,
+			"name": "Surfliner",
+			"speed": 145,
+			"weight": 67,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 280000,
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 90}
+			]
+		},
+		{
+			"id": 1776051,
+			"group": 1,
+			"name": "Horizon-Sitzwagen",
+			"speed": 201,
+			"weight": 43,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 230000,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 82}
+			]
+		},
+		{
+			"id": 1776052,
+			"group": 1,
+			"name": "Horizon-Speisewagen",
+			"speed": 201,
+			"weight": 48,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 250000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 32},
+				{"name": "passengers", "value": 19}
+			]
+		},
+		{
+			"id": 1776061,
+			"group": 1,
+			"name": "Bombardier BiLevel-Doppelstockwagen",
+			"speed": 160,
+			"weight": 61,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 250000,
+			"exchangeTime": 50,
+			"capacity": [
+				{"name": "passengers", "value": 162}
+			]
+		},
+		{
+			"id": 1776071,
+			"group": 1,
+			"name": "Bombardier MultiLevel-Doppelstockwagen",
+			"speed": 177,
+			"weight": 61,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 260000,
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 132}
+			]
+		},
+		{
+			"id": 1776081,
+			"group": 1,
+			"name": "Comet V",
+			"speed": 177,
+			"weight": 45,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 230000,
+			"exchangeTime": 70,
+			"capacity": [
+				{"name": "passengers", "value": 111}
+			]
+		},
+		{
+			"id": 1982011,
+			"group": 1,
+			"name": "LRC-Wagen",
+			"speed": 153,
+			"weight": 42,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 225000,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 80}
+			]
+		},
+		{
+			"id": 1982021,
+			"group": 1,
+			"name": "Renaissance/Nightstar-Sitzwagen",
+			"speed": 200,
+			"weight": 45,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 240000,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 48}
+			]
+		},
+		{
+			"id": 1982022,
+			"group": 1,
+			"name": "Renaissance/Nightstar-Speisewagen",
+			"speed": 200,
+			"weight": 45,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 270000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 48}
+			]
+		},
+		{
+			"id": 1982023,
+			"group": 1,
+			"service": 5,
+			"name": "Renaissance/Nightstar-Schlafwagen",
+			"speed": 200,
+			"weight": 45,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 250000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "beds", "value": 20}
+			]
+		},
+		{
+			"id": 1982031,
+			"group": 1,
+			"name": "HEP-Sitzwagen",
+			"speed": 160,
+			"weight": 52,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 200000,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 62}
+			]
+		},
+		{
+			"id": 1982032,
+			"group": 1,
+			"name": "HEP-Speisewagen",
+			"speed": 160,
+			"weight": 56,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 220000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 40}
+			]
+		},
+		{
+			"id": 1982033,
+			"group": 1,
+			"service": 5,
+			"name": "HEP-Schlafwagen",
+			"speed": 160,
+			"weight": 54,
+			"force": 0,
+			"length": 26,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 210000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "beds", "value": 24}
+			]
+		},
+		{
 			"id": 9419751,
 			"group": 1,
 			"service": 1,
@@ -8075,6 +8731,22 @@
 			]
 		},
 		{
+			"id": 17761111,
+			"group": 1,
+			"service": 11,
+			"name": "Autorack-Autotransportwagen",
+			"speed": 120,
+			"weight": 28,
+			"force": 0,
+			"length": 22,
+			"drive": 0,
+			"reliability": 0.95,
+			"cost": 250000,
+			"capacity": [
+				{"name": "cars", "value": 14}
+			]
+		},
+		{
 			"id": 14,
 			"group": 1,
 			"service": 11,
@@ -8125,6 +8797,22 @@
 			"equipments": ["1668mm"],
 			"capacity": [
 				{"name": "wood", "value": 68}
+			]
+		},
+		{
+			"id": 1776800,
+			"group": 1,
+			"service": 11,
+			"name": "Centerbeam-Holzwagen",
+			"speed": 120,
+			"weight": 20,
+			"force": 0,
+			"length": 22,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 240000,
+			"capacity": [
+				{"name": "wood", "value": 80}
 			]
 		},
 		{
@@ -8181,6 +8869,22 @@
 			]
 		},
 		{
+			"id": 1776111,
+			"group": 1,
+			"service": 11,
+			"name": "DOT-111-Kesselwagen",
+			"speed": 120,
+			"weight": 29,
+			"force": 0,
+			"length": 17,
+			"drive": 0,
+			"reliability": 0.8,
+			"cost": 190000,
+			"capacity": [
+				{"name": "oil", "value": 89}
+			]
+		},
+		{
 			"id": 18,
 			"group": 1,
 			"service": 11,
@@ -8214,7 +8918,7 @@
 				{"name": "coal", "value": 60}
 			]
 		},
-			{
+		{
 			"id": 181668,
 			"group": 1,
 			"service": 11,
@@ -8229,6 +8933,22 @@
 			"equipments": ["1668mm"],
 			"capacity": [
 				{"name": "coal", "value": 55}
+			]
+		},
+		{
+			"id": 1776,
+			"group": 1,
+			"service": 11,
+			"name": "TT6-Schüttgutwagen",
+			"speed": 120,
+			"weight": 15,
+			"force": 0,
+			"length": 19,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 180000,
+			"capacity": [
+				{"name": "coal", "value": 91}
 			]
 		},
 		{
@@ -8302,6 +9022,22 @@
 			]
 		},
 		{
+			"id": 17762,
+			"group": 1,
+			"service": 11,
+			"name": "Doppelstock-Containerwagen",
+			"speed": 120,
+			"weight": 19,
+			"force": 0,
+			"length": 22,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 130000,
+			"capacity": [
+				{"name": "containers", "value": 2}
+			]
+		},
+		{
 			"id": 27,
 			"group": 1,
 			"service": 11,
@@ -8332,6 +9068,22 @@
 			"reliability": 1,
 			"cost": 160000,
 			"equipments": ["1520mm"],
+			"capacity": [
+				{"name": "castor", "value": 1}
+			]
+		},
+		{
+			"id": 177611,
+			"group": 1,
+			"service": 11,
+			"name": "US-Castor-Transportwagen",
+			"speed": 80,
+			"weight": 100,
+			"force": 0,
+			"length": 33,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 600000,
 			"capacity": [
 				{"name": "castor", "value": 1}
 			]
@@ -8536,7 +9288,7 @@
 			"reliability": 1,
 			"cost": 1800000,
 			"maxConnectedUnits": 1,
-			"compatibleWith": [ 251, 245, 5, 28, 26, 193, 15, 30, 29, 6, 102, 2026, 2159 ],
+			"compatibleWith": [ 251, 245, 193, 15, 102, 2026, 248 ],
 			"exchangeTime": 60,
 			"equivalentTo": 17,
 			"capacity": [
