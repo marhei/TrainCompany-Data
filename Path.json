@@ -2452,16 +2452,30 @@
 			],
 			"objects": [
 				{
-					"start": "XFPO",
-					"end": "XFJU",
+					"start": "XFPAZ",
+					"end": "🇫🇷CLR",
 					"maxSpeed": 120,
 					"twistingFactor": 0.2,
-					"length": 18
+					"length": 10
+				},
+				{
+					"start": "🇫🇷CLR",
+					"end": "XFJU",
+					"maxSpeed": 140,
+					"twistingFactor": 0.2,
+					"length": 10
 				},
 				{
 					"start": "XFJU",
+					"end": "XFSAO",
+					"maxSpeed": 120,
+					"twistingFactor": 0.2,
+					"length": 3
+				},
+				{
+					"start": "XFSAO",
 					"end": "XFETP",
-					"length": 37,
+					"length": 32,
 					"maxSpeed": 150,
 					"twistingFactor": 0.2
 				},
@@ -7195,8 +7209,13 @@
 			"objects": [
 				{
 					"start": "🇫🇷MOIS",
+					"end": "🇫🇷COU",
+					"length": 15
+				},
+				{
+					"start": "🇫🇷COU",
 					"end": "XFMVC",
-					"length": 38
+					"length": 23
 				},
 				{
 					"start": "XFMVC",
@@ -7210,9 +7229,56 @@
 				},
 				{
 					"start": "🇫🇷CDG",
-					"end": "XFSVF",
+					"end": "XFVMR",
 					"length": 5,
 					"maxSpeed": 230
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "RER A von Gare de Lyon nach Marne La Vallee Chessy",
+			"twistingFactor": 0.45,
+			"maxSpeed": 120,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFPLY",
+					"end": "XFNATION",
+					"length": 2
+				},
+				{
+					"start": "XFNATION",
+					"end": "XFVCE",
+					"length": 3
+				},
+				{
+					"start": "XFVCE",
+					"end": "XFVDF",
+					"length": 5
+				},
+				{
+					"start": "XFVDF",
+					"end": "XFTOC",
+					"length": 13
+				},
+				{
+					"start": "XFTOC",
+					"end": "XFBSG",
+					"length": 4
+				},
+				{
+					"start": "XFBSG",
+					"end": "XFVOP",
+					"length": 5
+				},
+				{
+					"start": "XFVOP",
+					"end": "XFMVC",
+					"length": 2
 				}
 			]
 		},
@@ -16821,15 +16887,51 @@
 			]
 		},
 		{
-			"start": "XFPO",
+			"start": "XFPLY",
+			"end": "🇫🇷VD",
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": true,
+			"length": 26,
+			"maxSpeed": 135,
+			"twistingFactor": 0.3,
+			"group": 0
+		},
+		{
+			"start": "🇫🇷VD",
+			"end": "XFVSG",
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": true,
+			"length": 26,
+			"maxSpeed": 100,
+			"twistingFactor": 0.3,
+			"group": 0
+		},
+		{
+			"start": "XFVSG",
 			"end": "XFCQ",
 			"neededEquipments": [
 				"FR"
 			],
 			"electrified": true,
 			"length": 26,
-			"maxSpeed": 155,
+			"maxSpeed": 120,
 			"twistingFactor": 0.3,
+			"group": 0
+		},
+		{
+			"start": "XFJU",
+			"end": "XFMEL",
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": true,
+			"length": 37,
+			"maxSpeed": 120,
+			"twistingFactor": 0.45,
 			"group": 0
 		},
 		{
@@ -16888,7 +16990,7 @@
 			"name": "LGV Atlantique",
 			"objects": [
 				{
-					"start": "XFPO",
+					"start": "XFPMP",
 					"end": "🇫🇷MPW",
 					"length": 14,
 					"maxSpeed": 200
@@ -16897,6 +16999,31 @@
 					"start": "🇫🇷MPW",
 					"end": "🇫🇷CSP",
 					"length": 116
+				}
+			]
+		},
+		{
+			
+			"electrified": true,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
+			"group": 2,
+			"maxSpeed": 230,
+			"twistingFactor": 0.1,
+			"name": "SFS LGV Sud-Est de Vert de Maisons à Coubert",
+			"objects": [
+				{
+					"start": "🇫🇷VD",
+					"end": "🇫🇷VON",
+					"length": 5,
+					"maxSpeed": 160
+				},
+				{
+					"start": "🇫🇷VON",
+					"end": "🇫🇷COU",
+					"length": 22
 				}
 			]
 		},
@@ -35171,7 +35298,7 @@
 			"maxSpeed": 140,
 			"objects": [
 				{
-					"start": "XFPO",
+					"start": "XFPMP",
 					"end": "🇫🇷VCR",
 					"length": 15,
 					"maxSpeed": 140,
@@ -35179,8 +35306,15 @@
 				},
 				{
 					"start": "🇫🇷VCR",
+					"end": "🇫🇷CYR",
+					"length": 5,
+					"maxSpeed": 130,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷CYR",
 					"end": "XFTVO",
-					"length": 10,
+					"length": 6,
 					"maxSpeed": 150
 				},
 				{
@@ -35404,6 +35538,236 @@
 					"end": "XFBRT",
 					"length": 19
 				}
+			]
+		},
+		{
+			"name": "990000 : Ligne de la Grande Ceinture Parisienne de Versailles à Savigny sur Orge",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.4,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "🇫🇷VCR",
+					"end": "🇫🇷JLL",
+					"length": 4
+				},
+				{
+					"start": "🇫🇷JLL",
+					"end": "🇫🇷JAS",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷JAS",
+					"end": "🇫🇷VBO",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷VBO",
+					"end": "🇫🇷BVR",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷BVR",
+					"end": "🇫🇷IGN",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷IGN",
+					"end": "🇫🇷MP",
+					"length": 3,
+					"maxSpeed": 60
+				},
+				{
+					"start": "🇫🇷MP",
+					"end": "🇫🇷LJU",
+					"length": 5
+				},
+				{
+					"start": "🇫🇷LJU",
+					"end": "🇫🇷CMZ",
+					"length": 1
+				},
+				{
+					"start": "🇫🇷CMZ",
+					"end": "🇫🇷GBI",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷GBI",
+					"end": "🇫🇷PV",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷PV",
+					"end": "XFSAO",
+					"length": 2
+				}
+			]
+		},
+		{
+			"name": "990000 : Ligne de la Grande Ceinture Parisienne de Valenton à Piereffite-Stains",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.4,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "🇫🇷VON",
+					"end": "XFVDF",
+					"length": 14
+				},
+				{
+					"start": "XFVDF",
+					"end": "XFNO",
+					"length": 5
+				},
+				{
+					"start": "XFNO",
+					"end": "XFPR",
+					"length": 11
+				}
+			]
+		},
+		{
+			"name": "745000 : RER D von Melun nach Villneuve-Saint-Georges",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.4,
+			"maxSpeed": 110,
+			"objects": [
+				{
+					"start": "XFMEL",
+					"end": "XFCOE",
+					"length": 25
+				},
+				{
+					"start": "XFCOE",
+					"end": "XFJU",
+					"length": 11
+				},
+				{
+					"start": "XFJU",
+					"end": "XFVGS",
+					"length": 3
+				},
+				{
+					"start": "XFVGS",
+					"end": "XFVSG",
+					"length": 4
+				}
+			]
+		},
+		{
+			"name": "985000 : RER C von Massy-Palaiseau nach Choisy le Roi",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.4,
+			"maxSpeed": 110,
+			"objects": [
+				{
+					"start": "🇫🇷MP",
+					"end": "🇫🇷MVW",
+					"length": 2,
+					"maxSpeed": 60
+				},
+				{
+					"start": "🇫🇷MVW",
+					"end": "🇫🇷CHQ",
+					"length": 4
+				},
+				{
+					"start": "🇫🇷CHQ",
+					"end": "🇫🇷RF",
+					"length": 3
+				},
+				{
+					"start": "🇫🇷RF",
+					"end": "🇫🇷PRU",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷PRU",
+					"end": "🇫🇷OY",
+					"length": 3
+				},
+				{
+					"start": "🇫🇷OY",
+					"end": "🇫🇷LS",
+					"length": 2
+				},
+				{
+					"start": "🇫🇷LS",
+					"end": "🇫🇷CLR",
+					"length": 3
+				}
+			]
+		},
+		{
+			"name": "Raccordement des Saules à Valenton",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.4,
+			"maxSpeed": 90,
+			"objects": [
+				{
+					"start": "🇫🇷LS",
+					"end": "🇫🇷VON",
+					"length": 10
+				}
+
+			]
+		},
+		{
+			"name": "990316 : Raccordement de Valenton à Villneuve Saint Georges",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.4,
+			"maxSpeed": 70,
+			"objects": [
+				{
+					"start": "🇫🇷VON",
+					"end": "XFVSG",
+					"length": 4
+				}
+
+			]
+		},
+		{
+			"name": "431300 : Raccordement de Massy (LGV)",
+			"electrified": true,
+			"group": 2,
+			"neededEquipments": [
+				"FR",
+				"TVM"
+			],
+			"twistingFactor": 0.36,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "🇫🇷MPW",
+					"end": "🇫🇷MVW",
+					"length": 2
+				}
+
 			]
 		},
 		{
@@ -36749,8 +37113,8 @@
 				},
 				{
 					"start": "XFNO",
-					"end": "XFPO",
-					"length": 8,
+					"end": "XFPEST",
+					"length": 7,
 					"maxSpeed": 120,
 					"twistingFactor": 0.2
 				}
@@ -37944,7 +38308,7 @@
 			],
 			"objects": [
 				{
-					"start": "XFPO",
+					"start": "XFPSL",
 					"end": "🇫🇷SVL",
 					"length": 16,
 					"twistingFactor": 0.2,
@@ -38048,6 +38412,61 @@
 					"end": "XFHV",
 					"length": 17,
 					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"name": "396000",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷EPO",
+					"end": "🇫🇷NEL",
+					"length": 4,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷NEL",
+					"end": "🇫🇷MAU",
+					"length": 4,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇫🇷MAU",
+					"end": "🇫🇷MMA",
+					"length": 2,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇫🇷MMA",
+					"end": "🇫🇷BEY",
+					"length": 4,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷BEY",
+					"end": "🇫🇷PGR",
+					"length": 6,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇫🇷PGR",
+					"end": "🇫🇷VLC",
+					"length": 4,
+					"twistingFactor": 0.23,
+					"maxSpeed": 140
+				},
+				{
+					"start": "🇫🇷VLC",
+					"end": "🇫🇷CYR",
+					"length": 4,
+					"twistingFactor": 0.25,
+					"maxSpeed": 140
 				}
 			]
 		},
@@ -44924,9 +45343,19 @@
 			],
 			"objects": [
 				{
-					"start": "XFPO",
+					"start": "XFPNO",
+					"end": "XFPRF",
+					"length": 10
+				},
+				{
+					"start": "XFPRF",
+					"end": "XFVIB",
+					"length": 5
+				},
+				{
+					"start": "XFVIB",
 					"end": "XFSVF",
-					"length": 29
+					"length": 15
 				},
 				{
 					"start": "XFSVF",
@@ -53667,7 +54096,13 @@
 			],
 			"objects": [
 				{
-					"start": "XFSVF",
+					"start": "XFVIB",
+					"end": "XFVMR",
+					"length": 13,
+					"maxSpeed": 200
+				},
+				{
+					"start": "XFVMR",
 					"end": "XFHP",
 					"length": 98
 				},
