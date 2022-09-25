@@ -41721,6 +41721,202 @@
 			]
 		},
 		{
+			"name": "Summerauer Bahn (SŽDC 196)",
+			"electrified": true,
+			"group": 0,			
+			"maxSpeed": 100,
+			"neededEquipments": [
+				"CZ"
+			],
+			"objects": [
+				{
+					"start": "XTCB",
+					"end": "🇨🇿75352",
+					"length": 8,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇨🇿75352",
+					"end": "🇨🇿75332",
+					"length": 5,
+					"maxSpeed": 85,
+					"twistingFactor": 0.42
+				},
+				{
+					"start": "🇨🇿75332",
+					"end": "🇨🇿75312",
+					"length": 6,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇨🇿75312",
+					"end": "🇨🇿75292",
+					"length": 4,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇨🇿75292",
+					"end": "🇨🇿75282",
+					"length": 5,
+					"maxSpeed": 75,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇨🇿75282",
+					"end": "🇨🇿75272",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇨🇿75272",
+					"end": "🇨🇿75262",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇨🇿75262",
+					"end": "🇨🇿75252",
+					"length": 3,
+					"maxSpeed": 85,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇨🇿75252",
+					"end": "🇨🇿75242",
+					"length": 3,
+					"maxSpeed": 85,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇨🇿75242",
+					"end": "🇨🇿75232",
+					"length": 4,
+					"maxSpeed": 75,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇨🇿75232",
+					"end": "XTHD",
+					"length": 7,
+					"maxSpeed": 75,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "XTHD",
+					"end": "XASUM",
+					"name": "Summerauer Bahn",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.29,
+					"neededEquipments": [
+						"AT",
+						"CZ"
+					]
+				}
+			]
+		},
+		{
+			"name": "Summerauer Bahn (ÖBB 141)",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 80,
+			"neededEquipments": [
+				"AT"
+			],
+			"objects": [
+				{
+					"start": "XASUM",
+					"end": "🇦🇹01583",
+					"length": 9,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇦🇹01583",
+					"end": "🇦🇹O334871746",
+					"length": 6,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇦🇹O334871746",
+					"end": "🇦🇹O157708008",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹O157708008",
+					"end": "XAPR",
+					"length": 10,
+					"maxSpeed": 90,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XAPR",
+					"end": "🇦🇹O261227970",
+					"length": 3,
+					"twistingFactor": 0.74
+				},
+				{
+					"start": "🇦🇹O261227970",
+					"end": "🇦🇹O6844641425",
+					"length": 2,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇦🇹O6844641425",
+					"end": "🇦🇹O157707258",
+					"length": 4,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇦🇹O157707258",
+					"end": "🇦🇹O158868668",
+					"length": 3,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇦🇹O158868668",
+					"end": "🇦🇹O148901378",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇦🇹O148901378",
+					"end": "🇦🇹O158869023",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹O158869023",
+					"end": "🇦🇹O616023441",
+					"length": 5,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇦🇹O616023441",
+					"end": "🇦🇹O7645724300",
+					"length": 2,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇦🇹O7645724300",
+					"end": "🇦🇹O3774599640",
+					"length": 3,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇦🇹O3774599640",
+					"end": "XAL",
+					"length": 3,
+					"maxSpeed": 95,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"neededEquipments": [
