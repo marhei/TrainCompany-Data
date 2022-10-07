@@ -42449,7 +42449,42 @@
 				}
 			]
 		},
-		
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"name": "Nordring",
+			"objects": [
+				{
+					"start": "MJK",
+					"end": "MFM",
+					"length": 4,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "MFM",
+					"end": "MMBH",
+					"length": 3,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MMBH",
+					"end": "MN",
+					"length": 4,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MN",
+					"end": "MDA",
+					"length": 8,
+					"twistingFactor": 0.13
+				}
+			]
+		},
 		{
 			"electrified": true,
 			"group": 0,
