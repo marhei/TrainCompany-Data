@@ -19168,52 +19168,108 @@
 				},
 				{
 					"start": "MIH",
-					"end": "MRBI",
-					"length": 20,
+					"end": "MBAE",
+					"length": 7,
 					"maxSpeed": 160,
-					"twistingFactor": 0.23
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MBAE",
+					"end": "MRBI",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.26
 				},
 				{
 					"start": "MRBI",
 					"end": "MPF",
-					"length": 11,
+					"length": 9,
 					"maxSpeed": 160,
-					"twistingFactor": 0
+					"twistingFactor": 0.13
 				},
 				{
 					"start": "MPF",
+					"end": "MRS",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "MRS",
+					"end": "MPD",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "MPD",
 					"end": "MPE",
-					"length": 13,
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.04
+				},
+				{
+					"start": "MPE",
+					"end": "MESH",
+					"length": 6,
 					"maxSpeed": 160,
 					"twistingFactor": 0.15
 				},
 				{
-					"start": "MPE",
+					"start": "MESH",
+					"end": "MRMS",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "MRMS",
+					"end": "MHSN",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.04
+				},
+				{
+					"start": "MHSN",
 					"end": "MDA",
-					"length": 18,
-					"maxSpeed": 200,
-					"twistingFactor": 0.17
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
 				},
 				{
 					"start": "MDA",
-					"end": "MMAL",
-					"length": 7,
+					"end": "MKFS",
+					"length": 4,
 					"maxSpeed": 200,
-					"twistingFactor": 0
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MKFS",
+					"end": "MMAL",
+					"length": 2,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "MMAL",
-					"end": "MOZ",
-					"length": 2,
+					"end": "MAUG",
+					"length": 1,
 					"maxSpeed": 200,
-					"twistingFactor": 0
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MAUG",
+					"end": "MOZ",
+					"length": 1,
+					"maxSpeed": 200,
+					"twistingFactor": 0.18
 				},
 				{
 					"start": "MOZ",
 					"end": "MH",
-					"length": 7,
 					"maxSpeed": 120,
-					"twistingFactor": 0.27
+					"length": 7,
+					"twistingFactor": 0.23
 				}
 			]
 		},
@@ -41723,7 +41779,7 @@
 		{
 			"name": "Summerauer Bahn (SŽDC 196)",
 			"electrified": true,
-			"group": 0,			
+			"group": 0,
 			"maxSpeed": 100,
 			"neededEquipments": [
 				"CZ"
@@ -42393,6 +42449,7 @@
 				}
 			]
 		},
+		
 		{
 			"electrified": true,
 			"group": 0,
