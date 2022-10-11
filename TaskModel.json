@@ -6173,18 +6173,20 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "XJBC", "XJLP", "XJNI" ]
+					"stations": [ "XJBC", "XJLP", "XJNI" ],
+					"pathSuggestion": ["XJBC", "XJBR", "XJLP", "XJNI"]
 				},
 				{
 					"stations": [ "XRZ", "XRT", "XJSI", "XJBC" ],
 					"pathSuggestion": [ "XRZ", "XRT", "XJSI", "XJSP", "XJBC" ]
 				},
 				{
-					"stations": [ "XJBC", "XJNI", "XJDI", "XWS" ]
+					"stations": [ "XJBC", "XJNI", "XJDI", "XWS" ],
+					"pathSuggestion": [ "XJBC", "XJBR", "XJNI", "XJDI", "XWS" ]
 				},
 				{
 					"stations": [ "XJBC", "XJNS", "XJST", "XMK", "🇭🇺16311", "XMBK" ],
-					"pathSuggestion": [ "XJBC", "XJSP", "XJNS", "XJST", "XMK", "🇭🇺16311", "XMBK" ]
+					"pathSuggestion": [ "XJBC", "XJBR", "XJSP", "XJNS", "XJST", "XMK", "🇭🇺16311", "XMBK" ]
 				}
 			],
 			"neededCapacity": [
