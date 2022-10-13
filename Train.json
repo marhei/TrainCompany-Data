@@ -79,13 +79,14 @@
 			"length": 250,
 			"drive": 1,
 			"reliability": 1,
-			"cost": 4500000,
+			"cost": 5000000,
 			"maxConnectedUnits": 2,
-			"operationCosts": 75,
-			"equipments": ["1520mm", "RU"],
+			"operationCosts": 80,
+			"equipments": ["RU", "1520mm"],
 			"exchangeTime": 120,
 			"capacity": [
-				{"name": "passengers", "value": 604 }
+				{"name": "passengers", "value": 604},
+				{"name": "bistroseats", "value": 22 }
 			]
 		},
 		{
@@ -675,7 +676,7 @@
 			"group": 2,
 			"service": 2,
 			"name": "BR 426",
-			"speed": 160,
+			"speed": 140,
 			"weight": 63,
 			"force": 140,
 			"length": 36,
@@ -3042,26 +3043,6 @@
 			"exchangeTime": 120,
 			"capacity": [
 				{ "name": "passengers", "value": 416 }
-			]
-		},
-		{
-			"id": 20403,
-			"group": 2,
-			"name": "RŽD-Baureihe EWS1",
-			"speed": 250,
-			"weight": 662,
-			"force": 328,
-			"length": 250,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 5000000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 100,
-			"equipments": ["RU", "1520mm"],
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 604},
-				{"name": "bistroseats", "value": 22 }
 			]
 		},
 		{
