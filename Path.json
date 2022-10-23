@@ -16923,18 +16923,6 @@
 			"group": 0
 		},
 		{
-			"start": "XFJU",
-			"end": "XFMEL",
-			"neededEquipments": [
-				"FR"
-			],
-			"electrified": true,
-			"length": 37,
-			"maxSpeed": 120,
-			"twistingFactor": 0.45,
-			"group": 0
-		},
-		{
 			"electrified": true,
 			"neededEquipments": [
 				"FR",
@@ -35578,8 +35566,7 @@
 				{
 					"start": "🇫🇷IGN",
 					"end": "🇫🇷MP",
-					"length": 3,
-					"maxSpeed": 60
+					"length": 3
 				},
 				{
 					"start": "🇫🇷MP",
@@ -35609,14 +35596,14 @@
 			]
 		},
 		{
-			"name": "990000 : Ligne de la Grande Ceinture Parisienne de Valenton à Piereffite-Stains",
+			"name": "990000 : Ligne de la Grande Ceinture Parisienne de Valenton à Sartrouville",
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
 				"FR"
 			],
 			"twistingFactor": 0.4,
-			"maxSpeed": 100,
+			"maxSpeed": 90,
 			"objects": [
 				{
 					"start": "🇫🇷VON",
@@ -35632,6 +35619,16 @@
 					"start": "XFNO",
 					"end": "XFPRF",
 					"length": 11
+				},
+				{
+					"start": "XFPRF",
+					"end": "🇫🇷EYS",
+					"length": 5
+				},
+				{
+					"start": "🇫🇷EYS",
+					"end": "🇫🇷SVL",
+					"length": 12
 				}
 			]
 		},
@@ -35668,7 +35665,7 @@
 			]
 		},
 		{
-			"name": "985000 : RER C von Massy-Palaiseau nach Choisy le Roi",
+			"name": "985000 : RER C de Massy-Palaiseau à Choisy le Roi",
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -35681,7 +35678,7 @@
 					"start": "🇫🇷MP",
 					"end": "🇫🇷MVW",
 					"length": 2,
-					"maxSpeed": 60
+					"maxSpeed": 70
 				},
 				{
 					"start": "🇫🇷MVW",
@@ -35716,7 +35713,7 @@
 			]
 		},
 		{
-			"name": "Raccordement des Saules à Valenton",
+			"name": "990000 : Raccordement des Saules à Valenton",
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -37226,7 +37223,8 @@
 			"name": "LGV Est-Européenne",
 			"neededEquipments": [
 				"FR",
-				"TVM"
+				"TVM",
+				"ETCS"
 			],
 			"objects": [
 				{
