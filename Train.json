@@ -1622,6 +1622,71 @@
 			]
 		},
 		{
+			"id": 741000,
+			"group": 2,
+			"name": "Alstom Zefiro Express",
+			"shortcut": "SJ X100",
+			"speed": 250,
+			"weight": 344,
+			"force": 420,
+			"length": 160,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 2,
+			"equipments": [
+				"SE", "DK", "ETCS", "NO"
+			],
+			"operationCosts": 60,
+			"cost": 2400000,
+			"capacity": [
+				{"name": "passengers", "value": 363},
+				{"name": "bistroseats", "value": 8}
+			]
+		},
+		{
+			"id": 74500,
+			"group": 2,
+			"name": "Bombardier Regina Regionalversion",
+			"shortcut": "SJ X50",
+			"speed": 200,
+			"weight": 148,
+			"force": 300,
+			"length": 54,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 2,
+			"equipments": [
+				"SE"
+			],
+			"operationCosts": 45,
+			"cost": 600000,
+			"capacity": [
+				{"name": "passengers", "value": 166}
+			]
+		},
+		{
+			"id": 74550,
+			"group": 2,
+			"name": "Bombardier Regina Fernverkehrsversion",
+			"shortcut": "SJ X55",
+			"speed": 200,
+			"weight": 274,
+			"force": 350,
+			"length": 107,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 2,
+			"equipments": [
+				"SE", "ETCS"
+			],
+			"operationCosts": 55,
+			"cost": 750000,
+			"capacity": [
+				{"name": "passengers", "value": 363},
+				{"name": "bistroseats", "value": 8}
+			]
+		},		
+		{
 			"id": 7669,
 			"group": 2,
 			"name": "NSB Type 69",
@@ -5171,7 +5236,7 @@
 			"equipments": ["SE"]
 		},
 		{
-			"id": 7433,
+			"id": 74333,
 			"group": 0,
 			"name": "SJ/LKAB Dm3",
 			"speed": 75,
@@ -5185,7 +5250,7 @@
 			"equipments": ["SE"]
 		},
 		{
-			"id": 7422,
+			"id": 742222,
 			"group": 0,
 			"name": "LKAB IORE",
 			"speed": 80,
@@ -6962,7 +7027,7 @@
 			"equipments": ["DE", "750mm"]
 		},
 		{
-			"id": 8001,
+			"id": 80010,
 			"group": 0,
 			"name": "DB-Baureihe 01",
 			"speed": 130,
@@ -6976,7 +7041,7 @@
 			"equipments": ["DE"]
 		},
 		{
-			"id": 803810,
+			"id": 8038100,
 			"group": 0,
 			"name": "DB-Baureihe 38.10",
 			"speed": 100,
@@ -6990,7 +7055,7 @@
 			"equipments": ["DE", "PL", "FR", "BE", "RO", "IT", "AT", "DK", "NL", "CZ", "SK"]
 		},
 		{
-			"id": 8052,
+			"id": 80520,
 			"group": 0,
 			"name": "DB-Baureihe 52",
 			"speed": 80,
@@ -7004,7 +7069,7 @@
 			"equipments": ["DE", "PL", "FR", "BE", "RO", "IT", "AT", "DK", "NL", "CZ", "SK", "SE", "HU", "LU","HR", "BA", "RS", "TR", "BG"]
 		},
 		{
-			"id": 8064,
+			"id": 80640,
 			"group": 0,
 			"name": "DB-Baureihe 64",
 			"speed": 90,
@@ -7018,7 +7083,7 @@
 			"equipments": ["DE", "PL", "AT", "CZ", "SK"]
 		},
 		{
-			"id": 806510,
+			"id": 8065100,
 			"group": 0,
 			"name": "DR-Baureihe 65.10",
 			"speed": 90,
@@ -7032,7 +7097,7 @@
 			"equipments": ["DE"]
 		},
 		{
-			"id": 8075,
+			"id": 80750,
 			"group": 0,
 			"name": "DB-Baureihe 75",
 			"speed": 90,
@@ -7046,7 +7111,7 @@
 			"equipments": ["DE", "FR", "LU"]
 		},
 		{
-			"id": 87141,
+			"id": 871410,
 			"group": 0,
 			"name": "SNCF-Baureihe 141 R",
 			"speed": 100,
@@ -7060,7 +7125,7 @@
 			"equipments": ["FR", "CH"]
 		},
 		{
-			"id": 7011,
+			"id": 70110,
 			"group": 0,
 			"name": "LNER-Baureihe A1",
 			"speed": 160,
@@ -7074,7 +7139,7 @@
 			"equipments": ["UK"]
 		},
 		{
-			"id": 7013,
+			"id": 70130,
 			"group": 0,
 			"name": "LNER-Baureihe A3",
 			"speed": 174,
@@ -7088,7 +7153,7 @@
 			"equipments": ["UK"]
 		},
 		{
-			"id": 7014,
+			"id": 70140,
 			"group": 0,
 			"name": "LNER-Baureihe A4",
 			"speed": 201,
@@ -7102,7 +7167,7 @@
 			"equipments": ["UK"]
 		},
 		{
-			"id": 705,
+			"id": 7050,
 			"group": 0,
 			"name": "LMS-Baureihe 5",
 			"speed": 156,
@@ -7116,7 +7181,7 @@
 			"equipments": ["UK"]
 		},
 		{
-			"id": 70100,
+			"id": 701000,
 			"group": 0,
 			"name": "USATC-Baureihe S 100",
 			"speed": 60,
@@ -7130,7 +7195,7 @@
 			"equipments": ["UK", "FR", "AT", "IT", "GR", "HR", "BA", "RS"]
 		},
 		{
-			"id": 70160,
+			"id": 701600,
 			"group": 0,
 			"name": "USATC-Baureihe S 160",
 			"speed": 75,
