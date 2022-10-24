@@ -1622,6 +1622,71 @@
 			]
 		},
 		{
+			"id": 741000,
+			"group": 2,
+			"name": "Alstom Zefiro Express",
+			"shortcut": "SJ X100",
+			"speed": 250,
+			"weight": 344,
+			"force": 420,
+			"length": 160,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 2,
+			"equipments": [
+				"SE", "DK", "ETCS", "NO"
+			],
+			"operationCosts": 60,
+			"cost": 2400000,
+			"capacity": [
+				{"name": "passengers", "value": 363},
+				{"name": "bistroseats", "value": 8}
+			]
+		},
+		{
+			"id": 74500,
+			"group": 2,
+			"name": "Bombardier Regina Regionalversion",
+			"shortcut": "SJ X50",
+			"speed": 200,
+			"weight": 148,
+			"force": 300,
+			"length": 54,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 2,
+			"equipments": [
+				"SE"
+			],
+			"operationCosts": 45,
+			"cost": 600000,
+			"capacity": [
+				{"name": "passengers", "value": 166}
+			]
+		},
+		{
+			"id": 74550,
+			"group": 2,
+			"name": "Bombardier Regina Fernverkehrsversion",
+			"shortcut": "SJ X55",
+			"speed": 200,
+			"weight": 274,
+			"force": 350,
+			"length": 107,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 2,
+			"equipments": [
+				"SE", "ETCS"
+			],
+			"operationCosts": 55,
+			"cost": 750000,
+			"capacity": [
+				{"name": "passengers", "value": 363},
+				{"name": "bistroseats", "value": 8}
+			]
+		},		
+		{
 			"id": 7669,
 			"group": 2,
 			"name": "NSB Type 69",
@@ -5171,6 +5236,34 @@
 			"equipments": ["SE"]
 		},
 		{
+			"id": 74333,
+			"group": 0,
+			"name": "SJ/LKAB Dm3",
+			"speed": 75,
+			"weight": 273,
+			"force": 940,
+			"length": 35,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 500000,
+			"operationCosts": 200,
+			"equipments": ["SE"]
+		},
+		{
+			"id": 742222,
+			"group": 0,
+			"name": "LKAB IORE",
+			"speed": 80,
+			"weight": 360,
+			"force": 1400,
+			"length": 46,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 750000,
+			"operationCosts": 160,
+			"equipments": ["SE"]
+		},		
+		{
 			"id": 8813,
 			"group": 0,
 			"name": "NMBS/SNCB 13/ CFL 3000",
@@ -6932,7 +7025,189 @@
 			"cost": 140000,
 			"operationCosts": 220,
 			"equipments": ["DE", "750mm"]
+		},	
+		{
+			"id": 80010,
+			"group": 0,
+			"name": "DB-Baureihe 01",
+			"speed": 130,
+			"weight": 111,
+			"force": 150,
+			"length": 24,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 600000,
+			"operationCosts": 700,
+			"equipments": ["DE"]
 		},
+		{
+			"id": 8038100,
+			"group": 0,
+			"name": "DB-Baureihe 38.10",
+			"speed": 100,
+			"weight": 78,
+			"force": 113,
+			"length": 16,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 450000,
+			"operationCosts": 500,
+			"equipments": ["DE", "PL", "FR", "BE", "RO", "IT", "AT", "DK", "NL", "CZ", "SK"]
+		},
+		{
+			"id": 80520,
+			"group": 0,
+			"name": "DB-Baureihe 52",
+			"speed": 80,
+			"weight": 143,
+			"force": 214,
+			"length": 23,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 400000,
+			"operationCosts": 600,
+			"equipments": ["DE", "PL", "FR", "BE", "RO", "IT", "AT", "DK", "NL", "CZ", "SK", "SE", "HU", "LU","HR", "BA", "RS", "TR", "BG"]
+		},
+		{
+			"id": 80640,
+			"group": 0,
+			"name": "DB-Baureihe 64",
+			"speed": 90,
+			"weight": 75,
+			"force": 121,
+			"length": 12,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 350000,
+			"operationCosts": 450,
+			"equipments": ["DE", "PL", "AT", "CZ", "SK"]
+		},
+		{
+			"id": 8065100,
+			"group": 0,
+			"name": "DR-Baureihe 65.10",
+			"speed": 90,
+			"weight": 122,
+			"force": 187,
+			"length": 17,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 440000,
+			"operationCosts": 500,
+			"equipments": ["DE"]
+		},
+		{
+			"id": 807500,
+			"group": 0,
+			"name": "DB-Baureihe 75",
+			"speed": 90,
+			"weight": 80,
+			"force": 110,
+			"length": 13,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 350000,
+			"operationCosts": 550,
+			"equipments": ["DE", "FR", "LU"]
+		},
+		{
+			"id": 871410,
+			"group": 0,
+			"name": "SNCF-Baureihe 141 R",
+			"speed": 100,
+			"weight": 116,
+			"force": 110,
+			"length": 24,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 700000,
+			"operationCosts": 800,
+			"equipments": ["FR", "CH"]
+		},
+		{
+			"id": 70110,
+			"group": 0,
+			"name": "LNER-Baureihe A1",
+			"speed": 160,
+			"weight": 107,
+			"force": 150,
+			"length": 22,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 700000,
+			"operationCosts": 750,
+			"equipments": ["GB"]
+		},
+		{
+			"id": 70130,
+			"group": 0,
+			"name": "LNER-Baureihe A3",
+			"speed": 174,
+			"weight": 98,
+			"force": 150,
+			"length": 22,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 600000,
+			"operationCosts": 850,
+			"equipments": ["GB"]
+		},
+		{
+			"id": 70140,
+			"group": 0,
+			"name": "LNER-Baureihe A4",
+			"speed": 201,
+			"weight": 106,
+			"force": 190,
+			"length": 22,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 900000,
+			"operationCosts": 900,
+			"equipments": ["GB"]
+		},
+		{
+			"id": 7050,
+			"group": 0,
+			"name": "LMS-Baureihe 5",
+			"speed": 156,
+			"weight": 129,
+			"force": 113,
+			"length": 19,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 600000,
+			"operationCosts": 750,
+			"equipments": ["GB"]
+		},	
+		{
+			"id": 701000,
+			"group": 0,
+			"name": "USATC-Baureihe S 100",
+			"speed": 60,
+			"weight": 46,
+			"force": 80,
+			"length": 9,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 250000,
+			"operationCosts": 500,
+			"equipments": ["GB", "FR", "AT", "IT", "GR", "HR", "BA", "RS"]
+		},
+		{
+			"id": 701600,
+			"group": 0,
+			"name": "USATC-Baureihe S 160",
+			"speed": 75,
+			"weight": 129,
+			"force": 125,
+			"length": 18,
+			"drive": 7,
+			"reliability": 0.8,
+			"cost": 550000,
+			"operationCosts": 800,
+			"equipments": ["GB", "AT", "CZ", "SK", "HU", "PL", "GR", "TR", "HR", "BA", "RS"]
+		},		
 		{
 			"id": 201,
 			"service": 2,
@@ -7740,7 +8015,7 @@
 			"cost": 260000,
 			"exchangeTime": 180,
 			"capacity": [
-				{"name": "passengers", "value": 20}
+				{"name": "bistroseats", "value": 20}
 			]
 		},
 		{
@@ -7963,6 +8238,57 @@
 				{"name": "beds", "value": 18}
 			]
 		},
+		{
+			"id": 7061,
+			"group": 1,
+			"name": "British Rail Mark 1 Sitzwagen",
+			"shortcut": "Mk 1 SK",
+			"speed": 160,
+			"weight": 41,
+			"force": 0,
+			"length": 19,
+			"drive": 0,
+			"reliability": 0.8,
+			"cost": 150000,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 64}
+			]
+		},
+		{
+			"id": 7062,
+			"group": 1,
+			"name": "British Rail Mark 1 Speisewagen",
+			"shortcut": "Mk 4 EMB",
+			"speed": 225,
+			"weight": 42,
+			"force": 0,
+			"length": 19,
+			"drive": 0,
+			"reliability": 0.8,
+			"cost": 200000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "bistroseats", "value": 44}
+			]
+		},
+		{
+			"id": 7063,
+			"group": 1,
+			"name": "British Rail Mark 1 Schlafwagen",
+			"shortcut": "Mk 4 SLC",
+			"speed": 225,
+			"weight": 42,
+			"force": 0,
+			"length": 19,
+			"drive": 0,
+			"reliability": 0.8,
+			"cost": 180000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "beds", "value": 17}
+			]
+		},		
 		{
 			"id": 1776011,
 			"group": 1,
