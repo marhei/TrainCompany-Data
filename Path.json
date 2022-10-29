@@ -27219,11 +27219,20 @@
 				},
 				{
 					"start": "XFSP",
+					"end": "🇫🇷GRNY",
+					"name": "Ligne Lyon - Grenoble",
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷GRNY",
 					"end": "🇫🇷SQF",
 					"name": "Ligne Lyon - Grenoble",
-					"group": 2,
-					"length": 14,
-					"maxSpeed": 300,
+					"group": 0,
+					"length": 2,
+					"maxSpeed": 160,
 					"twistingFactor": 0.14
 				},
 				{
@@ -47514,18 +47523,6 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [
-				"FR"
-			],
-			"maxSpeed": 160,
-			"twistingFactor": 0.16,
-			"start": "XFLPD",
-			"end": "🇫🇷GRNY",
-			"length": 25
-		},
-		{
-			"electrified": true,
-			"group": 0,
 			"maxSpeed": 230,
 			"twistingFactor": 0.1,
 			"objects": [
@@ -58655,6 +58652,65 @@
 					"length": 4,
 					"maxSpeed": 110,
 					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 140,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFG",
+					"end": "🇫🇷EHR",
+					"name": "Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)",
+					"length": 4,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷EHR",
+					"end": "🇫🇷GRS",
+					"name": "Ligne Grenoble - Montmélian",
+					"length": 6,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷GRS",
+					"end": "🇫🇷LCW",
+					"name": "Ligne Grenoble - Montmélian",
+					"length": 9,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇫🇷LCW",
+					"end": "🇫🇷BNU",
+					"name": "Ligne Grenoble - Montmélian",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷BNU",
+					"end": "🇫🇷GOC",
+					"name": "Ligne Grenoble - Montmélian",
+					"length": 10,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷GOC",
+					"end": "🇫🇷O2317665274",
+					"name": "Ligne Grenoble - Montmélian",
+					"length": 10,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇫🇷O2317665274",
+					"end": "XFMOM",
+					"name": "Ligne Grenoble - Montmélian",
+					"length": 8,
+					"twistingFactor": 0.12
 				}
 			]
 		},
