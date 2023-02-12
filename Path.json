@@ -29006,6 +29006,64 @@
 		{
 			"group": 1,
 			"electrified": false,
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "ANB",
+					"end": "AUP",
+					"length": 5
+				},
+				{
+					"start": "AUP",
+					"end": "ANBS",
+					"length": 4
+				},
+				{
+					"start": "ANBS",
+					"end": "XDTO",
+					"length": 7
+				},
+				{
+					"start": "XDTO",
+					"end": "🇩🇰Trn",
+					"length": 1
+				},
+				{
+					"start": "🇩🇰Trn",
+					"end": "🇩🇰Vis",
+					"length": 8
+				},
+				{
+					"start": "🇩🇰Vis",
+					"end": "🇩🇰Bw",
+					"length": 6
+				},
+				{
+					"start": "🇩🇰Bw",
+					"end": "🇩🇰Æk",
+					"length": 13
+				},
+				{
+					"start": "🇩🇰Æk",
+					"end": "🇩🇰Rb",
+					"length": 20
+				},
+				{
+					"start": "🇩🇰Rb",
+					"end": "🇩🇰Gs",
+					"length": 8
+				},
+				{
+					"start": "🇩🇰Gs",
+					"end": "🇩🇰Bm",
+					"length": 8
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": false,
 			"maxSpeed": 80,
 			"twistingFactor": 0.4,
 			"objects": [
