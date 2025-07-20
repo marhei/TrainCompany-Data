@@ -68,6 +68,28 @@
 			]
 		},
 		{
+			"id": 408,
+			"service": 0,
+			"group": 2,
+			"name": "ICE3neo",
+			"shortcut": "BR 408",
+			"speed": 320,
+			"weight": 493,
+			"force": 300,
+			"length": 201,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 5500000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 75,
+			"equipments": ["ETCS", "FR", "KRM", "NL", "BE", "DE", "PL"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 439},
+				{"name": "bistroseats", "value": 16 }
+			]
+		},
+		{
 			"id": 7403,
 			"service": 0,
 			"group": 2,
@@ -618,7 +640,7 @@
 			"service": 3,
 			"name": "BR 423",
 			"speed": 140,
-			"weight": 119,
+			"weight": 129,
 			"force": 145,
 			"length": 67,
 			"drive": 1,
@@ -665,7 +687,7 @@
 			"reliability": 0.95,
 			"cost": 500000,
 			"operationCosts": 50,
-			"maxConnectedUnits": 3,
+			"maxConnectedUnits": 4,
 			"compatibleWith": [80426],
 			"capacity": [
 				{"name": "passengers", "value": 206}
@@ -914,6 +936,26 @@
 			"equipments": ["NL"],
 			"capacity": [
 				{"name": "passengers", "value": 150}
+			]
+		},
+		{
+			"id": 2427,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler FLIRT 3",
+			"shortcut": "BR 1427",
+			"speed": 160,
+			"weight": 100,
+			"force": 100,
+			"length": 63,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 450000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 3,
+			"equipments": ["NL", "DE", "BE", "ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 158}
 			]
 		},
 		{
@@ -3325,7 +3367,7 @@
 			"group": 2,
 			"name": "Siemens Mireo Plus H",
 			"shortcut": "BR 563",
-			"speed": 160,
+			"speed": 140,
 			"weight": 101,
 			"force": 112,
 			"length": 63,
@@ -3337,7 +3379,27 @@
 			"exchangeTime": 60,
 			"maxConnectedUnits": 2,
 			"capacity": [
-				{"name": "passengers", "value": 160}
+				{"name": "passengers", "value": 130}
+			]
+		},
+		{
+			"id": 5631,
+			"group": 2,
+			"name": "Siemens Mireo Plus B",
+			"shortcut": "BR 563",
+			"speed": 140,
+			"weight": 101,
+			"force": 112,
+			"length": 63,
+			"drive": 3,
+			"reliability": 0.85,
+			"cost": 850000,
+			"operationCosts": 50,
+			"range": 120,
+			"exchangeTime": 60,
+			"maxConnectedUnits": 2,
+			"capacity": [
+				{"name": "passengers", "value": 125}
 			]
 		},
 		{
@@ -4782,13 +4844,13 @@
 			"shortcut": "BR 147.5",
 			"speed": 160,
 			"weight": 84,
-			"force": 230,
+			"force": 300,
 			"length": 19,
 			"drive": 1,
 			"reliability": 0.9,
 			"cost": 280000,
 			"operationCosts": 75,
-			"equipments": ["ETCS", "DE"]
+			"equipments": ["ETCS", "DE", "CH"]
 		},
 		{
 			"id": 30,

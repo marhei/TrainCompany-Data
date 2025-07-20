@@ -2212,6 +2212,26 @@
 			]
 		},
 		{
+			"group": 1,
+			"name": "S8 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre als S8 von %s nach %s und halte dabei an allen Unterwegsbahnhöfen."
+			],
+			"objects": [
+				{
+					"stations": [ "MFHT", "MFHB", "MH", "MWKR", "MUG", "MHI" ]
+				},
+				{
+					"stations": [ "MFHT", "MFHB", "MH", "MWKR", "MUG", "MWS" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
 			"group": 0,
 			"name": "S2-Zusatzzug von %s nach %s",
 			"service": 3,
@@ -2233,7 +2253,7 @@
 		},
 		{
 			"group": 1,
-			"name": "RB von %s nach %s",
+			"name": "Südostbayernbahn von %s nach %s",
 			"service": 3,
 			"descriptions": [
 				"Fahre eine Regionalbahn von %s nach %s"
@@ -2244,6 +2264,49 @@
 				},
 				{
 					"stations": [ "MTS", "MRPD" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Südostbayernbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre eine Regionalbahn von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "MLA", "MNR", "MMF" ]
+				},
+				{
+					"stations": [ "MLA", "MNR" ]
+				},
+				{
+					"stations": [ "MMF", "MNR" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Südostbayernbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre eine Regionalbahn von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "NPA", "MNR", "MMF" ]
+				},
+				{
+					"stations": [ "NPA", "MNR" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -2266,6 +2329,10 @@
 				{
 					"stations": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASK", "XASB", "MH" ],
 					"pathSuggestion": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASF", "XASK", "XASB", "MFL", "MTS", "MRO", "MGB", "MH" ]
+				},
+				{
+					"stations": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASK", "XASB", "MH", "MA", "MGZB", "TU", "TS" ],
+					"pathSuggestion": [ "XAWW", "XAP", "XAAS", "XAL", "XAWE", "XAAT", "XAVB", "XASR", "XASF", "XASK", "XASB", "MFL", "MTS", "MRO", "MGB", "MH", "MMR", "MA", "MGZB", "TU", "TP", "TS" ]
 				}
 			],
 			"stopsEverywhere": false,
@@ -8083,7 +8150,17 @@
 				"Du wirst gebeten eine Leistung von %s nach %s zu fahren.",
 				"Nākamā pietura %2$s! Fahre einen Zug zwischen %s und %s."
 			],
-			"stations": [ "🇱🇻JEL", "🇱🇻RIX" ],
+			"objects": [
+				{
+					"stations": [ "🇱🇻JEL", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "🇱🇻JEL", "🇱🇻O7799314251" ]
+				},
+				{
+					"stations": [ "🇱🇻O7799314251", "🇱🇻JEL", "🇱🇻RIX" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -8228,10 +8305,23 @@
 			"service": 2,
 			"descriptions": [
 				"Fahre diesen Regionalzug von %s nach %s.",
-				"Verbinde Polen mit Litauen.",
-				"Stelle sicher, dass die Kulturhauptstadt Europas an das europäische Bahnnetz angebunden ist."
+				"Verbinde Polen mit der Grenze zu Litauen."
 			],
-			"stations": [ "🇱🇹KUN", "🇱🇹KZR", "🇱🇹SES", "🇵🇱ELK", "🇵🇱BLK" ],
+			"stations": [ "🇵🇱TRA", "🇵🇱ELK", "🇵🇱BLK" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s.",
+				"Verbinde Kaunas mit der Grenze zu Polen."
+			],
+			"stations": [ "🇵🇱TRA", "🇱🇹SES", "🇱🇹KZR", "🇱🇹KUN" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
