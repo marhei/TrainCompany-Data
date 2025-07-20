@@ -28955,6 +28955,58 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"1520mm"
+			],
+			"objects": [
+				{
+					"start": "🇱🇹SQQ",
+					"end": "🇱🇹O12484881965",
+					"length": 21,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3,
+					"neededEquipments": [
+						"LT"
+					]
+				},
+				{
+					"start": "🇱🇹O12484881965",
+					"end": "🇱🇹O5809998656",
+					"length": 21,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14,
+					"neededEquipments": [
+						"LT"
+					]
+				},
+				{
+					"start": "🇱🇹O5809998656",
+					"end": "ZTM",
+					"name": "Jelgava - Meitene - Valsts robeža",
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"LV",
+						"LT"
+					]
+				},
+				{
+					"start": "ZTM",
+					"end": "🇱🇻JEL",
+					"name": "Jelgava - Meitene - Valsts robeža",
+					"length": 27,
+					"maxSpeed": 120,
+					"twistingFactor": 0.16,
+					"neededEquipments": [
+						"LV"
+					]
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 100,
