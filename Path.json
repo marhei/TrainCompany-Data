@@ -44474,6 +44474,46 @@
 			]
 		},
 		{
+			"name": "Glūda - Reņģe - Mažeikiai",
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"1520mm"
+			],
+			"objects": [
+				{
+					"start": "🇱🇻O59834456",
+					"end": "🇱🇻O9087748468",
+					"maxSpeed": 100,
+					"length": 30,
+					"twistingFactor": 0.1,
+					"neededEquipments": [
+						"LV"
+					]
+				},
+				{
+					"start": "🇱🇻O9087748468",
+					"end": "🇱🇻🇱🇹",
+					"length": 30,
+					"maxSpeed": 100,
+					"twistingFactor": 0.12,
+					"neededEquipments": [
+						"LV"
+					]
+				},
+				{
+					"start": "🇱🇻🇱🇹",
+					"end": "🇱🇹O1127720728",
+					"maxSpeed": 80,
+					"length": 19,
+					"twistingFactor": 0.12,
+					"neededEquipments": [
+						"LT"
+					]
+				}
+			]
+		},
+		{
 			"name": "Hanzelijn",
 			"maxSpeed": 140,
 			"twistingFactor": 0.2,
