@@ -9113,6 +9113,29 @@
 				{ "name": "oil" }
 			],
 			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Castorzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Castorzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇷🇺O473887668", "XCNS", "🇱🇻RIX", "🇱🇻RIHA" ],
+					"pathSuggestion": [ "🇷🇺O473887668", "🇷🇺O907297496", "XCNS", "🇱🇻KRS", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+				},
+				{
+					"stations": [ "XCDN", "XCNS", "🇱🇻RIX", "🇱🇻RIHA" ],
+					"pathSuggestion": [ "XCDN", "🇷🇺O907297496", "XCNS", "🇱🇻KRS", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "castor" }
+			],
+			"stopsEverywhere": false
 		}
 	]
 }
