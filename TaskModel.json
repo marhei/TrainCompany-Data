@@ -1619,7 +1619,7 @@
 				"Fahre den grenzüberschreitenden Latvijas Ekpresis zwischen %s und %s"
 			],
 			"stations": [ "🇱🇻RIX", "🇱🇻KRS", "🇱🇻DGP", "🇷🇺O907297496", "🇷🇺O6524674898", "🇷🇺O1994609598", "🇷🇺O473887668" ],
-			"pathSuggestion": [ "🇱🇻RIX", "🇱🇻KRS", "🇱🇻DGP", "🇷🇺O907297496", "🇷🇺O6524674898", "🇷🇺O1994609598", "🇷🇺O2000431023", "🇷🇺O473887668" ],
+			"pathSuggestion": [ "🇱🇻RIX", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻DGP", "🇷🇺O907297496", "🇷🇺O6524674898", "🇷🇺O1994609598", "🇷🇺O2000431023", "🇷🇺O473887668" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" },
@@ -8182,7 +8182,34 @@
 					"stations": [ "🇱🇻AIZ", "🇱🇻RIX" ]
 				},
 				{
-					"stations": [ "🇱🇻DGP", "🇱🇻KRS", "🇱🇻RIX" ]
+					"stations": [ "🇱🇻DGP", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre durch die schöne Landschaft und verbinde %s mit %s.",
+				"Auf auf! Es ist Touristen-Saison und die Leute wollen durch das Land. Dazu beginnt der Zug in %s und endet in %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇻PLVSG", "🇱🇻O180285876" ]
+				},
+				{
+					"stations": [ "🇱🇻O7800848460", "🇱🇻KRS" ]
+				},
+				{
+					"stations": [ "🇱🇻O7800848460", "🇱🇻KRS", "🇱🇻JEL" ]
+				},
+				{
+					"stations": [ "🇱🇻O7800848460", "🇱🇻KRS", "🇱🇻JEL", "🇱🇻O7799314251" ]
 				}
 			],
 			"neededCapacity": [
@@ -9033,7 +9060,7 @@
 			],
 			"objects": [
 				{
-					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻RIX" ]
+					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX" ]
 				},
 				{
 					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻JEL", "🇱🇻RIX" ]
@@ -9055,7 +9082,7 @@
 			"objects": [
 				{
 					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻RIX", "🇱🇻RIHA" ],
-					"pathSuggestion": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+					"pathSuggestion": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
 				},
 				{
 					"stations": [ "🇱🇻VLM", "🇱🇻RIHA" ],
@@ -9090,7 +9117,7 @@
 			"objects": [
 				{
 					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻RIX", "🇱🇻RIHA" ],
-					"pathSuggestion": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+					"pathSuggestion": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
 				},
 				{
 					"stations": [ "🇱🇻VLM", "🇱🇻RIHA" ],
@@ -9125,11 +9152,11 @@
 			"objects": [
 				{
 					"stations": [ "🇷🇺O473887668", "XCNS", "🇱🇻RIX", "🇱🇻RIHA" ],
-					"pathSuggestion": [ "🇷🇺O473887668", "🇷🇺O907297496", "XCNS", "🇱🇻KRS", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+					"pathSuggestion": [ "🇷🇺O473887668", "🇷🇺O907297496", "XCNS", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
 				},
 				{
 					"stations": [ "XCDN", "XCNS", "🇱🇻RIX", "🇱🇻RIHA" ],
-					"pathSuggestion": [ "XCDN", "🇷🇺O907297496", "XCNS", "🇱🇻KRS", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+					"pathSuggestion": [ "XCDN", "🇷🇺O907297496", "XCNS", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
 				}
 			],
 			"neededCapacity": [
