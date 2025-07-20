@@ -5316,8 +5316,13 @@
 				},
 				{
 					"start": "FL",
+					"end": "FEN",
+					"length": 3
+				},
+				{
+					"start": "FEN",
 					"end": "FKB",
-					"length": 5
+					"length": 3
 				},
 				{
 					"start": "FKB",
@@ -55289,6 +55294,50 @@
 			]
 		},
 		{
+			"name":  "Ländchenbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 90,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FW",
+					"start_long": "Wiesbaden Hbf",
+					"end": "FWE",
+					"end_long": "Wiesbaden-Erbenheim",
+					"length": 5,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "FWE",
+					"start_long": "Wiesbaden-Erbenheim",
+					"end": "FWIG",
+					"end_long": "Wiesbaden-Igstadt",
+					"length": 4,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "FWIG",
+					"start_long": "Wiesbaden-Igstadt",
+					"end": "FAM",
+					"end_long": "Auringen-Medenbach",
+					"length": 4,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "FAM",
+					"start_long": "Auringen-Medenbach",
+					"end": "FNSD",
+					"end_long": "Niedernhausen (Taunus)",
+					"length": 6,
+					"twistingFactor": 0.24
+				}
+			]
+		},
+		{
 			"name": "Far North Line",
 			"electrified": false,
 			"neededEquipments": [
@@ -59379,6 +59428,41 @@
 					"length": 97,
 					"maxSpeed": 127,
 					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": -1,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FW",
+					"end": "FWE",
+					"length": 5,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "FWE",
+					"end": "FWIG",
+					"length": 4,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "FWIG",
+					"end": "FAM",
+					"length": 4,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "FAM",
+					"end": "FNSD",
+					"length": 6,
+					"twistingFactor": 0.24
 				}
 			]
 		},
