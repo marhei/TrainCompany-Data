@@ -939,6 +939,26 @@
 			]
 		},
 		{
+			"id": 2427,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler FLIRT 3",
+			"shortcut": "BR 1427",
+			"speed": 160,
+			"weight": 100,
+			"force": 100,
+			"length": 63,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 450000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 3,
+			"equipments": ["NL", "DE", "BE", "ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 158}
+			]
+		},
+		{
 			"id": 3427,
 			"group": 2,
 			"service": 2,
@@ -3347,7 +3367,7 @@
 			"group": 2,
 			"name": "Siemens Mireo Plus H",
 			"shortcut": "BR 563",
-			"speed": 160,
+			"speed": 140,
 			"weight": 101,
 			"force": 112,
 			"length": 63,
@@ -3359,7 +3379,27 @@
 			"exchangeTime": 60,
 			"maxConnectedUnits": 2,
 			"capacity": [
-				{"name": "passengers", "value": 160}
+				{"name": "passengers", "value": 130}
+			]
+		},
+		{
+			"id": 5631,
+			"group": 2,
+			"name": "Siemens Mireo Plus B",
+			"shortcut": "BR 563",
+			"speed": 140,
+			"weight": 101,
+			"force": 112,
+			"length": 63,
+			"drive": 3,
+			"reliability": 0.85,
+			"cost": 850000,
+			"operationCosts": 50,
+			"range": 120,
+			"exchangeTime": 60,
+			"maxConnectedUnits": 2,
+			"capacity": [
+				{"name": "passengers", "value": 125}
 			]
 		},
 		{

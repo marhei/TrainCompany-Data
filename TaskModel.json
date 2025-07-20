@@ -2220,16 +2220,10 @@
 			],
 			"objects": [
 				{
-					"stations": [ "MFHT", "MFHB", "MH", "MUG", "MHI" ]
+					"stations": [ "MFHT", "MFHB", "MH", "MWKR", "MUG", "MHI" ]
 				},
 				{
-					"stations": [ "MFHT", "MFHB", "MH", "MUG", "MWS" ]
-				},
-				{
-					"stations": [ "MFHT", "MFHB", "MH", "MUG" ]
-				},
-				{
-					"stations": [ "MFHT", "MFHB", "MH" ]
+					"stations": [ "MFHT", "MFHB", "MH", "MWKR", "MUG", "MWS" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -8311,10 +8305,23 @@
 			"service": 2,
 			"descriptions": [
 				"Fahre diesen Regionalzug von %s nach %s.",
-				"Verbinde Polen mit Litauen.",
-				"Stelle sicher, dass die Kulturhauptstadt Europas an das europäische Bahnnetz angebunden ist."
+				"Verbinde Polen mit der Grenze zu Litauen."
 			],
-			"stations": [ "🇱🇹KUN", "🇱🇹KZR", "🇱🇹SES", "🇵🇱ELK", "🇵🇱BLK" ],
+			"stations": [ "🇵🇱TRA", "🇵🇱ELK", "🇵🇱BLK" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalzug von %s nach %s.",
+				"Verbinde Kaunas mit der Grenze zu Polen."
+			],
+			"stations": [ "🇵🇱TRA", "🇱🇹SES", "🇱🇹KZR", "🇱🇹KUN" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
