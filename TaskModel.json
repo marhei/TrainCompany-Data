@@ -3930,6 +3930,18 @@
 			]
 		},
 		{
+			"group": 0,
+			"name": "RRX Zusatzzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Für ein Event in der Region hat der VRR einen Rhein-Ruhr-Express Verstärkerzug von %s nach %s bestellt."
+			],
+			"stations": [ "KK","KLMI", "KD", "KDFF", "EDG", "EE" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
 			"group": 1,
 			"name": "RB von %s nach %s",
 			"service": 3,
