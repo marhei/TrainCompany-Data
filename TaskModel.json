@@ -8987,6 +8987,132 @@
 				{ "name": "passengers" }
 			],
 			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalbahn von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diese grenübergreifende Regionalbahn von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "🇱🇹O1127720728", "🇱🇻O59834456", "🇱🇻JEL" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionalbahn von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diese Regionalbahn von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇱🇹O1127720728", "🇱🇹SQQ", "🇱🇹RAD", "🇱🇹PLM", "🇱🇹KUN" ]
+				},
+				{
+					"stations": [ "🇱🇹O1127720728", "🇱🇹SQQ", "🇱🇹RAD", "🇱🇹PNV" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "InterCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen InterCity von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻RIX" ]
+				},
+				{
+					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻JEL", "🇱🇻RIX" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 0,
+			"name": "Autozug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Fahre diesen Autozug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻RIX", "🇱🇻RIHA" ],
+					"pathSuggestion": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+				},
+				{
+					"stations": [ "🇱🇻VLM", "🇱🇻RIHA" ],
+					"pathSuggestion": [ "🇱🇻VLM", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+				},
+				{
+					"stations": [ "🇱🇻JEL", "🇱🇻RIHA" ],
+					"pathSuggestion": [ "🇱🇻JEL", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+				},
+				{
+					"stations": [ "🇱🇻VLM", "🇱🇻RIHA" ],
+					"pathSuggestion": [ "🇱🇻VLM", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+				},
+				{
+					"stations": [ "🇱🇻O252636397", "🇱🇻RIHA" ],
+					"pathSuggestion": [ "🇱🇻O252636397", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "cars" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Ölzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Ölzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻RIX", "🇱🇻RIHA" ],
+					"pathSuggestion": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+				},
+				{
+					"stations": [ "🇱🇻VLM", "🇱🇻RIHA" ],
+					"pathSuggestion": [ "🇱🇻VLM", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+				},
+				{
+					"stations": [ "🇱🇻JEL", "🇱🇻RIHA" ],
+					"pathSuggestion": [ "🇱🇻JEL", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+				},
+				{
+					"stations": [ "🇱🇻VLM", "🇱🇻RIHA" ],
+					"pathSuggestion": [ "🇱🇻VLM", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+				},
+				{
+					"stations": [ "🇱🇻O252636397", "🇱🇻RIHA" ],
+					"pathSuggestion": [ "🇱🇻O252636397", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "oil" }
+			],
+			"stopsEverywhere": false
 		}
 	]
 }
