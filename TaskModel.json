@@ -2776,6 +2776,37 @@
 		},
 		{
 			"group": 1,
+			"name": "RB 22 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe die RB von %s nach %s.",
+				"Die RB muss von %s nach %s gebracht werden.",
+				"Bringe die Regionalbahn pünktlich von %s nach %s."
+			],
+
+			"stations": [ "FL", "FEN", "FLHN", "FNCH", "FOB", "FNS", "FCA", "FWOD", "FIST", "FNSD", "FHF", "FHOE", "FF" ],
+			"pathSuggestion": [ "FL", "FEN", "FLHN", "FNCH", "FOB", "FNS", "FCA", "FWOD", "FIST", "FNSD", "FNJ", "FEPB", "FEP", "FLB", "FHF", "FKRI", "FFZH", "FFAW", "FHOE", "FF" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE 20 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe den RE von %s nach %s.",
+				"Der RE muss von %s nach %s gebracht werden.",
+				"Bringe den Regional-Express pünktlich von %s nach %s."
+			],
+			"stations": [ "FL", "FEN", "FNCH", "FCA", "FIST", "FNSD", "FHF", "FHOE", "FF" ],
+			"pathSuggestion": [ "FL", "FEN", "FLHN", "FNCH", "FOB", "FNS", "FCA", "FWOD", "FIST", "FNSD", "FNJ", "FEPB", "FEP", "FLB", "FHF", "FKRI", "FFZH", "FFAW", "FHOE", "FF" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RE 5 von %s nach %s",
 			"service": 2,
 			"descriptions": [
