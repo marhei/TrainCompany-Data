@@ -2769,6 +2769,19 @@
 		},
 		{
 			"group": 1,
+			"name": "RB 65 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Diese Regionalbahn führt von %s nach %s durchs Alsenztal.",
+			],
+			"stations": [ "FBGN", "SLN", "SBKN", "SKL" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Regional-Express von %s nach %s",
 			"service": 2,
 			"descriptions": [
