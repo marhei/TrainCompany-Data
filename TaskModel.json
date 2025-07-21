@@ -4274,9 +4274,21 @@
 			"name": "RB von %s nach %s",
 			"service": 2,
 			"descriptions": [
-				"Bringe die RB64 von %s nach %s in die Südwestpfalz."
+				"Bringe die Regionalbahn von %s nach %s in die Südwestpfalz."
 			],
-			"stations": [ "SKL", "SSCP", "SSTA", "SWAB", "SPSN", "SPS" ],
+			"objects": [
+				{
+					"stations": [ "SSH", "SPSN", "SPS" ]
+				},
+				{
+					"stations": [ "SKL", "SPSN", "SPS" ]
+				},
+				{
+					"stations": [ "RLA", "SPSN", "SPS"]
+				}
+				
+			],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
