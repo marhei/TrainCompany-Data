@@ -2754,6 +2754,21 @@
 		},
 		{
 			"group": 1,
+			"name": "Süwex RE2 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe den RE2 von durchs Mittelrheintal %s nach %s. Der Zug ist zeitweise stark ausgelastet.",
+				"Der RE2 muss von %s nach %s gebracht werden. Die Strecke ist stark ausgelastet.",
+				"Bringe den Regional-Express der Linie 3 pünktlich durchs Mittelrheintal."
+			],
+			"stations":       [ "FF", "FFLF", "FRUE", "FMZ", "FIL", "FBGN", "FBCH", "FOBW", "KBOP", "KKO" ],
+			"pathSuggestion": [ "FF", "FFLF", "FRUE", "FMB", "FMZ", "FIL", "FBGN", "FBCH", "FOBW", "KBOP", "KKO" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Regional-Express von %s nach %s",
 			"service": 2,
 			"descriptions": [
