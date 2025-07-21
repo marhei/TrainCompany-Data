@@ -29456,6 +29456,59 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"LT",
+				"1520mm"
+			],
+			"objects": [
+				{
+					"start": "🇱🇹O2639896815",
+					"end": "🇱🇹O7526817630",
+					"name": "Tauragės geležinkelio tiltas",
+					"length": 30,
+					"maxSpeed": 120,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇱🇹O7526817630",
+					"end": "🇱🇹BTK",
+					"length": 18,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇱🇹BTK",
+					"end": "🇱🇹O8570339670",
+					"length": 24,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇱🇹O8570339670",
+					"end": "🇱🇹O8570348681",
+					"length": 29,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇱🇹O8570348681",
+					"end": "🇱🇹O8570395076",
+					"length": 29,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇱🇹O8570395076",
+					"end": "🇱🇹KUT",
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.36
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 100,
