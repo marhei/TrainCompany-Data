@@ -28292,6 +28292,41 @@
 			]
 		},
 		{
+			"maxSpeed": 80,
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"EE",
+				"1520mm"
+			],
+			"objects": [
+				{
+					"start": "🇪🇪O8761131037",
+					"end": "🇪🇪O10693685211",
+					"length": 6,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇪🇪O10693685211",
+					"end": "🇪🇪VRU",
+					"length": 27,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇪🇪VRU",
+					"end": "🇪🇪ANT",
+					"length": 30,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇪🇪ANT",
+					"end": "🇪🇪VLG",
+					"length": 29,
+					"twistingFactor": 0.03
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"objects": [
