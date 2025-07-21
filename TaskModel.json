@@ -4274,6 +4274,18 @@
 			"name": "RB von %s nach %s",
 			"service": 2,
 			"descriptions": [
+				"Bringe die RB64 von %s nach %s in die Südwestpfalz."
+			],
+			"stations": [ "SKL", "SSCP", "SSTA", "SWAB", "SPSN", "SPS" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"service": 2,
+			"descriptions": [
 				"Bringe die grenzüberschreitende RB53 von %s nach %s."
 			],
 			"stations": [ "RN", "RND", "RMKI", "REH", "RKG", "RLA", "RIN", "RRST", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG" ],
