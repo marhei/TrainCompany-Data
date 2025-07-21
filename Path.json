@@ -47911,6 +47911,44 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"neededEquipments": [
+				"1520mm",
+				"EE"
+			],
+			"objects": [
+				{
+					"start": "🇪🇪O30153569",
+					"end": "🇪🇪O1133646721",
+					"length": 10,
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇪🇪O1133646721",
+					"end": "🇪🇪O12499047929",
+					"length": 2,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇪🇪O12499047929",
+					"end": "🇪🇪O850008507",
+					"length": 2,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇪🇪O850008507",
+					"end": "🇪🇪O30153696",
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"twistingFactor": 0.2,
 			"maxSpeed": 80,
 			"neededEquipments": [
