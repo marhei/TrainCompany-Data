@@ -52533,6 +52533,30 @@
 			]
 		},
 		{
+			"electrified": true,
+			"name": "Frankfurt (Main) Hbf-Kronberg (Taunus)",
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.22,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FF",
+					"end": "FES",
+					"length": 11,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "FES",
+					"end": "FKRO",
+					"length": 4,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"name": "Vejprty–Annaberg-Buchholz unt Bf",
 			"electrified": false,
 			"group": 1,
