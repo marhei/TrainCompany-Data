@@ -14699,6 +14699,95 @@
 			]
 		},
 		{
+			"electrified": true,
+			"name": "Remsbahn",
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "TS",
+					"end": "TSC",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "TSC",
+					"end": "TWN",
+					"length": 8,
+					"maxSpeed": 130,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "TWN",
+					"end": "TSF",
+					"length": 17,
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "TSF",
+					"end": "TUA",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "TUA",
+					"end": "TPL",
+					"length": 2,
+					"maxSpeed": 130,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "TPL",
+					"end": "TWY",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "TWY",
+					"end": "TLO",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "TLO",
+					"end": "TSG",
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TSG",
+					"end": "TBB",
+					"length": 9,
+					"maxSpeed": 130,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "TBB",
+					"end": "TMOE",
+					"length": 3,
+					"maxSpeed": 110,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "TMOE",
+					"end": "TA",
+					"length": 11,
+					"maxSpeed": 130,
+					"twistingFactor": 0.23
+				}
+			]
+		},
+		{
 			"name": "Halle-Kasseler Bahn",
 			"twistingFactor": 0.1,
 			"maxSpeed": 100,
@@ -42215,6 +42304,65 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "TA",
+					"end": "TWA",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "TWA",
+					"end": "THOF",
+					"length": 1,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "THOF",
+					"end": "TGL",
+					"length": 2,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TGL",
+					"end": "TSWA",
+					"length": 3,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "TSWA",
+					"end": "TSCH",
+					"length": 3,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "TSCH",
+					"end": "TEL",
+					"length": 2,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "TEL",
+					"end": "TJZ",
+					"length": 8,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "TJZ",
+					"end": "TC",
+					"length": 12,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
 			"name": "SŽDC 225 Veselí nad Lužnicí - Jihlava",
 			"electrified": true,
 			"group": 0,
@@ -57133,6 +57281,60 @@
 					"name": "Canadian National Railway - Sarnia-South Bend line",
 					"length": 71,
 					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "TS",
+					"end": "TV",
+					"electrified": true,
+					"group": 2,
+					"length": 27
+				},
+				{
+					"start": "TV",
+					"end": "TM",
+					"electrified": false,
+					"group": 0,
+					"length": 9
+				},
+				{
+					"start": "TM",
+					"end": "TPH",
+					"electrified": true,
+					"group": 0,
+					"length": 12
+				},
+				{
+					"start": "TPH",
+					"end": "TWL",
+					"electrified": true,
+					"group": 0,
+					"length": 13,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TWL",
+					"end": "RKDU",
+					"electrified": true,
+					"group": 0,
+					"length": 12,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "RKDU",
+					"end": "RK",
+					"electrified": true,
+					"group": 0,
+					"length": 4,
 					"twistingFactor": 0.01
 				}
 			]

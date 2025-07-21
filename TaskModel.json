@@ -1179,6 +1179,56 @@
 			"service": 1
 		},
 		{
+			"name": "RE 1 von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress 1 von %s nach %s.",
+				"Bring die Fahrgäste im RE 1 pünktlich nach %2$s.",
+				"Fahre den RE 1 störungsfrei nach %2$s."
+			],
+			"objects": [
+				{
+					"pathSuggestion": [ "TS", "TV", "TM", "TPH", "TWL", "RKDU", "RK" ],
+					"stations": [ "TS", "TV", "TM", "TPH", "TWL", "RKDU", "RK" ]
+				},
+				{
+					"pathSuggestion": [ "TA", "TSG", "TSF", "TS", "TV", "TM", "TPH", "RKDU", "RK" ],
+					"stations": [ "TA", "TSG", "TSF", "TS", "TV", "TM", "TPH", "RKDU", "RK" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2
+		},
+		{
+			"name": "MEX 13 von %s nach %s",
+			"descriptions": [
+				"Bringe den Metropolexpress 13 von %s nach %s.",
+				"Bring die Fahrgäste im MEX 13 pünktlich nach %2$s.",
+				"Fahre den MEX 13 störungsfrei nach %2$s."
+			],
+			"objects": [
+				{
+					"pathSuggestion": [ "TS", "TSC", "TWN", "TSF", "TUA", "TPL", "TWY", "TLO", "TSG", "TBB", "TMOE", "TA" ],
+					"stations": [ "TS", "TSC", "TWN", "TSF", "TUA", "TPL", "TWY", "TLO", "TSG", "TBB", "TMOE", "TA" ]
+				},
+				{
+					"pathSuggestion": [ "TS", "TSC", "TWN", "TSF", "TUA", "TPL", "TWY", "TLO", "TSG", "TBB", "TMOE", "TA", "TWA", "THOF", "TGL", "TSWA", "TSCH", "TEL" ],
+					"stations": [ "TS", "TSC", "TWN", "TSF", "TUA", "TPL", "TWY", "TLO", "TSG", "TBB", "TMOE", "TA", "TWA", "THOF", "TGL", "TSWA", "TSCH", "TEL" ]
+				},
+				{
+					"pathSuggestion": [ "TS", "TSC", "TWN", "TSF", "TUA", "TPL", "TWY", "TLO", "TSG", "TBB", "TMOE", "TA", "TWA", "THOF", "TGL", "TSWA", "TSCH", "TEL", "TJZ", "TC" ],
+					"stations": [ "TS", "TSC", "TWN", "TSF", "TUA", "TPL", "TWY", "TLO", "TSG", "TBB", "TMOE", "TA", "TWA", "THOF", "TGL", "TSWA", "TSCH", "TEL", "TJZ", "TC" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2
+		},
+		{
 			"name": "Brightline von %s nach %s",
 			"descriptions": [
 				"Fahre für Brightline durch Florida von %s nach %s.",
