@@ -1179,6 +1179,21 @@
 			"service": 1
 		},
 		{
+			"name": " neg RB65 von %s nach %s",
+			"descriptions": [
+				"Bringe die Badegäste von %s nach %s.",
+				"Bring die IC-Kurswagen pünktlich nach %2$s.",
+				"Fahre die RB pünktlich nach %2$s, damit der Anschluss an die Fähre sichergestellt ist."
+			],
+			"stations": [ "ANB", "ADM" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "ANB", "ADM" ]
+		},
+		{
 			"name": "Brightline von %s nach %s",
 			"descriptions": [
 				"Fahre für Brightline durch Florida von %s nach %s.",
