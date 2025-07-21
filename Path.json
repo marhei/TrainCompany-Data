@@ -40151,6 +40151,35 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 80,
+			"neededEquipments": [
+				"1520mm",
+				"EE"
+			],
+			"objects": [
+				{
+					"start": "🇪🇪PRN",
+					"end": "🇪🇪SJA",
+					"length": 18,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇪🇪SJA",
+					"end": "🇪🇪EDP",
+					"length": 31,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇪🇪EDP",
+					"end": "🇪🇪O874381457",
+					"length": 14,
+					"twistingFactor": 0.07
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 2,
 			"maxSpeed": 300,
