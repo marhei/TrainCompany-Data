@@ -3655,6 +3655,20 @@
 		},
 		{
 			"group": 1,
+			"name": "HLB von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Die RB 75 führt von %s nach %s.",
+				"Verbinde Rhein und Main mit der RB 75 von %s nach %s."
+			],
+			"stations": [ "FW", "FMZ", "FD", "NAH" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "S8 von %s nach %s",
 			"service": 3,
 			"descriptions": [
