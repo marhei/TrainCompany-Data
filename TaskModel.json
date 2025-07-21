@@ -2782,6 +2782,20 @@
 		},
 		{
 			"group": 1,
+			"name": "RE17 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe den Regionalexpress von %s nach %s durchs Mittelrheintal.",
+				"Dieser Regionalexpress von %s nach %s ist bei Radfahreren beliebt."
+			],
+			"stations":       [ "SKL", "SWNW", "SRC", "SBMS", "FBGN", "FOBW", "KBOP", "KKO" ],
+			"pathSuggestion": [ "SKL", "SWNW", "SRC", "SBMS", "FBGN", "FOBW", "KBOP", "KKO" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Regional-Express von %s nach %s",
 			"service": 2,
 			"descriptions": [
