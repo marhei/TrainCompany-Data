@@ -695,6 +695,38 @@
 			]
 		},
 		{
+			"name": "Inter7City von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity von %s nach %s.",
+				"Fahre durch Schottland nach %2$s.",
+				"Scotrail braucht einen Intercity nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧98880", "🇬🇧88050", "🇬🇧O6768774851", "🇬🇧88010", "🇬🇧86100", "🇬🇧INV" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧98880", "🇬🇧88050", "🇬🇧O6768774851", "🇬🇧88010", "🇬🇧86100", "🇬🇧INV" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧CCUP", "🇬🇧LEU", "🇬🇧DEE", "🇬🇧ABR", "🇬🇧STN", "🇬🇧ABD" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧DEE", "🇬🇧ABR", "🇬🇧MTS", "🇬🇧ABD" ],
+					"pathSuggestion": [ "🇬🇧GLC", "🇬🇧CRSTRSS", "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ABR", "🇬🇧MTS", "🇬🇧ABD" ]
+				},
+				{
+					"stations": [ "🇬🇧ABD", "🇬🇧INV" ],
+					"stopsEverywhere": true
+				}				
+			]
+		},
+		{
 			"name": "Intercités von %s nach %s",
 			"descriptions": [
 				"Im Corail einmal quer durch Frankreich, was gibt es schöneres?",
