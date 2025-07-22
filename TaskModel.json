@@ -2789,7 +2789,7 @@
 			"descriptions": [
 				"Diese Regionalbahn führt von %s nach %s durchs Alsenztal."
 			],
-			"stations": [ "FBGK", "SLN", "SBKN", "SKL" ],
+			"stations": [ "FBGK", "SLN", "SBKN", "SBMS", "SENK", "SKL" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -3676,7 +3676,7 @@
 				"Die RB 75 führt von %s nach %s.",
 				"Verbinde Rhein und Main mit der RB 75 von %s nach %s."
 			],
-			"stations": [ "FW", "FMZ", "FD", "NAH" ],
+			"stations": [ "FW", "FMZ", "FMB", "FDG", "FD", "NAH" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -4293,7 +4293,7 @@
 			],
 			"objects": [
 				{
-					"stations": [ "SSH", "SPSN", "SPS" ]
+					"stations": [ "SSH", "SRO", "SPSN", "SPS" ]
 				},
 				{
 					"stations": [ "SKL", "SPSN", "SPS" ]
@@ -4301,7 +4301,7 @@
 				{
 					"stations": [ "RLA", "SPSN", "SPS"]
 				}
-				
+
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
