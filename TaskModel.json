@@ -2769,6 +2769,48 @@
 		},
 		{
 			"group": 1,
+			"name": "Süwex RE2 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe den RE2 von %s nach %s durchs Mittelrheintal. Der Zug ist zeitweise stark ausgelastet.",
+				"Der RE2 muss von %s nach %s gebracht werden. Die Strecke ist stark ausgelastet.",
+				"Bringe den Regional-Express der Linie 2 pünktlich durchs Mittelrheintal."
+			],
+			"stations":       [ "FF", "FFLF", "FRUE", "FMZ", "FIL", "FBGK", "FBCH", "FOBW", "KBOP", "KKO" ],
+			"pathSuggestion": [ "FF", "FFLF", "FRUE", "FMB", "FMZ", "FIL", "FBGK", "FBCH", "FOBW", "KBOP", "KKO" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB 65 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Diese Regionalbahn führt von %s nach %s durchs Alsenztal."
+			],
+			"stations": [ "FBGK", "SLN", "SBKN", "SKL" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE17 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe den Regionalexpress von %s nach %s durchs Mittelrheintal.",
+				"Dieser Regionalexpress von %s nach %s ist bei Radfahreren beliebt."
+			],
+			"stations":       [ "SKL", "SWNW", "SRC", "SBMS", "FBGK", "FOBW", "KBOP", "KKO" ],
+			"pathSuggestion": [ "SKL", "SWNW", "SRC", "SBMS", "FBGK", "FOBW", "KBOP", "KKO" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Regional-Express von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -3628,6 +3670,20 @@
 		},
 		{
 			"group": 1,
+			"name": "HLB von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Die RB 75 führt von %s nach %s.",
+				"Verbinde Rhein und Main mit der RB 75 von %s nach %s."
+			],
+			"stations": [ "FW", "FMZ", "FD", "NAH" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "S8 von %s nach %s",
 			"service": 3,
 			"descriptions": [
@@ -4227,6 +4283,30 @@
 				{ "name": "passengers" }
 			],
 			"pathSuggestion": [ "SKL", "SHY", "RN", "RLA", "RWND", "RWRT", "RK" ]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s in die Südwestpfalz."
+			],
+			"objects": [
+				{
+					"stations": [ "SSH", "SPSN", "SPS" ]
+				},
+				{
+					"stations": [ "SKL", "SPSN", "SPS" ]
+				},
+				{
+					"stations": [ "RLA", "SPSN", "SPS"]
+				}
+				
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		},
 		{
 			"group": 1,
