@@ -1194,6 +1194,35 @@
 			"pathSuggestion": [ "ANB", "ADM" ]
 		},
 		{
+			"name": "TER/RB von %s nach %s",
+			"descriptions": [
+				"Fahre über die Bienwaldbahn von %s nach %s.",
+				"Fahre abseits nützlicher Fahrplanlagen, um möglichst keine Anschlüsse in Strasbourg zu ermöglichen.",
+				"Manche Züge fahren sogar über die Grenze. Schockierend, oder?"
+			],
+			"objects": [
+				{
+					"stations": [ "XFSTG", "🇫🇷BHM", "🇫🇷LWL", "🇫🇷HRL", "🇫🇷DRS", "🇫🇷ZHM", "🇫🇷RHI", "🇫🇷SSZ", "🇫🇷MHQ", "XFLTG", "RBRG", "RNBU", "RHGB", "RMAI", "RWRT" ],
+					"pathSuggestion": [ "XFSTG", "🇫🇷BHM", "🇫🇷LWL", "🇫🇷HRL", "🇫🇷DRS", "🇫🇷ZHM", "🇫🇷RHI", "🇫🇷SSZ", "🇫🇷MHQ", "XFLTG", "RBRG", "RNBU", "RHGB", "RMAI", "RWRT" ]
+				},
+				{
+					"stations": [ "XFSTG", "🇫🇷BHM", "🇫🇷LWL", "🇫🇷HRL", "🇫🇷DRS", "🇫🇷ZHM", "🇫🇷RHI", "🇫🇷SSZ", "🇫🇷MHQ", "XFLTG" ],
+					"pathSuggestion": [ "XFSTG", "🇫🇷BHM", "🇫🇷LWL", "🇫🇷HRL", "🇫🇷DRS", "🇫🇷ZHM", "🇫🇷RHI", "🇫🇷SSZ", "🇫🇷MHQ", "XFLTG" ]
+				},
+				{
+					"stations": [ "XFLTG", "RBRG", "RNBU", "RHGB", "RMAI", "RWRT" ],
+					"pathSuggestion": [ "XFLTG", "RBRG", "RNBU", "RHGB", "RMAI", "RWRT" ]
+				}
+			],
+			
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"stopsEverywhere": true,
+			"service": 3
+		},
+		{
 			"name": "Brightline von %s nach %s",
 			"descriptions": [
 				"Fahre für Brightline durch Florida von %s nach %s.",
@@ -3249,7 +3278,7 @@
 				"Dieser RB fährt bis ins deutsch-tschechisch-polnische Dreiländereck.",
 				"Der Abschnitt zwischen Görlitz und Zittau liegt teilweise in polnischem Gebiet."
 			],
-			"stations": [ "BC", "BCS", "DG",  "DZ" ],
+			"stations": [ "BC", "BCS", "DG", "DZ" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -3390,8 +3419,12 @@
 				"Der Musikwinkel-Express wird ein mal im Monat mit Ferkeltaxen gefahren."
 			],
 			"objects": [
-				{ "stations": [ "DAD", "DZA"] },
-				{ "stations": [ "DMB", "DSNO"] }
+				{
+					"stations": [ "DAD", "DZA" ]
+				},
+				{
+					"stations": [ "DMB", "DSNO" ]
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -3408,7 +3441,9 @@
 				"Zu besonderen Gelegenheiten wird dieser Zug mit einer Dampflok bespannt."
 			],
 			"objects": [
-				{ "stations": [ "DNO", "DGVB", "DFR", "DMUL", "DHU"] },
+				{
+					"stations": [ "DNO", "DGVB", "DFR", "DMUL", "DHU" ]
+				},
 				{
 					"stations": [ "DNO", "DDE", "LL", "UNM", "UWM", "UE P", "UA" ],
 					"pathSuggestion": [ "DNO", "DDE", "LBEU", "LBOR", "LL", "UNM", "UGH", "UWM", "UE P", "UND", "UA" ]
@@ -3427,7 +3462,7 @@
 				"Fahre den RB 83 der Freiberger Eisenbahn von %s nach %s.",
 				"Auch das Erzgebirge ist bei Urlaubern beliebt."
 			],
-			"stations": [ "DFR", "DMUL", "DHU"],
+			"stations": [ "DFR", "DMUL", "DHU" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -4007,7 +4042,7 @@
 			"descriptions": [
 				"Für ein Event in der Region hat der VRR einen Rhein-Ruhr-Express Verstärkerzug von %s nach %s bestellt."
 			],
-			"stations": [ "KK","KLMI", "KD", "KDFF", "EDG", "EE" ],
+			"stations": [ "KK", "KLMI", "KD", "KDFF", "EDG", "EE" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -6348,7 +6383,7 @@
 			"objects": [
 				{
 					"stations": [ "XJBC", "XJLP", "XJNI" ],
-					"pathSuggestion": ["XJBC", "XJBR", "XJLP", "XJNI"]
+					"pathSuggestion": [ "XJBC", "XJBR", "XJLP", "XJNI" ]
 				},
 				{
 					"stations": [ "XRZ", "XRT", "XJSI", "XJBC" ],
