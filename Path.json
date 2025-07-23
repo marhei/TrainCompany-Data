@@ -7183,6 +7183,72 @@
 			]
 		},
 		{
+			"group": 0,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DG",
+					"end": "BKOD",
+					"electrified": false,
+					"length": 16,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "BKOD",
+					"end": "BNY",
+					"electrified": false,
+					"length": 9,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "BNY",
+					"end": "BPE",
+					"electrified": true,
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BPE",
+					"end": "BMC",
+					"electrified": true,
+					"length": 3,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "BMC",
+					"end": "BKL",
+					"electrified": true,
+					"length": 8,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BKL",
+					"end": "BUS",
+					"electrified": true,
+					"length": 5,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "BUS",
+					"end": "BLOH",
+					"electrified": true,
+					"length": 8,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "BLOH",
+					"end": "BHW",
+					"electrified": true,
+					"length": 14,
+					"twistingFactor": 0.18
+				}
+			]
+		},
+		{
 			"objects": [
 				{
 					"start": "XFSTG",
@@ -25333,7 +25399,8 @@
 					"length": 6,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25342,7 +25409,8 @@
 					"length": 4,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25351,7 +25419,8 @@
 					"length": 11,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25360,7 +25429,8 @@
 					"length": 9,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25369,7 +25439,8 @@
 					"length": 10,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25378,7 +25449,8 @@
 					"length": 6,
 					"twistingFactor": 0.14,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25387,7 +25459,8 @@
 					"length": 5,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25397,7 +25470,8 @@
 					"twistingFactor": 0.2,
 					"neededEquipments": [
 						"RU",
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25406,7 +25480,8 @@
 					"length": 14,
 					"twistingFactor": 0.15,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25415,7 +25490,8 @@
 					"length": 5,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25424,7 +25500,8 @@
 					"length": 7,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25433,7 +25510,8 @@
 					"length": 4,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25442,7 +25520,8 @@
 					"length": 10,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25451,7 +25530,8 @@
 					"length": 11,
 					"twistingFactor": 0.13,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25460,7 +25540,8 @@
 					"length": 9,
 					"twistingFactor": 0.14,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25469,7 +25550,8 @@
 					"length": 9,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25478,7 +25560,8 @@
 					"length": 8,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25487,7 +25570,8 @@
 					"length": 7,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25496,7 +25580,8 @@
 					"length": 10,
 					"twistingFactor": 0.13,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25505,7 +25590,8 @@
 					"length": 15,
 					"twistingFactor": 0.15,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25514,8 +25600,8 @@
 					"length": 7,
 					"twistingFactor": 0.21,
 					"neededEquipments": [
-						"RU", "1520mm"
-
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25524,7 +25610,8 @@
 					"length": 10,
 					"twistingFactor": 0.19,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25533,7 +25620,8 @@
 					"length": 10,
 					"twistingFactor": 0.13,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25542,7 +25630,8 @@
 					"length": 7,
 					"twistingFactor": 0.22,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				}
 			]
@@ -29147,7 +29236,8 @@
 					"maxSpeed": 100,
 					"twistingFactor": 0.3,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -29157,7 +29247,8 @@
 					"maxSpeed": 80,
 					"twistingFactor": 0.14,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -29169,7 +29260,8 @@
 					"twistingFactor": 0.01,
 					"neededEquipments": [
 						"LV",
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -29180,7 +29272,8 @@
 					"maxSpeed": 120,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				}
 			]
@@ -44774,7 +44867,8 @@
 					"length": 30,
 					"twistingFactor": 0.1,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -44784,7 +44878,8 @@
 					"maxSpeed": 100,
 					"twistingFactor": 0.12,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -44794,7 +44889,8 @@
 					"length": 19,
 					"twistingFactor": 0.12,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				}
 			]
