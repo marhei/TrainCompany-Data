@@ -3693,7 +3693,7 @@
 			"drive": 2,
 			"reliability": 1,
 			"cost": 300000,
-			"maxConnectedUnits": 3,
+			"maxConnectedUnits": 2,
 			"operationCosts": 70,
 			"exchangeTime": 60,
 			"capacity": [
@@ -9490,6 +9490,23 @@
 			"cost": 100000,
 			"capacity": [
 				{"name": "containers", "value": 1}
+			]
+		},
+		{
+			"id": 3000,
+			"group": 1,
+			"service": 11,
+			"name": "Taschentragwagen T3000e",
+			"shortcut": "Sdggmrss",
+			"speed": 120,
+			"weight": 35,
+			"force": 0,
+			"length": 34,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 175000,
+			"capacity": [
+				{"name": "containers", "value": 3}
 			]
 		},
 		{

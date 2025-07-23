@@ -9304,6 +9304,148 @@
 			"stopsEverywhere": false
 		},
 		{
+			"group": 0,
+			"name": "Ekol-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre den Ekol von %s nach %s.",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "KK", "XIT" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 39 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Ambrogio-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "KN", "XIMB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 33 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Walter-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen KLV-Ganzzug von %s nach %s.",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "EWAN", "XUCU" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 39 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Pozan-Shuttle-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Shuttle-KLV von %s nach %s.",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇳🇱Erp", "🇵🇱PWS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 28 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Eiserner Rhein-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen altehrwürdigen KLV von %s nach %s.",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇳🇱Erp", "XIMB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 30 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Lovosice-Shuttle-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen KLV von %s nach %s.",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "KRH", "XTLO" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 28 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Mars-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Keine Schokoriegel, sondern einen Intermodalzug bespannst du von Luxemburg bis an die Adria",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XLB", "XIT" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 36 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Kohlezug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Schaffe, Schaffe, Kohlezügle! - Bringe Importkohle vom Rotterdamer Hafen ins Ländle"
+			],
+			"objects": [
+				{
+					"stations": [ "🇳🇱Erp", "TP" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "coal", "value": 715 }
+			],
+			"stopsEverywhere": false
+    },
+	  {
 			"group": 1,
 			"name": "S6 von %s nach %s",
 			"service": 3,
