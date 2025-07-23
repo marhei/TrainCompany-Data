@@ -1220,6 +1220,21 @@
 			"service": 3
 		},
 		{
+			"name": "S 4 von %s nach %s",
+			"descriptions": [
+				"Bringe die S-Bahn der Linie 4 von %s nach %s.",
+				"Bring die Fahrgäste in der S 4 pünktlich nach %2$s.",
+				"Fahre die S störungsfrei nach %2$s."
+			],
+			"stations": [ "FF", "FES", "FKRO" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "FF", "FES", "FKRO" ]
+		},
+		{
 			"name": "Brightline von %s nach %s",
 			"descriptions": [
 				"Fahre für Brightline durch Florida von %s nach %s.",
