@@ -9691,7 +9691,7 @@
 			"drive": 0,
 			"reliability": 0.85,
 			"cost": 850000,
-			"maxConnectedUnits": 2,
+			"maxConnectedUnits": 1,
 			"compatibleWith": [29],
 			"exchangeTime": 120,
 			"equivalentTo": 5,
@@ -10024,6 +10024,23 @@
 				{"name": "passengers", "value": 46 },
 				{"name": "bistroseats", "value": 24 },
 				{"name": "beds", "value": 170}
+			]
+		},
+		{
+			"id": 4952,
+			"group": 1,
+			"service": 11,
+			"name": "Containerwagen 90 Fuß",
+			"shortcut": "Sggmrss",
+			"speed": 120,
+			"weight": 29,
+			"force": 0,
+			"length": 30,
+			"drive": 0,
+			"reliability": 0.95,
+			"cost": 160000,
+			"capacity": [
+				{"name": "containers", "value": 2}
 			]
 		}
 	]
