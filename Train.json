@@ -5210,9 +5210,9 @@
 			"length": 19,
 			"drive": 1,
 			"reliability": 1,
-			"cost": 700000,
+			"cost": 650000,
 			"operationCosts": 110,
-			"equipments": ["ETCS", "CZ", "CH", "AT", "NL", "BE", "IT", "FR", "PL", "DK", "SE", "NO", "DE", "BG", "HR", "RO", "SK", "SI", "HU", "TR", "RS"]
+			"equipments": ["ETCS", "CZ", "CH", "AT", "NL", "BE", "IT", "PL", "DK", "SE", "NO", "DE", "BG", "HR", "RO", "SK", "SI", "HU", "TR", "RS"]
 		},
 		{
 			"id": 248,
@@ -10025,6 +10025,21 @@
 				{"name": "bistroseats", "value": 24 },
 				{"name": "beds", "value": 170}
 			]
+		},
+		{
+			"id": 12128,
+			"group": 0,
+			"name": "AEG 12X",
+			"shortcut": "BR 128",
+			"speed": 220,
+			"weight": 84,
+			"force": 300,
+			"length": 19.5,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 350000,
+			"operationCosts": 140,
+			"equipments": ["DE"]
 		}
 	]
 }
