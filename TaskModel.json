@@ -9270,6 +9270,27 @@
 				{ "name": "castor", "value": 10 }
 			],
 			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "S6 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Das Blasorchester Darmstadt-Wixhausen veranstaltet ein Benefizkonzert.",
+				"Fahre die S-Bahn von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [  "FVL", "FF", "FLG", "FWX" ]
+				},
+				{
+					"stations": [  "FFG", "FVL", "FF", "FLG", "FWX" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
