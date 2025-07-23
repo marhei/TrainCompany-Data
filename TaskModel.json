@@ -579,7 +579,14 @@
 				"Verbinde England und Schottland zwischen %s und %s.",
 				"Bring den Flying Scotsman von %s nach %s."
 			],
-			"stations": [ "XKLP", "🇬🇧PBO", "🇬🇧NNG", "🇬🇧DON", "🇬🇧YRK", "🇬🇧NTR", "🇬🇧DAR", "🇬🇧DHM", "🇬🇧NCL", "🇬🇧EDB" ],
+			"objects": [
+				{
+					"stations": [ "XKLP", "🇬🇧PBO", "🇬🇧NNG", "🇬🇧DON", "🇬🇧YRK", "🇬🇧NTR", "🇬🇧DAR", "🇬🇧DHM", "🇬🇧NCL", "🇬🇧EDB" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧PBO", "🇬🇧NNG", "🇬🇧DON", "🇬🇧YRK", "🇬🇧NTR", "🇬🇧DAR", "🇬🇧DHM", "🇬🇧NCL", "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ABD" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -599,11 +606,11 @@
 				},
 				{
 					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧34100", "🇬🇧34262", "🇬🇧35580", "🇬🇧35800" ],
-					"pathsuggestions": [ "XKLP", "🇬🇧RDG", "🇬🇧DID", "🇬🇧SWI", "🇬🇧CPM", "🇬🇧BRI", "🇬🇧35800" ]
+					"pathSuggestion": [ "XKLP", "🇬🇧RDG", "🇬🇧DID", "🇬🇧SWI", "🇬🇧CPM", "🇬🇧BRI", "🇬🇧35800" ]
 				},
 				{
 					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧BRI", "🇬🇧34100", "🇬🇧34262", "🇬🇧35580", "🇬🇧35800", "🇬🇧35730", "🇬🇧35240", "🇬🇧35340", "🇬🇧35400", "🇬🇧35260" ],
-					"pathsuggestions": [ "XKLP", "🇬🇧RDG", "🇬🇧DID", "🇬🇧SWI", "🇬🇧CPM", "🇬🇧BRI", "🇬🇧35800", "🇬🇧35260" ]
+					"pathSuggestion": [ "XKLP", "🇬🇧RDG", "🇬🇧DID", "🇬🇧SWI", "🇬🇧CPM", "🇬🇧BRI", "🇬🇧35800", "🇬🇧35260" ]
 				}
 			],
 			"neededCapacity": [
@@ -702,10 +709,29 @@
 					"pathSuggestion": [ "XKLP", "🇬🇧COV", "🇬🇧SOT", "🇬🇧CHU", "🇬🇧MAN", "🇬🇧PRE", "🇬🇧LAN", "🇬🇧OXN", "🇬🇧PNR", "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧MTH", "🇬🇧GLC" ]
 				},
 				{
-					"stations": [ "XKLP", "XKRU", "🇬🇧BHI", "🇬🇧BHM" ]
+					"stations": [ "🇬🇧GLC", "🇬🇧LOC", "🇬🇧CAR", "🇬🇧PNR", "🇬🇧OXN", "🇬🇧LAN", "🇬🇧PRE", "🇬🇧MAN", "🇬🇧LIV" ],
+					"pathSuggestion": [ "🇬🇧GLC", "🇬🇧CRSTRSS", "🇬🇧MAN", "🇬🇧CHU", "XKCR", "🇬🇧LIV"]
 				},
 				{
-					"stations": [ "🇬🇧NCL", "🇬🇧DAR", "🇬🇧YRK", "🇬🇧LDS", "🇬🇧MAN", "XKCR", "🇬🇧LIV" ]
+					"stations": [ "XKLP", "XKRU", "🇬🇧BHI", "🇬🇧BHM" ]
+				}
+			]
+		},
+		{
+			"name": "IC von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity von %s nach %s.",
+				"Fahre an der Ostküste Großbritanniens nach %2$s.",
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧BWK", "🇬🇧NCL", "🇬🇧DAR", "🇬🇧YRK", "🇬🇧LDS", "🇬🇧MAN", "🇬🇧LIV" ],
+					"pathSuggestion": [ "🇬🇧EDB", "🇬🇧YRK", "🇬🇧LDS", "🇬🇧MAN", "🇬🇧CHU", "XKCR", "🇬🇧LIV"]
 				},
 				{
 					"stations": [ "XKLP", "🇬🇧68360", "🇬🇧COL", "🇬🇧68560", "🇬🇧IPS", "🇬🇧73480", "🇬🇧73090" ]
