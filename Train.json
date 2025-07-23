@@ -1926,10 +1926,10 @@
 			"cost": 750000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 2,
-			"equipments": ["NL", "BE", "ETCS" ],
+			"equipments": [ "ETCS", "NL", "BE", "DE" ],
 			"exchangeTime": 60,
 			"capacity": [
-				{"name": "passengers", "value": 410}
+				{"name": "passengers", "value": 417}
 			]
 		},
 		{
@@ -4972,7 +4972,7 @@
 			"reliability": 0.9,
 			"cost": 280000,
 			"operationCosts": 75,
-			"equipments": ["ETCS", "DE", "CH"]
+			"equipments": ["ETCS", "DE", "CH", "BG", "HR"]
 		},
 		{
 			"id": 30,
@@ -4988,7 +4988,39 @@
 			"reliability": 0.95,
 			"cost": 350000,
 			"operationCosts": 95,
-			"equipments": ["ETCS", "DE", "CH", "AT"]
+			"equipments": ["ETCS", "DE", "CH", "AT", "BG", "HR"]
+		},
+		{
+			"id": 3188,
+			"group": 0,
+			"name": "Bombardier Traxx F140 MS3",
+			"shortcut": "BR 188, ČD 388",
+			"speed": 140,
+			"weight": 84,
+			"force": 300,
+			"length": 19,
+			"drive": 6,
+			"range": 50,
+			"reliability": 0.95,
+			"cost": 350000,
+			"operationCosts": 95,
+			"equipments": ["ETCS", "DE", "NL","CZ", "BE", "IT", "PL", "DK", "SE", "BG", "HR", "RO", "SK", "SI", "HU", "RS"]
+		},
+		{
+			"id": 4188,
+			"group": 0,
+			"name": "Bombardier Traxx F160 MS3",
+			"shortcut": "BR 188, ČD 388",
+			"speed": 160,
+			"weight": 84,
+			"force": 300,
+			"length": 19,
+			"drive": 1,
+			"range": 50,
+			"reliability": 0.98,
+			"cost": 395000,
+			"operationCosts": 95,
+			"equipments": ["ETCS", "DE", "CH", "AT", "CZ", "HR"]
 		},
 		{
 			"id": 12,
@@ -5015,6 +5047,22 @@
 			"reliability": 0.95,
 			"cost": 294000,
 			"operationCosts": 120
+		},
+		{
+			"id": 2019,
+			"group": 0,
+			"name": "Stadler Euro 9000",
+			"shortcut": "BR 2019",
+			"speed": 120,
+			"weight": 123,
+			"force": 500,
+			"length": 23,
+			"drive": 4,
+			"range": 430,
+			"reliability": 1,
+			"cost": 880000,
+			"operationCosts": 175,
+			"equipments": [ "ETCS", "DE", "AT", "CH", "IT", "BE", "NL" ]
 		},
 		{
 			"id": 2159,
@@ -7181,7 +7229,7 @@
 			"reliability": 0.95,
 			"cost": 450000,
 			"operationCosts": 130,
-			"equipments": ["LT", "1520mm"]
+			"equipments": ["LT", "RU", "1520mm"]
 		},
 		{
 			"id": 26367,
@@ -9746,7 +9794,7 @@
 			"reliability": 1,
 			"cost": 1500000,
 			"maxConnectedUnits": 2,
-			"compatibleWith": [15, 183],
+			"compatibleWith": [15, 183, 193],
 			"exchangeTime": 120,
 			"equivalentTo": 7,
 			"capacity": [
