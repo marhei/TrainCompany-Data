@@ -7183,25 +7183,19 @@
 			]
 		},
 		{
+			"name": "Oberlausitz-Bahn",
 			"group": 0,
-			"maxSpeed": 0,
-			"twistingFactor": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
 			"neededEquipments": [
 				"DE"
 			],
 			"objects": [
 				{
 					"start": "DG",
-					"end": "BKOD",
-					"electrified": false,
-					"length": 16,
-					"twistingFactor": 0.31
-				},
-				{
-					"start": "BKOD",
 					"end": "BNY",
 					"electrified": false,
-					"length": 9,
+					"length": 25,
 					"twistingFactor": 0.37
 				},
 				{
@@ -7213,17 +7207,10 @@
 				},
 				{
 					"start": "BPE",
-					"end": "BMC",
-					"electrified": true,
-					"length": 3,
-					"twistingFactor": 0.15
-				},
-				{
-					"start": "BMC",
 					"end": "BKL",
 					"electrified": true,
-					"length": 8,
-					"twistingFactor": 0.1
+					"length": 11,
+					"twistingFactor": 0.15
 				},
 				{
 					"start": "BKL",

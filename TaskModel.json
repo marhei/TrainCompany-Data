@@ -1202,7 +1202,7 @@
 			],
 			"objects": [
 				{
-					"stations": [ "XFSTG", "🇫🇷BHM", "🇫🇷LWL", "🇫🇷HRL", "🇫🇷DRS", "🇫🇷ZHM", "🇫🇷RHI", "🇫🇷SSZ", "🇫🇷MHQ", "XFLTG", "RBRG", "RNBU", "RHGB", "RMAI", "RWRT"]
+					"stations": [ "XFSTG", "🇫🇷BHM", "🇫🇷LWL", "🇫🇷HRL", "🇫🇷DRS", "🇫🇷ZHM", "🇫🇷RHI", "🇫🇷SSZ", "🇫🇷MHQ", "XFLTG", "RBRG", "RNBU", "RHGB", "RMAI", "RWRT" ]
 				},
 				{
 					"stations": [ "XFSTG", "🇫🇷BHM", "🇫🇷LWL", "🇫🇷HRL", "🇫🇷DRS", "🇫🇷ZHM", "🇫🇷RHI", "🇫🇷SSZ", "🇫🇷MHQ", "XFLTG" ]
@@ -1211,7 +1211,6 @@
 					"stations": [ "XFLTG", "RBRG", "RNBU", "RHGB", "RMAI", "RWRT" ]
 				}
 			],
-			
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -1233,6 +1232,21 @@
 			"group": 1,
 			"service": 3,
 			"pathSuggestion": [ "FF", "FES", "FKRO" ]
+		},
+		{
+			"name": "RB 64 von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn der Linie 64 von %s nach %s.",
+				"Bring die Fahrgäste in der RB 64 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "DG", "BNY", "BPE", "BKL", "BUS", "BLOH", "BHW" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "DG", "BNY", "BPE", "BKL", "BUS", "BLOH", "BHW" ]
 		},
 		{
 			"name": "Brightline von %s nach %s",
@@ -2817,7 +2831,7 @@
 				"Der RE2 muss von %s nach %s gebracht werden. Die Strecke ist stark ausgelastet.",
 				"Bringe den Regional-Express der Linie 2 pünktlich durchs Mittelrheintal."
 			],
-			"stations":       [ "FF", "FFLF", "FRUE", "FMZ", "FIL", "FBGK", "FBCH", "FOBW", "KBOP", "KKO" ],
+			"stations": [ "FF", "FFLF", "FRUE", "FMZ", "FIL", "FBGK", "FBCH", "FOBW", "KBOP", "KKO" ],
 			"pathSuggestion": [ "FF", "FFLF", "FRUE", "FMB", "FMZ", "FIL", "FBGK", "FBCH", "FOBW", "KBOP", "KKO" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -2844,7 +2858,7 @@
 				"Bringe den Regionalexpress von %s nach %s durchs Mittelrheintal.",
 				"Dieser Regionalexpress von %s nach %s ist bei Radfahreren beliebt."
 			],
-			"stations":       [ "SKL", "SWNW", "SRC", "SBMS", "FBGK", "FOBW", "KBOP", "KKO" ],
+			"stations": [ "SKL", "SWNW", "SRC", "SBMS", "FBGK", "FOBW", "KBOP", "KKO" ],
 			"pathSuggestion": [ "SKL", "SWNW", "SRC", "SBMS", "FBGK", "FOBW", "KBOP", "KKO" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -4346,9 +4360,8 @@
 					"stations": [ "SKL", "SPSN", "SPS" ]
 				},
 				{
-					"stations": [ "RLA", "SPSN", "SPS"]
+					"stations": [ "RLA", "SPSN", "SPS" ]
 				}
-
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -9459,8 +9472,8 @@
 				{ "name": "coal", "value": 715 }
 			],
 			"stopsEverywhere": false
-    },
-	  {
+		},
+		{
 			"group": 1,
 			"name": "S6 von %s nach %s",
 			"service": 3,
@@ -9470,10 +9483,10 @@
 			],
 			"objects": [
 				{
-					"stations": [  "FVL", "FF", "FLG", "FWX" ]
+					"stations": [ "FVL", "FF", "FLG", "FWX" ]
 				},
 				{
-					"stations": [  "FFG", "FVL", "FF", "FLG", "FWX" ]
+					"stations": [ "FFG", "FVL", "FF", "FLG", "FWX" ]
 				}
 			],
 			"stopsEverywhere": true,
