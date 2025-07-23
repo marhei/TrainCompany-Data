@@ -1057,7 +1057,7 @@
 			"cost": 800000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 3,
-			"equipments": ["CH", "AT", "LU", "DE", "ETCS", "SI", "HU", "US"],
+			"equipments": ["CH", "AT", "LU", "DE", "ETCS", "SI", "HU", "US", "BG"],
 			"compatibleWith": [3427],
 			"capacity": [
 				{"name": "passengers", "value": 535}
@@ -1409,6 +1409,48 @@
 			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 400}
+			]
+		},
+		{
+			"id": 447,
+			"group": 2,
+			"name": "Alstom Coradia Max",
+			"service": 2,
+			"shortcut": "BR 0447",
+			"speed": 160,
+			"weight": 220,
+			"force": 300,
+			"length": 106,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 1200000,
+			"operationCosts": 42,
+			"maxConnectedUnits": 4,
+			"equipments": ["DE", "CH", "DK", "ETCS"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 420}
+			]
+		},
+		{
+			"id": 1447,
+			"group": 2,
+			"name": "Alstom Coradia Max",
+			"service": 2,
+			"shortcut": "BR 1447",
+			"speed": 200,
+			"weight": 220,
+			"force": 300,
+			"length": 106,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 1200000,
+			"operationCosts": 45,
+			"maxConnectedUnits": 3,
+			"equipments": ["DE", "ETCS"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 380}
 			]
 		},
 		{
@@ -2043,7 +2085,7 @@
 			"cost": 540000,
 			"maxConnectedUnits": 4,
 			"operationCosts": 50,
-			"equipments": ["ETCS", "CZ", "SK"],
+			"equipments": ["ETCS", "CZ", "SK", "BG"],
 			"exchangeTime": 40,
 			"capacity": [
 				{"name": "passengers", "value": 241}
@@ -2574,6 +2616,25 @@
 			"operationCosts": 55,
 			"equipments": ["IT"],
 			"exchangeTime": 55,
+			"capacity": [
+				{"name": "passengers", "value": 162}
+			]
+		},
+		{
+			"id": 83104,
+			"group": 2,
+			"name": "Alstom Coradia Stream",
+			"speed": 160,
+			"weight": 143,
+			"force": 180,
+			"length": 82,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 480000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 50,
+			"equipments": ["IT", "AT", "RO", "BG", "ETCS"],
+			"exchangeTime": 50,
 			"capacity": [
 				{"name": "passengers", "value": 162}
 			]
@@ -3526,6 +3587,25 @@
 			]
 		},
 		{
+			"id": 3551,
+			"group": 2,
+			"name": "DSB ES",
+			"shortcut": "IC5",
+			"speed": 200,
+			"weight": 219,
+			"force": 230,
+			"length": 109,
+			"drive": 2,
+			"reliability": 1,
+			"maxConnectedUnits": 2,
+			"equipments": ["DK", "ETCS"],
+			"operationCosts": 50,
+			"cost": 700000,
+			"capacity": [
+				{"name": "passengers", "value": 300}
+			]
+		},
+		{
 			"id": 7692,
 			"group": 2,
 			"name": "NSB Type 92",
@@ -4053,7 +4133,7 @@
 			"cost": 740000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 65,
-			"equipments": ["FR"],
+			"equipments": ["IT"],
 			"exchangeTime": 50,
 			"capacity": [
 				{"name": "passengers", "value": 306}
