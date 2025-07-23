@@ -1249,6 +1249,36 @@
 			"pathSuggestion": [ "DG", "BNY", "BPE", "BKL", "BUS", "BLOH", "BHW" ]
 		},
 		{
+			"name": "RE 15 von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 15 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 15 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "BHW", "BHC", "BRU", "DGB", "DPR", "DNDR", "DCW", "DH" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "BHW", "BHC", "BBS", "BRU", "DGB", "DPR", "DNDR", "DCW", "DH" ]
+		},
+		{
+			"name": "RE 11 von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 11 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 11 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "BHW", "BHC", "BRU", "LF", "LTG", "LEG", "LL" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "BHW", "BHC", "BBS", "BRU", "LF", "LTG", "LEG", "LL" ]
+		},
+		{
 			"name": "Brightline von %s nach %s",
 			"descriptions": [
 				"Fahre für Brightline durch Florida von %s nach %s.",
