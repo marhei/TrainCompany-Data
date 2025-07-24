@@ -4983,7 +4983,7 @@
 			"weight": 84,
 			"force": 300,
 			"length": 19,
-			"drive": 6,
+			"drive": 1,
 			"range": 50,
 			"reliability": 0.95,
 			"cost": 350000,
@@ -4999,7 +4999,7 @@
 			"weight": 84,
 			"force": 300,
 			"length": 19,
-			"drive": 6,
+			"drive": 1,
 			"range": 50,
 			"reliability": 0.95,
 			"cost": 350000,
@@ -10042,6 +10042,21 @@
 			"capacity": [
 				{"name": "containers", "value": 2}
 			]
+    },
+		{
+			"id": 12128,
+			"group": 0,
+			"name": "AEG 12X",
+			"shortcut": "BR 128",
+			"speed": 220,
+			"weight": 84,
+			"force": 300,
+			"length": 20,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 350000,
+			"operationCosts": 140,
+			"equipments": ["DE"]
 		}
 	]
 }
