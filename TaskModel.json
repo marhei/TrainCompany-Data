@@ -1892,6 +1892,37 @@
 			]
 		},
 		{
+			"group": 0,
+			"name": "Güterzug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Es werden zwingenst Container in Ostdeutschland gebraucht! Fahre diesen nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "BNY", "DZ" ]
+				},
+				{
+					"stations": [ "BNY", "BRU" ]
+				},
+				{
+					"stations": [ "DH", "BRU", "BFBI", "WR" ]
+				},
+				{
+					"stations": [ "WR", "BFBI", "BRU", "DH" ]
+				},
+				{
+					"stations": [ "AH", "WG", "BLN", "BHW", "BNY" ]
+				},
+				{
+					"stations": [ "LH", "LW", "BLN", "BHW", "BNY" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 13 }
+			]
+		},
+		{
 			"group": 1,
 			"name": "Autoslaaptrein  von %s nach %s",
 			"service": 5,
@@ -5601,6 +5632,20 @@
 				"Das Kraftwerk in %2$s benötigt neue Kohle aus %1$s für Bahnstrom."
 			],
 			"stations": [ "KGRB" ],
+			"neededCapacity": [
+				{ "name": "coal", "value": 800 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Kohlezug nach %2$s",
+			"service": 11,
+			"descriptions": [
+				"In %2$s wird dringend Kohle aus dem Tagebau %1$s benötigt.",
+				"Schwarze Pumpe benötigt neue Kohle aus %1$s für eine Energieversorgung in der Region.",
+				"Die Energieversorgung der Lausitz ist gefährdet! Bringe pünktlich neue Kohle nach Schwarze Pumpe."
+			],
+			"stations": [ "BSPE" ],
 			"neededCapacity": [
 				{ "name": "coal", "value": 800 }
 			]
