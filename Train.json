@@ -60,7 +60,7 @@
 			"cost": 4500000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 75,
-			"equipments": ["ETCS", "KRM", "NL", "BE", "DE"],
+			"equipments": ["ETCS", "KRM", "LZB", "NL", "BE", "DE"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 425},
@@ -82,7 +82,7 @@
 			"cost": 5500000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 75,
-			"equipments": ["ETCS", "FR", "KRM", "NL", "BE", "DE", "PL"],
+			"equipments": ["ETCS", "FR", "KRM", "LZB", "NL", "BE", "DE", "PL"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 439},
@@ -126,7 +126,7 @@
 			"cost": 5000000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "KRM", "FR", "TVM", "DE"],
+			"equipments": ["ETCS", "KRM", "LZB", "FR", "TVM", "DE"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 460},
@@ -147,7 +147,7 @@
 			"reliability": 1,
 			"cost": 2500000,
 			"operationCosts": 60,
-			"equipments": ["ETCS", "KRM", "AT", "DE"],
+			"equipments": ["ETCS", "KRM", "LZB", "AT", "DE"],
 			"maxConnectedUnits": 2,
 			"exchangeTime": 120,
 			"capacity": [
@@ -169,7 +169,7 @@
 			"reliability": 1,
 			"cost": 4500000,
 			"operationCosts": 80,
-			"equipments": ["ETCS", "KRM", "CH", "AT", "DE"],
+			"equipments": ["ETCS", "LZB", "KRM", "CH", "AT", "DE"],
 			"maxConnectedUnits": 1,
 			"exchangeTime": 120,
 			"capacity": [
@@ -237,7 +237,7 @@
 			"reliability": 1,
 			"cost": 5600000,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "FR", "TVM", "CH", "LU", "ES", "DE", "MA", "KRM"],
+			"equipments": ["ETCS", "FR", "TVM", "CH", "LU", "ES", "DE", "MA", "KRM", "LZB"],
 			"maxConnectedUnits": 2,
 			"compatibleWith": [4403, 4501],
 			"exchangeTime": 150,
