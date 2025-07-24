@@ -7183,6 +7183,61 @@
 			]
 		},
 		{
+			"name": "Oberlausitz-Bahn",
+			"start": "DG",
+			"end": "BHW",
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DG",
+					"end": "BNY",
+					"electrified": false,
+					"length": 25,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "BNY",
+					"end": "BPE",
+					"electrified": true,
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BPE",
+					"end": "BKL",
+					"electrified": true,
+					"length": 11,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "BKL",
+					"end": "BUS",
+					"electrified": true,
+					"length": 5,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "BUS",
+					"end": "BLOH",
+					"electrified": true,
+					"length": 8,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "BLOH",
+					"end": "BHW",
+					"electrified": true,
+					"length": 14,
+					"twistingFactor": 0.18
+				}
+			]
+		},
+		{
 			"objects": [
 				{
 					"start": "XFSTG",
@@ -8267,6 +8322,30 @@
 					"start": "EAML",
 					"end": "EMST",
 					"length": 8
+				}
+			]
+		},
+		{
+			"start": "BRU",
+			"end": "LF",
+			"electrified": true,
+			"group": 0,
+			"length": 50,
+			"maxSpeed": 160,
+			"twistingFactor": 0.19,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "BRU",
+					"end": "BBLW",
+					"length": 30
+				},
+				{
+					"start": "BBLW",
+					"end": "LF",
+					"length": 20
 				}
 			]
 		},
@@ -25333,7 +25412,8 @@
 					"length": 6,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25342,7 +25422,8 @@
 					"length": 4,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25351,7 +25432,8 @@
 					"length": 11,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25360,7 +25442,8 @@
 					"length": 9,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25369,7 +25452,8 @@
 					"length": 10,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25378,7 +25462,8 @@
 					"length": 6,
 					"twistingFactor": 0.14,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25387,7 +25472,8 @@
 					"length": 5,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25397,7 +25483,8 @@
 					"twistingFactor": 0.2,
 					"neededEquipments": [
 						"RU",
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25406,7 +25493,8 @@
 					"length": 14,
 					"twistingFactor": 0.15,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25415,7 +25503,8 @@
 					"length": 5,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25424,7 +25513,8 @@
 					"length": 7,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25433,7 +25523,8 @@
 					"length": 4,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25442,7 +25533,8 @@
 					"length": 10,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25451,7 +25543,8 @@
 					"length": 11,
 					"twistingFactor": 0.13,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25460,7 +25553,8 @@
 					"length": 9,
 					"twistingFactor": 0.14,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25469,7 +25563,8 @@
 					"length": 9,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25478,7 +25573,8 @@
 					"length": 8,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25487,7 +25583,8 @@
 					"length": 7,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25496,7 +25593,8 @@
 					"length": 10,
 					"twistingFactor": 0.13,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25505,7 +25603,8 @@
 					"length": 15,
 					"twistingFactor": 0.15,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25514,8 +25613,8 @@
 					"length": 7,
 					"twistingFactor": 0.21,
 					"neededEquipments": [
-						"RU", "1520mm"
-
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25524,7 +25623,8 @@
 					"length": 10,
 					"twistingFactor": 0.19,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25533,7 +25633,8 @@
 					"length": 10,
 					"twistingFactor": 0.13,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25542,7 +25643,8 @@
 					"length": 7,
 					"twistingFactor": 0.22,
 					"neededEquipments": [
-						"RU", "1520mm"
+						"RU",
+						"1520mm"
 					]
 				}
 			]
@@ -29147,7 +29249,8 @@
 					"maxSpeed": 100,
 					"twistingFactor": 0.3,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -29157,7 +29260,8 @@
 					"maxSpeed": 80,
 					"twistingFactor": 0.14,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -29169,7 +29273,8 @@
 					"twistingFactor": 0.01,
 					"neededEquipments": [
 						"LV",
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -29180,7 +29285,8 @@
 					"maxSpeed": 120,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				}
 			]
@@ -38520,6 +38626,19 @@
 			]
 		},
 		{
+			"name": "Oberlausitzbahn",
+			"start": "BHC",
+			"end": "BHW",
+			"electrified": true,
+			"group": 0,
+			"length": 15,
+			"maxSpeed": 160,
+			"twistingFactor": 0.08,
+			"neededEquipments": [
+				"DE"
+			]
+		},
+		{
 			"name": "Pfälzische Maximiliansbahn",
 			"group": 1,
 			"electrified": false,
@@ -44774,7 +44893,8 @@
 					"length": 30,
 					"twistingFactor": 0.1,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -44784,7 +44904,8 @@
 					"maxSpeed": 100,
 					"twistingFactor": 0.12,
 					"neededEquipments": [
-						"LV", "1520mm"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -44794,7 +44915,8 @@
 					"length": 19,
 					"twistingFactor": 0.12,
 					"neededEquipments": [
-						"LT", "1520mm"
+						"LT",
+						"1520mm"
 					]
 				}
 			]
