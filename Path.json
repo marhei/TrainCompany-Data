@@ -7183,6 +7183,239 @@
 			]
 		},
 		{
+			"name": "Oberlausitz-Bahn",
+			"start": "DG",
+			"end": "BHW",
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.2,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "DG",
+					"end": "BNY",
+					"electrified": false,
+					"length": 25,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "BNY",
+					"end": "BPE",
+					"electrified": true,
+					"length": 6,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "BPE",
+					"end": "BKL",
+					"electrified": true,
+					"length": 11,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "BKL",
+					"end": "BUS",
+					"electrified": true,
+					"length": 5,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "BUS",
+					"end": "BLOH",
+					"electrified": true,
+					"length": 8,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "BLOH",
+					"end": "BHW",
+					"electrified": true,
+					"length": 14,
+					"twistingFactor": 0.18
+				}
+			]
+		},
+		{
+			"objects": [
+				{
+					"start": "XFSTG",
+					"end": "🇫🇷BHM",
+					"name": "Ligne de Noisy-le-sec à Strasbourg-Ville",
+					"electrified": false,
+					"group": 0,
+					"length": 2,
+					"maxSpeed": 130,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷BHM",
+					"end": "🇫🇷LWL",
+					"electrified": false,
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.03,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷LWL",
+					"end": "🇫🇷HRL",
+					"electrified": false,
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 100,
+					"twistingFactor": 0.13,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷HRL",
+					"end": "🇫🇷DRS",
+					"electrified": false,
+					"group": 0,
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.18,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷DRS",
+					"end": "🇫🇷ZHM",
+					"electrified": false,
+					"group": 0,
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷ZHM",
+					"end": "🇫🇷RHI",
+					"electrified": false,
+					"group": 0,
+					"length": 17,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷RHI",
+					"end": "🇫🇷SSZ",
+					"electrified": false,
+					"group": 0,
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.09,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷SSZ",
+					"end": "🇫🇷MHQ",
+					"electrified": false,
+					"group": 0,
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "🇫🇷MHQ",
+					"end": "XFLTG",
+					"electrified": false,
+					"group": 0,
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFLTG",
+					"end": "RBRG",
+					"name": "Bienwaldbahn",
+					"electrified": false,
+					"group": 0,
+					"length": 2,
+					"maxSpeed": 75,
+					"twistingFactor": 0.12,
+					"neededEquipments": [
+						"DE"
+					]
+				},
+				{
+					"start": "RBRG",
+					"end": "RNBU",
+					"name": "Bienwaldbahn",
+					"electrified": false,
+					"group": 0,
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"DE"
+					]
+				},
+				{
+					"start": "RNBU",
+					"end": "RHGB",
+					"name": "Bienwaldbahn",
+					"electrified": false,
+					"group": 0,
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"DE"
+					]
+				},
+				{
+					"start": "RHGB",
+					"end": "RMAI",
+					"name": "Bienwaldbahn",
+					"electrified": false,
+					"group": 0,
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"DE"
+					]
+				},
+				{
+					"start": "RMAI",
+					"end": "RWRT",
+					"name": "Bienwaldbahn",
+					"electrified": false,
+					"group": 0,
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.28,
+					"neededEquipments": [
+						"DE"
+					]
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 2,
 			"name": "LGV Interconnexion Est",
@@ -8089,6 +8322,30 @@
 					"start": "EAML",
 					"end": "EMST",
 					"length": 8
+				}
+			]
+		},
+		{
+			"start": "BRU",
+			"end": "LF",
+			"electrified": true,
+			"group": 0,
+			"length": 50,
+			"maxSpeed": 160,
+			"twistingFactor": 0.19,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "BRU",
+					"end": "BBLW",
+					"length": 30
+				},
+				{
+					"start": "BBLW",
+					"end": "LF",
+					"length": 20
 				}
 			]
 		},
@@ -11227,8 +11484,14 @@
 				},
 				{
 					"start": "FLG",
+					"end": "FWX",
+					"length": 11
+				},
+				{
+					"start": "FWX",
 					"end": "FD",
-					"length": 13
+					"length": 2,
+					"maxSpeed": 120
 				},
 				{
 					"start": "FD",
@@ -19012,7 +19275,7 @@
 					"end": "🇺🇸TXA",
 					"name": "Little Rock Subdivision",
 					"length": 52,
-					"maxSpeed": 100,
+					"maxSpeed": 120,
 					"twistingFactor": 0.14
 				},
 				{
@@ -19020,7 +19283,7 @@
 					"end": "🇺🇸MHL",
 					"name": "Little Rock Subdivision",
 					"length": 106,
-					"maxSpeed": 100,
+					"maxSpeed": 112,
 					"twistingFactor": 0.16
 				},
 				{
@@ -19028,7 +19291,7 @@
 					"end": "🇺🇸LVW",
 					"name": "Little Rock Subdivision",
 					"length": 35,
-					"maxSpeed": 100,
+					"maxSpeed": 96,
 					"twistingFactor": 0.14
 				},
 				{
@@ -19036,7 +19299,7 @@
 					"end": "🇺🇸MIN",
 					"name": "Mineola Subdivision",
 					"length": 74,
-					"maxSpeed": 100,
+					"maxSpeed": 127,
 					"twistingFactor": 0.1
 				},
 				{
@@ -19044,7 +19307,7 @@
 					"end": "🇺🇸DAL",
 					"name": "Mineola Subdivision",
 					"length": 130,
-					"maxSpeed": 100,
+					"maxSpeed": 127,
 					"twistingFactor": 0.15
 				},
 				{
@@ -19052,7 +19315,7 @@
 					"end": "🇺🇸FTW",
 					"name": "Dallas Subdivision",
 					"length": 50,
-					"maxSpeed": 16,
+					"maxSpeed": 127,
 					"twistingFactor": 0.15
 				},
 				{
@@ -25591,9 +25854,6 @@
 			"electrified": false,
 			"group": 0,
 			"maxSpeed": 120,
-			"neededEquipments": [
-				"1520mm"
-			],
 			"objects": [
 				{
 					"start": "🇱🇻O7800848460",
@@ -25601,7 +25861,8 @@
 					"length": 6,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"LV"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25610,7 +25871,8 @@
 					"length": 4,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"LV"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25619,7 +25881,8 @@
 					"length": 11,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"LV"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25628,7 +25891,8 @@
 					"length": 9,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"LV"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25637,7 +25901,8 @@
 					"length": 10,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"LV"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25646,7 +25911,8 @@
 					"length": 6,
 					"twistingFactor": 0.14,
 					"neededEquipments": [
-						"LV"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25655,7 +25921,8 @@
 					"length": 5,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"LV"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25665,7 +25932,8 @@
 					"twistingFactor": 0.2,
 					"neededEquipments": [
 						"RU",
-						"LV"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -25674,7 +25942,8 @@
 					"length": 14,
 					"twistingFactor": 0.15,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25683,7 +25952,8 @@
 					"length": 5,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25692,7 +25962,8 @@
 					"length": 7,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25701,7 +25972,8 @@
 					"length": 4,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25710,7 +25982,8 @@
 					"length": 10,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25719,7 +25992,8 @@
 					"length": 11,
 					"twistingFactor": 0.13,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25728,7 +26002,8 @@
 					"length": 9,
 					"twistingFactor": 0.14,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25737,7 +26012,8 @@
 					"length": 9,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25746,7 +26022,8 @@
 					"length": 8,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25755,7 +26032,8 @@
 					"length": 7,
 					"twistingFactor": 0.01,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25764,7 +26042,8 @@
 					"length": 10,
 					"twistingFactor": 0.13,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25773,7 +26052,8 @@
 					"length": 15,
 					"twistingFactor": 0.15,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25782,7 +26062,8 @@
 					"length": 7,
 					"twistingFactor": 0.21,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25791,7 +26072,8 @@
 					"length": 10,
 					"twistingFactor": 0.19,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25800,7 +26082,8 @@
 					"length": 10,
 					"twistingFactor": 0.13,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				},
 				{
@@ -25809,7 +26092,8 @@
 					"length": 7,
 					"twistingFactor": 0.22,
 					"neededEquipments": [
-						"RU"
+						"RU",
+						"1520mm"
 					]
 				}
 			]
@@ -29611,9 +29895,6 @@
 		{
 			"electrified": false,
 			"group": 0,
-			"neededEquipments": [
-				"1520mm"
-			],
 			"objects": [
 				{
 					"start": "🇱🇹SQQ",
@@ -29622,7 +29903,8 @@
 					"maxSpeed": 100,
 					"twistingFactor": 0.3,
 					"neededEquipments": [
-						"LT"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -29632,7 +29914,8 @@
 					"maxSpeed": 80,
 					"twistingFactor": 0.14,
 					"neededEquipments": [
-						"LT"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -29644,7 +29927,8 @@
 					"twistingFactor": 0.01,
 					"neededEquipments": [
 						"LV",
-						"LT"
+						"LT",
+						"1520mm"
 					]
 				},
 				{
@@ -29655,7 +29939,8 @@
 					"maxSpeed": 120,
 					"twistingFactor": 0.16,
 					"neededEquipments": [
-						"LV"
+						"LV",
+						"1520mm"
 					]
 				}
 			]
@@ -30464,6 +30749,64 @@
 					"end": "ANB",
 					"length": 13,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 100,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "ANB",
+					"end": "AUP",
+					"length": 5
+				},
+				{
+					"start": "AUP",
+					"end": "ANBS",
+					"length": 4
+				},
+				{
+					"start": "ANBS",
+					"end": "XDTO",
+					"length": 7
+				},
+				{
+					"start": "XDTO",
+					"end": "🇩🇰Trn",
+					"length": 1
+				},
+				{
+					"start": "🇩🇰Trn",
+					"end": "🇩🇰Vis",
+					"length": 8
+				},
+				{
+					"start": "🇩🇰Vis",
+					"end": "🇩🇰Bw",
+					"length": 6
+				},
+				{
+					"start": "🇩🇰Bw",
+					"end": "🇩🇰Æk",
+					"length": 13
+				},
+				{
+					"start": "🇩🇰Æk",
+					"end": "🇩🇰Rb",
+					"length": 20
+				},
+				{
+					"start": "🇩🇰Rb",
+					"end": "🇩🇰Gs",
+					"length": 8
+				},
+				{
+					"start": "🇩🇰Gs",
+					"end": "🇩🇰Bm",
+					"length": 8
 				}
 			]
 		},
@@ -39438,6 +39781,19 @@
 			]
 		},
 		{
+			"name": "Oberlausitzbahn",
+			"start": "BHC",
+			"end": "BHW",
+			"electrified": true,
+			"group": 0,
+			"length": 15,
+			"maxSpeed": 160,
+			"twistingFactor": 0.08,
+			"neededEquipments": [
+				"DE"
+			]
+		},
+		{
 			"name": "Pfälzische Maximiliansbahn",
 			"group": 1,
 			"electrified": false,
@@ -45730,9 +46086,6 @@
 			"name": "Glūda - Reņģe - Mažeikiai",
 			"electrified": false,
 			"group": 0,
-			"neededEquipments": [
-				"1520mm"
-			],
 			"objects": [
 				{
 					"start": "🇱🇻O59834456",
@@ -45741,7 +46094,8 @@
 					"length": 30,
 					"twistingFactor": 0.1,
 					"neededEquipments": [
-						"LV"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -45751,7 +46105,8 @@
 					"maxSpeed": 100,
 					"twistingFactor": 0.12,
 					"neededEquipments": [
-						"LV"
+						"LV",
+						"1520mm"
 					]
 				},
 				{
@@ -45761,7 +46116,8 @@
 					"length": 19,
 					"twistingFactor": 0.12,
 					"neededEquipments": [
-						"LT"
+						"LT",
+						"1520mm"
 					]
 				}
 			]
@@ -53937,6 +54293,30 @@
 					"end": "DABU",
 					"length": 6,
 					"maxSpeed": 60
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Frankfurt (Main) Hbf-Kronberg (Taunus)",
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.22,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FF",
+					"end": "FES",
+					"length": 11,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "FES",
+					"end": "FKRO",
+					"length": 4,
+					"twistingFactor": 0.2
 				}
 			]
 		},

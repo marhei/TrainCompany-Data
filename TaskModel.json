@@ -579,7 +579,14 @@
 				"Verbinde England und Schottland zwischen %s und %s.",
 				"Bring den Flying Scotsman von %s nach %s."
 			],
-			"stations": [ "XKLP", "🇬🇧PBO", "🇬🇧NNG", "🇬🇧DON", "🇬🇧YRK", "🇬🇧NTR", "🇬🇧DAR", "🇬🇧DHM", "🇬🇧NCL", "🇬🇧EDB" ],
+			"objects": [
+				{
+					"stations": [ "XKLP", "🇬🇧PBO", "🇬🇧NNG", "🇬🇧DON", "🇬🇧YRK", "🇬🇧NTR", "🇬🇧DAR", "🇬🇧DHM", "🇬🇧NCL", "🇬🇧EDB" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧PBO", "🇬🇧NNG", "🇬🇧DON", "🇬🇧YRK", "🇬🇧NTR", "🇬🇧DAR", "🇬🇧DHM", "🇬🇧NCL", "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ABD" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -593,7 +600,17 @@
 				"Fahre über die Great Western Main Line nach %2$s.",
 				"Verbinde den Westen Englands von %s nach %s."
 			],
-			"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧DID", "🇬🇧SWI", "🇬🇧CPM", "🇬🇧BTH", "🇬🇧BRI" ],
+			"objects": [
+				{
+					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧DID", "🇬🇧SWI", "🇬🇧CPM", "🇬🇧BTH", "🇬🇧BRI" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧34100", "🇬🇧34262", "🇬🇧35580", "🇬🇧35800" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧BRI", "🇬🇧34100", "🇬🇧34262", "🇬🇧35580", "🇬🇧35800", "🇬🇧35730", "🇬🇧35240", "🇬🇧35340", "🇬🇧35400", "🇬🇧35260" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -690,8 +707,64 @@
 					"pathSuggestion": [ "XKLP", "🇬🇧COV", "🇬🇧SOT", "🇬🇧CHU", "🇬🇧MAN", "🇬🇧PRE", "🇬🇧LAN", "🇬🇧OXN", "🇬🇧PNR", "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧MTH", "🇬🇧GLC" ]
 				},
 				{
+					"stations": [ "🇬🇧GLC", "🇬🇧LOC", "🇬🇧CAR", "🇬🇧PNR", "🇬🇧OXN", "🇬🇧LAN", "🇬🇧PRE", "🇬🇧MAN", "🇬🇧LIV" ]
+				},
+				{
 					"stations": [ "XKLP", "XKRU", "🇬🇧BHI", "🇬🇧BHM" ]
 				}
+			]
+		},
+		{
+			"name": "IC von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity von %s nach %s.",
+				"Fahre an der Ostküste Großbritanniens nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧BWK", "🇬🇧NCL", "🇬🇧DAR", "🇬🇧YRK", "🇬🇧LDS", "🇬🇧MAN", "🇬🇧LIV" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧68360", "🇬🇧COL", "🇬🇧68560", "🇬🇧IPS", "🇬🇧73480", "🇬🇧73090" ]
+				}
+			]
+		},
+		{
+			"name": "Inter7City von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity von %s nach %s.",
+				"Fahre durch Schottland nach %2$s.",
+				"Scotrail braucht einen Intercity nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧98880", "🇬🇧88050", "🇬🇧O6768774851", "🇬🇧88010", "🇬🇧86100", "🇬🇧INV" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧98880", "🇬🇧88050", "🇬🇧O6768774851", "🇬🇧88010", "🇬🇧86100", "🇬🇧INV" ],
+					"pathSuggestion": [ "🇬🇧EDB", "🇬🇧99430", "🇬🇧98880", "🇬🇧88050", "🇬🇧O6768774851", "🇬🇧88010", "🇬🇧86100", "🇬🇧INV" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧CUP", "🇬🇧LEU", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧STN", "🇬🇧ABD" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ],
+					"pathSuggestion": [ "🇬🇧GLC", "🇬🇧99430", "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ]
+				},
+				{
+					"stations": [ "🇬🇧ABD", "🇬🇧INV" ],
+					"stopsEverywhere": true
+				}				
 			]
 		},
 		{
@@ -1177,6 +1250,106 @@
 			],
 			"group": 1,
 			"service": 1
+		},
+		{
+			"name": " neg RB65 von %s nach %s",
+			"descriptions": [
+				"Bringe die Badegäste von %s nach %s.",
+				"Bring die IC-Kurswagen pünktlich nach %2$s.",
+				"Fahre die RB pünktlich nach %2$s, damit der Anschluss an die Fähre sichergestellt ist."
+			],
+			"stations": [ "ANB", "ADM" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "ANB", "ADM" ]
+		},
+		{
+			"name": "TER/RB von %s nach %s",
+			"descriptions": [
+				"Fahre über die Bienwaldbahn von %s nach %s.",
+				"Fahre abseits nützlicher Fahrplanlagen, um möglichst keine Anschlüsse in Strasbourg zu ermöglichen.",
+				"Manche Züge fahren sogar über die Grenze. Schockierend, oder?"
+			],
+			"objects": [
+				{
+					"stations": [ "XFSTG", "🇫🇷BHM", "🇫🇷LWL", "🇫🇷HRL", "🇫🇷DRS", "🇫🇷ZHM", "🇫🇷RHI", "🇫🇷SSZ", "🇫🇷MHQ", "XFLTG", "RBRG", "RNBU", "RHGB", "RMAI", "RWRT" ]
+				},
+				{
+					"stations": [ "XFSTG", "🇫🇷BHM", "🇫🇷LWL", "🇫🇷HRL", "🇫🇷DRS", "🇫🇷ZHM", "🇫🇷RHI", "🇫🇷SSZ", "🇫🇷MHQ", "XFLTG" ]
+				},
+				{
+					"stations": [ "XFLTG", "RBRG", "RNBU", "RHGB", "RMAI", "RWRT" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"stopsEverywhere": true,
+			"service": 3
+		},
+		{
+			"name": "S 4 von %s nach %s",
+			"descriptions": [
+				"Bringe die S-Bahn der Linie 4 von %s nach %s.",
+				"Bring die Fahrgäste in der S 4 pünktlich nach %2$s.",
+				"Fahre die S störungsfrei nach %2$s."
+			],
+			"stations": [ "FF", "FES", "FKRO" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "FF", "FES", "FKRO" ]
+		},
+		{
+			"name": "RB 64 von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn der Linie 64 von %s nach %s.",
+				"Bring die Fahrgäste in der RB 64 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "DG", "BNY", "BPE", "BKL", "BUS", "BLOH", "BHW" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "DG", "BNY", "BPE", "BKL", "BUS", "BLOH", "BHW" ]
+		},
+		{
+			"name": "RE 15 von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 15 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 15 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "BHW", "BHC", "BRU", "DGB", "DPR", "DNDR", "DCW", "DH" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "BHW", "BHC", "BBS", "BRU", "DGB", "DPR", "DNDR", "DCW", "DH" ]
+		},
+		{
+			"name": "RE 11 von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 11 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 11 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "BHW", "BHC", "BRU", "LF", "LTG", "LEG", "LL" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "BHW", "BHC", "BBS", "BRU", "LF", "LTG", "LEG", "LL" ]
 		},
 		{
 			"name": "Brightline von %s nach %s",
@@ -2754,6 +2927,48 @@
 		},
 		{
 			"group": 1,
+			"name": "Süwex RE2 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe den RE2 von %s nach %s durchs Mittelrheintal. Der Zug ist zeitweise stark ausgelastet.",
+				"Der RE2 muss von %s nach %s gebracht werden. Die Strecke ist stark ausgelastet.",
+				"Bringe den Regional-Express der Linie 2 pünktlich durchs Mittelrheintal."
+			],
+			"stations": [ "FF", "FFLF", "FRUE", "FMZ", "FIL", "FBGK", "FBCH", "FOBW", "KBOP", "KKO" ],
+			"pathSuggestion": [ "FF", "FFLF", "FRUE", "FMB", "FMZ", "FIL", "FBGK", "FBCH", "FOBW", "KBOP", "KKO" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB 65 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Diese Regionalbahn führt von %s nach %s durchs Alsenztal."
+			],
+			"stations": [ "FBGK", "SLN", "SBKN", "SBMS", "SENK", "SKL" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE17 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe den Regionalexpress von %s nach %s durchs Mittelrheintal.",
+				"Dieser Regionalexpress von %s nach %s ist bei Radfahreren beliebt."
+			],
+			"stations": [ "SKL", "SWNW", "SRC", "SBMS", "FBGK", "FOBW", "KBOP", "KKO" ],
+			"pathSuggestion": [ "SKL", "SWNW", "SRC", "SBMS", "FBGK", "FOBW", "KBOP", "KKO" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Regional-Express von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -3192,7 +3407,7 @@
 				"Dieser RB fährt bis ins deutsch-tschechisch-polnische Dreiländereck.",
 				"Der Abschnitt zwischen Görlitz und Zittau liegt teilweise in polnischem Gebiet."
 			],
-			"stations": [ "BC", "BCS", "DG",  "DZ" ],
+			"stations": [ "BC", "BCS", "DG", "DZ" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -3333,8 +3548,12 @@
 				"Der Musikwinkel-Express wird ein mal im Monat mit Ferkeltaxen gefahren."
 			],
 			"objects": [
-				{ "stations": [ "DAD", "DZA"] },
-				{ "stations": [ "DMB", "DSNO"] }
+				{
+					"stations": [ "DAD", "DZA" ]
+				},
+				{
+					"stations": [ "DMB", "DSNO" ]
+				}
 			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
@@ -3351,7 +3570,9 @@
 				"Zu besonderen Gelegenheiten wird dieser Zug mit einer Dampflok bespannt."
 			],
 			"objects": [
-				{ "stations": [ "DNO", "DGVB", "DFR", "DMUL", "DHU"] },
+				{
+					"stations": [ "DNO", "DGVB", "DFR", "DMUL", "DHU" ]
+				},
 				{
 					"stations": [ "DNO", "DDE", "LL", "UNM", "UWM", "UE P", "UA" ],
 					"pathSuggestion": [ "DNO", "DDE", "LBEU", "LBOR", "LL", "UNM", "UGH", "UWM", "UE P", "UND", "UA" ]
@@ -3370,7 +3591,7 @@
 				"Fahre den RB 83 der Freiberger Eisenbahn von %s nach %s.",
 				"Auch das Erzgebirge ist bei Urlaubern beliebt."
 			],
-			"stations": [ "DFR", "DMUL", "DHU"],
+			"stations": [ "DFR", "DMUL", "DHU" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -3613,6 +3834,20 @@
 		},
 		{
 			"group": 1,
+			"name": "HLB von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Die RB 75 führt von %s nach %s.",
+				"Verbinde Rhein und Main mit der RB 75 von %s nach %s."
+			],
+			"stations": [ "FW", "FMZ", "FMB", "FDG", "FD", "NAH" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "S8 von %s nach %s",
 			"service": 3,
 			"descriptions": [
@@ -3694,6 +3929,16 @@
 						"Fahre die S8 von %s nach %s."
 					],
 					"stations": [ "DH", "DLAB", "DRAG", "DAF", "DKA" ]
+				},
+				{
+					"descriptions": [
+						"Fahre die Sommer-Edition der S8 von %s nach %s.",
+						"Mache die Urlauber glücklich und bringe sie in diesem Sommerzug von %s nach %s.",
+						"Bringe die Seenlandbahn von %s nach %s pünktlich an ihr Ziel.",
+						"Fahre die Seenlandbahn von %s nach %s ins Lausitzer Seenland.",
+						"In dieser Sommer-exklusiven Edition der S8 fährst du von %s nach %s."
+					],
+					"stations": [ "DH", "DLAB", "DRAG", "DAF", "DKA", "BHC", "BSN" ]
 				}
 			],
 			"neededCapacity": [
@@ -3936,7 +4181,7 @@
 			"descriptions": [
 				"Für ein Event in der Region hat der VRR einen Rhein-Ruhr-Express Verstärkerzug von %s nach %s bestellt."
 			],
-			"stations": [ "KK","KLMI", "KD", "KDFF", "EDG", "EE" ],
+			"stations": [ "KK", "KLMI", "KD", "KDFF", "EDG", "EE" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -4212,6 +4457,29 @@
 				{ "name": "passengers" }
 			],
 			"pathSuggestion": [ "SKL", "SHY", "RN", "RLA", "RWND", "RWRT", "RK" ]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s in die Südwestpfalz."
+			],
+			"objects": [
+				{
+					"stations": [ "SSH", "SRO", "SPSN", "SPS" ]
+				},
+				{
+					"stations": [ "SKL", "SPSN", "SPS" ]
+				},
+				{
+					"stations": [ "RLA", "SPSN", "SPS" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		},
 		{
 			"group": 1,
@@ -6253,7 +6521,7 @@
 			"objects": [
 				{
 					"stations": [ "XJBC", "XJLP", "XJNI" ],
-					"pathSuggestion": ["XJBC", "XJBR", "XJLP", "XJNI"]
+					"pathSuggestion": [ "XJBC", "XJBR", "XJLP", "XJNI" ]
 				},
 				{
 					"stations": [ "XRZ", "XRT", "XJSI", "XJBC" ],
@@ -6914,6 +7182,51 @@
 				},
 				{
 					"stations": [ "🇬🇧EDB", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧99430", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ABD" ]
+				},
+				{
+					"stations": [ "🇬🇧INV", "🇬🇧ABD" ]
+				},
+				{
+					"stations": [ "🇬🇧INV", "🇬🇧86320", "🇬🇧86801" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧STR" ]
+				},
+				{
+					"stations": [ "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧70991", "🇬🇧BTN" ]
+				},
+				{
+					"stations": [ "🇬🇧SOU", "🇬🇧BTN" ]
+				},
+				{
+					"stations": [ "🇬🇧SOU", "🇬🇧BSK", "🇬🇧ESH", "XKLP" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧BXB", "🇬🇧CBG" ]
+				},
+				{
+					"stations": [ "XKLP", "🇬🇧BXB", "🇬🇧CBG", "🇬🇧ELY" ]
+				},
+				{
+					"stations": [ "🇬🇧CBG", "🇬🇧ELY", "🇬🇧73090"]
+				},
+				{
+					"stations": [ "🇬🇧35260", "🇬🇧34100"]
+				},
+				{
+					"stations": [ "🇬🇧SWA", "🇬🇧CDF"]
+				},
+				{
+					"stations": [ "🇬🇧68630", "🇬🇧O181313467"]
 				}
 			],
 			"stopsEverywhere": true
@@ -8360,7 +8673,7 @@
 				"Fahre diesen Regionalzug von %s nach %s.",
 				"Verbinde Kaunas mit der Grenze zu Polen."
 			],
-			"stations": [ "🇵🇱TRA", "🇱🇹SES", "🇱🇹KZR", "🇱🇹KUN" ],
+			"stations": [ "🇵🇱🇱🇹", "🇱🇹SES", "🇱🇹KZR", "🇱🇹KUN" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -9176,6 +9489,269 @@
 			],
 			"neededCapacity": [
 				{ "name": "castor", "value": 10 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Ekol-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre den Ekol von %s nach %s.",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "KK", "XIT" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 39 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Ambrogio-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "KN", "XIMB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 33 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Walter-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen KLV-Ganzzug von %s nach %s.",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "EWAN", "XUCU" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 39 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Pozan-Shuttle-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Shuttle-KLV von %s nach %s.",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇳🇱Erp", "🇵🇱PWS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 28 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Eiserner Rhein-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen altehrwürdigen KLV von %s nach %s.",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇳🇱Erp", "XIMB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 30 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Lovosice-Shuttle-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen KLV von %s nach %s.",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "KRH", "XTLO" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 28 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Mars-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Keine Schokoriegel, sondern einen Intermodalzug bespannst du von Luxemburg bis an die Adria",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XLB", "XIT" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 36 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Kohlezug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Schaffe, Schaffe, Kohlezügle! - Bringe Importkohle vom Rotterdamer Hafen ins Ländle"
+			],
+			"objects": [
+				{
+					"stations": [ "🇳🇱Erp", "TP" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "coal", "value": 715 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "S6 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Das Blasorchester Darmstadt-Wixhausen veranstaltet ein Benefizkonzert.",
+				"Fahre die S-Bahn von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "FVL", "FF", "FLG", "FWX" ]
+				},
+				{
+					"stations": [ "FFG", "FVL", "FF", "FLG", "FWX" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Containerganzzug im Netzwerkverkehr von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen nationalen Containerganzzug im Seehafen-Hinterlandverkehr von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "HBHL", "TKH" ]
+				},
+				{
+					"stations": [ "HBHL", "TU" ]
+				},
+				{
+					"stations": [ "HBHL", "EDO" ]
+				},
+				{
+					"stations": [ "HW", "KRH" ]
+				},
+				{
+					"stations": [ "HW", "TKH", "TU" ]
+				},
+				{
+					"stations": [ "AHAR", "TKH" ]
+				},
+				{
+					"stations": [ "AHAR", "TU" ]
+				},
+				{
+					"stations": [ "AHAR", "RMF" ]
+				},
+				{
+					"stations": [ "HBHL", "RMF" ]
+				},
+				{
+					"stations": [ "AHAR", "RM" ]
+				},
+				{
+					"stations": [ "AHAR", "MH" ]
+				},
+				{
+					"stations": [ "HBHL", "MH" ]
+				},
+				{
+					"stations": [ "AHAR", "NN" ]
+				},
+				{
+					"stations": [ "HBHL", "NN" ]
+				},
+				{
+					"stations": [ "AHAR", "TU" ]
+				},
+				{
+					"stations": [ "HBHL", "FMLS", "NRH" ]
+				},
+				{
+					"stations": [ "AHAR", "NHO" ]
+				},
+				{
+					"stations": [ "HBHL", "NHO" ]
+				},
+				{
+					"stations": [ "HBHL", "LL" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 92 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Containerganzzug im Netzwerkverkehr von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen internationalen Containerganzzug im Seehafen-Hinterlandverkehr von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "HBHL", "AHAR", "XMBK" ]
+				},
+				{
+					"stations": [ "HBHL", "XAL" ]
+				},
+				{
+					"stations": [ "HBHL", "XAWE", "XAL" ]
+				},
+				{
+					"stations": [ "HBHL", "LL" ]
+				},
+				{
+					"stations": [ "🇳🇱Erp", "MH" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 88 }
 			],
 			"stopsEverywhere": false
 		}
