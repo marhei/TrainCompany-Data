@@ -9651,6 +9651,106 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 0,
+			"name": "Containerganzzug im Netzwerkverkehr von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen nationalen Containerganzzug im Seehafen-Hinterlandverkehr von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "HBHL", "TKH" ]
+				},
+				{
+					"stations": [ "HBHL", "TU" ]
+				},
+				{
+					"stations": [ "HBHL", "EDO" ]
+				},
+				{
+					"stations": [ "HW", "KRH" ]
+				},
+				{
+					"stations": [ "HW", "TKH", "TU" ]
+				},
+				{
+					"stations": [ "AHAR", "TKH" ]
+				},
+				{
+					"stations": [ "AHAR", "TU" ]
+				},
+				{
+					"stations": [ "AHAR", "RMF" ]
+				},
+				{
+					"stations": [ "HBHL", "RMF" ]
+				},
+				{
+					"stations": [ "AHAR", "RM" ]
+				},
+				{
+					"stations": [ "AHAR", "MH" ]
+				},
+				{
+					"stations": [ "HBHL", "MH" ]
+				},
+				{
+					"stations": [ "AHAR", "NN" ]
+				},
+				{
+					"stations": [ "HBHL", "NN" ]
+				},
+				{
+					"stations": [ "AHAR", "TU" ]
+				},
+				{
+					"stations": [ "HBHL", "FMLS", "NRH" ]
+				},
+				{
+					"stations": [ "AHAR", "NHO" ]
+				},
+				{
+					"stations": [ "HBHL", "NHO" ]
+				},
+				{
+					"stations": [ "HBHL", "LL" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 92 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Containerganzzug im Netzwerkverkehr von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen internationalen Containerganzzug im Seehafen-Hinterlandverkehr von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "HBHL", "AHAR", "XMBK" ]
+				},
+				{
+					"stations": [ "HBHL", "XAL" ]
+				},
+				{
+					"stations": [ "HBHL", "XAWE", "XAL" ]
+				},
+				{
+					"stations": [ "HBHL", "LL" ]
+				},
+				{
+					"stations": [ "🇳🇱Erp", "MH" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 88 }
+			],
+			"stopsEverywhere": false
 		}
 	]
 }
