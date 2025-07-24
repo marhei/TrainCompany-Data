@@ -3602,6 +3602,26 @@
 			]
 		},
 		{
+			"id": 622,
+			"group": 2,
+			"name": "Alstom Coradia LINT 54",
+			"shortcut": "BR 622",
+			"speed": 140,
+			"weight": 95,
+			"force": 87,
+			"length": 54,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 350000,
+			"compatibleWith": [32],
+			"maxConnectedUnits": 2,
+			"operationCosts": 70,
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 172}
+			]
+		},
+		{
 			"id": 32,
 			"group": 2,
 			"name": "Alstom Coradia LINT 81",
@@ -3612,7 +3632,8 @@
 			"length": 81,
 			"drive": 2,
 			"reliability": 1,
-			"cost": 300000,
+			"cost": 400000,
+			"compatibleWith": [622],
 			"maxConnectedUnits": 2,
 			"operationCosts": 70,
 			"exchangeTime": 60,
