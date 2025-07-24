@@ -658,7 +658,7 @@
 			"id": 80430,
 			"group": 2,
 			"service": 3,
-			"name": "BR 430",
+			"name": "BR 430.0",
 			"speed": 140,
 			"weight": 119,
 			"force": 145,
@@ -671,14 +671,14 @@
 			"equipments": ["DE"],
 			"exchangeTime": 40,
 			"capacity": [
-				{"name": "passengers", "value": 200}
+				{"name": "passengers", "value": 184}
 			]
 		},
 				{
 			"id": 81430,
 			"group": 2,
 			"service": 3,
-			"name": "BR 1430",
+			"name": "BR 430.2",
 			"shortcut": "Br 430 ETCS",
 			"speed": 140,
 			"weight": 119,
@@ -692,7 +692,7 @@
 			"equipments": ["DE", "ETCS"],
 			"exchangeTime": 40,
 			"capacity": [
-				{"name": "passengers", "value": 200}
+				{"name": "passengers", "value": 184}
 			]
 		},
 		{
@@ -750,7 +750,7 @@
 			"cost": 600000,
 			"operationCosts": 40,
 			"maxConnectedUnits": 4,
-			"equipments": ["AT", "DE"],
+			"equipments": ["ETCS", "AT", "DE"],
 			"capacity": [
 				{"name": "passengers", "value": 221}
 			]
@@ -3384,7 +3384,7 @@
 			"cost": 900000,
 			"operationCosts": 70,
 			"maxConnectedUnits": 2,
-			"equipments": ["RU"],
+			"equipments": ["RU", "1520mm"],
 			"capacity": [
 				{"name": "passengers", "value": 842}
 			]
@@ -3722,6 +3722,26 @@
 			]
 		},
 		{
+			"id": 622,
+			"group": 2,
+			"name": "Alstom Coradia LINT 54",
+			"shortcut": "BR 622",
+			"speed": 140,
+			"weight": 95,
+			"force": 87,
+			"length": 54,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 350000,
+			"compatibleWith": [32],
+			"maxConnectedUnits": 2,
+			"operationCosts": 70,
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 172}
+			]
+		},
+		{
 			"id": 32,
 			"group": 2,
 			"name": "Alstom Coradia LINT 81",
@@ -3732,7 +3752,8 @@
 			"length": 81,
 			"drive": 2,
 			"reliability": 1,
-			"cost": 300000,
+			"cost": 400000,
+			"compatibleWith": [622],
 			"maxConnectedUnits": 2,
 			"operationCosts": 70,
 			"exchangeTime": 60,
@@ -5123,7 +5144,7 @@
 			"reliability": 0.95,
 			"cost": 350000,
 			"operationCosts": 95,
-			"equipments": ["ETCS", "DE", "NL","CZ", "BE", "IT", "PL", "DK", "SE", "BG", "HR", "RO", "SK", "SI", "HU", "RS"]
+			"equipments": ["ETCS", "LT", "DE", "NL","CZ", "BE", "IT", "PL", "DK", "SE", "BG", "HR", "RO", "SK", "SI", "HU", "RS"]
 		},
 		{
 			"id": 4188,
@@ -5139,7 +5160,7 @@
 			"reliability": 0.98,
 			"cost": 395000,
 			"operationCosts": 95,
-			"equipments": ["ETCS", "DE", "CH", "AT", "CZ", "HR"]
+			"equipments": ["ETCS", "DE", "NL","CZ", "BE", "IT", "PL", "DK", "SE", "BG", "HR", "RO", "SK", "SI", "HU", "RS"]
 		},
 		{
 			"id": 12,
@@ -6448,6 +6469,32 @@
 			"reliability": 0.9,
 			"cost": 220000,
 			"operationCosts": 145
+		},
+		{
+			"id": 219,
+			"group": 0,
+			"name": "BR 219",
+			"speed": 120,
+			"weight": 99,
+			"force": 220,
+			"length": 20,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 210000,
+			"operationCosts": 155
+		},
+		{
+			"id": 229,
+			"group": 0,
+			"name": "BR 229",
+			"speed": 140,
+			"weight": 116,
+			"force": 276,
+			"length": 20,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 220000,
+			"operationCosts": 150
 		},
 		{
 			"id": 223,

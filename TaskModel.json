@@ -1892,6 +1892,37 @@
 			]
 		},
 		{
+			"group": 0,
+			"name": "Güterzug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Es werden zwingenst Container in Ostdeutschland gebraucht! Fahre diesen nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "BNY", "DZ" ]
+				},
+				{
+					"stations": [ "BNY", "BRU" ]
+				},
+				{
+					"stations": [ "DH", "BRU", "BFBI", "WR" ]
+				},
+				{
+					"stations": [ "WR", "BFBI", "BRU", "DH" ]
+				},
+				{
+					"stations": [ "AH", "WG", "BLN", "BHW", "BNY" ]
+				},
+				{
+					"stations": [ "LH", "LW", "BLN", "BHW", "BNY" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 13 }
+			]
+		},
+		{
 			"group": 1,
 			"name": "Autoslaaptrein  von %s nach %s",
 			"service": 5,
@@ -3407,7 +3438,7 @@
 				"Dieser RB fährt bis ins deutsch-tschechisch-polnische Dreiländereck.",
 				"Der Abschnitt zwischen Görlitz und Zittau liegt teilweise in polnischem Gebiet."
 			],
-			"stations": [ "BC", "BCS", "DG", "DZ" ],
+			"stations": [ "BC", "BCS", "BSP", "DG", "DZ" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -5601,6 +5632,20 @@
 				"Das Kraftwerk in %2$s benötigt neue Kohle aus %1$s für Bahnstrom."
 			],
 			"stations": [ "KGRB" ],
+			"neededCapacity": [
+				{ "name": "coal", "value": 800 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Kohlezug nach %2$s",
+			"service": 11,
+			"descriptions": [
+				"In %2$s wird dringend Kohle aus dem Tagebau %1$s benötigt.",
+				"Schwarze Pumpe benötigt neue Kohle aus %1$s für eine Energieversorgung in der Region.",
+				"Die Energieversorgung der Lausitz ist gefährdet! Bringe pünktlich neue Kohle nach Schwarze Pumpe."
+			],
+			"stations": [ "BSPE" ],
 			"neededCapacity": [
 				{ "name": "coal", "value": 800 }
 			]
@@ -8640,10 +8685,10 @@
 			],
 			"objects": [
 				{
-					"stations": [ "🇱🇹KUN", "🇱🇹PLM", "🇱🇹RAD", "🇱🇹SQQ" ]
+					"stations": [ "🇱🇹KUN", "🇱🇹PLM", "🇱🇹GZN", "🇱🇹RAD", "🇱🇹KUT", "🇱🇹SQQ" ]
 				},
 				{
-					"stations": [ "🇱🇹SQQ", "🇱🇹RAD", "🇱🇹TZI" ]
+					"stations": [ "🇱🇹SQQ", "🇱🇹KUT", "🇱🇹RAD", "🇱🇹TZI" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -9364,10 +9409,13 @@
 			],
 			"objects": [
 				{
-					"stations": [ "🇱🇹O1127720728", "🇱🇹SQQ", "🇱🇹RAD", "🇱🇹PLM", "🇱🇹KUN" ]
+					"stations": [ "🇱🇹O1127720728", "ZLKZ", "🇱🇹SQQ", "🇱🇹KUT", "🇱🇹RAD", "🇱🇹GZN", "🇱🇹PLM", "🇱🇹KUN" ]
 				},
 				{
-					"stations": [ "🇱🇹O1127720728", "🇱🇹SQQ", "🇱🇹RAD", "🇱🇹PNV" ]
+					"stations": [ "🇱🇹O1127720728", "ZLKZ", "🇱🇹SQQ", "🇱🇹KUT", "🇱🇹RAD", "🇱🇹PNV" ]
+				},
+				{
+					"stations": [ "ZLV", "🇱🇹O3200258905", "🇱🇹PLM", "🇱🇹KUN" ]
 				}
 			],
 			"neededCapacity": [
@@ -9385,10 +9433,10 @@
 			],
 			"objects": [
 				{
-					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX" ]
+					"stations": [ "ZLV", "🇱🇹O4568215628", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX" ]
 				},
 				{
-					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻JEL", "🇱🇻RIX" ]
+					"stations": [ "ZLV", "🇱🇹O4568215628", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻JEL", "🇱🇻RIX" ]
 				}
 			],
 			"neededCapacity": [
@@ -9407,7 +9455,7 @@
 			"objects": [
 				{
 					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻RIX", "🇱🇻RIHA" ],
-					"pathSuggestion": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+					"pathSuggestion": [ "ZLV", "🇱🇹O4568215628", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
 				},
 				{
 					"stations": [ "🇱🇻VLM", "🇱🇻RIHA" ],
@@ -9442,7 +9490,7 @@
 			"objects": [
 				{
 					"stations": [ "ZLV", "🇱🇻DGP", "🇱🇻RIX", "🇱🇻RIHA" ],
-					"pathSuggestion": [ "ZLV", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+					"pathSuggestion": [ "ZLV", "🇱🇹O4568215628", "🇱🇻DGP", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
 				},
 				{
 					"stations": [ "🇱🇻VLM", "🇱🇻RIHA" ],
@@ -9477,11 +9525,11 @@
 			"objects": [
 				{
 					"stations": [ "🇷🇺O473887668", "XCNS", "🇱🇻RIX", "🇱🇻RIHA" ],
-					"pathSuggestion": [ "🇷🇺O473887668", "🇷🇺O907297496", "XCNS", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+					"pathSuggestion": [ "🇷🇺O473887668", "🇷🇺O907297496", "XCNS", "🇱🇻O7800848460", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
 				},
 				{
 					"stations": [ "XCDN", "XCNS", "🇱🇻RIX", "🇱🇻RIHA" ],
-					"pathSuggestion": [ "XCDN", "🇷🇺O907297496", "XCNS", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
+					"pathSuggestion": [ "XCDN", "🇷🇺O907297496", "XCNS", "🇱🇻O7800848460", "🇱🇻KRS", "🇱🇻PLVSG", "🇱🇻RIX", "🇱🇻ZMB", "🇱🇻RIHA" ]
 				}
 			],
 			"neededCapacity": [
@@ -9719,7 +9767,7 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "containers", "value": 92 }
+				{ "name": "containers", "value": 46 }
 			],
 			"stopsEverywhere": false
 		},
@@ -9748,7 +9796,7 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "containers", "value": 88 }
+				{ "name": "containers", "value": 44 }
 			],
 			"stopsEverywhere": false
 		}
