@@ -55758,6 +55758,34 @@
 			]
 		},
 		{
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0.39,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "BHW",
+					"end": "BSPE",
+					"electrified": true,
+					"length": 19
+				},
+				{
+					"start": "BSPE",
+					"end": "BKN",
+					"electrified": true,
+					"length": 12
+				},
+				{
+					"start": "BKN",
+					"end": "BSP",
+					"electrified": false,
+					"length": 24
+				}
+			]
+		},
+		{
 			"group": 1,
 			"name": "Salzkammergutbahn",
 			"maxSpeed": 100,
