@@ -658,7 +658,7 @@
 			"id": 80430,
 			"group": 2,
 			"service": 3,
-			"name": "BR 430",
+			"name": "BR 430.0",
 			"speed": 140,
 			"weight": 119,
 			"force": 145,
@@ -671,14 +671,14 @@
 			"equipments": ["DE"],
 			"exchangeTime": 40,
 			"capacity": [
-				{"name": "passengers", "value": 200}
+				{"name": "passengers", "value": 184}
 			]
 		},
 				{
 			"id": 81430,
 			"group": 2,
 			"service": 3,
-			"name": "BR 1430",
+			"name": "BR 430.2",
 			"shortcut": "Br 430 ETCS",
 			"speed": 140,
 			"weight": 119,
@@ -692,7 +692,7 @@
 			"equipments": ["DE", "ETCS"],
 			"exchangeTime": 40,
 			"capacity": [
-				{"name": "passengers", "value": 200}
+				{"name": "passengers", "value": 184}
 			]
 		},
 		{
@@ -750,7 +750,7 @@
 			"cost": 600000,
 			"operationCosts": 40,
 			"maxConnectedUnits": 4,
-			"equipments": ["AT", "DE"],
+			"equipments": ["ETCS", "AT", "DE"],
 			"capacity": [
 				{"name": "passengers", "value": 221}
 			]
