@@ -10749,6 +10749,49 @@
 			]
 		},
 		{
+			"name": "Eifelquerbahn",
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [],
+			"objects": [
+				{
+					"start": "KAND",
+					"end": "KKRF",
+					"length": 10,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "KKRF",
+					"end": "KNME",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "KNME",
+					"end": "KMYO",
+					"length": 8,
+					"maxSpeed": 60,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "KMYO",
+					"end": "KMYW",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "KMYW",
+					"end": "SKAI",
+					"length": 16,
+					"maxSpeed": 100,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.3,
