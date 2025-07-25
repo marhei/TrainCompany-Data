@@ -348,6 +348,42 @@
 			]
 		},
 		{
+			"name": "Steinbahn",
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [],
+			"objects": [
+				{
+					"start": "SLD",
+					"end": "SRAS",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "SRAS",
+					"end": "SGM",
+					"length": 9,
+					"maxSpeed": 70,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "SGM",
+					"end": "SALG",
+					"length": 10,
+					"maxSpeed": 60,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "SALG",
+					"end": "SKUS",
+					"length": 4,
+					"maxSpeed": 50,
+					"twistingFactor": 0.28
+				}
+			]
+		},
+		{
 			"twistingFactor": 0.1,
 			"electrified": false,
 			"objects": [
