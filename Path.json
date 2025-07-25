@@ -10579,6 +10579,93 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"name": "Odenwaldbahn",
+			"maxSpeed": 120,
+			"neededEquipments": [],
+			"objects": [
+				{
+					"start": "FD",
+					"end": "FORA",
+					"length": 16,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "FORA",
+					"end": "FREI",
+					"length": 7,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "FREI",
+					"end": "FWH",
+					"length": 8,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "FH",
+					"end": "FHDT",
+					"length": 5,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "FHDT",
+					"end": "FSEL",
+					"length": 4,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FSEL",
+					"end": "FBA",
+					"length": 9,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "FBA",
+					"end": "FGRU",
+					"length": 11,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FGRU",
+					"end": "FWH",
+					"length": 3,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FWH",
+					"end": "FMGR",
+					"length": 8,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "FMGR",
+					"end": "FKI",
+					"length": 3,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "FKI",
+					"end": "FMI",
+					"length": 6,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "FMI",
+					"end": "FERO",
+					"length": 3,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FERO",
+					"end": "REA",
+					"length": 30,
+					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
 			"name": "Drautalbahn",
 			"electrified": true,
 			"group": 0,
