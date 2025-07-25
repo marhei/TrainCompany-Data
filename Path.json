@@ -57152,6 +57152,36 @@
 			]
 		},
 		{
+			"name": "Hunsrückbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 50,
+			"twistingFactor": 0.63,
+			"neededEquipments": [],
+			"objects": [
+				{
+					"start": "KBOP",
+					"end": "KBZ",
+					"length": 6
+				},
+				{
+					"start": "KBZ",
+					"end": "KFLH",
+					"length": 3
+				},
+				{
+					"start": "KFLH",
+					"end": "KEHR",
+					"length": 3
+				},
+				{
+					"start": "KEHR",
+					"end": "KEMM",
+					"length": 3
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 100,
