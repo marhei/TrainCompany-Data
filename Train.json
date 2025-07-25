@@ -3705,8 +3705,8 @@
 		{
 			"id": 1975125,
 			"group": 2,
-			"name": "Intercity 125 (Class 254)",
-			"shortcut": "HST",
+			"name": "Intercity 125 (Class 254) long",
+			"shortcut": "HST GWR",
 			"speed": 201,
 			"weight": 383,
 			"force": 80,
@@ -3719,6 +3719,25 @@
 			"cost": 1900000,
 			"capacity": [
 				{"name": "passengers", "value": 566}
+			]
+		},
+		{
+			"id": 1975126,
+			"group": 2,
+			"name": "Intercity 125 (Class 254) short",
+			"shortcut": "HST Scotrail",
+			"speed": 201,
+			"weight": 240,
+			"force": 80,
+			"length": 103,
+			"drive": 2,
+			"reliability": 0.9,
+			"maxConnectedUnits": 1,
+			"equipments": ["GB"],
+			"operationCosts": 100,
+			"cost": 1000000,
+			"capacity": [
+				{"name": "passengers", "value": 238}
 			]
 		},
 		{
