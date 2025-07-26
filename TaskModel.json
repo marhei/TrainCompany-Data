@@ -1415,17 +1415,36 @@
 			"stopsEverywhere": true
 		},
 		{
-			"name": "IC von %s nach %s",
+			"name": "EIP von %s nach %s",
 			"descriptions": [
-				"Bringe den Intercity von %s nach %s.",
-				"Bring die Fahrgäste im IC pünktlich nach %2$s.",
-				"Fahre den IC störungsfrei nach %2$s."
+				"Bringe den EIP von %s nach %s.",
+				"Bring die Fahrgäste im EIP pünktlich nach %2$s.",
+				"Fahre den EIP störungsfrei nach %2$s.",
+				"Bring den EIP von %s nach %s."
 			],
+			"stations": [ "🇵🇱07331", "XPWW" ],
 			"neededCapacity": [
-				{ "name": "passengers" }
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
 			],
 			"group": 1,
-			"service": 1,
+			"service": 0,
+			"pathSuggestion": [ "🇵🇱07331", "XPWZ", "XPWW" ]
+		},
+		{
+			"name": "EIP von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity-Express von %s nach %s.",
+				"Bring die Fahrgäste im ICE pünktlich nach %2$s.",
+				"Fahre den ICE störungsfrei nach %2$s.",
+				"Bring den EIP von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1,
+			"service": 0,
 			"objects": [
 				{
 					"stations": [ "XPG", "XPWW", "XPWZ", "🇵🇱07331" ],
@@ -1438,17 +1457,19 @@
 			]
 		},
 		{
-			"name": "IC von %s nach %s",
+			"name": "EIP von %s nach %s",
 			"descriptions": [
-				"Bringe den Intercity von %s nach %s.",
-				"Bring die Fahrgäste im IC pünktlich nach %2$s.",
-				"Fahre den IC störungsfrei nach %2$s."
+				"Bringe den Intercity-Express von %s nach %s.",
+				"Bring die Fahrgäste im ICE pünktlich nach %2$s.",
+				"Fahre den ICE störungsfrei nach %2$s.",
+				"Bring den EIP von %s nach %s."
 			],
 			"neededCapacity": [
-				{ "name": "passengers" }
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
 			],
 			"group": 1,
-			"service": 1,
+			"service": 0,
 			"objects": [
 				{
 					"stations": [ "XPSG", "XPR", "XPPG", "XPWW" ],
@@ -1459,6 +1480,23 @@
 					"stations": [ "XPWW", "XPPG", "XPSG" ]
 				}
 			]
+		},
+		{
+			"name": "EIP von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity-Express von %s nach %s.",
+				"Bring die Fahrgäste im ICE pünktlich nach %2$s.",
+				"Fahre den ICE störungsfrei nach %2$s.",
+				"Bring den EIP von %s nach %s."
+			],
+			"stations": [ "XPSG", "🇵🇱07331" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1,
+			"service": 0,
+			"pathSuggestion": [ "XPSG", "XPSD", "🇵🇱O260872674", "XPPG", "XPWR", "🇵🇱O606349229", "🇵🇱05827", "XPBG", "XPLBR", "🇵🇱O1163364851", "🇵🇱06060", "🇵🇱O3315064601", "🇵🇱07331" ]
 		},
 		{
 			"name": "Brightline von %s nach %s",
@@ -8747,21 +8785,6 @@
 			"pathSuggestion": [ "UE P", "LPLN", "LH", "LBT", "LW", "BJUE", "BLF", "BL" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
-			]
-		},
-		{
-			"group": 1,
-			"name": "Express InterCity Premium von %s nach %s",
-			"service": 0,
-			"descriptions": [
-				"Fahre diesen EIP von %s nach %s.",
-				"Fahre so schnell wie möglich von %s nach %s."
-			],
-			"stations": [ "🇵🇱07331", "XPWW" ],
-			"stopsEverywhere": false,
-			"neededCapacity": [
-				{ "name": "passengers" },
-				{ "name": "bistroseats" }
 			]
 		},
 		{
