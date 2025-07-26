@@ -36152,6 +36152,261 @@
 			]
 		},
 		{
+			"name": "North Clyde Line",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧GLC",
+					"end": "🇬🇧DBC",
+					"length": 24,
+					"maxSpeed": 96,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧DBC",
+					"end": "🇬🇧CDR",
+					"length": 5,
+					"maxSpeed": 96,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧CDR",
+					"end": "🇬🇧CGD",
+					"length": 5,
+					"maxSpeed": 96,
+					"twistingFactor": 0.17
+				}
+			]
+		},
+		{
+			"name": "West Highland Line",
+			"group": 1,
+			"electrified": false,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧CGD",
+					"end": "🇬🇧HLU",
+					"group": 1,
+					"length": 2,
+					"maxSpeed": 72,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧HLU",
+					"end": "🇬🇧GCH",
+					"group": 1,
+					"length": 11,
+					"maxSpeed": 96,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧GCH",
+					"end": "🇬🇧O6753052777",
+					"group": 1,
+					"length": 17,
+					"maxSpeed": 96,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇬🇧O6753052777",
+					"end": "🇬🇧AUI",
+					"group": 1,
+					"length": 12,
+					"maxSpeed": 88,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧AUI",
+					"end": "🇬🇧CNR",
+					"group": 0,
+					"length": 13,
+					"maxSpeed": 96,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧CNR",
+					"end": "🇬🇧TYL",
+					"group": 1,
+					"length": 8,
+					"maxSpeed": 96,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧TYL",
+					"end": "🇬🇧DAL",
+					"group": 0,
+					"length": 19,
+					"maxSpeed": 88,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇬🇧DAL",
+					"end": "🇬🇧LHA",
+					"group": 0,
+					"length": 4,
+					"maxSpeed": 72,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧LHA",
+					"end": "🇬🇧FOC",
+					"group": 1,
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧FOC",
+					"end": "🇬🇧CON",
+					"group": 0,
+					"length": 20,
+					"maxSpeed": 88,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧CON",
+					"end": "🇬🇧OBN",
+					"group": 1,
+					"length": 9,
+					"maxSpeed": 88,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧FTW",
+					"end": "🇬🇧BNV",
+					"length": 3,
+					"maxSpeed": 96,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇬🇧BNV",
+					"end": "🇬🇧CPA",
+					"length": 1,
+					"maxSpeed": 64,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧CPA",
+					"end": "🇬🇧LHE",
+					"length": 4,
+					"maxSpeed": 64,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧LHE",
+					"end": "🇬🇧LCS",
+					"length": 5,
+					"maxSpeed": 88,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LCS",
+					"end": "🇬🇧GLF",
+					"length": 10,
+					"maxSpeed": 88,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧GLF",
+					"end": "🇬🇧LCL",
+					"length": 14,
+					"maxSpeed": 64,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇬🇧LCL",
+					"end": "🇬🇧BSL",
+					"length": 7,
+					"maxSpeed": 56,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧BSL",
+					"end": "🇬🇧ARG",
+					"length": 5,
+					"maxSpeed": 64,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇬🇧ARG",
+					"end": "🇬🇧MRR",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧MRR",
+					"end": "🇬🇧MLG",
+					"length": 4,
+					"maxSpeed": 64,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧CNR",
+					"end": "🇬🇧UTY",
+					"length": 8,
+					"maxSpeed": 96,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧UTY",
+					"end": "🇬🇧BRO",
+					"length": 12,
+					"maxSpeed": 96,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇬🇧BRO",
+					"end": "🇬🇧RAN",
+					"length": 25,
+					"maxSpeed": 112,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇬🇧RAN",
+					"end": "🇬🇧CRR",
+					"length": 11,
+					"maxSpeed": 96,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧CRR",
+					"end": "🇬🇧TUL",
+					"length": 16,
+					"maxSpeed": 80,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧TUL",
+					"end": "🇬🇧RYB",
+					"length": 8,
+					"maxSpeed": 88,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧RYB",
+					"end": "🇬🇧SBR",
+					"length": 5,
+					"maxSpeed": 88,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧SBR",
+					"end": "🇬🇧FTW",
+					"length": 13,
+					"maxSpeed": 112,
+					"twistingFactor": 0.08
+				}
+			]
+		},
+		{
 			"name": "Hosena-Kamenz",
 			"electrified": false,
 			"group": 0,
