@@ -56940,6 +56940,60 @@
 			]
 		},
 		{
+			"group": 0,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "🇵🇱00027",
+					"end": "WGR",
+					"name": "Bützow–Szczecin (Stettin)",
+					"electrified": true,
+					"length": 14,
+					"twistingFactor": 0.18,
+					"neededEquipments": [
+						"DE",
+						"PL"
+					]
+				},
+				{
+					"start": "WGR",
+					"end": "WLK",
+					"name": "Bützow–Szczecin (Stettin)",
+					"electrified": false,
+					"length": 9,
+					"twistingFactor": 0.01,
+					"neededEquipments": []
+				},
+				{
+					"start": "WLK",
+					"end": "WZIN",
+					"name": "Bützow – Stettin (Szczecin)",
+					"electrified": false,
+					"length": 9,
+					"twistingFactor": 0.07,
+					"neededEquipments": []
+				},
+				{
+					"start": "WZIN",
+					"end": "WPO",
+					"name": "Bützow – Stettin (Szczecin)",
+					"electrified": false,
+					"length": 5,
+					"twistingFactor": 0.01,
+					"neededEquipments": []
+				},
+				{
+					"start": "WPO",
+					"end": "WP",
+					"name": "Bützow – Stettin (Szczecin)",
+					"electrified": true,
+					"length": 1,
+					"twistingFactor": 0.24,
+					"neededEquipments": []
+				}
+			]
+		},
+		{
 			"name": "Zschopautalbahn",
 			"electrified": false,
 			"group": 1,
