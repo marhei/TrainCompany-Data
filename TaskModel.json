@@ -1352,21 +1352,6 @@
 			"pathSuggestion": [ "BHW", "BHC", "BBS", "BRU", "LF", "LTG", "LEG", "LL" ]
 		},
 		{
-			"name": "IC von %s nach %s",
-			"descriptions": [
-				"Bringe den Intercity von %s nach %s.",
-				"Bring die Fahrgäste im IC pünktlich nach %2$s.",
-				"Fahre den IC störungsfrei nach %2$s."
-			],
-			"stations": [ "XPG", "XPSG" ],
-			"neededCapacity": [
-				{ "name": "passengers" }
-			],
-			"group": 1,
-			"service": 1,
-			"pathSuggestion": [ "XPG", "XPKO", "🇵🇱O260872674", "XPSD", "XPSG" ]
-		},
-		{
 			"name": "RE von %s nach %s",
 			"descriptions": [
 				"Bringe den Regionalexpress von %s nach %s.",
@@ -1497,6 +1482,54 @@
 			"group": 1,
 			"service": 0,
 			"pathSuggestion": [ "XPSG", "XPSD", "🇵🇱O260872674", "XPPG", "XPWR", "🇵🇱O606349229", "🇵🇱05827", "XPBG", "XPLBR", "🇵🇱O1163364851", "🇵🇱06060", "🇵🇱O3315064601", "🇵🇱07331" ]
+		},
+		{
+			"name": "RE von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress von %s nach %s.",
+				"Bring die Fahrgäste im RE pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "🇵🇱07331", "XPPG", "XPWW" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "🇵🇱07331", "🇵🇱O3315064601", "🇵🇱06060", "🇵🇱O1163364851", "XPLBR", "XPBG", "🇵🇱05827", "🇵🇱O606349229", "XPWR", "XPPG", "XPLZ", "XPWZ", "XPWW" ],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "RE von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress von %s nach %s.",
+				"Bring die Fahrgäste im RE pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "🇵🇱07331", "XPPG", "XPSG" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "🇵🇱07331", "🇵🇱O3315064601", "🇵🇱06060", "🇵🇱O1163364851", "XPLBR", "XPBG", "🇵🇱05827", "🇵🇱O606349229", "XPWR", "XPPG", "🇵🇱O260872674", "XPSD", "XPSG" ],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "EIP von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity-Express von %s nach %s.",
+				"Bring die Fahrgäste im ICE pünktlich nach %2$s.",
+				"Fahre den ICE störungsfrei nach %2$s.",
+				"Bring den EIP von %s nach %s."
+			],
+			"stations": [ "XPG", "XPSG" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 0,
+			"pathSuggestion": [ "XPG", "XPKO", "🇵🇱O260872674", "XPSD", "XPSG" ]
 		},
 		{
 			"name": "Brightline von %s nach %s",
