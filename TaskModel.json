@@ -758,8 +758,8 @@
 					"stations": [ "🇬🇧EDB", "🇬🇧CUP", "🇬🇧LEU", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧STN", "🇬🇧ABD" ]
 				},
 				{
-					"stations": [ "🇬🇧GLC", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ],
-					"pathSuggestion": [ "🇬🇧GLC", "🇬🇧99430", "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ]
+					"stations": [ "🇬🇧GLC", "🇬🇧98880", "🇬🇧88050", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ],
+					"pathSuggestion": [ "🇬🇧GLC", "🇬🇧99430", "🇬🇧98880", "🇬🇧88050", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ]
 				},
 				{
 					"stations": [ "🇬🇧ABD", "🇬🇧INV" ],
@@ -7184,6 +7184,54 @@
 			"name": "Regionalzug von %s nach %s",
 			"service": 2,
 			"descriptions": [
+				"Bringe diesen Regionalzug von %s nach %s durch Schottland.",
+				"Fahre für Scotrail nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "🇬🇧BWK", "🇬🇧EDB" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧99430", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ABD" ]
+				},
+				{
+					"stations": [ "🇬🇧INV", "🇬🇧ABD" ]
+				},
+				{
+					"stations": [ "🇬🇧INV", "🇬🇧86320", "🇬🇧86801" ]
+				},
+				{
+					"stations": [ "🇬🇧INV", "🇬🇧86320", "🇬🇧KYL" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧STR" ]
+				},
+				{
+					"stations": [ "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧CNR", "🇬🇧OBN" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧CNR", "🇬🇧FTW", "🇬🇧MLG" ]
+				}
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
 				"Bringe diesen Regionalzug von %s nach %s.",
 				"Fahre ohne Verspätungen durch Großbritannien."
 			],
@@ -7223,30 +7271,6 @@
 					"stations": [ "🇬🇧DON", "🇬🇧YRK", "🇬🇧DAR", "🇬🇧NCL" ]
 				},
 				{
-					"stations": [ "🇬🇧NCL", "🇬🇧EDB" ]
-				},
-				{
-					"stations": [ "🇬🇧EDB", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
-				},
-				{
-					"stations": [ "🇬🇧EDB", "🇬🇧99430", "🇬🇧GLC" ]
-				},
-				{
-					"stations": [ "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ABD" ]
-				},
-				{
-					"stations": [ "🇬🇧INV", "🇬🇧ABD" ]
-				},
-				{
-					"stations": [ "🇬🇧INV", "🇬🇧86320", "🇬🇧86801" ]
-				},
-				{
-					"stations": [ "🇬🇧GLC", "🇬🇧STR" ]
-				},
-				{
-					"stations": [ "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
-				},
-				{
 					"stations": [ "XKLP", "🇬🇧70991", "🇬🇧BTN" ]
 				},
 				{
@@ -7269,6 +7293,12 @@
 				},
 				{
 					"stations": [ "🇬🇧SWA", "🇬🇧CDF"]
+				},
+				{
+					"stations": [ "🇬🇧FGH", "🇬🇧CDF"]
+				},
+				{
+					"stations": [ "🇬🇧CAR", "🇬🇧NCL" ]
 				},
 				{
 					"stations": [ "🇬🇧68630", "🇬🇧O181313467"]

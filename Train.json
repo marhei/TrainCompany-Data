@@ -1479,9 +1479,9 @@
 			"service": 1,
 			"name": "Hitachi Azuma/IET (5-Teiler)",
 			"shortcut": "Class 800/2",
-			"speed": 225,
+			"speed": 200,
 			"weight": 243,
-			"length": 103,
+			"length": 130,
 			"drive": 4,
 			"reliability": 0.95,
 			"force": 185,
@@ -1490,7 +1490,6 @@
 			"operationCosts": 60,
 			"equipments": ["GB", "ETCS"],
 			"maxConnectedUnits": 2,
-			"compatibleWith": [],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 302}
@@ -1499,11 +1498,12 @@
 		{
 			"id": 2019801,
 			"group": 2,
+			"service": 1,
 			"name": "Hitachi Azuma/IET (9-Teiler)",
 			"shortcut": "Class 801/2",
-			"speed": 225,
+			"speed": 200,
 			"weight": 240,
-			"length": 207,
+			"length": 243,
 			"drive": 1,
 			"reliability": 0.95,
 			"force": 185,
@@ -1514,6 +1514,47 @@
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 611}
+			]
+		},
+		{
+			"id": 2019805,
+			"group": 2,
+			"name": "Hitachi Evero (5-Teiler)",
+			"shortcut": "Class 805",
+			"speed": 200,
+			"weight": 243,
+			"length": 130,
+			"drive": 4,
+			"reliability": 0.95,
+			"force": 185,
+			"range": 300,
+			"cost": 2000000,
+			"operationCosts": 60,
+			"equipments": ["GB"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 301}
+			]
+		},
+		{
+			"id": 2019807,
+			"group": 2,
+			"name": "Hitachi Evero (7-Teiler)",
+			"shortcut": "Class 807",
+			"speed": 200,
+			"weight": 240,
+			"length": 182,
+			"drive": 1,
+			"reliability": 0.95,
+			"force": 185,
+			"cost": 1900000,
+			"operationCosts": 57,
+			"equipments": ["GB"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 453}
 			]
 		},
 		{
@@ -2546,6 +2587,7 @@
 		{
 			"id": 85563,
 			"group": 2,
+			"service": 2,
 			"name": "CAF Civity",
 			"shortcut": "FS ETR 563",
 			"speed": 160,
@@ -2561,6 +2603,26 @@
 			"exchangeTime": 40,
 			"capacity": [
 				{"name": "passengers", "value": 297}
+			]
+		},
+		{
+			"id": 70355,
+			"group": 2,
+			"service": 2,
+			"name": "CAF Civity UK",
+			"shortcut": "Class 197",
+			"speed": 160,
+			"weight": 80,
+			"force": 170,
+			"length": 48,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 240000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 70,
+			"equipments": ["GB"],
+			"capacity": [
+				{"name": "passengers", "value": 116}
 			]
 		},
 		{
@@ -3665,8 +3727,9 @@
 		{
 			"id": 1975125,
 			"group": 2,
-			"name": "Intercity 125 (Class 254)",
-			"shortcut": "HST",
+			"service": 1,
+			"name": "Intercity 125 (Class 254) long",
+			"shortcut": "HST GWR",
 			"speed": 201,
 			"weight": 383,
 			"force": 80,
@@ -3679,6 +3742,26 @@
 			"cost": 1900000,
 			"capacity": [
 				{"name": "passengers", "value": 566}
+			]
+		},
+		{
+			"id": 1975126,
+			"group": 2,
+			"service": 1,
+			"name": "Intercity 125 (Class 254) short",
+			"shortcut": "HST Scotrail",
+			"speed": 201,
+			"weight": 240,
+			"force": 80,
+			"length": 103,
+			"drive": 2,
+			"reliability": 0.9,
+			"maxConnectedUnits": 1,
+			"equipments": ["GB"],
+			"operationCosts": 100,
+			"cost": 1000000,
+			"capacity": [
+				{"name": "passengers", "value": 238}
 			]
 		},
 		{
@@ -3760,6 +3843,47 @@
 			"capacity": [
 				{"name": "passengers", "value": 136}
 			]
+		},
+		{
+			"id": 70158,
+			"group": 2,
+			"name": "Express Sprinter",
+			"shortcut": "Class 158",
+			"speed": 145,
+			"weight": 78,
+			"force": 285,
+			"length": 46,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 250000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 80,
+			"equipments": ["GB"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 138}
+			]
+		},
+		{
+			"id": 70170,
+			"group": 2,
+			"name": "Turbostar",
+			"shortcut": "Class 170",
+			"speed": 160,
+			"weight": 120,
+			"force": 285,
+			"length": 69,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 250000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 90,
+			"equipments": ["GB"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 200}
+			],
+			"compatibleWith": [70158, 70156]
 		},
 		{
 			"id": 628,
@@ -4497,6 +4621,67 @@
 			"equipments": ["SI", "HR", "AT", "IT", "CA", "US"],
 			"capacity": [
 				{"name": "passengers", "value": 150}
+			]
+		},
+		{
+			"id": 78810,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler Flirt UK bi-mode",
+			"shortcut": "Class 755",
+			"speed": 160,
+			"weight": 100,
+			"force": 135,
+			"length": 81,
+			"drive": 4,
+			"range": 150,
+			"reliability": 1,
+			"cost": 450000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 70,
+			"equipments": ["GB"],
+			"capacity": [
+				{"name": "passengers", "value": 230}
+			]
+		},
+		{
+			"id": 78820,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler Flirt UK",
+			"shortcut": "Class 745",
+			"speed": 160,
+			"weight": 278,
+			"force": 400,
+			"length": 237,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 750000,
+			"maxConnectedUnits": 1,
+			"operationCosts": 60,
+			"equipments": ["GB"],
+			"capacity": [
+				{"name": "passengers", "value": 722}
+			]
+		},
+		{
+			"id": 78830,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler Flirt UK Diesel",
+			"shortcut": "Class 231",
+			"speed": 145,
+			"weight": 154,
+			"force": 160,
+			"length": 81,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 350000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 80,
+			"equipments": ["GB"],
+			"capacity": [
+				{"name": "passengers", "value": 386}
 			]
 		},
 		{
