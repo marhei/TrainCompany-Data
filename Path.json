@@ -49880,6 +49880,39 @@
 			]
 		},
 		{
+			"name": "Lautertalbahn",
+			"neededEquipments": [],
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"objects": [
+				{
+					"start": "SLKG",
+					"end": "SWFS",
+					"length": 9,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "SWFS",
+					"end": "SOU",
+					"length": 7,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "SOU",
+					"end": "SLAO",
+					"length": 9,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "SLAO",
+					"end": "SKL",
+					"length": 7,
+					"twistingFactor": 0.34
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 100,
