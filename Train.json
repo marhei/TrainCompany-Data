@@ -1064,6 +1064,48 @@
 			]
 		},
 		{
+			"id": 446,
+			"group": 2,
+			"service": 2,
+			"name": "Bombardier Twindexx Vario - 4 tlg",
+			"shortcut": "BR 446",
+			"speed": 160,
+			"weight": 200,
+			"force": 400,
+			"length": 105,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 800000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 3,
+			"equipments": ["DE"],
+			"compatibleWith": [445],
+			"capacity": [
+				{ "name": "passengers", "value": 405 }
+			]
+		},
+		{
+			"id": 445,
+			"group": 2,
+			"service": 2,
+			"name": "Bombardier Twindexx Vario - 6 tlg",
+			"shortcut": "BR 445",
+			"speed": 160,
+			"weight": 298,
+			"force": 400,
+			"length": 160,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 1200000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 3,
+			"equipments": ["DE"],
+			"compatibleWith": [446],
+			"capacity": [
+				{ "name": "passengers", "value": 535 }
+			]
+		},
+		{
 			"id": 4010,
 			"group": 2,
 			"service": 1,
@@ -6569,6 +6611,20 @@
 			"equipments": ["DE"]
 		},
 		{
+            "id": 1206,
+            "group": 0,
+            "name": "MaK G 1206",
+            "speed": 100,
+            "weight": 88,
+            "force": 291,
+            "length": 15,
+            "drive": 2,
+            "reliability": 0.9,
+            "cost": 350000,
+            "operationCosts": 130,
+            "equipments": ["CH", "DE", "LU", "AT", "FR", "IT", "SE", "ETCS"]
+        }, 
+		{
 			"id": 17,
 			"group": 0,
 			"name": "V60",
@@ -6580,7 +6636,7 @@
 			"reliability": 0.8,
 			"cost": 100000,
 			"operationCosts": 100,
-			"equipments": ["CH", "DE"]
+			"equipments": ["CH", "DE","NL","BE","GR","TR","NO","SI","HR","BA","RS","ME","MK","IT"]
 		},
 		{
 			"id": 371070,
