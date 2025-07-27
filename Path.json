@@ -20395,7 +20395,7 @@
 				{
 					"start": "🇬🇧BRI",
 					"end": "🇬🇧O492098581",
-					"name": "Bristol to Taunton Line",
+					"name": "Bristol to Exter Line",
 					"length": 12,
 					"maxSpeed": 160,
 					"twistingFactor": 0.15,
@@ -20406,7 +20406,7 @@
 				{
 					"start": "🇬🇧O492098581",
 					"end": "🇬🇧33900",
-					"name": "Bristol to Taunton Line",
+					"name": "Bristol to Exeter Line",
 					"length": 12,
 					"maxSpeed": 160,
 					"twistingFactor": 0.01,
@@ -20427,9 +20427,20 @@
 				},
 				{
 					"start": "🇬🇧34490",
+					"end": "🇬🇧TAU",
+					"name": "Bristol to Exeter Line",
+					"length": 19,
+					"maxSpeed": 160,
+					"twistingFactor": 0.28,
+					"neededEquipments": [
+						"GB"
+					]
+				},
+				{
+					"start": "🇬🇧TAU",
 					"end": "🇬🇧O3285114",
 					"name": "Bristol to Exeter Line",
-					"length": 47,
+					"length": 28,
 					"maxSpeed": 160,
 					"twistingFactor": 0.28,
 					"neededEquipments": [
@@ -36512,7 +36523,7 @@
 				{
 					"start": "🇬🇧RDG",
 					"end": "🇬🇧MOR",
-					"name": "Reading to Taunton line",
+					"name": "Reading to Basingstoke line",
 					"electrified": true,
 					"length": 11,
 					"maxSpeed": 152,
@@ -36521,7 +36532,7 @@
 				{
 					"start": "🇬🇧MOR",
 					"end": "🇬🇧BSK",
-					"name": "Basingstoke Branch",
+					"name": "Reading to Basingstoke line",
 					"electrified": false,
 					"length": 13,
 					"maxSpeed": 120,
