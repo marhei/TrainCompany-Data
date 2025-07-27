@@ -35900,6 +35900,114 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"name": "Wessex Mainline",
+			"electrified": true,
+			"objects": [
+				{
+					"start": "🇬🇧BTH",
+					"end": "🇬🇧FFD",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.8
+				},
+				{
+					"start": "🇬🇧FFD",
+					"end": "🇬🇧AVF",
+					"length": 1,
+					"maxSpeed": 112,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧AVF",
+					"end": "🇬🇧BOA",
+					"length": 1,
+					"maxSpeed": 112,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BOA",
+					"end": "🇬🇧TRO",
+					"length": 5,
+					"maxSpeed": 112,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧TRO",
+					"end": "🇬🇧WSB",
+					"length": 6,
+					"maxSpeed": 112,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧WSB",
+					"end": "🇬🇧DMH",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧DMH",
+					"end": "🇬🇧WMN",
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧WMN",
+					"end": "🇬🇧SAL",
+					"length": 31,
+					"maxSpeed": 136,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧SAL",
+					"end": "🇬🇧DEN",
+					"length": 15,
+					"maxSpeed": 136,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧DEN",
+					"end": "🇬🇧DBG",
+					"length": 6,
+					"maxSpeed": 136,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧DBG",
+					"end": "🇬🇧ROM",
+					"length": 5,
+					"maxSpeed": 136,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧ROM",
+					"end": "🇬🇧RDB",
+					"length": 8,
+					"maxSpeed": 136,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧RDB",
+					"end": "🇬🇧MBK",
+					"length": 2,
+					"maxSpeed": 104,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧MBK",
+					"end": "🇬🇧SOU",
+					"length": 1,
+					"maxSpeed": 104,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
 			"name": "West Coastway Line",
 			"electrified": true,
 			"group": 0,
