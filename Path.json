@@ -65301,3 +65301,317 @@
 					"maxSpeed": 25,
 					"neededEquipments": [
 						"bostrab"
+				}
+			]
+		},
+		{
+			"name": "Timișoara - Arad",
+			"group": 0,
+			"maxSpeed": 70,
+			"neededEquipments": [
+				"RO"
+			],
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "XUA",
+					"end": "🇷🇴5300115",
+					"length": 6
+				},
+				{
+					"start": "🇷🇴5300115",
+					"end": "🇷🇴5325402",
+					"length": 6
+				},
+				{
+					"start": "🇷🇴5325402",
+					"end": "🇷🇴5300403",
+					"length": 5
+				},
+				{
+					"start": "🇷🇴5300403",
+					"end": "🇷🇴5300375",
+					"length": 7
+				},
+				{
+					"start": "🇷🇴5300375",
+					"end": "🇷🇴5300278",
+					"length": 6,
+				},
+				{
+					"start": "🇷🇴5300278",
+					"end": "🇷🇴5300125",
+					"length": 6,
+				},
+				{
+					"start": "🇷🇴5300125",
+					"end": "🇷🇴5325309",
+					"length": 7,
+				},
+				{
+					"start": "🇷🇴5325309",
+					"end": "🇷🇴5325268",
+					"length": 6,
+				},
+				{
+					"start": "🇷🇴5325268",
+					"end": "XUTN",
+					"length": 7
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"name": "Timișoara - Lugoj",
+			"group": 0,
+			"maxSpeed": 70,
+			"neededEquipments": [
+				"RO"
+			],
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "XUTN",
+					"end": "🇷🇴5300394",
+					"length": 4,
+				},
+				{
+					"start": "🇷🇴5300394",
+					"end": "🇷🇴5311841",
+					"length": 5,
+				},
+				{
+					"start": "🇷🇴5311841",
+					"end": "🇷🇴5300298",
+					"length": 5,
+				},
+				{
+					"start": "🇷🇴5300298",
+					"end": "🇷🇴5311815",
+					"length": 7,
+				},
+				{
+					"start": "🇷🇴5311815",
+					"end": "🇷🇴5300296",
+					"length": 2,
+				},
+				{
+					"start": "🇷🇴5300296",
+					"end": "🇷🇴5311786",
+					"length": 7,
+				},
+				{
+					"start": "🇷🇴5311786",
+					"end": "🇷🇴5300393",
+					"length": 4,
+				},
+				{
+					"start": "🇷🇴5300393",
+					"end": "🇷🇴5300171",
+					"length": 7,
+				},
+				{
+					"start": "🇷🇴5300171",
+					"end": "🇷🇴5311748",
+					"length": 4,
+				},
+				{
+					"start": "🇷🇴5311748",
+					"end": "🇷🇴5311724",
+					"length": 6,
+				},
+				{
+					"start": "🇷🇴5311724",
+					"end": "XULU",
+					"length": 7,
+				}
+			]
+		},
+		{
+			"name": "Timișoara - Vršac",
+			"group": 0,
+			"maxSpeed": 80,
+			"electrified": false,
+			"neededEquipments": [
+				"RO"
+			],
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "XUTN",
+					"end": "🇷🇴5315914",
+					"length": 6,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇷🇴5315914",
+					"end": "🇷🇴5315938",
+					"length": 2,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇷🇴5315938",
+					"end": "🇷🇴5315940",
+					"length": 5,
+				},
+				{
+					"start": "🇷🇴5315940",
+					"end": "🇷🇴5315964",
+					"length": 6,
+				},
+				{
+					"start": "🇷🇴5315964",
+					"end": "🇷🇴5300236",
+					"length": 5,
+				},
+				{
+					"start": "🇷🇴5300236",
+					"end": "🇷🇴5300378",
+					"length": 9,
+				},
+				{
+					"start": "🇷🇴5300378",
+					"end": "🇷🇴5316607",
+					"length": 9,
+				},
+				{
+					"start": "🇷🇴5316607",
+					"end": "🇷🇴5316621",
+					"length": 6,
+				},
+				{
+					"start": "🇷🇴5316621",
+					"end": "🇷🇴5300070",
+					"length": 8,
+				},
+				{
+					"start": "🇷🇴5300070",
+					"end": "XJVS",
+					"length": 19,
+					"neededEquipments": [
+						"RO",
+						"RS"
+					],
+				}
+			]
+		},
+		{
+			"name": "Vršac - Beograd Centar",
+			"group": 0,
+			"neededEquipments": [
+				"RS"
+			],
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XJVS",
+					"end": "🇷🇸7209001",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 8,
+				},
+				{
+					"start": "🇷🇸7209001",
+					"end": "🇷🇸7209002",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 5,
+				},
+				{
+					"start": "🇷🇸7209002",
+					"end": "🇷🇸7209003",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 7,
+				},
+				{
+					"start": "🇷🇸7209003",
+					"end": "🇷🇸7209004",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 4,
+				},
+				{
+					"start": "🇷🇸7209004",
+					"end": "🇷🇸7209005",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 5,
+				},
+				{
+					"start": "🇷🇸7209005",
+					"end": "🇷🇸7209006",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 8,
+				},
+				{
+					"start": "🇷🇸7209006",
+					"end": "🇷🇸7209007",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 12,
+				},
+				{
+					"start": "🇷🇸7209007",
+					"end": "🇷🇸7209008",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 16,
+				},
+				{
+					"start": "🇷🇸7209008",
+					"end": "🇷🇸7200209",
+					"maxSpeed": 50,
+					"length": 2,
+				},
+				{
+					"start": "🇷🇸7200209",
+					"end": "🇷🇸7209009",
+					"maxSpeed": 100,
+					"length": 8,
+				},
+				{
+					"start": "🇷🇸7209009",
+					"end": "🇷🇸7209010",
+					"maxSpeed": 100,
+					"length": 3,
+				},
+				{
+					"start": "🇷🇸7209010",
+					"end": "🇷🇸7209011",
+					"maxSpeed": 100,
+					"length": 2,
+				},
+				{
+					"start": "🇷🇸7209011",
+					"end": "🇷🇸7209012",
+					"maxSpeed": 100,
+					"length": 1,
+				},
+				{
+					"start": "🇷🇸7209012",
+					"end": "🇷🇸7209013",
+					"maxSpeed": 20,
+					"length": 2,
+				},
+				{
+					"start": "🇷🇸7209013",
+					"end": "🇷🇸7209014",
+					"maxSpeed": 80,
+					"length": 2,
+				},
+				{
+					"start": "🇷🇸7209014",
+					"end": "🇷🇸7209015",
+					"maxSpeed": 80,
+					"length": 2,
+				},
+				{
+					"start": "🇷🇸7209015",
+					"end": "XJBC",
+					"maxSpeed": 70,
+					"length": 1,
+				}
+			]
+		},
