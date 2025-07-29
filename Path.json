@@ -50023,6 +50023,219 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"name": "South Wales Main Line",
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧LLE",
+					"end": "🇬🇧BYE",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BYE",
+					"end": "🇬🇧LLH",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇬🇧LLH",
+					"end": "🇬🇧PTD",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧PTD",
+					"end": "🇬🇧PTF",
+					"length": 7,
+					"maxSpeed": -1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧PTF",
+					"end": "🇬🇧AMF",
+					"length": 1,
+					"maxSpeed": -1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧AMF",
+					"end": "🇬🇧LLI",
+					"length": 2,
+					"maxSpeed": -1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LLI",
+					"end": "🇬🇧FFA",
+					"length": 6,
+					"maxSpeed": -1,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇬🇧FFA",
+					"end": "🇬🇧LLL",
+					"length": 1,
+					"maxSpeed": -1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LLL",
+					"end": "🇬🇧LLG",
+					"length": 8,
+					"maxSpeed": -1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LLG",
+					"end": "🇬🇧LNR",
+					"length": 2,
+					"maxSpeed": -1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LNR",
+					"end": "🇬🇧LLV",
+					"length": 6,
+					"maxSpeed": -1,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧LLV",
+					"end": "🇬🇧CYN",
+					"length": 7,
+					"maxSpeed": -1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧CYN",
+					"end": "🇬🇧SUG",
+					"length": 6,
+					"maxSpeed": -1,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧SUG",
+					"end": "🇬🇧LNW",
+					"length": 4,
+					"maxSpeed": -1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LNW",
+					"end": "🇬🇧LLM",
+					"length": 5,
+					"maxSpeed": -1,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧LLM",
+					"end": "🇬🇧GTH",
+					"length": 2,
+					"maxSpeed": -1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧GTH",
+					"end": "🇬🇧CIM",
+					"length": 5,
+					"maxSpeed": -1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧CIM",
+					"end": "🇬🇧BHR",
+					"length": 3,
+					"maxSpeed": -1,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧BHR",
+					"end": "🇬🇧LLO",
+					"length": 8,
+					"maxSpeed": -1,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧LLO",
+					"end": "🇬🇧PNY",
+					"length": 5,
+					"maxSpeed": -1,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧PNY",
+					"end": "🇬🇧DOL",
+					"length": 4,
+					"maxSpeed": -1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧DOL",
+					"end": "🇬🇧LLT",
+					"length": 5,
+					"maxSpeed": -1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LLT",
+					"end": "🇬🇧LGO",
+					"length": 4,
+					"maxSpeed": -1,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇬🇧LGO",
+					"end": "🇬🇧KNU",
+					"length": 6,
+					"maxSpeed": -1,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧KNU",
+					"end": "🇬🇧KNI",
+					"length": 4,
+					"maxSpeed": -1,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧KNI",
+					"end": "🇬🇧BUK",
+					"length": 6,
+					"maxSpeed": -1,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧BUK",
+					"end": "🇬🇧HPT",
+					"length": 4,
+					"maxSpeed": -1,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇬🇧HPT",
+					"end": "🇬🇧BME",
+					"length": 3,
+					"maxSpeed": -1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BME",
+					"end": "🇬🇧CRV",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.23
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 120,
