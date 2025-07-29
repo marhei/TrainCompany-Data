@@ -57008,6 +57008,51 @@
 			]
 		},
 		{
+			"name": "Shrewsbury to Chester Line",
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧CTR",
+					"end": "🇬🇧WRX",
+					"length": 19,
+					"maxSpeed": 144,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧WRX",
+					"end": "🇬🇧RUA",
+					"length": 7,
+					"maxSpeed": 112,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧RUA",
+					"end": "🇬🇧CRK",
+					"length": 6,
+					"maxSpeed": 112,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧CRK",
+					"end": "🇬🇧GOB",
+					"length": 4,
+					"maxSpeed": 112,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧GOB",
+					"end": "🇬🇧SHR",
+					"length": 28,
+					"maxSpeed": 144,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
 			"name": "Bahnstrecke Plauen-Cheb",
 			"twistingFactor": 0.25,
 			"group": 0,
