@@ -43498,6 +43498,31 @@
 			]
 		},
 		{
+			"name": "Bahnstrecke Gau Algesheim–Bad Kreuznach",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "SBKN",
+					"end": "FGHO",
+					"length": 8,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FGHO",
+					"end": "FGAL",
+					"length": 11,
+					"twistingFactor": 0.35,
+					"maxSpeed": 100
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"maxSpeed": 100,
