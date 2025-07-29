@@ -608,6 +608,9 @@
 					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧34100", "🇬🇧34262", "🇬🇧35580", "🇬🇧35800" ]
 				},
 				{
+					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧O4830862174", "🇬🇧WSB", "🇬🇧TAU", "🇬🇧34100" ]
+				},
+				{
 					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧BRI", "🇬🇧34100", "🇬🇧34262", "🇬🇧35580", "🇬🇧35800", "🇬🇧35730", "🇬🇧35240", "🇬🇧35340", "🇬🇧35400", "🇬🇧35260" ]
 				}
 			],
@@ -699,6 +702,9 @@
 					"stations": [ "XKLP", "🇬🇧SOT", "🇬🇧MAC", "🇬🇧MAN" ]
 				},
 				{
+					"stations": [ "🇬🇧MAN", "XKCR" ,"🇬🇧SHR", "🇬🇧HFD", "🇬🇧O1401008823", "🇬🇧CDF" ]
+				},
+				{
 					"stations": [ "XKLP", "🇬🇧STA", "XKCR", "🇬🇧RUN", "🇬🇧LIV" ],
 					"pathSuggestion": [ "XKLP", "🇬🇧COV", "🇬🇧STA", "🇬🇧SOT", "XKCR", "🇬🇧RUN", "🇬🇧LIV" ]
 				},
@@ -758,8 +764,8 @@
 					"stations": [ "🇬🇧EDB", "🇬🇧CUP", "🇬🇧LEU", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧STN", "🇬🇧ABD" ]
 				},
 				{
-					"stations": [ "🇬🇧GLC", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ],
-					"pathSuggestion": [ "🇬🇧GLC", "🇬🇧99430", "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ]
+					"stations": [ "🇬🇧GLC", "🇬🇧98880", "🇬🇧88050", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ],
+					"pathSuggestion": [ "🇬🇧GLC", "🇬🇧99430", "🇬🇧98880", "🇬🇧88050", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ]
 				},
 				{
 					"stations": [ "🇬🇧ABD", "🇬🇧INV" ],
@@ -3132,8 +3138,8 @@
 				"Der RE3 muss von %s nach %s gebracht werden. Die Strecke ist stark ausgelastet.",
 				"Bringe den Regional-Express der Linie 3 pünktlich von %s nach %s."
 			],
-			"stations": [ "FF", "FFLF", "FRUE", "FMZ", "FBGK", "SBKN", "SBMS", "SIDO", "SNK", "SSH" ],
-			"pathSuggestion": [ "FF", "FFLF", "FRUE", "FMB", "FMZ", "FBGK", "SBKN", "SBMS", "SIDO", "SNK", "SSH" ],
+			"stations": [ "FF", "FFLF", "FRUE", "FMZ", "FIL", "SBKN", "SBMS", "SSOB", "SKR", "SIDO", "SNK", "SSH" ],
+			"pathSuggestion": [ "FF", "FFLF", "FRUE", "FMB", "FMZ", "FIL", "SBKN", "SBMS", "SSOB", "SKR", "SIDO", "SNK", "SSH" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -4194,7 +4200,7 @@
 			"descriptions": [
 				"Die Strecke führt quer durch Rheinhessen."
 			],
-			"stations": [ "FWOR", "FMSH", "FARM", "FBGK" ],
+			"stations": [ "FWOR", "FMSH", "FARM", "FGHO", "FBGK" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -5448,7 +5454,7 @@
 			"descriptions": [
 				"In %s wurde es zu langweilig. Fahre nach %s",
 				"Nach dem Besuch in %s steht der nächste Besuch in %s an",
-				"Ein Freizeitpark reicht nicht. Fahre zum nächsten nach %s"
+				"Ein Freizeitpark reicht nicht. Fahre zum nächsten nach %2$s"
 			],
 			"objects": [
 				{
@@ -7366,6 +7372,54 @@
 			"name": "Regionalzug von %s nach %s",
 			"service": 2,
 			"descriptions": [
+				"Bringe diesen Regionalzug von %s nach %s durch Schottland.",
+				"Fahre für Scotrail nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "🇬🇧BWK", "🇬🇧EDB" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧99430", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ABD" ]
+				},
+				{
+					"stations": [ "🇬🇧INV", "🇬🇧ABD" ]
+				},
+				{
+					"stations": [ "🇬🇧INV", "🇬🇧86320", "🇬🇧86801" ]
+				},
+				{
+					"stations": [ "🇬🇧INV", "🇬🇧86320", "🇬🇧KYL" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧STR" ]
+				},
+				{
+					"stations": [ "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧CNR", "🇬🇧OBN" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧CNR", "🇬🇧FTW", "🇬🇧MLG" ]
+				}
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
 				"Bringe diesen Regionalzug von %s nach %s.",
 				"Fahre ohne Verspätungen durch Großbritannien."
 			],
@@ -7390,10 +7444,13 @@
 					"stations": [ "🇬🇧HHD", "🇬🇧AGL", "🇬🇧PRT", "🇬🇧CTR", "XKCR" ]
 				},
 				{
+					"stations": [ "🇬🇧SHR", "XKCR" ]
+				},
+				{
 					"stations": [ "🇬🇧SOT", "🇬🇧MAN" ]
 				},
 				{
-					"stations": [ "🇬🇧MAN", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
+					"stations": [ "🇬🇧MAN", "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
 				},
 				{
 					"stations": [ "XKLP", "🇬🇧PBO" ]
@@ -7403,30 +7460,6 @@
 				},
 				{
 					"stations": [ "🇬🇧DON", "🇬🇧YRK", "🇬🇧DAR", "🇬🇧NCL" ]
-				},
-				{
-					"stations": [ "🇬🇧NCL", "🇬🇧EDB" ]
-				},
-				{
-					"stations": [ "🇬🇧EDB", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
-				},
-				{
-					"stations": [ "🇬🇧EDB", "🇬🇧99430", "🇬🇧GLC" ]
-				},
-				{
-					"stations": [ "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ABD" ]
-				},
-				{
-					"stations": [ "🇬🇧INV", "🇬🇧ABD" ]
-				},
-				{
-					"stations": [ "🇬🇧INV", "🇬🇧86320", "🇬🇧86801" ]
-				},
-				{
-					"stations": [ "🇬🇧GLC", "🇬🇧STR" ]
-				},
-				{
-					"stations": [ "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
 				},
 				{
 					"stations": [ "XKLP", "🇬🇧70991", "🇬🇧BTN" ]
@@ -7453,7 +7486,13 @@
 					"stations": [ "🇬🇧SWA", "🇬🇧CDF" ]
 				},
 				{
-					"stations": [ "🇬🇧68630", "🇬🇧O181313467" ]
+					"stations": [ "🇬🇧FGH", "🇬🇧CDF"]
+				},
+				{
+					"stations": [ "🇬🇧CAR", "🇬🇧NCL" ]
+				},
+				{
+					"stations": [ "🇬🇧68630", "🇬🇧O181313467"]
 				}
 			],
 			"stopsEverywhere": true
@@ -9718,7 +9757,7 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "containers", "value": 39 }
+				{ "name": "trailers", "value": 28 }
 			],
 			"stopsEverywhere": false
 		},
@@ -9735,7 +9774,7 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "containers", "value": 33 }
+				{ "name": "trailers", "value": 26 }
 			],
 			"stopsEverywhere": false
 		},
@@ -9753,7 +9792,7 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "containers", "value": 39 }
+				{ "name": "trailers", "value": 28 }
 			],
 			"stopsEverywhere": false
 		},
@@ -9771,7 +9810,7 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "containers", "value": 28 }
+				{ "name": "trailers", "value": 24 }
 			],
 			"stopsEverywhere": false
 		},
@@ -9789,7 +9828,7 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "containers", "value": 30 }
+				{ "name": "trailers", "value": 26 }
 			],
 			"stopsEverywhere": false
 		},
@@ -9807,7 +9846,7 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "containers", "value": 28 }
+				{ "name": "trailers", "value": 26 }
 			],
 			"stopsEverywhere": false
 		},
@@ -9825,7 +9864,7 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "containers", "value": 36 }
+				{ "name": "trailers", "value": 28 }
 			],
 			"stopsEverywhere": false
 		},
@@ -9941,7 +9980,7 @@
 		{
 			"group": 0,
 			"name": "Containerganzzug im Netzwerkverkehr von %s nach %s",
-			"service": 11,
+			"service": 10,
 			"descriptions": [
 				"Fahre diesen internationalen Containerganzzug im Seehafen-Hinterlandverkehr von %s nach %s."
 			],
