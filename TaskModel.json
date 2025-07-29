@@ -1364,13 +1364,12 @@
 				"Bring die Fahrgäste im RE pünktlich nach %2$s.",
 				"Fahre den RE störungsfrei nach %2$s."
 			],
-			"stations": [ "XPG", "XPSG" ],
+			"stations": [ "XPG", "XPKO", "🇵🇱O260872674", "XPSD", "XPSG" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
 			"group": 1,
 			"service": 2,
-			"pathSuggestion": [ "XPG", "XPKO", "🇵🇱O260872674", "XPSD", "XPSG" ],
 			"stopsEverywhere": true
 		},
 		{
@@ -1386,7 +1385,6 @@
 			],
 			"group": 1,
 			"service": 2,
-			"pathSuggestion": [ "XPWW", "XPLG", "🇵🇱O9133108165", "XPNA", "🇵🇱O476214786", "XPCIW" ],
 			"stopsEverywhere": true
 		},
 		{
@@ -1396,13 +1394,12 @@
 				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
 				"Fahre die RB störungsfrei nach %2$s."
 			],
-			"stations": [ "XPG", "🇵🇱ELK" ],
+			"stations": [ "XPG", "XPMA", "XPOL", "🇵🇱ELK" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
 			"group": 1,
 			"service": 2,
-			"pathSuggestion": [ "XPG", "XPMA", "XPOL", "🇵🇱ELK" ],
 			"stopsEverywhere": true
 		},
 		{
@@ -1496,29 +1493,17 @@
 				"Bring die Fahrgäste im RE pünktlich nach %2$s.",
 				"Fahre den RE störungsfrei nach %2$s."
 			],
-			"stations": [ "🇵🇱07331", "XPPG", "XPWW" ],
+			"objects": [
+				{
+					"stations": [ "🇵🇱07331", "🇵🇱O3315064601", "🇵🇱06060", "🇵🇱O1163364851", "XPLBR", "XPBG", "🇵🇱05827", "🇵🇱O606349229", "XPWR", "XPPG", "XPLZ", "XPWZ", "XPWW"  ],
+					"stations": [ "🇵🇱07331", "🇵🇱O3315064601", "🇵🇱06060", "🇵🇱O1163364851", "XPLBR", "XPBG", "🇵🇱05827", "🇵🇱O606349229", "XPWR", "XPPG", "🇵🇱O260872674", "XPSD", "XPSG" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
 			"group": 1,
 			"service": 2,
-			"pathSuggestion": [ "🇵🇱07331", "🇵🇱O3315064601", "🇵🇱06060", "🇵🇱O1163364851", "XPLBR", "XPBG", "🇵🇱05827", "🇵🇱O606349229", "XPWR", "XPPG", "XPLZ", "XPWZ", "XPWW" ],
-			"stopsEverywhere": true
-		},
-		{
-			"name": "RE von %s nach %s",
-			"descriptions": [
-				"Bringe den Regionalexpress von %s nach %s.",
-				"Bring die Fahrgäste im RE pünktlich nach %2$s.",
-				"Fahre den RE störungsfrei nach %2$s."
-			],
-			"stations": [ "🇵🇱07331", "XPPG", "XPSG" ],
-			"neededCapacity": [
-				{ "name": "passengers" }
-			],
-			"group": 1,
-			"service": 2,
-			"pathSuggestion": [ "🇵🇱07331", "🇵🇱O3315064601", "🇵🇱06060", "🇵🇱O1163364851", "XPLBR", "XPBG", "🇵🇱05827", "🇵🇱O606349229", "XPWR", "XPPG", "🇵🇱O260872674", "XPSD", "XPSG" ],
 			"stopsEverywhere": true
 		},
 		{
@@ -7838,7 +7823,7 @@
 					"stations": [ "XPPG", "🇵🇱CNN", "XPLZ", "🇵🇱KNO" ]
 				},
 				{
-					"stations": [ "XPWW", "XPWZ", "🇵🇱KNO" ]
+					"stations": [ "XPWW", "XPWZ", "XPLZ", "🇵🇱KNO" ]
 				},
 				{
 					"stations": [ "XPWW", "🇵🇱WRT", "🇵🇱TUZ", "🇵🇱LOW" ]
