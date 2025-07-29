@@ -10051,6 +10051,269 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧SES",
+					"end": "🇬🇧GOE",
+					"name": "Swinton and Milford Junction Line",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧GOE",
+					"end": "🇬🇧SWN",
+					"name": "Swinton and Milford Junction Line",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧SWN",
+					"end": "🇬🇧RMC",
+					"name": "Tapton Junction (Chesterfield) to Colne",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧RMC",
+					"end": "🇬🇧MHS",
+					"name": "Midland Main Line",
+					"length": 4,
+					"maxSpeed": 128,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧MHS",
+					"end": "XKSH",
+					"name": "Midland Main Line",
+					"length": 5,
+					"maxSpeed": 128,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XKSH",
+					"end": "🇬🇧DOR",
+					"name": "Midland Main Line",
+					"length": 6,
+					"maxSpeed": 144,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧DOR",
+					"end": "🇬🇧DRO",
+					"name": "Midland Main Line",
+					"length": 4,
+					"maxSpeed": 144,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇬🇧DRO",
+					"end": "🇬🇧CHD",
+					"name": "Midland Main Line",
+					"length": 8,
+					"maxSpeed": 152,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧CHD",
+					"end": "🇬🇧BLP",
+					"name": "Midland Main Line",
+					"length": 26,
+					"maxSpeed": 177,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧BLP",
+					"end": "🇬🇧DFI",
+					"name": "Midland Main Line",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧DFI",
+					"end": "🇬🇧DBY",
+					"name": "Midland Main Line",
+					"length": 8,
+					"maxSpeed": 177,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": false,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧DBY",
+					"end": "🇬🇧WIL",
+					"name": "St Pancras to Chesterfield Line",
+					"length": 9,
+					"maxSpeed": 201,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧WIL",
+					"end": "🇬🇧BUT",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 7,
+					"maxSpeed": 201,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BUT",
+					"end": "🇬🇧WNE",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 23,
+					"maxSpeed": 201,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧WNE",
+					"end": "🇬🇧WTO",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 12,
+					"maxSpeed": 201,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧WTO",
+					"end": "🇬🇧BHM",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧BHM",
+					"end": "🇬🇧KNN",
+					"name": "Cross-City Line",
+					"electrified": true,
+					"length": 6,
+					"maxSpeed": 96,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧KNN",
+					"end": "🇬🇧NFD",
+					"name": "Cross-City Line",
+					"electrified": true,
+					"length": 2,
+					"maxSpeed": 144,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧NFD",
+					"end": "🇬🇧LOB",
+					"name": "Cross-City Line",
+					"electrified": true,
+					"length": 1,
+					"maxSpeed": 144,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LOB",
+					"end": "🇬🇧BMV",
+					"name": "Cross Country Route",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 144,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧BMV",
+					"end": "🇬🇧DTW",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧DTW",
+					"end": "🇬🇧WOS",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧WOS",
+					"end": "🇬🇧ASC",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧ASC",
+					"end": "🇬🇧CNM",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧CNM",
+					"end": "🇬🇧GCR",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 10,
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧GCR",
+					"end": "🇬🇧CDU",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 160,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧CDU",
+					"end": "🇬🇧YAE",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇬🇧YAE",
+					"end": "🇬🇧BPW",
+					"name": "South Wales and Bristol Direct Line",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 201,
+					"twistingFactor": 0.37
+				}
+			]
+		},
+		{
 			"name": "Pittsburgh Line",
 			"electrified": false,
 			"group": 0,
