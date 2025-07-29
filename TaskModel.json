@@ -608,6 +608,9 @@
 					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧34100", "🇬🇧34262", "🇬🇧35580", "🇬🇧35800" ]
 				},
 				{
+					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧O4830862174", "🇬🇧WSB", "🇬🇧TAU", "🇬🇧34100" ]
+				},
+				{
 					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧BRI", "🇬🇧34100", "🇬🇧34262", "🇬🇧35580", "🇬🇧35800", "🇬🇧35730", "🇬🇧35240", "🇬🇧35340", "🇬🇧35400", "🇬🇧35260" ]
 				}
 			],
@@ -699,6 +702,9 @@
 					"stations": [ "XKLP", "🇬🇧SOT", "🇬🇧MAC", "🇬🇧MAN" ]
 				},
 				{
+					"stations": [ "🇬🇧MAN", "XKCR" ,"🇬🇧SHR", "🇬🇧HFD", "🇬🇧O1401008823", "🇬🇧CDF" ]
+				},
+				{
 					"stations": [ "XKLP", "🇬🇧STA", "XKCR", "🇬🇧RUN", "🇬🇧LIV" ],
 					"pathSuggestion": [ "XKLP", "🇬🇧COV", "🇬🇧STA", "🇬🇧SOT", "XKCR", "🇬🇧RUN", "🇬🇧LIV" ]
 				},
@@ -758,8 +764,8 @@
 					"stations": [ "🇬🇧EDB", "🇬🇧CUP", "🇬🇧LEU", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧STN", "🇬🇧ABD" ]
 				},
 				{
-					"stations": [ "🇬🇧GLC", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ],
-					"pathSuggestion": [ "🇬🇧GLC", "🇬🇧99430", "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ]
+					"stations": [ "🇬🇧GLC", "🇬🇧98880", "🇬🇧88050", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ],
+					"pathSuggestion": [ "🇬🇧GLC", "🇬🇧99430", "🇬🇧98880", "🇬🇧88050", "🇬🇧DEE", "🇬🇧ARB", "🇬🇧MTS", "🇬🇧ABD" ]
 				},
 				{
 					"stations": [ "🇬🇧ABD", "🇬🇧INV" ],
@@ -7184,6 +7190,54 @@
 			"name": "Regionalzug von %s nach %s",
 			"service": 2,
 			"descriptions": [
+				"Bringe diesen Regionalzug von %s nach %s durch Schottland.",
+				"Fahre für Scotrail nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "🇬🇧BWK", "🇬🇧EDB" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧99430", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ABD" ]
+				},
+				{
+					"stations": [ "🇬🇧INV", "🇬🇧ABD" ]
+				},
+				{
+					"stations": [ "🇬🇧INV", "🇬🇧86320", "🇬🇧86801" ]
+				},
+				{
+					"stations": [ "🇬🇧INV", "🇬🇧86320", "🇬🇧KYL" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧STR" ]
+				},
+				{
+					"stations": [ "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧CNR", "🇬🇧OBN" ]
+				},
+				{
+					"stations": [ "🇬🇧GLC", "🇬🇧CNR", "🇬🇧FTW", "🇬🇧MLG" ]
+				}
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "Regionalzug von %s nach %s",
+			"service": 2,
+			"descriptions": [
 				"Bringe diesen Regionalzug von %s nach %s.",
 				"Fahre ohne Verspätungen durch Großbritannien."
 			],
@@ -7208,6 +7262,9 @@
 					"stations": [ "🇬🇧HHD", "🇬🇧AGL", "🇬🇧PRT", "🇬🇧CTR", "XKCR" ]
 				},
 				{
+					"stations": [ "🇬🇧SHR", "XKCR" ]
+				},
+				{
 					"stations": [ "🇬🇧SOT", "🇬🇧MAN" ]
 				},
 				{
@@ -7221,30 +7278,6 @@
 				},
 				{
 					"stations": [ "🇬🇧DON", "🇬🇧YRK", "🇬🇧DAR", "🇬🇧NCL" ]
-				},
-				{
-					"stations": [ "🇬🇧NCL", "🇬🇧EDB" ]
-				},
-				{
-					"stations": [ "🇬🇧EDB", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
-				},
-				{
-					"stations": [ "🇬🇧EDB", "🇬🇧99430", "🇬🇧GLC" ]
-				},
-				{
-					"stations": [ "🇬🇧EDB", "🇬🇧DEE", "🇬🇧ABD" ]
-				},
-				{
-					"stations": [ "🇬🇧INV", "🇬🇧ABD" ]
-				},
-				{
-					"stations": [ "🇬🇧INV", "🇬🇧86320", "🇬🇧86801" ]
-				},
-				{
-					"stations": [ "🇬🇧GLC", "🇬🇧STR" ]
-				},
-				{
-					"stations": [ "🇬🇧CAR", "🇬🇧CRSTRSS", "🇬🇧GLC" ]
 				},
 				{
 					"stations": [ "XKLP", "🇬🇧70991", "🇬🇧BTN" ]
@@ -7269,6 +7302,12 @@
 				},
 				{
 					"stations": [ "🇬🇧SWA", "🇬🇧CDF"]
+				},
+				{
+					"stations": [ "🇬🇧FGH", "🇬🇧CDF"]
+				},
+				{
+					"stations": [ "🇬🇧CAR", "🇬🇧NCL" ]
 				},
 				{
 					"stations": [ "🇬🇧68630", "🇬🇧O181313467"]
