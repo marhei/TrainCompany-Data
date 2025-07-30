@@ -36679,6 +36679,72 @@
 			]
 		},
 		{
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MIH",
+					"end": "MBRU",
+					"electrified": false,
+					"length": 17,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MBRU",
+					"end": "MSHN",
+					"electrified": false,
+					"length": 7,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MSHN",
+					"end": "MRDD",
+					"electrified": false,
+					"length": 9,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MRDD",
+					"end": "MAI",
+					"electrified": false,
+					"length": 6,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MAI",
+					"end": "MOGB",
+					"electrified": false,
+					"length": 5,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "MOGB",
+					"end": "MDAG",
+					"electrified": false,
+					"length": 4,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "MDAG",
+					"end": "MFDB",
+					"electrified": false,
+					"length": 7,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "MFDB",
+					"end": "MA",
+					"electrified": true,
+					"length": 5,
+					"twistingFactor": 0.27
+				}
+			]
+		},
+		{
 			"name": "Ferrovia Milano-Bologna",
 			"electrified": true,
 			"maxSpeed": 300,
