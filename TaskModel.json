@@ -702,7 +702,7 @@
 					"stations": [ "XKLP", "🇬🇧SOT", "🇬🇧MAC", "🇬🇧MAN" ]
 				},
 				{
-					"stations": [ "🇬🇧MAN", "XKCR" ,"🇬🇧SHR", "🇬🇧HFD", "🇬🇧O1401008823", "🇬🇧CDF" ]
+					"stations": [ "🇬🇧MAN", "XKCR", "🇬🇧SHR", "🇬🇧HFD", "🇬🇧O1401008823", "🇬🇧CDF" ]
 				},
 				{
 					"stations": [ "XKLP", "🇬🇧STA", "XKCR", "🇬🇧RUN", "🇬🇧LIV" ],
@@ -1495,7 +1495,6 @@
 			],
 			"objects": [
 				{
-					"stations": [ "🇵🇱07331", "🇵🇱O3315064601", "🇵🇱06060", "🇵🇱O1163364851", "XPLBR", "XPBG", "🇵🇱05827", "🇵🇱O606349229", "XPWR", "XPPG", "XPLZ", "XPWZ", "XPWW"  ],
 					"stations": [ "🇵🇱07331", "🇵🇱O3315064601", "🇵🇱06060", "🇵🇱O1163364851", "XPLBR", "XPBG", "🇵🇱05827", "🇵🇱O606349229", "XPWR", "XPPG", "🇵🇱O260872674", "XPSD", "XPSG" ]
 				}
 			],
@@ -1521,6 +1520,22 @@
 			"group": 1,
 			"service": 0,
 			"pathSuggestion": [ "XPG", "XPKO", "🇵🇱O260872674", "XPSD", "XPSG" ]
+		},
+		{
+			"name": "EURegioExpress von %s nach %s",
+			"descriptions": [
+				"Bringe den EUREx von %s nach %s.",
+				"Bring den EURegioExpress von %s nach %s.",
+				"Fahre zwischen Bayern und London von %s nach %s.",
+				"Nur echt mit Škoda Glump! Der EUREx von %s nach %s!"
+			],
+			"stations": [ "NN", "NALB", "MKIG", "MIH", "MRBI", "MPF", "MPE", "MH", "MA", "TU", "TE", "TV", "RK", "XFSTG", "XFSV", "XFRM", "XFMZV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XKAI", "XKLP" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "NN", "NALB", "MKIG", "MIH", "MRBI", "MPF", "MPE", "MDA", "MH", "MMR", "MA", "MGZB", "TU", "TG", "TP", "TE", "TS", "TV", "RBR", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFSV", "XFRD", "🇫🇷BDC", "XFRM", "XFMZV", "XFTHV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XFFE", "XKAI", "XKLP" ]
 		},
 		{
 			"name": "Brightline von %s nach %s",
@@ -2814,7 +2829,7 @@
 			"objects": [
 				{
 					"stations": [ "MH", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MOH", "MECH", "MOU", "MFCH", "MGP" ],
-					"pathSuggestion": [ "MH", "MWKR", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MOH", "MECH", "MOU", "MFCH", "MGP"]
+					"pathSuggestion": [ "MH", "MWKR", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MOH", "MECH", "MOU", "MFCH", "MGP" ]
 				},
 				{
 					"stations": [ "MH", "MST", "MTZ", "MSE", "MSTA", "MPZ", "MBIC", "MBEN", "MKCH" ],
@@ -7477,13 +7492,13 @@
 					"stations": [ "🇬🇧SWA", "🇬🇧CDF" ]
 				},
 				{
-					"stations": [ "🇬🇧FGH", "🇬🇧CDF"]
+					"stations": [ "🇬🇧FGH", "🇬🇧CDF" ]
 				},
 				{
 					"stations": [ "🇬🇧CAR", "🇬🇧NCL" ]
 				},
 				{
-					"stations": [ "🇬🇧68630", "🇬🇧O181313467"]
+					"stations": [ "🇬🇧68630", "🇬🇧O181313467" ]
 				}
 			],
 			"stopsEverywhere": true
