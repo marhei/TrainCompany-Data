@@ -60249,6 +60249,41 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NZWL",
+					"end": "NAUR",
+					"length": 4,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "NAUR",
+					"end": "NLG",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "NLG",
+					"end": "NBHF",
+					"length": 5,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "NBHF",
+					"end": "NBMA",
+					"length": 2,
+					"twistingFactor": 0.11
+				}
+			]
+		},
+		{
 			"name": "Krušnohorský Semmering",
 			"electrified": false,
 			"group": 1,
