@@ -43227,6 +43227,143 @@
 		},
 		{
 			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧HFD",
+					"end": "🇬🇧LED",
+					"name": "Hereford and Worcester Line",
+					"length": 22,
+					"maxSpeed": 128,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇬🇧LED",
+					"end": "🇬🇧CWL",
+					"name": "Hereford and Worcester Line",
+					"length": 6,
+					"maxSpeed": 112,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧CWL",
+					"end": "🇬🇧GMV",
+					"name": "Hereford and Worcester Line",
+					"length": 4,
+					"maxSpeed": 112,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧GMV",
+					"end": "🇬🇧WOS",
+					"name": "Hereford and Worcester Line",
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧WOS",
+					"end": "🇬🇧PSH",
+					"name": "Cotswold Line",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧PSH",
+					"end": "🇬🇧EVE",
+					"name": "Cotswold Line",
+					"length": 10,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧EVE",
+					"end": "🇬🇧HYB",
+					"name": "Cotswold Line",
+					"length": 8,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧HYB",
+					"end": "🇬🇧MIM",
+					"name": "Cotswold Line",
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧MIM",
+					"end": "🇬🇧KGM",
+					"name": "Cotswold Line",
+					"length": 11,
+					"maxSpeed": 144,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧KGM",
+					"end": "🇬🇧SIP",
+					"name": "Cotswold Line",
+					"length": 4,
+					"maxSpeed": 144,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧SIP",
+					"end": "🇬🇧AUW",
+					"name": "Cotswold Line",
+					"length": 2,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧AUW",
+					"end": "🇬🇧CBY",
+					"name": "Cotswold Line",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧CBY",
+					"end": "🇬🇧FIN",
+					"name": "Cotswold Line",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧FIN",
+					"end": "🇬🇧CME",
+					"name": "Cotswold Line",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧CME",
+					"end": "🇬🇧HND",
+					"name": "Cotswold Line",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧HND",
+					"end": "🇬🇧OXF",
+					"name": "Cotswold Line",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"electrified": false,
 			"group": 1,
 			"maxSpeed": 50,
 			"twistingFactor": 0.35,
