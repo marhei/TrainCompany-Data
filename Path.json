@@ -23422,7 +23422,7 @@
 			],
 			"objects": [
 				{
-					"start": "🇬🇧O1401008823",
+					"start": "🇬🇧NWP",
 					"end": "🇬🇧CWM",
 					"name": "Welsh Marches Line",
 					"electrified": false,
@@ -40109,7 +40109,7 @@
 				},
 				{
 					"start": "🇬🇧SVB",
-					"end": "🇬🇧O1401008823",
+					"end": "🇬🇧NWP",
 					"name": "South Wales Main Line",
 					"electrified": true,
 					"length": 24,
@@ -40117,7 +40117,7 @@
 					"twistingFactor": 0.13
 				},
 				{
-					"start": "🇬🇧O1401008823",
+					"start": "🇬🇧NWP",
 					"end": "🇬🇧CDF",
 					"name": "South Wales Main Line",
 					"electrified": true,
@@ -40183,31 +40183,39 @@
 		},
 		{
 			"electrified": false,
-			"group": 0,
+			"group": 1,
 			"neededEquipments": [
 				"GB"
 			],
+			"name": "Fishguard Harbour branch",
 			"objects": [
 				{
 					"start": "🇬🇧FGH",
-					"end": "🇬🇧O1752948061",
-					"name": "Fishguard Harbour Lines",
+					"end": "🇬🇧FGW",
 					"length": 1,
 					"maxSpeed": 24,
 					"twistingFactor": 0.01
 				},
 				{
-					"start": "🇬🇧O1752948061",
+					"start": "🇬🇧FGW",
 					"end": "🇬🇧CLR",
-					"name": "Fishguard Branch",
 					"length": 24,
 					"maxSpeed": 120,
 					"twistingFactor": 0.37
-				},
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
 				{
 					"start": "🇬🇧CLR",
 					"end": "🇬🇧CUW",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 1,
 					"length": 10,
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
@@ -40215,39 +40223,53 @@
 				{
 					"start": "🇬🇧CUW",
 					"end": "🇬🇧WTL",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 1,
 					"length": 9,
 					"maxSpeed": 120,
-					"twistingFactor": 0.44
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "🇬🇧WTL",
-					"end": "🇬🇧FYS",
-					"name": "South Wales Main Line",
-					"length": 33,
+					"end": "🇬🇧CMN",
+					"name": "West Wales line",
+					"group": 0,
+					"length": 23,
 					"maxSpeed": 120,
-					"twistingFactor": 0.44
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇬🇧CMN",
+					"end": "🇬🇧FYS",
+					"name": "West Wales line",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "🇬🇧FYS",
 					"end": "🇬🇧KWL",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.34
 				},
 				{
 					"start": "🇬🇧KWL",
-					"end": "🇬🇧O20924997",
-					"name": "South Wales Main Line",
+					"end": "🇬🇧PBY",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 8,
 					"maxSpeed": 120,
 					"twistingFactor": 0.23
 				},
 				{
-					"start": "🇬🇧O20924997",
+					"start": "🇬🇧PBY",
 					"end": "🇬🇧LLE",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.11
@@ -40255,7 +40277,8 @@
 				{
 					"start": "🇬🇧LLE",
 					"end": "🇬🇧GWN",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 9,
 					"maxSpeed": 120,
 					"twistingFactor": 0.01
@@ -40263,10 +40286,108 @@
 				{
 					"start": "🇬🇧GWN",
 					"end": "🇬🇧SWA",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 8,
 					"maxSpeed": 120,
 					"twistingFactor": 0.34
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"GB"
+			],
+			"group": 1,
+			"name": "Milford Haven branch",
+			"objects": [
+				{
+					"start": "🇬🇧CLR",
+					"end": "🇬🇧HVF",
+					"length": 8,
+					"maxSpeed": 90,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇬🇧HVF",
+					"end": "🇬🇧JOH",
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇬🇧JOH",
+					"end": "🇬🇧MFH",
+					"length": 6,
+					"maxSpeed": 50,
+					"twistingFactor": 0.27
+				}
+			]
+		},
+		{
+			"name": "Pembroke & Tenby Railway",
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧WTL",
+					"end": "🇬🇧NAR",
+					"length": 8,
+					"maxSpeed": 112,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧NAR",
+					"end": "🇬🇧KGT",
+					"length": 9,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧KGT",
+					"end": "🇬🇧SDF",
+					"length": 1,
+					"maxSpeed": 64,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧SDF",
+					"end": "🇬🇧TEN",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧TEN",
+					"end": "🇬🇧MRB",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧MRB",
+					"end": "🇬🇧LAM",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LAM",
+					"end": "🇬🇧PMB",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇬🇧PMB",
+					"end": "🇬🇧PMD",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
 				}
 			]
 		},
