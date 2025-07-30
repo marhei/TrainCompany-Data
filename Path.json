@@ -59113,6 +59113,68 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 70,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NZWL",
+					"end": "NLH",
+					"length": 3,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "NLH",
+					"end": "NZWU",
+					"length": 2,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "NZWU",
+					"end": "NFU",
+					"length": 2,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "NFU",
+					"end": "NKNB",
+					"length": 6,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "NKNB",
+					"end": "NSPU",
+					"length": 3,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "NSPU",
+					"end": "NGRS",
+					"length": 4,
+					"twistingFactor": 0.37,
+					"maxSpeed": 50
+				},
+				{
+					"start": "NGRS",
+					"end": "NRNU",
+					"length": 3,
+					"twistingFactor": 0.39,
+					"maxSpeed": 50
+				},
+				{
+					"start": "NRNU",
+					"end": "NGFU",
+					"length": 3,
+					"twistingFactor": 0.39,
+					"maxSpeed": 50
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 100,
 			"twistingFactor": 0.15,
