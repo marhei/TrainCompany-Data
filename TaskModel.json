@@ -683,6 +683,33 @@
 			"service": 1
 		},
 		{
+			"name": "XC von %s nach %s",
+			"descriptions": [
+				"Bringe diesen Intercity von %s nach %s.",
+				"Fahre einmal quer durch Großbritanniens nach %2$s.",
+				"Verbinde Wales mit England bzw. Schottland zwischen %s und %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1,
+			"objects": [
+				{
+					"stations": [ "🇬🇧BRI", "🇬🇧BPW", "🇬🇧CNM", "🇬🇧WOS", "🇬🇧BHM", "🇬🇧BUT", "🇬🇧DBY", "🇬🇧CHD", "XKSH", "🇬🇧WKF", "🇬🇧LDS", "🇬🇧YRK" ]
+				},
+				{
+					"stations": [ "🇬🇧BRI", "🇬🇧BPW", "🇬🇧CNM", "🇬🇧BUT", "🇬🇧DBY", "🇬🇧CHD", "XKSH", "🇬🇧WKF", "🇬🇧LDS", "🇬🇧YRK", "🇬🇧DAR", "🇬🇧DHM", "🇬🇧NCL", "🇬🇧ALM", "🇬🇧BWK", "🇬🇧EDB", "🇬🇧MTH", "🇬🇧GLC" ]
+				},
+				{
+					"stations": [ "🇬🇧35800", "🇬🇧35580", "🇬🇧34262", "🇬🇧34100", "🇬🇧TAU", "🇬🇧BRI", "🇬🇧BPW", "🇬🇧CNM", "🇬🇧BUT", "🇬🇧DBY", "🇬🇧CHD", "XKSH", "🇬🇧WKF", "🇬🇧LDS", "🇬🇧YRK", "🇬🇧DAR", "🇬🇧DHM", "🇬🇧NCL", "🇬🇧ALM", "🇬🇧BWK", "🇬🇧EDB" ]
+				},
+				{
+						"stations": [ "🇬🇧35260", "🇬🇧35300", "🇬🇧35400", "🇬🇧35800", "🇬🇧35580", "🇬🇧34262", "🇬🇧34100", "🇬🇧TAU", "🇬🇧BRI", "🇬🇧BPW", "🇬🇧CNM", "🇬🇧WOS", "🇬🇧BHM", "🇬🇧BUT", "🇬🇧DBY", "🇬🇧CHD", "XKSH", "🇬🇧WKF", "🇬🇧LDS", "🇬🇧YRK", "🇬🇧DAR", "🇬🇧DHM", "🇬🇧NCL", "🇬🇧BWK", "🇬🇧EDB", "🇬🇧KDY", "🇬🇧MNC", "🇬🇧DEE", "🇬🇧ABD" ]
+				}
+			]
+		},
+		{
 			"name": "IC von %s nach %s",
 			"descriptions": [
 				"Bringe den Intercity von %s nach %s.",
@@ -7328,6 +7355,9 @@
 				},
 				{
 					"stations": [ "🇬🇧CMN", "🇬🇧PMD"]
+				},
+				{
+					"stations": [ "🇬🇧CDF", "🇬🇧NWP", "🇬🇧WRX", "🇬🇧CTR", "🇬🇧HHD" ]
 				}
 			],
 			"stopsEverywhere": true
