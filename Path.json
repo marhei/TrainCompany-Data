@@ -31047,23 +31047,13 @@
 			"objects": [
 				{
 					"start": "XFMH",
-					"end": "XFOM",
-					"name": "Ligne de Mommenheim à Sarreguemines",
-					"electrified": false,
-					"group": 0,
-					"length": 13,
-					"maxSpeed": 110,
-					"twistingFactor": 0.28
-				},
-				{
-					"start": "XFOM",
 					"end": "XFIW",
 					"name": "Ligne de Mommenheim à Sarreguemines",
 					"electrified": false,
 					"group": 0,
-					"length": 6,
+					"length": 19,
 					"maxSpeed": 110,
-					"twistingFactor": 0.18
+					"twistingFactor": 0.24
 				},
 				{
 					"start": "XFIW",
@@ -53638,6 +53628,55 @@
 			"end": "XLW",
 			"twistingFactor": 0.27,
 			"length": 7
+		},
+		{
+			"name": "Ligne de Réding à Metz-Ville",
+			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFRD",
+					"end": "XFBTM",
+					"group": 2,
+					"length": 11,
+					"maxSpeed": 110,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "XFBTM",
+					"end": "XFLF",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 150,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XFLF",
+					"end": "XFBTR",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 150,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XFBTR",
+					"end": "XFMOH",
+					"group": 0,
+					"length": 7,
+					"maxSpeed": 150,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XFMOH",
+					"end": "🇫🇷BDC",
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 150,
+					"twistingFactor": 0.02
+				}
+			]
 		},
 		{
 			"electrified": false,
