@@ -46232,6 +46232,54 @@
 			]
 		},
 		{
+			"name": "Ennstalbahn",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.8,
+			"neededEquipments": [
+				"AT"
+			],
+			"objects": [
+				{
+					"start": "XABO",
+					"end": "XARA",
+					"length": 24,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "XARA",
+					"end": "XASL",
+					"length": 17,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XASL",
+					"end": "XAGM",
+					"length": 18,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XAGM",
+					"end": "XASI",
+					"length": 20,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XASI",
+					"end": "XALZN",
+					"length": 12,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "XALZN",
+					"end": "XASZ",
+					"length": 6,
+					"twistingFactor": 0.24
+				}
+			]
+		},
+		{
 			"name": "Süd-Lausitzer Bahn",
 			"electrified": false,
 			"group": 0,
