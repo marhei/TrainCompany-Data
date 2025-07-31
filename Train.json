@@ -1064,6 +1064,48 @@
 			]
 		},
 		{
+			"id": 446,
+			"group": 2,
+			"service": 2,
+			"name": "Bombardier Twindexx Vario - 4 tlg",
+			"shortcut": "BR 446",
+			"speed": 160,
+			"weight": 200,
+			"force": 400,
+			"length": 105,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 800000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 3,
+			"equipments": ["DE"],
+			"compatibleWith": [445],
+			"capacity": [
+				{ "name": "passengers", "value": 405 }
+			]
+		},
+		{
+			"id": 445,
+			"group": 2,
+			"service": 2,
+			"name": "Bombardier Twindexx Vario - 6 tlg",
+			"shortcut": "BR 445",
+			"speed": 160,
+			"weight": 298,
+			"force": 400,
+			"length": 160,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 1200000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 3,
+			"equipments": ["DE"],
+			"compatibleWith": [446],
+			"capacity": [
+				{ "name": "passengers", "value": 535 }
+			]
+		},
+		{
 			"id": 4010,
 			"group": 2,
 			"service": 1,
@@ -1479,9 +1521,9 @@
 			"service": 1,
 			"name": "Hitachi Azuma/IET (5-Teiler)",
 			"shortcut": "Class 800/2",
-			"speed": 225,
+			"speed": 200,
 			"weight": 243,
-			"length": 103,
+			"length": 130,
 			"drive": 4,
 			"reliability": 0.95,
 			"force": 185,
@@ -1490,7 +1532,6 @@
 			"operationCosts": 60,
 			"equipments": ["GB", "ETCS"],
 			"maxConnectedUnits": 2,
-			"compatibleWith": [],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 302}
@@ -1499,11 +1540,12 @@
 		{
 			"id": 2019801,
 			"group": 2,
+			"service": 1,
 			"name": "Hitachi Azuma/IET (9-Teiler)",
 			"shortcut": "Class 801/2",
-			"speed": 225,
+			"speed": 200,
 			"weight": 240,
-			"length": 207,
+			"length": 243,
 			"drive": 1,
 			"reliability": 0.95,
 			"force": 185,
@@ -1514,6 +1556,47 @@
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 611}
+			]
+		},
+		{
+			"id": 2019805,
+			"group": 2,
+			"name": "Hitachi Evero (5-Teiler)",
+			"shortcut": "Class 805",
+			"speed": 200,
+			"weight": 243,
+			"length": 130,
+			"drive": 4,
+			"reliability": 0.95,
+			"force": 185,
+			"range": 300,
+			"cost": 2000000,
+			"operationCosts": 60,
+			"equipments": ["GB"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 301}
+			]
+		},
+		{
+			"id": 2019807,
+			"group": 2,
+			"name": "Hitachi Evero (7-Teiler)",
+			"shortcut": "Class 807",
+			"speed": 200,
+			"weight": 240,
+			"length": 182,
+			"drive": 1,
+			"reliability": 0.95,
+			"force": 185,
+			"cost": 1900000,
+			"operationCosts": 57,
+			"equipments": ["GB"],
+			"maxConnectedUnits": 2,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 453}
 			]
 		},
 		{
@@ -2546,6 +2629,7 @@
 		{
 			"id": 85563,
 			"group": 2,
+			"service": 2,
 			"name": "CAF Civity",
 			"shortcut": "FS ETR 563",
 			"speed": 160,
@@ -2561,6 +2645,26 @@
 			"exchangeTime": 40,
 			"capacity": [
 				{"name": "passengers", "value": 297}
+			]
+		},
+		{
+			"id": 70355,
+			"group": 2,
+			"service": 2,
+			"name": "CAF Civity UK",
+			"shortcut": "Class 197",
+			"speed": 160,
+			"weight": 80,
+			"force": 170,
+			"length": 48,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 240000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 70,
+			"equipments": ["GB"],
+			"capacity": [
+				{"name": "passengers", "value": 116}
 			]
 		},
 		{
@@ -3665,8 +3769,9 @@
 		{
 			"id": 1975125,
 			"group": 2,
-			"name": "Intercity 125 (Class 254)",
-			"shortcut": "HST",
+			"service": 1,
+			"name": "Intercity 125 (Class 254) long",
+			"shortcut": "HST GWR",
 			"speed": 201,
 			"weight": 383,
 			"force": 80,
@@ -3679,6 +3784,26 @@
 			"cost": 1900000,
 			"capacity": [
 				{"name": "passengers", "value": 566}
+			]
+		},
+		{
+			"id": 1975126,
+			"group": 2,
+			"service": 1,
+			"name": "Intercity 125 (Class 254) short",
+			"shortcut": "HST Scotrail",
+			"speed": 201,
+			"weight": 240,
+			"force": 80,
+			"length": 103,
+			"drive": 2,
+			"reliability": 0.9,
+			"maxConnectedUnits": 1,
+			"equipments": ["GB"],
+			"operationCosts": 100,
+			"cost": 1000000,
+			"capacity": [
+				{"name": "passengers", "value": 238}
 			]
 		},
 		{
@@ -3760,6 +3885,47 @@
 			"capacity": [
 				{"name": "passengers", "value": 136}
 			]
+		},
+		{
+			"id": 70158,
+			"group": 2,
+			"name": "Express Sprinter",
+			"shortcut": "Class 158",
+			"speed": 145,
+			"weight": 78,
+			"force": 285,
+			"length": 46,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 250000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 80,
+			"equipments": ["GB"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 138}
+			]
+		},
+		{
+			"id": 70170,
+			"group": 2,
+			"name": "Turbostar",
+			"shortcut": "Class 170",
+			"speed": 160,
+			"weight": 120,
+			"force": 285,
+			"length": 69,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 250000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 90,
+			"equipments": ["GB"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 200}
+			],
+			"compatibleWith": [70158, 70156]
 		},
 		{
 			"id": 628,
@@ -4500,6 +4666,67 @@
 			]
 		},
 		{
+			"id": 78810,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler Flirt UK bi-mode",
+			"shortcut": "Class 755",
+			"speed": 160,
+			"weight": 100,
+			"force": 135,
+			"length": 81,
+			"drive": 4,
+			"range": 150,
+			"reliability": 1,
+			"cost": 450000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 70,
+			"equipments": ["GB"],
+			"capacity": [
+				{"name": "passengers", "value": 230}
+			]
+		},
+		{
+			"id": 78820,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler Flirt UK",
+			"shortcut": "Class 745",
+			"speed": 160,
+			"weight": 278,
+			"force": 400,
+			"length": 237,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 750000,
+			"maxConnectedUnits": 1,
+			"operationCosts": 60,
+			"equipments": ["GB"],
+			"capacity": [
+				{"name": "passengers", "value": 722}
+			]
+		},
+		{
+			"id": 78830,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler Flirt UK Diesel",
+			"shortcut": "Class 231",
+			"speed": 145,
+			"weight": 154,
+			"force": 160,
+			"length": 81,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 350000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 80,
+			"equipments": ["GB"],
+			"capacity": [
+				{"name": "passengers", "value": 386}
+			]
+		},
+		{
 			"id": 7677,
 			"group": 2,
 			"name": "Stadler Flirt 3",
@@ -4724,7 +4951,7 @@
 			"reliability": 0.9,
 			"cost": 350000,
 			"operationCosts": 100,
-			"equipments": ["AT", "DE"]
+			"equipments": ["AT", "DE", "CH"]
 		},
 		{
 			"id": 102,
@@ -4750,7 +4977,8 @@
 			"drive": 1,
 			"reliability": 0.8,
 			"cost": 380000,
-			"operationCosts": 120
+			"operationCosts": 120,
+			"equipments": [ "AT", "DE", "CH" ]
 		},
 		{
 			"id": 94,
@@ -4909,7 +5137,8 @@
 			"drive": 1,
 			"reliability": 0.9,
 			"cost": 230000,
-			"operationCosts": 120
+			"operationCosts": 120,
+			"equipments": ["AT", "DE"]
 		},
 		{
 			"id": 112,
@@ -4935,7 +5164,8 @@
 			"drive": 1,
 			"reliability": 1.0,
 			"cost": 320000,
-			"operationCosts": 110
+			"operationCosts": 110,
+			"equipments": [ "CH", "DE", "AT" ]
 		},
 		{
 			"id": 80142,
@@ -4978,7 +5208,8 @@
 			"drive": 1,
 			"reliability": 1,
 			"cost": 300000,
-			"operationCosts": 80
+			"operationCosts": 80,
+			"equipments": [ "ETCS", "AT", "DE" ]
 		},
 		{
 			"id": 29,
@@ -5018,14 +5249,14 @@
 			"shortcut": "BR 188, ČD 388",
 			"speed": 140,
 			"weight": 84,
-			"force": 300,
+			"force": 495,
 			"length": 19,
 			"drive": 1,
 			"range": 50,
 			"reliability": 0.95,
 			"cost": 350000,
 			"operationCosts": 95,
-			"equipments": ["ETCS", "LT", "DE", "NL","CZ", "BE", "IT", "PL", "DK", "SE", "BG", "HR", "RO", "SK", "SI", "HU", "RS"]
+			"equipments": ["ETCS", "LU", "LT", "DE", "AT","CH", "NL","CZ", "BE", "IT", "PL", "DK", "SE", "BG", "HR", "RO", "SK", "SI", "HU", "RS"]
 		},
 		{
 			"id": 4188,
@@ -5041,7 +5272,7 @@
 			"reliability": 0.98,
 			"cost": 395000,
 			"operationCosts": 95,
-			"equipments": ["ETCS", "DE", "NL","CZ", "BE", "IT", "PL", "DK", "SE", "BG", "HR", "RO", "SK", "SI", "HU", "RS"]
+			"equipments": ["ETCS", "LU", "LT", "DE", "AT","CH", "NL","CZ", "BE", "IT", "PL", "DK", "SE", "BG", "HR", "RO", "SK", "SI", "HU", "RS"]
 		},
 		{
 			"id": 12,
@@ -5233,7 +5464,7 @@
 			"reliability": 1,
 			"cost": 700000,
 			"operationCosts": 110,
-			"equipments": ["ETCS", "CZ", "CH", "AT", "NL", "BE", "IT", "FR", "PL", "DK", "SE", "NO", "DE", "BG", "HR", "RO", "SK", "SI", "HU", "TR", "RS"]
+			"equipments": ["ETCS", "CZ", "CH", "AT", "NL", "BE", "IT", "FR", "PL", "DK", "SE", "NO", "DE", "BG", "HR", "RO", "SK", "SI", "HU", "TR", "RS", "LU"]
 		},
 		{
 			"id": 248,
@@ -6569,6 +6800,20 @@
 			"equipments": ["DE"]
 		},
 		{
+            "id": 1206,
+            "group": 0,
+            "name": "MaK G 1206",
+            "speed": 100,
+            "weight": 88,
+            "force": 291,
+            "length": 15,
+            "drive": 2,
+            "reliability": 0.9,
+            "cost": 350000,
+            "operationCosts": 130,
+            "equipments": ["CH", "DE", "LU", "AT", "FR", "IT", "SE", "ETCS"]
+        }, 
+		{
 			"id": 17,
 			"group": 0,
 			"name": "V60",
@@ -6580,7 +6825,7 @@
 			"reliability": 0.8,
 			"cost": 100000,
 			"operationCosts": 100,
-			"equipments": ["CH", "DE"]
+			"equipments": ["CH", "DE","NL","BE","GR","TR","NO","SI","HR","BA","RS","ME","MK","IT"]
 		},
 		{
 			"id": 371070,
@@ -9575,7 +9820,7 @@
 			"group": 1,
 			"service": 11,
 			"name": "Containerwagen InterCargoExpress",
-			"shortcut": "Sgss-y",
+			"shortcut": "Sgss-y 703",
 			"speed": 160,
 			"weight": 20,
 			"force": 0,
@@ -9584,7 +9829,7 @@
 			"reliability": 1,
 			"cost": 100000,
 			"capacity": [
-				{"name": "containers", "value": 1}
+				{"name": "containers", "value": 2}
 			]
 		},
 		{
@@ -9601,7 +9846,24 @@
 			"reliability": 1,
 			"cost": 175000,
 			"capacity": [
-				{"name": "containers", "value": 3}
+				{"name": "trailers", "value": 2}
+			]
+		},
+		{
+			"id": 3734,
+			"group": 1,
+			"service": 11,
+			"name": "Taschentragwagen T3",
+			"shortcut": "Sdgmns 743",
+			"speed": 100,
+			"weight": 21,
+			"force": 0,
+			"length": 18,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 150000,
+			"capacity": [
+				{"name": "trailers", "value": 1}
 			]
 		},
 		{
@@ -9651,7 +9913,7 @@
 			"length": 22,
 			"drive": 0,
 			"reliability": 1,
-			"cost": 130000,
+			"cost": 260000,
 			"capacity": [
 				{"name": "containers", "value": 4}
 			]
@@ -10087,7 +10349,7 @@
 			"reliability": 0.95,
 			"cost": 160000,
 			"capacity": [
-				{"name": "containers", "value": 2}
+				{"name": "containers", "value": 3}
 			]
     },
 		{
