@@ -10267,6 +10267,268 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧SES",
+					"end": "🇬🇧GOE",
+					"name": "Swinton and Milford Junction Line",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧GOE",
+					"end": "🇬🇧SWN",
+					"name": "Swinton and Milford Junction Line",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧SWN",
+					"end": "🇬🇧RMC",
+					"name": "Tapton Junction (Chesterfield) to Colne",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧RMC",
+					"end": "🇬🇧MHS",
+					"name": "Midland Main Line",
+					"length": 4,
+					"maxSpeed": 128,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧MHS",
+					"end": "XKSH",
+					"name": "Midland Main Line",
+					"length": 5,
+					"maxSpeed": 128,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XKSH",
+					"end": "🇬🇧DOR",
+					"name": "Midland Main Line",
+					"length": 6,
+					"maxSpeed": 144,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧DOR",
+					"end": "🇬🇧DRO",
+					"name": "Midland Main Line",
+					"length": 4,
+					"maxSpeed": 144,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇬🇧DRO",
+					"end": "🇬🇧CHD",
+					"name": "Midland Main Line",
+					"length": 8,
+					"maxSpeed": 152,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧CHD",
+					"end": "🇬🇧BLP",
+					"name": "Midland Main Line",
+					"length": 26,
+					"maxSpeed": 177,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧BLP",
+					"end": "🇬🇧DFI",
+					"name": "Midland Main Line",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧DFI",
+					"end": "🇬🇧DBY",
+					"name": "Midland Main Line",
+					"length": 8,
+					"maxSpeed": 177,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": false,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧DBY",
+					"end": "🇬🇧WIL",
+					"name": "St Pancras to Chesterfield Line",
+					"length": 9,
+					"maxSpeed": 201,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧WIL",
+					"end": "🇬🇧BUT",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 7,
+					"maxSpeed": 201,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BUT",
+					"end": "🇬🇧WNE",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 23,
+					"maxSpeed": 201,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧WNE",
+					"end": "🇬🇧WTO",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 12,
+					"maxSpeed": 201,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧WTO",
+					"end": "🇬🇧BHM",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧BHM",
+					"end": "🇬🇧KNN",
+					"name": "Cross-City Line",
+					"electrified": true,
+					"length": 6,
+					"maxSpeed": 96,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧KNN",
+					"end": "🇬🇧NFD",
+					"name": "Cross-City Line",
+					"electrified": true,
+					"length": 2,
+					"maxSpeed": 144,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧NFD",
+					"end": "🇬🇧LOB",
+					"name": "Cross-City Line",
+					"electrified": true,
+					"length": 1,
+					"maxSpeed": 144,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LOB",
+					"end": "🇬🇧BMV",
+					"name": "Cross Country Route",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 144,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧BMV",
+					"end": "🇬🇧DTW",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧DTW",
+					"end": "🇬🇧WOS",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧WOS",
+					"end": "🇬🇧ASC",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧ASC",
+					"end": "🇬🇧CNM",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧CNM",
+					"end": "🇬🇧GCR",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧GCR",
+					"end": "🇬🇧CDU",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 160,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧CDU",
+					"end": "🇬🇧YAE",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇬🇧YAE",
+					"end": "🇬🇧BPW",
+					"name": "South Wales and Bristol Direct Line",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 201,
+					"twistingFactor": 0.37
+				}
+			]
+		},
+		{
 			"name": "Pittsburgh Line",
 			"electrified": false,
 			"group": 0,
@@ -17980,6 +18242,85 @@
 					"start": "EIAV",
 					"end": "EBILP",
 					"length": 12
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MIH",
+					"end": "MIA",
+					"length": 5,
+					"maxSpeed": 100
+				},
+				{
+					"start": "MIA",
+					"end": "MGH",
+					"length": 2,
+					"twistingFactor": 0.01,
+					"maxSpeed": 160
+				},
+				{
+					"start": "MGH",
+					"end": "MEI",
+					"length": 4,
+					"twistingFactor": 0.11,
+					"maxSpeed": 160
+				},
+				{
+					"start": "MEI",
+					"end": "MTA",
+					"length": 3,
+					"twistingFactor": 0.1,
+					"maxSpeed": 120
+				},
+				{
+					"start": "MTA",
+					"end": "MAD",
+					"length": 5,
+					"twistingFactor": 0.13,
+					"maxSpeed": 120
+				},
+				{
+					"start": "MAD",
+					"end": "MEB",
+					"length": 4,
+					"twistingFactor": 0.05,
+					"maxSpeed": 120
+				},
+				{
+					"start": "MEB",
+					"end": "MDO",
+					"length": 10,
+					"twistingFactor": 0.56,
+					"maxSpeed": 100
+				},
+				{
+					"start": "MDO",
+					"end": "MSO",
+					"length": 7,
+					"twistingFactor": 0.17,
+					"maxSpeed": 110
+				},
+				{
+					"start": "MSO",
+					"end": "MPP",
+					"length": 5,
+					"twistingFactor": 0.29,
+					"maxSpeed": 110
+				},
+				{
+					"start": "MPP",
+					"end": "MTL",
+					"length": 6,
+					"twistingFactor": 0.29,
+					"maxSpeed": 120
 				}
 			]
 		},
@@ -36679,6 +37020,65 @@
 			]
 		},
 		{
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MIH",
+					"end": "MSHN",
+					"electrified": false,
+					"length": 24,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MSHN",
+					"end": "MRDD",
+					"electrified": false,
+					"length": 9,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MRDD",
+					"end": "MAI",
+					"electrified": false,
+					"length": 6,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MAI",
+					"end": "MOGB",
+					"electrified": false,
+					"length": 5,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "MOGB",
+					"end": "MDAG",
+					"electrified": false,
+					"length": 4,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "MDAG",
+					"end": "MFDB",
+					"electrified": false,
+					"length": 7,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "MFDB",
+					"end": "MA",
+					"electrified": true,
+					"length": 5,
+					"twistingFactor": 0.27
+				}
+			]
+		},
+		{
 			"name": "Ferrovia Milano-Bologna",
 			"electrified": true,
 			"maxSpeed": 300,
@@ -40413,6 +40813,183 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"electrified": false,
+			"objects": [
+				{
+					"start": "🇬🇧DBY",
+					"end": "🇬🇧TUT",
+					"name": "Crewe to Derby Line",
+					"length": 17,
+					"maxSpeed": 201,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧TUT",
+					"end": "🇬🇧UTT",
+					"name": "Crewe to Derby Line",
+					"length": 12,
+					"maxSpeed": 112,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧UTT",
+					"end": "🇬🇧BYB",
+					"name": "Crewe to Derby Line",
+					"length": 17,
+					"maxSpeed": 112,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧BYB",
+					"end": "🇬🇧LGN",
+					"name": "Crewe to Derby Line",
+					"length": 5,
+					"maxSpeed": 112,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧LGN",
+					"end": "🇬🇧SOT",
+					"name": "Crewe to Derby Line",
+					"length": 3,
+					"maxSpeed": 112,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧DBY",
+					"end": "🇬🇧SPO",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 6,
+					"maxSpeed": 201,
+					"twistingFactor": 0.64
+				},
+				{
+					"start": "🇬🇧SPO",
+					"end": "🇬🇧LGE",
+					"name": "Midland Main Line",
+					"length": 8,
+					"maxSpeed": 185,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧LGE",
+					"end": "🇬🇧ATB",
+					"name": "Midland Main Line",
+					"length": 4,
+					"maxSpeed": 128,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧ATB",
+					"end": "🇬🇧BEE",
+					"length": 2,
+					"maxSpeed": 128,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BEE",
+					"end": "🇬🇧NOT",
+					"name": "Trent South to Nottingham Line",
+					"length": 5,
+					"maxSpeed": 128,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧NOT",
+					"end": "🇬🇧BUJ",
+					"name": "Nottingham to Lincoln Line",
+					"length": 6,
+					"maxSpeed": 96,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BUJ",
+					"end": "🇬🇧LOW",
+					"name": "Nottingham to Lincoln Line",
+					"length": 3,
+					"maxSpeed": 96,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LOW",
+					"end": "🇬🇧THU",
+					"name": "Nottingham to Lincoln Line",
+					"length": 2,
+					"maxSpeed": 96,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧THU",
+					"end": "🇬🇧BSB",
+					"name": "Nottingham to Lincoln Line",
+					"length": 1,
+					"maxSpeed": 96,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BSB",
+					"end": "🇬🇧FSK",
+					"name": "Nottingham to Lincoln Line",
+					"length": 2,
+					"maxSpeed": 96,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧FSK",
+					"end": "🇬🇧NNG",
+					"name": "Nottingham to Lincoln Line",
+					"length": 7,
+					"maxSpeed": 96,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧NNG",
+					"end": "🇬🇧CLM",
+					"name": "Nottingham to Lincoln Line",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧CLM",
+					"end": "🇬🇧SWD",
+					"name": "Nottingham to Lincoln Line",
+					"length": 4,
+					"maxSpeed": 112,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧SWD",
+					"end": "🇬🇧HKM",
+					"name": "Nottingham to Lincoln Line",
+					"length": 7,
+					"maxSpeed": 112,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧HKM",
+					"end": "🇬🇧LCN",
+					"name": "Nottingham to Lincoln Line",
+					"length": 7,
+					"maxSpeed": 112,
+					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"neededEquipments": [
@@ -41702,15 +42279,15 @@
 		},
 		{
 			"electrified": false,
-			"group": 0,
+			"group": 1,
 			"neededEquipments": [
 				"GB"
 			],
+			"name": "Fishguard Harbour branch",
 			"objects": [
 				{
 					"start": "🇬🇧FGH",
 					"end": "🇬🇧O1752948061",
-					"name": "Fishguard Harbour Lines",
 					"length": 1,
 					"maxSpeed": 24,
 					"twistingFactor": 0.01
@@ -41718,15 +42295,23 @@
 				{
 					"start": "🇬🇧O1752948061",
 					"end": "🇬🇧CLR",
-					"name": "Fishguard Branch",
 					"length": 24,
 					"maxSpeed": 120,
 					"twistingFactor": 0.37
-				},
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
 				{
 					"start": "🇬🇧CLR",
 					"end": "🇬🇧CUW",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 1,
 					"length": 10,
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
@@ -41734,23 +42319,35 @@
 				{
 					"start": "🇬🇧CUW",
 					"end": "🇬🇧WTL",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 1,
 					"length": 9,
 					"maxSpeed": 120,
-					"twistingFactor": 0.44
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "🇬🇧WTL",
-					"end": "🇬🇧FYS",
-					"name": "South Wales Main Line",
-					"length": 33,
+					"end": "🇬🇧CMN",
+					"name": "West Wales line",
+					"group": 0,
+					"length": 23,
 					"maxSpeed": 120,
-					"twistingFactor": 0.44
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇬🇧CMN",
+					"end": "🇬🇧FYS",
+					"name": "West Wales line",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "🇬🇧FYS",
 					"end": "🇬🇧KWL",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.34
@@ -41758,7 +42355,8 @@
 				{
 					"start": "🇬🇧KWL",
 					"end": "🇬🇧O20924997",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 8,
 					"maxSpeed": 120,
 					"twistingFactor": 0.23
@@ -41766,7 +42364,8 @@
 				{
 					"start": "🇬🇧O20924997",
 					"end": "🇬🇧LLE",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.11
@@ -41774,7 +42373,8 @@
 				{
 					"start": "🇬🇧LLE",
 					"end": "🇬🇧GWN",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 9,
 					"maxSpeed": 120,
 					"twistingFactor": 0.01
@@ -41782,10 +42382,108 @@
 				{
 					"start": "🇬🇧GWN",
 					"end": "🇬🇧SWA",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 8,
 					"maxSpeed": 120,
 					"twistingFactor": 0.34
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"GB"
+			],
+			"group": 1,
+			"name": "Milford Haven branch",
+			"objects": [
+				{
+					"start": "🇬🇧CLR",
+					"end": "🇬🇧HVF",
+					"length": 8,
+					"maxSpeed": 90,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇬🇧HVF",
+					"end": "🇬🇧JOH",
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇬🇧JOH",
+					"end": "🇬🇧MFH",
+					"length": 6,
+					"maxSpeed": 50,
+					"twistingFactor": 0.27
+				}
+			]
+		},
+		{
+			"name": "Pembroke & Tenby Railway",
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧WTL",
+					"end": "🇬🇧NAR",
+					"length": 8,
+					"maxSpeed": 112,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧NAR",
+					"end": "🇬🇧KGT",
+					"length": 9,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧KGT",
+					"end": "🇬🇧SDF",
+					"length": 1,
+					"maxSpeed": 64,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧SDF",
+					"end": "🇬🇧TEN",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧TEN",
+					"end": "🇬🇧MRB",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧MRB",
+					"end": "🇬🇧LAM",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LAM",
+					"end": "🇬🇧PMB",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇬🇧PMB",
+					"end": "🇬🇧PMD",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
 				}
 			]
 		},
@@ -44620,6 +45318,143 @@
 					"start": "DKRU",
 					"end": "DNE",
 					"length": 6
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧HFD",
+					"end": "🇬🇧LED",
+					"name": "Hereford and Worcester Line",
+					"length": 22,
+					"maxSpeed": 128,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇬🇧LED",
+					"end": "🇬🇧CWL",
+					"name": "Hereford and Worcester Line",
+					"length": 6,
+					"maxSpeed": 112,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧CWL",
+					"end": "🇬🇧GMV",
+					"name": "Hereford and Worcester Line",
+					"length": 4,
+					"maxSpeed": 112,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧GMV",
+					"end": "🇬🇧WOS",
+					"name": "Hereford and Worcester Line",
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧WOS",
+					"end": "🇬🇧PSH",
+					"name": "Cotswold Line",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧PSH",
+					"end": "🇬🇧EVE",
+					"name": "Cotswold Line",
+					"length": 10,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧EVE",
+					"end": "🇬🇧HYB",
+					"name": "Cotswold Line",
+					"length": 8,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧HYB",
+					"end": "🇬🇧MIM",
+					"name": "Cotswold Line",
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧MIM",
+					"end": "🇬🇧KGM",
+					"name": "Cotswold Line",
+					"length": 11,
+					"maxSpeed": 144,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧KGM",
+					"end": "🇬🇧SIP",
+					"name": "Cotswold Line",
+					"length": 4,
+					"maxSpeed": 144,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧SIP",
+					"end": "🇬🇧AUW",
+					"name": "Cotswold Line",
+					"length": 2,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧AUW",
+					"end": "🇬🇧CBY",
+					"name": "Cotswold Line",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧CBY",
+					"end": "🇬🇧FIN",
+					"name": "Cotswold Line",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧FIN",
+					"end": "🇬🇧CME",
+					"name": "Cotswold Line",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧CME",
+					"end": "🇬🇧HND",
+					"name": "Cotswold Line",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧HND",
+					"end": "🇬🇧OXF",
+					"name": "Cotswold Line",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
 				}
 			]
 		},
@@ -49696,22 +50531,6 @@
 					"twistingFactor": 0.01
 				},
 				{
-					"start": "XPLBR",
-					"end": "🇵🇱O3661678685",
-					"electrified": false,
-					"length": 4,
-					"maxSpeed": 160,
-					"twistingFactor": 0.01
-				},
-				{
-					"start": "🇵🇱O3661678685",
-					"end": "🇵🇱O1163364851",
-					"electrified": true,
-					"length": 12,
-					"maxSpeed": 160,
-					"twistingFactor": 0.05
-				},
-				{
 					"start": "🇵🇱06060",
 					"end": "🇵🇱O10946919013",
 					"electrified": true,
@@ -52036,6 +52855,191 @@
 					"start": "WRW",
 					"end": "WHO",
 					"length": 12
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"name": "Heart of Wales line",
+			"maxSpeed": 95,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧LLE",
+					"end": "🇬🇧BYE",
+					"length": 4,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BYE",
+					"end": "🇬🇧LLH",
+					"length": 2,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇬🇧LLH",
+					"end": "🇬🇧PTD",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧PTD",
+					"end": "🇬🇧PTF",
+					"length": 7,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧PTF",
+					"end": "🇬🇧AMF",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧AMF",
+					"end": "🇬🇧LLI",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LLI",
+					"end": "🇬🇧FFA",
+					"length": 6,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇬🇧FFA",
+					"end": "🇬🇧LLL",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LLL",
+					"end": "🇬🇧LLG",
+					"length": 8,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LLG",
+					"end": "🇬🇧LNR",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LNR",
+					"end": "🇬🇧LLV",
+					"length": 6,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧LLV",
+					"end": "🇬🇧CYN",
+					"length": 7,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧CYN",
+					"end": "🇬🇧SUG",
+					"length": 6,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧SUG",
+					"end": "🇬🇧LNW",
+					"length": 4,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LNW",
+					"end": "🇬🇧LLM",
+					"length": 5,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧LLM",
+					"end": "🇬🇧GTH",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧GTH",
+					"end": "🇬🇧CIM",
+					"length": 5,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧CIM",
+					"end": "🇬🇧BHR",
+					"length": 3,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧BHR",
+					"end": "🇬🇧LLO",
+					"length": 8,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧LLO",
+					"end": "🇬🇧PNY",
+					"length": 5,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧PNY",
+					"end": "🇬🇧DOL",
+					"length": 4,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧DOL",
+					"end": "🇬🇧LLT",
+					"length": 5,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LLT",
+					"end": "🇬🇧LGO",
+					"length": 4,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇬🇧LGO",
+					"end": "🇬🇧KNU",
+					"length": 6,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧KNU",
+					"end": "🇬🇧KNI",
+					"length": 4,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧KNI",
+					"end": "🇬🇧BUK",
+					"length": 6,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧BUK",
+					"end": "🇬🇧HPT",
+					"length": 4,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇬🇧HPT",
+					"end": "🇬🇧BME",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BME",
+					"end": "🇬🇧CRV",
+					"length": 4,
+					"twistingFactor": 0.23
 				}
 			]
 		},
@@ -54630,34 +55634,18 @@
 					"twistingFactor": 0.01
 				},
 				{
-					"start": "🇵🇱O606349229",
-					"end": "🇵🇱05827",
-					"electrified": true,
-					"length": 7,
-					"maxSpeed": 160,
-					"twistingFactor": 0.01
-				},
-				{
-					"start": "🇵🇱05827",
-					"end": "XPBG",
-					"electrified": true,
-					"length": 14,
-					"maxSpeed": 160,
-					"twistingFactor": 0.01
-				},
-				{
-					"start": "XPBG",
-					"end": "XPLBR",
-					"electrified": true,
-					"length": 14,
-					"maxSpeed": 160,
-					"twistingFactor": 0.1
-				},
-				{
 					"start": "XPLBR",
+					"end": "🇵🇱O3661678685",
+					"electrified": true,
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇱O3661678685",
 					"end": "🇵🇱O2147017363",
 					"electrified": true,
-					"length": 12,
+					"length": 7,
 					"maxSpeed": 160,
 					"twistingFactor": 0.01
 				},
@@ -59000,6 +59988,68 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 70,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NZWL",
+					"end": "NLH",
+					"length": 3,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "NLH",
+					"end": "NZWU",
+					"length": 2,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "NZWU",
+					"end": "NFU",
+					"length": 2,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "NFU",
+					"end": "NKNB",
+					"length": 6,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "NKNB",
+					"end": "NSPU",
+					"length": 3,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "NSPU",
+					"end": "NGRS",
+					"length": 4,
+					"twistingFactor": 0.37,
+					"maxSpeed": 50
+				},
+				{
+					"start": "NGRS",
+					"end": "NRNU",
+					"length": 3,
+					"twistingFactor": 0.39,
+					"maxSpeed": 50
+				},
+				{
+					"start": "NRNU",
+					"end": "NGFU",
+					"length": 3,
+					"twistingFactor": 0.39,
+					"maxSpeed": 50
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 100,
 			"twistingFactor": 0.15,
@@ -60136,6 +61186,41 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NZWL",
+					"end": "NAUR",
+					"length": 4,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "NAUR",
+					"end": "NLG",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "NLG",
+					"end": "NBHF",
+					"length": 5,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "NBHF",
+					"end": "NBMA",
+					"length": 2,
+					"twistingFactor": 0.11
+				}
+			]
+		},
+		{
 			"name": "Krušnohorský Semmering",
 			"electrified": false,
 			"group": 1,
@@ -60652,6 +61737,51 @@
 					"length": 5,
 					"maxSpeed": 115,
 					"twistingFactor": 0.19
+				}
+			]
+		},
+		{
+			"name": "Shrewsbury to Chester Line",
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧CTR",
+					"end": "🇬🇧WRX",
+					"length": 19,
+					"maxSpeed": 144,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧WRX",
+					"end": "🇬🇧RUA",
+					"length": 7,
+					"maxSpeed": 112,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧RUA",
+					"end": "🇬🇧CRK",
+					"length": 6,
+					"maxSpeed": 112,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧CRK",
+					"end": "🇬🇧GOB",
+					"length": 4,
+					"maxSpeed": 112,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧GOB",
+					"end": "🇬🇧SHR",
+					"length": 28,
+					"maxSpeed": 144,
+					"twistingFactor": 0.14
 				}
 			]
 		},
@@ -70335,6 +71465,399 @@
 					"neededEquipments": [
 						"bostrab"
 					]
+				}
+			]
+		},
+		{
+			"name": "Timișoara - Arad",
+			"group": 0,
+			"maxSpeed": 70,
+			"neededEquipments": [
+				"RO"
+			],
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "XUA",
+					"end": "🇷🇴5300115",
+					"length": 6
+				},
+				{
+					"start": "🇷🇴5300115",
+					"end": "🇷🇴5325402",
+					"length": 6
+				},
+				{
+					"start": "🇷🇴5325402",
+					"end": "🇷🇴5300403",
+					"length": 5
+				},
+				{
+					"start": "🇷🇴5300403",
+					"end": "🇷🇴5300375",
+					"length": 7
+				},
+				{
+					"start": "🇷🇴5300375",
+					"end": "🇷🇴5300278",
+					"length": 6
+				},
+				{
+					"start": "🇷🇴5300278",
+					"end": "🇷🇴5300125",
+					"length": 6
+				},
+				{
+					"start": "🇷🇴5300125",
+					"end": "🇷🇴5325309",
+					"length": 7
+				},
+				{
+					"start": "🇷🇴5325309",
+					"end": "🇷🇴5325268",
+					"length": 6
+				},
+				{
+					"start": "🇷🇴5325268",
+					"end": "XUTN",
+					"length": 7,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"name": "Timișoara - Lugoj",
+			"group": 0,
+			"maxSpeed": 70,
+			"neededEquipments": [
+				"RO"
+			],
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "XUTN",
+					"end": "🇷🇴5300394",
+					"length": 4
+				},
+				{
+					"start": "🇷🇴5300394",
+					"end": "🇷🇴5311841",
+					"length": 5
+				},
+				{
+					"start": "🇷🇴5311841",
+					"end": "🇷🇴5300298",
+					"length": 5
+				},
+				{
+					"start": "🇷🇴5300298",
+					"end": "🇷🇴5311815",
+					"length": 7
+				},
+				{
+					"start": "🇷🇴5311815",
+					"end": "🇷🇴5300296",
+					"length": 2
+				},
+				{
+					"start": "🇷🇴5300296",
+					"end": "🇷🇴5311786",
+					"length": 7
+				},
+				{
+					"start": "🇷🇴5311786",
+					"end": "🇷🇴5300393",
+					"length": 4
+				},
+				{
+					"start": "🇷🇴5300393",
+					"end": "🇷🇴5300171",
+					"length": 7
+				},
+				{
+					"start": "🇷🇴5300171",
+					"end": "🇷🇴5311748",
+					"length": 4
+				},
+				{
+					"start": "🇷🇴5311748",
+					"end": "🇷🇴5311724",
+					"length": 6
+				},
+				{
+					"start": "🇷🇴5311724",
+					"end": "XULU",
+					"length": 7
+				}
+			]
+		},
+		{
+			"name": "Timișoara - Vršac",
+			"group": 0,
+			"maxSpeed": 80,
+			"electrified": false,
+			"neededEquipments": [
+				"RO"
+			],
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "XUTN",
+					"end": "🇷🇴5315914",
+					"length": 6,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇷🇴5315914",
+					"end": "🇷🇴5315938",
+					"length": 2,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇷🇴5315938",
+					"end": "🇷🇴5315940",
+					"length": 5
+				},
+				{
+					"start": "🇷🇴5315940",
+					"end": "🇷🇴5315964",
+					"length": 6
+				},
+				{
+					"start": "🇷🇴5315964",
+					"end": "🇷🇴5300236",
+					"length": 5
+				},
+				{
+					"start": "🇷🇴5300236",
+					"end": "🇷🇴5300378",
+					"length": 9
+				},
+				{
+					"start": "🇷🇴5300378",
+					"end": "🇷🇴5316607",
+					"length": 9
+				},
+				{
+					"start": "🇷🇴5316607",
+					"end": "🇷🇴5316621",
+					"length": 6
+				},
+				{
+					"start": "🇷🇴5316621",
+					"end": "🇷🇴5300070",
+					"length": 8
+				},
+				{
+					"start": "🇷🇴5300070",
+					"end": "XJVS",
+					"length": 19,
+					"neededEquipments": [
+						"RO",
+						"RS"
+					]
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MIH",
+					"end": "MERG",
+					"length": 10,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MERG",
+					"end": "MERN",
+					"length": 1,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "MERN",
+					"end": "MVG",
+					"length": 2,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "MVG",
+					"end": "MMST",
+					"length": 6,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MMST",
+					"end": "MND",
+					"length": 7,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "MND",
+					"end": "MABG",
+					"length": 6,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MABG",
+					"end": "NSL",
+					"length": 15,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "NSL",
+					"end": "NBAB",
+					"length": 5,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "NBAB",
+					"end": "NPOI",
+					"length": 1,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "NPOI",
+					"end": "NGU",
+					"length": 1,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "NGU",
+					"end": "NSIH",
+					"length": 7,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "NSIH",
+					"end": "NRH",
+					"length": 7,
+					"twistingFactor": 0.31
+				}
+			]
+		},
+		{
+			"name": "Vršac - Beograd Centar",
+			"group": 0,
+			"neededEquipments": [
+				"RS"
+			],
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XJVS",
+					"end": "🇷🇸7209001",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 8
+				},
+				{
+					"start": "🇷🇸7209001",
+					"end": "🇷🇸7209002",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 5
+				},
+				{
+					"start": "🇷🇸7209002",
+					"end": "🇷🇸7209003",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 7
+				},
+				{
+					"start": "🇷🇸7209003",
+					"end": "🇷🇸7209004",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 4
+				},
+				{
+					"start": "🇷🇸7209004",
+					"end": "🇷🇸7209005",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 5
+				},
+				{
+					"start": "🇷🇸7209005",
+					"end": "🇷🇸7209006",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 8
+				},
+				{
+					"start": "🇷🇸7209006",
+					"end": "🇷🇸7209007",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 12
+				},
+				{
+					"start": "🇷🇸7209007",
+					"end": "🇷🇸7209008",
+					"electrified": false,
+					"maxSpeed": 100,
+					"length": 16
+				},
+				{
+					"start": "🇷🇸7209008",
+					"end": "🇷🇸7200209",
+					"maxSpeed": 50,
+					"length": 2
+				},
+				{
+					"start": "🇷🇸7200209",
+					"end": "🇷🇸7209009",
+					"maxSpeed": 100,
+					"length": 8
+				},
+				{
+					"start": "🇷🇸7209009",
+					"end": "🇷🇸7209010",
+					"maxSpeed": 100,
+					"length": 3
+				},
+				{
+					"start": "🇷🇸7209010",
+					"end": "🇷🇸7209011",
+					"maxSpeed": 100,
+					"length": 2
+				},
+				{
+					"start": "🇷🇸7209011",
+					"end": "🇷🇸7209012",
+					"maxSpeed": 100,
+					"length": 1
+				},
+				{
+					"start": "🇷🇸7209012",
+					"end": "🇷🇸7209013",
+					"maxSpeed": 20,
+					"length": 2
+				},
+				{
+					"start": "🇷🇸7209013",
+					"end": "🇷🇸7209014",
+					"maxSpeed": 80,
+					"length": 2
+				},
+				{
+					"start": "🇷🇸7209014",
+					"end": "🇷🇸7209015",
+					"maxSpeed": 80,
+					"length": 2
+				},
+				{
+					"start": "🇷🇸7209015",
+					"end": "XJBC",
+					"maxSpeed": 70,
+					"length": 1
 				}
 			]
 		}
