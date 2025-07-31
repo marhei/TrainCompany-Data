@@ -17984,6 +17984,85 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MIH",
+					"end": "MIA",
+					"length": 5,
+					"maxSpeed": 100
+				},
+				{
+					"start": "MIA",
+					"end": "MGH",
+					"length": 2,
+					"twistingFactor": 0.01,
+					"maxSpeed": 160
+				},
+				{
+					"start": "MGH",
+					"end": "MEI",
+					"length": 4,
+					"twistingFactor": 0.11,
+					"maxSpeed": 160
+				},
+				{
+					"start": "MEI",
+					"end": "MTA",
+					"length": 3,
+					"twistingFactor": 0.1,
+					"maxSpeed": 120
+				},
+				{
+					"start": "MTA",
+					"end": "MAD",
+					"length": 5,
+					"twistingFactor": 0.13,
+					"maxSpeed": 120
+				},
+				{
+					"start": "MAD",
+					"end": "MEB",
+					"length": 4,
+					"twistingFactor": 0.05,
+					"maxSpeed": 120
+				},
+				{
+					"start": "MEB",
+					"end": "MDO",
+					"length": 10,
+					"twistingFactor": 0.56,
+					"maxSpeed": 100
+				},
+				{
+					"start": "MDO",
+					"end": "MSO",
+					"length": 7,
+					"twistingFactor": 0.17,
+					"maxSpeed": 110
+				},
+				{
+					"start": "MSO",
+					"end": "MPP",
+					"length": 5,
+					"twistingFactor": 0.29,
+					"maxSpeed": 110
+				},
+				{
+					"start": "MPP",
+					"end": "MTL",
+					"length": 6,
+					"twistingFactor": 0.29,
+					"maxSpeed": 120
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 160,
@@ -36675,6 +36754,72 @@
 					"end": "XIVNS",
 					"length": 25,
 					"maxSpeed": 220
+				}
+			]
+		},
+		{
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MIH",
+					"end": "MBRU",
+					"electrified": false,
+					"length": 17,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MBRU",
+					"end": "MSHN",
+					"electrified": false,
+					"length": 7,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MSHN",
+					"end": "MRDD",
+					"electrified": false,
+					"length": 9,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MRDD",
+					"end": "MAI",
+					"electrified": false,
+					"length": 6,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MAI",
+					"end": "MOGB",
+					"electrified": false,
+					"length": 5,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "MOGB",
+					"end": "MDAG",
+					"electrified": false,
+					"length": 4,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "MDAG",
+					"end": "MFDB",
+					"electrified": false,
+					"length": 7,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "MFDB",
+					"end": "MA",
+					"electrified": true,
+					"length": 5,
+					"twistingFactor": 0.27
 				}
 			]
 		},
@@ -58968,6 +59113,68 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 70,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NZWL",
+					"end": "NLH",
+					"length": 3,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "NLH",
+					"end": "NZWU",
+					"length": 2,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "NZWU",
+					"end": "NFU",
+					"length": 2,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "NFU",
+					"end": "NKNB",
+					"length": 6,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "NKNB",
+					"end": "NSPU",
+					"length": 3,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "NSPU",
+					"end": "NGRS",
+					"length": 4,
+					"twistingFactor": 0.37,
+					"maxSpeed": 50
+				},
+				{
+					"start": "NGRS",
+					"end": "NRNU",
+					"length": 3,
+					"twistingFactor": 0.39,
+					"maxSpeed": 50
+				},
+				{
+					"start": "NRNU",
+					"end": "NGFU",
+					"length": 3,
+					"twistingFactor": 0.39,
+					"maxSpeed": 50
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 100,
 			"twistingFactor": 0.15,
@@ -60100,6 +60307,41 @@
 						"DE",
 						"CZ"
 					]
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NZWL",
+					"end": "NAUR",
+					"length": 4,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "NAUR",
+					"end": "NLG",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "NLG",
+					"end": "NBHF",
+					"length": 5,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "NBHF",
+					"end": "NBMA",
+					"length": 2,
+					"twistingFactor": 0.11
 				}
 			]
 		},
@@ -70494,6 +70736,88 @@
 						"RO",
 						"RS"
 					]
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MIH",
+					"end": "MERG",
+					"length": 10,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MERG",
+					"end": "MERN",
+					"length": 1,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "MERN",
+					"end": "MVG",
+					"length": 2,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "MVG",
+					"end": "MMST",
+					"length": 6,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MMST",
+					"end": "MND",
+					"length": 7,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "MND",
+					"end": "MABG",
+					"length": 6,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MABG",
+					"end": "NSL",
+					"length": 15,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "NSL",
+					"end": "NBAB",
+					"length": 5,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "NBAB",
+					"end": "NPOI",
+					"length": 1,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "NPOI",
+					"end": "NGU",
+					"length": 1,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "NGU",
+					"end": "NSIH",
+					"length": 7,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "NSIH",
+					"end": "NRH",
+					"length": 7,
+					"twistingFactor": 0.31
 				}
 			]
 		},
