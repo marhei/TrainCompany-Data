@@ -9671,6 +9671,35 @@
 			]
 		},
 		{
+			"name": "Donnersbergbahn",
+			"electrified": false,
+			"group": 1,
+			"twistingFactor": 0.15,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "FALZ",
+					"end": "FAZW",
+					"length": 1
+				},
+				{
+					"start": "FAZW",
+					"end": "FWHM",
+					"length": 4
+				},
+				{
+					"start": "FWHM",
+					"end": "FFRH",
+					"length": 2
+				},
+				{
+					"start": "FFRH",
+					"end": "FKIR",
+					"length": 8
+				}
+			]
+		},
+		{
 			"twistingFactor": 0.35,
 			"maxSpeed": 160,
 			"name": "Ludwigs-Westbahn",
