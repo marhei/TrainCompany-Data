@@ -757,6 +757,26 @@
 			]
 		},
 		{
+			"id": 2442,
+			"group": 2,
+			"service": 2,
+			"name": "Bombardier Talent 3",
+			"shortcut": "BR 2442",
+			"speed": 160,
+			"weight": 137,
+			"force": 260,
+			"length": 105,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 1100000,
+			"operationCosts": 45,
+			"maxConnectedUnits": 4,
+			"equipments": ["ETCS", "AT", "DE"],
+			"capacity": [
+				{"name": "passengers", "value": 300}
+			]
+		},
+		{
 			"id": 10,
 			"group": 2,
 			"service": 2,
@@ -2179,6 +2199,25 @@
 			]
 		},
 		{
+			"id": 8886,
+			"group": 2,
+			"name": "NMBS/SNCB-Baureihe AM 86-89",
+			"speed": 120,
+			"weight": 106,
+			"force": 230,
+			"length": 101,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 450000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 85,
+			"equipments": ["BE"],
+			"exchangeTime": 80,
+			"capacity": [
+				{"name": "passengers", "value": 198}
+			]
+		},
+		{
 			"id": 8866,
 			"group": 2,
 			"name": "NMBS/SNCB-Baureihe AM 66",
@@ -2214,6 +2253,25 @@
 			"exchangeTime": 75,
 			"capacity": [
 				{"name": "passengers", "value": 254}
+			]
+		},
+		{
+			"id": 88137,
+			"group": 2,
+			"name": "NMBS/SNCB-Baureihe M7-Triebzug (sechsteilig)",
+			"speed": 200,
+			"weight": 407,
+			"force": 150,
+			"length": 161,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 2000000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 80,
+			"equipments": ["BE", "ETCS"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 648}
 			]
 		},
 		{
@@ -5457,6 +5515,22 @@
 			"equipments": ["ETCS", "LU", "LT", "DE", "AT","CH", "NL","CZ", "BE", "IT", "PL", "DK", "SE", "BG", "HR", "RO", "SK", "SI", "HU", "RS"]
 		},
 		{
+			"id": 4188,
+			"group": 0,
+			"name": "Bombardier Traxx P200 MS3",
+			"shortcut": "NMBS/SNCB-Baureihe 17",
+			"speed": 200,
+			"weight": 84,
+			"force": 300,
+			"length": 19,
+			"drive": 1,
+			"range": 50,
+			"reliability": 0.98,
+			"cost": 480000,
+			"operationCosts": 105,
+			"equipments": ["ETCS", "LU", "DE", "NL", "BE"]
+		},
+		{
 			"id": 12,
 			"group": 0,
 			"name": "BR 143",
@@ -5833,6 +5907,34 @@
 			"equipments": ["CH", "ETCS"]
 		},
 		{
+			"id": 811012,
+			"group": 0,
+			"name": "ÖBB 1012",
+			"speed": 160,
+			"weight": 83,
+			"force": 280,
+			"length": 19,
+			"drive": 1,
+			"reliability": 0.80,
+			"cost": 300000,
+			"operationCosts": 125,
+			"equipments": ["SE", "AT"]
+		},
+		{
+			"id": 811014,
+			"group": 0,
+			"name": "ÖBB 1014",
+			"speed": 175,
+			"weight": 74,
+			"force": 190,
+			"length": 18,
+			"drive": 1,
+			"reliability": 0.85,
+			"cost": 320000,
+			"operationCosts": 130,
+			"equipments": ["SK", "AT", "HU"]
+		},
+		{
 			"id": 811144,
 			"group": 0,
 			"name": "ÖBB 1144",
@@ -5844,6 +5946,20 @@
 			"reliability": 0.85,
 			"cost": 260000,
 			"operationCosts": 120,
+			"equipments": ["DE", "AT"]
+		},
+		{
+			"id": 812143,
+			"group": 0,
+			"name": "ÖBB 2143",
+			"speed": 110,
+			"weight": 66,
+			"force": 196,
+			"length": 16,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 210000,
+			"operationCosts": 130
 			"equipments": ["DE", "AT"]
 		},
 		{
@@ -8070,6 +8186,24 @@
 			]
 		},
 		{
+			"id": 1984,
+			"group": 1,
+			"name": "Voiture de banlieue à deux niveaux",
+			"service": 1,
+			"shortcut": "VB 2N Be",
+			"speed": 140,
+			"weight": 48,
+			"force": 0,
+			"length": 24,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 220000,
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 150}
+			]
+		},
+		{
 			"id": 17762018,
 			"group": 1,
 			"name": "Siemens Venture",
@@ -8549,6 +8683,23 @@
 			]
 		},
 		{
+			"id": 8863000,
+			"group": 1,
+			"name": "NMBS/SNCB M7-Reisezugwagen",
+			"shortcut": "M7 B",
+			"speed": 200,
+			"weight": 53,
+			"force": 0,
+			"length": 27,
+			"drive": 0,
+			"reliability": 1,
+			"cost": 260000,
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 140}
+			]
+		},
+		{
 			"id": 8861000,
 			"group": 1,
 			"name": "NMBS/SNCB M6",
@@ -8652,6 +8803,23 @@
 			]
 		},
 		{
+			"id": 81732633,
+			"group": 1,
+			"name": "ÖBB-Nahverkehrs-Doppelstockwagen",
+			"shortcut": "Bmpz-dl",
+			"speed": 140,
+			"weight": 48,
+			"force": 0,
+			"length": 27,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 180000,
+			"exchangeTime": 50,
+			"capacity": [
+				{"name": "passengers", "value": 114}
+			]
+		},
+		{
 			"id": 8550851,
 			"group": 1,
 			"name": "Einheitswagen I",
@@ -8666,6 +8834,23 @@
 			"exchangeTime": 100,
 			"capacity": [
 				{"name": "passengers", "value": 64}
+			]
+		},
+		{
+			"id": 8550853,
+			"group": 1,
+			"name": "Einheitswagen III",
+			"shortcut": "B 50 85 III",
+			"speed": 140,
+			"weight": 30,
+			"force": 0,
+			"length": 25,
+			"drive": 0,
+			"reliability": 0.9,
+			"cost": 150000,
+			"exchangeTime": 100,
+			"capacity": [
+				{"name": "passengers", "value": 70}
 			]
 		},
 		{
