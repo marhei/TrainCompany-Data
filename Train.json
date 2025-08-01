@@ -57,7 +57,7 @@
 			"length": 201,
 			"drive": 1,
 			"reliability": 0.85,
-			"cost": 4500000,
+			"cost": 0000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 75,
 			"equipments": ["ETCS", "KRM", "NL", "BE", "DE"],
@@ -1268,6 +1268,26 @@
 			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 363}
+			]
+		},
+		{
+			"id": 85514,
+			"group": 2,
+			"service": 2,
+			"name": "SBB RABe 514",
+			"speed": 140,
+			"weight": 225,
+			"force": 240,
+			"length": 100,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 780000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 75,
+			"equipments": ["CH"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 378}
 			]
 		},
 		{
