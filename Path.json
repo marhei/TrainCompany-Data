@@ -9647,6 +9647,30 @@
 			]
 		},
 		{
+			"name": "Eistalbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.32,
+			"objects": [
+				{
+					"start": "RGR",
+					"end": "REIS",
+					"length": 9
+				},
+				{
+					"start": "REIS",
+					"end": "RRN",
+					"length": 4
+				},
+				{
+					"start": "RRN",
+					"end": "REIW",
+					"length": 4
+				}
+			]
+		},
+		{
 			"twistingFactor": 0.35,
 			"maxSpeed": 160,
 			"name": "Ludwigs-Westbahn",
