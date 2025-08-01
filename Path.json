@@ -6705,6 +6705,58 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"LU"
+			],
+			"electrified": true,
+			"twistingFactor": 0.4,
+			"objects": [
+				{
+					"start": "XLB",
+					"end": "XLNZ",
+					"length": 4,
+					"maxSpeed": 100
+				},
+				{
+					"start": "XLNZ",
+					"end": "XLSL",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "XLSL",
+					"end": "XLEA",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "XLEA",
+					"end": "XLOK",
+					"length": 10,
+					"maxSpeed": 90
+				},
+				{
+					"start": "XLOK",
+					"end": "XLDI",
+					"length": 1,
+					"maxSpeed": 90
+				},
+				{
+					"start": "XLDI",
+					"end": "XLNK",
+					"length": 2,
+					"maxSpeed": 90
+				},
+				{
+					"start": "XLNK",
+					"end": "XLP",
+					"length": 3,
+					"maxSpeed": 90
+				}
+			]
+		},
+		{
 			"name": "Main-Weser-Bahn",
 			"twistingFactor": 0.3,
 			"objects": [
