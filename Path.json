@@ -52086,6 +52086,42 @@
 		},
 		{
 			"electrified": true,
+			"group": 1,
+			"neededEquipments": [
+				"LU"
+			],
+			"maxSpeed": 80,
+			"twistingFactor": 0.08,
+			"objects": [
+				{
+					"end": "XLB",
+					"start": "XLDB",
+					"length": 3
+				},
+				{
+					"end": "XLDB",
+					"start": "XLDV",
+					"length": 1
+				},
+				{
+					"end": "XLDV",
+					"start": "XLDC",
+					"length": 1
+				},
+				{
+					"end": "XLDC",
+					"start": "XLDU",
+					"length": 1
+				},
+				{
+					"end": "XLDU",
+					"start": "XLVM",
+					"length": 2
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
 				"LU"
