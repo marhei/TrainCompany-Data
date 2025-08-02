@@ -2374,7 +2374,7 @@
 				"Der Zug muss durchs mahlerische Moseltal von %s nach %s gebracht werden.",
 				"Die kurvige Strecke führt von %s nach %s."
 			],
-			"stations": [ "KKO", "STR" ],
+			"stations": [ "KKO", "SBY", "STR" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -3285,7 +3285,7 @@
 				"Die Linie S1 der S-Bahn Rhein-Neckar muss von %s nach %s gebracht werden.",
 				"Dieser S-Bahn-Langläufer muss von %s nach %s gebracht werden."
 			],
-			"stations": [ "SHO", "SKL", "SHY", "RN", "RSD", "RM", "RMF", "RH", "RNZ", "RSE", "TO" ],
+			"stations": [ "SHO", "SLD", "SKL", "SHY", "RN", "RSD", "RM", "RMF", "RH", "RNZ", "REA", "RSE", "TO" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -3396,7 +3396,7 @@
 				"Fahr als MRB im Blockabstand vor dem nächsten Fernverkehrszug durch das Mittelrheintal.",
 				"Bring die MRB nach %2$s und sammel dabei so wenig Verspätung wie möglich."
 			],
-			"stations": [ "FMZ", "FGAL", "FBGK", "KKO", "KB", "KKAS", "KK" ],
+			"stations": [ "FMZ", "FGAL", "FBGK", "KBOP", "KKO", "KAND", "KB", "KKAS", "KK" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -4116,7 +4116,7 @@
 				"Die RB 75 führt von %s nach %s.",
 				"Verbinde Rhein und Main mit der RB 75 von %s nach %s."
 			],
-			"stations": [ "FW", "FMZ", "FMB", "FDG", "FD", "NAH" ],
+			"stations": [ "FW", "FMZ", "FMB", "FDG", "FD", "FBA", "NAH" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -4257,7 +4257,7 @@
 			"descriptions": [
 				"Die Strecke führt quer durch Rheinhessen."
 			],
-			"stations": [ "FWOR", "FMSH", "FARM", "FGHO", "FBGK" ],
+			"stations": [ "FWOR", "FMSH", "FALZ", "FARM", "FGHO", "FBGK" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -4749,7 +4749,7 @@
 					"stations": [ "SKL", "SPSN", "SPS" ]
 				},
 				{
-					"stations": [ "RLA", "SPSN", "SPS" ]
+					"stations": [ "RLA", "SHW", "SPSN", "SPS" ]
 				}
 			],
 			"stopsEverywhere": true,
