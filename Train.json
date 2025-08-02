@@ -2353,6 +2353,48 @@
 			]
 		},
 		{
+			"id": 54654,
+			"group": 2,
+			"service": 0,
+			"name": "PESA ELF",
+			"shortcut": "Regiojet-Baureihe 654",
+			"speed": 160,
+			"weight": 43,
+			"force": 125,
+			"length": 53,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 450000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 55,
+			"equipments": ["CZ", "PL"],
+			"exchangeTime": 50,
+			"capacity": [
+				{"name": "passengers", "value": 154}
+			]
+		},
+		{
+			"id": 54665,
+			"group": 2,
+			"service": 0,
+			"name": "CRRC Sirius",
+			"shortcut": "Regiojet-Baureihe 665",
+			"speed": 160,
+			"weight": 195,
+			"force": 175,
+			"length": 111,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 650000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 55,
+			"equipments": ["ETCS", "CZ", "SK", "PL"],
+			"exchangeTime": 120,
+			"capacity": [
+				{"name": "passengers", "value": 314}
+			]
+		},
+		{
 			"id": 54680,
 			"group": 2,
 			"service": 0,
@@ -2391,6 +2433,102 @@
 			"exchangeTime": 30,
 			"capacity": [
 				{"name": "passengers", "value": 212}
+			]
+		},
+		{
+			"id": 5171,
+			"group": 2,
+			"name": "PKP-Baureihe EN71",
+			"speed": 110,
+			"weight": 8182,
+			"force": 280,
+			"length": 86,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 210000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 70,
+			"equipments": ["PL"],
+			"exchangeTime": 30,
+			"capacity": [
+				{"name": "passengers", "value": 288}
+			]
+		},
+		{
+			"id": 5161,
+			"group": 2,
+			"name": "PKP-Baureihe EN61",
+			"speed": 110,
+			"weight": 133,
+			"force": 160,
+			"length": 66,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 250000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 50,
+			"equipments": ["PL"],
+			"exchangeTime": 30,
+			"capacity": [
+				{"name": "passengers", "value": 255}
+			]
+		},
+		{
+			"id": 5127,
+			"group": 2,
+			"name": "PKP-Baureihe 27WE",
+			"speed": 160,
+			"weight": 190,
+			"force": 250,
+			"length": 108,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 450000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 50,
+			"equipments": ["PL"],
+			"exchangeTime": 50,
+			"capacity": [
+				{"name": "passengers", "value": 274}
+			]
+		},
+		{
+			"id": 5174,
+			"group": 2,
+			"name": "PKP-Baureihe ED74",
+			"speed": 160,
+			"weight": 159,
+			"force": 320,
+			"length": 80,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 650000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 70,
+			"equipments": ["PL"],
+			"exchangeTime": 90,
+			"capacity": [
+				{"name": "passengers", "value": 352}
+			]
+		},
+		{
+			"id": 5174,
+			"group": 2,
+			"name": "Newag Impuls",
+			"shortcut": "Newag 31WE",
+			"speed": 160,
+			"weight": 136,
+			"force": 350,
+			"length": 80,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 500000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 60,
+			"equipments": ["PL", "IT"],
+			"exchangeTime": 65,
+			"capacity": [
+				{"name": "passengers", "value": 202}
 			]
 		},
 		{
@@ -3217,6 +3355,26 @@
 			]
 		},
 		{
+			"id": 814100,
+			"group": 2,
+			"service": 1,
+			"name": "WESTbahn-Baureihe 4100",
+			"shortcut": "CRRC DDEMU2",
+			"speed": 200,
+			"weight": 480,
+			"force": 290,
+			"length": 158,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 1250000,
+			"operationCosts": 75,
+			"maxConnectedUnits": 2,
+			"equipments": ["ETCS", "CH", "AT", "DE", "HU"],
+			"capacity": [
+				{"name": "passengers", "value": 571}
+			]
+		},
+		{
 			"id": 7532000,
 			"group": 2,
 			"name": "TCDD E32000",
@@ -3500,6 +3658,25 @@
 			"exchangeTime": 120,
 			"capacity": [
 				{ "name": "passengers", "value": 341 }
+			]
+		},
+		{
+			"id": 2516,
+			"group": 2,
+			"name": "Škoda 16Ev",
+			"speed": 160,
+			"weight": 212,
+			"force": 263,
+			"length": 106,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 550000,
+			"maxConnectedUnits": 4,
+			"operationCosts": 60,
+			"equipments": [ "LV", "1520mm" ],
+			"exchangeTime": 50,
+			"capacity": [
+				{ "name": "passengers", "value": 436 }
 			]
 		},
 		{
@@ -4354,7 +4531,27 @@
 				{"name": "passengers", "value": 134}
 			]
 		},
-				{
+		{
+			"id": 654,
+			"group": 2,
+			"name": "DUEWAG RegioSprinter",
+			"shortcut": "BR 654",
+			"speed": 120,
+			"weight": 49,
+			"force": 95,
+			"length": 25,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 210000,
+			"operationCosts": 34,
+			"maxConnectedUnits": 4,
+			"exchangeTime": 25,
+			"equipments": ["AT", "DE", "CZ", "DK"],
+			"capacity": [
+				{"name": "passengers", "value": 84}
+			]
+		},
+		{
 			"id": 670,
 			"group": 2,
 			"name": "Baureihe 670",
@@ -4491,6 +4688,46 @@
 			]
 		},
 		{
+			"id": 54814,
+			"group": 2,
+			"name": "ČD-Baureihe 814",
+			"shortcut": "ČD 810",
+			"speed": 80,
+			"weight": 40,
+			"force": 54,
+			"length": 28,
+			"drive": 2,
+			"reliability": 0.95,
+			"cost": 375000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 30,
+			"equipments": ["CZ"],
+			"exchangeTime": 35,
+			"capacity": [
+				{"name": "passengers", "value": 84}
+			]
+		},
+		{
+			"id": 56861,
+			"group": 2,
+			"name": "ZSSK-Baureihe 861.1 (ŽOS Vrútky Regiomover)",
+			"shortcut": "ZSSK 861.1",
+			"speed": 140,
+			"weight": 120,
+			"force": 104,
+			"length": 59,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 420000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 55,
+			"equipments": ["SK"],
+			"exchangeTime": 50,
+			"capacity": [
+				{"name": "passengers", "value": 180}
+			]
+		},
+		{
 			"id": 54843,
 			"group": 2,
 			"name": "ČD/ZSSK-Baureihe 843",
@@ -4526,6 +4763,26 @@
 			"exchangeTime": 70,
 			"capacity": [
 				{"name": "passengers", "value": 48}
+			]
+		},
+		{
+			"id": 54690,
+			"group": 2,
+			"name": "Škoda 15Ev3",
+			"shortcut": "ČD-Baureihe 690.2",
+			"speed": 120,
+			"weight": 50,
+			"force": 250,
+			"length": 53,
+			"drive": 3,
+			"reliability": 1,
+			"cost": 780000,
+			"maxConnectedUnits": 4,
+			"operationCosts": 60,
+			"equipments": ["CZ"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 140}
 			]
 		},
 		{
@@ -4789,6 +5046,25 @@
 			"equipments": ["SE", "RS", "HR"],
 			"capacity": [
 				{"name": "passengers", "value": 68}
+			]
+		},
+		{
+			"id": 51214,
+			"group": 2,
+			"name": "Pesa 214M",
+			"speed": 120,
+			"weight": 59,
+			"force": 140,
+			"length": 42,
+			"drive": 2,
+			"reliability": 0.9,
+			"cost": 190000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 45,
+			"exchangeTime": 60,
+			"equipments": ["PL", "LT"],
+			"capacity": [
+				{"name": "passengers", "value": 70}
 			]
 		},
 		{
@@ -6251,6 +6527,20 @@
 			"equipments": ["PL"]
 		},
 		{
+			"id": 5124,
+			"group": 0,
+			"name": "PKP-Baureihe ET42",
+			"speed": 100,
+			"weight": 164,
+			"force": 560,
+			"length": 31,
+			"drive": 1,
+			"reliability": 0.8,
+			"cost": 480000,
+			"operationCosts": 160,
+			"equipments": ["PL"]
+		},
+		{
 			"id": 511115,
 			"group": 0,
 			"name": "KM-Baureihe 111Eb",
@@ -6265,6 +6555,21 @@
 			"equipments": ["PL"]
 		},
 		{
+			"id": 511115,
+			"group": 0,
+			"name": "Newag Griffin",
+			"shortcut": PKP-Baureihe EU200,
+			"speed": 160,
+			"weight": 84,
+			"force": 300,
+			"length": 20,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 460000,
+			"operationCosts": 80,
+			"equipments": ["PL", "CZ", "SK", "HU", "DE", "ETCS"]
+		},
+		{
 			"id": 83412,
 			"group": 0,
 			"name": "FS E.412",
@@ -6276,7 +6581,7 @@
 			"reliability": 0.9,
 			"cost": 510000,
 			"operationCosts": 120,
-			"equipments": ["IT", "AT", "DE"]
+			"equipments": ["IT", "AT", "DE", "PL"]
 		},
 		{
 			"id": 83402,
@@ -7435,6 +7740,20 @@
 		{
 			"id": 54750,
 			"group": 0,
+			"name": "ČD/ ZSSK-Baureihe 742",
+			"speed": 90,
+			"weight": 64,
+			"force": 192,
+			"length": 14,
+			"drive": 2,
+			"reliability": 0.85,
+			"cost": 190000,
+			"operationCosts": 90,
+			"equipments": ["CZ", "SK"]
+		},
+		{
+			"id": 54750,
+			"group": 0,
 			"name": "ČD/ ZSSK-Baureihe 750",
 			"speed": 100,
 			"weight": 73,
@@ -7487,6 +7806,20 @@
 			"cost": 220000,
 			"operationCosts": 130,
 			"equipments": ["PL", "DE"]
+		},
+		{
+			"id": 5146,
+			"group": 0,
+			"name": "PKP-Baureihe SM42",
+			"speed": 90,
+			"weight": 71,
+			"force": 228,
+			"length": 19,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 180000,
+			"operationCosts": 110,
+			"equipments": ["PL"]
 		},
 		{
 			"id": 72661,
