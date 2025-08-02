@@ -1526,16 +1526,28 @@
 			"descriptions": [
 				"Bringe den EUREx von %s nach %s.",
 				"Bring den EURegioExpress von %s nach %s.",
-				"Fahre zwischen Bayern und London von %s nach %s.",
+				"Fahre zwischen Franken, Bayern und London von %s nach %s.",
 				"Nur echt mit Škoda Glump! Der EUREx von %s nach %s!"
 			],
-			"stations": [ "NN", "NALB", "MKIG", "MIH", "MRBI", "MPF", "MPE", "MH", "MA", "TU", "TE", "TV", "RK", "XFSTG", "XFSV", "XFRM", "XFMZV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XKAI", "XKLP" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
 			"group": 1,
 			"service": 2,
-			"pathSuggestion": [ "NN", "NALB", "MKIG", "MIH", "MRBI", "MPF", "MPE", "MDA", "MH", "MMR", "MA", "MGZB", "TU", "TG", "TP", "TE", "TS", "TV", "RBR", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFSV", "XFRD", "🇫🇷BDC", "XFRM", "XFMZV", "XFTHV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XFFE", "XKAI", "XKLP" ]
+			"objects": [
+				{
+					"stations": [ "NN", "NALB", "MKIG", "MIH", "MRBI", "MPF", "MPE", "MH", "MA", "TU", "TE", "TV", "RK", "XFSTG", "XFSV", "XFRM", "XFMZV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XKAI", "XKLP" ],
+					"pathSuggestion": [ "NN", "NALB", "MKIG", "MIH", "MRBI", "MPF", "MPE", "MDA", "MH", "MMR", "MA", "MGZB", "TU", "TG", "TP", "TE", "TS", "TV", "RBR", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFSV", "XFRD", "🇫🇷BDC", "XFRM", "XFMZV", "XFTHV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XFFE", "XKAI", "XKLP" ]
+				},
+				{
+					"stations": [ "MH", "MA", "TU", "TE", "TV", "RK", "XFSTG", "XFSV", "XFRM", "XFMZV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XKAI", "XKLP" ],
+					"pathSuggestion": [ "MH", "MMR", "MA", "MGZB", "TU", "TG", "TP", "TE", "TS", "TV", "RBR", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFSV", "XFRD", "🇫🇷BDC", "XFRM", "XFMZV", "XFTHV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XFFE", "XKAI", "XKLP" ]
+				},
+				{
+					"stations": [ "NN", "NF", "NWH", "NAH", "FD", "RWE", "RM", "SKL", "SSH", "XFBE", "XFTHV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XKAI", "XKLP" ],
+					"pathSuggestion": [ "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FD", "RWE", "RMF", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFBE", "🇫🇷BDC", "XFMZV", "XFTHV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XFFE", "XKAI", "XKLP" ]
+				}
+			]
 		},
 		{
 			"name": "Brightline von %s nach %s",
