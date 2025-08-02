@@ -10407,6 +10407,268 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧SES",
+					"end": "🇬🇧GOE",
+					"name": "Swinton and Milford Junction Line",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧GOE",
+					"end": "🇬🇧SWN",
+					"name": "Swinton and Milford Junction Line",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧SWN",
+					"end": "🇬🇧RMC",
+					"name": "Tapton Junction (Chesterfield) to Colne",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧RMC",
+					"end": "🇬🇧MHS",
+					"name": "Midland Main Line",
+					"length": 4,
+					"maxSpeed": 128,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧MHS",
+					"end": "XKSH",
+					"name": "Midland Main Line",
+					"length": 5,
+					"maxSpeed": 128,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XKSH",
+					"end": "🇬🇧DOR",
+					"name": "Midland Main Line",
+					"length": 6,
+					"maxSpeed": 144,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧DOR",
+					"end": "🇬🇧DRO",
+					"name": "Midland Main Line",
+					"length": 4,
+					"maxSpeed": 144,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇬🇧DRO",
+					"end": "🇬🇧CHD",
+					"name": "Midland Main Line",
+					"length": 8,
+					"maxSpeed": 152,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧CHD",
+					"end": "🇬🇧BLP",
+					"name": "Midland Main Line",
+					"length": 26,
+					"maxSpeed": 177,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧BLP",
+					"end": "🇬🇧DFI",
+					"name": "Midland Main Line",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧DFI",
+					"end": "🇬🇧DBY",
+					"name": "Midland Main Line",
+					"length": 8,
+					"maxSpeed": 177,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": false,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧DBY",
+					"end": "🇬🇧WIL",
+					"name": "St Pancras to Chesterfield Line",
+					"length": 9,
+					"maxSpeed": 201,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧WIL",
+					"end": "🇬🇧BUT",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 7,
+					"maxSpeed": 201,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BUT",
+					"end": "🇬🇧WNE",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 23,
+					"maxSpeed": 201,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧WNE",
+					"end": "🇬🇧WTO",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 12,
+					"maxSpeed": 201,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧WTO",
+					"end": "🇬🇧BHM",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧BHM",
+					"end": "🇬🇧KNN",
+					"name": "Cross-City Line",
+					"electrified": true,
+					"length": 6,
+					"maxSpeed": 96,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧KNN",
+					"end": "🇬🇧NFD",
+					"name": "Cross-City Line",
+					"electrified": true,
+					"length": 2,
+					"maxSpeed": 144,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧NFD",
+					"end": "🇬🇧LOB",
+					"name": "Cross-City Line",
+					"electrified": true,
+					"length": 1,
+					"maxSpeed": 144,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LOB",
+					"end": "🇬🇧BMV",
+					"name": "Cross Country Route",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 144,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧BMV",
+					"end": "🇬🇧DTW",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧DTW",
+					"end": "🇬🇧WOS",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧WOS",
+					"end": "🇬🇧ASC",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧ASC",
+					"end": "🇬🇧CNM",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧CNM",
+					"end": "🇬🇧GCR",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧GCR",
+					"end": "🇬🇧CDU",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 21,
+					"maxSpeed": 160,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧CDU",
+					"end": "🇬🇧YAE",
+					"name": "Cross Country Route",
+					"electrified": false,
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇬🇧YAE",
+					"end": "🇬🇧BPW",
+					"name": "South Wales and Bristol Direct Line",
+					"electrified": true,
+					"length": 10,
+					"maxSpeed": 201,
+					"twistingFactor": 0.37
+				}
+			]
+		},
+		{
 			"name": "Pittsburgh Line",
 			"electrified": false,
 			"group": 0,
@@ -40839,6 +41101,183 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"electrified": false,
+			"objects": [
+				{
+					"start": "🇬🇧DBY",
+					"end": "🇬🇧TUT",
+					"name": "Crewe to Derby Line",
+					"length": 17,
+					"maxSpeed": 201,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧TUT",
+					"end": "🇬🇧UTT",
+					"name": "Crewe to Derby Line",
+					"length": 12,
+					"maxSpeed": 112,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧UTT",
+					"end": "🇬🇧BYB",
+					"name": "Crewe to Derby Line",
+					"length": 17,
+					"maxSpeed": 112,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧BYB",
+					"end": "🇬🇧LGN",
+					"name": "Crewe to Derby Line",
+					"length": 5,
+					"maxSpeed": 112,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧LGN",
+					"end": "🇬🇧SOT",
+					"name": "Crewe to Derby Line",
+					"length": 3,
+					"maxSpeed": 112,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧DBY",
+					"end": "🇬🇧SPO",
+					"name": "Derby to Birmingham (Proof House Junction) Line",
+					"length": 6,
+					"maxSpeed": 201,
+					"twistingFactor": 0.64
+				},
+				{
+					"start": "🇬🇧SPO",
+					"end": "🇬🇧LGE",
+					"name": "Midland Main Line",
+					"length": 8,
+					"maxSpeed": 185,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧LGE",
+					"end": "🇬🇧ATB",
+					"name": "Midland Main Line",
+					"length": 4,
+					"maxSpeed": 128,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧ATB",
+					"end": "🇬🇧BEE",
+					"length": 2,
+					"maxSpeed": 128,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BEE",
+					"end": "🇬🇧NOT",
+					"name": "Trent South to Nottingham Line",
+					"length": 5,
+					"maxSpeed": 128,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧NOT",
+					"end": "🇬🇧BUJ",
+					"name": "Nottingham to Lincoln Line",
+					"length": 6,
+					"maxSpeed": 96,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BUJ",
+					"end": "🇬🇧LOW",
+					"name": "Nottingham to Lincoln Line",
+					"length": 3,
+					"maxSpeed": 96,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LOW",
+					"end": "🇬🇧THU",
+					"name": "Nottingham to Lincoln Line",
+					"length": 2,
+					"maxSpeed": 96,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧THU",
+					"end": "🇬🇧BSB",
+					"name": "Nottingham to Lincoln Line",
+					"length": 1,
+					"maxSpeed": 96,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BSB",
+					"end": "🇬🇧FSK",
+					"name": "Nottingham to Lincoln Line",
+					"length": 2,
+					"maxSpeed": 96,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧FSK",
+					"end": "🇬🇧NNG",
+					"name": "Nottingham to Lincoln Line",
+					"length": 7,
+					"maxSpeed": 96,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧NNG",
+					"end": "🇬🇧CLM",
+					"name": "Nottingham to Lincoln Line",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧CLM",
+					"end": "🇬🇧SWD",
+					"name": "Nottingham to Lincoln Line",
+					"length": 4,
+					"maxSpeed": 112,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧SWD",
+					"end": "🇬🇧HKM",
+					"name": "Nottingham to Lincoln Line",
+					"length": 7,
+					"maxSpeed": 112,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧HKM",
+					"end": "🇬🇧LCN",
+					"name": "Nottingham to Lincoln Line",
+					"length": 7,
+					"maxSpeed": 112,
+					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"neededEquipments": [
@@ -42128,15 +42567,15 @@
 		},
 		{
 			"electrified": false,
-			"group": 0,
+			"group": 1,
 			"neededEquipments": [
 				"GB"
 			],
+			"name": "Fishguard Harbour branch",
 			"objects": [
 				{
 					"start": "🇬🇧FGH",
 					"end": "🇬🇧O1752948061",
-					"name": "Fishguard Harbour Lines",
 					"length": 1,
 					"maxSpeed": 24,
 					"twistingFactor": 0.01
@@ -42144,15 +42583,23 @@
 				{
 					"start": "🇬🇧O1752948061",
 					"end": "🇬🇧CLR",
-					"name": "Fishguard Branch",
 					"length": 24,
 					"maxSpeed": 120,
 					"twistingFactor": 0.37
-				},
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
 				{
 					"start": "🇬🇧CLR",
 					"end": "🇬🇧CUW",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 1,
 					"length": 10,
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
@@ -42160,23 +42607,35 @@
 				{
 					"start": "🇬🇧CUW",
 					"end": "🇬🇧WTL",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 1,
 					"length": 9,
 					"maxSpeed": 120,
-					"twistingFactor": 0.44
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "🇬🇧WTL",
-					"end": "🇬🇧FYS",
-					"name": "South Wales Main Line",
-					"length": 33,
+					"end": "🇬🇧CMN",
+					"name": "West Wales line",
+					"group": 0,
+					"length": 23,
 					"maxSpeed": 120,
-					"twistingFactor": 0.44
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇬🇧CMN",
+					"end": "🇬🇧FYS",
+					"name": "West Wales line",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "🇬🇧FYS",
 					"end": "🇬🇧KWL",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.34
@@ -42184,7 +42643,8 @@
 				{
 					"start": "🇬🇧KWL",
 					"end": "🇬🇧O20924997",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 8,
 					"maxSpeed": 120,
 					"twistingFactor": 0.23
@@ -42192,7 +42652,8 @@
 				{
 					"start": "🇬🇧O20924997",
 					"end": "🇬🇧LLE",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.11
@@ -42200,7 +42661,8 @@
 				{
 					"start": "🇬🇧LLE",
 					"end": "🇬🇧GWN",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 9,
 					"maxSpeed": 120,
 					"twistingFactor": 0.01
@@ -42208,10 +42670,108 @@
 				{
 					"start": "🇬🇧GWN",
 					"end": "🇬🇧SWA",
-					"name": "South Wales Main Line",
+					"name": "West Wales line",
+					"group": 0,
 					"length": 8,
 					"maxSpeed": 120,
 					"twistingFactor": 0.34
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"GB"
+			],
+			"group": 1,
+			"name": "Milford Haven branch",
+			"objects": [
+				{
+					"start": "🇬🇧CLR",
+					"end": "🇬🇧HVF",
+					"length": 8,
+					"maxSpeed": 90,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇬🇧HVF",
+					"end": "🇬🇧JOH",
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇬🇧JOH",
+					"end": "🇬🇧MFH",
+					"length": 6,
+					"maxSpeed": 50,
+					"twistingFactor": 0.27
+				}
+			]
+		},
+		{
+			"name": "Pembroke & Tenby Railway",
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧WTL",
+					"end": "🇬🇧NAR",
+					"length": 8,
+					"maxSpeed": 112,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧NAR",
+					"end": "🇬🇧KGT",
+					"length": 9,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧KGT",
+					"end": "🇬🇧SDF",
+					"length": 1,
+					"maxSpeed": 64,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧SDF",
+					"end": "🇬🇧TEN",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇬🇧TEN",
+					"end": "🇬🇧MRB",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇬🇧MRB",
+					"end": "🇬🇧LAM",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LAM",
+					"end": "🇬🇧PMB",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇬🇧PMB",
+					"end": "🇬🇧PMD",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
 				}
 			]
 		},
@@ -45104,6 +45664,143 @@
 		},
 		{
 			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧HFD",
+					"end": "🇬🇧LED",
+					"name": "Hereford and Worcester Line",
+					"length": 22,
+					"maxSpeed": 128,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇬🇧LED",
+					"end": "🇬🇧CWL",
+					"name": "Hereford and Worcester Line",
+					"length": 6,
+					"maxSpeed": 112,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧CWL",
+					"end": "🇬🇧GMV",
+					"name": "Hereford and Worcester Line",
+					"length": 4,
+					"maxSpeed": 112,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇬🇧GMV",
+					"end": "🇬🇧WOS",
+					"name": "Hereford and Worcester Line",
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇬🇧WOS",
+					"end": "🇬🇧PSH",
+					"name": "Cotswold Line",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧PSH",
+					"end": "🇬🇧EVE",
+					"name": "Cotswold Line",
+					"length": 10,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧EVE",
+					"end": "🇬🇧HYB",
+					"name": "Cotswold Line",
+					"length": 8,
+					"maxSpeed": 144,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧HYB",
+					"end": "🇬🇧MIM",
+					"name": "Cotswold Line",
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇬🇧MIM",
+					"end": "🇬🇧KGM",
+					"name": "Cotswold Line",
+					"length": 11,
+					"maxSpeed": 144,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧KGM",
+					"end": "🇬🇧SIP",
+					"name": "Cotswold Line",
+					"length": 4,
+					"maxSpeed": 144,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧SIP",
+					"end": "🇬🇧AUW",
+					"name": "Cotswold Line",
+					"length": 2,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇬🇧AUW",
+					"end": "🇬🇧CBY",
+					"name": "Cotswold Line",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇬🇧CBY",
+					"end": "🇬🇧FIN",
+					"name": "Cotswold Line",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧FIN",
+					"end": "🇬🇧CME",
+					"name": "Cotswold Line",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧CME",
+					"end": "🇬🇧HND",
+					"name": "Cotswold Line",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧HND",
+					"end": "🇬🇧OXF",
+					"name": "Cotswold Line",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"electrified": false,
 			"group": 1,
 			"maxSpeed": 50,
 			"twistingFactor": 0.35,
@@ -45872,6 +46569,54 @@
 					"length": 9,
 					"maxSpeed": 100,
 					"twistingFactor": 0.12
+				}
+			]
+		},
+		{
+			"name": "Ennstalbahn",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0.8,
+			"neededEquipments": [
+				"AT"
+			],
+			"objects": [
+				{
+					"start": "XABO",
+					"end": "XARA",
+					"length": 24,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "XARA",
+					"end": "XASL",
+					"length": 17,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XASL",
+					"end": "XAGM",
+					"length": 18,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XAGM",
+					"end": "XASI",
+					"length": 20,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XASI",
+					"end": "XALZN",
+					"length": 12,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "XALZN",
+					"end": "XASZ",
+					"length": 6,
+					"twistingFactor": 0.24
 				}
 			]
 		},
@@ -52577,6 +53322,191 @@
 					"start": "WRW",
 					"end": "WHO",
 					"length": 12
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"name": "Heart of Wales line",
+			"maxSpeed": 95,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧LLE",
+					"end": "🇬🇧BYE",
+					"length": 4,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BYE",
+					"end": "🇬🇧LLH",
+					"length": 2,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇬🇧LLH",
+					"end": "🇬🇧PTD",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧PTD",
+					"end": "🇬🇧PTF",
+					"length": 7,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧PTF",
+					"end": "🇬🇧AMF",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧AMF",
+					"end": "🇬🇧LLI",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LLI",
+					"end": "🇬🇧FFA",
+					"length": 6,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇬🇧FFA",
+					"end": "🇬🇧LLL",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LLL",
+					"end": "🇬🇧LLG",
+					"length": 8,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LLG",
+					"end": "🇬🇧LNR",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LNR",
+					"end": "🇬🇧LLV",
+					"length": 6,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧LLV",
+					"end": "🇬🇧CYN",
+					"length": 7,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇬🇧CYN",
+					"end": "🇬🇧SUG",
+					"length": 6,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇬🇧SUG",
+					"end": "🇬🇧LNW",
+					"length": 4,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LNW",
+					"end": "🇬🇧LLM",
+					"length": 5,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇬🇧LLM",
+					"end": "🇬🇧GTH",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧GTH",
+					"end": "🇬🇧CIM",
+					"length": 5,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧CIM",
+					"end": "🇬🇧BHR",
+					"length": 3,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇬🇧BHR",
+					"end": "🇬🇧LLO",
+					"length": 8,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇬🇧LLO",
+					"end": "🇬🇧PNY",
+					"length": 5,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧PNY",
+					"end": "🇬🇧DOL",
+					"length": 4,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧DOL",
+					"end": "🇬🇧LLT",
+					"length": 5,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧LLT",
+					"end": "🇬🇧LGO",
+					"length": 4,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇬🇧LGO",
+					"end": "🇬🇧KNU",
+					"length": 6,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇬🇧KNU",
+					"end": "🇬🇧KNI",
+					"length": 4,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇬🇧KNI",
+					"end": "🇬🇧BUK",
+					"length": 6,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇬🇧BUK",
+					"end": "🇬🇧HPT",
+					"length": 4,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇬🇧HPT",
+					"end": "🇬🇧BME",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧BME",
+					"end": "🇬🇧CRV",
+					"length": 4,
+					"twistingFactor": 0.23
 				}
 			]
 		},
@@ -61402,6 +62332,51 @@
 					"length": 5,
 					"maxSpeed": 115,
 					"twistingFactor": 0.19
+				}
+			]
+		},
+		{
+			"name": "Shrewsbury to Chester Line",
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"GB"
+			],
+			"objects": [
+				{
+					"start": "🇬🇧CTR",
+					"end": "🇬🇧WRX",
+					"length": 19,
+					"maxSpeed": 144,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇬🇧WRX",
+					"end": "🇬🇧RUA",
+					"length": 7,
+					"maxSpeed": 112,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇬🇧RUA",
+					"end": "🇬🇧CRK",
+					"length": 6,
+					"maxSpeed": 112,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇬🇧CRK",
+					"end": "🇬🇧GOB",
+					"length": 4,
+					"maxSpeed": 112,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇬🇧GOB",
+					"end": "🇬🇧SHR",
+					"length": 28,
+					"maxSpeed": 144,
+					"twistingFactor": 0.14
 				}
 			]
 		},
