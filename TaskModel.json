@@ -4682,14 +4682,22 @@
 			"name": "Regionalexpress %s nach %s",
 			"service": 2,
 			"descriptions": [
-				"Bringe den RE 4 von %s nach %s. Der Zug ist nur stark ausgelastet.",
-				"Der RE 4 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
+				"Bringe den RE 4/14 von %s nach %s. Der Zug ist nur stark ausgelastet.",
+				"Der RE 4/14 muss von %s nach %s gebracht werden. Die Strecke ist bei Pendlern sehr beliebt."
 			],
-			"stations": [ "FF", "FMZ", "FWOR", "RFT", "RM", "RSD", "RGE", "RGN", "RK" ],
+			"objects": [
+				{
+					"stations": [ "FF", "FHOE", "FMZ", "FWOR", "RFT", "RL", "RSD", "RGE", "RGN", "RK" ],
+					"pathSuggestion": [ "FF", "FHOE", "FW", "FMZ", "FWOR", "RFT", "RL", "RSD", "RGE", "RGN", "RK" ]
+				},
+				{
+					"stations": [ "FF", "FHOE", "FMZ", "FWOR", "RFT", "RL", "RM" ],
+					"pathSuggestion": [ "FF", "FHOE", "FW", "FMZ", "FWOR", "RFT", "RL", "RM" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
-			],
-			"pathSuggestion": [ "FF", "FFLF", "FMB", "FMZ", "FWOR", "RFT", "RM", "RSD", "RGE", "RGN", "RK" ]
+			]
 		},
 		{
 			"group": 1,
