@@ -26120,6 +26120,33 @@
 			]
 		},
 		{
+			"name": "Ligne de Longuyon à Mont-Saint-Martin",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "XFLGN",
+					"end": "XFLY",
+					"length": 16,
+					"twistingFactor": 0.26,
+					"neededEquipments": [
+						"FR"
+					]
+				},
+				{
+					"start": "XFLY",
+					"end": "XLRD",
+					"length": 7,
+					"twistingFactor": 0.16,
+					"neededEquipments": [
+						"LU",
+						"FR"
+					]
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"neededEquipments": [
