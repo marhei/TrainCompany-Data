@@ -57400,6 +57400,33 @@
 			]
 		},
 		{
+			"group": 0,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "XLRD",
+					"end": "XBAH",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"BE",
+						"LU"
+					]
+				},
+				{
+					"start": "XBAH",
+					"end": "XBAR",
+					"length": 15,
+					"maxSpeed": 90,
+					"twistingFactor": 0.28,
+					"neededEquipments": [
+						"BE"
+					]
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 120,
