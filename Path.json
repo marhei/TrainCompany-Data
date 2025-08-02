@@ -348,6 +348,41 @@
 			]
 		},
 		{
+			"name": "Steinbahn",
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "SLD",
+					"end": "SRAS",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "SRAS",
+					"end": "SGM",
+					"length": 9,
+					"maxSpeed": 70,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "SGM",
+					"end": "SALG",
+					"length": 10,
+					"maxSpeed": 60,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "SALG",
+					"end": "SKUS",
+					"length": 4,
+					"maxSpeed": 50,
+					"twistingFactor": 0.28
+				}
+			]
+		},
+		{
 			"twistingFactor": 0.1,
 			"electrified": false,
 			"objects": [
@@ -6670,6 +6705,58 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"LU"
+			],
+			"electrified": true,
+			"twistingFactor": 0.4,
+			"objects": [
+				{
+					"start": "XLB",
+					"end": "XLNZ",
+					"length": 4,
+					"maxSpeed": 100
+				},
+				{
+					"start": "XLNZ",
+					"end": "XLSL",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "XLSL",
+					"end": "XLEA",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "XLEA",
+					"end": "XLOK",
+					"length": 10,
+					"maxSpeed": 90
+				},
+				{
+					"start": "XLOK",
+					"end": "XLDI",
+					"length": 1,
+					"maxSpeed": 90
+				},
+				{
+					"start": "XLDI",
+					"end": "XLNK",
+					"length": 2,
+					"maxSpeed": 90
+				},
+				{
+					"start": "XLNK",
+					"end": "XLP",
+					"length": 3,
+					"maxSpeed": 90
+				}
+			]
+		},
+		{
 			"name": "Main-Weser-Bahn",
 			"twistingFactor": 0.3,
 			"objects": [
@@ -9612,6 +9699,59 @@
 			]
 		},
 		{
+			"name": "Eistalbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.32,
+			"objects": [
+				{
+					"start": "RGR",
+					"end": "REIS",
+					"length": 9
+				},
+				{
+					"start": "REIS",
+					"end": "RRN",
+					"length": 4
+				},
+				{
+					"start": "RRN",
+					"end": "REIW",
+					"length": 4
+				}
+			]
+		},
+		{
+			"name": "Donnersbergbahn",
+			"electrified": false,
+			"group": 1,
+			"twistingFactor": 0.15,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "FALZ",
+					"end": "FAZW",
+					"length": 1
+				},
+				{
+					"start": "FAZW",
+					"end": "FWHM",
+					"length": 4
+				},
+				{
+					"start": "FWHM",
+					"end": "FFRH",
+					"length": 2
+				},
+				{
+					"start": "FFRH",
+					"end": "FKIR",
+					"length": 8
+				}
+			]
+		},
+		{
 			"twistingFactor": 0.35,
 			"maxSpeed": 160,
 			"name": "Ludwigs-Westbahn",
@@ -10997,6 +11137,92 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"name": "Odenwaldbahn",
+			"maxSpeed": 120,
+			"objects": [
+				{
+					"start": "FD",
+					"end": "FORA",
+					"length": 16,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "FORA",
+					"end": "FREI",
+					"length": 7,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "FREI",
+					"end": "FWH",
+					"length": 8,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "FH",
+					"end": "FHDT",
+					"length": 5,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "FHDT",
+					"end": "FSEL",
+					"length": 4,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FSEL",
+					"end": "FBA",
+					"length": 9,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "FBA",
+					"end": "FGRU",
+					"length": 11,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FGRU",
+					"end": "FWH",
+					"length": 3,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FWH",
+					"end": "FMGR",
+					"length": 8,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "FMGR",
+					"end": "FKI",
+					"length": 3,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "FKI",
+					"end": "FMI",
+					"length": 6,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "FMI",
+					"end": "FERO",
+					"length": 3,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FERO",
+					"end": "REA",
+					"length": 30,
+					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
 			"name": "Drautalbahn",
 			"electrified": true,
 			"group": 0,
@@ -11199,6 +11425,48 @@
 					"length": 13,
 					"twistingFactor": 0.2,
 					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"name": "Eifelquerbahn",
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "KAND",
+					"end": "KKRF",
+					"length": 10,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "KKRF",
+					"end": "KNME",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "KNME",
+					"end": "KMYO",
+					"length": 8,
+					"maxSpeed": 60,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "KMYO",
+					"end": "KMYW",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "KMYW",
+					"end": "SKAI",
+					"length": 16,
+					"maxSpeed": 100,
+					"twistingFactor": 0.39
 				}
 			]
 		},
@@ -20006,12 +20274,32 @@
 				},
 				{
 					"start": "XLB",
-					"end": "XLL",
-					"length": 11,
+					"end": "XLBC",
+					"length": 4,
 					"neededEquipments": [
 						"LU"
 					],
 					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XLBC",
+					"end": "XLHW",
+					"length": 5,
+					"neededEquipments": [
+						"LU"
+					],
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XLHW",
+					"end": "XLL",
+					"length": 1,
+					"neededEquipments": [
+						"LU"
+					],
+					"maxSpeed": 60,
 					"twistingFactor": 0.2
 				}
 			]
@@ -31378,6 +31666,353 @@
 					"start": "HSTT",
 					"end": "HBTH",
 					"length": 4
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFMH",
+					"end": "XFIW",
+					"name": "Ligne de Mommenheim à Sarreguemines",
+					"electrified": false,
+					"group": 0,
+					"length": 19,
+					"maxSpeed": 110,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XFIW",
+					"end": "XFWM",
+					"name": "Ligne de Mommenheim à Sarreguemines",
+					"electrified": false,
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 110,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XFWM",
+					"end": "XFDM",
+					"name": "Ligne de Mommenheim à Sarreguemines",
+					"electrified": false,
+					"group": 0,
+					"length": 18,
+					"maxSpeed": 100,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "XFDM",
+					"end": "XFOE",
+					"name": "Ligne de Mommenheim à Sarreguemines",
+					"electrified": false,
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XFOE",
+					"end": "XFSM",
+					"name": "Ligne de Mommenheim à Sarreguemines",
+					"electrified": false,
+					"group": 0,
+					"length": 16,
+					"maxSpeed": 100,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "XFSM",
+					"end": "🇫🇷FWR",
+					"name": "Ligne de Haguenau à Hargarten - Falck",
+					"electrified": false,
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 100,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷FWR",
+					"end": "XFBE",
+					"name": "Ligne de Haguenau à Hargarten - Falck",
+					"electrified": false,
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 130,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "XFBE",
+					"end": "🇫🇷O2412719",
+					"name": "Ligne de Haguenau à Hargarten - Falck",
+					"electrified": true,
+					"group": 0,
+					"length": 19,
+					"maxSpeed": 80,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷O2412719",
+					"end": "XFBZV",
+					"name": "Ligne de Metz-Ville à la frontière allemande vers Überherrn",
+					"electrified": true,
+					"group": 0,
+					"length": 13,
+					"maxSpeed": 80,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "XFBZV",
+					"end": "🇫🇷O2429069",
+					"name": "Ligne de Thionville à Anzeling",
+					"electrified": true,
+					"group": 0,
+					"length": 20,
+					"maxSpeed": 80,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇫🇷O2429069",
+					"end": "XFTHV",
+					"name": "Ligne de Thionville à Anzeling",
+					"electrified": true,
+					"group": 0,
+					"length": 16,
+					"maxSpeed": 80,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "XFTHV",
+					"end": "XFHA",
+					"name": "Ligne de Mohon à Thionville",
+					"electrified": true,
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFHA",
+					"end": "🇫🇷ALR",
+					"name": "Ligne de Mohon à Thionville",
+					"electrified": true,
+					"group": 0,
+					"length": 15,
+					"maxSpeed": 100,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇫🇷ALR",
+					"end": "🇫🇷O113097",
+					"name": "Ligne de Mohon à Thionville",
+					"electrified": true,
+					"group": 0,
+					"length": 15,
+					"maxSpeed": 100,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷O113097",
+					"end": "XFLGN",
+					"name": "Ligne de Mohon à Thionville",
+					"electrified": true,
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFLGN",
+					"end": "🇫🇷MDY",
+					"name": "Ligne de Mohon à Thionville",
+					"electrified": true,
+					"group": 0,
+					"length": 20,
+					"maxSpeed": 120,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷MDY",
+					"end": "🇫🇷11234",
+					"name": "Ligne de Mohon à Thionville",
+					"electrified": true,
+					"group": 0,
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.49
+				},
+				{
+					"start": "🇫🇷11234",
+					"end": "🇫🇷CAG",
+					"name": "Ligne de Mohon à Thionville",
+					"electrified": true,
+					"group": 0,
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷CAG",
+					"end": "🇫🇷SED",
+					"name": "Ligne de Mohon à Thionville",
+					"electrified": true,
+					"group": 0,
+					"length": 21,
+					"maxSpeed": 120,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷SED",
+					"end": "🇫🇷NSM",
+					"name": "Ligne de Mohon à Thionville",
+					"electrified": true,
+					"group": 0,
+					"length": 10,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷NSM",
+					"end": "🇫🇷MNH",
+					"name": "Ligne de Mohon à Thionville",
+					"electrified": true,
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 130,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇫🇷MNH",
+					"end": "🇫🇷O3278807",
+					"name": "Ligne de Liart à Tournes",
+					"electrified": true,
+					"group": 0,
+					"length": 24,
+					"maxSpeed": 130,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇫🇷O3278807",
+					"end": "XFLIR",
+					"name": "Ligne de Liart à Tournes",
+					"electrified": true,
+					"group": 0,
+					"length": 8,
+					"maxSpeed": 110,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XFLIR",
+					"end": "🇫🇷O149346",
+					"name": "Ligne d'Hirson à Amagne-Lucquy",
+					"electrified": true,
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷O149346",
+					"end": "🇫🇷HIQ",
+					"name": "Ligne d'Hirson à Amagne-Lucquy",
+					"electrified": true,
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 120,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇫🇷HIQ",
+					"end": "XFFMI",
+					"name": "Ligne de Fives à Hirson",
+					"electrified": true,
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 130,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "XFFMI",
+					"end": "🇫🇷SAW",
+					"name": "Ligne de Fives à Hirson",
+					"electrified": true,
+					"group": 0,
+					"length": 9,
+					"maxSpeed": 130,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷SAW",
+					"end": "XFAVN",
+					"name": "Ligne de Fives à Hirson",
+					"electrified": true,
+					"group": 0,
+					"length": 6,
+					"maxSpeed": 130,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "XFAVN",
+					"end": "XFAU",
+					"name": "Ligne de Fives à Hirson",
+					"electrified": true,
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "XFAU",
+					"end": "🇫🇷LQY",
+					"name": "Ligne de Fives à Hirson",
+					"electrified": true,
+					"group": 0,
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷LQY",
+					"end": "XFVA",
+					"name": "Ligne de Fives à Hirson",
+					"electrified": true,
+					"group": 0,
+					"length": 18,
+					"maxSpeed": 130,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XFVA",
+					"end": "🇫🇷SAM",
+					"name": "Ligne de Fives à Hirson",
+					"electrified": true,
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷SAM",
+					"end": "XFOC",
+					"name": "Ligne de Fives à Hirson",
+					"electrified": true,
+					"group": 0,
+					"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XFOC",
+					"end": "XFLIE",
+					"name": "Ligne de Fives à Hirson",
+					"electrified": true,
+					"group": 0,
+					"length": 21,
+					"maxSpeed": 140,
+					"twistingFactor": 0.04
 				}
 			]
 		},
@@ -43529,6 +44164,20 @@
 			]
 		},
 		{
+			"name": "Kurbadlinie",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 140,
+			"twistingFactor": 0.21,
+			"objects": [
+				{
+					"start": "RBZB",
+					"end": "RWND",
+					"length": 9
+				}
+			]
+		},
+		{
 			"name": "Kyle of Lochalsh Line",
 			"electrified": false,
 			"group": 1,
@@ -44403,6 +45052,45 @@
 					"start": "WLAU",
 					"end": "WLAUM",
 					"length": 1
+				}
+			]
+		},
+		{
+			"name": "Wieslauterbahn",
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "SHW",
+					"end": "SHWO",
+					"group": 0,
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "SHWO",
+					"end": "SDA",
+					"group": 1,
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "SDA",
+					"end": "SBNS",
+					"group": 1,
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "SBNS",
+					"end": "SBTR",
+					"group": 1,
+					"length": 4,
+					"maxSpeed": 60,
+					"twistingFactor": 0.14
 				}
 			]
 		},
@@ -52500,6 +53188,42 @@
 		},
 		{
 			"electrified": true,
+			"group": 1,
+			"neededEquipments": [
+				"LU"
+			],
+			"maxSpeed": 80,
+			"twistingFactor": 0.08,
+			"objects": [
+				{
+					"end": "XLB",
+					"start": "XLDB",
+					"length": 3
+				},
+				{
+					"end": "XLDB",
+					"start": "XLDV",
+					"length": 1
+				},
+				{
+					"end": "XLDV",
+					"start": "XLDC",
+					"length": 1
+				},
+				{
+					"end": "XLDC",
+					"start": "XLDU",
+					"length": 1
+				},
+				{
+					"end": "XLDU",
+					"start": "XLVM",
+					"length": 2
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
 				"LU"
@@ -52613,6 +53337,48 @@
 					"end": "XLTV",
 					"length": 4,
 					"maxSpeed": 95
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"neededEquipments": [
+				"LU"
+			],
+			"twistingFactor": 0.1,
+			"maxSpeed": 60,
+			"objects": [
+				{
+					"start": "XLEA",
+					"end": "XLAT",
+					"length": 3
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"neededEquipments": [
+				"LU"
+			],
+			"twistingFactor": 0.1,
+			"maxSpeed": 75,
+			"objects": [
+				{
+					"start": "XLRU",
+					"end": "XLTT",
+					"length": 2
+				},
+				{
+					"start": "XLTT",
+					"end": "XLKA",
+					"length": 1
+				},
+				{
+					"start": "XLKA",
+					"end": "XLNZ",
+					"length": 3
 				}
 			]
 		},
@@ -54305,6 +55071,38 @@
 			]
 		},
 		{
+			"name": "Lautertalbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"objects": [
+				{
+					"start": "SLKG",
+					"end": "SWFS",
+					"length": 9,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "SWFS",
+					"end": "SOU",
+					"length": 7,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "SOU",
+					"end": "SLAO",
+					"length": 9,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "SLAO",
+					"end": "SKL",
+					"length": 7,
+					"twistingFactor": 0.34
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 100,
@@ -54315,13 +55113,53 @@
 			"objects": [
 				{
 					"start": "XLL",
+					"end": "XLCS",
+					"length": 3
+				},
+				{
+					"start": "XLCS",
+					"end": "XLSC",
+					"length": 4
+				},
+				{
+					"start": "XLSC",
+					"end": "XLOE",
+					"length": 5
+				},
+				{
+					"start": "XLOE",
+					"end": "XLMB",
+					"length": 3
+				},
+				{
+					"start": "XLMB",
 					"end": "XLRT",
-					"length": 20
+					"length": 5
 				},
 				{
 					"start": "XLRT",
+					"end": "XLBZ",
+					"length": 4
+				},
+				{
+					"start": "XLBZ",
+					"end": "XLWK",
+					"length": 3
+				},
+				{
+					"start": "XLWK",
+					"end": "XLMN",
+					"length": 3
+				},
+				{
+					"start": "XLMN",
+					"end": "XLMT",
+					"length": 4
+				},
+				{
+					"start": "XLMT",
 					"end": "XLW",
-					"length": 16
+					"length": 2
 				}
 			]
 		},
@@ -54329,10 +55167,75 @@
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 80,
-			"start": "SKZ",
-			"end": "XLW",
 			"twistingFactor": 0.27,
-			"length": 7
+			"objects": [
+				{
+					"start": "SKZ",
+					"end": "SIG",
+					"length": 2,
+					"neededEquipments": [
+						"DE"
+					]
+				},
+				{
+					"start": "SIG",
+					"end": "XLW",
+					"length": 4,
+					"neededEquipments": [
+						"LU",
+						"DE"
+					]
+				}
+			]
+		},
+		{
+			"name": "Ligne de Réding à Metz-Ville",
+			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFRD",
+					"end": "XFBTM",
+					"group": 2,
+					"length": 11,
+					"maxSpeed": 110,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "XFBTM",
+					"end": "XFLF",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 150,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XFLF",
+					"end": "XFBTR",
+					"group": 0,
+					"length": 11,
+					"maxSpeed": 150,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XFBTR",
+					"end": "XFMOH",
+					"group": 0,
+					"length": 7,
+					"maxSpeed": 150,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XFMOH",
+					"end": "🇫🇷BDC",
+					"group": 0,
+					"length": 14,
+					"maxSpeed": 150,
+					"twistingFactor": 0.02
+				}
+			]
 		},
 		{
 			"electrified": false,
@@ -57637,6 +58540,19 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "SBY",
+					"end": "STT",
+					"length": 12,
+					"maxSpeed": 60,
+					"twistingFactor": 0.24
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"twistingFactor": 0.2,
@@ -57806,6 +58722,33 @@
 					"end": "NN",
 					"length": 15,
 					"maxSpeed": 130
+				}
+			]
+		},
+		{
+			"group": 0,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "XLRD",
+					"end": "XBAH",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"BE",
+						"LU"
+					]
+				},
+				{
+					"start": "XBAH",
+					"end": "XBAR",
+					"length": 15,
+					"maxSpeed": 90,
+					"twistingFactor": 0.28,
+					"neededEquipments": [
+						"BE"
+					]
 				}
 			]
 		},
@@ -63314,6 +64257,35 @@
 			]
 		},
 		{
+			"name": "Hunsrückbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 50,
+			"twistingFactor": 0.63,
+			"objects": [
+				{
+					"start": "KBOP",
+					"end": "KBZ",
+					"length": 6
+				},
+				{
+					"start": "KBZ",
+					"end": "KFLH",
+					"length": 3
+				},
+				{
+					"start": "KFLH",
+					"end": "KEHR",
+					"length": 3
+				},
+				{
+					"start": "KEHR",
+					"end": "KEMM",
+					"length": 3
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 100,
@@ -64967,6 +65939,19 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "SHB",
+					"end": "SBH",
+					"length": 8,
+					"maxSpeed": 70,
+					"twistingFactor": 0.31
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -65031,6 +66016,57 @@
 					"neededEquipments": [
 						"DE"
 					]
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"LU"
+			],
+			"objects": [
+				{
+					"start": "XLRD",
+					"end": "XLLM",
+					"length": 1,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XLLM",
+					"end": "XLP",
+					"length": 1,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XLP",
+					"end": "XLDR",
+					"length": 9,
+					"maxSpeed": 140,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XLDR",
+					"end": "XLLD",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XLLD",
+					"end": "XLLH",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XLLH",
+					"end": "XLL",
+					"length": 1,
+					"twistingFactor": 0.35,
+					"maxSpeed": 60
 				}
 			]
 		},
@@ -66185,6 +67221,67 @@
 					"length": 17,
 					"maxSpeed": 80,
 					"twistingFactor": 0.28
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "SKZ",
+					"end": "SWN",
+					"name": "Obermoselstrecke",
+					"length": 13,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "SWN",
+					"end": "SWIN",
+					"name": "Obermoselstrecke",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "SWIN",
+					"end": "SNE",
+					"name": "Obermoselstrecke",
+					"length": 10,
+					"maxSpeed": 120,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "SNE",
+					"end": "SPE",
+					"name": "Obermoselstrecke",
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "SPE",
+					"end": "XFAP",
+					"name": "Ligne de Thionville à Apach",
+					"length": 1,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"FR",
+						"DE"
+					]
+				},
+				{
+					"start": "XFAP",
+					"end": "XFTHV",
+					"name": "Ligne de Thionville à Apach",
+					"length": 20,
+					"maxSpeed": 90,
+					"twistingFactor": 0.22,
+					"neededEquipments": [
+						"FR"
+					]
 				}
 			]
 		},

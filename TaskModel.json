@@ -611,7 +611,8 @@
 					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧O4830862174", "🇬🇧WSB", "🇬🇧TAU", "🇬🇧34100" ]
 				},
 				{
-					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧BRI", "🇬🇧34100", "🇬🇧34262", "🇬🇧35580", "🇬🇧35800", "🇬🇧35730", "🇬🇧35240", "🇬🇧35340", "🇬🇧35400", "🇬🇧35260" ]
+					"stations": [ "XKLP", "🇬🇧RDG", "🇬🇧BRI", "🇬🇧34100", "🇬🇧34262", "🇬🇧35580", "🇬🇧35800", "🇬🇧35730", "🇬🇧35240", "🇬🇧35340", "🇬🇧35400", "🇬🇧35260" ],
+					"pathSuggestion": [ "XKLP", "🇬🇧RDG", "🇬🇧DID", "🇬🇧BTH", "🇬🇧BRI", "🇬🇧TAU", "🇬🇧34100", "🇬🇧34262", "🇬🇧35580", "🇬🇧35800", "🇬🇧35730", "🇬🇧35240", "🇬🇧35340", "🇬🇧35400", "🇬🇧35260" ]
 				}
 			],
 			"neededCapacity": [
@@ -844,13 +845,13 @@
 				"Bring die Fahrgäste im grenzüberschreitenden RE 11 pünktlich nach %2$s.",
 				"Fahre den RE zwischen Deutschland und Luxemburg nach %2$s."
 			],
-			"stations": [ "KKO", "SKG", "SCOC", "SBY", "SWIH", "SSWE", "STR", "SKZ", "XLW", "XLL" ],
+			"stations": [ "KKO", "SKG", "SCOC", "SBY", "SWIH", "SSWE", "STR", "SKZ", "SIG", "XLW", "XLSC", "XLL" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
 			"group": 1,
 			"service": 2,
-			"pathSuggestion": [ "KKO", "SKG", "SCOC", "SBY", "SWIH", "SSWE", "SEGO", "STR", "SKZ", "XLW", "XLL" ]
+			"pathSuggestion": [ "KKO", "SKG", "SCOC", "SBY", "SWIH", "SSWE", "SEGO", "STR", "SKZ", "SIG", "XLW", "XLOE", "XLSC", "XLL" ]
 		},
 		{
 			"name": "TGV/AVE von %s nach %s",
@@ -1561,6 +1562,34 @@
 			"group": 1,
 			"service": 0,
 			"pathSuggestion": [ "XPG", "XPKO", "🇵🇱O260872674", "XPSD", "XPSG" ]
+		},
+		{
+			"name": "EURegioExpress von %s nach %s",
+			"descriptions": [
+				"Bringe den EUREx von %s nach %s.",
+				"Bring den EURegioExpress von %s nach %s.",
+				"Fahre zwischen Franken, Bayern und London von %s nach %s.",
+				"Nur echt mit Škoda Glump! Der EUREx von %s nach %s!"
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "NN", "NALB", "MKIG", "MIH", "MRBI", "MPF", "MPE", "MH", "MA", "TU", "TE", "TV", "RK", "XFSTG", "XFSV", "XFRM", "XFMZV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XKAI", "XKLP" ],
+					"pathSuggestion": [ "NN", "NALB", "MKIG", "MIH", "MRBI", "MPF", "MPE", "MDA", "MH", "MMR", "MA", "MGZB", "TU", "TG", "TP", "TE", "TS", "TV", "RBR", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFSV", "XFRD", "🇫🇷BDC", "XFRM", "XFMZV", "XFTHV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XFFE", "XKAI", "XKLP" ]
+				},
+				{
+					"stations": [ "MH", "MA", "TU", "TE", "TV", "RK", "XFSTG", "XFSV", "XFRM", "XFMZV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XKAI", "XKLP" ],
+					"pathSuggestion": [ "MH", "MMR", "MA", "MGZB", "TU", "TG", "TP", "TE", "TS", "TV", "RBR", "RK", "RAP", "XFSTG", "XFVH", "XFMH", "XFSV", "XFRD", "🇫🇷BDC", "XFRM", "XFMZV", "XFTHV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XFFE", "XKAI", "XKLP" ]
+				},
+				{
+					"stations": [ "NN", "NF", "NWH", "NAH", "FD", "RWE", "RM", "SKL", "SSH", "XFBE", "XFTHV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XKAI", "XKLP" ],
+					"pathSuggestion": [ "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FD", "RWE", "RMF", "RM", "RSD", "RN", "SHY", "SKL", "SHO", "SRO", "SSH", "XFBE", "🇫🇷BDC", "XFMZV", "XFTHV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XFFE", "XKAI", "XKLP" ]
+				}
+			]
 		},
 		{
 			"name": "Brightline von %s nach %s",
@@ -2345,7 +2374,7 @@
 				"Der Zug muss durchs mahlerische Moseltal von %s nach %s gebracht werden.",
 				"Die kurvige Strecke führt von %s nach %s."
 			],
-			"stations": [ "KKO", "STR" ],
+			"stations": [ "KKO", "SBY", "STR" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -2854,7 +2883,7 @@
 			"objects": [
 				{
 					"stations": [ "MH", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MOH", "MECH", "MOU", "MFCH", "MGP" ],
-					"pathSuggestion": [ "MH", "MWKR", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MOH", "MECH", "MOU", "MFCH", "MGP"]
+					"pathSuggestion": [ "MH", "MWKR", "MST", "MTZ", "MWH", "MHUG", "MUF", "MMU", "MOH", "MECH", "MOU", "MFCH", "MGP" ]
 				},
 				{
 					"stations": [ "MH", "MST", "MTZ", "MSE", "MSTA", "MPZ", "MBIC", "MBEN", "MKCH" ],
@@ -3167,7 +3196,7 @@
 				"Bringe den Regional-Express der Linie 3 pünktlich von %s nach %s."
 			],
 			"stations": [ "FF", "FFLF", "FRUE", "FMZ", "FIL", "SBKN", "SBMS", "SSOB", "SKR", "SIDO", "SNK", "SSH" ],
-			"pathSuggestion": [ "FF", "FFLF", "FRUE", "FMB", "FMZ", "FIL", "SBKN", "SBMS", "SSOB", "SKR", "SIDO", "SNK", "SSH" ],
+			"pathSuggestion": [ "FF", "FFLF", "FRUE", "FMB", "FMZ", "FIL", "FGAL", "FGHO", "SBKN", "SBMS", "SSOB", "SKR", "SIDO", "SNK", "SSH" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -3182,7 +3211,7 @@
 				"Bringe den Regional-Express der Linie 2 pünktlich durchs Mittelrheintal."
 			],
 			"stations": [ "FF", "FFLF", "FRUE", "FMZ", "FIL", "FBGK", "FBCH", "FOBW", "KBOP", "KKO" ],
-			"pathSuggestion": [ "FF", "FFLF", "FRUE", "FMB", "FMZ", "FIL", "FBGK", "FBCH", "FOBW", "KBOP", "KKO" ],
+			"pathSuggestion": [ "FF", "FFLF", "FRUE", "FMB", "FMZ", "FIL", "FGAL", "FBGK", "FBCH", "FOBW", "KBOP", "KKO" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -3256,7 +3285,7 @@
 				"Die Linie S1 der S-Bahn Rhein-Neckar muss von %s nach %s gebracht werden.",
 				"Dieser S-Bahn-Langläufer muss von %s nach %s gebracht werden."
 			],
-			"stations": [ "SHO", "SKL", "SHY", "RN", "RSD", "RM", "RMF", "RH", "RNZ", "RSE", "TO" ],
+			"stations": [ "SHO", "SLD", "SKL", "SHY", "RN", "RSD", "RM", "RMF", "RH", "RNZ", "REA", "RSE", "TO" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -3367,7 +3396,7 @@
 				"Fahr als MRB im Blockabstand vor dem nächsten Fernverkehrszug durch das Mittelrheintal.",
 				"Bring die MRB nach %2$s und sammel dabei so wenig Verspätung wie möglich."
 			],
-			"stations": [ "FMZ", "FGAL", "FBGK", "KKO", "KB", "KKAS", "KK" ],
+			"stations": [ "FMZ", "FGAL", "FBGK", "KBOP", "KKO", "KAND", "KB", "KKAS", "KK" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -4087,7 +4116,7 @@
 				"Die RB 75 führt von %s nach %s.",
 				"Verbinde Rhein und Main mit der RB 75 von %s nach %s."
 			],
-			"stations": [ "FW", "FMZ", "FMB", "FDG", "FD", "NAH" ],
+			"stations": [ "FW", "FMZ", "FMB", "FDG", "FD", "FBA", "NAH" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -4228,7 +4257,7 @@
 			"descriptions": [
 				"Die Strecke führt quer durch Rheinhessen."
 			],
-			"stations": [ "FWOR", "FMSH", "FARM", "FGHO", "FBGK" ],
+			"stations": [ "FWOR", "FMSH", "FALZ", "FARM", "FGHO", "FBGK" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -4720,7 +4749,7 @@
 					"stations": [ "SKL", "SPSN", "SPS" ]
 				},
 				{
-					"stations": [ "RLA", "SPSN", "SPS" ]
+					"stations": [ "RLA", "SHW", "SPSN", "SPS" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -6887,7 +6916,30 @@
 			"group": 1,
 			"service": 2,
 			"descriptions": [
-				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von %s nach %s."
+				"Fahre im kleinen Grenzverkehr zwischen Luxemburg, Belgien und Frankreich für CFL."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"name": "RB von %s nach %s",
+			"stopsEveryWhere": true,
+			"objects": [
+				{
+					"stations": [ "XLB", "XLVM" ]
+				},
+				{
+					"stations": [ "XLEA", "XLAT" ]
+				},
+				{
+					"stations": [ "XLL", "XLDR", "XLP", "XLRD", "XBAH" ]
+				}
+			]
+		},
+		{
+			"group": 1,
+			"service": 2,
+			"descriptions": [
+				"Kostenlos aber nicht umsonst: Fahre durch Luxemburg von %s nach %s."
 			],
 			"objects": [
 				{
@@ -6901,7 +6953,12 @@
 				},
 				{
 					"name": "RE 15 von %s nach %s",
-					"stations": [ "XLTV", "XLKT", "XLET", "XLL" ],
+					"stations": [ "XLTV", "XLKT", "XLET", "XLL", "XLB", "XLNZ", "XLEA", "XLP", "XLRD" ],
+					"stopsEverywhere": true
+				},
+				{
+					"name": "RB 62 von %s nach %s",
+					"stations": [ "XLNZ", "XLRU" ],
 					"stopsEverywhere": true
 				}
 			],
@@ -7206,7 +7263,7 @@
 				},
 				{
 					"stations": [ "XNRC", "XNU", "🇳🇱Amf", "🇳🇱Zl", "🇳🇱Asn", "🇳🇱Gn" ],
-					"pathSuggestion": [ "XNRC", "🇳🇱Gd", "🇳🇱Wd", "XNU", "🇳🇱Amf", "🇳🇱Zl", "🇳🇱Asn", "🇳🇱Gn" ]
+					"pathSuggestion": [ "XNRC", "🇳🇱Gd", "🇳🇱Wd", "XNU", "🇳🇱Amf", "🇳🇱Zl", "🇳🇱Mp", "🇳🇱Asn", "🇳🇱Gn" ]
 				},
 				{
 					"stations": [ "XNRC", "XNU", "🇳🇱Amf", "🇳🇱Zl", "🇳🇱Mp", "🇳🇱Lw" ],
@@ -7217,7 +7274,8 @@
 					"pathSuggestion": [ "XNMT", "XNSI", "XNRM", "XNWT", "XNEI", "🇳🇱Ht", "🇳🇱Btl", "🇳🇱Gdm", "XNU", "XNAC", "🇳🇱Zd", "🇳🇱Utg", "🇳🇱Amr", "🇳🇱Hwd", "🇳🇱Sgn", "🇳🇱Hdr" ]
 				},
 				{
-					"stations": [ "🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Bd", "🇳🇱Tb", "XNEI" ]
+					"stations": [ "🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Bd", "🇳🇱Tb", "XNEI" ],
+					"pathSuggestion": [ "🇳🇱Gv", "🇳🇱Dt", "XNRC", "🇳🇱Brd", "🇳🇱Zlw", "🇳🇱Rsd", "🇳🇱Bd", "🇳🇱Tb", "XNEI" ]
 				},
 				{
 					"stations": [ "XNAC", "🇳🇱Ass", "🇳🇱Hlm", "🇳🇱Ledn", "🇳🇱Gv", "🇳🇱Dt", "🇳🇱Sdm", "XNRC", "🇳🇱Rsd", "🇳🇱Vs" ],
@@ -7239,7 +7297,8 @@
 					"pathSuggestion": [ "XNAC", "🇳🇱Wp", "🇳🇱Hvs", "🇳🇱Brn", "🇳🇱Amf", "🇳🇱Hvl", "🇳🇱Apd", "🇳🇱Twl", "🇳🇱Dv" ]
 				},
 				{
-					"stations": [ "🇳🇱Ekz", "🇳🇱Hn", "XNAC", "XNU", "🇳🇱Ht", "XNEI", "XNWT", "XNRM", "XNSI", "XNMT" ]
+					"stations": [ "🇳🇱Ekz", "🇳🇱Hn", "XNAC", "XNU", "🇳🇱Ht", "XNEI", "XNWT", "XNRM", "XNSI", "XNMT" ],
+					"pathSuggestion": [ "🇳🇱Ekz", "🇳🇱Hn", "🇳🇱Zd", "XNAC", "XNU", "🇳🇱Gdm", "🇳🇱Ht", "🇳🇱Btl", "XNEI", "XNWT", "XNRM", "XNSI", "XNMT" ]
 				}
 			]
 		},
@@ -7698,7 +7757,7 @@
 					"stations": [ "XFCM", "XFBD", "XFLE", "XFTU", "XFFD", "XFN" ]
 				},
 				{
-					"stations": [ "SSH", "🇫🇷BDC", "XFMZV" ]
+					"stations": [ "SSH", "XFBE", "🇫🇷BDC", "XFMZV" ]
 				},
 				{
 					"stations": [ "XFMZV", "XFPS", "XFO", "XFLE", "XFBD" ]
