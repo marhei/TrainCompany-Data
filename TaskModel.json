@@ -806,13 +806,13 @@
 				"Bring die Fahrgäste im grenzüberschreitenden RE 11 pünktlich nach %2$s.",
 				"Fahre den RE zwischen Deutschland und Luxemburg nach %2$s."
 			],
-			"stations": [ "KKO", "SKG", "SCOC", "SBY", "SWIH", "SSWE", "STR", "SKZ", "XLW", "XLL" ],
+			"stations": [ "KKO", "SKG", "SCOC", "SBY", "SWIH", "SSWE", "STR", "SKZ", "SIG", "XLW", "XLSC", "XLL" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
 			"group": 1,
 			"service": 2,
-			"pathSuggestion": [ "KKO", "SKG", "SCOC", "SBY", "SWIH", "SSWE", "SEGO", "STR", "SKZ", "XLW", "XLL" ]
+			"pathSuggestion": [ "KKO", "SKG", "SCOC", "SBY", "SWIH", "SSWE", "SEGO", "STR", "SKZ", "SIG", "XLW", "XLOE", "XLSC", "XLL" ]
 		},
 		{
 			"name": "TGV/AVE von %s nach %s",
@@ -6841,7 +6841,26 @@
 			"group": 1,
 			"service": 2,
 			"descriptions": [
-				"Kostenlos aber nicht umsonst: Fahre den RE durch Luxemburg von %s nach %s."
+				"Fahre im kleinen Grenzverkehr zwischen Luxemburg, Belgien und Frankreich für CFL."
+			],
+			"name": "RB von %s nach %s",
+			"stopsEveryWhere": true,
+			"objects": [
+				{
+					"stations": [ "XLB", "XLVM" ]
+				},
+				{
+					"stations": [ "XLEA", "XLAT" ]
+				},
+				{
+					"stations": [ "XLL", "XLDR", "XLP", "XLRD", "XBAH" ]
+				}
+		},
+		{
+			"group": 1,
+			"service": 2,
+			"descriptions": [
+				"Kostenlos aber nicht umsonst: Fahre durch Luxemburg von %s nach %s."
 			],
 			"objects": [
 				{
@@ -6855,7 +6874,12 @@
 				},
 				{
 					"name": "RE 15 von %s nach %s",
-					"stations": [ "XLTV", "XLKT", "XLET", "XLL" ],
+					"stations": [ "XLTV", "XLKT", "XLET", "XLL", "XLB", "XLNZ", "XLEA", "XLP", "XLRD" ],
+					"stopsEverywhere": true
+				},
+				{
+					"name": "RB 62 von %s nach %s",
+					"stations": [ "XLNZ", "XLRU" ],
 					"stopsEverywhere": true
 				}
 			],
