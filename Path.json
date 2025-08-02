@@ -1006,9 +1006,16 @@
 			"objects": [
 				{
 					"start": "RM",
+					"end": "RL",
+					"length": 3,
+					"twistingFactor": 0.29,
+					"maxSpeed": 80
+				},
+				{
+					"start": "RL",
 					"end": "RFT",
-					"twistingFactor": 0.35,
-					"length": 13,
+					"length": 10,
+					"twistingFactor": 0.26,
 					"maxSpeed": 140
 				},
 				{
@@ -1804,10 +1811,17 @@
 				},
 				{
 					"start": "RLUR",
-					"end": "RM",
-					"length": 6,
-					"twistingFactor": 0.3,
+					"end": "RL",
+					"length": 3,
+					"twistingFactor": 0,
 					"maxSpeed": 130
+				},
+				{
+					"start": "RL",
+					"end": "RM",
+					"length": 3,
+					"twistingFactor": 0.29,
+					"maxSpeed": 80
 				}
 			]
 		},
