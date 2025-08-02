@@ -2459,6 +2459,26 @@
 			]
 		},
 		{
+			"id": 55414,
+			"group": 2,
+			"name": "MÁV-START-Baureihe 414",
+			"shortcut": "MÁV BDVmot",
+			"speed": 120,
+			"weight": 185,
+			"force": 190,
+			"length": 104,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 630000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 65,
+			"equipments": ["HU"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 241}
+			]
+		},
+		{
 			"id": 5157,
 			"group": 2,
 			"name": "PKP-Baureihe EN57",
@@ -8794,7 +8814,7 @@
 			"id": 39,
 			"group": 1,
 			"service": 5,
-			"name": "Y-Speisewagen",
+			"name": "UIC-Y-Speisewagen",
 			"shortcut": "WRme",
 			"speed": 160,
 			"weight": 43,
@@ -8989,6 +9009,24 @@
 			"exchangeTime": 180,
 			"capacity": [
 				{"name": "beds", "value": 28}
+			]
+		},
+		{
+			"id": 5520124,
+			"group": 1,
+			"service": 1,
+			"name": "MÁV IC+ Sitzwagen",
+			"shortcut": "Bhv",
+			"speed": 120,
+			"weight": 37,
+			"force": 0,
+			"length": 24,
+			"drive": 0,
+			"reliability": 0.8,
+			"cost": 70000,
+			"exchangeTime": 70,
+			"capacity": [
+				{"name": "passengers", "value": 79}
 			]
 		},
 		{
