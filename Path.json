@@ -20012,8 +20012,18 @@
 				},
 				{
 					"start": "XLB",
+					"end": "XLBC",
+					"length": 4,
+					"neededEquipments": [
+						"LU"
+					],
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XLBC",
 					"end": "XLHW",
-					"length": 10,
+					"length": 5,
 					"neededEquipments": [
 						"LU"
 					],
@@ -53826,13 +53836,53 @@
 			"objects": [
 				{
 					"start": "XLL",
+					"end": "XLCS",
+					"length": 3
+				},
+				{
+					"start": "XLCS",
+					"end": "XLSC",
+					"length": 4
+				},
+				{
+					"start": "XLSC",
+					"end": "XLOE",
+					"length": 5
+				},
+				{
+					"start": "XLOE",
+					"end": "XLMB",
+					"length": 3
+				},
+				{
+					"start": "XLMB",
 					"end": "XLRT",
-					"length": 20
+					"length": 5
 				},
 				{
 					"start": "XLRT",
+					"end": "XLBZ",
+					"length": 4
+				},
+				{
+					"start": "XLBZ",
+					"end": "XLWK",
+					"length": 3
+				},
+				{
+					"start": "XLWK",
+					"end": "XLMN",
+					"length": 3
+				},
+				{
+					"start": "XLMN",
+					"end": "XLMT",
+					"length": 4
+				},
+				{
+					"start": "XLMT",
 					"end": "XLW",
-					"length": 16
+					"length": 2
 				}
 			]
 		},
@@ -53840,10 +53890,26 @@
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 80,
-			"start": "SKZ",
-			"end": "XLW",
 			"twistingFactor": 0.27,
-			"length": 7
+			"objects": [
+				{
+					"start": "SKZ",
+					"end": "SIG",
+					"length": 2,
+					"neededEquipments": [
+						"DE"
+					]
+				},
+				{
+					"start": "SIG",
+					"end": "XLW",
+					"length": 4,
+					"neededEquipments": [
+						"LU",
+						"DE"
+					]
+				}
+			]
 		},
 		{
 			"electrified": false,
