@@ -29010,6 +29010,79 @@
 			]
 		},
 		{
+			"twistingFactor": 0.25,
+			"group":  0,
+			"electrified": true,
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "XBLIG",
+					"end": "XBAL",
+					"length": 3
+				},
+				{
+					"start": "XBAL",
+					"end": "XBCE",
+					"length": 2
+				},
+				{
+					"start": "XBCE",
+					"end":  "🇧🇪FCF",
+					"length": 3
+				},
+				{
+					"start":  "🇧🇪FCF",
+					"end": "XBT",
+					"length": 4
+				},
+				{
+					"start": "XBT",
+					"end": "XBFR",
+					"length": 3
+				},
+				{
+					"start": "XBFR",
+					"end": "XBNE",
+					"length": 2
+				},
+				{
+					"start": "XBNE",
+					"end": "XBP",
+					"length": 5
+				},
+				{
+					"start": "XBP",
+					"end": "XBVC",
+					"length": 4
+				},
+				{
+					"start": "XBVC",
+					"end": "XBVP",
+					"length": 1
+				},
+				{
+					"start": "XBVP",
+					"end": "XBDG",
+					"length": 7
+				},
+				{
+					"start": "XBDG",
+					"end": "XBW",
+					"length": 5
+				},
+				{
+					"start": "XBW",
+					"end": "XBHE",
+					"length": 8,
+					"maxSpeed": 140
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 100,
