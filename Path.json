@@ -53502,6 +53502,147 @@
 		{
 			"electrified": true,
 			"group": 1,
+			"twistingFactor": 0.25,
+			"neededEquipments": [
+				"LU",
+				"BE",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XLTV",
+					"end": "XBGY",
+					"length": 10,
+					"maxSpeed": 90
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"twistingFactor": 0.25,
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XBGY",
+					"end": "XBVS",
+					"length": 1,
+					"maxSpeed": 1
+				},
+				{
+					"start": "XBVS",
+					"end": "XBTP",
+					"length": 1,
+					"maxSpeed": 1
+				},
+				{
+					"start": "XBTP",
+					"end": "XBC",
+					"length":1,
+					"maxSpeed": 1
+				},
+				{
+					"start": "XBC",
+					"end": "XBAY",
+					"length": 1,
+					"maxSpeed": 1
+				},
+				{
+					"start": "XBAY",
+					"end": "XBRV",
+					"length": 1,
+					"maxSpeed": 1
+				},
+				{
+					"start": "XBRV",
+					"end": "XBPS",
+					"length": 1,
+					"maxSpeed": 1
+				},
+				{
+					"start": "XBPS",
+					"end": "XBEX",
+					"length": 1,
+					"maxSpeed": 1
+				},
+				{
+					"start": "XBEX",
+					"end": "XBMY",
+					"length": 1,
+					"maxSpeed": 1
+				},
+				{
+					"start": "XBMY",
+					"end": "XBTF",
+					"length": 1,
+					"maxSpeed": 1
+				},
+				{
+					"start": "XBTF",
+					"end": "XBAL",
+					"length": 1,
+					"maxSpeed": 1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"twistingFactor": 0.1,
+			"maxSpeed": 60,
+			"objects": [
+				{
+					"start": "XBRV",
+					"end": "🇧🇪MCT",
+					"length": 4
+				},
+				{
+					"start": "🇧🇪MCT",
+					"end": "🇧🇪LHM",
+					"length": 5
+				},
+				{
+					"start": "🇧🇪LHM",
+					"end": "🇧🇪SY",
+					"length": 4
+				},
+				{
+					"start": "🇧🇪SY",
+					"end": "🇧🇪MBM",
+					"length": 4
+				},
+				{
+					"start": "🇧🇪MBM",
+					"end": "🇧🇪LBV",
+					"length": 4
+				},
+				{
+					"start": "🇧🇪LBV",
+					"end": "🇧🇪MLR",
+					"length": 9
+				},
+				{
+					"start": "🇧🇪MLR",
+					"end": "🇧🇪MCH",
+					"length": 10
+				},
+				{
+					"start": "🇧🇪MCH",
+					"end": "XBMR",
+					"length": 3
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
 			"neededEquipments": [
 				"LU"
 			],
