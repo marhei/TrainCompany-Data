@@ -28904,6 +28904,65 @@
 		{
 			"group": 1,
 			"electrified": true,
+			"maxSpeed": 90,
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XBEP",
+					"end": "XBW",
+					"length": 6
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": true,
+			"maxSpeed": 70,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XBP",
+					"end": "XBPC",
+					"length": 1
+				},
+				{
+					"start": "XBPC",
+					"end": "XBJV",
+					"length": 3
+				},
+				{
+					"start": "XBJV",
+					"end": "XBTX",
+					"length": 1
+				},
+				{
+					"start": "XBTX",
+					"end": "XBFCM",
+					"length": 1
+				},
+				{
+					"start": "XBFCM",
+					"end": "XBSP",
+					"length": 6
+				},
+				{
+					"start": "XBSP",
+					"end": "XBGN",
+					"length": 1
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": true,
 			"maxSpeed": 120,
 			"twistingFactor": 0.2,
 			"objects": [
