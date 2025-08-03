@@ -53521,84 +53521,75 @@
 		},
 		{
 			"electrified": true,
-			"group": 1,
+			"group": 0,
 			"twistingFactor": 0.25,
 			"neededEquipments": [
 				"BE",
 				"ETCS"
 			],
+			"maxSpeed": 90,
 			"objects": [
 				{
 					"start": "XBGY",
 					"end": "XBVS",
-					"length": 1,
-					"maxSpeed": 1
+					"length": 11
 				},
 				{
 					"start": "XBVS",
 					"end": "XBTP",
-					"length": 1,
-					"maxSpeed": 1
+					"length": 12
 				},
 				{
 					"start": "XBTP",
 					"end": "XBC",
-					"length":1,
-					"maxSpeed": 1
+					"length": 3
 				},
 				{
 					"start": "XBC",
 					"end": "XBAY",
-					"length": 1,
-					"maxSpeed": 1
+					"length": 24
 				},
 				{
 					"start": "XBAY",
 					"end": "XBRV",
-					"length": 1,
-					"maxSpeed": 1
+					"length": 8
 				},
 				{
 					"start": "XBRV",
 					"end": "XBPS",
-					"length": 1,
-					"maxSpeed": 1
+					"length": 4
 				},
 				{
 					"start": "XBPS",
 					"end": "XBEX",
-					"length": 1,
-					"maxSpeed": 1
+					"length": 4
 				},
 				{
 					"start": "XBEX",
 					"end": "XBMY",
-					"length": 1,
-					"maxSpeed": 1
+					"length": 3
 				},
 				{
 					"start": "XBMY",
 					"end": "XBTF",
-					"length": 1,
-					"maxSpeed": 1
+					"length": 3,
 				},
 				{
 					"start": "XBTF",
 					"end": "XBAL",
-					"length": 1,
-					"maxSpeed": 1
+					"length": 7,
 				}
 			]
 		},
 		{
 			"electrified": true,
-			"group": 1,
+			"group": 0,
 			"neededEquipments": [
 				"BE",
 				"ETCS"
 			],
 			"twistingFactor": 0.1,
-			"maxSpeed": 60,
+			"maxSpeed": 90,
 			"objects": [
 				{
 					"start": "XBRV",
