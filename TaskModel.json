@@ -9702,6 +9702,43 @@
 			"stopsEverywhere": true
 		},
 		{
+			"group":1,
+			"name": "Expresszug 13 von %s nach %s",
+			"service":1,
+			"descriptions": [
+				"Verbinde die Städte %s und %s.",
+				"Fahre den Expresszug auf der Kangwon Line."
+			],
+			"objects": [
+				{
+					"stations": [ "🇰🇵Pyonggang", "🇰🇵Kowon" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers"}
+			]
+		},
+		{
+			"group":0,
+			"name": "Moving Fortress",
+			"service":4,
+			"descriptions": [
+				"Der oberste Führer hat einen wichtigen Termin in %s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇰🇵Pyonggang", "🇰🇵Kowon" ]
+				}
+			],
+			"neededCapacity": [
+				{"name": "cars", "value": 2},
+				{"name": "castor", "value": 1},
+				{"name": "beds"},
+				{"name": "passengers"},
+				{"name": "bistroseats"}
+			]
+		},
+		{
 			"group": 1,
 			"name": "Regionalbahn von %s nach %s",
 			"service": 2,

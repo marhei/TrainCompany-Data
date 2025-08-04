@@ -11203,6 +11203,46 @@
 			]
 		},
 		{
+			"id": 3001,
+			"name": "Taeyangho armoured train",
+			"shortcut": "Taeyangho",
+			"group": 3,
+			"service": 4,
+			"equipments": ["1435mm", "1520mm"],
+			"exchangeTime": 600,
+			"drive": 0,
+			"reliability": 1,
+			"speed": 60,
+			"length": 578,
+			"weight": 1000,
+			"force": 0,
+			"compatibleWith": [3008],
+			"cost": 6000000,
+			"equivalentTo": 20,
+			"capacity": [
+				{"name": "cars", "value": 2},
+				{"name": "castor", "value": 1},
+				{"name": "beds", "value": 100},
+				{"name": "passengers", "value": 100},
+				{"name": "bistroseats", "value": 100}
+			]
+		},
+		{
+			"id": 3008,
+			"name": "Dongfeng 8",
+			"shortcut": "DF8",
+			"group": 0,
+			"equipments": ["KP"],
+			"cost": 1500000,
+			"drive":2,
+			"length": 30,
+			"reliability": 1,
+			"speed": 100,
+			"operationCosts": 100,
+			"weight": 100,
+			"force": 441
+		},
+		{
 			"id": 4952,
 			"group": 1,
 			"service": 11,
