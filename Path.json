@@ -19388,6 +19388,78 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"electrified": true,
+			"maxSpeed": 120,
+			"objects": [
+				{
+					"start": "XBLIG",
+					"end": "🇧🇪43158",
+					"length": 7,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇧🇪43158",
+					"end": "XBFH",
+					"length": 4,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "XBFH",
+					"end": "XBEN",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XBEN",
+					"end": "🇧🇪43331",
+					"length": 7,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇧🇪43331",
+					"end": "XBHU",
+					"length": 6,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "XBHU",
+					"end": "XBSA",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XBSA",
+					"end": "XBANN",
+					"length": 9,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XBANN",
+					"end": "🇧🇪63446",
+					"length": 5,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇧🇪63446",
+					"end": "🇧🇪63453",
+					"length": 3,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇧🇪63453",
+					"end": "XBNA",
+					"length": 10,
+					"twistingFactor": 0.23
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"neededEquipments": [
