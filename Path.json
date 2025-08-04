@@ -9146,6 +9146,133 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"name": "Athus-Meuse",
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XBNA",
+					"end": "XBYV",
+					"length": 20,
+					"maxSpeed": 90,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XBYV",
+					"end": "XBDT",
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XBDT",
+					"end": "🇧🇪63818",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇧🇪63818",
+					"end": "🇧🇪63834",
+					"length": 6,
+					"maxSpeed": 90,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇧🇪63834",
+					"end": "🇧🇪63842",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇧🇪63842",
+					"end": "🇧🇪63867",
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇧🇪63867",
+					"end": "🇧🇪65649",
+					"length": 21,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇧🇪65649",
+					"end": "🇧🇪65615",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇧🇪65615",
+					"end": "🇧🇪65565",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇧🇪65565",
+					"end": "🇧🇪65540",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇧🇪65540",
+					"end": "XBBX",
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XBBX",
+					"end": "🇧🇪66845",
+					"length": 20,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇧🇪66845",
+					"end": "🇧🇪66407",
+					"length": 25,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇧🇪66407",
+					"end": "🇧🇪66530",
+					"length": 17,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇧🇪66530",
+					"end": "🇧🇪66654",
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇧🇪66654",
+					"end": "XLRD",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15,
+					"neededEquipments": [
+						"BE",
+						"LU",
+						"ETCS"]
+				}
+			]
+		},
+		{
 			"group": 1,
 			"start": "KD",
 			"end": "KW",
