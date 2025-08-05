@@ -10152,6 +10152,144 @@
 				{ "name": "containers", "value": 44 }
 			],
 			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"service": 5,
+			"name": "IRN von %s nach %s",
+			"descriptions": [
+				"Fahre den Nachtzug von %s nach %s.",
+				"Bring die Fahrgäste ausgeschlafen nach %2$s.",
+				"Fahre den Nachtzug störungsfrei nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			],
+			"stations": [ "XUA", "XUTN", "XULU", "XUCS", "XUBH", "XUOS", "XUDT", "XUBO", "XUFI", "XUCR", "XUCC", "XURN", "XUV", "XUBN" ]
+		},
+		{
+			"name": "R von %s nach %s",
+			"descriptions": [
+				"Bringe den Regio von %s nach %s.",
+				"Bring die Fahrgäste im Regio halbwegs pünktlich nach %2$s.",
+				"Fahre den Regio störungsfrei mit Halt an allen Unterwegsbahnhöfen nach %2$s."
+			],
+			"group": 1,
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "XUA", "XUTN" ]
+				},
+				{
+					"stations": [ "XUTN", "XJVS" ]
+				},
+				{
+					"stations": [ "XUTN", "XULU" ]
+				},
+				{
+					"stations": [ "XUTN", "XULU", "XUCS" ]
+				},
+				{
+					"stations": [ "XUTN", "XULU", "XUCS", "XUBH" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"service": 2,
+			"name": "Re von %s nach %s",
+			"descriptions": [
+				"Fahre den Regio von %s nach %s.",
+				"Bring die Fahrgäste pünktlich nach %2$s.",
+				"Fahre den Zug störungsfrei nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stations": [ "XJVS", "XJBC" ],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "IR von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe den InterRegio von %s nach %s.",
+				"Fahre den InterRegio störungsfrei nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "XUA", "XUTN", "XULU", "XUCS", "XUBH", "XUOS", "XUDT", "XUBO", "XUSH", "XUFI", "XUCR" ]
+				},
+				{
+					"stations": [ "XUA", "XUTN", "XULU", "XUCS", "XUBH", "XUOS", "XUDT", "XUBO", "XUSH", "XUFI", "XUCR", "XUCC" ]
+				},
+				{
+					"stations": [ "XUTN", "XULU", "XUCS", "XUBH", "XUOS", "XUDT", "XUBO", "XUSH", "XUFI", "XUCR", "XUCC", "🇷🇴5300191", "XURN", "XUV", "XUBN" ]
+				},
+				{
+					"stations": [ "XUA", "XUTN" ]
+				},
+				{
+					"stations": [ "XUA", "XUTN", "🇷🇴5300070", "XJVS", "🇷🇸7209005", "🇷🇸7200209", "🇷🇸7209014", "XJBC" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "IR von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Bringe den InterRegio von %s nach %s.",
+				"Fahre den InterRegio störungsfrei nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "XUCR", "XUCC", "🇷🇴5300191", "XURN", "XUV", "XUBN" ]
+				},
+				{
+					"stations": [ "XUCR", "XUFI", "XUSH", "XUBO", "XUDT", "XUOS", "XUBH", "XUCS", "XULU", "XUTN", "XUA", "XUCU", "XMBS", "XMSN", "XMBK" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"name": "R von %s nach %s",
+			"descriptions": [
+				"Bringe den Regio von %s nach %s.",
+				"Bring die Fahrgäste im Regio halbwegs pünktlich nach %2$s.",
+				"Fahre den Regio störungsfrei nach %2$s."
+			],
+			"group": 1,
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "XUDT", "XUFI", "XUCR" ]
+				},
+				{
+					"stations": [ "XUDT", "XUFI" ]
+				},
+				{
+					"stations": [ "XUCR", "XUCC", "XURN", "XUV", "XUBN" ]
+				},
+				{
+					"stations": [ "XUFI", "XUCC" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
