@@ -6707,7 +6707,8 @@
 		{
 			"group": 0,
 			"neededEquipments": [
-				"LU"
+				"LU",
+				"ETCS"
 			],
 			"electrified": true,
 			"twistingFactor": 0.4,
@@ -9141,6 +9142,133 @@
 					"length": 37,
 					"twistingFactor": 0.28,
 					"maxSpeed": 120
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "Athus-Meuse",
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XBNA",
+					"end": "XBYV",
+					"length": 20,
+					"maxSpeed": 90,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XBYV",
+					"end": "XBDT",
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XBDT",
+					"end": "🇧🇪63818",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇧🇪63818",
+					"end": "🇧🇪63834",
+					"length": 6,
+					"maxSpeed": 90,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇧🇪63834",
+					"end": "🇧🇪63842",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇧🇪63842",
+					"end": "🇧🇪63867",
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇧🇪63867",
+					"end": "🇧🇪65649",
+					"length": 21,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇧🇪65649",
+					"end": "🇧🇪65615",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇧🇪65615",
+					"end": "🇧🇪65565",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇧🇪65565",
+					"end": "🇧🇪65540",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇧🇪65540",
+					"end": "XBBX",
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XBBX",
+					"end": "🇧🇪66845",
+					"length": 20,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇧🇪66845",
+					"end": "🇧🇪66407",
+					"length": 25,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇧🇪66407",
+					"end": "🇧🇪66530",
+					"length": 17,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇧🇪66530",
+					"end": "🇧🇪66654",
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇧🇪66654",
+					"end": "XLRD",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15,
+					"neededEquipments": [
+						"BE",
+						"LU",
+						"ETCS"]
 				}
 			]
 		},
@@ -19387,6 +19515,78 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"electrified": true,
+			"maxSpeed": 120,
+			"objects": [
+				{
+					"start": "XBLIG",
+					"end": "🇧🇪43158",
+					"length": 7,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇧🇪43158",
+					"end": "XBFH",
+					"length": 4,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "XBFH",
+					"end": "XBEN",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XBEN",
+					"end": "🇧🇪43331",
+					"length": 7,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇧🇪43331",
+					"end": "XBHU",
+					"length": 6,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "XBHU",
+					"end": "XBSA",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XBSA",
+					"end": "XBANN",
+					"length": 9,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XBANN",
+					"end": "🇧🇪63446",
+					"length": 5,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇧🇪63446",
+					"end": "🇧🇪63453",
+					"length": 3,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇧🇪63453",
+					"end": "XBNA",
+					"length": 10,
+					"twistingFactor": 0.23
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"neededEquipments": [
@@ -20267,7 +20467,8 @@
 					"length": 21,
 					"neededEquipments": [
 						"FR",
-						"LU"
+						"LU",
+						"ETCS"
 					],
 					"maxSpeed": 150,
 					"twistingFactor": 0.24
@@ -20277,7 +20478,8 @@
 					"end": "XLBC",
 					"length": 4,
 					"neededEquipments": [
-						"LU"
+						"LU",
+						"ETCS"
 					],
 					"maxSpeed": 160,
 					"twistingFactor": 0.2
@@ -20287,7 +20489,8 @@
 					"end": "XLHW",
 					"length": 5,
 					"neededEquipments": [
-						"LU"
+						"LU",
+						"ETCS"
 					],
 					"maxSpeed": 160,
 					"twistingFactor": 0.2
@@ -20297,7 +20500,8 @@
 					"end": "XLL",
 					"length": 1,
 					"neededEquipments": [
-						"LU"
+						"LU",
+						"ETCS"
 					],
 					"maxSpeed": 60,
 					"twistingFactor": 0.2
@@ -26120,6 +26324,35 @@
 			]
 		},
 		{
+			"name": "Ligne de Longuyon à Mont-Saint-Martin",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "XFLGN",
+					"end": "XFLY",
+					"length": 16,
+					"twistingFactor": 0.26,
+					"neededEquipments": [
+						"FR",
+						"ETCS"
+					]
+				},
+				{
+					"start": "XFLY",
+					"end": "XLRD",
+					"length": 7,
+					"twistingFactor": 0.16,
+					"neededEquipments": [
+						"LU",
+						"ETCS",
+						"FR"
+					]
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"neededEquipments": [
@@ -28877,6 +29110,65 @@
 		{
 			"group": 1,
 			"electrified": true,
+			"maxSpeed": 90,
+			"twistingFactor": 0.1,
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XBEP",
+					"end": "XBW",
+					"length": 6
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": true,
+			"maxSpeed": 70,
+			"twistingFactor": 0.3,
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XBP",
+					"end": "XBPC",
+					"length": 1
+				},
+				{
+					"start": "XBPC",
+					"end": "XBJV",
+					"length": 3
+				},
+				{
+					"start": "XBJV",
+					"end": "XBTX",
+					"length": 1
+				},
+				{
+					"start": "XBTX",
+					"end": "XBFCM",
+					"length": 1
+				},
+				{
+					"start": "XBFCM",
+					"end": "XBSP",
+					"length": 6
+				},
+				{
+					"start": "XBSP",
+					"end": "XBGN",
+					"length": 1
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": true,
 			"maxSpeed": 120,
 			"twistingFactor": 0.2,
 			"objects": [
@@ -28920,6 +29212,79 @@
 						"BE"
 					],
 					"length": 6
+				}
+			]
+		},
+		{
+			"twistingFactor": 0.25,
+			"group": 0,
+			"electrified": true,
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "XBLIG",
+					"end": "XBAL",
+					"length": 3
+				},
+				{
+					"start": "XBAL",
+					"end": "XBCE",
+					"length": 2
+				},
+				{
+					"start": "XBCE",
+					"end": "🇧🇪FCF",
+					"length": 3
+				},
+				{
+					"start": "🇧🇪FCF",
+					"end": "XBT",
+					"length": 4
+				},
+				{
+					"start": "XBT",
+					"end": "XBFR",
+					"length": 3
+				},
+				{
+					"start": "XBFR",
+					"end": "XBNE",
+					"length": 2
+				},
+				{
+					"start": "XBNE",
+					"end": "XBP",
+					"length": 5
+				},
+				{
+					"start": "XBP",
+					"end": "XBVC",
+					"length": 4
+				},
+				{
+					"start": "XBVC",
+					"end": "XBVP",
+					"length": 1
+				},
+				{
+					"start": "XBVP",
+					"end": "XBDG",
+					"length": 7
+				},
+				{
+					"start": "XBDG",
+					"end": "XBW",
+					"length": 5
+				},
+				{
+					"start": "XBW",
+					"end": "XBHE",
+					"length": 8,
+					"maxSpeed": 140
 				}
 			]
 		},
@@ -31792,7 +32157,11 @@
 					"group": 0,
 					"length": 8,
 					"maxSpeed": 130,
-					"twistingFactor": 0.2
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"FR",
+						"ETCS"
+					]
 				},
 				{
 					"start": "XFHA",
@@ -31802,7 +32171,11 @@
 					"group": 0,
 					"length": 15,
 					"maxSpeed": 100,
-					"twistingFactor": 0.24
+					"twistingFactor": 0.24,
+					"neededEquipments": [
+						"FR",
+						"ETCS"
+					]
 				},
 				{
 					"start": "🇫🇷ALR",
@@ -31812,7 +32185,11 @@
 					"group": 0,
 					"length": 15,
 					"maxSpeed": 100,
-					"twistingFactor": 0.19
+					"twistingFactor": 0.19,
+					"neededEquipments": [
+						"FR",
+						"ETCS"
+					]
 				},
 				{
 					"start": "🇫🇷O113097",
@@ -31822,7 +32199,11 @@
 					"group": 0,
 					"length": 9,
 					"maxSpeed": 120,
-					"twistingFactor": 0.2
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"FR",
+						"ETCS"
+					]
 				},
 				{
 					"start": "XFLGN",
@@ -53091,6 +53472,7 @@
 					"length": 10,
 					"neededEquipments": [
 						"LU",
+						"ETCS",
 						"BE"
 					]
 				},
@@ -53099,7 +53481,8 @@
 					"end": "XLL",
 					"length": 17,
 					"neededEquipments": [
-						"LU"
+						"LU",
+						"ETCS"
 					]
 				}
 			]
@@ -53189,7 +53572,8 @@
 			"electrified": true,
 			"group": 1,
 			"neededEquipments": [
-				"LU"
+				"LU",
+				"ETCS"
 			],
 			"maxSpeed": 80,
 			"twistingFactor": 0.08,
@@ -53225,7 +53609,8 @@
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
-				"LU"
+				"LU",
+				"ETCS"
 			],
 			"twistingFactor": 0.2,
 			"objects": [
@@ -53341,9 +53726,149 @@
 		},
 		{
 			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.25,
+			"neededEquipments": [
+				"LU",
+				"BE",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XLTV",
+					"end": "XBGY",
+					"length": 10,
+					"maxSpeed": 90
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.25,
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"maxSpeed": 90,
+			"objects": [
+				{
+					"start": "XBGY",
+					"end": "XBVS",
+					"length": 11
+				},
+				{
+					"start": "XBVS",
+					"end": "XBTP",
+					"length": 12
+				},
+				{
+					"start": "XBTP",
+					"end": "XBC",
+					"length": 3
+				},
+				{
+					"start": "XBC",
+					"end": "XBAY",
+					"length": 24
+				},
+				{
+					"start": "XBAY",
+					"end": "XBRV",
+					"length": 8
+				},
+				{
+					"start": "XBRV",
+					"end": "XBPS",
+					"length": 4
+				},
+				{
+					"start": "XBPS",
+					"end": "XBEX",
+					"length": 4
+				},
+				{
+					"start": "XBEX",
+					"end": "XBMY",
+					"length": 3
+				},
+				{
+					"start": "XBMY",
+					"end": "XBTF",
+					"length": 3
+				},
+				{
+					"start": "XBTF",
+					"end": "XBAL",
+					"length": 7
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"BE",
+				"ETCS"
+			],
+			"maxSpeed": 90,
+			"objects": [
+				{
+					"start": "XBRV",
+					"end": "🇧🇪MCT",
+					"twistingFactor": 0.3,
+					"length": 4
+				},
+				{
+					"start": "🇧🇪MCT",
+					"end": "🇧🇪LHM",
+					"twistingFactor": 0.3,
+					"length": 5
+				},
+				{
+					"start": "🇧🇪LHM",
+					"end": "🇧🇪SY",
+					"twistingFactor": 0.3,
+					"length": 4
+				},
+				{
+					"start": "🇧🇪SY",
+					"end": "🇧🇪MBM",
+					"twistingFactor": 0.3,
+					"length": 4
+				},
+				{
+					"start": "🇧🇪MBM",
+					"end": "🇧🇪LBV",
+					"twistingFactor": 0.1,
+					"length": 4
+				},
+				{
+					"start": "🇧🇪LBV",
+					"end": "🇧🇪MLR",
+					"twistingFactor": 0.1,
+					"length": 9
+				},
+				{
+					"start": "🇧🇪MLR",
+					"end": "🇧🇪MCH",
+					"twistingFactor": 0.1,
+					"length": 10
+				},
+				{
+					"start": "🇧🇪MCH",
+					"end": "XBMR",
+					"twistingFactor": 0.1,
+					"length": 3
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"group": 1,
 			"neededEquipments": [
-				"LU"
+				"LU",
+				"ETCS"
 			],
 			"twistingFactor": 0.1,
 			"maxSpeed": 60,
@@ -53359,7 +53884,8 @@
 			"electrified": true,
 			"group": 1,
 			"neededEquipments": [
-				"LU"
+				"LU",
+				"ETCS"
 			],
 			"twistingFactor": 0.1,
 			"maxSpeed": 75,
@@ -53432,7 +53958,8 @@
 			"twistingFactor": 0.2,
 			"maxSpeed": 80,
 			"neededEquipments": [
-				"LU"
+				"LU",
+				"ETCS"
 			],
 			"objects": [
 				{
@@ -53447,7 +53974,8 @@
 			"group": 0,
 			"twistingFactor": 0.2,
 			"neededEquipments": [
-				"LU"
+				"LU",
+				"ETCS"
 			],
 			"maxSpeed": 50,
 			"objects": [
@@ -55107,7 +55635,8 @@
 			"maxSpeed": 100,
 			"twistingFactor": 0.26,
 			"neededEquipments": [
-				"LU"
+				"LU",
+				"ETCS"
 			],
 			"objects": [
 				{
@@ -55182,6 +55711,7 @@
 					"length": 4,
 					"neededEquipments": [
 						"LU",
+						"ETCS",
 						"DE"
 					]
 				}
@@ -58736,7 +59266,8 @@
 					"twistingFactor": 0.4,
 					"neededEquipments": [
 						"BE",
-						"LU"
+						"LU",
+						"ETCS"
 					]
 				},
 				{
@@ -58746,7 +59277,19 @@
 					"maxSpeed": 90,
 					"twistingFactor": 0.28,
 					"neededEquipments": [
-						"BE"
+						"BE",
+						"ETCS"
+					]
+				},
+				{
+					"start": "XBAH",
+					"end": "🇧🇪66654",
+					"length": 3,
+					"maxSpeed": 40,
+					"twistingFactor": 0.35,
+					"neededEquipments": [
+						"BE",
+						"ETCS"
 					]
 				}
 			]
@@ -61900,6 +62443,22 @@
 					"end": "DHN",
 					"length": 7,
 					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"length": 11,
+			"maxSpeed": 120,
+			"twistingFactor": 0.19,
+			"neededEquipments": [
+				"BE"
+			],
+			"objects": [
+				{
+					"start": "XBBX",
+					"end": "XBLBM"
 				}
 			]
 		},
@@ -66022,7 +66581,8 @@
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
-				"LU"
+				"LU",
+				"ETCS"
 			],
 			"objects": [
 				{
