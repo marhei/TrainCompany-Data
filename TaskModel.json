@@ -6932,6 +6932,9 @@
 				},
 				{
 					"stations": [ "XLL", "XLDR", "XLP", "XLRD", "XBAH" ]
+				},
+				{
+					"stations": [ "XLL", "XLDR", "XLP", "XLRD", "XFLY" ]
 				}
 			]
 		},
@@ -7218,6 +7221,27 @@
 			"service": 0,
 			"stations": [ "XEMAT", "🇪🇸50500", "🇪🇸54413", "🇲🇦O9418232000", "🇲🇦O2819226556", "🇲🇦O7055155496", "🇲🇦O1245964366" ],
 			"pathSuggestion": [ "XEMAT", "🇪🇸50500", "XEAS", "🇪🇸54413", "🇪🇸55020", "🇲🇦O9418232000", "🇲🇦O2819226556", "🇲🇦O7055155496", "🇲🇦O1245964366" ]
+		},
+		{
+			"name": "R von %s nach %s",
+			"descriptions": [
+				"Fahre für SNCB nach %s.",
+				"Fahre diesen Regionalzug durch Belgien."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "XBNA", "XBDT", "XBBX", "XBLBM" ]
+				},
+				{
+					"stations": [ "XBBX", "🇧🇪66407", "🇧🇪66654" ,"XBAH", "XBAR" ]
+				}
+			],
+			"stopsEverywhere": true
 		},
 		{
 			"name": "Intercity von %s nach %s",
@@ -8443,6 +8467,9 @@
 			"objects": [
 				{
 					"stations": [ "XBB", "XBOT", "XBNA", "XBAR", "XLL" ]
+				},
+				{
+					"stations": [ "XBLIG", "XBAL", "XBEX", "XBPS", "XBRV", "XBAY", "XBC", "XBTP", "XBVS", "XBGY", "XLTV", "XLCV", "XLDF", "XLWW", "XLKT", "XLMC", "XLET", "XLM", "XLPK", "XLL" ]
 				}
 			],
 			"stopsEverywhere": false,
