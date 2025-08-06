@@ -2374,7 +2374,14 @@
 				"Der Zug muss durchs mahlerische Moseltal von %s nach %s gebracht werden.",
 				"Die kurvige Strecke führt von %s nach %s."
 			],
-			"stations": [ "KKO", "SBY", "STR" ],
+			"objects": [
+				{
+					"stations": [ "KKO", "SBY", "STR" ]
+				},
+				{
+					"stations": [ "SBY", "STT" ]
+				}
+			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -3203,6 +3210,26 @@
 		},
 		{
 			"group": 1,
+			"name": "RB von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Diese Linie führt entlang der Nahe von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "FMZ", "FGAL", "FGHO", "SBKN", "SBMS", "SIDO" ]
+				},
+				{
+					"stations": [ "SBH", "SHB", "SIDO", "SKR" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Süwex RE2 von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -3245,6 +3272,30 @@
 		},
 		{
 			"group": 1,
+			"name": "Lahn-Eifel-Bahn von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Verbinde Lahn, Rhein und Eifel."
+			],
+			"objects": [
+				{
+					"stations": [ "KKO", "KNL", "FNAS", "FL", "FWG", "FWR", "FG" ]
+				},
+				{
+					"stations": [ "KMYO", "KAND", "KKO", "KNL", "FL" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "SKAI", "KAND" ],
+					"stopsEverywhere": true
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Regional-Express von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -3253,9 +3304,6 @@
 				"Bringe den Regional-Express pünktlich von %s nach %s."
 			],
 			"objects": [
-				{
-					"stations": [ "KKO", "KNL", "FNAS", "FL", "FWG", "FWR", "FG" ]
-				},
 				{
 					"stations": [ "RK", "RRA", "RBB", "RAH", "RO", "RHA", "RVL", "RDO", "RIM", "RSI", "RRZ", "RKO" ],
 					"pathSuggestion": [ "RK", "RRA", "RBB", "RAH", "RAP", "RO", "RHA", "RVL", "RDO", "RIM", "RSI", "RRZ", "RKO" ]
@@ -4257,7 +4305,14 @@
 			"descriptions": [
 				"Die Strecke führt quer durch Rheinhessen."
 			],
-			"stations": [ "FWOR", "FMSH", "FALZ", "FARM", "FGHO", "FBGK" ],
+			"objects": [
+				{
+					"stations": [ "FWOR", "FMSH", "FALZ", "FARM", "FGHO", "FBGK" ]
+				},
+				{
+					"stations": [ "FKIR", "FARM", "FALZ", "FMZ" ]
+				}
+			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
