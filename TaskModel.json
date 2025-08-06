@@ -3195,6 +3195,20 @@
 		},
 		{
 			"group": 1,
+			"name": "Hunsrückbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf dieser bei Radfahren beliebten Steilstrecke.",
+				"Verbinde Berg und Tal."
+			],
+			"stations": [ "KBOP", "KEMM" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
 			"name": "Nahe-Express von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -3463,6 +3477,23 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Vias von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Diese Strecke verbindet das Rhein-Main-Gebiet mit dem Neckar und führt dabei durch den Odenwald."
+			],
+			"objects":[
+				{
+					"stations": [ "FD", "FWH", "FERO", "REA" ]
+				},
+				{
+					"stations": [ "FF", "FH", "FBA", "FWH", "FERO", "REA" ]
+				}
+			],
+			"stopsEverywhere": true
 		},
 		{
 			"group": 1,
