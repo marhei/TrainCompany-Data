@@ -4845,6 +4845,44 @@
 			]
 		},
 		{
+			"service": 2,
+			"group": 0,
+			"description": [
+				"Fahre den deutsch-französischen Ausflugszug.",
+				"Dieser Zug verkehrt nur selten über die Grenze von %s nach %s",
+				"Der Einsatz von Neufahrzeugen im Grenzverkehr Südwest-Deutschland - Grand Est verzögert sich."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"objects": [
+				{
+					"name": "RE 16/TER von %s nach %s",
+					"stations": [ "STR", "SKZ", "SPE", "XFAP", "XFTHV", "XFMZV" ]
+				},
+				{
+					"name": "RE 18/TER von %s nach %s",
+					"stations": [ "SSH", "XFBE", "🇫🇷BDC", "XFRM", "XFMZV" ],
+					"stopsEverywhere": true
+				},
+				{
+					"name": "RE 19/TER von %s nach %s",
+					"stations": [ "SSH", "XFSM", "XFMH", "XFVH", "XFSTG" ],
+					"stopsEverywhere": true
+				},
+				{
+					"name": "RE WX von %s nach %s",
+					"stations": [ "KKO", "KBOP", "FOBW", "FBGK", "SBKN", "SBMS", "SRC", "RN", "RLA", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG" ],
+					"pathSuggestion": [ "KKO", "KBOP", "FOBW", "FBGK", "SBKN", "SBMS", "SRC", "SENK", "SHY", "RN", "RLA", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG" ]
+				},
+				{
+					"name": "RE EX von %s nach %s",
+					"stations": [ "FMZ", "FNIR", "FWOR", "RFT", "RM", "RN", "RLA", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG" ],
+					"pathSuggestion": [ "FMZ", "FNIR", "FWOR", "RFT", "RM", "RSD", "RN", "RLA", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG" ]
+				}
+			]
+		},
+		{
 			"group": 1,
 			"name": "RB von %s nach %s",
 			"service": 2,
@@ -7868,7 +7906,10 @@
 					"stations": [ "XFCM", "XFBD", "XFLE", "XFTU", "XFFD", "XFN" ]
 				},
 				{
-					"stations": [ "SSH", "XFBE", "🇫🇷BDC", "XFMZV" ]
+					"stations": [ "XFFB", "XFBE", "🇫🇷BDC", "XFMZV" ]
+				},
+				{
+					"stations": [ "XFSM", "XFMH", "XFVH", "XFSTG" ]
 				},
 				{
 					"stations": [ "XFMZV", "XFPS", "XFO", "XFLE", "XFBD" ]
