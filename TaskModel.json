@@ -3285,7 +3285,7 @@
 				"Die Linie S1 der S-Bahn Rhein-Neckar muss von %s nach %s gebracht werden.",
 				"Dieser S-Bahn-Langläufer muss von %s nach %s gebracht werden."
 			],
-			"stations": [ "SHO", "SLD", "SKL", "SHY", "RN", "RSD", "RM", "RMF", "RH", "RNZ", "REA", "RSE", "TO" ],
+			"stations": [ "SHO", "SLD", "SKL", "SHY", "RN", "RSD", "RM", "RMF", "RH", "REA", "RNZ", "RSE", "TO" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -8466,7 +8466,8 @@
 			],
 			"objects": [
 				{
-					"stations": [ "XBB", "XBOT", "XBNA", "XBAR", "XLL" ]
+					"stations": [ "XBB", "XBOT", "XBNA", "XBAR", "XLL" ],
+					"pathSuggestion": [ "XBB", "XBOT", "XBNA", "XBMR", "XBLBM", "XBAR", "XLL" ]
 				},
 				{
 					"stations": [ "XBLIG", "XBAL", "XBEX", "XBPS", "XBRV", "XBAY", "XBC", "XBTP", "XBVS", "XBGY", "XLTV", "XLCV", "XLDF", "XLWW", "XLKT", "XLMC", "XLET", "XLM", "XLPK", "XLL" ]
