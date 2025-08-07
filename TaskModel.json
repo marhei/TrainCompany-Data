@@ -2374,7 +2374,14 @@
 				"Der Zug muss durchs mahlerische Moseltal von %s nach %s gebracht werden.",
 				"Die kurvige Strecke führt von %s nach %s."
 			],
-			"stations": [ "KKO", "SBY", "STR" ],
+			"objects": [
+				{
+					"stations": [ "KKO", "SBY", "STR" ]
+				},
+				{
+					"stations": [ "SBY", "STT" ]
+				}
+			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -3188,6 +3195,20 @@
 		},
 		{
 			"group": 1,
+			"name": "Hunsrückbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf dieser bei Radfahren beliebten Steilstrecke.",
+				"Verbinde Berg und Tal."
+			],
+			"stations": [ "KBOP", "KEMM" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
 			"name": "Nahe-Express von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -3197,6 +3218,26 @@
 			],
 			"stations": [ "FF", "FFLF", "FRUE", "FMZ", "FIL", "SBKN", "SBMS", "SSOB", "SKR", "SIDO", "SNK", "SSH" ],
 			"pathSuggestion": [ "FF", "FFLF", "FRUE", "FMB", "FMZ", "FIL", "FGAL", "FGHO", "SBKN", "SBMS", "SSOB", "SKR", "SIDO", "SHB", "SNK", "SSH" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Diese Linie führt entlang der Nahe von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "FMZ", "FGAL", "FGHO", "SBKN", "SBMS", "SIDO" ]
+				},
+				{
+					"stations": [ "SBH", "SHB", "SIDO", "SKR" ]
+				}
+			],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -3245,6 +3286,30 @@
 		},
 		{
 			"group": 1,
+			"name": "Lahn-Eifel-Bahn von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Verbinde Lahn, Rhein und Eifel."
+			],
+			"objects": [
+				{
+					"stations": [ "KKO", "KNL", "FNAS", "FL", "FWG", "FWR", "FG" ]
+				},
+				{
+					"stations": [ "KMYO", "KAND", "KKO", "KNL", "FL" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "SKAI", "KAND" ],
+					"stopsEverywhere": true
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Regional-Express von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -3253,9 +3318,6 @@
 				"Bringe den Regional-Express pünktlich von %s nach %s."
 			],
 			"objects": [
-				{
-					"stations": [ "KKO", "KNL", "FNAS", "FL", "FWG", "FWR", "FG" ]
-				},
 				{
 					"stations": [ "RK", "RRA", "RBB", "RAH", "RO", "RHA", "RVL", "RDO", "RIM", "RSI", "RRZ", "RKO" ],
 					"pathSuggestion": [ "RK", "RRA", "RBB", "RAH", "RAP", "RO", "RHA", "RVL", "RDO", "RIM", "RSI", "RRZ", "RKO" ]
@@ -3285,7 +3347,7 @@
 				"Die Linie S1 der S-Bahn Rhein-Neckar muss von %s nach %s gebracht werden.",
 				"Dieser S-Bahn-Langläufer muss von %s nach %s gebracht werden."
 			],
-			"stations": [ "SHO", "SLD", "SKL", "SHY", "RN", "RSD", "RM", "RMF", "RH", "RNZ", "REA", "RSE", "TO" ],
+			"stations": [ "SHO", "SLD", "SKL", "SHY", "RN", "RSD", "RM", "RMF", "RH", "REA", "RNZ", "RSE", "TO" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -3411,6 +3473,26 @@
 				"Die Strecke ist oft durch Güterzüge blockiert."
 			],
 			"stations": [ "FF", "FHOE", "FW", "KNL", "KKO", "KNE" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Vias von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Diese Strecke verbindet das Rhein-Main-Gebiet mit dem Neckar und führt dabei durch den Odenwald."
+			],
+			"objects":[
+				{
+					"stations": [ "FD", "FWH", "FERO", "REA" ]
+				},
+				{
+					"stations": [ "FF", "FH", "FBA", "FWH", "FERO", "REA" ]
+				}
+			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -4257,7 +4339,14 @@
 			"descriptions": [
 				"Die Strecke führt quer durch Rheinhessen."
 			],
-			"stations": [ "FWOR", "FMSH", "FALZ", "FARM", "FGHO", "FBGK" ],
+			"objects": [
+				{
+					"stations": [ "FWOR", "FMSH", "FALZ", "FARM", "FGHO", "FBGK" ]
+				},
+				{
+					"stations": [ "FKIR", "FARM", "FALZ", "FMZ" ]
+				}
+			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -4763,6 +4852,76 @@
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"service": 2,
+			"stopsEverywhere": true,
+			"descriptions": [
+				"Fahre durch die Pfalz nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "SKL", "SLD", "SKUS" ]
+				},
+				{
+					"stations": [ "SKL", "SLKG" ]
+				},
+				{
+					"stations": [ "RWND", "RBZB" ]
+				},
+				{
+					"stations": [ "RFT", "RFHM", "RGR", "FMSH" ]
+				},
+				{
+					"stations": [ "RFT", "RFHM", "RGR", "REIS", "REIW" ]
+				},
+				{
+					"stations": [ "RFHM", "RBDH", "RN" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"service": 2,
+			"group": 0,
+			"descriptions": [
+				"Fahre den deutsch-französischen Ausflugszug.",
+				"Dieser Zug verkehrt nur selten über die Grenze von %s nach %s",
+				"Der Einsatz von Neufahrzeugen im Grenzverkehr Südwest-Deutschland - Grand Est verzögert sich."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"objects": [
+				{
+					"name": "RE 16/TER von %s nach %s",
+					"stations": [ "STR", "SKZ", "SPE", "XFAP", "XFTHV", "XFMZV" ]
+				},
+				{
+					"name": "RE 18/TER von %s nach %s",
+					"stations": [ "SSH", "XFBE", "🇫🇷BDC", "XFRM", "XFMZV" ],
+					"stopsEverywhere": true
+				},
+				{
+					"name": "RE 19/TER von %s nach %s",
+					"stations": [ "SSH", "XFSM", "XFMH", "XFVH", "XFSTG" ],
+					"stopsEverywhere": true
+				},
+				{
+					"name": "RE WX von %s nach %s",
+					"stations": [ "KKO", "KBOP", "FOBW", "FBGK", "SBKN", "SBMS", "SRC", "RN", "RLA", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG" ],
+					"pathSuggestion": [ "KKO", "KBOP", "FOBW", "FBGK", "SBKN", "SBMS", "SRC", "SENK", "SHY", "RN", "RLA", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG" ]
+				},
+				{
+					"name": "RE EX von %s nach %s",
+					"stations": [ "FMZ", "FNIR", "FWOR", "RFT", "RM", "RN", "RLA", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG" ],
+					"pathSuggestion": [ "FMZ", "FNIR", "FWOR", "RFT", "RM", "RSD", "RN", "RLA", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG" ]
+				}
 			]
 		},
 		{
@@ -7789,7 +7948,10 @@
 					"stations": [ "XFCM", "XFBD", "XFLE", "XFTU", "XFFD", "XFN" ]
 				},
 				{
-					"stations": [ "SSH", "XFBE", "🇫🇷BDC", "XFMZV" ]
+					"stations": [ "XFFB", "XFBE", "🇫🇷BDC", "XFMZV" ]
+				},
+				{
+					"stations": [ "XFSM", "XFMH", "XFVH", "XFSTG" ]
 				},
 				{
 					"stations": [ "XFMZV", "XFPS", "XFO", "XFLE", "XFBD" ]
@@ -8474,7 +8636,8 @@
 			],
 			"objects": [
 				{
-					"stations": [ "XBB", "XBOT", "XBNA", "XBAR", "XLL" ]
+					"stations": [ "XBB", "XBOT", "XBNA", "XBAR", "XLL" ],
+					"pathSuggestion": [ "XBB", "XBOT", "XBNA", "XBMR", "XBLBM", "XBAR", "XLL" ]
 				},
 				{
 					"stations": [ "XBLIG", "XBAL", "XBEX", "XBPS", "XBRV", "XBAY", "XBC", "XBTP", "XBVS", "XBGY", "XLTV", "XLCV", "XLDF", "XLWW", "XLKT", "XLMC", "XLET", "XLM", "XLPK", "XLL" ]
