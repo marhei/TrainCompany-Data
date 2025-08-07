@@ -33,4 +33,4 @@ jobs:
       - name: Install requirements
         run: python -m pip install -r tools/requirements.txt
       - name: Check contents
-        run: python tools/validate_files.py --tc_directory=. --data_directory=./tools/data --limit 3350
+        run: python tools/validate_files.py --tc_directory=. --data_directory=./tools/data --limit 3350 --limit_components 3
