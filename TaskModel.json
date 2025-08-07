@@ -3493,7 +3493,10 @@
 					"stations": [ "FF", "FH", "FBA", "FWH", "FERO", "REA" ]
 				}
 			],
-			"stopsEverywhere": true
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		},
 		{
 			"group": 1,
