@@ -1,95 +1,67 @@
 {
 	"$schema": "https://raw.githubusercontent.com/marhei/TrainCompany-Data/main/schemas/Train.json",
 	"data": [
-		{
-			"id": 13,
-			"service": 0,
-			"group": 2,
-			"name": "ICE 1",
-			"shortcut": "BR 401",
-			"speed": 280,
-			"weight": 782,
-			"force": 400,
-			"length": 358,
-			"drive": 1,
-			"reliability": 0.8,
-			"cost": 2500000,
-			"maxConnectedUnits": 1,
-			"operationCosts": 100,
-			"equipments": ["ETCS", "CH", "AT", "DE", "US"],
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 703},
-				{"name": "bistroseats", "value": 24 }
-			]
-		},
-		{
-			"id": 80402,
-			"service": 0,
-			"group": 2,
-			"name": "ICE 2",
-			"shortcut": "BR 402",
-			"speed": 280,
-			"weight": 455,
-			"force": 200,
-			"length": 205,
-			"drive": 1,
-			"reliability": 0.85,
-			"cost": 2000000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 95,
-			"equipments": ["DE"],
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 381},
-				{"name": "bistroseats", "value": 23}
-			]
-		},
-		{
-			"id": 403,
-			"service": 0,
-			"group": 2,
-			"name": "ICE 3",
-			"shortcut": "BR 403/406",
-			"speed": 330,
-			"weight": 409,
-			"force": 300,
-			"length": 201,
-			"drive": 1,
-			"reliability": 0.85,
-			"cost": 4500000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 75,
-			"equipments": ["ETCS", "KRM", "NL", "BE", "DE"],
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 425},
-				{"name": "bistroseats", "value": 22 }
-			]
-		},
-		{
-			"id": 408,
-			"service": 0,
-			"group": 2,
-			"name": "ICE3neo",
-			"shortcut": "BR 408",
-			"speed": 320,
-			"weight": 493,
-			"force": 300,
-			"length": 201,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 5500000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 75,
-			"equipments": ["ETCS", "FR", "KRM", "NL", "BE", "DE", "PL"],
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 439},
-				{"name": "bistroseats", "value": 16 }
-			]
-		},
-		{
+    {
+        "id": 13,
+        "name": "ICE 1",
+        "shortcut": "BR 401",
+        "speed": 280,
+        "weight": 782,
+        "force": 400,
+        "length": 358,
+        "drive": 1,
+        "reliability": 0.8,
+        "cost": 6830000,
+        "maxConnectedUnits": 1,
+        "operationCosts": 100,
+        "equipments": ["ETCS", "CH", "AT", "DE", "US"],
+        "exchangeTime": 120,
+        "capacity": [
+            { "name": "passengers", "value": 703 },
+            { "name": "bistroseats", "value": 24 }
+        ]
+    },
+    {
+        "id": 80402,
+        "name": "ICE 2",
+        "shortcut": "BR 402",
+        "speed": 280,
+        "weight": 455,
+        "force": 200,
+        "length": 205,
+        "drive": 1,
+        "reliability": 0.85,
+        "cost": 5140000,
+        "maxConnectedUnits": 2,
+        "operationCosts": 95,
+        "equipments": ["DE"],
+        "exchangeTime": 120,
+        "capacity": [
+            { "name": "passengers", "value": 381 },
+            { "name": "bistroseats", "value": 23 }
+        ]
+    },
+    {
+        "id": 403,
+        "name": "ICE 3",
+        "shortcut": "BR 403/406",
+        "speed": 330,
+        "weight": 409,
+        "force": 300,
+        "length": 201,
+        "drive": 1,
+        "reliability": 0.85,
+        "cost": 5640000,
+        "maxConnectedUnits": 2,
+        "operationCosts": 75,
+        "equipments": ["ETCS", "KRM", "NL", "BE", "DE"],
+        "exchangeTime": 120,
+        "capacity": [
+            { "name": "passengers", "value": 425 },
+            { "name": "bistroseats", "value": 22 }
+        ]
+    },
+	{
 			"id": 7403,
 			"service": 0,
 			"group": 2,
@@ -111,118 +83,126 @@
 				{"name": "bistroseats", "value": 22 }
 			]
 		},
-		{
-			"id": 0,
-			"service": 0,
-			"group": 2,
-			"name": "ICE 3 Velaro D",
-			"shortcut": "BR 407",
-			"speed": 320,
-			"weight": 454,
-			"force": 300,
-			"length": 201,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 5000000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 70,
-			"equipments": ["ETCS", "KRM", "FR", "TVM", "DE"],
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 460},
-				{"name": "bistroseats", "value": 16 }
-			]
-		},
-		{
-			"id": 24,
-			"service": 0,
-			"group": 2,
-			"name": "ICE 4 (7-teilig)",
-			"shortcut": "BR 412.2",
-			"speed": 250,
-			"weight": 392,
-			"force": 225,
-			"length": 202,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 2500000,
-			"operationCosts": 60,
-			"equipments": ["ETCS", "KRM", "AT", "DE"],
-			"maxConnectedUnits": 2,
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 444},
-				{"name": "bistroseats", "value": 16 }
-			]
-		},
-		{
-			"id": 25,
-			"service": 0,
-			"group": 2,
-			"name": "ICE 4 (13-teilig)",
-			"shortcut": "BR 412.4",
-			"speed": 265,
-			"weight": 736,
-			"force": 500,
-			"length": 374,
-			"drive": 1,
-			"reliability": 1,
-			"cost": 4500000,
-			"operationCosts": 80,
-			"equipments": ["ETCS", "KRM", "CH", "AT", "DE"],
-			"maxConnectedUnits": 1,
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 918},
-				{"name": "bistroseats", "value": 22 }
-			]
-		},
-		{
-
-			"id": 411,
-			"service": 0,
-			"group": 2,
-			"name": "ICE T",
-			"shortcut": "BR 411",
-			"speed": 230,
-			"weight": 368,
-			"force": 200,
-			"length": 185,
-			"drive": 1,
-			"reliability": 1.0,
-			"cost": 3000000,
-			"maxConnectedUnits": 2,
-			"operationCosts": 70,
-			"equipments": ["ETCS", "AT", "DE"],
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 376},
-				{"name": "bistroseats", "value": 8 }
-			]
-		},
-		{
-
-			"id": 605,
-			"service": 0,
-			"group": 2,
-			"name": "ICE TD",
-			"shortcut": "BR 605",
-			"speed": 200,
-			"weight": 237,
-			"force": 160,
-			"length": 107,
-			"drive": 2,
-			"reliability": 0.9,
-			"cost": 2500000,
-			"maxConnectedUnits": 4,
-			"operationCosts": 120,
-			"equipments": ["CH", "DK", "DE"],
-			"exchangeTime": 120,
-			"capacity": [
-				{"name": "passengers", "value": 195},
-				{"name": "bistroseats", "value": 2 }
-			]
-		},
+    {
+        "id": 408,
+        "name": "ICE3neo",
+        "shortcut": "BR 408",
+        "speed": 320,
+        "weight": 493,
+        "force": 300,
+        "length": 201,
+        "drive": 1,
+        "reliability": 1.0,
+        "cost": 5890000,
+        "maxConnectedUnits": 2,
+        "operationCosts": 75,
+        "equipments": ["ETCS", "FR", "KRM", "NL", "BE", "DE", "PL"],
+        "exchangeTime": 120,
+        "capacity": [
+            { "name": "passengers", "value": 439 },
+            { "name": "bistroseats", "value": 16 }
+        ]
+    },
+    {
+        "id": 0,
+        "name": "ICE 3 Velaro D",
+        "shortcut": "BR 407",
+        "speed": 320,
+        "weight": 454,
+        "force": 300,
+        "length": 201,
+        "drive": 1,
+        "reliability": 1.0,
+        "cost": 6000000,
+        "maxConnectedUnits": 2,
+        "operationCosts": 70,
+        "equipments": ["ETCS", "KRM", "FR", "TVM", "DE"],
+        "exchangeTime": 120,
+        "capacity": [
+            { "name": "passengers", "value": 460 },
+            { "name": "bistroseats", "value": 16 }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "ICE 4 (7-teilig)",
+        "shortcut": "BR 412.2",
+        "speed": 250,
+        "weight": 392,
+        "force": 225,
+        "length": 202,
+        "drive": 1,
+        "reliability": 1.0,
+        "cost": 5550000,
+        "operationCosts": 60,
+        "equipments": ["ETCS", "KRM", "AT", "DE"],
+        "maxConnectedUnits": 2,
+        "exchangeTime": 120,
+        "capacity": [
+            { "name": "passengers", "value": 444 },
+            { "name": "bistroseats", "value": 16 }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "ICE 4 (13-teilig)",
+        "shortcut": "BR 412.4",
+        "speed": 265,
+        "weight": 736,
+        "force": 500,
+        "length": 374,
+        "drive": 1,
+        "reliability": 1.0,
+        "cost": 8260000,
+        "operationCosts": 80,
+        "equipments": ["ETCS", "KRM", "CH", "AT", "DE"],
+        "maxConnectedUnits": 1,
+        "exchangeTime": 120,
+        "capacity": [
+            { "name": "passengers", "value": 918 },
+            { "name": "bistroseats", "value": 22 }
+        ]
+    },
+    {
+        "id": 411,
+        "name": "ICE T",
+        "shortcut": "BR 411",
+        "speed": 230,
+        "weight": 368,
+        "force": 200,
+        "length": 185,
+        "drive": 1,
+        "reliability": 1.0,
+        "cost": 5030000,
+        "maxConnectedUnits": 2,
+        "operationCosts": 70,
+        "equipments": ["ETCS", "AT", "DE"],
+        "exchangeTime": 120,
+        "capacity": [
+            { "name": "passengers", "value": 376 },
+            { "name": "bistroseats", "value": 8 }
+        ]
+    },
+    {
+        "id": 374,
+        "name": "Eurostar Velaro",
+        "shortcut": "e320",
+        "speed": 320,
+        "weight": 921,
+        "force": 500,
+        "length": 390,
+        "drive": 1,
+        "reliability": 1.0,
+        "cost": 8430000,
+        "operationCosts": 130,
+        "equipments": ["GB", "FR", "BE", "NL", "TVM", "ETCS", "Eurotunnel"],
+        "maxConnectedUnits": 1,
+        "exchangeTime": 120,
+        "capacity": [
+            { "name": "passengers", "value": 894 },
+            { "name": "bistroseats", "value": 24 }
+        ]
+    },
 		{
 			"id": 4701,
 			"service": 0,
