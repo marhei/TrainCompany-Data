@@ -74251,6 +74251,44 @@
 					"length": 1
 				}
 			]
+		},
+		{
+			"name": "Rudolfsbahn",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.5,
+			"neededEquipments": [
+				"AT"
+			],
+			"objects": [
+				{
+					"start": "XASZ",
+					"end": "XAT",
+					"length": 17
+				},
+				{
+					"start": "XAT",
+					"end": "XAWA",
+					"length": 15
+				},
+				{
+					"start": "XAWA",
+					"end": "XAMT",
+					"length": 15
+				},
+				{
+					"start": "XAMT",
+					"end": "🇦🇹01650",
+					"length": 16
+				},
+				{
+					"start": "🇦🇹01650",
+					"end": "XALO",
+					"length": 16,
+					"twistingFactor": 0.8
+				}
+			]
 		}
 	]
 }
