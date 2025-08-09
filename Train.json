@@ -2273,7 +2273,7 @@
 			"cost": 450000,
 			"maxConnectedUnits": 3,
 			"operationCosts": 85,
-			"equipments": ["BE"],
+			"equipments": ["BE", "ETCS"],
 			"exchangeTime": 80,
 			"capacity": [
 				{"name": "passengers", "value": 198}
@@ -2292,7 +2292,7 @@
 			"cost": 230000,
 			"maxConnectedUnits": 3,
 			"operationCosts": 95,
-			"equipments": ["BE", "MA"],
+			"equipments": ["BE"],
 			"exchangeTime": 80,
 			"capacity": [
 				{"name": "passengers", "value": 180}
@@ -2311,7 +2311,7 @@
 			"cost": 350000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 70,
-			"equipments": ["BE"],
+			"equipments": ["BE", "MA", "ETCS"],
 			"exchangeTime": 75,
 			"capacity": [
 				{"name": "passengers", "value": 254}
@@ -7452,7 +7452,7 @@
 			"reliability": 0.9,
 			"cost": 400000,
 			"operationCosts": 120,
-			"equipments": ["GB", "NL", "BE", "LU", "DK", "PL", "CZ", "FR", "SE", "DE", "SK"]
+			"equipments": ["GB", "NL", "BE", "LU", "DK", "PL", "CZ", "FR", "SE", "DE", "SK", "ETCS"]
 		},
 		{
 			"id": 80265,
