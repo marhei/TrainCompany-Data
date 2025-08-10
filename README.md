@@ -7,6 +7,8 @@ In diesem Repository finden sich die Daten, die von TrainCompany genutzt werden.
 
 Eine Anleitung zum Erstellen neuer Erweiterungen usw. findet sich in [`Contributing.md`](CONTRIBUTING.md)
 
+**Jede*r ist herzlich eingeladen ein PR einzureichen und damit die Welt von TrainCompany zu erweitern. Um den Aufwand der Abarbeitung von PR für mich in einem angemessenen Rahmen zu halten bitte ich euch diese klein zu halten. Anstatt große Sammel-PR, die eine Vielzahl an verschiedene Regionen und Elemente betreffen, am besten pro Region/Element ein eigenes PR erstellen.**
+
 ## Train.json
 Fahrzeuge, die in TC zur Verfügung stehen
 
