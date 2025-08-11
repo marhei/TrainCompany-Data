@@ -47588,6 +47588,86 @@
 			]
 		},
 		{
+			"name": "Jönköpingsbanan",
+			"group": 1,
+			"neededEquipments": [
+				"SE"
+			],
+			"electrified": true,
+			"objects": [
+				{
+					"start": "XVFK",
+					"end": "XVSM",
+					"length": 25,
+					"maxSpeed": 180,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XVSM",
+					"end": "XVMU",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XVMU",
+					"end": "XVHB",
+					"length": 12,
+					"maxSpeed": 150,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XVHB",
+					"end": "XVBY",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "XVBY",
+					"end": "XVJ",
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "XVJ",
+					"end": "XVHU",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XVHU",
+					"end": "XVTT",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XVTT",
+					"end": "XVFO",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "XVFO",
+					"end": "XVAG",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "XVAG",
+					"end": "XVN",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
 			"name": "Süd-Lausitzer Bahn",
 			"electrified": false,
 			"group": 0,
