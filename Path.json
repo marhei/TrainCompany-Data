@@ -74656,6 +74656,53 @@
 					"length": 22
 				}
 			]
+		},
+		{
+			"name": "Luumäki-Sankt-Petersburg",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.01,
+			"maxSpeed": 140,
+			"objects": [
+				{
+					"start": "🇫🇮LÄ",
+					"end": "🇫🇮SI",
+					"twistingFactor": 0.2,
+					"length": 23
+				},
+				{
+					"start": "🇫🇮SI",
+					"end": "🇫🇮VNA",
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"length": 12
+				},
+				{
+					"start": "🇫🇮VNA",
+					"end": "🇷🇺2004682",
+					"maxSpeed": 160,
+					"group": 2,
+					"length": 32
+				},
+				{
+					"start": "🇷🇺2004682",
+					"end": "🇷🇺2004232",
+					"maxSpeed": 200,
+					"group": 2,
+					"length": 78
+				},
+				{
+					"start": "🇷🇺2004232",
+					"end": "🇷🇺O21596808",
+					"maxSpeed": 200,
+					"group": 2,
+					"length": 50
+				}
+			]
 		}
 	]
 }
