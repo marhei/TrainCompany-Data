@@ -10790,6 +10790,93 @@
 			]
 		},
 		{
+			"group": 1,
+			"neededEquipments": [
+				"SE"
+			],
+			"name": "Stångådalsbanan",
+			"electriefied": false,
+			"objects": [
+				{
+					"start": "XVKM",
+					"end": "XVBL",
+					"length": 40,
+					"maxSpeed": 140,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XVBL",
+					"end": "XVHY",
+					"length": 29,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XVHY",
+					"end": "🇸🇪7400500",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇪7400500",
+					"end": "XVHD",
+					"length": 36,
+					"maxSpeed": 110,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "XVHD",
+					"end": "XVVE",
+					"length": 21,
+					"maxSpeed": 120,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XVVE",
+					"end": "🇸🇪O278841439",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇸🇪O278841439",
+					"end": "XVKS",
+					"length": 39,
+					"maxSpeed": 120,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XVKS",
+					"end": "XVRF",
+					"length": 18,
+					"maxSpeed": 115,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XVRF",
+					"end": "🇸🇪O749472210",
+					"length": 20,
+					"maxSpeed": 115,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇸🇪O749472210",
+					"end": "XVTN",
+					"length": 17,
+					"maxSpeed": 100,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "XVTN",
+					"end": "XVL",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.18
+				}
+			]
+		},
+		{
 			"group": 0,
 			"neededEquipments": [
 				"GB"
@@ -19347,13 +19434,13 @@
 				},
 				{
 					"start": "XVAL",
-					"end": "🇸🇪O9951356784",
+					"end": "🇸🇪7400995",
 					"length": 7,
 					"maxSpeed": 160,
 					"twistingFactor": 0.29
 				},
 				{
-					"start": "🇸🇪O9951356784",
+					"start": "🇸🇪7400995",
 					"end": "XVVX",
 					"length": 10,
 					"maxSpeed": 160,
@@ -19396,13 +19483,13 @@
 				},
 				{
 					"start": "🇸🇪7400096",
-					"end": "🇸🇪O148594829",
+					"end": "🇸🇪7400516",
 					"length": 24,
 					"maxSpeed": 200,
 					"twistingFactor": 0.18
 				},
 				{
-					"start": "🇸🇪O148594829",
+					"start": "🇸🇪7400516",
 					"end": "🇸🇪7401537",
 					"length": 29,
 					"maxSpeed": 135,
@@ -30722,6 +30809,65 @@
 					"group": 0,
 					"length": 18,
 					"twistingFactor": 0.27
+				}
+			]
+		},
+		{
+			"name": "Tjustbanan",
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [
+				"SE"
+			],
+			"objects": [
+				{
+					"start": "XVVK",
+					"end": "XVTK",
+					"length": 1,
+					"maxSpeed": 30,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XVTK",
+					"end": "XVGL",
+					"length": 23,
+					"maxSpeed": 110,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XVGL",
+					"end": "🇸🇪O28299052",
+					"length": 12,
+					"maxSpeed": 100,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇸🇪O28299052",
+					"end": "XVFM",
+					"length": 23,
+					"maxSpeed": 100,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "XVFM",
+					"end": "XVAT",
+					"length": 16,
+					"maxSpeed": 100,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XVAT",
+					"end": "XVBAH",
+					"length": 1,
+					"maxSpeed": 70,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XVBAH",
+					"end": "🇸🇪O749472210",
+					"length": 16,
+					"maxSpeed": 110,
+					"twistingFactor": 0.18
 				}
 			]
 		},
@@ -47442,6 +47588,86 @@
 			]
 		},
 		{
+			"name": "Jönköpingsbanan",
+			"group": 1,
+			"neededEquipments": [
+				"SE"
+			],
+			"electrified": true,
+			"objects": [
+				{
+					"start": "XVFK",
+					"end": "XVSM",
+					"length": 25,
+					"maxSpeed": 180,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XVSM",
+					"end": "XVMU",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XVMU",
+					"end": "XVHB",
+					"length": 12,
+					"maxSpeed": 150,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XVHB",
+					"end": "XVBY",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "XVBY",
+					"end": "XVJ",
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "XVJ",
+					"end": "XVHU",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XVHU",
+					"end": "XVTT",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XVTT",
+					"end": "XVFO",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "XVFO",
+					"end": "XVAG",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "XVAG",
+					"end": "XVN",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
 			"name": "Süd-Lausitzer Bahn",
 			"electrified": false,
 			"group": 0,
@@ -62778,6 +63004,166 @@
 			]
 		},
 		{
+			"group": 1,
+			"neededEquipments": [
+				"SE"
+			],
+			"name": "Skånebanan",
+			"electrified": true,
+			"objects": [
+				{
+					"start": "XVH",
+					"end": "🇸🇪7400589",
+					"length": 7,
+					"maxSpeed": 110,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇪7400589",
+					"end": "🇸🇪7400567",
+					"length": 4,
+					"maxSpeed": 130,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇸🇪7400567",
+					"end": "🇸🇪7400471",
+					"length": 3,
+					"maxSpeed": 130,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400471",
+					"end": "🇸🇪7400018",
+					"length": 6,
+					"maxSpeed": 130,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400018",
+					"end": "🇸🇪7402193",
+					"length": 5,
+					"maxSpeed": 130,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇸🇪7402193",
+					"end": "🇸🇪7400156",
+					"length": 5,
+					"maxSpeed": 130,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400156",
+					"end": "🇸🇪7400153",
+					"length": 16,
+					"maxSpeed": 130,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇸🇪7400153",
+					"end": "🇸🇪7400287",
+					"length": 12,
+					"maxSpeed": 130,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇸🇪7400287",
+					"end": "XVHH",
+					"length": 11,
+					"maxSpeed": 200,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "XVHH",
+					"end": "🇸🇪7400185",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇸🇪7400185",
+					"end": "🇸🇪7404873",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7404873",
+					"end": "🇸🇪7400200",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.17
+				}
+			]
+		},
+		{
+			"group": 1,
+			"neededEquipments": [
+				"SE"
+			],
+			"name": "Blekinge kustbana",
+			"electrified": true,
+			"objects": [
+				{
+					"start": "🇸🇪7400200",
+					"end": "🇸🇪7405048",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇸🇪7405048",
+					"end": "🇸🇪7400141",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇪7400141",
+					"end": "🇸🇪7400079",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇪7400079",
+					"end": "XVMO",
+					"length": 22,
+					"maxSpeed": 150,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "XVMO",
+					"end": "🇸🇪7400073",
+					"length": 8,
+					"maxSpeed": 110,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇸🇪7400073",
+					"end": "🇸🇪7400288",
+					"length": 20,
+					"maxSpeed": 160,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇸🇪7400288",
+					"end": "🇸🇪7400069",
+					"length": 16,
+					"maxSpeed": 150,
+					"twistingFactor": 0.44
+				},
+				{
+					"start": "🇸🇪7400069",
+					"end": "🇸🇪7401537",
+					"length": 27,
+					"maxSpeed": 160,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
 			"name": "Zwotental - Zwickau",
 			"electrified": false,
 			"group": 1,
@@ -70919,13 +71305,13 @@
 				},
 				{
 					"start": "XVAS",
-					"end": "🇸🇪O270883345",
+					"end": "🇸🇪7400719",
 					"length": 20,
 					"maxSpeed": 200,
 					"twistingFactor": 0.14
 				},
 				{
-					"start": "🇸🇪O270883345",
+					"start": "🇸🇪7400719",
 					"end": "XVHE",
 					"length": 13,
 					"maxSpeed": 200,
