@@ -26,7 +26,24 @@
 			],
 			"neededCapacity": [
 				{ "name": "passengers" },
-				{ "name": "bistroseats" }
+				{ "name": "bistroseats" }TaskModel.json
+
+Modelle für Aufträge, aus denen automatisch neue Aufträge erstellt werden
+
+    group (int) Art des Auftrags
+        0 Direktvergabe
+        1 Ausschreibung
+    name (string) Name des Auftrags
+    service (int) Servicelevel zur automatischen Berechnung des Gewinns
+        0 HGV
+        1 IC
+        2 Regionalverkehr
+        3 kurzer Regionalverkehr
+        4 Sonderzug
+        5 Nachtzug
+        10 wichtiger Güterzug
+        11 Güterzug
+
 			]
 		},
 		{
@@ -10564,5 +10581,19 @@
 				{ "name": "passengers" }
 			]
 		}
+		{
+			"group": 0,
+			"service": 4,
+			"name": "Sonderzug nach Pankow",
+			"descriptions": [
+				"Entschuldigen Sie, ist das der Sonderzug nach Pankow? Ich muss mal eben dort hin.",
+				"Um den ÖPNV in der Region wiederzubeleben, soll dieser Sonderzug öffentlichkeitswirksam nach Berlin gebracht werden, gern mit Dampf bespannt."
+			],
+			"stations": [ "EGRN", "BL" ],
+			"pathSuggestion": [ "EGRN", "EMST", "EHM", "EPD", "HA", "HHM", "HH", "HLER", "HHI", "HBS", "LM", "BL"]
+			"neededCapacity": [
+				{ "name": "passengers", "value": 250  }
+			]
+		},
 	]
 }
