@@ -74455,6 +74455,54 @@
 					"length": 11
 				}
 			]
+		},
+		{
+			"name": "Lahti–Kouvola",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"maxSpeed": 200,
+			"objects": [
+				{
+					"start": "🇫🇮LH",
+					"end": "🇫🇮NSL",
+					"length": 15
+				},
+				{
+					"start": "🇫🇮NSL",
+					"end": "🇫🇮UKÄ",
+					"length": 4
+				},
+				{
+					"start": "🇫🇮UKÄ",
+					"end": "🇫🇮MKA",
+					"maxSpeed": 170,
+					"length": 10
+				},
+				{
+					"start": "🇫🇮MKA",
+					"end": "🇫🇮KA",
+					"maxSpeed": 160,
+					"length": 9,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇮KA",
+					"end": "🇫🇮KRA",
+					"length": 15
+				},
+				{
+					"start": "🇫🇮KRA",
+					"end": "🇫🇮KV",
+					"maxSpeed": 160,
+					"length": 6,
+					"twistingFactor": 0.2
+				}
+			]
 		}
 	]
 }
