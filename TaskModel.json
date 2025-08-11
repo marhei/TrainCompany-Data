@@ -10134,10 +10134,16 @@
 			"objects": [
 				{
 					"stations": [ "EWAN", "XUCU" ]
+				},{
+					"stations": ["AL", "XINV"]
+				},{
+					"stations": ["XIVP", "XTOH"]
+				},{
+					"stations": ["EWAN", "XTOH"]
 				}
 			],
 			"neededCapacity": [
-				{ "name": "trailers", "value": 28 }
+				{ "name": "trailers", "value": 30 }
 			],
 			"stopsEverywhere": false
 		},
@@ -10206,6 +10212,75 @@
 			"objects": [
 				{
 					"stations": [ "XLB", "XIT" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "trailers", "value": 28 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Paneuropa/Terratrans-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen KLV queer durch Mitteleuropa",
+				"Zebras könnten helfen, diesen Zug von der Nordsee ans Mittelmeer zu fahren",
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "HB", "XIVP" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "trailers", "value": 33 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Padborger KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XDPA", "XIVP" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "trailers", "value": 29 }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "DB Schenker-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "WR", "XIVP" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "trailers", "value": 32 }
+			],
+			"stopsEverywhere": false
+		},{
+			"group": 0,
+			"name": "Miratrans-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "RM", "🇵🇱O9906599722" ]
 				}
 			],
 			"neededCapacity": [
