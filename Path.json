@@ -30813,6 +30813,65 @@
 			]
 		},
 		{
+			"name": "Tjustbanan",
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [
+				"SE"
+			],
+			"objects": [
+				{
+					"start": "XVVK",
+					"end": "XVTK",
+					"length": 1,
+					"maxSpeed": 30,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XVTK",
+					"end": "XVGL",
+					"length": 23,
+					"maxSpeed": 110,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XVGL",
+					"end": "🇸🇪O28299052",
+					"length": 12,
+					"maxSpeed": 100,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇸🇪O28299052",
+					"end": "XVFM",
+					"length": 23,
+					"maxSpeed": 100,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "XVFM",
+					"end": "XVAT",
+					"length": 16,
+					"maxSpeed": 100,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XVAT",
+					"end": "XVBAH",
+					"length": 1,
+					"maxSpeed": 70,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XVBAH",
+					"end": "🇸🇪O749472210",
+					"length": 16,
+					"maxSpeed": 110,
+					"twistingFactor": 0.18
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": false,
 			"maxSpeed": 130,
