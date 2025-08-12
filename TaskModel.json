@@ -10563,7 +10563,7 @@
 				{
 					"stations": [ "XUCR", "XUCC", "XURN", "XUV", "XUBN" ]
 				},
-				{
+				{ 		
 					"stations": [ "XUFI", "XUCC" ]
 				}
 			],
@@ -10584,6 +10584,38 @@
 			"pathSuggestion": [ "EGRN", "EMST", "EHM", "EPD", "HA", "HHM", "HH", "HLER", "HHI", "HBS", "LM", "BL"],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 250  }
+			]
+		},
+		{
+			"group": 0,
+			"service": 1,
+			"name": "Komm, wir fahren nach Amsterdam",
+			"descriptions": [
+				"Die Achslast des ICE L ist überraschenderweise zu hoch für die Niederländischen Strecken, bespanne diesen Zug also mit etwas sinnvollerem.",
+				"Im Zuge der Lieferung neuer Fahrzeuge kam es zu Fehlkommunikation durch DB FV, bespanne diese Leistung spontan anders.",
+				"Weniger Achsen pro Wagen führen zu höheren Achslasten, Züge mit Jakobsdrehgestellen sind für die DB eben noch Neuland. IC1 Wagenparks werden bevorzugt.",
+				"Nutze ICE3neo anstelle ICE L, um diese Leistung überhaupt noch anbieten zu können."
+			],
+			"stations": [ "BL", "BSPD", "HH", "HBDE", "HO", "HR", "HBTH", "XNHL", "🇳🇱Dv", "🇳🇱Apd", "🇳🇱Amf", "🇳🇱Hvs", "XNAC"],
+			"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HWUN", "HM", "HL", "HO", "HR", "XNHL", "🇳🇱Aml", "🇳🇱Wdn", "🇳🇱Dv", "🇳🇱Apd", "🇳🇱Amf", "🇳🇱Wp", "XNAC"],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"service": 1,
+			"name": "Komm, wir fahren zurück von Amsterdam",
+			"descriptions": [
+				"Die Achslast des ICE L ist überraschenderweise zu hoch für die Niederländischen Strecken, bespanne diesen Zug mit etwas sinnvollerem.",
+				"Im Zuge der Lieferung neuer Fahrzeuge kam es zu Fehlkommunikation durch DB FV, bespanne diese Leistung spontan anders.",
+				"Weniger Achsen pro Wagen führen zu höheren Achslasten, Züge mit Jakobsdrehgestellen sind für die DB eben noch Neuland. IC1 Wagenparks werden bevorzugt.",
+				"Nutze ICE3neo anstelle ICE L, um diese Leistung überhaupt noch anbieten zu können."
+			],
+			"stations": [ "XNAC", "🇳🇱Hvs", "🇳🇱Amf", "🇳🇱Apd", "🇳🇱Dv", "XNHL", "HBTH", "HR", "HO", "HBDE", "HH", "BSPD", "BL"],
+			"pathSuggestion": [ "XNAC", "🇳🇱Wp", "🇳🇱Amf", "🇳🇱Apd", "🇳🇱Dv", "🇳🇱Wdn", "🇳🇱Aml", "XNHL", "HR", "HO", "HL", "HM", "HWUN", "HH", "HLER", "HWOB", "LS", "BSPD", "BL"],
+			"neededCapacity": [
+				{ "name": "passengers" }
 			]
 		}
 	]
