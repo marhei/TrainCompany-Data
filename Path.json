@@ -68560,6 +68560,63 @@
 			]
 		},
 		{
+			"neededEquipments": [
+				"SE"
+			],
+			"name": "Vaggerydsbanan",
+			"group": 1,
+			"objects": [
+				{
+					"start": "XVJ",
+					"end": "XVRJ",
+					"electrified": true,
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XVRJ",
+					"end": "XVHVT",
+					"electrified": false,
+					"length": 6,
+					"maxSpeed": 75,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XVHVT",
+					"end": "XVNH",
+					"electrified": false,
+					"length": 3,
+					"maxSpeed": 75,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XVNH",
+					"end": "XVTG",
+					"electrified": false,
+					"length": 3,
+					"maxSpeed": 65,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XVTG",
+					"end": "XVMN",
+					"electrified": false,
+					"length": 3,
+					"maxSpeed": 65,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "XVMN",
+					"end": "XVVY",
+					"electrified": false,
+					"length": 18,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
