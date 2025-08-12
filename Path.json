@@ -42268,6 +42268,142 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"SE"
+			],
+			"name": "Kontinentalbanan",
+			"objects": [
+				{
+					"start": "XVM",
+					"end": "XVVIS",
+					"length": 20,
+					"maxSpeed": 200,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "XVVIS",
+					"end": "🇸🇪O3888983735",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇸🇪O3888983735",
+					"end": "XVT",
+					"length": 14,
+					"maxSpeed": 160,
+					"twistingFactor": 0.37
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"neededEquipments": [
+				"SE"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "XVM",
+					"end": "🇸🇪7400732",
+					"name": "Ystadsbanan",
+					"length": 17,
+					"maxSpeed": 200,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "🇸🇪7400732",
+					"end": "XVSDA",
+					"name": "Ystadsbanan",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "XVSDA",
+					"end": "XVSP",
+					"name": "Ystadsbanan",
+					"length": 17,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XVSP",
+					"end": "🇸🇪7400317",
+					"name": "Ystadsbanan",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇸🇪7400317",
+					"end": "🇸🇪7400737",
+					"name": "Ystadsbanan",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇸🇪7400737",
+					"end": "XVY",
+					"name": "Ystadsbanan",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XVY",
+					"end": "🇸🇪7400318",
+					"name": "Simrishamnsbanan",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇸🇪7400318",
+					"end": "🇸🇪7400320",
+					"name": "Simrishamnsbanan",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇸🇪7400320",
+					"end": "🇸🇪7400321",
+					"name": "Simrishamnsbanan",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400321",
+					"end": "🇸🇪7400322",
+					"name": "Simrishamnsbanan",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇸🇪7400322",
+					"end": "🇸🇪7400323",
+					"name": "Simrishamnsbanan",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇸🇪7400323",
+					"end": "🇸🇪7400088",
+					"name": "Simrishamnsbanan",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"objects": [
