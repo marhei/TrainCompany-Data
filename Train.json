@@ -6403,7 +6403,7 @@
 			"reliability": 0.85,
 			"cost": 500000,
 			"operationCosts": 200,
-			"equipments": ["SE"]
+			"equipments": ["SE", "NO"]
 		},
 		{
 			"id": 742222,
@@ -6417,7 +6417,7 @@
 			"reliability": 1,
 			"cost": 750000,
 			"operationCosts": 160,
-			"equipments": ["SE"]
+			"equipments": ["SE", "NO"]
 		},
 		{
 			"id": 8813,
@@ -7452,7 +7452,7 @@
 			"reliability": 0.9,
 			"cost": 400000,
 			"operationCosts": 120,
-			"equipments": ["GB", "NL", "BE", "LU", "DK", "PL", "CZ", "FR", "SE", "DE", "SK", "ETCS"]
+			"equipments": ["GB", "NL", "BE", "LU", "DK", "PL", "CZ", "FR", "SE", "DE", "SK", "NO" , "ETCS"]
 		},
 		{
 			"id": 80265,
@@ -7758,6 +7758,21 @@
 			"equipments": ["PL", "DE", "DK"]
 		},
 		{
+			"id": 704000,
+			"group": 0,
+			"name": "Vossloh Euro 4000 (Normalspurversion)",
+			"shortcut": "CD 312",
+			"speed": 160,
+			"weight": 123,
+			"force": 400,
+			"length": 23,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 440000,
+			"operationCosts": 130,
+			"equipments": ["DE", "FR", "BE", "SE", "NO"]
+		},
+		{
 			"id": 7036,
 			"group": 0,
 			"name": "NOHAB AA16",
@@ -7770,6 +7785,20 @@
 			"cost": 180000,
 			"operationCosts": 180,
 			"equipments": ["DK", "NO", "HU", "DE", "SE", "BE", "LU"]
+		},
+		{
+			"id": 861461,
+			"group": 0,
+			"name": "DSB MZ",
+			"speed": 143,
+			"weight": 116,
+			"force": 390,
+			"length": 19,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 220000,
+			"operationCosts": 160,
+			"equipments": ["DK", "NO", "SE"]
 		},
 		{
 			"id": 55418,
@@ -7937,7 +7966,7 @@
 			"reliability": 0.8,
 			"cost": 310000,
 			"operationCosts": 125,
-			"equipments": ["PL", "RO", "BG", "IT"]
+			"equipments": ["PL", "RO", "BG", "IT" , "RS"]
 		},
 		{
 			"id": 73220,
@@ -8084,7 +8113,7 @@
 		{
 			"id": 713339,
 			"group": 0,
-			"name": "Vossloh Euro 4000",
+			"name": "Vossloh Euro 4000 (Breitspurversion)",
 			"shortcut": "RENFE-Baureihe 333",
 			"speed": 160,
 			"weight": 123,
