@@ -6459,7 +6459,14 @@
 				"Verbinde %s mit %s.",
 				"Fahre den Zug zwischen %s und %s."
 			],
-			"stations": [ "XVGB", "XVAD", "XVNS", "XVAS", "XVFY", "XVFK", "XVST", "XVLX", "XVHA", "XVVI", "XVK", "XVFN", "🇸🇪MÖ", "🇸🇪JN", "🇸🇪HD", "XVS" ],
+			"objects": [
+				{
+					"stations": [ "XVGB", "XVAD", "XVNS", "XVAS", "XVFY", "XVFK", "XVST", "XVLX", "XVHA", "XVVI", "XVK", "XVFN", "🇸🇪MÖ", "🇸🇪JN", "🇸🇪HD", "XVS" ]
+				},
+				{
+					"stations": [ "XVGB", "XVBS", "🇸🇪7400100", "🇸🇪7400089", "🇸🇪7400112", "XVVR", "XVAL", "XVVX", "🇸🇪7400511", "🇸🇪7400235", "🇸🇪7400096", "🇸🇪7400189", "XVKM" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
