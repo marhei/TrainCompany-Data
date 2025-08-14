@@ -10221,6 +10221,9 @@
 			"objects": [
 				{
 					"stations": [ "XLB", "XIT" ]
+				},
+				{
+					"station": ["XLB", "XQHA"]
 				}
 			],
 			"neededCapacity": [
@@ -10602,6 +10605,108 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},{
+			"group": 0,
+			"name": "DSV-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen KLV pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XVK", "XIMB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "trailers", "value": 33 }
+			],
+			"stopsEverywhere": false
+		},{
+			"group": 0,
+			"name": "Samskip-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen KLV pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XVK", "KKR" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "trailers", "value": 33 }
+			],
+			"stopsEverywhere": false
+		},{
+			"group": 0,
+			"name": "Arcese-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen KLV pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XIVP", "XTOH" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "trailers", "value": 33 }
+			],
+			"stopsEverywhere": false
+		},{
+			"group": 0,
+			"name": "Pimk-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen KLV pünktlich von %s nach %s.",
+				"Fahre diesen KLV queer durch Südosteuropa."
+			],
+			"objects": [
+				{
+					"stations": [ "XWPL", "NN" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "trailers", "value": 34 }
+			],
+			"stopsEverywhere": false
+		},{
+			"group": 0,
+			"name": "Winner-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen KLV pünktlich von %s nach %s.",
+				"Nur echte Gewinner fahren von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "KW", "XIVP" ]
+				},
+				{
+					"stations": [ "KW", "XIMB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "trailers", "value": 33 }
+			],
+			"stopsEverywhere": false
+		},{
+			"group": 0,
+			"name": "Große-Vehne-KLV von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen KLV pünktlich von %s nach %s.",
+				"Fahre diese Arterie des europäischen Güterverkehrs von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "TS", "HB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "trailers", "value": 33 }
+			],
+			"stopsEverywhere": false
 		}
 	]
 }
