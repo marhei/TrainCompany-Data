@@ -10625,6 +10625,25 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 0,
+			"service": 4,
+			"name": "Achtung - Streckenkontrolle!",
+			"descriptions": [
+				"Nachdem DB InfraGo Probleme an Schwellen feststelle, wurden Kontrollfahrten im ganzen Netz angeordnet. Führe diese sorgsam durch und plane Zeit für Personalwechsel ein.",
+				"Die Anzahl der Bundesländer soll auf Vollständigkeit überprüft werden, fahre alle ab. Aufgrund der langen Fahrzeit sind Schlafplätze zwecks der Ruhezeiten vorgeschrieben.",
+				"Die DB möchte zeigen, dass sie es noch drauf hat. Fahre diesen Sonderzug durch alle Bundesländer - mache dabei jedoch zur Sicherheit einen großen Bogen um Fankfurt (M).",
+				"Auf Gleis 3 fährt ein: Ringbahn S41 über Leipzig Hbf, Kempten (Allgäu) Hbf, Saarbrücken Hbf und Kiel. Vorsicht bei Einfahrt des Zuges.",
+				"Du wurdest zur Eisenbahner*in des Jahres gewählt und erhältst eine Sonderahrt nach Wunsch. Du entschließt dich, deine Kolleg*innen aus Ausbildungszeiten zu besuchen und auf einen Pott Kaffee zu halten."
+			],
+			"stations": [ "BKW", "DH", "LL", "UNM", "US", "NPA", "MKP", "RK", "FD", "SSH", "STR", "EDG", "HLEE", "HB", "AH",  "WK", "WSR", "BL"],
+			"pathSuggestion": [ "BKW", "BFP", "BCS", "BSP", "DG", "DL", "DBW", "DAF", "DH", "DCW", "DPR", "DR", "LBOR", "LL", "UNM", "UGH", "UGW", "US", "NHM", "NED", "NBA", "NF", "NN", "NRH", "NPL", "NPA", "MNR", "MMF", "MWSB", "MRO", "MHO", "MH", "MGE", "MKFG", "MBU", "MBIH", "MKP", "MIMS", "MHGZ", "MLIR", "TF", "RRZ", "RSI", "RIM", "RDO", "RF", "RO", "RAP", "RK", "RBR", "RH", "RMF", "FD", "FDG", "FBL", "FWOR", "RFT", "RFHM", "RN", "RLA", "SHW", "SPSN", "SRO", "SSH", "SKZ", "STR", "KEU", "KKAS", "KK", "KGRB", "KM", "KV", "EDG", "EOB", "EG", "EMST", "HR", "HLEE", "HOLD", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AHI", "AHM", "AJ", "AF", "AK", "AL", "WK", "WB", "WSN", "WR", "WSR", "WZS", "WP", "WA", "WE", "BL"],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats", "value": 48 },
+				{ "name": "beds", "value": 48 }
+			]
 		}
 	]
 }
