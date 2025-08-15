@@ -75811,6 +75811,1391 @@
 					"twistingFactor": 0.8
 				}
 			]
-		}
+		},
+		{
+			"name": "Vänerbanan",
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "XVGB",
+					"end": "🇸🇪7400996",
+					"length": 38,
+					"maxSpeed": 200,
+					"twistingFactor": 0.3,
+					"neededEquipments": [
+						"SE"
+					]
+				},
+				{
+					"start": "🇸🇪7400996",
+					"end": "XVTH",
+					"length": 34,
+					"maxSpeed": 200,
+					"twistingFactor": 0.3,
+					"neededEquipments": [
+						"SE"
+					]
+				},
+				{
+					"start": "XVTH",
+					"end": "XVFRA",
+					"length": 25,
+					"maxSpeed": 160,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"SE"
+					]
+				},
+				{
+					"start": "XVFRA",
+					"end": "XVDR",
+					"length": 26,
+					"maxSpeed": 160,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"SE"
+					]
+				},
+				{
+					"start": "XVDR",
+					"end": "XVBAF",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"SE"
+					]
+				},
+				{
+					"start": "XVBAF",
+					"end": "XVED",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"SE"
+					]
+				},
+				{
+					"start": "XVED",
+					"end": "XOKO",
+					"length": 20,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"SE"
+					]
+				},
+			]
+		},
+		{
+			"name": "Østfoldbanen",
+			"electrified": true,
+			"group": 0,
+					"neededEquipments": [
+						"NO"
+					]
+			"objects": [
+				{
+					"start": "XOKO",
+					"end": "XOHA",
+					"length": 32,
+					"maxSpeed": 120,
+					"twistingFactor": 0.5
+
+				},
+				{
+					"start": "XOHA",
+					"end": "XOSKY",
+					"length": 18,
+					"maxSpeed": 130,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "XOSKY",
+					"end": "XOSAR",
+					"length": 10,
+					"maxSpeed": 130,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "XOSAR",
+					"end": "XOFR",
+					"length": 15,
+					"maxSpeed": 130,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "XOFR",
+					"end": "XORA",
+					"length": 15,
+					"maxSpeed": 130,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "XORA",
+					"end": "XOMO",
+					"length": 17,
+					"maxSpeed": 130,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "XOMO",
+					"end": "XOVE",
+					"length": 22,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XOVE",
+					"end": "XOAS",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XOAS",
+					"end": "XOSK",
+					"length": 22,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XOSK",
+					"end": "XOKOL",
+					"length": 12,
+					"maxSpeed": 125,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOKOL",
+					"end": "XOOS",
+					"length": 13,
+					"maxSpeed": 125,
+					"twistingFactor": 0.3
+				},
+			]
+		},
+		{
+			"name": "Follobanen",
+			"electrified": true,
+			"group": 2,
+			"neededEquipments": [
+						"NO"
+					],
+			"objects": [
+				{
+					"start": "XOSK",
+					"end": "XOOS",
+					"length": 22,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+			]
+		},
+		{
+			"name": "Drammenbanen",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+						"NO"
+					],
+			"objects": [
+				{
+					"start": "XOOS",
+					"end": "XOLY",
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XOLY",
+					"end": "XOSA",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XOSA",
+					"end": "XOAK",
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XOAK",
+					"end": "XODR",
+					"length": 19,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+			]
+		},
+		{
+			"name": "Randsfjordbanen",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"NO"
+			],
+			"objects": [
+				{
+					"start": "XODR",
+					"end": "XOHOK",
+					"length": 17,
+					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOHOK",
+					"end": "XOVIK",
+					"length": 28,
+					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOVIK",
+					"end": "XOHO",
+					"length": 26,
+					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				},
+			]
+		},
+		{
+			"name": "Bergensbanen",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"NO"
+			]
+			"objects": [
+				{
+					"start": "XOHO",
+					"end": "XOSO",
+					"length": 22,
+					"maxSpeed": 110,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOSO",
+					"end": "XOFL",
+					"length": 40,
+					"maxSpeed": 110,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOFL",
+					"end": "XONE",
+					"length": 33,
+					"maxSpeed": 115,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XONE",
+					"end": "XOGO",
+					"length": 17,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOGO",
+					"end": "XOAL",
+					"length": 26,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOAL",
+					"end": "XOGE",
+					"length": 25,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOGE",
+					"end": "XOHAU",
+					"length": 23,
+					"maxSpeed": 160,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOHAU",
+					"end": "XOFI",
+					"length": 26,
+					"maxSpeed": 160,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOFI",
+					"end": "XOMY",
+					"length": 29,
+					"maxSpeed": 70,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOMY",
+					"end": "XOMJ",
+					"length": 19,
+					"maxSpeed": 90,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOMJ",
+					"end": "XORE",
+					"length": 9,
+					"maxSpeed": 90,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XORE",
+					"end": "XOLK",
+					"length": 13,
+					"maxSpeed": 90,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOLK",
+					"end": "XOVO",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOVO",
+					"end": "XOEV",
+					"length": 17,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOEV",
+					"end": "XODA",
+					"length": 20,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XODA",
+					"end": "XOSTA",
+					"length": 7,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOSTA",
+					"end": "XOVA",
+					"length": 8,
+					"maxSpeed": 110,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOVA",
+					"end": "XOTE",
+					"length": 12,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOTE",
+					"end": "XOAR",
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOAR",
+					"end": "XOBG",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.4
+				},
+			]
+		},
+		{
+			"name": "Hovedbanen",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"NO"
+					]
+			"objects": [
+				{
+					"start": "XOOS",
+					"end": "XOGRO",
+					"length": 10,
+					"maxSpeed": 125,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOGRO",
+					"end": "XOSTO",
+					"length": 8,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOSTO",
+					"end": "XOLI",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOLI",
+					"end": "XOKL",
+					"length": 15,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XOKL",
+					"end": "XOTRS",
+					"length": 6,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XOTRS",
+					"end": "XOJE",
+					"length": 3,
+					"maxSpeed": 110,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XOJE",
+					"end": "XOEDV",
+					"length": 23,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+			]
+		},
+		{
+			"name": "Dovrebanen",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"NO"
+					]
+			"objects": [
+				{
+					"start": "XOEDV",
+					"end": "XOES",
+					"length": 26,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XOES",
+					"end": "XOTA",
+					"length": 8,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOTA",
+					"end": "XOST",
+					"length": 13,
+					"maxSpeed": 125,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOST",
+					"end": "XOHM",
+					"length": 12,
+					"maxSpeed": 210,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XOHM",
+					"end": "XOBM",
+					"length": 14,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOBM",
+					"end": "XOMV",
+					"length": 16,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOMV",
+					"end": "XOLIH",
+					"length": 14,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOLIH",
+					"end": "XOHAF",
+					"length": 16,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOHAF",
+					"end": "XOKVI",
+					"length": 35,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOKVI",
+					"end": "XOVT",
+					"length": 31,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOVT",
+					"end": "XOOT",
+					"length": 31,
+					"maxSpeed": 105,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOOT",
+					"end": "XODOV",
+					"length": 34,
+					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XODOV",
+					"end": "XODB",
+					"length": 12,
+					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XODB",
+					"end": "XOHJK",
+					"length": 39,
+					"maxSpeed": 130,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "XOHJK",
+					"end": "XOVL",
+					"length": 32,
+					"maxSpeed": 130,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "XOVL",
+					"end": "XOOP",
+					"length": 15,
+					"maxSpeed": 130,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "XOOP",
+					"end": "XOBEK",
+					"length": 37,
+					"maxSpeed": 130,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "XOBEK",
+					"end": "XOSR",
+					"length": 35,
+					"maxSpeed": 130,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "XOSR",
+					"end": "XOMEL",
+					"length": 30,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOMEL",
+					"end": "XOTS",
+					"length": 22,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4
+				},
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"neededEquipments": [
+				"NO"
+					]
+			"objects": [
+				{
+					"start": "XOJE",
+					"end": "XOST",
+					"length": 22,
+					"maxSpeed": 210,
+					"twistingFactor": 0.1
+				},
+			]
+		},
+		{
+			"name": "Nordlandsbanen",
+			"electrified": false,
+			"group": 0,
+,
+			"neededEquipments": [
+				"NO"
+					]
+			"objects": [
+				{
+					"start": "XOTS",
+					"end": "XORH",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XORH",
+					"end": "XOSD",
+					"length": 26,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOSD",
+					"end": "XOASE",
+					"length": 27,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOASE",
+					"end": "XOLE",
+					"length": 22,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOLE",
+					"end": "XOVS",
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOVS",
+					"end": "XOSKJ",
+					"length": 29,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOSKJ",
+					"end": "XOSTR",
+					"length": 39,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOSTR",
+					"end": "XOSNA",
+					"length": 18,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOSNA",
+					"end": "XOGR",
+					"length": 38,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOGR",
+					"end": "XOLSM",
+					"length": 35,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOLSM",
+					"end": "XONSK",
+					"length": 36,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XONSK",
+					"end": "XOMVN",
+					"length": 31,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOMVN",
+					"end": "XOSV",
+					"length": 33,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOSV",
+					"end": "XOTF",
+					"length": 13,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOTF",
+					"end": "XOMOJ",
+					"length": 39,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOMOJ",
+					"end": "XODV",
+					"length": 35,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XODV",
+					"end": "XOBJ",
+					"length": 28,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOBJ",
+					"end": "XOMR",
+					"length": 30,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOMR",
+					"end": "XOSKS",
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOSKS",
+					"end": "XODUN",
+					"length": 30,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XODUN",
+					"end": "XOSFJ",
+					"length": 40,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOSFJ",
+					"end": "XOLON",
+					"length": 20,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOLON",
+					"end": "XOROK",
+					"length": 32,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOROK",
+					"end": "XORO",
+					"length": 14,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XORO",
+					"end": "XOFA",
+					"length": 26,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOFA",
+					"end": "XOVF",
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOVF",
+					"end": "XOOTG",
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XOOTG",
+					"end": "XOBO",
+					"length": 24,
+					"maxSpeed": 120,
+					"twistingFactor": 0.4
+				},
+			]
+		},
+		{
+			"name": "Gardermobanen",
+			"electrified": true,
+			"group": 2,
+			"neededEquipments": [
+				"NO"
+					]
+			"objects": [
+				{
+					"start": "XOOS",
+					"end": "XOLI",
+					"length": 21,
+					"maxSpeed": 210,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XOLI",
+					"end": "XOKL",
+					"length": 15,
+					"maxSpeed": 210,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XOKL",
+					"end": "XOOL",
+					"length": 15,
+					"maxSpeed": 210,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XOOL",
+					"end": "XOEDV",
+					"length": 16,
+					"maxSpeed": 210,
+					"twistingFactor": 0.1
+				},
+			]
+		},
+		{
+			"name": "Vestfoldbanen",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"NO"
+					]
+			"objects": [
+				{
+					"start": "XODR",
+					"end": "XOHOL",
+					"length": 30,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XOHOL",
+					"end": "XOTB",
+					"length": 27,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XOTB",
+					"end": "XOSF",
+					"length": 25,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XOSF",
+					"end": "XOLA",
+					"length": 19,
+					"maxSpeed": 130,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XOLA",
+					"end": "XOPG",
+					"length": 25,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XOPG",
+					"end": "XOSEN",
+					"length": 10,
+					"maxSpeed": 110,
+					"twistingFactor": 0.1
+				},
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"SE"
+					]
+			"objects": [
+				{
+					"start": "XVS",
+					"end": "XVSOT",
+					"length": 13,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XVSOT",
+					"end": "🇸🇪7400600",
+					"length": 6,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇸🇪7400600",
+					"end": "XVUV",
+					"length": 5,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XVUV",
+					"end": "🇸🇪7400243",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇸🇪7400243",
+					"end": "XVKNV",
+					"length": 12,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XVKNV",
+					"end": "XVUS",
+					"length": 17,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XVUS",
+					"end": "🇸🇪7400249",
+					"length": 12,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇸🇪7400249",
+					"end": "🇸🇪7400246",
+					"length": 31,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇸🇪7400246",
+					"end": "🇸🇪7400217",
+					"length": 5,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇸🇪7400217",
+					"end": "🇸🇪7400920",
+					"length": 35,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇸🇪7400920",
+					"end": "XVGA",
+					"length": 17,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XVGA",
+					"end": "XVBGY",
+					"length": 33,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XVBGY",
+					"end": "XVLJN",
+					"length": 34,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XVLJN",
+					"end": "🇸🇪7400091",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇸🇪7400091",
+					"end": "XVASO",
+					"length": 24,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XVASO",
+					"end": "XVIS",
+					"length": 18,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XVIS",
+					"end": "🇸🇪7400068",
+					"length": 11,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇸🇪7400068",
+					"end": "XVGNA",
+					"length": 44,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XVGNA",
+					"end": "XVNJ",
+					"length": 28,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XVNJ",
+					"end": "XVSU",
+					"length": 44,
+					"maxSpeed": 155,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XVSU",
+					"end": "XVTMR",
+					"length": 20,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"SE", "ETCS"
+					]
+				},
+				{
+					"start": "XVTMR",
+					"end": "XVDUV",
+					"length": 17,
+					"maxSpeed": 120,
+					"twistingFactor": 0.5,
+					"neededEquipments": [
+						"SE", "ETCS"
+					]
+				},
+				{
+					"start": "XVDUV",
+					"end": "XVHS",
+					"length": 31,
+					"maxSpeed": 120,
+					"twistingFactor": 0.5,
+					"neededEquipments": [
+						"SE", "ETCS"
+					]
+				},
+				{
+					"start": "XVHS",
+					"end": "XVKF",
+					"length": 40,
+					"maxSpeed": 130,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"SE", "ETCS"
+					]
+				},
+				{
+					"group": 2,
+					"start": "XVKF",
+					"end": "🇸🇪7400124",
+					"length": 87,
+					"maxSpeed": 250,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"SE", "ETCS"
+					]
+				},
+				{
+					"group": 2,
+					"start": "🇸🇪7400124",
+					"end": "XVNM",
+					"length": 58,
+					"maxSpeed": 250,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"SE", "ETCS"
+					]
+				},
+				{
+					"group": 2,
+					"start": "XVNM",
+					"end": "XVUM",
+					"length": 57,
+					"maxSpeed": 250,
+					"twistingFactor": 0.4,
+					"neededEquipments": [
+						"SE", "ETCS"
+					]
+				},
+				{
+					"group": 2,
+					"start": "XVUM",
+					"end": "🇸🇪7400104",
+					"length": 87,
+					"maxSpeed": 250,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇸🇪7400104",
+					"end": "XVVID",
+					"length": 35,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XVVID",
+					"end": "XVEKK",
+					"length": 39,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XVEKK",
+					"end": "🇸🇪7400042",
+					"length": 37,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇸🇪7400042",
+					"end": "🇸🇪7400072",
+					"length": 32,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇸🇪7400072",
+					"end": "XVTRH",
+					"length": 21,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XVTRH",
+					"end": "XVLTK",
+					"length": 22,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XVLTK",
+					"end": "XVSTO",
+					"length": 30,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XVSTO",
+					"end": "🇸🇪7400029",
+					"length": 23,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇸🇪7400029",
+					"end": "XVBRN",
+					"length": 18,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "XVBRN",
+					"end": "XVBN",
+					"length": 27,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"SE"
+					]
+			"objects": [
+				{
+					"start": "XVUV",
+					"end": "🇸🇪Arnc",
+					"length": 14,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇸🇪Arnc",
+					"end": "XVKNV",
+					"length": 15,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
+				},
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+			"SE", "ETCS"
+					]
+			"objects": [
+				{
+					"start": "XVBN",
+					"end": "XVNMS",
+					"length": 32,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XVNMS",
+					"end": "XVMOJ",
+					"length": 41,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XVMOJ",
+					"end": "XVKX",
+					"length": 38,
+					"maxSpeed": 160,
+					"twistingFactor": 0.3
+				},
+				{
+					"group": 2,
+					"start": "XVKX",
+					"end": "🇸🇪7400064",
+					"length": 47,
+					"maxSpeed": 250,
+					"twistingFactor": 0.3
+				},
+			]
+		},
+		{
+			"name": "Malmbanan",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"SE"
+					]
+			"objects": [
+				{
+					"start": "XVLL",
+					"end": "XVBN",
+					"length": 36,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XVBN",
+					"end": "XVLT",
+					"length": 59,
+					"maxSpeed": 135,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XVLT",
+					"end": "XVMJK",
+					"length": 27,
+					"maxSpeed": 135,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"SE","ETCS"
+					]
+				},
+				{
+					"start": "XVMJK",
+					"end": "XVNV",
+					"length": 38,
+					"maxSpeed": 135,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"SE", "ETCS"
+					]
+				},
+				{
+					"start": "XVNV",
+					"end": "XVGV",
+					"length": 47,
+					"maxSpeed": 135,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"SE", "ETCS"
+					]
+				},
+				{
+					"start": "XVGV",
+					"end": "🇸🇪7402007",
+					"length": 107,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"SE", "ETCS"
+					]
+				},
+				{
+					"start": "🇸🇪7402007",
+					"end": "XVAO",
+					"length": 92,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"SE", "ETCS"
+					]
+				},
+				{
+					"start": "XVAO",
+					"end": "XVRG",
+					"length": 36,
+					"maxSpeed": 90,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"SE", "ETCS"
+					]
+				},
+			]
+		},
+		{
+			"name": "Ofotbanen",
+			"electrified": true,
+			"group": 2,
+			"objects": [
+				{
+					"start": "XVRG",
+					"end": "XONA",
+					"length": 39,
+					"maxSpeed": 70,
+					"twistingFactor": 0.3,
+					"neededEquipments": [
+						"NO"
+					]
+				},
+			]
+		},
 	]
 }
