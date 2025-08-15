@@ -14928,7 +14928,7 @@
 				{
 					"start": "🇷🇺O266687977",
 					"end": "🇷🇺O2011157385",
-					"name": "перегон Ушаки — Тосно",
+					"name": "перегон Ушаки — Тосно",
 					"electrified": true,
 					"group": 2,
 					"length": 1,
@@ -75816,76 +75816,56 @@
 			"name": "Vänerbanan",
 			"electrified": true,
 			"group": 0,
+			"neededEquipments": [ "SE" ],
 			"objects": [
 				{
 					"start": "XVGB",
 					"end": "🇸🇪7400996",
 					"length": 38,
 					"maxSpeed": 200,
-					"twistingFactor": 0.3,
-					"neededEquipments": [
-						"SE"
-					]
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "🇸🇪7400996",
 					"end": "XVTH",
 					"length": 34,
 					"maxSpeed": 200,
-					"twistingFactor": 0.3,
-					"neededEquipments": [
-						"SE"
-					]
+					"twistingFactor": 0.3
 				},
 				{
 					"start": "XVTH",
 					"end": "XVFRA",
 					"length": 25,
 					"maxSpeed": 160,
-					"twistingFactor": 0.4,
-					"neededEquipments": [
-						"SE"
-					]
+					"twistingFactor": 0.4
 				},
 				{
 					"start": "XVFRA",
 					"end": "XVDR",
 					"length": 26,
 					"maxSpeed": 160,
-					"twistingFactor": 0.4,
-					"neededEquipments": [
-						"SE"
-					]
+					"twistingFactor": 0.4
 				},
 				{
 					"start": "XVDR",
 					"end": "XVBAF",
 					"length": 18,
 					"maxSpeed": 160,
-					"twistingFactor": 0.4,
-					"neededEquipments": [
-						"SE"
-					]
+					"twistingFactor": 0.4
 				},
 				{
 					"start": "XVBAF",
 					"end": "XVED",
 					"length": 18,
 					"maxSpeed": 160,
-					"twistingFactor": 0.4,
-					"neededEquipments": [
-						"SE"
-					]
+					"twistingFactor": 0.4
 				},
 				{
 					"start": "XVED",
 					"end": "XOKO",
 					"length": 20,
 					"maxSpeed": 120,
-					"twistingFactor": 0.4,
-					"neededEquipments": [
-						"SE"
-					]
+					"twistingFactor": 0.4
 				}
 			]
 		},
@@ -75893,9 +75873,7 @@
 			"name": "Østfoldbanen",
 			"electrified": true,
 			"group": 0,
-					"neededEquipments": [
-						"NO"
-					]
+			"neededEquipments": [ "NO" ],
 			"objects": [
 				{
 					"start": "XOKO",
@@ -75981,9 +75959,7 @@
 			"name": "Follobanen",
 			"electrified": true,
 			"group": 2,
-			"neededEquipments": [
-						"NO"
-					],
+			"neededEquipments": [ "NO" ],
 			"objects": [
 				{
 					"start": "XOSK",
@@ -75998,9 +75974,7 @@
 			"name": "Drammenbanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [
-						"NO"
-					],
+			"neededEquipments": [ "NO" ],
 			"objects": [
 				{
 					"start": "XOOS",
@@ -76036,9 +76010,7 @@
 			"name": "Randsfjordbanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [
-				"NO"
-			],
+			"neededEquipments": [ "NO" ],
 			"objects": [
 				{
 					"start": "XODR",
@@ -76067,9 +76039,7 @@
 			"name": "Bergensbanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [
-				"NO"
-			]
+			"neededEquipments": [ "NO" ],
 			"objects": [
 				{
 					"start": "XOHO",
@@ -76217,9 +76187,7 @@
 			"name": "Hovedbanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [
-				"NO"
-					]
+			"neededEquipments": [ "NO" ],
 			"objects": [
 				{
 					"start": "XOOS",
@@ -76276,9 +76244,7 @@
 			"name": "Dovrebanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [
-				"NO"
-					]
+			"neededEquipments": [ "NO" ],
 			"objects": [
 				{
 					"start": "XOEDV",
@@ -76425,9 +76391,7 @@
 		{
 			"electrified": true,
 			"group": 2,
-			"neededEquipments": [
-				"NO"
-					]
+			"neededEquipments": [ "NO" ],
 			"objects": [
 				{
 					"start": "XOJE",
@@ -76442,10 +76406,7 @@
 			"name": "Nordlandsbanen",
 			"electrified": false,
 			"group": 0,
-,
-			"neededEquipments": [
-				"NO"
-					]
+			"neededEquipments": [ "NO" ],
 			"objects": [
 				{
 					"start": "XOTS",
@@ -76649,9 +76610,7 @@
 			"name": "Gardermobanen",
 			"electrified": true,
 			"group": 2,
-			"neededEquipments": [
-				"NO"
-					]
+			"neededEquipments": [ "NO" ],
 			"objects": [
 				{
 					"start": "XOOS",
@@ -76687,9 +76646,7 @@
 			"name": "Vestfoldbanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [
-				"NO"
-					]
+			"neededEquipments": [ "NO" ],
 			"objects": [
 				{
 					"start": "XODR",
@@ -76738,9 +76695,7 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [
-				"SE"
-					]
+			"neededEquipments": [ "SE" ],
 			"objects": [
 				{
 					"start": "XVS",
@@ -77038,9 +76993,7 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [
-				"SE"
-					]
+			"neededEquipments": [ "SE" ],
 			"objects": [
 				{
 					"start": "XVUV",
@@ -77061,9 +77014,7 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [
-			"SE", "ETCS"
-					]
+			"neededEquipments": [ "SE", "ETCS" ],
 			"objects": [
 				{
 					"start": "XVBN",
@@ -77100,9 +77051,7 @@
 			"name": "Malmbanan",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [
-				"SE"
-					]
+			"neededEquipments": [ "SE" ],
 			"objects": [
 				{
 					"start": "XVLL",
