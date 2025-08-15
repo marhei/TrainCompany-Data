@@ -5682,6 +5682,10 @@
 			],
 			"objects": [
 				{
+					"stations": [ "BOD", "🇸🇪O278841439" ],
+					"pathSuggestion": [ "BOD", "BKW", "BFBI", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDLU", "XDRI", "XDKH", "XVM", "XVHH", "XVAL", "🇸🇪7400096","XVKM", "🇸🇪O278841439" ]
+				},
+				{
 					"stations": [ "RRL", "BOD" ],
 					"pathSuggestion": [ "RRL", "RO", "RAP", "RK", "RBR", "RH", "RMF", "FD", "FBA", "NAH", "NLO", "NRB", "NWH", "NRTD", "NS", "NBA", "NED", "UE P", "LPLN", "LGOS", "LL", "LBOR", "DR", "BEW", "BDKO", "BC", "BLN", "BOD" ]
 				},
@@ -6430,8 +6434,20 @@
 				"Verbinde %s mit %s.",
 				"Fahre den Zug zwischen %s und %s."
 			],
-			"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "XVA", "XVBA", "XVLH", "XVHL", "XVFA", "XVVA", "🇸🇪ÅA", "XVKA", "XVLM", "XVGB" ],
-			"pathSuggestion": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "XVA", "XVBA", "XVLH", "🇸🇪O497523471", "XVHL", "XVFA", "XVVA", "🇸🇪ÅA", "XVKA", "XVLM", "XVGB" ],
+			"objects": [
+				{
+					"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "XVA", "XVBA", "XVLH", "XVHL", "XVFA", "XVVA", "🇸🇪ÅA", "XVKA", "XVLM", "XVGB" ],
+					"pathSuggestion": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "XVA", "XVBA", "XVLH", "🇸🇪O497523471", "XVHL", "XVFA", "XVVA", "🇸🇪ÅA", "XVKA", "XVLM", "XVGB" ]
+				},
+				{
+					"stopsEveryWhere": true,
+					"stations": [ "XDKH", "XDKHL", "XVM", "XVHH", "🇸🇪7400230" ]
+				},
+				{
+					"stopsEveryWhere": true,
+					"stations": [ "XDKH", "XDKHL", "XVM", "XVHH", "XVAL", "🇸🇪7400096", "XVKM" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -6444,7 +6460,14 @@
 				"Verbinde %s mit %s.",
 				"Fahre den Zug zwischen %s und %s."
 			],
-			"stations": [ "XVGB", "XVAD", "XVNS", "XVAS", "XVFY", "XVFK", "XVST", "XVLX", "XVHA", "XVVI", "XVK", "XVFN", "🇸🇪MÖ", "🇸🇪JN", "🇸🇪HD", "XVS" ],
+			"objects": [
+				{
+					"stations": [ "XVGB", "XVAD", "XVNS", "XVAS", "XVFY", "XVFK", "XVST", "XVLX", "XVHA", "XVVI", "XVK", "XVFN", "🇸🇪MÖ", "🇸🇪JN", "🇸🇪HD", "XVS" ]
+				},
+				{
+					"stations": [ "XVGB", "XVBS", "🇸🇪7400100", "🇸🇪7400089", "🇸🇪7400112", "XVVR", "XVAL", "XVVX", "🇸🇪7400511", "🇸🇪7400235", "🇸🇪7400096", "🇸🇪7400189", "XVKM" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -10605,7 +10628,8 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
-		},{
+		},
+    {
 			"group": 0,
 			"name": "DSV-KLV von %s nach %s",
 			"service": 11,
@@ -10619,9 +10643,9 @@
 			],
 			"neededCapacity": [
 				{ "name": "trailers", "value": 33 }
-			],
-			"stopsEverywhere": false
-		},{
+			]
+		},
+    {
 			"group": 0,
 			"name": "Samskip-KLV von %s nach %s",
 			"service": 11,
@@ -10635,8 +10659,7 @@
 			],
 			"neededCapacity": [
 				{ "name": "trailers", "value": 33 }
-			],
-			"stopsEverywhere": false
+			]
 		},{
 			"group": 0,
 			"name": "Arcese-KLV von %s nach %s",
@@ -10651,9 +10674,9 @@
 			],
 			"neededCapacity": [
 				{ "name": "trailers", "value": 33 }
-			],
-			"stopsEverywhere": false
-		},{
+			]
+		},
+    {
 			"group": 0,
 			"name": "Pimk-KLV von %s nach %s",
 			"service": 11,
@@ -10668,9 +10691,9 @@
 			],
 			"neededCapacity": [
 				{ "name": "trailers", "value": 34 }
-			],
-			"stopsEverywhere": false
-		},{
+			]
+		},
+    {
 			"group": 0,
 			"name": "Winner-KLV von %s nach %s",
 			"service": 11,
@@ -10688,9 +10711,9 @@
 			],
 			"neededCapacity": [
 				{ "name": "trailers", "value": 33 }
-			],
-			"stopsEverywhere": false
-		},{
+			]
+		},
+    {
 			"group": 0,
 			"name": "Große-Vehne-KLV von %s nach %s",
 			"service": 11,
@@ -10705,8 +10728,26 @@
 			],
 			"neededCapacity": [
 				{ "name": "trailers", "value": 30 }
+			]
+		},
+		{
+			"group": 0,
+			"service": 4,
+			"name": "Achtung - Streckenkontrolle!",
+			"descriptions": [
+				"Nachdem DB InfraGo Probleme an Schwellen feststelle, wurden Kontrollfahrten im ganzen Netz angeordnet. Führe diese sorgsam durch und plane Zeit für Personalwechsel ein.",
+				"Die Anzahl der Bundesländer soll auf Vollständigkeit überprüft werden, fahre alle ab. Aufgrund der langen Fahrzeit sind Schlafplätze zwecks der Ruhezeiten vorgeschrieben.",
+				"Die DB möchte zeigen, dass sie es noch drauf hat. Fahre diesen Sonderzug durch alle Bundesländer - mache dabei jedoch zur Sicherheit einen großen Bogen um Fankfurt (M).",
+				"Auf Gleis 3 fährt ein: Ringbahn S41 über Leipzig Hbf, Kempten (Allgäu) Hbf, Saarbrücken Hbf und Kiel. Vorsicht bei Einfahrt des Zuges.",
+				"Du wurdest zur Eisenbahner*in des Jahres gewählt und erhältst eine Sonderahrt nach Wunsch. Du entschließt dich, deine Kolleg*innen aus Ausbildungszeiten zu besuchen und auf einen Pott Kaffee zu halten."
 			],
-			"stopsEverywhere": false
+			"stations": [ "BKW", "DH", "LL", "UNM", "US", "NPA", "MKP", "RK", "FD", "SSH", "STR", "EDG", "HLEE", "HB", "AH",  "WK", "WSR", "BL"],
+			"pathSuggestion": [ "BKW", "BFP", "BCS", "BSP", "DG", "DL", "DBW", "DAF", "DH", "DCW", "DPR", "DR", "LBOR", "LL", "UNM", "UGH", "UGW", "US", "NHM", "NED", "NBA", "NF", "NN", "NRH", "NPL", "NPA", "MNR", "MMF", "MWSB", "MRO", "MHO", "MH", "MGE", "MKFG", "MBU", "MBIH", "MKP", "MIMS", "MHGZ", "MLIR", "TF", "RRZ", "RSI", "RIM", "RDO", "RF", "RO", "RAP", "RK", "RBR", "RH", "RMF", "FD", "FDG", "FBL", "FWOR", "RFT", "RFHM", "RN", "RLA", "SHW", "SPSN", "SRO", "SSH", "SKZ", "STR", "KEU", "KKAS", "KK", "KGRB", "KM", "KV", "EDG", "EOB", "EG", "EMST", "HR", "HLEE", "HOLD", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AHI", "AHM", "AJ", "AF", "AK", "AL", "WK", "WB", "WSN", "WR", "WSR", "WZS", "WP", "WA", "WE", "BL"],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats", "value": 48 },
+				{ "name": "beds", "value": 48 }
+			]
 		}
 	]
 }
