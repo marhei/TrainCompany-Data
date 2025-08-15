@@ -5682,6 +5682,10 @@
 			],
 			"objects": [
 				{
+					"stations": [ "BOD", "🇸🇪O278841439" ],
+					"pathSuggestion": [ "BOD", "BKW", "BFBI", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDLU", "XDRI", "XDKH", "XVM", "XVHH", "XVAL", "🇸🇪7400096","XVKM", "🇸🇪O278841439" ]
+				},
+				{
 					"stations": [ "RRL", "BOD" ],
 					"pathSuggestion": [ "RRL", "RO", "RAP", "RK", "RBR", "RH", "RMF", "FD", "FBA", "NAH", "NLO", "NRB", "NWH", "NRTD", "NS", "NBA", "NED", "UE P", "LPLN", "LGOS", "LL", "LBOR", "DR", "BEW", "BDKO", "BC", "BLN", "BOD" ]
 				},
@@ -6430,8 +6434,20 @@
 				"Verbinde %s mit %s.",
 				"Fahre den Zug zwischen %s und %s."
 			],
-			"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "XVA", "XVBA", "XVLH", "XVHL", "XVFA", "XVVA", "🇸🇪ÅA", "XVKA", "XVLM", "XVGB" ],
-			"pathSuggestion": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "XVA", "XVBA", "XVLH", "🇸🇪O497523471", "XVHL", "XVFA", "XVVA", "🇸🇪ÅA", "XVKA", "XVLM", "XVGB" ],
+			"objects": [
+				{
+					"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "XVA", "XVBA", "XVLH", "XVHL", "XVFA", "XVVA", "🇸🇪ÅA", "XVKA", "XVLM", "XVGB" ],
+					"pathSuggestion": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "XVA", "XVBA", "XVLH", "🇸🇪O497523471", "XVHL", "XVFA", "XVVA", "🇸🇪ÅA", "XVKA", "XVLM", "XVGB" ]
+				},
+				{
+					"stopsEveryWhere": true,
+					"stations": [ "XDKH", "XDKHL", "XVM", "XVHH", "🇸🇪7400230" ]
+				},
+				{
+					"stopsEveryWhere": true,
+					"stations": [ "XDKH", "XDKHL", "XVM", "XVHH", "XVAL", "🇸🇪7400096", "XVKM" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -6444,7 +6460,14 @@
 				"Verbinde %s mit %s.",
 				"Fahre den Zug zwischen %s und %s."
 			],
-			"stations": [ "XVGB", "XVAD", "XVNS", "XVAS", "XVFY", "XVFK", "XVST", "XVLX", "XVHA", "XVVI", "XVK", "XVFN", "🇸🇪MÖ", "🇸🇪JN", "🇸🇪HD", "XVS" ],
+			"objects": [
+				{
+					"stations": [ "XVGB", "XVAD", "XVNS", "XVAS", "XVFY", "XVFK", "XVST", "XVLX", "XVHA", "XVVI", "XVK", "XVFN", "🇸🇪MÖ", "🇸🇪JN", "🇸🇪HD", "XVS" ]
+				},
+				{
+					"stations": [ "XVGB", "XVBS", "🇸🇪7400100", "🇸🇪7400089", "🇸🇪7400112", "XVVR", "XVAL", "XVVX", "🇸🇪7400511", "🇸🇪7400235", "🇸🇪7400096", "🇸🇪7400189", "XVKM" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
