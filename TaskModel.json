@@ -6454,6 +6454,51 @@
 		},
 		{
 			"group": 1,
+			"name": "Regionalzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre pünktlich durch Schweden nach %2$s",
+				"Fahre diesen Regionalzug zwischen %s und %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XVSVD", "XVFK", "XVJ", "XVN" ]
+				},
+				{
+					"stations": [ "XVJ", "XVN", "XVAL", "XVVX" ]
+				},
+				{
+					"stations": [ "XVJ", "XVVY", "XVVR", "XVHL" ]
+				},
+				{
+					"stations": [ "XVJ", "XVVY", "XVVR", "XVHL" ]
+				},
+				{
+					"stations": [ "XVN", "XVVY", "XVVR", "XVHL" ]
+				},
+				{
+					"stations": [ "XVKM", "🇸🇪7400500", "XVH", "🇸🇪O749472210", "XVL" ]
+				},
+				{
+					"stations": [ "XVVK", "🇸🇪O749472210", "XVL" ]
+				},
+				{
+					"stations": [ "XVGB", "XVU", "XVSMS" ]
+				},
+				{
+					"stations": [ "XVLX", "XVGJ", "🇸🇪7400355", "XVHE", "XVAS" ]
+				},
+				{
+					"stations": [ "XVU", "XVOX", "🇸🇪7400355", "XVHE", "XVBS", "XVVA" ]
+				}
+			],
+			"stopsEveryWher": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Überregionalzug von %s nach %s",
 			"service": 1,
 			"descriptions": [
