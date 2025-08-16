@@ -75963,11 +75963,18 @@
 			"objects": [
 				{
 					"start": "XOSK",
-					"end": "XOOS",
-					"length": 22,
+					"end": "XOBJOD",
+					"length": 12,
 					"maxSpeed": 200,
 					"twistingFactor": 0.1
-				}
+				},
+				{
+					"start": "XOBJOD",
+					"end": "XOOS",
+					"length": 10,
+					"maxSpeed": 200,
+					"twistingFactor": 0.1
+				},			
 			]
 		},
 		{
@@ -76191,8 +76198,15 @@
 			"objects": [
 				{
 					"start": "XOOS",
+					"end": "XO7600315",
+					"length": 7,
+					"maxSpeed": 125,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XO7600315",
 					"end": "XOGRO",
-					"length": 10,
+					"length": 3,
 					"maxSpeed": 125,
 					"twistingFactor": 0.3
 				},
@@ -76385,20 +76399,6 @@
 					"length": 22,
 					"maxSpeed": 130,
 					"twistingFactor": 0.4
-				}
-			]
-		},
-		{
-			"electrified": true,
-			"group": 2,
-			"neededEquipments": [ "NO" ],
-			"objects": [
-				{
-					"start": "XOJE",
-					"end": "XOST",
-					"length": 22,
-					"maxSpeed": 210,
-					"twistingFactor": 0.1
 				}
 			]
 		},
@@ -76614,8 +76614,22 @@
 			"objects": [
 				{
 					"start": "XOOS",
+					"end": "XOHEL",
+					"length": 6,
+					"maxSpeed": 210,
+					"twistingFactor": 0.1
+				},				
+				{
+					"start": "XOHEL",
+					"end": "XOLUT",
+					"length": 2,
+					"maxSpeed": 210,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XOLUT",
 					"end": "XOLI",
-					"length": 21,
+					"length": 13,
 					"maxSpeed": 210,
 					"twistingFactor": 0.1
 				},
