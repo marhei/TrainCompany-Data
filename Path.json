@@ -65827,6 +65827,53 @@
 			]
 		},
 		{
+			"name": "Vänerbanan",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"neededEquipments": [
+				"SE"
+			],
+			"objects": [
+				{
+					"start": "🇸🇪O3002644717",
+					"end": "XVGU",
+					"length": 21,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XVGU",
+					"end": "XVSF",
+					"length": 29,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XVSF",
+					"end": "XVAM",
+					"length": 16,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XVAM",
+					"end": "🇸🇪O2235762168",
+					"length": 20,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇸🇪O2235762168",
+					"end": "XVME",
+					"length": 20,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XVME",
+					"end": "🇸🇪O7484649773",
+					"length": 10,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
 			"name": "170 Plzeň-Cheb",
 			"maxSpeed": 160,
 			"electrified": true,
@@ -76719,8 +76766,15 @@
 				},
 				{
 					"start": "XVFRA",
+					"end": "🇸🇪O7484649773",
+					"length": 14,
+					"maxSpeed": 160,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇸🇪O7484649773",
 					"end": "XVDR",
-					"length": 26,
+					"length": 12,
 					"maxSpeed": 160,
 					"twistingFactor": 0.4
 				},
