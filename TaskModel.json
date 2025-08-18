@@ -6454,6 +6454,27 @@
 		},
 		{
 			"group": 1,
+			"name": "Pendeltåg von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XVGN", "XVSD", "XVS", "🇸🇪7400243" ]
+				},
+				{
+					"stations": [ "XVS", "🇸🇪Arnc", "XVUS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
 			"name": "Regionalzug von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -6496,6 +6517,21 @@
 				},
 				{
 					"stations": [ "XVU", "XVOX", "🇸🇪7400355", "XVHE", "XVBS", "XVVA" ]
+				},
+				{
+					"stations": [ "XVS", "XVGA", "XVSU" ]
+				},
+				{
+					"stations": [ "XVSU", "🇸🇪7400124", "XVUM" ]
+				},
+				{
+					"stations": [ "XVUM", "XVBN", "🇸🇪7400064" ]
+				},
+				{
+					"stations": [ "XVLL", "XVBN", "🇸🇪7402007" ]
+				},
+				{
+					"stations": [ "XONA", "🇸🇪7402007" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -6525,6 +6561,92 @@
 		},
 		{
 			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Fahre durch Schweden.",
+			],
+			"objects": [
+				{
+					"stations": [ "XVS", "XOOS" ]
+				},
+				{
+					"stations": [ "XVS", "XVUS", "XVGA", "XVSU" ]
+				}, 				
+				{
+					"stations": [ "XVLL", "XVBN", "XVGV", "🇸🇪7402007", "XVRG", "XONA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Snabbtåg von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Fahre durch Schweden.",
+			],
+			"objects": [
+				{
+					"stations": [ "XVS", "XVUS", "XVGA", "XVSU", "🇸🇪7400124", "XVUM" ]
+				},
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Arlanda Express von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Binde die Hauptstadt an den Flughafen an"
+			],
+			"objects": [
+				{
+					"stations": [ "XVS", "🇸🇪Arnc" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Nattåg von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Nachtzug von %s nach %s.",
+				"Fahre durch die Nacht von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XVS", "XVUS", "XVGA", "XVSU", "XVUM" ]
+				},
+				{
+					"stations": [ "XVS", "XVUS", "XVGA", "XVSU", "XONA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" },
+				{ "name": "beds" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
 			"name": "Holz von %s nach %s",
 			"service": 10,
 			"descriptions": [
@@ -6535,6 +6657,43 @@
 				{ "name": "wood", "value": 2050 }
 			],
 			"pathSuggestion": [ "XVLX", "XVM", "XDKH", "XDRI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ALBG", "HU", "LS" ]
+		},
+		{
+			"group": 0,
+			"name": "Arctic Rail Express von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Versorge den hohen Norden Norwegens mit Waren.",
+				"Bringe Güter nach %2$s."
+				"Fahre mit möglichst wenigen Zwischenhalten nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "XO7600315", "XONA" ],
+				},
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 32}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Erzzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Bringe Schüttgut zum Export nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇸🇪7402007", "XONA" ],
+				},
+				{
+					"stations": [ "🇸🇪7402007", "XVLL" ],
+				}
+			],
+			"neededCapacity": [
+				{ "name": "coal", "value": 1500}
+			]
 		},
 		{
 			"group": 1,
@@ -6578,6 +6737,181 @@
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Lokaltog von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XOAK", "XOOS", "XOGRO", "XOLI" ]
+				},
+				{
+					"stations": [ "XOAK", "XOSK" ]
+				},
+				{
+					"stations": [ "XOAR", "XOBG" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regiontog von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diese Regionalbahn von %s nach %s.",
+				"Fahre von %s nach %s."
+				"Fahre durch Norwegen und halte dabei an allen Stationen.",
+			],
+			"objects": [
+				{
+					"stations": [ "XOOS", "XOSK", "XOMO" ]
+				},
+				{
+					"stations": [ "XODR", "XOAK", "XOOS", "XOEDV", "XOMO" ]
+				},
+				{
+					"stations": [ "XOSR", "XOTS" ]
+				},
+				{
+					"stations": [ "XOSR", "XOTS", "XOSKJ" ]
+				},
+				{
+					"stations": [ "XORO", "XOFA", "XOBO" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionekspress von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalexpress von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Verbinde Oslo und das weitere Umland miteinander.",
+			],
+			"objects": [
+				{
+					"stations": [ "XOOS", "XOSK", "XOMO", "XORA", "XOFR", "XOSAR", "XOHA", "XVED", "XVTH", "XVGB" ]
+				},
+				{
+					"stations": [ "XOSEN", "XOLA", "XOSF", "XOTB", "XOHOL", "XODR", "XOAK", "XOSA", "XOOS", "XOLI", "XOLB", "XOEDV", "XOTA", "XOST", "XOHM", "XOMV", "XOLIH", "XOVT", "XOOT", "XODB"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Regionekspress von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalexpress von %s nach %s.",
+				"Fahre diesen Langläufer von %s nach %s.",
+				"Verbinde Norwegen und Südschweden direkt miteinander"
+			],
+			"objects": [
+				{
+					"stations": [ "XOOS", "XOSK", "XOMO", "XORA", "XOFR", "XOSAR", "XOHA", "XVED", "XVTH", "XVGB", "XVHL", "XVH", "XVLD", "XVM" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Fjerntog von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Fahre durch Norwegen.",
+			],
+			"objects": [
+				{
+					"stations": [ "XOBG", "XO7600315", "XODA", "XOVO", "XOMY", "XOFI", "XOHAU", "XOGE", "XOAL", "XOGO", "XONE", "XOFL", "XOHO", "XOVIK", "XOHOK", "XODR", "XOAK", "XOSA", "XOLY", "XOOS" ]
+				},
+				{
+					"stations": [ "XOOS", "XOOL", "XOHM", "XOBM", "XOMV", "XOLIH", "XOKVI", "XOVI", "XOOT", "XODOV", "XODB", "XOHJK", "XOOP", "XOBEK", "XORS", "XOTS" ]
+				},
+				{
+					"stations": [ "XOTS", "XOSD", "XOLE", "XOVS", "XOSKJ", "XOSNA" , "XOGR", "XOLSM", "XONSK", "XOMVN", "XOTF", "XOMOJ", "XODV", "XOBJ", "XOMR", "XOSKS", "XODUN", "XOLON", "XOROK", "XORO", "XOFA", "XOVF", "XOOTG", "XOBO"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Fjerntog von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Nachtzug von %s nach %s.",
+				"Fahre durch die Nacht von %s nach %s.",
+				"Fahre durch Norwegen.",
+			],
+			"objects": [
+				{
+					"stations": [ "XOOS", "XOBG" ]
+				},
+				{
+					"stations": [ "XOOS", "XOTS" ]
+				},
+				{
+					"stations": [ "XOTS", "XOBO" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" },
+				{ "name": "beds" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Güterzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Dieser Güterzug muss von %s nach %s.",
+				"Bringe Güter nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "XO7600315", "XOTS" ],
+				},
+				{
+					"stations": [ "XO7600315", "XOBG" ],
+				},
+				{
+					"stations": [ "XO7600315", "XOBO" ],
+				},
+				{
+					"stations": [ "XOBO", "XOTS" ],
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 32}
 			]
 		},
 		{
