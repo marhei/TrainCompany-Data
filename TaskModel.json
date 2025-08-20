@@ -11137,6 +11137,25 @@
 				{ "name": "bistroseats", "value": 48 },
 				{ "name": "beds", "value": 48 }
 			]
+		},
+		{
+			"group": 0,
+			"service": 2,
+			"name": "S9 von %s nach %s",
+			"descriptions": [
+				"Fahre die S9 durch das malerische Seetal von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XSLB", "🇨🇭SE", "🇨🇭HD", "🇨🇭BW", "🇨🇭HIK", "🇨🇭BLGK", "🇨🇭BLL", "🇨🇭WAB", "🇨🇭GSAG", "🇨🇭EBR", "XSLU"]
+				},
+				{
+					"stations": [ "XSLZ", "🇨🇭EBR", "🇨🇭GSAG", "🇨🇭WAB", "🇨🇭BLL", "🇨🇭BLGK", "🇨🇭HIK", "🇨🇭BW", "🇨🇭HD", "🇨🇭SE", "XSLB"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 48 }
+			]
 		}
 	]
 }

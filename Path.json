@@ -56701,6 +56701,85 @@
 		},
 		{
 			"electrified": true,
+			"group": 0,
+			"maxSpeed": 60,
+			"twistingFactor": 0.7,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSLB",
+					"end": "🇨🇭SE",
+					"length": 6,
+					"twistingFactor": 0.39,
+					"neededEquipments": [
+						"SP-SEETAL"
+					]
+				},
+				{
+					"start": "🇨🇭SE",
+					"end": "🇨🇭HD",
+					"length": 2,
+					"twistingFactor": 0.13,
+					"neededEquipments": [
+						"SP-SEETAL"
+					]
+				},
+				{
+					"start": "🇨🇭HD",
+					"end": "🇨🇭BW",
+					"length": 7,
+					"twistingFactor": 0.13,
+					"neededEquipments": [
+						"SP-SEETAL"
+					]
+				},
+				{
+					"start": "🇨🇭BW",
+					"end": "🇨🇭HIK",
+					"length": 6,
+					"twistingFactor": 0.13,
+					"neededEquipments": [
+						"SP-SEETAL"
+					]
+				},
+				{
+					"start": "🇨🇭HIK",
+					"end": "🇨🇭BLGK",
+					"length": 5,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇨🇭BLGK",
+					"end": "🇨🇭BLL",
+					"length": 4,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇨🇭BLL",
+					"end": "🇨🇭WAB",
+					"length": 5,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇨🇭WAB",
+					"end": "🇨🇭GSAG",
+					"length": 4,
+					"twistingFactor": 0.16,
+					"maxSpeed": 100
+				},
+				{
+					"start": "🇨🇭GSAG",
+					"end": "🇨🇭EBR",
+					"length": 1,
+					"twistingFactor": 0.14,
+					"maxSpeed": 100
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"neededEquipments": [
 				"IT"
 			],
@@ -70341,8 +70420,15 @@
 				},
 				{
 					"start": "🇨🇭SEM",
+					"end": "🇨🇭EBR",
+					"length": 11,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇭EBR",
 					"end": "XSLU",
-					"length": 16,
+					"length": 5,
 					"maxSpeed": 120,
 					"twistingFactor": 0.3
 				},
