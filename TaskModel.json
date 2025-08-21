@@ -5683,7 +5683,7 @@
 			"objects": [
 				{
 					"stations": [ "BOD", "🇸🇪O278841439" ],
-					"pathSuggestion": [ "BOD", "BKW", "BFBI", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDLU", "XDRI", "XDKH", "XVM", "XVHH", "XVAL", "🇸🇪7400096","XVKM", "🇸🇪O278841439" ]
+					"pathSuggestion": [ "BOD", "BKW", "BFBI", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDLU", "XDRI", "XDKH", "XVM", "XVHH", "XVAL", "🇸🇪7400096","XVKM", "🇸🇪7400500", "XVHD", "🇸🇪O278841439" ]
 				},
 				{
 					"stations": [ "RRL", "BOD" ],
@@ -6341,7 +6341,7 @@
 				"Die Reisenden wollen schnell in ihr Hotel am Zielort %2$s."
 			],
 			"stations": [ "XVS", "XVM", "XDKH", "HBTH", "BL", "DH" ],
-			"pathSuggestion": [ "XVS", "🇸🇪HD", "🇸🇪JN", "XVK", "XVNC", "XVM", "XDKH", "XDRI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ABLZ", "AROG", "HB", "HO", "HR", "HBTH", "XNHL", "🇳🇱Wdn", "🇳🇱Dv", "🇳🇱Zp", "XNAH", "🇳🇱Zv", "EOB", "EDG", "EE", "EDO", "EHM", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HLER", "HWOB", "LS", "BSPD", "BL", "BBF", "BDKO", "BEW", "DGB", "DH" ],
+			"pathSuggestion": [ "XVS", "🇸🇪HD", "🇸🇪JN", "XVK", "XVNC", "XVL", "XVN", "XVAL", "XVHH", "XVM", "XDKH", "XDRI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ABLZ", "AROG", "HB", "HO", "HR", "HBTH", "XNHL", "🇳🇱Wdn", "🇳🇱Dv", "🇳🇱Zp", "XNAH", "🇳🇱Zv", "EOB", "EDG", "EE", "EDO", "EHM", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HLER", "HWOB", "LS", "BSPD", "BL", "BBF", "BDKO", "BEW", "DGB", "DH" ],
 			"neededCapacity": [
 				{ "name": "beds" }
 			]
@@ -6519,7 +6519,7 @@
 					"stations": [ "XVU", "XVOX", "🇸🇪7400355", "XVHE", "XVBS", "XVVA" ]
 				},
 				{
-					"stations": [ "XVS", "XVUV", "XVKNV", "XVSU" ]
+					"stations": [ "XVS", "XVUV", "XVKNV", "XVUS", "XVSU" ]
 				},
 				{
 					"stations": [ "XVSU", "🇸🇪7400124", "XVUM" ]
@@ -6619,6 +6619,39 @@
 			"objects": [
 				{
 					"stations": [ "XVS", "🇸🇪Arnc" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Mälartåg von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Umland von Stockholm den schnellen Regionalverkehr nach %2$s.",
+				"Fahre für Mälardalstrafik von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XVUS", "🇸🇪7400249", "🇸🇪7400246", "🇸🇪7400217", "🇸🇪7400920", "XVGA" ]
+				},
+				{
+					"stations": [ "XVS", "XVSD", "XVGN", "XVFN", "XVK", "XVVI", "XVHA" ]
+				},
+				{
+					"stations": [ "XVS", "XVSD", "🇸🇪VN", "XVNK", "🇸🇪KM", "XVNC" ]
+				},
+				{
+					"stations": [ "XVUS", "XVKNV", "🇸🇪7400243", "XVS" ]
+				},
+				{
+					"stations": [ "XVUS", "XVKNV", "🇸🇪Arnc", "XVS", "XVSD", "🇸🇪7400575", "🇸🇪7400557", "🇸🇪7400632", "XVEC", "🇸🇪7400765", "🇸🇪740003", "XVO" ]
+				},
+				{
+					"stations": [ "XVL", "XVNC", "XVK", "XVFN", "🇸🇪7400256", "XVEC", "🇸🇪7400253", "🇸🇪7400252", "🇸🇪7400139", "🇸🇪7400250", "🇸🇪7400137", "🇸🇪7400512", "🇸🇪7400563", "XVUS" ]
 				}
 			],
 			"neededCapacity": [
