@@ -35145,6 +35145,149 @@
 			]
 		},
 		{
+			"name": "Bergslagsbanan",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 120,
+			"neededEquipments": [
+				"SE"
+			],
+			"objects": [
+				{
+					"start": "🇸🇪7400056",
+					"end": "🇸🇪7400515",
+					"length": 36,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇸🇪7400515",
+					"end": "🇸🇪7400630",
+					"length": 16,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇸🇪7400630",
+					"end": "🇸🇪7400604",
+					"length": 14,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇸🇪7400604",
+					"end": "XVGA",
+					"length": 22,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"name": "Godsstråket genom Bergslagen",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"SE"
+			],
+			"objects": [
+				{
+					"start": "XVMJ",
+					"end": "🇸🇪7403572",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇸🇪7403572",
+					"end": "XVMTA",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "XVMTA",
+					"end": "XVHA",
+					"length": 67,
+					"maxSpeed": 200,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "XVHA",
+					"end": "🇸🇪7400259",
+					"length": 7,
+					"maxSpeed": 140,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇸🇪7400259",
+					"end": "🇸🇪7400260",
+					"length": 16,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇸🇪7400260",
+					"end": "XVO",
+					"length": 1,
+					"maxSpeed": 110,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XVO",
+					"end": "XVFV",
+					"length": 25,
+					"maxSpeed": 200,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "XVFV",
+					"end": "🇸🇪7400612",
+					"length": 49,
+					"maxSpeed": 120,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇸🇪7400612",
+					"end": "🇸🇪7400054",
+					"length": 22,
+					"maxSpeed": 130,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇪7400054",
+					"end": "🇸🇪7400530",
+					"length": 18,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇸🇪7400530",
+					"end": "🇸🇪7400683",
+					"length": 27,
+					"maxSpeed": 130,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇪7400683",
+					"end": "🇸🇪7400686",
+					"length": 12,
+					"maxSpeed": 120,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇸🇪7400686",
+					"end": "🇸🇪7400736",
+					"length": 25,
+					"maxSpeed": 130,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇸🇪7400736",
+					"end": "🇸🇪7400630",
+					"length": 8,
+					"maxSpeed": 135,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 100,
