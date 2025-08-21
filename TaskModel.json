@@ -1891,11 +1891,11 @@
 					"pathSuggestion": [ "SSH", "SKZ", "STR", "SBY", "KKO", "KAND", "KRE", "KB", "KKAS", "KK", "KD", "EDG", "EE", "EBO", "EDO" ]
 				},
 				{
-					"stations": [ "RH", "RM", "FWOR", "FMZ", "FGAL", "FBGK", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO" ],
+					"stations": [ "RH", "RM", "FWOR", "FMZ", "FBGK", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO" ],
 					"pathSuggestion": [ "RH", "RMF", "RM", "RFT", "FWOR", "FMZ", "FGAL", "FBGK", "KBOP", "KKO", "KAND", "KRE", "KB", "KKAS", "KK", "KD", "EDG", "EE", "EBO", "EDO" ]
 				},
 				{
-					"stations": [ "NN", "NWH", "NAH", "FH", "FF", "FFLF", "FMZ", "FGAL", "FBGK", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO" ],
+					"stations": [ "NN", "NWH", "NAH", "FH", "FF", "FFLF", "FMZ", "FBGK", "KKO", "KAND", "KRE", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO" ],
 					"pathSuggestion": [ "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FH", "FF", "FFLF", "FMB", "FMZ", "FGAL", "FBGK", "KBOP", "KKO", "KAND", "KRE", "KB", "KKAS", "KK", "KD", "EDG", "EE", "EBO", "EDO" ]
 				}
 			],
@@ -5683,7 +5683,7 @@
 			"objects": [
 				{
 					"stations": [ "BOD", "🇸🇪O278841439" ],
-					"pathSuggestion": [ "BOD", "BKW", "BFBI", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDLU", "XDRI", "XDKH", "XVM", "XVHH", "XVAL", "🇸🇪7400096","XVKM", "🇸🇪O278841439" ]
+					"pathSuggestion": [ "BOD", "BKW", "BFBI", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDLU", "XDRI", "XDKH", "XVM", "XVHH", "XVAL", "🇸🇪7400096","XVKM", "🇸🇪7400500", "XVHD", "🇸🇪O278841439" ]
 				},
 				{
 					"stations": [ "RRL", "BOD" ],
@@ -6341,7 +6341,7 @@
 				"Die Reisenden wollen schnell in ihr Hotel am Zielort %2$s."
 			],
 			"stations": [ "XVS", "XVM", "XDKH", "HBTH", "BL", "DH" ],
-			"pathSuggestion": [ "XVS", "🇸🇪HD", "🇸🇪JN", "XVK", "XVNC", "XVM", "XDKH", "XDRI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ABLZ", "AROG", "HB", "HO", "HR", "HBTH", "XNHL", "🇳🇱Wdn", "🇳🇱Dv", "🇳🇱Zp", "XNAH", "🇳🇱Zv", "EOB", "EDG", "EE", "EDO", "EHM", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HLER", "HWOB", "LS", "BSPD", "BL", "BBF", "BDKO", "BEW", "DGB", "DH" ],
+			"pathSuggestion": [ "XVS", "🇸🇪HD", "🇸🇪JN", "XVK", "XVNC", "XVL", "XVN", "XVAL", "XVHH", "XVM", "XDKH", "XDRI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ABLZ", "AROG", "HB", "HO", "HR", "HBTH", "XNHL", "🇳🇱Wdn", "🇳🇱Dv", "🇳🇱Zp", "XNAH", "🇳🇱Zv", "EOB", "EDG", "EE", "EDO", "EHM", "EBILP", "EHFD", "HL", "HM", "HWUN", "HH", "HLER", "HWOB", "LS", "BSPD", "BL", "BBF", "BDKO", "BEW", "DGB", "DH" ],
 			"neededCapacity": [
 				{ "name": "beds" }
 			]
@@ -6454,8 +6454,29 @@
 		},
 		{
 			"group": 1,
+			"name": "Pendeltåg von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XVGN", "XVSD", "XVS", "🇸🇪7400243" ]
+				},
+				{
+					"stations": [ "XVS", "🇸🇪Arnc", "XVUS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
 			"name": "Regionalzug von %s nach %s",
-			"service": 1,
+			"service": 2,
 			"descriptions": [
 				"Fahre pünktlich durch Schweden nach %2$s",
 				"Fahre diesen Regionalzug zwischen %s und %s."
@@ -6477,6 +6498,12 @@
 					"stations": [ "XVN", "XVVY", "XVVR", "XVHL" ]
 				},
 				{
+					"stations": [ "XVN", "XVEK" ]
+				},
+				{
+					"stations": [ "XVHH", "🇸🇪7400117" ]
+				},
+				{
 					"stations": [ "XVKM", "🇸🇪7400500", "XVHD", "🇸🇪O749472210", "XVL" ]
 				},
 				{
@@ -6490,6 +6517,21 @@
 				},
 				{
 					"stations": [ "XVU", "XVOX", "🇸🇪7400355", "XVHE", "XVBS", "XVVA" ]
+				},
+				{
+					"stations": [ "XVS", "XVUV", "XVKNV", "XVUS", "XVSU" ]
+				},
+				{
+					"stations": [ "XVSU", "🇸🇪7400124", "XVUM" ]
+				},
+				{
+					"stations": [ "XVUM", "XVBN", "🇸🇪7400064" ]
+				},
+				{
+					"stations": [ "XVLL", "XVBN", "🇸🇪7402007" ]
+				},
+				{
+					"stations": [ "XONA", "🇸🇪7402007" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -6519,6 +6561,129 @@
 		},
 		{
 			"group": 1,
+			"name": "Intercity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Fahre durch Schweden."
+			],
+			"objects": [
+				{
+					"stations": [ "XVS", "XOOS" ]
+				},
+				{
+					"stations": [ "XVS", "XVUS", "XVGA", "XVSU" ]
+				}, 				
+				{
+					"stations": [ "XVLL", "XVBN", "XVGV", "🇸🇪7402007", "XVRG", "XONA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Snabbtåg von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Fahre durch Schweden."
+			],
+			"objects": [
+				{
+					"stations": [ "XVS", "XVUS", "XVGA", "XVSU", "🇸🇪7400124", "XVUM" ]
+				},
+				{
+					"stations":       [ "XVS", "XVSD", "XVK", "XVHA", "🇸🇪7400129", "🇸🇪7400222", "🇸🇪7400070", "🇸🇪7400221", "XOKN", "XOOS" ],
+					"pathSuggestion": [ "XVS", "XVSD", "XVK", "XVHA", "XVLX", "🇸🇪7400129", "🇸🇪7400222", "🇸🇪7400070", "🇸🇪7400206", "🇸🇪7400221", "XOKN", "XOOS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Arlanda Express von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Binde die Hauptstadt an den Flughafen an"
+			],
+			"objects": [
+				{
+					"stations": [ "XVS", "🇸🇪Arnc" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Mälartåg von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im Umland von Stockholm den schnellen Regionalverkehr nach %2$s.",
+				"Fahre für Mälardalstrafik von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XVUS", "🇸🇪7400249", "🇸🇪7400246", "🇸🇪7400217", "🇸🇪7400920", "XVGA" ]
+				},
+				{
+					"stations": [ "XVS", "XVSD", "XVGN", "XVFN", "XVK", "XVVI", "XVHA" ]
+				},
+				{
+					"stations": [ "XVS", "XVSD", "🇸🇪VN", "XVNK", "🇸🇪KM", "XVNC" ]
+				},
+				{
+					"stations": [ "XVUS", "XVKNV", "🇸🇪7400243", "XVS" ]
+				},
+				{
+					"stations": [ "XVUS", "XVKNV", "🇸🇪Arnc", "XVS", "XVSD", "🇸🇪7400575", "🇸🇪7400557", "🇸🇪7400632", "XVEC", "🇸🇪7400765", "🇸🇪740003", "XVO" ]
+				},
+				{
+					"stations": [ "XVL", "XVNC", "XVK", "XVFN", "🇸🇪7400256", "XVEC", "🇸🇪7400253", "🇸🇪7400252", "🇸🇪7400139", "🇸🇪7400250", "🇸🇪7400137", "🇸🇪7400512", "🇸🇪7400563", "XVUS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Nattåg von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Nachtzug von %s nach %s.",
+				"Fahre durch die Nacht von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XVS", "XVUS", "XVGA", "XVSU", "XVUM" ]
+				},
+				{
+					"stations": [ "XVS", "XVUS", "XVGA", "XVSU", "XONA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" },
+				{ "name": "beds" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
 			"name": "Holz von %s nach %s",
 			"service": 10,
 			"descriptions": [
@@ -6531,6 +6696,85 @@
 			"pathSuggestion": [ "XVLX", "XVM", "XDKH", "XDRI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ALBG", "HU", "LS" ]
 		},
 		{
+			"group": 0,
+			"name": "Arctic Rail Express von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Versorge den hohen Norden Norwegens mit Waren.",
+				"Bringe Güter nach %2$s.",
+				"Fahre mit möglichst wenigen Zwischenhalten nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "XO7600315", "XONA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 32}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Erzzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Bringe Schüttgut zum Export nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "🇸🇪7402007", "XONA" ]
+				},
+				{
+					"stations": [ "🇸🇪7402007", "XVLL" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "coal", "value": 1500}
+			]
+		},
+				{
+			"group": 1,
+			"name": "InterCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch Dänemark und verbinde dabei die größten Städte des Landes miteinander."
+			],
+			"objects": [
+				{
+					"stations": [ "XDKHL", "XDKH", "XDOD", "XDFR", "XDAAS", "XDAAG" ]
+				},
+				{
+					"stations": [ "XDAAS", "XDFR", "AF", "AR", "AH" ]
+				},
+				{
+					"stations": [ "XDESB", "🇩🇰Bm", "XDVEJ", "XDLU", "XDKO", "XDMF", "XDOD", "XDNY", "XDKS", "XDSGE", "XDRI", "XDRK", "XDHT", "XDKH" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "InterCityLyn von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch Dänemark und verbinde dabei die größten Städte des Landes miteinander."
+			],
+			"objects": [
+				{
+					"stations": [ "XDSOB", "XDGRA", "XDTI", "XDRD", "XDV", "XDLU", "XDKO", "XDFR", "XDOD", "XDKH" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
 			"group": 1,
 			"name": "DSB Regionalzug von %s nach %s",
 			"service": 2,
@@ -6538,11 +6782,54 @@
 				"Verbinde die Menschen im Norden von %s bis %s.",
 				"Bediene die Regionalleistung zwischen %s und %s."
 			],
-			"stations": [ "XDTI", "XDRI", "XDBOP", "XDVI", "XDHT", "XDKH" ],
+			"objects": [
+				{
+					"stations": [ "XDTI", "XDLU", "XDTA", "XDMF", "XDRI", "XDBOP", "XDVI", "XDHT", "XDKH" ]
+				},
+				{
+					"stations": [ "XDOD", "XDFR" ]
+				},
+				{
+					"stations": [ "XDTI", "XDLU", "XDTA", "XDFR" ]
+				},
+				{
+					"stations": [ "XDOD", "XDMF", "XDFR", "XDAAS" ]
+				},
+				{
+					"stations": [ "XDAAS", "XDAAG" ]
+				},
+				{
+					"stations": [ "XDESB", "🇩🇰Bm", "XDLU", "XDFR" ]
+				},
+				{
+					"stations": [ "XDKH", "XDHT", "XDBOP", "XDRI", "XDVDB" ]
+				},
+				{
+					"stations": [ "XDESB", "🇩🇰Bm", "ANB" ]
+				}
+			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Lokaltog von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch Dänemark und halte dabei an allen Stationen."
+			],
+			"objects": [
+				{
+					"stations": [ "XDNYK", "XDNKV" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
 		},
 		{
 			"group": 1,
@@ -6572,6 +6859,181 @@
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Lokaltog von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XOAK", "XOOS", "XOGRO", "XOLI" ]
+				},
+				{
+					"stations": [ "XOAK", "XOOS", "XOSK" ]
+				},
+				{
+					"stations": [ "XOAR", "XOBG" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regiontog von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diese Regionalbahn von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Fahre durch Norwegen und halte dabei an allen Stationen."
+			],
+			"objects": [
+				{
+					"stations": [ "XOOS", "XOSK", "XOMO" ]
+				},
+				{
+					"stations": [ "XODR", "XOAK", "XOOS", "XOKL", "XOEDV" ]
+				},
+				{
+					"stations": [ "XOSR", "XOTS" ]
+				},
+				{
+					"stations": [ "XOSR", "XOTS", "XOHE", "XOSKJ" ]
+				},
+				{
+					"stations": [ "XORO", "XOFA", "XOBO" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Regionekspress von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalexpress von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Verbinde Oslo und das weitere Umland miteinander."
+			],
+			"objects": [
+				{
+					"stations": [ "XOOS", "XOSK", "XOMO", "XORA", "XOFR", "XOSAR", "XOHA", "XVED", "XVTH", "XVGB" ]
+				},
+				{
+					"stations": [ "XOSEN", "XOLA", "XOSF", "XOTB", "XOHOL", "XODR", "XOAK", "XOSA", "XOOS", "XOLI", "XOOL", "XOEDV", "XOTA", "XOST", "XOHM", "XOMV", "XOLIH", "XOVT", "XOOT", "XODB"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Regionekspress von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diesen Regionalexpress von %s nach %s.",
+				"Fahre diesen Langläufer von %s nach %s.",
+				"Verbinde Norwegen und Südschweden direkt miteinander"
+			],
+			"objects": [
+				{
+					"stations": [ "XOOS", "XOSK", "XOMO", "XORA", "XOFR", "XOSAR", "XOHA", "XVED", "XVTH", "XVGB", "XVHL", "XVH", "XVLD", "XVM" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Fjerntog von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Fahre durch Norwegen."
+			],
+			"objects": [
+				{
+					"stations": [ "XOBG", "XODA", "XOVO", "XOMY", "XOFI", "XOHAU", "XOGE", "XOAL", "XOGO", "XONE", "XOFL", "XOHO", "XOVIK", "XOHOK", "XODR", "XOAK", "XOSA", "XOLY", "XOOS", "XO7600315" ]
+				},
+				{
+					"stations": [ "XOOS", "XOOL", "XOHM", "XOBM", "XOMV", "XOLIH", "XOKVI", "XOVT", "XOOT", "XODOV", "XODB", "XOHJK", "XOOP", "XOBEK", "XOSR", "XOTS" ]
+				},
+				{
+					"stations": [ "XOTS", "XOSD", "XOLE", "XOVS", "XOSKJ", "XOSNA" , "XOGR", "XOLSM", "XONSK", "XOMVN", "XOTF", "XOMOJ", "XODV", "XOBJ", "XOMR", "XOSKS", "XODUN", "XOLON", "XOROK", "XORO", "XOFA", "XOVF", "XOOTG", "XOBO"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Fjerntog von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Nachtzug von %s nach %s.",
+				"Fahre durch die Nacht von %s nach %s.",
+				"Fahre durch Norwegen."
+			],
+			"objects": [
+				{
+					"stations": [ "XOOS", "XOBG" ]
+				},
+				{
+					"stations": [ "XOOS", "XOTS" ]
+				},
+				{
+					"stations": [ "XOTS", "XOBO" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" },
+				{ "name": "beds" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Güterzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Dieser Güterzug muss von %s nach %s.",
+				"Bringe Güter nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "XO7600315", "XOTS" ]
+				},
+				{
+					"stations": [ "XO7600315", "XOBG" ]
+				},
+				{
+					"stations": [ "XO7600315", "XOBO" ]
+				},
+				{
+					"stations": [ "XOBO", "XOTS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 32}
 			]
 		},
 		{
@@ -10291,7 +10753,7 @@
 					"stations": [ "XLB", "XIT" ]
 				},
 				{
-					"station": ["XLB", "XQHA"]
+					"stations": ["XLB", "XQHA"]
 				}
 			],
 			"neededCapacity": [
