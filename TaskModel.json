@@ -6732,6 +6732,48 @@
 				{ "name": "coal", "value": 1500}
 			]
 		},
+				{
+			"group": 1,
+			"name": "InterCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch Dänemark und verbinde dabei die größten Städte des Landes miteinander."
+			],
+			"objects": [
+				{
+					"stations": [ "XDKHL", "XDKH", "XDOD", "XDFR", "XDAAS", "XDAAG" ]
+				},
+				{
+					"stations": [ "XDAAS", "XDFR", "AF", "AR", "AH" ]
+				},
+				{
+					"stations": [ "XDESB", "🇩🇰Bm", "XDVEJ", "XDLU", "XDKO", "XDMF", "XDOD", "XDNY", "XDKS", "XDSGE", "XDRI", "XDRK", "XDHT", "XDKH" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "InterCityLyn von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch Dänemark und verbinde dabei die größten Städte des Landes miteinander."
+			],
+			"objects": [
+				{
+					"stations": [ "XDSOB", "XDGRA", "XDTI", "XDRD", "XDV", "XDLU", "XDKO", "XDFR", "XDOD", "XDKH" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
 		{
 			"group": 1,
 			"name": "DSB Regionalzug von %s nach %s",
@@ -6740,11 +6782,54 @@
 				"Verbinde die Menschen im Norden von %s bis %s.",
 				"Bediene die Regionalleistung zwischen %s und %s."
 			],
-			"stations": [ "XDTI", "XDRI", "XDBOP", "XDVI", "XDHT", "XDKH" ],
+			"objects": [
+				{
+					"stations": [ "XDTI", "XDLU", "XDTA", "XDMF", "XDRI", "XDBOP", "XDVI", "XDHT", "XDKH" ]
+				},
+				{
+					"stations": [ "XDOD", "XDFR" ]
+				},
+				{
+					"stations": [ "XDTI", "XDLU", "XDTA", "XDFR" ]
+				},
+				{
+					"stations": [ "XDOD", "XDMF", "XDFR", "XDAAS" ]
+				},
+				{
+					"stations": [ "XDAAS", "XDAAG" ]
+				},
+				{
+					"stations": [ "XDESB", "🇩🇰Bm", "XDLU", "XDFR" ]
+				},
+				{
+					"stations": [ "XDKH", "XDHT", "XDBOP", "XDRI", "XDVDB" ]
+				},
+				{
+					"stations": [ "XDESB", "🇩🇰Bm", "ANB" ]
+				}
+			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Lokaltog von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch Dänemark und halte dabei an allen Stationen."
+			],
+			"objects": [
+				{
+					"stations": [ "XDNYK", "XDNKV" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
 		},
 		{
 			"group": 1,
