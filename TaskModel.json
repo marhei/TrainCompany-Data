@@ -379,6 +379,9 @@
 				{
 					"pathSuggestion": [ "XSLA", "🇨🇭PUI", "XSF", "XSBE", "XSLT", "XSZG", "XSOL", "XSKS", "XSZH", "XSZO", "XSWT", "XSWI", "XSSG" ],
 					"stations": [ "XSLA", "XSF", "XSBE", "XSZH", "XSZO", "XSWT", "XSWI", "XSSG" ]
+				},
+				{
+					"pathSuggestion": [ "XSZH", "XSBE", "XSTH", "XSSP", "XSIO"],
 				}
 			]
 		},
@@ -430,15 +433,23 @@
 				"Fahre den ECE störungsfrei nach %2$s.",
 				"Fahre zwischen Deutschland, der Schweiz und Italien nach %2$s."
 			],
-			"stations": [ "FF", "RM", "RK", "RB", "XSB", "XSOL", "XSLU", "XSAG", "XSBZ", "XSL", "XSCH", "XIMOZ", "XIMB" ],
+			"objects": [
+				{
+					"stations": [ "FF", "RM", "RK", "RB", "XSB", "XSOL", "XSLU", "XSAG", "XSBZ", "XSL", "XSCH", "XIMOZ", "XIMB" ],
+					"pathSuggestion": [ "FF", "FFLF", "FDG", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSL", "XSCH", "XIMOZ", "XIMB" ]
+				},
+				{
+					"stations": [ "FF", "RM", "RK", "RB", "XSB", "XSOL", "XSBE", "XSTH", "XSFR", "XSBG", "XID", "XIR", "XIMB" ],
+					"pathSuggestion": [ "FF", "FFLF", "FDG", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSOL", "XSBE", "XSTH", "XSFR", "XSBG", "XID", "XIR", "XIMB" ]
+				}
+			]
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
 			],
 			"group": 1,
-			"service": 0,
-			"pathSuggestion": [ "FF", "FFLF", "FDG", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSL", "XSCH", "XIMOZ", "XIMB" ]
-		},
+			"service": 0
+			},
 		{
 			"name": "TGV Lyria von %s nach %s",
 			"descriptions": [
@@ -9031,6 +9042,9 @@
 				},
 				{
 					"stations": [ "XSBG", "XSVI", "XSLE", "XSSI", "XSSN", "XSMA", "XSAL", "XSMO", "🇨🇭VV", "XSLA", "XSMG", "🇨🇭GLA", "🇨🇭NY", "XSGE" ]
+				},
+				{
+					"stations": [ "XSBE", "XSTH", "XSSP", "XSFR", "XSKA", "XSGO", "🇨🇭EB", "XSBG" ]
 				}
 			],
 			"stopsEverywhere": false
