@@ -78521,6 +78521,7 @@
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [ "SE" ],
+			"name": "Ostkustbanan",
 			"objects": [
 				{
 					"start": "XVS",
@@ -78661,88 +78662,100 @@
 					"length": 44,
 					"maxSpeed": 155,
 					"twistingFactor": 0.3
-				},
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "Ådalsbanan",
+			"neededEquipments": [
+				"SE",
+				"ETCS"
+			],
+			"objects": [
 				{
 					"start": "XVSU",
 					"end": "XVTMR",
 					"length": 20,
 					"maxSpeed": 130,
-					"twistingFactor": 0.4,
-					"neededEquipments": [
-						"SE", "ETCS"
-					]
+					"twistingFactor": 0.4
 				},
 				{
 					"start": "XVTMR",
 					"end": "XVDUV",
 					"length": 17,
 					"maxSpeed": 120,
-					"twistingFactor": 0.5,
-					"neededEquipments": [
-						"SE", "ETCS"
-					]
+					"twistingFactor": 0.5
 				},
 				{
 					"start": "XVDUV",
 					"end": "XVHS",
 					"length": 31,
 					"maxSpeed": 120,
-					"twistingFactor": 0.5,
-					"neededEquipments": [
-						"SE", "ETCS"
-					]
+					"twistingFactor": 0.5
 				},
 				{
 					"start": "XVHS",
 					"end": "XVKF",
 					"length": 40,
 					"maxSpeed": 130,
-					"twistingFactor": 0.4,
-					"neededEquipments": [
-						"SE", "ETCS"
-					]
-				},
+					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"name": "Botniabanan",
+			"neededEquipments": [
+				"SE",
+				"ETCS"
+			],
+			"objects": [
 				{
-					"group": 2,
 					"start": "XVKF",
 					"end": "🇸🇪7400124",
 					"length": 87,
 					"maxSpeed": 250,
-					"twistingFactor": 0.4,
-					"neededEquipments": [
-						"SE", "ETCS"
-					]
+					"twistingFactor": 0.4
 				},
 				{
-					"group": 2,
 					"start": "🇸🇪7400124",
 					"end": "XVNM",
 					"length": 58,
 					"maxSpeed": 250,
-					"twistingFactor": 0.4,
-					"neededEquipments": [
-						"SE", "ETCS"
-					]
+					"twistingFactor": 0.4
 				},
 				{
-					"group": 2,
 					"start": "XVNM",
 					"end": "XVUM",
 					"length": 57,
 					"maxSpeed": 250,
-					"twistingFactor": 0.4,
-					"neededEquipments": [
-						"SE", "ETCS"
-					]
-				},
+					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [ "SE" ],
+			"objects": [
 				{
-					"group": 2,
 					"start": "XVUM",
 					"end": "🇸🇪7400104",
 					"length": 87,
-					"maxSpeed": 250,
+					"maxSpeed": 130,
 					"twistingFactor": 0.4
-				},
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "Stambanan genom övre Norrland",
+			"neededEquipments": [ "SE" ],
+			"objects": [
 				{
 					"start": "🇸🇪7400104",
 					"end": "XVVID",
@@ -78818,6 +78831,7 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"name": "Ostkustbanan",
 			"neededEquipments": [ "SE" ],
 			"objects": [
 				{
