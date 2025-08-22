@@ -1851,30 +1851,18 @@
 		},
 		{
 			"group": 1,
-			"objects": [
-				{
-					"name": "ICE von %s nach %s",
-					"service": 0,
-					"neededCapacity": [
-						{ "name": "passengers" },
-						{ "name": "bistroseats" }
-					]
-				},
-				{
-					"name": "EC von %s nach %s",
-					"service": 1,
-					"neededCapacity": [
-						{ "name": "passengers" }
-					]
-				}
-			],
+			"name": "EC von %s nach %s",
+			"service": 1,
 			"descriptions": [
 				"Bringe den internationalen Zug von %s nach %s.",
 				"Dieser Zug ist bei Interrailern in Richtung Skandinavien sehr beliebt.",
 				"Fahre über den großen Belt von %s nach %s."
 			],
-			"stations": [ "XDKH", "XDOD", "XDKO", "AF", "AH", "BL", "BHF" ],
-			"pathSuggestion": [ "XDKH", "🇩🇰VB", "XDRI", "XDOD", "XDKO", "AF", "AJ", "AR", "AN", "AEL", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BHF" ]
+			"neededCapacity": [
+			{ "name": "passengers" }
+			],
+			"stations": [ "XDKH", "XDRI", "XDOD", "XDKO", "XDPA", "ASW", "AH" ],
+			"pathSuggestion": [ "XDKH", "🇩🇰VB", "XDRI", "XDOD", "XDMF", "XTDA", "XDKO", "XDLU", "XDTI", "XDPA", "AF", "AJ", "ASW", "AR", "AN", "AEL", "AH" ]
 		},
 		{
 			"group": 1,
