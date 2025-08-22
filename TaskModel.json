@@ -8,21 +8,39 @@
 			"descriptions": [
 				"Der ICE muss über die Schnellfahrstrecke nach %2$s.",
 				"Der ICE muss von %s über die SFS nach %s gebracht werden.",
-				"Bringe den ICE über die SFS pünktlich von %s nach %s."
+				"Bringe den ICE über die SFS pünktlich von %s nach %s.",
+				"Der ICE muss nach %2$s gebracht werden. Er startet in %1$s.",
+				"Bringe den ICE pünktlich und schnell von %s nach %s."
 			],
 			"objects": [
 				{
-					"stations": [ "RM", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM" ],
-					"pathSuggestion": [ "RM", "FBL", "FDG", "FFLF", "FLIS", "FMT", "KSIB", "KT", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM" ]
+					"stations": [ "MH", "MA", "TU", "TS", "RM", "FFLF", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EMST", "HO", "HB", "AHAR", "AH", "AN", "AK" ],
+					"pathSuggestion": [ "MH", "MMR", "MA", "MGZB", "TU", "TS", "TV", "RBR", "RSAB", "RM", "FBL", "FDG", "FFLF", "KSIB", "KT", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AN", "AK" ]
 				},
 				{
-					"stations": [ "MH", "NN", "NWH", "NAH", "FH", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM" ],
-					"pathSuggestion": [ "MH", "MDA", "MIH", "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FH", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KT", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM" ]
+					"stations": [ "MH", "MIH", "NN", "NWH", "NAH", "FF", "FFLF", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM" ],
+					"pathSuggestion": [ "MH", "MDA", "MIH", "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FH", "FF", "FFLF", "KSIB", "KT", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM" ]
 				},
 				{
-					"stations": [ "LL", "UE P", "NBA", "NER", "NN" ],
-					"pathSuggestion": [ "LL", "LGOS", "LPLN", "UE P", "NED", "NBA", "NER", "NF", "NN" ]
-				}
+					"stations": [ "AA", "AH", "BSPD", "BL", "LW", "LL", "UE P", "NBA", "NER", "NN", "MH" ],
+					"pathSuggestion": [ "AA", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LBT", "LL", "LGOS", "LPLN", "UE P", "NED", "NBA", "NER", "NF", "NN", "MIH", "MDA", "MH" ]
+				},
+				{
+					"stations": [ "XSIO", "XSSP", "XSTH", "XSBE", "XSOL", "XSB", "RB", "RF", "RO", "RK", "RM", "FF", "FH", "FFU", "FKW", "HG", "HH", "HWOB", "BL", "BHF" ],
+					"pathSuggestion": [ "XSIO", "XSSP", "XSTH", "XSBE", "XSLT", "XSZG", "XSOL", "XSB", "RB", "RML", "RF", "RO", "RAP", "RK", "RGN", "RSAB", "RM", "FBL", "FDG", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HLER", "HWOB", "LS", "BSPD", "BL", "BHF" ]
+				},
+				{
+					"stations": [ "TS", "RM", "FFLF", "FF", "FKW", "HG", "HH", "AH" ],
+					"pathSuggestion": [ "TS", "TV", "RBR", "RSAB", "RM", "FBL", "FDG", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH" ]
+				},
+				{
+					"stations": [ "MH", "MIH", "NN", "NWH", "FFU", "FKW", "HG", "HH", "AH" ],
+					"pathSuggestion": [ "MH", "MDA", "MIH", "NN", "NF", "NRTD", "NWH", "NRB", "NBN", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH" ]
+				},
+				{
+					"stations": [ "MH", "MIH", "NN", "NWH", "FFU", "FKW", "HG", "HH", "HB" ],
+					"pathSuggestion": [ "MH", "MDA", "MIH", "NN", "NF", "NRTD", "NWH", "NRB", "NBN", "FFU", "FKW", "HG", "HH", "HWUN", "HNBG", "HV", "HB" ]
+				},
 			],
 			"neededCapacity": [
 				{ "name": "passengers" },
@@ -40,20 +58,25 @@
 			],
 			"objects": [
 				{
-					"stations": [ "AH", "HH", "FKW", "FF", "FD" ],
-					"pathSuggestion": [ "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF", "FD" ]
+					"stations": [ "KD", "KK", "FFLF", "NN", "MH" ]
+					"pathSuggestion": ["KD", "KK", "KT", "KSIB", "FFLF", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH" ]
 				},
 				{
-					"stations": [ "NN", "UE P", "LL" ],
-					"pathSuggestion": [ "NN", "NF", "NBA", "NED", "UE P", "LPLN", "LGOS", "LL" ]
+					"stations": [ "AH", "HH", "FF" ],
+					"pathSuggestion": [ "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FFU", "FFD", "FH", "FF" ]
 				},
 				{
-					"stations": [ "FD", "FF", "UE P", "LL" ],
-					"pathSuggestion": [ "FD", "FF", "FH", "FFD", "FFU", "FB", "UEI", "UGO", "UND", "UE P", "LPLN", "LGOS", "LL" ]
+					"stations": [ "MH", "NN", "UE P", "LH", "BL" ],
+					"pathSuggestion": [ "MH", "MDA", "MIH", "NN", "NF", "NBA", "NED", "UE P", "LPLN", "LH", "LBT", "LW", "BJUE", "BL" ]
+				},
+				{
+					"stations": [ "BL", "BSPD", "KK", "KB" ]
+					"pathSuggestion": [ "BL", "BSPD", "LS", "HWOB", "HLER", "HH", "HWUN", "HM", "HL", "EHFD", "EBILP", "EHM", "EHG", "KW", "KSO", "KK", "KKAS", "KB" ]
 				}
 			],
 			"neededCapacity": [
-				{ "name": "passengers" }
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
 			]
 		},
 		{
@@ -61,50 +84,18 @@
 			"name": "ICE von %s nach %s",
 			"service": 0,
 			"descriptions": [
-				"Der ICE muss über das Ruhrgebiet nach %2$s.",
-				"Der ICE muss von %s über NRW nach %s gebracht werden.",
-				"Bringe den ICE über das Ruhrgebiet pünktlich von %s nach %s."
-			],
-			"stations": [ "FD", "FFLF", "FLIS", "FMT", "KSIB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FFU", "NWH", "NN", "MH" ],
-			"neededCapacity": [
-				{ "name": "passengers" },
-				{ "name": "bistroseats" }
-			],
-			"pathSuggestion": [ "FD", "FF", "FFLF", "FLIS", "FMT", "KSIB", "KT", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FFU", "NBN", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH" ]
-		},
-		{
-			"group": 1,
-			"name": "ICE von %s nach %s",
-			"service": 0,
-			"descriptions": [
-				"Der ICE muss nach %2$s gebracht. Er startet in %1$s.",
-				"Der ICE muss von %s nach %s gebracht werden. Verwende die schnellste Strecke.",
-				"Bringe den ICE pünktlich und schnell von %s nach %s."
+				"Der ICE muss nach %2$s gebracht werden. Er startet in %1$s.",
+				"Der ICE muss von %s nach %s gebracht werden.",
+				"Verbinde die Ostsee mit dem Rest von Deutschland."
 			],
 			"objects": [
 				{
-					"stations": [ "RK", "RM", "FF", "FH", "FFU", "FKW", "HG", "HH", "HWOB", "BL", "BHF" ],
-					"pathSuggestion": [ "RK", "RGN", "RSAB", "RM", "FBL", "FDG", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HLER", "HWOB", "LS", "BSPD", "BL", "BHF" ]
+					"stations": [ "WBI", "WBG", "WSR", "WGW", "WZS", "WAK", "WP", "WPL", "WA", "WE", "BBRN", "BL" ],
+					"pathSuggestion": [ "WBI", "WBG", "WSR", "WGW", "WZS", "WAK", "WP", "WPL", "WA", "WE", "BBRN", "BL" ]
 				},
 				{
-					"stations": [ "TS", "RM", "FF", "FH", "FFU", "FKW", "HG", "HH", "AH" ],
-					"pathSuggestion": [ "TS", "TV", "RBR", "RSAB", "RM", "FBL", "FDG", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH" ]
-				},
-				{
-					"stations": [ "MH", "MIH", "NN", "NWH", "FFU", "FKW", "HG", "HH", "AH" ],
-					"pathSuggestion": [ "MH", "MDA", "MIH", "NN", "NF", "NRTD", "NWH", "NRB", "NBN", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH" ]
-				},
-				{
-					"stations": [ "LL", "UNM", "UJP", "US", "NK", "NLF", "NBA", "NER", "NN" ],
-					"pathSuggestion": [ "LL", "UNM", "UGH", "UJP", "UGW", "US", "NK", "NHM", "NLF", "NED", "NBA", "NER", "NF", "NN" ]
-				},
-				{
-					"stations": [ "WBI", "WBG", "WSR", "WGW", "WZS", "WP", "WPL", "WA", "WE", "BL" ],
-					"pathSuggestion": [ "WBI", "WBG", "WSR", "WGW", "WZS", "WP", "WPL", "WA", "WE", "BBRN", "BL" ]
-				},
-				{
-					"stations": [ "WBI", "WBG", "WSR", "WV", "WRI", "WR", "WB", "WS", "AH", "AHAR", "ALBG", "HU", "HC", "HH", "HG", "FKW", "FFU", "NWH", "NN", "MIH", "MH" ],
-					"pathSuggestion": [ "WBI", "WBG", "WSR", "WV", "WRI", "WR", "WSN", "WB", "WK", "WS", "WHO", "WHL", "ABCH", "AFRD", "AH", "AHAR", "ALBG", "HU", "HC", "HH", "HG", "FKW", "FFU", "NBN", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MPE", "MDA", "MH" ]
+					"stations": [ "WBI", "WBG", "WSR", "WV", "WRI", "WR", "WB", "WS", "AH", "AHAR", "ALBG", "HU", "HC", "HH", "HG", "FKW", "FWAB", "FTS", "FMBG", "FG", "FFG", "FF", "FD", "FBH", "RWE", "RH", "RWS", "RBR", "RK" ],
+					"pathSuggestion": [ "WBI", "WBG", "WSR", "WV", "WRI", "WR", "WSN", "WB", "WK", "WS", "WHO", "WHL", "ABCH", "AH", "AHAR", "ALBG", "HU", "HC", "HH", "HG", "FKW", "FGTH", "FWAB", "FTS", "FMBG", "FG", "FFG", "FF", "FD", "FBH", "RWE", "RMF", "RH", "RWS", "RBR", "RK" ]
 				}
 			],
 			"neededCapacity": [
@@ -120,12 +111,16 @@
 				"Dieser ICE stellt eine Ost-West-Verbindung sicher.",
 				"Bring die Fahrgäste Abseits der SFS von %s nach %s."
 			],
+			"objects": [
+				{
 			"stations": [ "FW", "FMZ", "FFLF", "FF", "FH", "FFU", "FBHF", "UEI", "UGO", "UE P", "LL" ],
+			"pathSuggestion": [ "FW", "FMZ", "FMB", "FFLF", "FF", "FH", "FFD", "FFU", "FBHF", "FB", "UEI", "UGO", "UND", "UE P", "LPLN", "LGOS", "LL" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
-			],
-			"pathSuggestion": [ "FW", "FMZ", "FMB", "FFLF", "FF", "FH", "FFD", "FFU", "FBHF", "FB", "UEI", "UGO", "UND", "UE P", "LPLN", "LGOS", "LL" ]
+			]
 		},
 		{
 			"group": 1,
@@ -381,23 +376,6 @@
 					"stations": [ "XSLA", "XSF", "XSBE", "XSZH", "XSZO", "XSWT", "XSWI", "XSSG" ]
 				}
 			]
-		},
-		{
-			"name": "ICE von %s nach %s",
-			"descriptions": [
-				"Bringe den ICE-International von %s nach %s.",
-				"Bring die Fahrgäste in dem ICE pünktlich nach %2$s.",
-				"Fahre den ICE störungsfrei nach %2$s.",
-				"Bringe den Intercity-Express pünktlich über die SFS von %s nach %s"
-			],
-			"stations": [ "XSIO", "XSSP", "XSTH", "XSBE", "XSOL", "XSB", "RB", "RF", "RBB", "RK", "RM", "FF", "FKW", "HG", "HH", "AHAR", "AH", "AA" ],
-			"neededCapacity": [
-				{ "name": "passengers" },
-				{ "name": "bistroseats" }
-			],
-			"group": 1,
-			"service": 0,
-			"pathSuggestion": [ "XSIO", "XSSP", "XSTH", "XSBE", "XSLT", "XSZG", "XSOL", "XSB", "RB", "RML", "RF", "RO", "RAP", "RBB", "RK", "RGN", "RSAB", "RM", "FBL", "FDG", "FFLF", "FF", "FH", "FFD", "FFU", "FKW", "HG", "HH", "HU", "ALBG", "AHAR", "AH", "AA" ]
 		},
 		{
 			"name": "IR von %s nach %s",
@@ -2907,22 +2885,6 @@
 			"service": 0,
 			"stations": [ "EDO", "EBO", "EE", "EDG", "KD", "KK", "FMT", "FLIS", "FFLF", "FF", "NAH", "NWH", "NN", "MH", "MTZ", "MWH", "MMU", "MGP" ],
 			"pathSuggestion": [ "EDO", "EBO", "EE", "EDG", "KD", "KK", "KT", "KSIB", "FMT", "FLIS", "FFLF", "FF", "FH", "NAH", "NLO", "NRB", "NWH", "NRTD", "NF", "NN", "MIH", "MDA", "MH", "MWKR", "MTZ", "MWH", "MMU", "MGP" ],
-			"neededCapacity": [
-				{ "name": "passengers" },
-				{ "name": "bistroseats" }
-			]
-		},
-		{
-			"group": 1,
-			"name": "ICE 28 von %s nach %s",
-			"descriptions": [
-				"Fahre zwischen %s und %s.",
-				"Es wollen Passagiere von %s nach %s. Halte an allen gegebenen Bahnhöfen.",
-				"Fahre den ICE 28 zwischen %s und %s."
-			],
-			"service": 0,
-			"stations": [ "AA", "AH", "WL", "WW", "BSPD", "BL", "LW", "LH", "UE P", "NBA", "NN", "MIH", "MH", "MTZ", "MWH", "MMU", "MGP" ],
-			"pathSuggestion": [ "AA", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LBT", "LH", "LPLN", "UE P", "NED", "NBA", "NF", "NN", "MIH", "MDA", "MH", "MWKR", "MTZ", "MWH", "MMU", "MGP" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
