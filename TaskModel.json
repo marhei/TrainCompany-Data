@@ -1615,8 +1615,12 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
-			"stations": [ "🇺🇸LVN", "🇺🇸VCC", "🇺🇸HES", "🇺🇸RCU" ],
-			"stations": [ "🇺🇸LVN", "🇺🇸VCC", "🇺🇸PAV" ]
+			"objects": [
+				{
+					"stations": [ "🇺🇸LVN", "🇺🇸VCC", "🇺🇸HES", "🇺🇸RCU" ],
+					"stations": [ "🇺🇸LVN", "🇺🇸VCC", "🇺🇸PAV" ]
+				}
+			]
 		},
 		{
 			"group": 0,
