@@ -1605,6 +1605,20 @@
 			"stations": [ "🇺🇸MIA", "🇺🇸FTL", "🇺🇸O68280977", "🇺🇸WPB" ]
 		},
 		{
+			"name": "Brightline von %s nach %s",
+			"descriptions": [
+				"Fahre für Brightline durch die Wüste von %s nach %s.",
+				"Bring die Leute so schnell wie möglich von %s nach %s."
+			],
+			"group": 1,
+			"service": 1,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stations": [ "🇺🇸LVN", "🇺🇸VCC", "🇺🇸HES", "🇺🇸RCU" ],
+			"stations": [ "🇺🇸LVN", "🇺🇸VCC", "🇺🇸PAV" ]
+		},
+		{
 			"group": 0,
 			"name": "Präsidentenzug von %s nach %s",
 			"service": 4,
@@ -10382,8 +10396,42 @@
 				},
 				{
 					"stations": [ "🇺🇸OSD", "🇺🇸SNC", "🇺🇸ANA", "🇺🇸FUL", "🇺🇸SNB" ]
+				},
+				{
+					"stations": [ "🇺🇸LAX", "🇺🇸SBD", "🇺🇸RCU" ]
+				},
+				{
+					"stations": [ "🇺🇸LAX", "🇺🇸CSC", "🇺🇸PAV" ]
 				}
 			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Caltrain von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "🇺🇸SJC", "🇺🇸SCC", "🇺🇸MTV", "🇺🇸PAL", "🇺🇸RWC", "🇺🇸HIL", "🇺🇸MIL", "🇺🇸SFK" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Caltrain von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "🇺🇸SJC", "🇺🇸O6141623307" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
