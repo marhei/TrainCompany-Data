@@ -57338,12 +57338,13 @@
 		},
 		{
 			"electrified": true,
-			"group": 0,
+			"group": 1,
 			"maxSpeed": 60,
 			"twistingFactor": 0.7,
 			"neededEquipments": [
 				"CH"
 			],
+			"name": "Seetalbahn",
 			"objects": [
 				{
 					"start": "XSLB",
@@ -57351,7 +57352,8 @@
 					"length": 6,
 					"twistingFactor": 0.39,
 					"neededEquipments": [
-						"SP-SEETAL"
+						"SP-SEETAL",
+						"CH"
 					]
 				},
 				{
@@ -57360,7 +57362,8 @@
 					"length": 2,
 					"twistingFactor": 0.13,
 					"neededEquipments": [
-						"SP-SEETAL"
+						"SP-SEETAL",
+						"CH"
 					]
 				},
 				{
@@ -57369,7 +57372,8 @@
 					"length": 7,
 					"twistingFactor": 0.13,
 					"neededEquipments": [
-						"SP-SEETAL"
+						"SP-SEETAL",
+						"CH"
 					]
 				},
 				{
@@ -57378,7 +57382,8 @@
 					"length": 6,
 					"twistingFactor": 0.13,
 					"neededEquipments": [
-						"SP-SEETAL"
+						"SP-SEETAL",
+						"CH"
 					]
 				},
 				{
@@ -57401,16 +57406,9 @@
 				},
 				{
 					"start": "🇨🇭WAB",
-					"end": "🇨🇭GSAG",
-					"length": 4,
+					"end": "XSLU",
+					"length": 10,
 					"twistingFactor": 0.16,
-					"maxSpeed": 100
-				},
-				{
-					"start": "🇨🇭GSAG",
-					"end": "🇨🇭EBR",
-					"length": 1,
-					"twistingFactor": 0.14,
 					"maxSpeed": 100
 				}
 			]
@@ -71057,15 +71055,8 @@
 				},
 				{
 					"start": "🇨🇭SEM",
-					"end": "🇨🇭EBR",
-					"length": 11,
-					"maxSpeed": 120,
-					"twistingFactor": 0.3
-				},
-				{
-					"start": "🇨🇭EBR",
 					"end": "XSLU",
-					"length": 5,
+					"length": 17,
 					"maxSpeed": 120,
 					"twistingFactor": 0.3
 				},
