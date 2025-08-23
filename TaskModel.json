@@ -11213,14 +11213,8 @@
 			"descriptions": [
 				"Fahre die S9 durch das malerische Seetal von %s nach %s."
 			],
-			"objects": [
-				{
-					"stations": [ "XSLB", "🇨🇭SE", "🇨🇭HD", "🇨🇭BW", "🇨🇭HIK", "🇨🇭BLGK", "🇨🇭BLL", "🇨🇭WAB", "🇨🇭GSAG", "🇨🇭EBR", "XSLU"]
-				},
-				{
-					"stations": [ "XSLU", "🇨🇭EBR", "🇨🇭GSAG", "🇨🇭WAB", "🇨🇭BLL", "🇨🇭BLGK", "🇨🇭HIK", "🇨🇭BW", "🇨🇭HD", "🇨🇭SE", "XSLB"]
-				}
-			],
+			"stations": [ "XSLB", "XSLU"],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers", "value": 48 }
 			]
