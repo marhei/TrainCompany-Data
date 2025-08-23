@@ -69432,13 +69432,13 @@
 				},
 				{
 					"start": "XSA",
-					"end": "XSOL",
+					"end": "🇨🇭OL",
 					"length": 13,
 					"maxSpeed": 150,
 					"twistingFactor": 0.2
 				},
 				{
-					"start": "XSOL",
+					"start": "🇨🇭OL",
 					"end": "XSSC",
 					"length": 18,
 					"maxSpeed": 140,
@@ -70605,7 +70605,7 @@
 				},
 				{
 					"start": "🇨🇭LY",
-					"end": "XSBE",
+					"end": "🇨🇭BN",
 					"length": 23,
 					"maxSpeed": 125,
 					"twistingFactor": 0.2
@@ -70795,7 +70795,7 @@
 			],
 			"objects": [
 				{
-					"start": "XSBE",
+					"start": "🇨🇭BN",
 					"end": "XSMUS",
 					"length": 16,
 					"maxSpeed": 155,
@@ -71026,14 +71026,14 @@
 			],
 			"objects": [
 				{
-					"start": "XSOL",
-					"end": "XSZG",
+					"start": "🇨🇭OL",
+					"end": "🇨🇭ZF",
 					"length": 8,
 					"maxSpeed": 125,
 					"twistingFactor": 0.2
 				},
 				{
-					"start": "XSZG",
+					"start": "🇨🇭ZF",
 					"end": "XSN",
 					"length": 11,
 					"maxSpeed": 160,
@@ -71190,6 +71190,7 @@
 			]
 		},
 		{
+			"name": "Stammstrecke",
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -71197,35 +71198,44 @@
 			],
 			"objects": [
 				{
-					"start": "XSZG",
-					"end": "XSLT",
-					"length": 19,
-					"maxSpeed": 200,
+					"start": "🇨🇭RTR",
+					"end": "🇨🇭LTH",
+					"length": 13,
+					"maxSpeed": 125,
 					"twistingFactor": 0.2
 				},
 				{
-					"start": "XSLT",
-					"end": "XSHZ",
+					"start": "🇨🇭LTH",
+					"end": "🇨🇭HB",
 					"length": 7,
-					"maxSpeed": 200,
+					"maxSpeed": 140,
 					"twistingFactor": 0.2
 				},
 				{
-					"start": "XSHZ",
+					"start": "🇨🇭HB",
 					"end": "🇨🇭BDF",
 					"length": 16,
-					"maxSpeed": 140,
+					"maxSpeed": 125,
 					"twistingFactor": 0.26
 				},
 				{
 					"start": "🇨🇭BDF",
-					"end": "XSBE",
-					"length": 21,
+					"end": "🇨🇭BN",
+					"length": 22,
 					"maxSpeed": 140,
 					"twistingFactor": 0.2
-				},
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
 				{
-					"start": "XSBE",
+					"start": "🇨🇭BN",
 					"end": "XSFM",
 					"length": 13,
 					"maxSpeed": 140,
@@ -71304,18 +71314,6 @@
 			]
 		},
 		{
-			"start": "XSLT",
-			"end": "XSBE",
-			"neededEquipments": [
-				"CH"
-			],
-			"electrified": true,
-			"group": 0,
-			"length": 43,
-			"maxSpeed": 200,
-			"twistingFactor": 0.2
-		},
-		{
 			"group": 0,
 			"maxSpeed": 140,
 			"twistingFactor": 0,
@@ -71351,19 +71349,36 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"name": "Gäubahn",
 			"neededEquipments": [
 				"CH"
 			],
 			"objects": [
 				{
-					"start": "XSLT",
-					"end": "XSSO",
-					"length": 19,
-					"maxSpeed": 200,
-					"twistingFactor": 0.15
+					"start": "🇨🇭OL",
+					"end": "🇨🇭OEN",
+					"length": 17,
+					"maxSpeed": 130,
+					"twistingFactor": 0.20
 				},
 				{
-					"start": "XSSO",
+					"start": "🇨🇭OEN",
+					"end": "🇨🇭SO",
+					"length": 17,
+					"maxSpeed": 130,
+					"twistingFactor": 0.12
+				}
+			]
+		},
+		{			
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "🇨🇭SO",
 					"end": "XSGRN",
 					"length": 11,
 					"maxSpeed": 140,
@@ -78847,6 +78862,95 @@
 					"length": 8,
 					"maxSpeed": 130,
 					"twistingFactor": 0.22
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"name": "Oensingen-Balsthal-Bahn",
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "🇨🇭OEN",
+					"end": "🇨🇭KLUS",
+					"length": 2,
+					"maxSpeed": 40,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇭KLUS",
+					"end": "🇨🇭THBU",
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇨🇭THBU",
+					"end": "🇨🇭BTH",
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"name": "Neubaustrecke",
+			"neededEquipments": [
+				"CH",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "🇨🇭RTR",
+					"end": "🇨🇭WANZ",
+					"length": 20,
+					"maxSpeed": 200,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇨🇭WANZ",
+					"end": "🇨🇭BN",
+					"length": 36,
+					"maxSpeed": 200,
+					"twistingFactor": 0.12
+				},
+				{
+					"name": "Ausbaustrecke",
+					"start": "🇨🇭WANZ",
+					"end": "🇨🇭SO",
+					"length": 9,
+					"maxSpeed": 200,
+					"twistingFactor": 0.12
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"name": "Bornlinie",
+					"start": "🇨🇭RTR",
+					"end": "🇨🇭OL",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.12
+				},
+				{
+					"name": "Kriegsschlaufe",
+					"start": "🇨🇭RTR",
+					"end": "🇨🇭ZF",
+					"length": 7,
+					"maxSpeed": 140,
+					"twistingFactor": 0.20
 				}
 			]
 		}
