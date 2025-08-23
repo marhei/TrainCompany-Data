@@ -11224,6 +11224,40 @@
 			"neededCapacity": [
 				{ "name": "passengers", "value": 48 }
 			]
+		},
+		{
+			"group": 1,
+			"name": "MEX12 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den MEX12 von %s nach %s.",
+				"Bringe deine Fahrgäste pünktlich bis nach %2$s.",
+				"Beweise dich auf der Metropolexpress-Linie 12 von %s nach %s!"
+			],
+			"objects": [
+				{
+					"stations": [ "TT", "TRE", "TME", "TNU", "TWD", "TP", "TE", "TS", "TLU", "TBM", "TBE", "TWH", "TKM", "TLN", "TNO", "TH", "THST", "TN", "TNSN", "TBK", "TBF", "ROU", "RGUN", "RHAS", "RNEZ", "RNZ"]
+				},
+				{
+					"stations": [ "TT", "TRE", "TME", "TNU", "TWD", "TP", "TE", "TS", "TLU", "TBM", "TBE", "TWH", "TKM", "TLN", "TNO", "TH"]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Testfahrt des neuen RE1 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Du wurdest beauftragt, um eine Testfahrt auf der künftigen Strecke des RE1 vor der Inbetriebnahme von S21 durchzuführen. Für die Fahrt auf der Schnellfahrstrecke brauchst du ein ETCS-fähiges Fahrzeug.",
+				"Stuttgart 21 wird bald fertig und es heißt nun: Testfahrten durchführen. Fahre die Strecke künftige Strecke des RE1 von %s bis %s ab."
+			],
+			"stations": [ "RK", "TPH", "TV", "TS", "TMKL", "TU", "TBI", "TAU", "TRB", "TMK", "TF", "MLIR" ],
+			"neededCapacity": [
+				{ "name": "passengers", "value": 10 }
+			]
 		}
 	]
 }
