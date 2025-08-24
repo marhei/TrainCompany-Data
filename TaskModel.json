@@ -374,6 +374,10 @@
 				{
 					"pathSuggestion": [ "XSLA", "🇨🇭PUI", "XSF", "XSBE", "XSLT", "XSZG", "XSOL", "XSKS", "XSZH", "XSZO", "XSWT", "XSWI", "XSSG" ],
 					"stations": [ "XSLA", "XSF", "XSBE", "XSZH", "XSZO", "XSWT", "XSWI", "XSSG" ]
+				},
+				{
+					"stations": [ "XSZH", "XSBE", "XSTH", "XSSP", "XSIO" ],
+					"pathSuggestion": [ "XSZH", "XSKS", "XSLB", "XSOL", "XSZG", "XSLT", "XSBE", "XSTH", "XSSP", "XSIO" ]
 				}
 			]
 		},
@@ -408,15 +412,23 @@
 				"Fahre den ECE störungsfrei nach %2$s.",
 				"Fahre zwischen Deutschland, der Schweiz und Italien nach %2$s."
 			],
-			"stations": [ "FF", "RM", "RK", "RB", "XSB", "XSOL", "XSLU", "XSAG", "XSBZ", "XSL", "XSCH", "XIMOZ", "XIMB" ],
+			"objects": [
+				{
+					"stations": [ "FF", "RM", "RK", "RB", "XSB", "XSOL", "XSLU", "XSAG", "XSBZ", "XSL", "XSCH", "XIMOZ", "XIMB" ],
+					"pathSuggestion": [ "FF", "FFLF", "FDG", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSL", "XSCH", "XIMOZ", "XIMB" ]
+				},
+				{
+					"stations": [ "FF", "RM", "RK", "RB", "XSB", "XSOL", "XSBE", "XSTH", "XSFR", "XSBG", "XID", "XIR", "XIMB" ],
+					"pathSuggestion": [ "FF", "FFLF", "FDG", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSOL", "XSBE", "XSTH", "XSFR", "XSBG", "XID", "XIR", "XIMB" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
 			],
 			"group": 1,
-			"service": 0,
-			"pathSuggestion": [ "FF", "FFLF", "FDG", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSL", "XSCH", "XIMOZ", "XIMB" ]
-		},
+			"service": 0
+			},
 		{
 			"name": "TGV Lyria von %s nach %s",
 			"descriptions": [
@@ -5860,6 +5872,10 @@
 					{
 					"stations": [ "DL", "RLR" ],
 					"pathSuggestion": [ "DL", "DBW", "DAF", "DH" , "DFR", "DFL", "DC", "DZW", "DRC", "DHN", "DP", "NOKP", "NHM", "NED", "NBA", "NS", "NWH", "TL", "TO", "TBF", "TH", "TS", "TET", "THB", "TTU", "RIM", "RSI", "RSCF", "RB", "RLR" ]
+				},
+				{
+					"stations": [ "🇨🇭SE", "XSSN" ],
+					"pathSuggestion": [ "🇨🇭SE", "XSLU", "XSZG", "XSLT" , "XSHZ", "XSBE", "XSSP", "XSFR", "XSBG", "XSLE", "XSSN" ]
 				}
 			],
 			"neededCapacity": [
@@ -6469,13 +6485,13 @@
 					"stations": [ "XVU", "XVOX", "🇸🇪7400355", "XVHE", "XVBS", "XVVA" ]
 				},
 				{
-					"stations": [ "XVS", "XVUV", "XVKNV", "XVUS", "XVSU" ]
+					"stations": [ "XVS", "XVUV", "XVKNV", "XVUS", "XVGA", "🇸🇪7400091", "XVSU" ]
 				},
 				{
 					"stations": [ "XVSU", "🇸🇪7400124", "XVUM" ]
 				},
 				{
-					"stations": [ "XVUM", "XVBN", "🇸🇪7400064" ]
+					"stations": [ "XVUM", "🇸🇪7400104", "XVBN", "🇸🇪7400064" ]
 				},
 				{
 					"stations": [ "XVLL", "XVBN", "🇸🇪7402007" ]
@@ -8951,6 +8967,12 @@
 				},
 				{
 					"stations": [ "XSLA", "🇨🇭COS", "XSNC", "XSBL" ]
+				},
+				{
+					"stations": [ "XSBE", "XSSP", "XSFR", "XSGO", "XSBG" ]
+				},
+				{
+					"stations": [ "XSBE", "XSSP", "XSFR", "XSGO", "XSBG", "XID" ]
 				}
 			],
 			"stopsEverywhere": true
@@ -8981,6 +9003,9 @@
 				},
 				{
 					"stations": [ "XSBG", "XSVI", "XSLE", "XSSI", "XSSN", "XSMA", "XSAL", "XSMO", "🇨🇭VV", "XSLA", "XSMG", "🇨🇭GLA", "🇨🇭NY", "XSGE" ]
+				},
+				{
+					"stations": [ "XSBE", "XSTH", "XSSP", "XSFR", "XSKA", "XSGO", "🇨🇭EB", "XSBG" ]
 				}
 			],
 			"stopsEverywhere": false
@@ -9869,8 +9894,8 @@
 			],
 			"objects": [
 				{
-					"stations": [ "RK", "TPH", "TV", "TS", "TH", "TC", "NAN", "NN", "NER", "NBA", "NLF", "NK", "US", "UGW", "UNM", "LL" ],
-					"pathSuggestion": [ "RK", "TPH", "TV", "TS", "TKH", "TH", "TOE", "TC", "NSNE", "NAN", "NN", "NER", "NBA", "NED", "NLF", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
+					"stations": [ "RK", "TPH", "TV", "TS", "TSG", "TA", "TEL", "TC", "NAN", "NN", "NER", "NBA", "NLF", "NK", "US", "UGW", "UNM", "LL" ],
+					"pathSuggestion": [ "RK", "TPH", "TV", "TS", "TWN", "TSF", "TSG", "TA", "TEL", "TJZ", "TC", "NSNE", "NAN", "NN", "NER", "NBA", "NED", "NLF", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
 				}
 			]
 		},
@@ -11251,6 +11276,143 @@
 			"stations": [ "RK", "TPH", "TV", "TS", "TMKL", "TU", "TBI", "TAU", "TRB", "TMK", "TF", "MLIR" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 10 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S4 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre im Auftrag der S-Bahn Stuttgart auf der Linie S4 von %s nach %s."
+			],
+			"stations": [ "TS", "TKH", "TLU", "TFV", "TFG", "TBEN", "TMB", "TERD", "TKIM", "TBU", "TB" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S3 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre im Auftrag der S-Bahn Stuttgart auf der Linie S3 von %s nach %s."
+			],
+			"stations": [ "TS", "TFE", "TWN", "TNHO", "TSWK", "TWI", "TNL", "TMAU", "TB" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S2 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre im Auftrag der S-Bahn Stuttgart auf der Linie S2 von %s nach %s."
+			],
+			"stations": [ "TS", "TFE", "TWN", "TROM", "TSTE", "TEN", "TBTB", "TGC", "TGES", "TWIN", "TWEL", "TSF" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "MEX13 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre auf der Linie MEX13 von %s nach %s."
+			],
+			"stations": [ "TS", "TWN", "TSF", "TUA", "TPL", "TWY", "TLO", "TSG", "TBB", "TMOE", "TA", "TGL", "TEL", "TJZ", "TC" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "MEX19 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre auf der Linie MEX19 von %s nach %s."
+			],
+			"stations": [ "TS", "TWN", "TWI", "TB", "TOP", "TSBM", "TMT", "TFB", "TFI", "TGAW", "TSHL" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "MEX90 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre auf der Linie MEX90 von %s nach %s."
+			],
+			"stations": [ "TS", "TWN", "TWI", "TB", "TOP", "TSBM", "TMT", "TGAW", "TSHL", "TEI", "TC" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE90 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre auf der Linie RE90 von %s nach %s."
+			],
+			"stations": [ "TS", "TWN", "TWI", "TB", "TOP", "TSBM", "TMT", "TGAW", "TSHL", "TEI", "TC", "NSNE", "NDB", "NLWI", "NAN", "NWK", "NHE", "NRL", "NN" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE1 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre auf der Linie RE1 von %s nach %s."
+			],
+			"stations": [ "RK", "TPH", "TV", "TS", "TSF", "TSG", "TA" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Güterzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Containerzug von %s nach %s.",
+				"Bringe Güter nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "TKH", "WSR" ],
+					"pathSuggestion": [ "TKH", "TLU", "TMB", "TB", "TSHL", "TC", "NAN", "NN", "NBA", "UKL", "UGH", "LBT", "BJUE", "BL", "WGRA", "WNT", "WATR", "WZAR", "WSR" ]
+				},
+				{
+					"stations": [ "UNM", "RSI" ],
+					"pathSuggestion": [ "UNM", "UGH", "UR", "NK", "NBA", "NN", "NAN", "TC", "TSHL", "TB", "TMB", "TLU", "TS", "THE", "TSUL", "TTU", "RSI" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 28}
 			]
 		}
 	]
