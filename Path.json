@@ -57971,6 +57971,61 @@
 		},
 		{
 			"electrified": true,
+			"name": "Lötschberg-Bergstrecke",
+			"group": 0,
+			"maxSpeed": 80,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSFR",
+					"end": "XSKA",
+					"length": 18,
+					"twistingFactor": 0.7
+				},
+				{
+					"start": "XSKA",
+					"end": "XSGO",
+					"length": 16,
+					"twistingFactor": 0.19,
+					"name": "Lötschberg-Scheiteltunnel",
+					"maxSpeed": 125
+				},
+				{
+					"start": "XSGO",
+					"end": "🇨🇭HT",
+					"length": 5,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇨🇭HT",
+					"end": "🇨🇭AB",
+					"length": 7,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇨🇭AB",
+					"end": "🇨🇭EB",
+					"length": 3,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇨🇭EB",
+					"end": "🇨🇭LL",
+					"length": 2,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "🇨🇭LL",
+					"end": "XSBG",
+					"length": 6,
+					"twistingFactor": 0.14
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"maxSpeed": 150,
 			"twistingFactor": 0.1,
 			"start": "XIAS",
@@ -71657,7 +71712,11 @@
 					"length": 40,
 					"maxSpeed": 250,
 					"twistingFactor": 0.1,
-					"group": 2
+					"group": 2,
+					"neededEquipments": [
+						"CH",
+						"ETCS"
+					]
 				}
 			]
 		},
