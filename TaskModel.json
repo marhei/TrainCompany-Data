@@ -9894,8 +9894,8 @@
 			],
 			"objects": [
 				{
-					"stations": [ "RK", "TPH", "TV", "TS", "TH", "TC", "NAN", "NN", "NER", "NBA", "NLF", "NK", "US", "UGW", "UNM", "LL" ],
-					"pathSuggestion": [ "RK", "TPH", "TV", "TS", "TKH", "TH", "TOE", "TC", "NSNE", "NAN", "NN", "NER", "NBA", "NED", "NLF", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
+					"stations": [ "RK", "TPH", "TV", "TS", "TSG", "TA", "TEL", "TC", "NAN", "NN", "NER", "NBA", "NLF", "NK", "US", "UGW", "UNM", "LL" ],
+					"pathSuggestion": [ "RK", "TPH", "TV", "TS", "TWN", "TSF", "TSG", "TA", "TEL", "TJZ", "TC", "NSNE", "NAN", "NN", "NER", "NBA", "NED", "NLF", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
 				}
 			]
 		},
@@ -11276,6 +11276,143 @@
 			"stations": [ "RK", "TPH", "TV", "TS", "TMKL", "TU", "TBI", "TAU", "TRB", "TMK", "TF", "MLIR" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 10 }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S4 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre im Auftrag der S-Bahn Stuttgart auf der Linie S4 von %s nach %s."
+			],
+			"stations": [ "TS", "TKH", "TLU", "TFV", "TFG", "TBEN", "TMB", "TERD", "TKIM", "TBU", "TB" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S3 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre im Auftrag der S-Bahn Stuttgart auf der Linie S3 von %s nach %s."
+			],
+			"stations": [ "TS", "TFE", "TWN", "TNHO", "TSWK", "TWI", "TNL", "TMAU", "TB" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S2 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre im Auftrag der S-Bahn Stuttgart auf der Linie S2 von %s nach %s."
+			],
+			"stations": [ "TS", "TFE", "TWN", "TROM", "TSTE", "TEN", "TBTB", "TGC", "TGES", "TWIN", "TWEL", "TSF" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "MEX13 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre auf der Linie MEX13 von %s nach %s."
+			],
+			"stations": [ "TS", "TWN", "TSF", "TUA", "TPL", "TWY", "TLO", "TSG", "TBB", "TMOE", "TA", "TGL", "TEL", "TJZ", "TC" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "MEX19 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre auf der Linie MEX19 von %s nach %s."
+			],
+			"stations": [ "TS", "TWN", "TWI", "TB", "TOP", "TSBM", "TMT", "TFB", "TFI", "TGAW", "TSHL" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "MEX90 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre auf der Linie MEX90 von %s nach %s."
+			],
+			"stations": [ "TS", "TWN", "TWI", "TB", "TOP", "TSBM", "TMT", "TGAW", "TSHL", "TEI", "TC" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE90 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre auf der Linie RE90 von %s nach %s."
+			],
+			"stations": [ "TS", "TWN", "TWI", "TB", "TOP", "TSBM", "TMT", "TGAW", "TSHL", "TEI", "TC", "NSNE", "NDB", "NLWI", "NAN", "NWK", "NHE", "NRL", "NN" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE1 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre auf der Linie RE1 von %s nach %s."
+			],
+			"stations": [ "RK", "TPH", "TV", "TS", "TSF", "TSG", "TA" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Güterzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Containerzug von %s nach %s.",
+				"Bringe Güter nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "TKH", "WSR" ],
+					"pathSuggestion": [ "TKH", "TLU", "TMB", "TB", "TSHL", "TC", "NAN", "NN", "NBA", "UKL", "UGH", "LBT", "BJUE", "BL", "WGRA", "WNT", "WATR", "WZAR", "WSR" ]
+				},
+				{
+					"stations": [ "UNM", "RSI" ],
+					"pathSuggestion": [ "UNM", "UGH", "UR", "NK", "NBA", "NN", "NAN", "TC", "TSHL", "TB", "TMB", "TLU", "TS", "THE", "TSUL", "TTU", "RSI" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 28}
 			]
 		}
 	]
