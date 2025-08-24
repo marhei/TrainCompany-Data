@@ -619,6 +619,27 @@
 			]
 		},
 		{
+			"id": 520,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler Seetal-GTW",
+			"shortcut": "RABe 520",
+			"speed": 115,
+			"weight": 99,
+			"force": 77,
+			"length": 54,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 400000,
+			"operationCosts": 40,
+			"equipments": ["SP-SEETAL", "CH"],
+			"maxConnectedUnits": 3,
+			"exchangeTime": 30,
+			"capacity": [
+				{"name": "passengers", "value": 124}
+			]
+		},
+		{
 			"id": 420,
 			"group": 2,
 			"service": 3,
@@ -1902,6 +1923,7 @@
 			"maxConnectedUnits": 5,
 			"compatibleWith": [5001],
 			"equipments": [
+				"ETCS",
 				"DK"
 			],
 			"operationCosts": 50,
@@ -4075,6 +4097,7 @@
 			"id": 5001,
 			"group": 2,
 			"name": "DSB MF",
+			"shortcut": "IC3",
 			"speed": 180,
 			"weight": 97,
 			"force": 107,
