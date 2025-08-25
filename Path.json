@@ -18935,6 +18935,114 @@
 			]
 		},
 		{
+			"name": "Nynäsbanan",
+			"neededEquipments": [
+				"SE"
+			],
+			"group": 1,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "XVAJ",
+					"end": "🇸🇪7400487",
+					"length": 7,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇸🇪7400487",
+					"end": "🇸🇪7400650",
+					"length": 1,
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇪7400650",
+					"end": "🇸🇪7400613",
+					"length": 1,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400613",
+					"end": "🇸🇪O7869400053",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇸🇪O7869400053",
+					"end": "🇸🇪7400508",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400508",
+					"end": "XVJB",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XVJB",
+					"end": "🇸🇪7400663",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇸🇪7400663",
+					"end": "7400540",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "7400540",
+					"end": "🇸🇪7400652",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400652",
+					"end": "🇸🇪7400514",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇸🇪7400514",
+					"end": "🇸🇪7400606",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400606",
+					"end": "🇸🇪7400583",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400583",
+					"end": "🇸🇪7400577",
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇸🇪7400577",
+					"end": "🇸🇪7400578",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.8
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 160,
 			"electrified": true,
@@ -37243,6 +37351,35 @@
 			]
 		},
 		{
+			"name": "Inlandsbanan",
+			"electrified": true,
+			"maxSpeed": 90,
+			"group": 1,
+			"neededEquipments": [
+				"SE"
+			],
+			"objects": [
+				{
+					"start": "🇸🇪7400222",
+					"end": "🇸🇪O7487640374",
+					"length": 16,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇸🇪O7487640374",
+					"end": "🇸🇪7400704",
+					"length": 11,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇸🇪7400704",
+					"end": "🇸🇪7400697",
+					"length": 12,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
 			"name": "Sørlandsbanen",
 			"electrified": true,
 			"group": 0,
@@ -45986,6 +46123,66 @@
 			]
 		},
 		{
+			"name": "Västerdalsbanan",
+			"electrified": false,
+			"neededEquipments": [
+				"SE"
+			],
+			"maxSpeed": 90,
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇸🇪O321452998",
+					"end": "🇸🇪O27259649",
+					"length": 22,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇸🇪O27259649",
+					"end": "🇸🇪O59686061",
+					"length": 18,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇸🇪O59686061",
+					"end": "🇸🇪O25629260",
+					"length": 26,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇪O25629260",
+					"end": "🇸🇪O24243178",
+					"length": 10,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇸🇪O24243178",
+					"end": "🇸🇪O24228615",
+					"length": 13,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇸🇪O24228615",
+					"end": "🇸🇪O321487059",
+					"length": 16,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇸🇪O321487059",
+					"end": "🇸🇪O24246192",
+					"length": 14,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇸🇪O24246192",
+					"end": "🇸🇪O321486128",
+					"length": 10,
+					"maxSpeed": 40,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"neededEquipments": [
 				"GB"
@@ -47301,8 +47498,15 @@
 				},
 				{
 					"start": "XVB",
+					"end": "🇸🇪O321452998",
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇸🇪O321452998",
 					"end": "🇸🇪7400680",
-					"length": 20,
+					"length": 12,
 					"maxSpeed": 140,
 					"twistingFactor": 0.28
 				},
@@ -74465,8 +74669,15 @@
 				},
 				{
 					"start": "🇸🇪HD",
+					"end": "XVAJ",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "XVAJ",
 					"end": "XVS",
-					"length": 13,
+					"length": 10,
 					"maxSpeed": 120,
 					"twistingFactor": 0.32
 				}
