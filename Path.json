@@ -45974,6 +45974,59 @@
 			]
 		},
 		{
+			"name": "Västerdalsbanan",
+			"electrified": false,
+			"neededEquipments": [
+				"SE"
+			],
+			"maxSpeed": 90,
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇸🇪O321452998",
+					"end": "🇸🇪O27259649",
+					"length": 22,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇸🇪O27259649",
+					"end": "🇸🇪O59686061",
+					"length": 18,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇸🇪O59686061",
+					"end": "🇸🇪O25629260",
+					"length": 26,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇪O25629260",
+					"end": "🇸🇪O24243178",
+					"length": 10,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇸🇪O24243178",
+					"end": "🇸🇪O24228615",
+					"length": 13,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇸🇪O24228615",
+					"end": "🇸🇪O321487059",
+					"length": 16,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇸🇪O321487059",
+					"end": "🇸🇪O24246192",
+					"length": 14,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"neededEquipments": [
 				"GB"
@@ -47289,8 +47342,15 @@
 				},
 				{
 					"start": "XVB",
+					"end": "🇸🇪O321452998",
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇸🇪O321452998",
 					"end": "🇸🇪7400680",
-					"length": 20,
+					"length": 12,
 					"maxSpeed": 140,
 					"twistingFactor": 0.28
 				},
