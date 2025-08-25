@@ -79930,6 +79930,47 @@
 					"maxSpeed": 120
 				}
 			]
+		},
+		{	"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne 17",
+			"maxSpeed": 110,
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "XFHG",
+					"end": "OFSGH",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "OFSGH",
+					"end": "OFMZS",
+					"length": 7,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "OFMZS",
+					"end": "OFGH",
+					"length": 4,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "OFGH",
+					"end": "OFRHV",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "OFRHV",
+					"end": "OFNBN",
+					"length": 3,
+					"twistingFactor": 0.2
+				}
+			]
 		}
 	]
 }
