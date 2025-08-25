@@ -37094,6 +37094,35 @@
 			]
 		},
 		{
+			"name": "Inlandsbanan",
+			"electrified": true,
+			"maxSpeed": 90,
+			"group": 1,
+			"neededEquipments": [
+				"SE"
+			],
+			"objects": [
+				{
+					"start": "🇸🇪7400222",
+					"end": "🇸🇪O7487640374",
+					"length": 16,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇸🇪O7487640374",
+					"end": "🇸🇪7400704",
+					"length": 11,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇸🇪7400704",
+					"end": "🇸🇪7400697",
+					"length": 12,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
 			"name": "Sørlandsbanen",
 			"electrified": true,
 			"group": 0,
