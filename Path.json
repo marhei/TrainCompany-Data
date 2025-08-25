@@ -11760,6 +11760,155 @@
 				}
 			]
 		},
+	{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 127,
+			"twistingFactor": 0.2,
+			"name": "Peninsular Corridor",
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸SJC",
+					"end": "🇺🇸SCC",
+					"length": 4
+				},
+				{
+					"start": "🇺🇸SCC",
+					"end": "🇺🇸MTV",
+					"length": 13
+				},
+				{
+					"start": "🇺🇸MTV",
+					"end": "🇺🇸PAL",
+					"length": 10
+				},
+				{
+					"start": "🇺🇸PAL",
+					"end": "🇺🇸RWC",
+					"length": 16
+				},
+				{
+					"start": "🇺🇸RWC",
+					"end": "🇺🇸HIL",
+					"length": 16
+				},
+				{
+					"start": "🇺🇸HIL",
+					"end": "🇺🇸MIL",
+					"length": 10
+				},
+				{
+					"start": "🇺🇸MIL",
+					"end": "🇺🇸SFK",
+					"length": 22,
+					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 320,
+			"twistingFactor": 0.2,
+			"name": "Brightline West",
+			"neededEquipments": [
+				"US",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸LVN",
+					"end": "🇺🇸VCC",
+					"length": 275
+				},
+				{
+					"start": "🇺🇸VCC",
+					"end": "🇺🇸HES",
+					"length": 39
+				},
+				{
+					"start": "🇺🇸HES",
+					"end": "🇺🇸RCU",
+					"length": 47
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 320,
+			"twistingFactor": 0.2,
+			"name": "High Desert Corridor",
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸VCC",
+					"end": "🇺🇸PAV",
+					"length": 87
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 127,
+			"twistingFactor": 0.2,
+			"name": "Pasadena Subdivision",
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸SBD",
+					"end": "🇺🇸RCU",
+					"length": 23
+				},
+				{
+					"start": "🇺🇸SBD",
+					"end": "🇺🇸LAX",
+					"length": 68
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 127,
+			"twistingFactor": 0.35,
+			"name": "Pasadena Subdivision",
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸BFD",
+					"end": "🇺🇸MOJ",
+					"length": 109,
+					"maxSpeed": 80,
+					"twistingFactor": 0.8
+				},
+				{
+					"start": "🇺🇸MOJ",
+					"end": "🇺🇸PAV",
+					"length": 56
+				},
+				{
+					"start": "🇺🇸PAV",
+					"end": "🇺🇸CSC",
+					"length": 54
+				},
+				{
+					"start": "🇺🇸CSC",
+					"end": "🇺🇸LAX",
+					"length": 55
+				}
+			]
+		},
 		{
 			"name": "Hokuriku-Shinkansen",
 			"electrified": true,
@@ -63685,7 +63834,6 @@
 					"maxSpeed": 100,
 					"twistingFactor": 0.24,
 					"neededEquipments": [
-						"DE",
 						"AT"
 					]
 				},
@@ -63696,8 +63844,7 @@
 					"maxSpeed": 130,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
-						"AT",
-						"CH"
+						"AT"
 					]
 				},
 				{
@@ -74714,8 +74861,7 @@
 			"group": 1,
 			"electrified": true,
 			"neededEquipments": [
-				"AT",
-				"CH"
+				"AT"
 			],
 			"objects": [
 				{
