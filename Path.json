@@ -18786,6 +18786,114 @@
 			]
 		},
 		{
+			"name": "Nynäsbanan",
+			"neededEquipments": [
+				"SE"
+			],
+			"group": 1,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "XVAJ",
+					"end": "🇸🇪O7882040920",
+					"length": 7,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇸🇪O7882040920",
+					"end": "🇸🇪O7882193502",
+					"length": 1,
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇪O7882193502",
+					"end": "🇸🇪O12988519946",
+					"length": 1,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O12988519946",
+					"end": "🇸🇪O7869400053",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇸🇪O7869400053",
+					"end": "🇸🇪O7882228876",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O7882228876",
+					"end": "XVJB",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XVJB",
+					"end": "🇸🇪O7882218219",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇸🇪O7882218219",
+					"end": "🇸🇪O7882210203",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O7882210203",
+					"end": "🇸🇪O7882199713",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O7882199713",
+					"end": "🇸🇪O4562404125",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇸🇪O4562404125",
+					"end": "🇸🇪O7882226433",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O7882226433",
+					"end": "🇸🇪O7882199204",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O7882199204",
+					"end": "🇸🇪O4562404169",
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇸🇪O4562404169",
+					"end": "🇸🇪O8516082976",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.8
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 160,
 			"electrified": true,
@@ -74289,8 +74397,15 @@
 				},
 				{
 					"start": "🇸🇪HD",
+					"end": "XVAJ",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "XVAJ",
 					"end": "XVS",
-					"length": 13,
+					"length": 10,
 					"maxSpeed": 120,
 					"twistingFactor": 0.32
 				}
