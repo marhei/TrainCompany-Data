@@ -6834,8 +6834,16 @@
 				"Bringe die Urlauber nach %2$s.",
 				"Fahre diesen Nachtzug problemlos bis nach %2$s"
 			],
-			"stations": [ "BHF", "BL", "AH", "XDOD", "XDNY", "XDKH", "XVM", "XVS" ],
-			"pathSuggestion": [ "BHF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDOD", "XDNY", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ],
+			"objects": [
+				{
+					"stations": [ "BHF", "BL", "AH", "XDOD", "XDNY", "XDKH", "XVM", "XVS" ],
+					"pathSuggestion": [ "BHF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDOD", "XDNY", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ]
+				},
+				{
+					"stations": [ "XVM", "XVLD", "XVHH", "XVAL", "XVN", "XVL", "XVNC", "XVS", "XVUS", "🇸🇪7400123", "🇸🇪7400142", "🇸🇪7400115", "🇸🇪7400308", "🇸🇪7400025" ],
+					"pathSuggestion": [ "XVM", "XVLD", "XVHH", "XVAL", "XVN", "XVMJ", "XVL", "XVNC", "XVK", "XVFN", "XVSD", "XVS", "XVUS", "XVGA", "🇸🇪7400091", "XVSU", "🇸🇪7400105", "🇸🇪7400123", "🇸🇪7400142", "🇸🇪7400115", "🇸🇪7400308", "🇸🇪7400025" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" },
