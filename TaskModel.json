@@ -6756,7 +6756,54 @@
 				{ "name": "coal", "value": 1500}
 			]
 		},
+		{
+			"group": 0,
+			"name": "Kohlezug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Bringe Kohle von %s nach %s.",
+				"Das Kraftwerk in %2$s braucht dringend Nachschub."
+			],
+			"objects": [
 				{
+					"stations": [ "ZBBV", "ZBTZ" ]
+				},
+				{
+					"stations": [ "ZBBV", "ZBZC" ]
+				},
+				{
+					"stations": [ "ZBBV", "ZBKA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "coal", "value": 850}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Containerzug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Dieser Güterzug muss von %s nach %s.",
+				"Bringe Güter nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "XRPL", "ZBSA" ]
+				},
+				{
+					"stations": [ "ZAS", "ZAPR" ]
+				},
+				{
+					"stations": [ "🇲🇪31001", "XGTI" ]
+				}
+
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 32}
+			]
+		},
+		{
 			"group": 1,
 			"name": "InterCity von %s nach %s",
 			"service": 1,
