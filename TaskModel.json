@@ -2023,6 +2023,44 @@
 			]
 		},
 		{
+			"group": 0,
+			"name": "Urlauber-Sonderzug von %s nach %s",
+			"service": 4,
+			"descriptions": [
+				"Fahre diesen Sonderzug im Tagverkehr nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "ZBSA", "XMBK" ]
+				}
+
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" } 
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 0,
+			"name": "Urlauber-Sonderzug von %s nach %s",
+			"service": 4,
+			"descriptions": [
+				"Fahre Touristen durch die Nacht nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "ZBSA", "XTP" ]
+				}
+
+			],
+			"neededCapacity": [
+				{ "name": "beds" },
+				{ "name": "bistroseats" } 
+			],
+			"stopsEverywhere": false
+		},
+		{
 			"group": 1,
 			"name": "Latvijas Ekpresis von %s nach %s",
 			"service": 5,
@@ -7742,6 +7780,12 @@
 				},
 				{
 					"stations": [ "XRNV", "XRNG", "XRNK", "XRSL", "XRSV", "XRVI", "XRT" ]
+				},
+				{
+					"stations": [ "XRZ", "7800014", "XRVO" ]
+				},
+				{
+					"stations": [ "XRZ", "XRDS", "7800028", "7800356" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -7749,6 +7793,37 @@
 				{ "name": "passengers" }
 			]
 		},
+		{
+			"group": 1,
+			"name": "Nahverkehrszug von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Bringe diesen Nahverkehrszug von %s nach %s.",
+				"Fahre durch Bosnien und halte dabei an allen Stationen."
+			],
+			"objects": [
+				{
+					"stations": [ "ZBMG", "ZBZC" ]
+				},
+				{
+					"stations": [ "ZBSA", "ZBVI" ]
+				},
+				{
+					"stations": [ "ZBSA", "ZBVI" ]
+				},
+				{
+					"stations": [ "ZBDO", "ZBBL" ]
+				},
+				{
+					"stations": [ "ZBSA", "ZBZC" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},		
 		{
 			"group": 1,
 			"name": "Regionale von %s nach %s",
@@ -7783,6 +7858,12 @@
 				},
 				{
 					"stations": [ "XMBK", "XMV", "XMSB" ]
+				},
+				{
+					"stations": [ "XMPI", "XMDO" ]
+				},
+				{
+					"stations": [ "XMBK", "XMDO" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -10006,6 +10087,157 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 5,
+			"descriptions": [
+				"Fahre in Tagesrandlage nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "ZBSA", "ZBDO", "ZBBL", "ZBNG", "ZBBI" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" },
+				{ "name": "bistroseats" } 
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch Bosnien."
+			],
+			"objects": [
+				{
+					"stations": [ "ZBSA", "ZBMO", "ZBCA", "XRPL" ]
+				},
+				{
+					"stations": [ "ZBSA", "ZBZC", "ZBZE", "ZBZA", "ZBMG", "ZBDO", "ZBBL" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" } 
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch Bosnien."
+			],
+			"objects": [
+				{
+					"stations": [ "ZBSA", "ZBZC", "ZBZE", "ZBZA", "ZBMG" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch Kroatien."
+			],
+			"objects": [
+				{
+					"stations": [ "XROS", "XRZ" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Schnellzug von %s nach %s",
+			"service": 5,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre durch Kroatien."
+			],
+			"objects": [
+				{
+					"stations": [ "XROS", "XRZ", "XRK", "XRS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "InterCity von %s nach %s",
+			"service": 5,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Verbinde Kroatien und Ungarn miteinander."
+			],
+			"objects": [
+				{
+					"stations": [ "XMBK", "XMGY", "XRS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "InterCity von %s nach %s",
+			"service": 5,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Verbinde Kroatien und Ungarn miteinander."
+			],
+			"objects": [
+				{
+					"stations": [ "XRZ", "7800028", "XRKO", "XMGY", "XRS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "InterCity von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Verbinde Nordmazedonien und den Kosovo miteinander."
+			],
+			"objects": [
+				{
+					"stations": [ "ZAS", "ZAHIE", "ZAKA", "ZAFE", "ZALI", "ZAPR" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": false
 		},
 		{
 			"group": 1,
