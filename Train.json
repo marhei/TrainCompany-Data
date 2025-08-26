@@ -5148,7 +5148,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 45,
 			"exchangeTime": 60,
-			"equipments": ["SE", "RS", "HR"],
+			"equipments": ["SE", "RS", "HR", "XK"],
 			"capacity": [
 				{"name": "passengers", "value": 68}
 			]
@@ -7585,7 +7585,21 @@
             "cost": 350000,
             "operationCosts": 130,
             "equipments": ["CH", "DE", "LU", "AT", "FR", "IT", "SE", "ETCS"]
-        }, 
+        },
+		{
+            "id": 1700,
+            "group": 0,
+            "name": "Vossloh G 1700-2 BB",
+            "speed": 100,
+            "weight": 88,
+            "force": 291,
+            "length": 15,
+            "drive": 2,
+            "reliability": 0.95,
+            "cost": 370000,
+            "operationCosts": 125,
+            "equipments": ["CH", "DE", "AT", "FR", "IT", "XK", "ES", "ETCS"]
+        },	
 		{
             "id": 72000,
             "group": 0,
@@ -7857,7 +7871,7 @@
 			"reliability": 0.8,
 			"cost": 180000,
 			"operationCosts": 180,
-			"equipments": ["DK", "NO", "HU", "DE", "SE", "BE", "LU"]
+			"equipments": ["DK", "NO", "HU", "DE", "SE", "BE", "LU", "XK"]
 		},
 		{
 			"id": 861461,
@@ -7997,7 +8011,7 @@
 			"reliability": 0.8,
 			"cost": 350000,
 			"operationCosts": 125,
-			"equipments": ["SI", "HR", "RS", "ME", "BA"]
+			"equipments": ["SI", "HR", "RS", "ME", "BA", "XK"]
 		},
 		{
 			"id": 72645,
