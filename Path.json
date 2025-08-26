@@ -57922,13 +57922,14 @@
 				}
 			]
 		},
-			"electrified": false,
+			"electrified": true,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0.3,
 			"neededEquipments": [
 				"CH"
 			],
-			"group": 1,
-			"maxSpeed": 60,
-			"twistingFactor": 0.1,
+			"name": "Sursee Triengen Bahn",
 			"objects": [
 				{
 					"start": "XSSUS",
@@ -57951,7 +57952,7 @@
 				{
 					"start": "🇨🇭BBK",
 					"end": "🇨🇭TRW",
-					"length": 2,
+					"length": 3,
 					"maxSpeed": 60,
 				},
 			]
