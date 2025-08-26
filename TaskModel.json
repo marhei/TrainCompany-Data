@@ -6615,6 +6615,27 @@
 		},
 		{
 			"group": 1,
+			"name": "Inlandsbanan von %s nach %s",
+			"service": 4,
+			"description": [
+				"Fahre die Touristen in den hohen Norden",
+				"Dieser saisonale Langläufer verkehrt im schwedischen Hinterland"
+			],
+			"objects": [
+				{
+					"stations": [ "🇸🇪7400123", "🇸🇪O120404873", "XVGV" ]
+				},
+				{
+					"stations": [ "🇸🇪7400123", "🇸🇪O60367488", "🇸🇪7400119" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
 			"name": "Arlanda Express von %s nach %s",
 			"service": 1,
 			"descriptions": [
