@@ -11400,7 +11400,7 @@
 				"Bring deine Fahrgäste pünktlich nach %2$s!",
 				"Fahre auf der Linie MEX19 von %s nach %s."
 			],
-			"stations": [ "TS", "TWN", "TWI", "TB", "TOP", "TSBM", "TMT", "TFB", "TFI", "TGAW", "TSHL" ],
+			"stations": [ "TS", "TWN", "TWI", "TB", "TOP", "TSBM", "TMT", "TFB", "TFI", "TGAW", "TSHT" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -11414,7 +11414,7 @@
 				"Bring deine Fahrgäste pünktlich nach %2$s!",
 				"Fahre auf der Linie MEX90 von %s nach %s."
 			],
-			"stations": [ "TS", "TWN", "TWI", "TB", "TOP", "TSBM", "TMT", "TGAW", "TSHL", "TEI", "TC" ],
+			"stations": [ "TS", "TWN", "TWI", "TB", "TOP", "TSBM", "TMT", "TGAW", "TSHT", "TEI", "TC" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -11428,7 +11428,7 @@
 				"Bring deine Fahrgäste pünktlich nach %2$s!",
 				"Fahre auf der Linie RE90 von %s nach %s."
 			],
-			"stations": [ "TS", "TWN", "TWI", "TB", "TOP", "TSBM", "TMT", "TGAW", "TSHL", "TEI", "TC", "NSNE", "NDB", "NLWI", "NAN", "NWK", "NHE", "NRL", "NN" ],
+			"stations": [ "TS", "TWN", "TWI", "TB", "TOP", "TSBM", "TMT", "TGAW", "TSHT", "TEI", "TC", "NSNE", "NDB", "NLWI", "NAN", "NWK", "NHE", "NRL", "NN" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -11443,6 +11443,7 @@
 				"Fahre auf der Linie RE1 von %s nach %s."
 			],
 			"stations": [ "RK", "TPH", "TV", "TS", "TSF", "TSG", "TA" ],
+			"pathSuggestion": [ "RK", "TPH", "TV", "TS", "TWN", "TSF", "TSG", "TA" ]
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -11458,15 +11459,43 @@
 			"objects": [
 				{
 					"stations": [ "TKH", "WSR" ],
-					"pathSuggestion": [ "TKH", "TLU", "TMB", "TB", "TSHL", "TC", "NAN", "NN", "NBA", "UKL", "UGH", "LBT", "BJUE", "BL", "WGRA", "WNT", "WATR", "WZAR", "WSR" ]
+					"pathSuggestion": [ "TKH", "TLU", "TMB", "TB", "TSHT", "TC", "NAN", "NN", "NBA", "UKL", "UGH", "LBT", "BJUE", "BL", "WGRA", "WNT", "WATR", "WZAR", "WSR" ]
 				},
 				{
 					"stations": [ "UNM", "RSI" ],
-					"pathSuggestion": [ "UNM", "UGH", "UR", "NK", "NBA", "NN", "NAN", "TC", "TSHL", "TB", "TMB", "TLU", "TS", "THE", "TSUL", "TTU", "RSI" ]
+					"pathSuggestion": [ "UNM", "UGH", "UR", "NK", "NBA", "NN", "NAN", "TC", "TSHT", "TB", "TMB", "TLU", "TS", "THE", "TSUL", "TTU", "RSI" ]
 				}
 			],
 			"neededCapacity": [
 				{ "name": "containers", "value": 28}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE80 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre auf der Hohenlohebahn von %s nach %s."
+			],
+			"stations": [ "TH", "TOE", "TNN", "TWG", "TSHL", "TSHT", "TEI", "TC", "TSHT", "TEI", "TC" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB83 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre deine Fahrgäste von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre auf der Hohenlohebahn von %s nach %s."
+			],
+			"stations": [ "TH", "TOE", "TNN", "TWG", "TSHL", "TSHT", "TEI", "TC", "TSHT" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
 			]
 		}
 	]
