@@ -11468,6 +11468,61 @@
 			"neededCapacity": [
 				{ "name": "containers", "value": 28}
 			]
+		},
+		{
+			"name": "S13 der Südostbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSWW", "🇨🇭EIS" ],
+			"pathSuggestion": [ "XSWW", "🇨🇭SAM", "🇨🇭BIB", "🇨🇭EIS" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S31 der Südostbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSAG", "🇨🇭BIB" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S40 der Südostbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "🇨🇭RW", "🇨🇭EIS" ],
+			"pathSuggestion": [ "🇨🇭RW", "XSPF", "🇨🇭SAM", "🇨🇭BIB", "🇨🇭EIS" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S3 der S-Bahn Luzern von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSLU", "🇨🇭BRU" ],
+			"pathSuggestion": [ "XSLU", "🇨🇭MERL", "XSIM", "XSAG", "🇨🇭BRU" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
 		}
 	]
 }
