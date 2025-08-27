@@ -9652,7 +9652,8 @@
 					"neededEquipments": [
 						"BE",
 						"LU",
-						"ETCS"]
+						"ETCS"
+					]
 				}
 			]
 		},
@@ -11623,7 +11624,7 @@
 				}
 			]
 		},
-	{
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 127,
@@ -35750,7 +35751,8 @@
 					"maxSpeed": 180,
 					"twistingFactor": 0.3,
 					"neededEquipments": [
-						"DK", "ETCS"
+						"DK",
+						"ETCS"
 					]
 				},
 				{
@@ -35760,7 +35762,8 @@
 					"maxSpeed": 180,
 					"twistingFactor": 0.3,
 					"neededEquipments": [
-						"DK", "ETCS"
+						"DK",
+						"ETCS"
 					]
 				},
 				{
@@ -35770,7 +35773,8 @@
 					"maxSpeed": 160,
 					"twistingFactor": 0.3,
 					"neededEquipments": [
-						"DK", "ETCS"
+						"DK",
+						"ETCS"
 					]
 				},
 				{
@@ -35780,7 +35784,8 @@
 					"maxSpeed": 180,
 					"twistingFactor": 0.3,
 					"neededEquipments": [
-						"DK", "ETCS"
+						"DK",
+						"ETCS"
 					]
 				},
 				{
@@ -35790,7 +35795,8 @@
 					"maxSpeed": 200,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
-						"DK", "ETCS"
+						"DK",
+						"ETCS"
 					]
 				},
 				{
@@ -35800,7 +35806,8 @@
 					"maxSpeed": 160,
 					"twistingFactor": 0.3,
 					"neededEquipments": [
-						"DK", "ETCS"
+						"DK",
+						"ETCS"
 					]
 				}
 			]
@@ -76046,6 +76053,95 @@
 			]
 		},
 		{
+			"name": "Flåmsbana",
+			"electrified": true,
+			"neededEquipments": [
+				"NO"
+			],
+			"objects": [
+				{
+					"start": "XOMY",
+					"end": "🇳🇴VAT",
+					"group": 0,
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇳🇴VAT",
+					"end": "🇳🇴REHA",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.8
+				},
+				{
+					"start": "🇳🇴REHA",
+					"end": "🇳🇴KF",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.8
+				},
+				{
+					"start": "🇳🇴KF",
+					"end": "🇳🇴KD",
+					"group": 1,
+					"length": 2,
+					"maxSpeed": 40,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇳🇴KD",
+					"end": "🇳🇴BLOM",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇳🇴BLOM",
+					"end": "🇳🇴BEK",
+					"group": 1,
+					"length": 2,
+					"maxSpeed": 40,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇳🇴BEK",
+					"end": "🇳🇴DAHA",
+					"group": 1,
+					"length": 3,
+					"maxSpeed": 40,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇳🇴DAHA",
+					"end": "🇳🇴HAR",
+					"group": 1,
+					"length": 3,
+					"maxSpeed": 40,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇳🇴HAR",
+					"end": "🇳🇴LUN",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇳🇴LUN",
+					"end": "🇳🇴FL",
+					"group": 0,
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.28
+				}
+			]
+		},
+		{
 			"neededEquipments": [
 				"LT",
 				"1520mm"
@@ -77023,27 +77119,27 @@
 					"length": 6
 				},
 				{
-					"start":"🇰🇵Wonsan",
+					"start": "🇰🇵Wonsan",
 					"end": "🇰🇵Kalma",
 					"length": 4
 				},
 				{
-					"start":"🇰🇵Kalma",
+					"start": "🇰🇵Kalma",
 					"end": "🇰🇵Baehwa",
 					"length": 7
 				},
 				{
-					"start":"🇰🇵Baehwa",
+					"start": "🇰🇵Baehwa",
 					"end": "🇰🇵Anbyon",
 					"length": 5
 				},
 				{
-					"start":"🇰🇵Anbyon",
+					"start": "🇰🇵Anbyon",
 					"end": "🇰🇵Namsan",
 					"length": 7
 				},
 				{
-					"start":"🇰🇵Namsan",
+					"start": "🇰🇵Namsan",
 					"end": "🇰🇵Kwangmyong",
 					"length": 10
 				},
@@ -78105,7 +78201,9 @@
 			"name": "Vänerbanan",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [ "SE" ],
+			"neededEquipments": [
+				"SE"
+			],
 			"objects": [
 				{
 					"start": "XVGB",
@@ -78176,7 +78274,9 @@
 			"name": "Østfoldbanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [ "NO" ],
+			"neededEquipments": [
+				"NO"
+			],
 			"objects": [
 				{
 					"start": "XOKO",
@@ -78184,7 +78284,6 @@
 					"length": 32,
 					"maxSpeed": 120,
 					"twistingFactor": 0.5
-
 				},
 				{
 					"start": "XOHA",
@@ -78262,7 +78361,9 @@
 			"name": "Drammenbanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [ "NO" ],
+			"neededEquipments": [
+				"NO"
+			],
 			"objects": [
 				{
 					"start": "XOOS",
@@ -78298,7 +78399,9 @@
 			"name": "Randsfjordbanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [ "NO" ],
+			"neededEquipments": [
+				"NO"
+			],
 			"objects": [
 				{
 					"start": "XODR",
@@ -78327,7 +78430,9 @@
 			"name": "Bergensbanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [ "NO" ],
+			"neededEquipments": [
+				"NO"
+			],
 			"objects": [
 				{
 					"start": "XOHF",
@@ -78475,7 +78580,9 @@
 			"name": "Hovedbanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [ "NO" ],
+			"neededEquipments": [
+				"NO"
+			],
 			"objects": [
 				{
 					"start": "XOOS",
@@ -78532,7 +78639,9 @@
 			"name": "Dovrebanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [ "NO" ],
+			"neededEquipments": [
+				"NO"
+			],
 			"objects": [
 				{
 					"start": "XOEDV",
@@ -78680,7 +78789,9 @@
 			"name": "Nordlandsbanen",
 			"electrified": false,
 			"group": 0,
-			"neededEquipments": [ "NO" ],
+			"neededEquipments": [
+				"NO"
+			],
 			"objects": [
 				{
 					"start": "XOTS",
@@ -78891,7 +79002,9 @@
 			"name": "Gardermobanen",
 			"electrified": true,
 			"group": 2,
-			"neededEquipments": [ "NO" ],
+			"neededEquipments": [
+				"NO"
+			],
 			"objects": [
 				{
 					"start": "XOKL",
@@ -78913,7 +79026,9 @@
 			"name": "Vestfoldbanen",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [ "NO" ],
+			"neededEquipments": [
+				"NO"
+			],
 			"objects": [
 				{
 					"start": "XODR",
@@ -78962,7 +79077,9 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [ "SE" ],
+			"neededEquipments": [
+				"SE"
+			],
 			"name": "Ostkustbanan",
 			"objects": [
 				{
@@ -79181,7 +79298,9 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [ "SE" ],
+			"neededEquipments": [
+				"SE"
+			],
 			"objects": [
 				{
 					"start": "XVUM",
@@ -79196,7 +79315,9 @@
 			"electrified": true,
 			"group": 0,
 			"name": "Stambanan genom övre Norrland",
-			"neededEquipments": [ "SE" ],
+			"neededEquipments": [
+				"SE"
+			],
 			"objects": [
 				{
 					"start": "🇸🇪7400032",
@@ -79344,7 +79465,9 @@
 			"electrified": true,
 			"group": 0,
 			"name": "Ostkustbanan",
-			"neededEquipments": [ "SE" ],
+			"neededEquipments": [
+				"SE"
+			],
 			"objects": [
 				{
 					"start": "XVUV",
@@ -79365,7 +79488,10 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [ "SE", "ETCS" ],
+			"neededEquipments": [
+				"SE",
+				"ETCS"
+			],
 			"objects": [
 				{
 					"start": "XVBN",
@@ -79402,7 +79528,9 @@
 			"name": "Malmbanan",
 			"electrified": true,
 			"group": 0,
-			"neededEquipments": [ "SE" ],
+			"neededEquipments": [
+				"SE"
+			],
 			"objects": [
 				{
 					"start": "XVLL",
@@ -79425,7 +79553,8 @@
 					"maxSpeed": 135,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
-						"SE","ETCS"
+						"SE",
+						"ETCS"
 					]
 				},
 				{
@@ -79435,7 +79564,8 @@
 					"maxSpeed": 135,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
-						"SE", "ETCS"
+						"SE",
+						"ETCS"
 					]
 				},
 				{
@@ -79445,7 +79575,8 @@
 					"maxSpeed": 135,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
-						"SE", "ETCS"
+						"SE",
+						"ETCS"
 					]
 				},
 				{
@@ -79455,7 +79586,8 @@
 					"maxSpeed": 160,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
-						"SE", "ETCS"
+						"SE",
+						"ETCS"
 					]
 				},
 				{
@@ -79465,7 +79597,8 @@
 					"maxSpeed": 120,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
-						"SE", "ETCS"
+						"SE",
+						"ETCS"
 					]
 				},
 				{
@@ -79475,7 +79608,8 @@
 					"maxSpeed": 90,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
-						"SE", "ETCS"
+						"SE",
+						"ETCS"
 					]
 				}
 			]
@@ -79675,7 +79809,8 @@
 				}
 			]
 		},
-		{	"name": "Kleine Murrbahn",
+		{
+			"name": "Kleine Murrbahn",
 			"twistingFactor": 0.0,
 			"maxSpeed": 120,
 			"electrified": true,
@@ -79730,7 +79865,8 @@
 				}
 			]
 		},
-		{	"name": "Remsbahn",
+		{
+			"name": "Remsbahn",
 			"twistingFactor": 0.0,
 			"maxSpeed": 140,
 			"electrified": true,
@@ -79851,7 +79987,8 @@
 				}
 			]
 		},
-		{	"name": "Murrbahn",
+		{
+			"name": "Murrbahn",
 			"twistingFactor": 0.0,
 			"maxSpeed": 130,
 			"electrified": true,
