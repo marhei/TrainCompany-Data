@@ -71914,10 +71914,24 @@
 			"objects": [
 				{
 					"start": "🇨🇭RTR",
+					"end": "🇨🇭MGT",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MGT",
+					"end": "🇨🇭ROG",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭ROG",
 					"end": "XSLT",
-					"length": 13,
-					"maxSpeed": 125,
-					"twistingFactor": 0.2
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XSLT",
@@ -71928,11 +71942,25 @@
 				},
 				{
 					"start": "XSHZ",
-					"end": "🇨🇭BDF",
-					"length": 16,
-					"maxSpeed": 125,
-					"twistingFactor": 0.26
+					"end": "🇨🇭RTW",
+					"length": 5,
+					"maxSpeed": 135,
+					"twistingFactor": 0.1
 				},
+				{
+					"start": "🇨🇭RTW",
+					"end": "🇨🇭WY",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭WY",
+					"end": "🇨🇭BDF",
+					"length": 7,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},				
 				{
 					"start": "🇨🇭BDF",
 					"end": "XSBE",
@@ -80032,6 +80060,72 @@
 					"length": 7,
 					"maxSpeed": 140,
 					"twistingFactor": 0.20
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"name": "Emmentalbahn",
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSSO",
+					"end": "🇨🇭BIST",
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭BIST",
+					"end": "🇨🇭GLF",
+					"length": 1,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭GLF",
+					"end": "🇨🇭WR",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭WR",
+					"end": "🇨🇭UT",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭UT",
+					"end": "🇨🇭AEF",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭AEF",
+					"end": "🇨🇭KIAL",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭KIAL",
+					"end": "🇨🇭BDFB",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭BDFB",
+					"end": "🇨🇭BDF",
+					"length": 1,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
 				}
 			]
 		}

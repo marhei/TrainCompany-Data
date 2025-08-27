@@ -8977,7 +8977,7 @@
 					"stations": [ "XSBL", "XSBE", "XSSP", "XSIO" ]
 				},
 				{
-					"stations": [ "XSOL", "🇨🇭RTR", "XSLT", "XSHZ", "🇨🇭BDF", "XSBE" ]
+					"stations": [ "XSOL", "🇨🇭RTR", "XSLT", "XSHZ", "🇨🇭WY", "🇨🇭BDF", "XSBE" ]
 				},
 				{
 					"stations": [ "XSBE", "🇨🇭PUI", "XSLA" ]
@@ -11545,6 +11545,42 @@
 			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "S41 der S-Bahn Bern von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Fahre die S-Bahn durch das Emmental."
+			],
+			"stations": [ "🇨🇭BDF", "🇨🇭WR", "XSSO" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Kombi-Shuttle von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Dieser Kombi-Shuttle zur Versorgung des Cargodrome Wiler muss von %s nach %s.",
+			],
+			"objects": [
+				{
+					"stations": [ "🇨🇭WR", "EDG" ]
+				},
+				{
+					"stations": [ "🇨🇭WR", "XID" ]
+				},
+				{
+					"stations": [ "EDG", "🇨🇭WR", "XID" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 30}
 			]
 		}
 	]
