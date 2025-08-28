@@ -6327,17 +6327,48 @@
 			]
 		},
 		{
-			"group": 1,
-			"name": "Regionalzug von %s nach %s",
+			"name": "Pågatågen von %s nach %s",
 			"service": 2,
 			"descriptions": [
 				"Verbinde %s mit %s.",
-				"Fahre den Zug zwischen %s und %s."
+				"Fahre durch Skåne"
 			],
-			"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "🇸🇪LK", "XVH" ],
+			"objects": [
+				{
+					"stations": [ "XVHL", "XVH" ]
+				},
+				{
+					"stations": [ "XVH", "🇸🇪KL", "XVLD", "XVM", "XVY", "🇸🇪7400088" ]
+				},
+				{
+					"stations": [ "XVH", "🇸🇪7400108", "XVEV", "XVLD", "XVM" ]
+				},
+				{
+					"stations": [ "🇸🇪7400073", "🇸🇪7400200" ]
+				},
+				{
+					"stations": [ "🇸🇪7400200", "XVHH", "XVLD", "XVM", "XVT" ]
+				},
+				{
+					"stations": [ "XVH", "🇸🇪7400018", "XVHH", "🇸🇪7400200" ]
+				},
+				{
+					"stations": [ "XVHH", "🇸🇪7400117" ]
+				},
+				{
+					"stations": [ "🇸🇪7400018", "🇸🇪7400108", "🇸🇪KL", "XVLD", "XVM" ]
+				},
+				{
+					"stations": [ "XVAH", "XVHH", "XVM" ]
+				},
+				{
+					"stations": [ "XVM", "🇸🇪O11020545891", "🇸🇪KL"]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
-			]
+			],
+			"stopsEverywhere": true
 		},
 		{
 			"group": 1,
