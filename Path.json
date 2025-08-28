@@ -11623,6 +11623,155 @@
 				}
 			]
 		},
+	{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 127,
+			"twistingFactor": 0.2,
+			"name": "Peninsular Corridor",
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸SJC",
+					"end": "🇺🇸SCC",
+					"length": 4
+				},
+				{
+					"start": "🇺🇸SCC",
+					"end": "🇺🇸MTV",
+					"length": 13
+				},
+				{
+					"start": "🇺🇸MTV",
+					"end": "🇺🇸PAL",
+					"length": 10
+				},
+				{
+					"start": "🇺🇸PAL",
+					"end": "🇺🇸RWC",
+					"length": 16
+				},
+				{
+					"start": "🇺🇸RWC",
+					"end": "🇺🇸HIL",
+					"length": 16
+				},
+				{
+					"start": "🇺🇸HIL",
+					"end": "🇺🇸MIL",
+					"length": 10
+				},
+				{
+					"start": "🇺🇸MIL",
+					"end": "🇺🇸SFK",
+					"length": 22,
+					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 320,
+			"twistingFactor": 0.2,
+			"name": "Brightline West",
+			"neededEquipments": [
+				"US",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸LVN",
+					"end": "🇺🇸VCC",
+					"length": 275
+				},
+				{
+					"start": "🇺🇸VCC",
+					"end": "🇺🇸HES",
+					"length": 39
+				},
+				{
+					"start": "🇺🇸HES",
+					"end": "🇺🇸RCU",
+					"length": 47
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"maxSpeed": 320,
+			"twistingFactor": 0.2,
+			"name": "High Desert Corridor",
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸VCC",
+					"end": "🇺🇸PAV",
+					"length": 87
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 127,
+			"twistingFactor": 0.2,
+			"name": "Pasadena Subdivision",
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸SBD",
+					"end": "🇺🇸RCU",
+					"length": 23
+				},
+				{
+					"start": "🇺🇸SBD",
+					"end": "🇺🇸LAX",
+					"length": 68
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 127,
+			"twistingFactor": 0.35,
+			"name": "Pasadena Subdivision",
+			"neededEquipments": [
+				"US"
+			],
+			"objects": [
+				{
+					"start": "🇺🇸BFD",
+					"end": "🇺🇸MOJ",
+					"length": 109,
+					"maxSpeed": 80,
+					"twistingFactor": 0.8
+				},
+				{
+					"start": "🇺🇸MOJ",
+					"end": "🇺🇸PAV",
+					"length": 56
+				},
+				{
+					"start": "🇺🇸PAV",
+					"end": "🇺🇸CSC",
+					"length": 54
+				},
+				{
+					"start": "🇺🇸CSC",
+					"end": "🇺🇸LAX",
+					"length": 55
+				}
+			]
+		},
 		{
 			"group": 0,
 			"name": "Hauptverbindung Schweinfurt–Erfurt",
@@ -18782,6 +18931,114 @@
 					"length": 43,
 					"maxSpeed": 130,
 					"twistingFactor": 0.23
+				}
+			]
+		},
+		{
+			"name": "Nynäsbanan",
+			"neededEquipments": [
+				"SE"
+			],
+			"group": 1,
+			"electrified": true,
+			"objects": [
+				{
+					"start": "XVAJ",
+					"end": "🇸🇪7400487",
+					"length": 7,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇸🇪7400487",
+					"end": "🇸🇪7400650",
+					"length": 1,
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇪7400650",
+					"end": "🇸🇪7400613",
+					"length": 1,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400613",
+					"end": "🇸🇪O7869400053",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇸🇪O7869400053",
+					"end": "🇸🇪7400508",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400508",
+					"end": "XVJB",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XVJB",
+					"end": "🇸🇪7400663",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "🇸🇪7400663",
+					"end": "🇸🇪7400540",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400540",
+					"end": "🇸🇪7400652",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400652",
+					"end": "🇸🇪7400514",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇸🇪7400514",
+					"end": "🇸🇪7400606",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400606",
+					"end": "🇸🇪7400583",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪7400583",
+					"end": "🇸🇪7400577",
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇸🇪7400577",
+					"end": "🇸🇪7400578",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.8
 				}
 			]
 		},
@@ -37094,6 +37351,35 @@
 			]
 		},
 		{
+			"name": "Inlandsbanan",
+			"electrified": true,
+			"maxSpeed": 90,
+			"group": 1,
+			"neededEquipments": [
+				"SE"
+			],
+			"objects": [
+				{
+					"start": "🇸🇪7400222",
+					"end": "🇸🇪O7487640374",
+					"length": 16,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇸🇪O7487640374",
+					"end": "🇸🇪7400704",
+					"length": 11,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇸🇪7400704",
+					"end": "🇸🇪7400697",
+					"length": 12,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
 			"name": "Sørlandsbanen",
 			"electrified": true,
 			"group": 0,
@@ -45837,6 +46123,66 @@
 			]
 		},
 		{
+			"name": "Västerdalsbanan",
+			"electrified": false,
+			"neededEquipments": [
+				"SE"
+			],
+			"maxSpeed": 90,
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇸🇪O321452998",
+					"end": "🇸🇪O27259649",
+					"length": 22,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇸🇪O27259649",
+					"end": "🇸🇪O59686061",
+					"length": 18,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇸🇪O59686061",
+					"end": "🇸🇪O25629260",
+					"length": 26,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇪O25629260",
+					"end": "🇸🇪O24243178",
+					"length": 10,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇸🇪O24243178",
+					"end": "🇸🇪O24228615",
+					"length": 13,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇸🇪O24228615",
+					"end": "🇸🇪O321487059",
+					"length": 16,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇸🇪O321487059",
+					"end": "🇸🇪O24246192",
+					"length": 14,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇸🇪O24246192",
+					"end": "🇸🇪O321486128",
+					"length": 10,
+					"maxSpeed": 40,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"neededEquipments": [
 				"GB"
@@ -47152,8 +47498,15 @@
 				},
 				{
 					"start": "XVB",
+					"end": "🇸🇪O321452998",
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇸🇪O321452998",
 					"end": "🇸🇪7400680",
-					"length": 20,
+					"length": 12,
 					"maxSpeed": 140,
 					"twistingFactor": 0.28
 				},
@@ -63243,7 +63596,6 @@
 					"maxSpeed": 100,
 					"twistingFactor": 0.24,
 					"neededEquipments": [
-						"DE",
 						"AT"
 					]
 				},
@@ -63254,8 +63606,7 @@
 					"maxSpeed": 130,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
-						"AT",
-						"CH"
+						"AT"
 					]
 				},
 				{
@@ -69897,6 +70248,375 @@
 			]
 		},
 		{
+			"name": "Inlandsbanan",
+			"electrified": false,
+			"maxSpeed": 80,
+			"neededEquipments": [
+				"SE"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇸🇪7400119",
+					"end": "🇸🇪O284875869",
+					"length": 5,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇸🇪O284875869",
+					"end": "🇸🇪O59511575",
+					"length": 7,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇸🇪O59511575",
+					"end": "🇸🇪O1892868447",
+					"length": 11,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O1892868447",
+					"end": "🇸🇪O60012918",
+					"length": 16,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇸🇪O60012918",
+					"end": "🇸🇪O60013972",
+					"length": 22,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇪O60013972",
+					"end": "🇸🇪O60014042",
+					"length": 9,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇸🇪O60014042",
+					"end": "🇸🇪O565447866",
+					"length": 8,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇪O565447866",
+					"end": "🇸🇪O60478769",
+					"length": 6,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O60478769",
+					"end": "🇸🇪O60478889",
+					"length": 12,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇪O60478889",
+					"end": "🇸🇪O1183572829",
+					"length": 32,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇸🇪O1183572829",
+					"end": "🇸🇪O60354598",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇸🇪O60354598",
+					"end": "🇸🇪O60367488",
+					"length": 39,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇸🇪O60367488",
+					"end": "🇸🇪O60377096",
+					"length": 9,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇸🇪O60377096",
+					"end": "🇸🇪O60377199",
+					"length": 11,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇪O60377199",
+					"end": "🇸🇪O60385645",
+					"length": 12,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O60385645",
+					"end": "🇸🇪O60392186",
+					"length": 8,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O60392186",
+					"end": "🇸🇪O7369521412",
+					"length": 9,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇸🇪O7369521412",
+					"end": "🇸🇪O60402032",
+					"length": 9,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇸🇪O60402032",
+					"end": "🇸🇪O60404438",
+					"length": 14,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇸🇪O60404438",
+					"end": "🇸🇪O60204386",
+					"length": 21,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇸🇪O60204386",
+					"end": "🇸🇪O60202111",
+					"length": 8,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O60202111",
+					"end": "🇸🇪O2189698688",
+					"length": 10,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇸🇪O2189698688",
+					"end": "🇸🇪7400526",
+					"length": 12,
+					"twistingFactor": 0.35
+				}
+			]
+		},
+		{
+			"name": "Inlandsbanan",
+			"neededEquipments": [
+				"SE"
+			],
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇸🇪7400123",
+					"end": "🇸🇪O2416502247",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O2416502247",
+					"end": "🇸🇪O97181119",
+					"length": 26,
+					"maxSpeed": 100,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇸🇪O97181119",
+					"end": "🇸🇪O99280020",
+					"length": 9,
+					"maxSpeed": 100,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇸🇪O99280020",
+					"end": "🇸🇪O103052789",
+					"length": 24,
+					"maxSpeed": 100,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇸🇪O103052789",
+					"end": "🇸🇪O103053268",
+					"length": 17,
+					"maxSpeed": 85,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇸🇪O103053268",
+					"end": "🇸🇪O97748219",
+					"length": 35,
+					"maxSpeed": 85,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇸🇪O97748219",
+					"end": "🇸🇪O97748716",
+					"length": 19,
+					"maxSpeed": 85,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇸🇪O97748716",
+					"end": "🇸🇪O97196863",
+					"length": 31,
+					"maxSpeed": 85,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇸🇪O97196863",
+					"end": "🇸🇪O12227780475",
+					"length": 21,
+					"maxSpeed": 80,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇸🇪O12227780475",
+					"end": "🇸🇪O116171918",
+					"length": 33,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇸🇪O116171918",
+					"end": "🇸🇪O116071791",
+					"length": 22,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇸🇪O116071791",
+					"end": "🇸🇪O1880917281",
+					"length": 26,
+					"maxSpeed": 80,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇸🇪O1880917281",
+					"end": "🇸🇪O122503484",
+					"length": 18,
+					"maxSpeed": 80,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇸🇪O122503484",
+					"end": "🇸🇪O120404873",
+					"length": 23,
+					"maxSpeed": 80,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇸🇪O120404873",
+					"end": "🇸🇪O124448316",
+					"length": 36,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇸🇪O124448316",
+					"end": "🇸🇪O124473362",
+					"length": 12,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇸🇪O124473362",
+					"end": "🇸🇪O124515324",
+					"length": 22,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇸🇪O124515324",
+					"end": "🇸🇪O126234534",
+					"length": 20,
+					"maxSpeed": 80,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇸🇪O126234534",
+					"end": "🇸🇪O126300847",
+					"length": 14,
+					"maxSpeed": 80,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇸🇪O126300847",
+					"end": "🇸🇪O1880457762",
+					"length": 27,
+					"maxSpeed": 80,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇸🇪O1880457762",
+					"end": "🇸🇪O118405120",
+					"length": 25,
+					"maxSpeed": 80,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇸🇪O118405120",
+					"end": "🇸🇪O2226027441",
+					"length": 29,
+					"maxSpeed": 80,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇸🇪O2226027441",
+					"end": "🇸🇪O126616462",
+					"length": 18,
+					"maxSpeed": 60,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇸🇪O126616462",
+					"end": "🇸🇪O1880766960",
+					"length": 12,
+					"maxSpeed": 60,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇸🇪O1880766960",
+					"end": "🇸🇪O2403952719",
+					"length": 11,
+					"maxSpeed": 80,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇸🇪O2403952719",
+					"end": "🇸🇪O135950976",
+					"length": 38,
+					"maxSpeed": 80,
+					"twistingFactor": 0.49
+				},
+				{
+					"start": "🇸🇪O135950976",
+					"end": "🇸🇪O138056801",
+					"length": 55,
+					"maxSpeed": 80,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇸🇪O138056801",
+					"end": "🇸🇪O3317224789",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇸🇪O3317224789",
+					"end": "🇸🇪O128742223",
+					"length": 47,
+					"maxSpeed": 80,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇪O128742223",
+					"end": "XVGV",
+					"length": 52,
+					"maxSpeed": 95,
+					"twistingFactor": 0.37
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -74121,8 +74841,7 @@
 			"group": 1,
 			"electrified": true,
 			"neededEquipments": [
-				"AT",
-				"CH"
+				"AT"
 			],
 			"objects": [
 				{
@@ -74355,8 +75074,15 @@
 				},
 				{
 					"start": "🇸🇪HD",
+					"end": "XVAJ",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "XVAJ",
 					"end": "XVS",
-					"length": 13,
+					"length": 10,
 					"maxSpeed": 120,
 					"twistingFactor": 0.32
 				}

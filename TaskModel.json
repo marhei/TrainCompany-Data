@@ -412,16 +412,8 @@
 				"Fahre den ECE störungsfrei nach %2$s.",
 				"Fahre zwischen Deutschland, der Schweiz und Italien nach %2$s."
 			],
-			"objects": [
-				{
-					"stations": [ "FF", "RM", "RK", "RB", "XSB", "XSOL", "XSLU", "XSAG", "XSBZ", "XSL", "XSCH", "XIMOZ", "XIMB" ],
-					"pathSuggestion": [ "FF", "FFLF", "FDG", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSOL", "XSZG", "XSLU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSL", "XSCH", "XIMOZ", "XIMB" ]
-				},
-				{
-					"stations": [ "FF", "RM", "RK", "RB", "XSB", "XSOL", "XSBE", "XSTH", "XSFR", "XSBG", "XID", "XIR", "XIMB" ],
-					"pathSuggestion": [ "FF", "FFLF", "FDG", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RF", "RML", "RB", "XSB", "XSOL", "XSBE", "XSTH", "XSFR", "XSBG", "XID", "XIR", "XIMB" ]
-				}
-			],
+			"stations": [ "FF", "RM", "RK", "RRL", "RF", "RB", "XSB", "XSZH", "XSZU", "XSAG", "XSBZ", "XSL", "XSCH", "XIMB" ],
+			"pathSuggestion": [ "FF", "FFLF", "FDG", "FBL", "RM", "RSAB", "RGN", "RK", "RAP", "RO", "RRL", "RF", "RML", "RB", "XSB", "XSKS", "XSZH", "XSTW", "XSZU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSL", "XSCH", "XIMB" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
@@ -1593,6 +1585,26 @@
 				{ "name": "passengers" }
 			],
 			"stations": [ "🇺🇸MIA", "🇺🇸FTL", "🇺🇸O68280977", "🇺🇸WPB" ]
+		},
+		{
+			"name": "Brightline von %s nach %s",
+			"descriptions": [
+				"Fahre für Brightline durch die Wüste von %s nach %s.",
+				"Bring die Leute so schnell wie möglich von %s nach %s."
+			],
+			"group": 1,
+			"service": 1,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"objects": [
+				{
+					"stations": [ "🇺🇸LVN", "🇺🇸VCC", "🇺🇸HES", "🇺🇸RCU" ]
+				},
+				{
+					"stations": [ "🇺🇸LVN", "🇺🇸VCC", "🇺🇸PAV" ]
+				}
+			]
 		},
 		{
 			"group": 0,
@@ -6428,10 +6440,19 @@
 			],
 			"objects": [
 				{
-					"stations": [ "XVGN", "XVSD", "XVS", "🇸🇪7400243" ]
+					"stations": [ "XVGN", "XVSD", "🇸🇪HD", "XVAJ", "XVS", "🇸🇪Arnc", "XVUS" ]
 				},
 				{
-					"stations": [ "XVS", "🇸🇪Arnc", "XVUS" ]
+					"stations": [ "🇸🇪7400243", "XVUV", "XVS", "XVAJ", "🇸🇪7400578" ]
+				},
+				{
+					"stations": [ "🇸🇪7400243", "XVUV", "XVS", "XVAJ", "🇸🇪HD", "XVSD" ]
+				},
+				{
+					"stations": [ "🇸🇪7400724", "XVS", "XVAJ", "🇸🇪HD", "XVSD" ]
+				},
+				{
+					"stations": [ "🇸🇪7400724", "XVS", "XVAJ", "🇸🇪7400578" ]
 				}
 			],
 			"neededCapacity": [
@@ -6655,11 +6676,11 @@
 			"descriptions": [
 				"Fahre den wichtigen Holzzug grenzübergreifend von %s nach %s."
 			],
-			"stations": [ "XVLX", "LS" ],
+			"stations": [ "🇸🇪O321486128", "XVLX", "LS" ],
 			"neededCapacity": [
 				{ "name": "wood", "value": 2050 }
 			],
-			"pathSuggestion": [ "XVLX", "XVM", "XDKH", "XDRI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ALBG", "HU", "LS" ]
+			"pathSuggestion": [ "🇸🇪O321486128", "🇸🇪O321452998", "XVB", "XVAV", "🇸🇪7400054", "XVFV", "XVO", "XVHA", "XVLX", "XVM", "XDKH", "XDRI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ALBG", "HU", "LS" ]
 		},
 		{
 			"group": 0,
@@ -10369,8 +10390,42 @@
 				},
 				{
 					"stations": [ "🇺🇸OSD", "🇺🇸SNC", "🇺🇸ANA", "🇺🇸FUL", "🇺🇸SNB" ]
+				},
+				{
+					"stations": [ "🇺🇸LAX", "🇺🇸SBD", "🇺🇸RCU" ]
+				},
+				{
+					"stations": [ "🇺🇸LAX", "🇺🇸CSC", "🇺🇸PAV" ]
 				}
 			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Caltrain von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "🇺🇸SJC", "🇺🇸SCC", "🇺🇸MTV", "🇺🇸PAL", "🇺🇸RWC", "🇺🇸HIL", "🇺🇸MIL", "🇺🇸SFK" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "Caltrain von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre diesen Vorortzug von %s nach %s.",
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "🇺🇸SJC", "🇺🇸O6141623307" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -11271,7 +11326,7 @@
 			"service": 2,
 			"descriptions": [
 				"Du wurdest beauftragt, um eine Testfahrt auf der künftigen Strecke des RE1 vor der Inbetriebnahme von S21 durchzuführen. Für die Fahrt auf der Schnellfahrstrecke brauchst du ein ETCS-fähiges Fahrzeug.",
-				"Stuttgart 21 wird bald fertig und es heißt nun: Testfahrten durchführen. Fahre die Strecke künftige Strecke des RE1 von %s bis %s ab."
+				"Stuttgart 21 wird bald fertig und es heißt nun: Testfahrten durchführen. Fahre die künftige Strecke des RE1 von %s bis %s ab."
 			],
 			"stations": [ "RK", "TPH", "TV", "TS", "TMKL", "TU", "TBI", "TAU", "TRB", "TMK", "TF", "MLIR" ],
 			"neededCapacity": [
