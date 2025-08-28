@@ -44346,6 +44346,63 @@
 		},
 		{
 			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"SE"
+			],
+			"objects": [
+				{
+					"name": "Godsstråket genom Skåne",
+					"start": "🇸🇪KL",
+					"end": "🇸🇪7400108",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"name": "Södersbanan",
+					"start": "🇸🇪7400108",
+					"end": "🇸🇪O11021023042",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.23
+				},
+				{
+					"name": "Södersbanan",
+					"start": "🇸🇪O11021023042",
+					"end": "🇸🇪O9340550521",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				},
+				{
+					"name": "Södersbanan",
+					"start": "🇸🇪O9340550521",
+					"end": "🇸🇪O9340550522",
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
+				},
+				{
+					"name": "Södersbanan",
+					"start": "🇸🇪O9340550522",
+					"end": "🇸🇪7400018",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"name": "Godsstråket genom Skåne",
+					"start": "🇸🇪7400018",
+					"end": "XVA",
+					"length": 14,
+					"maxSpeed": 130,
+					"twistingFactor": 0.12
+				}
+			]
+		},
+		{
+			"electrified": true,
 			"group": 1,
 			"objects": [
 				{
@@ -68190,6 +68247,65 @@
 					"end": "LGH",
 					"length": 6,
 					"maxSpeed": 130
+				}
+			]
+		},
+		{
+			"group": 1,
+			"neededEquipments": [
+				"SE"
+			],
+			"electrified": true,
+			"name": "Rååbanan",
+			"objects": [
+				{
+					"start": "XVH",
+					"end": "🇸🇪7400852",
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇸🇪7400852",
+					"end": "🇸🇪7400841",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇸🇪7400841",
+					"end":  "🇸🇪7400865",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start":  "🇸🇪7400865",
+					"end": "🇸🇪7400307",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇸🇪7400307",
+					"end": "🇸🇪7400108",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇪7400108",
+					"end": "🇸🇪O9952740460",
+					"length": 4,
+					"maxSpeed": 130,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇪O9952740460",
+					"end": "XVEV",
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
 				}
 			]
 		},
