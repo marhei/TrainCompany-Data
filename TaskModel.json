@@ -6636,6 +6636,32 @@
 		},
 		{
 			"group": 1,
+			"name": "TågAB von %s nach %s",
+			"service": 1,
+			"description": [
+				"Fahre für TågAB durch Schweden"
+			],
+			"objects": [
+				{
+					"stations": [ Kil - Alvesta]
+				},
+				{
+					"stations": [ Stockholm - Karlstadt - Kil - Alvesta]
+				},
+				{
+					"stations": [ Falun - Kil - Göteborg ]
+				},
+				{
+					"stations": [ Mora - Kristinehamn ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Arlanda Express von %s nach %s",
 			"service": 1,
 			"descriptions": [
