@@ -64475,7 +64475,7 @@
 		},
 		{
 			"electrified": true,
-			"group": 0,
+			"group": 1,
 			"maxSpeed": 120,
 			"twistingFactor": 0.1,
 			"neededEquipments": [
@@ -64496,9 +64496,58 @@
 				},
 				{
 					"start": "XSR",
-					"end": "XSSG",
-					"length": 21,
+					"end": "🇨🇭NK",
+					"length": 3,
 					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭NK",
+					"end": "🇨🇭STB",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭STB",
+					"end": "🇨🇭MUO",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭MUO",
+					"end": "🇨🇭HAEW",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭HAEW",
+					"end": "🇨🇭ROBG",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭ROBG",
+					"end": "🇨🇭WIT",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭WIT",
+					"end": "🇨🇭SGF",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭SGF",
+					"end": "XSSG",
+					"length": 3,
+					"maxSpeed": 85,
 					"twistingFactor": 0.2
 				}
 			]
@@ -73561,23 +73610,65 @@
 		},
 		{
 			"electrified": true,
-			"group": 0,
+			"group": 1,
 			"neededEquipments": [
 				"CH"
 			],
 			"objects": [
 				{
 					"start": "XSSG",
-					"end": "🇨🇭HE",
-					"length": 8,
+					"end": "🇨🇭SGHA",
+					"length": 3,
 					"maxSpeed": 85,
-					"twistingFactor": 0.3
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭SGHA",
+					"end": "🇨🇭HE",
+					"length": 5,
+					"maxSpeed": 85,
+					"twistingFactor": 0.5
 				},
 				{
 					"start": "🇨🇭HE",
-					"end": "🇨🇭WA",
-					"length": 23,
+					"end": "🇨🇭SCH",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "🇨🇭SCH",
+					"end": "🇨🇭DG",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "🇨🇭DG",
+					"end": "🇨🇭MOG",
+					"length": 5,
+					"maxSpeed": 95,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "🇨🇭MOG",
+					"end": "🇨🇭BRN",
+					"length": 4,
 					"maxSpeed": 85,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "🇨🇭BRN",
+					"end": "🇨🇭LSG",
+					"length": 4,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭LSG",
+					"end": "🇨🇭WA",
+					"length": 3,
+					"maxSpeed": 100,
 					"twistingFactor": 0.4
 				},
 				{
@@ -81538,6 +81629,47 @@
 					"end": "TSHT",
 					"length": 12,
 					"maxSpeed": 120
+				}
+			]
+		},
+		{	"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne 17",
+			"maxSpeed": 110,
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "XFHG",
+					"end": "OFSGH",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "OFSGH",
+					"end": "OFMZS",
+					"length": 7,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "OFMZS",
+					"end": "OFGH",
+					"length": 4,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "OFGH",
+					"end": "OFRHV",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "OFRHV",
+					"end": "OFNBN",
+					"length": 3,
+					"twistingFactor": 0.2
 				}
 			]
 		},
