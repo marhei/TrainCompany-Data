@@ -1989,9 +1989,73 @@
 				"SE"
 			],
 			"operationCosts": 65,
-			"cost": 450000,
+			"cost": 650000,
+			"capacity": [
+				{"name": "passengers", "value": 374},
+				{"name": "bistroseats", "value": 4}
+			]
+		},
+		{
+			"id": 3241,
+			"group": 2,
+			"name": "Alstom Coradia Nordic",
+			"shortcut": "X60",
+			"speed": 160,
+			"weight": 150,
+			"force": 320,
+			"length": 107,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 2,
+			"equipments": [
+				"SE"
+			],
+			"operationCosts": 55,
+			"cost": 550000,
 			"capacity": [
 				{"name": "passengers", "value": 374}
+			]
+		},
+		{
+			"id": 3242,
+			"group": 2,
+			"name": "Alstom Coradia Nordic",
+			"shortcut": "X61",
+			"speed": 160,
+			"weight": 133,
+			"force": 320,
+			"length": 74,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 3,
+			"equipments": [
+				"SE"
+			],
+			"operationCosts": 55,
+			"cost": 450000,
+			"capacity": [
+				{"name": "passengers", "value": 240}
+			]
+		},
+		{
+			"id": 323,
+			"group": 3,
+			"name": "Alstom Coradia X3",
+			"shortcut": "Arlanda Express",
+			"speed": 200,
+			"weight": 193,
+			"force": 320,
+			"length": 93,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 1,
+			"equipments": [
+				"SE"
+			],
+			"operationCosts": 70,
+			"cost": 850000,
+			"capacity": [
+				{"name": "passengers", "value": 190}
 			]
 		},
 		{
