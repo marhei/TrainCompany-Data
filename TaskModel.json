@@ -6440,16 +6440,37 @@
 					"stations": [ "XVS", "XVUV", "XVKNV", "XVUS", "XVGA", "🇸🇪7400091", "XVSU" ]
 				},
 				{
+					"stations": [ "XONA", "🇸🇪7402007" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Norrtåg von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im schwedischen Norden nach %2$s",
+				"Fahre diesen Regionalzug zwischen %s und %s."
+			],
+			"objects": [
+				{
 					"stations": [ "XVSU", "🇸🇪7400124", "XVUM" ]
 				},
 				{
 					"stations": [ "XVUM", "🇸🇪7400104", "XVBN", "🇸🇪7400064" ]
 				},
 				{
-					"stations": [ "XVLL", "XVBN", "🇸🇪7402007" ]
+					"stations": [ "XVUM", "🇸🇪7400104", "XVVID" ]
 				},
 				{
-					"stations": [ "XONA", "🇸🇪7402007" ]
+					"stations": [ "XVLL", "XVBN", "XVG", "🇸🇪7402007" ]
+				},
+				{
+					"stations": [ "XVLL", "XVBN", "XVKX" ,"🇸🇪7400064" ]
 				}
 			],
 			"stopsEverywhere": true,
