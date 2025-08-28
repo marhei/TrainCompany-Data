@@ -1264,11 +1264,96 @@
 			"reliability": 0.9,
 			"cost": 380000,
 			"maxConnectedUnits": 2,
+			"compatibleWith": [85561, 85562],
 			"operationCosts": 75,
-			"equipments": ["CH", "AT"],
+			"equipments": ["CH", "ETCS"],
 			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 220}
+			]
+		},
+		{
+			"id": 85561,
+			"group": 2,
+			"service": 2,
+			"name": "SBB RBDe 561",
+			"speed": 140,
+			"weight": 280,
+			"force": 182,
+			"length": 100,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 380000,
+			"maxConnectedUnits": 2,
+			"compatibleWith": [85560, 85562],
+			"operationCosts": 75,
+			"equipments": ["CH", "DE", "AT"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 220}
+			]
+		},
+		{
+			"id": 85562,
+			"group": 2,
+			"service": 2,
+			"name": "SBB RBDe 562",
+			"speed": 140,
+			"weight": 280,
+			"force": 182,
+			"length": 100,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 380000,
+			"maxConnectedUnits": 2,
+			"compatibleWith": [85560, 85561],
+			"operationCosts": 75,
+			"equipments": ["CH", "FR"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 220}
+			]
+		},
+		{
+			"id": 85591007,
+			"group": 2,
+			"service": 2,
+			"name": "OeBB Roter Pfeil",
+			"shortcut": "OeBB RCe 2/4 607",
+			"speed": 80,
+			"weight": 38,
+			"force": 26,
+			"length": 22,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 200000,
+			"maxConnectedUnits": 1,
+			"operationCosts": 50,
+			"equipments": ["CH"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 58}
+			]
+		},
+		{
+			"id": 85591021,
+			"group": 2,
+			"service": 2,
+			"name": "Churchill-Pfeil",
+			"shortcut": "SBB RAe 4/8 1021",
+			"speed": 125,
+			"weight": 93,
+			"force": 26,
+			"length": 46,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 250000,
+			"maxConnectedUnits": 1,
+			"operationCosts": 80,
+			"equipments": ["CH"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 112}
 			]
 		},
 		{
@@ -5233,7 +5318,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 45,
 			"exchangeTime": 60,
-			"equipments": ["SE", "RS", "HR", "NO"],
+      "equipments": ["SE", "RS", "HR", "NO", "XK"],
 			"capacity": [
 				{"name": "passengers", "value": 68}
 			]
@@ -6376,7 +6461,49 @@
 			"reliability": 0.9,
 			"cost": 250000,
 			"operationCosts": 110,
-			"equipments": ["CH", "AT", "DE", "ETCS"]
+			"equipments": ["CH", "ETCS"]
+		},
+		{
+			"id": 811142,
+			"group": 0,
+			"name": "ÖBB Rh 1142",
+			"speed": 150,
+			"weight": 84,
+			"force": 225,
+			"length": 16,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 250000,
+			"operationCosts": 110,
+			"equipments": ["DE", "AT"]
+		},
+		{
+			"id": 851042,
+			"group": 0,
+			"name": "VNPZ Rh 1042",
+			"speed": 130,
+			"weight": 84,
+			"force": 260,
+			"length": 16,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 250000,
+			"operationCosts": 110,
+			"equipments": ["CH", "DE", "AT"]
+		},
+		{
+			"id": 85421,
+			"group": 0,
+			"name": "SBB Re 421",
+			"speed": 140,
+			"weight": 85,
+			"force": 255,
+			"length": 15,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 250000,
+			"operationCosts": 110,
+			"equipments": ["CH", "AT", "DE"]
 		},
 		{
 			"id": 85460,
@@ -7671,7 +7798,21 @@
             "cost": 350000,
             "operationCosts": 130,
             "equipments": ["CH", "DE", "LU", "AT", "FR", "IT", "SE", "ETCS"]
-        }, 
+        },
+		{
+            "id": 1700,
+            "group": 0,
+            "name": "Vossloh G 1700-2 BB",
+            "speed": 100,
+            "weight": 88,
+            "force": 291,
+            "length": 15,
+            "drive": 2,
+            "reliability": 0.95,
+            "cost": 370000,
+            "operationCosts": 125,
+            "equipments": ["CH", "DE", "AT", "FR", "IT", "XK", "ES", "ETCS"]
+        },	
 		{
             "id": 72000,
             "group": 0,
@@ -7943,7 +8084,7 @@
 			"reliability": 0.8,
 			"cost": 180000,
 			"operationCosts": 180,
-			"equipments": ["DK", "NO", "HU", "DE", "SE", "BE", "LU"]
+			"equipments": ["DK", "NO", "HU", "DE", "SE", "BE", "LU", "XK"]
 		},
 		{
 			"id": 861461,
@@ -8083,7 +8224,7 @@
 			"reliability": 0.8,
 			"cost": 350000,
 			"operationCosts": 125,
-			"equipments": ["SI", "HR", "RS", "ME", "BA"]
+			"equipments": ["SI", "HR", "RS", "ME", "BA", "XK"]
 		},
 		{
 			"id": 72645,
