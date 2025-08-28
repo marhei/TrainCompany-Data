@@ -9213,6 +9213,20 @@
 			"group": 1
 		},
 		{
+			"name": "S27 der SOB von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre die Entlastungs-S-Bahn von %s nach %s.",
+				"Fahre den March-Shuttle von %s nach %s."
+			],
+			"stations": [ "XSSW", "XSZB" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 0
+		},
+		{
 			"name": "Regionalbahn von %s nach %s",
 			"service": 2,
 			"descriptions": [
