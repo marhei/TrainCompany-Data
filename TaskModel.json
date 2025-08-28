@@ -11873,6 +11873,21 @@
 			"neededCapacity": [
 				{ "name": "containers", "value": 30}
 			]
+		},
+		{
+			"group": 1,
+			"name": "TER von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den TER der Linie C36+ von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Auf geht's nach %2$s, deine Fahrgäste warten schon geduldig auf dich!"
+			],
+			"stations": [ "XFSTG", "XFHG", "OFSGH", "OFMZS", "OFGH", "OFRHV", "OFNBN" ],
+			"pathSuggestion": [ "XFSTG", "XFMUM", "XFVH", "XFHG", "OFSGH", "OFMZS", "OFGH", "OFRHV", "OFNBN" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
