@@ -424,6 +424,14 @@
 				{
 					"stations": [ "XSZH", "XSB", "XFMV", "XFBMT", "XFPO" ],
 					"pathSuggestion": [ "XSZH", "XSKS", "XSB", "XFMV", "XFBMT", "XFBTV", "🇫🇷GLS", "XFD", "🇫🇷PAI", "🇫🇷SIF", "🇫🇷MOIS", "XFCQ", "XFPO" ]
+				},
+				{
+					"stations": [ "XSLA", "🇨🇭VAL", "🇫🇷FRA", "XFMOU", "XFDO", "XFD", "XFPO" ],
+					"pathSuggestion": [ "XSLA", "🇨🇭COS", "🇨🇭VAL", "🇫🇷FRA", "XFMOU", "XFDO", "🇫🇷GLS", "XFD", "🇫🇷PAI", "🇫🇷SIF", "🇫🇷PAI", "🇫🇷SIF", "🇫🇷MOIS", "XFCQ", "XFPO" ]
+				},
+				{
+					"stations": [ "XSGE", "XFBA", "XFLPD", "XFPO" ],
+					"pathSuggestion": [ "XSGE", "XFBA", "XFCZ", "XFLPD", "XFSRI", "XFMAL", "🇫🇷PAI", "🇫🇷SIF", "🇫🇷MOIS", "XFCQ", "XFPO" ]
 				}
 			]
 		},
@@ -5875,7 +5883,11 @@
 				},
 				{
 					"stations": [ "🇨🇭SE", "XSSN" ],
-					"pathSuggestion": [ "🇨🇭SE", "XSLU", "XSZG", "🇨🇭RTR", "XSLT" , "🇨🇭BDF", "XSBE", "XSSP", "XSFR", "XSKA", "XSGO", "XSBG", "XSLE", "XSSN" ]
+					"pathSuggestion": [ "🇨🇭SE", "XSLU", "XSZG", "XSLT" , "XSHZ", "XSBE", "XSSP", "XSFR", "XSKA", "XSGO", "XSBG", "XSVI", "XSLE", "XSSN" ]
+				},
+				{
+					"stations": [ "XSF", "RF" ],
+					"pathSuggestion": [ "XSF", "XSBE", "XSBL", "XSGRN" , "XSB", "RB", "RML", "RF" ]
 				}
 			],
 			"neededCapacity": [
@@ -11703,6 +11715,28 @@
 			"pathSuggestion": [ "RK", "TPH", "TV", "TS", "TWN", "TSF", "TSG", "TA" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "EC nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre den Deutsch-Schweizerischen EuroCity nach %s.",
+				"Heute gehts mit dem EuroCity über die Grenze nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XSIO", "XSSP", "XSTH", "XSBE", "XSOL", "XSB", "RB", "RF", "RK", "RM", "FMZ", "KKO", "KB", "KK", "KSO", "KW", "EHG", "EDO" ],
+					"pathSuggestion": [ "XSIO", "XSSP", "XSTH", "XSBE", "🇨🇭WANZ", "🇨🇭RTR", "XSOL", "XSB", "RB", "RML", "RF", "RO", "RAP", "RK", "RGN", "RSAB", "RM", "RFT", "FWOR", "FMZ", "FGAL", "FBGK", "KBOP", "KKO", "KAND", "KB", "KKAS", "KK", "KSO", "KW", "EHG", "EWIT", "EDO" ]
+				},
+				{
+					"stations": [ "XSZH", "XSB", "RB", "RF", "RBB", "RK", "RM", "FMZ", "KKO", "KB", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EMST", "HO", "HB", "AHAR", "AH", "AA" ],
+					"pathSuggestion": [ "XSZH", "XSKS", "XSLB", "XSOL", "XSSC", "XSB", "RB", "RML", "RF", "RO", "RAP", "RBB", "RK", "RGN", "RSAB", "RM", "RFT", "FWOR", "FMZ", "FGAL", "FBGK", "KBOP", "KKO", "KAND", "KB", "KKAS", "KK", "KD", "EDG", "EE", "EBO", "EDO", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers"}
 			]
 		},
 		{
