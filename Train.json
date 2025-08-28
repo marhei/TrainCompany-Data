@@ -1497,9 +1497,10 @@
 			"id": 8724500,
 			"group": 2,
 			"name": "SNCF Z 24500",
+			"shortcut": "TER 2N NG",
 			"service": 2,
-			"speed": 140,
-			"weight": 125,
+			"speed": 160,
+			"weight": 193,
 			"force": 290,
 			"length": 80,
 			"drive": 1,
@@ -1507,10 +1508,30 @@
 			"cost": 550000,
 			"maxConnectedUnits": 3,
 			"operationCosts": 55,
-			"equipments": ["FR", "LU", "SE", "ETCS"],
+			"equipments": ["FR", "LU", "ETCS"],
 			"exchangeTime": 100,
 			"capacity": [
-				{"name": "passengers", "value": 330}
+				{"name": "passengers", "value": 339}
+			]
+		},
+		{
+			"id": 8724501,
+			"group": 2,
+			"name": "SJ X40",
+			"service": 2,
+			"speed": 200,
+			"weight": 205,
+			"force": 290,
+			"length": 80,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 550000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 55,
+			"equipments": ["SE", "ETCS"],
+			"exchangeTime": 100,
+			"capacity": [
+				{"name": "passengers", "value": 252}
 			]
 		},
 		{
@@ -5148,7 +5169,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 45,
 			"exchangeTime": 60,
-			"equipments": ["SE", "RS", "HR"],
+			"equipments": ["SE", "RS", "HR", "NO"],
 			"capacity": [
 				{"name": "passengers", "value": 68}
 			]
@@ -6319,7 +6340,8 @@
 			"drive": 4,
 			"reliability": 0.95,
 			"cost": 220000,
-			"operationCosts": 16,
+			"range": 1000,
+			"operationCosts": 80,
 			"equipments": ["CH", "ETCS"]
 		},
 		{
@@ -6334,7 +6356,7 @@
 			"drive": 2,
 			"reliability": 0.93,
 			"cost": 160000,
-			"operationCosts": 20,
+			"operationCosts": 70,
 			"equipments": ["CH", "ETCS", "DE"]
 		},
 		{
