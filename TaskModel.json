@@ -12420,6 +12420,31 @@
 			"name": "Holzzug von %s nach %s",
 			"service": 11,
 			"descriptions": [
+				"Fahre diesen Holzzug Störungsfrei von %s nach %s" 
+			],
+			"objects": [
+				{
+					"stations": [ "RIM", "MKFG" ]
+				},
+				{
+					"stations": [ "RDO", "US" ]
+				},
+				{
+					"stations": [ "TMG", "TFD" ]
+				},
+				{
+					"stations": [ "KK", "XSLT" ]
+				},
+			],
+			"neededCapacity": [
+				{ "wood": , "478": }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Holzzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
 				"Fahre Holz zum Bau einer Kirche in Südbayern" 
 			],
 			"objects": [
