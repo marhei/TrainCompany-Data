@@ -379,8 +379,8 @@
 					"pathSuggestion": [ "XSLU", "XSAG", "XSZU", "XSTW", "XSZH", "XSZO", "XSWT", "XSWI", "XSSG", "XSRS", "XSSM", "XSHR", "XSAS", "XSBU", "XSSR", "XSLQ", "XSC" ]
 				},
 				{
-					"stations": [ "XSZH", "XSZU", "XSAG", "XSSY", "XSADF", "XSEF", "XSGS", "XSAI", "XSFD", "XSBOD", "XSBC", "XSCA", "XSBZ", "XSLC" ],
-					"pathSuggestion": [ "XSZH", "XSTW", "XSZU", "XSAG", "XSSY", "XSADF", "XSEF", "XSGS", "XSAI", "XSFD", "XSBOD", "XSBC", "XSCA", "XSBZ", "XSLC" ]
+					"stations": [ "XSZH", "XSZU", "XSAG", "XSSY", "🇨🇭BRU", "XSADF", "XSEF", "XSGS", "XSAI", "XSFD", "XSBOD", "XSBC", "XSCA", "XSBZ", "XSLC" ],
+					"pathSuggestion": [ "XSZH", "XSTW", "XSZU", "XSAG", "XSSY", "🇨🇭BRU", "XSADF", "XSEF", "XSGS", "XSAI", "XSFD", "XSBOD", "XSBC", "XSCA", "XSBZ", "XSLC" ]
 				}
 			]
 		},
@@ -5886,6 +5886,10 @@
 					"pathSuggestion": [ "🇨🇭SE", "XSLU", "XSZG", "XSLT" , "XSHZ", "XSBE", "XSSP", "XSFR", "XSKA", "XSGO", "XSBG", "XSVI", "XSLE", "XSSN" ]
 				},
 				{
+					"stations": [ "XSRTT", "🇦🇹02130" ],
+					"pathSuggestion": [ "XSRTT", "🇨🇭BIB", "🇨🇭SAM", "XSPF" , "XSSR", "XSBU", "XAFK", "XAI", "🇦🇹Fw Z2", "🇦🇹Rdf", "XAWL", "XASW", "🇦🇹02130" ]
+				},
+				{
 					"stations": [ "XSF", "RF" ],
 					"pathSuggestion": [ "XSF", "XSBE", "XSBL", "XSGRN" , "XSB", "RB", "RML", "RF" ]
 				}
@@ -9044,7 +9048,7 @@
 					"stations": [ "XSOL", "XSZG", "XSSUS", "XSLU", "XSAG" ]
 				},
 				{
-					"stations": [ "XSZH", "XSTW", "XSPF", "XSSR" ]
+					"stations": [ "XSZH", "XSTW", "XSWW", "XSPF", "XSSR" ]
 				},
 				{
 					"stations": [ "RKO", "XSR", "XSSG", "🇨🇭HE" ]
@@ -9092,10 +9096,10 @@
 			"group": 1,
 			"objects": [
 				{
-					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "XSAI", "XSEF", "XSADF", "XSSY", "XSAG", "XSZU", "XSTW", "XSZH" ]
+					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "XSAI", "XSEF", "XSADF", "🇨🇭BRU", "XSSY", "XSAG", "XSZU", "XSTW", "XSZH" ]
 				},
 				{
-					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "XSAI", "XSEF", "XSADF", "XSSY", "XSAG", "XSIM", "XSLU", "XSSUS", "XSN", "XSZG", "XSOL", "XSSC", "XSB" ]
+					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "XSAI", "XSEF", "XSADF", "🇨🇭BRU", "XSSY", "XSAG", "XSIM", "XSLU", "XSSUS", "XSN", "XSZG", "XSOL", "XSSC", "XSB" ]
 				},
 				{
 					"stations": [ "XSBE", "🇨🇭BDF", "XSHZ", "XSLT", "XSOL", "XSZH", "XSTW", "XSWW", "XSPF", "XSZB", "XSWA", "XSSR", "XSLQ", "XSC" ]
@@ -9135,7 +9139,7 @@
 			"descriptions": [
 				"Fahre von %s nach %s."
 			],
-			"stations": [ "XSZU", "XSAG", "XSSY", "XSEF" ],
+			"stations": [ "XSZU", "XSAG", "🇨🇭BRU", "XSEF" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -9207,6 +9211,20 @@
 				{ "name": "passengers" }
 			],
 			"group": 1
+		},
+		{
+			"name": "S27 der SOB von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre die Entlastungs-S-Bahn von %s nach %s.",
+				"Fahre den March-Shuttle von %s nach %s."
+			],
+			"stations": [ "XSSW", "XSZB" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 0
 		},
 		{
 			"name": "Regionalbahn von %s nach %s",
@@ -11888,6 +11906,58 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"name": "S13 der Südostbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [  "XSWW", "🇨🇭SAM", "🇨🇭BIB", "🇨🇭EIS" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S31 der Südostbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSAG", "🇨🇭BIB" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S40 der Südostbahn von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "🇨🇭RW", "XSPF", "🇨🇭SAM", "🇨🇭BIB", "🇨🇭EIS" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
+		},
+		{
+			"name": "S3 der S-Bahn Luzern von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre von %s nach %s."
+			],
+			"stations": [ "XSLU", "🇨🇭MERL", "XSIM", "XSAG", "🇨🇭BRU" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1
 		}
 	]
 }
