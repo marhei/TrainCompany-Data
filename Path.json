@@ -64478,8 +64478,15 @@
 				},
 				{
 					"start": "XSRS",
+					"end": "🇨🇭SGF",
+					"length": 13,
+					"maxSpeed": 85,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭SGF",
 					"end": "XSSG",
-					"length": 15,
+					"length": 2,
 					"maxSpeed": 85,
 					"twistingFactor": 0.4
 				},
@@ -64533,62 +64540,6 @@
 					"start": "XSKL",
 					"end": "XSR",
 					"length": 18
-				},
-				{
-					"start": "XSR",
-					"end": "🇨🇭NK",
-					"length": 3,
-					"maxSpeed": 100,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "🇨🇭NK",
-					"end": "🇨🇭STB",
-					"length": 2,
-					"maxSpeed": 100,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "🇨🇭STB",
-					"end": "🇨🇭MUO",
-					"length": 2,
-					"maxSpeed": 100,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "🇨🇭MUO",
-					"end": "🇨🇭HAEW",
-					"length": 2,
-					"maxSpeed": 100,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "🇨🇭HAEW",
-					"end": "🇨🇭ROBG",
-					"length": 3,
-					"maxSpeed": 100,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "🇨🇭ROBG",
-					"end": "🇨🇭WIT",
-					"length": 3,
-					"maxSpeed": 100,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "🇨🇭WIT",
-					"end": "🇨🇭SGF",
-					"length": 3,
-					"maxSpeed": 100,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "🇨🇭SGF",
-					"end": "XSSG",
-					"length": 3,
-					"maxSpeed": 85,
-					"twistingFactor": 0.2
 				}
 			]
 		},
@@ -73815,6 +73766,73 @@
 		},
 		{
 			"electrified": true,
+			"name": "Südostbahn",
+			"group": 1,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSR",
+					"end": "🇨🇭NK",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭NK",
+					"end": "🇨🇭STB",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭STB",
+					"end": "🇨🇭MUO",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭MUO",
+					"end": "🇨🇭HAEW",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭HAEW",
+					"end": "🇨🇭ROBG",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭ROBG",
+					"end": "🇨🇭WIT",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭WIT",
+					"end": "🇨🇭SGF",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇨🇭SGF",
+					"end": "XSSG",
+					"length": 3,
+					"maxSpeed": 85,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Südostbahn",
 			"group": 1,
 			"neededEquipments": [
 				"CH"
@@ -73825,42 +73843,42 @@
 					"end": "🇨🇭SGHA",
 					"length": 3,
 					"maxSpeed": 85,
-					"twistingFactor": 0.2
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "🇨🇭SGHA",
 					"end": "🇨🇭HE",
 					"length": 5,
 					"maxSpeed": 85,
-					"twistingFactor": 0.5
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "🇨🇭HE",
 					"end": "🇨🇭SCH",
 					"length": 4,
 					"maxSpeed": 90,
-					"twistingFactor": 0.5
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "🇨🇭SCH",
 					"end": "🇨🇭DG",
 					"length": 4,
 					"maxSpeed": 90,
-					"twistingFactor": 0.5
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "🇨🇭DG",
 					"end": "🇨🇭MOG",
 					"length": 5,
 					"maxSpeed": 95,
-					"twistingFactor": 0.5
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "🇨🇭MOG",
 					"end": "🇨🇭BRN",
 					"length": 4,
 					"maxSpeed": 85,
-					"twistingFactor": 0.5
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "🇨🇭BRN",
@@ -73874,8 +73892,38 @@
 					"end": "🇨🇭WA",
 					"length": 3,
 					"maxSpeed": 100,
-					"twistingFactor": 0.4
+					"twistingFactor": 0.1
 				},
+				{
+					"start": "🇨🇭WA",
+					"end": "🇨🇭EK",
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭EK",
+					"end": "🇨🇭KRU",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭KRU",
+					"end": "🇨🇭NL",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
 				{
 					"start": "🇨🇭WA",
 					"end": "🇨🇭UZ",
