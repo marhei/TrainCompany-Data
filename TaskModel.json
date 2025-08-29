@@ -12215,5 +12215,240 @@
 			],
 			"group": 1
 		}
+		{
+			"group": 0,
+			"name": "Kerosinzug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Fahre diesen Kerosinzug sicher von %s nach %s" 
+			],	
+			"objects": [
+				{
+					"stations": [ "FFH", "XSZO" ]
+				},
+				{
+					"stations": [ "RKOR", "XSZO" ]
+				},
+				{
+					"stations": [ "MIH", "XSZO" ]
+				},
+				{
+					"stations": [ "EG", "XSOB" ]
+				},
+				{
+					"stations": [ "AHAR", "XSCO" ]
+				},
+				{
+					"stations": [ "WPS", "MFHB" ]
+				},
+				{
+					"stations": [ "RSP", "MFHB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "oil": , "2630": }
+			]
+		}
+		{
+			"group": 0,
+			"name": "Kesselzug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Fahre diesen Kesselzug sicher von %s nach %s" 
+			],
+			"objects": [
+				{
+					"stations": [ "WPS", "DNO" ]
+				},
+				{
+					"stations": [ "AHAR", "DNO" ]
+				},
+				{
+					"stations": [ "UGO", "AHAR" ]
+				}
+			],
+			"neededCapacity": [
+				{ "oil": , "1310": }
+			]
+		}
+		{
+			"group": 0,
+			"name": "Kesselzug von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Fahre diesen Kesselzug sicher von %s nach %s" 
+			],
+			"objects": [
+				{
+					"stations": [ "HGRK", "🇳🇱Lut" ]
+				},
+				{
+					"stations": [ "KSAN", "KK" ]
+				},
+				{
+					"stations": [ "XAL", "EWAN" ]
+				},
+				{
+					"stations": [ "XTPK", "XTKR" ]
+				}
+			],
+			"neededCapacity": [
+				{ "oil": , "1800": }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Autozug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Autozug von %s nach %s" 
+			],
+			"objects": [
+				{
+					"stations": [ "EWAN", "XDPA" ]
+				},
+				{
+					"stations": [ "RO", "BHR" ]
+				},
+				{
+					"stations": [ "RO", "XSCH" ]
+				},
+				{
+					"stations": [ "XYDN", "HE" ]
+				}
+			],
+			"neededCapacity": [
+				{ "cars": , "182": }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Autozug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Autozug von %s nach %s" 
+			],
+			"objects": [
+				{
+					"stations": [ "HE", "HS" ]
+				},
+				{
+					"stations": [ "HF", "HB" ]
+				},
+				{
+					"stations": [ "XYDN", "LF" ]
+				},
+				{
+					"stations": [ "DH", "AST" ]
+				}
+			],
+			"neededCapacity": [
+				{ "cars": , "167": }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Kohlebomber von %s nach %s",
+			"service": 10,
+			"descriptions": [
+				"Fahre diesen Kohlebomber ohne Probleme von %s nach %s" 
+			],
+			"objects": [
+				{
+					"stations": [ "🇳🇱Erp", "EDG" ]
+				},
+				{
+					"stations": [ "BSPE", "EDG" ]
+				},
+				{
+					"stations": [ "AHAR", "HBS" ]
+				},
+				{
+					"stations": [ "AHAR", "XAL" ]
+				},
+				{
+					"stations": [ "XTPZ", "MGA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "coal": , "2271": }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Holzzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Holzzug Störungsfrei von %s nach %s" 
+			],
+			"objects": [
+				{
+					"stations": [ "FLAU", "XAIP" ]
+				},
+				{
+					"stations": [ "LL", "XTCH" ]
+				},
+				{
+					"stations": [ "UTR", "MKFG" ]
+				},
+				{
+					"stations": [ "🇦🇹Otg H2", "ABLZ" ]
+				},
+				{
+					"stations": [ "HDIP", "DAB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "wood": , "783": }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Holzzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre Holz zum Bau einer Kirche in Südbayern" 
+			],
+			"objects": [
+				{
+					"stations": [ "DHU", "MHO" ]
+				}
+			],
+			"neededCapacity": [
+				{ "wood": , "690": }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Rollende Landstrasse von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen RoLa Störungsfrei von %s nach %s." 
+			],
+			"objects": [
+				{
+					"stations": [ "RF", "XINV" ]
+				},
+				{
+					"stations": [ "XINV", "RF" ]
+				},
+				{
+					"stations": [ "XIBN", "XAWL" ]
+				},
+				{
+					"stations": [ "XAWL", "XIBN" ]
+				},
+				{
+					"stations": [ "XIT", "XSB" ]
+				},
+				{
+					"stations": [ "XSB", "XIT" ]
+				}
+			],
+			"neededCapacity": [
+				{ "containers": , "23": }
+				{ "passengers": , "23": }
+			]
+		}		
 	]
 }
