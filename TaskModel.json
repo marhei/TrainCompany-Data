@@ -112,7 +112,7 @@
 			"name": "ICE von %s nach %s",
 			"service": 0,
 			"descriptions": [
-				"Dieser ICE stellt eine Ost-West-Verbindung sicher.",	
+				"Dieser ICE stellt eine Ost-West-Verbindung sicher.",
 				"Der ICE muss nach %2$s gebracht werden. Er startet in %1$s.",
 				"Bringe den ICE pünktlich und schnell von %s nach %s."
 			],
@@ -1560,6 +1560,20 @@
 					"pathSuggestion": [ "NN", "NF", "NRTD", "NWH", "NRB", "NLO", "NAH", "FBA", "FD", "RWE", "RMF", "RM", "RSD", "RN", "SHY", "SKL", "SLD", "SHO", "SRO", "SSH", "XFBE", "🇫🇷BDC", "XFMZV", "XFTHV", "XFHA", "XFLGN", "🇫🇷SED", "🇫🇷MNH", "🇫🇷HIQ", "XFFMI", "XFAVN", "XFVA", "XFLIE", "XFFE", "XKAI", "XKLP" ]
 				}
 			]
+		},
+		{
+			"name": "Intercidades Sul von %s nach %s",
+			"descriptions": [
+				"Der Intercidades 180/182 rauscht an die Algarve – vorbei an Korkeichen, Sonne und Meerblick.",
+				"Der Intercidades 180/182 bringt die Reisenden zur Algarve – vorbei an Korkeichen und goldenen Feldern."
+			],
+			"stations": [ "XXLO", "🇵🇹ETC", "🇵🇹PNO", "🇵🇹TUN" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1,
+			"pathSuggestion": [ "XXLO", "🇵🇹BPR", "🇵🇹MVA", "🇵🇹RAR", "🇵🇹ETC", "🇵🇹SRI", "🇵🇹CDA", "🇵🇹PRG", "🇵🇹COR", "🇵🇹FOM", "🇵🇹FOG", "🇵🇹CIN", "🇵🇹PEA", "🇵🇹PNO", "🇵🇹POCJUN", "🇵🇹GRA", "🇵🇹ESA", "🇵🇹FUN", "🇵🇹AOD", "🇵🇹SCS", "🇵🇹PER", "🇵🇹MAT", "🇵🇹TUN" ]
 		},
 		{
 			"name": "R45 von %s nach %s",
