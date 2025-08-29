@@ -40895,24 +40895,6 @@
 		},
 		{
 			"electrified": true,
-			"group": 1,
-			"maxSpeed": 140,
-			"twistingFactor": 0.5,
-			"objects": [
-				{
-					"start": "RK",
-					"end": "TPH",
-					"length": 43
-				},
-				{
-					"start": "TPH",
-					"end": "TV",
-					"length": 25
-				}
-			]
-		},
-		{
-			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.2,
 			"maxSpeed": 160,
@@ -82446,6 +82428,269 @@
 					"length": 1,
 					"maxSpeed": 100,
 					"twistingFactor": 0.1
+				}
+			]
+		},
+		{	"name": "Württembergische Westbahn",
+			"twistingFactor": 0.2,
+			"maxSpeed": 140,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "TBM",
+					"end": "TBME",
+					"length": 2,
+					"twistingFactor": 0.5,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TBME",
+					"end": "TSA",
+					"length": 5
+				},
+				{
+					"start": "TSA",
+					"end": "TSER",
+					"length": 3,
+					"maxSpeed": 130
+				},
+				{
+					"start": "TSER",
+					"end": "TV",
+					"length": 5
+				},
+				{
+					"start": "TV",
+					"end": "TIL",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TIL",
+					"end": "TMRO",
+					"length": 5,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "TMRO",
+					"end": "TM",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TM",
+					"end": "TOET",
+					"length": 3,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "TOET",
+					"end": "TMW",
+					"length": 3,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "TMW",
+					"end": "TOED",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "TOED",
+					"end": "TKNK",
+					"length": 1,
+					"maxSpeed": 100,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "TKNK",
+					"end": "RBTI",
+					"length": 2,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "RBTI",
+					"end": "RBTN",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RBTN",
+					"end": "RBT",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RBT",
+					"end": "RBTD",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "RBTD",
+					"end": "RGO",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "RGO",
+					"end": "RGOS",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RGOS",
+					"end": "RHSM",
+					"length": 2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "RHSM",
+					"end": "RHI",
+					"length": 2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "RHI",
+					"end": "RHIO",
+					"length": 1,
+					"maxSpeed": 130
+				},
+				{
+					"start": "RHIO",
+					"end": "RBRF",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "RBRF",
+					"end": "RBRE",
+					"length": 1,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "RBRE",
+					"end": "RBR",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.6
+				}
+			]
+		},
+		{	"name": "Residenzbahn",
+			"twistingFactor": 0.1,
+			"maxSpeed": 140,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "TM",
+					"end": "TEZ",
+					"length": 4,
+					"twistingFactor": 0.2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "TEZ",
+					"end": "TNF",
+					"length": 3,
+					"maxSpeed": 130
+				},
+				{
+					"start": "TNF",
+					"end": "TEB",
+					"length": 2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "TEB",
+					"end": "TPH",
+					"length": 4,
+					"maxSpeed": 130
+				},
+				{
+					"start": "TPH",
+					"end": "TIP",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TIP",
+					"end": "TERS",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TERS",
+					"end": "TERW",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TERW",
+					"end": "TBIL",
+					"length": 2,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TBIL",
+					"end": "TKB",
+					"length": 2,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TKB",
+					"end": "TWL",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TWL",
+					"end": "RKBA",
+					"length": 2,
+					"maxSpeed": 110
+				},
+				{
+					"start": "RKBA",
+					"end": "RSL",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "RSL",
+					"end": "RSLR",
+					"length": 1
+				},
+				{
+					"start": "RSLR",
+					"end": "RGZO",
+					"length": 4
+				},
+				{
+					"start": "RGZO",
+					"end": "RK",
+					"length": 8,
+					"maxSpeed": 120
+				}
+			]
+		},
+		{	"twistingFactor": 0.3,
+			"maxSpeed": 50,
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "TMW",
+					"end": "TMBS",
+					"length": 2
 				}
 			]
 		}

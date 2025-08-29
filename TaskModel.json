@@ -10170,8 +10170,8 @@
 			],
 			"objects": [
 				{
-					"stations": [ "RK", "TPH", "TV", "TS", "TSG", "TA", "TEL", "TC", "NAN", "NN", "NER", "NBA", "NLF", "NK", "US", "UGW", "UNM", "LL" ],
-					"pathSuggestion": [ "RK", "TPH", "TV", "TS", "TWN", "TSF", "TSG", "TA", "TEL", "TJZ", "TC", "NSNE", "NAN", "NN", "NER", "NBA", "NED", "NLF", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
+					"stations": [ "RK", "TPH", "TM", "TV", "TS", "TSG", "TA", "TEL", "TC", "NAN", "NN", "NER", "NBA", "NLF", "NK", "US", "UGW", "UNM", "LL" ],
+					"pathSuggestion": [ "RK", "TPH", "TM", "TV", "TS", "TWN", "TSF", "TSG", "TA", "TEL", "TJZ", "TC", "NSNE", "NAN", "NN", "NER", "NBA", "NED", "NLF", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
 				}
 			]
 		},
@@ -11739,7 +11739,7 @@
 				"Du wurdest beauftragt, um eine Testfahrt auf der künftigen Strecke des RE1 vor der Inbetriebnahme von S21 durchzuführen. Für die Fahrt auf der Schnellfahrstrecke brauchst du ein ETCS-fähiges Fahrzeug.",
 				"Stuttgart 21 wird bald fertig und es heißt nun: Testfahrten durchführen. Fahre die künftige Strecke des RE1 von %s bis %s ab."
 			],
-			"stations": [ "RK", "TPH", "TV", "TS", "TMKL", "TU", "TBI", "TAU", "TRB", "TMK", "TF", "MLIR" ],
+			"stations": [ "RK", "TWL", "TPH", "TM", "TV", "TS", "TMKL", "TU", "TBI", "TAU", "TRB", "TMK", "TF", "MLIR" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 10 }
 			]
@@ -11854,8 +11854,16 @@
 				"Bring deine Fahrgäste pünktlich nach %2$s!",
 				"Fahre auf der Linie RE1 von %s nach %s."
 			],
-			"stations": [ "RK", "TPH", "TV", "TS", "TSF", "TSG", "TA" ],
-			"pathSuggestion": [ "RK", "TPH", "TV", "TS", "TWN", "TSF", "TSG", "TA" ],
+			"objects": [
+				{
+					"stations": [ "RK", "TWL", "TPH", "TM", "TV", "TS" ],
+					"pathSuggestion": [ "RK", "TWL", "TPH", "TM", "TV", "TS" ]
+				},
+				{
+					"stations": [ "RK", "TPH", "TM", "TV", "TS", "TSF", "TSG", "TA" ],
+					"pathSuggestion": [ "RK", "TPH", "TM", "TV", "TS", "TWN", "TSF", "TSG", "TA" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -12028,6 +12036,129 @@
 			],
 			"stations": [ "XFSTG", "XFHG", "OFSGH", "OFMZS", "OFGH", "OFRHV", "OFNBN" ],
 			"pathSuggestion": [ "XFSTG", "XFMUM", "XFVH", "XFHG", "OFSGH", "OFMZS", "OFGH", "OFRHV", "OFNBN" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "MEX17a von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Linie MEX17a von %s nach %s",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre die Metropolexpress-Linie 17a von %s bis %s. Sei dabei pünktlich!"
+			],
+			"stations": [ "TS", "TLU", "TBM", "TBME", "TSA", "TSER", "TV", "TIL", "TMRO", "TM", "TEZ", "TNF", "TEB", "TPH", "TWL", "RK" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Radexpress Enztäler von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Es ist Sonntag und daher wollen viele Radler entlang der Enz auf dem Enztalradweg fahren. Bringe den verlängerten MEX17a von %s nach %s.",
+				"Hoch die Hände, Wochenende! Fahre den Radexpress Enztäler nach %2$s."
+			],
+			"stations": [ "TS", "TLU", "TBM", "TBME", "TSA", "TSER", "TV", "TIL", "TMRO", "TM", "TEZ", "TNF", "TEB", "TPH", "TNE", "TWB" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "MEX17c von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Linie MEX17c von %s nach %s",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre die Metropolexpress-Linie 17c von %s bis %s. Sei dabei pünktlich!"
+			],
+			"stations": [ "TS", "TLU", "TBM", "TBME", "TSA", "TSER", "TV", "TIL", "TMRO", "TM", "TOET", "TMW", "TOED", "TKNK", "RBTI", "RBTN", "RBT", "RBTD", "RGO", "RGOS", "RHSM", "RHI", "RHIO", "RBRF", "RBRE", "RBR" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB17c von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Linie RB17c von %s nach %s",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre die Regionalbahn der Linie 17c von %s bis %s. Sei dabei pünktlich!"
+			],
+			"stations": [ "TM", "TOET", "TMW", "TOED", "TKNK", "RBTI", "RBTN", "RBT", "RBTD", "RGO", "RGOS", "RHSM", "RHI", "RHIO", "RBRF", "RBRE", "RBR" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE71 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Linie RE71 von %s nach %s",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre den Fliegenden Heidelberger von %s nach %s."
+			],
+			"stations": [ "TM", "RBT", "RBR", "RBSK", "RWS", "RH" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S5 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf der Stadtbahnlinie S5 von %s nach %s",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre die Linie S5 von %s bis %s. Halte dabei an allen Unterwegsbahnhöfen."
+			],
+			"stations": [ "TPH", "TWL", "RK" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S51 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf der Stadtbahnlinie S51 von %s nach %s",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre die Linie S51 von %s bis %s. Halte dabei an allen Unterwegsbahnhöfen."
+			],
+			"stations": [ "TPH", "TWL", "RK", "RWRT", "RGE" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Schienenbus nach %2$s",
+			"service": 4,
+			"descriptions": [
+				"Fahre den Ausflugszug von %s nach %s. Setze nach Möglichkeit einen Schienenbus ein.",
+				"Fahre die Besucher des Kloster Maulbronn nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "TS", "TKH", "TLU", "TBM", "TBME", "TM", "TMW", "TMBS" ]
+				},
+				{
+					"stations": [ "TMBS", "TMW" ]
+				},
+				{
+					"stations": [ "TMBS", "TMW", "TPH" ],
+					"pathSuggestion": [ "TMBS", "TMW", "TM", "TPH" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
