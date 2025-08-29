@@ -6396,30 +6396,59 @@
 			]
 		},
 		{
-			"group": 1,
-			"name": "Regionalzug von %s nach %s",
+			"group": 0,
+			"name": "Pågatågen von %s nach %s",
 			"service": 2,
 			"descriptions": [
 				"Verbinde %s mit %s.",
-				"Fahre den Zug zwischen %s und %s."
+				"Fahre durch Skåne"
 			],
-			"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "🇸🇪LK", "XVH" ],
+			"objects": [
+				{
+					"stations": [ "XVH", "🇸🇪KL", "XVLD", "XVM", "XVY", "🇸🇪7400088" ]
+				},
+				{
+					"stations": [ "XVH", "🇸🇪7400108", "XVEV", "XVLD", "XVM" ]
+				},
+				{
+					"stations": [ "🇸🇪7400073", "🇸🇪7400200" ]
+				},
+				{
+					"stations": [ "🇸🇪7400200", "XVHH", "XVEV", "XVLD", "XVM", "XVT" ]
+				},
+				{
+					"stations": [ "XVH", "🇸🇪7400018", "XVHH", "🇸🇪7400200" ]
+				},
+				{
+					"stations": [ "XVHH", "🇸🇪7400117" ]
+				},
+				{
+					"stations": [ "🇸🇪7400018", "🇸🇪7400108", "🇸🇪KL", "XVLD", "XVM" ]
+				},
+				{
+					"stations": [ "XVAH", "XVHH", "XVEV", "XVLD", "XVM" ]
+				},
+				{
+					"stations": [ "XVM", "🇸🇪O11020545891", "🇸🇪KL"]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
-			]
+			],
+			"stopsEverywhere": true
 		},
 		{
 			"group": 1,
-			"name": "Öresundstag von %s nach %s",
+			"name": "Öresundståg von %s nach %s",
 			"service": 1,
 			"descriptions": [
-				"Verbinde %s mit %s.",
+				"Verbinde Dänemark und Schweden.",
 				"Fahre den Zug zwischen %s und %s."
 			],
 			"objects": [
 				{
-					"stations": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "XVA", "XVBA", "XVLH", "XVHL", "XVFA", "XVVA", "🇸🇪ÅA", "XVKA", "XVLM", "XVGB" ],
-					"pathSuggestion": [ "XDKH", "XDKHL", "XVM", "🇸🇪KL", "XVA", "XVBA", "XVLH", "🇸🇪O497523471", "XVHL", "XVFA", "XVVA", "🇸🇪ÅA", "XVKA", "XVLM", "XVGB" ]
+					"stations": [ "XDKH", "XDKHL", "XVM", "XVLD", "🇸🇪LK", "XVH", "XVA", "XVBA", "XVLH", "XVHL", "XVFA", "XVVA", "XVKA", "XVGB" ],
+					"pathSuggestion": [ "XDKH", "XDKHL", "XVM", "XVLD", "🇸🇪KL", "🇸🇪LK", "XVH", "🇸🇪KT", "XVA", "XVBA", "XVLH", "🇸🇪O497523471", "XVHL", "XVFA", "XVVA", "XVKA", "XVGB" ]
 				},
 				{
 					"stopsEveryWhere": true,
@@ -6483,16 +6512,10 @@
 					"stations": [ "XVJ", "XVVY", "XVVR", "XVHL" ]
 				},
 				{
-					"stations": [ "XVJ", "XVVY", "XVVR", "XVHL" ]
-				},
-				{
 					"stations": [ "XVN", "XVVY", "XVVR", "XVHL" ]
 				},
 				{
 					"stations": [ "XVN", "XVEK" ]
-				},
-				{
-					"stations": [ "XVHH", "🇸🇪7400117" ]
 				},
 				{
 					"stations": [ "XVKM", "🇸🇪7400500", "XVHD", "🇸🇪O749472210", "XVL" ]
@@ -6513,16 +6536,37 @@
 					"stations": [ "XVS", "XVUV", "XVKNV", "XVUS", "XVGA", "🇸🇪7400091", "XVSU" ]
 				},
 				{
+					"stations": [ "XONA", "🇸🇪7402007" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Norrtåg von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre im schwedischen Norden nach %2$s",
+				"Fahre diesen Regionalzug zwischen %s und %s."
+			],
+			"objects": [
+				{
 					"stations": [ "XVSU", "🇸🇪7400124", "XVUM" ]
 				},
 				{
 					"stations": [ "XVUM", "🇸🇪7400104", "XVBN", "🇸🇪7400064" ]
 				},
 				{
-					"stations": [ "XVLL", "XVBN", "🇸🇪7402007" ]
+					"stations": [ "XVUM", "🇸🇪7400104", "XVVID" ]
 				},
 				{
-					"stations": [ "XONA", "🇸🇪7402007" ]
+					"stations": [ "XVLL", "XVBN", "XVGV", "🇸🇪7402007" ]
+				},
+				{
+					"stations": [ "XVLL", "XVBN", "XVKX" ,"🇸🇪7400064" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -6568,6 +6612,15 @@
 				},
 				{
 					"stations": [ "XVLL", "XVBN", "XVGV", "🇸🇪7402007", "XVRG", "XONA" ]
+				},
+				{
+					"stations": [ "XVS", "🇸🇪Arnc", "XVUS", "XVGA", "🇸🇪7400044", "🇸🇪7400231", "🇸🇪7400298", "🇸🇪7400105", "🇸🇪7400032", "🇸🇪7400123", "🇸🇪7400126", "🇸🇪7400142", "🇸🇪7400115", "🇸🇪7400308"]
+				},
+				{
+					"stations": [ "XVS", "🇸🇪Arnc", "XVUS", "🇸🇪7400137", "XVAV", "🇸🇪7400065", "🇸🇪7400242", "XVB", "🇸🇪7400056" ]
+				},
+				{
+					"stations": [ "XVS", "🇸🇪Arnc", "XVUS", "🇸🇪7400137", "XVAV", "🇸🇪7400065", "🇸🇪7400242", "XVB", "🇸🇪7400680", "🇸🇪7400241", "🇸🇪7400240", "🇸🇪7400086", "🇸🇪7400239", "🇸🇪7400131", "🇸🇪7400119" ]
 				}
 			],
 			"neededCapacity": [
@@ -6599,6 +6652,53 @@
 				{ "name": "bistroseats" }
 			],
 			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Inlandsbanan von %s nach %s",
+			"service": 4,
+			"descriptions": [
+				"Fahre die Touristen in den hohen Norden",
+				"Dieser saisonale Langläufer verkehrt im schwedischen Hinterland"
+			],
+			"objects": [
+				{
+					"stations": [ "🇸🇪7400123", "🇸🇪O120404873", "XVGV" ]
+				},
+				{
+					"stations": [ "🇸🇪7400123", "🇸🇪7400526", "🇸🇪O60367488", "🇸🇪7400119" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"group": 1,
+			"name": "TågAB von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre für TågAB durch Schweden"
+			],
+			"objects": [
+				{
+					"stations": [ "🇸🇪7400206", "🇸🇪7400070", "🇸🇪7400222", "🇸🇪7400129", "XVHA", "XVMTA", "XVMJ", "XVN", "XVAL" ]
+				},
+				{
+					"stations": [ "XVS", "XVK", "XVHA", "🇸🇪7400129", "🇸🇪7400222", "🇸🇪7400070", "🇸🇪7400206", "XVAM", "XVME", "XVTH", "XVGB" ]
+				},
+				{
+					"stations": [ "🇸🇪7400056", "XVB", "🇸🇪7400113", "🇸🇪7400060", "🇸🇪7400702", "🇸🇪7400685", "🇸🇪7400684", "🇸🇪7400206", "XVAM", "XVME", "XVTH", "XVGB" ]
+				},
+				{
+					"stations": [ "🇸🇪7400119", "🇸🇪7400131", "🇸🇪7400239", "🇸🇪7400086", "XVB", "🇸🇪7400113", "🇸🇪7400060", "🇸🇪7400702", "🇸🇪7400685",  "🇸🇪7400684",  "🇸🇪7400697", "🇸🇪7400704", "🇸🇪7400222" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
 		},
 		{
 			"group": 1,
@@ -6664,6 +6764,9 @@
 				},
 				{
 					"stations": [ "XVS", "XVUS", "XVGA", "XVSU", "XONA" ]
+				},
+				{
+					"stations": [ "XVS", "🇸🇪Arnc", "XVUS", "XVGA", "🇸🇪7400044", "🇸🇪7400298", "🇸🇪7400105", "🇸🇪7400032", "🇸🇪7400123", "🇸🇪7400126", "🇸🇪7400142", "🇸🇪7400115", "🇸🇪7400308"]
 				}
 			],
 			"neededCapacity": [
@@ -6877,8 +6980,16 @@
 				"Bringe die Urlauber nach %2$s.",
 				"Fahre diesen Nachtzug problemlos bis nach %2$s"
 			],
-			"stations": [ "BHF", "BL", "AH", "XDOD", "XDNY", "XDKH", "XVM", "XVS" ],
-			"pathSuggestion": [ "BHF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDOD", "XDNY", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ],
+			"objects": [
+				{
+					"stations": [ "BHF", "BL", "AH", "XDOD", "XDNY", "XDKH", "XVM", "XVS" ],
+					"pathSuggestion": [ "BHF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDOD", "XDNY", "XDRI", "XDKH", "XVM", "XVNC", "🇸🇪JN", "🇸🇪HD", "XVS" ]
+				},
+				{
+					"stations": [ "XVM", "XVLD", "XVHH", "XVAL", "XVN", "XVL", "XVNC", "XVS", "XVUS", "🇸🇪7400123", "🇸🇪7400142", "🇸🇪7400115", "🇸🇪7400308", "🇸🇪7400025" ],
+					"pathSuggestion": [ "XVM", "XVLD", "XVHH", "XVAL", "XVN", "XVMJ", "XVL", "XVNC", "XVK", "XVFN", "XVSD", "XVS", "XVUS", "XVGA", "🇸🇪7400091", "XVSU", "🇸🇪7400105", "🇸🇪7400123", "🇸🇪7400142", "🇸🇪7400115", "🇸🇪7400308", "🇸🇪7400025" ]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats" },
@@ -6893,7 +7004,7 @@
 				"Verbinde die Menschen im Norden von %s bis %s.",
 				"Bediene die Regionalleistung zwischen %s und %s."
 			],
-			"stations": [ "🇸🇪KL", "XVH", "🇸🇪O497523471", "XVHL", "XVVA", "XVGB" ],
+			"stations": [ "🇸🇪KL", "XVH", "🇸🇪KT", "XVA", "🇸🇪O497523471", "XVHL", "XVVA", "XVGB" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
