@@ -1564,8 +1564,8 @@
 		{
 			"name": "Intercidades Sul von %s nach %s",
 			"descriptions": [
-				"Der Intercidades 180/182 rauscht an die Algarve – vorbei an Korkeichen, Sonne und Meerblick.",
-				"Der Intercidades 180/182 bringt die Reisenden zur Algarve – vorbei an Korkeichen und goldenen Feldern."
+				"Der Intercidades 180 rauscht an die Algarve – vorbei an Korkeichen, Sonne und Meerblick.",
+				"Der Intercidades 180 bringt die Reisenden zur Algarve – vorbei an Korkeichen und goldenen Feldern."
 			],
 			"stations": [ "XXLO", "🇵🇹ETC", "🇵🇹PNO", "🇵🇹TUN" ],
 			"neededCapacity": [
@@ -1574,6 +1574,19 @@
 			"group": 1,
 			"service": 1,
 			"pathSuggestion": [ "XXLO", "🇵🇹BPR", "🇵🇹MVA", "🇵🇹RAR", "🇵🇹ETC", "🇵🇹SRI", "🇵🇹CDA", "🇵🇹PRG", "🇵🇹COR", "🇵🇹FOM", "🇵🇹FOG", "🇵🇹CIN", "🇵🇹PEA", "🇵🇹PNO", "🇵🇹POCJUN", "🇵🇹GRA", "🇵🇹ESA", "🇵🇹FUN", "🇵🇹AOD", "🇵🇹SCS", "🇵🇹PER", "🇵🇹MAT", "🇵🇹TUN" ]
+		},{
+			"name": "Intercidades Sul von %s nach %s",
+			"descriptions": [
+				"Der Intercidades 182 rauscht an die Algarve – vorbei an Korkeichen, Sonne und Meerblick.",
+				"Der Intercidades 182 bringt die Reisenden zur Algarve – vorbei an Korkeichen und goldenen Feldern."
+			],
+			"stations": [ "🇵🇹TUN", "🇵🇹PNO", "🇵🇹ETC", "XXLO" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1,
+			"pathSuggestion": [ "🇵🇹TUN", "🇵🇹MAT", "🇵🇹PER", "🇵🇹SCS", "🇵🇹AOD", "🇵🇹FUN", "🇵🇹ESA", "🇵🇹GRA", "🇵🇹POCJUN", "🇵🇹PNO", "🇵🇹PEA", "🇵🇹CIN", "🇵🇹FOG", "🇵🇹FOM", "🇵🇹COR", "🇵🇹PRG", "🇵🇹CDA", "🇵🇹SRI", "🇵🇹ETC", "🇵🇹RAR", "🇵🇹MVA", "🇵🇹BPR", "XXLO" ]
 		},
 		{
 			"name": "R45 von %s nach %s",
