@@ -82802,6 +82802,42 @@
 					"length": 2
 				}
 			]
+		},
+		{	"name": "Niedtalbahn",
+			"twistingFactor": 0.1,
+			"maxSpeed": 80,
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "SDL",
+					"end": "SSBG",
+					"length": 5,
+				},
+				{
+					"start": "SSBG",
+					"end": "SHEM",
+					"length": 4,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "SHEM",
+					"end": "SNID",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "SNID",
+					"end": "XFBZV",
+					"length": 9,
+					"maxSpeed": 50,
+					"twistingFactor": 0.3,
+					"neededEquipments": [
+						"FR"
+					]
+				}
+			]
 		}
 	]
 }
