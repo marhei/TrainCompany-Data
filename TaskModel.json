@@ -12452,7 +12452,26 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "wood", "value": 783 }
+				{ "name": "wood", "value": 1634 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Holzzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Holzzug Störungsfrei von %s nach %s" 
+			],
+			"objects": [
+				{
+					"stations": [ "RDO", "US" ]
+				},
+				{
+					"stations": [ "KK", "XSLT" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "wood", "value": 876 }
 			]
 		},
 		{
@@ -12467,14 +12486,9 @@
 					"stations": [ "RIM", "MKFG" ]
 				},
 				{
-					"stations": [ "RDO", "US" ]
-				},
-				{
 					"stations": [ "TMG", "TFD" ]
 				},
-				{
-					"stations": [ "KK", "XSLT" ]
-				}
+
 			],
 			"neededCapacity": [
 				{ "name": "wood", "value": 478 }
