@@ -12167,7 +12167,7 @@
 			]
 		},
 		{
-			"group": 1,
+			"group": 0,
 			"name": "Schienenbus nach %2$s",
 			"service": 4,
 			"descriptions": [
@@ -12176,7 +12176,8 @@
 			],
 			"objects": [
 				{
-					"stations": [ "TS", "TKH", "TLU", "TBM", "TBME", "TM", "TMW", "TMBS" ]
+					"stations": [ "TS", "TKH", "TLU", "TBM", "TBME", "TM", "TMW", "TMBS" ],
+					"pathSuggestion": [ "TS", "TKH", "TLU", "TBM", "TBME", "TSA", "TSER", "TV", "TIL", "TMRO", "TM", "TMW", "TMBS" ]
 				},
 				{
 					"stations": [ "TMBS", "TMW" ]
