@@ -12226,24 +12226,35 @@
 			"objects": [
 				{
 					"stations": [ "FFH", "XSZO" ]
+					"pathSuggestion": [ "FW", "FMZ", "FWOR", "RFT", "RM", "RMF", "RH", "RBR", "RK", "RRA", "RO", "RF", "RBKR", "RML", "RB", "XSB", "XSFRK", "XSKS", "XSZH" ]
 				},
 				{
 					"stations": [ "RKOR", "XSZO" ]
+					"pathSuggestion": [ "RO", "RF", "RBKR", "RML", "RB", "XSB", "XSFRK", "XSKS", "XSZH" ]
 				},
 				{
 					"stations": [ "MIH", "XSZO" ]
+					"pathSuggestion": [ "MDT", "MGZB", "TU", "TLW", "TAU", "TF", "RST", "RRZ", "RSI", "RSCF", "XSBH" ]
+				},
+				{
+					"stations": [ "MIH", "XSZO" ]
+					"pathSuggestion": [ "MDT", "MGZB", "TU", "TP", "TS", "TLU", "TBM", "TV", "TM", "TPH", "RK", "RRA", "RO", "RF", "RBKR", "RML", "RB", "XSB", "XSFRK", "XSKS", "XSZH" ]
 				},
 				{
 					"stations": [ "EG", "XSOB" ]
+					"pathSuggestion": [ "EOB", "EDG", "KD", "KK", "KT", "KNE", "KNL", "FW", "FMZ", "FWOR", "RFT", "RM", "RMF", "RH", "RBR", "RK", "RRA", "RO", "RF", "RBKR", "RML", "RB", "XSB", "XSFRK", "XSKS", "XSZH", "XSZO" ]
 				},
 				{
 					"stations": [ "AHAR", "XSNC" ]
+					"pathSuggestion": [ "ALBG", "HU", "HH", "HELZ", "HK", "HN", "HG", "HEBG", "FB", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RH", "RBR", "RK", "RRA", "RO", "RF", "RBKR", "RML", "RB", "XSB", "XSOL", "🇨🇭OEN", "XSSO", "XSGRN", "XSBL" ]
 				},
 				{
 					"stations": [ "WPS", "MFHB" ]
+					"pathSuggestion": [ "WA", "BL", "BJUE", "LW", "LBT", "LDL", "LL", "LGC", "UKO", "UGW", "US", "NLF", "NED", "NBA", "NFO", "NF", "NN", "NRH", "MLA", "MPU" ]
 				},
 				{
 					"stations": [ "RSP", "MFHB" ]
+					"pathSuggestion": [ "RGE", "RGN", "RBR", "TM", "TV", "TBM", "TLU", "TS", "TP", "TU", "MGZB", "MA", "MMR", "MH", "MNF" ]
 				}
 			],
 			"neededCapacity": [
@@ -12260,12 +12271,15 @@
 			"objects": [
 				{
 					"stations": [ "WPS", "DNO" ]
+					"pathSuggestion": [ "WA", "WE", "BL", "BJUE", "LF", "DR", "DDE" ]
 				},
 				{
 					"stations": [ "AHAR", "DNO" ]
+					"pathSuggestion": [ "ALBG", "HU", "LSW", "LS", "LM", "LSBF", "LCBO", "LK", "LH", "LGOS", "LSD", "LH", "LBOR", "DR", "DDE" ]
 				},
 				{
 					"stations": [ "UGO", "AHAR" ]
+					"pathSuggestion": [ "UEI", "FB", "HEBG", "HG", "HN", "HK", "HELZ", "HH", "HU", "ALBG" ]
 				}
 			],
 			"neededCapacity": [
@@ -12282,15 +12296,19 @@
 			"objects": [
 				{
 					"stations": [ "HAHO", "XNSI" ]
+					"pathSuggestion": [ "HO", "HR", "HBTH", "XNHL", "XNAH", "🇳🇱Aml", "🇳🇱Wdn", "🇳🇱Dv", "🇳🇱Zp", "XNAH", "🇳🇱Est", "🇳🇱Nm", "🇳🇱Ht", "🇳🇱Btl", "XNEI", "XNRM" ]
 				},
 				{
 					"stations": [ "HSAN", "KK" ]
+					"pathSuggestion": [ "HOLD", "HO", "EMST", "EHLT", "ERE", "EG", "EOB", "EDG", "KD" ]
 				},
 				{
 					"stations": [ "XAL", "EWAN" ]
+					"pathSuggestion": [ "XAWE", "🇦🇹Neu H1", "XASH", "NPA", "NPL", "NST", "NOT", "NRH", "NFT", "NN", "NF", "NRTD", "NGM", "NLO", "NAH", "FBA", "FD", "FDG", "FMB", "FMZ", "FGAL", "FBGK", "KDOP", "KKO", "KAND", "KB", "KKAS", "KK", "KD", "EDO", "EOB", "EG" ]
 				},
 				{
 					"stations": [ "XTPK", "XTKR" ]
+					"pathSuggestion": [ "XTOH", "XTPR", "XTO", "XTZM", "XTTR", "XTPAR", "XTP" ]
 				}
 			],
 			"neededCapacity": [
@@ -12307,15 +12325,23 @@
 			"objects": [
 				{
 					"stations": [ "EWAN", "XDPA" ]
+					"pathSuggestion": [ "ERE", "EHLT", "EMST", "HO", "HB", "AROG", "ABLZ", "AHAR", "AH", "AA", "AEL", "AN", "AR", "AJ", "AF" ]
 				},
 				{
-					"stations": [ "RO", "BHR" ]
+					"stations": [ "RO", "BNY" ]
+					"pathSuggestion": [ "RAP", "RK", "RGN", "RSAB", "RM", "RMF", "FD", "FF", "FH", "FFD", "FFU", "FB", "UEI", "UGO", "UND", "UE P", "UWM", "UGH", "LGC", "LL", "LTC", "LF", "BBLW", "BRU", "BHC", "BKN" ]
 				},
 				{
 					"stations": [ "RO", "XSCH" ]
+					"pathSuggestion": [ "RF", "RBKR", "RML", "RB", "XSB", "XSFRK", "XSKS", "XSZH", "XSTW", "XSZU", "XSAG", "XSADF", "XSBC", "XSBZ" ]
 				},
 				{
 					"stations": [ "XYDN", "HE" ]
+					"pathSuggestion": [ "XTBE", "XTBR", "XTTR", "XTPAR", "XTP", "XTU", "XTD", "DSA", "DPI", "DHD", "DH", "DCW", "DPR", "DR", "LBOR", "LL", "LSD", "LGOS", "LH", "LM", "HBS", "HHI", "HLER", "HH", "HWUN", "HNBG", "HV", "HB", "HD", "HOLD", "HLEE" ]
+				},
+				{
+					"stations": [ "TKH", "XAVH" ]
+					"pathSuggestion": [ "TS", "TP", "TU", "MGZB", "MA", "MMR", "MH", "MGB", "MRO", "MTS", "MFL", "XASB", "XABO" ]
 				}
 			],
 			"neededCapacity": [
@@ -12332,15 +12358,19 @@
 			"objects": [
 				{
 					"stations": [ "HE", "HS" ]
+					"pathSuggestion": [ "HLEE", "HOLD", "HD", "HB", "HV", "HNBG", "HWUN" ]
 				},
 				{
 					"stations": [ "HF", "HB" ]
+					"pathSuggestion": [ "HV", "HNBG", "HWUN", "HH", "HLER" ]
 				},
 				{
 					"stations": [ "XYDN", "LF" ]
+					"pathSuggestion": [ "XTBE", "XTBR", "XTTR", "XTPAR", "XTP", "XTU", "XTD", "DSA", "DPI", "DHD", "DH", "DCW", "DPR", "DR" ]
 				},
 				{
 					"stations": [ "DH", "AST" ]
+					"pathSuggestion": [ "DCW", "DPR", "DGB", "BEW", "BDKO", "BBF", "BL", "BSPD", "BFKS", "WW", "WL", "WHL", "ABCH", "AH", "AHAR" ]
 				}
 			],
 			"neededCapacity": [
