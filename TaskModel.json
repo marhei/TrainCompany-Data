@@ -5906,6 +5906,10 @@
 				{
 					"stations": [ "XSF", "RF" ],
 					"pathSuggestion": [ "XSF", "XSBE", "XSBL", "XSGRN" , "XSB", "RB", "RML", "RF" ]
+				},
+				{
+					"stations": [ "XOAN", "TA" ],
+					"pathSuggestion": [ "XOAN", "XOEL", "XOKN", "🇸🇪7400206", "🇸🇪O7484649773", "XVOX", "XVGB", "XVVA", "XVHL", "🇸🇪O497523471", "XVA", "🇸🇪7400018", "🇸🇪7400108", "🇸🇪KL", "XVLD", "XVM", "XDKH", "XDRI", "XDMF", "XDTA", "XDLU", "XDTI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FFU", "NBN", "NRB", "NWH", "NAN", "TC", "TGL", "TA" ]
 				}
 			],
 			"neededCapacity": [
@@ -6047,6 +6051,19 @@
 				"Es wird Holz aus %s für die Europalettenproduktion in %s benötigt."
 			],
 			"stations": [ "URTS" ],
+			"neededCapacity": [
+				{ "name": "wood", "value": 1800 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Holzzug von %s nach %s",
+			"descriptions": [
+				"Bringe den Holzzug störungsfrei zur Papierfabrik."
+			],
+			"service": 11,
+			"stations": [ "XOAUM", "🇸🇪7400070" ],
+			"pathSuggestion": [ "XOAUM", "XOEL", "XOKN", "🇸🇪7400206", "🇸🇪7400070" ],
 			"neededCapacity": [
 				{ "name": "wood", "value": 1800 }
 			]
@@ -7072,6 +7089,9 @@
 				},
 				{
 					"stations": [ "XORO", "XOFA", "XOBO" ]
+				},
+				{
+					"stations": [ "XOHM", "XOEL", "XOSR", "XOTS" ]
 				}
 			],
 			"neededCapacity": [
