@@ -12509,14 +12509,6 @@
 					"pathSuggestion": [ "XIR", "XSBG", "XSVI", "XSFR", "XSSP", "XSTH", "XSBE", "🇨🇭BDF", "XSLT", "🇨🇭RTR", "XSOL", "XSB", "RB", "RML", "RBKR" ]
 				},
 				{
-					"stations": [ "XIBN", "XAWL" ]
-					"pathSuggestion": [ "🇦🇹I Z1", "🇦🇹Fw Z2" ]
-				},
-				{
-					"stations": [ "XAWL", "XIBN" ]
-					"pathSuggestion": [ "🇦🇹Fw Z2", "🇦🇹I Z1" ]
-				},
-				{
 					"stations": [ "XIT", "XSB" ]
 				},
 				{
@@ -12525,9 +12517,31 @@
 			],
 			"neededCapacity": [
 				{ "name": "containers", "value": 23 },
+				{ "name": "beds", "value": 23 }
+			]
+		}
+		{
+			"group": 0,
+			"name": "Rollende Landstrasse von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen RoLa Störungsfrei von %s nach %s." 
+			],
+			"objects": [
+				{
+					"stations": [ "XIBN", "XAWL" ]
+					"pathSuggestion": [ "🇦🇹I Z1", "🇦🇹Fw Z2" ]
+				},
+				{
+					"stations": [ "XAWL", "XIBN" ]
+					"pathSuggestion": [ "🇦🇹Fw Z2", "🇦🇹I Z1" ]
+				},
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 23 },
 				{ "name": "passengers", "value": 23 }
 			]
-		}		
+		}
 		{
 			"group": 0,
 			"name": "Containerzug von %s nach %s",
