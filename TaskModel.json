@@ -12528,5 +12528,26 @@
 				{ "name": "passengers", "value": 23 }
 			]
 		}		
+		{
+			"group": 0,
+			"name": "Containerzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Containerzug dem Rhein entlang von %s nach %s." 
+			],
+			"objects": [
+				{
+					"stations": [ "XBAC", "XIGP" ]
+					"pathSuggestion": [ "XBB", "XBLE", "XBLIG", "XBHE", "KA", "KDN", "KK", "KKAS", "KB", "KAND", "KKO", "KBOP", "FBGK", "FGAL", "FMZ", "FWOR", "RM", "RSAB", "RK", "RAP", "RO", "RRL", "RDZ", "RF", "RBKR", "RML", "RB", "XSB", "XSOL", "XSZG", "XSSUS", "XSLU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSCH", "XIMB", "XITOR", "XIAQ" ]
+				},
+				{
+					"stations": [ "XIGP", "XBAC" ]
+					"pathSuggestion": [ "XBB", "XBLE", "XBLIG", "XBHE", "KA", "KDN", "KK", "KKAS", "KB", "KAND", "KKO", "KBOP", "FBGK", "FGAL", "FMZ", "FWOR", "RM", "RSAB", "RK", "RAP", "RO", "RRL", "RDZ", "RF", "RBKR", "RML", "RB", "XSB", "XSOL", "XSZG", "XSSUS", "XSLU", "XSAG", "XSADF", "XSBC", "XSBZ", "XSCH", "XIMB", "XITOR", "XIAQ" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 46 }
+			]
+		}	
 	]
 }
