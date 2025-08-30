@@ -2072,12 +2072,76 @@
 			"reliability": 1,
 			"maxConnectedUnits": 5,
 			"equipments": [
-				"SE"
+				"SE", "ETCS"
 			],
 			"operationCosts": 65,
-			"cost": 450000,
+			"cost": 650000,
+			"capacity": [
+				{"name": "passengers", "value": 374},
+				{"name": "bistroseats", "value": 4}
+			]
+		},
+		{
+			"id": 3241,
+			"group": 2,
+			"name": "Alstom Coradia Nordic",
+			"shortcut": "X60",
+			"speed": 160,
+			"weight": 150,
+			"force": 320,
+			"length": 107,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 2,
+			"equipments": [
+				"SE"
+			],
+			"operationCosts": 55,
+			"cost": 550000,
 			"capacity": [
 				{"name": "passengers", "value": 374}
+			]
+		},
+		{
+			"id": 3242,
+			"group": 2,
+			"name": "Alstom Coradia Nordic",
+			"shortcut": "X61",
+			"speed": 160,
+			"weight": 133,
+			"force": 320,
+			"length": 74,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 3,
+			"equipments": [
+				"SE"
+			],
+			"operationCosts": 55,
+			"cost": 450000,
+			"capacity": [
+				{"name": "passengers", "value": 240}
+			]
+		},
+		{
+			"id": 323,
+			"group": 2,
+			"name": "Alstom Coradia X3",
+			"shortcut": "Arlanda Express",
+			"speed": 200,
+			"weight": 193,
+			"force": 320,
+			"length": 93,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 1,
+			"equipments": [
+				"SE"
+			],
+			"operationCosts": 70,
+			"cost": 850000,
+			"capacity": [
+				{"name": "passengers", "value": 190}
 			]
 		},
 		{
@@ -2872,7 +2936,7 @@
 			"length": 200,
 			"drive": 1,
 			"reliability": 1,
-			"cost": 5250000,	
+			"cost": 5250000,
 			"equipments": ["ETCS", "TVM", "ES", "FR", "1668mm", "1435mm"],
 			"maxConnectedUnits": 2,
 			"operationCosts": 110,
@@ -5255,7 +5319,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 45,
 			"exchangeTime": 60,
-			"equipments": ["SE", "RS", "HR", "NO"],
+      "equipments": ["SE", "RS", "HR", "NO", "XK"],
 			"capacity": [
 				{"name": "passengers", "value": 68}
 			]
@@ -6094,7 +6158,7 @@
 			"reliability": 1,
 			"cost": 600000,
 			"operationCosts": 130,
-			"equipments": [ "FR", "ETCS", "AT", "DE", "TR", "ES", "NL", "BE", "CH", "SE", "IT", "LU", "GB", "NO" ]
+			"equipments": [ "FR", "ETCS", "AT", "DE", "TR", "ES", "NL", "BE", "CH", "SE", "IT", "LU", "GB", "NO", "SI", "HR", "RS" ]
 		},
 		{
 			"id": 54362,
@@ -7735,7 +7799,21 @@
             "cost": 350000,
             "operationCosts": 130,
             "equipments": ["CH", "DE", "LU", "AT", "FR", "IT", "SE", "ETCS"]
-        }, 
+        },
+		{
+            "id": 1700,
+            "group": 0,
+            "name": "Vossloh G 1700-2 BB",
+            "speed": 100,
+            "weight": 88,
+            "force": 291,
+            "length": 15,
+            "drive": 2,
+            "reliability": 0.95,
+            "cost": 370000,
+            "operationCosts": 125,
+            "equipments": ["CH", "DE", "AT", "FR", "IT", "XK", "ES", "ETCS"]
+        },
 		{
             "id": 72000,
             "group": 0,
@@ -7749,7 +7827,7 @@
             "cost": 450000,
             "operationCosts": 125,
             "equipments": ["CH", "DE", "BE", "IT", "NL", "FR", "SE", "DK", "PL", "ETCS"]
-        }, 
+        },
 		{
 			"id": 17,
 			"group": 0,
@@ -8007,7 +8085,7 @@
 			"reliability": 0.8,
 			"cost": 180000,
 			"operationCosts": 180,
-			"equipments": ["DK", "NO", "HU", "DE", "SE", "BE", "LU"]
+			"equipments": ["DK", "NO", "HU", "DE", "SE", "BE", "LU", "XK"]
 		},
 		{
 			"id": 861461,
@@ -8147,7 +8225,7 @@
 			"reliability": 0.8,
 			"cost": 350000,
 			"operationCosts": 125,
-			"equipments": ["SI", "HR", "RS", "ME", "BA"]
+			"equipments": ["SI", "HR", "RS", "ME", "BA", "XK"]
 		},
 		{
 			"id": 72645,
@@ -9569,6 +9647,23 @@
 			"exchangeTime": 180,
 			"capacity": [
 				{"name": "bistroseats", "value": 36}
+			]
+		},
+		{
+			"id": 757628753,
+			"group": 1,
+			"name": "NSB Typ 3 Sitzwagen Flåmsbana",
+			"shortcut": "B3-2",
+			"speed": 160,
+			"weight": 39,
+			"force": 0,
+			"length": 24,
+			"drive": 0,
+			"reliability": 0.8,
+			"cost": 250000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "passengers", "value": 100}
 			]
 		},
 		{
