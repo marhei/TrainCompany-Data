@@ -12226,6 +12226,58 @@
 					"pathSuggestion": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "🇨🇭LAV", "XSFD", "🇨🇭AP", "XSAI", "XSGS", "XSEF", "XSADF", "🇨🇭FL", "🇨🇭BRU", "XSSY", "XSAG", "XSIM", "XSLU", "XSSUS", "XSZG", "XSOL", "XSB" ]
 				}
 			]
+		},
+		{
+			"group": 1,
+			"name": "RB77 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre die Regionalbahn auf der Niedtalbahn von %s nach %s.",
+				"Fahre auf der idyllischen Niedtalbahn bis nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "SDL", "SSBG", "SHEM", "SNID" ]
+				},
+				{
+					"stations": [ "SSH", "SSB", "SSHI", "SLU", "SVL", "SBO", "SEN", "SSLS", "SDL", "SSBG", "SHEM", "SNID" ],
+					"descriptions": [
+						"Fahre die verlängerte Fahrt der RB77 mit dem Zweck eines Fahrzeugtausches von %s nach %s."
+					]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Sonderzug am Karfreitag nach %2$s",
+			"service": 4,
+			"descriptions": [
+				"Es ist Karfreitag, bringe daher die Besucher des Karfreitagsmarktes in Bouzonville nach %s",
+				"Nur an einem einzigen Tag im Jahr fährt hier ein Personenzug rüber nach Frankreich und du hast die Ehre, ihn zu fahren."
+			],
+			"objects": [
+				{
+					"stations": [ "SSH", "SSLS", "SDL", "XFBZV" ]
+				},
+				{
+					"stations": [ "SSLS", "SDL", "SSBG", "SHEM", "SNID", "XFBZV" ]
+				},
+				{
+					"stations": [ "SDL", "XFBZV" ]
+				},
+				{
+					"stations": [ "SDL", "SSBG", "SHEM", "SNID", "XFBZV" ]
+				},
+				{
+					"stations": [ "SDL", "SHEM", "XFBZV" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
