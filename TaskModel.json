@@ -377,10 +377,6 @@
 				{
 					"stations": [ "XSLU", "XSZU", "XSZH", "XSZO", "XSWT", "XSWI", "XSSG", "XSRS", "XSSM", "XSHR", "XSAS", "XSBU", "XSSR", "XSLQ", "XSC" ],
 					"pathSuggestion": [ "XSLU", "XSAG", "XSZU", "XSTW", "XSZH", "XSZO", "XSWT", "XSWI", "XSSG", "XSRS", "XSSM", "XSHR", "XSAS", "XSBU", "XSSR", "XSLQ", "XSC" ]
-				},
-				{
-					"stations": [ "XSZH", "XSZU", "XSAG", "XSSY", "🇨🇭BRU", "XSADF", "XSEF", "XSGS", "XSAI", "XSFD", "XSBOD", "XSBC", "XSCA", "XSBZ", "XSLC" ],
-					"pathSuggestion": [ "XSZH", "XSTW", "XSZU", "XSAG", "XSSY", "🇨🇭BRU", "XSADF", "XSEF", "XSGS", "XSAI", "XSFD", "XSBOD", "XSBC", "XSCA", "XSBZ", "XSLC" ]
 				}
 			]
 		},
@@ -4612,13 +4608,12 @@
 		},
 		{
 			"group": 1,
-			"name": "RE 42 von %s nach %s",
+			"name": "RE von %s nach %s",
 			"service": 2,
 			"descriptions": [
-				"Bring die Frankenwaldbahn pünktlich von %s nach %s."
+				"Bring den Franken-Thüringen-Express pünktlich von %s nach %s."
 			],
-			"stations": [ "UGW", "US", "NHM", "NED", "NBA", "NF", "NN" ],
-			"stopsEverywhere": true,
+			"stations": [ "US", "UBZ", "UKL", "UUZ", "UPR", "NLUS", "NSD", "NFDF", "NPR", "NSTH", "NGD", "NK", "NKUE", "NRZ", "NHM", "NLF", "NSFN", "NED", "NBA", "NF", "NN" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -9260,12 +9255,6 @@
 			"group": 1,
 			"objects": [
 				{
-					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "XSAI", "XSEF", "XSADF", "🇨🇭BRU", "XSSY", "XSAG", "XSZU", "XSTW", "XSZH" ]
-				},
-				{
-					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "XSAI", "XSEF", "XSADF", "🇨🇭BRU", "XSSY", "XSAG", "XSIM", "XSLU", "XSSUS", "XSN", "XSZG", "XSOL", "XSSC", "XSB" ]
-				},
-				{
 					"stations": [ "XSBE", "🇨🇭BDF", "XSHZ", "XSLT", "XSOL", "XSZH", "XSTW", "XSWW", "XSPF", "XSZB", "XSWA", "XSSR", "XSLQ", "XSC" ]
 				},
 				{
@@ -12029,7 +12018,7 @@
 			]
 		},
 		{
-			"group": 0,
+			"group": 1,
 			"name": "S41 der S-Bahn Bern von %s nach %s",
 			"service": 3,
 			"descriptions": [
@@ -12254,6 +12243,80 @@
 				{ "name": "passengers" }
 			],
 			"group": 1
+		},
+		{
+			"name": "InterRegio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre von %s nach %s.",
+				"Verbinde mit dem Treno Gottardo die Deutschschweiz mit Locarno."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "🇨🇭LAV", "XSFD", "🇨🇭AP", "XSAI", "XSGS", "XSEF", "XSADF", "🇨🇭FL", "🇨🇭BRU", "XSSY", "XSAG", "XSZU", "XSZH" ],
+					"pathSuggestion": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "🇨🇭LAV", "XSFD", "🇨🇭AP", "XSAI", "XSGS", "XSEF", "XSADF", "🇨🇭FL", "🇨🇭BRU", "XSSY", "XSAG", "XSZU", "XSTW", "XSZH" ]
+				},
+				{
+					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "🇨🇭LAV", "XSFD", "🇨🇭AP", "XSAI", "XSGS", "XSEF", "XSADF", "🇨🇭FL", "🇨🇭BRU", "XSSY", "XSAG", "XSLU", "XSOL", "XSB" ],
+					"pathSuggestion": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "🇨🇭LAV", "XSFD", "🇨🇭AP", "XSAI", "XSGS", "XSEF", "XSADF", "🇨🇭FL", "🇨🇭BRU", "XSSY", "XSAG", "XSIM", "XSLU", "XSSUS", "XSZG", "XSOL", "XSB" ]
+				}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB77 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre die Regionalbahn auf der Niedtalbahn von %s nach %s.",
+				"Fahre auf der idyllischen Niedtalbahn bis nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "SDL", "SSBG", "SHEM", "SNID" ]
+				},
+				{
+					"stations": [ "SSH", "SSB", "SSHI", "SLU", "SVL", "SBO", "SEN", "SSLS", "SDL", "SSBG", "SHEM", "SNID" ],
+					"descriptions": [
+						"Fahre die verlängerte Fahrt der RB77 mit dem Zweck eines Fahrzeugtausches von %s nach %s."
+					]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Sonderzug am Karfreitag nach %2$s",
+			"service": 4,
+			"descriptions": [
+				"Es ist Karfreitag, bringe daher die Besucher des Karfreitagsmarktes in Bouzonville nach %s",
+				"Nur an einem einzigen Tag im Jahr fährt hier ein Personenzug rüber nach Frankreich und du hast die Ehre, ihn zu fahren."
+			],
+			"objects": [
+				{
+					"stations": [ "SSH", "SSLS", "SDL", "XFBZV" ]
+				},
+				{
+					"stations": [ "SSLS", "SDL", "SSBG", "SHEM", "SNID", "XFBZV" ]
+				},
+				{
+					"stations": [ "SDL", "XFBZV" ]
+				},
+				{
+					"stations": [ "SDL", "SSBG", "SHEM", "SNID", "XFBZV" ]
+				},
+				{
+					"stations": [ "SDL", "SHEM", "XFBZV" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }

@@ -57044,7 +57044,7 @@
 				{
 					"start": "WA",
 					"end": "WPS",
-					"electrified": false,
+					"electrified": true,
 					"length": 18,
 					"maxSpeed": 60
 				},
@@ -72848,9 +72848,41 @@
 			]
 		},
 		{
+			"name": "Gotthard-Basistunnel",
+			"electrified": true,
+			"group": 2,
+			"neededEquipments": [
+				"CH",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "XSADF",
+					"end": "🇨🇭SSMF",
+					"length": 26,
+					"maxSpeed": 250,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭SSMF",
+					"end": "🇨🇭FSMF",
+					"length": 19,
+					"maxSpeed": 250,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭FSMF",
+					"end": "XSBC",
+					"length": 21,
+					"maxSpeed": 250,
+					"twistingFactor": 0.1
+				}	
+			]
+		},
+		{
 			"name": "Gotthardbahn",
 			"electrified": true,
-			"group": 1,
+			"group": 0,
 			"neededEquipments": [
 				"CH"
 			],
@@ -72885,10 +72917,24 @@
 				},
 				{
 					"start": "🇨🇭BRU",
-					"end": "XSADF",
-					"length": 15,
+					"end": "🇨🇭SK",
+					"length": 6,
+					"maxSpeed": 110,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭SK",
+					"end": "🇨🇭FL",
+					"length": 6,
 					"maxSpeed": 115,
-					"twistingFactor": 0.25
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭FL",
+					"end": "XSADF",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XSADF",
@@ -72896,8 +72942,7 @@
 					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.16
-				}
-				
+				}	
 			]
 		},
 		{
@@ -72910,38 +72955,81 @@
 			"objects": [
 				{
 					"start": "XSEF",
-					"end": "XSGS",
-					"length": 29,
+					"end": "🇨🇭AS",
+					"length": 5,
 					"maxSpeed": 80,
-					"twistingFactor": 0.8
+					"twistingFactor": 0.25
 				},
 				{
+					"start": "🇨🇭AS",
+					"end": "🇨🇭GU",
+					"length": 8,
+					"maxSpeed": 80,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇨🇭GU",
+					"end": "🇨🇭WAS",
+					"length": 8,
+					"maxSpeed": 80,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇨🇭WAS",
+					"end": "XSGS",
+					"length": 8,
+					"maxSpeed": 80,
+					"twistingFactor": 0.25
+				},
+				{
+					"name": "Gotthardtunnel",
 					"start": "XSGS",
 					"end": "XSAI",
-					"length": 15,
+					"length": 16,
 					"maxSpeed": 120,
 					"twistingFactor": 0.02
 				},
 				{
 					"start": "XSAI",
-					"end": "XSFD",
-					"length": 20,
+					"end": "🇨🇭AP",
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇨🇭AP",
+					"end": "🇨🇭RO",
+					"length": 5,
 					"maxSpeed": 80,
-					"twistingFactor": 0.5
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇨🇭RO",
+					"end": "XSFD",
+					"length": 8,
+					"maxSpeed": 80,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "XSFD",
-					"end": "XSBOD",
-					"length": 19,
+					"end": "🇨🇭LAV",
+					"length": 7,
 					"maxSpeed": 80,
-					"twistingFactor": 0.5
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇨🇭LAV",
+					"end": "XSBOD",
+					"length": 13,
+					"maxSpeed": 80,
+					"twistingFactor": 0.25
 				},
 				{
 					"start": "XSBOD",
 					"end": "XSBC",
 					"length": 6,
 					"maxSpeed": 125,
-					"twistingFactor": 0.2
+					"twistingFactor": 0.1
 				}
 			]
 		},
@@ -73023,19 +73111,6 @@
 				"CH"
 			],
 			"objects": [
-				{
-					"name": "Gotthard-Basistunnel",
-					"start": "XSADF",
-					"end": "XSBC",
-					"neededEquipments": [
-						"CH",
-						"ETCS"
-					],
-					"length": 66,
-					"maxSpeed": 250,
-					"twistingFactor": 0.1,
-					"group": 2
-				},
 				{
 					"start": "XSBC",
 					"end": "XSCA",
@@ -83002,6 +83077,42 @@
 					"start": "TMW",
 					"end": "TMBS",
 					"length": 2
+				}
+			]
+		},
+		{	"name": "Niedtalbahn",
+			"twistingFactor": 0.1,
+			"maxSpeed": 80,
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "SDL",
+					"end": "SSBG",
+					"length": 5
+				},
+				{
+					"start": "SSBG",
+					"end": "SHEM",
+					"length": 4,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "SHEM",
+					"end": "SNID",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "SNID",
+					"end": "XFBZV",
+					"length": 9,
+					"maxSpeed": 50,
+					"twistingFactor": 0.3,
+					"neededEquipments": [
+						"FR"
+					]
 				}
 			]
 		}
