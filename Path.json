@@ -38563,8 +38563,15 @@
 				},
 				{
 					"start": "XONOD",
+					"end": "🇳🇴O2883839783",
+					"length": 10,
+					"maxSpeed": 120,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇳🇴O2883839783",
 					"end": "🇳🇴O2368279883",
-					"length": 40,
+					"length": 30,
 					"maxSpeed": 120,
 					"twistingFactor": 0.39
 				},
@@ -82432,7 +82439,56 @@
 				}
 			]
 		},
-		{	"neededEquipments": [
+		{
+			"name": "Bratsbergbanen",
+			"electrified": true,
+			"group": 1,
+			"neededEquipments": [
+				"NO"
+			],
+			"objects": [
+				{
+					"start": "XONOD",
+					"end": "🇳🇴O367553676",
+					"length": 22,
+					"maxSpeed": 100,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇳🇴O367553676",
+					"end": "XOSEN",
+					"length": 11,
+					"maxSpeed": 105,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"neededEquipments": [
+				"NO"
+			],
+			"name": "Tinnosbanen",
+			"objects": [
+				{
+					"start": "🇳🇴O364506845",
+					"end": "🇳🇴O5526332045",
+					"length": 7,
+					"maxSpeed": 70,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇳🇴O5526332045",
+					"end": "🇳🇴O2883839783",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
+			"neededEquipments": [
 				"FR"
 			],
 			"name": "Ligne 17",
