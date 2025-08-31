@@ -5901,6 +5901,10 @@
 				{
 					"stations": [ "XSF", "RF" ],
 					"pathSuggestion": [ "XSF", "XSBE", "XSBL", "XSGRN" , "XSB", "RB", "RML", "RF" ]
+				},
+				{
+					"stations": [ "XOAN", "TA" ],
+					"pathSuggestion": [ "XOAN", "XOEL", "XOKN", "🇸🇪7400206", "🇸🇪O7484649773", "XVOX", "XVGB", "XVVA", "XVHL", "🇸🇪O497523471", "XVA", "🇸🇪7400018", "🇸🇪7400108", "🇸🇪KL", "XVLD", "XVM", "XDKH", "XDRI", "XDMF", "XDTA", "XDLU", "XDTI", "AF", "AJ", "AR", "AN", "AEL", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FFU", "NBN", "NRB", "NWH", "NAN", "TC", "TGL", "TA" ]
 				}
 			],
 			"neededCapacity": [
@@ -6042,6 +6046,19 @@
 				"Es wird Holz aus %s für die Europalettenproduktion in %s benötigt."
 			],
 			"stations": [ "URTS" ],
+			"neededCapacity": [
+				{ "name": "wood", "value": 1800 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Holzzug von %s nach %s",
+			"descriptions": [
+				"Bringe den Holzzug störungsfrei zur Papierfabrik."
+			],
+			"service": 11,
+			"stations": [ "XOAUM", "🇸🇪7400070" ],
+			"pathSuggestion": [ "XOAUM", "XOEL", "XOKN", "🇸🇪7400206", "🇸🇪7400070" ],
 			"neededCapacity": [
 				{ "name": "wood", "value": 1800 }
 			]
@@ -7082,6 +7099,21 @@
 				},
 				{
 					"stations": [ "XORO", "XOFA", "XOBO" ]
+				},
+				{
+					"stations": [ "XOHM", "XOEL", "XOSR", "XOTS" ]
+				},
+				{
+					"stations": [ "XOOS", "XOND", "XOR", "🇳🇴00626" ]
+				},
+				{
+					"stations": [ "XONL", "🇳🇴02146" ]
+				},
+				{
+					"stations": [ "XOSTV", "XOEGS" ]
+				},
+				{
+					"stations": [ "🇳🇴O2883839783", "XONOD", "XOSEN", "XOPG" ]
 				}
 			],
 			"neededCapacity": [
@@ -7171,13 +7203,20 @@
 			],
 			"objects": [
 				{
-					"stations": [ "XOOS", "XOBG" ]
+					"stations": [ "XOOS", "XOBG" ],
+					"pathSuggestion": [ "XOOS", "XODR", "XOHOK", "XOHF", "XOMY", "XOBG" ]
 				},
 				{
-					"stations": [ "XOOS", "XOTS" ]
+					"stations": [ "XOOS", "XOTS" ],
+					"pathSuggestion": [ "XOOS", "XOLI", "XOKL", "XOEDV", "XOHM", "XOSR", "XOTS" ]
 				},
 				{
-					"stations": [ "XOTS", "XOBO" ]
+					"stations": [ "XOTS", "XOBO" ],
+					"pathSuggestion": [ "XOTS", "XOHE", "XOBO" ]
+				},
+				{
+					"stations": [ "XOOS", "XOSTV" ],
+					"pathSuggestion": [ "XOOS", "XODR", "XOHOK", "🇳🇴O2883839783", "XONOD", "XONL", "XOSTV" ]
 				}
 			],
 			"neededCapacity": [
@@ -12244,6 +12283,58 @@
 					"stations": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "🇨🇭LAV", "XSFD", "🇨🇭AP", "XSAI", "XSGS", "XSEF", "XSADF", "🇨🇭FL", "🇨🇭BRU", "XSSY", "XSAG", "XSLU", "XSOL", "XSB" ],
 					"pathSuggestion": [ "XSLC", "XSBZ", "XSCA", "XSBC", "XSBOD", "🇨🇭LAV", "XSFD", "🇨🇭AP", "XSAI", "XSGS", "XSEF", "XSADF", "🇨🇭FL", "🇨🇭BRU", "XSSY", "XSAG", "XSIM", "XSLU", "XSSUS", "XSZG", "XSOL", "XSB" ]
 				}
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB77 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre die Regionalbahn auf der Niedtalbahn von %s nach %s.",
+				"Fahre auf der idyllischen Niedtalbahn bis nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "SDL", "SSBG", "SHEM", "SNID" ]
+				},
+				{
+					"stations": [ "SSH", "SSB", "SSHI", "SLU", "SVL", "SBO", "SEN", "SSLS", "SDL", "SSBG", "SHEM", "SNID" ],
+					"descriptions": [
+						"Fahre die verlängerte Fahrt der RB77 mit dem Zweck eines Fahrzeugtausches von %s nach %s."
+					]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Sonderzug am Karfreitag nach %2$s",
+			"service": 4,
+			"descriptions": [
+				"Es ist Karfreitag, bringe daher die Besucher des Karfreitagsmarktes in Bouzonville nach %s",
+				"Nur an einem einzigen Tag im Jahr fährt hier ein Personenzug rüber nach Frankreich und du hast die Ehre, ihn zu fahren."
+			],
+			"objects": [
+				{
+					"stations": [ "SSH", "SSLS", "SDL", "XFBZV" ]
+				},
+				{
+					"stations": [ "SSLS", "SDL", "SSBG", "SHEM", "SNID", "XFBZV" ]
+				},
+				{
+					"stations": [ "SDL", "XFBZV" ]
+				},
+				{
+					"stations": [ "SDL", "SSBG", "SHEM", "SNID", "XFBZV" ]
+				},
+				{
+					"stations": [ "SDL", "SHEM", "XFBZV" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
 			]
 		}
 	]
