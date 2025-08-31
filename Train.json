@@ -1317,7 +1317,7 @@
 		{
 			"id": 85591007,
 			"group": 2,
-			"service": 2,
+			"service": 4,
 			"name": "OeBB Roter Pfeil",
 			"shortcut": "OeBB RCe 2/4 607",
 			"speed": 80,
@@ -1338,7 +1338,7 @@
 		{
 			"id": 85591021,
 			"group": 2,
-			"service": 2,
+			"service": 4,
 			"name": "Churchill-Pfeil",
 			"shortcut": "SBB RAe 4/8 1021",
 			"speed": 125,
@@ -1353,7 +1353,8 @@
 			"equipments": ["CH"],
 			"exchangeTime": 60,
 			"capacity": [
-				{"name": "passengers", "value": 112}
+				{"name": "passengers", "value": 56},
+				{"name": "bistroseats", "value": 56}
 			]
 		},
 		{
