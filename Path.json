@@ -75799,7 +75799,7 @@
 		},
 		{
 			"name": "Tampere–Seinäjoki",
-			"group": 1,
+			"group": 0,
 			"neededEquipment": [
 				"FI",
 				"1520mm"
@@ -75822,6 +75822,36 @@
 					"start": "🇫🇮JÄS",
 					"end": "🇫🇮JY",
 					"length": 57
+				}
+			]
+		},
+		{
+			"name": "Haapamäki–Jyväskylä",
+			"group": 1,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": false,
+			"twistingFactor": 0.15,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "🇫🇮HPK",
+					"end": "🇫🇮KEU",
+					"length": 16
+				},
+				{
+					"start": "🇫🇮KEU",
+					"end": "🇫🇮PVI",
+					"maxSpeed": 100,
+					"length": 26
+				},
+				{
+					"start": "🇫🇮PVI",
+					"end": "🇫🇮JY",
+					"maxSpeed": 100,
+					"length": 35
 				}
 			]
 		}
