@@ -75540,7 +75540,7 @@
 		},
 		{
 			"name": "Rantarata",
-			"group": 2,
+			"group": 0,
 			"neededEquipment": [
 				"FI",
 				"1520mm"
@@ -75626,7 +75626,7 @@
 		},
 		{
 			"name": "Tampere–Pori",
-			"group": 2,
+			"group": 0,
 			"neededEquipment": [
 				"FI",
 				"1520mm"
@@ -75659,6 +75659,55 @@
 					"start": "🇫🇮HVA",
 					"end": "🇫🇮PRI",
 					"length": 27
+				}
+			]
+		},
+		{
+			"name": "Riihimäki–Tampere",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"maxSpeed": 140,
+			"objects": [
+				{
+					"start": "🇫🇮RI",
+					"end": "🇫🇮TU",
+					"maxSpeed": 170,
+					"length": 22
+				},
+				{
+					"start": "🇫🇮TU",
+					"end": "🇫🇮HL",
+					"maxSpeed": 180,
+					"length": 14
+				},
+				{
+					"start": "🇫🇮HL",
+					"end": "🇫🇮ITA",
+					"maxSpeed": 170,
+					"length": 22
+				},
+				{
+					"start": "🇫🇮ITA",
+					"end": "🇫🇮TL",
+					"maxSpeed": 170,
+					"length": 18
+				},
+				{
+					"start": "🇫🇮TL",
+					"end": "🇫🇮VIA",
+					"maxSpeed": 170,
+					"length": 7
+				},
+				{
+					"start": "🇫🇮VIA",
+					"end": "🇫🇮TPE",
+					"maxSpeed": 200,
+					"length": 35
 				}
 			]
 		}
