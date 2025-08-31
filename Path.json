@@ -11071,7 +11071,7 @@
 				"SE"
 			],
 			"name": "Stångådalsbanan",
-			"electriefied": false,
+			"electrified": false,
 			"objects": [
 				{
 					"start": "XVKM",
@@ -21037,17 +21037,10 @@
 				},
 				{
 					"start": "🇸🇪7400516",
-					"end": "🇸🇪7401537",
-					"length": 29,
+					"end": "🇸🇪7400230",
+					"length": 31,
 					"maxSpeed": 135,
 					"twistingFactor": 0.18
-				},
-				{
-					"start": "🇸🇪7401537",
-					"end": "🇸🇪7400230",
-					"length": 2,
-					"maxSpeed": 70,
-					"twistingFactor": 0.01
 				}
 			]
 		},
@@ -36550,8 +36543,15 @@
 				},
 				{
 					"start": "🇸🇪7400530",
+					"end": "XVAV",
+					"length": 16,
+					"maxSpeed": 130,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XVAV",
 					"end": "🇸🇪7400683",
-					"length": 27,
+					"length": 11,
 					"maxSpeed": 130,
 					"twistingFactor": 0.29
 				},
@@ -67097,8 +67097,8 @@
 				},
 				{
 					"start": "🇸🇪7400069",
-					"end": "🇸🇪7401537",
-					"length": 27,
+					"end": "🇸🇪7400230",
+					"length": 29,
 					"maxSpeed": 160,
 					"twistingFactor": 0.39
 				}
@@ -82027,8 +82027,19 @@
 				},
 				{
 					"start": "XVGV",
+					"end": "🇸🇪7400209",
+					"length": 58,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"SE",
+						"ETCS"
+					]
+				},
+				{
+					"start": "🇸🇪7400209",
 					"end": "🇸🇪7402007",
-					"length": 107,
+					"length": 49,
 					"maxSpeed": 160,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
@@ -82038,8 +82049,19 @@
 				},
 				{
 					"start": "🇸🇪7402007",
+					"end": "🇸🇪7402008",
+					"length": 40,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"SE",
+						"ETCS"
+					]
+				},
+				{
+					"start": "🇸🇪7402008",
 					"end": "XVAO",
-					"length": 92,
+					"length": 52,
 					"maxSpeed": 120,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
