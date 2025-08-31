@@ -11258,7 +11258,7 @@
 				"SE"
 			],
 			"name": "Stångådalsbanan",
-			"electriefied": false,
+			"electrified": false,
 			"objects": [
 				{
 					"start": "XVKM",
@@ -21538,17 +21538,10 @@
 				},
 				{
 					"start": "🇸🇪7400516",
-					"end": "🇸🇪7401537",
-					"length": 29,
+					"end": "🇸🇪7400230",
+					"length": 31,
 					"maxSpeed": 135,
 					"twistingFactor": 0.18
-				},
-				{
-					"start": "🇸🇪7401537",
-					"end": "🇸🇪7400230",
-					"length": 2,
-					"maxSpeed": 70,
-					"twistingFactor": 0.01
 				}
 			]
 		},
@@ -37051,8 +37044,15 @@
 				},
 				{
 					"start": "🇸🇪7400530",
+					"end": "XVAV",
+					"length": 16,
+					"maxSpeed": 130,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XVAV",
 					"end": "🇸🇪7400683",
-					"length": 27,
+					"length": 11,
 					"maxSpeed": 130,
 					"twistingFactor": 0.29
 				},
@@ -39064,8 +39064,15 @@
 				},
 				{
 					"start": "XONOD",
+					"end": "🇳🇴O2883839783",
+					"length": 10,
+					"maxSpeed": 120,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇳🇴O2883839783",
 					"end": "🇳🇴O2368279883",
-					"length": 40,
+					"length": 30,
 					"maxSpeed": 120,
 					"twistingFactor": 0.39
 				},
@@ -52002,6 +52009,227 @@
 					"length": 6,
 					"twistingFactor": 0.35,
 					"maxSpeed": 90
+				}
+			]
+		},
+		{
+			"name": "Rørosbanen",
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"NO"
+			],
+			"objects": [
+				{
+					"start": "XOSR",
+					"end": "XORS",
+					"length": 11,
+					"maxSpeed": 105,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XORS",
+					"end": "XOKY",
+					"length": 6,
+					"maxSpeed": 105,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "XOKY",
+					"end": "🇳🇴01017",
+					"length": 11,
+					"maxSpeed": 130,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇳🇴01017",
+					"end": "XOLG",
+					"length": 16,
+					"maxSpeed": 125,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "XOLG",
+					"end": "XOHD",
+					"length": 9,
+					"maxSpeed": 85,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XOHD",
+					"end": "XOAN",
+					"length": 15,
+					"maxSpeed": 115,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "XOAN",
+					"end": "XORI",
+					"length": 5,
+					"maxSpeed": 130,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XORI",
+					"end": "🇳🇴01008",
+					"length": 19,
+					"maxSpeed": 130,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇳🇴01008",
+					"end": "XORR",
+					"length": 13,
+					"maxSpeed": 130,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XORR",
+					"end": "XOTL",
+					"length": 30,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XOTL",
+					"end": "XOTY",
+					"length": 20,
+					"maxSpeed": 130,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "XOTY",
+					"end": "XOAUM",
+					"length": 9,
+					"maxSpeed": 125,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "XOAUM",
+					"end": "XOAV",
+					"length": 12,
+					"maxSpeed": 125,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XOAV",
+					"end": "XOBEL",
+					"length": 12,
+					"maxSpeed": 130,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XOBEL",
+					"end": "XOHN",
+					"length": 26,
+					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XOHN",
+					"end": "XOAT",
+					"length": 13,
+					"maxSpeed": 130,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XOAT",
+					"end": "XOKG",
+					"length": 24,
+					"maxSpeed": 130,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XOKG",
+					"end": "XOSTAI",
+					"length": 9,
+					"maxSpeed": 85,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XOSTAI",
+					"end": "XOEVE",
+					"length": 9,
+					"maxSpeed": 130,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XOEVE",
+					"end": "XOOH",
+					"length": 13,
+					"maxSpeed": 130,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XOOH",
+					"end": "XOSTVK",
+					"length": 9,
+					"maxSpeed": 130,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XOSTVK",
+					"end": "XORN",
+					"length": 13,
+					"maxSpeed": 130,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XORN",
+					"end": "XOEL",
+					"length": 31,
+					"maxSpeed": 130,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XOEL",
+					"end": "XOLT",
+					"length": 14,
+					"maxSpeed": 130,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XOLT",
+					"end": "XOIG",
+					"length": 8,
+					"maxSpeed": 115,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XOIG",
+					"end": "XOHM",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
+			"name": "Solørbanen",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 100,
+			"neededEquipments": [
+				"NO"
+			],
+			"objects": [
+				{
+					"start": "XOEL",
+					"end": "🇳🇴O251683605",
+					"length": 24,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇳🇴O251683605",
+					"end": "🇳🇴O2005496026",
+					"length": 36,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇳🇴O2005496026",
+					"end": "XOKN",
+					"length": 32,
+					"twistingFactor": 0.19
 				}
 			]
 		},
@@ -67455,8 +67683,8 @@
 				},
 				{
 					"start": "🇸🇪7400069",
-					"end": "🇸🇪7401537",
-					"length": 27,
+					"end": "🇸🇪7400230",
+					"length": 29,
 					"maxSpeed": 160,
 					"twistingFactor": 0.39
 				}
@@ -82385,8 +82613,19 @@
 				},
 				{
 					"start": "XVGV",
+					"end": "🇸🇪7400209",
+					"length": 58,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"SE",
+						"ETCS"
+					]
+				},
+				{
+					"start": "🇸🇪7400209",
 					"end": "🇸🇪7402007",
-					"length": 107,
+					"length": 49,
 					"maxSpeed": 160,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
@@ -82396,8 +82635,19 @@
 				},
 				{
 					"start": "🇸🇪7402007",
+					"end": "🇸🇪7402008",
+					"length": 40,
+					"maxSpeed": 120,
+					"twistingFactor": 0.2,
+					"neededEquipments": [
+						"SE",
+						"ETCS"
+					]
+				},
+				{
+					"start": "🇸🇪7402008",
 					"end": "XVAO",
-					"length": 92,
+					"length": 52,
 					"maxSpeed": 120,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
@@ -82872,7 +83122,56 @@
 				}
 			]
 		},
-		{	"neededEquipments": [
+		{
+			"name": "Bratsbergbanen",
+			"electrified": true,
+			"group": 1,
+			"neededEquipments": [
+				"NO"
+			],
+			"objects": [
+				{
+					"start": "XONOD",
+					"end": "🇳🇴O367553676",
+					"length": 22,
+					"maxSpeed": 100,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇳🇴O367553676",
+					"end": "XOSEN",
+					"length": 11,
+					"maxSpeed": 105,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"neededEquipments": [
+				"NO"
+			],
+			"name": "Tinnosbanen",
+			"objects": [
+				{
+					"start": "🇳🇴O364506845",
+					"end": "🇳🇴O5526332045",
+					"length": 7,
+					"maxSpeed": 70,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇳🇴O5526332045",
+					"end": "🇳🇴O2883839783",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
+			"neededEquipments": [
 				"FR"
 			],
 			"name": "Ligne 17",
@@ -83386,6 +83685,42 @@
 					"start": "TMW",
 					"end": "TMBS",
 					"length": 2
+				}
+			]
+		},
+		{	"name": "Niedtalbahn",
+			"twistingFactor": 0.1,
+			"maxSpeed": 80,
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "SDL",
+					"end": "SSBG",
+					"length": 5
+				},
+				{
+					"start": "SSBG",
+					"end": "SHEM",
+					"length": 4,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "SHEM",
+					"end": "SNID",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "SNID",
+					"end": "XFBZV",
+					"length": 9,
+					"maxSpeed": 50,
+					"twistingFactor": 0.3,
+					"neededEquipments": [
+						"FR"
+					]
 				}
 			]
 		}
