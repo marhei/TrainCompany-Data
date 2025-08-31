@@ -9377,7 +9377,8 @@
 					"neededEquipments": [
 						"BE",
 						"LU",
-						"ETCS"]
+						"ETCS"
+					]
 				}
 			]
 		},
@@ -73996,27 +73997,27 @@
 					"length": 6
 				},
 				{
-					"start":"🇰🇵Wonsan",
+					"start": "🇰🇵Wonsan",
 					"end": "🇰🇵Kalma",
 					"length": 4
 				},
 				{
-					"start":"🇰🇵Kalma",
+					"start": "🇰🇵Kalma",
 					"end": "🇰🇵Baehwa",
 					"length": 7
 				},
 				{
-					"start":"🇰🇵Baehwa",
+					"start": "🇰🇵Baehwa",
 					"end": "🇰🇵Anbyon",
 					"length": 5
 				},
 				{
-					"start":"🇰🇵Anbyon",
+					"start": "🇰🇵Anbyon",
 					"end": "🇰🇵Namsan",
 					"length": 7
 				},
 				{
-					"start":"🇰🇵Namsan",
+					"start": "🇰🇵Namsan",
 					"end": "🇰🇵Kwangmyong",
 					"length": 10
 				},
@@ -75534,6 +75535,92 @@
 						"1520mm"
 					],
 					"length": 50
+				}
+			]
+		},
+		{
+			"name": "Rantarata",
+			"group": 2,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"maxSpeed": 160,
+			"objects": [
+				{
+					"start": "🇫🇮PSL",
+					"end": "🇫🇮HPL",
+					"maxSpeed": 120,
+					"length": 3
+				},
+				{
+					"start": "🇫🇮HPL",
+					"end": "🇫🇮LPV",
+					"maxSpeed": 120,
+					"length": 5
+				},
+				{
+					"start": "🇫🇮LPV",
+					"end": "🇫🇮KEA",
+					"maxSpeed": 120,
+					"length": 3
+				},
+				{
+					"start": "🇫🇮KEA",
+					"end": "🇫🇮KVH",
+					"maxSpeed": 120,
+					"length": 4
+				},
+				{
+					"start": "🇫🇮KVH",
+					"end": "🇫🇮TRL",
+					"maxSpeed": 120,
+					"length": 1
+				},
+				{
+					"start": "🇫🇮TRL",
+					"end": "🇫🇮KLH",
+					"maxSpeed": 120,
+					"length": 5
+				},
+				{
+					"start": "🇫🇮KLH",
+					"end": "🇫🇮KKN",
+					"maxSpeed": 120,
+					"length": 13
+				},
+				{
+					"start": "🇫🇮KKN",
+					"end": "🇫🇮STI",
+					"length": 14
+				},
+				{
+					"start": "🇫🇮STI",
+					"end": "🇫🇮IKO",
+					"length": 19
+				},
+				{
+					"start": "🇫🇮IKO",
+					"end": "🇫🇮SLO",
+					"length": 69
+				},
+				{
+					"start": "🇫🇮SLO",
+					"end": "🇫🇮PIK",
+					"length": 37
+				},
+				{
+					"start": "🇫🇮PIK",
+					"end": "🇫🇮TKU",
+					"length": 17
+				},
+				{
+					"start": "🇫🇮TKU",
+					"end": "🇫🇮TUS",
+					"maxSpeed": 40,
+					"length": 3
 				}
 			]
 		}
