@@ -9093,11 +9093,96 @@
 				"Fahre diesen Nahverkehrszug von %s nach %s.",
 				"Fahre durch die Slowakei und halte dabei an allen Stationen."
 			],
-			"stations": [ "XYB", "XYNZ", "XYST" ],
+				"objects": [		
+				{			
+					"stations": [ "XYB", "XYNZ", "XYST" ]
+				},		
+				{
+					"stations": [ "XYK", "ZUC" ]
+				},
+				{
+					"stations": [ "XYK", "XYPT" ]
+				},
+				{
+					"stations": [ "XYLIM", "XYPT" ]
+				},
+				{
+					"stations": [ "XYLIM", "XYVU" ]
+				},
+				{
+					"stations": [ "XYVU", "XYZ" ]
+				},
+				{
+					"stations": [ "XYZ", "XYPT" ]
+				},
+				{
+					"stations": [ "XYB", "XYPT" ]
+				}
+			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "Rychlik von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Schnellzug von %s nach %s.",
+				"Fahre von %s nach %s.",
+				"Fahre durch die Slowakei."
+			],
+			"objects": [
+				{
+					"stations": [ "XYB", "XYTRN", "XYTRE", "XYZ", "XYPT", "XYKY", "XYK" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Rychlik von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Nachtzug von %s nach %s.",
+				"Fahre durch die Nacht von %s nach %s.",
+				"Fahre durch die Slowakei."
+			],
+			"objects": [
+				{
+					"stations": [ "XYB", "XYTRN", "XYTRE", "XYPT", "XYK" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			],
+			"stopsEverywhere": false
+		},
+		{
+			"group": 1,
+			"name": "Rychlik von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Fahre diesen Nachtzug von %s nach %s.",
+				"Fahre durch die Nacht von %s nach %s.",
+				"Verbinde Tschechien und die Ukraine miteinander."
+			],
+			"objects": [
+				{
+					"stations": [ "XTP", "XTPAR", "XTOH", "XYPT", "XYK", "ZUC" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			],
+			"stopsEverywhere": false
 		},
 		{
 			"group": 1,
