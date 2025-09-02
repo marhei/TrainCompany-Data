@@ -17771,7 +17771,7 @@
 					"start": "ZBMG",
 					"end": "ZBZA",
 					"length": 23,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.5,
 					"neededEquipments": [
 						"BA"
@@ -17791,7 +17791,7 @@
 					"start": "ZBZE",
 					"end": "ZBNM",
 					"length": 22,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.5,
 					"neededEquipments": [
 						"BA"
@@ -17801,7 +17801,7 @@
 					"start": "ZBNM",
 					"end": "ZBZC",
 					"length": 23,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.5,
 					"neededEquipments": [
 						"BA"
@@ -17811,7 +17811,7 @@
 					"start": "ZBZC",
 					"end": "ZBKA",
 					"length": 28,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.5,
 					"neededEquipments": [
 						"BA"
@@ -17821,7 +17821,7 @@
 					"start": "ZBKA",
 					"end": "ZBVI",
 					"length": 18,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.5,
 					"neededEquipments": [
 						"BA"
@@ -26893,13 +26893,13 @@
 				},
 				{
 					"start": "🇵🇱O1304624490",
-					"end": "🇵🇱O9937238000",
+					"end": "🇵🇱09937238000",
 					"length": 3,
 					"maxSpeed": 100,
 					"twistingFactor": 0.01
 				},
 				{
-					"start": "🇵🇱O9937238000",
+					"start": "🇵🇱09937238000",
 					"end": "🇵🇱O3820920395",
 					"length": 4,
 					"maxSpeed": 120,
@@ -29847,72 +29847,6 @@
 					],
 					"twistingFactor": 0.3,
 					"maxSpeed": 120
-				},
-				{
-					"start": "🇵🇹37002",
-					"end": "🇵🇹41020",
-					"length": 15,
-					"neededEquipments": [
-						"PT",
-						"1668mm"
-					],
-					"twistingFactor": 0.2,
-					"maxSpeed": 120
-				},
-				{
-					"start": "🇵🇹41020",
-					"end": "XXPB",
-					"length": 49,
-					"neededEquipments": [
-						"PT",
-						"1668mm"
-					],
-					"twistingFactor": 0.2,
-					"maxSpeed": 140
-				},
-				{
-					"start": "XXPB",
-					"end": "XXCX",
-					"length": 30,
-					"neededEquipments": [
-						"PT",
-						"1668mm"
-					],
-					"twistingFactor": 0.2,
-					"maxSpeed": 160
-				},
-				{
-					"start": "XXCX",
-					"end": "XXEC",
-					"length": 33,
-					"neededEquipments": [
-						"PT",
-						"1668mm"
-					],
-					"twistingFactor": 0.2,
-					"maxSpeed": 160
-				},
-				{
-					"start": "XXEC",
-					"end": "XXSR",
-					"length": 32,
-					"neededEquipments": [
-						"PT",
-						"1668mm"
-					],
-					"twistingFactor": 0.2,
-					"maxSpeed": 150
-				},
-				{
-					"start": "XXSR",
-					"end": "XXLO",
-					"length": 74,
-					"neededEquipments": [
-						"PT",
-						"1668mm"
-					],
-					"maxSpeed": 190,
-					"twistingFactor": 0.15
 				}
 			]
 		},
@@ -66174,6 +66108,687 @@
 					"end": "LTRE",
 					"length": 2,
 					"maxSpeed": 40
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"1668mm",
+				"PT"
+			],
+			"objects": [
+				{
+					"start": "XXLO",
+					"end": "🇵🇹MOE",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹MOE",
+					"end": "🇵🇹SAC",
+					"name": "Linha do Norte - Via Ascendente Lenta",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹SAC",
+					"end": "🇵🇹BOB",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹BOB",
+					"end": "🇵🇹SAI",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹SAI",
+					"end": "🇵🇹POA",
+					"name": "Linha do Norte",
+					"length": 2,
+					"maxSpeed": 200,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹POA",
+					"end": "🇵🇹ACA",
+					"name": "Linha do Norte",
+					"length": 4,
+					"maxSpeed": 200,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹ACA",
+					"end": "🇵🇹ALH",
+					"name": "Linha do Norte",
+					"length": 4,
+					"maxSpeed": 200,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹ALH",
+					"end": "🇵🇹VFX",
+					"name": "Linha do Norte",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇵🇹VFX",
+					"end": "🇵🇹CRI",
+					"name": "Linha do Norte",
+					"length": 4,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹CRI",
+					"end": "🇵🇹CAR",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹CAR",
+					"end": "🇵🇹VNR",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹VNR",
+					"end": "🇵🇹EAZ",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹EAZ",
+					"end": "🇵🇹AZA",
+					"name": "Linha do Norte",
+					"length": 4,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹AZA",
+					"end": "🇵🇹VRT",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹VRT",
+					"end": "🇵🇹RVP",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹RVP",
+					"end": "🇵🇹SET",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹SET",
+					"end": "🇵🇹SCA",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹SCA",
+					"end": "🇵🇹VDS",
+					"name": "Linha do Norte",
+					"length": 5,
+					"maxSpeed": 220,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇵🇹VDS",
+					"end": "XXSR",
+					"name": "Linha do Norte",
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "XXSR",
+					"end": "🇵🇹VDE",
+					"name": "Linha do Norte",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇵🇹VDE",
+					"end": "🇵🇹MDM",
+					"name": "Linha do Norte",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇵🇹MDM",
+					"end": "🇵🇹RIC",
+					"name": "Linha do Norte",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇵🇹RIC",
+					"end": "XXEC",
+					"name": "Linha do Norte",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XXEC",
+					"end": "🇵🇹LMR",
+					"name": "Linha do Norte",
+					"length": 7,
+					"maxSpeed": 170,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇵🇹LMR",
+					"end": "🇵🇹PAV",
+					"name": "Linha do Norte",
+					"length": 5,
+					"maxSpeed": 170,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹PAV",
+					"end": "🇵🇹FGV",
+					"name": "Linha do Norte",
+					"length": 4,
+					"maxSpeed": 170,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇵🇹FGV",
+					"end": "🇵🇹O1666531636",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1666531636",
+					"end": "🇵🇹O1666531630",
+					"name": "Linha do Norte",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1666531630",
+					"end": "XXCX",
+					"name": "Linha do Norte",
+					"length": 6,
+					"maxSpeed": 170,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "XXCX",
+					"end": "🇵🇹O1665653802",
+					"name": "Linha do Norte",
+					"length": 10,
+					"maxSpeed": 170,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇵🇹O1665653802",
+					"end": "🇵🇹O1665653823",
+					"name": "Linha do Norte",
+					"length": 6,
+					"maxSpeed": 180,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇵🇹O1665653823",
+					"end": "🇵🇹O1665653866",
+					"name": "Linha do Norte",
+					"length": 5,
+					"maxSpeed": 180,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇵🇹O1665653866",
+					"end": "XXPB",
+					"name": "Linha do Norte",
+					"length": 8,
+					"maxSpeed": 200,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "XXPB",
+					"end": "🇵🇹O1662820053",
+					"name": "Linha do Norte",
+					"length": 5,
+					"maxSpeed": 200,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1662820053",
+					"end": "🇵🇹O1662820113",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 200,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1662820113",
+					"end": "🇵🇹O1662820138",
+					"name": "Linha do Norte",
+					"length": 5,
+					"maxSpeed": 200,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇵🇹O1662820138",
+					"end": "🇵🇹O1662820056",
+					"name": "Linha do Norte",
+					"length": 5,
+					"maxSpeed": 190,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇵🇹O1662820056",
+					"end": "🇵🇹O12000965456",
+					"name": "Linha do Norte",
+					"length": 6,
+					"maxSpeed": 190,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇵🇹O12000965456",
+					"end": "🇵🇹O1657226078",
+					"name": "Linha do Norte",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1657226078",
+					"end": "🇵🇹O5525890737",
+					"name": "Linha do Norte",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇵🇹O5525890737",
+					"end": "🇵🇹O1657227721",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇵🇹O1657227721",
+					"end": "🇵🇹O1657227914",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1657227914",
+					"end": "🇵🇹O5525890742",
+					"name": "Linha do Norte",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇵🇹O5525890742",
+					"end": "🇵🇹O1657228736",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1657228736",
+					"end": "🇵🇹O1657224036",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1657224036",
+					"end": "🇵🇹O1657224012",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1657224012",
+					"end": "🇵🇹41020",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇵🇹41020",
+					"end": "🇵🇹O1655345061",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇵🇹O1655345061",
+					"end": "🇵🇹O1655345068",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1655345068",
+					"end": "🇵🇹O1654269025",
+					"name": "Linha do Norte",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1654269025",
+					"end": "🇵🇹37002",
+					"name": "Linha do Norte",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇵🇹37002",
+					"end": "🇵🇹XXME",
+					"name": "Linha do Norte",
+					"length": 4,
+					"maxSpeed": 220,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇵🇹XXME",
+					"end": "🇵🇹O1652625346",
+					"name": "Linha do Norte",
+					"length": 4,
+					"maxSpeed": 220,
+					"twistingFactor": 0.02
+				},
+				{
+					"start": "🇵🇹O1652625346",
+					"end": "🇵🇹O1652625352",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1652625352",
+					"end": "🇵🇹O1652625356",
+					"name": "Linha do Norte",
+					"length": 2,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1652625356",
+					"end": "🇵🇹O1651724595",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1651724595",
+					"end": "🇵🇹O1651724593",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 220,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇵🇹O1651724593",
+					"end": "🇵🇹OIA",
+					"name": "Linha do Norte",
+					"length": 5,
+					"maxSpeed": 220,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇵🇹OIA",
+					"end": "🇵🇹O1651724598",
+					"name": "Linha do Norte",
+					"length": 7,
+					"maxSpeed": 220,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇵🇹O1651724598",
+					"end": "🇵🇹AVO",
+					"name": "Linha do Norte",
+					"length": 6,
+					"maxSpeed": 220,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇵🇹AVO",
+					"end": "🇵🇹O1649608075",
+					"name": "Linha do Norte",
+					"length": 5,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1649608075",
+					"end": "🇵🇹O1649608085",
+					"name": "Linha do Norte",
+					"length": 4,
+					"maxSpeed": 220,
+					"twistingFactor": 0.02
+				},
+				{
+					"start": "🇵🇹O1649608085",
+					"end": "🇵🇹O1649608118",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 180,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1649608118",
+					"end": "🇵🇹EST",
+					"name": "Linha do Norte",
+					"length": 2,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹EST",
+					"end": "🇵🇹SMQ",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹SMQ",
+					"end": "🇵🇹AVN",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹AVN",
+					"end": "🇵🇹O1647271728",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1647271728",
+					"end": "🇵🇹XXO",
+					"name": "Linha do Norte",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇵🇹XXO",
+					"end": "🇵🇹O1645697059",
+					"name": "Linha do Norte",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1645697059",
+					"end": "🇵🇹O1645697070",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1645697070",
+					"end": "🇵🇹O1645697079",
+					"name": "Linha do Norte",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1645697079",
+					"end": "🇵🇹O1645697105",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1645697105",
+					"end": "🇵🇹O1645697116",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1645697116",
+					"end": "🇵🇹XXE",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹XXE",
+					"end": "🇵🇹O1645697089",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1645697089",
+					"end": "🇵🇹O1644056607",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1644056607",
+					"end": "🇵🇹O1564601429",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇵🇹O1564601429",
+					"end": "🇵🇹O1644056631",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1644056631",
+					"end": "🇵🇹O1643655290",
+					"name": "Linha do Norte",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1643655290",
+					"end": "🇵🇹O1643655287",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹O1643655287",
+					"end": "🇵🇹O1564048046",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇵🇹O1564048046",
+					"end": "🇵🇹GAI",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹GAI",
+					"end": "🇵🇹GTO",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹GTO",
+					"end": "🇵🇹PCA",
+					"name": "Linha do Norte",
+					"length": 1,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
 				}
 			]
 		},
