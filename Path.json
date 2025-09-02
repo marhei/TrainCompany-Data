@@ -17488,7 +17488,7 @@
 				}
 			]
 		},
-	{
+		{
 			"electrified": true,
 			"group": 0,
 			"objects": [
@@ -17731,7 +17731,7 @@
 					"start": "ZBSM",
 					"end": "ZBMOD",
 					"length": 18,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.2,
 					"neededEquipments": [
 						"BA"
@@ -17741,7 +17741,7 @@
 					"start": "ZBMOD",
 					"end": "ZBOJD",
 					"length": 27,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.3,
 					"neededEquipments": [
 						"BA"
@@ -17751,7 +17751,7 @@
 					"start": "ZBOJD",
 					"end": "ZBDO",
 					"length": 16,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.3,
 					"neededEquipments": [
 						"BA"
@@ -17761,7 +17761,7 @@
 					"start": "ZBDO",
 					"end": "ZBMG",
 					"length": 23,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.4,
 					"neededEquipments": [
 						"BA"
@@ -17781,7 +17781,7 @@
 					"start": "ZBZA",
 					"end": "ZBZE",
 					"length": 22,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.4,
 					"neededEquipments": [
 						"BA"
@@ -17831,7 +17831,7 @@
 					"start": "ZBVI",
 					"end": "ZBIL",
 					"length": 10,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.3,
 					"neededEquipments": [
 						"BA"
@@ -17841,7 +17841,7 @@
 					"start": "ZBIL",
 					"end": "ZBRA",
 					"length": 13,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.4,
 					"neededEquipments": [
 						"BA"
@@ -17851,7 +17851,7 @@
 					"start": "ZBRA",
 					"end": "ZBSA",
 					"length": 8,
-					"maxSpeed":70,
+					"maxSpeed": 70,
 					"twistingFactor": 0.1,
 					"neededEquipments": [
 						"BA"
@@ -17859,7 +17859,7 @@
 				}
 			]
 		},
-		        {
+		{
 			"electrified": true,
 			"group": 0,
 			"objects": [
@@ -18142,8 +18142,7 @@
 					]
 				},
 				{
-					"start":
- "XGVO",
+					"start": "XGVO",
 					"end": "XGDU",
 					"length": 20,
 					"maxSpeed": 50,
@@ -31171,6 +31170,248 @@
 					"start": "🇳🇱Bde",
 					"end": "XNMT",
 					"length": 6
+				}
+			]
+		},
+		{
+			"name": "Linha do Algarve",
+			"group": 0,
+			"neededEquipments": [
+				"PT",
+				"1668mm"
+			],
+			"objects": [
+				{
+					"start": "🇵🇹LAG",
+					"end": "🇵🇹MPR",
+					"electrified": false,
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇵🇹MPR",
+					"end": "🇵🇹MGE",
+					"electrified": false,
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇵🇹MGE",
+					"end": "🇵🇹PAO",
+					"electrified": true,
+					"length": 8,
+					"maxSpeed": 90,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇵🇹PAO",
+					"end": "🇵🇹FEO",
+					"electrified": true,
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇵🇹FEO",
+					"end": "🇵🇹ELA",
+					"electrified": true,
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹ELA",
+					"end": "🇵🇹SIL",
+					"electrified": true,
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇵🇹SIL",
+					"end": "🇵🇹PBA",
+					"electrified": true,
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇵🇹PBA",
+					"end": "🇵🇹ALA",
+					"electrified": true,
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹ALA",
+					"end": "🇵🇹ALZ",
+					"electrified": true,
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇵🇹ALZ",
+					"end": "🇵🇹TUN",
+					"electrified": true,
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇵🇹TUN",
+					"end": "🇵🇹ALB",
+					"electrified": true,
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇵🇹ALB",
+					"end": "🇵🇹BOE",
+					"electrified": true,
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇵🇹BOE",
+					"end": "🇵🇹LOE",
+					"electrified": true,
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹LOE",
+					"end": "🇵🇹ALM",
+					"electrified": true,
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇵🇹ALM",
+					"end": "🇵🇹PCI",
+					"electrified": true,
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇵🇹PCI",
+					"end": "🇵🇹FAR",
+					"electrified": true,
+					"length": 7,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇵🇹FAR",
+					"end": "🇵🇹BJO",
+					"electrified": true,
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇵🇹BJO",
+					"end": "🇵🇹OLH",
+					"electrified": true,
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇵🇹OLH",
+					"end": "🇵🇹FUA",
+					"electrified": true,
+					"length": 8,
+					"maxSpeed": 110,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇵🇹FUA",
+					"end": "🇵🇹FUS",
+					"electrified": true,
+					"length": 1,
+					"maxSpeed": 70,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇵🇹FUS",
+					"end": "🇵🇹LTO",
+					"electrified": true,
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹LTO",
+					"end": "🇵🇹LUZ",
+					"electrified": true,
+					"length": 2,
+					"maxSpeed": 110,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹LUZ",
+					"end": "🇵🇹TAA",
+					"electrified": true,
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹TAA",
+					"end": "🇵🇹PNA",
+					"electrified": true,
+					"length": 1,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇵🇹PNA",
+					"end": "🇵🇹COO",
+					"electrified": true,
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇵🇹COO",
+					"end": "🇵🇹CAA",
+					"electrified": true,
+					"length": 6,
+					"maxSpeed": 110,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇵🇹CAA",
+					"end": "🇵🇹CMM",
+					"electrified": true,
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇵🇹CMM",
+					"end": "🇵🇹MGO",
+					"electrified": true,
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇵🇹MGO",
+					"end": "🇵🇹VSA",
+					"electrified": true,
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.14
 				}
 			]
 		},
@@ -73147,7 +73388,7 @@
 					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.16
-				}	
+				}
 			]
 		},
 		{
@@ -74096,7 +74337,7 @@
 					"length": 7,
 					"maxSpeed": 100,
 					"twistingFactor": 0.1
-				},				
+				},
 				{
 					"start": "🇨🇭BDF",
 					"end": "XSBE",
@@ -74238,7 +74479,7 @@
 					"end": "🇨🇭OEN",
 					"length": 17,
 					"maxSpeed": 130,
-					"twistingFactor": 0.20
+					"twistingFactor": 0.2
 				},
 				{
 					"start": "🇨🇭OEN",
@@ -74249,7 +74490,7 @@
 				}
 			]
 		},
-		{			
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -82974,7 +83215,7 @@
 					"end": "XSZG",
 					"length": 7,
 					"maxSpeed": 140,
-					"twistingFactor": 0.20
+					"twistingFactor": 0.2
 				}
 			]
 		},
@@ -83044,7 +83285,8 @@
 				}
 			]
 		},
-		{	"name": "Württembergische Westbahn",
+		{
+			"name": "Württembergische Westbahn",
 			"twistingFactor": 0.2,
 			"maxSpeed": 140,
 			"electrified": true,
@@ -83198,7 +83440,8 @@
 				}
 			]
 		},
-		{	"name": "Residenzbahn",
+		{
+			"name": "Residenzbahn",
 			"twistingFactor": 0.1,
 			"maxSpeed": 140,
 			"electrified": true,
@@ -83295,7 +83538,8 @@
 				}
 			]
 		},
-		{	"twistingFactor": 0.3,
+		{
+			"twistingFactor": 0.3,
 			"maxSpeed": 50,
 			"electrified": false,
 			"group": 1,
