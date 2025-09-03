@@ -32251,6 +32251,65 @@
 			]
 		},
 		{
+			"neededEquipments": [
+				"FR"
+			],
+			"maxSpeed": 70,
+			"group": 1,
+			"electrified": false,
+			"name": "Ligne de Bayonne à Saint-Jean-Pied-de-Port",
+			"objects": [
+				{
+					"start": "XFBY",
+					"end": "🇫🇷O926804998",
+					"length": 9,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇫🇷O926804998",
+					"end": "🇫🇷USZ",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷USZ",
+					"end": "🇫🇷HLS",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷HLS",
+					"end": "🇫🇷CPQ",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷CPQ",
+					"end": "🇫🇷ITX",
+					"length": 5,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷ITX",
+					"end": "🇫🇷PBJ",
+					"length": 10,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷PBJ",
+					"end": "🇫🇷OSS",
+					"length": 5,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇫🇷OSS",
+					"end": "🇫🇷SJP",
+					"length": 10,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": true,
 			"maxSpeed": 70,
