@@ -23165,6 +23165,92 @@
 			]
 		},
 		{
+			"name": "Raumabanen",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 130,
+			"neededEquipments": [
+				"NO"
+			],
+			"objects": [
+				{
+					"start": "XODB",
+					"end": "XOLJ",
+					"length": 17,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "XOLJ",
+					"end": "XOLJV",
+					"length": 19,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XOLJV",
+					"end": "XOBR",
+					"length": 19,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XOBR",
+					"end": "🇳🇴00811",
+					"length": 31,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇳🇴00811",
+					"end": "XOAD",
+					"length": 26,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
+			"name": "Spikkestadbanen",
+			"electrified": true,
+			"neededEquipments": [
+				"NO"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "XOAK",
+					"end": "🇳🇴O2015101169",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇳🇴O2015101169",
+					"end": "🇳🇴O35219495",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇳🇴O35219495",
+					"end": "🇳🇴O35219524",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇳🇴O35219524",
+					"end": "🇳🇴O1473398098",
+					"length": 5,
+					"maxSpeed": 110,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇳🇴O1473398098",
+					"end": "🇳🇴O2015100974",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.19
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -46380,6 +46466,66 @@
 					"maxSpeed": 160,
 					"twistingFactor": 0.2,
 					"length": 24
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Arosabahn",
+			"group": 1,
+			"neededEquipments": [
+				"CH",
+				"1000mm"
+			],
+			"objects": [
+				{
+					"start": "XSC",
+					"end": "🇨🇭CHSA",
+					"length": 1,
+					"maxSpeed": 30,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭CHSA",
+					"end": "🇨🇭LUCA",
+					"length": 8,
+					"maxSpeed": 30,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇭LUCA",
+					"end": "🇨🇭STPM",
+					"length": 4,
+					"maxSpeed": 30,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇭STPM",
+					"end": "🇨🇭PEI",
+					"length": 2,
+					"maxSpeed": 30,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇭PEI",
+					"end": "🇨🇭LAWI",
+					"length": 4,
+					"maxSpeed": 30,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇭LAWI",
+					"end": "🇨🇭LITZ",
+					"length": 3,
+					"maxSpeed": 30,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇭LITZ",
+					"end": "🇨🇭AROS",
+					"length": 5,
+					"maxSpeed": 30,
+					"twistingFactor": 0.3
 				}
 			]
 		},
@@ -82447,6 +82593,90 @@
 					"length": 13,
 					"maxSpeed": 125,
 					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"name": "Østfoldbanen Østre linje",
+			"electrified": true,
+			"neededEquipments": [
+				"NO",
+				"ETCS"
+			],
+			"group": 1,
+			"maxSpeed": 110,
+			"objects": [
+				{
+					"start": "XOSK",
+					"end": "🇳🇴O2374086245",
+					"length": 5,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇳🇴O2374086245",
+					"end": "🇳🇴O5526332105",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇳🇴O5526332105",
+					"end": "🇳🇴O5720559121",
+					"length": 3,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇳🇴O5720559121",
+					"end": "🇳🇴O5526331870",
+					"length": 4,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇳🇴O5526331870",
+					"end": "🇳🇴O5720557884",
+					"length": 2,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇳🇴O5720557884",
+					"end": "🇳🇴00533",
+					"length": 8,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇳🇴00533",
+					"end": "🇳🇴O5720557870",
+					"length": 5,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇳🇴O5720557870",
+					"end": "🇳🇴00536",
+					"length": 4,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇳🇴00536",
+					"end": "🇳🇴O5720557899",
+					"length": 4,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇳🇴O5720557899",
+					"end": "🇳🇴O2375332466",
+					"length": 4,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇳🇴O2375332466",
+					"end": "🇳🇴O5720557877",
+					"length": 5,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇳🇴O5720557877",
+					"end": "XOSAR",
+					"length": 25,
+					"twistingFactor": 0.36
 				}
 			]
 		},
