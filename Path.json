@@ -24263,6 +24263,185 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne de Toulouse à Bayonne",
+			"objects": [
+				{
+					"start": "XFBY",
+					"end": "🇫🇷URT",
+					"length": 16,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷URT",
+					"end": "🇫🇷PRH",
+					"length": 16,
+					"maxSpeed": 120,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷PRH",
+					"end": "🇫🇷PUO",
+					"length": 17,
+					"maxSpeed": 130,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷PUO",
+					"end": "🇫🇷ORT",
+					"length": 14,
+					"maxSpeed": 120,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷ORT",
+					"end": "🇫🇷ATI",
+					"length": 19,
+					"maxSpeed": 140,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇫🇷ATI",
+					"end": "XFPU",
+					"length": 20,
+					"maxSpeed": 140,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "XFPU",
+					"end": "🇫🇷ATK",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷ATK",
+					"end": "🇫🇷CZN",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷CZN",
+					"end": "🇫🇷MHZ",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MHZ",
+					"end": "🇫🇷XPE",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷XPE",
+					"end": "XFL",
+					"length": 10,
+					"maxSpeed": 110,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XFL",
+					"end": "🇫🇷TBS",
+					"length": 20,
+					"maxSpeed": 140,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇫🇷TBS",
+					"end": "🇫🇷TRY",
+					"length": 17,
+					"maxSpeed": 140,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇫🇷TRY",
+					"end": "🇫🇷CPN",
+					"length": 12,
+					"maxSpeed": 110,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷CPN",
+					"end": "🇫🇷LNZ",
+					"length": 5,
+					"maxSpeed": 110,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇫🇷LNZ",
+					"end": "🇫🇷MTJ",
+					"length": 16,
+					"maxSpeed": 110,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷MTJ",
+					"end": "🇫🇷SGD",
+					"length": 13,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷SGD",
+					"end": "🇫🇷SYM",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷SYM",
+					"end": "🇫🇷BQY",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷BQY",
+					"end": "XFCAB",
+					"length": 24,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XFCAB",
+					"end": "🇫🇷MET",
+					"length": 20,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MET",
+					"end": "🇫🇷PSS",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷PSS",
+					"end": "XFTM",
+					"length": 11,
+					"maxSpeed": 160,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "XFDX",
+					"end": "🇫🇷PUO",
+					"name": "Ligne de Puyoô à Dax",
+					"length": 30,
+					"maxSpeed": 130,
+					"twistingFactor": 0.32
+				}
+			]
+		},
+		{
 			"maxSpeed": 90,
 			"electrified": false,
 			"group": 0,
@@ -65266,6 +65445,122 @@
 					"end": "XFMZV",
 					"length": 28,
 					"maxSpeed": 125
+				}
+			]
+		},
+		{
+			"name": "Ligne de Montréjeau - Gourdan-Polignan à Luchon",
+			"maxSpeed": 90,
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇫🇷MTJ",
+					"end": "🇫🇷LZB",
+					"length": 7,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷LZB",
+					"end": "🇫🇷SZS",
+					"length": 7,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷SZS",
+					"end": "🇫🇷MSB",
+					"length": 5,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MSB",
+					"end": "🇫🇷LUC",
+					"length": 14,
+					"twistingFactor": 0.17
+				}
+			]
+		},
+		{
+			"name": "Ligne de Pau à Canfranc et Laruns",
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFPU",
+					"end": "🇫🇷O2333975182",
+					"group": 0,
+					"length": 1,
+					"maxSpeed": 140,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇫🇷O2333975182",
+					"end": "🇫🇷GNJ",
+					"group": 1,
+					"length": 6,
+					"maxSpeed": 85,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷GNJ",
+					"end": "🇫🇷BUZ",
+					"group": 1,
+					"length": 11,
+					"maxSpeed": 85,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷BUZ",
+					"end": "🇫🇷OLB",
+					"group": 1,
+					"length": 4,
+					"maxSpeed": 85,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷OLB",
+					"end": "🇫🇷OLN",
+					"group": 1,
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷OLN",
+					"end": "🇫🇷51791",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 100,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷51791",
+					"end": "🇫🇷67274",
+					"group": 1,
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷67274",
+					"end": "🇫🇷67276",
+					"group": 1,
+					"length": 9,
+					"maxSpeed": 80,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇫🇷67276",
+					"end": "🇫🇷67277",
+					"group": 1,
+					"length": 6,
+					"maxSpeed": 70,
+					"twistingFactor": 0.14
 				}
 			]
 		},
