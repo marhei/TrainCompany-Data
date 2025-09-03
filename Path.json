@@ -45969,6 +45969,66 @@
 			]
 		},
 		{
+			"electrified": true,
+			"name": "Arosabahn",
+			"group": 1,
+			"neededEquipments": [
+				"CH",
+				"1000mm"
+			],
+			"objects": [
+				{
+					"start": "XSC",
+					"end": "🇨🇭CHSA",
+					"length": 1,
+					"maxSpeed": 30,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭CHSA",
+					"end": "🇨🇭LUCA",
+					"length": 8,
+					"maxSpeed": 30,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇭LUCA",
+					"end": "🇨🇭STPM",
+					"length": 4,
+					"maxSpeed": 30,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇭STPM",
+					"end": "🇨🇭PEI",
+					"length": 2,
+					"maxSpeed": 30,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇭PEI",
+					"end": "🇨🇭LAWI",
+					"length": 4,
+					"maxSpeed": 30,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇭LAWI",
+					"end": "🇨🇭LITZ",
+					"length": 3,
+					"maxSpeed": 30,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇨🇭LITZ",
+					"end": "🇨🇭AROS",
+					"length": 5,
+					"maxSpeed": 30,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
 			"start": "MKFG",
 			"end": "MLL",
 			"electrified": false,
