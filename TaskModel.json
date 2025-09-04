@@ -805,6 +805,27 @@
 			"service": 1
 		},
 		{
+			"name": "Intercités von %s nach %s",
+			"descriptions": [
+				"Diese Linie wird zwar mit neuem Rollmaterial bedient, aber dafür (noch) ohne Reservierungspflicht."
+			],
+			"objects": [
+				{
+					"stations": [ "XFN", "XFTU", "XFNE", "XFCU", "XFD", "XFCS", "XFMAL", "XFLPD" ],
+					"pathSuggestion": [ "XFN", "XFFD", "XFTU", "XFNE", "XFCU", "XFD", "XFCS", "XFMAL", "XFBV", "XFLPD" ]
+				},
+				{
+					"stations": [ "XFTM", "🇫🇷SGD", "🇫🇷MTJ", "🇫🇷LNZ", "🇫🇷TBS", "XFL", "XFPU", "🇫🇷ORT", "XFBY", "XFBR", "XFHE" ],
+					"pathSuggestion": [ "XFTM", "🇫🇷PSS", "🇫🇷SGD", "🇫🇷MTJ", "🇫🇷LNZ", "🇫🇷TBS", "XFL", "XFPU", "🇫🇷ORT", "🇫🇷PUO", "XFBY", "XFBR", "XFHE" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1
+		},
+		{
 			"name": "RE 11 von %s nach %s",
 			"descriptions": [
 				"Bringe den Regionalexpress der Linie 11 von %s nach %s.",
