@@ -2394,6 +2394,33 @@
 			"service": 5
 		},
 		{
+			"name": "Intercités de nuit von %s nach %s",
+			"descriptions": [
+				"Verbinde die französische Hauptstadt mit dem Südwesten des Landes.",
+				"Fahre über Nacht einmal quer durch Frankreich."
+			],
+			"objects": [
+				{
+					"stations": [ "XFPO", "XFOL", "🇫🇷CAH", "XFMBN", "XFTM" ],
+					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷VER", "🇫🇷LIM", "🇫🇷CAH", "XFMBN", "XFTM" ]
+				},
+				{
+					"stations": [ "XFPO", "XFOL", "🇫🇷O9790907558", "🇫🇷SRN", "🇫🇷PMS", "🇫🇷FXE", "XFTRC", "🇫🇷CNB", "XFLUG", "🇫🇷AXN", "🇫🇷MLX", "🇫🇷O2261676064", "🇫🇷PPM", "🇫🇷LTL" ],
+					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷VER", "🇫🇷LIM", "🇫🇷CAH", "XFMBN", "XFTM", "🇫🇷O9790907558", "🇫🇷SRN", "🇫🇷PMS", "🇫🇷FXE", "XFTRC", "🇫🇷CNB", "XFLUG", "🇫🇷AXN", "🇫🇷MLX", "🇫🇷O2261676064", "🇫🇷PPM", "🇫🇷LTL" ]
+				},
+				{
+					"stations": [ "XFPO", "XFOL", "🇫🇷FAT", "XFDX", "🇫🇷SVT", "XFBY", "🇫🇷ORT", "XFPU", "XFL", "🇫🇷TBS" ],
+				  "pathSuggestion": [ "XFPO", "XFOL", "🇫🇷TO", "XFBJ", "🇫🇷FAT", "XFDX", "🇫🇷SVT", "XFBY", "🇫🇷ORT", "XFPU", "XFL", "🇫🇷TBS" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			],
+			"group": 1,
+			"service": 5
+		},
+		{
 			"group": 1,
 			"name": "Eifel-Mosel-Express von %s nach %s",
 			"service": 2,
