@@ -78013,6 +78013,51 @@
 			]
 		},
 		{
+			"name": "Ligne de Carcassonne à Rivesaltes",
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "XFCN",
+					"end": "🇫🇷CFW",
+					"length": 9,
+					"maxSpeed": 110,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇫🇷CFW",
+					"end": "🇫🇷VRZ",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷VRZ",
+					"end": "🇫🇷PMA",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷PMA",
+					"end": "🇫🇷LMF",
+					"length": 8,
+					"maxSpeed": 90,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷LMF",
+					"end": "🇫🇷LMX",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
