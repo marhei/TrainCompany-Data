@@ -72618,6 +72618,93 @@
 			]
 		},
 		{
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne de Saint-Agne à Auch",
+			"group": 1,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "XFTM",
+					"end": "🇫🇷O1172856149",
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷O1172856149",
+					"end": "🇫🇷SMT",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷SMT",
+					"end": "🇫🇷COL",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇫🇷COL",
+					"end": "🇫🇷LYF",
+					"length": 2,
+					"maxSpeed": 120,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷LYF",
+					"end": "🇫🇷PBR",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇫🇷PBR",
+					"end": "🇫🇷BXL",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷BXL",
+					"end": "🇫🇷MWE",
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇫🇷MWE",
+					"end": "🇫🇷LIJ",
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷LIJ",
+					"end": "🇫🇷GAH",
+					"length": 21,
+					"maxSpeed": 90,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷GAH",
+					"end": "🇫🇷AIT",
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷AIT",
+					"end": "🇫🇷AUH",
+					"length": 18,
+					"maxSpeed": 90,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
 			"name": "Far North Line",
 			"electrified": false,
 			"neededEquipments": [
