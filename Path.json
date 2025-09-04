@@ -60558,6 +60558,79 @@
 			]
 		},
 		{
+			"name": "Ligne de Perpignan à Villefranche-Vernet-les-Bains",
+			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "XFPE",
+					"end": "🇫🇷LSL",
+					"length": 7,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷LSL",
+					"end": "🇫🇷O618954554",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷O618954554",
+					"end": "🇫🇷MYR",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MYR",
+					"end": "🇫🇷ILL",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇫🇷ILL",
+					"end": "🇫🇷VCA",
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷VCA",
+					"end": "🇫🇷MQG",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MQG",
+					"end": "🇫🇷PDS",
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷PDS",
+					"end": "🇫🇷RAJ",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷RAJ",
+					"end": "🇫🇷VVB",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"maxSpeed": 150,
 			"twistingFactor": 0.1,
