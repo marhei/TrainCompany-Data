@@ -8858,7 +8858,22 @@
 				},
 				{
 					"stations": [ "XFHV", "🇫🇷RRD", "XFPO" ]
-				},
+				}
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "TER Lio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe diesen TER von %s nach %s.",
+				"Fahre ohne Verspätungen durch Occitanie."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
 				{
 					"stations": [ "XFTM", "XFMBN", "XFBLG" ]
 				},
