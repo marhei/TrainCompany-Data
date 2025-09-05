@@ -487,7 +487,7 @@
 				},
 				{
 					"stations": [ "XFPO", "🇫🇷TO", "XFBJ", "XFTM" ],
-					"pathSuggestion": [ "XFPO", "🇫🇷CSP", "🇫🇷TO", "XFBJ", "XFTM" ]
+					"pathSuggestion": [ "XFPO", "🇫🇷CSP", "🇫🇷TO", "XFBJ", "XFMBN", "XFTM" ]
 				},
 				{
 					"stations": [ "XFHV", "🇫🇷RRD", "XFPO", "XFLPD", "XFAVV", "XFM" ],
@@ -787,7 +787,7 @@
 			"objects": [
 				{
 					"stations": [ "XFM", "🇫🇷NMS", "XFMO", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ],
-					"pathSuggestion": [ "XFM", "XFLES", "XFMI", "XFARL", "🇫🇷NPG", "🇫🇷NMS", "XFMO", "🇫🇷VLM", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "🇫🇷AGN", "XFBJ" ]
+					"pathSuggestion": [ "XFM", "XFLES", "XFMI", "XFARL", "🇫🇷NPG", "🇫🇷NMS", "XFMO", "🇫🇷VLM", "XFSE", "XFBZ", "XFNB", "XFCN", "XFTM", "XFMBN", "🇫🇷AGN", "XFBJ" ]
 				},
 				{
 					"stations": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷VHY", "XFCLE" ],
@@ -796,6 +796,27 @@
 				{
 					"stations": [ "XFCLE", "🇫🇷RIO", "🇫🇷VHY", "🇫🇷NVS", "🇫🇷VER", "XFOL", "XFPO" ],
 					"pathSuggestion": [ "XFCLE", "🇫🇷RIO", "🇫🇷VHY", "XFSGF", "XFSZE", "🇫🇷NVS", "🇫🇷GUA", "🇫🇷VER", "XFOL", "XFPO" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 1
+		},
+		{
+			"name": "Intercités von %s nach %s",
+			"descriptions": [
+				"Diese Linie wird zwar mit neuem Rollmaterial bedient, aber dafür (noch) ohne Reservierungspflicht."
+			],
+			"objects": [
+				{
+					"stations": [ "XFN", "XFTU", "XFNE", "XFCU", "XFD", "XFCS", "XFMAL", "XFLPD" ],
+					"pathSuggestion": [ "XFN", "XFFD", "XFTU", "XFNE", "XFCU", "XFD", "XFCS", "XFMAL", "XFBV", "XFLPD" ]
+				},
+				{
+					"stations": [ "XFTM", "🇫🇷SGD", "🇫🇷MTJ", "🇫🇷LNZ", "🇫🇷TBS", "XFL", "XFPU", "🇫🇷ORT", "XFBY", "XFBR", "XFHE" ],
+					"pathSuggestion": [ "XFTM", "🇫🇷PSS", "🇫🇷SGD", "🇫🇷MTJ", "🇫🇷LNZ", "🇫🇷TBS", "XFL", "XFPU", "🇫🇷ORT", "🇫🇷PUO", "XFBY", "XFBR", "XFHE" ]
 				}
 			],
 			"neededCapacity": [
@@ -2384,6 +2405,33 @@
 				{
 					"stations": [ "XFPO", "XFD", "XFLPD", "XFVCV", "XFAVV", "XFNB", "XFPE" ],
 					"pathSuggestion": [ "XFPO", "XFCQ", "XFMEL", "XFLAR", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD", "XFMAL", "XFBV", "🇫🇷ANS", "XFLPD", "XFVI", "🇫🇷TAI", "XFVCV", "🇫🇷LIV", "🇫🇷PRL", "🇫🇷BLN", "XFOR", "🇫🇷BDR", "XFAVV", "🇫🇷77539", "🇫🇷NMS", "🇫🇷VLM", "XFNB", "XFPE" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "beds" }
+			],
+			"group": 1,
+			"service": 5
+		},
+		{
+			"name": "Intercités de nuit von %s nach %s",
+			"descriptions": [
+				"Verbinde die französische Hauptstadt mit dem Südwesten des Landes.",
+				"Fahre über Nacht einmal quer durch Frankreich."
+			],
+			"objects": [
+				{
+					"stations": [ "XFPO", "XFOL", "🇫🇷CAH", "XFMBN", "XFTM" ],
+					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷VER", "🇫🇷LIM", "🇫🇷CAH", "XFMBN", "XFTM" ]
+				},
+				{
+					"stations": [ "XFPO", "XFOL", "🇫🇷O9790907558", "🇫🇷SRN", "🇫🇷PMS", "🇫🇷FXE", "XFTRC", "🇫🇷CNB", "XFLUG", "🇫🇷AXN", "🇫🇷MLX", "🇫🇷O2261676064", "🇫🇷PPM", "🇫🇷LTL" ],
+					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷VER", "🇫🇷LIM", "🇫🇷CAH", "XFMBN", "XFTM", "🇫🇷O9790907558", "🇫🇷SRN", "🇫🇷PMS", "🇫🇷FXE", "XFTRC", "🇫🇷CNB", "XFLUG", "🇫🇷AXN", "🇫🇷MLX", "🇫🇷O2261676064", "🇫🇷PPM", "🇫🇷LTL" ]
+				},
+				{
+					"stations": [ "XFPO", "XFOL", "🇫🇷FAT", "XFDX", "🇫🇷SVT", "XFBY", "🇫🇷ORT", "XFPU", "XFL", "🇫🇷TBS" ],
+				  "pathSuggestion": [ "XFPO", "XFOL", "🇫🇷TO", "XFBJ", "🇫🇷FAT", "XFDX", "🇫🇷SVT", "XFBY", "🇫🇷ORT", "XFPU", "XFL", "🇫🇷TBS" ]
 				}
 			],
 			"neededCapacity": [
@@ -8736,18 +8784,6 @@
 					"stations": [ "🇫🇷TO", "XFOL", "XFPO" ]
 				},
 				{
-					"stations": [ "XFBJ", "🇫🇷AGN" ]
-				},
-				{
-					"stations": [ "🇫🇷AGN", "XFMBN", "XFTM" ]
-				},
-				{
-					"stations": [ "XFTM", "XFCN", "XFNB" ]
-				},
-				{
-					"stations": [ "XFPE", "XFNB", "XFBZ", "XFSE", "🇫🇷VLM", "XFLUN", "🇫🇷NMS", "🇫🇷NPG", "XFARL", "XFMI", "XFM" ]
-				},
-				{
 					"stations": [ "XFM", "XFLES", "XFMI", "XFARL", "XFAVV" ]
 				},
 				{
@@ -8799,9 +8835,6 @@
 					"stations": [ "XFMI", "XFMAG", "XFM" ]
 				},
 				{
-					"stations": [ "XFHE", "XFBJ" ]
-				},
-				{
 					"stations": [ "XFCLE", "XFSGF", "XFLPD" ]
 				},
 				{
@@ -8812,6 +8845,93 @@
 				},
 				{
 					"stations": [ "XFHV", "🇫🇷RRD", "XFPO" ]
+				}
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "TER Lio von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe diesen TER von %s nach %s.",
+				"Fahre ohne Verspätungen durch Occitanie."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XFPE", "XFNB", "XFBZ", "XFSE", "🇫🇷VLM", "XFLUN", "🇫🇷NMS", "🇫🇷NPG", "XFARL", "XFMI", "XFM" ]
+				},
+				{
+					"stations": [ "🇫🇷AGN", "XFMBN", "XFTM" ]
+				},
+				{
+					"stations": [ "XFTM", "XFCN", "XFNB" ]
+				},
+				{
+					"stations": [ "XFTM", "🇫🇷AUH" ]
+				},
+				{
+					"stations": [ "XFTM", "XFMBN", "XFBLG" ]
+				},
+				{
+					"stations": [ "XFTM", "🇫🇷PSS", "🇫🇷LTL"]
+				},
+				{
+					"stations": [ "XFCN", "🇫🇷LMX" ]
+				},
+				{
+					"stations": [ "XFPE", "🇫🇷VVB" ]
+				},
+				{
+					"stations": [ "🇫🇷MTJ", "🇫🇷LUC" ]
+				},
+				{
+					"stations": [ "XFTM", "🇫🇷PSS", "🇫🇷MTJ", "XFPU" ]
+				}
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "TER Nouvelle-Aquitaine von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe diesen TER von %s nach %s.",
+				"Fahre ohne Verspätungen durch Nouvelle-Aquitaine."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XFHE", "XFBY", "XFDX", "🇫🇷FAT", "XFBJ" ]
+				},
+				{
+					"stations": [ "XFBJ", "🇫🇷AGN" ]
+				},
+				{
+					"stations": [ "XFBJ", "🇫🇷LIB", "XFCOU", "🇫🇷LIM" ]
+				},
+				{
+					"stations": [ "🇫🇷ARC", "🇫🇷FAT", "XFBJ", "🇫🇷LIB", "XFCOU" ]
+				},
+				{
+					"stations": [ "XFBY", "🇫🇷SJP" ]
+				},
+				{
+					"stations": [ "XFBY", "🇫🇷PUO", "XFPU", "🇫🇷TBS" ]
+				},
+				{
+					"stations": [ "XFBJ", "🇫🇷FAT", "XFDX", "🇫🇷PUO", "XFPU", "🇫🇷TBS" ]
+				},
+				{
+					"stations": [ "XFPU", "🇫🇷67277" ]
+				},
+				{
+					"stations": [ "XFBLG", "🇫🇷LIM" ]
 				}
 			],
 			"stopsEverywhere": true
