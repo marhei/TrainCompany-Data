@@ -8782,15 +8782,6 @@
 					"stations": [ "🇫🇷TO", "XFOL", "XFPO" ]
 				},
 				{
-					"stations": [ "XFBJ", "🇫🇷AGN" ]
-				},
-				{
-					"stations": [ "🇫🇷AGN", "XFMBN", "XFTM" ]
-				},
-				{
-					"stations": [ "XFTM", "XFCN", "XFNB" ]
-				},
-				{
 					"stations": [ "XFPE", "XFNB", "XFBZ", "XFSE", "🇫🇷VLM", "XFLUN", "🇫🇷NMS", "🇫🇷NPG", "XFARL", "XFMI", "XFM" ]
 				},
 				{
@@ -8845,9 +8836,6 @@
 					"stations": [ "XFMI", "XFMAG", "XFM" ]
 				},
 				{
-					"stations": [ "XFHE", "XFBJ" ]
-				},
-				{
 					"stations": [ "XFCLE", "XFSGF", "XFLPD" ]
 				},
 				{
@@ -8875,10 +8863,49 @@
 			"group": 1,
 			"objects": [
 				{
+					"stations": [ "🇫🇷AGN", "XFMBN", "XFTM" ]
+				},
+				{
+					"stations": [ "XFTM", "XFCN", "XFNB" ]
+				},
+				{
+					"stations": [ "XFTM", "🇫🇷AUH" ]
+				},
+				{
 					"stations": [ "XFTM", "XFMBN", "XFBLG" ]
 				},
 				{
-					"stations": [ "XFBLG", "🇫🇷LIM" ]
+					"stations": [ "XFTM", "🇫🇷LTL"]
+				},
+				{
+					"stations": [ "XFCN", "🇫🇷LMX" ]
+				},
+				{
+					"stations": [ "XFPE", "🇫🇷VVB" ]
+				},
+				{
+					"stations": [ "🇫🇷MTJ", "🇫🇷LUC" ]
+				}
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "TER Nouvelle-Aquitaine von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe diesen TER von %s nach %s.",
+				"Fahre ohne Verspätungen durch Nouvelle-Aquitaine."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XFHE", "XFBJ" ]
+				},
+				{
+					"stations": [ "XFBJ", "🇫🇷AGN" ]
 				},
 				{
 					"stations": [ "XFBJ", "🇫🇷LIB", "XFCOU", "🇫🇷LIM" ]
@@ -8890,22 +8917,10 @@
 					"stations": [ "XFBY", "🇫🇷SJP" ]
 				},
 				{
-					"stations": [ "XFCN", "🇫🇷LMX" ]
-				},
-				{
-					"stations": [ "XFPE", "🇫🇷VVB" ]
-				},
-				{
-					"stations": [ "XFTM", "🇫🇷LTL"]
-				},
-				{
 					"stations": [ "XFPU", "🇫🇷67277" ]
 				},
 				{
-					"stations": [ "🇫🇷MTJ", "🇫🇷LUC" ]
-				},
-				{
-					"stations": [ "XFTM", "🇫🇷AUH" ]
+					"stations": [ "XFBLG", "🇫🇷LIM" ]
 				}
 			],
 			"stopsEverywhere": true
