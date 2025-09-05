@@ -48472,15 +48472,27 @@
 		},
 		{
 			"name": "Oberlausitzbahn",
-			"start": "BHC",
+			"start": "BRU",
 			"end": "BHW",
 			"electrified": true,
 			"group": 0,
-			"length": 15,
-			"maxSpeed": 160,
-			"twistingFactor": 0.08,
+			"maxSpeed": 100,
 			"neededEquipments": [
 				"DE"
+			],
+			"objects": [
+				{
+					"start": "BRU",
+					"end": "BHC",
+					"length": 11,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "BHC",
+					"end": "BHW",
+					"length": 6,
+					"twistingFactor": 0.1
+				}
 			]
 		},
 		{
