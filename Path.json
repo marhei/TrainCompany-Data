@@ -19839,6 +19839,191 @@
 			]
 		},
 		{
+			"name": "Ligne de Brive-la-Gaillarde à Toulouse-Matabiau via Capdenac",
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 0,
+			"objects": [
+				{
+					"start": "XFTM",
+					"end": "🇫🇷MTB",
+					"length": 7,
+					"maxSpeed": 140,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇫🇷MTB",
+					"end": "🇫🇷GAG",
+					"length": 7,
+					"maxSpeed": 110,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷GAG",
+					"end": "🇫🇷MCL",
+					"length": 4,
+					"maxSpeed": 110,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇫🇷MCL",
+					"end": "🇫🇷O11016655586",
+					"length": 4,
+					"maxSpeed": 110,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇫🇷O11016655586",
+					"end": "🇫🇷SST",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷SST",
+					"end": "🇫🇷O1119769298",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇫🇷O1119769298",
+					"end": "🇫🇷LSU",
+					"length": 7,
+					"maxSpeed": 130,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷LSU",
+					"end": "🇫🇷GAI",
+					"length": 8,
+					"maxSpeed": 130,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷GAI",
+					"end": "🇫🇷TES",
+					"length": 3,
+					"maxSpeed": 130,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷TES",
+					"end": "🇫🇷VDC",
+					"length": 19,
+					"maxSpeed": 130,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇫🇷VDC",
+					"end": "🇫🇷LEX",
+					"length": 10,
+					"maxSpeed": 85,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇫🇷LEX",
+					"end": "🇫🇷LPB",
+					"length": 8,
+					"maxSpeed": 85,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇫🇷LPB",
+					"end": "🇫🇷NAJ",
+					"length": 10,
+					"maxSpeed": 85,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷NAJ",
+					"end": "🇫🇷VRW",
+					"length": 16,
+					"maxSpeed": 80,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷VRW",
+					"end": "🇫🇷SIR",
+					"length": 15,
+					"maxSpeed": 85,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷SIR",
+					"end": "🇫🇷CDC",
+					"length": 13,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷CDC",
+					"end": "🇫🇷FIG",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇫🇷FIG",
+					"end": "🇫🇷AER",
+					"group": 1,
+					"length": 18,
+					"maxSpeed": 110,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇫🇷AER",
+					"end": "🇫🇷GRT",
+					"group": 1,
+					"length": 16,
+					"maxSpeed": 140,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷GRT",
+					"end": "🇫🇷RAP",
+					"group": 1,
+					"length": 7,
+					"maxSpeed": 105,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷RAP",
+					"end": "🇫🇷SDM",
+					"group": 1,
+					"length": 18,
+					"maxSpeed": 105,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷SDM",
+					"end": "🇫🇷O3423253720",
+					"group": 1,
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇫🇷O3423253720",
+					"end": "🇫🇷TUR",
+					"group": 1,
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷TUR",
+					"end": "XFBLG",
+					"group": 1,
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.21
+				}
+			]
+		},
+		{
 			"group": 0,
 			"neededEquipments": [
 				"MD",
