@@ -8928,6 +8928,177 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne de Coutras à Tulle",
+			"objects": [
+				{
+					"start": "XFPGX",
+					"end": "🇫🇷O3509770413",
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇫🇷O3509770413",
+					"end": "🇫🇷STK",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷STK",
+					"end": "XFMUS",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XFMUS",
+					"end": "🇫🇷MPI",
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MPI",
+					"end": "XFCOU",
+					"length": 23,
+					"maxSpeed": 220,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XFPGX",
+					"end": "🇫🇷72547",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇫🇷72547",
+					"end": "🇫🇷NEC",
+					"length": 4,
+					"maxSpeed": 115,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷NEC",
+					"end": "🇫🇷XPH",
+					"length": 4,
+					"maxSpeed": 115,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇫🇷XPH",
+					"end": "🇫🇷THN",
+					"length": 18,
+					"maxSpeed": 115,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷THN",
+					"end": "XFCDT",
+					"length": 13,
+					"maxSpeed": 115,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XFCDT",
+					"end": "🇫🇷O335786652",
+					"length": 5,
+					"maxSpeed": 115,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷O335786652",
+					"end": "🇫🇷LDZ",
+					"length": 5,
+					"maxSpeed": 115,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷LDZ",
+					"end": "XFBLG",
+					"length": 13,
+					"maxSpeed": 120,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XFBLG",
+					"end": "🇫🇷ABA",
+					"length": 10,
+					"maxSpeed": 115,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷ABA",
+					"end": "🇫🇷CIL",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇫🇷CIL",
+					"end": "🇫🇷TUL",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷TUL",
+					"end": "🇫🇷CZE",
+					"name": "Ligne de Tulle à Meymac",
+					"length": 16,
+					"maxSpeed": 80,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷CZE",
+					"end": "🇫🇷MCE",
+					"name": "Ligne de Tulle à Meymac",
+					"length": 9,
+					"maxSpeed": 75,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷MCE",
+					"end": "🇫🇷EGL",
+					"name": "Ligne de Tulle à Meymac",
+					"length": 9,
+					"maxSpeed": 75,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷EGL",
+					"end": "🇫🇷MYC",
+					"name": "Ligne de Tulle à Meymac",
+					"length": 18,
+					"maxSpeed": 75,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷MYC",
+					"end": "🇫🇷USL",
+					"name": "Ligne du Palais à Eygurande - Merlines",
+					"length": 13,
+					"maxSpeed": 90,
+					"twistingFactor": 0.19
+				}
+			]
+		},
+		{
 			"twistingFactor": 0.1,
 			"maxSpeed": 140,
 			"objects": [
@@ -22482,51 +22653,6 @@
 					"length": 15,
 					"maxSpeed": 160,
 					"twistingFactor": 0.39
-				},
-				{
-					"start": "XFPGX",
-					"end": "🇫🇷O3509770413",
-					"name": "Ligne de Coutras à Tulle",
-					"electrified": false,
-					"length": 10,
-					"maxSpeed": 160,
-					"twistingFactor": 0.28
-				},
-				{
-					"start": "🇫🇷O3509770413",
-					"end": "🇫🇷STK",
-					"name": "Ligne de Coutras à Tulle",
-					"electrified": false,
-					"length": 6,
-					"maxSpeed": 160,
-					"twistingFactor": 0.14
-				},
-				{
-					"start": "🇫🇷STK",
-					"end": "XFMUS",
-					"name": "Ligne de Coutras à Tulle",
-					"electrified": false,
-					"length": 18,
-					"maxSpeed": 160,
-					"twistingFactor": 0.14
-				},
-				{
-					"start": "XFMUS",
-					"end": "🇫🇷MPI",
-					"name": "Ligne de Coutras à Tulle",
-					"electrified": false,
-					"length": 15,
-					"maxSpeed": 160,
-					"twistingFactor": 0.01
-				},
-				{
-					"start": "🇫🇷MPI",
-					"end": "XFCOU",
-					"name": "Ligne de Coutras à Tulle",
-					"electrified": false,
-					"length": 23,
-					"maxSpeed": 220,
-					"twistingFactor": 0.13
 				},
 				{
 					"start": "XFCOU",
