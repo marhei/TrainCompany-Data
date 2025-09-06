@@ -9055,11 +9055,11 @@
 			"neededEquipments": [
 				"FR"
 			],
+			"name": "Ligne de Tulle à Meymac",
 			"objects": [
 				{
 					"start": "🇫🇷TUL",
 					"end": "🇫🇷CZE",
-					"name": "Ligne de Tulle à Meymac",
 					"length": 16,
 					"maxSpeed": 80,
 					"twistingFactor": 0.39
@@ -9067,7 +9067,6 @@
 				{
 					"start": "🇫🇷CZE",
 					"end": "🇫🇷MCE",
-					"name": "Ligne de Tulle à Meymac",
 					"length": 9,
 					"maxSpeed": 75,
 					"twistingFactor": 0.2
@@ -9075,7 +9074,6 @@
 				{
 					"start": "🇫🇷MCE",
 					"end": "🇫🇷EGL",
-					"name": "Ligne de Tulle à Meymac",
 					"length": 9,
 					"maxSpeed": 75,
 					"twistingFactor": 0.18
@@ -9083,7 +9081,6 @@
 				{
 					"start": "🇫🇷EGL",
 					"end": "🇫🇷MYC",
-					"name": "Ligne de Tulle à Meymac",
 					"length": 18,
 					"maxSpeed": 75,
 					"twistingFactor": 0.29
@@ -22590,12 +22587,12 @@
 			"neededEquipments": [
 				"FR"
 			],
+			"name": "Ligne de Limoges-Bénédictins à Périgueux",
+			"electrified": false,
 			"objects": [
 				{
 					"start": "🇫🇷LIM",
 					"end": "🇫🇷AGF",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 8,
 					"maxSpeed": 110,
 					"twistingFactor": 0.13
@@ -22603,8 +22600,6 @@
 				{
 					"start": "🇫🇷AGF",
 					"end": "🇫🇷NNF",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 11,
 					"maxSpeed": 110,
 					"twistingFactor": 0.29
@@ -22612,8 +22607,6 @@
 				{
 					"start": "🇫🇷NNF",
 					"end": "🇫🇷BGA",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 17,
 					"maxSpeed": 110,
 					"twistingFactor": 0.26
@@ -22621,8 +22614,6 @@
 				{
 					"start": "🇫🇷BGA",
 					"end": "🇫🇷LCQ",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 9,
 					"maxSpeed": 140,
 					"twistingFactor": 0.29
@@ -22630,8 +22621,6 @@
 				{
 					"start": "🇫🇷LCQ",
 					"end": "🇫🇷TIV",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 14,
 					"maxSpeed": 140,
 					"twistingFactor": 0.14
@@ -22639,8 +22628,6 @@
 				{
 					"start": "🇫🇷TIV",
 					"end": "🇫🇷AGA",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 20,
 					"maxSpeed": 140,
 					"twistingFactor": 0.13
@@ -22648,17 +22635,23 @@
 				{
 					"start": "🇫🇷AGA",
 					"end": "XFPGX",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 15,
 					"maxSpeed": 160,
 					"twistingFactor": 0.39
-				},
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean",
+			"electrified": true,
+			"objects": [
 				{
 					"start": "XFCOU",
 					"end": "🇫🇷LIB",
-					"name": "Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean",
-					"electrified": true,
 					"length": 16,
 					"maxSpeed": 220,
 					"twistingFactor": 0.11
@@ -22666,8 +22659,6 @@
 				{
 					"start": "🇫🇷LIB",
 					"end": "🇫🇷VYR",
-					"name": "Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean",
-					"electrified": true,
 					"length": 7,
 					"maxSpeed": 220,
 					"twistingFactor": 0.3
@@ -22675,8 +22666,6 @@
 				{
 					"start": "🇫🇷VYR",
 					"end": "XFBJ",
-					"name": "Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean",
-					"electrified": true,
 					"length": 27,
 					"maxSpeed": 220,
 					"twistingFactor": 0.39
