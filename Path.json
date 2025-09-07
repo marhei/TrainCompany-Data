@@ -37290,121 +37290,104 @@
 			"group": 0,
 			"maxSpeed": 160,
 			"twistingFactor": 0.17,
+			"neededEquipments": [
+				"FR"
+			],
 			"objects": [
 				{
 					"start": "🇫🇷VLM",
 					"end": "🇫🇷FRN",
-					"length": 13,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 13
 				},
 				{
 					"start": "🇫🇷FRN",
 					"end": "XFSE",
-					"length": 6,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 6
 				},
 				{
+					"name": "Ligne de Bordeaux à Sète",
 					"start": "XFSE",
 					"end": "🇫🇷78129",
-					"length": 17,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 17
 				},
 				{
+					"name": "Ligne de Bordeaux à Sète",
 					"start": "🇫🇷78129",
 					"end": "🇫🇷VA",
-					"length": 9,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 9
 				},
 				{
+					"name": "Ligne de Bordeaux à Sète",
 					"start": "🇫🇷VA",
 					"end": "XFBZ",
-					"length": 17,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 17
 				},
 				{
+					"name": "Ligne de Bordeaux à Sète",
 					"start": "XFBZ",
 					"end": "🇫🇷CBS",
-					"length": 7,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 7
 				},
 				{
+					"name": "Ligne de Bordeaux à Sète",
 					"start": "🇫🇷CBS",
 					"end": "XFNB",
-					"length": 18,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 18
 				},
 				{
+					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "XFNB",
 					"end": "🇫🇷PLN",
 					"length": 21,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 150,
 					"twistingFactor": 0.2
 				},
 				{
+					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "🇫🇷PLN",
 					"end": "🇫🇷78108",
 					"length": 10,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 150
 				},
 				{
+					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "🇫🇷78108",
 					"end": "🇫🇷78415",
 					"length": 14,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 150,
 					"twistingFactor": 0.2
 				},
 				{
+					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "🇫🇷78415",
 					"end": "XFRV",
 					"length": 9,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 150
 				},
 				{
+					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "XFRV",
 					"end": "XFPE",
 					"length": 8,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 150
-				},
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"name": "LGV Perpignan-Figueres",
+			"maxSpeed": 350,
+			"twistingFactor": 0.17,
+			"neededEquipments": [
+				"ES",
+				"ETCS"
+			],
+			"objects": [
 				{
 					"start": "XFPE",
 					"end": "XEFI",
-					"name": "LGV Perpignan-Figueres",
-					"group": 2,
-					"length": 54,
-					"neededEquipments": [
-						"ES",
-						"ETCS"
-					],
-					"maxSpeed": 350
+					"length": 54
 				}
 			]
 		},
@@ -45003,6 +44986,7 @@
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 160,
+			"name": "Ligne de Bordeaux à Sète",
 			"neededEquipments": [
 				"FR"
 			],
