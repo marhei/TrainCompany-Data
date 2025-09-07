@@ -1188,6 +1188,27 @@
 			]
 		},
 		{
+			"id": 85526,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler FLIRT",
+			"shortcut": "SOB RABe 526",
+			"speed": 160,
+			"weight": 121,
+			"force": 200,
+			"length": 74,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 400000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 4,
+			"compatibleWith": [526],
+			"equipments": ["CH"],
+			"capacity": [
+				{"name": "passengers", "value": 176}
+			]
+		},
+		{
 			"id": 3427,
 			"group": 2,
 			"service": 2,
@@ -1233,8 +1254,8 @@
 			"id": 526,
 			"group": 2,
 			"service": 1,
-			"name": "Stadler Traverso",
-			"shortcut": "Traverso",
+			"name": "Stadler Traverso (8-tlg.)",
+			"shortcut": "SOB RABe 526 Traverso",
 			"speed": 160,
 			"weight": 260,
 			"force": 400,
@@ -1244,6 +1265,7 @@
 			"cost": 600000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 2,
+			"compatibleWith": [85526],
 			"equipments": ["CH", "ETCS"],
 			"capacity": [
 				{"name": "passengers", "value": 384},
