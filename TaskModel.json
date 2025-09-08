@@ -12059,7 +12059,7 @@
 				"Bring deine Fahrgäste pünktlich nach %2$s!",
 				"Fahre im Auftrag der S-Bahn Stuttgart auf der Linie S3 von %s nach %s."
 			],
-			"stations": [ "TS", "TFE", "TWN", "TNHO", "TSWK", "TWI", "TNL", "TMAU", "TB" ],
+			"stations": [ "TFL", "TSRO", "TSV", "TS", "TFE", "TWN", "TNHO", "TSWK", "TWI", "TNL", "TMAU", "TB" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -12074,7 +12074,7 @@
 				"Bring deine Fahrgäste pünktlich nach %2$s!",
 				"Fahre im Auftrag der S-Bahn Stuttgart auf der Linie S2 von %s nach %s."
 			],
-			"stations": [ "TS", "TFE", "TWN", "TROM", "TSTE", "TEN", "TBTB", "TGC", "TGES", "TWIN", "TWEL", "TSF" ],
+			"stations": [ "TFIL", "TFL", "TSRO", "TSV", "TS", "TFE", "TWN", "TROM", "TSTE", "TEN", "TBTB", "TGC", "TGES", "TWIN", "TWEL", "TSF" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -12944,6 +12944,104 @@
 					"stations": [ "SDL", "SHEM", "XFBZV" ]
 				}
 			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB43 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den Ringzug von %s nach %s",
+				"Bring deine Fahrgäste pünktlich auf der RB43 nach %2$s!",
+				"Fahre die Linie RB43 von %s bis %s. Halte dabei an jeder Milchkanne."
+			],
+			"stations": [ "TR", "TRSA", "TSP", "TTU", "TMHB", "RIM" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE4 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den Freizeitexpress Bodensee von %s nach %s",
+				"Bring deine Fahrgäste nach %2$s. Achte darauf, dass diese Verbindung insbesondere im Sommer bei Radlern sehr beliebt ist!",
+			],
+			"objects": [
+				{
+					"stations": [ "TS", "TSV", "TBO", "THE", "TGFD", "TBD", "THB", "TSUL", "TOB", "TR", "TSP", "TTU", "RENG", "RSI", "RRZ", "RAB", "RKO" ],
+					"pathSuggestion": [ "TS", "TSV", "TSRO", "TBO", "THE", "TGFD", "TBD", "TET", "THB", "TSUL", "TOB", "TR", "TRSA", "TSP", "TTU", "RENG", "RSI", "RRZ", "RAB", "RKO" ]
+				},
+				{
+					"stations": [ "TR", "TTU", "RENG", "RSI" ],
+					"pathSuggestion": [ "TR", "TRSA", "TTU", "RENG", "RSI" ],
+					"descriptions": [
+						"Fahre einen Verstärkerzug auf der südlichen Gäubahn"
+					]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE14a von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den Regionalexpress von %s nach %s",
+				"Bring deine Fahrgäste pünktlich auf dem RE14a nach %2$s!",
+				"Fahre die Linie RE14a von %s nach %s."
+			],
+			"stations": [ "TS", "TBO", "THE", "TGFD", "TBD", "TEG", "TET", "THB", "TSUL", "TOB", "TR" ],
+			"pathSuggestion": [ "TS", "TSV", "TSRO", "TBO", "THE", "TGFD", "TBD", "TEG", "TET", "THB", "TSUL", "TOB", "TR" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE14a/RB43 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den Schülerzug RE14a/RB43 von %s nach %s",
+				"Bring deine Fahrgäste pünktlich nach %2$s!"
+			],
+			"stations": [ "TS", "TSV", "TBO", "TGT", "THE", "TGFD", "TBD", "TEG", "TET", "THB", "TSUL", "TOB", "TR", "TRG", "TRSA", "TRNF", "TALD", "TSPM", "TSP", "TBLH", "TRH", "TWLH", "TWUM", "TTUS", "TTU" ],
+			"pathSuggestion": [ "TS", "TSV", "TSRO", "TBO", "TGT", "THE", "TGFD", "TBD", "TEG", "TET", "THB", "TSUL", "TOB", "TR", "TRG", "TRSA", "TRNF", "TALD", "TSPM", "TSP", "TBLH", "TRH", "TWLH", "TWUM", "TTUS", "TTU" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB14a von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre die Regionalbahn 14a von %s nach %s",
+				"Bring deine Fahrgäste pünktlich auf der Linie RB14a nach %2$s!",
+				"Fahre die Linie RB14a von %s nach %s."
+			],
+			"stations": [ "THE", "TGFD", "TBD", "TEG", "TET" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S1 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre die Linie S1 von %s nach %s",
+				"Bring deine Fahrgäste pünktlich auf der S1 nach %2$s!",
+				"Fahre im Auftrag der S-Bahn Stuttgart auf der Linie S1 von %s nach %s."
+			],
+			"stations": [ "THE", "TBO", "TSRO", "TSV", "TS", "TP", "TWD" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
