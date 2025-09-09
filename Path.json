@@ -68358,6 +68358,131 @@
 			]
 		},
 		{
+			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"name": "Ligne de ceinture de Bordeaux",
+			"objects": [
+				{
+					"start": "XFBJ",
+					"end": "🇫🇷27825",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷27825",
+					"end": "🇫🇷CUD",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷CUD",
+					"end": "🇫🇷O9163406639",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇫🇷O9163406639",
+					"end": "🇫🇷BGH",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"name": "Ligne de Ravezies à Pointe-de-Grave",
+			"objects": [
+				{
+					"start": "🇫🇷BGH",
+					"end": "🇫🇷BQF",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷BQF",
+					"end": "🇫🇷PPY",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷PPY",
+					"end": "🇫🇷O603645283",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷O603645283",
+					"end": "🇫🇷MCA",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MCA",
+					"end": "🇫🇷MGU",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇫🇷MGU",
+					"end": "🇫🇷MUL",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MUL",
+					"end": "🇫🇷PAC",
+					"length": 14,
+					"maxSpeed": 100,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇫🇷PAC",
+					"end": "🇫🇷LSE",
+					"length": 19,
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷LSE",
+					"end": "🇫🇷SUU",
+					"length": 26,
+					"maxSpeed": 100,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "🇫🇷SUU",
+					"end": "🇫🇷LVD",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷LVD",
+					"end": "🇫🇷PDG",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
 			"group": 0,
 			"neededEquipments": [
 				"GB"
