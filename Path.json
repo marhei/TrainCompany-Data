@@ -8030,8 +8030,15 @@
 				},
 				{
 					"start": "🇫🇷ABZ",
+					"end": "🇫🇷O4638559821",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷O4638559821",
 					"end": "🇫🇷LIM",
-					"length": 17,
+					"length": 8,
 					"maxSpeed": 160,
 					"twistingFactor": 0.15
 				},
@@ -9082,14 +9089,6 @@
 					"length": 18,
 					"maxSpeed": 75,
 					"twistingFactor": 0.29
-				},
-				{
-					"start": "🇫🇷MYC",
-					"end": "🇫🇷USL",
-					"name": "Ligne du Palais à Eygurande - Merlines",
-					"length": 13,
-					"maxSpeed": 90,
-					"twistingFactor": 0.19
 				}
 			]
 		},
@@ -45847,6 +45846,101 @@
 					"length": 7,
 					"maxSpeed": 160,
 					"group": 0
+				}
+			]
+		},
+		{
+			"name": "Ligne du Palais à Eygurande - Merlines",
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇫🇷O4638559821",
+					"end": "🇫🇷TIO",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇫🇷TIO",
+					"end": "🇫🇷BKX",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷BKX",
+					"end": "🇫🇷SLE",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷SLE",
+					"end": "🇫🇷XDN",
+					"length": 7,
+					"maxSpeed": 90,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷XDN",
+					"end": "🇫🇷CBF",
+					"length": 9,
+					"maxSpeed": 90,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷CBF",
+					"end": "🇫🇷O9904071459",
+					"length": 9,
+					"maxSpeed": 80,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷O9904071459",
+					"end": "🇫🇷O9008100940",
+					"length": 15,
+					"maxSpeed": 80,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷O9008100940",
+					"end": "🇫🇷BUG",
+					"length": 9,
+					"maxSpeed": 90,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷BUG",
+					"end": "🇫🇷POK",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷POK",
+					"end": "🇫🇷JSX",
+					"length": 16,
+					"maxSpeed": 90,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇫🇷JSX",
+					"end": "🇫🇷MYC",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇫🇷MYC",
+					"end": "🇫🇷USL",
+					"group": 0,
+					"length": 13,
+					"maxSpeed": 90,
+					"twistingFactor": 0.19
 				}
 			]
 		},
