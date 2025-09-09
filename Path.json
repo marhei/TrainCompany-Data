@@ -63348,48 +63348,6 @@
 					"length": 24,
 					"maxSpeed": 160,
 					"twistingFactor": 0.2
-				},
-				{
-					"start": "TU",
-					"end": "TLON",
-					"length": 21,
-					"maxSpeed": 120,
-					"twistingFactor": 0.34
-				},
-				{
-					"start": "TLON",
-					"end": "TG",
-					"length": 11,
-					"maxSpeed": 110,
-					"twistingFactor": 0.34
-				},
-				{
-					"start": "TG",
-					"end": "TGO",
-					"length": 19,
-					"maxSpeed": 160,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "TGO",
-					"end": "TP",
-					"length": 19,
-					"maxSpeed": 160,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "TP",
-					"end": "TE",
-					"length": 9,
-					"maxSpeed": 150,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "TE",
-					"end": "TS",
-					"length": 12,
-					"maxSpeed": 130,
-					"twistingFactor": 0.2
 				}
 			]
 		},
@@ -86823,6 +86781,227 @@
 					"length": 21,
 					"maxSpeed": 250,
 					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Filstalbahn",
+			"group": 0,
+			"twistingFactor": 0.0,
+			"maxSpeed": 160,
+			"objects": [
+			    {
+					"start": "TS",
+					"end": "TSNS",
+					"length": 5,
+					"maxSpeed": 110,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TSNS",
+					"end": "TSU",
+					"length": 2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "TSU",
+					"end": "TSOM",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TSOM",
+					"end": "TEME",
+					"length": 2,
+					"maxSpeed": 130
+				},
+				{
+					"start": "TEME",
+					"end": "TE",
+					"length": 2,
+					"maxSpeed": 150,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TE",
+					"end": "TOES",
+					"length": 2,
+					"maxSpeed": 150
+				},
+				{
+					"start": "TOES",
+					"end": "TEZL",
+					"length": 3,
+					"maxSpeed": 150,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TEZL",
+					"end": "TACH",
+					"length": 2,
+					"maxSpeed": 150,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TACH",
+					"end": "TP",
+					"length": 2,
+					"maxSpeed": 130,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TP",
+					"end": "TRF",
+					"length": 5,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "TRF",
+					"end": "TEC",
+					"length": 5,
+					"maxSpeed": 150,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "TEC",
+					"end": "TUH",
+					"length": 5,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TUH",
+					"end": "TFAU",
+					"length": 2,
+					"maxSpeed": 150,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TFAU",
+					"end": "TGO",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TGO",
+					"end": "TEF",
+					"length": 4,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "TEF",
+					"end": "TSAL",
+					"length": 2
+				},
+				{
+					"start": "TSAL",
+					"end": "TSD",
+					"length": 2
+				},
+				{
+					"start": "TSD",
+					"end": "TGI",
+					"length": 3
+				},
+				{
+					"start": "TGI",
+					"end": "TKUC",
+					"length": 3
+				},
+				{
+					"start": "TKUC",
+					"end": "TGW",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TGW",
+					"end": "TG",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "TG",
+					"end": "TAM",
+					"length": 6,
+					"maxSpeed": 70,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "TAM",
+					"end": "TURS",
+					"length": 4,
+					"maxSpeed": 110,
+					"twistingFactor": 0.45
+				},
+				{
+					"start": "TURS",
+					"end": "TLON",
+					"length": 2,
+					"maxSpeed": 110,
+					"twistingFactor": 0.45
+				},
+				{
+					"start": "TLON",
+					"end": "TWSH",
+					"length": 4,
+					"maxSpeed": 110,
+					"twistingFactor": 0.45
+				},
+				{
+					"start": "TWSH",
+					"end": "TBS",
+					"length": 5,
+					"maxSpeed": 110,
+					"twistingFactor": 0.45
+				},
+				{
+					"start": "TBS",
+					"end": "TU",
+					"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"name": "Lokalbahn Amstetten - Gerstetten",
+			"group": 1,
+			"twistingFactor": 0.3,
+			"maxSpeed": 50,
+			"objects": [
+			    {
+					"start": "TAM",
+					"end": "TSBH",
+					"length": 5,
+					"maxSpeed": 20,
+					"twistingFactor": 0.6
+				},
+				{
+					"start": "TSBH",
+					"end": "TSKS",
+					"length": 5
+				},
+				{
+					"start": "TSKS",
+					"end": "TWHS",
+					"length": 5,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TWHS",
+					"end": "TGSS",
+					"length": 5
+				},
+				{
+					"start": "TGSS",
+					"end": "TGSN",
+					"length": 5
 				}
 			]
 		}
