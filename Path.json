@@ -35531,13 +35531,13 @@
 			"neededEquipments": [
 				"FR"
 			],
+			"electrified": false,
+			"group": 0,
+			"name": "Ligne de Mommenheim à Sarreguemines",
 			"objects": [
 				{
 					"start": "XFMH",
 					"end": "XFIW",
-					"name": "Ligne de Mommenheim à Sarreguemines",
-					"electrified": false,
-					"group": 0,
 					"length": 19,
 					"maxSpeed": 110,
 					"twistingFactor": 0.24
@@ -35545,9 +35545,6 @@
 				{
 					"start": "XFIW",
 					"end": "XFWM",
-					"name": "Ligne de Mommenheim à Sarreguemines",
-					"electrified": false,
-					"group": 0,
 					"length": 9,
 					"maxSpeed": 110,
 					"twistingFactor": 0.14
@@ -35555,9 +35552,6 @@
 				{
 					"start": "XFWM",
 					"end": "XFDM",
-					"name": "Ligne de Mommenheim à Sarreguemines",
-					"electrified": false,
-					"group": 0,
 					"length": 18,
 					"maxSpeed": 100,
 					"twistingFactor": 0.34
@@ -35565,9 +35559,6 @@
 				{
 					"start": "XFDM",
 					"end": "XFOE",
-					"name": "Ligne de Mommenheim à Sarreguemines",
-					"electrified": false,
-					"group": 0,
 					"length": 9,
 					"maxSpeed": 100,
 					"twistingFactor": 0.3
@@ -35575,13 +35566,17 @@
 				{
 					"start": "XFOE",
 					"end": "XFSM",
-					"name": "Ligne de Mommenheim à Sarreguemines",
-					"electrified": false,
-					"group": 0,
 					"length": 16,
 					"maxSpeed": 100,
 					"twistingFactor": 0.38
-				},
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
 				{
 					"start": "XFSM",
 					"end": "🇫🇷FWR",
@@ -35797,13 +35792,20 @@
 					"length": 14,
 					"maxSpeed": 120,
 					"twistingFactor": 0.28
-				},
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne de Fives à Hirson",
+			"electrified": true,
+			"group": 0,
+			"objects": [
 				{
 					"start": "🇫🇷HIQ",
 					"end": "XFFMI",
-					"name": "Ligne de Fives à Hirson",
-					"electrified": true,
-					"group": 0,
 					"length": 12,
 					"maxSpeed": 130,
 					"twistingFactor": 0.22
@@ -35811,9 +35813,6 @@
 				{
 					"start": "XFFMI",
 					"end": "🇫🇷SAW",
-					"name": "Ligne de Fives à Hirson",
-					"electrified": true,
-					"group": 0,
 					"length": 9,
 					"maxSpeed": 130,
 					"twistingFactor": 0.14
@@ -35821,9 +35820,6 @@
 				{
 					"start": "🇫🇷SAW",
 					"end": "XFAVN",
-					"name": "Ligne de Fives à Hirson",
-					"electrified": true,
-					"group": 0,
 					"length": 6,
 					"maxSpeed": 130,
 					"twistingFactor": 0.05
@@ -35831,9 +35827,6 @@
 				{
 					"start": "XFAVN",
 					"end": "XFAU",
-					"name": "Ligne de Fives à Hirson",
-					"electrified": true,
-					"group": 0,
 					"length": 11,
 					"maxSpeed": 120,
 					"twistingFactor": 0.28
@@ -35841,9 +35834,6 @@
 				{
 					"start": "XFAU",
 					"end": "🇫🇷LQY",
-					"name": "Ligne de Fives à Hirson",
-					"electrified": true,
-					"group": 0,
 					"length": 15,
 					"maxSpeed": 160,
 					"twistingFactor": 0.14
@@ -35851,9 +35841,6 @@
 				{
 					"start": "🇫🇷LQY",
 					"end": "XFVA",
-					"name": "Ligne de Fives à Hirson",
-					"electrified": true,
-					"group": 0,
 					"length": 18,
 					"maxSpeed": 130,
 					"twistingFactor": 0.29
@@ -35861,9 +35848,6 @@
 				{
 					"start": "XFVA",
 					"end": "🇫🇷SAM",
-					"name": "Ligne de Fives à Hirson",
-					"electrified": true,
-					"group": 0,
 					"length": 12,
 					"maxSpeed": 140,
 					"twistingFactor": 0.2
@@ -35871,9 +35855,6 @@
 				{
 					"start": "🇫🇷SAM",
 					"end": "XFOC",
-					"name": "Ligne de Fives à Hirson",
-					"electrified": true,
-					"group": 0,
 					"length": 12,
 					"maxSpeed": 140,
 					"twistingFactor": 0.01
@@ -35881,9 +35862,6 @@
 				{
 					"start": "XFOC",
 					"end": "XFLIE",
-					"name": "Ligne de Fives à Hirson",
-					"electrified": true,
-					"group": 0,
 					"length": 21,
 					"maxSpeed": 140,
 					"twistingFactor": 0.04
