@@ -5864,7 +5864,7 @@
 				},
 				{
 					"stations": [ "TBO", "MBOB" ],
-					"pathSuggestion": [ "TBO", "TS", "TP", "TAM", "TU", "MGZB", "MA", "MBOB" ]
+					"pathSuggestion": [ "TBO", "TSRO", "TS", "TP", "TAM", "TU", "MGZB", "MA", "MBOB" ]
 				},
 				{
 					"stations": [ "AL", "AJ" ],
@@ -6697,7 +6697,7 @@
 				},
 				{
 					"stations": [ "XVS", "XVUS", "XVGA", "XVSU" ],
-					"pathSuggestion": [ "XVS", "🇸🇪Arnc", "XVUS", "XVGA", "🇸🇪7400091", "XVSU" ]
+					"pathSuggestion": [ "XVS", "XVUV", "🇸🇪Arnc", "XVKNV", "XVUS", "XVGA", "🇸🇪7400091", "XVSU" ]
 				},
 				{
 					"stations": [ "XVLL", "XVBN", "XVGV", "🇸🇪7402007", "XVRG", "XONA" ]
@@ -12934,7 +12934,6 @@
 				{
 					"stations": [ "DHU", "MHO" ],
 					"pathSuggestion": [ "DHU", "DFR", "DFL", "DC", "DGL", "DZW", "DRC", "DHN", "DP", "DMEH", "NHO", "NOKP", "NMR", "NSCH", "NRH", "NOT", "MLA", "MPU", "MNF", "MH", "MDS", "MHO" ]
-
 				}
 			],
 			"neededCapacity": [
@@ -13300,9 +13299,9 @@
 			"stations": [ "XSOL", "XVGA" ],
 			"pathSuggestion": [ "XSOL", "XSB", "RB", "RML", "RF", "RO", "RAP", "RK", "RBR", "RH", "RMF", "FD", "FF", "FG", "FGTH", "FKW", "HEBG", "HG", "HN", "HK", "HELZ", "HH", "HU", "ALBG", "AHAR", "AH", "AEL", "AR", "AJ", "AF", "XDTI", "XDLU", "XDTA", "XDMF", "XDRI", "XDRK", "XDHT", "XDKH", "XVM", "XVLD", "XVEV", "XVHH", "XVAL", "XVN", "XVMJ", "XVHA", "XVO", "XVFV", "🇸🇪7400054", "XVAV", "🇸🇪7400630", "XVGA" ],
 			"neededCapacity": [
-				{ "name": "passengers", "value": 20},
-				{ "name": "beds", "value": 20},
-				{ "name": "bistroseats", "value": 20}
+				{ "name": "passengers", "value": 20 },
+				{ "name": "beds", "value": 20 },
+				{ "name": "bistroseats", "value": 20 }
 			]
 		},
 		{
@@ -13315,7 +13314,7 @@
 			"stations": [ "XSEF", "XSGS", "XSAI", "XSBOD" ],
 			"pathSuggestion": [ "XSEF", "XSGS", "XSAI", "XSBOD" ],
 			"neededCapacity": [
-				{ "name": "passengers"}
+				{ "name": "passengers" }
 			]
 		},
 		{
