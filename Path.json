@@ -8928,6 +8928,174 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne de Coutras à Tulle",
+			"objects": [
+				{
+					"start": "XFPGX",
+					"end": "🇫🇷O3509770413",
+					"length": 10,
+					"maxSpeed": 160,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇫🇷O3509770413",
+					"end": "🇫🇷STK",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷STK",
+					"end": "XFMUS",
+					"length": 18,
+					"maxSpeed": 160,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XFMUS",
+					"end": "🇫🇷MPI",
+					"length": 15,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MPI",
+					"end": "XFCOU",
+					"length": 23,
+					"maxSpeed": 220,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XFPGX",
+					"end": "🇫🇷72547",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇫🇷72547",
+					"end": "🇫🇷NEC",
+					"length": 4,
+					"maxSpeed": 115,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷NEC",
+					"end": "🇫🇷XPH",
+					"length": 4,
+					"maxSpeed": 115,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇫🇷XPH",
+					"end": "🇫🇷THN",
+					"length": 18,
+					"maxSpeed": 115,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷THN",
+					"end": "XFCDT",
+					"length": 13,
+					"maxSpeed": 115,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XFCDT",
+					"end": "🇫🇷O335786652",
+					"length": 5,
+					"maxSpeed": 115,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷O335786652",
+					"end": "🇫🇷LDZ",
+					"length": 5,
+					"maxSpeed": 115,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷LDZ",
+					"end": "XFBLG",
+					"length": 13,
+					"maxSpeed": 120,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XFBLG",
+					"end": "🇫🇷ABA",
+					"length": 10,
+					"maxSpeed": 115,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷ABA",
+					"end": "🇫🇷CIL",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇫🇷CIL",
+					"end": "🇫🇷TUL",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne de Tulle à Meymac",
+			"objects": [
+				{
+					"start": "🇫🇷TUL",
+					"end": "🇫🇷CZE",
+					"length": 16,
+					"maxSpeed": 80,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷CZE",
+					"end": "🇫🇷MCE",
+					"length": 9,
+					"maxSpeed": 75,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷MCE",
+					"end": "🇫🇷EGL",
+					"length": 9,
+					"maxSpeed": 75,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷EGL",
+					"end": "🇫🇷MYC",
+					"length": 18,
+					"maxSpeed": 75,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷MYC",
+					"end": "🇫🇷USL",
+					"name": "Ligne du Palais à Eygurande - Merlines",
+					"length": 13,
+					"maxSpeed": 90,
+					"twistingFactor": 0.19
+				}
+			]
+		},
+		{
 			"twistingFactor": 0.1,
 			"maxSpeed": 140,
 			"objects": [
@@ -12281,6 +12449,7 @@
 					"maxSpeed": 200
 				},
 				{
+					"name": "Ligne de Saint-Germain-des-Fossés à Darsac",
 					"start": "XFSGF",
 					"end": "🇫🇷VHY",
 					"length": 10,
@@ -12288,6 +12457,7 @@
 					"maxSpeed": 110
 				},
 				{
+					"name": "Ligne de Vichy à Riom",
 					"start": "🇫🇷VHY",
 					"end": "🇫🇷RIO",
 					"length": 40,
@@ -12295,6 +12465,7 @@
 					"maxSpeed": 140
 				},
 				{
+					"name": "Ligne de Saint-Germain-des-Fossés à Nîmes-Courbessac",
 					"start": "🇫🇷RIO",
 					"end": "XFCLE",
 					"length": 13,
@@ -19671,6 +19842,191 @@
 			]
 		},
 		{
+			"name": "Ligne de Brive-la-Gaillarde à Toulouse-Matabiau via Capdenac",
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 0,
+			"objects": [
+				{
+					"start": "XFTM",
+					"end": "🇫🇷MTB",
+					"length": 7,
+					"maxSpeed": 140,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇫🇷MTB",
+					"end": "🇫🇷GAG",
+					"length": 7,
+					"maxSpeed": 110,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷GAG",
+					"end": "🇫🇷MCL",
+					"length": 4,
+					"maxSpeed": 110,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇫🇷MCL",
+					"end": "🇫🇷O11016655586",
+					"length": 4,
+					"maxSpeed": 110,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇫🇷O11016655586",
+					"end": "🇫🇷SST",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷SST",
+					"end": "🇫🇷O1119769298",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇫🇷O1119769298",
+					"end": "🇫🇷LSU",
+					"length": 7,
+					"maxSpeed": 130,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷LSU",
+					"end": "🇫🇷GAI",
+					"length": 8,
+					"maxSpeed": 130,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷GAI",
+					"end": "🇫🇷TES",
+					"length": 3,
+					"maxSpeed": 130,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷TES",
+					"end": "🇫🇷VDC",
+					"length": 19,
+					"maxSpeed": 130,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇫🇷VDC",
+					"end": "🇫🇷LEX",
+					"length": 10,
+					"maxSpeed": 85,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇫🇷LEX",
+					"end": "🇫🇷LPB",
+					"length": 8,
+					"maxSpeed": 85,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇫🇷LPB",
+					"end": "🇫🇷NAJ",
+					"length": 10,
+					"maxSpeed": 85,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷NAJ",
+					"end": "🇫🇷VRW",
+					"length": 16,
+					"maxSpeed": 80,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷VRW",
+					"end": "🇫🇷SIR",
+					"length": 15,
+					"maxSpeed": 85,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷SIR",
+					"end": "🇫🇷CDC",
+					"length": 13,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷CDC",
+					"end": "🇫🇷FIG",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇫🇷FIG",
+					"end": "🇫🇷AER",
+					"group": 1,
+					"length": 18,
+					"maxSpeed": 110,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇫🇷AER",
+					"end": "🇫🇷GRT",
+					"group": 1,
+					"length": 16,
+					"maxSpeed": 140,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷GRT",
+					"end": "🇫🇷RAP",
+					"group": 1,
+					"length": 7,
+					"maxSpeed": 105,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷RAP",
+					"end": "🇫🇷SDM",
+					"group": 1,
+					"length": 18,
+					"maxSpeed": 105,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷SDM",
+					"end": "🇫🇷O3423253720",
+					"group": 1,
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "🇫🇷O3423253720",
+					"end": "🇫🇷TUR",
+					"group": 1,
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷TUR",
+					"end": "XFBLG",
+					"group": 1,
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.21
+				}
+			]
+		},
+		{
 			"group": 0,
 			"neededEquipments": [
 				"MD",
@@ -22419,12 +22775,12 @@
 			"neededEquipments": [
 				"FR"
 			],
+			"name": "Ligne de Limoges-Bénédictins à Périgueux",
+			"electrified": false,
 			"objects": [
 				{
 					"start": "🇫🇷LIM",
 					"end": "🇫🇷AGF",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 8,
 					"maxSpeed": 110,
 					"twistingFactor": 0.13
@@ -22432,8 +22788,6 @@
 				{
 					"start": "🇫🇷AGF",
 					"end": "🇫🇷NNF",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 11,
 					"maxSpeed": 110,
 					"twistingFactor": 0.29
@@ -22441,8 +22795,6 @@
 				{
 					"start": "🇫🇷NNF",
 					"end": "🇫🇷BGA",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 17,
 					"maxSpeed": 110,
 					"twistingFactor": 0.26
@@ -22450,8 +22802,6 @@
 				{
 					"start": "🇫🇷BGA",
 					"end": "🇫🇷LCQ",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 9,
 					"maxSpeed": 140,
 					"twistingFactor": 0.29
@@ -22459,8 +22809,6 @@
 				{
 					"start": "🇫🇷LCQ",
 					"end": "🇫🇷TIV",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 14,
 					"maxSpeed": 140,
 					"twistingFactor": 0.14
@@ -22468,8 +22816,6 @@
 				{
 					"start": "🇫🇷TIV",
 					"end": "🇫🇷AGA",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 20,
 					"maxSpeed": 140,
 					"twistingFactor": 0.13
@@ -22477,62 +22823,23 @@
 				{
 					"start": "🇫🇷AGA",
 					"end": "XFPGX",
-					"name": "Ligne de Limoges-Bénédictins à Périgueux",
-					"electrified": false,
 					"length": 15,
 					"maxSpeed": 160,
 					"twistingFactor": 0.39
-				},
-				{
-					"start": "XFPGX",
-					"end": "🇫🇷O3509770413",
-					"name": "Ligne de Coutras à Tulle",
-					"electrified": false,
-					"length": 10,
-					"maxSpeed": 160,
-					"twistingFactor": 0.28
-				},
-				{
-					"start": "🇫🇷O3509770413",
-					"end": "🇫🇷STK",
-					"name": "Ligne de Coutras à Tulle",
-					"electrified": false,
-					"length": 6,
-					"maxSpeed": 160,
-					"twistingFactor": 0.14
-				},
-				{
-					"start": "🇫🇷STK",
-					"end": "XFMUS",
-					"name": "Ligne de Coutras à Tulle",
-					"electrified": false,
-					"length": 18,
-					"maxSpeed": 160,
-					"twistingFactor": 0.14
-				},
-				{
-					"start": "XFMUS",
-					"end": "🇫🇷MPI",
-					"name": "Ligne de Coutras à Tulle",
-					"electrified": false,
-					"length": 15,
-					"maxSpeed": 160,
-					"twistingFactor": 0.01
-				},
-				{
-					"start": "🇫🇷MPI",
-					"end": "XFCOU",
-					"name": "Ligne de Coutras à Tulle",
-					"electrified": false,
-					"length": 23,
-					"maxSpeed": 220,
-					"twistingFactor": 0.13
-				},
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean",
+			"electrified": true,
+			"objects": [
 				{
 					"start": "XFCOU",
 					"end": "🇫🇷LIB",
-					"name": "Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean",
-					"electrified": true,
 					"length": 16,
 					"maxSpeed": 220,
 					"twistingFactor": 0.11
@@ -22540,8 +22847,6 @@
 				{
 					"start": "🇫🇷LIB",
 					"end": "🇫🇷VYR",
-					"name": "Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean",
-					"electrified": true,
 					"length": 7,
 					"maxSpeed": 220,
 					"twistingFactor": 0.3
@@ -22549,8 +22854,6 @@
 				{
 					"start": "🇫🇷VYR",
 					"end": "XFBJ",
-					"name": "Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean",
-					"electrified": true,
 					"length": 27,
 					"maxSpeed": 220,
 					"twistingFactor": 0.39
@@ -29732,14 +30035,15 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"name": "Ligne de Bordeaux à Irun",
+			"neededEquipments": [
+				"FR"
+			],
 			"objects": [
 				{
 					"start": "XFBJ",
 					"end": "🇫🇷GAZ",
 					"length": 13,
-					"neededEquipments": [
-						"FR"
-					],
 					"twistingFactor": 0.1,
 					"maxSpeed": 160
 				},
@@ -29747,9 +30051,6 @@
 					"start": "🇫🇷GAZ",
 					"end": "🇫🇷MCP",
 					"length": 15,
-					"neededEquipments": [
-						"FR"
-					],
 					"twistingFactor": 0.01,
 					"maxSpeed": 160
 				},
@@ -29757,9 +30058,6 @@
 					"start": "🇫🇷MCP",
 					"end": "🇫🇷FAT",
 					"length": 10,
-					"neededEquipments": [
-						"FR"
-					],
 					"twistingFactor": 0.01,
 					"maxSpeed": 160
 				},
@@ -29767,9 +30065,6 @@
 					"start": "🇫🇷FAT",
 					"end": "🇫🇷YXC",
 					"length": 36,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 200,
 					"twistingFactor": 0.1
 				},
@@ -29777,9 +30072,6 @@
 					"start": "🇫🇷YXC",
 					"end": "🇫🇷LBH",
 					"length": 14,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 200,
 					"twistingFactor": 0.1
 				},
@@ -29787,9 +30079,6 @@
 					"start": "🇫🇷LBH",
 					"end": "XFMCX",
 					"length": 19,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 160,
 					"twistingFactor": 0.01
 				},
@@ -29797,9 +30086,6 @@
 					"start": "XFMCX",
 					"end": "🇫🇷67312",
 					"length": 25,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 160,
 					"twistingFactor": 0.16
 				},
@@ -29807,9 +30093,6 @@
 					"start": "🇫🇷67312",
 					"end": "XFDX",
 					"length": 14,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 160,
 					"twistingFactor": 0.12
 				},
@@ -29817,9 +30100,6 @@
 					"start": "XFDX",
 					"end": "🇫🇷SQB",
 					"length": 14,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 130,
 					"twistingFactor": 0.2
 				},
@@ -29827,9 +30107,6 @@
 					"start": "🇫🇷SQB",
 					"end": "🇫🇷SVT",
 					"length": 10,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 130,
 					"twistingFactor": 0.2
 				},
@@ -29837,9 +30114,6 @@
 					"start": "🇫🇷SVT",
 					"end": "🇫🇷LBN",
 					"length": 12,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 140,
 					"twistingFactor": 0.1
 				},
@@ -29847,9 +30121,6 @@
 					"start": "🇫🇷LBN",
 					"end": "XFBY",
 					"length": 13,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 140,
 					"twistingFactor": 0.17
 				},
@@ -29857,9 +30128,6 @@
 					"start": "XFBY",
 					"end": "XFBR",
 					"length": 9,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 100,
 					"twistingFactor": 0.2
 				},
@@ -29867,9 +30135,6 @@
 					"start": "XFBR",
 					"end": "XFHE",
 					"length": 25,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 100,
 					"twistingFactor": 0.2
 				},
@@ -29877,9 +30142,6 @@
 					"start": "XFHE",
 					"end": "XEIR",
 					"length": 2,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 30,
 					"twistingFactor": 0.1
 				}
@@ -35741,6 +36003,163 @@
 			]
 		},
 		{
+			"name": "Ligne de Béziers à Neussargues",
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": true,
+			"objects": [
+				{
+					"start": "🇫🇷NEU",
+					"end": "🇫🇷SFC",
+					"length": 18,
+					"maxSpeed": 80,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇫🇷SFC",
+					"end": "🇫🇷SYH",
+					"length": 36,
+					"maxSpeed": 90,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇫🇷SYH",
+					"end": "🇫🇷AAU",
+					"length": 10,
+					"maxSpeed": 60,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷AAU",
+					"end": "🇫🇷MVJ",
+					"length": 21,
+					"maxSpeed": 60,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇫🇷MVJ",
+					"end": "🇫🇷CAC",
+					"length": 2,
+					"maxSpeed": 50,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷CAC",
+					"end": "🇫🇷LMR",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇫🇷LMR",
+					"end": "🇫🇷BAA",
+					"length": 9,
+					"maxSpeed": 60,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇫🇷BAA",
+					"end": "🇫🇷CNT",
+					"length": 12,
+					"maxSpeed": 85,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇫🇷CNT",
+					"end": "🇫🇷SVC",
+					"length": 13,
+					"maxSpeed": 85,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇫🇷SVC",
+					"end": "🇫🇷MAU",
+					"length": 30,
+					"maxSpeed": 80,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇫🇷MAU",
+					"end": "🇫🇷SDU",
+					"length": 11,
+					"maxSpeed": 80,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷SDU",
+					"end": "🇫🇷SDO",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷SDO",
+					"end": "🇫🇷TEO",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇫🇷TEO",
+					"end": "🇫🇷MNP",
+					"length": 16,
+					"maxSpeed": 75,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇫🇷MNP",
+					"end": "🇫🇷COQ",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷COQ",
+					"end": "🇫🇷KBI",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇫🇷KBI",
+					"end": "🇫🇷LKH",
+					"length": 8,
+					"maxSpeed": 80,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷LKH",
+					"end": "🇫🇷LBD",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷LBD",
+					"end": "🇫🇷BED",
+					"length": 10,
+					"maxSpeed": 85,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷BED",
+					"end": "🇫🇷MGA",
+					"length": 24,
+					"maxSpeed": 105,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷MGA",
+					"end": "XFBZ",
+					"length": 18,
+					"maxSpeed": 110,
+					"twistingFactor": 0.33
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 1,
 			"twistingFactor": 0.25,
@@ -36871,121 +37290,104 @@
 			"group": 0,
 			"maxSpeed": 160,
 			"twistingFactor": 0.17,
+			"neededEquipments": [
+				"FR"
+			],
 			"objects": [
 				{
 					"start": "🇫🇷VLM",
 					"end": "🇫🇷FRN",
-					"length": 13,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 13
 				},
 				{
 					"start": "🇫🇷FRN",
 					"end": "XFSE",
-					"length": 6,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 6
 				},
 				{
+					"name": "Ligne de Bordeaux à Sète",
 					"start": "XFSE",
 					"end": "🇫🇷78129",
-					"length": 17,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 17
 				},
 				{
+					"name": "Ligne de Bordeaux à Sète",
 					"start": "🇫🇷78129",
 					"end": "🇫🇷VA",
-					"length": 9,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 9
 				},
 				{
+					"name": "Ligne de Bordeaux à Sète",
 					"start": "🇫🇷VA",
 					"end": "XFBZ",
-					"length": 17,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 17
 				},
 				{
+					"name": "Ligne de Bordeaux à Sète",
 					"start": "XFBZ",
 					"end": "🇫🇷CBS",
-					"length": 7,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 7
 				},
 				{
+					"name": "Ligne de Bordeaux à Sète",
 					"start": "🇫🇷CBS",
 					"end": "XFNB",
-					"length": 18,
-					"neededEquipments": [
-						"FR"
-					]
+					"length": 18
 				},
 				{
+					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "XFNB",
 					"end": "🇫🇷PLN",
 					"length": 21,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 150,
 					"twistingFactor": 0.2
 				},
 				{
+					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "🇫🇷PLN",
 					"end": "🇫🇷78108",
 					"length": 10,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 150
 				},
 				{
+					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "🇫🇷78108",
 					"end": "🇫🇷78415",
 					"length": 14,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 150,
 					"twistingFactor": 0.2
 				},
 				{
+					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "🇫🇷78415",
 					"end": "XFRV",
 					"length": 9,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 150
 				},
 				{
+					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "XFRV",
 					"end": "XFPE",
 					"length": 8,
-					"neededEquipments": [
-						"FR"
-					],
 					"maxSpeed": 150
-				},
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 2,
+			"name": "LGV Perpignan-Figueres",
+			"maxSpeed": 350,
+			"twistingFactor": 0.17,
+			"neededEquipments": [
+				"ES",
+				"ETCS"
+			],
+			"objects": [
 				{
 					"start": "XFPE",
 					"end": "XEFI",
-					"name": "LGV Perpignan-Figueres",
-					"group": 2,
-					"length": 54,
-					"neededEquipments": [
-						"ES",
-						"ETCS"
-					],
-					"maxSpeed": 350
+					"length": 54
 				}
 			]
 		},
@@ -44584,6 +44986,7 @@
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 160,
+			"name": "Ligne de Bordeaux à Sète",
 			"neededEquipments": [
 				"FR"
 			],
@@ -72074,6 +72477,201 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": false,
+			"name": "Ligne de Figeac à Arvant",
+			"objects": [
+				{
+					"start": "🇫🇷FIG",
+					"end": "🇫🇷BAG",
+					"length": 13,
+					"maxSpeed": 70,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇫🇷BAG",
+					"end": "🇫🇷MRS",
+					"length": 5,
+					"maxSpeed": 75,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷MRS",
+					"end": "🇫🇷BCL",
+					"length": 11,
+					"maxSpeed": 55,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷BCL",
+					"end": "🇫🇷LRG",
+					"length": 8,
+					"maxSpeed": 55,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷LRG",
+					"end": "🇫🇷PEK",
+					"length": 3,
+					"maxSpeed": 55,
+					"twistingFactor": 0.02
+				},
+				{
+					"start": "🇫🇷PEK",
+					"end": "🇫🇷WCV",
+					"length": 4,
+					"maxSpeed": 55,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷WCV",
+					"end": "🇫🇷O1817739379",
+					"length": 2,
+					"maxSpeed": 75,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷O1817739379",
+					"end": "🇫🇷YTC",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷YTC",
+					"end": "🇫🇷AUC",
+					"length": 7,
+					"maxSpeed": 100,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇫🇷AUC",
+					"end": "🇫🇷VCM",
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷VCM",
+					"end": "🇫🇷LLN",
+					"length": 17,
+					"maxSpeed": 120,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷LLN",
+					"end": "🇫🇷MUR",
+					"length": 10,
+					"maxSpeed": 90,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇫🇷MUR",
+					"end": "🇫🇷NEU",
+					"length": 9,
+					"maxSpeed": 90,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷NEU",
+					"end": "🇫🇷MIA",
+					"length": 25,
+					"maxSpeed": 90,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇫🇷MIA",
+					"end": "XFARV",
+					"length": 23,
+					"maxSpeed": 90,
+					"twistingFactor": 0.4
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": false,
+			"name": "Ligne de Saint-Germain-des-Fossés à Nîmes-Courbessac",
+			"objects": [
+				{
+					"start": "XFARV",
+					"end": "🇫🇷BLM",
+					"length": 5,
+					"maxSpeed": 110,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷BLM",
+					"end": "🇫🇷BCZ",
+					"length": 9,
+					"maxSpeed": 140,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇫🇷BCZ",
+					"end": "🇫🇷ISS",
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇫🇷ISS",
+					"end": "🇫🇷PCC",
+					"length": 10,
+					"maxSpeed": 140,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇫🇷PCC",
+					"end": "🇫🇷VLC",
+					"length": 6,
+					"maxSpeed": 85,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷VLC",
+					"end": "🇫🇷MVY",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇫🇷MVY",
+					"end": "🇫🇷CZJ",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇫🇷CZJ",
+					"end": "XFSLC",
+					"length": 2,
+					"maxSpeed": 140,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "XFSLC",
+					"end": "🇫🇷O8309273399",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇫🇷O8309273399",
+					"end": "XFCLE",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
 			"maxSpeed": 160,
 			"electrified": true,
 			"group": 0,
@@ -75304,55 +75902,6 @@
 			]
 		},
 		{
-			"electrified": true,
-			"group": 0,
-			"neededEquipments": [
-				"CH"
-			],
-			"objects": [
-				{
-					"start": "XSBC",
-					"end": "XSCA",
-					"length": 15,
-					"maxSpeed": 150,
-					"twistingFactor": 0.21
-				},
-				{
-					"start": "XSCA",
-					"end": "XSBZ",
-					"length": 3,
-					"maxSpeed": 100,
-					"twistingFactor": 0.24
-				},
-				{
-					"name": "Ceneri-Basistunnel",
-					"neededEquipments": [
-						"CH",
-						"ETCS"
-					],
-					"start": "XSBZ",
-					"end": "XSL",
-					"length": 24,
-					"maxSpeed": 230,
-					"twistingFactor": 0.15
-				},
-				{
-					"start": "XSL",
-					"end": "XSME",
-					"length": 18,
-					"maxSpeed": 105,
-					"twistingFactor": 0.35
-				},
-				{
-					"start": "XSME",
-					"end": "XSCH",
-					"length": 8,
-					"maxSpeed": 85,
-					"twistingFactor": 0.3
-				}
-			]
-		},
-		{
 			"neededEquipments": [
 				"SE"
 			],
@@ -76604,16 +77153,6 @@
 					"twistingFactor": 0.17
 				}
 			]
-		},
-		{
-			"start": "XSBZ",
-			"end": "XSLC",
-			"neededEquipments": [
-				"CH"
-			],
-			"maxSpeed": 115,
-			"twistingFactor": 0.24,
-			"length": 21
 		},
 		{
 			"electrified": true,
@@ -85836,6 +86375,290 @@
 					"length": 3,
 					"maxSpeed": 80,
 					"twistingFactor": 0.43
+				}
+			]
+		},
+		{
+			"name": "Gotthardbahn",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSBC",
+					"end": "🇨🇭OS",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭OS",
+					"end": "🇨🇭CLA",
+					"length": 5,
+					"maxSpeed": 150,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭CLA",
+					"end": "XSCA",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XSCA",
+					"end": "XSBZ",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XSBZ",
+					"end": "🇨🇭GIU",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭GIU",
+					"end": "🇨🇭RIB",
+					"length": 11,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭RIB",
+					"end": "🇨🇭MEZ",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MEZ",
+					"end": "🇨🇭TAV",
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭TAV",
+					"end": "🇨🇭LAM",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭LAM",
+					"end": "XSL",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XSL",
+					"end": "🇨🇭LGP",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭LGP",
+					"end": "🇨🇭MDE",
+					"length": 4,
+					"maxSpeed": 105,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MDE",
+					"end": "🇨🇭MAR",
+					"length": 4,
+					"maxSpeed": 95,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MAR",
+					"end": "🇨🇭CAP",
+					"length": 3,
+					"maxSpeed": 105,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭CAP",
+					"end": "🇨🇭MOSM",
+					"length": 3,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MOSM",
+					"end": "XSME",
+					"length": 1,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XSME",
+					"end": "🇨🇭BAL",
+					"length": 5,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭BAL",
+					"end": "XSCH",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "🇨🇭GIU",
+					"end": "🇨🇭SAN",
+					"length": 3,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭SAN",
+					"end": "🇨🇭CD",
+					"length": 3,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭CD",
+					"end": "🇨🇭RIAZ",
+					"length": 5,
+					"maxSpeed": 115,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭RIAZ",
+					"end": "🇨🇭GDA",
+					"length": 2,
+					"maxSpeed": 115,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭GDA",
+					"end": "🇨🇭TEN",
+					"length": 1,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭TEN",
+					"end": "🇨🇭MINU",
+					"length": 3,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MINU",
+					"end": "XSLC",
+					"length": 2,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "🇨🇭CD",
+					"end": "🇨🇭QUA",
+					"length": 4,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭QUA",
+					"end": "🇨🇭MAG",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MAG",
+					"end": "🇨🇭SN",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭SN",
+					"end": "🇨🇭GER",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭GER",
+					"end": "🇨🇭RZO",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭RZO",
+					"end": "🇮🇹PINT",
+					"length": 4,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇮🇹PINT",
+					"end": "🇮🇹MAC",
+					"length": 7,
+					"maxSpeed": 95,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇮🇹MAC",
+					"end": "🇮🇹CMA",
+					"length": 2,
+					"maxSpeed": 95,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇮🇹CMA",
+					"end": "🇮🇹LI",
+					"length": 4,
+					"maxSpeed": 95,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"name": "Ceneri-Basistunnel",
+			"electrified": true,
+			"group": 2,
+			"neededEquipments": [
+				"CH",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "🇨🇭GIU",
+					"end": "XSL",
+					"length": 21,
+					"maxSpeed": 250,
+					"twistingFactor": 0.1
 				}
 			]
 		}
