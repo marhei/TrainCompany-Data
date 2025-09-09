@@ -1591,7 +1591,8 @@
 			"group": 1,
 			"service": 1,
 			"pathSuggestion": [ "XXLO", "🇵🇹BPR", "🇵🇹MVA", "🇵🇹RAR", "🇵🇹ETC", "🇵🇹SRI", "🇵🇹CDA", "🇵🇹PRG", "🇵🇹COR", "🇵🇹FOM", "🇵🇹FOG", "🇵🇹CIN", "🇵🇹PEA", "🇵🇹PNO", "🇵🇹POCJUN", "🇵🇹GRA", "🇵🇹ESA", "🇵🇹FUN", "🇵🇹AOD", "🇵🇹SCS", "🇵🇹PER", "🇵🇹MAT", "🇵🇹TUN" ]
-		},{
+		},
+		{
 			"name": "Intercidades Sul von %s nach %s",
 			"descriptions": [
 				"Der Intercidades 182 rauscht an die Algarve – vorbei an Korkeichen, Sonne und Meerblick.",
@@ -1612,7 +1613,7 @@
 				"Tea Time ashore! Die Queen Mary 2 liegt in Flåm, und die britischen Kreuzfahrer stürmen zur Flåmsbana – bereit für die wohl spektakulärste Zugfahrt seit der London Underground.",
 				"Obwohl der Hafen von Flåm leer ist, materialisiert sich eine asiatische Reisegruppe – mit Selfiesticks bewaffnet, als wäre die Flåmsbana ein Popkonzert."
 			],
-			"stations": [ "🇳🇴FL", "🇳🇴LUN", "🇳🇴HAR", "🇳🇴BEK", "🇳🇴BLOM", "🇳🇴KF", "🇳🇴REHA", "🇳🇴VAT", "XOMY"],
+			"stations": [ "🇳🇴FL", "🇳🇴LUN", "🇳🇴HAR", "🇳🇴BEK", "🇳🇴BLOM", "🇳🇴KF", "🇳🇴REHA", "🇳🇴VAT", "XOMY" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
@@ -2072,11 +2073,10 @@
 				{
 					"stations": [ "ZBSA", "XMBK" ]
 				}
-
 			],
 			"neededCapacity": [
 				{ "name": "passengers" },
-				{ "name": "bistroseats" } 
+				{ "name": "bistroseats" }
 			],
 			"stopsEverywhere": false
 		},
@@ -2091,11 +2091,10 @@
 				{
 					"stations": [ "ZBSA", "XTP" ]
 				}
-
 			],
 			"neededCapacity": [
 				{ "name": "beds" },
-				{ "name": "bistroseats" } 
+				{ "name": "bistroseats" }
 			],
 			"stopsEverywhere": false
 		},
@@ -2431,7 +2430,7 @@
 				},
 				{
 					"stations": [ "XFPO", "XFOL", "🇫🇷FAT", "XFDX", "🇫🇷SVT", "XFBY", "🇫🇷ORT", "XFPU", "XFL", "🇫🇷TBS" ],
-				  "pathSuggestion": [ "XFPO", "XFOL", "🇫🇷TO", "XFBJ", "🇫🇷FAT", "XFDX", "🇫🇷SVT", "XFBY", "🇫🇷ORT", "XFPU", "XFL", "🇫🇷TBS" ]
+					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷TO", "XFBJ", "🇫🇷FAT", "XFDX", "🇫🇷SVT", "XFBY", "🇫🇷ORT", "XFPU", "XFL", "🇫🇷TBS" ]
 				}
 			],
 			"neededCapacity": [
@@ -5953,15 +5952,15 @@
 				},
 				{
 					"stations": [ "🇨🇭SE", "XSSN" ],
-					"pathSuggestion": [ "🇨🇭SE", "XSLU", "XSSUS", "XSZG", "XSLT" , "XSHZ", "XSBE", "XSSP", "XSFR", "XSKA", "XSGO", "XSBG", "XSVI", "XSLE", "XSSN" ]
+					"pathSuggestion": [ "🇨🇭SE", "XSLU", "XSSUS", "XSZG", "XSLT", "XSHZ", "XSBE", "XSSP", "XSFR", "XSKA", "XSGO", "XSBG", "XSVI", "XSLE", "XSSN" ]
 				},
 				{
 					"stations": [ "XSRTT", "🇦🇹02130" ],
-					"pathSuggestion": [ "XSRTT", "🇨🇭BIB", "🇨🇭SAM", "XSPF" , "XSSR", "XSBU", "XAFK", "XAI", "🇦🇹Fw Z2", "🇦🇹Rdf", "XAWL", "XASW", "🇦🇹02130" ]
+					"pathSuggestion": [ "XSRTT", "🇨🇭BIB", "🇨🇭SAM", "XSPF", "XSSR", "XSBU", "XAFK", "XAI", "🇦🇹Fw Z2", "🇦🇹Rdf", "XAWL", "XASW", "🇦🇹02130" ]
 				},
 				{
 					"stations": [ "XSF", "RF" ],
-					"pathSuggestion": [ "XSF", "XSBE", "XSBL", "XSGRN" , "XSB", "RB", "RML", "RF" ]
+					"pathSuggestion": [ "XSF", "XSBE", "XSBL", "XSGRN", "XSB", "RB", "RML", "RF" ]
 				},
 				{
 					"stations": [ "XOAN", "TA" ],
@@ -6516,7 +6515,7 @@
 					"stations": [ "XVAH", "XVHH", "XVEV", "XVLD", "XVM" ]
 				},
 				{
-					"stations": [ "XVM", "🇸🇪O11020545891", "🇸🇪KL"]
+					"stations": [ "XVM", "🇸🇪O11020545891", "🇸🇪KL" ]
 				}
 			],
 			"neededCapacity": [
@@ -6653,7 +6652,7 @@
 					"stations": [ "XVLL", "XVBN", "XVGV", "🇸🇪7402007" ]
 				},
 				{
-					"stations": [ "XVLL", "XVBN", "XVKX" ,"🇸🇪7400064" ]
+					"stations": [ "XVLL", "XVBN", "XVKX", "🇸🇪7400064" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -6694,7 +6693,7 @@
 			"objects": [
 				{
 					"stations": [ "XVS", "XOOS" ],
-					"pathSuggestion": [ "XVS", "XVAJ", "🇸🇪HD", "🇸🇪JN", "XVFN", "XVK", "XVHA", "XVLX", "🇸🇪7400129", "🇸🇪7400222", "🇸🇪7400070", "🇸🇪7400206", "🇸🇪7400221", "XOKN", "XOLI", "XOOS"]
+					"pathSuggestion": [ "XVS", "XVAJ", "🇸🇪HD", "🇸🇪JN", "XVFN", "XVK", "XVHA", "XVLX", "🇸🇪7400129", "🇸🇪7400222", "🇸🇪7400070", "🇸🇪7400206", "🇸🇪7400221", "XOKN", "XOLI", "XOOS" ]
 				},
 				{
 					"stations": [ "XVS", "XVUS", "XVGA", "XVSU" ],
@@ -6704,8 +6703,8 @@
 					"stations": [ "XVLL", "XVBN", "XVGV", "🇸🇪7402007", "XVRG", "XONA" ]
 				},
 				{
-					"stations": [ "XVS", "🇸🇪Arnc", "XVUS", "XVGA", "🇸🇪7400044", "🇸🇪7400231", "🇸🇪7400298", "🇸🇪7400105", "🇸🇪7400032", "🇸🇪7400123", "🇸🇪7400126", "🇸🇪7400142", "🇸🇪7400115", "🇸🇪7400308"],
-					"pathSuggestion": [ "XVS", "XVUV", "🇸🇪Arnc", "XVKNV", "XVUS", "XVGA", "🇸🇪7400232", "🇸🇪7400300", "🇸🇪7400044", "🇸🇪7400231", "🇸🇪7400298", "🇸🇪7400105", "🇸🇪7400032", "🇸🇪7400526", "🇸🇪7400123", "🇸🇪7400126", "🇸🇪7400142", "🇸🇪7400115", "🇸🇪7400308"]
+					"stations": [ "XVS", "🇸🇪Arnc", "XVUS", "XVGA", "🇸🇪7400044", "🇸🇪7400231", "🇸🇪7400298", "🇸🇪7400105", "🇸🇪7400032", "🇸🇪7400123", "🇸🇪7400126", "🇸🇪7400142", "🇸🇪7400115", "🇸🇪7400308" ],
+					"pathSuggestion": [ "XVS", "XVUV", "🇸🇪Arnc", "XVKNV", "XVUS", "XVGA", "🇸🇪7400232", "🇸🇪7400300", "🇸🇪7400044", "🇸🇪7400231", "🇸🇪7400298", "🇸🇪7400105", "🇸🇪7400032", "🇸🇪7400526", "🇸🇪7400123", "🇸🇪7400126", "🇸🇪7400142", "🇸🇪7400115", "🇸🇪7400308" ]
 				},
 				{
 					"stations": [ "XVS", "🇸🇪Arnc", "XVUS", "🇸🇪7400137", "XVAV", "🇸🇪7400065", "🇸🇪7400242", "XVB", "🇸🇪7400056" ]
@@ -6868,7 +6867,7 @@
 					"stations": [ "XVS", "XVUS", "XVGA", "XVSU", "XONA" ]
 				},
 				{
-					"stations": [ "XVS", "🇸🇪Arnc", "XVUS", "XVGA", "🇸🇪7400044", "🇸🇪7400298", "🇸🇪7400105", "🇸🇪7400032", "🇸🇪7400123", "🇸🇪7400126", "🇸🇪7400142", "🇸🇪7400115", "🇸🇪7400308"]
+					"stations": [ "XVS", "🇸🇪Arnc", "XVUS", "XVGA", "🇸🇪7400044", "🇸🇪7400298", "🇸🇪7400105", "🇸🇪7400032", "🇸🇪7400123", "🇸🇪7400126", "🇸🇪7400142", "🇸🇪7400115", "🇸🇪7400308" ]
 				}
 			],
 			"neededCapacity": [
@@ -6948,7 +6947,7 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "coal", "value": 850}
+				{ "name": "coal", "value": 850 }
 			]
 		},
 		{
@@ -6969,10 +6968,9 @@
 				{
 					"stations": [ "🇲🇪31001", "XGTI" ]
 				}
-
 			],
 			"neededCapacity": [
-				{ "name": "containers", "value": 32}
+				{ "name": "containers", "value": 32 }
 			]
 		},
 		{
@@ -8095,7 +8093,7 @@
 				{ "name": "passengers" }
 			],
 			"stopsEverywhere": true
-		},		
+		},
 		{
 			"group": 1,
 			"name": "Regionale von %s nach %s",
@@ -8877,7 +8875,7 @@
 					"stations": [ "XFTM", "XFMBN", "XFBLG" ]
 				},
 				{
-					"stations": [ "XFTM", "🇫🇷PSS", "🇫🇷LTL"]
+					"stations": [ "XFTM", "🇫🇷PSS", "🇫🇷LTL" ]
 				},
 				{
 					"stations": [ "XFCN", "🇫🇷LMX" ]
@@ -9251,10 +9249,10 @@
 				"Fahre diesen Nahverkehrszug von %s nach %s.",
 				"Fahre durch die Slowakei und halte dabei an allen Stationen."
 			],
-				"objects": [		
-				{			
+			"objects": [
+				{
 					"stations": [ "XYB", "XYNZ", "XYST" ]
-				},		
+				},
 				{
 					"stations": [ "XYK", "ZUC" ]
 				},
@@ -10701,7 +10699,7 @@
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "beds" },
-				{ "name": "bistroseats" } 
+				{ "name": "bistroseats" }
 			],
 			"stopsEverywhere": false
 		},
@@ -10723,7 +10721,7 @@
 			],
 			"neededCapacity": [
 				{ "name": "passengers" },
-				{ "name": "bistroseats" } 
+				{ "name": "bistroseats" }
 			],
 			"stopsEverywhere": false
 		},
@@ -12310,7 +12308,7 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "passengers"}
+				{ "name": "passengers" }
 			]
 		},
 		{
@@ -12445,7 +12443,7 @@
 				}
 			],
 			"neededCapacity": [
-				{ "name": "containers", "value": 30}
+				{ "name": "containers", "value": 30 }
 			]
 		},
 		{
@@ -12593,7 +12591,7 @@
 			"descriptions": [
 				"Fahre von %s nach %s."
 			],
-			"stations": [  "XSWW", "🇨🇭SAM", "🇨🇭BIB", "🇨🇭EIS" ],
+			"stations": [ "XSWW", "🇨🇭SAM", "🇨🇭BIB", "🇨🇭EIS" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -12644,8 +12642,8 @@
 			"name": "Kerosinzug von %s nach %s",
 			"service": 10,
 			"descriptions": [
-				"Fahre diesen Kerosinzug sicher von %s nach %s" 
-			],	
+				"Fahre diesen Kerosinzug sicher von %s nach %s"
+			],
 			"objects": [
 				{
 					"stations": [ "FFH", "XSZO" ],
@@ -12689,7 +12687,7 @@
 			"name": "Kesselzug von %s nach %s",
 			"service": 10,
 			"descriptions": [
-				"Fahre diesen Kesselzug sicher von %s nach %s" 
+				"Fahre diesen Kesselzug sicher von %s nach %s"
 			],
 			"objects": [
 				{
@@ -12714,7 +12712,7 @@
 			"name": "Kesselzug von %s nach %s",
 			"service": 10,
 			"descriptions": [
-				"Fahre diesen Kesselzug sicher von %s nach %s" 
+				"Fahre diesen Kesselzug sicher von %s nach %s"
 			],
 			"objects": [
 				{
@@ -12747,7 +12745,7 @@
 			"name": "Autozug von %s nach %s",
 			"service": 11,
 			"descriptions": [
-				"Fahre diesen Autozug von %s nach %s" 
+				"Fahre diesen Autozug von %s nach %s"
 			],
 			"objects": [
 				{
@@ -12780,7 +12778,7 @@
 			"name": "Autozug von %s nach %s",
 			"service": 11,
 			"descriptions": [
-				"Fahre diesen Autozug von %s nach %s" 
+				"Fahre diesen Autozug von %s nach %s"
 			],
 			"objects": [
 				{
@@ -12809,7 +12807,7 @@
 			"name": "Kohlebomber von %s nach %s",
 			"service": 10,
 			"descriptions": [
-				"Fahre diesen Kohlebomber ohne Probleme von %s nach %s" 
+				"Fahre diesen Kohlebomber ohne Probleme von %s nach %s"
 			],
 			"objects": [
 				{
@@ -12842,7 +12840,7 @@
 			"name": "Kohlebomber von %s nach %s",
 			"service": 10,
 			"descriptions": [
-				"Fahre diesen Kohlebomber ohne Probleme von %s nach %s" 
+				"Fahre diesen Kohlebomber ohne Probleme von %s nach %s"
 			],
 			"objects": [
 				{
@@ -12859,7 +12857,7 @@
 			"name": "Holzzug von %s nach %s",
 			"service": 11,
 			"descriptions": [
-				"Fahre diesen Holzzug Störungsfrei von %s nach %s" 
+				"Fahre diesen Holzzug Störungsfrei von %s nach %s"
 			],
 			"objects": [
 				{
@@ -12888,7 +12886,7 @@
 			"name": "Holzzug von %s nach %s",
 			"service": 11,
 			"descriptions": [
-				"Fahre diesen Holzzug Störungsfrei von %s nach %s" 
+				"Fahre diesen Holzzug Störungsfrei von %s nach %s"
 			],
 			"objects": [
 				{
@@ -12909,7 +12907,7 @@
 			"name": "Holzzug von %s nach %s",
 			"service": 11,
 			"descriptions": [
-				"Fahre diesen Holzzug Störungsfrei von %s nach %s" 
+				"Fahre diesen Holzzug Störungsfrei von %s nach %s"
 			],
 			"objects": [
 				{
@@ -12930,7 +12928,7 @@
 			"name": "Holzzug von %s nach %s",
 			"service": 11,
 			"descriptions": [
-				"Fahre Holz zum Bau einer Kirche in Südbayern" 
+				"Fahre Holz zum Bau einer Kirche in Südbayern"
 			],
 			"objects": [
 				{
@@ -12948,12 +12946,12 @@
 			"name": "Rollende Landstrasse von %s nach %s",
 			"service": 11,
 			"descriptions": [
-				"Fahre diesen RoLa Störungsfrei von %s nach %s." 
+				"Fahre diesen RoLa Störungsfrei von %s nach %s."
 			],
 			"objects": [
 				{
 					"stations": [ "RF", "XINV" ],
-					"pathSuggestion": [ "RF", "RBKR", "RML", "RB", "XSB", "XSOL", "🇨🇭RTR", "XSLT", "🇨🇭BDF", "XSBE", "XSTH", "XSSP", "XSFR", "XSVI", "XSBG", "XIR","XINV" ]
+					"pathSuggestion": [ "RF", "RBKR", "RML", "RB", "XSB", "XSOL", "🇨🇭RTR", "XSLT", "🇨🇭BDF", "XSBE", "XSTH", "XSSP", "XSFR", "XSVI", "XSBG", "XIR", "XINV" ]
 				},
 				{
 					"stations": [ "XINV", "RF" ],
@@ -12978,16 +12976,16 @@
 			"name": "Rollende Landstrasse von %s nach %s",
 			"service": 11,
 			"descriptions": [
-				"Fahre diesen RoLa Störungsfrei von %s nach %s." 
+				"Fahre diesen RoLa Störungsfrei von %s nach %s."
 			],
 			"objects": [
 				{
 					"stations": [ "XIBN", "XAWL" ],
-					"pathSuggestion": [  "XIBN", "🇦🇹I Z1", "🇦🇹Fw Z2", "XAWL" ]
+					"pathSuggestion": [ "XIBN", "🇦🇹I Z1", "🇦🇹Fw Z2", "XAWL" ]
 				},
 				{
 					"stations": [ "XAWL", "XIBN" ],
-					"pathSuggestion": [  "XAWL", "🇦🇹Fw Z2", "🇦🇹I Z1", "XIBN" ]
+					"pathSuggestion": [ "XAWL", "🇦🇹Fw Z2", "🇦🇹I Z1", "XIBN" ]
 				}
 			],
 			"neededCapacity": [
@@ -13000,7 +12998,7 @@
 			"name": "Containerzug von %s nach %s",
 			"service": 11,
 			"descriptions": [
-				"Fahre diesen Containerzug dem Rhein entlang von %s nach %s." 
+				"Fahre diesen Containerzug dem Rhein entlang von %s nach %s."
 			],
 			"objects": [
 				{
@@ -13015,8 +13013,8 @@
 			"neededCapacity": [
 				{ "name": "containers", "value": 46 }
 			]
-		},	
-    {
+		},
+		{
 			"name": "InterRegio von %s nach %s",
 			"service": 2,
 			"descriptions": [
