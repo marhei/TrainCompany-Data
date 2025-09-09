@@ -51963,6 +51963,72 @@
 			]
 		},
 		{
+			"name": "Ligne de Souillac à Viescamp-sous-Jallès",
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇫🇷SDM",
+					"end": "🇫🇷VAY",
+					"length": 4,
+					"maxSpeed": 60,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇫🇷VAY",
+					"end": "🇫🇷BIK",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.02
+				},
+				{
+					"start": "🇫🇷BIK",
+					"end": "🇫🇷PBN",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷PBN",
+					"end": "🇫🇷BXB",
+					"length": 4,
+					"maxSpeed": 60,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇫🇷BXB",
+					"end": "🇫🇷LLC",
+					"length": 9,
+					"maxSpeed": 75,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇫🇷LLC",
+					"end": "🇫🇷O508788115",
+					"length": 8,
+					"maxSpeed": 55,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷O508788115",
+					"end": "🇫🇷LQB",
+					"length": 15,
+					"maxSpeed": 55,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇫🇷LQB",
+					"end": "🇫🇷O1817739379",
+					"length": 10,
+					"maxSpeed": 75,
+					"twistingFactor": 0.32
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"neededEquipments": [
 				"GB"
@@ -59035,6 +59101,134 @@
 						"LU",
 						"ETCS"
 					]
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"name": "Ligne de Capdenac à Rodez",
+			"objects": [
+				{
+					"start": "🇫🇷CDC",
+					"end": "🇫🇷VZI",
+					"length": 15,
+					"maxSpeed": 80,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷VZI",
+					"end": "🇫🇷AVB",
+					"length": 3,
+					"maxSpeed": 85,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷AVB",
+					"end": "🇫🇷CRZ",
+					"length": 2,
+					"maxSpeed": 85,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷CRZ",
+					"end": "🇫🇷SIH",
+					"length": 13,
+					"maxSpeed": 90,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇫🇷SIH",
+					"end": "🇫🇷RDZ",
+					"length": 30,
+					"maxSpeed": 110,
+					"twistingFactor": 0.62
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"name": "Ligne de Castelnaudary à Rodez",
+			"objects": [
+				{
+					"start": "🇫🇷RDZ",
+					"end": "🇫🇷44236",
+					"length": 10,
+					"maxSpeed": 110,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇫🇷44236",
+					"end": "🇫🇷BAQ",
+					"length": 11,
+					"maxSpeed": 80,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷BAQ",
+					"end": "🇫🇷NCE",
+					"length": 14,
+					"maxSpeed": 110,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷NCE",
+					"end": "🇫🇷61567",
+					"length": 11,
+					"maxSpeed": 110,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇫🇷61567",
+					"end": "🇫🇷CMX",
+					"length": 17,
+					"maxSpeed": 115,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇫🇷CMX",
+					"end": "🇫🇷ALM",
+					"length": 14,
+					"maxSpeed": 85,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷ALM",
+					"end": "🇫🇷ALB",
+					"length": 1,
+					"maxSpeed": 70,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"name": "Ligne de Tessonnières à Albi",
+			"objects": [
+				{
+					"start": "🇫🇷ALB",
+					"end": "🇫🇷MSS",
+					"length": 8,
+					"maxSpeed": 130,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MSS",
+					"end": "🇫🇷TES",
+					"length": 7,
+					"maxSpeed": 130,
+					"twistingFactor": 0.11
 				}
 			]
 		},
@@ -79957,6 +80151,75 @@
 					"length": 31,
 					"maxSpeed": 160,
 					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"name": "Ligne de Montauban-Ville-Bourbon à La Crémade",
+			"objects": [
+				{
+					"start": "🇫🇷SST",
+					"end": "🇫🇷CQO",
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷CQO",
+					"end": "🇫🇷LVR",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷LVR",
+					"end": "🇫🇷DSP",
+					"length": 15,
+					"maxSpeed": 140,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷DSP",
+					"end": "🇫🇷VUG",
+					"length": 10,
+					"maxSpeed": 110,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷VUG",
+					"end": "🇫🇷CTR",
+					"length": 13,
+					"maxSpeed": 110,
+					"twistingFactor": 0.28
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"name": "Ligne de Castres à Bédarieux",
+			"objects": [
+				{
+					"start": "🇫🇷CTR",
+					"end": "🇫🇷LBG",
+					"length": 7,
+					"maxSpeed": 100,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇫🇷LBG",
+					"end": "XFMZT",
+					"length": 10,
+					"maxSpeed": 100,
+					"twistingFactor": 0.14
 				}
 			]
 		},
