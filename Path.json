@@ -29782,8 +29782,17 @@
 			"objects": [
 				{
 					"start": "NRH",
+					"end": "NBWH",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "NBWH",
 					"end": "NOT",
-					"length": 7
+					"length": 2,
+					"maxSpeed": 150,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "NOT",
@@ -72506,24 +72515,9 @@
 			]
 		},
 		{
-			"maxSpeed": 160,
 			"electrified": true,
 			"group": 0,
 			"objects": [
-				{
-					"start": "NRH",
-					"end": "NBWH",
-					"length": 4,
-					"maxSpeed": 120,
-					"twistingFactor": 0.1
-				},
-				{
-					"start": "NBWH",
-					"end": "NOT",
-					"length": 2,
-					"maxSpeed": 150,
-					"twistingFactor": 0.1
-				},
 				{
 					"start": "NOT",
 					"end": "NSUE",
