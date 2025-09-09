@@ -75138,55 +75138,6 @@
 			]
 		},
 		{
-			"electrified": true,
-			"group": 0,
-			"neededEquipments": [
-				"CH"
-			],
-			"objects": [
-				{
-					"start": "XSBC",
-					"end": "XSCA",
-					"length": 15,
-					"maxSpeed": 150,
-					"twistingFactor": 0.21
-				},
-				{
-					"start": "XSCA",
-					"end": "XSBZ",
-					"length": 3,
-					"maxSpeed": 100,
-					"twistingFactor": 0.24
-				},
-				{
-					"name": "Ceneri-Basistunnel",
-					"neededEquipments": [
-						"CH",
-						"ETCS"
-					],
-					"start": "XSBZ",
-					"end": "XSL",
-					"length": 24,
-					"maxSpeed": 230,
-					"twistingFactor": 0.15
-				},
-				{
-					"start": "XSL",
-					"end": "XSME",
-					"length": 18,
-					"maxSpeed": 105,
-					"twistingFactor": 0.35
-				},
-				{
-					"start": "XSME",
-					"end": "XSCH",
-					"length": 8,
-					"maxSpeed": 85,
-					"twistingFactor": 0.3
-				}
-			]
-		},
-		{
 			"neededEquipments": [
 				"SE"
 			],
@@ -76438,16 +76389,6 @@
 					"twistingFactor": 0.17
 				}
 			]
-		},
-		{
-			"start": "XSBZ",
-			"end": "XSLC",
-			"neededEquipments": [
-				"CH"
-			],
-			"maxSpeed": 115,
-			"twistingFactor": 0.24,
-			"length": 21
 		},
 		{
 			"electrified": true,
@@ -85628,6 +85569,290 @@
 					"end": "XSAG",
 					"length": 6,
 					"maxSpeed": 75,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"name": "Gotthardbahn",
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "XSBC",
+					"end": "🇨🇭OS",
+					"length": 6,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭OS",
+					"end": "🇨🇭CLA",
+					"length": 5,
+					"maxSpeed": 150,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭CLA",
+					"end": "XSCA",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XSCA",
+					"end": "XSBZ",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XSBZ",
+					"end": "🇨🇭GIU",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭GIU",
+					"end": "🇨🇭RIB",
+					"length": 11,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭RIB",
+					"end": "🇨🇭MEZ",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MEZ",
+					"end": "🇨🇭TAV",
+					"length": 5,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭TAV",
+					"end": "🇨🇭LAM",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭LAM",
+					"end": "XSL",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XSL",
+					"end": "🇨🇭LGP",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭LGP",
+					"end": "🇨🇭MDE",
+					"length": 4,
+					"maxSpeed": 105,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MDE",
+					"end": "🇨🇭MAR",
+					"length": 4,
+					"maxSpeed": 95,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MAR",
+					"end": "🇨🇭CAP",
+					"length": 3,
+					"maxSpeed": 105,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭CAP",
+					"end": "🇨🇭MOSM",
+					"length": 3,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MOSM",
+					"end": "XSME",
+					"length": 1,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XSME",
+					"end": "🇨🇭BAL",
+					"length": 5,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭BAL",
+					"end": "XSCH",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "🇨🇭GIU",
+					"end": "🇨🇭SAN",
+					"length": 3,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭SAN",
+					"end": "🇨🇭CD",
+					"length": 3,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭CD",
+					"end": "🇨🇭RIAZ",
+					"length": 5,
+					"maxSpeed": 115,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭RIAZ",
+					"end": "🇨🇭GDA",
+					"length": 2,
+					"maxSpeed": 115,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭GDA",
+					"end": "🇨🇭TEN",
+					"length": 1,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭TEN",
+					"end": "🇨🇭MINU",
+					"length": 3,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MINU",
+					"end": "XSLC",
+					"length": 2,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"CH"
+			],
+			"objects": [
+				{
+					"start": "🇨🇭CD",
+					"end": "🇨🇭QUA",
+					"length": 4,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭QUA",
+					"end": "🇨🇭MAG",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭MAG",
+					"end": "🇨🇭SN",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭SN",
+					"end": "🇨🇭GER",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭GER",
+					"end": "🇨🇭RZO",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭RZO",
+					"end": "🇮🇹PINT",
+					"length": 4,
+					"maxSpeed": 85,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇮🇹PINT",
+					"end": "🇮🇹MAC",
+					"length": 7,
+					"maxSpeed": 95,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇮🇹MAC",
+					"end": "🇮🇹CMA",
+					"length": 2,
+					"maxSpeed": 95,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇮🇹CMA",
+					"end": "🇮🇹LI",
+					"length": 4,
+					"maxSpeed": 95,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"name": "Ceneri-Basistunnel",
+			"electrified": true,
+			"group": 2,
+			"neededEquipments": [
+				"CH",
+				"ETCS"
+			],
+			"objects": [
+				{
+					"start": "🇨🇭GIU",
+					"end": "XSL",
+					"length": 21,
+					"maxSpeed": 250,
 					"twistingFactor": 0.1
 				}
 			]
