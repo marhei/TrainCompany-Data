@@ -1834,7 +1834,7 @@
 				"Fahre zwischen Rhein und Bosporus."
 			],
 			"stations": [ "KK", "XQIS" ],
-			"pathSuggestion": [ "KK", "KGRB", "KM", "KV", "EDG", "EOB", "🇳🇱Zv", "XNAH", "🇳🇱Zp", "🇳🇱Dv", "🇳🇱Wdn", "XNHL", "HR", "HO", "HL", "HM", "HWUN", "HH", "HLER", "HHI", "HBS", "LM", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DCW", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTTR", "XTBR", "XTBE", "XAWW", "XMBK", "XJSP", "XJBR", "XJNI", "XWS", "🇧🇬14000", "XWSV", "XQIS" ],
+			"pathSuggestion": [ "KK", "KGRB", "KM", "KV", "EDG", "EOB", "🇳🇱Zv", "XNAH", "🇳🇱Zp", "🇳🇱Dv", "🇳🇱Wdn", "XNHL", "HR", "HO", "HL", "HM", "HWUN", "HH", "HLER", "HHI", "HBS", "LM", "LH", "LGOS", "LL", "LBOR", "DR", "DPR", "DCW", "DH", "DHD", "DPI", "DSA", "XTD", "XTU", "XTP", "XTTR", "XTBR", "XTBE", "XAWW", "XMBK", "XJSP", "XJBC", "XJBR", "XJNI", "XWS", "🇧🇬14000", "XWSV", "XQIS" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -13343,6 +13343,34 @@
 			"pathSuggestion": [ "XSEF", "XSGS", "XSAI", "XSBOD" ],
 			"neededCapacity": [
 				{ "name": "passengers"}
+			]
+		},
+		{
+			"group": 1,
+			"name": "MEX16 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Linie MEX16 von %s nach %s",
+				"Bring deine Fahrgäste pünktlich auf der Metropolexpress-Linie 16 nach %2$s!",
+				"Fahre die Linie MEX16 von %s bis %s. Lasse dich dabei desöfteren durch andere verspätete Züge zur Seite nehmen."
+			],
+			"stations": [ "TS", "TE", "TP", "TRF", "TEC", "TUH", "TFAU", "TGO", "TEF", "TSAL", "TSD", "TGI", "TKUC", "TGW", "TG", "TAM", "TURS", "TLON", "TWSH", "TBS", "TU" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "SAB von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Linie RB58 von %s nach %s",
+				"Bring Ausflügler pünktlich auf der Lokalbahn Amstetten - Gerstetten nach %2$s!",
+				"Fahre im Auftrag der Schwäbischen Alb-Bahn von %s bis %s. Beachte, dass die Bahnsteige auf der Strecke sehr kurz und niedrig sind!"
+			],
+			"stations": [ "TAM", "TSBH", "TSKS", "TWHS", "TGSS", "TGSN" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
 			]
 		}
 	]
