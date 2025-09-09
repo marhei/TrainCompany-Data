@@ -63546,10 +63546,36 @@
 			"objects": [
 				{
 					"start": "RIM",
+					"end": "RIMM",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "RIMM",
+					"end": "TMHR",
+					"length": 5,
+					"maxSpeed": 110,
+					"twistingFactor": 0.48
+				},
+				{
+					"start": "TMHR",
+					"end": "TMHB",
+					"length": 1,
+					"maxSpeed": 110,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "TMHB",
+					"end": "TTUG",
+					"length": 1,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "TTUG",
 					"end": "TTU",
-					"length": 10,
-					"twistingFactor": 0.24,
-					"electrified": true
+					"length": 2,
+					"twistingFactor": 0.0
 				},
 				{
 					"start": "TTU",
@@ -65738,27 +65764,90 @@
 			"electrified": true,
 			"name": "Gäubahn",
 			"group": 0,
+			"twistingFactor": 0.0,
+			"maxSpeed": 140,
 			"objects": [
-				{
+			    {
 					"start": "TS",
+					"end": "TSV",
+					"length": 12,
+					"maxSpeed": 90,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "TSV",
+					"end": "TSRO",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "TSRO",
+					"end": "TGOL",
+					"length": 8,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "TGOL",
 					"end": "TBO",
-					"length": 25,
 					"maxSpeed": 120,
-					"twistingFactor": 0.3
+					"length": 1
 				},
 				{
 					"start": "TBO",
+					"end": "THUB",
+					"length": 2
+				},
+				{
+					"start": "THUB",
+					"end": "TEHN",
+					"length": 3
+				},
+				{
+					"start": "TEHN",
+					"end": "TGT",
+					"length": 4,
+					"maxSpeed": 130,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "TGT",
+					"end": "TNUF",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TNUF",
 					"end": "THE",
-					"length": 15,
-					"maxSpeed": 140,
-					"twistingFactor": 0.2
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.42
 				},
 				{
 					"start": "THE",
+					"end": "TGFD",
+					"length": 5,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "TGFD",
+					"end": "TBD",
+					"length": 4,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "TBD",
+					"end": "TEG",
+					"length": 4,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "TEG",
 					"end": "TET",
-					"length": 15,
-					"maxSpeed": 140,
-					"twistingFactor": 0.2
+					"length": 2,
+					"maxSpeed": 130,
+					"twistingFactor": 0.18
 				},
 				{
 					"start": "TET",
@@ -65790,17 +65879,94 @@
 				},
 				{
 					"start": "TR",
-					"end": "TSP",
-					"length": 14,
+					"end": "TRG",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.41
+				},
+				{
+					"start": "TRG",
+					"end": "TRSA",
+					"length": 1,
+					"maxSpeed": 100,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "TRSA",
+					"end": "TRNF",
+					"length": 3,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "TRNF",
+					"end": "TALD",
+					"length": 5,
 					"maxSpeed": 120,
-					"twistingFactor": 0.27
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "TALD",
+					"end": "TSPM",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.41
+				},
+				{
+					"start": "TSPM",
+					"end": "TSP",
+					"length": 2,
+					"maxSpeed": 120,
+					"twistingFactor": 0.18
 				},
 				{
 					"start": "TSP",
+					"end": "TBLH",
+					"maxSpeed": 120,
+					"length": 1
+				},
+				{
+					"start": "TBLH",
+					"end": "TRH",
+					"length": 4,
+					"maxSpeed": 130,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "TRH",
+					"end": "TWLH",
+					"length": 2,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "TWLH",
+					"end": "TWUN",
+					"length": 2
+				},
+				{
+					"start": "TWUN",
+					"end": "TWUM",
+					"length": 1
+				},
+				{
+					"start": "TWUM",
+					"end": "TTUS",
+					"length": 2,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "TTUS",
 					"end": "TTU",
-					"length": 12,
-					"maxSpeed": 140,
-					"twistingFactor": 0.24
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "TTU",
+					"end": "RENG",
+					"length": 19,
+					"maxSpeed": 90,
+					"twistingFactor": 0.49
 				}
 			]
 		},
@@ -86168,6 +86334,47 @@
 					"length": 6,
 					"maxSpeed": 75,
 					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Stuttgart - Filderstadt",
+			"group": 0,
+			"twistingFactor": 0.0,
+			"maxSpeed": 100,
+			"objects": [
+			    {
+					"start": "TSRO",
+					"end": "TOAI",
+					"length": 2,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "TOAI",
+					"end": "TLF",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "TLF",
+					"end": "TETD",
+					"length": 2,
+					"maxSpeed": 90
+				},
+				{
+					"start": "TETD",
+					"end": "TFL",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "TFL",
+					"end": "TFIL",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.43
 				}
 			]
 		},
