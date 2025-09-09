@@ -40812,124 +40812,6 @@
 			]
 		},
 		{
-			"name": "Oberrheinbahn",
-			"electrified": true,
-			"objects": [
-				{
-					"start": "RF",
-					"end": "RDZ",
-					"length": 10,
-					"twistingFactor": 0.3,
-					"maxSpeed": 160,
-					"group": 0
-				},
-				{
-					"start": "RDZ",
-					"end": "RRL",
-					"length": 10,
-					"twistingFactor": 0.3,
-					"maxSpeed": 160,
-					"group": 0
-				},
-				{
-					"start": "RRL",
-					"end": "RO",
-					"length": 40,
-					"twistingFactor": 0.3,
-					"maxSpeed": 160,
-					"group": 0
-				},
-				{
-					"start": "RO",
-					"end": "RAP",
-					"length": 9,
-					"twistingFactor": 0.1,
-					"group": 2,
-					"maxSpeed": 160
-				},
-				{
-					"start": "RAP",
-					"end": "RAH",
-					"length": 12,
-					"twistingFactor": 0.1,
-					"group": 2,
-					"maxSpeed": 250
-				},
-				{
-					"start": "RAH",
-					"end": "RBUE",
-					"length": 9,
-					"twistingFactor": 0.1,
-					"group": 2,
-					"maxSpeed": 250
-				},
-				{
-					"start": "RBUE",
-					"end": "RBB",
-					"length": 11,
-					"twistingFactor": 0.1,
-					"group": 2,
-					"maxSpeed": 250
-				},
-				{
-					"start": "RBB",
-					"end": "RRA",
-					"length": 8,
-					"twistingFactor": 0.1,
-					"group": 0,
-					"maxSpeed": 160
-				},
-				{
-					"start": "RRA",
-					"end": "RK",
-					"length": 21,
-					"twistingFactor": 0.1,
-					"group": 0,
-					"maxSpeed": 160
-				},
-				{
-					"start": "RK",
-					"end": "RKHA",
-					"length": 6,
-					"twistingFactor": 0.1,
-					"group": 0,
-					"maxSpeed": 180
-				},
-				{
-					"start": "RKHA",
-					"end": "RBAN",
-					"length": 4,
-					"twistingFactor": 0.1,
-					"group": 0,
-					"maxSpeed": 200
-				},
-				{
-					"start": "RBAN",
-					"end": "RFTL",
-					"length": 4,
-					"twistingFactor": 0.1,
-					"group": 0,
-					"maxSpeed": 200
-				},
-				{
-					"start": "RFTL",
-					"end": "RGN",
-					"length": 7,
-					"twistingFactor": 0.1,
-					"group": 0,
-					"maxSpeed": 200
-				},
-				{
-					"start": "RGN",
-					"end": "RSAB",
-					"length": 7,
-					"twistingFactor": 0.1,
-					"group": 0,
-					"maxSpeed": 200
-				}
-			]
-		},
-		{
 			"electrified": false,
 			"group": 0,
 			"maxSpeed": 140,
@@ -86338,6 +86220,86 @@
 			]
 		},
 		{
+			"name": "Rheinbahn",
+			"twistingFactor": 0.0,
+			"maxSpeed": 160,
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "RRA",
+					"end": "ROH",
+					"length": 3
+				},
+				{
+					"start": "ROH",
+					"end": "RBIE",
+					"length": 3
+				},
+				{
+					"start": "RBIE",
+					"end": "RDRM",
+					"length": 2
+				},
+				{
+					"start": "RDRM",
+					"end": "RDUN",
+					"twistingFactor": 0.4,
+					"length": 1
+				},
+				{
+					"start": "RDUN",
+					"end": "RFM",
+					"length": 5
+				},
+				{
+					"start": "RFM",
+					"end": "RK",
+					"length": 6
+				},
+				{
+					"start": "RK",
+					"end": "RKHA",
+					"length": 6,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 180
+				},
+				{
+					"start": "RKHA",
+					"end": "RBAN",
+					"length": 4,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 200
+				},
+				{
+					"start": "RBAN",
+					"end": "RFTL",
+					"length": 4,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 200
+				},
+				{
+					"start": "RFTL",
+					"end": "RGN",
+					"length": 7,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 200
+				},
+				{
+					"start": "RGN",
+					"end": "RSAB",
+					"length": 7,
+					"twistingFactor": 0.1,
+					"group": 0,
+					"maxSpeed": 200
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"name": "Stuttgart - Filderstadt",
 			"group": 0,
@@ -86375,6 +86337,213 @@
 					"length": 3,
 					"maxSpeed": 80,
 					"twistingFactor": 0.43
+				}
+			]
+		},
+		{
+			"name": "Rheintalbahn",
+			"twistingFactor": 0.0,
+			"electrified": true,
+			"maxSpeed": 160,
+			"group": 0,
+			"objects": [
+				{
+					"start": "RK",
+					"end": "RETL",
+					"length": 6
+				},
+				{
+					"start": "RETL",
+					"end": "RBRH",
+					"length": 3
+				},
+				{
+					"start": "RBRH",
+					"end": "RMS",
+					"length": 5
+				},
+				{
+					"start": "RMS",
+					"end": "RMSU",
+					"length": 1
+				},
+				{
+					"start": "RMSU",
+					"end": "RMU B",
+					"length": 2
+				},
+				{
+					"start": "RMU B",
+					"end": "RMU",
+					"length": 1
+				},
+				{
+					"start": "RMU",
+					"end": "RRA",
+					"length": 5
+				},
+				{
+					"start": "RRA",
+					"end": "RHEB",
+					"length": 5,
+					"maxSpeed": 250,
+					"twistingFactor": 0.2,
+					"group": 2
+				},
+				{
+					"start": "RHEB",
+					"end": "RBB",
+					"length": 3,
+					"maxSpeed": 250,
+					"twistingFactor": 0.2,
+					"group": 2
+				},
+				{
+					"start": "RBB",
+					"end": "RSZN",
+					"length": 3,
+					"maxSpeed": 250,
+					"twistingFactor": 0.2,
+					"group": 2
+				},
+				{
+					"start": "RSZN",
+					"end": "RSZM",
+					"length": 1,
+					"maxSpeed": 250,
+					"twistingFactor": 0.2,
+					"group": 2
+				},
+				{
+					"start": "RSZM",
+					"end": "RBBL",
+					"length": 3,
+					"maxSpeed": 250,
+					"twistingFactor": 0.2,
+					"group": 2
+				},
+				{
+					"start": "RBBL",
+					"end": "RBUE",
+					"length": 4,
+					"maxSpeed": 250,
+					"twistingFactor": 0.2,
+					"group": 2
+				},
+				{
+					"start": "RBUE",
+					"end": "RAH",
+					"length": 8,
+					"maxSpeed": 250,
+					"twistingFactor": 0.2,
+					"group": 2
+				},
+				{
+					"start": "RAH",
+					"end": "RR",
+					"length": 6,
+					"maxSpeed": 250,
+					"twistingFactor": 0.2,
+					"group": 2
+				},
+				{
+					"start": "RR",
+					"end": "RAP",
+					"length": 6,
+					"maxSpeed": 250,
+					"twistingFactor": 0.2,
+					"group": 2
+				},
+				{
+					"start": "RAP",
+					"end": "RO",
+					"length": 8,
+					"maxSpeed": 250,
+					"group": 2
+				},
+				{
+					"start": "RO",
+					"end": "RFH",
+					"length": 13
+				},
+				{
+					"start": "RFH",
+					"end": "RLSW",
+					"length": 5
+				},
+				{
+					"start": "RLSW",
+					"end": "RORW",
+					"length": 8
+				},
+				{
+					"start": "RORW",
+					"end": "RRI",
+					"length": 3
+				},
+				{
+					"start": "RRI",
+					"end": "RHZ",
+					"twistingFactor": 0.4,
+					"length": 3
+				},
+				{
+					"start": "RHZ",
+					"end": "RKN",
+					"length": 3
+				},
+				{
+					"start": "RKN",
+					"end": "RRL",
+					"twistingFactor": 0.5,
+					"length": 5
+				},
+				{
+					"start": "RRL",
+					"end": "RKOE",
+					"length": 3
+				},
+				{
+					"start": "RKOE",
+					"end": "RTMU",
+					"length": 2
+				},
+				{
+					"start": "RTMU",
+					"end": "REMM",
+					"length": 2
+				},
+				{
+					"start": "REMM",
+					"end": "RKLR",
+					"length": 3
+				},
+				{
+					"start": "RKLR",
+					"end": "RDZ",
+					"twistingFactor": 0.5,
+					"length": 3
+				},
+				{
+					"start": "RDZ",
+					"end": "RGDN",
+					"length": 3
+				},
+				{
+					"start": "RGDN",
+					"end": "RFZ",
+					"twistingFactor": 0.2,
+					"length": 2
+				},
+				{
+					"start": "RFZ",
+					"end": "RFHE",
+					"length": 2
+				},
+				{
+					"start": "RFHE",
+					"end": "RF",
+					"length": 6
 				}
 			]
 		},

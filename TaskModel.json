@@ -13092,6 +13092,60 @@
 		},
 		{
 			"group": 1,
+			"name": "S7 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf der Stadtbahnlinie S7 von %s nach %s",
+				"Bring deine Fahrgäste pünktlich auf der Rheintalbahn nach %2$s!",
+				"Fahre die Linie S7 von %s bis %s. Halte dabei an allen Unterwegsbahnhöfen."
+			],
+			"stations": [ "RK", "RDRM", "RRA", "RBB", "RBUE", "RAH" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S71 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf der Stadtbahnlinie S71 von %s nach %s",
+				"Bring deine Fahrgäste pünktlich auf der Rheintalbahn nach %2$s!",
+				"Fahre die Linie S71 von %s bis %s. Halte dabei an allen Unterwegsbahnhöfen."
+			],
+			"stations": [ "RK", "RETL", "RRA", "RBB", "RBUE", "RAH" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB44 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre eine Regionalbahn der Linie 44 von %s nach %s",
+				"Fahre die Linie RB44 von %s bis %s."
+			],
+			"objects": [
+				{
+					"stations": [ "RK", "RETL", "RRA", "RBB", "RBUE", "RAH" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "RK", "RETL", "RBRH", "RMS", "RMSU", "RMU B", "RMU", "RRA", "RBB", "RBUE", "RAH", "RKL" ],
+					"descriptions": [
+						"Fahre eine verlängerte RB44 nach %2$s"
+					]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RB43 von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -13132,6 +13186,20 @@
 		},
 		{
 			"group": 1,
+			"name": "RE7 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Regionalexpress-Linie 7 von %s nach %s",
+				"Bring deine Fahrgäste pünktlich auf der Rheintalbahn nach %2$s!",
+				"Fahre die Linie RE7 von %s bis %s. Versuche dabei, nicht dem Fernverkehr in die Quere zu kommen."
+			],
+			"stations": [ "RK", "RRA", "RBB", "RBUE", "RAH", "RR", "RAP", "RO", "RLSW", "RORW", "RRI", "RHZ", "RKN", "RRL", "REMM", "RDZ", "RF", "RSAL", "RBKR", "RHE", "RML", "RSG", "RBEL", "REF", "RHL", "RW", "RB", "XSB" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "RE14a von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -13141,6 +13209,21 @@
 			],
 			"stations": [ "TS", "TBO", "THE", "TGFD", "TBD", "TEG", "TET", "THB", "TSUL", "TOB", "TR" ],
 			"pathSuggestion": [ "TS", "TSV", "TSRO", "TBO", "THE", "TGFD", "TBD", "TEG", "TET", "THB", "TSUL", "TOB", "TR" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB26 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Regionalbahn-Linie 26 von %s nach %s",
+				"Bring deine Fahrgäste pünktlich auf der Rheintalbahn nach %2$s!",
+				"Fahre die Linie RB26 von %s bis %s. Halte an allen Stationen."
+			],
+			"stations": [ "RO", "RLSW", "RORW", "RRI", "RHZ", "RKN", "RRL", "REMM", "RDZ", "RF" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -13184,6 +13267,31 @@
 			],
 			"stations": [ "THE", "TBO", "TSRO", "TSV", "TS", "TP", "TWD" ],
 			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB27 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre eine Regionalbahn der Linie 27 von %s nach %s",
+				"Bring deine Fahrgäste pünktlich auf der Rheintalbahn nach %2$s!",
+				"Fahre die Linie RB27 von %s bis %s."
+			],
+			"objects": [
+				{
+					"stations": [ "RF", "RSAL", "RBKR", "RHE", "RML", "RSG", "RBEL", "REF", "RHL", "RW", "RB", "XSB" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "REMM", "RDZ", "RF", "RSAL", "RBKR", "RHE", "RML", "RSG", "RBEL", "REF", "RHL", "RW", "RB", "XSB" ],
+					"descriptions": [
+						"Fahre in der HVZ eine verlängerte RB27 nach %2$s"
+					]
+				}
+			],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
