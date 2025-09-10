@@ -13349,6 +13349,151 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "S8 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf der Stadtbahnlinie S8 von %s nach %s. Halte dabei an jeder Station.",
+				"Bring deine Fahrgäste pünktlich auf der Linie S8 nach %2$s!",
+				"Bring deine Fahrgäste über die kurvenreiche Murgtalbahn nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "RK", "RFM", "RBIE", "RRA", "RGG", "RFCH", "TFS", "THF", "TET", "TBD" ]
+				},
+				{
+					"stations": [ "TFS", "TFSI", "TFSZ", "TFSS" ],
+					"descriptions": [
+						"Fahre einen Kurzläufer der S8 von %s nach %s."
+					]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S8 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf der Stadtbahnlinie S8 von %s nach %s. Halte dabei an jeder Station.",
+				"Bring deine Fahrgäste pünktlich auf der Linie S8 nach %2$s!",
+				"Bring deine Fahrgäste über die kurvenreiche Murgtalbahn nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "RK", "RFM", "RBIE", "RRA", "RGG", "RFCH", "TFS", "THF", "TET", "TBD" ]
+				},
+				{
+					"stations": [ "TFS", "TFSI", "TFSZ", "TFSS" ],
+					"descriptions": [
+						"Fahre einen Kurzläufer der S8 von %s nach %s."
+					]
+				},
+				{
+					"name": "S81 von %s nach %s",
+					"stations": [ "RK", "RETL", "RMU", "RRA", "RGG", "RFCH", "TFS"+ ],
+					"descriptions": [
+						"Fahre einen Zug der Linie S81 auf der Murgtalbahn nach %2$s."
+					]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE40 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Linie RE40 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Linie RE40 nach %2$s!",
+				"Fahre den Expresszug auf der Murgtalbahn nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "RK", "RRA", "RGG", "RGS", "RWSB", "RFCH", "RSOM", "RBSN", "RFRT", "TFSS", "TFSZ", "TFSI", "TFS", "TGRW", "TDSA", "TDS", "TSPF" ]
+				},
+				{
+					"stations": [ "RK", "RRA", "RGG", "RGS", "RWSB", "RFCH", "RSOM", "RBSN", "RFRT", "TFSS", "TFSZ", "TFSI", "TFS", "TGRW", "TDSA", "TDS", "TSPF", "TBIT", "THBH", "THF", "TETN", "TET", "TEG", "TBD", "TGFD", "THE" ],
+					"descriptions": [
+						"Fahre den verlängerten Frühzug der Linie RE40 von %s nach %s."
+					]
+				},
+				{
+					"stations": [ "RM", "RH", "RBSK", "RBR", "RK", "RRA", "RKU", "RGG", "RGS", "RWSB", "RFCH", "RSOM", "RBSN", "RFRT", "TFSS", "TFSZ", "TFSI", "TFS" ],
+					"descriptions": [
+						"Fahre den Freizeitexpress Murgtäler von %s nach %s."
+					]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB41 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Linie RB41 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Linie RB41 nach %2$s!",
+				"Fahre die Bummelzug auf der Murgtalbahn nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "RK", "RETL", "RMU", "RRA", "RGG", "RGS", "RWSB", "RFCH" ]
+				},
+				{
+					"stations": [ "RFCH", "RSOM", "RBSN", "RFRT", "TFSS", "TFSZ", "TFSI", "TFS", "TGRW", "TDSA", "TDS", "TSPF", "TBIT", "THBH", "THF", "TETN", "TET", "TEG", "TBD", "TGFD", "THE" ],
+					"descriptions": [
+						"Fahre den verlängerten Frühzug der Linie RB41 von %s nach %s."
+					]
+				},
+				{
+					"stations": [ "RK", "RETL", "RMU", "RRA", "RKU", "RGG", "RGS", "RWSB", "RFCH", "RSOM", "RBSN", "RFRT", "TFSS", "TFSZ", "TFSI", "TFS" ],
+					"descriptions": [
+						"Fahre den verlängerten HVZ-Zug der Linie RB41 von %s nach %s."
+					]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE14b von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Regionalexpress-Linie 14b von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Linie RE14b nach %2$s!"
+			],
+			"stations": [ "TS", "TBO", "THE", "TGFD", "TBD", "TEG", "TET", "TETN", "THF", "THBH", "TBIT", "TSPF", "TDS", "TDSA", "TGRW", "TFS" ],
+			"pathSuggestion": [ "TS", "TSV", "TSRO", "TBO", "THE", "TGFD", "TBD", "TEG", "TET", "TETN", "THF", "THBH", "TBIT", "TSPF", "TDS", "TDSA", "TGRW", "TFS" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB14b von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Regionalbahn-Linie 14b von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Linie RB14b nach %2$s!"
+			],
+			"stations": [ "TET", "TETN", "THF", "THBH", "TBIT", "TSPF", "TDS", "TDSA", "TGRW", "TFS" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
