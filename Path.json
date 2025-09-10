@@ -65898,30 +65898,78 @@
 			]
 		},
 		{
+			"name": "Kinzigtalbahn",
 			"maxSpeed": 100,
+			"group": 1,
 			"twistingFactor": 0.25,
 			"objects": [
 				{
 					"start": "TET",
+					"end": "TETN",
+					"name": "Gäubahn",
+					"length": 2,
+					"group": 0
+				},
+				{
+					"start": "TETN",
+					"end": "THF",
+					"name": "Gäubahn",
+					"length": 2,
+					"group": 0
+				},
+				{
+					"start": "THF",
+					"end": "THBH",
+					"name": "Gäubahn",
+					"length": 5,
+					"maxSpeed": 80
+				},
+				{
+					"start": "THBH",
+					"end": "TBIT",
+					"name": "Gäubahn",
+					"length": 6,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TBIT",
+					"end": "TSPF",
+					"name": "Gäubahn",
+					"length": 3,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TSPF",
 					"end": "TDS",
-					"electrified": true,
-					"group": 0,
-					"maxSpeed": 80,
-					"length": 23
+					"name": "Gäubahn",
+					"length": 4,
+					"maxSpeed": 80
 				},
 				{
 					"start": "TDS",
-					"end": "TFS",
-					"electrified": true,
-					"maxSpeed": 80,
-					"group": 1,
-					"length": 6
+					"end": "TDSA",
+					"name": "Gäubahn",
+					"length": 2,
+					"maxSpeed": 80
 				},
+				{
+					"start": "TDSA",
+					"end": "TGRW",
+					"name": "Gäubahn",
+					"length": 2,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TGRW",
+					"end": "TFS",
+					"name": "Gäubahn",
+					"length": 3,
+					"maxSpeed": 80
+				}
 				{
 					"start": "TFS",
 					"end": "RALP",
 					"electrified": false,
-					"group": 1,
 					"length": 16,
 					"maxSpeed": 70,
 					"twistingFactor": 0.3
@@ -65930,7 +65978,6 @@
 					"start": "RALP",
 					"end": "RSZL",
 					"electrified": false,
-					"group": 1,
 					"length": 5,
 					"maxSpeed": 70,
 					"twistingFactor": 0.3
@@ -65939,7 +65986,6 @@
 					"start": "RSZL",
 					"end": "RSCL",
 					"electrified": false,
-					"group": 1,
 					"length": 3,
 					"maxSpeed": 70,
 					"twistingFactor": 0.3
@@ -65948,19 +65994,19 @@
 					"start": "RSCL",
 					"end": "RWO",
 					"electrified": false,
-					"group": 1,
 					"length": 9,
 					"maxSpeed": 70,
-					"twistingFactor": 0.3
+					"twistingFactor": 0.3,
+					"group": 0
 				},
 				{
 					"start": "RWO",
 					"end": "RHA",
 					"electrified": false,
-					"group": 1,
 					"length": 4,
 					"maxSpeed": 70,
-					"twistingFactor": 0.3
+					"twistingFactor": 0.3,
+					"group": 0
 				}
 			]
 		},
@@ -87002,6 +87048,210 @@
 					"start": "TGSS",
 					"end": "TGSN",
 					"length": 5
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Murgtalbahn",
+			"group": 1,
+			"twistingFactor": 0.3,
+			"maxSpeed": 100,
+			"objects": [
+			    {
+					"start": "TFS",
+					"end": "TFSI",
+					"length": 1,
+					"maxSpeed": 40
+				},
+				{
+					"start": "TFSI",
+					"end": "TFSZ",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "TFSZ",
+					"end": "TFSS",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "TFSS",
+					"end": "RFRT",
+					"length": 3,
+					"maxSpeed": 60
+				},
+				{
+					"start": "RFRT",
+					"end": "RBSN",
+					"length": 3,
+					"maxSpeed": 60
+				},
+				{
+					"start": "RBSN",
+					"end": "RBSS",
+					"length": 1,
+					"maxSpeed": 80
+				},
+				{
+					"start": "RBSS",
+					"end": "RKLB",
+					"length": 3
+				},
+				{
+					"start": "RKLB",
+					"end": "RHBA",
+					"length": 1,
+					"maxSpeed": 80
+				},
+				{
+					"start": "RHBA",
+					"end": "RRT",
+					"length": 2
+				},
+				{
+					"start": "RRT",
+					"end": "RHUB",
+					"length": 3,
+					"maxSpeed": 90
+				},
+				{
+					"start": "RHUB",
+					"end": "RSW",
+					"length": 2,
+					"maxSpeed": 80
+				},
+				{
+					"start": "RSW",
+					"end": "RSOM",
+					"length": 1,
+					"maxSpeed": 70
+				},
+				{
+					"start": "RSOM",
+					"end": "RKBV",
+					"length": 2,
+					"maxSpeed": 70
+				},
+				{
+					"start": "RKBV",
+					"end": "RRMZ",
+					"length": 3,
+					"maxSpeed": 60
+				},
+				{
+					"start": "RRMZ",
+					"end": "RFCH",
+					"length": 5,
+					"maxSpeed": 60
+				},
+				{
+					"start": "RFCH",
+					"end": "RGBA",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "RGBA",
+					"end": "RLBD",
+					"length": 2,
+					"maxSpeed": 60
+				},
+				{
+					"start": "RLBD",
+					"end": "RWSA",
+					"length": 2,
+					"maxSpeed": 80
+				},
+				{
+					"start": "RWSA",
+					"end": "RWSB",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "RWSB",
+					"end": "RHLT",
+					"length": 2,
+					"maxSpeed": 60
+				},
+				{
+					"start": "RHLT",
+					"end": "ROT",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "ROT",
+					"end": "RGSD",
+					"length": 2,
+					"maxSpeed": 60
+				},
+				{
+					"start": "RGSD",
+					"end": "RGS",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "RGS",
+					"end": "RHOR",
+					"length": 2,
+					"maxSpeed": 80
+				},
+				{
+					"start": "RHOR",
+					"end": "ROTU",
+					"length": 2,
+					"maxSpeed": 50
+				},
+				{
+					"start": "ROTU",
+					"end": "RDAI",
+					"length": 1,
+					"maxSpeed": 90
+				},
+				{
+					"start": "RDAI",
+					"end": "RGG",
+					"length": 1,
+					"maxSpeed": 90
+				},
+				{
+					"start": "RGG",
+					"end": "RROW",
+					"length": 1
+				},
+				{
+					"start": "RROW",
+					"end": "RRO",
+					"length": 1
+				},
+				{
+					"start": "RRO",
+					"end": "RROG",
+					"length": 1
+				},
+				{
+					"start": "RROG",
+					"end": "RBIS",
+					"length": 2
+				},
+				{
+					"start": "RBIS",
+					"end": "RKU",
+					"length": 2
+				},
+				{
+					"start": "RKU",
+					"end": "RRAB",
+					"length": 3
+				},
+				{
+					"start": "RRAB",
+					"end": "RRA",
+					"length": 1
 				}
 			]
 		}
