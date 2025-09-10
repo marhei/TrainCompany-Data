@@ -1897,7 +1897,7 @@
 				{ "name": "passengers" },
 				{ "name": "bistroseats" }
 			],
-			"pathSuggestion": [ "XSZH", "XSZO", "RSCF", "RSI", "RIM", "TTU", "TR", "THB", "TET", "TBO", "TS" ]
+			"pathSuggestion": [ "XSZH", "XSZO", "RSCF", "RSI", "RENG", "TTU", "TR", "THB", "TET", "TBO", "TS" ]
 		},
 		{
 			"group": 1,
@@ -2041,7 +2041,7 @@
 				},
 				{
 					"stations": [ "AA", "AH", "HH", "HG", "FB", "FFU", "FH", "RM", "RK", "RF", "RDO", "RSI", "RB", "RLR" ],
-					"pathSuggestion": [ "AA", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FGTH", "FB", "FHUE", "FFU", "FFD", "FH", "FF", "FFLF", "FDG", "FBL", "RM", "RSAB", "RGN", "RK", "RRA", "RAP", "RO", "RF", "RKZ", "RDO", "RIM", "RSI", "RSCF", "RB", "RLR" ]
+					"pathSuggestion": [ "AA", "AH", "AHAR", "ALBG", "HU", "HH", "HG", "FKW", "FGTH", "FB", "FHUE", "FFU", "FFD", "FH", "FF", "FFLF", "FDG", "FBL", "RM", "RSAB", "RGN", "RK", "RRA", "RAP", "RO", "RF", "RKZ", "RDO", "RIM", "RENG", "RSI", "RSCF", "RB", "RLR" ]
 				},
 				{
 					"stations": [ "KD", "KK", "FF", "NWH", "NN", "MH" ],
@@ -3347,8 +3347,8 @@
 				"Bringe den Regionalexpress von %s nach %s durchs Mittelrheintal.",
 				"Dieser Regionalexpress von %s nach %s ist bei Radfahreren beliebt."
 			],
-			"stations": [ "SKL", "SWNW", "SRC", "SBMS", "FBGK", "FOBW", "KBOP", "KKO" ],
-			"pathSuggestion": [ "SKL", "SWNW", "SRC", "SBMS", "FBGK", "FOBW", "KBOP", "KKO" ],
+			"stations": [ "SKL", "SWNW", "SRC", "SBMS", "SBKN", "FBGK", "FOBW", "KBOP", "KKO" ],
+			"pathSuggestion": [ "SKL", "SWNW", "SRC", "SBMS", "SBKN", "FBGK", "FOBW", "KBOP", "KKO" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -3389,7 +3389,7 @@
 			"objects": [
 				{
 					"stations": [ "RK", "RRA", "RBB", "RAH", "RO", "RHA", "RVL", "RDO", "RIM", "RSI", "RRZ", "RKO" ],
-					"pathSuggestion": [ "RK", "RRA", "RBB", "RAH", "RAP", "RO", "RHA", "RVL", "RDO", "RIM", "RSI", "RRZ", "RKO" ]
+					"pathSuggestion": [ "RK", "RRA", "RBB", "RAH", "RAP", "RO", "RHA", "RVL", "RDO", "RIM", "RENG", "RSI", "RRZ", "RKO" ]
 				}
 			],
 			"neededCapacity": [
@@ -5162,7 +5162,7 @@
 				{ "name": "passengers" }
 			],
 			"group": 1,
-			"pathSuggestion": [ "TS", "TBO", "TET", "THB", "TR", "TTU", "RIM", "RSI" ]
+			"pathSuggestion": [ "TS", "TBO", "TET", "THB", "TR", "TTU", "RIM", "RENG", "RSI" ]
 		},
 		{
 			"name": "ECE von %s nach %s",
@@ -5796,7 +5796,7 @@
 				},
 				{
 					"stations": [ "RHBG", "XSHB" ],
-					"pathSuggestion": [ "RHBG", "RDO", "RIM", "RSI", "RRZ", "XSR", "XSHB" ]
+					"pathSuggestion": [ "RHBG", "RDO", "RIM", "RENG", "RSI", "RRZ", "XSR", "XSHB" ]
 				},
 				{
 					"stations": [ "EHBM", "XSHB" ],
@@ -5948,7 +5948,7 @@
 				},
 				{
 					"stations": [ "DL", "RLR" ],
-					"pathSuggestion": [ "DL", "DBW", "DAF", "DH", "DFR", "DFL", "DC", "DZW", "DRC", "DHN", "DP", "NOKP", "NHM", "NED", "NBA", "NS", "NWH", "TL", "TO", "TBF", "TH", "TS", "TET", "THB", "TTU", "RIM", "RSI", "RSCF", "RB", "RLR" ]
+					"pathSuggestion": [ "DL", "DBW", "DAF", "DH", "DFR", "DFL", "DC", "DZW", "DRC", "DHN", "DP", "NOKP", "NHM", "NED", "NBA", "NS", "NWH", "TL", "TO", "TBF", "TH", "TS", "TET", "THB", "TTU", "RENG", "RSI", "RSCF", "RB", "RLR" ]
 				},
 				{
 					"stations": [ "🇨🇭SE", "XSSN" ],
@@ -12111,7 +12111,7 @@
 				"Du wurdest zur Eisenbahner*in des Jahres gewählt und erhältst eine Sonderahrt nach Wunsch. Du entschließt dich, deine Kolleg*innen aus Ausbildungszeiten zu besuchen und auf einen Pott Kaffee zu halten."
 			],
 			"stations": [ "BKW", "DH", "LL", "UNM", "US", "NPA", "MKP", "RK", "FD", "SSH", "STR", "EDG", "HLEE", "HB", "AH", "WK", "WSR", "BL" ],
-			"pathSuggestion": [ "BKW", "BFP", "BCS", "BSP", "DG", "DL", "DBW", "DAF", "DH", "DCW", "DPR", "DR", "LBOR", "LL", "UNM", "UGH", "UGW", "US", "NHM", "NED", "NBA", "NF", "NN", "NRH", "NPL", "NPA", "MNR", "MMF", "MWSB", "MRO", "MHO", "MH", "MGE", "MKFG", "MBU", "MBIH", "MKP", "MIMS", "MHGZ", "MLIR", "TF", "RRZ", "RSI", "RIM", "RDO", "RF", "RO", "RAP", "RRA", "RK", "RBR", "RH", "RMF", "FD", "FDG", "FBL", "FWOR", "RFT", "RFHM", "RN", "RLA", "SHW", "SPSN", "SRO", "SSH", "SDL", "SKZ", "STR", "KEU", "KKAS", "KK", "KGRB", "KM", "KV", "EDG", "EOB", "EG", "EMST", "HR", "HLEE", "HOLD", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AHI", "AHM", "AJ", "AF", "AK", "AL", "WK", "WB", "WSN", "WR", "WSR", "WZS", "WP", "WA", "WE", "BL" ],
+			"pathSuggestion": [ "BKW", "BFP", "BCS", "BSP", "DG", "DL", "DBW", "DAF", "DH", "DCW", "DPR", "DR", "LBOR", "LL", "UNM", "UGH", "UGW", "US", "NHM", "NED", "NBA", "NF", "NN", "NRH", "NPL", "NPA", "MNR", "MMF", "MWSB", "MRO", "MHO", "MH", "MGE", "MKFG", "MBU", "MBIH", "MKP", "MIMS", "MHGZ", "MLIR", "TF", "RRZ", "RSI", "RENG", "RIM", "RDO", "RF", "RO", "RAP", "RRA", "RK", "RBR", "RH", "RMF", "FD", "FDG", "FBL", "FWOR", "RFT", "RFHM", "RN", "RLA", "SHW", "SPSN", "SRO", "SSH", "SDL", "SKZ", "STR", "KEU", "KKAS", "KK", "KGRB", "KM", "KV", "EDG", "EOB", "EG", "EMST", "HR", "HLEE", "HOLD", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AHI", "AHM", "AJ", "AF", "AK", "AL", "WK", "WB", "WSN", "WR", "WSR", "WZS", "WP", "WA", "WE", "BL" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats", "value": 48 },
@@ -12912,7 +12912,7 @@
 			"objects": [
 				{
 					"stations": [ "RIM", "MKFG" ],
-					"pathSuggestion": [ "RIM", "RSI", "RRZ", "RST", "TF", "MLIR", "MHGZ", "TKG", "MM", "MTHB", "MBU", "MKFG" ]
+					"pathSuggestion": [ "RIM", "RENG", "RSI", "RRZ", "RST", "TF", "MLIR", "MHGZ", "TKG", "MM", "MTHB", "MBU", "MKFG" ]
 				},
 				{
 					"stations": [ "TMG", "TFD" ],
