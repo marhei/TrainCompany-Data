@@ -13609,6 +13609,21 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "RE200 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Linie RE200 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Linie RE200 nach %2$s!",
+				"Fahre auf der schnellsten RE-Linie Deutschlands!"
+			],
+			"stations": [ "TWD", "TMKL", "TU" ],
+			"pathSuggestion": [ "TWD", "TRHZ", "TMKL", "TU" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
