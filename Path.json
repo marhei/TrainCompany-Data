@@ -49798,6 +49798,100 @@
 			]
 		},
 		{
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"name": "Ligne de Niversac à Agen",
+			"objects": [
+				{
+					"start": "🇫🇷AGN",
+					"end": "🇫🇷LRQ",
+					"length": 14,
+					"maxSpeed": 150,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷LRQ",
+					"end": "🇫🇷PNE",
+					"length": 11,
+					"maxSpeed": 60,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷PNE",
+					"end": "🇫🇷MLS",
+					"length": 16,
+					"maxSpeed": 100,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷MLS",
+					"end": "🇫🇷SVE",
+					"length": 14,
+					"maxSpeed": 100,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇫🇷SVE",
+					"end": "🇫🇷VPD",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷VPD",
+					"end": "🇫🇷BES",
+					"length": 18,
+					"maxSpeed": 80,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷BES",
+					"end": "🇫🇷SOC",
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷SOC",
+					"end": "🇫🇷LBU",
+					"length": 6,
+					"maxSpeed": 100,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷LBU",
+					"end": "🇫🇷BDG",
+					"length": 8,
+					"maxSpeed": 105,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇫🇷BDG",
+					"end": "🇫🇷EYZ",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷EYZ",
+					"end": "🇫🇷VSJ",
+					"length": 22,
+					"maxSpeed": 105,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷VSJ",
+					"end": "🇫🇷NEC",
+					"length": 7,
+					"maxSpeed": 115,
+					"twistingFactor": 0.17
+				}
+			]
+		},
+		{
 			"name": "Kurbadlinie",
 			"electrified": false,
 			"group": 1,
