@@ -8875,6 +8875,24 @@
 			"stopsEverywhere": true
 		},
 		{
+			"name": "TER von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe diesen TER von %s nach %s.",
+				"Fahre pünktlich durch Auvergne-Rhône-Alpes."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XFCLE", "🇫🇷THI" ]
+				}
+			],
+			"stopsEverywhere": true
+		},
+		{
 			"name": "TER Lio von %s nach %s",
 			"service": 2,
 			"descriptions": [

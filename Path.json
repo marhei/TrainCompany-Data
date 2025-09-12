@@ -80239,6 +80239,58 @@
 			]
 		},
 		{
+			"name": "Ligne de Clermont-Ferrand à Saint-Just-sur-Loire",
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "XFCLE",
+					"end": "🇫🇷AUL",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷AUL",
+					"end": "🇫🇷73408",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷73408",
+					"end": "🇫🇷VTZ",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷VTZ",
+					"end": "🇫🇷LEZ",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇫🇷LEZ",
+					"end": "🇫🇷PDO",
+					"length": 9,
+					"maxSpeed": 160,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇫🇷PDO",
+					"end": "🇫🇷THI",
+					"length": 11,
+					"maxSpeed": 85,
+					"twistingFactor": 0.75
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
