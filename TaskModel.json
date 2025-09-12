@@ -601,18 +601,12 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "XFD", "🇫🇷BEA", "XFCGY", "XFCS", "🇫🇷TOS", "XFMAL", "XFBV", "XFLPD" ]
-				},
-				{
 					"stations": [ "XFMZV", "XFPS", "XFN" ],
 					"pathSuggestion": [ "XFMZV", "XFPS", "XFFD", "XFN" ]
 				},
 				{
 					"stations": [ "XFN", "XFLU", "🇫🇷IA", "XFRD", "XFSV", "XFSTG" ],
 					"pathSuggestion": [ "XFN", "XFLU", "🇫🇷IA", "XFRD", "XFSV", "XFMH", "XFVH", "XFSTG" ]
-				},
-				{
-					"stations": [ "XFLPD", "🇫🇷VRU", "XFCZ", "🇫🇷SSS", "XFBA", "XSGE" ]
 				},
 				{
 					"pathSuggestion": [ "XFN", "XFFD", "XFTU", "XFNE", "XFCU", "XFIS", "XFD" ],
@@ -623,6 +617,18 @@
 				},
 				{
 					"stations": [ "XFMZV", "XFTHV", "XLB", "XLL" ]
+				},
+				{
+					"stations": [ "XFSTG", "XFSL", "XFC", "XFMV", "XSB" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "XFFB", "XFBE", "🇫🇷BDC", "XFMZV" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "XFSM", "XFMH", "XFVH", "XFSTG" ],
+					"stopsEverywhere": true
 				}
 			]
 		},
@@ -8815,9 +8821,6 @@
 					"stations": [ "XFAVV", "🇫🇷BDR", "XFOR", "🇫🇷BLN", "🇫🇷PRL", "XFMN", "XFVCV", "🇫🇷TAI", "XFVI", "XFLPD" ]
 				},
 				{
-					"stations": [ "XFLPD", "XFAE", "XFCZ", "XFMOM", "XFMOD" ]
-				},
-				{
 					"stations": [ "XFPO", "XFMEL", "🇫🇷SES", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD" ]
 				},
 				{
@@ -8839,16 +8842,7 @@
 					"stations": [ "XFCM", "XFBD", "XFLE", "XFTU", "XFFD", "XFN" ]
 				},
 				{
-					"stations": [ "XFFB", "XFBE", "🇫🇷BDC", "XFMZV" ]
-				},
-				{
-					"stations": [ "XFSM", "XFMH", "XFVH", "XFSTG" ]
-				},
-				{
 					"stations": [ "XFMZV", "XFPS", "XFO", "XFLE", "XFBD" ]
-				},
-				{
-					"stations": [ "XFSTG", "XFSL", "XFC", "XFMV", "XSB" ]
 				},
 				{
 					"stations": [ "XFMV", "RML" ]
@@ -8858,12 +8852,6 @@
 				},
 				{
 					"stations": [ "XFMI", "XFMAG", "XFM" ]
-				},
-				{
-					"stations": [ "XFCLE", "XFSGF", "XFLPD" ]
-				},
-				{
-					"stations": [ "XFCLE", "XFSGF", "XFSZE", "🇫🇷NVS" ]
 				},
 				{
 					"stations": [ "XFOL", "🇫🇷VER", "🇫🇷NVS" ]
@@ -8887,10 +8875,34 @@
 			"group": 1,
 			"objects": [
 				{
-					"stations": [ "XFCLE", "🇫🇷THI" ]
+					"stations": [ "XFCLE", "🇫🇷RIO", "🇫🇷VHY", "XFROA", "🇫🇷TAR", "XFLPD" ],
+					"stopsEverywhere": false
+				},
+				{
+					"stations": [ "XFLPD", "🇫🇷VRU", "XFCZ", "🇫🇷SSS", "XFBA", "XSGE" ],
+					"stopsEverywhere": false
+				},
+				{
+					"stations": [ "XFD", "🇫🇷BEA", "XFCGY", "XFCS", "🇫🇷TOS", "XFMAL", "XFBV", "XFLPD" ],
+					"stopsEverywhere": false
+				},
+				{
+					"stations": [ "XFCLE", "XFSGF", "XFSZE", "🇫🇷NVS" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "XFCLE", "🇫🇷THI" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "XFLPD", "XFAE", "XFCZ", "XFMOM", "XFMOD" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "XFLPD", "🇫🇷VEI", "🇫🇷BRG", "🇫🇷LTP", "🇫🇷VOR", "XFG" ],
+					"stopsEverywhere": false
 				}
-			],
-			"stopsEverywhere": true
+			]
 		},
 		{
 			"name": "TER Lio von %s nach %s",
