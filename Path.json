@@ -304,34 +304,63 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"neededEquipments": [
+				"IT"
+			],
 			"objects": [
 				{
 					"start": "XSCH",
+					"end": "XICOMO",
+					"length": 4,
+					"maxSpeed": 95,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XICOMO",
+					"end": "XICOCA",
+					"length": 5,
+					"maxSpeed": 95,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XICOCA",
+					"end": "XICUCC",
+					"length": 4,
+					"maxSpeed": 105,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XICUCC",
+					"end": "XICACE",
+					"length": 3,
+					"maxSpeed": 135,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XICACE",
 					"end": "XICAR",
-					"length": 17,
-					"neededEquipments": [
-						"IT"
-					],
-					"maxSpeed": 130,
-					"twistingFactor": 0.27
+					"length": 2,
+					"maxSpeed": 150,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XICAR",
-					"end": "XISER",
-					"length": 10,
-					"neededEquipments": [
-						"IT"
-					],
+					"end": "XICALE",
+					"length": 5,
 					"maxSpeed": 150,
-					"twistingFactor": 0.18
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XICALE",
+					"end": "XISER",
+					"length": 5,
+					"maxSpeed": 150,
+					"twistingFactor": 0.1
 				},
 				{
 					"start": "XISER",
 					"end": "XIMOZ",
 					"length": 9,
-					"neededEquipments": [
-						"IT"
-					],
 					"maxSpeed": 140,
 					"twistingFactor": 0.16
 				},
@@ -339,9 +368,6 @@
 					"start": "XIMOZ",
 					"end": "XIMB",
 					"length": 12,
-					"neededEquipments": [
-						"IT"
-					],
 					"maxSpeed": 140,
 					"twistingFactor": 0.1
 				}
@@ -49227,8 +49253,18 @@
 				},
 				{
 					"start": "XIGA",
+					"end": "XIBA",
+					"length": 7,
+					"neededEquipments": [
+						"IT"
+					],
+					"maxSpeed": 160,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XIBA",
 					"end": "XIR",
-					"length": 26,
+					"length": 19,
 					"neededEquipments": [
 						"IT"
 					],
@@ -87970,6 +88006,189 @@
 					"start": "TWD",
 					"end": "TRHZ",
 					"length": 3
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"IT"
+			],
+			"objects": [
+				{
+					"start": "🇮🇹LI",
+					"end": "XILAMO",
+					"length": 19,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XILAMO",
+					"end": "XIGA",
+					"length": 31,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XILAMO",
+					"end": "XISCD",
+					"length": 21,
+					"maxSpeed": 125,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 1,
+			"neededEquipments": [
+				"IT"
+			],
+			"objects": [
+				{
+					"start": "XILAMO",
+					"end": "XIVAR",
+					"length": 22,
+					"maxSpeed": 70,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XIVAR",
+					"end": "XISARO",
+					"length": 29,
+					"maxSpeed": 90,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XISARO",
+					"end": "XISER",
+					"length": 15,
+					"maxSpeed": 100,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"IT"
+			],
+			"objects": [
+				{
+					"start": "XIMAT2",
+					"end": "XIMAT1",
+					"length": 3,
+					"maxSpeed": 105,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIMAT1",
+					"end": "XIFLP",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIFLP",
+					"end": "XIBA",
+					"length": 8,
+					"maxSpeed": 150,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIBA",
+					"end": "XISARO",
+					"length": 15,
+					"maxSpeed": 130,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XISARO",
+					"end": "XIMB",
+					"length": 21,
+					"maxSpeed": 130,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"IT"
+			],
+			"objects": [
+				{
+					"start": "XSME",
+					"end": "🇨🇭STAF",
+					"length": 3,
+					"neededEquipments": [
+						"CH"
+					],
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇨🇭STAF",
+					"end": "🇮🇹GAGO",
+					"length": 4,
+					"neededEquipments": [
+						"CH",
+						"IT"
+					],
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇮🇹GAGO",
+					"end": "XIPMBEV",
+					"length": 3,
+					"maxSpeed": 110,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIPC",
+					"end": "XIBIVI",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIBIVI",
+					"end": "XIPMBEV",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIPMBEV",
+					"end": "XIARC",
+					"length": 1,
+					"maxSpeed": 110,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIARC",
+					"end": "XIINOL",
+					"length": 3,
+					"maxSpeed": 110,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIINOL",
+					"end": "XIVAR",
+					"length": 3,
+					"maxSpeed": 110,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XIVAR",
+					"end": "XIGA",
+					"length": 18,
+					"maxSpeed": 110,
+					"twistingFactor": 0.1
 				}
 			]
 		}
