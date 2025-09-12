@@ -60613,6 +60613,58 @@
 			]
 		},
 		{
+			"name": "Ligne de Nexon à Brive-la-Gaillarde",
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇫🇷NNF",
+					"end": "🇫🇷MYZ",
+					"length": 8,
+					"maxSpeed": 110,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MYZ",
+					"end": "🇫🇷SYX",
+					"length": 12,
+					"maxSpeed": 60,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "🇫🇷OBT",
+					"end": "🇫🇷XUL",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷XUL",
+					"end": "🇫🇷WBW",
+					"length": 4,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷WBW",
+					"end": "🇫🇷VEZ",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷VEZ",
+					"end": "XFBLG",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.27
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 120,
@@ -75173,6 +75225,51 @@
 					"neededEquipments": [
 						"CH"
 					]
+				}
+			]
+		},
+		{
+			"name": "Ligne de Limoges-Bénédictins à Angoulême",
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇫🇷LIM",
+					"end": "🇫🇷ASV",
+					"length": 16,
+					"maxSpeed": 110,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇫🇷ASV",
+					"end": "🇫🇷SIV",
+					"length": 17,
+					"maxSpeed": 100,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇫🇷SIV",
+					"end": "🇫🇷XBV",
+					"length": 4,
+					"maxSpeed": 110,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷XBV",
+					"end": "🇫🇷SJU",
+					"length": 3,
+					"maxSpeed": 110,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷SJU",
+					"end": "🇫🇷O763521605",
+					"length": 7,
+					"maxSpeed": 110,
+					"twistingFactor": 0.17
 				}
 			]
 		},
