@@ -12501,8 +12501,8 @@
 				"Bring deine Fahrgäste pünktlich nach %2$s!",
 				"Auf geht's nach %2$s, deine Fahrgäste warten schon geduldig auf dich!"
 			],
-			"stations": [ "XFSTG", "XFHG", "OFSGH", "OFMZS", "OFGH", "OFRHV", "OFNBN" ],
-			"pathSuggestion": [ "XFSTG", "XFMUM", "XFVH", "XFHG", "OFSGH", "OFMZS", "OFGH", "OFRHV", "OFNBN" ],
+			"stations": [ "XFSTG", "OFBW", "XFHG", "OFSGH", "OFMZS", "OFGH", "OFRHV", "OFNBN" ],
+			"pathSuggestion": [ "XFSTG", "XFMUM", "XFVH", "OFBW", "XFHG", "OFSGH", "OFMZS", "OFGH", "OFRHV", "OFNBN" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -13621,6 +13621,70 @@
 			],
 			"stations": [ "TWD", "TMKL", "TU" ],
 			"pathSuggestion": [ "TWD", "TRHZ", "TMKL", "TU" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "TER von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den TER der Linie C37+ von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Auf geht's nach %2$s, deine Fahrgäste warten schon geduldig auf dich!"
+			],
+			"objects": [
+				{
+					"stations": [ "XFSTG", "OFBW", "XFHG", "OFSZ", "XFWBG" ],
+					"pathSuggestion": [ "XFSTG", "XFMUM", "XFVH", "OFBW", "XFHG", "OFSZ", "XFWBG" ]
+				},
+				{
+					"stations": [ "XFSTG", "OFBW", "XFHG", "OFWB", "OFHLS", "OFSZ", "OFHF", "OFRSZ", "XFWBG" ],
+					"pathSuggestion": [ "XFSTG", "XFMUM", "XFVH", "OFBW", "XFHG", "OFWB", "OFHLS", "OFSZ", "OFHF", "OFRSZ", "XFWBG" ]
+				},
+				{
+					"stations": [ "XFSTG", "OFBW", "XFHG", "OFWB", "OFHLS", "OFSZ", "OFHF", "OFRSZ", "XFWBG" ],
+					"pathSuggestion": [ "XFSTG", "XFMUM", "XFVH", "OFBW", "XFHG", "OFWB", "OFHLS", "OFSZ", "OFHF", "OFRSZ", "XFWBG" ],
+					"stopsEverywhere": true,
+					"descriptions": [
+						"Fahre den TER der Linie C37 von %s nach %s.",
+						"Bring deine Fahrgäste pünktlich nach %2$s!",
+						"Fahre den TER-Bummelzug von %s nach %s."
+					]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "TER von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den TER der Linie C35 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre den TER-Bummelzug von %s nach %s."
+			],
+			"stations": [ "XFSTG", "OFBW", "XFHG" ],
+			"pathSuggestion": [ "XFSTG", "XFMUM", "XFVH", "OFBW", "XFHG" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Strasbourg-Express von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre den grenzüberschreitenden Strasbourg-Express von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich nach %2$s!",
+				"Fahre den deutsch-französischen Ausflugszug von %s nach %s."
+			],
+			"stations": [ "RN", "RND", "RMKI", "REH", "RKG", "RLA", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG", "OFRSZ", "OFHF", "OFSZ", "OFHLS", "OFWB", "XFHG", "OFBW", "XFSTG" ],
+			"pathSuggestion": [ "RN", "RND", "RMKI", "REH", "RKG", "RLA", "RWND", "RSAI", "RSFL", "RKPW", "RSHF", "XFWBG", "OFRSZ", "OFHF", "OFSZ", "OFHLS", "OFWB", "XFHG", "OFBW", "XFVH", "XFMUM", "XFSTG" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
