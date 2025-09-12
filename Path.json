@@ -63952,6 +63952,7 @@
 		},
 		{
 			"electrified": true,
+			"name": "Schnellfahrstrecke Wendlingen - Ulm",
 			"group": 2,
 			"maxSpeed": 250,
 			"twistingFactor": 0.1,
@@ -63961,8 +63962,14 @@
 			"objects": [
 				{
 					"start": "TS",
+					"end": "TRHZ",
+					"name": "Schnellfahrstrecke Stuttgart - Wendlingen",
+					"length": 25
+				},
+				{
+					"start": "TRHZ",
 					"end": "TMKL",
-					"length": 58
+					"length": 32
 				},
 				{
 					"start": "TMKL",
@@ -66432,67 +66439,6 @@
 					"start": "🇪🇪O660788046",
 					"end": "🇪🇪O30402685",
 					"length": 4
-				}
-			]
-		},
-		{
-			"group": 0,
-			"objects": [
-				{
-					"start": "THB",
-					"end": "TRT",
-					"electrified": false,
-					"length": 21,
-					"maxSpeed": 90,
-					"twistingFactor": 0.3
-				},
-				{
-					"start": "TRT",
-					"end": "TT",
-					"electrified": false,
-					"length": 10,
-					"maxSpeed": 100,
-					"twistingFactor": 0.15
-				},
-				{
-					"start": "TT",
-					"end": "TRE",
-					"electrified": true,
-					"length": 14,
-					"twistingFactor": 0.25,
-					"maxSpeed": 120
-				},
-				{
-					"start": "TRE",
-					"end": "TME",
-					"electrified": true,
-					"length": 8,
-					"maxSpeed": 120,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "TME",
-					"end": "TNU",
-					"electrified": true,
-					"length": 13,
-					"maxSpeed": 120,
-					"twistingFactor": 0.28
-				},
-				{
-					"start": "TNU",
-					"end": "TWD",
-					"electrified": true,
-					"length": 5,
-					"maxSpeed": 120,
-					"twistingFactor": 0.23
-				},
-				{
-					"start": "TWD",
-					"end": "TP",
-					"electrified": true,
-					"length": 6,
-					"maxSpeed": 100,
-					"twistingFactor": 0.24
 				}
 			]
 		},
@@ -88069,6 +88015,318 @@
 					"start": "RRAB",
 					"end": "RRA",
 					"length": 1
+				}
+			]
+		},
+				{
+			"electrified": true,
+			"name": "Neckar-Alb-Bahn",
+			"group": 0,
+			"twistingFactor": 0.28,
+			"maxSpeed": 130,
+			"objects": [
+			    {
+					"start": "TP",
+					"end": "TWER",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TWER",
+					"end": "TWD",
+					"length": 4,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TWD",
+					"end": "TOBB",
+					"length": 3,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TOBB",
+					"end": "TNU",
+					"length": 3
+				},
+				{
+					"start": "TNU",
+					"end": "TBEM",
+					"length": 10,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TBEM",
+					"end": "TME",
+					"length": 4,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TME",
+					"end": "TRES",
+					"length": 5,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TRES",
+					"end": "TRE",
+					"length": 3,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TRE",
+					"end": "TREW",
+					"length": 1,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TREW",
+					"end": "TREB",
+					"length": 2,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TREB",
+					"end": "TWAN",
+					"length": 2,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TWAN",
+					"end": "TKI",
+					"length": 2,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TKI",
+					"end": "TTLU",
+					"length": 4,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TTLU",
+					"end": "TT",
+					"length": 3,
+					"maxSpeed": 120
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"name": "Obere Neckarbahn",
+			"group": 0,
+			"twistingFactor": 0.36,
+			"maxSpeed": 110,
+			"objects": [
+			    {
+					"start": "TT",
+					"end": "TKBI",
+					"length": 7,
+					"maxSpeed": 100,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "TKBI",
+					"end": "TRT",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "TRT",
+					"end": "TBN",
+					"length": 3,
+					"maxSpeed": 90
+				},
+				{
+					"start": "TBN",
+					"end": "TBIE",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TBIE",
+					"end": "TEY",
+					"length": 6
+				},
+				{
+					"start": "TEY",
+					"end": "TMUE",
+					"length": 5,
+					"maxSpeed": 90
+				},
+				{
+					"start": "TMUE",
+					"end": "THB",
+					"length": 3,
+					"maxSpeed": 90
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"name": "Teckbahn",
+			"group": 1,
+			"twistingFactor": 0.13,
+			"maxSpeed": 100,
+			"objects": [
+			    {
+					"start": "TWD",
+					"end": "TKTO",
+					"length": 4,
+					"electrified": true
+				},
+				{
+					"start": "TKTO",
+					"end": "TKT",
+					"length": 3,
+					"electrified": true
+				},
+				{
+					"start": "TKT",
+					"end": "TKTS",
+					"length": 1,
+					"maxSpeed": 50
+				},
+				{
+					"start": "TKTS",
+					"end": "TDT",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "TDT",
+					"end": "TOW",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "TOW",
+					"end": "TBRU",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "TBRU",
+					"end": "TUL",
+					"length": 1,
+					"maxSpeed": 50
+				},
+				{
+					"start": "TUL",
+					"end": "TOL",
+					"length": 1,
+					"maxSpeed": 50
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"name": "Tälesbahn",
+			"group": 1,
+			"twistingFactor": 0.24,
+			"maxSpeed": 80,
+			"objects": [
+			    {
+					"start": "TNU",
+					"end": "TNUV",
+					"length": 1,
+					"maxSpeed": 50
+				},
+				{
+					"start": "TNUV",
+					"end": "TNU R",
+					"length": 1,
+					"maxSpeed": 70
+				},
+				{
+					"start": "TNU R",
+					"end": "TFKH",
+					"length": 2,
+					"maxSpeed": 70
+				},
+				{
+					"start": "TFKH",
+					"end": "TFKHK",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "TFKHK",
+					"end": "TLSH",
+					"length": 2
+				},
+				{
+					"start": "TLSH",
+					"end": "TNEF",
+					"length": 2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Ermstalbahn",
+			"group": 1,
+			"twistingFactor": 0.19,
+			"maxSpeed": 80,
+			"objects": [
+			    {
+					"start": "TME",
+					"end": "TNHU",
+					"length": 2,
+					"maxSpeed": 60
+				},
+				{
+					"start": "TNHU",
+					"end": "TDTUL",
+					"length": 1
+				},
+				{
+					"start": "TDTUL",
+					"end": "TDTU",
+					"length": 1
+				},
+				{
+					"start": "TDTU",
+					"end": "TDTUF",
+					"length": 1
+				},
+				{
+					"start": "TDTUF",
+					"end": "TDTUG",
+					"length": 1
+				},
+				{
+					"start": "TDTUG",
+					"end": "TUCW",
+					"length": 2
+				},
+				{
+					"start": "TUCW",
+					"end": "TUCK",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "TUCK",
+					"end": "TUC",
+					"length": 1,
+					"maxSpeed": 60
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Güterzuganbindung",
+			"group": 0,
+			"twistingFactor": 0.34,
+			"maxSpeed": 100,
+			"objects": [
+			    {
+					"start": "TWD",
+					"end": "TRHZ",
+					"length": 3
 				}
 			]
 		}

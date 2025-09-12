@@ -4209,14 +4209,14 @@
 		},
 		{
 			"group": 1,
-			"name": "IRE 6 a %s nach %s",
+			"name": "RE 6a %s nach %s",
 			"service": 2,
 			"descriptions": [
-				"Der IRE 6 a muss von %s nach %s.",
+				"Der RE 6a muss von %s nach %s.",
 				"Fahre durchs Schwabenland von %s nach %s."
 			],
 			"stations": [ "TAU", "THT", "TMG", "TSIG", "TAE", "THCH", "TMS", "TT", "TRE", "TS" ],
-			"pathSuggestion": [ "TAU", "THT", "TMG", "TSIG", "TAE", "THCH", "TMS", "TT", "TRE", "TP", "TS" ],
+			"pathSuggestion": [ "TAU", "THT", "TMG", "TSIG", "TAE", "THCH", "TMS", "TT", "TRE", "TME", "TNU", "TWD", "TP", "TS" ],
 			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -5136,19 +5136,19 @@
 			"group": 1
 		},
 		{
-			"name": "IRE 6 von %s nach %s",
+			"name": "RE 6 von %s nach %s",
 			"service": 2,
 			"descriptions": [
-				"Bringe den Interregio-Express der Linie 6 von %s nach %s.",
-				"Bring die Fahrgäste in dem IRE 6 pünktlich nach %2$s.",
-				"Fahre den IRE störungsfrei nach %2$s."
+				"Bringe den Regionalexpress der Linie 6 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 6 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
 			],
-			"stations": [ "TS", "TRE", "TT" ],
+			"stations": [ "TS", "TNU", "TME", "TRE", "TT" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			],
 			"group": 1,
-			"pathSuggestion": [ "TS", "TP", "TRE", "TT" ]
+			"pathSuggestion": [ "TS", "TP", "TWD", "TNU", "TME", "TRE", "TT" ]
 		},
 		{
 			"name": "RE 4 von %s nach %s",
@@ -5859,11 +5859,11 @@
 				},
 				{
 					"stations": [ "FROF", "TRT" ],
-					"pathSuggestion": [ "FROF", "FB", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RH", "RBR", "TV", "TS", "TP", "TT", "TRT" ]
+					"pathSuggestion": [ "FROF", "FB", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RH", "RBR", "TV", "TS", "TP", "TWD", "TNU", "TME", "TT", "TRT" ]
 				},
 				{
 					"stations": [ "AROG", "TRT" ],
-					"pathSuggestion": [ "AROG", "HV", "HNBG", "HWUN", "HH", "HG", "HEBG", "FB", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RH", "RBR", "TV", "TS", "TP", "TT", "TRT" ]
+					"pathSuggestion": [ "AROG", "HV", "HNBG", "HWUN", "HH", "HG", "HEBG", "FB", "FFU", "FFD", "FH", "FF", "FD", "RMF", "RH", "RBR", "TV", "TS", "TP", "TWD", "TNU", "TME", "TT", "TRT" ]
 				},
 				{
 					"stations": [ "MFB", "WF" ],
@@ -12211,10 +12211,10 @@
 			],
 			"objects": [
 				{
-					"stations": [ "TT", "TRE", "TME", "TNU", "TWD", "TP", "TE", "TS", "TLU", "TBM", "TBE", "TWH", "TKM", "TLN", "TNO", "TH", "THST", "TN", "TNSN", "TBK", "TBF", "ROU", "RGUN", "RHAS", "RNEZ", "RNZ" ]
+					"stations": [ "TT", "TRE", "TME", "TBEM", "TNU", "TOBB", "TWD", "TP", "TE", "TS", "TLU", "TBM", "TBE", "TWH", "TKM", "TLN", "TNO", "TH", "THST", "TN", "TNSN", "TBK", "TBF", "ROU", "RGUN", "RHAS", "RNEZ", "RNZ" ]
 				},
 				{
-					"stations": [ "TT", "TRE", "TME", "TNU", "TWD", "TP", "TE", "TS", "TLU", "TBM", "TBE", "TWH", "TKM", "TLN", "TNO", "TH" ]
+					"stations": [ "TT", "TRE", "TME", "TBEM", "TNU", "TOBB", "TWD", "TP", "TE", "TS", "TLU", "TBM", "TBE", "TWH", "TKM", "TLN", "TNO", "TH" ]
 				}
 			],
 			"neededCapacity": [
@@ -13331,7 +13331,7 @@
 				"Bring deine Fahrgäste pünktlich auf der S1 nach %2$s!",
 				"Fahre im Auftrag der S-Bahn Stuttgart auf der Linie S1 von %s nach %s."
 			],
-			"stations": [ "THE", "TBO", "TSRO", "TSV", "TS", "TP", "TWD" ],
+			"stations": [ "THE", "TBO", "TSRO", "TSV", "TS", "TP", "TWD", "TKT" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -13559,6 +13559,91 @@
 				"Bring deine Fahrgäste pünktlich auf der Linie RB14b nach %2$s!"
 			],
 			"stations": [ "TET", "TETN", "THF", "THBH", "TBIT", "TSPF", "TDS", "TDSA", "TGRW", "TFS" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB64 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der RB64 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Teckbahn nach %2$s!",
+				"Da die S-Bahn Stuttgart kein Personal für die Strecke übrig hat, musst du einmal von %s nach %s fahren."
+			],
+			"stations": [ "TKT", "TKTS", "TDT", "TOW", "TBRU", "TUL", "TOL" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB65 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der RB65 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Tälesbahn nach %2$s!"
+			],
+			"stations": [ "TNU", "TNEF" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB63 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der RB63 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Linie RB63 nach %2$s!"
+			],
+			"stations": [ "TUC", "TME", "TRE", "TT" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "MEX18 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Metropolexpress-Linie 18 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Linie MEX18 nach %2$s!"
+			],
+			"stations": [ "TT", "TRE", "TME", "TNU", "TWD", "TP", "TE", "TS", "TLU", "TBM", "TBE", "TWH", "TKM", "TLN", "TNO", "TH", "THST", "TN", "TBF", "TUG", "THZ", "TND", "TSY", "TZU", "TML", "TRO", "TSE", "TAD", "TO" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE6b von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Linie RE6b von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Linie RE6b nach %2$s!"
+			],
+			"stations": [ "TS", "TRE", "TT", "TKBI", "TRT", "TBN", "TBIE", "TEY", "TMUE", "THB" ],
+			"pathSuggestion": [ "TS", "TP", "TWD", "TNU", "TME", "TRE", "TT", "TKBI", "TRT", "TBN", "TBIE", "TEY", "TMUE", "THB" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE200 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Linie RE200 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Linie RE200 nach %2$s!",
+				"Fahre auf der schnellsten RE-Linie Deutschlands!"
+			],
+			"stations": [ "TWD", "TMKL", "TU" ],
+			"pathSuggestion": [ "TWD", "TRHZ", "TMKL", "TU" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
