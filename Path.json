@@ -37017,6 +37017,137 @@
 			]
 		},
 		{
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": false,
+			"group": 1,
+			"name": "Ligne de Libourne au Buisson",
+			"objects": [
+				{
+					"start": "🇫🇷LIB",
+					"end": "🇫🇷SEI",
+					"length": 8,
+					"maxSpeed": 180,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷SEI",
+					"end": "🇫🇷O688835892",
+					"length": 9,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷O688835892",
+					"end": "🇫🇷LMH",
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷LMH",
+					"end": "🇫🇷VLN",
+					"length": 6,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷VLN",
+					"end": "🇫🇷XAB",
+					"length": 3,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷XAB",
+					"end": "🇫🇷SFY",
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷SFY",
+					"end": "🇫🇷GAO",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷GAO",
+					"end": "🇫🇷LZE",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇫🇷LZE",
+					"end": "🇫🇷BGC",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷BGC",
+					"end": "🇫🇷CZD",
+					"length": 17,
+					"maxSpeed": 90,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇫🇷CZD",
+					"end": "🇫🇷LLK",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷LLK",
+					"end": "🇫🇷MZJ",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MZJ",
+					"end": "🇫🇷TMA",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇫🇷TMA",
+					"end": "🇫🇷LBU",
+					"length": 7,
+					"maxSpeed": 105,
+					"twistingFactor": 0.32
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇫🇷SLQ",
+					"end": "🇫🇷O3096999781",
+					"length": 18,
+					"maxSpeed": 90,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇫🇷O3096999781",
+					"end": "🇫🇷SOC",
+					"length": 7,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": true,
 			"maxSpeed": 160,
