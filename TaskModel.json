@@ -13725,6 +13725,35 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "RE45 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Linie RE45 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Kraichgaubahn nach %2$s!",
+				"Fahre den Expresszug auf der Kraichgaubahn von %s nach %s."
+			],
+			"stations": [ "TH", "TLG", "TSWG", "TSHG", "TGEM", "REP", "RSFD", "RZA", "ROBE", "RGOE", "RBTM", "RBT", "RWSO", "RJL", "RK" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S4 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf der Stadtbahnlinie S4 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Hohelohe- und Kraichgaubahn nach %2$s!",
+				"Fahre einen Zug der Linie S4 von %s nach %s. Halte dabei an jeder Station."
+			],
+			"stations": [ "TOE", "TH", "TLG", "TSWG", "TSHG", "TGEM", "REP", "RSFD", "RZA", "ROBE", "RGOE", "RBTM", "RBT", "RWSO", "RJL", "RK" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
