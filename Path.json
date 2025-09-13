@@ -41620,29 +41620,6 @@
 			]
 		},
 		{
-			"electrified": false,
-			"group": 0,
-			"neededEquipments": [
-				"FR"
-			],
-			"objects": [
-				{
-					"start": "XFWBG",
-					"end": "XFHG",
-					"length": 33,
-					"maxSpeed": 100,
-					"twistingFactor": 0.2
-				},
-				{
-					"start": "XFHG",
-					"end": "XFVH",
-					"length": 24,
-					"maxSpeed": 160,
-					"twistingFactor": 0.26
-				}
-			]
-		},
-		{
 			"name": "Mannheim–Stuttgart",
 			"electrified": true,
 			"group": 2,
@@ -88368,6 +88345,100 @@
 					"start": "TWD",
 					"end": "TRHZ",
 					"length": 3
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne 33",
+			"group": 1,
+			"twistingFactor": 0.1,
+			"maxSpeed": 160,
+			"objects": [
+			    {
+					"start": "XFVH",
+					"end": "OFH",
+					"length": 7,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "OFH",
+					"end": "OFWH",
+					"length": 2
+				},
+				{
+					"start": "OFWH",
+					"end": "OFKHE",
+					"length": 3,
+					"twistingFactor": 0.0
+				},
+				{
+					"start": "OFKHE",
+					"end": "OFBW",
+					"length": 5,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "OFBW",
+					"end": "OFMAT",
+					"length": 3,
+					"twistingFactor": 0.0,
+					"maxSpeed": 120
+				},
+				{
+					"start": "OFMAT",
+					"end": "XFHG",
+					"length": 5,
+					"maxSpeed": 120
+				},
+				{
+					"start": "XFHG",
+					"end": "OFWB",
+					"length": 8,
+					"twistingFactor": 0.0,
+					"maxSpeed": 100
+				},
+				{
+					"start": "OFWB",
+					"end": "OFHLS",
+					"length": 4,
+					"twistingFactor": 0.2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "OFHLS",
+					"end": "OFSZ",
+					"length": 5,
+					"maxSpeed": 100
+				},
+				{
+					"start": "OFSZ",
+					"end": "OFHF",
+					"length": 4,
+					"maxSpeed": 100
+				},
+				{
+					"start": "OFHF",
+					"end": "🇫🇷HUS",
+					"length": 4,
+					"twistingFactor": 0.32,
+					"maxSpeed": 100
+				},
+				{
+					"start": "🇫🇷HUS",
+					"end": "OFRSZ",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "OFRSZ",
+					"end": "XFWBG",
+					"length": 5,
+					"twistingFactor": 0.15,
+					"maxSpeed": 100
 				}
 			]
 		}
