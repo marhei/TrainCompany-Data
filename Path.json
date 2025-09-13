@@ -2418,7 +2418,7 @@
 			"neededEquipments": [
 				"FR"
 			],
-			"name": "Ligne de Chartres à Bordeaux-Saint-Jean",
+			"name": "Ligne de Chartres à Bordeaux",
 			"electrified": false,
 			"objects": [
 				{
@@ -23034,37 +23034,6 @@
 					"end": "XFPGX",
 					"length": 15,
 					"maxSpeed": 160,
-					"twistingFactor": 0.39
-				}
-			]
-		},
-		{
-			"group": 0,
-			"neededEquipments": [
-				"FR"
-			],
-			"name": "Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean",
-			"electrified": true,
-			"objects": [
-				{
-					"start": "XFCOU",
-					"end": "🇫🇷LIB",
-					"length": 16,
-					"maxSpeed": 220,
-					"twistingFactor": 0.11
-				},
-				{
-					"start": "🇫🇷LIB",
-					"end": "🇫🇷VYR",
-					"length": 7,
-					"maxSpeed": 220,
-					"twistingFactor": 0.3
-				},
-				{
-					"start": "🇫🇷VYR",
-					"end": "XFBJ",
-					"length": 27,
-					"maxSpeed": 220,
 					"twistingFactor": 0.39
 				}
 			]
@@ -76649,6 +76618,27 @@
 			],
 			"group": 0,
 			"objects": [
+				{
+					"end": "XFBJ",
+					"start": "🇫🇷VYR",
+					"length": 27,
+					"maxSpeed": 220,
+					"twistingFactor": 0.39
+				},
+				{
+					"end": "🇫🇷VYR",
+					"start": "🇫🇷LIB",
+					"length": 7,
+					"maxSpeed": 220,
+					"twistingFactor": 0.3
+				},
+				{
+					"end": "🇫🇷LIB",
+					"start": "XFCOU",
+					"length": 16,
+					"maxSpeed": 220,
+					"twistingFactor": 0.11
+				},
 				{
 					"start": "XFCOU",
 					"end": "🇫🇷EGE",
