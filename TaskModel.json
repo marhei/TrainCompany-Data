@@ -13634,26 +13634,8 @@
 				"Bring deine Fahrgäste pünktlich nach %2$s!",
 				"Auf geht's nach %2$s, deine Fahrgäste warten schon geduldig auf dich!"
 			],
-			"objects": [
-				{
-					"stations": [ "XFSTG", "OFBW", "XFHG", "OFSZ", "XFWBG" ],
-					"pathSuggestion": [ "XFSTG", "XFMUM", "XFVH", "OFBW", "XFHG", "OFSZ", "XFWBG" ]
-				},
-				{
-					"stations": [ "XFSTG", "OFBW", "XFHG", "OFWB", "OFHLS", "OFSZ", "OFHF", "OFRSZ", "XFWBG" ],
-					"pathSuggestion": [ "XFSTG", "XFMUM", "XFVH", "OFBW", "XFHG", "OFWB", "OFHLS", "OFSZ", "OFHF", "OFRSZ", "XFWBG" ]
-				},
-				{
-					"stations": [ "XFSTG", "OFBW", "XFHG", "OFWB", "OFHLS", "OFSZ", "OFHF", "OFRSZ", "XFWBG" ],
-					"pathSuggestion": [ "XFSTG", "XFMUM", "XFVH", "OFBW", "XFHG", "OFWB", "OFHLS", "OFSZ", "OFHF", "OFRSZ", "XFWBG" ],
-					"stopsEverywhere": true,
-					"descriptions": [
-						"Fahre den TER der Linie C37 von %s nach %s.",
-						"Bring deine Fahrgäste pünktlich nach %2$s!",
-						"Fahre den TER-Bummelzug von %s nach %s."
-					]
-				}
-			],
+			"stations": [ "XFSTG", "XFVH", "XFHG", "XFWBG" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -13667,8 +13649,7 @@
 				"Bring deine Fahrgäste pünktlich nach %2$s!",
 				"Fahre den TER-Bummelzug von %s nach %s."
 			],
-			"stations": [ "XFSTG", "OFBW", "XFHG" ],
-			"pathSuggestion": [ "XFSTG", "XFMUM", "XFVH", "OFBW", "XFHG" ],
+			"stations": [ "XFSTG", "XFVH", "XFHG" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
