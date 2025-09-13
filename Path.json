@@ -8003,6 +8003,23 @@
 			]
 		},
 		{
+			"name": "Raccordement de La Couronne",
+			"electrified": true,
+			"group": 2,
+			"length": 6,
+			"maxSpeed": 320,
+			"twistingFactor": 0.13,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷O11799452820",
+					"end": "🇫🇷O3539176369"
+				}
+			]
+		},
+		{
 			"group": 0,
 			"electrified": false,
 			"twistingFactor": 0.3,
@@ -21679,6 +21696,11 @@
 				},
 				{
 					"start": "🇫🇷LXC",
+					"end": "🇫🇷O3539176369",
+					"length": 270
+				},
+				{
+					"start": "🇫🇷O3539176369",
 					"end": "🇫🇷GGT",
 					"length": 270
 				}
