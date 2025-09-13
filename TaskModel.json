@@ -487,7 +487,7 @@
 				},
 				{
 					"stations": [ "XFPO", "🇫🇷TO", "XFBJ", "XFTM" ],
-					"pathSuggestion": [ "XFPO", "🇫🇷CSP", "🇫🇷TO", "XFBJ", "XFMBN", "XFTM" ]
+					"pathSuggestion": [ "XFPO", "🇫🇷CSP", "🇫🇷TO", "XFBJ", "🇫🇷AGN", "XFMBN", "XFTM" ]
 				},
 				{
 					"stations": [ "XFHV", "🇫🇷RRD", "XFPO", "XFLPD", "XFAVV", "XFM" ],
@@ -495,7 +495,7 @@
 				},
 				{
 					"stations": [ "XFHE", "XFBR", "XFBY", "XFDX", "XFBJ", "🇫🇷TO", "XFPO" ],
-					"pathSuggestion": [ "XFHE", "XFBR", "XFBY", "XFDX", "🇫🇷FAT", "XFBJ", "🇫🇷TO", "🇫🇷CSP", "XFPO" ]
+					"pathSuggestion": [ "XFHE", "XFBR", "XFBY", "XFDX", "XFMCX", "🇫🇷FAT", "XFBJ", "🇫🇷TO", "🇫🇷CSP", "XFPO" ]
 				}
 			],
 			"neededCapacity": [
@@ -601,18 +601,12 @@
 			"service": 2,
 			"objects": [
 				{
-					"stations": [ "XFD", "🇫🇷BEA", "XFCGY", "XFCS", "🇫🇷TOS", "XFMAL", "XFBV", "XFLPD" ]
-				},
-				{
 					"stations": [ "XFMZV", "XFPS", "XFN" ],
 					"pathSuggestion": [ "XFMZV", "XFPS", "XFFD", "XFN" ]
 				},
 				{
 					"stations": [ "XFN", "XFLU", "🇫🇷IA", "XFRD", "XFSV", "XFSTG" ],
 					"pathSuggestion": [ "XFN", "XFLU", "🇫🇷IA", "XFRD", "XFSV", "XFMH", "XFVH", "XFSTG" ]
-				},
-				{
-					"stations": [ "XFLPD", "🇫🇷VRU", "XFCZ", "🇫🇷SSS", "XFBA", "XSGE" ]
 				},
 				{
 					"pathSuggestion": [ "XFN", "XFFD", "XFTU", "XFNE", "XFCU", "XFIS", "XFD" ],
@@ -623,6 +617,18 @@
 				},
 				{
 					"stations": [ "XFMZV", "XFTHV", "XLB", "XLL" ]
+				},
+				{
+					"stations": [ "XFSTG", "XFSL", "XFC", "XFMV", "XSB" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "XFFB", "XFBE", "🇫🇷BDC", "XFMZV" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "XFSM", "XFMH", "XFVH", "XFSTG" ],
+					"stopsEverywhere": true
 				}
 			]
 		},
@@ -1789,7 +1795,7 @@
 				},
 				{
 					"stations": [ "XFPO", "XFBJ", "XFHE" ],
-					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷TO", "XFBJ", "🇫🇷FAT", "XFDX", "XFBY", "XFHE" ]
+					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷TO", "XFBJ", "🇫🇷FAT", "XFMCX", "XFDX", "XFBY", "XFHE" ]
 				},
 				{
 					"name": "Fléche d'Or",
@@ -2437,11 +2443,11 @@
 				},
 				{
 					"stations": [ "XFPO", "XFOL", "🇫🇷FAT", "XFDX", "🇫🇷SVT", "XFBY", "🇫🇷ORT", "XFPU", "XFL", "🇫🇷TBS" ],
-					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷TO", "XFBJ", "🇫🇷FAT", "XFDX", "🇫🇷SVT", "XFBY", "🇫🇷PUO", "🇫🇷ORT", "XFPU", "XFL", "🇫🇷TBS" ]
+					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷TO", "XFBJ", "🇫🇷FAT", "XFMCX", "XFDX", "🇫🇷SVT", "XFBY", "🇫🇷PUO", "🇫🇷ORT", "XFPU", "XFL", "🇫🇷TBS" ]
 				},
 				{
 					"stations": [ "XFPO", "🇫🇷SDM", "🇫🇷BXB", "🇫🇷LQB", "🇫🇷AUC" ],
-					"pathSuggestion": [  "XFPO", "XFOL", "🇫🇷VER", "🇫🇷O4638559821", "🇫🇷LIM", "XFBLG", "🇫🇷SDM", "🇫🇷BXB", "🇫🇷LQB", "🇫🇷O1817739379", "🇫🇷AUC" ]
+					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷VER", "🇫🇷O4638559821", "🇫🇷LIM", "XFBLG", "🇫🇷SDM", "🇫🇷BXB", "🇫🇷LQB", "🇫🇷O1817739379", "🇫🇷AUC" ]
 				},
 				{
 					"stations": [ "XFPO", "🇫🇷SDM", "🇫🇷RAP", "🇫🇷GRT", "🇫🇷AER", "🇫🇷FIG", "🇫🇷CDC", "🇫🇷VZI", "🇫🇷AVB", "🇫🇷CRZ", "🇫🇷SIH", "🇫🇷RDZ", "🇫🇷NCE", "🇫🇷CMX", "🇫🇷ALM", "🇫🇷ALB" ],
@@ -5984,6 +5990,14 @@
 				{
 					"stations": [ "🇪🇸54413", "🇫🇷MGA" ],
 					"pathSuggestion": [ "🇪🇸54413", "XEAS", "🇪🇸50500", "XEMAT", "XFPE", "XFNB", "XFBZ", "🇫🇷MGA" ]
+				},
+				{
+					"stations": [ "🇫🇷VVB", "🇫🇷VRW", "🇫🇷VPD" ],
+					"pathSuggestion": [ "🇫🇷VVB", "XFPE", "XFNB", "XFCN", "XFTM", "🇫🇷SST", "🇫🇷TES", "🇫🇷VRW", "🇫🇷CDC", "🇫🇷FIG", "🇫🇷SDM", "XFBLG", "🇫🇷NEC", "🇫🇷LBU", "🇫🇷SOC", "🇫🇷VPD" ]
+				},
+				{
+					"stations": [ "XFSSL", "🇫🇷SST" ],
+					"pathSuggestion": [ "XFSSL", "🇫🇷O4638559821", "🇫🇷LIM", "XFBLG", "XFMBN", "XFTM", "🇫🇷SST" ]
 				}
 			],
 			"neededCapacity": [
@@ -8807,9 +8821,6 @@
 					"stations": [ "XFAVV", "🇫🇷BDR", "XFOR", "🇫🇷BLN", "🇫🇷PRL", "XFMN", "XFVCV", "🇫🇷TAI", "XFVI", "XFLPD" ]
 				},
 				{
-					"stations": [ "XFLPD", "XFAE", "XFCZ", "XFMOM", "XFMOD" ]
-				},
-				{
 					"stations": [ "XFPO", "XFMEL", "🇫🇷SES", "🇫🇷SIF", "🇫🇷TNN", "XFNUR", "🇫🇷PAI", "XFD" ]
 				},
 				{
@@ -8831,16 +8842,7 @@
 					"stations": [ "XFCM", "XFBD", "XFLE", "XFTU", "XFFD", "XFN" ]
 				},
 				{
-					"stations": [ "XFFB", "XFBE", "🇫🇷BDC", "XFMZV" ]
-				},
-				{
-					"stations": [ "XFSM", "XFMH", "XFVH", "XFSTG" ]
-				},
-				{
 					"stations": [ "XFMZV", "XFPS", "XFO", "XFLE", "XFBD" ]
-				},
-				{
-					"stations": [ "XFSTG", "XFSL", "XFC", "XFMV", "XSB" ]
 				},
 				{
 					"stations": [ "XFMV", "RML" ]
@@ -8852,12 +8854,6 @@
 					"stations": [ "XFMI", "XFMAG", "XFM" ]
 				},
 				{
-					"stations": [ "XFCLE", "XFSGF", "XFLPD" ]
-				},
-				{
-					"stations": [ "XFCLE", "XFSGF", "XFSZE", "🇫🇷NVS" ]
-				},
-				{
 					"stations": [ "XFOL", "🇫🇷VER", "🇫🇷NVS" ]
 				},
 				{
@@ -8865,6 +8861,48 @@
 				}
 			],
 			"stopsEverywhere": true
+		},
+		{
+			"name": "TER von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe diesen TER von %s nach %s.",
+				"Fahre pünktlich durch Auvergne-Rhône-Alpes."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XFCLE", "🇫🇷RIO", "🇫🇷VHY", "XFROA", "🇫🇷TAR", "XFLPD" ],
+					"stopsEverywhere": false
+				},
+				{
+					"stations": [ "XFLPD", "🇫🇷VRU", "XFCZ", "🇫🇷SSS", "XFBA", "XSGE" ],
+					"stopsEverywhere": false
+				},
+				{
+					"stations": [ "XFD", "🇫🇷BEA", "XFCGY", "XFCS", "🇫🇷TOS", "XFMAL", "XFBV", "XFLPD" ],
+					"stopsEverywhere": false
+				},
+				{
+					"stations": [ "XFCLE", "XFSGF", "XFSZE", "🇫🇷NVS" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "XFCLE", "🇫🇷THI" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "XFLPD", "XFAE", "XFCZ", "XFMOM", "XFMOD" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "XFLPD", "🇫🇷VEI", "🇫🇷BRG", "🇫🇷LTP", "🇫🇷VOR", "XFG" ],
+					"stopsEverywhere": false
+				}
+			]
 		},
 		{
 			"name": "TER Lio von %s nach %s",
@@ -8942,13 +8980,13 @@
 			"group": 1,
 			"objects": [
 				{
-					"stations": [ "XFHE", "XFBY", "XFDX", "🇫🇷FAT", "XFBJ" ]
+					"stations": [ "XFHE", "XFBY", "XFDX", "XFMCX", "🇫🇷FAT", "XFBJ" ]
 				},
 				{
 					"stations": [ "XFBJ", "🇫🇷AGN" ]
 				},
 				{
-					"stations": [ "XFBJ", "🇫🇷LIB", "XFCOU", "XFPGX", "🇫🇷LIM" ]
+					"stations": [ "XFBJ", "🇫🇷LIB", "XFCOU", "XFPGX", "🇫🇷NNF", "🇫🇷LIM" ]
 				},
 				{
 					"stations": [ "🇫🇷ARC", "🇫🇷FAT", "XFBJ", "🇫🇷LIB", "XFCOU" ]
@@ -8960,7 +8998,7 @@
 					"stations": [ "XFBY", "🇫🇷PUO", "XFPU", "🇫🇷TBS" ]
 				},
 				{
-					"stations": [ "XFBJ", "🇫🇷FAT", "XFDX", "🇫🇷PUO", "XFPU", "🇫🇷TBS" ]
+					"stations": [ "XFBJ", "🇫🇷FAT", "XFMCX", "XFDX", "🇫🇷PUO", "XFPU", "🇫🇷TBS" ]
 				},
 				{
 					"stations": [ "XFPU", "🇫🇷67277" ]
@@ -8972,10 +9010,28 @@
 					"stations": [ "XFBJ", "🇫🇷PDG" ]
 				},
 				{
-					"stations": [ "XFPGX", "XFBLG", "🇫🇷USL" ]
+					"stations": [ "XFPGX", "🇫🇷NEC", "XFBLG", "🇫🇷USL" ]
 				},
 				{
 					"stations": [ "🇫🇷LIM", "🇫🇷O4638559821", "🇫🇷MYC", "🇫🇷USL" ]
+				},
+				{
+					"stations": [ "XFBJ", "🇫🇷FAT", "XFMCX", "🇫🇷MMR" ]
+				},
+				{
+					"stations": [ "XFBJ", "🇫🇷LIB", "🇫🇷LBU", "🇫🇷SOC", "🇫🇷SLQ" ]
+				},
+				{
+					"stations": [ "🇫🇷AGN", "🇫🇷MLS", "🇫🇷SOC", "🇫🇷LBU", "🇫🇷NEC", "XFPGX" ]
+				},
+				{
+					"stations": [ "XFBLG", "🇫🇷OBT" ]
+				},
+				{
+					"stations": [ "🇫🇷SYX", "🇫🇷NNF", "🇫🇷LIM" ]
+				},
+				{
+					"stations": [ "🇫🇷O763521605", "🇫🇷LIM" ]
 				}
 			],
 			"stopsEverywhere": true
