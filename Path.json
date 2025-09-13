@@ -2414,6 +2414,148 @@
 			]
 		},
 		{
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne de Chartres à Bordeaux-Saint-Jean",
+			"electrified": false,
+			"objects": [
+				{
+					"start": "XFBJ",
+					"end": "🇫🇷GGT",
+					"electrified": true,
+					"length": 30,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷GGT",
+					"end": "🇫🇷SMS",
+					"length": 9,
+					"maxSpeed": 110,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷SMS",
+					"end": "🇫🇷MMM",
+					"length": 16,
+					"maxSpeed": 110,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷MMM",
+					"end": "🇫🇷JOH",
+					"length": 20,
+					"maxSpeed": 110,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷JOH",
+					"end": "🇫🇷PNP",
+					"length": 19,
+					"maxSpeed": 110,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇫🇷PNP",
+					"end": "XFSAS",
+					"length": 24,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne de Nantes-Orléans à Saintes",
+			"objects": [
+				{
+					"start": "XFSAS",
+					"end": "🇫🇷RCT",
+					"electrified": false,
+					"length": 43,
+					"maxSpeed": 120,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇫🇷RCT",
+					"end": "🇫🇷O2688097707",
+					"electrified": false,
+					"length": 19,
+					"maxSpeed": 120,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷O2688097707",
+					"end": "🇫🇷O2985684668",
+					"electrified": false,
+					"length": 9,
+					"maxSpeed": 110,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷O2985684668",
+					"end": "🇫🇷LRK",
+					"electrified": false,
+					"length": 65,
+					"maxSpeed": 130,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇫🇷LRK",
+					"end": "XFLRY",
+					"electrified": false,
+					"length": 36,
+					"maxSpeed": 130,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XFLRY",
+					"end": "🇫🇷BVD",
+					"electrified": true,
+					"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷BVD",
+					"end": "🇫🇷LHB",
+					"electrified": true,
+					"length": 14,
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷LHB",
+					"end": "🇫🇷O2215107487",
+					"electrified": true,
+					"length": 9,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷O2215107487",
+					"end": "🇫🇷CLI",
+					"electrified": true,
+					"length": 12,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷CLI",
+					"end": "XFNA",
+					"electrified": true,
+					"length": 25,
+					"maxSpeed": 140,
+					"twistingFactor": 0.17
+				}
+			]
+		},
+		{
 			"name": "Moselstrecke",
 			"twistingFactor": 0.2,
 			"maxSpeed": 120,
@@ -21532,8 +21674,13 @@
 				},
 				{
 					"start": "🇫🇷TO",
-					"end": "XFBJ",
-					"length": 300
+					"end": "🇫🇷LXC",
+					"length": 270
+				},
+				{
+					"start": "🇫🇷LXC",
+					"end": "🇫🇷GGT",
+					"length": 270
 				}
 			]
 		},
@@ -76444,6 +76591,226 @@
 					"start": "🇫🇷STO",
 					"end": "XFFE",
 					"length": 43
+				}
+			]
+		},
+		{
+			"name": "Ligne Paris à Bordeaux",
+			"electrified": true,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 0,
+			"objects": [
+				{
+					"start": "XFCOU",
+					"end": "🇫🇷EGE",
+					"length": 9,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷EGE",
+					"end": "🇫🇷SAI",
+					"length": 7,
+					"maxSpeed": 220,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷SAI",
+					"end": "🇫🇷CIC",
+					"length": 13,
+					"maxSpeed": 220,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷CIC",
+					"end": "🇫🇷MMA",
+					"length": 16,
+					"maxSpeed": 220,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷MMA",
+					"end": "🇫🇷O11799452820",
+					"length": 25,
+					"maxSpeed": 220,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇫🇷O11799452820",
+					"end": "XFANG",
+					"length": 7,
+					"maxSpeed": 190,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XFANG",
+					"end": "🇫🇷LXC",
+					"length": 28,
+					"maxSpeed": 200,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷LXC",
+					"end": "🇫🇷RUG",
+					"length": 17,
+					"maxSpeed": 200,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷RUG",
+					"end": "XFSSV",
+					"length": 13,
+					"maxSpeed": 220,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XFSSV",
+					"end": "🇫🇷EPI",
+					"length": 8,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷EPI",
+					"end": "🇫🇷ACV",
+					"length": 13,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷ACV",
+					"end": "🇫🇷VIV",
+					"length": 9,
+					"maxSpeed": 220,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷VIV",
+					"end": "🇫🇷ITL",
+					"length": 9,
+					"maxSpeed": 190,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇫🇷ITL",
+					"end": "🇫🇷LGJ",
+					"length": 4,
+					"maxSpeed": 190,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇫🇷LGJ",
+					"end": "XFPT",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XFPT",
+					"end": "🇫🇷CHN",
+					"length": 7,
+					"maxSpeed": 200,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷CHN",
+					"end": "XFFU",
+					"length": 1,
+					"maxSpeed": 200,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XFFU",
+					"end": "🇫🇷JAU",
+					"length": 1,
+					"maxSpeed": 200,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷JAU",
+					"end": "🇫🇷DIF",
+					"length": 3,
+					"maxSpeed": 200,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇫🇷DIF",
+					"end": "XFLTR",
+					"length": 3,
+					"maxSpeed": 200,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XFLTR",
+					"end": "🇫🇷NIB",
+					"length": 5,
+					"maxSpeed": 200,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷NIB",
+					"end": "🇫🇷NPY",
+					"length": 3,
+					"maxSpeed": 200,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷NPY",
+					"end": "XFCRT",
+					"length": 4,
+					"maxSpeed": 220,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XFCRT",
+					"end": "🇫🇷DGE",
+					"length": 14,
+					"maxSpeed": 220,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇫🇷DGE",
+					"end": "XFPP",
+					"length": 8,
+					"maxSpeed": 220,
+					"twistingFactor": 0.04
+				},
+				{
+					"start": "XFPP",
+					"end": "🇫🇷MAX",
+					"length": 4,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MAX",
+					"end": "XFSYT",
+					"length": 5,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XFSYT",
+					"end": "XFVIP",
+					"length": 10,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XFVIP",
+					"end": "🇫🇷MSD",
+					"length": 8,
+					"maxSpeed": 220,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MSD",
+					"end": "🇫🇷TO",
+					"length": 13,
+					"maxSpeed": 220,
+					"twistingFactor": 0.17
 				}
 			]
 		},
