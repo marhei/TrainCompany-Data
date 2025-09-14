@@ -52645,6 +52645,30 @@
 			]
 		},
 		{
+			"name": "Ligne de Saintes à Royan",
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "XFSAS",
+					"end": "🇫🇷SJW",
+					"length": 27,
+					"maxSpeed": 120,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷SJW",
+					"end": "🇫🇷ROY",
+					"length": 8,
+					"maxSpeed": 100,
+					"twistingFactor": 0.18
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"name": "Northeast Corridor",
 			"neededEquipments": [
