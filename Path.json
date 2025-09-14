@@ -2459,8 +2459,15 @@
 				},
 				{
 					"start": "🇫🇷PNP",
+					"end": "🇫🇷BIL",
+					"length": 15,
+					"maxSpeed": 110,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷BIL",
 					"end": "XFSAS",
-					"length": 24,
+					"length": 10,
 					"maxSpeed": 110,
 					"twistingFactor": 0.3
 				}
@@ -84250,6 +84257,44 @@
 					"twistingFactor": 0.1,
 					"maxSpeed": 100,
 					"length": 15
+				}
+			]
+		},
+		{
+			"name": "Ligne de Beillant à Angoulême",
+			"electrified": false,
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇫🇷BIL",
+					"end": "🇫🇷COG",
+					"length": 17,
+					"maxSpeed": 140,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷COG",
+					"end": "🇫🇷JCB",
+					"length": 13,
+					"maxSpeed": 140,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷JCB",
+					"end": "🇫🇷CSC",
+					"length": 13,
+					"maxSpeed": 140,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷CSC",
+					"end": "XFANG",
+					"length": 22,
+					"maxSpeed": 110,
+					"twistingFactor": 0.36
 				}
 			]
 		},
