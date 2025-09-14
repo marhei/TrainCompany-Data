@@ -40900,6 +40900,96 @@
 			]
 		},
 		{
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne de Mignaloux - Nouaillé à Bersac",
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "XFPT",
+					"end": "🇫🇷MGX",
+					"length": 10,
+					"maxSpeed": 140,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇫🇷MGX",
+					"end": "🇫🇷LLX",
+					"length": 29,
+					"maxSpeed": 100,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷LLX",
+					"end": "🇫🇷MMN",
+					"length": 12,
+					"maxSpeed": 90,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷MMN",
+					"end": "🇫🇷LHX",
+					"length": 11,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷LHX",
+					"end": "🇫🇷LDT",
+					"length": 17,
+					"maxSpeed": 100,
+					"twistingFactor": 0.16
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne du Dorat à Limoges-Bénédictins",
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "🇫🇷LDT",
+					"end": "🇫🇷BLL",
+					"length": 12,
+					"maxSpeed": 100,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "🇫🇷BLL",
+					"end": "🇫🇷NNA",
+					"length": 17,
+					"maxSpeed": 100,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇫🇷NNA",
+					"end": "🇫🇷PYJ",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇫🇷PYJ",
+					"end": "🇫🇷NEW",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇫🇷NEW",
+					"end": "🇫🇷LIM",
+					"length": 15,
+					"maxSpeed": 100,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"twistingFactor": 0.2,
