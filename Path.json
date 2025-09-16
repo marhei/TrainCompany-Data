@@ -89052,6 +89052,197 @@
 					"maxSpeed": 100
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"name": "Kraichgaubahn",
+			"group": 0,
+			"twistingFactor": 0.26,
+			"maxSpeed": 100,
+			"objects": [
+			    {
+					"start": "TH",
+					"end": "TBCS",
+					"length": 1,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TBCS",
+					"end": "TBCB",
+					"length": 1
+				},
+				{
+					"start": "TBCB",
+					"end": "TBCW",
+					"length": 1
+				},
+				{
+					"start": "TBCW",
+					"end": "TLGO",
+					"length": 3
+				},
+				{
+					"start": "TLGO",
+					"end": "TLG",
+					"length": 1
+				},
+				{
+					"start": "TLG",
+					"end": "TLGM",
+					"length": 1
+				},
+				{
+					"start": "TLGM",
+					"end": "TLGW",
+					"length": 1
+				},
+				{
+					"start": "TLGW",
+					"end": "TSWO",
+					"length": 3
+				},
+				{
+					"start": "TSWO",
+					"end": "TSWG",
+					"length": 1
+				},
+				{
+					"start": "TSWG",
+					"end": "TSWW",
+					"length": 1
+				},
+				{
+					"start": "TSWW",
+					"end": "TSHG",
+					"length": 2,
+					"maxSpeed": 90
+				},
+				{
+					"start": "TSHG",
+					"end": "TGEM",
+					"length": 3,
+					"maxSpeed": 90
+				},
+				{
+					"start": "TGEM",
+					"end": "TGEW",
+					"length": 1
+				},
+				{
+					"start": "TGEW",
+					"end": "REP",
+					"length": 6,
+					"maxSpeed": 90
+				},
+				{
+					"start": "REP",
+					"end": "REPW",
+					"length": 1
+				},
+				{
+					"start": "REPW",
+					"end": "RSFD",
+					"length": 5
+				},
+				{
+					"start": "RSFD",
+					"end": "RZA",
+					"length": 3
+				},
+				{
+					"start": "RZA",
+					"end": "RFL",
+					"length": 4
+				},
+				{
+					"start": "RFL",
+					"end": "ROBE",
+					"length": 1,
+					"maxSpeed": 90
+				},
+				{
+					"start": "ROBE",
+					"end": "RBBC",
+					"length": 3
+				},
+				{
+					"start": "RBBC",
+					"end": "RGOI",
+					"length": 3
+				},
+				{
+					"start": "RGOI",
+					"end": "RGOE",
+					"length": 2
+				},
+				{
+					"start": "RGOE",
+					"end": "RBTK",
+					"length": 1
+				},
+				{
+					"start": "RBTK",
+					"end": "RBTS",
+					"length": 1
+				},
+				{
+					"start": "RBTS",
+					"end": "RBTW",
+					"length": 1
+				},
+				{
+					"start": "RBTW",
+					"end": "RBTM",
+					"length": 1
+				},
+				{
+					"start": "RBTM",
+					"end": "RBT",
+					"length": 1,
+					"maxSpeed": 80
+				},
+				{
+					"start": "RBT",
+					"end": "RBTR",
+					"length": 2
+				},
+				{
+					"start": "RBTR",
+					"end": "RDBG",
+					"length": 2
+				},
+				{
+					"start": "RDBG",
+					"end": "RWSO",
+					"length": 3
+				},
+				{
+					"start": "RWSO",
+					"end": "RWSN",
+					"length": 1,
+					"maxSpeed": 80
+				},
+				{
+					"start": "RWSN",
+					"end": "RJL",
+					"length": 3
+				},
+				{
+					"start": "RJL",
+					"end": "RJLW",
+					"length": 1
+				},
+				{
+					"start": "RJLW",
+					"end": "RHUM",
+					"length": 4
+				},
+				{
+					"start": "RHUM",
+					"end": "RK",
+					"length": 10
+				}
+			]
 		}
 	]
 }
