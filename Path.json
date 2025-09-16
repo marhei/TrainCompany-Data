@@ -6052,6 +6052,93 @@
 			]
 		},
 		{
+			"name": "Ligne du Monastier à La Bastide-Saint-Laurent-les-Bains",
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷LMR",
+					"end": "🇫🇷SQL",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇫🇷SQL",
+					"end": "🇫🇷CNA",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇫🇷CNA",
+					"end": "🇫🇷BWQ",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷BWQ",
+					"end": "🇫🇷BJC",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇫🇷BJC",
+					"end": "🇫🇷O521515549",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "🇫🇷O521515549",
+					"end": "🇫🇷MDE",
+					"length": 7,
+					"maxSpeed": 60,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "🇫🇷MDE",
+					"end": "🇫🇷BCT",
+					"length": 13,
+					"maxSpeed": 40,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷BCT",
+					"end": "🇫🇷AEN",
+					"length": 3,
+					"maxSpeed": 50,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇫🇷AEN",
+					"end": "🇫🇷BVZ",
+					"length": 11,
+					"maxSpeed": 70,
+					"twistingFactor": 0.47
+				},
+				{
+					"start": "🇫🇷BVZ",
+					"end": "🇫🇷CJD",
+					"length": 9,
+					"maxSpeed": 70,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇫🇷CJD",
+					"end": "XFLBS",
+					"length": 8,
+					"maxSpeed": 80,
+					"twistingFactor": 0.36
+				}
+			]
+		},
+		{
 			"group": 2,
 			"name": "Hannover-Würzburg",
 			"twistingFactor": 0.05,
@@ -12672,14 +12759,6 @@
 					"length": 40,
 					"twistingFactor": 0.26,
 					"maxSpeed": 140
-				},
-				{
-					"name": "Ligne de Saint-Germain-des-Fossés à Nîmes-Courbessac",
-					"start": "🇫🇷RIO",
-					"end": "XFCLE",
-					"length": 13,
-					"twistingFactor": 0.2,
-					"maxSpeed": 160
 				}
 			]
 		},
@@ -24284,6 +24363,147 @@
 			"start": "HELZ",
 			"end": "HHI",
 			"twistingFactor": 0.25
+		},
+		{
+			"neededEquipments": [
+				"FR"
+			],
+			"group": 1,
+			"name": "Ligne de Saint-Germain-des-Fossés à Nîmes",
+			"electrified": false,
+			"objects": [
+				{
+					"start": "XFARV",
+					"end": "XFBRD",
+					"group": 0,
+					"length": 10,
+					"maxSpeed": 130,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XFBRD",
+					"end": "🇫🇷SGA",
+					"group": 0,
+					"length": 23,
+					"maxSpeed": 130,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷SGA",
+					"end": "XFLNC",
+					"group": 0,
+					"length": 7,
+					"maxSpeed": 95,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XFLNC",
+					"end": "XFMNR",
+					"length": 23,
+					"maxSpeed": 95,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "XFMNR",
+					"end": "🇫🇷AES",
+					"length": 9,
+					"maxSpeed": 75,
+					"twistingFactor": 0.55
+				},
+				{
+					"start": "🇫🇷AES",
+					"end": "XFCPX",
+					"length": 13,
+					"maxSpeed": 40,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "XFCPX",
+					"end": "XFLGG",
+					"length": 19,
+					"maxSpeed": 70,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "XFLGG",
+					"end": "🇫🇷O9955065545",
+					"length": 12,
+					"maxSpeed": 80,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇫🇷O9955065545",
+					"end": "XFLBS",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XFLBS",
+					"end": "XFVLF",
+					"length": 20,
+					"maxSpeed": 80,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XFVLF",
+					"end": "XFGNC",
+					"length": 12,
+					"maxSpeed": 75,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "XFGNC",
+					"end": "🇫🇷CBO",
+					"length": 7,
+					"maxSpeed": 75,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇫🇷CBO",
+					"end": "🇫🇷SCZ",
+					"length": 5,
+					"maxSpeed": 55,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇷SCZ",
+					"end": "🇫🇷LLE",
+					"length": 4,
+					"maxSpeed": 55,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷LLE",
+					"end": "🇫🇷O425322098",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇫🇷O425322098",
+					"end": "XFALE",
+					"length": 13,
+					"maxSpeed": 60,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "XFALE",
+					"end": "🇫🇷XGE",
+					"group": 0,
+					"length": 24,
+					"maxSpeed": 120,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷XGE",
+					"end": "🇫🇷NMS",
+					"group": 0,
+					"length": 23,
+					"maxSpeed": 120,
+					"twistingFactor": 0.38
+				}
+			]
 		},
 		{
 			"name": "Bohusbanan",
@@ -73445,7 +73665,7 @@
 				"FR"
 			],
 			"electrified": false,
-			"name": "Ligne de Saint-Germain-des-Fossés à Nîmes-Courbessac",
+			"name": "Ligne de Saint-Germain-des-Fossés à Nîmes",
 			"objects": [
 				{
 					"start": "XFARV",
@@ -73516,6 +73736,14 @@
 					"length": 3,
 					"maxSpeed": 140,
 					"twistingFactor": 0.29
+				},
+				{
+					"start": "XFCLE",
+					"end": "🇫🇷RIO",
+					"length": 13,
+					"twistingFactor": 0.2,
+					"maxSpeed": 160,
+					"electrified": true
 				}
 			]
 		},
