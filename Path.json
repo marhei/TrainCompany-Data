@@ -81462,6 +81462,58 @@
 			]
 		},
 		{
+			"neededEquipments": [
+				"FR"
+			],
+			"name": "Ligne d'Eygurande - Merlines à Clermont-Ferrand",
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "XFCLE",
+					"end": "🇫🇷O8309270726",
+					"length": 1,
+					"maxSpeed": 65,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷O8309270726",
+					"end": "🇫🇷RYA",
+					"length": 3,
+					"maxSpeed": 65,
+					"twistingFactor": 0.42
+				},
+				{
+					"start": "🇫🇷RYA",
+					"end": "🇫🇷DUR",
+					"length": 3,
+					"maxSpeed": 65,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇫🇷DUR",
+					"end": "🇫🇷VOL",
+					"length": 11,
+					"maxSpeed": 70,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "🇫🇷VOL",
+					"end": "🇫🇷PGB",
+					"length": 18,
+					"maxSpeed": 80,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇫🇷PGB",
+					"end": "🇫🇷O10007530521",
+					"length": 36,
+					"maxSpeed": 75,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"neededEquipments": [
 				"FR"
