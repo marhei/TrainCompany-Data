@@ -73726,13 +73726,47 @@
 					"length": 3,
 					"maxSpeed": 140,
 					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
+			"name": "Ligne de Saint-Germain-des-Fossés à Nîmes",
+			"maxSpeed": 160,
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "XFSGF",
+					"end": "XFGAN",
+					"length": 23,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "XFGAN",
+					"end": "🇫🇷AGE",
+					"length": 10,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷AGE",
+					"end": "🇫🇷PMT",
+					"length": 9,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇫🇷PMT",
+					"end": "🇫🇷RIO",
+					"length": 6,
+					"twistingFactor": 0.15
 				},
 				{
 					"start": "XFCLE",
 					"end": "🇫🇷RIO",
 					"length": 13,
 					"twistingFactor": 0.2,
-					"maxSpeed": 160,
 					"electrified": true
 				}
 			]
