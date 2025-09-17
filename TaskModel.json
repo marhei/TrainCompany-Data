@@ -797,7 +797,7 @@
 				},
 				{
 					"stations": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷VHY", "XFCLE" ],
-					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷GUA", "XFSZE", "XFSGF", "🇫🇷VHY", "XFCLE" ]
+					"pathSuggestion": [ "XFPO", "XFOL", "🇫🇷VER", "XFBGS", "🇫🇷GUA", "XFSZE", "XFSGF", "🇫🇷VHY", "🇫🇷RIO", "XFCLE" ]
 				},
 				{
 					"stations": [ "XFCLE", "🇫🇷RIO", "🇫🇷VHY", "🇫🇷NVS", "🇫🇷VER", "XFOL", "XFPO" ],
@@ -8809,16 +8809,7 @@
 					"stations": [ "XFPO", "🇫🇷VCR", "🇫🇷CHH", "XFCOB", "XFLM" ]
 				},
 				{
-					"stations": [ "XFLM", "🇫🇷SAB", "XFASL", "XFNA" ]
-				},
-				{
-					"stations": [ "XFNA", "🇫🇷SNY", "🇫🇷SNA" ]
-				},
-				{
 					"stations": [ "XFLM", "🇫🇷CIE", "🇫🇷SLG", "🇫🇷EVN", "🇫🇷NEA", "XFLAL", "🇫🇷PTT", "XFVTE", "🇫🇷CTG", "XFR" ]
-				},
-				{
-					"stations": [ "XFNA", "XFASL", "XFSUD", "🇫🇷TO" ]
 				},
 				{
 					"stations": [ "🇫🇷TO", "XFOL", "XFPO" ]
@@ -8875,6 +8866,30 @@
 			"name": "TER von %s nach %s",
 			"service": 2,
 			"descriptions": [
+				"Bringe diesen TER für Aléop von %s nach %s.",
+				"Fahre pünktlich durch Pays de la Loire."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"objects": [
+				{
+					"stations": [ "XFLM", "🇫🇷SAB", "XFASL", "XFNA" ]
+				},
+				{
+					"stations": [ "XFNA", "🇫🇷SNY", "🇫🇷SNA" ]
+				},
+				{
+					"stations": [ "XFNA", "XFASL", "XFSUD", "🇫🇷TO" ]
+				}
+			],
+			"stopsEverywhere": true
+		},
+		{
+			"name": "TER von %s nach %s",
+			"service": 2,
+			"descriptions": [
 				"Bringe diesen TER von %s nach %s.",
 				"Fahre pünktlich durch Auvergne-Rhône-Alpes."
 			],
@@ -8910,6 +8925,10 @@
 				{
 					"stations": [ "XFLPD", "🇫🇷VEI", "🇫🇷BRG", "🇫🇷LTP", "🇫🇷VOR", "XFG" ],
 					"stopsEverywhere": false
+				},
+				{
+					"stations": [ "XFCLE", "🇫🇷VOL" ],
+					"stopsEverywhere": true
 				}
 			]
 		},
@@ -8980,7 +8999,7 @@
 					"stations": [ "🇫🇷MDE", "XFLBS", "🇫🇷NMS" ]
 				},
 				{
-					"stations": [ "🇫🇷MDE", "🇫🇷LMR", "🇫🇷MVJ"]
+					"stations": [ "🇫🇷MDE", "🇫🇷LMR", "🇫🇷MVJ" ]
 				}
 			],
 			"stopsEverywhere": true
