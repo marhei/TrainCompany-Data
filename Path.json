@@ -38014,22 +38014,7 @@
 			]
 		},
 		{
-			"electrified": true,
-			"group": 0,
-			"neededEquipments": [
-				"FR"
-			],
-			"twistingFactor": 0.2,
-			"objects": [
-				{
-					"start": "XFARL",
-					"end": "🇫🇷NPG",
-					"length": 28,
-					"maxSpeed": 160
-				}
-			]
-		},
-		{
+			"name": "Ligne de Tarascon à Sète",
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 160,
@@ -38038,6 +38023,12 @@
 				"FR"
 			],
 			"objects": [
+				{
+					"twistingFactor": 0.2,
+					"start": "XFARL",
+					"end": "🇫🇷NPG",
+					"length": 28
+				},
 				{
 					"start": "🇫🇷NPG",
 					"end": "🇫🇷NMS",
@@ -38062,10 +38053,23 @@
 					"start": "XFMO",
 					"end": "🇫🇷VLM",
 					"length": 7
+				},
+				{
+					"twistingFactor": 0.17,
+					"start": "🇫🇷VLM",
+					"end": "🇫🇷FRN",
+					"length": 13
+				},
+				{
+					"twistingFactor": 0.17,
+					"start": "🇫🇷FRN",
+					"end": "XFSE",
+					"length": 6
 				}
 			]
 		},
 		{
+			"name": "Ligne de Bordeaux à Sète",
 			"electrified": true,
 			"group": 0,
 			"maxSpeed": 160,
@@ -38075,41 +38079,26 @@
 			],
 			"objects": [
 				{
-					"start": "🇫🇷VLM",
-					"end": "🇫🇷FRN",
-					"length": 13
-				},
-				{
-					"start": "🇫🇷FRN",
-					"end": "XFSE",
-					"length": 6
-				},
-				{
-					"name": "Ligne de Bordeaux à Sète",
 					"start": "XFSE",
 					"end": "🇫🇷78129",
 					"length": 17
 				},
 				{
-					"name": "Ligne de Bordeaux à Sète",
 					"start": "🇫🇷78129",
 					"end": "🇫🇷VA",
 					"length": 9
 				},
 				{
-					"name": "Ligne de Bordeaux à Sète",
 					"start": "🇫🇷VA",
 					"end": "XFBZ",
 					"length": 17
 				},
 				{
-					"name": "Ligne de Bordeaux à Sète",
 					"start": "XFBZ",
 					"end": "🇫🇷CBS",
 					"length": 7
 				},
 				{
-					"name": "Ligne de Bordeaux à Sète",
 					"start": "🇫🇷CBS",
 					"end": "XFNB",
 					"length": 18
@@ -38126,7 +38115,6 @@
 				"FR"
 			],
 			"objects": [
-				{
 				{
 					"start": "XFNB",
 					"end": "🇫🇷PLN",
