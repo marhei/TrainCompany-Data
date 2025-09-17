@@ -84013,6 +84013,74 @@
 			]
 		},
 		{
+			"name": "Ligne des Sables-d'Olonne à Tours",
+			"group": 1,
+			"neededEquipments": [
+				"FR"
+			],
+			"maxSpeed": 100,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "🇫🇷LSO",
+					"end": "🇫🇷OSM",
+					"length": 5,
+					"twistingFactor": 0.01,
+					"electrified": true,
+					"group": 0,
+					"maxSpeed": 110
+				},
+				{
+					"start": "🇫🇷OSM",
+					"end": "XFLEH",
+					"length": 10,
+					"twistingFactor": 0.12,
+					"electrified": true,
+					"group": 0,
+					"maxSpeed": 110
+				},
+				{
+					"start": "XFLEH",
+					"end": "XFLRY",
+					"length": 19,
+					"twistingFactor": 0.13,
+					"electrified": true,
+					"group": 0,
+					"maxSpeed": 110
+				},
+				{
+					"start": "XFLRY",
+					"end": "🇫🇷CTO",
+					"length": 34,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷CTO",
+					"end": "🇫🇷PZK",
+					"length": 22,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇫🇷PZK",
+					"end": "🇫🇷CEZ",
+					"length": 14,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇫🇷CEZ",
+					"end": "🇫🇷BRS",
+					"length": 14,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷BRS",
+					"end": "🇫🇷THQ",
+					"length": 29,
+					"twistingFactor": 0.19
+				}
+			]
+		},
+		{
 			"name": "Timișoara - Arad",
 			"group": 0,
 			"maxSpeed": 70,
