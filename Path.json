@@ -2469,6 +2469,99 @@
 			]
 		},
 		{
+			"name": "Ligne de Chartres à Bordeaux-Saint-Jean",
+			"neededEquipments": [
+				"FR"
+			],
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "XFSAS",
+					"end": "🇫🇷SBZ",
+					"length": 14,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇫🇷SBZ",
+					"end": "🇫🇷SJA",
+					"length": 10,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇫🇷SJA",
+					"end": "🇫🇷LLY",
+					"length": 12,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇫🇷LLY",
+					"end": "🇫🇷VVK",
+					"length": 6,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "🇫🇷VVK",
+					"end": "🇫🇷PIH",
+					"length": 6,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇫🇷PIH",
+					"end": "🇫🇷BVK",
+					"length": 3,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "🇫🇷BVK",
+					"end": "🇫🇷MRJ",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷MRJ",
+					"end": "🇫🇷FOW",
+					"length": 4,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷FOW",
+					"end": "🇫🇷NRT",
+					"length": 10,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇫🇷NRT",
+					"end": "🇫🇷48717",
+					"length": 44,
+					"maxSpeed": 40,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "🇫🇷48717",
+					"end": "🇫🇷THQ",
+					"length": 45,
+					"maxSpeed": 60,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "🇫🇷THQ",
+					"end": "XFMBE",
+					"electrified": true,
+					"length": 17,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "XFMBE",
+					"end": "XFSUD",
+					"electrified": true,
+					"length": 21,
+					"twistingFactor": 0.35
+				}
+			]
+		},
+		{
 			"group": 0,
 			"neededEquipments": [
 				"FR"
