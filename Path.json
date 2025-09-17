@@ -2469,7 +2469,7 @@
 			]
 		},
 		{
-			"name": "Ligne de Chartres à Bordeaux-Saint-Jean",
+			"name": "Ligne de Chartres à Bordeaux",
 			"neededEquipments": [
 				"FR"
 			],
@@ -11477,22 +11477,6 @@
 					"end": "🇫🇷BDC",
 					"length": 9,
 					"maxSpeed": 150
-				}
-			]
-		},
-		{
-			"electrified": true,
-			"group": 0,
-			"neededEquipments": [
-				"FR"
-			],
-			"twistingFactor": 0.2,
-			"objects": [
-				{
-					"start": "XFARL",
-					"end": "🇫🇷NPG",
-					"length": 28,
-					"maxSpeed": 160
 				}
 			]
 		},
@@ -32243,42 +32227,6 @@
 		},
 		{
 			"electrified": true,
-			"group": 0,
-			"maxSpeed": 160,
-			"twistingFactor": 0.22,
-			"neededEquipments": [
-				"FR"
-			],
-			"objects": [
-				{
-					"start": "🇫🇷NPG",
-					"end": "🇫🇷NMS",
-					"length": 15
-				},
-				{
-					"start": "🇫🇷NMS",
-					"end": "🇫🇷VZC",
-					"length": 16
-				},
-				{
-					"start": "🇫🇷VZC",
-					"end": "XFLUN",
-					"length": 10
-				},
-				{
-					"start": "XFLUN",
-					"end": "XFMO",
-					"length": 23
-				},
-				{
-					"start": "XFMO",
-					"end": "🇫🇷VLM",
-					"length": 7
-				}
-			]
-		},
-		{
-			"electrified": true,
 			"group": 2,
 			"maxSpeed": 300,
 			"twistingFactor": 0.18,
@@ -38068,6 +38016,58 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"neededEquipments": [
+				"FR"
+			],
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XFARL",
+					"end": "🇫🇷NPG",
+					"length": 28,
+					"maxSpeed": 160
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.22,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
+				{
+					"start": "🇫🇷NPG",
+					"end": "🇫🇷NMS",
+					"length": 15
+				},
+				{
+					"start": "🇫🇷NMS",
+					"end": "🇫🇷VZC",
+					"length": 16
+				},
+				{
+					"start": "🇫🇷VZC",
+					"end": "XFLUN",
+					"length": 10
+				},
+				{
+					"start": "XFLUN",
+					"end": "XFMO",
+					"length": 23
+				},
+				{
+					"start": "XFMO",
+					"end": "🇫🇷VLM",
+					"length": 7
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"maxSpeed": 160,
 			"twistingFactor": 0.17,
 			"neededEquipments": [
@@ -38113,9 +38113,21 @@
 					"start": "🇫🇷CBS",
 					"end": "XFNB",
 					"length": 18
-				},
+				}
+			]
+		},
+		{
+			"name": "Ligne de Narbonne à Port-Bou",
+			"electrified": true,
+			"group": 0,
+			"maxSpeed": 160,
+			"twistingFactor": 0.17,
+			"neededEquipments": [
+				"FR"
+			],
+			"objects": [
 				{
-					"name": "Ligne de Narbonne à Port-Bou",
+				{
 					"start": "XFNB",
 					"end": "🇫🇷PLN",
 					"length": 21,
@@ -38123,14 +38135,12 @@
 					"twistingFactor": 0.2
 				},
 				{
-					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "🇫🇷PLN",
 					"end": "🇫🇷78108",
 					"length": 10,
 					"maxSpeed": 150
 				},
 				{
-					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "🇫🇷78108",
 					"end": "🇫🇷78415",
 					"length": 14,
@@ -38138,14 +38148,12 @@
 					"twistingFactor": 0.2
 				},
 				{
-					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "🇫🇷78415",
 					"end": "XFRV",
 					"length": 9,
 					"maxSpeed": 150
 				},
 				{
-					"name": "Ligne de Narbonne à Port-Bou",
 					"start": "XFRV",
 					"end": "XFPE",
 					"length": 8,
