@@ -12475,7 +12475,7 @@
 				"Bring deine Fahrgäste pünktlich nach %2$s!",
 				"Fahre auf der Hohenlohebahn von %s nach %s."
 			],
-			"stations": [ "TH", "TOE", "TNN", "TWG", "TSHL", "TSHT", "TEI", "TC" ],
+			"stations": [ "TH", "TWR", "TWLB", "TOE", "TNN", "TWG", "TWHF", "TSHL", "TSHT", "TEI", "TC" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -12489,7 +12489,7 @@
 				"Bring deine Fahrgäste pünktlich nach %2$s!",
 				"Fahre auf der Hohenlohebahn von %s nach %s."
 			],
-			"stations": [ "TH", "TOE", "TNN", "TWG", "TSHL", "TSHT", "TEI", "TC" ],
+			"stations": [ "TH", "TWR", "TOE", "TNN", "TWG", "TWHF", "TSHL", "TSHT" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -13780,8 +13780,62 @@
 				"Bring deine Fahrgäste pünktlich auf der Hohelohe- und Kraichgaubahn nach %2$s!",
 				"Fahre einen Zug der Linie S4 von %s nach %s. Halte dabei an jeder Station."
 			],
-			"stations": [ "TOE", "TH", "TLG", "TSWG", "TSHG", "TGEM", "REP", "RSFD", "RZA", "ROBE", "RGOE", "RBTM", "RBT", "RWSO", "RJL", "RK" ],
+			"stations": [ "TCP", "TH", "TLG", "TSWG", "TSHG", "TGEM", "REP", "RSFD", "RZA", "ROBE", "RGOE", "RBTM", "RBT", "RWSO", "RJL", "RK" ],
 			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Sonderzug-RE45 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre einen auf die Hohenlohebahn durchgebundenen Zug der Linie RE45 von %s nach %s.",
+				"Bring einen Zusatzzug für die Besucher der Veranstaltung Rebenglühen in Bretzfeld nach %2$s!"
+			],
+			"stations": [ "TOE", "TBZ", "TWLB", "TWR", "TH", "TLG", "TSWG", "TSHG", "TGEM", "REP", "RSFD", "RZA", "ROBE", "RGOE", "RBTM", "RBT", "RWSO", "RJL", "RK" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Sonderzug zum Rebenglühen von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre einen Sonderzug für die Besucher der Veranstaltung Rebenglühen in Bretzfeld von %s nach %s.",
+				"Fahre eine Zusatzleistung für eine Veranstaltung auf der Hohenlohebahn von %s nach %s."
+			],
+			"stations": [ "TOE", "TBZ", "TWLB", "TWR", "TH", "TNO", "TLN", "TBM", "TLU", "TKH" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB18 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre die Einzelfahrt der Linie RB18 auf der Hohenlohebahn von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der frühen Verstärkerfahrt nach %2$s!",
+				"Fahre eine Einzelleistung der Linie RB18 von %s nach %s. Du hälst nur an sehr wenigen Stationen."
+			],
+			"stations": [ "TH", "TWR", "TOE", "TCP" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "MEX18 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre die Einzelfahrt der Linie MEX18 auf der Hohenlohebahn und auch darüber hinaus von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der frühen Verstärkerfahrt nach %2$s!",
+				"Fahre eine Einzelleistung der Linie MEX18 von %s nach %s."
+			],
+			"stations": [ "TCP", "TOE", "TBZ", "TWLB", "TWR", "TH", "TNO", "TLN", "TKM", "TWH", "TBE", "TBM", "TLU", "TS", "TE", "TP", "TWD", "TNU", "TME", "TRE", "TT" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
