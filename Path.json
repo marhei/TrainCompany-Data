@@ -65903,36 +65903,132 @@
 			"group": 0,
 			"electrified": true,
 			"twistingFactor": 0.2,
+			"maxSpeed": 140,
 			"objects": [
 				{
 					"start": "TH",
+					"end": "TTPS",
+					"length": 4,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TTPS",
+					"end": "TWRW",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TWRW",
+					"end": "TWR",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TWR",
+					"end": "TELI",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TELI",
+					"end": "TELL",
+					"length": 1,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TELL",
+					"end": "TSUE",
+					"length": 2,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TSUE",
+					"end": "TSUS",
+					"length": 1,
+					"maxSpeed": 130
+				},
+				{
+					"start": "TSUS",
+					"end": "TWLB",
+					"length": 1,
+					"maxSpeed": 130
+				},
+				{
+					"start": "TWLB",
+					"end": "TAF",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TAF",
+					"end": "TESU",
+					"length": 2,
+					"maxSpeed": 110
+				},
+				{
+					"start": "TESU",
+					"end": "TWID",
+					"length": 1,
+					"maxSpeed": 120
+				},
+				{
+					"start": "TWID",
+					"end": "TSEP",
+					"length": 2
+				},
+				{
+					"start": "TSEP",
+					"end": "TBZ",
+					"length": 1
+				},
+				{
+					"start": "TBZ",
+					"end": "TBIF",
+					"length": 2
+				},
+				{
+					"start": "TBIF",
+					"end": "TOEW",
+					"length": 3
+				},
+				{
+					"start": "TOEW",
 					"end": "TOE",
-					"length": 26,
-					"maxSpeed": 130,
-					"twistingFactor": 0.3
+					"length": 1
 				},
 				{
 					"start": "TOE",
+					"end": "TCP",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "TCP",
 					"end": "TNN",
-					"length": 6,
+					"length": 5,
 					"maxSpeed": 100,
-					"twistingFactor": 0.3,
 					"electrified": false
 				},
 				{
 					"start": "TNN",
 					"end": "TWG",
-					"length": 5,
+					"length": 6,
 					"maxSpeed": 120,
 					"twistingFactor": 0.25,
 					"electrified": false
 				},
 				{
 					"start": "TWG",
+					"end": "TWHF",
+					"length": 10,
+					"maxSpeed": 120,
+					"electrified": false
+				},
+				{
+					"start": "TWHF",
 					"end": "TSHL",
-					"length": 14,
-					"maxSpeed": 110,
-					"twistingFactor": 0.32,
+					"length": 5,
+					"maxSpeed": 80,
 					"electrified": false
 				},
 				{
@@ -65947,14 +66043,12 @@
 					"start": "TSHT",
 					"end": "TEI",
 					"length": 17,
-					"maxSpeed": 140,
 					"twistingFactor": 0.3
 				},
 				{
 					"start": "TEI",
 					"end": "TC",
-					"length": 10,
-					"maxSpeed": 140
+					"length": 10
 				}
 			]
 		},
