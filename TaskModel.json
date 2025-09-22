@@ -1783,6 +1783,23 @@
 			]
 		},
 		{
+			"group": 0,
+			"name": "Med-Express von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Bringe den Güterzug pünktlich von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XFPE", "KK" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 18 },
+				{ "name": "trailers", "value": 18 }
+			]
+		},
+		{
 			"name": "R45 von %s nach %s",
 			"descriptions": [
 				"Ahoi, ihr Landratten! Die AIDAnova liegt im wunderschönen Hafen von Flåm. Das Partyvolk hat Landgang und kann es kaum erwarten mit der Flåmsbana, die vielleicht schönste norwegische Eisenbahnlinie, zu fahren.",
