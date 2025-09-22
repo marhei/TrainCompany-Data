@@ -1651,6 +1651,138 @@
 			"pathSuggestion": [ "🇵🇹TUN", "🇵🇹MAT", "🇵🇹PER", "🇵🇹SCS", "🇵🇹AOD", "🇵🇹FUN", "🇵🇹ESA", "🇵🇹GRA", "🇵🇹POCJUN", "🇵🇹PNO", "🇵🇹PEA", "🇵🇹CIN", "🇵🇹FOG", "🇵🇹FOM", "🇵🇹COR", "🇵🇹PRG", "🇵🇹CDA", "🇵🇹SRI", "🇵🇹ETC", "🇵🇹RAR", "🇵🇹MVA", "🇵🇹BPR", "XXLO" ]
 		},
 		{
+			"name": "Schwerer Containerzug von %s nach %s",
+			"descriptions": [
+				"Befördere die Waren pünktlich durch die iberische Halbinsel.",
+				"Fahre den wichtigen Containerzug vom/zum Atlantik nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 65 }
+			],
+			"group": 0,
+			"service": 10,
+			"objects": [
+				{
+					"stations": [ "XEIR", "🇵🇹PCA" ]
+				},
+				{
+					"stations": [ "XEIR", "XXLO" ]
+				},
+				{
+					"stations": [ "XEIR", "XEMAT" ]
+				}
+			]
+		},
+		{
+			"name": "Containerzug von %s nach %s",
+			"descriptions": [
+				"Fahre diesen Containerzug entlang des Atlantik-Korridors."
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 44 }
+			],
+			"group": 0,
+			"service": 11,
+			"objects": [
+				{
+					"stations": [ "XFSTG", "🇫🇷SNA" ]
+				},
+				{
+					"stations": [ "XFSTG", "🇫🇷TO", "XEIR" ]
+				},
+				{
+					"stations": [ "XFSTG", "XFHV" ]
+				},
+				{
+					"stations": [ "RM", "🇫🇷SNA" ]
+				},
+				{
+					"stations": [ "RM", "XFPO", "XEIR" ]
+				},
+				{
+					"stations": [ "RM", "XFHV" ]
+				},
+				{
+					"stations": [ "XFMZV", "XFBJ" ]
+				},
+				{
+					"stations": [ "XFMZV", "🇫🇷O2985684668" ]
+				}
+			]
+		},
+		{
+			"name": "Containerzug von %s nach %s",
+			"descriptions": [
+				"Fahre diesen Containerzug entlang des Mittelmeerkorridors nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 40 }
+			],
+			"group": 0,
+			"service": 11,
+			"objects": [
+				{
+					"stations": [ "XEB", "XMBK" ]
+				},
+				{
+					"stations": [ "XFM", "XIMB" ]
+				},
+				{
+					"stations": [ "XFTM", "XIVP" ]
+				},
+				{
+					"stations": [ "XFLPD", "XIVNS" ]
+				},
+				{
+					"stations": [ "XFPE", "XFLPD", "XRZ" ]
+				}
+			]
+		},
+		{
+			"group": 0,
+			"name": "Autozug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre diesen Autozug von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "🇫🇷DOI", "XFFE" ]
+				},
+				{
+					"stations": [ "🇫🇷DOI", "XFDK" ]
+				},
+				{
+					"stations": [ "XFR", "🇫🇷SNA" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "cars", "value": 150 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Kesselzug von %1$s",
+			"service": 11,
+			"descriptions": [
+				"Die Kraftstoffe der Raffinerie müssen von der Küste nach %2$s."
+			],
+			"objects": [
+				{
+					"stations": [ "XFDGS" ],
+					"neededCapacity": [
+						{ "name": "oil", "value": 760 }
+					]
+				},
+				{
+					"stations": [ "XFHV" ],
+					"neededCapacity": [
+						{ "name": "oil", "value": 920 }
+					]
+				}
+			]
+		},
+		{
 			"name": "R45 von %s nach %s",
 			"descriptions": [
 				"Ahoi, ihr Landratten! Die AIDAnova liegt im wunderschönen Hafen von Flåm. Das Partyvolk hat Landgang und kann es kaum erwarten mit der Flåmsbana, die vielleicht schönste norwegische Eisenbahnlinie, zu fahren.",
