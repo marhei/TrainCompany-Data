@@ -17929,44 +17929,46 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 90,
-			"twistingFactor": 0.26,
 			"name": "Save-Korridor",
+			"neededEquipments": [
+				"SI"
+			],
 			"objects": [
 				{
 					"start": "XZL",
 					"end": "XZZM",
 					"length": 64,
-					"neededEquipments": [
-						"SI"
-					],
+					"maxSpeed": 90,
 					"twistingFactor": 0.3
 				},
 				{
 					"start": "XZZM",
 					"end": "XZSN",
 					"length": 16,
-					"neededEquipments": [
-						"SI"
-					],
-					"maxSpeed": 80
+					"maxSpeed": 80,
+					"twistingFactor": 0.26
 				},
 				{
 					"start": "XZSN",
 					"end": "XZD",
 					"length": 32,
-					"neededEquipments": [
-						"SI"
-					],
-					"maxSpeed": 100
-				},
+					"maxSpeed": 100,
+					"twistingFactor": 0.26
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "Save-Korridor",
+			"neededEquipments": [
+				"HR"
+			],
+			"objects": [
 				{
 					"start": "XZD",
 					"end": "XRSM",
 					"length": 9,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
 				},
@@ -17974,9 +17976,6 @@
 					"start": "XRSM",
 					"end": "XRZP",
 					"length": 6,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
 				},
@@ -17984,9 +17983,6 @@
 					"start": "XRZP",
 					"end": "XRZ",
 					"length": 17,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 120,
 					"twistingFactor": 0.13
 				},
@@ -17994,9 +17990,6 @@
 					"start": "XRZ",
 					"end": "XRDS",
 					"length": 20,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 140,
 					"twistingFactor": 0.13
 				},
@@ -18004,9 +17997,6 @@
 					"start": "XRDS",
 					"end": "XRIG",
 					"length": 18,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 60,
 					"twistingFactor": 0.2
 				},
@@ -18014,9 +18004,6 @@
 					"start": "XRIG",
 					"end": "XRPP",
 					"length": 25,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 60,
 					"twistingFactor": 0.2
 				},
@@ -18024,9 +18011,6 @@
 					"start": "XRPP",
 					"end": "XRBJ",
 					"length": 25,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 70,
 					"twistingFactor": 0.2
 				},
@@ -18034,9 +18018,6 @@
 					"start": "XRBJ",
 					"end": "XRNV",
 					"length": 18,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 80,
 					"twistingFactor": 0.2
 				},
@@ -18044,9 +18025,6 @@
 					"start": "XRNV",
 					"end": "XRNG",
 					"length": 34,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 160,
 					"twistingFactor": 0.16
 				},
@@ -18054,9 +18032,6 @@
 					"start": "XRNG",
 					"end": "XRNK",
 					"length": 21,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
 				},
@@ -18064,9 +18039,6 @@
 					"start": "XRNK",
 					"end": "XRSL",
 					"length": 30,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 110,
 					"twistingFactor": 0.13
 				},
@@ -18074,9 +18046,6 @@
 					"start": "XRSL",
 					"end": "XRSV",
 					"length": 32,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
 				},
@@ -18084,9 +18053,6 @@
 					"start": "XRSV",
 					"end": "XRVI",
 					"length": 32,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 140,
 					"twistingFactor": 0.12
 				},
@@ -18094,19 +18060,23 @@
 					"start": "XRVI",
 					"end": "XRT",
 					"length": 32,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 160,
 					"twistingFactor": 0.1
-				},
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "Save-Korridor",
+			"neededEquipments": [
+				"RS"
+			],
+			"objects": [
 				{
 					"start": "XRT",
 					"end": "XJSI",
 					"length": 7,
-					"neededEquipments": [
-						"RS"
-					],
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
 				},
@@ -18114,9 +18084,6 @@
 					"start": "XJSI",
 					"end": "XJSM",
 					"length": 35,
-					"neededEquipments": [
-						"RS"
-					],
 					"maxSpeed": 80,
 					"twistingFactor": 0.1
 				},
@@ -18124,9 +18091,6 @@
 					"start": "XJSM",
 					"end": "XJRU",
 					"length": 16,
-					"neededEquipments": [
-						"RS"
-					],
 					"maxSpeed": 80,
 					"twistingFactor": 0.05
 				},
@@ -18134,9 +18098,6 @@
 					"start": "XJRU",
 					"end": "XJSP",
 					"length": 29,
-					"neededEquipments": [
-						"RS"
-					],
 					"maxSpeed": 100,
 					"twistingFactor": 0.12
 				}
