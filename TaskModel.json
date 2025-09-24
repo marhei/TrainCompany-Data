@@ -8237,6 +8237,20 @@
 			]
 		},
 		{
+			"group": 0,
+			"name": "Auto-Shuttle von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Bringe die Fahrgäste und ihre Fahrzeuge sicher und pünktlich an ihr Ziel.",
+				"Dieser Auto-Shuttle ist der schnellste Weg durch die julischen Alpen."
+			],
+			"stations": [ "🇸🇮O1864393414", "🇸🇮O811465751", "🇸🇮O829057113", "🇸🇮O471562298" ],
+			"neededCapacity": [
+				{ "name": "cars", "value": 25 },
+				{ "name": "passengers", "value": 100 }
+			]
+		},
+		{
 			"group": 1,
 			"name": "Regio von %s nach %s",
 			"service": 2,
@@ -8247,13 +8261,55 @@
 			],
 			"objects": [
 				{
-					"stations": [ "XZL", "XZZM", "XZD" ]
+					"stations": [ "XZL", "XZZM", "XZSN", "XZD" ]
 				},
 				{
 					"stations": [ "XZL", "XZPV", "XZDV", "XZS", "🇮🇹03313", "XIT" ]
 				},
 				{
 					"stations": [ "XZL", "XZJ" ]
+				},
+				{
+					"stations": [ "XZL", "🇸🇮O4862148129" ]
+				},
+				{
+					"stations": [ "XZL", "XZPV", "XZDV", "XZKO" ]
+				},
+				{
+					"stations": [ "XZL", "XZZM", "🇸🇮43100", "🇸🇮O7243268330", "🇸🇮43300", "XZM" ]
+				},
+				{
+					"stations": [ "XZD", "XZSN", "XZZM", "🇸🇮43100", "🇸🇮O7243268330", "🇸🇮43300", "XZM" ]
+				},
+				{
+					"stations": [ "XZPV", "XZIB" ]
+				},
+				{
+					"stations": [ "🇸🇮O7351254917", "XZO", "🇸🇮43300" ]
+				},
+				{
+					"stations": [ "🇸🇮43704", "XZO", "🇸🇮43300", "XZM" ]
+				},
+				{
+					"stations": [ "🇸🇮O1864393414", "XZJ" ]
+				},
+				{
+					"stations": [ "XZS", "🇸🇮O1864393414" ]
+				},
+				{
+					"stations": [ "🇸🇮43100", "🇸🇮O1867183527" ]
+				},
+				{
+					"stations": [ "XZL", "🇸🇮O5615333224", "🇸🇮O2373004562" ]
+				},
+				{
+					"stations": [ "XZL", "🇸🇮O5615333224", "🇸🇮O11175232974", "🇸🇮42502" ]
+				},
+				{
+					"stations": [ "XZNM", "🇸🇮O1867349741" ]
+				},
+				{
+					"stations": [ "XZSN", "🇸🇮O11175232974" ]
 				}
 			],
 			"stopsEverywhere": true,
