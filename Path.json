@@ -13760,7 +13760,7 @@
 			]
 		},
 		{
-			"group": 1,
+			"group": 0,
 			"name": "Neckartalbahn",
 			"twistingFactor": 0.4,
 			"maxSpeed": 110,
@@ -89947,6 +89947,220 @@
 					"start": "RHUM",
 					"end": "RK",
 					"length": 10
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Elsenztalbahn",
+			"group": 0,
+			"twistingFactor": 0.25,
+			"maxSpeed": 120,
+			"objects": [
+			    {
+					"start": "TBF",
+					"end": "TBWT",
+					"length": 1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "TBWT",
+					"end": "RBWF",
+					"length": 1,
+					"maxSpeed": 80
+				},
+				{
+					"start": "RBWF",
+					"end": "RBWH",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RBWH",
+					"end": "RBPK",
+					"length": 2,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RBPK",
+					"end": "RBRA",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RBRA",
+					"end": "RBST",
+					"length": 3,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RBST",
+					"end": "RGM",
+					"length": 5
+				},
+				{
+					"start": "RGM",
+					"end": "RSS",
+					"length": 7,
+					"maxSpeed": 110
+				},
+				{
+					"start": "RSS",
+					"end": "RSMM",
+					"length": 1,
+					"maxSpeed": 100
+				},
+				{
+					"start": "RSMM",
+					"end": "RSM",
+					"length": 2
+				},
+				{
+					"start": "RSM",
+					"end": "RHFF",
+					"length": 4,
+					"maxSpeed": 90
+				},
+				{
+					"start": "RHFF",
+					"end": "RZUN",
+					"length": 3
+				},
+				{
+					"start": "RZUN",
+					"end": "RMK",
+					"length": 3
+				},
+				{
+					"start": "RMK",
+					"end": "RMAU",
+					"length": 2
+				},
+				{
+					"start": "RMAU",
+					"end": "RRHM",
+					"length": 6
+				},
+				{
+					"start": "RRHM",
+					"end": "RBAM",
+					"length": 1
+				},
+				{
+					"start": "RBAM",
+					"end": "RNM",
+					"length": 5
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Schwarzbachtalbahn",
+			"group": 1,
+			"twistingFactor": 0.35,
+			"maxSpeed": 100,
+			"objects": [
+			    {
+					"start": "RMK",
+					"end": "RESN",
+					"length": 5
+				},
+				{
+					"start": "RESN",
+					"end": "RNST",
+					"length": 2,
+					"maxSpeed": 90
+				},
+				{
+					"start": "RNST",
+					"end": "RWB",
+					"length": 3,
+					"maxSpeed": 90
+				},
+				{
+					"start": "RWB",
+					"end": "RNHF",
+					"length": 2
+				},
+				{
+					"start": "RNHF",
+					"end": "RHM",
+					"length": 3,
+					"maxSpeed": 90
+				},
+				{
+					"start": "RHM",
+					"end": "RAG",
+					"length": 4,
+					"maxSpeed": 90
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"name": "Krebsbachtalbahn",
+			"group": 1,
+			"twistingFactor": 0.39,
+			"maxSpeed": 60,
+			"objects": [
+			    {
+					"start": "RNHF",
+					"end": "RNHS",
+					"length": 3
+				},
+				{
+					"start": "RNHS",
+					"end": "RNBH",
+					"length": 3
+				},
+				{
+					"start": "RNBH",
+					"end": "RUG",
+					"length": 2
+				},
+				{
+					"start": "RUG",
+					"end": "ROGI",
+					"length": 3
+				},
+				{
+					"start": "ROGI",
+					"end": "RSGB",
+					"length": 4
+				},
+				{
+					"start": "RSGB",
+					"end": "RHFH",
+					"length": 2
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Kraichgau-Stromberg-Bahn",
+			"group": 1,
+			"twistingFactor": 0.32,
+			"maxSpeed": 80,
+			"objects": [
+			    {
+					"start": "RSS",
+					"end": "RRIN",
+					"length": 3
+				},
+				{
+					"start": "RRIN",
+					"end": "RITL",
+					"length": 4
+				},
+				{
+					"start": "RITL",
+					"end": "RRIH",
+					"length": 2
+				},
+				{
+					"start": "RRIH",
+					"end": "REP",
+					"length": 4
 				}
 			]
 		}

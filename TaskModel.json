@@ -3617,7 +3617,7 @@
 				"Die Linie S1 der S-Bahn Rhein-Neckar muss von %s nach %s gebracht werden.",
 				"Dieser S-Bahn-Langläufer muss von %s nach %s gebracht werden."
 			],
-			"stations": [ "SHO", "SLD", "SKL", "SHY", "RN", "RSD", "RM", "RMF", "RH", "REA", "RNZ", "RSE", "TO" ],
+			"stations": [ "SHO", "SLD", "SKL", "SHY", "RN", "RSD", "RM", "RMF", "RH", "RNM", "REA", "RNZ", "RSE", "TO" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -14059,6 +14059,124 @@
 				"Fahre eine Einzelleistung der Linie MEX18 von %s nach %s."
 			],
 			"stations": [ "TCP", "TOE", "TBZ", "TWLB", "TWR", "TH", "TNO", "TLN", "TKM", "TWH", "TBE", "TBM", "TLU", "TS", "TE", "TP", "TWD", "TNU", "TME", "TRE", "TT" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S42 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf der Stadtbahnlinie S42 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Elsenztalbahn nach %2$s!",
+				"Fahre einen Zug der Linie S42 von %s nach %s. Halte dabei an jeder Station."
+			],
+			"stations": [ "TH", "TBF", "RSS", "RSM" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S5 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf der Linie S5 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Elsenztalbahn nach %2$s!",
+				"Fahre einen Zug der Linie S5 von %s nach %s. Halte dabei an jeder Station."
+			],
+			"objects": [
+				{
+					"stations": [ "RH", "RNM", "RMK", "RSM", "RSS", "REP" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "RH", "RNM", "RMK", "RSM", "RSS", "RBRA" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "RM", "RH", "RHKA", "RSR", "RNM", "RBAM", "RRHM", "RMAU", "RMK", "RZUN", "RHFF", "RSM", "RSMM" ],
+					"pathSuggestion": [ "RM", "RMF", "RH", "RHKA", "RSR", "RNM", "RBAM", "RRHM", "RMAU", "RMK", "RZUN", "RHFF", "RSM", "RSMM" ],
+					"descriptions": [
+						"Fahre einen Fußball-Verstärkerzug von %s nach %s."
+					]
+				},
+				{
+					"name": "RE5 von %s nach %s",
+					"service": 2,
+					"descriptions": [
+						"Fahre den Pseudo-Regionalexpress der Linie RE5 von %s nach %s."
+					],
+					"objects": [
+						{
+							"stations": [ "RH", "RHKA", "RNM", "RMK", "RHFF", "RSM", "RSMM", "RSS", "RGM", "RBST", "RBRA" ]
+						},
+						{
+							"stations": [ "RNM", "RMK", "RHFF", "RSM", "RSMM", "RSS", "RRIN", "RITL", "RRIH", "REP" ]
+						}
+					]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RE10b von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre auf der Regionalexpress-Linie 10b von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Elsenztalbahn nach %2$s!",
+				"Fahre einen Zug der Linie RE10b von %s nach %s. Beachte, dass die Strecke nur eingleisig ist und durch den dichten Zugverkehr keine Verspätungen entstehen sollen."
+			],
+			"stations": [ "TH", "TN", "TBF", "RBWF", "RBRA", "RSMM", "RSM", "RMK", "RNM", "RH", "RM" ],
+			"pathSuggestion": [ "TH", "TN", "TBF", "RBWF", "RBRA", "RSS", "RSMM", "RSM", "RMK", "RNM", "RH", "RMF", "RM" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "S51 von %s nach %s",
+			"service": 3,
+			"descriptions": [
+				"Fahre auf der Linie S51 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Schwarzbachtalbahn nach %2$s!",
+				"Fahre einen Zug der Linie S51 von %s nach %s. Halte dabei an jeder Station."
+			],
+			"stations": [ "RH", "RNM", "RMK", "RNHF", "RAG" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Schienenbus nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre einen Ausflugszug mit einem Schienenbus auf der Krebsbachtalbahn von %s nach %s.",
+				"Bring die Ausflügler pünktlich auf der Krebsbachtalbahn nach %2$s!"
+			],
+			"stations": [ "RNHF", "RHFH" ],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "Straßenersatzverkehr nach %s",
+			"service": 2,
+			"descriptions": [
+				"Wegen Bauarbeiten an der L549 musst du einen Straßenersatzverkehr von %s nach %s fahren, um Fahrgästen weiterhin einen Anschluss an die S-Bahn zu bieten.",
+				"Wegen der Sperrung der Landstraße in Neckarbischofsheim können keine Busse fahren. Bring daher mit einem Straßenersatzverkehr deine Fahrgäste trotzdem an ihr Ziel!"
+			],
+			"stations": [ "RNHF", "RSGB" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
