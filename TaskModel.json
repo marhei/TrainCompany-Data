@@ -13887,7 +13887,17 @@
 				"Fahre auf der RB63 von %s nach %s.",
 				"Bring deine Fahrgäste pünktlich auf der Linie RB63 nach %2$s!"
 			],
-			"stations": [ "TUC", "TME", "TRE", "TT" ],
+			"objects": [
+				{
+					"stations": [ "TUC", "TME", "TRE", "TT", "TENT", "THE" ]
+				},
+				{
+					"stations": [ "TT", "TENT" ],
+					"descriptions": [
+						"Fahre einen Kurzläufer der RB63 auf der Ammertalbahn nach %2$s."
+					]
+				}
+			],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
