@@ -21985,7 +21985,20 @@
 					"start": "🇫🇷VDT",
 					"end": "🇫🇷TO",
 					"length": 63
-				},
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"neededEquipments": [
+				"FR",
+				"ETCS"
+			],
+			"group": 2,
+			"maxSpeed": 320,
+			"twistingFactor": 0.1,
+			"name": "LGV Sud Europe Atlantique",
+			"objects": [
 				{
 					"start": "🇫🇷TO",
 					"end": "🇫🇷O3538174121",
@@ -22032,7 +22045,7 @@
 			"electrified": true,
 			"neededEquipments": [
 				"FR",
-				"TVM"
+				"ETCS"
 			],
 			"group": 2,
 			"maxSpeed": 300,
@@ -22042,7 +22055,11 @@
 				{
 					"start": "🇫🇷CSP",
 					"end": "XFCOB",
-					"length": 51
+					"length": 51,
+					"neededEquipments": [
+						"FR",
+						"ETCS"
+					]
 				},
 				{
 					"start": "XFCOB",
