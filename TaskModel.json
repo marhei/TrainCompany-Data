@@ -9922,7 +9922,7 @@
 			"descriptions": [
 				"Fahre von %s nach %s."
 			],
-			"stations": [ "XSAI", "XSBOD", "XSBC", "XSCA", "XSBZ", "🇨🇭GIU", "🇨🇭RIB", "🇨🇭TAV", "XSL", "XSME", "XSCH" ],
+			"stations": [ "XSAI", "XSBOD", "XSBC", "XSCA", "XSBZ", "🇨🇭GIU", "🇨🇭RIB", "🇨🇭TAV", "XSL", "XSME", "XSCH", "XIC" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -9948,7 +9948,7 @@
 			"descriptions": [
 				"Fahre von %s nach %s."
 			],
-			"stations": [ "XSBZ", "🇨🇭GIU", "🇨🇭CD", "🇮🇹LI" ],
+			"stations": [ "XSBZ", "🇨🇭GIU", "🇨🇭CD", "🇮🇹LI", "XILVM", "XIGA" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -9961,7 +9961,8 @@
 			"descriptions": [
 				"Fahre von %s nach %s."
 			],
-			"stations": [ "XSME", "XSCH" ],
+			"stations": [ "XIVRS", "XSME", "XSCH" ],
+			"pathSuggestion": [ "XIVRS", "XIPMBEV", "XSME", "XSCH" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -9974,7 +9975,8 @@
 			"descriptions": [
 				"Fahre von %s nach %s."
 			],
-			"stations": [ "XSBZ", "🇨🇭GIU", "XSL", "XSME" ],
+			"stations": [ "XSBZ", "🇨🇭GIU", "XSL", "XSME", "XIVRS", "XIGA", "XIBU", "XIFMA2" ],
+			"pathSuggestion": [ "XSBZ", "🇨🇭GIU", "XSL", "XSME", "XIPMBEV", "XIVRS", "XIGA", "XIBU", "XIFMA2" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -9987,7 +9989,7 @@
 			"descriptions": [
 				"Fahre von %s nach %s."
 			],
-			"stations": [ "XSBZ", "🇨🇭GIU", "🇨🇭RIB", "🇨🇭TAV", "XSL", "XSME", "XSCH" ],
+			"stations": [ "XSBZ", "🇨🇭GIU", "🇨🇭RIB", "🇨🇭TAV", "XSL", "XSME", "XSCH", "XIC" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -10000,8 +10002,8 @@
 			"descriptions": [
 				"Fahre von %s nach %s."
 			],
-			"stations": [ "XSLC", "🇨🇭MINU", "🇨🇭TEN", "🇨🇭GDA", "🇨🇭RIAZ", "🇨🇭CD", "🇨🇭SAN", "XSL", "🇨🇭LGP", "XSME", "XSCH", "XISER", "XIMOZ", "XIMB" ],
-			"pathSuggestion": [ "XSLC", "🇨🇭MINU", "🇨🇭TEN", "🇨🇭GDA", "🇨🇭RIAZ", "🇨🇭CD", "🇨🇭SAN", "🇨🇭GIU", "XSL", "🇨🇭LGP", "XSME", "XSCH", "XISER", "XIMOZ", "XIMB" ],
+			"stations": [ "XSLC", "🇨🇭MINU", "🇨🇭TEN", "🇨🇭GDA", "🇨🇭RIAZ", "🇨🇭CD", "🇨🇭SAN", "XSL", "🇨🇭LGP", "XSME", "XSCH", "XIC", "XIAT", "XISER", "XIMOZ", "XIMB" ],
+			"pathSuggestion": [ "XSLC", "🇨🇭MINU", "🇨🇭TEN", "🇨🇭GDA", "🇨🇭RIAZ", "🇨🇭CD", "🇨🇭SAN", "🇨🇭GIU", "XSL", "🇨🇭LGP", "XSME", "XSCH", "XIC", "XIAT", "XISER", "XIMOZ", "XIMB" ],
 			"stopsEverywhere": false,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -13656,8 +13658,8 @@
 			"descriptions": [
 				"Bei den Feierlichkeiten des Jubiläums 100 Jahre elektrischer Betrieb in Schweden soll ein Schweizer Krokodil teilnehmen."
 			],
-			"stations": [ "XSOL", "XVGA" ],
-			"pathSuggestion": [ "XSOL", "XSB", "RB", "RML", "RF", "RO", "RAP", "RRA", "RK", "RBR", "RH", "RMF", "FD", "FF", "FG", "FGTH", "FKW", "HEBG", "HG", "HN", "HK", "HELZ", "HH", "HU", "ALBG", "AHAR", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDTI", "XDLU", "XDTA", "XDMF", "XDRI", "XDRK", "XDHT", "XDKH", "XVM", "XVLD", "XVEV", "XVHH", "XVAL", "XVN", "XVMJ", "XVHA", "XVO", "XVFV", "🇸🇪7400054", "XVAV", "🇸🇪7400630", "XVGA" ],
+			"stations": [ "XSOL", "RB", "RM", "HG", "XDPA", "XDRI", "XVS", "XVGA" ],
+			"pathSuggestion": [ "XSOL", "XSB", "RB", "RML", "RF", "RO", "RAP", "RRA", "RK", "RBR", "RH", "RMF", "RM", "FBL", "FDG", "FFLF", "FF", "FH", "FFD", "FFU", "FB", "HEBG", "HG", "HN", "HK", "HELZ", "HH", "HU", "ALBG", "AHAR", "AH", "AEL", "AN", "AR", "AJ", "AF", "XDPA", "XDTI", "XDLU", "XDTA", "XDMF", "XDRI", "XDRK", "XDHT", "XDKH", "XVM", "XVLD", "XVEV", "XVHH", "XVAL", "XVN", "XVMJ", "XVL", "XVNC", "🇸🇪JN", "XVSD", "🇸🇪HD", "XVS", "XVUV", "XVKNV", "XVUS", "XVGA" ],
 			"neededCapacity": [
 				{ "name": "passengers", "value": 20 },
 				{ "name": "beds", "value": 20 },
@@ -13673,6 +13675,7 @@
 			],
 			"stations": [ "XSEF", "XSGS", "XSAI", "XSBOD" ],
 			"pathSuggestion": [ "XSEF", "XSGS", "XSAI", "XSBOD" ],
+			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
