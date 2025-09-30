@@ -90163,6 +90163,832 @@
 					"length": 4
 				}
 			]
+		},
+		{
+			"name": "Helsinki–Riihimäki-rata",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"maxSpeed": 200,
+			"objects": [
+				{
+					"start": "🇫🇮HKI",
+					"end": "🇫🇮PSL",
+					"maxSpeed": 80,
+					"length": 3
+				},
+				{
+					"start": "🇫🇮PSL",
+					"end": "🇫🇮KÄP",
+					"maxSpeed": 160,
+					"length": 3
+				},
+				{
+					"start": "🇫🇮KÄP",
+					"end": "🇫🇮PMK",
+					"maxSpeed": 160,
+					"length": 3
+				},
+				{
+					"start": "🇫🇮PMK",
+					"end": "🇫🇮ML",
+					"maxSpeed": 160,
+					"length": 2
+				},
+				{
+					"start": "🇫🇮ML",
+					"end": "🇫🇮TNA",
+					"maxSpeed": 160,
+					"length": 2
+				},
+				{
+					"start": "🇫🇮TNA",
+					"end": "🇫🇮PLA",
+					"maxSpeed": 160,
+					"length": 1
+				},
+				{
+					"start": "🇫🇮PLA",
+					"end": "🇫🇮TKL",
+					"maxSpeed": 160,
+					"length": 2
+				},
+				{
+					"start": "🇫🇮TKL",
+					"end": "🇫🇮HKH",
+					"maxSpeed": 160,
+					"length": 1
+				},
+				{
+					"start": "🇫🇮HKH",
+					"end": "🇫🇮KVY",
+					"length": 2
+				},
+				{
+					"start": "🇫🇮KVY",
+					"end": "🇫🇮RKL",
+					"length": 1
+				},
+				{
+					"start": "🇫🇮RKL",
+					"end": "🇫🇮KRS",
+					"length": 2
+				},
+				{
+					"start": "🇫🇮KRS",
+					"end": "🇫🇮SAV",
+					"length": 4
+				},
+				{
+					"start": "🇫🇮SAV",
+					"end": "🇫🇮KE",
+					"length": 3
+				},
+				{
+					"start": "🇫🇮KE",
+					"end": "🇫🇮AIN",
+					"length": 6
+				},
+				{
+					"start": "🇫🇮AIN",
+					"end": "🇫🇮JP",
+					"length": 2
+				},
+				{
+					"start": "🇫🇮JP",
+					"end": "🇫🇮SAU",
+					"length": 2
+				},
+				{
+					"start": "🇫🇮SAU",
+					"end": "🇫🇮JK",
+					"length": 9
+				},
+				{
+					"start": "🇫🇮JK",
+					"end": "🇫🇮HY",
+					"length": 11
+				},
+				{
+					"start": "🇫🇮HY",
+					"end": "🇫🇮RI",
+					"length": 12
+				}
+			]
+		},
+		{
+			"name": "Lahden oikorata",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.01,
+			"maxSpeed": 220,
+			"objects": [
+				{
+					"start": "🇫🇮KE",
+					"end": "🇫🇮HAA",
+					"length": 11
+				},
+				{
+					"start": "🇫🇮HAA",
+					"end": "🇫🇮MLÄ",
+					"length": 19
+				},
+				{
+					"start": "🇫🇮MLÄ",
+					"end": "🇫🇮HNN",
+					"length": 20
+				},
+				{
+					"start": "🇫🇮HNN",
+					"end": "🇫🇮HLT",
+					"length": 15
+				}
+			]
+		},
+		{
+			"name": "Riihimäki–Lahti",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"maxSpeed": 140,
+			"objects": [
+				{
+					"start": "🇫🇮RI",
+					"end": "🇫🇮HK",
+					"length": 8
+				},
+				{
+					"start": "🇫🇮HK",
+					"end": "🇫🇮OI",
+					"length": 7
+				},
+				{
+					"start": "🇫🇮OI",
+					"end": "🇫🇮MLA",
+					"length": 5
+				},
+				{
+					"start": "🇫🇮MLA",
+					"end": "🇫🇮LAA",
+					"length": 6
+				},
+				{
+					"start": "🇫🇮LAA",
+					"end": "🇫🇮JR",
+					"length": 6
+				},
+				{
+					"start": "🇫🇮JR",
+					"end": "🇫🇮HR",
+					"length": 10
+				},
+				{
+					"start": "🇫🇮HR",
+					"end": "🇫🇮HLT",
+					"length": 4
+				},
+				{
+					"start": "🇫🇮HLT",
+					"end": "🇫🇮LH",
+					"maxSpeed": 160,
+					"length": 11
+				}
+			]
+		},
+		{
+			"name": "Lahti–Kouvola",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"maxSpeed": 200,
+			"objects": [
+				{
+					"start": "🇫🇮LH",
+					"end": "🇫🇮NSL",
+					"length": 15
+				},
+				{
+					"start": "🇫🇮NSL",
+					"end": "🇫🇮UKÄ",
+					"length": 4
+				},
+				{
+					"start": "🇫🇮UKÄ",
+					"end": "🇫🇮MKA",
+					"maxSpeed": 170,
+					"length": 10
+				},
+				{
+					"start": "🇫🇮MKA",
+					"end": "🇫🇮KA",
+					"maxSpeed": 160,
+					"length": 9,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "🇫🇮KA",
+					"end": "🇫🇮KRA",
+					"length": 15
+				},
+				{
+					"start": "🇫🇮KRA",
+					"end": "🇫🇮KV",
+					"maxSpeed": 160,
+					"length": 6,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"name": "Karjalan rata",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"maxSpeed": 140,
+			"objects": [
+				{
+					"start": "🇫🇮KV",
+					"end": "🇫🇮UTI",
+					"maxSpeed": 200,
+					"length": 13
+				},
+				{
+					"start": "🇫🇮UTI",
+					"end": "🇫🇮KPA",
+					"maxSpeed": 200,
+					"length": 10
+				},
+				{
+					"start": "🇫🇮KPA",
+					"end": "🇫🇮KJR",
+					"maxSpeed": 200,
+					"length": 13
+				},
+				{
+					"start": "🇫🇮KJR",
+					"end": "🇫🇮TA",
+					"maxSpeed": 200,
+					"length": 12
+				},
+				{
+					"start": "🇫🇮TA",
+					"end": "🇫🇮LÄ",
+					"maxSpeed": 200,
+					"length": 8
+				},
+				{
+					"start": "🇫🇮LÄ",
+					"end": "🇫🇮RAS",
+					"length": 12
+				},
+				{
+					"start": "🇫🇮RAS",
+					"end": "🇫🇮TRÄ",
+					"length": 7
+				},
+				{
+					"start": "🇫🇮TRÄ",
+					"end": "🇫🇮TAP",
+					"length": 5
+				},
+				{
+					"start": "🇫🇮TAP",
+					"end": "🇫🇮LR",
+					"length": 17
+				},
+				{
+					"start": "🇫🇮LR",
+					"end": "🇫🇮LRS",
+					"length": 5
+				},
+				{
+					"start": "🇫🇮LRS",
+					"end": "🇫🇮MKO",
+					"length": 7
+				},
+				{
+					"start": "🇫🇮MKO",
+					"end": "🇫🇮JTS",
+					"length": 7
+				},
+				{
+					"start": "🇫🇮JTS",
+					"end": "🇫🇮RAH",
+					"length": 13
+				},
+				{
+					"start": "🇫🇮RAH",
+					"end": "🇫🇮IMR",
+					"length": 6
+				},
+				{
+					"start": "🇫🇮IMR",
+					"end": "🇫🇮IM",
+					"length": 6
+				},
+				{
+					"start": "🇫🇮IM",
+					"end": "🇫🇮RJÄ",
+					"length": 13
+				},
+				{
+					"start": "🇫🇮RJÄ",
+					"end": "🇫🇮LKK",
+					"length": 13
+				},
+				{
+					"start": "🇫🇮LKK",
+					"end": "🇫🇮SPL",
+					"length": 10
+				},
+				{
+					"start": "🇫🇮SPL",
+					"end": "🇫🇮PAR",
+					"length": 19
+				},
+				{
+					"start": "🇫🇮PAR",
+					"end": "🇫🇮SR",
+					"length": 18
+				},
+				{
+					"start": "🇫🇮SR",
+					"end": "🇫🇮POI",
+					"length": 11
+				},
+				{
+					"start": "🇫🇮POI",
+					"end": "🇫🇮KTI",
+					"length": 11
+				},
+				{
+					"start": "🇫🇮KTI",
+					"end": "🇫🇮PUS",
+					"length": 26
+				},
+				{
+					"start": "🇫🇮PUS",
+					"end": "🇫🇮KIT",
+					"length": 6
+				},
+				{
+					"start": "🇫🇮KIT",
+					"end": "🇫🇮ONK",
+					"length": 19
+				},
+				{
+					"start": "🇫🇮ONK",
+					"end": "🇫🇮HSL",
+					"length": 16
+				},
+				{
+					"start": "🇫🇮HSL",
+					"end": "🇫🇮JNS",
+					"length": 22
+				}
+			]
+		},
+		{
+			"name": "Luumäki-Sankt-Petersburg",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.01,
+			"maxSpeed": 140,
+			"objects": [
+				{
+					"start": "🇫🇮LÄ",
+					"end": "🇫🇮SI",
+					"twistingFactor": 0.2,
+					"length": 23
+				},
+				{
+					"start": "🇫🇮SI",
+					"end": "🇫🇮VNA",
+					"maxSpeed": 120,
+					"twistingFactor": 0.1,
+					"length": 12
+				},
+				{
+					"start": "🇫🇮VNA",
+					"end": "🇷🇺2004682",
+					"maxSpeed": 160,
+					"group": 2,
+					"neededEquipment": [
+						"RU",
+						"1520mm"
+					],
+					"length": 32
+				},
+				{
+					"start": "🇷🇺2004682",
+					"end": "🇷🇺2004232",
+					"maxSpeed": 200,
+					"group": 2,
+					"neededEquipment": [
+						"RU",
+						"1520mm"
+					],
+					"length": 78
+				},
+				{
+					"start": "🇷🇺2004232",
+					"end": "🇷🇺O21596808",
+					"maxSpeed": 200,
+					"group": 2,
+					"neededEquipment": [
+						"RU",
+						"1520mm"
+					],
+					"length": 50
+				}
+			]
+		},
+		{
+			"name": "Rantarata",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"maxSpeed": 160,
+			"objects": [
+				{
+					"start": "🇫🇮PSL",
+					"end": "🇫🇮HPL",
+					"maxSpeed": 120,
+					"length": 3
+				},
+				{
+					"start": "🇫🇮HPL",
+					"end": "🇫🇮LPV",
+					"maxSpeed": 120,
+					"length": 5
+				},
+				{
+					"start": "🇫🇮LPV",
+					"end": "🇫🇮KEA",
+					"maxSpeed": 120,
+					"length": 3
+				},
+				{
+					"start": "🇫🇮KEA",
+					"end": "🇫🇮KVH",
+					"maxSpeed": 120,
+					"length": 4
+				},
+				{
+					"start": "🇫🇮KVH",
+					"end": "🇫🇮TRL",
+					"maxSpeed": 120,
+					"length": 1
+				},
+				{
+					"start": "🇫🇮TRL",
+					"end": "🇫🇮KLH",
+					"maxSpeed": 120,
+					"length": 5
+				},
+				{
+					"start": "🇫🇮KLH",
+					"end": "🇫🇮KKN",
+					"maxSpeed": 120,
+					"length": 13
+				},
+				{
+					"start": "🇫🇮KKN",
+					"end": "🇫🇮STI",
+					"length": 14
+				},
+				{
+					"start": "🇫🇮STI",
+					"end": "🇫🇮IKO",
+					"length": 19
+				},
+				{
+					"start": "🇫🇮IKO",
+					"end": "🇫🇮SLO",
+					"length": 69
+				},
+				{
+					"start": "🇫🇮SLO",
+					"end": "🇫🇮PIK",
+					"length": 37
+				},
+				{
+					"start": "🇫🇮PIK",
+					"end": "🇫🇮TKU",
+					"length": 17
+				},
+				{
+					"start": "🇫🇮TKU",
+					"end": "🇫🇮TUS",
+					"maxSpeed": 40,
+					"length": 3
+				}
+			]
+		},
+		{
+			"name": "Tampere–Pori",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"maxSpeed": 140,
+			"objects": [
+				{
+					"start": "🇫🇮TPE",
+					"end": "🇫🇮KRU",
+					"length": 43
+				},
+				{
+					"start": "🇫🇮KRU",
+					"end": "🇫🇮VMA",
+					"length": 15
+				},
+				{
+					"start": "🇫🇮VMA",
+					"end": "🇫🇮ÄS",
+					"length": 12
+				},
+				{
+					"start": "🇫🇮ÄS",
+					"end": "🇫🇮HVA",
+					"length": 37
+				},
+				{
+					"start": "🇫🇮HVA",
+					"end": "🇫🇮PRI",
+					"length": 27
+				}
+			]
+		},
+		{
+			"name": "Riihimäki–Tampere",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"maxSpeed": 140,
+			"objects": [
+				{
+					"start": "🇫🇮RI",
+					"end": "🇫🇮TU",
+					"maxSpeed": 170,
+					"length": 22
+				},
+				{
+					"start": "🇫🇮TU",
+					"end": "🇫🇮HL",
+					"maxSpeed": 180,
+					"length": 14
+				},
+				{
+					"start": "🇫🇮HL",
+					"end": "🇫🇮ITA",
+					"maxSpeed": 170,
+					"length": 22
+				},
+				{
+					"start": "🇫🇮ITA",
+					"end": "🇫🇮TL",
+					"maxSpeed": 170,
+					"length": 18
+				},
+				{
+					"start": "🇫🇮TL",
+					"end": "🇫🇮VIA",
+					"maxSpeed": 170,
+					"length": 7
+				},
+				{
+					"start": "🇫🇮VIA",
+					"end": "🇫🇮TPE",
+					"maxSpeed": 200,
+					"length": 35
+				}
+			]
+		},
+		{
+			"name": "Tampere–Seinäjoki",
+			"group": 2,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.01,
+			"maxSpeed": 200,
+			"objects": [
+				{
+					"start": "🇫🇮TPE",
+					"end": "🇫🇮SK",
+					"length": 160
+				}
+			]
+		},
+		{
+			"name": " Orivesi–Seinäjoki",
+			"group": 1,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": false,
+			"twistingFactor": 0.1,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "🇫🇮OV",
+					"end": "🇫🇮OVK",
+					"length": 3
+				},
+				{
+					"start": "🇫🇮OVK",
+					"end": "🇫🇮JJ",
+					"length": 15
+				},
+				{
+					"start": "🇫🇮JJ",
+					"end": "🇫🇮VLP",
+					"length": 27
+				},
+				{
+					"start": "🇫🇮VLP",
+					"end": "🇫🇮KLO",
+					"length": 13
+				},
+				{
+					"start": "🇫🇮KLO",
+					"end": "🇫🇮HPK",
+					"length": 4
+				},
+				{
+					"start": "🇫🇮HPK",
+					"end": "🇫🇮PH",
+					"length": 12
+				},
+				{
+					"start": "🇫🇮PH",
+					"end": "🇫🇮MY",
+					"length": 21
+				},
+				{
+					"start": "🇫🇮MY",
+					"end": "🇫🇮EPZ",
+					"length": 5
+				},
+				{
+					"start": "🇫🇮EPZ",
+					"end": "🇫🇮ÄHT",
+					"length": 7
+				},
+				{
+					"start": "🇫🇮ÄHT",
+					"end": "🇫🇮ALV",
+					"length": 27
+				},
+				{
+					"start": "🇫🇮ALV",
+					"end": "🇫🇮SK",
+					"length": 45
+				}
+			]
+		},
+		{
+			"name": "Tampere–Seinäjoki",
+			"group": 0,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": true,
+			"twistingFactor": 0.1,
+			"maxSpeed": 120,
+			"objects": [
+				{
+					"start": "🇫🇮TPE",
+					"end": "🇫🇮OV",
+					"length": 41
+				},
+				{
+					"start": "🇫🇮OV",
+					"end": "🇫🇮JÄS",
+					"length": 56
+				},
+				{
+					"start": "🇫🇮JÄS",
+					"end": "🇫🇮JY",
+					"length": 57
+				}
+			]
+		},
+		{
+			"name": "Haapamäki–Jyväskylä",
+			"group": 1,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": false,
+			"twistingFactor": 0.15,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "🇫🇮HPK",
+					"end": "🇫🇮KEU",
+					"length": 16
+				},
+				{
+					"start": "🇫🇮KEU",
+					"end": "🇫🇮PVI",
+					"maxSpeed": 100,
+					"length": 26
+				},
+				{
+					"start": "🇫🇮PVI",
+					"end": "🇫🇮JY",
+					"maxSpeed": 100,
+					"length": 35
+				}
+			]
+		},
+		{
+			"name": "Hanko–Hyvinkää",
+			"group": 1,
+			"neededEquipment": [
+				"FI",
+				"1520mm"
+			],
+			"electrified": false,
+			"twistingFactor": 0.1,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "🇫🇮HNK",
+					"end": "🇫🇮LPO",
+					"maxSpeed": 120,
+					"length": 17
+				},
+				{
+					"start": "🇫🇮LPO",
+					"end": "🇫🇮SGY",
+					"maxSpeed": 120,
+					"length": 5
+				},
+				{
+					"start": "🇫🇮SGY",
+					"end": "🇫🇮KR",
+					"maxSpeed": 120,
+					"length": 27
+				},
+				{
+					"start": "🇫🇮KR",
+					"end": "🇫🇮NM",
+					"length": 48
+				},
+				{
+					"start": "🇫🇮NM",
+					"end": "🇫🇮RM",
+					"length": 37
+				},
+				{
+					"start": "🇫🇮RM",
+					"end": "🇫🇮HY",
+					"length": 13
+				}
+			]
 		}
 	]
 }
