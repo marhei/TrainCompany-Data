@@ -193,7 +193,7 @@
 			"cost": 3000000,
 			"maxConnectedUnits": 2,
 			"operationCosts": 70,
-			"equipments": ["ETCS", "AT", "DE"],
+			"equipments": ["ETCS", "AT", "DE", "CH"],
 			"exchangeTime": 120,
 			"capacity": [
 				{"name": "passengers", "value": 376},
@@ -616,6 +616,27 @@
 			"capacity": [
 				{"name": "passengers", "value": 409},
 				{"name": "bistroseats", "value": 17}
+			]
+		},
+		{
+			"id": 520,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler Seetal-GTW",
+			"shortcut": "RABe 520",
+			"speed": 115,
+			"weight": 99,
+			"force": 77,
+			"length": 54,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 400000,
+			"operationCosts": 40,
+			"equipments": ["SP-SEETAL", "CH"],
+			"maxConnectedUnits": 3,
+			"exchangeTime": 30,
+			"capacity": [
+				{"name": "passengers", "value": 124}
 			]
 		},
 		{
@@ -1042,6 +1063,152 @@
 			]
 		},
 		{
+			"id": 855210,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler FLIRT",
+			"shortcut": "SBB RABe 521.0",
+			"speed": 160,
+			"weight": 121,
+			"force": 200,
+			"length": 74,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 400000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 4,
+			"compatibleWith": [855222, 855230],
+			"equipments": ["CH", "DE"],
+			"capacity": [
+				{"name": "passengers", "value": 180}
+			]
+		},
+		{
+			"id": 855222,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler FLIRT France",
+			"shortcut": "SBB RABe 522.2",
+			"speed": 160,
+			"weight": 121,
+			"force": 200,
+			"length": 74,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 400000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 4,
+			"compatibleWith": [855210, 855230],
+			"equipments": ["CH", "FR", "ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 180}
+			]
+		},
+		{
+			"id": 855230,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler FLIRT",
+			"shortcut": "SBB RABe 523.0",
+			"speed": 160,
+			"weight": 121,
+			"force": 200,
+			"length": 74,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 400000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 4,
+			"compatibleWith": [855210, 855222],
+			"equipments": ["CH", "ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 180}
+			]
+		},
+		{
+			"id": 855240,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler FLIRT TILO (4-tlg.)",
+			"shortcut": "TILO RABe 524.0 / ETR 524",
+			"speed": 160,
+			"weight": 121,
+			"force": 200,
+			"length": 74,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 400000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 4,
+			"compatibleWith": [855241],
+			"equipments": ["CH", "IT", "ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 169}
+			]
+		},
+		{
+			"id": 855241,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler FLIRT TILO (6-tlg.)",
+			"shortcut": "TILO RABe 524.1 / ETR 524",
+			"speed": 160,
+			"weight": 174,
+			"force": 200,
+			"length": 106,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 600000,
+			"operationCosts": 70,
+			"maxConnectedUnits": 3,
+			"compatibleWith": [855240],
+			"equipments": ["CH", "IT", "ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 250}
+			]
+		},
+		{
+			"id": 855243,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler FLIRT 3 TILO (6-tlg.)",
+			"shortcut": "TILO RABe 524.3 / ETR 524",
+			"speed": 160,
+			"weight": 224,
+			"force": 175,
+			"length": 105,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 600000,
+			"operationCosts": 60,
+			"maxConnectedUnits": 3,
+			"equipments": ["CH", "IT", "ETCS"],
+			"capacity": [
+				{"name": "passengers", "value": 244}
+			]
+		},
+		{
+			"id": 85526,
+			"group": 2,
+			"service": 2,
+			"name": "Stadler FLIRT",
+			"shortcut": "SOB RABe 526",
+			"speed": 160,
+			"weight": 121,
+			"force": 200,
+			"length": 74,
+			"drive": 1,
+			"reliability": 1,
+			"cost": 400000,
+			"operationCosts": 40,
+			"maxConnectedUnits": 4,
+			"compatibleWith": [526],
+			"equipments": ["CH"],
+			"capacity": [
+				{"name": "passengers", "value": 176}
+			]
+		},
+		{
 			"id": 3427,
 			"group": 2,
 			"service": 2,
@@ -1087,8 +1254,8 @@
 			"id": 526,
 			"group": 2,
 			"service": 1,
-			"name": "Stadler Traverso",
-			"shortcut": "Traverso",
+			"name": "Stadler Traverso (8-tlg.)",
+			"shortcut": "SOB RABe 526 Traverso",
 			"speed": 160,
 			"weight": 260,
 			"force": 400,
@@ -1098,6 +1265,7 @@
 			"cost": 600000,
 			"operationCosts": 60,
 			"maxConnectedUnits": 2,
+			"compatibleWith": [85526],
 			"equipments": ["CH", "ETCS"],
 			"capacity": [
 				{"name": "passengers", "value": 384},
@@ -1243,11 +1411,97 @@
 			"reliability": 0.9,
 			"cost": 380000,
 			"maxConnectedUnits": 2,
+			"compatibleWith": [85561, 85562],
 			"operationCosts": 75,
-			"equipments": ["CH", "AT"],
+			"equipments": ["CH", "ETCS"],
 			"exchangeTime": 60,
 			"capacity": [
 				{"name": "passengers", "value": 220}
+			]
+		},
+		{
+			"id": 85561,
+			"group": 2,
+			"service": 2,
+			"name": "SBB RBDe 561",
+			"speed": 140,
+			"weight": 280,
+			"force": 182,
+			"length": 100,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 380000,
+			"maxConnectedUnits": 2,
+			"compatibleWith": [85560, 85562],
+			"operationCosts": 75,
+			"equipments": ["CH", "DE", "AT"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 220}
+			]
+		},
+		{
+			"id": 85562,
+			"group": 2,
+			"service": 2,
+			"name": "SBB RBDe 562",
+			"speed": 140,
+			"weight": 280,
+			"force": 182,
+			"length": 100,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 380000,
+			"maxConnectedUnits": 2,
+			"compatibleWith": [85560, 85561],
+			"operationCosts": 75,
+			"equipments": ["CH", "FR"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 220}
+			]
+		},
+		{
+			"id": 85591007,
+			"group": 2,
+			"service": 4,
+			"name": "OeBB Roter Pfeil",
+			"shortcut": "OeBB RCe 2/4 607",
+			"speed": 80,
+			"weight": 38,
+			"force": 26,
+			"length": 22,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 200000,
+			"maxConnectedUnits": 1,
+			"operationCosts": 50,
+			"equipments": ["CH"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 58}
+			]
+		},
+		{
+			"id": 85591021,
+			"group": 2,
+			"service": 4,
+			"name": "Churchill-Pfeil",
+			"shortcut": "SBB RAe 4/8 1021",
+			"speed": 125,
+			"weight": 93,
+			"force": 26,
+			"length": 46,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 250000,
+			"maxConnectedUnits": 1,
+			"operationCosts": 80,
+			"equipments": ["CH"],
+			"exchangeTime": 60,
+			"capacity": [
+				{"name": "passengers", "value": 56},
+				{"name": "bistroseats", "value": 56}
 			]
 		},
 		{
@@ -1330,6 +1584,26 @@
 			"exchangeTime": 40,
 			"capacity": [
 				{"name": "passengers", "value": 171}
+			]
+		},
+		{
+			"id": 85528,
+			"group": 2,
+			"service": 2,
+			"name": "BLS RABe 528",
+			"speed": 160,
+			"weight": 182,
+			"force": 200,
+			"length": 105,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 550000,
+			"maxConnectedUnits": 2,
+			"operationCosts": 60,
+			"equipments": ["CH", "ETCS"],
+			"exchangeTime": 40,
+			"capacity": [
+				{"name": "passengers", "value": 242}
 			]
 		},
 		{
@@ -1456,9 +1730,10 @@
 			"id": 8724500,
 			"group": 2,
 			"name": "SNCF Z 24500",
+			"shortcut": "TER 2N NG",
 			"service": 2,
-			"speed": 140,
-			"weight": 125,
+			"speed": 160,
+			"weight": 193,
 			"force": 290,
 			"length": 80,
 			"drive": 1,
@@ -1466,10 +1741,30 @@
 			"cost": 550000,
 			"maxConnectedUnits": 3,
 			"operationCosts": 55,
-			"equipments": ["FR", "LU", "SE", "ETCS"],
+			"equipments": ["FR", "LU", "ETCS"],
 			"exchangeTime": 100,
 			"capacity": [
-				{"name": "passengers", "value": 330}
+				{"name": "passengers", "value": 339}
+			]
+		},
+		{
+			"id": 8724501,
+			"group": 2,
+			"name": "SJ X40",
+			"service": 2,
+			"speed": 200,
+			"weight": 205,
+			"force": 290,
+			"length": 80,
+			"drive": 1,
+			"reliability": 0.95,
+			"cost": 550000,
+			"maxConnectedUnits": 3,
+			"operationCosts": 55,
+			"equipments": ["SE", "ETCS"],
+			"exchangeTime": 100,
+			"capacity": [
+				{"name": "passengers", "value": 252}
 			]
 		},
 		{
@@ -1902,6 +2197,7 @@
 			"maxConnectedUnits": 5,
 			"compatibleWith": [5001],
 			"equipments": [
+				"ETCS",
 				"DK"
 			],
 			"operationCosts": 50,
@@ -1923,12 +2219,76 @@
 			"reliability": 1,
 			"maxConnectedUnits": 5,
 			"equipments": [
-				"SE"
+				"SE", "ETCS"
 			],
 			"operationCosts": 65,
-			"cost": 450000,
+			"cost": 650000,
+			"capacity": [
+				{"name": "passengers", "value": 374},
+				{"name": "bistroseats", "value": 4}
+			]
+		},
+		{
+			"id": 3241,
+			"group": 2,
+			"name": "Alstom Coradia Nordic",
+			"shortcut": "X60",
+			"speed": 160,
+			"weight": 150,
+			"force": 320,
+			"length": 107,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 2,
+			"equipments": [
+				"SE"
+			],
+			"operationCosts": 55,
+			"cost": 550000,
 			"capacity": [
 				{"name": "passengers", "value": 374}
+			]
+		},
+		{
+			"id": 3242,
+			"group": 2,
+			"name": "Alstom Coradia Nordic",
+			"shortcut": "X61",
+			"speed": 160,
+			"weight": 133,
+			"force": 320,
+			"length": 74,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 3,
+			"equipments": [
+				"SE"
+			],
+			"operationCosts": 55,
+			"cost": 450000,
+			"capacity": [
+				{"name": "passengers", "value": 240}
+			]
+		},
+		{
+			"id": 323,
+			"group": 2,
+			"name": "Alstom Coradia X3",
+			"shortcut": "Arlanda Express",
+			"speed": 200,
+			"weight": 193,
+			"force": 320,
+			"length": 93,
+			"drive": 1,
+			"reliability": 1,
+			"maxConnectedUnits": 1,
+			"equipments": [
+				"SE"
+			],
+			"operationCosts": 70,
+			"cost": 850000,
+			"capacity": [
+				{"name": "passengers", "value": 190}
 			]
 		},
 		{
@@ -1944,7 +2304,7 @@
 			"reliability": 1,
 			"maxConnectedUnits": 2,
 			"equipments": [
-				"SE", "DK", "ETCS", "US"
+				"SE", "DK", "NO", "ETCS", "US"
 			],
 			"operationCosts": 65,
 			"cost": 2150000,
@@ -2009,7 +2369,7 @@
 			"reliability": 1,
 			"maxConnectedUnits": 2,
 			"equipments": [
-				"SE", "ETCS"
+				"SE", "NO", "ETCS"
 			],
 			"operationCosts": 55,
 			"cost": 750000,
@@ -2723,7 +3083,7 @@
 			"length": 200,
 			"drive": 1,
 			"reliability": 1,
-			"cost": 5250000,	
+			"cost": 5250000,
 			"equipments": ["ETCS", "TVM", "ES", "FR", "1668mm", "1435mm"],
 			"maxConnectedUnits": 2,
 			"operationCosts": 110,
@@ -4075,6 +4435,7 @@
 			"id": 5001,
 			"group": 2,
 			"name": "DSB MF",
+			"shortcut": "IC3",
 			"speed": 180,
 			"weight": 97,
 			"force": 107,
@@ -5105,7 +5466,7 @@
 			"maxConnectedUnits": 3,
 			"operationCosts": 45,
 			"exchangeTime": 60,
-			"equipments": ["SE", "RS", "HR"],
+      "equipments": ["SE", "RS", "HR", "NO", "XK"],
 			"capacity": [
 				{"name": "passengers", "value": 68}
 			]
@@ -5549,7 +5910,7 @@
 			"reliability": 0.9,
 			"cost": 350000,
 			"operationCosts": 100,
-			"equipments": ["AT", "DE", "CH"]
+			"equipments": ["AT", "DE"]
 		},
 		{
 			"id": 102,
@@ -5636,7 +5997,7 @@
 			"reliability": 0.96,
 			"cost": 370000,
 			"operationCosts": 105,
-			"equipments": ["FR", "CH", "ES" ]
+			"equipments": ["FR", "ES" ]
 		},
 		{
 			"id": 8737000,
@@ -5763,7 +6124,7 @@
 			"reliability": 1.0,
 			"cost": 320000,
 			"operationCosts": 110,
-			"equipments": [ "CH", "DE", "AT" ]
+			"equipments": [ "DE", "AT" ]
 		},
 		{
 			"id": 80142,
@@ -5944,7 +6305,7 @@
 			"reliability": 1,
 			"cost": 600000,
 			"operationCosts": 130,
-			"equipments": [ "FR", "ETCS", "AT", "DE", "TR", "ES", "NL", "BE", "CH", "SE", "IT", "LU", "GB" ]
+			"equipments": [ "FR", "ETCS", "AT", "DE", "TR", "ES", "NL", "BE", "CH", "SE", "IT", "LU", "GB", "NO", "SI", "HR", "RS" ]
 		},
 		{
 			"id": 54362,
@@ -6048,7 +6409,7 @@
 			"reliability": 1,
 			"cost": 500000,
 			"operationCosts": 80,
-			"equipments": ["ETCS", "ES", "FR", "BE", "LU", "DK", "CH", "AT", "SE", "DE", "IT", "HU"]
+			"equipments": ["ETCS", "ES", "FR", "BE", "LU", "DK", "CH", "AT", "SE", "NO", "DE", "IT", "HU"]
 		},
 		{
 			"id": 189,
@@ -6240,6 +6601,7 @@
 			"id": 85420,
 			"group": 0,
 			"name": "SBB Re 420",
+			"shortcut": "Re 4/4 II",
 			"speed": 140,
 			"weight": 84,
 			"force": 255,
@@ -6248,7 +6610,93 @@
 			"reliability": 0.9,
 			"cost": 250000,
 			"operationCosts": 110,
-			"equipments": ["CH", "AT", "DE", "ETCS"]
+			"equipments": ["CH", "ETCS"]
+		},
+		{
+			"id": 85610,
+			"group": 0,
+			"name": "SBB Ae 6/6",
+			"speed": 125,
+			"weight": 120,
+			"force": 392,
+			"length": 18,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 300000,
+			"operationCosts": 130,
+			"equipments": ["CH"]
+		},
+		{
+			"id": 856012,
+			"group": 0,
+			"name": "SBB Be 6/8 II",
+			"shortcut": "SBB Krokodil",
+			"speed": 75,
+			"weight": 126,
+			"force": 294,
+			"length": 20,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 200000,
+			"operationCosts": 130,
+			"equipments": ["CH"]
+		},
+		{
+			"id": 856013,
+			"group": 0,
+			"name": "SBB Ce 6/8 III",
+			"shortcut": "SBB Krokodil",
+			"speed": 65,
+			"weight": 131,
+			"force": 294,
+			"length": 20,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 200000,
+			"operationCosts": 130,
+			"equipments": ["CH", "SE"]
+		},
+		{
+			"id": 811142,
+			"group": 0,
+			"name": "ÖBB Rh 1142",
+			"speed": 150,
+			"weight": 84,
+			"force": 225,
+			"length": 16,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 250000,
+			"operationCosts": 110,
+			"equipments": ["DE", "AT"]
+		},
+		{
+			"id": 851042,
+			"group": 0,
+			"name": "VNPZ Rh 1042",
+			"speed": 130,
+			"weight": 84,
+			"force": 260,
+			"length": 16,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 250000,
+			"operationCosts": 110,
+			"equipments": ["CH", "DE", "AT"]
+		},
+		{
+			"id": 85421,
+			"group": 0,
+			"name": "SBB Re 421",
+			"speed": 140,
+			"weight": 85,
+			"force": 255,
+			"length": 15,
+			"drive": 1,
+			"reliability": 0.9,
+			"cost": 250000,
+			"operationCosts": 110,
+			"equipments": ["CH", "AT", "DE"]
 		},
 		{
 			"id": 85460,
@@ -6263,6 +6711,37 @@
 			"cost": 290000,
 			"operationCosts": 130,
 			"equipments": ["CH", "ETCS"]
+		},
+		{
+			"id": 79400,
+			"group": 0,
+			"name": "SBB Aem 940",
+			"shortcut": "Alstom Prima H4",
+			"speed": 120,
+			"weight": 84,
+			"force": 300,
+			"length": 19,
+			"drive": 4,
+			"reliability": 0.95,
+			"cost": 220000,
+			"range": 1000,
+			"operationCosts": 80,
+			"equipments": ["CH", "ETCS"]
+		},
+		{
+			"id": 78430,
+			"group": 0,
+			"name": "SBB Am 843",
+			"shortcut": "Am 843",
+			"speed": 100,
+			"weight": 80,
+			"force": 250,
+			"length": 15,
+			"drive": 2,
+			"reliability": 0.93,
+			"cost": 160000,
+			"operationCosts": 70,
+			"equipments": ["CH", "ETCS", "DE"]
 		},
 		{
 			"id": 811012,
@@ -6403,7 +6882,7 @@
 			"reliability": 0.85,
 			"cost": 500000,
 			"operationCosts": 200,
-			"equipments": ["SE"]
+			"equipments": ["SE", "NO"]
 		},
 		{
 			"id": 742222,
@@ -6417,7 +6896,7 @@
 			"reliability": 1,
 			"cost": 750000,
 			"operationCosts": 160,
-			"equipments": ["SE"]
+			"equipments": ["SE", "NO", "ETCS"]
 		},
 		{
 			"id": 8813,
@@ -7452,7 +7931,7 @@
 			"reliability": 0.9,
 			"cost": 400000,
 			"operationCosts": 120,
-			"equipments": ["GB", "NL", "BE", "LU", "DK", "PL", "CZ", "FR", "SE", "DE", "SK", "ETCS"]
+			"equipments": ["GB", "NL", "BE", "LU", "DK", "PL", "CZ", "FR", "SE", "DE", "SK", "NO" , "ETCS"]
 		},
 		{
 			"id": 80265,
@@ -7512,7 +7991,21 @@
             "cost": 350000,
             "operationCosts": 130,
             "equipments": ["CH", "DE", "LU", "AT", "FR", "IT", "SE", "ETCS"]
-        }, 
+        },
+		{
+            "id": 1700,
+            "group": 0,
+            "name": "Vossloh G 1700-2 BB",
+            "speed": 100,
+            "weight": 88,
+            "force": 291,
+            "length": 15,
+            "drive": 2,
+            "reliability": 0.95,
+            "cost": 370000,
+            "operationCosts": 125,
+            "equipments": ["CH", "DE", "AT", "FR", "IT", "XK", "ES", "ETCS"]
+        },
 		{
             "id": 72000,
             "group": 0,
@@ -7526,7 +8019,7 @@
             "cost": 450000,
             "operationCosts": 125,
             "equipments": ["CH", "DE", "BE", "IT", "NL", "FR", "SE", "DK", "PL", "ETCS"]
-        }, 
+        },
 		{
 			"id": 17,
 			"group": 0,
@@ -7758,6 +8251,21 @@
 			"equipments": ["PL", "DE", "DK"]
 		},
 		{
+			"id": 704000,
+			"group": 0,
+			"name": "Vossloh Euro 4000 (Normalspurversion)",
+			"shortcut": "CD 312",
+			"speed": 160,
+			"weight": 123,
+			"force": 400,
+			"length": 23,
+			"drive": 2,
+			"reliability": 1,
+			"cost": 440000,
+			"operationCosts": 130,
+			"equipments": ["DE", "FR", "BE", "SE", "NO"]
+		},
+		{
 			"id": 7036,
 			"group": 0,
 			"name": "NOHAB AA16",
@@ -7769,7 +8277,21 @@
 			"reliability": 0.8,
 			"cost": 180000,
 			"operationCosts": 180,
-			"equipments": ["DK", "NO", "HU", "DE", "SE", "BE", "LU"]
+			"equipments": ["DK", "NO", "HU", "DE", "SE", "BE", "LU", "XK"]
+		},
+		{
+			"id": 861461,
+			"group": 0,
+			"name": "DSB MZ",
+			"speed": 143,
+			"weight": 116,
+			"force": 390,
+			"length": 19,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 220000,
+			"operationCosts": 160,
+			"equipments": ["DK", "NO", "SE"]
 		},
 		{
 			"id": 55418,
@@ -7895,7 +8417,7 @@
 			"reliability": 0.8,
 			"cost": 350000,
 			"operationCosts": 125,
-			"equipments": ["SI", "HR", "RS", "ME", "BA"]
+			"equipments": ["SI", "HR", "RS", "ME", "BA", "XK"]
 		},
 		{
 			"id": 72645,
@@ -7937,7 +8459,7 @@
 			"reliability": 0.8,
 			"cost": 310000,
 			"operationCosts": 125,
-			"equipments": ["PL", "RO", "BG", "IT"]
+			"equipments": ["PL", "RO", "BG", "IT" , "RS"]
 		},
 		{
 			"id": 73220,
@@ -8084,7 +8606,7 @@
 		{
 			"id": 713339,
 			"group": 0,
-			"name": "Vossloh Euro 4000",
+			"name": "Vossloh Euro 4000 (Breitspurversion)",
 			"shortcut": "RENFE-Baureihe 333",
 			"speed": 160,
 			"weight": 123,
@@ -9317,6 +9839,23 @@
 			"exchangeTime": 180,
 			"capacity": [
 				{"name": "bistroseats", "value": 36}
+			]
+		},
+		{
+			"id": 757628753,
+			"group": 1,
+			"name": "NSB Typ 3 Sitzwagen Flåmsbana",
+			"shortcut": "B3-2",
+			"speed": 160,
+			"weight": 39,
+			"force": 0,
+			"length": 24,
+			"drive": 0,
+			"reliability": 0.8,
+			"cost": 250000,
+			"exchangeTime": 180,
+			"capacity": [
+				{"name": "passengers", "value": 100}
 			]
 		},
 		{
