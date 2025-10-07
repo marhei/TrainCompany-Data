@@ -17929,44 +17929,46 @@
 		{
 			"electrified": true,
 			"group": 0,
-			"maxSpeed": 90,
-			"twistingFactor": 0.26,
 			"name": "Save-Korridor",
+			"neededEquipments": [
+				"SI"
+			],
 			"objects": [
 				{
 					"start": "XZL",
 					"end": "XZZM",
 					"length": 64,
-					"neededEquipments": [
-						"SI"
-					],
+					"maxSpeed": 90,
 					"twistingFactor": 0.3
 				},
 				{
 					"start": "XZZM",
 					"end": "XZSN",
 					"length": 16,
-					"neededEquipments": [
-						"SI"
-					],
-					"maxSpeed": 80
+					"maxSpeed": 80,
+					"twistingFactor": 0.26
 				},
 				{
 					"start": "XZSN",
 					"end": "XZD",
 					"length": 32,
-					"neededEquipments": [
-						"SI"
-					],
-					"maxSpeed": 100
-				},
+					"maxSpeed": 100,
+					"twistingFactor": 0.26
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "Save-Korridor",
+			"neededEquipments": [
+				"HR"
+			],
+			"objects": [
 				{
 					"start": "XZD",
 					"end": "XRSM",
 					"length": 9,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
 				},
@@ -17974,9 +17976,6 @@
 					"start": "XRSM",
 					"end": "XRZP",
 					"length": 6,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
 				},
@@ -17984,9 +17983,6 @@
 					"start": "XRZP",
 					"end": "XRZ",
 					"length": 17,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 120,
 					"twistingFactor": 0.13
 				},
@@ -17994,9 +17990,6 @@
 					"start": "XRZ",
 					"end": "XRDS",
 					"length": 20,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 140,
 					"twistingFactor": 0.13
 				},
@@ -18004,9 +17997,6 @@
 					"start": "XRDS",
 					"end": "XRIG",
 					"length": 18,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 60,
 					"twistingFactor": 0.2
 				},
@@ -18014,9 +18004,6 @@
 					"start": "XRIG",
 					"end": "XRPP",
 					"length": 25,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 60,
 					"twistingFactor": 0.2
 				},
@@ -18024,9 +18011,6 @@
 					"start": "XRPP",
 					"end": "XRBJ",
 					"length": 25,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 70,
 					"twistingFactor": 0.2
 				},
@@ -18034,9 +18018,6 @@
 					"start": "XRBJ",
 					"end": "XRNV",
 					"length": 18,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 80,
 					"twistingFactor": 0.2
 				},
@@ -18044,9 +18025,6 @@
 					"start": "XRNV",
 					"end": "XRNG",
 					"length": 34,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 160,
 					"twistingFactor": 0.16
 				},
@@ -18054,9 +18032,6 @@
 					"start": "XRNG",
 					"end": "XRNK",
 					"length": 21,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
 				},
@@ -18064,9 +18039,6 @@
 					"start": "XRNK",
 					"end": "XRSL",
 					"length": 30,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 110,
 					"twistingFactor": 0.13
 				},
@@ -18074,9 +18046,6 @@
 					"start": "XRSL",
 					"end": "XRSV",
 					"length": 32,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
 				},
@@ -18084,9 +18053,6 @@
 					"start": "XRSV",
 					"end": "XRVI",
 					"length": 32,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 140,
 					"twistingFactor": 0.12
 				},
@@ -18094,19 +18060,23 @@
 					"start": "XRVI",
 					"end": "XRT",
 					"length": 32,
-					"neededEquipments": [
-						"HR"
-					],
 					"maxSpeed": 160,
 					"twistingFactor": 0.1
-				},
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "Save-Korridor",
+			"neededEquipments": [
+				"RS"
+			],
+			"objects": [
 				{
 					"start": "XRT",
 					"end": "XJSI",
 					"length": 7,
-					"neededEquipments": [
-						"RS"
-					],
 					"maxSpeed": 120,
 					"twistingFactor": 0.1
 				},
@@ -18114,9 +18084,6 @@
 					"start": "XJSI",
 					"end": "XJSM",
 					"length": 35,
-					"neededEquipments": [
-						"RS"
-					],
 					"maxSpeed": 80,
 					"twistingFactor": 0.1
 				},
@@ -18124,9 +18091,6 @@
 					"start": "XJSM",
 					"end": "XJRU",
 					"length": 16,
-					"neededEquipments": [
-						"RS"
-					],
 					"maxSpeed": 80,
 					"twistingFactor": 0.05
 				},
@@ -18134,9 +18098,6 @@
 					"start": "XJRU",
 					"end": "XJSP",
 					"length": 29,
-					"neededEquipments": [
-						"RS"
-					],
 					"maxSpeed": 100,
 					"twistingFactor": 0.12
 				}
@@ -37776,6 +37737,198 @@
 			]
 		},
 		{
+			"name": "Wocheinerbahn",
+			"neededEquipments": [
+				"SI"
+			],
+			"group": 1,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "XZJ",
+					"end": "🇸🇮O472725357",
+					"length": 4,
+					"maxSpeed": 60,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇸🇮O472725357",
+					"end": "🇸🇮O829850840",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇮O829850840",
+					"end": "🇸🇮O283207146",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇸🇮O283207146",
+					"end": "🇸🇮O930818699",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇮O930818699",
+					"end": "🇸🇮O786599091",
+					"length": 9,
+					"maxSpeed": 70,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇸🇮O786599091",
+					"end": "🇸🇮O471562298",
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "🇸🇮O471562298",
+					"end": "🇸🇮O829057113",
+					"length": 7,
+					"maxSpeed": 70,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O829057113",
+					"end": "🇸🇮O829057138",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇸🇮O829057138",
+					"end": "🇸🇮O838588271",
+					"length": 6,
+					"maxSpeed": 60,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "🇸🇮O838588271",
+					"end": "🇸🇮O838588247",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇮O838588247",
+					"end": "🇸🇮O811465751",
+					"length": 5,
+					"maxSpeed": 70,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇮O811465751",
+					"end": "🇸🇮O838615399",
+					"length": 8,
+					"maxSpeed": 70,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇸🇮O838615399",
+					"end": "🇸🇮O449384674",
+					"length": 5,
+					"maxSpeed": 70,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "🇸🇮O449384674",
+					"end": "🇸🇮O838627770",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "🇸🇮O838627770",
+					"end": "🇸🇮O838627738",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇸🇮O838627738",
+					"end": "🇸🇮O9907002126",
+					"length": 10,
+					"maxSpeed": 70,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇮O9907002126",
+					"end": "🇸🇮O1864393414",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O1864393414",
+					"end": "🇸🇮O1762243738",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇮O1762243738",
+					"end": "🇸🇮O1762243737",
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇸🇮O1762243737",
+					"end": "🇸🇮O860117543",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O860117543",
+					"end": "🇸🇮O1867262492",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇮O1867262492",
+					"end": "🇸🇮O1762284285",
+					"length": 2,
+					"maxSpeed": 65,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O1762284285",
+					"end": "🇸🇮O711463844",
+					"length": 6,
+					"maxSpeed": 65,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇸🇮O711463844",
+					"end": "🇸🇮O1867264632",
+					"length": 6,
+					"maxSpeed": 70,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "🇸🇮O1867264632",
+					"end": "🇸🇮O860150930",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇸🇮O860150930",
+					"end": "XZS",
+					"length": 6,
+					"maxSpeed": 75,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
 			"group": 1,
 			"electrified": false,
 			"maxSpeed": 120,
@@ -38031,10 +38184,16 @@
 			],
 			"objects": [
 				{
-					"twistingFactor": 0.2,
 					"start": "XFTA",
+					"end": "🇫🇷BCK",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇫🇷BCK",
 					"end": "🇫🇷NPG",
-					"length": 28
+					"length": 27,
+					"twistingFactor": 0.26
 				},
 				{
 					"start": "🇫🇷NPG",
@@ -40019,12 +40178,12 @@
 			"neededEquipments": [
 				"HR"
 			],
+			"name": "Zagreb – Rijeka",
+			"electrified": true,
 			"objects": [
 				{
 					"start": "XRZ",
 					"end": "🇭🇷O869878799",
-					"name": "Zagreb – Rijeka",
-					"electrified": true,
 					"length": 10,
 					"maxSpeed": 100,
 					"twistingFactor": 0.23
@@ -40032,8 +40191,6 @@
 				{
 					"start": "🇭🇷O869878799",
 					"end": "🇭🇷O869880204",
-					"name": "Zagreb – Rijeka",
-					"electrified": true,
 					"length": 13,
 					"maxSpeed": 100,
 					"twistingFactor": 0.07
@@ -40041,8 +40198,6 @@
 				{
 					"start": "🇭🇷O869880204",
 					"end": "🇭🇷O869867756",
-					"name": "Zagreb – Rijeka",
-					"electrified": true,
 					"length": 8,
 					"maxSpeed": 140,
 					"twistingFactor": 0.01
@@ -40050,8 +40205,6 @@
 				{
 					"start": "🇭🇷O869867756",
 					"end": "XRKA",
-					"name": "Zagreb – Rijeka",
-					"electrified": true,
 					"length": 19,
 					"maxSpeed": 100,
 					"twistingFactor": 0.14
@@ -40059,8 +40212,6 @@
 				{
 					"start": "XRKA",
 					"end": "🇭🇷O273313682",
-					"name": "Zagreb – Rijeka",
-					"electrified": true,
 					"length": 10,
 					"maxSpeed": 80,
 					"twistingFactor": 0.4
@@ -40068,8 +40219,6 @@
 				{
 					"start": "🇭🇷O273313682",
 					"end": "🇭🇷O1871109154",
-					"name": "Zagreb – Rijeka",
-					"electrified": true,
 					"length": 12,
 					"maxSpeed": 80,
 					"twistingFactor": 0.28
@@ -40077,8 +40226,6 @@
 				{
 					"start": "🇭🇷O1871109154",
 					"end": "🇭🇷O1735311577",
-					"name": "Zagreb – Rijeka",
-					"electrified": true,
 					"length": 19,
 					"maxSpeed": 80,
 					"twistingFactor": 0.32
@@ -40086,17 +40233,149 @@
 				{
 					"start": "🇭🇷O1735311577",
 					"end": "🇭🇷O419252847",
-					"name": "Zagreb – Rijeka",
-					"electrified": true,
 					"length": 3,
 					"maxSpeed": 60,
 					"twistingFactor": 0.2
 				},
 				{
 					"start": "🇭🇷O419252847",
+					"end": "XROT",
+					"length": 2,
+					"maxSpeed": 75,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XROT",
+					"end": "XROG",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XROG",
+					"end": "🇭🇷O1401111915",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇭🇷O1401111915",
+					"end": "🇭🇷O331888596",
+					"length": 7,
+					"maxSpeed": 75,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇭🇷O331888596",
+					"end": "XRVK",
+					"length": 6,
+					"maxSpeed": 75,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "XRVK",
+					"end": "🇭🇷O419227169",
+					"length": 8,
+					"maxSpeed": 75,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇭🇷O419227169",
+					"end": "🇭🇷O1399741463",
+					"length": 7,
+					"maxSpeed": 75,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "🇭🇷O1399741463",
+					"end": "🇭🇷O1399875169",
+					"length": 9,
+					"maxSpeed": 70,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇭🇷O1399875169",
+					"end": "🇭🇷O11047894843",
+					"length": 6,
+					"maxSpeed": 75,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇭🇷O11047894843",
+					"end": "XRDN",
+					"length": 5,
+					"maxSpeed": 75,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "XRDN",
+					"end": "🇭🇷O1400349545",
+					"length": 8,
+					"maxSpeed": 75,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "🇭🇷O1400349545",
+					"end": "🇭🇷O11053231399",
+					"length": 8,
+					"maxSpeed": 75,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "🇭🇷O11053231399",
+					"end": "🇭🇷O11053262952",
+					"length": 7,
+					"maxSpeed": 75,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "🇭🇷O11053262952",
+					"end": "🇭🇷O419129705",
+					"length": 9,
+					"maxSpeed": 70,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "🇭🇷O419129705",
+					"end": "🇭🇷O11053263064",
+					"length": 7,
+					"maxSpeed": 60,
+					"twistingFactor": 0.8
+				},
+				{
+					"start": "🇭🇷O11053263064",
+					"end": "🇭🇷O1119343289",
+					"length": 7,
+					"maxSpeed": 70,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "🇭🇷O1119343289",
+					"end": "🇭🇷O2522235651",
+					"length": 8,
+					"maxSpeed": 70,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇭🇷O2522235651",
+					"end": "XRR",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"HR"
+			],
+			"name": "Oštarije – Knin",
+			"electrified": false,
+			"objects": [
+				{
+					"start": "XROT",
 					"end": "🇭🇷O1400235298",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 15,
 					"maxSpeed": 80,
 					"twistingFactor": 0.4
@@ -40104,8 +40383,6 @@
 				{
 					"start": "🇭🇷O1400235298",
 					"end": "🇭🇷O1416130468",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 19,
 					"maxSpeed": 80,
 					"twistingFactor": 0.39
@@ -40113,8 +40390,6 @@
 				{
 					"start": "🇭🇷O1416130468",
 					"end": "🇭🇷O9661752252",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 25,
 					"maxSpeed": 70,
 					"twistingFactor": 0.36
@@ -40122,8 +40397,6 @@
 				{
 					"start": "🇭🇷O9661752252",
 					"end": "🇭🇷O1404490638",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 5,
 					"maxSpeed": 70,
 					"twistingFactor": 0.4
@@ -40131,8 +40404,6 @@
 				{
 					"start": "🇭🇷O1404490638",
 					"end": "🇭🇷O1404809717",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 15,
 					"maxSpeed": 75,
 					"twistingFactor": 0.4
@@ -40140,8 +40411,6 @@
 				{
 					"start": "🇭🇷O1404809717",
 					"end": "🇭🇷O1404864926",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 17,
 					"maxSpeed": 100,
 					"twistingFactor": 0.35
@@ -40149,8 +40418,6 @@
 				{
 					"start": "🇭🇷O1404864926",
 					"end": "XRG",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 14,
 					"maxSpeed": 100,
 					"twistingFactor": 0.23
@@ -40158,8 +40425,6 @@
 				{
 					"start": "XRG",
 					"end": "🇭🇷O9655821629",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 7,
 					"maxSpeed": 100,
 					"twistingFactor": 0.28
@@ -40167,8 +40432,6 @@
 				{
 					"start": "🇭🇷O9655821629",
 					"end": "🇭🇷O869897800",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 20,
 					"maxSpeed": 100,
 					"twistingFactor": 0.01
@@ -40176,8 +40439,6 @@
 				{
 					"start": "🇭🇷O869897800",
 					"end": "🇭🇷O472483447",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 15,
 					"maxSpeed": 100,
 					"twistingFactor": 0.06
@@ -40185,8 +40446,6 @@
 				{
 					"start": "🇭🇷O472483447",
 					"end": "🇭🇷O1405078587",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 26,
 					"maxSpeed": 75,
 					"twistingFactor": 0.36
@@ -40194,8 +40453,6 @@
 				{
 					"start": "🇭🇷O1405078587",
 					"end": "🇭🇷O9809650075",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 12,
 					"maxSpeed": 75,
 					"twistingFactor": 0.24
@@ -40203,8 +40460,6 @@
 				{
 					"start": "🇭🇷O9809650075",
 					"end": "🇭🇷O2330847109",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 7,
 					"maxSpeed": 80,
 					"twistingFactor": 0.4
@@ -40212,17 +40467,23 @@
 				{
 					"start": "🇭🇷O2330847109",
 					"end": "XRK",
-					"name": "Oštarije – Knin",
-					"electrified": false,
 					"length": 16,
 					"maxSpeed": 80,
 					"twistingFactor": 0.4
-				},
+				}
+			]
+		},
+		{
+			"group": 0,
+			"neededEquipments": [
+				"HR"
+			],
+			"name": "Knin – Split",
+			"electrified": false,
+			"objects": [
 				{
 					"start": "XRK",
 					"end": "🇭🇷O1946792762",
-					"name": "Knin – Split",
-					"electrified": false,
 					"length": 10,
 					"maxSpeed": 80,
 					"twistingFactor": 0.19
@@ -40230,8 +40491,6 @@
 				{
 					"start": "🇭🇷O1946792762",
 					"end": "🇭🇷O1440222604",
-					"name": "Knin – Split",
-					"electrified": false,
 					"length": 8,
 					"maxSpeed": 80,
 					"twistingFactor": 0.16
@@ -40239,8 +40498,6 @@
 				{
 					"start": "🇭🇷O1440222604",
 					"end": "🇭🇷O1112948178",
-					"name": "Knin – Split",
-					"electrified": false,
 					"length": 10,
 					"maxSpeed": 80,
 					"twistingFactor": 0.4
@@ -40248,8 +40505,6 @@
 				{
 					"start": "🇭🇷O1112948178",
 					"end": "🇭🇷O935883723",
-					"name": "Knin – Split",
-					"electrified": false,
 					"length": 11,
 					"maxSpeed": 100,
 					"twistingFactor": 0.23
@@ -40257,8 +40512,6 @@
 				{
 					"start": "🇭🇷O935883723",
 					"end": "XRPE",
-					"name": "Knin – Split",
-					"electrified": false,
 					"length": 12,
 					"maxSpeed": 80,
 					"twistingFactor": 0.39
@@ -40266,8 +40519,6 @@
 				{
 					"start": "XRPE",
 					"end": "🇭🇷O2523192383",
-					"name": "Knin – Split",
-					"electrified": false,
 					"length": 7,
 					"maxSpeed": 90,
 					"twistingFactor": 0.37
@@ -40275,8 +40526,6 @@
 				{
 					"start": "🇭🇷O2523192383",
 					"end": "🇭🇷O578116114",
-					"name": "Knin – Split",
-					"electrified": false,
 					"length": 11,
 					"maxSpeed": 70,
 					"twistingFactor": 0.39
@@ -40284,8 +40533,6 @@
 				{
 					"start": "🇭🇷O578116114",
 					"end": "🇭🇷O3671459717",
-					"name": "Knin – Split",
-					"electrified": false,
 					"length": 15,
 					"maxSpeed": 80,
 					"twistingFactor": 0.3
@@ -40293,8 +40540,6 @@
 				{
 					"start": "🇭🇷O3671459717",
 					"end": "🇭🇷O1115889192",
-					"name": "Knin – Split",
-					"electrified": false,
 					"length": 7,
 					"maxSpeed": 80,
 					"twistingFactor": 0.13
@@ -40302,8 +40547,6 @@
 				{
 					"start": "🇭🇷O1115889192",
 					"end": "XRS",
-					"name": "Knin – Split",
-					"electrified": false,
 					"length": 7,
 					"maxSpeed": 85,
 					"twistingFactor": 0.2
@@ -47470,6 +47713,218 @@
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
+				"SI"
+			],
+			"objects": [
+				{
+					"start": "XZZM",
+					"end": "XZLA",
+					"length": 14,
+					"maxSpeed": 90,
+					"twistingFactor": 0.48
+				},
+				{
+					"start": "XZLA",
+					"end": "XZCE",
+					"length": 10,
+					"maxSpeed": 125,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "XZCE",
+					"end": "🇸🇮O5614990298",
+					"length": 4,
+					"maxSpeed": 110,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O5614990298",
+					"end": "🇸🇮O3268674137",
+					"length": 5,
+					"maxSpeed": 140,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "🇸🇮O3268674137",
+					"end": "XZGB",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XZGB",
+					"end": "🇸🇮O3268673776",
+					"length": 4,
+					"maxSpeed": 100,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "🇸🇮O3268673776",
+					"end": "🇸🇮O12435542285",
+					"length": 7,
+					"maxSpeed": 100,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "🇸🇮O12435542285",
+					"end": "🇸🇮O11638988216",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "🇸🇮O11638988216",
+					"end": "🇸🇮O1822863222",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "🇸🇮O1822863222",
+					"end": "XZPG",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "XZPG",
+					"end": "🇸🇮O11630875983",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O11630875983",
+					"end": "🇸🇮O11630875863",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O11630875863",
+					"end": "XZM",
+					"length": 6,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "XZM",
+					"end": "🇸🇮O5682631227",
+					"length": 5,
+					"maxSpeed": 130,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "🇸🇮O5682631227",
+					"end": "🇸🇮O10195858627",
+					"length": 3,
+					"maxSpeed": 125,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O10195858627",
+					"end": "🇸🇮O5682644396",
+					"length": 3,
+					"maxSpeed": 125,
+					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "Südbahn",
+			"neededEquipments": [
+				"AT"
+			],
+			"objects": [
+				{
+					"start": "🇸🇮O5682644396",
+					"end": "XASS",
+					"length": 4,
+					"maxSpeed": 120,
+					"twistingFactor": 0.01,
+					"neededEquipments": [
+						"AT",
+						"SI"
+					]
+				},
+				{
+					"start": "XASS",
+					"end": "🇦🇹O297428922",
+					"length": 3,
+					"maxSpeed": 100,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇦🇹O297428922",
+					"end": "XALZ",
+					"length": 7,
+					"maxSpeed": 120,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "XALZ",
+					"end": "🇦🇹O9044236191",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇦🇹O9044236191",
+					"end": "XAWI",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "XAWI",
+					"end": "XAWRD",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "XAWRD",
+					"end": "XAKAL",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XAKAL",
+					"end": "🇦🇹O1362117623",
+					"length": 3,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇦🇹O1362117623",
+					"end": "🇦🇹O2700678707",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇦🇹O2700678707",
+					"end": "🇦🇹O9945833098",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇦🇹O9945833098",
+					"end": "XAG",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
 				"SE"
 			],
 			"name": "Kontinentalbanan",
@@ -47599,6 +48054,106 @@
 					"length": 11,
 					"maxSpeed": 160,
 					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"SI"
+			],
+			"objects": [
+				{
+					"start": "XZPV",
+					"end": "🇸🇮O1867247743",
+					"length": 4,
+					"maxSpeed": 75,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "🇸🇮O1867247743",
+					"end": "🇸🇮O12010320198",
+					"length": 5,
+					"maxSpeed": 75,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇸🇮O12010320198",
+					"end": "XZIB",
+					"length": 7,
+					"maxSpeed": 75,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "XZIB",
+					"end": "XRSJ",
+					"length": 12,
+					"maxSpeed": 75,
+					"twistingFactor": 0.26,
+					"neededEquipments": [
+						"HR",
+						"SI"
+					]
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"name": "Rijeka – Šapjane",
+			"neededEquipments": [
+				"HR"
+			],
+			"objects": [
+				{
+					"start": "XRSJ",
+					"end": "XRPER",
+					"length": 10,
+					"maxSpeed": 50,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "XRPER",
+					"end": "XRJU",
+					"length": 2,
+					"maxSpeed": 50,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XRJU",
+					"end": "🇭🇷O1871175077",
+					"length": 2,
+					"maxSpeed": 40,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇭🇷O1871175077",
+					"end": "🇭🇷O4568916303",
+					"length": 2,
+					"maxSpeed": 40,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "🇭🇷O4568916303",
+					"end": "XROM",
+					"length": 3,
+					"maxSpeed": 40,
+					"twistingFactor": 0.56
+				},
+				{
+					"start": "XROM",
+					"end": "🇭🇷O1827529595",
+					"length": 7,
+					"maxSpeed": 40,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "🇭🇷O1827529595",
+					"end": "XRR",
+					"length": 3,
+					"maxSpeed": 40,
+					"twistingFactor": 0.01
 				}
 			]
 		},
@@ -51095,6 +51650,148 @@
 					"length": 9,
 					"maxSpeed": 140,
 					"twistingFactor": 0.26
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"SI"
+			],
+			"objects": [
+				{
+					"start": "XZPG",
+					"end": "🇸🇮O1845623865",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O1845623865",
+					"end": "🇸🇮O10083852855",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O10083852855",
+					"end": "🇸🇮O5682616370",
+					"length": 5,
+					"maxSpeed": 50,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O5682616370",
+					"end": "🇸🇮O1845630122",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O1845630122",
+					"end": "XZP",
+					"length": 2,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "XZP",
+					"end": "🇸🇮O12925781214",
+					"length": 8,
+					"maxSpeed": 160,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "🇸🇮O12925781214",
+					"end": "🇸🇮O1867216158",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O1867216158",
+					"end": "🇸🇮O1867216570",
+					"length": 1,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O1867216570",
+					"end": "🇸🇮O1867218815",
+					"length": 4,
+					"maxSpeed": 160,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O1867218815",
+					"end": "XZO",
+					"length": 4,
+					"maxSpeed": 130,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "XZO",
+					"end": "🇸🇮O1867224261",
+					"length": 8,
+					"maxSpeed": 140,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "🇸🇮O1867224261",
+					"end": "🇸🇮O1867225284",
+					"length": 4,
+					"maxSpeed": 140,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "🇸🇮O1867225284",
+					"end": "🇸🇮O1754872708",
+					"length": 5,
+					"maxSpeed": 120,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇸🇮O1754872708",
+					"end": "🇸🇮O1867231871",
+					"length": 7,
+					"maxSpeed": 160,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "🇸🇮O1867231871",
+					"end": "🇸🇮O364926662",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "🇸🇮O364926662",
+					"end": "XZMUS",
+					"length": 5,
+					"maxSpeed": 160,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "XZMUS",
+					"end": "🇸🇮O1867239041",
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "🇸🇮O1867239041",
+					"end": "🇸🇮O1867242142",
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "🇸🇮O1867242142",
+					"end": "XZHO",
+					"length": 8,
+					"maxSpeed": 120,
+					"twistingFactor": 0.1
 				}
 			]
 		},
@@ -61557,6 +62254,68 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"neededEquipments": [
+				"SI"
+			],
+			"objects": [
+				{
+					"start": "XZDV",
+					"end": "XZRK",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "XZRK",
+					"end": "XZHK",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "XZHK",
+					"end": "XZPN",
+					"length": 3,
+					"maxSpeed": 85,
+					"twistingFactor": 0.04
+				},
+				{
+					"start": "XZPN",
+					"end": "🇸🇮O1867254163",
+					"name": "Železnica Prešnica-Koper",
+					"length": 6,
+					"maxSpeed": 85,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "🇸🇮O1867254163",
+					"end": "🇸🇮O2261867187",
+					"name": "Železnica Prešnica-Koper",
+					"length": 8,
+					"maxSpeed": 80,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "🇸🇮O2261867187",
+					"end": "🇸🇮O759070109",
+					"name": "Železnica Prešnica-Koper",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "🇸🇮O759070109",
+					"end": "XZKO",
+					"name": "Železnica Prešnica-Koper",
+					"length": 13,
+					"maxSpeed": 90,
+					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
 			"group": 0,
 			"maxSpeed": 120,
 			"twistingFactor": 0.24,
@@ -67049,7 +67808,7 @@
 			"twistingFactor": 0.0,
 			"maxSpeed": 140,
 			"objects": [
-			    {
+				{
 					"start": "TS",
 					"end": "TSV",
 					"length": 12,
@@ -88403,7 +89162,7 @@
 			"twistingFactor": 0.0,
 			"maxSpeed": 100,
 			"objects": [
-			    {
+				{
 					"start": "TSRO",
 					"end": "TOAI",
 					"length": 2,
@@ -88935,7 +89694,7 @@
 			"twistingFactor": 0.0,
 			"maxSpeed": 160,
 			"objects": [
-			    {
+				{
 					"start": "TS",
 					"end": "TSNS",
 					"length": 5,
@@ -89119,7 +89878,7 @@
 			"twistingFactor": 0.3,
 			"maxSpeed": 50,
 			"objects": [
-			    {
+				{
 					"start": "TAM",
 					"end": "TSBH",
 					"length": 5,
@@ -89156,7 +89915,7 @@
 			"twistingFactor": 0.3,
 			"maxSpeed": 100,
 			"objects": [
-			    {
+				{
 					"start": "TFS",
 					"end": "TFSI",
 					"length": 1,
@@ -89353,14 +90112,14 @@
 				}
 			]
 		},
-				{
+		{
 			"electrified": true,
 			"name": "Neckar-Alb-Bahn",
 			"group": 0,
 			"twistingFactor": 0.28,
 			"maxSpeed": 130,
 			"objects": [
-			    {
+				{
 					"start": "TP",
 					"end": "TWER",
 					"length": 3,
@@ -89452,7 +90211,7 @@
 			"twistingFactor": 0.36,
 			"maxSpeed": 110,
 			"objects": [
-			    {
+				{
 					"start": "TT",
 					"end": "TKBI",
 					"length": 7,
@@ -89504,7 +90263,7 @@
 			"twistingFactor": 0.13,
 			"maxSpeed": 100,
 			"objects": [
-			    {
+				{
 					"start": "TWD",
 					"end": "TKTO",
 					"length": 4,
@@ -89563,7 +90322,7 @@
 			"twistingFactor": 0.24,
 			"maxSpeed": 80,
 			"objects": [
-			    {
+				{
 					"start": "TNU",
 					"end": "TNUV",
 					"length": 1,
@@ -89606,7 +90365,7 @@
 			"twistingFactor": 0.19,
 			"maxSpeed": 80,
 			"objects": [
-			    {
+				{
 					"start": "TME",
 					"end": "TNHU",
 					"length": 2,
@@ -89658,7 +90417,7 @@
 			"twistingFactor": 0.34,
 			"maxSpeed": 100,
 			"objects": [
-			    {
+				{
 					"start": "TWD",
 					"end": "TRHZ",
 					"length": 3
@@ -89675,7 +90434,7 @@
 			"twistingFactor": 0.1,
 			"maxSpeed": 160,
 			"objects": [
-			    {
+				{
 					"start": "XFVH",
 					"end": "OFH",
 					"length": 7,
@@ -89766,7 +90525,7 @@
 			"twistingFactor": 0.26,
 			"maxSpeed": 100,
 			"objects": [
-			    {
+				{
 					"start": "TH",
 					"end": "TBCS",
 					"length": 1,
@@ -89957,7 +90716,7 @@
 			"twistingFactor": 0.25,
 			"maxSpeed": 120,
 			"objects": [
-			    {
+				{
 					"start": "TBF",
 					"end": "TBWT",
 					"length": 1,
@@ -90060,7 +90819,7 @@
 			"twistingFactor": 0.35,
 			"maxSpeed": 100,
 			"objects": [
-			    {
+				{
 					"start": "RMK",
 					"end": "RESN",
 					"length": 5
@@ -90103,7 +90862,7 @@
 			"twistingFactor": 0.39,
 			"maxSpeed": 60,
 			"objects": [
-			    {
+				{
 					"start": "RNHF",
 					"end": "RNHS",
 					"length": 3
@@ -90142,7 +90901,7 @@
 			"twistingFactor": 0.32,
 			"maxSpeed": 80,
 			"objects": [
-			    {
+				{
 					"start": "RSS",
 					"end": "RRIN",
 					"length": 3
@@ -90161,6 +90920,66 @@
 					"start": "RRIH",
 					"end": "REP",
 					"length": 4
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"name": "Ammertalbahn",
+			"group": 1,
+			"twistingFactor": 0.21,
+			"maxSpeed": 100,
+			"objects": [
+			    {
+					"start": "TT",
+					"end": "TTW",
+					"length": 2,
+					"maxSpeed": 70
+				},
+				{
+					"start": "TTW",
+					"end": "TUJS",
+					"length": 4
+				},
+				{
+					"start": "TUJS",
+					"end": "TUJM",
+					"length": 1,
+					"maxSpeed": 70
+				},
+				{
+					"start": "TUJM",
+					"end": "TPG",
+					"length": 1,
+					"maxSpeed": 70
+				},
+				{
+					"start": "TPG",
+					"end": "TENT",
+					"length": 2,
+					"maxSpeed": 90
+				},
+				{
+					"start": "TENT",
+					"end": "TAG",
+					"length": 5
+				},
+				{
+					"start": "TAG",
+					"end": "TGU",
+					"length": 3
+				},
+				{
+					"start": "TGU",
+					"end": "TZWE",
+					"length": 2,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TZWE",
+					"end": "THE",
+					"length": 2,
+					"maxSpeed": 80
 				}
 			]
 		}
