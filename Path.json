@@ -90169,6 +90169,66 @@
 					"length": 4
 				}
 			]
+		},
+		{
+			"electrified": true,
+			"name": "Ammertalbahn",
+			"group": 1,
+			"twistingFactor": 0.21,
+			"maxSpeed": 100,
+			"objects": [
+			    {
+					"start": "TT",
+					"end": "TTW",
+					"length": 2,
+					"maxSpeed": 70
+				},
+				{
+					"start": "TTW",
+					"end": "TUJS",
+					"length": 4
+				},
+				{
+					"start": "TUJS",
+					"end": "TUJM",
+					"length": 1,
+					"maxSpeed": 70
+				},
+				{
+					"start": "TUJM",
+					"end": "TPG",
+					"length": 1,
+					"maxSpeed": 70
+				},
+				{
+					"start": "TPG",
+					"end": "TENT",
+					"length": 2,
+					"maxSpeed": 90
+				},
+				{
+					"start": "TENT",
+					"end": "TAG",
+					"length": 5
+				},
+				{
+					"start": "TAG",
+					"end": "TGU",
+					"length": 3
+				},
+				{
+					"start": "TGU",
+					"end": "TZWE",
+					"length": 2,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TZWE",
+					"end": "THE",
+					"length": 2,
+					"maxSpeed": 80
+				}
+			]
 		}
 	]
 }
