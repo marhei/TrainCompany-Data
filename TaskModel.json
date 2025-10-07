@@ -14193,6 +14193,34 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "RB74 von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre eine Regionalbahn der Linie 74 von %s nach %s.",
+				"Bring deine Fahrgäste pünktlich auf der Nagoldtalbahn nach %2$s!",
+				"Fahre einen Zug der Linie RB74 von %s nach %s. Halte dabei an jeder Station."
+			],
+			"objects": [
+				{
+					"stations": [ "TPH", "TPB", "THF", "TET", "THB", "TT" ],
+					"stopsEverywhere": true
+				},
+				{
+					"stations": [ "TPH", "TPB", "TNA M" ],
+					"descriptions": [
+						"Fahre einen verkürzten Verstärkerzug der Linie RB74 nach %2$s.",
+						"Bring deine Fahrgäste pünktlich auf der Nagoldtalbahn nach %2$s!",
+						"Fahre einen Zug der Linie RB74 von %s nach %s. Halte dabei an jeder Station."
+					],
+					"stopsEverywhere": true
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
