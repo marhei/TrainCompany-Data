@@ -90982,6 +90982,91 @@
 					"maxSpeed": 80
 				}
 			]
+		},
+		{
+			"name": "Nagoldtalbahn",
+			"group": 0,
+			"electrified": false,
+			"twistingFactor": 0.3,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "TPB",
+					"end": "TPW",
+					"length": 3,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TPW",
+					"end": "TURB",
+					"length": 6,
+					"maxSpeed": 70
+				},
+				{
+					"start": "TURB",
+					"end": "TMON",
+					"length": 4,
+					"maxSpeed": 70
+				},
+				{
+					"start": "TMON",
+					"end": "TBLI",
+					"length": 3,
+					"maxSpeed": 70
+				},
+				{
+					"start": "TBLI",
+					"end": "THI",
+					"length": 5,
+					"maxSpeed": 80
+				},
+				{
+					"start": "THI",
+					"end": "TCW",
+					"length": 2,
+					"maxSpeed": 90
+				},
+				{
+					"start": "TCW",
+					"end": "TBT",
+					"length": 5,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TBT",
+					"end": "TWIB",
+					"length": 7,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TWIB",
+					"end": "TNA",
+					"length": 9,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TNA",
+					"end": "TNA M",
+					"length": 1,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TNA M",
+					"end": "TNAS",
+					"length": 1,
+					"maxSpeed": 80
+				},
+				{
+					"start": "TNAS",
+					"end": "TNAI",
+					"length": 1
+				},
+				{
+					"start": "TNAI",
+					"end": "THF",
+					"length": 8
+				}
+			]
 		}
 	]
 }
