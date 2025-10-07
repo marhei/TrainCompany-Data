@@ -8319,6 +8319,20 @@
 		},
 		{
 			"group": 1,
+			"name": "IC von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Um eine kurze Reisezeit auf dieser kurvenreichen Strecke zu ermöglichen, wird ein Pendolino eingesetzt.",
+				"Fahre diesen Premium-Zug im Auftrag der SŽ pünktlich an's Ziel."
+			],
+			"stations": [ "XZL", "XZZM", "XZCE", "XZPG", "XZM" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "Regio von %s nach %s",
 			"service": 2,
 			"descriptions": [
@@ -8338,6 +8352,18 @@
 				},
 				{
 					"stations": [ "XRZ", "XRDS", "🇭🇷7800028", "🇭🇷7800356" ]
+				},
+				{
+					"stations": [ "XRPU", "🇭🇷O1836345185" ]
+				},
+				{
+					"stations": [ "XRR", "XRPER" ]
+				},
+				{
+					"stations": [ "XRR", "XROG" ]
+				},
+				{
+					"stations": [ "XRR", "XROG", "XROT", "XRKA", "XRZ" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -11093,7 +11119,7 @@
 				"Die kurvenreiche Strecke von %s nach %s ist ideal für ein NT-Fahrzeug.",
 				"Bring die Urlauber ohne zu kotzen direkt ans Mittelmeer."
 			],
-			"stations": [ "XRZ", "XROT", "XRS" ],
+			"stations": [ "XRZ", "XRKA", "XROT", "XRS" ],
 			"stopsEverywhere": true,
 			"neededCapacity": [
 				{ "name": "passengers" }
@@ -13091,6 +13117,14 @@
 				{
 					"stations": [ "RSP", "MFHB" ],
 					"pathSuggestion": [ "RSP", "RGE", "RGN", "RBR", "TM", "TV", "TBM", "TLU", "TS", "TP", "TAM", "TU", "MGZB", "MA", "MMR", "MH", "MNF", "MFHB" ]
+				},
+				{
+					"stations": [ "XZKO", "MFHB" ],
+					"pathSuggestion": [ "XZKO", "XZPN", "XZDV", "XZPV", "XZL", "XZJ", "XAVH", "XASW", "XABO", "XASB", "MFL", "MTS", "MRO", "MGB", "MH", "MNF", "MFHB" ]
+				},
+				{
+					"stations": [ "XZKO", "🇦🇹O1362117623" ],
+					"pathSuggestion": [ "XZKO", "XZPN", "XZDV", "XZPV", "XZL", "XZZM", "XZCE", "XZPG", "🇦🇹O1362117623" ]
 				}
 			],
 			"neededCapacity": [
@@ -13353,6 +13387,30 @@
 			],
 			"neededCapacity": [
 				{ "name": "wood", "value": 690 }
+			]
+		},
+		{
+			"group": 0,
+			"name": "Containerzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+			],
+			"objects": [
+				{
+					"stations": [ "XZKO", "XZL", "XAG" ]
+				},
+				{
+					"stations": [ "XZKO", "XAVH" ]
+				},
+				{
+					"stations": [ "XRR", "XRZ", "XMBK" ]
+				},
+				{
+					"stations": [ "XRR", "XJBC" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 31 }
 			]
 		},
 		{
