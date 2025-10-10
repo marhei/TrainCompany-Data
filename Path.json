@@ -11288,6 +11288,59 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MWH",
+					"end": "MPBN",
+					"length": 6,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "MPBN",
+					"end": "MPBG",
+					"length": 2,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "MPBG",
+					"end": "MHPG",
+					"length": 6,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "MHPG",
+					"end": "MPTO",
+					"length": 5,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "MPTO",
+					"end": "MPTN",
+					"length": 1,
+					"twistingFactor": 0.38
+				},
+				{
+					"start": "MPTN",
+					"end": "MAHL",
+					"length": 2,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "MAHL",
+					"end": "MSGU",
+					"length": 1,
+					"twistingFactor": 0.62
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"name": "Paris-Marseille",
