@@ -79052,6 +79052,86 @@
 			"length": 22
 		},
 		{
+			"maxSpeed": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "USO",
+					"end": "USOO",
+					"length": 2,
+					"twistingFactor": 0.01,
+					"maxSpeed": 60
+				},
+				{
+					"start": "USOO",
+					"end": "USON",
+					"length": 2,
+					"twistingFactor": 0.39,
+					"maxSpeed": 60
+				},
+				{
+					"start": "USON",
+					"end": "UHUE",
+					"length": 1,
+					"twistingFactor": 0.39,
+					"maxSpeed": 60
+				},
+				{
+					"start": "UHUE",
+					"end": "UHGR",
+					"length": 1,
+					"twistingFactor": 0.1,
+					"maxSpeed": 60
+				},
+				{
+					"start": "UHGR",
+					"end": "UBHA",
+					"length": 1,
+					"twistingFactor": 0.3,
+					"maxSpeed": 60
+				},
+				{
+					"start": "UBHA",
+					"end": "USTA",
+					"length": 4,
+					"twistingFactor": 0.18,
+					"maxSpeed": 60
+				},
+				{
+					"start": "USTA",
+					"end": "USTN",
+					"length": 1,
+					"twistingFactor": 0.04,
+					"maxSpeed": 50
+				},
+				{
+					"start": "USTN",
+					"end": "ULA",
+					"length": 5,
+					"twistingFactor": 0.28,
+					"maxSpeed": 60
+				},
+				{
+					"start": "ULA",
+					"end": "UOLA",s
+					"length": 4,
+					"twistingFactor": 0.8,
+					"maxSpeed": 60
+				},
+				{
+					"start": "UOLA",
+					"end": "UERN",
+					"length": 1,
+					"twistingFactor": 0.39,
+					"maxSpeed": 60
+				}
+			]
+		},
+		{
 			"name": "Viskadalsbanan",
 			"electrified": true,
 			"group": 1,
@@ -88019,7 +88099,7 @@
 				{
 					"start": "NDOE",
 					"end": "NHZW",
-					"length": 0,
+					"length": 1,
 					"twistingFactor": 0.13,
 					"maxSpeed": 100
 				},
@@ -88040,7 +88120,7 @@
 				{
 					"start": "NRTM",
 					"end": "NMOE",
-					"length": 0,
+					"length": 1,
 					"twistingFactor": 0.01,
 					"maxSpeed": 100
 				},
