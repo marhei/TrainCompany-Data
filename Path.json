@@ -46921,6 +46921,46 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 1,
+			"maxSpeed": 100,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NFT",
+					"end": "NFTM",
+					"length": 4,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "NFTM",
+					"end": "NWKH",
+					"length": 3,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "NWKH",
+					"end": "NLHM",
+					"length": 1,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "NLHM",
+					"end": "NADW",
+					"length": 1,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "NADW",
+					"end": "NAD",
+					"length": 1,
+					"twistingFactor": 0.27
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"maxSpeed": 127,
