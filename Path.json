@@ -21139,6 +21139,58 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NAN",
+					"end": "NANS",
+					"length": 8,
+					"twistingFactor": 0.38,
+					"maxSpeed": 110
+				},
+				{
+					"start": "NANS",
+					"end": "NTF",
+					"length": 7,
+					"twistingFactor": 0.19,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NTF",
+					"end": "NMS",
+					"length": 5,
+					"twistingFactor": 0.02,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NMS",
+					"end": "NGUN",
+					"length": 6,
+					"twistingFactor": 0.39,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NGUN",
+					"end": "NWD",
+					"length": 8,
+					"twistingFactor": 0.39,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NWD",
+					"end": "MTL",
+					"length": 15,
+					"twistingFactor": 0.15,
+					"maxSpeed": 160
+				}
+			]
+		},
+		{
 			"group": 0,
 			"neededEquipments": [
 				"GB"
@@ -90930,7 +90982,7 @@
 			"twistingFactor": 0.21,
 			"maxSpeed": 100,
 			"objects": [
-			    {
+				{
 					"start": "TT",
 					"end": "TTW",
 					"length": 2,
