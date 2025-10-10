@@ -23,7 +23,7 @@
 				},
 				{
 					"stations": [ "AA", "AH", "BSPD", "BL", "LW", "LL", "UE P", "NBA", "NER", "NN", "MH" ],
-					"pathSuggestion": [ "AA", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LBT", "LL", "LGOS", "LPLN", "UE P", "NED", "NBA", "NER", "NF", "NN", "MIH", "MDA", "MH" ]
+					"pathSuggestion": [ "AA", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LBT", "LL", "LGOS", "LPLN", "UE P", "NED", "NBA", "NFO", "NER", "NF", "NN", "MIH", "MDA", "MH" ]
 				},
 				{
 					"stations": [ "XSIO", "XSSP", "XSTH", "XSBE", "XSOL", "XSB", "RB", "RF", "RO", "RK", "RM", "FF", "FH", "FFU", "FKW", "HG", "HH", "HWOB", "BL", "BHF" ],
@@ -43,7 +43,7 @@
 				},
 				{
 					"stations": [ "AH", "BL", "LBT", "LH", "UE P", "NBA", "NN", "MIH", "MH" ],
-					"pathSuggestion": [ "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LBT", "LH", "LPLN", "UE P", "NED", "NBA", "NF", "NN", "MIH", "MDA", "MH" ]
+					"pathSuggestion": [ "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LBT", "LH", "LPLN", "UE P", "NED", "NBA", "NFO", "NF", "NN", "MIH", "MDA", "MH" ]
 				}
 			],
 			"neededCapacity": [
@@ -71,7 +71,7 @@
 				},
 				{
 					"stations": [ "MH", "NN", "UE P", "LH", "BL" ],
-					"pathSuggestion": [ "MH", "MDA", "MIH", "NN", "NF", "NBA", "NED", "UE P", "LPLN", "LH", "LBT", "LW", "BJUE", "BL" ]
+					"pathSuggestion": [ "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NED", "UE P", "LPLN", "LH", "LBT", "LW", "BJUE", "BL" ]
 				},
 				{
 					"stations": [ "BL", "BSPD", "KK", "KB" ],
@@ -2043,7 +2043,7 @@
 				"Bringe die Eröffnungsgäste störungsfrei über die neue VDE8."
 			],
 			"stations": [ "NN", "UE P", "LL" ],
-			"pathSuggestion": [ "NN", "NF", "NBA", "NED", "UE P", "LPLN", "LGOS", "LL" ],
+			"pathSuggestion": [ "NN", "NF", "NER", "NFO", "NBA", "NED", "UE P", "LPLN", "LGOS", "LL" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -2192,7 +2192,7 @@
 				},
 				{
 					"stations": [ "UGW", "US", "NK", "NLF", "NBA", "NER", "NN" ],
-					"pathSuggestion": [ "UGW", "US", "NK", "NHM", "NLF", "NED", "NBA", "NER", "NF", "NN" ]
+					"pathSuggestion": [ "UGW", "US", "NK", "NHM", "NLF", "NED", "NBA", "NFO", "NER", "NF", "NN" ]
 				},
 				{
 					"stations": [ "LL", "LH", "LK", "LM", "HBS", "HHI", "HH", "HNBG", "HV", "HB", "HHUD", "HOLD", "HLEE", "HE", "HNN", "HNDM" ],
@@ -4875,7 +4875,7 @@
 			"descriptions": [
 				"Bring den Franken-Thüringen-Express pünktlich von %s nach %s."
 			],
-			"stations": [ "US", "UBZ", "UKL", "UUZ", "UPR", "NLUS", "NSD", "NFDF", "NPR", "NSTH", "NGD", "NK", "NKUE", "NRZ", "NHM", "NLF", "NSFN", "NED", "NBA", "NF", "NN" ],
+			"stations": [ "US", "UBZ", "UKL", "UUZ", "UPR", "NLUS", "NSD", "NFDF", "NPR", "NSTH", "NGD", "NK", "NKUE", "NRZ", "NHM", "NLF", "NSFN", "NED", "NBA", "NFO", "NF", "NN" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -6054,11 +6054,11 @@
 				},
 				{
 					"stations": [ "MFB", "WF" ],
-					"pathSuggestion": [ "MFB", "MH", "MDA", "MIH", "NN", "NF", "NBA", "NED", "NHM", "US", "UGW", "UGH", "LL", "LGOS", "LH", "LBT", "LW", "BJUE", "BL", "WF" ]
+					"pathSuggestion": [ "MFB", "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NED", "NHM", "US", "UGW", "UGH", "LL", "LGOS", "LH", "LBT", "LW", "BJUE", "BL", "WF" ]
 				},
 				{
 					"stations": [ "MFB", "BFUW" ],
-					"pathSuggestion": [ "MFB", "MH", "MDA", "MIH", "NN", "NF", "NBA", "NED", "NHM", "US", "UGW", "UGH", "LL", "LGOS", "LH", "LBT", "LW", "BJUE", "BL", "BFUW" ]
+					"pathSuggestion": [ "MFB", "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NED", "NHM", "US", "UGW", "UGH", "LL", "LGOS", "LH", "LBT", "LW", "BJUE", "BL", "BFUW" ]
 				},
 				{
 					"stations": [ "WF", "BFUW" ],
@@ -6142,7 +6142,7 @@
 				},
 				{
 					"stations": [ "XASA", "US" ],
-					"pathSuggestion": [ "XASA", "XAWL", "MRO", "MGB", "MH", "MDA", "MIH", "NN", "NF", "NBA", "NED", "NHM", "US" ]
+					"pathSuggestion": [ "XASA", "XAWL", "MRO", "MGB", "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NED", "NHM", "US" ]
 				},
 				{
 					"stations": [ "WW", "LW" ],
@@ -6560,7 +6560,7 @@
 				},
 				{
 					"stations": [ "TFFL", "BFBI" ],
-					"pathSuggestion": [ "TFFL", "TAU", "TBI", "TU", "MGZB", "MDT", "MTL", "NN", "NF", "NBA", "NED", "UE P", "LPLN", "LH", "LBT", "LW", "BJUE", "BL", "BFBI" ]
+					"pathSuggestion": [ "TFFL", "TAU", "TBI", "TU", "MGZB", "MDT", "MTL", "NN", "NF", "NFO", "NBA", "NED", "UE P", "LPLN", "LH", "LBT", "LW", "BJUE", "BL", "BFBI" ]
 				}
 			],
 			"neededCapacity": [
@@ -10951,7 +10951,7 @@
 			"objects": [
 				{
 					"stations": [ "RK", "TPH", "TM", "TV", "TS", "TSG", "TA", "TEL", "TC", "NAN", "NN", "NER", "NBA", "NLF", "NK", "US", "UGW", "UNM", "LL" ],
-					"pathSuggestion": [ "RK", "TPH", "TM", "TV", "TS", "TWN", "TSF", "TSG", "TA", "TEL", "TJZ", "TC", "NSNE", "NAN", "NWK", "NN", "NF", "NER", "NBA", "NED", "NLF", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
+					"pathSuggestion": [ "RK", "TPH", "TM", "TV", "TS", "TWN", "TSF", "TSG", "TA", "TEL", "TJZ", "TC", "NSNE", "NAN", "NWK", "NN", "NF", "NER", "NFO", "NBA", "NED", "NLF", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
 				}
 			]
 		},
@@ -10971,7 +10971,7 @@
 				},
 				{
 					"stations": [ "MGP", "MWH", "MH", "NN", "NF", "NBA", "US", "UNM", "LL", "LH", "LM", "LS", "WW" ],
-					"pathSuggestion": [ "MGP", "MMU", "MWH", "MTZ", "MWKR", "MH", "MDA", "MIH", "NN", "NF", "NBA", "NED", "NHM", "US", "UGW", "UGH", "UNM", "LL", "LGOS", "LH", "LM", "LS", "WW" ]
+					"pathSuggestion": [ "MGP", "MMU", "MWH", "MTZ", "MWKR", "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NED", "NHM", "US", "UGW", "UGH", "UNM", "LL", "LGOS", "LH", "LM", "LS", "WW" ]
 				},
 				{
 					"stations": [ "BHF", "BL", "BSPD", "HWOB", "HH", "EPD", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK", "KDN", "KA" ],
@@ -12470,7 +12470,7 @@
 				"Du wurdest zur Eisenbahner*in des Jahres gewählt und erhältst eine Sonderahrt nach Wunsch. Du entschließt dich, deine Kolleg*innen aus Ausbildungszeiten zu besuchen und auf einen Pott Kaffee zu halten."
 			],
 			"stations": [ "BKW", "DH", "LL", "UNM", "US", "NPA", "MKP", "RK", "FD", "SSH", "STR", "EDG", "HLEE", "HB", "AH", "WK", "WSR", "BL" ],
-			"pathSuggestion": [ "BKW", "BFP", "BCS", "BSP", "DG", "DL", "DBW", "DAF", "DH", "DCW", "DPR", "DR", "LBOR", "LL", "UNM", "UGH", "UGW", "US", "NHM", "NED", "NBA", "NF", "NN", "NRH", "NOT", "NPL", "NPA", "MNR", "MMF", "MWSB", "MRO", "MHO", "MH", "MGE", "MKFG", "MBU", "MBIH", "MKP", "MIMS", "MHGZ", "MLIR", "TF", "RRZ", "RSI", "RENG", "RIM", "RDO", "RF", "RO", "RAP", "RRA", "RK", "RBR", "RH", "RMF", "FD", "FDG", "FBL", "FWOR", "RFT", "RFHM", "RN", "RLA", "SHW", "SPSN", "SRO", "SSH", "SDL", "SKZ", "STR", "KEU", "KKAS", "KK", "KGRB", "KM", "KV", "EDG", "EOB", "EG", "EMST", "HR", "HLEE", "HOLD", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AHI", "AHM", "AJ", "AF", "AK", "AL", "WK", "WB", "WSN", "WR", "WSR", "WZS", "WP", "WA", "WE", "BL" ],
+			"pathSuggestion": [ "BKW", "BFP", "BCS", "BSP", "DG", "DL", "DBW", "DAF", "DH", "DCW", "DPR", "DR", "LBOR", "LL", "UNM", "UGH", "UGW", "US", "NHM", "NED", "NBA", "NFO", "NF", "NN", "NRH", "NOT", "NPL", "NPA", "MNR", "MMF", "MWSB", "MRO", "MHO", "MH", "MGE", "MKFG", "MBU", "MBIH", "MKP", "MIMS", "MHGZ", "MLIR", "TF", "RRZ", "RSI", "RENG", "RIM", "RDO", "RF", "RO", "RAP", "RRA", "RK", "RBR", "RH", "RMF", "FD", "FDG", "FBL", "FWOR", "RFT", "RFHM", "RN", "RLA", "SHW", "SPSN", "SRO", "SSH", "SDL", "SKZ", "STR", "KEU", "KKAS", "KK", "KGRB", "KM", "KV", "EDG", "EOB", "EG", "EMST", "HR", "HLEE", "HOLD", "HB", "AROG", "ABLZ", "AHAR", "AH", "AEL", "AHI", "AHM", "AJ", "AF", "AK", "AL", "WK", "WB", "WSN", "WR", "WSR", "WZS", "WP", "WA", "WE", "BL" ],
 			"neededCapacity": [
 				{ "name": "passengers" },
 				{ "name": "bistroseats", "value": 48 },
@@ -12685,7 +12685,7 @@
 				},
 				{
 					"stations": [ "UNM", "RSI" ],
-					"pathSuggestion": [ "UNM", "UGH", "UGW", "US", "NHM", "NED", "NBA", "NF", "NN", "NWK", "NAN", "TC", "TSHT", "TB", "TMB", "TLU", "TS", "THE", "TSUL", "TTU", "RSI" ]
+					"pathSuggestion": [ "UNM", "UGH", "UGW", "US", "NHM", "NED", "NBA", "NFO", "NF", "NN", "NWK", "NAN", "TC", "TSHT", "TB", "TMB", "TLU", "TS", "THE", "TSUL", "TTU", "RSI" ]
 				}
 			],
 			"neededCapacity": [
@@ -13030,7 +13030,7 @@
 				},
 				{
 					"stations": [ "WPS", "MFHB" ],
-					"pathSuggestion": [ "WPS", "WA", "WE", "BL", "BJUE", "LW", "LBT", "LL", "UGH", "UGW", "US", "NHM", "NED", "NBA", "NF", "NN", "NRH", "NOT", "MLA", "MPU", "MFHB" ]
+					"pathSuggestion": [ "WPS", "WA", "WE", "BL", "BJUE", "LW", "LBT", "LL", "UGH", "UGW", "US", "NHM", "NED", "NBA", "NFO", "NF", "NN", "NRH", "NOT", "MLA", "MPU", "MFHB" ]
 				},
 				{
 					"stations": [ "RSP", "MFHB" ],

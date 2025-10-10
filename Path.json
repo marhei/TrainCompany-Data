@@ -53442,6 +53442,53 @@
 			"electrified": false,
 			"group": 1,
 			"maxSpeed": 50,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NFO",
+					"end": "NPI",
+					"length": 3,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "NPI",
+					"end": "NGG",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "NGG",
+					"end": "NWIE",
+					"length": 1,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "NWIE",
+					"end": "NKIR",
+					"length": 2,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "NKIR",
+					"end": "NPRE",
+					"length": 3,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "NPRE",
+					"end": "NEBM",
+					"length": 2,
+					"twistingFactor": 0.05
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 50,
 			"twistingFactor": 0.35,
 			"neededEquipments": [
 				"DE"
