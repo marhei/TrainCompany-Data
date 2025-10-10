@@ -56285,6 +56285,35 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MEST",
+					"end": "MRH",
+					"length": 2,
+					"twistingFactor": 0.8
+				},
+				{
+					"start": "MRH",
+					"end": "MWAS",
+					"length": 2,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "MWAS",
+					"end": "MEB",
+					"length": 0,
+					"twistingFactor": 0.38
+				}
+			]
+		},
+		{
 			"name": "SŽDC 220 Praha - České Budějovice",
 			"group": 0,
 			"electrified": true,
