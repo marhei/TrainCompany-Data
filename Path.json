@@ -31569,6 +31569,34 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 60,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NWIN",
+					"end": "NNDU",
+					"length": 5,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "NNDU",
+					"end": "NPET",
+					"length": 3,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "NPET",
+					"end": "NWK",
+					"length": 3,
+					"twistingFactor": 0.29
+				}
+			]
+		},
+		{
 			"name": "Mittenwaldbahn",
 			"maxSpeed": 60,
 			"electrified": true,
