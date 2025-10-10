@@ -68887,6 +68887,93 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [
+				"DE"
+			],
+			"name": "Gräfenbergbahn",
+			"objects": [
+				{
+					"start": "NF",
+					"end": "NNRO",
+					"length": 8,
+					"twistingFactor": 0.16,
+					"maxSpeed": 40
+				},
+				{
+					"start": "NNRO",
+					"end": "NHER",
+					"length": 9,
+					"twistingFactor": 0.38,
+					"maxSpeed": 80
+				},
+				{
+					"start": "NHER",
+					"end": "NHEN",
+					"length": 2,
+					"twistingFactor": 0.22,
+					"maxSpeed": 60
+				},
+				{
+					"start": "NHEN",
+					"end": "NKAL",
+					"length": 2,
+					"twistingFactor": 0.39,
+					"maxSpeed": 60
+				},
+				{
+					"start": "NKAL",
+					"end": "NGRG",
+					"length": 2,
+					"twistingFactor": 0.28,
+					"maxSpeed": 60
+				},
+				{
+					"start": "NGRG",
+					"end": "NESU",
+					"length": 2,
+					"twistingFactor": 0.14,
+					"maxSpeed": 70
+				},
+				{
+					"start": "NESU",
+					"end": "NFH",
+					"length": 2,
+					"twistingFactor": 0.18,
+					"maxSpeed": 70
+				},
+				{
+					"start": "NFH",
+					"end": "NRLB",
+					"length": 2,
+					"twistingFactor": 0.2,
+					"maxSpeed": 60
+				},
+				{
+					"start": "NRLB",
+					"end": "NIDF",
+					"length": 1,
+					"twistingFactor": 0.01,
+					"maxSpeed": 60
+				},
+				{
+					"start": "NIDF",
+					"end": "NWEO",
+					"length": 1,
+					"twistingFactor": 0.22,
+					"maxSpeed": 60
+				},
+				{
+					"start": "NWEO",
+					"end": "NGFG",
+					"length": 1,
+					"twistingFactor": 0.25,
+					"maxSpeed": 60
+				}
+			]
+		},
+		{
 			"name": "Volmetalbahn",
 			"maxSpeed": 90,
 			"electrified": false,
