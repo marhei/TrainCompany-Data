@@ -81292,6 +81292,59 @@
 			]
 		},
 		{
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"name": "Werrabahn",
+			"objects": [
+				{
+					"start": "NLF",
+					"end": "NSY",
+					"length": 2,
+					"twistingFactor": 0.17,
+					"maxSpeed": 90
+				},
+				{
+					"start": "NSY",
+					"end": "NEC",
+					"length": 7,
+					"twistingFactor": 0.21,
+					"maxSpeed": 100
+				},
+				{
+					"start": "NEC",
+					"end": "NGUF",
+					"length": 3,
+					"twistingFactor": 0.22,
+					"maxSpeed": 100
+				},
+				{
+					"start": "NGUF",
+					"end": "NCR",
+					"length": 3,
+					"twistingFactor": 0.16,
+					"maxSpeed": 100
+				},
+				{
+					"start": "NCR",
+					"end": "NCG",
+					"length": 3,
+					"twistingFactor": 0.29,
+					"maxSpeed": 90
+				},
+				{
+					"start": "NCG",
+					"end": "NC",
+					"length": 1,
+					"twistingFactor": 0.01,
+					"maxSpeed": 90
+				}
+			]
+		},
+		{
 			"group": 0,
 			"neededEquipments": [
 				"US"
