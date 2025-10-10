@@ -14193,6 +14193,28 @@
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
+		},
+		{
+			"group": 1,
+			"name": "SLOVAK EXPRES Tatran von %s nach %s",
+			"service": 1,
+			"descriptions": [
+				"Der Tatran ist der wichtigste Schnellzug in der Slowakei.",
+				"Bringe die Fahrgäste im SLOVAK EXPRES von %s nach %s."
+			],
+			"objects": [
+				{
+					"stations": [ "XYB", "XYTRN", "XYTRE", "XYPU", "XYZ", "XYVU", "XYRU", "XYLIM", "XYPT", "XYSN", "XYMC", "XYKY", "XYK" ],
+					"pathSuggestion": [ "XYB", "XYTRN", "XYTRE", "XYPU", "XYZ", "XYVU", "XYRU", "XYLIM", "XYPT", "XYSN", "XYMC", "XYKY", "XYK" ]
+				},
+				{
+					"stations": [ "XYK", "XYKY", "XYMC", "XYSN", "XYPT", "XYLIM", "XYRU", "XYVU", "XYZ", "XYPU", "XYTRE", "XYTRN", "XYB" ],
+					"pathSuggestion": [ "XYK", "XYKY", "XYMC", "XYSN", "XYPT", "XYLIM", "XYRU", "XYVU", "XYZ", "XYPU", "XYTRE", "XYTRN", "XYB" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
 		}
 	]
 }
