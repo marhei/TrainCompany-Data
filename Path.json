@@ -7951,6 +7951,69 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "US",
+					"end": "UBL",
+					"length": 8,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "UBL",
+					"end": "URTB",
+					"length": 8,
+					"twistingFactor": 0.17,
+					"maxSpeed": 90
+				},
+				{
+					"start": "URTB",
+					"end": "UPA",
+					"length": 5,
+					"twistingFactor": 0.25,
+					"maxSpeed": 90
+				},
+				{
+					"start": "UPA",
+					"end": "USGN",
+					"length": 4,
+					"twistingFactor": 0.31,
+					"maxSpeed": 90
+				},
+				{
+					"start": "USGN",
+					"end": "USTM",
+					"length": 5,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "USTM",
+					"end": "UNWL",
+					"length": 3,
+					"twistingFactor": 0.4,
+					"maxSpeed": 90
+				},
+				{
+					"start": "UNWL",
+					"end": "UMAH",
+					"length": 6,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "UMAH",
+					"end": "UA",
+					"length": 5,
+					"twistingFactor": 0.28
+				}
+			]
+		},
+		{
 			"name": "Oberlausitz-Bahn",
 			"group": 0,
 			"maxSpeed": 160,
