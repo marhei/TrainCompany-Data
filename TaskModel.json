@@ -1809,6 +1809,216 @@
 			]
 		},
 		{
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "NWDO", "NSW", "NPS", "NTB", "NKNN", "NKL", "NSYB", "NBY" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "NWDO", "NSW", "NPS", "NTB", "NKNN", "NKL", "NSYB", "NBY" ]
+		},
+		{
+			"name": "RE von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress von %s nach %s.",
+				"Bring die Fahrgäste im RE pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "NHO", "NMBG", "NNE", "NTG", "NBY", "NCRE", "NPZ", "NNP", "NN" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "NHO", "NOKP", "NMBG", "NNE", "NTG", "NBY", "NCRE", "NSAW", "NPZ", "NNP", "NHR", "NN" ]
+		},
+		{
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "URTB", "UBET", "USCG", "USDF", "UOFM", "UMEL", "UMEU", "UKH" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "URTB", "UBET", "USCG", "USDF", "UOFM", "UMEL", "UMEU", "UKH" ]
+		},
+		{
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "US", "UBL", "URTB", "USGN", "USTM", "UNWL", "UMAH", "UA", "UHSN", "USUE", "UND", "UEBI", "UE P" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "US", "UBL", "URTB", "USGN", "USTM", "UNWL", "UMAH", "UA", "UHSN", "USUE", "UND", "UEBI", "UE P" ]
+		},
+		{
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "NLF", "NSY", "NEC", "NGUF", "NCR", "NC" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "NLF", "NSY", "NEC", "NGUF", "NCR", "NC" ]
+		},
+		{
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "NBY", "NBI", "NRSL", "NH", "NTG", "NNE", "NLS", "NUS", "NKU", "NML", "NMRH", "NBK", "NHM", "NMI", "NLF" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "NBY", "NBI", "NRSL", "NH", "NTG", "NNE", "NLS", "NUS", "NKU", "NML", "NMRH", "NBK", "NHM", "NMI", "NLF" ]
+		},
+		{
+			"name": "BRB RB 67 von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn der Linie 67 von %s nach %s.",
+				"Bring die Fahrgäste in der RB 67 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s.",
+				"Bring die BRB RB 67 von %s nach %s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"objects": [
+				{
+					"stations": [ "MGE", "MOTN", "MSDF", "MUTG", "MRDU", "MSAB", "MDIN", "MRAG", "MWH", "MPBN", "MPBG", "MPTO", "MPTN", "MSGU" ],
+					"pathSuggestion": [ "MGE", "MOTN", "MSDF", "MUTG", "MRDU", "MSAB", "MDIN", "MRAG", "MWH", "MPBN", "MPBG", "MPTO", "MPTN", "MSGU" ]
+				},
+				{
+					"pathSuggestion": [ "MA", "MKIS", "MSAF", "MMR", "MMEG", "MSCN", "MELG", "MWHN", "MGE", "MOTN", "MSDF", "MUTG", "MRDU", "MSAB", "MDIN", "MRAG", "MWH", "MPBN", "MPBG" ],
+					"stations": [ "MA", "MKIS", "MSAF", "MMR", "MMEG", "MSCN", "MELG", "MWHN", "MGE", "MOTN", "MSDF", "MUTG", "MRDU", "MSAB", "MDIN", "MRAG", "MWH", "MPBN", "MPBG" ]
+				}
+			]
+		},
+		{
+			"name": "S3 von %s nach %s",
+			"descriptions": [
+				"Bringe die S-Bahn der Linie 3 von %s nach %s.",
+				"Bring die Fahrgäste in der S 3 pünktlich nach %2$s.",
+				"Fahre die S störungsfrei nach %2$s.",
+				"Bring die S3 von %s nach %s."
+			],
+			"stations": [ "NAD", "NADW", "NLHM", "NWKH", "NFTM", "NFT", "NN" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "NAD", "NADW", "NLHM", "NWKH", "NFTM", "NFT", "NN" ]
+		},
+		{
+			"name": "RB 21 von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn der Linie 21 von %s nach %s.",
+				"Bring die Fahrgäste in der RB 21 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s.",
+				"Bring die RB 21 von %s nach %s."
+			],
+			"stations": [ "NN", "NHER", "NHEN", "NKAL", "NGRG", "NESU", "NFH", "NRLB", "NIDF", "NWEO", "NGFG" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "NN", "NHER", "NHEN", "NKAL", "NGRG", "NESU", "NFH", "NRLB", "NIDF", "NWEO", "NGFG" ]
+		},
+		{
+			"name": "ag RB22 von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn der Linie 22 von %s nach %s.",
+				"Bring die Fahrgäste in der RB 22 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s.",
+				"Bring die ag RB22 von %s nach %s."
+			],
+			"stations": [ "NFO", "NPI", "NGG", "NWIE", "NKIR", "NPRE", "NEBM" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "NFO", "NPI", "NGG", "NWIE", "NKIR", "NPRE", "NEBM" ]
+		},
+		{
+			"name": "RB 91 von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn der Linie 91 von %s nach %s.",
+				"Bring die Fahrgäste in der RB 91 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s.",
+				"Bring die RB 91 von %s nach %s."
+			],
+			"stations": [ "NWIN", "NNDU", "NPET", "NWK" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "NWIN", "NNDU", "NPET", "NWK" ]
+		},
+		{
+			"name": "Arverio Bayern RE 80 von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress der Linie 80 von %s nach %s.",
+				"Bring die Fahrgäste in dem RE 80 pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s.",
+				"Bring den Arverio Bayern RE 80 von %s nach %s."
+			],
+			"stations": [ "MH", "MP", "MMR", "MSAF", "MKIS", "MA", "MMEI", "MDT", "MOTW", "MTL", "NGUN", "NMS", "NTF", "NAN", "NON", "NBUW", "NSTN", "NU", "NMT", "NOF", "NGOD", "NWN", "NWH" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "MH", "MP", "MMR", "MSAF", "MKIS", "MA", "MMEI", "MDT", "MOTW", "MTL", "NGUN", "NMS", "NTF", "NAN", "NON", "NBUW", "NSTN", "NU", "NMT", "NOF", "NGOD", "NWN", "NWH" ]
+		},
+		{
+			"name": "BRB RB14 von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn der Linie 14 von %s nach %s.",
+				"Bring die Fahrgäste in der RB 14 pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s.",
+				"Bring die BRB RB14 von %s nach %s."
+			],
+			"stations": [ "MEST", "MRH", "MWAS", "MEB", "MAD", "MEI", "MGH", "MIA", "MIH" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "MEST", "MRH", "MWAS", "MEB", "MAD", "MEI", "MGH", "MIA", "MIH" ]
+		},
+		{
 			"name": "Schwerer Containerzug von %s nach %s",
 			"descriptions": [
 				"Befördere die Waren pünktlich durch die iberische Halbinsel.",
