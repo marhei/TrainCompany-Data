@@ -72604,6 +72604,63 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 50,
+			"twistingFactor": 0,
+			"name": "Schwarzatalbahn",
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "URTB",
+					"end": "UBET",
+					"length": 4,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "UBET",
+					"end": "USCG",
+					"length": 2,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "USCG",
+					"end": "USDF",
+					"length": 3,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "USDF",
+					"end": "UOFM",
+					"length": 3,
+					"twistingFactor": 0.33,
+					"maxSpeed": 40
+				},
+				{
+					"start": "UOFM",
+					"end": "UMEL",
+					"length": 1,
+					"twistingFactor": 0.3,
+					"maxSpeed": 40
+				},
+				{
+					"start": "UMEL",
+					"end": "UMEU",
+					"length": 5,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "UMEU",
+					"end": "UKH",
+					"length": 2,
+					"twistingFactor": 0.22,
+					"maxSpeed": 60
+				}
+			]
+		},
+		{
 			"name": "Schwarzenberg (Erzgebirge) - Karlovy Vary",
 			"electrified": false,
 			"group": 1,
