@@ -47946,6 +47946,65 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NNE",
+					"end": "NTG",
+					"length": 5,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "NTG",
+					"end": "NH",
+					"length": 5,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "NH",
+					"end": "NRSL",
+					"length": 3,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "NRSL",
+					"end": "NBI",
+					"length": 3,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "NBI",
+					"end": "NBY",
+					"length": 4,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "NBY",
+					"end": "NSOK",
+					"length": 8,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "NSOK",
+					"end": "NSYB",
+					"length": 4,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "NSYB",
+					"end": "NKL",
+					"length": 6,
+					"twistingFactor": 0.18
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 0,
 			"neededEquipments": [
@@ -51096,6 +51155,36 @@
 					"end": "BHW",
 					"length": 6,
 					"twistingFactor": 0.1
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 110,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NBY",
+					"end": "NNHC",
+					"length": 8,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "NNHC",
+					"end": "NCRE",
+					"length": 4,
+					"twistingFactor": 0.05,
+					"maxSpeed": 100
+				},
+				{
+					"start": "NCRE",
+					"end": "NSAW",
+					"length": 5,
+					"twistingFactor": 0.27
 				}
 			]
 		},
