@@ -23,7 +23,7 @@
 				},
 				{
 					"stations": [ "AA", "AH", "BSPD", "BL", "LW", "LL", "UE P", "NBA", "NER", "NN", "MH" ],
-					"pathSuggestion": [ "AA", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LBT", "LL", "LGOS", "LPLN", "UE P", "NED", "NBA", "NFO", "NER", "NF", "NN", "MIH", "MDA", "MH" ]
+					"pathSuggestion": [ "AA", "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LBT", "LL", "LGOS", "LPLN", "UE P", "NESE", "NWBF", "NUL", "NBA", "NFO", "NER", "NF", "NN", "MIH", "MDA", "MH" ]
 				},
 				{
 					"stations": [ "XSIO", "XSSP", "XSTH", "XSBE", "XSOL", "XSB", "RB", "RF", "RO", "RK", "RM", "FF", "FH", "FFU", "FKW", "HG", "HH", "HWOB", "BL", "BHF" ],
@@ -43,7 +43,7 @@
 				},
 				{
 					"stations": [ "AH", "BL", "LBT", "LH", "UE P", "NBA", "NN", "MIH", "MH" ],
-					"pathSuggestion": [ "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LBT", "LH", "LPLN", "UE P", "NED", "NBA", "NFO", "NF", "NN", "MIH", "MDA", "MH" ]
+					"pathSuggestion": [ "AH", "ABCH", "WHL", "WL", "WW", "BFKS", "BSPD", "BL", "BJUE", "LW", "LBT", "LH", "LPLN", "UE P", "NESE", "NWBF", "NUL", "NBA", "NFO", "NF", "NN", "MIH", "MDA", "MH" ]
 				}
 			],
 			"neededCapacity": [
@@ -71,7 +71,7 @@
 				},
 				{
 					"stations": [ "MH", "NN", "UE P", "LH", "BL" ],
-					"pathSuggestion": [ "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NED", "UE P", "LPLN", "LH", "LBT", "LW", "BJUE", "BL" ]
+					"pathSuggestion": [ "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NUL", "NWBF", "NESE", "UE P", "LPLN", "LH", "LBT", "LW", "BJUE", "BL" ]
 				},
 				{
 					"stations": [ "BL", "BSPD", "KK", "KB" ],
@@ -2043,7 +2043,7 @@
 				"Bringe die Eröffnungsgäste störungsfrei über die neue VDE8."
 			],
 			"stations": [ "NN", "UE P", "LL" ],
-			"pathSuggestion": [ "NN", "NF", "NER", "NFO", "NBA", "NED", "UE P", "LPLN", "LGOS", "LL" ],
+			"pathSuggestion": [ "NN", "NF", "NER", "NFO", "NBA", "NUL", "NWBF", "NESE", "UE P", "LPLN", "LGOS", "LL" ],
 			"neededCapacity": [
 				{ "name": "passengers" }
 			]
@@ -5928,7 +5928,7 @@
 				},
 				{
 					"stations": [ "RRL", "BOD" ],
-					"pathSuggestion": [ "RRL", "RO", "RAP", "RRA", "RK", "RBR", "RH", "RMF", "FD", "FBA", "NAH", "NLO", "NRB", "NWH", "NRTD", "NS", "NBA", "NED", "UE P", "LPLN", "LGOS", "LL", "LBOR", "DR", "BEW", "BDKO", "BC", "BLN", "BOD" ]
+					"pathSuggestion": [ "RRL", "RO", "RAP", "RRA", "RK", "RBR", "RH", "RMF", "FD", "FBA", "NAH", "NLO", "NRB", "NWH", "NRTD", "NS", "NBA", "NUL", "NWBF", "NESE", "UE P", "LPLN", "LGOS", "LL", "LBOR", "DR", "BEW", "BDKO", "BC", "BLN", "BOD" ]
 				},
 				{
 					"stations": [ "RRL", "XFMVC" ],
@@ -6054,11 +6054,11 @@
 				},
 				{
 					"stations": [ "MFB", "WF" ],
-					"pathSuggestion": [ "MFB", "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NED", "NLF", "NHM", "US", "UGW", "UGH", "LL", "LGOS", "LH", "LBT", "LW", "BJUE", "BL", "WF" ]
+					"pathSuggestion": [ "MFB", "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NUL", "NLF", "NHM", "US", "UGW", "UGH", "LL", "LGOS", "LH", "LBT", "LW", "BJUE", "BL", "WF" ]
 				},
 				{
 					"stations": [ "MFB", "BFUW" ],
-					"pathSuggestion": [ "MFB", "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NED", "NLF", "NHM", "US", "UGW", "UGH", "LL", "LGOS", "LH", "LBT", "LW", "BJUE", "BL", "BFUW" ]
+					"pathSuggestion": [ "MFB", "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NUL", "NLF", "NHM", "US", "UGW", "UGH", "LL", "LGOS", "LH", "LBT", "LW", "BJUE", "BL", "BFUW" ]
 				},
 				{
 					"stations": [ "WF", "BFUW" ],
@@ -6142,7 +6142,7 @@
 				},
 				{
 					"stations": [ "XASA", "US" ],
-					"pathSuggestion": [ "XASA", "XAWL", "MRO", "MGB", "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NED", "NLF", "NHM", "US" ]
+					"pathSuggestion": [ "XASA", "XAWL", "MRO", "MGB", "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NUL", "NLF", "NHM", "US" ]
 				},
 				{
 					"stations": [ "WW", "LW" ],
@@ -6560,7 +6560,7 @@
 				},
 				{
 					"stations": [ "TFFL", "BFBI" ],
-					"pathSuggestion": [ "TFFL", "TAU", "TBI", "TU", "MGZB", "MDT", "MTL", "NN", "NF", "NFO", "NBA", "NED", "UE P", "LPLN", "LH", "LBT", "LW", "BJUE", "BL", "BFBI" ]
+					"pathSuggestion": [ "TFFL", "TAU", "TBI", "TU", "MGZB", "MDT", "MTL", "NN", "NF", "NFO", "NBA", "NUL", "NWBF", "NESE", "UE P", "LPLN", "LH", "LBT", "LW", "BJUE", "BL", "BFBI" ]
 				}
 			],
 			"neededCapacity": [
@@ -10951,7 +10951,7 @@
 			"objects": [
 				{
 					"stations": [ "RK", "TPH", "TM", "TV", "TS", "TSG", "TA", "TEL", "TC", "NAN", "NN", "NER", "NBA", "NLF", "NK", "US", "UGW", "UNM", "LL" ],
-					"pathSuggestion": [ "RK", "TPH", "TM", "TV", "TS", "TWN", "TSF", "TSG", "TA", "TEL", "TJZ", "TC", "NSNE", "NAN", "NWK", "NN", "NF", "NER", "NFO", "NBA", "NED", "NLF", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
+					"pathSuggestion": [ "RK", "TPH", "TM", "TV", "TS", "TWN", "TSF", "TSG", "TA", "TEL", "TJZ", "TC", "NSNE", "NAN", "NWK", "NN", "NF", "NER", "NFO", "NBA", "NUL", "NLF", "NHM", "NK", "US", "UR", "UGW", "UPF", "UGH", "UKO", "UNM", "LL" ]
 				}
 			]
 		},
@@ -10971,7 +10971,7 @@
 				},
 				{
 					"stations": [ "MGP", "MWH", "MH", "NN", "NF", "NBA", "US", "UNM", "LL", "LH", "LM", "LS", "WW" ],
-					"pathSuggestion": [ "MGP", "MMU", "MWH", "MTZ", "MWKR", "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NED", "NLF", "NHM", "US", "UGW", "UGH", "UNM", "LL", "LGOS", "LH", "LM", "LS", "WW" ]
+					"pathSuggestion": [ "MGP", "MMU", "MWH", "MTZ", "MWKR", "MH", "MDA", "MIH", "NN", "NF", "NFO", "NBA", "NUL", "NLF", "NHM", "US", "UGW", "UGH", "UNM", "LL", "LGOS", "LH", "LM", "LS", "WW" ]
 				},
 				{
 					"stations": [ "BHF", "BL", "BSPD", "HWOB", "HH", "EPD", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK", "KDN", "KA" ],
@@ -12681,7 +12681,7 @@
 			"objects": [
 				{
 					"stations": [ "TKH", "WSR" ],
-					"pathSuggestion": [ "TKH", "TLU", "TMB", "TB", "TSHT", "TC", "NAN", "NWK", "NN", "NF", "NBA", "NED", "NLF", "NHM", "US", "UGW", "UGH", "LL", "LBT", "LW", "BJUE", "BL", "WNT", "WN", "WSR" ]
+					"pathSuggestion": [ "TKH", "TLU", "TMB", "TB", "TSHT", "TC", "NAN", "NWK", "NN", "NF", "NBA", "NUL", "NLF", "NHM", "US", "UGW", "UGH", "LL", "LBT", "LW", "BJUE", "BL", "WNT", "WN", "WSR" ]
 				},
 				{
 					"stations": [ "UNM", "RSI" ],

@@ -11595,9 +11595,54 @@
 			],
 			"objects": [
 				{
-					"start": "UE P",
-					"end": "NED",
-					"length": 110
+					"start": "NUL",
+					"end": "NWBF",
+					"length": 18,
+					"twistingFactor": 0.15,
+					"maxSpeed": 280
+				},
+				{
+					"start": "NWBF",
+					"end": "NRTB",
+					"length": 6,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "NRTB",
+					"end": "NESE",
+					"length": 2,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "NESE",
+					"end": "UTHE",
+					"length": 13,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "UTHE",
+					"end": "UMA",
+					"length": 14,
+					"twistingFactor": 0.08
+				},
+				{
+					"start": "UMA",
+					"end": "UIW",
+					"length": 16,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "UIW",
+					"end": "UEL",
+					"length": 20,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "UEL",
+					"end": "UE P",
+					"length": 16,
+					"twistingFactor": 0.39,
+					"maxSpeed": 280
 				},
 				{
 					"start": "UE P",
@@ -41557,15 +41602,50 @@
 			"objects": [
 				{
 					"start": "NBA",
+					"end": "NHAH",
+					"length": 3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NHAH",
+					"end": "NBG",
+					"length": 3,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NBG",
+					"end": "NEG",
+					"length": 4,
+					"twistingFactor": 0.1,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NEG",
+					"end": "NZA",
+					"length": 2,
+					"twistingFactor": 0.04,
+					"maxSpeed": 160
+				},
+				{
+					"start": "NZA",
+					"end": "NUL",
+					"length": 3,
+					"twistingFactor": 0.12,
+					"maxSpeed": 230
+				},
+				{
+					"start": "NUL",
 					"end": "NED",
-					"length": 20,
+					"length": 2,
+					"twistingFactor": 0.01,
 					"maxSpeed": 160
 				},
 				{
 					"start": "NED",
 					"end": "NSFN",
-					"maxSpeed": 160,
-					"length": 5
+					"length": 5,
+					"twistingFactor": 0.14,
+					"maxSpeed": 160
 				},
 				{
 					"start": "NSFN",
