@@ -1661,11 +1661,84 @@
 			],
 			"stations": [ "WBI", "WBG", "WSR", "WGW", "WZS", "WAK", "WP", "WPL", "WA", "WE", "BL", "LW", "LL", "UE P", "NC", "NBA", "NER", "NN", "MIH", "MH" ],
 			"neededCapacity": [
-				{ "name": "passengers" }
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
 			],
 			"group": 1,
 			"service": 0,
 			"pathSuggestion": [ "WBI", "WBG", "WSR", "WGW", "WZS", "WAK", "WP", "WPL", "WA", "WE", "BL", "BJUE", "LW", "LBT", "LL", "LGOS", "LPLN", "UE P", "NESE", "NHZW", "NC", "NCR", "NWBF", "NUL", "NBA", "NFO", "NER", "NF", "NN", "MIH", "MDA", "MH" ]
+		},
+		{
+			"name": "ICE von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity-Express von %s nach %s.",
+				"Bring die Fahrgäste im ICE pünktlich nach %2$s.",
+				"Fahre den ICE störungsfrei nach %2$s.",
+				"Bringe den Intercity-Express pünktlich über die SFS von %s nach %s"
+			],
+			"stations": [ "AA", "AH", "WL", "WW", "BSPD", "BL", "LBT", "LH", "UE P", "NC", "NBA", "NER", "NN", "MTL", "MDT", "MA", "MP", "MH" ],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1,
+			"service": 0,
+			"pathSuggestion": [ "AA", "AH", "ABCH", "WHL", "WL", "WW", "LS", "BSPD", "BL", "BJUE", "LW", "LBT", "LH", "LPLN", "UE P", "NESE", "NHZW", "NC", "NCR", "NWBF", "NUL", "NBA", "NFO", "NER", "NF", "NN", "MTL", "MDT", "MA", "MMR", "MP", "MH" ]
+		},
+		{
+			"name": "RE von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress von %s nach %s.",
+				"Bring die Fahrgäste im RE pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"stations": [ "NER", "NFO", "NBA", "NC", "NCN", "NDOE", "NRTL", "NRTM", "NMOE", "NNU", "USO" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"pathSuggestion": [ "NER", "NFO", "NBA", "NUL", "NWBF", "NCR", "NC", "NCN", "NDOE", "NHZW", "NRTL", "NRTM", "NMOE", "NNU", "USO" ]
+		},
+		{
+			"name": "ICE von %s nach %s",
+			"descriptions": [
+				"Bringe den Intercity-Express von %s nach %s.",
+				"Bring die Fahrgäste im ICE pünktlich nach %2$s.",
+				"Fahre den ICE störungsfrei nach %2$s.",
+				"Bringe den Intercity-Express pünktlich über die SFS von %s nach %s"
+			],
+			"neededCapacity": [
+				{ "name": "passengers" },
+				{ "name": "bistroseats" }
+			],
+			"group": 1,
+			"service": 0,
+			"objects": [
+				{
+					"stations": [ "BL", "LH", "UE P", "NC", "NN", "MDT", "MA", "MP", "MH" ],
+					"pathSuggestion": [ "BL", "BJUE", "LW", "LBT", "LH", "LPLN", "UE P", "NESE", "NHZW", "NC", "NCR", "NWBF", "NUL", "NBA", "NFO", "NF", "NN", "MTL", "MDT", "MA", "MMR", "MP", "MH" ]
+				},
+				{
+					"stations": [ "BL", "LH", "UE P", "NC", "NN", "NRH", "NPL", "NPA", "XAWE", "XAL", "XAP", "XAWW" ],
+					"pathSuggestion": [ "BL", "BJUE", "LW", "LBT", "LH", "LPLN", "UE P", "NESE", "NHZW", "NC", "NCR", "NWBF", "NUL", "NBA", "NFO", "NF", "NN", "NFT", "NRH", "NOT", "NPL", "NPA", "XASH", "🇦🇹Neu H1", "XAWE", "XAL", "XAP", "XAWW" ]
+				}
+			]
+		},
+		{
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "UERN", "UOLA", "ULA", "USTN", "USTA", "UBHA", "UHUE", "USON", "USOO", "USO", "USOW", "UMHO", "UMGH", "UEFT", "USEL", "URAU", "USKM", "USCK", "UB", "UED", "UHRS", "UVF", "UHN", "URR", "UTH", "UVA", "UGM", "UM", "UWD", "UWS", "USWL", "UWH", "UBRT", "UIM", "USZ", "UORO", "UEH", "UML", "UF", "UEI" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "UERN", "UOLA", "ULA", "USTN", "USTA", "UBHA", "UHUE", "USON", "USOO", "USO", "USOW", "UMHO", "UMGH", "UEFT", "USEL", "URAU", "USKM", "USCK", "UB", "UED", "UHRS", "UVF", "UHN", "URR", "UTH", "UVA", "UGM", "UM", "UWD", "UWS", "USWL", "UWH", "UBRT", "UIM", "USZ", "UORO", "UEH", "UML", "UF", "UEI" ]
 		},
 		{
 			"name": "Schwerer Containerzug von %s nach %s",

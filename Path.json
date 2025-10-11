@@ -9661,6 +9661,169 @@
 			]
 		},
 		{
+			"electrified": false,
+			"neededEquipments": [
+				"DE"
+			],
+			"group": 0,
+			"objects": [
+				{
+					"start": "USO",
+					"end": "USOW",
+					"group": 1,
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.39,
+					"name": "Hinterlandbahn"
+				},
+				{
+					"start": "USOW",
+					"end": "UMHO",
+					"group": 1,
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.27,
+					"name": "Hinterlandbahn"
+				},
+				{
+					"start": "UMHO",
+					"end": "UMGH",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.57,
+					"name": "Hinterlandbahn"
+				},
+				{
+					"start": "UMGH",
+					"end": "UEFT",
+					"group": 1,
+					"length": 3,
+					"maxSpeed": 40,
+					"twistingFactor": 0.23,
+					"name": "Hinterlandbahn"
+				},
+				{
+					"start": "UEFT",
+					"end": "USEL",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.12,
+					"name": "Hinterlandbahn"
+				},
+				{
+					"start": "USEL",
+					"end": "URAU",
+					"group": 1,
+					"length": 4,
+					"maxSpeed": 40,
+					"twistingFactor": 0.38,
+					"name": "Hinterlandbahn"
+				},
+				{
+					"start": "URAU",
+					"end": "USKM",
+					"group": 1,
+					"length": 4,
+					"maxSpeed": 40,
+					"twistingFactor": 0.39,
+					"name": "Hinterlandbahn"
+				},
+				{
+					"start": "USKM",
+					"end": "USCK",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.01,
+					"name": "Hinterlandbahn"
+				},
+				{
+					"start": "USCK",
+					"end": "UB",
+					"group": 1,
+					"length": 1,
+					"maxSpeed": 40,
+					"twistingFactor": 0.01,
+					"name": "Hinterlandbahn"
+				},
+				{
+					"start": "UB",
+					"end": "UED",
+					"group": 1,
+					"length": 8,
+					"maxSpeed": 90,
+					"twistingFactor": 0.45,
+					"name": "Hinterlandbahn"
+				},
+				{
+					"start": "UED",
+					"end": "UHRS",
+					"length": 3,
+					"maxSpeed": 90,
+					"name": "Werrabahn",
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "UHRS",
+					"end": "UVF",
+					"name": "Werrabahn",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.3
+				},
+				{
+					"start": "UVF",
+					"end": "UHN",
+					"name": "Werrabahn",
+					"length": 7,
+					"maxSpeed": 80,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "UHN",
+					"end": "URR",
+					"name": "Werrabahn",
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "URR",
+					"end": "UTH",
+					"name": "Werrabahn",
+					"length": 5,
+					"maxSpeed": 100,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "UTH",
+					"end": "UVA",
+					"name": "Werrabahn",
+					"length": 6,
+					"maxSpeed": 90,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "UVA",
+					"end": "UGM",
+					"name": "Werrabahn",
+					"length": 6,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "UGM",
+					"end": "UM",
+					"name": "Werrabahn",
+					"length": 6,
+					"maxSpeed": 110,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
 			"maxSpeed": 160,
 			"twistingFactor": 0.2,
 			"objects": [
@@ -17124,32 +17287,6 @@
 			]
 		},
 		{
-			"group": 1,
-			"name": "Werrabahn",
-			"maxSpeed": 100,
-			"electrified": false,
-			"objects": [
-				{
-					"start": "UM",
-					"end": "UWH",
-					"twistingFactor": 0.25,
-					"length": 20
-				},
-				{
-					"start": "UWH",
-					"end": "USZ",
-					"twistingFactor": 0.35,
-					"length": 15
-				},
-				{
-					"start": "USZ",
-					"end": "UEI",
-					"twistingFactor": 0.25,
-					"length": 27
-				}
-			]
-		},
-		{
 			"electrified": true,
 			"group": 1,
 			"maxSpeed": 60,
@@ -21091,6 +21228,91 @@
 					"neededEquipments": [
 						"SK"
 					]
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 100,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"name": "Werrabahn",
+			"objects": [
+				{
+					"start": "UM",
+					"end": "UWD",
+					"length": 5,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "UWD",
+					"end": "UWS",
+					"length": 6,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "UWS",
+					"end": "USWL",
+					"length": 3,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "USWL",
+					"end": "UWH",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "UWH",
+					"end": "UBRT",
+					"length": 4,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "UBRT",
+					"end": "UIM",
+					"length": 5,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "UIM",
+					"end": "USZ",
+					"length": 4,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "USZ",
+					"end": "UORO",
+					"length": 6,
+					"twistingFactor": 0.56
+				},
+				{
+					"start": "UORO",
+					"end": "UEH",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "UEH",
+					"end": "UML",
+					"length": 3,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "UML",
+					"end": "UF",
+					"length": 5,
+					"twistingFactor": 0.31,
+					"maxSpeed": 90
+				},
+				{
+					"start": "UF",
+					"end": "UEI",
+					"length": 8,
+					"twistingFactor": 0.3
 				}
 			]
 		},
