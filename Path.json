@@ -25844,7 +25844,7 @@
 			],
 			"objects": [
 				{
-					"start": "MWKR",
+					"start": "MP",
 					"end": "MNA",
 					"length": 2,
 					"twistingFactor": 0.18
@@ -31610,12 +31610,13 @@
 			"objects": [
 				{
 					"start": "MH",
-					"end": "MWKR",
+					"end": "MP",
 					"length": 8,
-					"twistingFactor": 0.3
+					"twistingFactor": 0.3,
+					"maxSpeed": 120
 				},
 				{
-					"start": "MWKR",
+					"start": "MP",
 					"end": "MLCH",
 					"group": 0,
 					"length": 3,
@@ -56059,6 +56060,29 @@
 			]
 		},
 		{
+			"electrified": true,
+			"maxSpeed": 100,
+			"twistingFactor": 0,
+			"group": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "NWBF",
+					"end": "NCR",
+					"length": 3,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "NHZW",
+					"end": "NESE",
+					"length": 1,
+					"twistingFactor": 0.3
+				}
+			]
+		},
+		{
 			"name": "SŽDC 300 Brno-Přerov",
 			"group": 0,
 			"electrified": true,
@@ -65971,9 +65995,9 @@
 			"twistingFactor": 0.1,
 			"objects": [
 				{
-					"start": "MH",
+					"start": "MP",
 					"end": "MLW",
-					"length": 9,
+					"length": 2,
 					"maxSpeed": 130
 				},
 				{
@@ -65992,7 +66016,7 @@
 					"start": "MGRZ",
 					"end": "MOL",
 					"length": 3,
-					"maxSpeed": 130
+					"maxSpeed": 160
 				},
 				{
 					"start": "MOL",
@@ -66289,9 +66313,9 @@
 			"twistingFactor": 0.1,
 			"objects": [
 				{
-					"start": "MH",
+					"start": "MP",
 					"end": "MMAU",
-					"length": 10,
+					"length": 4,
 					"maxSpeed": 120
 				},
 				{
