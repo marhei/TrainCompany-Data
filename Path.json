@@ -13909,49 +13909,6 @@
 			]
 		},
 		{
-			"electrified": false,
-			"maxSpeed": 80,
-			"twistingFactor": 0.15,
-			"objects": [
-				{
-					"start": "MTS",
-					"end": "MMTZ",
-					"group": 1,
-					"length": 8
-				},
-				{
-					"start": "MMTZ",
-					"end": "MATM",
-					"group": 1,
-					"length": 8
-				},
-				{
-					"start": "MATM",
-					"end": "MTCH",
-					"group": 1,
-					"length": 9
-				},
-				{
-					"start": "MTCH",
-					"end": "MGA",
-					"group": 1,
-					"length": 6
-				},
-				{
-					"start": "MGA",
-					"end": "MTLG",
-					"group": 0,
-					"length": 9
-				},
-				{
-					"start": "MTLG",
-					"end": "MMF",
-					"group": 0,
-					"length": 7
-				}
-			]
-		},
-		{
 			"name": "Main-Neckar-Bahn",
 			"twistingFactor": 0.1,
 			"maxSpeed": 160,
@@ -37716,6 +37673,84 @@
 					"start": "🇳🇱Sdm",
 					"end": "XNRC",
 					"length": 4
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 80,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MGA",
+					"end": "MWSM",
+					"length": 2,
+					"twistingFactor": 0.05,
+					"maxSpeed": 60
+				},
+				{
+					"start": "MWSM",
+					"end": "MTCH",
+					"length": 3,
+					"twistingFactor": 0.12,
+					"maxSpeed": 60
+				},
+				{
+					"start": "MTCH",
+					"end": "MSCA",
+					"length": 2,
+					"twistingFactor": 0.29,
+					"maxSpeed": 60
+				},
+				{
+					"start": "MSCA",
+					"end": "MTSB",
+					"length": 4,
+					"twistingFactor": 0.01,
+					"maxSpeed": 60
+				},
+				{
+					"start": "MTSB",
+					"end": "MATM",
+					"length": 3,
+					"twistingFactor": 0.14,
+					"maxSpeed": 60
+				},
+				{
+					"start": "MATM",
+					"end": "MSTN",
+					"length": 2,
+					"twistingFactor": 0.29,
+					"maxSpeed": 60
+				},
+				{
+					"start": "MSTN",
+					"end": "MHPD",
+					"length": 2,
+					"twistingFactor": 0.11,
+					"maxSpeed": 60
+				},
+				{
+					"start": "MHPD",
+					"end": "MMTZ",
+					"length": 3,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "MMTZ",
+					"end": "MTSK",
+					"length": 7,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MTSK",
+					"end": "MTS",
+					"length": 1,
+					"twistingFactor": 0.8
 				}
 			]
 		},
@@ -66750,6 +66785,62 @@
 					"start": "MSMN",
 					"end": "MBU",
 					"length": 16
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 120,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MMF",
+					"end": "MTLG",
+					"length": 7
+				},
+				{
+					"start": "MTLG",
+					"end": "MGA",
+					"length": 9
+				},
+				{
+					"start": "MGA",
+					"end": "MKW",
+					"length": 7,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "MKW",
+					"end": "MWSL",
+					"length": 10
+				},
+				{
+					"start": "MWSL",
+					"end": "MFDF",
+					"length": 6,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "MFDF",
+					"end": "MKAG",
+					"length": 4,
+					"twistingFactor": 0.03
+				},
+				{
+					"start": "MKAG",
+					"end": "MLF",
+					"length": 7,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "MLF",
+					"end": "MFL",
+					"length": 12,
+					"twistingFactor": 0.15
 				}
 			]
 		},
