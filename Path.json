@@ -32372,6 +32372,53 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 80,
+			"twistingFactor": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "MTLG",
+					"end": "MHEI",
+					"length": 1,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "MHEI",
+					"end": "MAT",
+					"length": 5,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "MAT",
+					"end": "MKAT",
+					"length": 4,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "MKAT",
+					"end": "MGND",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "MGND",
+					"end": "MBGK",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "MBGK",
+					"end": "MBUH",
+					"length": 9,
+					"twistingFactor": 0.25
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 2,
 			"maxSpeed": 300,
