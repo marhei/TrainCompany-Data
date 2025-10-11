@@ -1741,6 +1741,74 @@
 			"pathSuggestion": [ "UERN", "UOLA", "ULA", "USTN", "USTA", "UBHA", "UHUE", "USON", "USOO", "USO", "USOW", "UMHO", "UMGH", "UEFT", "USEL", "URAU", "USKM", "USCK", "UB", "UED", "UHRS", "UVF", "UHN", "URR", "UTH", "UVA", "UGM", "UM", "UWD", "UWS", "USWL", "UWH", "UBRT", "UIM", "USZ", "UORO", "UEH", "UML", "UF", "UEI" ]
 		},
 		{
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "MMF", "MTLG", "MHEI", "MAT", "MKAT", "MGND", "MBGK", "MBUH" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "MMF", "MTLG", "MHEI", "MAT", "MKAT", "MGND", "MBGK", "MBUH" ]
+		},
+		{
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "MMF", "MTLG", "MGA", "MKW", "MWSL", "MKAG", "MLF", "MFL", "XASB" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "MMF", "MTLG", "MGA", "MKW", "MWSL", "MKAG", "MLF", "MFL", "XASB" ]
+		},
+		{
+			"name": "RB von %s nach %s",
+			"descriptions": [
+				"Bringe die Regionalbahn von %s nach %s.",
+				"Bring die Fahrgäste in der RB pünktlich nach %2$s.",
+				"Fahre die RB störungsfrei nach %2$s."
+			],
+			"stations": [ "MMH", "MNBN", "MHNS", "MPFH", "MWLB", "MBRN", "MLOH", "MHPH", "MALH", "MNRU", "MKRS", "MKRB", "MBIN", "MHFN", "MNBK", "MELZ", "MIHN", "MHWG", "MKKZ", "MWSG", "MGZB" ],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 3,
+			"pathSuggestion": [ "MMH", "MNBN", "MHNS", "MPFH", "MWLB", "MBRN", "MLOH", "MHPH", "MALH", "MNRU", "MKRS", "MKRB", "MBIN", "MHFN", "MNBK", "MELZ", "MIHN", "MHWG", "MKKZ", "MWSG", "MGZB" ]
+		},
+		{
+			"name": "RE von %s nach %s",
+			"descriptions": [
+				"Bringe den Regionalexpress von %s nach %s.",
+				"Bring die Fahrgäste im RE pünktlich nach %2$s.",
+				"Fahre den RE störungsfrei nach %2$s."
+			],
+			"neededCapacity": [
+				{ "name": "passengers" }
+			],
+			"group": 1,
+			"service": 2,
+			"objects": [
+				{
+					"stations": [ "NN", "NHR", "NHS", "NEW", "NNS", "NSR", "NAM", "NSCH", "NMXH", "NRGF", "NRH" ],
+					"pathSuggestion": [ "NN", "NHR", "NPOM", "NHS", "NEW", "NNS", "NSR", "NAM", "NSCH", "NMXH", "NRGF", "NRH" ]
+				},
+				{
+					"pathSuggestion": [ "NN", "NHR", "NPOM", "NHS", "NEW", "NNS", "NVK", "NFRE", "NWHR", "NWDO", "NALW", "NNW" ],
+					"stations": [ "NN", "NHR", "NHS", "NEW", "NNS", "NVK", "NFRE", "NWHR", "NWDO", "NALW", "NNW" ]
+				}
+			]
+		},
+		{
 			"name": "Schwerer Containerzug von %s nach %s",
 			"descriptions": [
 				"Befördere die Waren pünktlich durch die iberische Halbinsel.",
