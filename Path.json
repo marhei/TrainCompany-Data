@@ -93479,6 +93479,34 @@
 					"length": 8
 				}
 			]
-		}
+		},
+		{
+			"name": "Hegyeshalom-Bratislava",
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "XMHY",
+					"end": "BBS",
+					"length": 3,
+
+				},
+				{
+					"start": "XMHY",
+					"end": "XPBZ",
+					"maxSpeed": 100,
+					"length": 8
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "XYBZ",
+					"end": "XYB",
+					"maxSpeed": 60,
+					"length": 2
+					"twistingFactor": 0.05
+				}
+			]
+		},
 	]
 }
