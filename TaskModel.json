@@ -14491,6 +14491,23 @@
 			"neededCapacity": [
 				{ "name": "containers", "value": 41 }
 			]
+		},
+		{
+			"group": 0,
+			"name": "Conti von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre Containerzug von %s nach %s"
+			],
+			"objects": [
+				{
+					"stations": [ "XZKO", "XYB", "🇨🇿33654" ],
+					"pathSuggestion": [ "XZKO", "XZPN", "XZDV", "XZPV", "XZL", "XZZM", "XZCE", "XZPG", "XZO", "XZHO", "XMZV", "🇭🇺O93800925", "XMHY", "XYB", "XYDN", "XYKU", "XTBE", "XTBR", "XTPR", "XTHM", "🇨🇿33654" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 41 }
+			]
 		}
 	]
 }
