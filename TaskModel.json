@@ -14458,6 +14458,31 @@
 			"neededCapacity": [
 				{ "name": "containers", "value": 45 }
 			]
+		},
+		{
+			"group": 0,
+			"name": "Redbullzug von %s nach %s",
+			"service": 11,
+			"descriptions": [
+				"Fahre Dosen zwischen Bludenz und der Nordsee"
+			],
+			"objects": [
+				{
+					"stations": [ "XABL", "HBL" ],
+					"pathSuggestion": [ "XABL", "XAFK", "XAB", "MLIR", "TAU", "TLW", "TU", "TAM", "TP", "TS", "TKH", "TLU", "TBM", "TSA", "TV", "TM", "TMW", "RBT", "RBR", "RH", "RMF", "RWE", "FD", "FF", "FG", "FTS", "FWAB", "FGTH", "FKW", "FHMD", "HEBG", "HG", "HN", "HK", "HELZ", "HH", "HWUN", "HNBG", "HV", "HB", "HBH", "HBL" ]
+				},
+				{
+					"stations": [ "XABL", "HBL" ],
+					"pathSuggestion": [ "XABL", "XAFK", "XAB", "MLIR", "TAU", "TLW", "TU", "TAM", "TP", "TS", "TKH", "TLU", "TBM", "TH", "TBF", "TO", "TL", "NWH", "NGM", "NBN", "FSTZ", "FFD", "FFU", "FB", "HEBG", "HG", "HN", "HK", "HELZ", "HH", "HWUN", "HNBG", "HV", "HB", "HBH", "HBL" ]
+				}
+				{
+					"stations": [ "XABL", "HBL" ],
+					"pathSuggestion": [ "XABL", "XAFK", "XSBU", "XSSR", "XSZB", "XSPF", "XSWW", "XSTW", "XSZH", "XSKS", "XSBA", "XSBRU", "XSB", "RB", "RML", "RMKR", "RF", "RDZ", "RRL", "RO", "RAP", "RRA", "RK", "RBR", "RH", "RMF", "RWE", "FD", "FF", "FG", "FTS", "FWAB", "FGTH", "FKW", "FHMD", "HEBG", "HG", "HN", "HK", "HELZ", "HH", "HWUN", "HNBG", "HV", "HB", "HBH", "HBL" ]
+				}
+			],
+			"neededCapacity": [
+				{ "name": "containers", "value": 41 }
+			]
 		}
 	]
 }
