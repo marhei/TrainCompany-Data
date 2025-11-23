@@ -64141,6 +64141,157 @@
 			]
 		},
 		{
+			"group": 1,
+			"neededEquipments": [
+				"DE"
+			],
+			"maxSpeed": 90,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "FFRI",
+					"end": "FBGH",
+					"length": 2,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "FBGH",
+					"end": "FRO",
+					"length": 1,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FRO",
+					"end": "FROS",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "FROS",
+					"end": "FFG",
+					"length": 7,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"DE"
+			],
+			"name": "Homburger Bahn",
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "FF",
+					"end": "FOU",
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "FOU",
+					"end": "FHO",
+					"length": 3,
+					"maxSpeed": 110,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "FHO",
+					"end": "FSG",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "FSG",
+					"end": "FFRI",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"DE"
+			],
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "FFRI",
+					"end": "FKP",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "FKP",
+					"end": "FSB",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FSB",
+					"end": "FWEH",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "FWEH",
+					"end": "FNAP",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "FNAP",
+					"end": "FUSI",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "FUSI",
+					"end": "FWL",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "FWL",
+					"end": "FHUN",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "FHUN",
+					"end": "FGR",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.41
+				},
+				{
+					"start": "FGR",
+					"end": "FHL",
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "FHL",
+					"end": "FBRD",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.34
+				}
+			]
+		},
+		{
 			"electrified": true,
 			"group": 1,
 			"neededEquipments": [
