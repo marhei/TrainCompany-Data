@@ -22241,6 +22241,82 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 80,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FVL",
+					"end": "FGRN",
+					"length": 4,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "FGRN",
+					"end": "FNIE",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FNIE",
+					"end": "FOBD",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FOBD",
+					"end": "FKIL",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FKIL",
+					"end": "FHWD",
+					"length": 6,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "FHWD",
+					"end": "FECH",
+					"length": 4,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "FECH",
+					"end": "FHTN",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FHTN",
+					"end": "FAST",
+					"length": 2,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "FAST",
+					"end": "FLIN",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FLIN",
+					"end": "FGBG",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FGBG",
+					"end": "FSTM",
+					"length": 2,
+					"twistingFactor": 0.26
+				}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Pontebbana",
 			"electrified": true,
@@ -73434,6 +73510,52 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 120,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FFG",
+					"end": "FAS",
+					"length": 5,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "FAS",
+					"end": "FHWD",
+					"length": 10,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "FHWD",
+					"end": "FOS",
+					"length": 2,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "FOS",
+					"end": "FBK",
+					"length": 3,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "FBK",
+					"end": "FHN",
+					"length": 4,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FHN",
+					"end": "FH",
+					"length": 5,
+					"twistingFactor": 0.5
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"twistingFactor": 0.2,
 			"objects": [
 				{
@@ -74253,6 +74375,71 @@
 					"end": "DABU",
 					"length": 6,
 					"maxSpeed": 60
+				}
+			]
+		},
+		{
+			"name": "Horlofftalbahn",
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 60,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FFG",
+					"end": "FDH",
+					"length": 3,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "FDH",
+					"end": "FBEI",
+					"length": 2,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FBEI",
+					"end": "FWCK",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FWCK",
+					"end": "FRHM",
+					"length": 2,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "FRHM",
+					"end": "FGGB",
+					"length": 2,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "FGGB",
+					"end": "FEZL",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FEZL",
+					"end": "FHHF",
+					"length": 5,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "FHHF",
+					"end": "FBSH",
+					"length": 3,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FBSH",
+					"end": "FND",
+					"length": 3,
+					"twistingFactor": 0.8
 				}
 			]
 		},
