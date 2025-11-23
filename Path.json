@@ -86990,6 +86990,125 @@
 			]
 		},
 		{
+			"name": "Lahn-Kinzig-Bahn",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 80,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FG",
+					"end": "FEKW",
+					"length": 1,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "FEKW",
+					"end": "FWST",
+					"length": 4,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "FWST",
+					"end": "FGA",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FGA",
+					"end": "FLI",
+					"length": 7,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "FLI",
+					"end": "FLF",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FLF",
+					"end": "FHUG",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FHUG",
+					"end": "FTH",
+					"length": 3,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FTH",
+					"end": "FOW",
+					"length": 2,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FOW",
+					"end": "FBO",
+					"length": 3,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FBO",
+					"end": "FND",
+					"length": 3,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "FND",
+					"end": "FRAN",
+					"length": 6,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FRAN",
+					"end": "FSTM",
+					"length": 3,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "FSTM",
+					"end": "FBLH",
+					"length": 3,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "FBLH",
+					"end": "FBDH",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FBDH",
+					"end": "FBDG",
+					"length": 2,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "FBDG",
+					"end": "FMGD",
+					"length": 7,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "FMGD",
+					"end": "FLIE",
+					"length": 3,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "FLIE",
+					"end": "FGEL",
+					"length": 3,
+					"twistingFactor": 0.21
+				}
+			]
+		},
+		{
 			"name": "Bahnstrecke Riga - Jelgava",
 			"neededEquipments": [
 				"LV",
