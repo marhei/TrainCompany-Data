@@ -4964,6 +4964,56 @@
 		},
 		{
 			"group": 1,
+			"name": "HLB von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre für HLB von..."
+			],
+			"objects": [
+				{
+					"stations": [ "EFP", "EOLP" ]
+				},
+				{
+					"stations": [ "FFG", "FND" ]
+				},
+				{
+					"stations": [ "FFG", "FHWD", "FH" ]
+				},
+				{
+					"stations": [ "FG", "FND", "FSTM", "FGEL" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre für Start Deutschland im Taunusnetz nach %2$s.",
+				"Sollten die iLint wieder mal Probleme machen, dann fahre ersatzweise mit Dieseltriebwagen."
+			],
+			"objects": [
+				{
+					"stations": [ "FF", "FHOE", "FKOE" ]
+				},
+				{
+					"stations": [ "FF", "FFRI", "FBRD" ]
+				},
+				{
+					"stations": [ "FFG", "FFRI" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
 			"name": "S8 von %s nach %s",
 			"service": 3,
 			"descriptions": [
@@ -6674,6 +6724,18 @@
 				{
 					"stations": [ "XABM", "XABK"],
 					"pathSuggestion": [ "XABM", "XASI", "XAAT", "XAWE", "XAL", "XAWW", "XABK" ]
+				},
+				{
+					"stations": [ "FHO", "SHO" ],
+					"pathSuggestion": [ "FHO", "FF", "FFLF", "FDG", "FBL", "RM", "RSD", "RN", "SHY", "SKL", "SLD", "SHO" ]
+				},
+				{
+					"stations": [ "KMUE", "SBMS" ],
+					"pathSuggestion": [ "KMUE", "KEU", "KB", "KRE", "KAND", "KKO", "KBOP", "FBGK", "SBKN", "SBMS" ]
+				},
+				{
+					"stations": [ "FFG", "MFDB" ],
+					"pathSuggestion": [ "FFG", "FVL", "FF", "FFLF", "FDG", "FBL", "RM", "RSAB", "RBR", "TV", "TS", "TRHZ", "TU", "MGZB", "MA", "MFDB" ]
 				}
 			],
 			"neededCapacity": [
