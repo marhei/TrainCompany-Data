@@ -26721,6 +26721,43 @@
 			]
 		},
 		{
+			"group": 1,
+			"electrified": false,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FHOE",
+					"end": "FLDB",
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "FLDB",
+					"end": "FKE",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FKE",
+					"end": "FSNH",
+					"length": 4,
+					"maxSpeed": 60,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "FSNH",
+					"end": "FKOE",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.5
+				}
+			]
+		},
+		{
 			"electrified": false,
 			"group": 0,
 			"name": "Canadian Main Line",
