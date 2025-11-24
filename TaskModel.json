@@ -4955,6 +4955,9 @@
 				},
 				{
 					"stations": [ "EBZ", "ESIE", "EKT", "EEK", "EBLB" ]
+				},
+				{
+					"stations": [ "FF", "FVL", "FFG", "FBNA", "FG", "FWR", "FDIL" ]
 				}
 			],
 			"stopsEverywhere": true,
@@ -4981,6 +4984,38 @@
 				},
 				{
 					"stations": [ "FG", "FND", "FSTM", "FGEL" ]
+				},
+				{
+					"stations": [ "FF", "FVL", "FFG", "FBNA", "FG", "FMBG", "FKIH", "FTS" ]
+				}
+			],
+			"stopsEverywhere": true,
+			"neededCapacity": [
+				{ "name": "passengers" }
+			]
+		},
+		{
+			"group": 1,
+			"name": "RB von %s nach %s",
+			"service": 2,
+			"descriptions": [
+				"Fahre diese RB-Leistung für die Kurhessenbahn."
+			],
+			"objects": [
+				{
+					"stations": [ "FKW", "FKOB" ]
+				},
+				{
+					"stations": [ "FKW", "FWAB", "FBWD" ]
+				},
+				{
+					"stations": [ "FKW", "FWAB", "FTS" ]
+				},
+				{
+					"stations": [ "FMBG", "FKOB", "EBRW" ]
+				},
+				{
+					"stations": [ "FMBG", "EEK" ]
 				}
 			],
 			"stopsEverywhere": true,
