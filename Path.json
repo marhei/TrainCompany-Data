@@ -5875,6 +5875,128 @@
 			]
 		},
 		{
+			"name": "Obere Lahntalbahn",
+			"electrified": false,
+			"group": 0,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "EEK",
+					"end": "ESCA",
+					"length": 3,
+					"maxSpeed": 50,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "ESCA",
+					"end": "ELEI",
+					"length": 2,
+					"maxSpeed": 50,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "ELEI",
+					"end": "EOBW",
+					"length": 5,
+					"maxSpeed": 70,
+					"twistingFactor": 0.34
+				},
+				{
+					"start": "EOBW",
+					"end": "EFEU",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "EFEU",
+					"end": "ELSP",
+					"length": 9,
+					"maxSpeed": 70,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "ELSP",
+					"end": "ENL",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "ENL",
+					"end": "FWA",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "FWA",
+					"end": "FBIZ",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "FBIZ",
+					"end": "FBIK",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FBIK",
+					"end": "FWUE",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "FWUE",
+					"end": "FFRD",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FFRD",
+					"end": "FBNU",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "FBNU",
+					"end": "FCLD",
+					"length": 5,
+					"maxSpeed": 70,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FCLD",
+					"end": "FSZH",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "FSZH",
+					"end": "FLSR",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FLSR",
+					"end": "FCOE",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.37
+				}
+			]
+		},
+		{
 			"group": 1,
 			"name": "Lahntalbahn",
 			"twistingFactor": 0.5,
@@ -7692,8 +7814,14 @@
 				},
 				{
 					"start": "FMBG",
+					"end": "FCOE",
+					"length": 4,
+					"maxSpeed": 140
+				},
+				{
+					"start": "FCOE",
 					"end": "FAZ",
-					"length": 10,
+					"length": 6,
 					"maxSpeed": 140
 				},
 				{
@@ -13333,6 +13461,198 @@
 		},
 		{
 			"electrified": false,
+			"name": "Oberwesterwaldbahn",
+			"neededEquipments": [
+				"DE"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "FL",
+					"end": "FST",
+					"length": 5,
+					"maxSpeed": 80,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "FST",
+					"end": "FELZ",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FELZ",
+					"end": "FNHD",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FNHD",
+					"end": "FHAD",
+					"length": 1,
+					"maxSpeed": 70,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FHAD",
+					"end": "FNIZ",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "FNIZ",
+					"end": "FFRN",
+					"length": 4,
+					"maxSpeed": 60,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "FFRN",
+					"end": "FWTH",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "FWTH",
+					"end": "FBEZ",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "FBEZ",
+					"end": "FWLM",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FWLM",
+					"end": "FWBG",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "FWBG",
+					"end": "FLAH",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "FLAH",
+					"end": "FRTN",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "FRTN",
+					"end": "FENS",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FENS",
+					"end": "FERW",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FERW",
+					"end": "FBDW",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.5
+				},
+				{
+					"start": "FBDW",
+					"end": "FUKO",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FUKO",
+					"end": "KHAC",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "KHAC",
+					"end": "KHAT",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "KHAT",
+					"end": "KING",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "KING",
+					"end": "KAK",
+					"length": 6,
+					"maxSpeed": 80,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "KAK",
+					"end": "KOE",
+					"length": 4,
+					"maxSpeed": 90,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "KOE",
+					"end": "KKLM",
+					"length": 2,
+					"maxSpeed": 90,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "KKLM",
+					"end": "KBRS",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "KBRS",
+					"end": "KHOG",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "KHOG",
+					"end": "KGEH",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "KGEH",
+					"end": "KAU",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
+			"electrified": false,
 			"group": 0,
 			"maxSpeed": 127,
 			"twistingFactor": 0.2,
@@ -14343,6 +14663,52 @@
 						"1520mm",
 						"LT"
 					]
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": false,
+			"neededEquipments": [
+				"DE"
+			],
+			"maxSpeed": 60,
+			"objects": [
+				{
+					"start": "FWAB",
+					"end": "FZE",
+					"length": 3,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "FZE",
+					"end": "FFZ",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FFZ",
+					"end": "FUNG",
+					"length": 4,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "FUNG",
+					"end": "FMAN",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FMAN",
+					"end": "FWGA",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FWGA",
+					"end": "FBWD",
+					"length": 2,
+					"twistingFactor": 0.01
 				}
 			]
 		},
@@ -21875,6 +22241,82 @@
 			]
 		},
 		{
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 80,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FVL",
+					"end": "FGRN",
+					"length": 4,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "FGRN",
+					"end": "FNIE",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FNIE",
+					"end": "FOBD",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FOBD",
+					"end": "FKIL",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FKIL",
+					"end": "FHWD",
+					"length": 6,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "FHWD",
+					"end": "FECH",
+					"length": 4,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "FECH",
+					"end": "FHTN",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FHTN",
+					"end": "FAST",
+					"length": 2,
+					"twistingFactor": 0.21
+				},
+				{
+					"start": "FAST",
+					"end": "FLIN",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FLIN",
+					"end": "FGBG",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FGBG",
+					"end": "FSTM",
+					"length": 2,
+					"twistingFactor": 0.26
+				}
+			]
+		},
+		{
 			"group": 0,
 			"name": "Pontebbana",
 			"electrified": true,
@@ -26351,6 +26793,43 @@
 					"start": "NARG",
 					"end": "NFW",
 					"length": 5
+				}
+			]
+		},
+		{
+			"group": 1,
+			"electrified": false,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FHOE",
+					"end": "FLDB",
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "FLDB",
+					"end": "FKE",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FKE",
+					"end": "FSNH",
+					"length": 4,
+					"maxSpeed": 60,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "FSNH",
+					"end": "FKOE",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.5
 				}
 			]
 		},
@@ -33700,6 +34179,47 @@
 					"start": "XNWT",
 					"end": "XNRM",
 					"length": 24
+				}
+			]
+		},
+		{
+			"electrified": false,
+			"maxSpeed": 60,
+			"group": 1,
+			"name": "Erfttalbahn",
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "KEU",
+					"end": "KSTZ",
+					"length": 4,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "KSTZ",
+					"end": "KKRW",
+					"length": 2,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "KKRW",
+					"end": "KARL",
+					"length": 2,
+					"twistingFactor": 0.06
+				},
+				{
+					"start": "KARL",
+					"end": "KIV",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "KIV",
+					"end": "KMUE",
+					"length": 2,
+					"twistingFactor": 0.05
 				}
 			]
 		},
@@ -44263,6 +44783,72 @@
 			]
 		},
 		{
+			"name": "Biggetalbahn",
+			"electrified": false,
+			"neededEquipments": [
+				"DE"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "EFP",
+					"end": "EHEG",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "EHEG",
+					"end": "EAT",
+					"length": 5,
+					"maxSpeed": 70,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "EAT",
+					"end": "EKRG",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "EKRG",
+					"end": "ELIS",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "ELIS",
+					"end": "EHOH",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "EHOH",
+					"end": "ESON",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "ESON",
+					"end": "EEHG",
+					"length": 1,
+					"maxSpeed": 80,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "EEHG",
+					"end": "EOLP",
+					"length": 3,
+					"maxSpeed": 80,
+					"twistingFactor": 0.28
+				}
+			]
+		},
+		{
 			"group": 0,
 			"objects": [
 				{
@@ -52945,6 +53531,71 @@
 			]
 		},
 		{
+			"electrified": false,
+			"neededEquipments": [
+				"DE"
+			],
+			"group": 1,
+			"objects": [
+				{
+					"start": "KSIH",
+					"end": "KWIR",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "KWIR",
+					"end": "KDEB",
+					"length": 1,
+					"maxSpeed": 60,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "KDEB",
+					"end": "FMT",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "FMT",
+					"end": "FGDH",
+					"length": 4,
+					"maxSpeed": 50,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "FGDH",
+					"end": "FGIR",
+					"length": 2,
+					"maxSpeed": 50,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FGIR",
+					"end": "FOHS",
+					"length": 4,
+					"maxSpeed": 50,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "FOHS",
+					"end": "FNIB",
+					"length": 4,
+					"maxSpeed": 50,
+					"twistingFactor": 0.4
+				},
+				{
+					"start": "FNIB",
+					"end": "FST",
+					"length": 5,
+					"maxSpeed": 50,
+					"twistingFactor": 0.08
+				}
+			]
+		},
+		{
 			"name": "Dalabanan",
 			"electrified": true,
 			"group": 1,
@@ -53763,6 +54414,89 @@
 					"end": "🇪🇪O645758693",
 					"length": 7,
 					"twistingFactor": 0.2
+				}
+			]
+		},
+		{
+			"name": "Ahrtalbahn",
+			"neededEquipments": [
+				"DE"
+			],
+			"group": 1,
+			"electrified": true,
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "KBRU",
+					"end": "KKRZ",
+					"length": 2,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KKRZ",
+					"end": "KALT",
+					"length": 2,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "KALT",
+					"end": "KMAY",
+					"length": 3,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "KMAY",
+					"end": "KREC",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "KREC",
+					"end": "KDEA",
+					"length": 2,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "KDEA",
+					"end": "KWAP",
+					"length": 3,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "KWAP",
+					"end": "KAHM",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "KAHM",
+					"end": "KAH",
+					"length": 1,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KAH",
+					"end": "KNEB",
+					"length": 3,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "KNEB",
+					"end": "KHEH",
+					"length": 3,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "KHEH",
+					"end": "KBOD",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "KBOD",
+					"end": "KRE",
+					"length": 5,
+					"twistingFactor": 0.4
 				}
 			]
 		},
@@ -58068,6 +58802,216 @@
 					"end": "XTBR",
 					"length": 5,
 					"twistingFactor": 0.38
+				}
+			]
+		},
+		{
+			"name": "Burgwaldbahn",
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [
+				"DE"
+			],
+			"maxSpeed": 60,
+			"objects": [
+				{
+					"start": "FCOE",
+					"end": "FWT",
+					"length": 8,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "FWT",
+					"end": "FSMH",
+					"length": 4,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "FSMH",
+					"end": "FMHN",
+					"length": 2,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "FMHN",
+					"end": "FERH",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FERH",
+					"end": "FWIF",
+					"length": 4,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "FWIF",
+					"end": "FBBH",
+					"length": 1,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "FBBH",
+					"end": "FFRK",
+					"length": 4,
+					"twistingFactor": 0.13
+				}
+			]
+		},
+		{
+			"name": "Untere Edertalbahn",
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [
+				"DE"
+			],
+			"maxSpeed": 60,
+			"objects": [
+				{
+					"start": "FFRK",
+					"end": "FVI",
+					"length": 6,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FVI",
+					"end": "FEDN",
+					"length": 4,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "FEDN",
+					"end": "FHZN",
+					"length": 7,
+					"twistingFactor": 0.35
+				},
+				{
+					"start": "FHZN",
+					"end": "FTHA",
+					"length": 4,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "FTHA",
+					"end": "FKBS",
+					"length": 6,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "FKBS",
+					"end": "FKOB",
+					"length": 1,
+					"twistingFactor": 0.03
+				}
+			]
+		},
+		{
+			"name": "Uplandbahn",
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [
+				"DE"
+			],
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "FKOB",
+					"end": "FUS",
+					"length": 17,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "FUS",
+					"end": "FWLN",
+					"length": 5,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "FWLN",
+					"end": "EBRW",
+					"length": 7,
+					"twistingFactor": 0.18
+				}
+			]
+		},
+		{
+			"name": "Twistetalbahn",
+			"electrified": false,
+			"group": 1,
+			"neededEquipments": [
+				"DE"
+			],
+			"maxSpeed": 80,
+			"objects": [
+				{
+					"start": "FKOB",
+					"end": "FTW",
+					"length": 12,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "FTW",
+					"end": "FMGH",
+					"length": 4,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "FMGH",
+					"end": "FAR",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "FAR",
+					"end": "FKWB",
+					"length": 6,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "FKWB",
+					"end": "FVA",
+					"length": 4,
+					"twistingFactor": 0.15
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"DE"
+			],
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 100,
+			"objects": [
+				{
+					"start": "FVA",
+					"end": "FEGN",
+					"length": 4,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "FEGN",
+					"end": "FWFH",
+					"length": 6,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "FWFH",
+					"end": "FZB",
+					"length": 12,
+					"twistingFactor": 0.31
+				},
+				{
+					"start": "FZB",
+					"end": "FWEI",
+					"length": 7,
+					"twistingFactor": 0.28
+				},
+				{
+					"start": "FWEI",
+					"end": "FKW",
+					"length": 11,
+					"twistingFactor": 0.35
 				}
 			]
 		},
@@ -62945,6 +63889,95 @@
 		},
 		{
 			"electrified": false,
+			"name": "Rothaarbahn",
+			"neededEquipments": [
+				"DE"
+			],
+			"maxSpeed": 50,
+			"group": 1,
+			"objects": [
+				{
+					"start": "EKT",
+					"end": "EFER",
+					"length": 1,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "EFER",
+					"end": "EDAB",
+					"length": 3,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "EDAB",
+					"end": "ESKA",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "ESKA",
+					"end": "EHIB",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "EHIB",
+					"end": "EVRO",
+					"length": 1,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "EVRO",
+					"end": "EVRD",
+					"length": 6,
+					"twistingFactor": 0.49
+				},
+				{
+					"start": "EVRD",
+					"end": "ELUZ",
+					"length": 3,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "ELUZ",
+					"end": "EEK",
+					"length": 6,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "EEK",
+					"end": "EBKB",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "EBKB",
+					"end": "EAWN",
+					"length": 5,
+					"twistingFactor": 0.36
+				},
+				{
+					"start": "EAWN",
+					"end": "EBGA",
+					"length": 5,
+					"twistingFactor": 0.26
+				},
+				{
+					"start": "EBGA",
+					"end": "ERMA",
+					"length": 1,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "ERMA",
+					"end": "EBLB",
+					"length": 3,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
+			"electrified": false,
 			"neededEquipments": [
 				"FR"
 			],
@@ -63104,6 +64137,157 @@
 					"length": 60,
 					"maxSpeed": 24,
 					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
+			"group": 1,
+			"neededEquipments": [
+				"DE"
+			],
+			"maxSpeed": 90,
+			"electrified": false,
+			"objects": [
+				{
+					"start": "FFRI",
+					"end": "FBGH",
+					"length": 2,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "FBGH",
+					"end": "FRO",
+					"length": 1,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FRO",
+					"end": "FROS",
+					"length": 3,
+					"twistingFactor": 0.1
+				},
+				{
+					"start": "FROS",
+					"end": "FFG",
+					"length": 7,
+					"twistingFactor": 0.39
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"DE"
+			],
+			"name": "Homburger Bahn",
+			"electrified": true,
+			"group": 0,
+			"objects": [
+				{
+					"start": "FF",
+					"end": "FOU",
+					"length": 15,
+					"maxSpeed": 120,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "FOU",
+					"end": "FHO",
+					"length": 3,
+					"maxSpeed": 110,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "FHO",
+					"end": "FSG",
+					"length": 3,
+					"maxSpeed": 90,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "FSG",
+					"end": "FFRI",
+					"length": 1,
+					"maxSpeed": 90,
+					"twistingFactor": 0.01
+				}
+			]
+		},
+		{
+			"neededEquipments": [
+				"DE"
+			],
+			"electrified": false,
+			"group": 1,
+			"objects": [
+				{
+					"start": "FFRI",
+					"end": "FKP",
+					"length": 2,
+					"maxSpeed": 70,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "FKP",
+					"end": "FSB",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FSB",
+					"end": "FWEH",
+					"length": 2,
+					"maxSpeed": 80,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "FWEH",
+					"end": "FNAP",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "FNAP",
+					"end": "FUSI",
+					"length": 4,
+					"maxSpeed": 80,
+					"twistingFactor": 0.33
+				},
+				{
+					"start": "FUSI",
+					"end": "FWL",
+					"length": 5,
+					"maxSpeed": 60,
+					"twistingFactor": 0.37
+				},
+				{
+					"start": "FWL",
+					"end": "FHUN",
+					"length": 3,
+					"maxSpeed": 60,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "FHUN",
+					"end": "FGR",
+					"length": 2,
+					"maxSpeed": 60,
+					"twistingFactor": 0.41
+				},
+				{
+					"start": "FGR",
+					"end": "FHL",
+					"length": 4,
+					"maxSpeed": 70,
+					"twistingFactor": 0.27
+				},
+				{
+					"start": "FHL",
+					"end": "FBRD",
+					"length": 3,
+					"maxSpeed": 70,
+					"twistingFactor": 0.34
 				}
 			]
 		},
@@ -72477,6 +73661,52 @@
 		{
 			"electrified": true,
 			"group": 0,
+			"maxSpeed": 120,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FFG",
+					"end": "FAS",
+					"length": 5,
+					"twistingFactor": 0.17
+				},
+				{
+					"start": "FAS",
+					"end": "FHWD",
+					"length": 10,
+					"twistingFactor": 0.2
+				},
+				{
+					"start": "FHWD",
+					"end": "FOS",
+					"length": 2,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "FOS",
+					"end": "FBK",
+					"length": 3,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "FBK",
+					"end": "FHN",
+					"length": 4,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FHN",
+					"end": "FH",
+					"length": 5,
+					"twistingFactor": 0.5
+				}
+			]
+		},
+		{
+			"electrified": true,
+			"group": 0,
 			"twistingFactor": 0.2,
 			"objects": [
 				{
@@ -72972,6 +74202,40 @@
 		},
 		{
 			"electrified": false,
+			"neededEquipments": [
+				"DE"
+			],
+			"group": 1,
+			"maxSpeed": 60,
+			"objects": [
+				{
+					"start": "EBWG",
+					"end": "EBIG",
+					"length": 6,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "EBIG",
+					"end": "ESIH",
+					"length": 11,
+					"twistingFactor": 0.16
+				},
+				{
+					"start": "ESIH",
+					"end": "ESIL",
+					"length": 4,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "ESIL",
+					"end": "EWTB",
+					"length": 5,
+					"twistingFactor": 0.24
+				}
+			]
+		},
+		{
+			"electrified": false,
 			"group": 0,
 			"maxSpeed": 127,
 			"neededEquipments": [
@@ -73262,6 +74526,71 @@
 					"end": "DABU",
 					"length": 6,
 					"maxSpeed": 60
+				}
+			]
+		},
+		{
+			"name": "Horlofftalbahn",
+			"group": 1,
+			"electrified": false,
+			"maxSpeed": 60,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FFG",
+					"end": "FDH",
+					"length": 3,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "FDH",
+					"end": "FBEI",
+					"length": 2,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FBEI",
+					"end": "FWCK",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FWCK",
+					"end": "FRHM",
+					"length": 2,
+					"twistingFactor": 0.07
+				},
+				{
+					"start": "FRHM",
+					"end": "FGGB",
+					"length": 2,
+					"twistingFactor": 0.32
+				},
+				{
+					"start": "FGGB",
+					"end": "FEZL",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FEZL",
+					"end": "FHHF",
+					"length": 5,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "FHHF",
+					"end": "FBSH",
+					"length": 3,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FBSH",
+					"end": "FND",
+					"length": 3,
+					"twistingFactor": 0.5
 				}
 			]
 		},
@@ -85999,6 +87328,125 @@
 			]
 		},
 		{
+			"name": "Lahn-Kinzig-Bahn",
+			"electrified": false,
+			"group": 0,
+			"maxSpeed": 80,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "FG",
+					"end": "FEKW",
+					"length": 1,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "FEKW",
+					"end": "FWST",
+					"length": 4,
+					"twistingFactor": 0.13
+				},
+				{
+					"start": "FWST",
+					"end": "FGA",
+					"length": 1,
+					"twistingFactor": 0.15
+				},
+				{
+					"start": "FGA",
+					"end": "FLI",
+					"length": 7,
+					"twistingFactor": 0.29
+				},
+				{
+					"start": "FLI",
+					"end": "FLF",
+					"length": 3,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FLF",
+					"end": "FHUG",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FHUG",
+					"end": "FTH",
+					"length": 3,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FTH",
+					"end": "FOW",
+					"length": 2,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FOW",
+					"end": "FBO",
+					"length": 3,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FBO",
+					"end": "FND",
+					"length": 3,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "FND",
+					"end": "FRAN",
+					"length": 6,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "FRAN",
+					"end": "FSTM",
+					"length": 3,
+					"twistingFactor": 0.12
+				},
+				{
+					"start": "FSTM",
+					"end": "FBLH",
+					"length": 3,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "FBLH",
+					"end": "FBDH",
+					"length": 2,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "FBDH",
+					"end": "FBDG",
+					"length": 2,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "FBDG",
+					"end": "FMGD",
+					"length": 7,
+					"twistingFactor": 0.23
+				},
+				{
+					"start": "FMGD",
+					"end": "FLIE",
+					"length": 3,
+					"twistingFactor": 0.25
+				},
+				{
+					"start": "FLIE",
+					"end": "FGEL",
+					"length": 3,
+					"twistingFactor": 0.21
+				}
+			]
+		},
+		{
 			"name": "Bahnstrecke Riga - Jelgava",
 			"neededEquipments": [
 				"LV",
@@ -90947,6 +92395,107 @@
 					"end": "TB",
 					"length": 5,
 					"maxSpeed": 90
+				}
+			]
+		},
+		{
+			"name": "Hellertalbahn",
+			"electrified": false,
+			"group": 1,
+			"maxSpeed": 80,
+			"neededEquipments": [
+				"DE"
+			],
+			"objects": [
+				{
+					"start": "EBZ",
+					"end": "EGNO",
+					"length": 2,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "EGNO",
+					"end": "ESAS",
+					"length": 1,
+					"twistingFactor": 0.09
+				},
+				{
+					"start": "ESAS",
+					"end": "EKSO",
+					"length": 1,
+					"twistingFactor": 0.18
+				},
+				{
+					"start": "EKSO",
+					"end": "EHF",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "EHF",
+					"end": "ESTU",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "ESTU",
+					"end": "EASE",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "EASE",
+					"end": "ENK",
+					"length": 1,
+					"twistingFactor": 0.01
+				},
+				{
+					"start": "ENK",
+					"end": "EWAL",
+					"length": 4,
+					"twistingFactor": 0.19
+				},
+				{
+					"start": "EWAL",
+					"end": "EBUR",
+					"length": 1,
+					"twistingFactor": 0.05
+				},
+				{
+					"start": "EBUR",
+					"end": "EWGD",
+					"length": 4,
+					"twistingFactor": 0.14
+				},
+				{
+					"start": "EWGD",
+					"end": "EHOZ",
+					"length": 3,
+					"twistingFactor": 0.39
+				},
+				{
+					"start": "EHOZ",
+					"end": "ENID",
+					"length": 2,
+					"twistingFactor": 0.24
+				},
+				{
+					"start": "ENID",
+					"end": "FADD",
+					"length": 4,
+					"twistingFactor": 0.22
+				},
+				{
+					"start": "FADD",
+					"end": "FHGO",
+					"length": 1,
+					"twistingFactor": 0.11
+				},
+				{
+					"start": "FHGO",
+					"end": "FHG",
+					"length": 1,
+					"twistingFactor": 0.13
 				}
 			]
 		},
