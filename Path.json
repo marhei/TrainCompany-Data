@@ -44200,7 +44200,7 @@
 			]
 		},
 		{
-			"electrified": true,
+			"electrified": false,
 			"group": 0,
 			"maxSpeed": 120,
 			"twistingFactor": 0.25,
@@ -95090,6 +95090,54 @@
 					"start": "TNAI",
 					"end": "THF",
 					"length": 8
+				}
+			]
+		},
+		{
+			"name": "Hegyeshalom-Bratislava",
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.2,
+			"objects": [
+				{
+					"start": "XMHY",
+					"end": "XYBZ",
+					"maxSpeed": 100,
+					"length": 28
+				},
+				{
+					"start": "XYBZ",
+					"end": "XYB",
+					"maxSpeed": 60,
+					"length": 18
+				}
+			]
+		},
+		{
+			"name": "Lowicz-Skierniewice",
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "XPLZ",
+					"end": "XPSW",
+					"maxSpeed": 100,
+					"length": 22
+				}
+			]
+		},
+		{
+			"name": "Csorna-Hegyeshalom",
+			"electrified": true,
+			"group": 0,
+			"twistingFactor": 0.1,
+			"objects": [
+				{
+					"start": "🇭🇺O93800925",
+					"end": "XMHY",
+					"maxSpeed": 100,
+					"length": 38
 				}
 			]
 		}
